@@ -52,7 +52,7 @@ finder:
   power: passive
   printed_take_apart: ['no']
   threaded: [not applicable]
-  sheet_material: [sheet metal or plastic]
+  sheet_material: [sheet metal]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -96,14 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push
       nut [uncertain]. Speed nuts, U- and J-nuts:…"'
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
 confirmed: []
 open_points:
 - kind: sources
@@ -329,8 +321,6 @@ Stamped spring steel has sharp edges and teeth; wear gloves when handling many a
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push nut ⚑ [uncertain]. Speed nuts, U- and J-nuts:…"
-- ⚑ Finder value `printed_take_apart` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 
 ## Sources
 

@@ -93,11 +93,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  slide_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move
-      > Slide in a straight line, or telescope"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [off_the_shelf_parts]
@@ -355,7 +351,6 @@ Moving carriages and gantries create pinch and crush points at the ends of trave
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `slide_kind` = carriage on a rail (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
 
 ## Sources
 

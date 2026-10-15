@@ -106,22 +106,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points:
 - kind: sources
@@ -393,10 +377,6 @@ Shuttle valve (OR valve); two-pressure valve (AND valve, dual-pressure valve); N
 - ⚑ Finder value `power_source` = electricity, compressed air, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = switch, set or store (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
-- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

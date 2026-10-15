@@ -47,9 +47,9 @@ finder:
   adjustable: 'no'
   removability: semi-permanent
   power: passive
-  printed_take_apart: ['no']
-  threaded: [not applicable]
-  sheet_material: [sheet metal or plastic]
+  printed_take_apart: ['no', 'yes']
+  threaded: ['no']
+  sheet_material: [sheet metal, plastic sheet]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -89,14 +89,9 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
 needs_confirming:
-  printed_take_apart:
+  threaded:
     kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
+    reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 confirmed: []
 open_points: []
 uncertain_fields: [seal, common_failures, processes, environment_limits, safety_notes, links]
@@ -316,8 +311,7 @@ Low hazard. Clips and centre pins are small enough to be a choking hazard for yo
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `printed_take_apart` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
+- ⚑ Finder value `threaded` = no (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 
 ## Sources
 

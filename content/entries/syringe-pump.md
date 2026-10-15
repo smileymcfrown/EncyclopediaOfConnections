@@ -102,22 +102,6 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points:
 - kind: content
@@ -395,10 +379,6 @@ Stepper motors: NEMA 17 or NEMA 11 (PLOS ONE), 28BYJ-48 geared stepper with driv
 - ⚑ Finder value `power_source` = electricity, liquid (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
 - ⚑ Finder value `power_loss` = keeps its last state (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
-- ⚑ Finder value `straight_drive` = screw (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = pump (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
-- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law example).
 
 ## Sources

@@ -103,10 +103,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
 confirmed: []
 open_points:
 - kind: content
@@ -354,7 +350,6 @@ PULL-OUTS: the wrong tool, a mismatched splice or the wrong wire size gives crim
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = splice (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ Research note: *Crimped butt splice*: over-crimping (SparkFun: 'almost impossible to over crimp'; Wikipedia: the squeeze must be 'not too light, nor too strong'), both recorded; whether to add solder over a crimp (Hackaday commenters disagree); twisting wires before crimping (Gardner Bender: join them first; NASA: insert them parallel, not twisted), only NASA's rule is in the entry. No data found on aluminium-rated butt splices or splices with a different wire size at each end.
 
 ## Sources

@@ -90,19 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  weld_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
-      things together > Melt them together"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  hose_join:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
-      cables, air or liquid through > Join hoses, pipes or tubes"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -324,9 +312,6 @@ BURNS: socket fusion heater faces run at about 260 °C (500 °F) (NIBCO; CPChem)
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ Finder value `weld_material` = plastic or film (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
-- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `hose_join` = fused or brazed (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Heat-fused plastic pipe*: recorded side by side: insertion depth for 20 and 25 mm pipe (NIBCO 9/16 and 5/8 in, about 14 and 16 mm; a Printables gauge 15 and 18 mm), butt-fusion cooling (PPI TR-33 30-90 s per inch of diameter; ASTM F2620 11 min per inch of wall), and socket-fusion sizes (Wikipedia typically 40-125 mm; PP-R tables start at 20 mm).
 
 ## Sources

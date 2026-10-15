@@ -99,14 +99,6 @@ needs_confirming:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: cord, rope and horn "; knots family, so set to by hand (tied or
       wrapped)'
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  knot_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Tie, splice or lash it"
 confirmed: []
 open_points: []
 uncertain_fields: [degrees_of_freedom, removability, access_needed, processes, making_tips_3d_printing, environment_limits,
@@ -344,8 +336,6 @@ Never trust a home-made knot to hold a person: climbing, rescue, swings and lift
 
 - ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: cord, rope and horn "; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `knot_use` = tie on or join (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
 
 ## Sources
 

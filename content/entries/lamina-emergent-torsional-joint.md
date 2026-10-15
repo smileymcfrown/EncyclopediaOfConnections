@@ -84,7 +84,7 @@ finder:
   tightens: [not applicable]
   tension_hold: [not applicable]
   adjusts: [not applicable]
-  spring_kind: [twist or wind]
+  spring_kind: [twist back]
   seal_use: [not applicable]
   seal_material: [not applicable]
   hose_join: [not applicable]
@@ -100,14 +100,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…model has to hold its shape (BYU CMR ''Mini Flex Chair'' instructions)
       [uncertain] (for water jet and stamping)…"'
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
 confirmed: []
 open_points: []
 uncertain_fields: [motion, reuse_cycles, tools_needed, load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -333,8 +325,6 @@ A folded LET structure stores spring energy and snaps back toward flat when rele
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
 - ⚑ Finder value `tools` = power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…model has to hold its shape (BYU CMR 'Mini Flex Chair' instructions) ⚑ [uncertain] (for water jet and stamping)…"
-- ⚑ Finder value `flex_does` = folds like a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
-- ⚑ Finder value `spring_kind` = twist or wind (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 
 ## Sources
 

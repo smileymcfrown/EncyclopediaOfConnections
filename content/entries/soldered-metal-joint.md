@@ -101,18 +101,6 @@ needs_confirming:
   electrical_band:
     kind: best guess
     reason: tagged electrical, but `load` does not start with the fixed electrical lead-in
-  weld_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
-      things together > Melt them together"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  hose_join:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
-      cables, air or liquid through > Join hoses, pipes or tubes"
 confirmed: []
 open_points:
 - kind: content
@@ -360,9 +348,6 @@ FLUX FUMES: rosin-based flux fume 'is a top cause of occupational asthma'; use f
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
-- ⚑ Finder value `weld_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
-- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `hose_join` = fused or brazed (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Soldered metal joint*: the US lead-solder ban for drinking water is dated 1974 by Wikipedia and to the 1986 amendment by the Copper Development Association, both recorded; the trade name 'killed spirits' has no opened source ([uncertain]). copper.org, blocked during the scope search, opened this time (*Copper Tube Handbook*, 2026 PDF).
 
 ## Sources

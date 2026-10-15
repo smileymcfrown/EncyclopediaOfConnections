@@ -47,7 +47,7 @@ finder:
   adjustable: 'no'
   removability: semi-permanent
   power: passive
-  printed_take_apart: ['no', 'yes']
+  printed_take_apart: ['yes']
   threaded: ['yes']
   sheet_material: [not applicable]
   carries_fluid: [not applicable]
@@ -93,14 +93,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`removability` is marked [uncertain] here: "…to stay in, but can come out: helical inserts with an extraction
       tool [uncertain], adhesive-locked E-Z LOK ins…"'
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  threaded:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two
-      things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 confirmed: []
 open_points:
 - kind: content
@@ -330,8 +322,6 @@ Brittle resin prints can crack or burst when a thread is forced into them, throw
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `removability` = semi-permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…to stay in, but can come out: helical inserts with an extraction tool ⚑ [uncertain], adhesive-locked E-Z LOK ins…"
-- ⚑ Finder value `printed_take_apart` = no, yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `threaded` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 - ⚑ Research note: *Screw-in threaded insert*: helical insert lengths (1d, 1.5d, 2d) are left out because Böllhoff's HELICOIL PDFs were blocked. CNC Kitchen found a helical insert in PETG held no better than a plain screw (120 kg against 118 kg); worth a note in the published entry.
 
 ## Sources

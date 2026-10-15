@@ -97,14 +97,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube
       end [uncertain: general advice].…"'
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
 confirmed: []
 open_points: []
 uncertain_fields: [load, removability, reuse_cycles, tools_needed, play_and_precision, materials, processes, making_tips_3d_printing,
@@ -342,8 +334,6 @@ On a bicycle, a missing or loose steerer anchor lets the headset come loose, and
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = sewing or leather tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube end ⚑ [uncertain: general advice].…"
-- ⚑ Finder value `carries_fluid` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `tightens` = parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 
 ## Sources
 

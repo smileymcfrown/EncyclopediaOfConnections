@@ -88,15 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, play_and_precision, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
@@ -335,8 +327,6 @@ Tool-operated or keyed heads keep untrained people out of electrical enclosures 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `opens_by` = twist (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `holds_for` = a person to open (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
 
 ## Sources
 

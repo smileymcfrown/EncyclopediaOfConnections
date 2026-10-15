@@ -98,10 +98,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form'
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, making_tips_3d_printing, environment_limits, safety_notes, make_it_yourself]
@@ -362,7 +358,6 @@ The main hazard is the spring or weight that drives it: if a governor fails or i
 - ⚑ Finder value `motion_in` = steady turning (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `motion_out` = pressure, heat (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
-- ⚑ Finder value `slows_by` = steady speed or level (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
 
 ## Sources
 

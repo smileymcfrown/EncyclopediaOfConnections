@@ -94,10 +94,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [processes, making_tips_3d_printing, safety_notes, common_failures]
@@ -361,7 +357,6 @@ A joint that is not fully tightened, or has worn teeth or a stripped thread, can
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `clicks_do` = hold a set position (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## Sources
 

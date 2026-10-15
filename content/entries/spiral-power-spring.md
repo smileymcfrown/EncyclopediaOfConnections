@@ -80,10 +80,10 @@ finder:
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
-  tightens: ['belt, chain or cable', parts clamped together]
+  tightens: ['strap, cord or rope']
   tension_hold: [not applicable]
   adjusts: [not applicable]
-  spring_kind: [twist or wind]
+  spring_kind: [twist back, wind up and let go]
   seal_use: [not applicable]
   seal_material: [not applicable]
   hose_join: [not applicable]
@@ -101,14 +101,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: both sides turn, but no shaft layout named
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
 confirmed: []
 open_points: []
 uncertain_fields: [adjustable, processes, making_tips_3d_printing, rules_of_thumb, environment_limits, safety_notes, related]
@@ -355,8 +347,6 @@ A wound spiral spring stores a lot of energy and can release suddenly, 'causing 
 - ⚑ Finder value `motion_in` = steady turning (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `motion_out` = steady turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named
-- ⚑ Finder value `tightens` = belt, chain or cable, parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `spring_kind` = twist or wind (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 
 ## Sources
 

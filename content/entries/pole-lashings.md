@@ -94,37 +94,13 @@ finder:
   hose_join: [not applicable]
   fluid_does: [not applicable]
   powered_does: [not applicable]
-  also_under: [control]
+  also_under: [not applicable]
   turns: [not applicable]
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: rope, twine or strin"; knots family, so set to by hand (tied or
       wrapped)'
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  knot_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Tie, splice or lash it"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
 confirmed: []
 open_points:
 - kind: content
@@ -387,12 +363,6 @@ Check any lashed structure under load before people climb or stand on it, and ne
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: rope, twine or strin"; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `carries_fluid` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `knot_use` = bind or lash (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
-- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = friction grip (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
-- ⚑ Finder value `also_under` = control (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 - ⚑ Research note: *Pole lashings*: no laboratory strength data for rope lashings was found, so `load` is [uncertain]; wrap and frapping-turn counts differ between sources and are recorded side by side. Some facts in the knot and lashing entries come from designers' notes on Printables models (PLA going brittle outdoors, bamboo shrinking, how much cord a printed netting needle holds) and are labelled as such. Wikipedia's claim that polypropylene is damaged by UV has no citation there, so the entries say only that some synthetics are damaged more easily by UV.
 
 ## Sources

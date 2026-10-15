@@ -83,11 +83,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -347,7 +343,6 @@ Meshing gears form in-running nip points that can trap fingers, hair or clothing
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `straight_drive` = long travel or pulling (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
 
 ## Sources
 

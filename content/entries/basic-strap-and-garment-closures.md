@@ -96,10 +96,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
 confirmed: []
 open_points:
 - kind: sources
@@ -368,7 +364,6 @@ Small buttons, toggles and buckle parts that come loose are a choking hazard for
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-- ⚑ Finder value `cord_use` = close or attach fabric (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
 
 ## Sources
 

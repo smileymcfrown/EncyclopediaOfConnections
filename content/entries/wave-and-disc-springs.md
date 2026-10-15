@@ -77,7 +77,7 @@ finder:
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
-  tightens: ['belt, chain or cable', parts clamped together]
+  tightens: [parts clamped together]
   tension_hold: [not applicable]
   adjusts: [not applicable]
   spring_kind: [not applicable]
@@ -88,11 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -341,7 +337,6 @@ Stored energy: a compressed disc stack can push very hard, so release it gradual
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `tightens` = belt, chain or cable, parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 
 ## Sources
 

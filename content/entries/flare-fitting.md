@@ -90,19 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  hose_join:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
-      cables, air or liquid through > Join hoses, pipes or tubes"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -320,9 +308,6 @@ SAFETY-CRITICAL SYSTEMS: brake, gas and refrigerant lines must follow their rule
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `carries_fluid` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `hose_join` = screwed (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 - ⚑ Research note: *Flare fitting*: some SAE 45° and JIC/AN 37° sizes share threads, so threads that screw together don't prove the parts match (the entry warns). Copper-nickel brake pipe being easier to flare rests on shop and forum claims ([uncertain]). **Cross-link for the update pass:** *Compression fitting* (210) could cite the DVSA MOT manual rule that ferrule-type compression joints aren't suitable for brake-pipe repairs.
 
 ## Sources

@@ -60,7 +60,7 @@ finder:
   shaft_alignment: [not applicable]
   cord_use: [a fitted part]
   knot_use: [not applicable]
-  cord_part: [not applicable]
+  cord_part: [fix to fabric or an edge]
   opens_by: [not applicable]
   locks_out: [not applicable]
   mounts_on: [not applicable]
@@ -97,14 +97,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples
       [uncertain]; safety glasses (Toolstation…"'
-  sheet_material:
+  cord_part:
     kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
+    reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, seal, load, materials, processes, making_tips_3d_printing, environment_limits,
@@ -347,8 +342,7 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples ⚑ [uncertain]; safety glasses (Toolstation…"
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
+- ⚑ Finder value `cord_part` = fix to fabric or an edge (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 
 ## Sources
 

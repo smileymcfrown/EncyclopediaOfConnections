@@ -52,7 +52,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [sheet metal or plastic]
+  sheet_material: [sheet metal]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -96,18 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`removability` is marked [uncertain] here: "…ay apart is to tear or drill out the button, which damages the sheets
       [uncertain: no source describes removal]…"'
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  seal_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
-      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, removability, maker_difficulty, making_tips_3d_printing, everyday_examples, environment_limits,
@@ -347,9 +335,6 @@ Clinching presses and hand tongs apply several tonnes at the punch: keep fingers
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `removability` = permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…ay apart is to tear or drill out the button, which damages the sheets ⚑ [uncertain: no source describes removal]…"
-- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `seal_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 
 ## Sources
 

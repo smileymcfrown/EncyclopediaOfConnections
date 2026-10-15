@@ -86,14 +86,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
-needs_confirming:
-  move_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, play_and_precision, materials, processes, print_in_place, environment_limits, safety_notes,
@@ -370,8 +363,6 @@ Scissor-like closing gaps between links are pinch points, especially in motor- o
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `move_kind` = follows a set path (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

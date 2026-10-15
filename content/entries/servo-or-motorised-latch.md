@@ -88,14 +88,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: keeps its last state, stays locked, lets go'
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, seal, processes, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes]
@@ -333,8 +325,6 @@ It fails locked: if the battery dies or the electronics fail, the lid stays shut
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = keeps its last state (best guess): versions differ: keeps its last state, stays locked, lets go
-- ⚑ Finder value `holds_for` = a person to open (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
-- ⚑ Finder value `powered_does` = lock or hold (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

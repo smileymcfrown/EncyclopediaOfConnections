@@ -96,19 +96,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
 confirmed: []
 open_points:
 - kind: sources
@@ -387,9 +374,6 @@ Pinch point: fingers can be trapped between the lever and the base, or between t
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
-- ⚑ Finder value `over_centre_use` = clamp or latch (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 
 ## Sources
 

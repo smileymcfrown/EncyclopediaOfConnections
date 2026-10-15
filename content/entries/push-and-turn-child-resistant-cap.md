@@ -102,10 +102,6 @@ needs_confirming:
     kind: best guess
     reason: 'no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close
       drives ..."'
-  one_way_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
-      > Move one way only > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [motion, reuse_cycles, seal, processes, print_in_place, making_tips_3d_printing, environment_limits, links]
@@ -329,7 +325,6 @@ It slows children down; it does not make a container safe. Many poisonings happe
 - ⚑ Finder value `motion_in` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
-- ⚑ Finder value `one_way_kind` = clicks (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
 
 ## Sources
 

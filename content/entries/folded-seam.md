@@ -53,7 +53,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [sheet metal or plastic]
+  sheet_material: [sheet metal]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -92,19 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  seal_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
-      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [removability, reuse_cycles, load, materials, environment_limits, safety_notes, related]
@@ -329,9 +317,6 @@ Cut sheet-metal edges and burrs are razor-sharp; hems exist partly to 'eliminate
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `seal_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 
 ## Sources
 

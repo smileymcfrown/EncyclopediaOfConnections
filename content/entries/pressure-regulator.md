@@ -97,14 +97,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
 confirmed: []
 open_points: []
 uncertain_fields: []
@@ -357,8 +349,6 @@ Compressed-air pressure regulators (relieving or non-relieving) with 1/8 in or 1
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = switch, set or store (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
 
 ## Sources
 

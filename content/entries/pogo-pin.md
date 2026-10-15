@@ -94,10 +94,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
 confirmed: []
 open_points:
 - kind: sources
@@ -375,7 +371,6 @@ Keep to extra-low voltage, which UK Approved Document P defines as not more than
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = touching or turning contacts (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ Research note: *Pogo pin*: the current rating of small hobby pogo pins is unverified (marked [uncertain]); Mill-Max's figures (6.5-9 A for ordinary pins, 13 A for the largest) are from data sheets.
 
 ## Sources

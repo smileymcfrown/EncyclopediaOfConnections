@@ -54,8 +54,8 @@ finder:
   cord_use: [not applicable]
   knot_use: [not applicable]
   cord_part: [not applicable]
-  opens_by: [catch or lever]
-  locks_out: ['yes']
+  opens_by: [swings on a hinge]
+  locks_out: [not applicable]
   mounts_on: [not applicable]
   wall_hold: [not applicable]
   gripped_by: [not applicable]
@@ -89,19 +89,6 @@ needs_confirming:
   tools:
     kind: best guess
     reason: no tool named in `tools_needed`; defaulted to hand tools
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
 confirmed: []
 open_points:
 - kind: content
@@ -328,9 +315,6 @@ None known specific to the joint. Normal printer precautions apply: hot nozzles 
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (best guess): no tool named in `tools_needed`; defaulted to hand tools
-- ⚑ Finder value `printed_take_apart` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
 - ⚑ Research note: *Multi-material interlock*: which plastics bond (Bambu: TPU and PETG bond easily, TPU and PLA poorly; UltiMaker: CPE and TPU incompatible). UltiMaker's "only limited by the weakest material" overstates it: Kuipers et al. give an upper bound of 1/(1/σA + 1/σB).
 
 ## Sources

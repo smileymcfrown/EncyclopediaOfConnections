@@ -92,10 +92,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, when_not_to_use, safety_notes]
@@ -358,7 +354,6 @@ Rotating shafts, pulleys and belts are entanglement and pinch hazards even when 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `powered_does` = brake or engage (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

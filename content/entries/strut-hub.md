@@ -53,8 +53,8 @@ finder:
   threaded: [not applicable]
   sheet_material: [not applicable]
   carries_fluid: ['no']
-  shaft_joint: [part onto a shaft]
-  printable: ['no']
+  shaft_joint: [not applicable]
+  printable: [not applicable]
   shaft_alignment: [not applicable]
   cord_use: [not applicable]
   knot_use: [not applicable]
@@ -90,20 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  printable:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the
-      shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear,
-      pulley or arm onto a shaft"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -349,9 +336,6 @@ Don't climb on, hang things from or load printed or plastic hubs: one hub maker 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `carries_fluid` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `shaft_joint` = part onto a shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `printable` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear, pulley or arm onto a shaft"
 - ⚑ Research note: *Strut hub*: where to drill flattened conduit struts differs (Domerama 3/4 in from the end, Mike Tyka about 1-1/4 in); both recorded. Building or playground rules for climbable domes are unsourced ([uncertain]).
 
 ## Sources

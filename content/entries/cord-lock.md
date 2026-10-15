@@ -94,14 +94,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points: []
 uncertain_fields: [load, materials, print_in_place, environment_limits]
@@ -354,8 +346,6 @@ Drawstrings and cords on children's clothing are a strangulation and entrapment 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = strap, cord or fabric (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = friction grip (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 
 ## Sources
 

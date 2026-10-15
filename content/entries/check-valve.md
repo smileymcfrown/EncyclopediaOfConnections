@@ -95,19 +95,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  one_way_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
-      > Move one way only > Turns"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits]
@@ -396,9 +384,6 @@ In-line spring check valves (push-in, barbed or threaded: NPT, BSP or metric); b
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `one_way_kind` = for air or liquid (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = one way or let off pressure (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
 
 ## Sources
 

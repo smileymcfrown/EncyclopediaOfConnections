@@ -48,7 +48,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [sheet metal or plastic]
+  sheet_material: [sheet metal, plastic sheet]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -92,10 +92,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ps release clips; a rubber mallet is not needed and can crack acrylic
       [uncertain].…"'
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, seal, play_and_precision, materials, processes, making_tips_3d_printing, everyday_examples,
@@ -319,7 +315,6 @@ Acrylic clips that are over-bent can snap suddenly and leave sharp edges ⚑ [un
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ps release clips; a rubber mallet is not needed and can crack acrylic ⚑ [uncertain].…"
-- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 
 ## Sources
 

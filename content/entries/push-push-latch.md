@@ -96,15 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike
       [uncertain]…"'
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
 confirmed: []
 open_points:
 - kind: sources
@@ -335,8 +326,6 @@ The door or drawer pops open by spring force when bumped, which can surprise peo
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `tools` = none, drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain]…"
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
 
 ## Sources
 

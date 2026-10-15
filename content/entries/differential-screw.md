@@ -75,7 +75,7 @@ finder:
   push_by: [not applicable]
   tightens: [not applicable]
   tension_hold: [not applicable]
-  adjusts: [fine-tune a tilt]
+  adjusts: [fine-tune a tilt, set and hold]
   spring_kind: [not applicable]
   seal_use: [not applicable]
   seal_material: [not applicable]
@@ -84,19 +84,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  slide_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move
-      > Slide in a straight line, or telescope"
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
-  adjusts:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly,
-      or adjust and level them"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits]
@@ -347,9 +335,6 @@ None known for small adjusters. A printed differential clamp can build up more f
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `slide_kind` = pushed by a screw, chain or crank (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
-- ⚑ Finder value `straight_drive` = screw (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
-- ⚑ Finder value `adjusts` = fine-tune a tilt (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
 
 ## Sources
 

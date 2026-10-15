@@ -88,18 +88,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  holds_position:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let
-      something move > Swing or rock, less than a full turn > Yes, print it assembled"
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [load, play_and_precision, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes,
@@ -337,9 +325,6 @@ Hinges are pinch points, especially ratchet fittings with teeth and moving pawls
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `holds_position` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let something move > Swing or rock, less than a full turn > Yes, print it assembled"
-- ⚑ Finder value `clicks_do` = hold a set position (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
-- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

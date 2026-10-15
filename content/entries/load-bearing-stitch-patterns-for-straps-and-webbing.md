@@ -88,11 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -313,7 +309,6 @@ Never home-sew climbing slings, harnesses, safety tethers, tow straps or lifting
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = sew or lace (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
 - ⚑ Research note: *Load-bearing stitch patterns*: test results recorded side by side (FAA *Parachute Rigger Handbook* p. 2-25: W-W stronger than box-X; Fire Engineering 1984: double W slightly stronger, box-X adequate and better for sideways loads; Sailrite 2019: 'no clear winning stitch pattern'; Practical Sailor: hand stitching levels off at 69%, more rows 83%, sandwiched insert 100%, commercial bar tacks about 90%). Stitches per inch also differ (4-7 Fire Engineering, 8-12 Sailrite, 7-11 FAA). Sailrite shows sewn loops for towing and lifting dinghies despite its own disclaimer.
 
 ## Sources

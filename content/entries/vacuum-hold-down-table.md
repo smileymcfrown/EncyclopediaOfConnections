@@ -64,8 +64,8 @@ finder:
   cord_part: [not applicable]
   opens_by: [not applicable]
   locks_out: [not applicable]
-  mounts_on: [wall or ceiling]
-  wall_hold: [magnet or suction]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
   gripped_by: [not applicable]
   weld_material: [not applicable]
   wire_use: [not applicable]
@@ -103,18 +103,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  wall_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [power, making_tips_3d_printing, environment_limits, safety_notes, related]
@@ -364,9 +352,6 @@ Vacuum sources: shop vacuum or wet-dry vacuum, vacuum motors (as used in central
 - ⚑ Finder value `power_source` = electricity, compressed air, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (source uncertain): `power` is marked ⚑ [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice ⚑ [uncertain]…"
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `wall_hold` = magnet or suction (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
-- ⚑ Finder value `powered_does` = grip or lift (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

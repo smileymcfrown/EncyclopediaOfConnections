@@ -89,14 +89,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
-  gripped_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
-      together > Something that has to be gripped or clamped"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits, common_failures, make_it_yourself]
@@ -322,8 +314,6 @@ Latex balloons can trigger allergic reactions in people with latex allergy (Wiki
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
-- ⚑ Finder value `gripped_by` = machine (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
-- ⚑ Finder value `powered_does` = grip or lift (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

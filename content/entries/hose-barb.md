@@ -98,18 +98,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  hose_join:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass
-      cables, air or liquid through > Join hoses, pipes or tubes"
 confirmed: []
 open_points:
 - kind: sources
@@ -348,9 +336,6 @@ A tube that blows off under pressure can spray hot or harmful fluid and whip abo
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `carries_fluid` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `seal_use` = join hoses or pipes (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `hose_join` = pushed, clamped or clicked (best guess): carried over from the finder's old rule on entry names (R33), for "How is it joined?" under "Seal it, or pass cables, air or liquid through > Join hoses, pipes or tubes"
 
 ## Sources
 

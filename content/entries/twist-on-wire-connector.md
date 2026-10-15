@@ -94,10 +94,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
 confirmed: []
 open_points:
 - kind: content
@@ -322,7 +318,6 @@ MAINS: this entry describes the type only and gives no mains wiring steps. Mains
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = splice (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ Research note: *Twist-on wire connector*: Wikipedia says these are 'not certified in most European countries', citing forum pages; an IEC standard for them exists (IEC 60998-2-4: 0.5-16 mm² copper, up to 1000 V AC). The entry gives both and says rules differ by country. The 'up to about 30 A' lead-in in `load` is [uncertain], because the connector is rated by wire size, not current.
 
 ## Sources

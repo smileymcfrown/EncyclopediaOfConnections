@@ -91,11 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  gripped_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
-      together > Something that has to be gripped or clamped"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [processes, making_tips_3d_printing, environment_limits, safety_notes]
@@ -362,7 +358,6 @@ Hammering: miss-hits damage parts and hands; hold a punch or drift with locking 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `gripped_by` = by hand (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
 
 ## Sources
 

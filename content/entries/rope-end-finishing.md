@@ -61,7 +61,7 @@ finder:
   printable: [not applicable]
   shaft_alignment: [not applicable]
   cord_use: [knots]
-  knot_use: [stop or finish an end, loop or tension]
+  knot_use: [stop or finish an end]
   cord_part: [not applicable]
   opens_by: [not applicable]
   locks_out: [not applicable]
@@ -98,14 +98,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  knot_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Tie, splice or lash it"
 confirmed: []
 open_points:
 - kind: content
@@ -380,8 +372,6 @@ Burns: flames, hot knives and soldering irons burn, and molten nylon is hot and 
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `knot_use` = stop or finish an end, loop or tension (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
 - ⚑ Research note: *Rope-end finishing*: recorded side by side: the common whipping's ABOK number (#3443 Animated Knots, #3442 Wikipedia); whipping width (about one rope diameter, Ashley via Wikipedia and Animated Knots, against 1.5 diameters, Wikipedia *Common whipping* and premiumropes); melt or whip synthetic rope (Wikipedia *Common whipping* says fuse; Animated Knots and Budworth say a whipping is better). One liquid whipping product carries a California Prop 65 warning.
 
 ## Sources

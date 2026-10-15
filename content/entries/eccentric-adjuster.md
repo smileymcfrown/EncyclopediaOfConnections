@@ -102,10 +102,6 @@ needs_confirming:
     kind: best guess
     reason: 'no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives
       a sidew..."'
-  adjusts:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly,
-      or adjust and level them"
 confirmed: []
 open_points: []
 uncertain_fields: [off_the_shelf_parts, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
@@ -346,7 +342,6 @@ Eccentrics set things that matter for safety, such as a car's wheel alignment, a
 - ⚑ Finder value `motion_in` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
-- ⚑ Finder value `adjusts` = set and hold, fine-tune a tilt (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
 
 ## Sources
 

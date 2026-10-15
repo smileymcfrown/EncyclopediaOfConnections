@@ -89,19 +89,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  threaded:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two
-      things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, load, adjustable, play_and_precision, making_tips_3d_printing, environment_limits, common_failures]
@@ -350,9 +338,6 @@ Snaps that come off baby clothes are a choking hazard, and broken ones can expos
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `printed_take_apart` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `threaded` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
-- ⚑ Finder value `cord_use` = close or attach fabric (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
 
 ## Sources
 

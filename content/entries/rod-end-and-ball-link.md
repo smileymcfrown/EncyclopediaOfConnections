@@ -91,9 +91,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
-  move_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, input_output, seal, processes, making_tips_3d_printing, environment_limits, safety_notes]
@@ -353,7 +350,6 @@ A rod end failing in steering, suspension or flight controls means loss of contr
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
-- ⚑ Finder value `move_kind` = swivel or tilt (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 
 ## Sources
 

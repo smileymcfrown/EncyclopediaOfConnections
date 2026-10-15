@@ -90,14 +90,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…a spanner'', underfloor heating supplier); snips to cut bimetal
       strip [uncertain]; for electric versions, wiri…"'
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, making_tips_3d_printing, when_not_to_use, safety_notes]
@@ -366,8 +358,6 @@ Some appliance wax motors run directly on mains voltage (the one in electronicsN
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a spanner', underfloor heating supplier); snips to cut bimetal strip ⚑ [uncertain]; for electric versions, wiri…"
-- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
-- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

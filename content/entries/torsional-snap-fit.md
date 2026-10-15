@@ -91,14 +91,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  threaded:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two
-      things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, special_behaviour, reuse_cycles, processes, making_tips_3d_printing, everyday_examples, environment_limits,
@@ -302,8 +294,6 @@ Low hazard. A cracked or relaxed catch can let a lid fall open, so don't rely on
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `printed_take_apart` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `threaded` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 
 ## Sources
 

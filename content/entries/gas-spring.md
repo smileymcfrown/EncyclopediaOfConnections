@@ -100,14 +100,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the retaining
       clip [uncertain]; someone or something to hol…"'
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, tools_needed, play_and_precision, processes, making_tips_3d_printing, when_not_to_use, safety_notes,
@@ -374,8 +366,6 @@ It is a pressure vessel: internal pressure can be up to 300 bar (4,350 psi); do 
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the retaining clip ⚑ [uncertain]; someone or something to hol…"
-- ⚑ Finder value `slows_by` = damper (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
-- ⚑ Finder value `spring_kind` = straight push or pull (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 
 ## Sources
 

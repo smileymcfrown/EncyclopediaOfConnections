@@ -57,7 +57,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [wood]
+  sheet_material: [not applicable]
   carries_fluid: ['no']
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -96,23 +96,7 @@ finder:
   powered_does: [not applicable]
   also_under: [mount]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -365,10 +349,7 @@ Freshly cut extrusion has sharp burrs: deburr the ends and wear gloves and eye p
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `carries_fluid` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `mounts_on` = rail, extrusion or grid (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `also_under` = mount (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
+Nothing is marked on this page.
 
 ## Sources
 

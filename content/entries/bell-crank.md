@@ -85,11 +85,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  push_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or
-      pull moved, multiplied or redirected"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, processes, making_tips_3d_printing, environment_limits, common_failures, make_it_yourself]
@@ -356,7 +352,6 @@ Pinch points between the arms, rods and frame when the linkage moves, especially
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `push_by` = levers and linkages (best guess): carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
 
 ## Sources
 

@@ -89,15 +89,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  slide_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move
-      > Slide in a straight line, or telescope"
-  push_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or
-      pull moved, multiplied or redirected"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -360,8 +352,6 @@ Syringes from 1 mL to 60 mL with catheter tips, Luer-slip or Luer-lock tips (Exp
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `slide_kind` = pushed by a screw, chain or crank (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
-- ⚑ Finder value `push_by` = cables, pulleys or liquid (best guess): carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
 - ⚑ Research note: *Syringe hydraulics*: one `safety_notes` point ("use syringes without needles; keep water away from electronics") is the agent's own advice, labelled as such. *Air or hydraulic cylinder* left out Thingiverse 1337213 (licence unreadable).
 
 ## Sources

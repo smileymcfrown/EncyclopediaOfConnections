@@ -80,7 +80,7 @@ finder:
   one_way_kind: [not applicable]
   clicks_do: [not applicable]
   holds_for: [a person to open]
-  over_centre_use: [flip between positions]
+  over_centre_use: [clamp or latch]
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
@@ -108,23 +108,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone:
       rotation -> two opp..."'
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
 confirmed: []
 open_points:
 - kind: content
@@ -403,10 +386,6 @@ Pinch points: where a pinion meshes with a rack is an in-running nip point that 
 - ⚑ Finder value `motion_in` = steady turning (best guess): could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone: rotation -> two opp..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone: rotation -> two opp..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone: rotation -> two opp..."
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
-- ⚑ Finder value `holds_for` = a person to open (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
-- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 - ⚑ Research note: *Multi-point bolt*: the agent added motion conversion and over-centre, toggle & cam clamps to `other_families` (the over-centre one rests on Wikipedia's 'zero-torque' lock-rod cams); keep or drop when reviewing. Google Patents and Justia were blocked, so container lock rods rest on Wikipedia *Lockrod*; the Chubb safe-boltwork patent GB2094390A was read through WebFetch.
 
 ## Sources

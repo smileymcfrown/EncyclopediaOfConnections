@@ -90,13 +90,9 @@ finder:
   hose_join: [not applicable]
   fluid_does: [not applicable]
   powered_does: [not applicable]
-  also_under: [control]
+  also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -339,7 +335,6 @@ Glue and solvent fumes: some adhesives, cleaning solvents and [primers](../gloss
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `also_under` = control (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## Sources
 

@@ -90,11 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [load, when_not_to_use]
@@ -343,7 +339,6 @@ Zippers can trap skin as they close; zipper entrapment is the most common cause 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 2 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = close or attach fabric (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
 
 ## Sources
 

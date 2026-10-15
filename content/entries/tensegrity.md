@@ -76,7 +76,7 @@ finder:
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
-  tightens: ['strap, cord or rope']
+  tightens: [not applicable]
   tension_hold: [not applicable]
   adjusts: [not applicable]
   spring_kind: [not applicable]
@@ -87,19 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  cord_part:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Fit a part"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -365,9 +353,6 @@ Sudden collapse: 'If any of these four lines are cut, the table will collapse un
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `cord_part` = join or grip ends (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
-- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 - ⚑ Research note: *Tensegrity*: one maker (GadgetBuilder) says the popular floating table 'isn't true tensegrity' because its arms bend; the entry says so.
 
 ## Sources

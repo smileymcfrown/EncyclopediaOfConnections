@@ -55,7 +55,7 @@ finder:
   printed_take_apart: [not applicable]
   threaded: [not applicable]
   sheet_material: [not applicable]
-  carries_fluid: ['yes']
+  carries_fluid: ['no']
   shaft_joint: [not applicable]
   printable: [not applicable]
   shaft_alignment: [not applicable]
@@ -93,11 +93,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, play_and_precision, processes, making_tips_3d_printing, off_the_shelf_parts, safety_notes,
@@ -332,7 +328,6 @@ If a frame will hold people (railings, guardrails, climbing or gym rigs) or over
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `carries_fluid` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
 
 ## Sources
 

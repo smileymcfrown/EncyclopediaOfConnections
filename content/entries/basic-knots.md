@@ -98,14 +98,6 @@ needs_confirming:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: cord, string or rope"; knots family, so set to by hand (tied or
       wrapped)'
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  knot_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Tie, splice or lash it"
 confirmed: []
 open_points:
 - kind: sources
@@ -357,8 +349,6 @@ Knots are not for climbing, lifting or holding people without training and rated
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: cord, string or rope"; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `knot_use` = stop or finish an end, tie on or join, bind or lash (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
 - ⚑ Research note: *Basic knots*: knot strength recorded side by side (Wikipedia *Knot* 40-80% kept; *Rope splicing* a 20-40% loss; Animated Knots 'no more than 50%'; Petrulis & Petrulyte 2012: square knot 37-49% in flax yarn, 43-47% in cited rope tests; Wikipedia's overhand infobox 50%, unsourced). The reef knot has two ABOK numbers (#1204 and #1402); both are in `aliases`.
 
 ## Sources

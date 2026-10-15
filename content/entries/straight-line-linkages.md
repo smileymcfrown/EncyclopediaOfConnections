@@ -92,14 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  move_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-  push_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or
-      pull moved, multiplied or redirected"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, load, adjustable, play_and_precision, processes, making_tips_3d_printing, off_the_shelf_parts,
@@ -372,8 +365,6 @@ Crossing bars close like scissors and can pinch fingers ⚑ [uncertain: general]
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 18 sentences on this page marked [uncertain].
-- ⚑ Finder value `move_kind` = follows a set path (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-- ⚑ Finder value `push_by` = levers and linkages (best guess): carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
 
 ## Sources
 

@@ -86,11 +86,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, removability, processes, environment_limits]
@@ -293,7 +289,6 @@ A clicking limiter is not a calibrated tool. Printed ones vary with filament and
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `tightens` = parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 
 ## Sources
 

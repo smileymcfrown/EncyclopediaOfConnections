@@ -95,10 +95,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: lets go, keeps its last state'
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points:
 - kind: sources
@@ -363,7 +359,6 @@ Stored air pressure is the main hazard. Over-inflation shortens a muscle's life 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, keeps its last state
-- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Pneumatic artificial muscle*: invention date (Wikipedia 1957; Wikibooks: Gaylord's 1957 patent; Bennington et al. 2023: 1930s-40s, made popular by McKibben in the 1950s); maximum contraction (Festo 25%, Shadow 35-37%, Osaka group 30% in its README but about 25% in its HardwareX test); twisting (Shadow: tolerated; Festo: forbidden, about 1° misalignment).
 
 ## Sources

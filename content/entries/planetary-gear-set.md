@@ -91,14 +91,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  drive_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
-      move > Spin round and round > A shaft driving another shaft"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points:
 - kind: content
@@ -343,8 +335,6 @@ Meshing gears are in-running nip points that can catch fingers, hair and clothin
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `drive_does` = changes speed or splits (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *Planetary gear set*: HowToMechatronics states "20 N at 10 cm = 200 Nm"; it is 2 N·m (200 N·cm). The entry uses the corrected value.
 
 ## Sources

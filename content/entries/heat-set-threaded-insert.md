@@ -87,15 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  threaded:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two
-      things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -334,8 +326,6 @@ The soldering iron tip (about 200-265 °C) and the freshly set insert are hot en
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `printed_take_apart` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `threaded` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 - ⚑ Research note: *Heat-set threaded insert* (56): soldering-iron temperature differs (SPIROL: 343-399 °C as 'a good operating temperature', though SPIROL's own rule of heat-deflection temperature + 65 °C gives far less; CNC Kitchen: 225-265 °C), recorded side by side.
 
 ## Sources

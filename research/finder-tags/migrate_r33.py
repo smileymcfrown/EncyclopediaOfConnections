@@ -10,7 +10,9 @@ script ran the old rules once, inside the same branches of the tree, and wrote w
   names can be wrong. A later check against the entry text may remove the mark (see README.md).
 
 So the finder's shortlists did not change on the day; from then on only the tags count, and a person
-can correct any value. Kept for the record; running it again would overwrite those fields.
+can correct any value. Kept for the record only: it needed the transitional tree (the old name rules
+wrapped so they could be recorded), which is gone, so it cannot be run again. The old rules are in git
+(research/finder-test/tree.py and tags.py at commit a5c5049); the check that followed is in review-r33.yaml.
 """
 import os, sys
 import yaml

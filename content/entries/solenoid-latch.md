@@ -92,10 +92,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, materials, making_tips_3d_printing, environment_limits, safety_notes, common_failures, make_it_yourself]
@@ -345,7 +341,6 @@ A fail-secure lock stays locked in a power cut: a DigiKey electronic-safe build 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = stays locked (best guess): versions differ: stays locked, lets go, keeps its last state
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-- ⚑ Finder value `powered_does` = lock or hold (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

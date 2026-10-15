@@ -92,10 +92,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  push_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or
-      pull moved, multiplied or redirected"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, environment_limits]
@@ -342,7 +338,6 @@ The crossing arms close like scissors and form pinch and [shear](../glossary.md#
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = something to grip (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `push_by` = levers and linkages (best guess): carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
 
 ## Sources
 

@@ -95,10 +95,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
-  adjusts:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly,
-      or adjust and level them"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, making_tips_3d_printing, off_the_shelf_parts, environment_limits]
@@ -339,7 +335,6 @@ Thin metal shims and cut shim stock have sharp edges and corners: handle with gl
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
-- ⚑ Finder value `adjusts` = set and hold (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
 
 ## Sources
 

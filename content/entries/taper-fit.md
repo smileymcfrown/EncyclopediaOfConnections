@@ -94,16 +94,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  printable:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the
-      shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear,
-      pulley or arm onto a shaft"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, materials, processes, making_tips_3d_printing, environment_limits, safety_notes]
@@ -363,8 +354,6 @@ If a Morse taper slips under heavy torque, the tang can snap and the tool spins 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `shaft_joint` = part onto a shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `printable` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear, pulley or arm onto a shaft"
 
 ## Sources
 

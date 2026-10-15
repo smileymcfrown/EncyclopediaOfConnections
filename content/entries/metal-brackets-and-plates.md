@@ -101,11 +101,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -369,7 +365,6 @@ Connectors only reach their rated load with the fastener type, size and number t
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 15 sentences on this page marked [uncertain].
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 - ⚑ Research note: *Metal brackets and plates* (369): written seconds before the usage limit stopped its agent on 2026-10-05, so there is no hand-back report and nothing was flagged; the file validates and was kept. It has 11 fields marked [uncertain], more than most entries, so check it first when reviewing.
 
 ## Sources

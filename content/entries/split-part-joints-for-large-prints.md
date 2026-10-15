@@ -87,11 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, seal, processes, environment_limits, safety_notes, make_it_yourself]
@@ -332,7 +328,6 @@ Superglue bonds skin in seconds and its fumes irritate eyes; epoxy can cause ski
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `printed_take_apart` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
 
 ## Sources
 

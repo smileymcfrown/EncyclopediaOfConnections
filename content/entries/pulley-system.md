@@ -81,7 +81,7 @@ finder:
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: ['cables, pulleys or liquid']
-  tightens: [parts clamped together]
+  tightens: ['strap, cord or rope']
   tension_hold: [not applicable]
   adjusts: [not applicable]
   spring_kind: [not applicable]
@@ -96,18 +96,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
-  push_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or
-      pull moved, multiplied or redirected"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
 confirmed: []
 open_points:
 - kind: content
@@ -394,9 +382,6 @@ Never stand or walk under a suspended load, and never lift people with a hoist (
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `holds_for` = a load (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
-- ⚑ Finder value `push_by` = cables, pulleys or liquid (best guess): carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
-- ⚑ Finder value `tightens` = parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 - ⚑ Research note: *Pulley system* (206): low-friction ring efficiency (Practical Sailor: 80-83% with Dyneema, 50-60% with polyester double braid, against 95-97% for ball-bearing blocks) recorded beside Petzl (50-98%) and CMC (about 50% for a carabiner).
 
 ## Sources

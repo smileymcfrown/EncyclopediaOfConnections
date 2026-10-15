@@ -65,7 +65,7 @@ finder:
   holds_position: [not applicable]
   drive_does: [not applicable]
   slide_kind: [not applicable]
-  flex_does: [folds like a hinge]
+  flex_does: [folds like a hinge, grips or snaps]
   move_kind: [not applicable]
   one_way_kind: [not applicable]
   clicks_do: [not applicable]
@@ -101,18 +101,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch);
       squeezing handles -> c..."'
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, maker_difficulty, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -353,9 +341,6 @@ None known for small demos. Do not use a printed plastic latch or combination lo
 - ⚑ Finder value `motion_in` = steady turning (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
-- ⚑ Finder value `flex_does` = folds like a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
-- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
-- ⚑ Finder value `also_under` = control (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## Sources
 

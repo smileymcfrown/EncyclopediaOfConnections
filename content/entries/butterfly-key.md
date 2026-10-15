@@ -82,11 +82,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [degrees_of_freedom, removability, reuse_cycles, load, processes, making_tips_3d_printing, off_the_shelf_parts,
@@ -325,7 +321,6 @@ Cutting small keys is risky: the table-saw method is 'expert-level (a.k.a. dange
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 
 ## Sources
 

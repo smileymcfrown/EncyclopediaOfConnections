@@ -90,24 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  cord_part:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Fit a part"
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, play_and_precision, when_to_use, when_not_to_use, environment_limits, safety_notes, common_failures,
@@ -341,10 +324,6 @@ Small strong magnets are dangerous if swallowed: children who swallowed several 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `cord_part` = join or grip ends (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
 
 ## Sources
 

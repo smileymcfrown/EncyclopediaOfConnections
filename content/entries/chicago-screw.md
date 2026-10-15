@@ -84,15 +84,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  cord_part:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Fit a part"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -338,8 +330,6 @@ A flat screwdriver 'can slip more easily on smooth metal surfaces', scratching t
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `cord_part` = fix to fabric or an edge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
 - ⚑ Research note: *Chicago screw*: post length (Wikipedia: shorter than the material; Pet Hardware blog: 1-1.5 mm shorter, with a worked example); the alias 'binding post' clashes with the electrical binding post, and the entry says so; the Loctite manual rates ABS, ASA, PC, acrylic, PS and PVC 'often not suitable', so the entry keeps threadlocker off printed parts.
 
 ## Sources

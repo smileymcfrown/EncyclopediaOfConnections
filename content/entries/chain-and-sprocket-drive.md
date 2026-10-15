@@ -90,10 +90,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
 confirmed: []
 open_points: []
 uncertain_fields: [processes, links]
@@ -374,7 +370,6 @@ The point where the chain runs onto a sprocket is an in-running nip point that c
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `straight_drive` = long travel or pulling (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
 
 ## Sources
 

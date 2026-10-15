@@ -89,10 +89,6 @@ needs_confirming:
   power_source:
     kind: best guess
     reason: '`power` names several power sources, and not all may apply'
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points:
 - kind: sources
@@ -331,7 +327,6 @@ Hot parts: a working muscle is hot enough to burn skin, and a bare muscle on a w
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid, heat (best guess): `power` names several power sources, and not all may apply
-- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Twisted-and-coiled polymer muscle*: fluorocarbon line (WriterOfMinds: not known to work; a Hackaday commenter: coils better); marked [uncertain].
 
 ## Sources

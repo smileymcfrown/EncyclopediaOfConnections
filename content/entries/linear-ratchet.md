@@ -92,14 +92,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points:
 - kind: sources
@@ -377,8 +369,6 @@ Cut tails leave sharp edges that can cut hands and cables; cut flush or use a te
 
 - ⚑ 20 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `tightens` = strap, cord or rope, parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = ratchet, winch or screw (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 - ⚑ Research note: *Linear ratchet*: tie-down ratchet straps wind webbing on a spool with a rotary ratchet, so they are not linear ratchets; most quick-grip bar clamps have no teeth and use a tilting binding plate (see *Binding-plate lock*). The entry explains this; the outline description should be updated to match.
 - ⚑ Research note: *Linear ratchet* (8): Wikipedia marks the 2% carbon-black figure for UV-resistant ties 'citation needed' (now noted); the haemostat-style printed clamps are worded neutrally because the Printables descriptions don't say they ratchet. Wikipedia *Cable tie*'s opening names a brand that looks like vandalism; not used. *Shock-corded sectional pole* (152) and *Ratchet tie-down strap* (153) link to *Wire-rope terminations* as weak fits, with reasons that say when they apply.
 

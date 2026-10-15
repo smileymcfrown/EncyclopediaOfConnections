@@ -69,7 +69,7 @@ finder:
   one_way_kind: [not applicable]
   clicks_do: [not applicable]
   holds_for: [not applicable]
-  over_centre_use: [flip between positions]
+  over_centre_use: [not applicable]
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
@@ -88,18 +88,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, special_behaviour, seal, play_and_precision, off_the_shelf_parts]
@@ -361,9 +349,6 @@ None known for the hinge itself. Take care with boiling water or a hot print bed
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `opens_by` = swings on a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `flex_does` = folds like a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
-- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 
 ## Sources
 

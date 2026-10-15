@@ -87,10 +87,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "3d print (fdm): the usual case; holes, l"; knots family, so set to sewing or leatherwork'
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
 confirmed: []
 open_points: []
 uncertain_fields: [load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, common_failures]
@@ -344,7 +340,6 @@ Never trust a sewn-on part or home-sewn joint to hold a person (climbing, harnes
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = sewing or leatherwork (best guess): first-listed process was "3d print (fdm): the usual case; holes, l"; knots family, so set to sewing or leatherwork
-- ⚑ Finder value `cord_use` = sew or lace (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
 
 ## Sources
 

@@ -72,8 +72,8 @@ finder:
   wall_hold: [not applicable]
   gripped_by: [not applicable]
   weld_material: [not applicable]
-  wire_use: [splice]
-  plugs_in: [not applicable]
+  wire_use: [splice, to a board or terminal]
+  plugs_in: ['no']
   holds_position: [not applicable]
   drive_does: [not applicable]
   slide_kind: [not applicable]
@@ -105,10 +105,9 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
+  plugs_in:
     kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
+    reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 confirmed: []
 open_points:
 - kind: content
@@ -359,7 +358,7 @@ MAINS: this entry gives no mains wiring steps, and mains use must follow local l
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…y times for lever types, which are made to be opened and closed again ⚑ [uncertain:…"
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = splice (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
+- ⚑ Finder value `plugs_in` = no (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ Research note: *Spring-clamp wire connector*: no pull-out figure and no rated number of lever open/close cycles could be found ([uncertain]).
 
 ## Sources

@@ -83,14 +83,7 @@ finder:
   powered_does: [not applicable]
   also_under: [spin]
   turns: [not applicable]
-needs_confirming:
-  move_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -340,8 +333,6 @@ Loads on a ball transfer table move very easily: they can roll off the edge or t
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `move_kind` = swivel or tilt (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-- ⚑ Finder value `also_under` = spin (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 - ⚑ Research note: *Ball caster*: maximum spacing of ball transfer units under a table differs (Ganter: smallest edge length divided by 2.5; HPC: shortest dimension divided by 3.5); both recorded.
 
 ## Sources

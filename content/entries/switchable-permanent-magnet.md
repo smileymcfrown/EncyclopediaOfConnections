@@ -90,14 +90,6 @@ needs_confirming:
   reuse_cycles:
     kind: source uncertain
     reason: '`reuse_cycles` is marked [uncertain] here: "effectively unlimited [uncertain:…"'
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  wall_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, adjustable, make_it_yourself]
@@ -346,8 +338,6 @@ Pinch hazard: switched on while loose it can jump onto steel and trap fingers, s
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = effectively unlimited (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "effectively unlimited ⚑ [uncertain:…"
-- ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `wall_hold` = magnet or suction (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 
 ## Sources
 

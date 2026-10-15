@@ -89,15 +89,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, processes, print_in_place, making_tips_3d_printing]
@@ -358,8 +350,6 @@ Pressure cookers: never force a twist-on lid open while there is pressure inside
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `opens_by` = twist (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `mounts_on` = bar, pole or desk edge (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
 
 ## Sources
 

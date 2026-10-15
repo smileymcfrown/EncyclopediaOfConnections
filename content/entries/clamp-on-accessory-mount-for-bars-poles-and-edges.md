@@ -90,15 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -356,8 +348,6 @@ On bikes and scooters, fit the mount where it 'does not interfere with the safe 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `carries_fluid` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `mounts_on` = bar, pole or desk edge (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
 - ⚑ Research note: *Clamp-on accessory mount*: printed bike-mount figures (PETG over PLA, bore 0.3 mm over the bar) are one filament maker's blog advice (QIDI) and are cited as such; clamp torques differ by maker (Garmin 0.8 N·m maximum; Surly the stated torque or 5 N·m, whichever is less).
 
 ## Sources

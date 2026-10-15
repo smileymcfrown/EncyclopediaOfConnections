@@ -93,14 +93,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes
       [uncertain]…"'
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, power, tools_needed, materials, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -349,8 +341,6 @@ Discs, drums and pads get hot enough to burn after hard use (Wikipedia, Brake). 
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes ⚑ [uncertain]…"
-- ⚑ Finder value `holds_for` = a load (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
-- ⚑ Finder value `slows_by` = brake (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
 
 ## Sources
 

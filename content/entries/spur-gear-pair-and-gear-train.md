@@ -97,14 +97,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  drive_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
-      move > Spin round and round > A shaft driving another shaft"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, processes, environment_limits]
@@ -360,8 +352,6 @@ Meshing gears create an in-running nip point that can catch fingers, hair and cl
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…gears, EngineerDog); a feeler gauge or paper strip to check backlash ⚑ [uncertain]…"
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `drive_does` = changes speed or splits (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

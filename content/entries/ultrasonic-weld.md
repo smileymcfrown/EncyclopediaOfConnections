@@ -99,11 +99,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  weld_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
-      things together > Melt them together"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -345,7 +341,6 @@ HORN AND PRESS: 'operators must never place hands or arms near the welding tip w
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `weld_material` = plastic or film (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
 - ⚑ Research note: *Ultrasonic weld*: horn amplitude differs (Herrmann 5-50 µm; DuPont 50-150 µm), both recorded; energy-director height from three sources (Dukane 0.25-0.75 mm; Branson 0.25-0.5 mm; DuPont 0.4 mm for 1.5-3 mm walls). Cheap 28 or 35 kHz handheld welders were seen only in search results (listings returned 403), so `off_the_shelf_parts` is [uncertain]; no peel-strength figures found. The DuPont design guide was read from a distributor copy (distrupol.com).
 
 ## Sources

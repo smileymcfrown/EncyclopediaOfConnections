@@ -96,14 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`adjustable` is marked [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled
       [uncertain]).…"'
-  drive_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
-      move > Spin round and round > A shaft driving another shaft"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, power, seal, load, adjustable, processes, print_in_place, making_tips_3d_printing, when_not_to_use,
@@ -398,8 +390,6 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `adjustable` = no (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled ⚑ [uncertain]).…"
-- ⚑ Finder value `drive_does` = changes speed or splits (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

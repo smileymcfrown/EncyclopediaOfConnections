@@ -69,7 +69,7 @@ finder:
   wire_use: [not applicable]
   plugs_in: [not applicable]
   holds_position: [not applicable]
-  drive_does: [passes the turning on]
+  drive_does: [not applicable]
   slide_kind: [not applicable]
   flex_does: [not applicable]
   move_kind: [not applicable]
@@ -96,18 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable
       ends [uncertain]. The printed demonstrator sn…"'
-  drive_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
-      move > Spin round and round > A shaft driving another shaft"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points:
 - kind: content
@@ -329,9 +317,6 @@ The carrier arm and cable loop sweep round the rotor, making entanglement and pi
 
 - ⚑ 17 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = soldering iron, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends ⚑ [uncertain]. The printed demonstrator sn…"
-- ⚑ Finder value `drive_does` = passes the turning on (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
-- ⚑ Finder value `seal_use` = pass cables through (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *Anti-twister mechanism*: `materials` is in the entry's `uncertain` list but has no `[uncertain]` marker, so the default report shows it in full. Check its materials list before publishing.
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 - ⚑ Research note: *Anti-twister mechanism* lists `materials` as unverified without a marker (see above).

@@ -94,11 +94,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [rules_of_thumb, environment_limits, safety_notes, common_failures]
@@ -351,7 +347,6 @@ The main hazard is expensive gear falling: seat the plate fully, tighten the cla
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `mounts_on` = tripod or stand, rail, extrusion or grid (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
 
 ## Sources
 

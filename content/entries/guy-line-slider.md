@@ -97,14 +97,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points: []
 uncertain_fields: [how_it_works, load, play_and_precision, materials, processes, making_tips_3d_printing, off_the_shelf_parts,
@@ -345,8 +337,6 @@ Few hazards. A runner that slips lets a tent or tarp sag or flap in wind, so don
 - ⚑ 17 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = strap, cord or fabric (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = friction grip (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 
 ## Sources
 

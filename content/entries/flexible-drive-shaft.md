@@ -88,22 +88,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  shaft_alignment:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold
-      two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
-  drive_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
-      move > Spin round and round > A shaft driving another shaft"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -356,10 +340,6 @@ A bare spinning core can catch hair, clothing or skin; keep it in its casing, wh
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = at an angle, in line, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `shaft_joint` = shaft to shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `shaft_alignment` = at an angle or a bent path (best guess): carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
-- ⚑ Finder value `drive_does` = passes the turning on (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

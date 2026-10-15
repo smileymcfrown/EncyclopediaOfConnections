@@ -79,10 +79,10 @@ finder:
   flex_does: [not applicable]
   move_kind: [not applicable]
   one_way_kind: [not applicable]
-  clicks_do: [hold a set position]
+  clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
-  slows_by: [steady speed or level]
+  slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
   tightens: [not applicable]
@@ -100,22 +100,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits, safety_notes]
@@ -371,10 +355,6 @@ Lever-handle brass ball valves (full bore or reduced bore; BSP or NPT threads, m
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `clicks_do` = hold a set position (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
-- ⚑ Finder value `slows_by` = steady speed or level (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = switch, set or store (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
 
 ## Sources
 

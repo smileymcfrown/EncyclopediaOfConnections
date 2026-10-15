@@ -85,7 +85,7 @@ finder:
   push_by: [not applicable]
   tightens: [not applicable]
   tension_hold: [not applicable]
-  adjusts: [set and hold]
+  adjusts: [set and hold, fine-tune a tilt]
   spring_kind: [not applicable]
   seal_use: [not applicable]
   seal_material: [not applicable]
@@ -110,10 +110,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the
       foot moves in or out by on..."'
-  adjusts:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly,
-      or adjust and level them"
 confirmed: []
 open_points:
 - kind: content
@@ -367,7 +363,6 @@ A levelling foot is not an anti-tip device: the US CPSC's Anchor It! campaign sa
 - ⚑ Finder value `motion_in` = steady turning (best guess): could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the foot moves in or out by on..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the foot moves in or out by on..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the foot moves in or out by on..."
-- ⚑ Finder value `adjusts` = set and hold (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
 - ⚑ Research note: *Levelling foot*: load ratings differ widely between makers (Superior Glide 80 kg per M8 furniture foot; Keystone 75-250 kg per M10 tilting foot; Ganter calls its static load 'a guide value' needing a safety factor), and tilt ranges differ (about 20° Carr Lane and Keystone; 9° Superior Glide), all recorded.
 
 ## Sources

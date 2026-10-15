@@ -107,10 +107,6 @@ needs_confirming:
   load_max:
     kind: source uncertain
     reason: '`load` is marked [uncertain] here: "…ame size and material, because the special shape is only in the drive [uncertain…"'
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
 confirmed: []
 open_points:
 - kind: content
@@ -372,7 +368,6 @@ Button and coin cells are a serious swallowing hazard for children; in the USA p
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = heavy (source uncertain): `load` is marked ⚑ [uncertain] here: "…ame size and material, because the special shape is only in the drive ⚑ [uncertain…"
-- ⚑ Finder value `opens_by` = twist (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
 - ⚑ Research note: *Tamper-resistant fasteners*: Wikipedia *Torx* says a small flat screwdriver can turn a pin-in Torx between its lobes; *List of screw drives* says the pin prevents this. Both recorded. No source compares a security screw's strength with a plain screw's ([uncertain]).
 
 ## Sources

@@ -48,7 +48,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [wood]
+  sheet_material: [wood, plastic sheet]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -87,11 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, seal, load, processes, print_in_place, making_tips_3d_printing, off_the_shelf_parts,
@@ -371,7 +367,6 @@ Table saw with a dado stack: the normal blade guard often can't be used for dado
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 15 sentences on this page marked [uncertain].
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 
 ## Sources
 

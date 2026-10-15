@@ -93,14 +93,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
-  plugs_in:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires
-      or power > A wire to a board, terminal or device"
 confirmed: []
 open_points:
 - kind: content
@@ -341,8 +333,6 @@ Splayed strands make a poor, hot joint: fewer strands touch the terminal, the re
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = to a board or terminal (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
-- ⚑ Finder value `plugs_in` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ Research note: *Wire-end ferrule*: two colour codes recorded side by side from Weidmüller's sheet (DIN: 0.5 mm² white, 0.75 grey, 1.0 red, 1.5 black; Weidmüller's own: 0.5 orange, 0.75 white, 1.0 yellow, 1.5 red; only 2.5 mm² blue and 4 mm² grey agree). Hackaday's claim that CE-marked equipment must use ferrules was not checked against the standards ([uncertain]).
 
 ## Sources

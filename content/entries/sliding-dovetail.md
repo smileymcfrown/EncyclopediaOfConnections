@@ -92,14 +92,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`reuse_cycles` is marked [uncertain] here: "…printed parts) though printed or wooden rails slowly wear and loosen
       [uncertain];…"'
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  slide_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move
-      > Slide in a straight line, or telescope"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, processes, environment_limits, off_the_shelf_parts]
@@ -368,8 +360,6 @@ Router safety: a dovetail bit can't plunge, so clear most of the waste first wit
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…printed parts) though printed or wooden rails slowly wear and loosen ⚑ [uncertain];…"
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `slide_kind` = carriage on a rail (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
 
 ## Sources
 

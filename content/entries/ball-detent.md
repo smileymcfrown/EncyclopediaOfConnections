@@ -87,11 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -341,7 +337,6 @@ None known beyond the usual: small steel balls and springs can fly out when a pl
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `clicks_do` = hold a set position (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 - ⚑ Research note: *Ball-detent torque limiter* quotes Firgelli's detent formula (release force = spring force × tan(α/2 + φ)). The *Ball detent* entry found this conflicts with S&W Manufacturing's formula (side force = end force / tan(half the countersink angle)), which matches the physics. Re-check and replace with the S&W form.
 
 ## Sources

@@ -91,17 +91,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…pliers and a vice or press to replace a car''s cross-and-bearing
       joint [uncertain]. Printed joints need small m…"'
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  shaft_alignment:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold
-      two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
-  move_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, removability, tools_needed, load, play_and_precision, processes, making_tips_3d_printing,
@@ -337,9 +326,6 @@ Spinning universal joints are serious entanglement hazards: on tractor PTO shaft
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…pliers and a vice or press to replace a car's cross-and-bearing joint ⚑ [uncertain]. Printed joints need small m…"
-- ⚑ Finder value `shaft_joint` = shaft to shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `shaft_alignment` = at an angle or a bent path (best guess): carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
-- ⚑ Finder value `move_kind` = swivel or tilt (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 
 ## Sources
 

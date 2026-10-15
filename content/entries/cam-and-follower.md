@@ -78,7 +78,7 @@ finder:
   clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
-  slows_by: [steady speed or level]
+  slows_by: [not applicable]
   straight_drive: [crank or cam]
   push_by: [not applicable]
   tightens: [not applicable]
@@ -92,15 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -412,8 +404,6 @@ The gap between a turning cam and its follower is a pinch point, and snail cams 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 16 sentences on this page marked [uncertain].
-- ⚑ Finder value `slows_by` = steady speed or level (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
-- ⚑ Finder value `straight_drive` = crank or cam (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
 
 ## Sources
 

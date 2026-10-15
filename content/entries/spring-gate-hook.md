@@ -89,14 +89,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  cord_part:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Fit a part"
 confirmed: []
 open_points: []
 uncertain_fields: [how_it_works, motion, materials, processes, making_tips_3d_printing, environment_limits, safety_notes,
@@ -359,8 +351,6 @@ Life-safety use needs certified hardware: mini-carabiners 'are not load-tested' 
 
 - ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `cord_part` = hook, link or swivel (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
 
 ## Sources
 

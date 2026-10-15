@@ -86,15 +86,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  one_way_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
-      > Move one way only > Turns"
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, load, play_and_precision, processes, rules_of_thumb, environment_limits, links, make_it_yourself]
@@ -319,8 +311,6 @@ Low hazard in small demos. Do not use a printed flexure ratchet as the only thin
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `one_way_kind` = clicks (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ Finder value `clicks_do` = step forward (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## Sources
 

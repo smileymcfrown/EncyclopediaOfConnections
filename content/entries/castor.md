@@ -92,11 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [spin]
   turns: [not applicable]
-needs_confirming:
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -359,7 +355,6 @@ A rolling load can run away or tip: lock the castors on any slope, and avoid slo
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 2 sentences on this page marked [uncertain].
-- ⚑ Finder value `also_under` = spin (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 - ⚑ Research note: *Castor*: the agent added brakes, dampers & speed control to `other_families` for locking castors (the outline asked only for sliding); keep or drop when reviewing. HSE INDG478 rates 3-5° slopes 'reasonable' and over 5° steep for pushing carts.
 
 ## Sources

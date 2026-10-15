@@ -45,7 +45,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [sheet metal or plastic]
+  sheet_material: [sheet metal]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -89,10 +89,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…rm tools to make lanced tabs (Wilson Tool) and machines to twist
       them [uncertain].…"'
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, adjustable, play_and_precision, materials, making_tips_3d_printing, off_the_shelf_parts,
@@ -295,7 +291,6 @@ Cut sheet-metal edges, burrs and tab tips can be sharp; round the outsides of ta
 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…rm tools to make lanced tabs (Wilson Tool) and machines to twist them ⚑ [uncertain].…"
-- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 
 ## Sources
 

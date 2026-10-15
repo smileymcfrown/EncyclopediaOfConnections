@@ -1,6 +1,6 @@
 # self-locking & anti-back-drive: Holds against a load until you release it
 
-6 entries. ⚑ = needs confirming: 19 best guesses and 2 values from text marked [uncertain]
+6 entries. ⚑ = needs confirming: 6 best guesses and 2 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -17,25 +17,12 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
-- ⚑ **15 Bidirectional anti-back-drive clutch**, `drive_does` = one way only: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
-- ⚑ **15 Bidirectional anti-back-drive clutch**, `one_way_kind` = silent: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ **15 Bidirectional anti-back-drive clutch**, `holds_for` = a load: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
-- ⚑ **15 Bidirectional anti-back-drive clutch**, `turns` = full turns: carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
-- ⚑ **146 Self-locking wedge**, `gripped_by` = by hand: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
 - ⚑ **147 Inertia-locking reel**, `connects` = lid, door or cover: worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ **147 Inertia-locking reel**, `one_way_kind` = silent: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ **147 Inertia-locking reel**, `holds_for` = a load: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
-- ⚑ **147 Inertia-locking reel**, `tightens` = strap, cord or rope, belt, chain or cable: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ **147 Inertia-locking reel**, `tension_hold` = ratchet, winch or screw: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
-- ⚑ **148 Woven self-tightening grip**, `cord_use` = a fitted part: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ **148 Woven self-tightening grip**, `cord_part` = join or grip ends: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
 - ⚑ **260 Thread-locking hardware**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ **260 Thread-locking hardware**, `clicks` = clicks: the text uses both clicking and silent words
 - ⚑ **292 Weight-activated gripping tongs**, `motion_in` = straight push or pull: could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
 - ⚑ **292 Weight-activated gripping tongs**, `motion_out` = –: could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
 - ⚑ **292 Weight-activated gripping tongs**, `shaft_layout` = –: could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
-- ⚑ **292 Weight-activated gripping tongs**, `gripped_by` = by hand: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
-- ⚑ **292 Weight-activated gripping tongs**, `holds_for` = a load: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
 
 ## From research text marked [uncertain]
 

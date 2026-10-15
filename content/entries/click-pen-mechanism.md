@@ -85,11 +85,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, reuse_cycles, load, materials, processes, everyday_examples, environment_limits]
@@ -328,7 +324,6 @@ Low hazard. The spring can jump out when you take one apart. Small printed parts
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 8 sentences on this page marked [uncertain].
-- ⚑ Finder value `clicks_do` = step forward (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## Sources
 

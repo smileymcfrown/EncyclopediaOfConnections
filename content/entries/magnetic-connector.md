@@ -91,10 +91,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
 confirmed: []
 open_points: []
 uncertain_fields: [load, play_and_precision, making_tips_3d_printing, safety_notes, common_failures]
@@ -338,7 +334,6 @@ Small strong magnets can be swallowed: if two or more (or a magnet and a piece o
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = touching or turning contacts (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 
 ## Sources
 

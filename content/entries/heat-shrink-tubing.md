@@ -100,10 +100,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -350,7 +346,6 @@ Heat-gun burns: a heat gun blows air at about 100-550 °C, much hotter than a ha
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = insulate, protect or route (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 
 ## Sources
 

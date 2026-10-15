@@ -31,6 +31,7 @@ Most pages are **generated**, so edit the source and re-run the scripts:
 |---|---|---|
 | An entry's text, links or sources | its JSON file in `research/connection-types/results/` (the `research` key in the entry page's front matter names it) | `python3 tools/make_entries.py`, `python3 tools/check_entries.py` |
 | A finder value (tag) | `research/finder-tags/tags.yaml`, and add the field to the entry's `confirmed` list | `python3 research/finder-tags/propose.py`, then the two `tools/` scripts |
+| Which finder answer an entry comes under | the entry's hand-set fields in `research/finder-tags/tags.yaml` (see `research/finder-tags/README.md`, *Finder answers*); remove the field from `needs_confirming` once checked | `python3 research/finder-tags/propose.py`, the finder test, then the three `tools/` scripts |
 | A finder question, answer or example | `research/finder-test/tree.py` or `examples.yaml` | the finder test (`research/finder-test/README.md`) |
 | An open point from the research | `research/connection-types/review-notes.md` | `python3 tools/make_entries.py` |
 | An entry's pictures | `content/media/pictures.yaml` (the page's pictures in order: an animation first for things that move, then real photos); or improve a drawing in `content/media/drawn/<page>.svg` and its animated copy in `content/media/drawn/anim/<page>.svg` | the *Fetch pictures* workflow, then `python3 tools/make_entries.py` |

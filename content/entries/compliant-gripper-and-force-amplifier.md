@@ -65,7 +65,7 @@ finder:
   locks_out: [not applicable]
   mounts_on: [not applicable]
   wall_hold: [not applicable]
-  gripped_by: [machine]
+  gripped_by: [by hand, machine]
   weld_material: [not applicable]
   wire_use: [not applicable]
   plugs_in: [not applicable]
@@ -92,19 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  gripped_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
-      together > Something that has to be gripped or clamped"
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
-  push_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or
-      pull moved, multiplied or redirected"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, power, reuse_cycles, load, processes, off_the_shelf_parts, environment_limits, links, make_it_yourself]
@@ -359,9 +347,6 @@ A force amplifier multiplies your squeeze, so its jaws can pinch skin hard; keep
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `gripped_by` = machine (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
-- ⚑ Finder value `flex_does` = grips or snaps (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
-- ⚑ Finder value `push_by` = levers and linkages (best guess): carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
 
 ## Sources
 

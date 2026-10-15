@@ -77,7 +77,7 @@ finder:
   push_by: [not applicable]
   tightens: [not applicable]
   tension_hold: [not applicable]
-  adjusts: [fine-tune a tilt]
+  adjusts: [set and hold, fine-tune a tilt]
   spring_kind: [not applicable]
   seal_use: [not applicable]
   seal_material: [not applicable]
@@ -90,10 +90,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  adjusts:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly,
-      or adjust and level them"
 confirmed: []
 open_points: []
 uncertain_fields: [play_and_precision]
@@ -310,7 +306,6 @@ Clamps and spring plungers can pinch fingers. In machining, a part that is under
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `connects` = wall, rail, desk or grid (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `adjusts` = fine-tune a tilt (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Line parts up exactly, or adjust and level them"
 
 ## Sources
 

@@ -88,15 +88,7 @@ finder:
   powered_does: [brake or engage]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, making_tips_3d_printing, safety_notes, when_not_to_use, related, off_the_shelf_parts]
@@ -343,8 +335,6 @@ A holding brake is not a guarantee: do not stand under a load held only by a bra
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 8 sentences on this page marked [uncertain].
-- ⚑ Finder value `slows_by` = brake (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
-- ⚑ Finder value `powered_does` = brake or engage (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

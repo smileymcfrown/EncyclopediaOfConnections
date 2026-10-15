@@ -73,7 +73,7 @@ finder:
   one_way_kind: [not applicable]
   clicks_do: [not applicable]
   holds_for: [not applicable]
-  over_centre_use: [clamp or latch]
+  over_centre_use: [clamp or latch, flip between positions]
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
@@ -101,10 +101,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: both sides turn, but no shaft layout named
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
 confirmed: []
 open_points:
 - kind: sources
@@ -395,7 +391,6 @@ Pinch and crush points: the force near straight is huge (about 29 times the inpu
 - ⚑ Finder value `motion_in` = back-and-forth turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `motion_out` = back-and-forth turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named
-- ⚑ Finder value `over_centre_use` = clamp or latch (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 
 ## Sources
 

@@ -64,8 +64,8 @@ finder:
   cord_use: [not applicable]
   knot_use: [not applicable]
   cord_part: [not applicable]
-  opens_by: [catch or lever]
-  locks_out: ['yes']
+  opens_by: [not applicable]
+  locks_out: [not applicable]
   mounts_on: [not applicable]
   wall_hold: [not applicable]
   gripped_by: [not applicable]
@@ -95,20 +95,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [removability, reuse_cycles, adjustable, access_needed, materials, making_tips_3d_printing, when_not_to_use,
@@ -368,9 +355,6 @@ Splicing a load-bearing post means temporarily supporting the building: Big Sand
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
 
 ## Sources
 

@@ -93,14 +93,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs
       [uncertain]; garage-door torsion springs…"'
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [motion, tools_needed, adjustable, play_and_precision, processes, off_the_shelf_parts, safety_notes, common_failures,
@@ -334,8 +326,6 @@ Stored spring energy: balance springs are always under tension, and large ones (
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs ⚑ [uncertain]; garage-door torsion springs…"
-- ⚑ Finder value `spring_kind` = straight push or pull (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
-- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

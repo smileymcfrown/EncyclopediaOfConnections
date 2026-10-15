@@ -68,7 +68,7 @@ finder:
   slide_kind: [not applicable]
   flex_does: [not applicable]
   move_kind: [not applicable]
-  one_way_kind: [for air or liquid]
+  one_way_kind: [not applicable]
   clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
@@ -96,14 +96,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form'
-  one_way_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
-      > Move one way only > Turns"
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
 confirmed: []
 open_points:
 - kind: sources
@@ -367,8 +359,6 @@ A heavy lid or flap can crush fingers while you fit or remove its damper: suppor
 - ⚑ Finder value `motion_in` = steady turning, straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `motion_out` = steady turning (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = at an angle, in line (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
-- ⚑ Finder value `one_way_kind` = for air or liquid (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ Finder value `slows_by` = damper (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
 - ⚑ Research note: *Dampers* (214): the maker uses of crush absorbers (drone and robot bumpers, egg-drop padding) are written as advice with no source found; check them.
 
 ## Sources

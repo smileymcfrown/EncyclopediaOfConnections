@@ -53,7 +53,7 @@ finder:
   sheet_material: [not applicable]
   carries_fluid: [not applicable]
   shaft_joint: [part onto a shaft]
-  printable: ['yes']
+  printable: ['yes', 'no']
   shaft_alignment: [not applicable]
   cord_use: [not applicable]
   knot_use: [not applicable]
@@ -89,16 +89,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  printable:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the
-      shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear,
-      pulley or arm onto a shaft"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, power, reuse_cycles, play_and_precision, materials, processes, making_tips_3d_printing, off_the_shelf_parts,
@@ -350,8 +341,6 @@ Servos can move suddenly to their commanded position at power-up, and horns and 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 17 sentences on this page marked [uncertain].
-- ⚑ Finder value `shaft_joint` = part onto a shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `printable` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear, pulley or arm onto a shaft"
 
 ## Sources
 

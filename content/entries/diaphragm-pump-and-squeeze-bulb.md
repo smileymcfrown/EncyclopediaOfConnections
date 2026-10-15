@@ -78,7 +78,7 @@ finder:
   slide_kind: [not applicable]
   flex_does: [not applicable]
   move_kind: [not applicable]
-  one_way_kind: [for air or liquid]
+  one_way_kind: [not applicable]
   clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
@@ -106,22 +106,6 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: 'several overload behaviours named: clicks or pops out and resets, slips and keeps going'
-  one_way_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
-      > Move one way only > Turns"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, environment_limits, common_failures]
@@ -397,10 +381,6 @@ Generally low risk, but: 1) Over-inflation: a pump that keeps going can burst wh
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
 - ⚑ Finder value `overload_response` = slips and keeps going (best guess): several overload behaviours named: clicks or pops out and resets, slips and keeps going
-- ⚑ Finder value `one_way_kind` = for air or liquid (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = pump (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
-- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

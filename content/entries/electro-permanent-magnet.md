@@ -97,10 +97,6 @@ needs_confirming:
   power_source:
     kind: best guess
     reason: powered, but no power source named in `power`; defaulted to electricity
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, make_it_yourself]
@@ -344,7 +340,6 @@ A power cut does not release the load: this is safer for lifting, but it also me
 - ⚑ Finder value `reuse_cycles` = effectively unlimited (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "effectively unlimited ⚑ [uncertain:…"
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `power_source` = electricity (best guess): powered, but no power source named in `power`; defaulted to electricity
-- ⚑ Finder value `powered_does` = lock or hold (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

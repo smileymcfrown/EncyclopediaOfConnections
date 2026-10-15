@@ -58,7 +58,7 @@ finder:
   shaft_joint: [not applicable]
   printable: [not applicable]
   shaft_alignment: [not applicable]
-  cord_use: [a fitted part]
+  cord_use: [not applicable]
   knot_use: [not applicable]
   cord_part: [not applicable]
   opens_by: [not applicable]
@@ -92,15 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -363,8 +355,6 @@ Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it give
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 - ⚑ Research note: *Gasket* (131): EPDM-backed roofing washers left out (not on the Wikipedia page).
 
 ## Sources

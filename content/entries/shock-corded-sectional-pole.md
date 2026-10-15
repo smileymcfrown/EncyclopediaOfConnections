@@ -73,7 +73,7 @@ finder:
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
-  tightens: ['strap, cord or rope']
+  tightens: ['strap, cord or rope', parts clamped together]
   tension_hold: [spring or elastic]
   adjusts: [not applicable]
   spring_kind: [not applicable]
@@ -84,27 +84,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  carries_fluid:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two
-      things together > Tube, rod, pole or aluminium extrusion"
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  cord_part:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Fit a part"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [play_and_precision, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
@@ -315,11 +295,6 @@ Elastic cords that snap or slip free can whip back and cause serious eye injurie
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `carries_fluid` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Does it carry air or liquid?" under "Hold two things together > Tube, rod, pole or aluminium extrusion"
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `cord_part` = join or grip ends (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
-- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = spring or elastic (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 
 ## Sources
 

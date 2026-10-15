@@ -93,10 +93,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter
       [uncertain]; push-in fittings need no to…"'
-  push_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or
-      pull moved, multiplied or redirected"
 confirmed: []
 open_points: []
 uncertain_fields: [motion, tools_needed, making_tips_3d_printing, when_not_to_use, common_failures]
@@ -344,7 +340,6 @@ Never use compressionless shift housing for brakes: it can burst and cause a sud
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = crimper, sewing or leather tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter ⚑ [uncertain]; push-in fittings need no to…"
-- ⚑ Finder value `push_by` = cables, pulleys or liquid (best guess): carried over from the finder's old rule on entry names (R33), for "How?" under "Change a movement > A push or pull moved, multiplied or redirected"
 
 ## Sources
 

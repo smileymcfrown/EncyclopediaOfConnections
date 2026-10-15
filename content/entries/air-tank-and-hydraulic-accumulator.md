@@ -87,7 +87,7 @@ finder:
   tightens: [not applicable]
   tension_hold: [not applicable]
   adjusts: [not applicable]
-  spring_kind: [straight push or pull]
+  spring_kind: [not applicable]
   seal_use: [pump or control a flow]
   seal_material: [not applicable]
   hose_join: [not applicable]
@@ -95,23 +95,7 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -380,10 +364,6 @@ This is the main topic for this entry. 1) Bursting: 'vessels containing compress
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `spring_kind` = straight push or pull (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = switch, set or store (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
-- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Air tank and hydraulic accumulator*: Hackaday's 2016 article on printed air tanks says PVC pipe is safe for compressed air; OSHA's bulletin says never use it. The entry follows OSHA.
 - ⚑ Research note: Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law example).
 

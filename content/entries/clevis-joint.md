@@ -69,7 +69,7 @@ finder:
   weld_material: [not applicable]
   wire_use: [not applicable]
   plugs_in: [not applicable]
-  holds_position: ['no']
+  holds_position: ['no', 'yes']
   drive_does: [not applicable]
   slide_kind: [not applicable]
   flex_does: [not applicable]
@@ -92,19 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
-needs_confirming:
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  holds_position:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let
-      something move > Swing or rock, less than a full turn > Yes, print it assembled"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, load, reuse_cycles, play_and_precision, processes, making_tips_3d_printing, everyday_examples,
@@ -361,9 +349,6 @@ Pinch point between fork and tongue as the joint closes. A missing or loose reta
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 14 sentences on this page marked [uncertain].
-- ⚑ Finder value `mounts_on` = tripod or stand (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `holds_position` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let something move > Swing or rock, less than a full turn > Yes, print it assembled"
-- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

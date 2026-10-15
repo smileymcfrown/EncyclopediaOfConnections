@@ -96,10 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ning rings (osamutake''s printed models are held with retaining
       rings) [uncertain: tool not named]; for wooden…"'
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [holding_principle, input_output, tools_needed, play_and_precision, materials, processes, print_in_place,
@@ -336,7 +332,6 @@ In motor-driven builds the meshing teeth and locking arcs are pinch points ⚑ [
 - ⚑ Finder value `print_in_place` = no (source uncertain): `print_in_place` is marked ⚑ [uncertain] here: "no ⚑ [uncertain]:…"
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
 - ⚑ Finder value `tools` = drill and tap, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ning rings (osamutake's printed models are held with retaining rings) ⚑ [uncertain: tool not named]; for wooden…"
-- ⚑ Finder value `clicks_do` = step forward (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## Sources
 

@@ -1,6 +1,6 @@
 # indexing & detents: Clicks into set positions
 
-7 entries. ⚑ = needs confirming: 11 best guesses and 0 values from text marked [uncertain]
+7 entries. ⚑ = needs confirming: 3 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -18,17 +18,9 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
-- ⚑ **25 Click-pen mechanism**, `clicks_do` = step forward: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
-- ⚑ **30 Ball detent**, `clicks_do` = hold a set position: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
-- ⚑ **32 Compliant detent**, `clicks_do` = hold a set position: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 - ⚑ **33 Detent hinge**, `connects` = lid, door or cover: worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ **33 Detent hinge**, `holds_position` = yes: carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let something move > Swing or rock, less than a full turn > Yes, print it assembled"
-- ⚑ **33 Detent hinge**, `clicks_do` = hold a set position: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
-- ⚑ **33 Detent hinge**, `turns` = part of a turn: carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ **34 Hirth joint**, `connects` = shaft: worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ **34 Hirth joint**, `clicks` = clicks: the text uses both clicking and silent words
-- ⚑ **34 Hirth joint**, `clicks_do` = hold a set position: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
-- ⚑ **280 Magnetic detent**, `clicks_do` = hold a set position: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## From research text marked [uncertain]
 

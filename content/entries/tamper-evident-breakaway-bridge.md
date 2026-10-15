@@ -90,10 +90,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, load, processes, making_tips_3d_printing, environment_limits, safety_notes, common_failures, links]
@@ -338,7 +334,6 @@ Tamper evidence is not tamper proof: tests at Argonne National Laboratory showed
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-- ⚑ Finder value `opens_by` = twist (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
 
 ## Sources
 

@@ -98,14 +98,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…bles models), but no manufacturer data for printed surfaces was found
       [uncertain].…"'
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  wall_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 confirmed: []
 open_points: []
 uncertain_fields: [load, materials, making_tips_3d_printing, environment_limits, related]
@@ -319,8 +311,6 @@ The main hazard is the object falling: 3M warns not to hang items over beds, not
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = ABS or ASA, slippery plastics (PE or PP), silicone, acrylic or polycarbonate, wood, metal, glass or ceramic, rubber, foam, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…bles models), but no manufacturer data for printed surfaces was found ⚑ [uncertain].…"
 - ⚑ Finder value `bonds_poorly` = PLA, PETG, paper or card (source uncertain): `materials` is marked ⚑ [uncertain] here: "…bles models), but no manufacturer data for printed surfaces was found ⚑ [uncertain].…"
-- ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `wall_hold` = tape or pads (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 
 ## Sources
 

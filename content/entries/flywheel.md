@@ -73,7 +73,7 @@ finder:
   slide_kind: [not applicable]
   flex_does: [not applicable]
   move_kind: [not applicable]
-  one_way_kind: [silent]
+  one_way_kind: [not applicable]
   clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
@@ -83,7 +83,7 @@ finder:
   tightens: [not applicable]
   tension_hold: [not applicable]
   adjusts: [not applicable]
-  spring_kind: [straight push or pull]
+  spring_kind: [wind up and let go]
   seal_use: [not applicable]
   seal_material: [not applicable]
   hose_join: [not applicable]
@@ -91,15 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  one_way_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
-      > Move one way only > Turns"
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -348,8 +340,6 @@ Bursting: rotation energy can be stored 'until the rotor shatters', when the hoo
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `one_way_kind` = silent (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ Finder value `spring_kind` = straight push or pull (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 - ⚑ Research note: *Flywheel*: 6 fields are marked [uncertain].
 
 ## Sources

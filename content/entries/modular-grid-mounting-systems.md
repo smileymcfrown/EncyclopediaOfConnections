@@ -99,14 +99,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  wall_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, load, play_and_precision, materials, processes, making_tips_3d_printing, environment_limits,
@@ -398,8 +390,6 @@ Small neodymium magnets used in bin grids are dangerous if a child swallows more
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-- ⚑ Finder value `mounts_on` = wall or ceiling, rail, extrusion or grid (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `wall_hold` = screws, anchors or hooks (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 
 ## Sources
 

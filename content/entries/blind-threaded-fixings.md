@@ -51,7 +51,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [sheet metal or plastic]
+  sheet_material: [sheet metal, plastic sheet]
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -84,7 +84,7 @@ finder:
   adjusts: [not applicable]
   spring_kind: [not applicable]
   seal_use: [seal a still joint]
-  seal_material: [metal]
+  seal_material: [metal, 'plastic, fabric or a gap']
   hose_join: [not applicable]
   fluid_does: [not applicable]
   powered_does: [not applicable]
@@ -95,18 +95,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…asher (Smoking Steel Garage video ''Install Rivnuts Without The
       Tool'') [uncertain: video not watched]. Well nut…"'
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  seal_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
-      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, holding_principle, reuse_cycles, tools_needed, processes, making_tips_3d_printing, everyday_examples,
@@ -370,9 +358,6 @@ Drilling sheet metal leaves sharp burrs and swarf: wear eye protection and debur
 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…asher (Smoking Steel Garage video 'Install Rivnuts Without The Tool') ⚑ [uncertain: video not watched]. Well nut…"
-- ⚑ Finder value `sheet_material` = sheet metal or plastic (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `seal_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 
 ## Sources
 

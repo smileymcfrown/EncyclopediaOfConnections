@@ -83,7 +83,7 @@ finder:
   tightens: [not applicable]
   tension_hold: [not applicable]
   adjusts: [not applicable]
-  spring_kind: [twist or wind]
+  spring_kind: [twist back]
   seal_use: [not applicable]
   seal_material: [not applicable]
   hose_join: [not applicable]
@@ -95,18 +95,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  holds_position:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let
-      something move > Swing or rock, less than a full turn > Yes, print it assembled"
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [maker_difficulty, processes, making_tips_3d_printing, off_the_shelf_parts, links, make_it_yourself]
@@ -381,9 +369,6 @@ A door that closes by itself is a pinch and slam hazard at both the hinge side a
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `holds_position` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let something move > Swing or rock, less than a full turn > Yes, print it assembled"
-- ⚑ Finder value `spring_kind` = twist or wind (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
-- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

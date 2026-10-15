@@ -59,7 +59,7 @@ finder:
   shaft_joint: [not applicable]
   printable: [not applicable]
   shaft_alignment: [not applicable]
-  cord_use: [sew or lace, a fitted part]
+  cord_use: [sew or lace]
   knot_use: [not applicable]
   cord_part: [not applicable]
   opens_by: [not applicable]
@@ -93,23 +93,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  weld_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
-      things together > Melt them together"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  seal_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
-      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -345,10 +329,6 @@ BURNS: sealer bars, impulse-sealer wires, irons, soldering-iron tips and freshly
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = sew or lace, a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `weld_material` = plastic or film (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `seal_material` = plastic, fabric or a gap (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 - ⚑ Research note: *Heat-sealed seam*: 'weaker in peel than in shear' is [uncertain] (the patent PDF stating it had no extractable text).
 
 ## Sources

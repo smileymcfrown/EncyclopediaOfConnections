@@ -72,7 +72,7 @@ finder:
   plugs_in: [not applicable]
   holds_position: [not applicable]
   drive_does: [not applicable]
-  slide_kind: [telescoping tube, carriage on a rail]
+  slide_kind: [carriage on a rail]
   flex_does: [not applicable]
   move_kind: [not applicable]
   one_way_kind: [not applicable]
@@ -98,10 +98,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`adjustable` is marked [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments
       [uncertain]), and travel, detent force a…"'
-  slide_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move
-      > Slide in a straight line, or telescope"
 confirmed: []
 open_points:
 - kind: sources
@@ -379,7 +375,6 @@ Pinch points between the moving members and at the drawer front. Loaded, fully e
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `adjustable` = no (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force a…"
-- ⚑ Finder value `slide_kind` = telescoping tube, carriage on a rail (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
 
 ## Sources
 

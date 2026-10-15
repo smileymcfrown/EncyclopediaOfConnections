@@ -92,10 +92,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, processes, environment_limits, related, make_it_yourself]
@@ -375,7 +371,6 @@ The point where the belt runs onto a pulley is an in-running nip point that can 
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, crossed, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `straight_drive` = long travel or pulling (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
 
 ## Sources
 

@@ -96,13 +96,9 @@ finder:
   hose_join: [not applicable]
   fluid_does: [not applicable]
   powered_does: [not applicable]
-  also_under: [control, overload]
+  also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -337,7 +333,6 @@ Burns: 'Burns can occur from touching hot metal parts, hot water, or steam'; don
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `also_under` = control, overload (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 - ⚑ Research note: *Iron-on fusible web*: no published strength figures for hobby webs were found (`load` is [uncertain]); activation temperatures (about 77-166 °C) and wash and dry-clean resistance come from Bostik's web-adhesive brochure, and washing figures from four sources are recorded side by side. A WebFetch summary misquoted the Dangerous Ladies cosplay page; the agent checked the raw page and used the real wording.
 
 ## Sources

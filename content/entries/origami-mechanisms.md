@@ -105,9 +105,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube:
       push or pull along the a..."'
-  move_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, job, input_output, power, play_and_precision, materials, processes, off_the_shelf_parts, everyday_examples,
@@ -376,7 +373,6 @@ Few hazards. Laying mesh or tape during a print pause puts your hands close to a
 - ⚑ Finder value `motion_in` = straight push or pull (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
-- ⚑ Finder value `move_kind` = follows a set path (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
 
 ## Sources
 

@@ -63,7 +63,7 @@ finder:
   wire_use: [not applicable]
   plugs_in: [not applicable]
   holds_position: [not applicable]
-  drive_does: [passes the turning on]
+  drive_does: [not applicable]
   slide_kind: [not applicable]
   flex_does: [not applicable]
   move_kind: [not applicable]
@@ -89,14 +89,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
-  drive_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something
-      move > Spin round and round > A shaft driving another shaft"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, everyday_examples, environment_limits, safety_notes]
@@ -346,8 +338,6 @@ Pinch and crush points between the turning top and the base, especially on motor
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
-- ⚑ Finder value `drive_does` = passes the turning on (best guess): carried over from the finder's old rule on entry names (R33), for "What else should it do?" under "Let something move > Spin round and round > A shaft driving another shaft"
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

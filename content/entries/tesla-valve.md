@@ -69,7 +69,7 @@ finder:
   slide_kind: [not applicable]
   flex_does: [not applicable]
   move_kind: [not applicable]
-  one_way_kind: [not applicable]
+  one_way_kind: [for air or liquid]
   clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
@@ -87,15 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [load, processes, making_tips_3d_printing, environment_limits]
@@ -350,8 +342,6 @@ None known for the valve itself, as long as nobody relies on it to stop backflow
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = one way or let off pressure (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
 
 ## Sources
 

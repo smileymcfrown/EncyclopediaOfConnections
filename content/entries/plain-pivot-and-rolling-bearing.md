@@ -92,15 +92,11 @@ finder:
   fluid_does: [not applicable]
   powered_does: [not applicable]
   also_under: [not applicable]
-  turns: [full turns]
+  turns: [part of a turn, full turns]
 needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, load, processes, making_tips_3d_printing, off_the_shelf_parts, everyday_examples,
@@ -367,7 +363,6 @@ Pivoting levers and arms make scissor-like pinch points ⚑ [uncertain]. Spinnin
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

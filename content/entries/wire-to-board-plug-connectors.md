@@ -99,14 +99,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
-  plugs_in:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires
-      or power > A wire to a board, terminal or device"
 confirmed: []
 open_points:
 - kind: content
@@ -372,8 +364,6 @@ Low current only: overloaded or worn contacts heat up; female sockets 'can sprea
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = to a board or terminal (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
-- ⚑ Finder value `plugs_in` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ Research note: *Wire-to-board plug connectors*: no mating-cycle figure for small crimp housings could be opened (`reuse_cycles` is [uncertain]).
 
 ## Sources

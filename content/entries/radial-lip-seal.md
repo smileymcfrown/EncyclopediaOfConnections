@@ -94,10 +94,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted
       [uncertain].…"'
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
 confirmed: []
 open_points: []
 uncertain_fields: [materials, removability, reuse_cycles, adjustable, making_tips_3d_printing, safety_notes, common_failures]
@@ -345,7 +341,6 @@ Fluororubber (FKM, Viton (brand)) and PTFE seals give off dangerous fumes above 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `removability` = semi-permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain].…"
-- ⚑ Finder value `seal_use` = seal a moving shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 
 ## Sources
 

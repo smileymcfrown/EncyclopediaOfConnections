@@ -93,18 +93,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound on set screws
       [uncertain]. Printed versions need nuts,…"'
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  shaft_alignment:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold
-      two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes, common_failures,
@@ -348,9 +336,6 @@ It spins with the shafts, and the set screws or clamp screw sticking out of it c
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = soldering iron, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound on set screws ⚑ [uncertain]. Printed versions need nuts,…"
-- ⚑ Finder value `shaft_joint` = shaft to shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `shaft_alignment` = a little out of line (best guess): carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
-- ⚑ Finder value `flex_does` = straight line or spring (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
 
 ## Sources
 

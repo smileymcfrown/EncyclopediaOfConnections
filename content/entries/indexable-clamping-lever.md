@@ -68,7 +68,7 @@ finder:
   flex_does: [not applicable]
   move_kind: [not applicable]
   one_way_kind: [not applicable]
-  clicks_do: [step forward]
+  clicks_do: [hold a set position]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
   slows_by: [not applicable]
@@ -90,14 +90,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket)
       [uncertain: varies by model]…"'
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, input_output, tools_needed, load, play_and_precision, processes, making_tips_3d_printing, rules_of_thumb,
@@ -331,8 +323,6 @@ Pinch point: the spring snaps the lever back down when you let go, and a swingin
 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket) ⚑ [uncertain: varies by model]…"
-- ⚑ Finder value `mounts_on` = bar, pole or desk edge (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `clicks_do` = step forward (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## Sources
 

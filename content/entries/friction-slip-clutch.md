@@ -97,10 +97,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
 confirmed: []
 open_points:
 - kind: sources
@@ -353,7 +349,6 @@ It limits torque but does not make a machine finger-safe: the set torque can sti
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `slows_by` = steady speed or level (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
 - ⚑ Research note: *Friction slip clutch*: a motorcycle "slipper clutch" is a back-torque limiter, not the same as the RC-car slipper clutch. The entry says so.
 
 ## Sources

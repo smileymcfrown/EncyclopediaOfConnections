@@ -90,11 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -366,7 +362,6 @@ Table saws (used for cutting ends square and for dado-cut half laps) can kick wo
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 - ⚑ Research note: *Butt and lap wood joints* (271): the *Wood Handbook*'s 250-460% clinching gain for green wood that dries was left out ('does not justify the use of green lumber'). The 'rack nut' alias for the cage nut (173) has no source and was left out.
 
 ## Sources

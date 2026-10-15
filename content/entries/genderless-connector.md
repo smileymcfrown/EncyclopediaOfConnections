@@ -70,7 +70,7 @@ finder:
   wall_hold: [not applicable]
   gripped_by: [not applicable]
   weld_material: [not applicable]
-  wire_use: [to a board or terminal]
+  wire_use: [splice, to a board or terminal]
   plugs_in: ['yes']
   holds_position: [not applicable]
   drive_does: [not applicable]
@@ -103,14 +103,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to
       wire [uncertain]…"'
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
-  plugs_in:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires
-      or power > A wire to a board, terminal or device"
 confirmed: []
 open_points:
 - kind: content
@@ -382,8 +374,6 @@ Pressurised hoses: a quarter-turn coupling that is not fully engaged can come ap
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
 - ⚑ Finder value `tools` = none, soldering iron, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to wire ⚑ [uncertain]…"
-- ⚑ Finder value `wire_use` = to a board or terminal (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
-- ⚑ Finder value `plugs_in` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you unplug it often?" under "Connect wires or power > A wire to a board, terminal or device"
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 
 ## Sources

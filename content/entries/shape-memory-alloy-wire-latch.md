@@ -83,11 +83,7 @@ finder:
   powered_does: [lock or hold]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [processes, print_in_place, making_tips_3d_printing, everyday_examples, safety_notes]
@@ -296,7 +292,6 @@ The wire runs hotter than 100 °C (Dynalloy) and can burn skin or melt plastic i
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `powered_does` = lock or hold (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

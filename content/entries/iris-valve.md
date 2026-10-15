@@ -89,7 +89,7 @@ finder:
   tension_hold: [not applicable]
   adjusts: [not applicable]
   spring_kind: [not applicable]
-  seal_use: [pass cables through, pump or control a flow]
+  seal_use: [pump or control a flow]
   seal_material: [not applicable]
   hose_join: [not applicable]
   fluid_does: ['switch, set or store']
@@ -101,18 +101,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…rs for fabric, and a hose clamp or cable ties to grip the sleeve
       ends [uncertain]…"'
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, maker_difficulty, processes, making_tips_3d_printing, environment_limits]
@@ -354,9 +342,6 @@ Explosive dusts: ground the valve and surrounding equipment to prevent static sp
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…rs for fabric, and a hose clamp or cable ties to grip the sleeve ends ⚑ [uncertain]…"
-- ⚑ Finder value `clicks_do` = hold a set position (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
-- ⚑ Finder value `seal_use` = pass cables through, pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = switch, set or store (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
 
 ## Sources
 

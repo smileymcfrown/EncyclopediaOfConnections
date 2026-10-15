@@ -81,7 +81,7 @@ finder:
   tension_hold: [not applicable]
   adjusts: [not applicable]
   spring_kind: [not applicable]
-  seal_use: [seal a still joint, seal a moving shaft]
+  seal_use: [seal a moving shaft]
   seal_material: [not applicable]
   hose_join: [not applicable]
   fluid_does: [not applicable]
@@ -96,10 +96,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
 confirmed: []
 open_points:
 - kind: content
@@ -361,7 +357,6 @@ Low risk in itself; a bellows usually improves safety by covering pinch points b
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…tted with the driveshaft removed and secured with special boot clamps ⚑ [uncertain: not checked in an opened sou…"
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `seal_use` = seal a still joint, seal a moving shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 - ⚑ Research note: *Bellows boot*: `other_families` lists compliant mechanisms & flexures (the agent's choice, not asked for in the outline notes). Likewise *Bellows and inflatable actuators* adds springs & energy storage.
 
 ## Sources

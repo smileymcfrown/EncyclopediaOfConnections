@@ -73,7 +73,7 @@ finder:
   clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
-  slows_by: [brake]
+  slows_by: [brake, damper]
   straight_drive: [not applicable]
   push_by: [not applicable]
   tightens: [not applicable]
@@ -92,10 +92,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the
       gap [uncertain]; pressing magnets into print…"'
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, tools_needed, load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -359,7 +355,6 @@ Strong neodymium magnets can pinch skin and even break bones when they snap toge
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the gap ⚑ [uncertain]; pressing magnets into print…"
-- ⚑ Finder value `slows_by` = brake (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
 
 ## Sources
 

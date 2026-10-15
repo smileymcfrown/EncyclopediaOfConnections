@@ -94,19 +94,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers)
       [uncertain: adjustment procedure not des…"'
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
 confirmed: []
 open_points:
 - kind: sources
@@ -329,9 +316,6 @@ Fingers can be trapped between a closing door and the striker, and the claw snap
 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `adjustable` = partly (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers) ⚑ [uncertain: adjustment procedure not des…"
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
-- ⚑ Finder value `holds_for` = a person to open (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
 
 ## Sources
 

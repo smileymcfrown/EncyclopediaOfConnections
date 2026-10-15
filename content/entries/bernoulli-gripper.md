@@ -96,14 +96,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
-  gripped_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
-      together > Something that has to be gripped or clamped"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points:
 - kind: content
@@ -359,8 +351,6 @@ It drops the part as soon as the air stops (compressor fault, hose off, pressure
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air (source uncertain): `power` is marked ⚑ [uncertain] here: "…re exists only while air is flowing (Festo OGGB functional principle) ⚑ [uncertain: no source gives how quickly…"
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
-- ⚑ Finder value `gripped_by` = machine (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
-- ⚑ Finder value `powered_does` = grip or lift (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Vacuum gripper* (109) and *Bernoulli gripper* (277): electroadhesion figures recorded side by side (Hackaday 2019: a sheet of paper held with 5 mN of shear at 3 kV; the open-source board's README, 100 × 100 mm at 1.4 kV: 9 N uncoated, 4 N with a PlastiDip coat, 2.5 N with Kapton). Not in the files: the README's 90 mN/cm² is far below Wikipedia's claimed 0.5-1.5 N/cm²; check before publishing.
 - ⚑ Research note: *Bernoulli gripper*: porous sheets (EE3D: grips them where vacuum fails; SMC: lift may fail if holes add up to more than about 1% of the pad area). Both are given.
 

@@ -91,10 +91,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
 confirmed: []
 open_points:
 - kind: content
@@ -345,7 +341,6 @@ LITHIUM CELLS: shorting, crushing, puncturing, overheating or overcharging a lit
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = touching or turning contacts (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 - ⚑ Research note: *Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum users (budgetlightforum), not from tests or a data sheet; check it against a holder maker's data sheet.
 
 ## Sources

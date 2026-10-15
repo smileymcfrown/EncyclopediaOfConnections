@@ -87,10 +87,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…sitioning Device''); a hex key or screwdriver for clamped metal
       blades [uncertain]…"'
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
 confirmed: []
 open_points: []
 uncertain_fields: [complexity, removability, tools_needed, materials, processes, off_the_shelf_parts]
@@ -324,7 +320,6 @@ None known for small printed stages. Printed blades pushed past their limit can 
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain]…"
-- ⚑ Finder value `flex_does` = straight line or spring (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
 
 ## Sources
 

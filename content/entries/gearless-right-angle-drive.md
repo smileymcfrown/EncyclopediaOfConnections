@@ -85,15 +85,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  shaft_alignment:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold
-      two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, materials, processes, print_in_place, everyday_examples, environment_limits, safety_notes,
@@ -340,8 +332,6 @@ The rods slide in and out of the hubs and sweep round as it turns, so fingers ca
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `shaft_joint` = shaft to shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `shaft_alignment` = at an angle or a bent path (best guess): carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
 
 ## Sources
 

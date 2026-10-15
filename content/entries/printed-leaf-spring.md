@@ -91,10 +91,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ewed or clamped strips; shears or a grinder to cut spring-steel
       strip [uncertain]…"'
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, degrees_of_freedom, reuse_cycles, tools_needed, adjustable, off_the_shelf_parts, environment_limits,
@@ -338,7 +334,6 @@ Low risk for small printed springs, but a spring bent past its limit can snap su
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ewed or clamped strips; shears or a grinder to cut spring-steel strip ⚑ [uncertain]…"
-- ⚑ Finder value `flex_does` = straight line or spring (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
 
 ## Sources
 

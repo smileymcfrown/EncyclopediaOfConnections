@@ -115,7 +115,7 @@ sheet_material:
   kind: list
   set_by: hand
   meaning: 'Answer to the finder question "What is the sheet made of?" (under: Hold two things together > Boards, panels or sheet > No, never).'
-  options: [wood, sheet metal or plastic, not applicable]
+  options: [wood, sheet metal, plastic sheet, not applicable]
 
 carries_fluid:
   kind: list
@@ -240,7 +240,7 @@ move_kind:
 one_way_kind:
   kind: list
   set_by: hand
-  meaning: 'Answer to the finder question "Is clicking OK?" (under: Control a movement > Move one way only > Turns).'
+  meaning: 'Answer to the finder questions "Does it turn or slide?" (for air or liquid) and "Is clicking OK?" (under: Control a movement > Move one way only).'
   options: [clicks, silent, for air or liquid, not applicable]
 
 clicks_do:
@@ -301,7 +301,7 @@ spring_kind:
   kind: list
   set_by: hand
   meaning: 'Answer to the finder question "How should it push back?" (under: Spring back, or store energy).'
-  options: [straight push or pull, twist or wind, not applicable]
+  options: [straight push or pull, twist back, wind up and let go, not applicable]
 
 seal_use:
   kind: list

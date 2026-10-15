@@ -94,10 +94,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…a bandsaw with jigs (woodgears.ca); a CNC router needs special setups
       [uncertain]. Glue and clamps.…"'
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, seal, processes, making_tips_3d_printing, everyday_examples, when_not_to_use,
@@ -368,7 +364,6 @@ Sharp chisels and saws cause most hand-tool injuries; keep both hands behind the
 
 - ⚑ 19 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, press or vice, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a bandsaw with jigs (woodgears.ca); a CNC router needs special setups ⚑ [uncertain]. Glue and clamps.…"
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
 
 ## Sources
 

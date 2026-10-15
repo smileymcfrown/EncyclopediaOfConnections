@@ -82,19 +82,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
-needs_confirming:
-  opens_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  holds_position:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let
-      something move > Swing or rock, less than a full turn > Yes, print it assembled"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, motion, reuse_cycles, load, play_and_precision, materials, processes, environment_limits, common_failures]
@@ -323,9 +311,6 @@ Pinch points: fingers can be caught between the meshing teeth of an exposed prin
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `opens_by` = swings on a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `holds_position` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let something move > Swing or rock, less than a full turn > Yes, print it assembled"
-- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

@@ -92,14 +92,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  slide_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move
-      > Slide in a straight line, or telescope"
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, safety_notes]
@@ -339,8 +331,6 @@ Pinch points: fingers can be caught between the lever and collar as it snaps shu
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = tube, rod or extrusion (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `slide_kind` = telescoping tube (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of slide?" under "Let something move > Slide in a straight line, or telescope"
-- ⚑ Finder value `over_centre_use` = clamp or latch (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 
 ## Sources
 

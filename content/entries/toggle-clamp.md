@@ -100,14 +100,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: both sides turn, but no shaft layout named
-  gripped_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
-      together > Something that has to be gripped or clamped"
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
 confirmed: []
 open_points:
 - kind: sources
@@ -373,8 +365,6 @@ Pinch points: keep fingers out of the linkage and from under the spindle while c
 - ⚑ Finder value `motion_in` = back-and-forth turning (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `motion_out` = back-and-forth turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named
-- ⚑ Finder value `gripped_by` = by hand (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
-- ⚑ Finder value `over_centre_use` = clamp or latch (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
 
 ## Sources
 

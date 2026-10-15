@@ -95,11 +95,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, seal, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes]
@@ -365,7 +361,6 @@ Strong in-running pinch points where the wheel meets the disc or tyre: keep fing
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 11 sentences on this page marked [uncertain].
-- ⚑ Finder value `straight_drive` = long travel or pulling (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
 
 ## Sources
 

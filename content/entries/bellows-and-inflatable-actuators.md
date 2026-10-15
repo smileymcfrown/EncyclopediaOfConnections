@@ -82,11 +82,11 @@ finder:
   tension_hold: [not applicable]
   adjusts: [not applicable]
   spring_kind: [not applicable]
-  seal_use: [seal a moving shaft]
+  seal_use: [not applicable]
   seal_material: [not applicable]
   hose_join: [not applicable]
   fluid_does: [not applicable]
-  powered_does: [move or push something]
+  powered_does: [move or push something, grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
 needs_confirming:
@@ -96,14 +96,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: lets go, keeps its last state'
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, load, safety_notes]
@@ -370,8 +362,6 @@ Over-inflation bursts it: Firestone warns never to inflate an air spring when it
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, keeps its last state
-- ⚑ Finder value `seal_use` = seal a moving shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

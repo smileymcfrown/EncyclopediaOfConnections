@@ -98,13 +98,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
-  move_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [seal, load, play_and_precision, processes, making_tips_3d_printing, off_the_shelf_parts, safety_notes,
@@ -368,8 +361,6 @@ An unlocked arm can pop apart or sag and drop what it holds (Alex Rich, hackaday
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
-- ⚑ Finder value `move_kind` = swivel or tilt (best guess): carried over from the finder's old rule on entry names (R33), for "How should it move?" under "Let something move"
-- ⚑ Finder value `holds_for` = a load (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
 
 ## Sources
 

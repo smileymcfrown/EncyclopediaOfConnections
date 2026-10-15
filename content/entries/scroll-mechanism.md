@@ -86,11 +86,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  gripped_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things
-      together > Something that has to be gripped or clamped"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -324,7 +320,6 @@ Never leave the chuck key in the chuck: if the lathe starts it is flung out (Set
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `gripped_by` = by hand (best guess): carried over from the finder's old rule on entry names (R33), for "Who does the gripping?" under "Hold two things together > Something that has to be gripped or clamped"
 - ⚑ Research note: *Scroll mechanism*: Wikipedia's ±0.125 mm three-jaw runout is itself "citation needed"; the entry leads with Sherline's 0.003 in. The Setrite manual's speed column has no unit, so its numbers were left out.
 
 ## Sources

@@ -96,14 +96,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: stays locked, keeps its last state'
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
 confirmed: []
 open_points: []
 uncertain_fields: [materials, maker_difficulty, making_tips_3d_printing]
@@ -354,8 +346,6 @@ Fire and burns: the wire glows red to orange and reaches over 750 °C (Thurn); i
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `power_loss` = stays locked (best guess): versions differ: stays locked, keeps its last state
-- ⚑ Finder value `powered_does` = lock or hold (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
-- ⚑ Finder value `also_under` = control, overload (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## Sources
 

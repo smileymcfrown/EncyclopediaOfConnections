@@ -88,11 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  weld_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
-      things together > Melt them together"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -322,7 +318,6 @@ Major hazards: get training and read the machine's manual. ARC LIGHT: the arc gi
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `weld_material` = metal (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
 
 ## Sources
 

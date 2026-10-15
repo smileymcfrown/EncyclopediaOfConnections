@@ -120,10 +120,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…for clearance and pilot holes, and a tap to thread a hole for a
       stud [uncertain]. A ruler or a cut-to-length…"'
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
 confirmed: []
 open_points:
 - kind: content
@@ -397,7 +393,6 @@ Plain zinc-plated hardware-store rod is usually a low-strength grade, and unmark
 - ⚑ Finder value `motion_out` = straight push or pull (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread ⚑ [uncertain])…"
 - ⚑ Finder value `shaft_layout` = not applicable (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread ⚑ [uncertain])…"
 - ⚑ Finder value `tools` = drill and tap, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…for clearance and pilot holes, and a tap to thread a hole for a stud ⚑ [uncertain]. A ruler or a cut-to-length…"
-- ⚑ Finder value `tightens` = parts clamped together (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
 - ⚑ Research note: *Threaded rod and studs*: 15 of 41 fields are marked [uncertain] (the M8 example load is calculated; the 'studding' alias, the stud-wear argument and rod being weak in bending have no opened source; the AISC article and forum pages were blocked), so check it first. The agent also added the adjusters family to `other_families`.
 
 ## Sources

@@ -89,14 +89,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release
       [uncertain]…"'
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  threaded:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two
-      things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -385,8 +377,6 @@ Generally none known. Over-bent arms can snap and send small sharp fragments fly
 
 - ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release ⚑ [uncertain]…"
-- ⚑ Finder value `printed_take_apart` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `threaded` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
 
 ## Sources
 

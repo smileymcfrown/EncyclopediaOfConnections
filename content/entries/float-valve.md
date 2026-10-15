@@ -89,7 +89,7 @@ finder:
   seal_use: [pump or control a flow]
   seal_material: [not applicable]
   hose_join: [not applicable]
-  fluid_does: [one way or let off pressure]
+  fluid_does: ['switch, set or store']
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
@@ -106,18 +106,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a
       lever: the closing force o..."'
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
 confirmed: []
 open_points:
 - kind: content
@@ -382,9 +370,6 @@ BS 1212 Part 1 (Portsmouth piston) brass float valves; Part 2 brass diaphragm an
 - ⚑ Finder value `motion_in` = not applicable (best guess): could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a lever: the closing force o..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a lever: the closing force o..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a lever: the closing force o..."
-- ⚑ Finder value `slows_by` = steady speed or level (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = one way or let off pressure (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
 - ⚑ Research note: *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address; the entry credits the name only.
 
 ## Sources

@@ -95,10 +95,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points:
 - kind: sources
@@ -315,7 +311,6 @@ Miniature diaphragm vacuum pump or hand vacuum pump; [venturi](../glossary.md#ve
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
-- ⚑ Finder value `powered_does` = move or push something (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Vacuum-driven artificial muscle*: two `safety_notes` points (keep fingers clear; it drops its load if the vacuum is lost) are the agent's reasoning from the mechanism, not from a source, and are not marked. The entry has only 12 sources.
 
 ## Sources

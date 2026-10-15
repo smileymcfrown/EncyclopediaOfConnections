@@ -109,10 +109,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, environment_limits, safety_notes, common_failures]
@@ -332,7 +328,6 @@ SOLVENT FUMES AND FIRE: some silver paints are solvent-based. Electrolube's Silv
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (best guess): no tool named in `tools_needed`; defaulted to hand tools
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `wire_use` = on fabric, paper or a print (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
 
 ## Sources
 

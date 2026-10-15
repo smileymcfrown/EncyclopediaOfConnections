@@ -96,13 +96,9 @@ needs_confirming:
       [uncertain].…"'
   opens_by:
     kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things
-      together > A lid, door or cover that opens and closes"
-  locks_out:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can
-      open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch
-      or lever"
+    reason: 'carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding
+      lid opens by sliding, which none of the three answers covers; ''catch or lever'' is wrong, but dropping it would lose
+      sliding-lid boxes from the lid shortlist'
 confirmed: []
 open_points: []
 uncertain_fields: [removability, reuse_cycles, tools_needed, seal, processes, making_tips_3d_printing, when_not_to_use]
@@ -375,8 +371,7 @@ Tongue-and-groove router bits are large and heavy: use a powerful, variable-spee
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = effectively unlimited (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…unlimited for a sliding lid, until the grooves wear or the wood warps ⚑ [uncertain];…"
 - ⚑ Finder value `tools` = press or vice, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…s for glued panels; nails for floors, possibly with a flooring nailer ⚑ [uncertain].…"
-- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the finder's old rule on entry names (R33), for "How should it open?" under "Hold two things together > A lid, door or cover that opens and closes"
-- ⚑ Finder value `locks_out` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Should it lock, so only the right person can open it?" under "Hold two things together > A lid, door or cover that opens and closes > Press, pull or flip a catch or lever"
+- ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding lid opens by sliding, which none of the three answers covers; 'catch or lever' is wrong, but dropping it would lose sliding-lid boxes from the lid shortlist
 
 ## Sources
 

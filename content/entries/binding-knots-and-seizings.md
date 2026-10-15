@@ -104,26 +104,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: twine, whipping or s"; knots family, so set to sewing or leatherwork'
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  knot_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Tie, splice or lash it"
-  wire_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires
-      or power"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points:
 - kind: content
@@ -374,11 +354,6 @@ Seizings and binding knots are not for heavy or critical loads (Wikipedia 'Seizi
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = sewing or leatherwork (best guess): first-listed process was "off-the-shelf part: twine, whipping or s"; knots family, so set to sewing or leatherwork
-- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `knot_use` = bind or lash (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
-- ⚑ Finder value `wire_use` = insulate, protect or route (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Connect wires or power"
-- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = friction grip (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 - ⚑ Research note: *Binding knots and seizings*: the constrictor's ABOK number differs (#1249 Wikipedia, #1188 on p. 216 per Animated Knots), both recorded; cable-lacing tie spacing differs between NASA-STD-8739.4A Table 9-1, the 1962 US Navy lacing manual and AeroElectric, recorded side by side; twine-size and turn rules for seizings come from ropeworks.biz, a hobbyist site, and are labelled so. **Convention to decide:** the entry is tagged with the electrical family but carries no current, so its `load` starts 'Electrical: not a conductor'; none of the fixed electrical lead-ins fits such entries.
 
 ## Sources

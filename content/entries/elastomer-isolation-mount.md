@@ -62,7 +62,7 @@ finder:
   opens_by: [not applicable]
   locks_out: [not applicable]
   mounts_on: [wall or ceiling]
-  wall_hold: [tape or pads]
+  wall_hold: ['screws, anchors or hooks']
   gripped_by: [not applicable]
   weld_material: [not applicable]
   wire_use: [not applicable]
@@ -93,16 +93,8 @@ finder:
 needs_confirming:
   mounts_on:
     kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  wall_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
+    reason: 'carried over from the old rule on entry names (R33); checked against the entry text and still unsure: it fixes
+      a motor, fan or pump to a machine frame or floor; the entry never mentions walls, and none of the places fits well'
 confirmed: []
 open_points: []
 uncertain_fields: [processes]
@@ -361,9 +353,7 @@ If the rubber tears or perishes, a plain mount lets go: use fail-safe (captive) 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `wall_hold` = tape or pads (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
-- ⚑ Finder value `slows_by` = damper (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
+- ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the old rule on entry names (R33); checked against the entry text and still unsure: it fixes a motor, fan or pump to a machine frame or floor; the entry never mentions walls, and none of the places fits well
 
 ## Sources
 

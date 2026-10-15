@@ -95,10 +95,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: lets go, stays locked'
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, environment_limits, safety_notes]
@@ -353,7 +349,6 @@ Doors that people walk through: a maglock must release for exit; the Life Safety
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, stays locked
-- ⚑ Finder value `powered_does` = lock or hold (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 
 ## Sources
 

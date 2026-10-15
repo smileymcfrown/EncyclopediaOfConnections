@@ -76,7 +76,7 @@ finder:
   tightens: [not applicable]
   tension_hold: [not applicable]
   adjusts: [not applicable]
-  spring_kind: [twist or wind]
+  spring_kind: [twist back]
   seal_use: [not applicable]
   seal_material: [not applicable]
   hose_join: [not applicable]
@@ -95,18 +95,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws
       [uncertain]…"'
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
-  over_centre_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement
-      > Snap past a point and stay there"
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, special_behaviour, reuse_cycles, tools_needed, materials, processes, print_in_place, making_tips_3d_printing,
@@ -333,9 +321,6 @@ Cut tape-measure steel has very sharp edges; cover them with tough tape (Naked S
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws ⚑ [uncertain]…"
-- ⚑ Finder value `flex_does` = folds like a hinge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
-- ⚑ Finder value `over_centre_use` = flip between positions (best guess): carried over from the finder's old rule on entry names (R33), for "What is it for?" under "Control a movement > Snap past a point and stay there"
-- ⚑ Finder value `spring_kind` = twist or wind (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 
 ## Sources
 

@@ -78,7 +78,7 @@ finder:
   tension_hold: [not applicable]
   adjusts: [not applicable]
   spring_kind: [not applicable]
-  seal_use: [seal a still joint]
+  seal_use: [seal a still joint, seal a moving shaft]
   seal_material: [not applicable]
   hose_join: [not applicable]
   fluid_does: [not applicable]
@@ -89,10 +89,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, seal, play_and_precision, processes, making_tips_3d_printing, off_the_shelf_parts, rules_of_thumb,
@@ -318,7 +314,6 @@ None known for the seal itself. A labyrinth-only box is not waterproof: don't re
 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 
 ## Sources
 

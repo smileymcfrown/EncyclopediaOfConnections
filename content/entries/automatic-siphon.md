@@ -86,7 +86,7 @@ finder:
   seal_use: [pump or control a flow]
   seal_material: [not applicable]
   hose_join: [not applicable]
-  fluid_does: [pump]
+  fluid_does: ['switch, set or store']
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
@@ -103,14 +103,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical
       design figures: for ..."'
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  fluid_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass
-      cables, air or liquid through > Pump, store or control air or liquid"
 confirmed: []
 open_points: []
 uncertain_fields: [power, making_tips_3d_printing, environment_limits]
@@ -353,8 +345,6 @@ Low risk in itself: no stored pressure and no moving parts. Related hazards in t
 - ⚑ Finder value `motion_in` = not applicable (best guess): could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical design figures: for ..."
 - ⚑ Finder value `motion_out` = steps (best guess): could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical design figures: for ..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical design figures: for ..."
-- ⚑ Finder value `seal_use` = pump or control a flow (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `fluid_does` = pump (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Seal it, or pass cables, air or liquid through > Pump, store or control air or liquid"
 
 ## Sources
 

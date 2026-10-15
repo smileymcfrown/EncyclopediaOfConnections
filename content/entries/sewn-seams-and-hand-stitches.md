@@ -98,19 +98,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  seal_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
-      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -387,9 +375,6 @@ Sharp tools: needles, awls, pricking irons struck with a mallet, knives and rota
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 2 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = sew or lace (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `seal_material` = plastic, fabric or a gap (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 - ⚑ Research note: *Sewn seams*: the FAA *Parachute Rigger Handbook* gives 5-cord nylon thread as 40 lb in its table (p. 3-14) and 45 lb in its text (p. 5-19); French seam allowances differ between Wikipedia and Ripstop by the Roll; sources differ on sealing a seam inside or outside (Extremtextil, Six Moon Designs, Gear Aid). Tandy writes a thread-end trim of '1/8" (1 mm)', though 1/8 in is about 3 mm.
 
 ## Sources

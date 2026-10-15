@@ -90,10 +90,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, materials, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes,
@@ -346,7 +342,6 @@ In motor-driven builds, the pin, slots and wheels form pinch and [shear](../glos
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `clicks_do` = step forward (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## Sources
 

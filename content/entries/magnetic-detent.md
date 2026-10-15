@@ -91,10 +91,6 @@ needs_confirming:
   seal:
     kind: source uncertain
     reason: '`seal` is marked [uncertain] here: "…levation), so the mechanism can be enclosed against dust and moisture [uncertain:…"'
-  clicks_do:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control
-      a movement > Click into set positions > Turns"
 confirmed: []
 open_points: []
 uncertain_fields: [seal, load, play_and_precision, materials, processes, environment_limits, make_it_yourself]
@@ -338,7 +334,6 @@ Small neodymium magnets are dangerous if swallowed: two or more can pull togethe
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `seal` = none (source uncertain): `seal` is marked ⚑ [uncertain] here: "…levation), so the mechanism can be enclosed against dust and moisture ⚑ [uncertain:…"
-- ⚑ Finder value `clicks_do` = hold a set position (best guess): carried over from the finder's old rule on entry names (R33), for "What should the clicks do?" under "Control a movement > Click into set positions > Turns"
 
 ## Sources
 

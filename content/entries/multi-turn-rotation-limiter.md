@@ -103,14 +103,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`processes` is marked [uncertain] here: "…: rings, discs, nut carriers and gears are simple flat or round parts
       [uncertain: no tested printable model of…"'
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points:
 - kind: sources
@@ -335,8 +327,6 @@ The stop takes the whole motor torque and the turret's momentum at once; a weak 
 - ⚑ Finder value `print_in_place` = no (source uncertain): `print_in_place` is marked ⚑ [uncertain] here: "no ⚑ [uncertain]:…"
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…r for clock and watch stop work; none for push-together printed rings ⚑ [uncertain]…"
 - ⚑ Finder value `usual_process` = 3D print (FDM) (source uncertain): `processes` is marked ⚑ [uncertain] here: "…: rings, discs, nut carriers and gears are simple flat or round parts ⚑ [uncertain: no tested printable model of…"
-- ⚑ Finder value `slows_by` = brake (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *Multi-turn rotation limiter*: what clock stop work is for. Wikipedia says it keeps the mainspring in the flat middle of its torque curve; Vintage Watch Straps calls that a myth (it stops over-winding). The entry gives only the over-winding reason; decide whether to mention both.
 
 ## Sources

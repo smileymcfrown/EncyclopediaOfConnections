@@ -110,22 +110,6 @@ needs_confirming:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: rope, cord, paracord"; knots family, so set to by hand (tied or
       wrapped)'
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  knot_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Tie, splice or lash it"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points:
 - kind: content
@@ -393,10 +377,6 @@ Friction hitches can let go suddenly: in slippery cord, under a jerk, or if the 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `overload_response` = slips and keeps going (best guess): several overload behaviours named: clicks or pops out and resets, slips and keeps going
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: rope, cord, paracord"; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `cord_use` = knots (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `knot_use` = loop or tension (best guess): carried over from the finder's old rule on entry names (R33), for "What should the knot do?" under "Hold two things together > Strap, cord, rope or fabric > Tie, splice or lash it"
-- ⚑ Finder value `tightens` = strap, cord or rope (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = friction grip (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 - ⚑ Research note: *Tensioning and adjustable hitches*: recorded side by side: trucker's hitch gain (3:1 in theory, about 1.6:1 in practice, 2:1 when lifting a hanging weight); Prusik slip and break loads (5.3-9.5 kN quoted in the literature against measured averages of 14.1-14.8 kN on new rope and 10.9-11.2 kN on old rope, McCullar's USFA study); Practical Sailor 2009 (the rolling hitch slipped on every material but one, the icicle hitch held on all).
 
 ## Sources

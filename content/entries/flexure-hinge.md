@@ -96,10 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks
       [uncertain]; bought pivot bearings are f…"'
-  flex_does:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let
-      something move > Bend or flex"
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, play_and_precision, processes, off_the_shelf_parts, safety_notes]
@@ -360,7 +356,6 @@ Generally low risk. Printed flexures bent past their limit snap suddenly (Sharke
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks ⚑ [uncertain]; bought pivot bearings are f…"
-- ⚑ Finder value `flex_does` = folds like a hinge, straight line or spring (best guess): carried over from the finder's old rule on entry names (R33), for "What should the bendy part do?" under "Let something move > Bend or flex"
 
 ## Sources
 

@@ -97,11 +97,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -360,7 +356,6 @@ Falling gear: a camera, light or monitor falls if the thread strips in plastic, 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `mounts_on` = tripod or stand (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
 - ⚑ Research note: *Tripod and stand screw mount*: ARRI anti-twist pin geometry (3 mm pins 60 mm apart; mini version 10.4 mm) comes only from a manufacturer's blog (Ulanzi); only the geometry was used. Maximum screw length differs (Sony: under 5.5 mm; Ricoh: 6.7 mm socket depth), both recorded. ISO 1222 itself could not be opened (iso.org 403); thread sizes are linked to gewinde-normen.de tables, not copied.
 
 ## Sources

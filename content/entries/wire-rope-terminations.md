@@ -60,7 +60,7 @@ finder:
   shaft_alignment: [not applicable]
   cord_use: [a fitted part]
   knot_use: [not applicable]
-  cord_part: ['hook, link or swivel']
+  cord_part: [join or grip ends, 'hook, link or swivel']
   opens_by: [not applicable]
   locks_out: [not applicable]
   mounts_on: [not applicable]
@@ -92,15 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  cord_part:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Fit a part"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -353,8 +345,6 @@ Not for lifting people, ever; overhead lifting needs rated terminations, rated s
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `cord_part` = hook, link or swivel (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
 - ⚑ Research note: *Wire-rope terminations*: clip count and spacing recorded side by side (Crosby sheet 56: 2 clips up to 7/16 in rope, 80%/90% efficiency; WorkSafeNB: 'at least three clips', 'up to 85%', though its own reprinted table lists 2; OSHA 1926.251 Table H-2 from 1/2 in rope: 3 drop-forged or 4 other clips, about 6 rope diameters apart; Wikipedia its own range). No efficiency for small crimped sleeves and no reuse limit for clips were found ([uncertain]).
 
 ## Sources

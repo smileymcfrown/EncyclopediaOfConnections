@@ -52,8 +52,8 @@ finder:
   threaded: [not applicable]
   sheet_material: [not applicable]
   carries_fluid: [not applicable]
-  shaft_joint: [shaft to shaft]
-  printable: [not applicable]
+  shaft_joint: [shaft to shaft, part onto a shaft]
+  printable: ['no']
   shaft_alignment: [exactly in line]
   cord_use: [not applicable]
   knot_use: [not applicable]
@@ -90,14 +90,9 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
 needs_confirming:
-  shaft_joint:
+  printable:
     kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  shaft_alignment:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold
-      two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
+    reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 confirmed: []
 open_points:
 - kind: sources
@@ -306,8 +301,7 @@ When the pin breaks the drive suddenly runs free: the motor races, and anything 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `shaft_joint` = shaft to shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `shaft_alignment` = exactly in line (best guess): carried over from the finder's old rule on entry names (R33), for "How well do the shafts line up?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > Two shafts end to end"
+- ⚑ Finder value `printable` = no (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 
 ## Sources
 

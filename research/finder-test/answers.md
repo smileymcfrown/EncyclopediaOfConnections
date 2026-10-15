@@ -16,7 +16,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Hold two things together (they stay still) | 226 | a shelf bracket on a wall, a lid clipped onto a box, two printed parts bolted together | The parts stay still against each other once they are joined. |
 | Connect wires or power (electrical connections) | 30 | joining two wires, plugging a sensor into a board, a battery into a robot | Joints that carry electric current, plus ways to insulate, protect and route the wires. |
 | Let something move (turn, slide, swing or bend) | 98 | a door hinge, a drawer slide, a wheel on an axle |  |
-| Control a movement (one way only, clicks, slips, locks, slows) | 133 | a bike freewheel, a dial that clicks, a drill clutch that slips | For moving parts that must behave in a certain way: one way only, clicking, slipping, locking or slowing. |
+| Control a movement (one way only, clicks, slips, locks, slows) | 130 | a bike freewheel, a dial that clicks, a drill clutch that slips | For moving parts that must behave in a certain way: one way only, clicking, slipping, locking or slowing. |
 | Change a movement (speed, force or kind of motion) | 65 | a gearbox, a car jack, the crank of a sewing machine | Turns one kind of motion into another, or changes its speed, force or direction. |
 | Tighten something, or take up slack | 33 | tightening a strap, tensioning a belt, a guy line |  |
 | Line parts up exactly, or adjust and level them | 12 | a lid that goes back exactly, levelling a printer bed, steadying a wobbly table |  |
@@ -47,8 +47,8 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| No, never (permanent) | 10 | a model glued or riveted together for good, a part pressed onto a pin |  |
-| Yes | 15 | a battery cover you will open again, a printed enclosure you need to get back into |  |
+| No, never (permanent) | 9 | a model glued or riveted together for good, a part pressed onto a pin |  |
+| Yes | 16 | a battery cover you will open again, a printed enclosure you need to get back into |  |
 | It is fabric, chain mail or a folding sheet made in the print | 3 | printed chain-mail armour for a costume, printed scales on a mesh fabric | The print itself becomes the flexible fabric, chain or folding sheet. |
 
 ##### Is there a screw or bolt?
@@ -57,7 +57,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Yes | 6 | a screw into a printed post, a nut trapped in a hexagonal pocket |  |
-| No (clips, pins, rings, magnets) | 9 | a snap-fit lid, a clip-on cover, a magnetic catch |  |
+| No (clips, pins, rings, magnets) | 10 | a snap-fit lid, a clip-on cover, a magnetic catch |  |
 
 #### Will you need to take it apart again?
 *After: Hold two things together (they stay still) → Boards, panels or sheet (wood, plywood, acrylic, sheet metal)*
@@ -73,8 +73,9 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Wood or plywood | 8 | a dovetailed drawer, a nailed crate, a dowelled shelf |  |
-| Sheet metal or plastic sheet | 10 | a riveted aluminium panel, a steel box held by bent tabs, a heat-staked plastic cover |  |
+| Wood or plywood | 9 | a dovetailed drawer, a nailed crate, a dowelled shelf |  |
+| Sheet metal | 8 | a riveted aluminium panel, a steel box held by bent tabs, a folded-seam duct |  |
+| Plastic sheet (acrylic, or laser-cut sheet) | 6 | a heat-staked plastic cover, a glued-up laser-cut acrylic box, a push-in rivet holding a plastic panel |  |
 
 ##### What is the sheet made of?
 *After: Hold two things together (they stay still) → Boards, panels or sheet (wood, plywood, acrylic, sheet metal) → Now and then, with a tool*
@@ -89,15 +90,15 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Yes (hoses, pipes and tubing) | 4 | aquarium tubing onto a pump, an air line onto a fitting, a hose onto a tap |  |
-| No (frames, poles and rails) | 9 | a camping-pole joint, a corner of an aluminium-extrusion frame, a clamp on a bike bar |  |
+| Yes (hoses, pipes and tubing) | 3 | aquarium tubing onto a pump, an air line onto a fitting, a hose onto a tap |  |
+| No (frames, poles and rails) | 10 | a camping-pole joint, a corner of an aluminium-extrusion frame, a clamp on a bike bar |  |
 
 #### What are you connecting?
 *After: Hold two things together (they stay still) → A wheel, gear or arm onto a shaft, or two shafts end to end*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| A wheel, gear, pulley or arm onto a shaft | 14 | a gear on a motor shaft, a knob on a volume control, a pulley on a stepper motor |  |
+| A wheel, gear, pulley or arm onto a shaft | 13 | a gear on a motor shaft, a knob on a volume control, a pulley on a stepper motor |  |
 | Two shafts end to end | 10 | a motor driving a lead screw, a stepper motor joined to a gearbox |  |
 
 ##### Will you 3D print the part that goes on the shaft?
@@ -105,8 +106,8 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Yes | 6 | a printed gear pushed onto a motor's flat-sided shaft |  |
-| No, it is metal or bought | 8 | a metal pulley with a grub screw, a bought gear with a key |  |
+| Yes | 9 | a printed gear pushed onto a motor's flat-sided shaft |  |
+| No, it is metal or bought | 9 | a metal pulley with a grub screw, a bought gear with a key |  |
 
 ##### How well do the shafts line up?
 *After: Hold two things together (they stay still) → A wheel, gear or arm onto a shaft, or two shafts end to end → Two shafts end to end*
@@ -125,7 +126,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Close an opening, or attach fabric (zip, hook-and-loop, press stud, button) | 4 | a jacket zip, a hook-and-loop strap, a press stud on a bag |  |
 | Tie, splice or lash it (knots, no hardware) | 10 | tying a boat to a post, lashing a bamboo trellis together | Joints made from the rope or cord itself, with no buckle or clip. |
 | Sew or lace it | 5 | sewing a strap onto a bag, lacing a shoe or a leather pouch |  |
-| Fit a part (buckle, hook, shackle, grommet, rivet) | 19 | a backpack buckle, a carabiner, a metal eyelet in a tarp |  |
+| Fit a part (buckle, hook, shackle, grommet, rivet) | 16 | a backpack buckle, a carabiner, a metal eyelet in a tarp |  |
 
 ##### What should the knot do?
 *After: Hold two things together (they stay still) → Strap, cord, rope or fabric → Tie, splice or lash it (knots, no hardware)*
@@ -133,8 +134,8 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Stop a cord pulling through, or finish its end | 3 | a knot behind a drawstring hole, a whipped or sealed rope end |  |
-| Tie it to a post or ring, or join two cords | 3 | tying a dog lead to a post, joining two ropes end to end |  |
-| Make a loop, or pull it tight and hold it | 4 | a loop to drop over a hook, pulling a load tight on a roof rack |  |
+| Tie it to a post or ring, or join two cords | 4 | tying a dog lead to a post, joining two ropes end to end |  |
+| Make a loop, or pull it tight and hold it | 3 | a loop to drop over a hook, pulling a load tight on a roof rack |  |
 | Bind or lash things together | 3 | tying a sack shut, lashing two poles into a cross |  |
 
 ##### What should the part do?
@@ -143,17 +144,17 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Hook, link or swivel onto something | 5 | a carabiner on a key ring, a shackle on a chain, a fishing swivel |  |
-| Join or grip strap and cord ends, or hold struts with cord | 5 | a backpack's side-release buckle, a shock-corded tent pole |  |
-| Fix it to fabric or leather, or hold a fabric edge | 4 | eyelets in a tarp, rivets on jeans, an awning slid into a rail |  |
+| Join or grip strap and cord ends, or hold struts with cord | 6 | a backpack's side-release buckle, a shock-corded tent pole |  |
+| Fix it to fabric or leather, or hold a fabric edge | 5 | eyelets in a tarp, rivets on jeans, an awning slid into a rail |  |
 
 #### How should it open?
 *After: Hold two things together (they stay still) → A lid, door or cover that opens and closes*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| It swings open on a hinge, or stays open at an angle | 7 | a laptop lid, a cupboard door, a toolbox lid that stays up |  |
+| It swings open on a hinge, or stays open at an angle | 9 | a laptop lid, a cupboard door, a toolbox lid that stays up |  |
 | Twist a lid, knob or fastener | 6 | a jar lid, a camera lens, a quarter-turn panel fastener |  |
-| Press, pull or flip a catch or lever | 16 | a toolbox clasp, a push-to-open cupboard door |  |
+| Press, pull or flip a catch or lever | 14 | a toolbox clasp, a push-to-open cupboard door |  |
 | By power (button, remote, timer) | 3 | an electric door release, a latch a robot opens on command |  |
 
 ##### Should it lock, so only the right person can open it?
@@ -161,15 +162,15 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Yes (key, code, hidden catch or safety lock) | 7 | a padlock, a combination lock, a childproof catch |  |
-| No, it just has to stay shut | 9 | a draw latch on a toolbox, a magnetic cupboard catch |  |
+| Yes (key, code, hidden catch or safety lock) | 4 | a padlock, a combination lock, a childproof catch |  |
+| No, it just has to stay shut | 10 | a draw latch on a toolbox, a magnetic cupboard catch |  |
 
 #### What is it going onto?
 *After: Hold two things together (they stay still) → Something onto a wall, desk, bar, tripod, rail or grid*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| A wall or ceiling | 13 | a shelf, a picture frame, a coat hook |  |
+| A wall or ceiling | 11 | a shelf, a picture frame, a coat hook |  |
 | A bar, pole, tube or the edge of a desk | 4 | a phone mount on handlebars, a lamp clamped to the edge of a desk |  |
 | A tripod, camera or light stand | 3 | a phone holder on a tripod, a light on a stand, a camera rig |  |
 | A rail, extrusion or grid | 5 | a module clipped onto a DIN rail, a bracket on an aluminium extrusion, a tool on a pegboard |  |
@@ -179,17 +180,16 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Screws, anchors, hooks or slots | 5 | a wall plug and screw for a shelf, a keyhole slot for a picture frame, a pegboard |  |
-| Magnet or suction | 5 | a magnetic knife strip, a suction-cup shower caddy |  |
-| Sticky tape or pads | 3 | a stick-on hook, removable picture-hanging strips |  |
+| Screws, anchors, hooks or slots | 6 | a wall plug and screw for a shelf, a keyhole slot for a picture frame, a pegboard |  |
+| Magnet, suction cup or sticky tape (no holes) | 5 | a magnetic knife strip, a suction-cup shower caddy, a stick-on hook |  |
 
 #### Who does the gripping?
 *After: Hold two things together (they stay still) → Something that has to be gripped or clamped*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| I tighten it by hand (clamp, chuck, wedge) | 7 | a woodworking toggle clamp, a drill chuck, a wedge |  |
-| A robot or machine (gripper) | 6 | a robot's soft gripper, a suction cup on a pick-and-place arm |  |
+| I tighten it by hand (clamp, chuck, wedge) | 8 | a woodworking toggle clamp, a drill chuck, a wedge |  |
+| A robot or machine (gripper) | 7 | a robot's soft gripper, a suction cup on a pick-and-place arm |  |
 
 #### What are the parts made of?
 *After: Hold two things together (they stay still) → Melt them together (weld, braze or solder)*
@@ -265,8 +265,8 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Wires to each other (a splice) | 6 | lengthening a lamp cable, joining wires inside a junction box |  |
-| A wire to a board, terminal or device | 10 | a sensor plugged into a microcontroller board, a wire under a power-supply screw |  |
+| Wires to each other (a splice) | 7 | lengthening a lamp cable, joining wires inside a junction box |  |
+| A wire to a board, terminal or device | 12 | a sensor plugged into a microcontroller board, a wire under a power-supply screw |  |
 | Batteries, docks, and parts that touch or turn (no plug) | 5 | AA batteries in a holder, a robot vacuum on its charging dock, a magnetic phone charger |  |
 | Wires on fabric, paper or a print (sewn, taped or painted on) | 3 | a light-up costume with sewn circuits, copper-tape circuits on a greeting card |  |
 | Insulate, protect or route wires (sleeves, strain relief, lacing, hinges) | 5 | heat-shrink over a soldered joint, a cable through the wall of a box, wires through a laptop hinge |  |
@@ -276,28 +276,28 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Yes, it plugs in and out | 6 | a USB cable, a drone battery plug, a servo plug |  |
-| No, it stays connected (screwed, crimped or wrapped) | 4 | a crimped ring under a car battery bolt, wires in a screw terminal block |  |
+| Yes, it plugs in and out | 8 | a USB cable, a drone battery plug, a servo plug |  |
+| No, it stays connected (screwed, crimped or wrapped) | 5 | a crimped ring under a car battery bolt, wires in a screw terminal block |  |
 
 ### How should it move?
 *After: Let something move (turn, slide, swing or bend)*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Swing or rock, less than a full turn (like a lid or arm) | 17 | a box lid, a robot arm's elbow, a seesaw |  |
-| Spin round and round (a wheel, roller or shaft) | 23 | a wheel, a turntable, a motor driving a gear |  |
+| Swing or rock, less than a full turn (like a lid or arm) | 21 | a box lid, a robot arm's elbow, a seesaw |  |
+| Spin round and round (a wheel, roller or shaft) | 21 | a wheel, a turntable, a motor driving a gear |  |
 | Slide in a straight line, or telescope | 18 | a drawer, a telescopic pole, a 3D printer's moving axis |  |
 | Bend or flex (no hinge pin) | 15 | a shampoo bottle's flip lid, a springy printed clip | One piece bends instead of turning on a pin. |
-| Swivel or tilt in several directions (ball or universal joint) | 7 | a camera ball head, the end of a car's steering rod, a gooseneck lamp |  |
-| Follow a set path (e.g. swing out and stay level) | 8 | a lid that lifts out and stays level, a walking toy's legs, a camera iris | A linkage guides the part along a fixed path instead of a simple swing. |
+| Swivel or tilt in several directions (ball or universal joint) | 6 | a camera ball head, the end of a car's steering rod, a gooseneck lamp |  |
+| Follow a set path (e.g. swing out and stay level) | 7 | a lid that lifts out and stays level, a walking toy's legs, a camera iris | A linkage guides the part along a fixed path instead of a simple swing. |
 
 #### Should it print in one piece?
 *After: Let something move (turn, slide, swing or bend) → Swing or rock, less than a full turn (like a lid or arm)*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Yes, print it assembled | 11 | a print-in-place hinge, an articulated printed toy |  |
-| No, I will assemble or buy it | 6 | a cupboard-door hinge, a parallel lifting arm |  |
+| Yes, print it assembled | 14 | a print-in-place hinge, an articulated printed toy |  |
+| No, I will assemble or buy it | 7 | a cupboard-door hinge, a parallel lifting arm |  |
 
 ##### Should it stay where you put it?
 *After: Let something move (turn, slide, swing or bend) → Swing or rock, less than a full turn (like a lid or arm) → Yes, print it assembled*
@@ -305,14 +305,14 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | No, swing freely | 7 | a lid that swings freely, a flexible cable chain |  |
-| Yes: hold, click or spring shut | 4 | a laptop screen that stays at any angle, a hinge that clicks into positions, a self-closing door |  |
+| Yes: hold, click or spring shut | 5 | a laptop screen that stays at any angle, a hinge that clicks into positions, a self-closing door |  |
 
 #### What should spin?
 *After: Let something move (turn, slide, swing or bend) → Spin round and round (a wheel, roller or shaft)*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| A wheel or part on a fixed axle or table | 9 | a cart wheel, a lazy Susan, a castor under a chair |  |
+| A wheel or part on a fixed axle or table | 7 | a cart wheel, a lazy Susan, a castor under a chair |  |
 | A shaft driving another shaft | 14 | a motor driving a wheel through gears |  |
 
 ##### What else should it do?
@@ -320,8 +320,8 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Just pass the turning on | 5 | a drive shaft round a corner, a flexible drive shaft | The turning is passed on to the other shaft without changing speed. |
-| Turn one way only | 5 | a bicycle freewheel, a ratchet spanner |  |
+| Just pass the turning on | 4 | a drive shaft round a corner, a flexible drive shaft | The turning is passed on to the other shaft without changing speed. |
+| Turn one way only | 4 | a bicycle freewheel, a ratchet spanner |  |
 | Change speed or split the drive (gears) | 4 | a gearbox on a motor, a car's differential |  |
 
 #### What kind of slide?
@@ -329,7 +329,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| A tube or pole that telescopes and locks | 4 | a selfie stick, a walking pole, a tripod leg |  |
+| A tube or pole that telescopes and locks | 3 | a selfie stick, a walking pole, a tripod leg |  |
 | A carriage, drawer or table on a rail | 5 | a kitchen drawer, a 3D printer's print head on its rail, a sliding table |  |
 | Pushed along by a screw, chain or crank | 8 | a 3D printer's lead screw, a car jack, a syringe pump |  |
 
@@ -340,7 +340,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 |---|---|---|---|
 | Fold or swing like a hinge | 7 | a flip-top bottle cap, a laser-cut plywood box with bendy corners |  |
 | Move in a straight line, or act as a spring | 5 | a precision flexure stage, a printed leaf spring |  |
-| Grip, or snap between two positions | 3 | a soft robot finger, a bistable switch that clicks on and off |  |
+| Grip, or snap between two positions | 4 | a soft robot finger, a bistable switch that clicks on and off |  |
 
 ### What should it do?
 *After: Control a movement (one way only, clicks, slips, locks, slows)*
@@ -349,7 +349,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 |---|---|---|---|
 | Move one way only (stop it going back) | 31 | a cable tie, a ratchet strap, a bike freewheel |  |
 | Click into set positions | 20 | an adjustable chair height, a gear selector, a click pen |  |
-| Slip, click or let go if overloaded | 40 | a cordless drill's torque clutch, a shear pin on a snow blower | Protects the mechanism, or a person, when something jams or is pushed too hard. |
+| Slip, click or let go if overloaded | 39 | a cordless drill's torque clutch, a shear pin on a snow blower | Protects the mechanism, or a person, when something jams or is pushed too hard. |
 | Stay where I leave it, and let go when I release it | 34 | a lamp arm that stays put, a worm-gear winch, a trigger | It holds by itself under load, and lets go only when you release it. |
 | Snap past a point and stay there (over-centre) | 13 | a toggle clamp, a toolbox clasp, a light switch | Over-centre: it snaps past a balance point and is held there by its own spring or load. |
 | Slow it down, stop it, or keep its speed steady | 18 | a soft-close drawer, a bike brake, a clock's escapement |  |
@@ -362,15 +362,15 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Turns | 18 | a ratchet spanner, a winch, a bike freewheel |  |
 | Slides | 8 | a cable tie, a cam cleat on a sailing rope, a tent guy-line slider |  |
 | Bends, or something else | 6 | a push-on nut that won't come back off a stud, a hose barb |  |
+| It is air or liquid flowing (one-way valves) | 3 | a bike-pump valve, a non-return valve on an aquarium air line |  |
 
 ##### Is clicking OK?
 *After: Control a movement (one way only, clicks, slips, locks, slows) → Move one way only (stop it going back) → Turns*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Yes, clicks are fine (ratchets) | 7 | a ratchet spanner, a ratchet strap, a childproof cap |  |
-| No, it must be smooth and silent | 7 | a silent bike freewheel, a seat-belt reel, a worm-gear winch |  |
-| It is for air or liquid (one-way valves) | 4 | a bike-pump valve, a non-return valve on an aquarium air line |  |
+| Yes, clicks are fine (ratchets) | 6 | a ratchet spanner, a ratchet strap, a childproof cap |  |
+| No, it must be smooth and silent | 6 | a silent bike freewheel, a seat-belt reel, a worm-gear winch |  |
 
 #### Does it turn or slide?
 *After: Control a movement (one way only, clicks, slips, locks, slows) → Click into set positions*
@@ -386,7 +386,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Hold a position I set by hand | 8 | a hinge that clicks at set angles, a knob with click stops |  |
-| Step forward one position at a time | 6 | a click pen, a film-advance mechanism, a rotary indexing table |  |
+| Step forward one position at a time | 5 | a click pen, a film-advance mechanism, a rotary indexing table |  |
 
 #### What should happen when it is overloaded?
 *After: Control a movement (one way only, clicks, slips, locks, slows) → Slip, click or let go if overloaded*
@@ -421,24 +421,24 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Lock so only a person can open it (key, code, trigger) | 8 | a padlock, a combination lock, a trigger and catch |  |
-| Hold a load where it stops (brake or self-locking drive) | 10 | a hand winch, a worm-gear crank, a gooseneck arm |  |
+| Hold a load where it stops (brake or self-locking drive) | 9 | a hand winch, a worm-gear crank, a gooseneck arm |  |
 
 #### What is it for?
 *After: Control a movement (one way only, clicks, slips, locks, slows) → Snap past a point and stay there (over-centre)*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Clamp or latch something shut | 5 | a woodworking toggle clamp, a toolbox draw latch, a bike quick-release lever |  |
-| Flip between two positions (switch, fold or stay) | 8 | a light switch, a snap bracelet, a folding stay that locks open |  |
+| Clamp or latch something shut | 6 | a woodworking toggle clamp, a toolbox draw latch, a bike quick-release lever |  |
+| Flip between two positions (switch, fold or stay) | 7 | a light switch, a snap bracelet, a folding stay that locks open |  |
 
 #### What do you need?
 *After: Control a movement (one way only, clicks, slips, locks, slows) → Slow it down, stop it, or keep its speed steady*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Stop it or hold it still (brakes) | 4 | a bike brake, a motor brake that holds a load |  |
-| Cushion or smooth it (dampers) | 6 | a soft-close lid, rubber feet under a machine, a car's shock absorber |  |
-| Keep a steady speed or level | 7 | a clock's escapement, a toilet cistern float, an engine governor |  |
+| Stop it or hold it still (brakes) | 5 | a bike brake, a motor brake that holds a load |  |
+| Cushion or smooth it (dampers) | 7 | a soft-close lid, rubber feet under a machine, a car's shock absorber |  |
+| Keep a steady speed or level | 5 | a clock's escapement, a toilet cistern float, an engine governor |  |
 
 ### What change do you need?
 *After: Change a movement (speed, force or kind of motion)*
@@ -467,7 +467,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | A slow, precise push (screws) | 7 | a 3D printer's Z axis, a bench vice, a micrometer |  |
-| Back and forth, again and again (cranks, cams) | 5 | a sewing-machine needle, an engine piston, a jigsaw blade |  |
+| Back and forth, again and again (cranks, cams) | 6 | a sewing-machine needle, an engine piston, a jigsaw blade |  |
 | Long travel, or pulling (rack, belt, chain, cable, rope) | 10 | a rack-and-pinion gate opener, a winch, a 3D printer's belt |  |
 
 #### How?
@@ -483,18 +483,18 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| A strap, lace, cord or rope | 21 | a ratchet strap, a boot lace, a tent guy line |  |
-| A belt, chain or cable in a machine | 6 | a 3D printer's belt tensioner, a bike chain tensioner |  |
-| Parts clamped or pulled together | 10 | a spring washer under a bolt, a wedge, a screw pulling two parts tight |  |
+| A strap, lace, cord or rope | 22 | a ratchet strap, a boot lace, a tent guy line |  |
+| A belt, chain or cable in a machine | 3 | a 3D printer's belt tensioner, a bike chain tensioner |  |
+| Parts clamped or pulled together | 9 | a spring washer under a bolt, a wedge, a screw pulling two parts tight |  |
 
 #### How should it hold?
 *After: Tighten something, or take up slack → A strap, lace, cord or rope*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Click, wind or screw it tighter (ratchet, winch, turnbuckle) | 6 | a ratchet tie-down, a winch, a turnbuckle on a wire |  |
+| Click, wind or screw it tighter (ratchet, winch, turnbuckle) | 5 | a ratchet tie-down, a winch, a turnbuckle on a wire |  |
 | Grip by friction; release by hand (buckles, cord locks, hitches) | 8 | a backpack strap buckle, a cord lock on a hood, a trucker's hitch |  |
-| Pull back by itself (spring or elastic) | 3 | a retractable badge reel, a bungee cord, a shock-corded tent pole |  |
+| Pull back by itself (spring or elastic) | 4 | a retractable badge reel, a bungee cord, a shock-corded tent pole |  |
 
 ### What do you need?
 *After: Line parts up exactly, or adjust and level them*
@@ -502,8 +502,8 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Put it back in exactly the same place every time | 7 | a camera that clicks back onto its mount, dowel pins in a two-part mould | Locating features, so a part goes back exactly where it was without measuring. |
-| Set a height, gap or position, then hold it | 5 | levelling feet on a washing machine, shims under a table leg, sliding a motor to tension a belt |  |
-| Fine-tune a tilt or angle with screws | 4 | a 3D printer's bed-levelling screws, the adjusting screws on a telescope mirror |  |
+| Set a height, gap or position, then hold it | 7 | levelling feet on a washing machine, shims under a table leg, sliding a motor to tension a belt |  |
+| Fine-tune a tilt or angle with screws | 5 | a 3D printer's bed-levelling screws, the adjusting screws on a telescope mirror |  |
 
 ### How should it push back?
 *After: Spring back, or store energy*
@@ -512,16 +512,17 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 |---|---|---|---|
 | Push or pull in a straight line | 7 | a gas strut on a car boot, a retractable tape measure, a trigger spring |  |
 | A printed or bent springy part (flexure) | 8 | a printed leaf spring in a clip, a wave washer, a coil spring |  |
-| Twist back (torsion), or wind up | 8 | a clock spring, a self-closing gate hinge, a clothes peg |  |
+| Twist back (torsion) | 7 | a self-closing gate hinge, a clothes peg, a mousetrap spring |  |
+| Wind up or store energy, then let it go (clock spring, flywheel, trigger) | 5 | a wind-up toy or clock, a friction-motor toy car, a catapult trigger |  |
 
 ### What do you need?
 *After: Seal it, or pass cables, air or liquid through*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Keep water, dust or air out of a joint that does not move | 16 | a waterproof lid gasket, a sealed seam on a tank |  |
+| Keep water, dust or air out of a joint that does not move | 14 | a waterproof lid gasket, a sealed seam on a tank |  |
 | Seal round a moving shaft or rod | 4 | the seal round a pump shaft, the rubber boot over a car joint | A seal that lets the shaft move or turn while keeping water or dust out. |
-| Get cables through a wall or past a moving joint | 8 | a cable gland on an outdoor box, a cable chain on a CNC machine, a slip ring in a turning sign | Gets a cable through a wall, or across a joint that moves or turns, without damaging or tangling it. |
+| Get cables through a wall or past a moving joint | 7 | a cable gland on an outdoor box, a cable chain on a CNC machine, a slip ring in a turning sign | Gets a cable through a wall, or across a joint that moves or turns, without damaging or tangling it. |
 | Join hoses, pipes or tubes | 11 | a garden hose fitting, a copper water pipe, aquarium tubing |  |
 | Pump, store or control air or liquid (valves, pumps) | 18 | an aquarium air pump, a tap, a bike-pump valve |  |
 
@@ -530,16 +531,16 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| No, never | 10 | a sealed seam on a water tank, a riveted gutter |  |
-| Yes | 6 | the O-ring in a torch, a gasket under a lid |  |
+| No, never | 9 | a sealed seam on a water tank, a riveted gutter |  |
+| Yes | 5 | the O-ring in a torch, a gasket under a lid |  |
 
 ##### What are the parts?
 *After: Seal it, or pass cables, air or liquid through → Keep water, dust or air out of a joint that does not move → No, never*
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Metal sheet, tube or pipe | 6 | a riveted gutter, the folded seam on a tin, a brazed pipe joint |  |
-| Plastic, fabric or film, or a gap to fill | 4 | a heat-sealed bag, sealant round a bath, a waterproof tent seam |  |
+| Metal sheet, tube or pipe | 7 | a riveted gutter, the folded seam on a tin, a brazed pipe joint |  |
+| Plastic, fabric or film, or a gap to fill | 5 | a heat-sealed bag, sealant round a bath, a waterproof tent seam |  |
 
 #### How is it joined?
 *After: Seal it, or pass cables, air or liquid through → Join hoses, pipes or tubes*
@@ -555,9 +556,9 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Push air or liquid along (pumps) | 7 | an aquarium pump, a dosing pump, a squeeze bulb |  |
-| Let flow one way only, or let off pressure (safety) | 4 | a non-return valve, a pressure-cooker safety valve, a cistern float valve |  |
-| Switch, set or store the flow (valves, regulators, tanks) | 7 | a tap, the air regulator on a compressor, a solenoid valve |  |
+| Push air or liquid along (pumps) | 6 | an aquarium pump, a dosing pump, a squeeze bulb |  |
+| Let flow one way only, or let off pressure (safety) | 3 | a non-return valve, a pressure-cooker safety valve, a cistern float valve |  |
+| Switch, set or store the flow (valves, regulators, tanks) | 9 | a tap, the air regulator on a compressor, a solenoid valve |  |
 
 ### What will power it?
 *After: Hold or let go using power (electric, air or suction)*
@@ -585,7 +586,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Push, pull, bend or turn something (cylinders, air muscles) | 7 | the air cylinder that closes a bus door, a soft robot finger that curls when inflated |  |
-| Grip or lift something (grippers, air bearings) | 5 | a suction-cup gripper on a pick-and-place machine, an air-hockey puck floating on air |  |
+| Grip or lift something (grippers, air bearings) | 6 | a suction-cup gripper on a pick-and-place machine, an air-hockey puck floating on air |  |
 | Switch, pump or control the air (valves, pumps) | 5 | the valve on a pneumatic machine, a hand-squeezed bulb on a blood-pressure cuff |  |
 
 #### What should it do?
@@ -594,5 +595,5 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
 | Push, lift, bend or fold something | 8 | a hydraulic car jack, a printed sheet that folds itself in hot water |  |
-| Pump, switch or control the liquid | 5 | a garden fountain pump, a syringe pump dosing liquid on a lab bench |  |
+| Pump, switch or control the liquid | 6 | a garden fountain pump, a syringe pump dosing liquid on a lab bench |  |
 

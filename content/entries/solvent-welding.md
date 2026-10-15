@@ -105,14 +105,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…''just fine'', but a reader reports it did not bond PLA+, so test first
       [uncertain]. PETG is ''inert to all chemi…"'
-  weld_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two
-      things together > Melt them together"
-  also_under:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs
-      under, beyond its job and family (before R33 these were exceptions by name)."
 confirmed: []
 open_points: []
 uncertain_fields: [materials, making_tips_3d_printing]
@@ -354,8 +346,6 @@ Solvent glues usually have the strongest smell of all glues and can contain flam
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, acrylic or polycarbonate, PVC, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…'just fine', but a reader reports it did not bond PLA+, so test first ⚑ [uncertain]. PETG is 'inert to all chemi…"
 - ⚑ Finder value `bonds_poorly` = resin prints, slippery plastics (PE or PP), wood, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…'just fine', but a reader reports it did not bond PLA+, so test first ⚑ [uncertain]. PETG is 'inert to all chemi…"
-- ⚑ Finder value `weld_material` = plastic or film (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts made of?" under "Hold two things together > Melt them together"
-- ⚑ Finder value `also_under` = melt (best guess): carried over from the finder's old rule on entry names (R33), for "Extra top-level finder answers an entry belongs under, beyond its job and family (before R33 these were exceptions by name)."
 
 ## Sources
 

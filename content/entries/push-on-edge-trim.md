@@ -98,18 +98,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`removability` is marked [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent
       [uncertain: no source describes removing…"'
-  printed_take_apart:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under
-      "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-  threaded:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two
-      things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
 confirmed: []
 open_points:
 - kind: sources
@@ -337,9 +325,6 @@ Edge trim is itself a safety part: it covers exposed sharp edges (PAR Group). Cu
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ Finder value `removability` = removable (source uncertain): `removability` is marked ⚑ [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent ⚑ [uncertain: no source describes removing…"
-- ⚑ Finder value `printed_take_apart` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Will you need to take it apart again?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print"
-- ⚑ Finder value `threaded` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Is there a screw or bolt?" under "Hold two things together > 3D-printed parts, or screws, nuts and magnets into a print > Yes"
-- ⚑ Finder value `seal_use` = seal a still joint, pass cables through (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
 - ⚑ Research note: *Push-on edge trim*: mitring corners with tin snips (PAR Group: yes; Trim-Lok: 'not possible'), both recorded. No pull-off force or refit count found ([uncertain]); no openly licensed edge-trim images on Commons.
 
 ## Sources

@@ -76,7 +76,7 @@ finder:
   clicks_do: [not applicable]
   holds_for: [not applicable]
   over_centre_use: [not applicable]
-  slows_by: [damper]
+  slows_by: [brake, damper]
   straight_drive: [not applicable]
   push_by: [not applicable]
   tightens: [not applicable]
@@ -97,18 +97,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  holds_position:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let
-      something move > Swing or rock, less than a full turn > Yes, print it assembled"
-  slows_by:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement
-      > Slow it down, stop it, or keep its speed steady"
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
 confirmed: []
 open_points: []
 uncertain_fields: [play_and_precision, processes, print_in_place, making_tips_3d_printing, environment_limits, links, make_it_yourself]
@@ -369,9 +357,6 @@ A friction hinge only resists; it doesn't lock. If the torque is too low for the
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `clicks` = silent (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `holds_position` = yes (best guess): carried over from the finder's old rule on entry names (R33), for "Should it stay where you put it?" under "Let something move > Swing or rock, less than a full turn > Yes, print it assembled"
-- ⚑ Finder value `slows_by` = damper (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Control a movement > Slow it down, stop it, or keep its speed steady"
-- ⚑ Finder value `turns` = part of a turn (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 
 ## Sources
 

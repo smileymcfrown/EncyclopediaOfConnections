@@ -49,10 +49,10 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [wood]
+  sheet_material: [sheet metal, plastic sheet]
   carries_fluid: [not applicable]
   shaft_joint: [part onto a shaft]
-  printable: ['no']
+  printable: ['yes', 'no']
   shaft_alignment: [not applicable]
   cord_use: [not applicable]
   knot_use: [not applicable]
@@ -88,20 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  sheet_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two
-      things together > Boards, panels or sheet > No, never"
-  shaft_joint:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things
-      together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-  printable:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the
-      shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear,
-      pulley or arm onto a shaft"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -348,9 +335,6 @@ EYE PROTECTION: wear safety glasses when driving or punching out pins; OSHA says
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `sheet_material` = wood (best guess): carried over from the finder's old rule on entry names (R33), for "What is the sheet made of?" under "Hold two things together > Boards, panels or sheet > No, never"
-- ⚑ Finder value `shaft_joint` = part onto a shaft (best guess): carried over from the finder's old rule on entry names (R33), for "What are you connecting?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end"
-- ⚑ Finder value `printable` = no (best guess): carried over from the finder's old rule on entry names (R33), for "Will you 3D print the part that goes on the shaft?" under "Hold two things together > A wheel, gear or arm onto a shaft, or two shafts end to end > A wheel, gear, pulley or arm onto a shaft"
 - ⚑ Research note: *Drive-in fixing pins*: pin diameter (SPIROL at most 1/3 of the shaft; Bharatskills about 1/6); punches (Wikipedia: never a standard punch on a roll pin; SPIROL: ball-end punches suit slotted, not coiled pins); printed holes (Creative3DP undersize, Forerunner 3D 'a bit big'); lead-ins (Forerunner chamfers, SPIROL no countersinks). Drift bolts are not covered (the Wood Handbook PDF didn't load).
 
 ## Sources

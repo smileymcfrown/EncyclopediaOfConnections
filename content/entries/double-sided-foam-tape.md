@@ -107,14 +107,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well
       [uncertain]. Silicone rubber and silicon…"'
-  mounts_on:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid"
-  wall_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things
-      together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 confirmed: []
 open_points: []
 uncertain_fields: [materials, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes, common_failures]
@@ -344,8 +336,6 @@ Low hazard in itself. Isopropyl alcohol, primers and adhesive removers are flamm
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, metal, glass or ceramic, rubber, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicon…"
 - ⚑ Finder value `bonds_poorly` = PLA, silicone, wood, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicon…"
-- ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the finder's old rule on entry names (R33), for "What is it going onto?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid"
-- ⚑ Finder value `wall_hold` = tape or pads (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Hold two things together > Something onto a wall, desk, bar, tripod, rail or grid > A wall or ceiling"
 
 ## Sources
 

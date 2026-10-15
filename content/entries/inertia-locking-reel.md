@@ -80,8 +80,8 @@ finder:
   slows_by: [not applicable]
   straight_drive: [not applicable]
   push_by: [not applicable]
-  tightens: ['strap, cord or rope', 'belt, chain or cable']
-  tension_hold: ['ratchet, winch or screw']
+  tightens: ['strap, cord or rope']
+  tension_hold: [spring or elastic]
   adjusts: [not applicable]
   spring_kind: [not applicable]
   seal_use: [not applicable]
@@ -99,22 +99,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "To fit: spanner or socket for the anchor bolts [uncertain: specific
       bolt types vary]. T…"'
-  one_way_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement
-      > Move one way only > Turns"
-  holds_for:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement
-      > Stay where I leave it, and let go when I release it > Turns"
-  tightens:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something,
-      or take up slack"
-  tension_hold:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something,
-      or take up slack > A strap, lace, cord or rope"
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, play_and_precision, materials, processes, print_in_place, making_tips_3d_printing, off_the_shelf_parts,
@@ -338,10 +322,6 @@ Life-safety device: never modify, bypass or 3D print one for real use. The rewin
 - ⚑ 16 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "To fit: spanner or socket for the anchor bolts ⚑ [uncertain: specific bolt types vary]. T…"
-- ⚑ Finder value `one_way_kind` = silent (best guess): carried over from the finder's old rule on entry names (R33), for "Is clicking OK?" under "Control a movement > Move one way only > Turns"
-- ⚑ Finder value `holds_for` = a load (best guess): carried over from the finder's old rule on entry names (R33), for "What should it do?" under "Control a movement > Stay where I leave it, and let go when I release it > Turns"
-- ⚑ Finder value `tightens` = strap, cord or rope, belt, chain or cable (best guess): carried over from the finder's old rule on entry names (R33), for "What are you tightening?" under "Tighten something, or take up slack"
-- ⚑ Finder value `tension_hold` = ratchet, winch or screw (best guess): carried over from the finder's old rule on entry names (R33), for "How should it hold?" under "Tighten something, or take up slack > A strap, lace, cord or rope"
 
 ## Sources
 

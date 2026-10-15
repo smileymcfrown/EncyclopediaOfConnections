@@ -78,7 +78,7 @@ finder:
   tightens: [not applicable]
   tension_hold: [not applicable]
   adjusts: [not applicable]
-  spring_kind: [straight push or pull]
+  spring_kind: [straight push or pull, wind up and let go]
   seal_use: [not applicable]
   seal_material: [not applicable]
   hose_join: [not applicable]
@@ -91,14 +91,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…dia, Compound bow); a winding key and let-down tools for fusee clocks
       [uncertain]; ''everyday tools'' to adjust…"'
-  straight_drive:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change
-      a movement > Turning into straight-line motion, or back"
-  spring_kind:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back,
-      or store energy"
 confirmed: []
 open_points:
 - kind: sources
@@ -345,8 +337,6 @@ Stored spring energy: if a fusee chain breaks, 'the force of the mainspring sent
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…dia, Compound bow); a winding key and let-down tools for fusee clocks ⚑ [uncertain]; 'everyday tools' to adjust…"
-- ⚑ Finder value `straight_drive` = long travel or pulling (best guess): carried over from the finder's old rule on entry names (R33), for "What kind of straight-line motion?" under "Change a movement > Turning into straight-line motion, or back"
-- ⚑ Finder value `spring_kind` = straight push or pull (best guess): carried over from the finder's old rule on entry names (R33), for "How should it push back?" under "Spring back, or store energy"
 
 ## Sources
 

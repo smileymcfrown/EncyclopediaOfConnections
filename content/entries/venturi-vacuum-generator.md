@@ -96,10 +96,6 @@ needs_confirming:
   power_source:
     kind: best guess
     reason: '`power` names several power sources, and not all may apply'
-  powered_does:
-    kind: best guess
-    reason: set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using
-      power"
 confirmed: []
 open_points:
 - kind: content
@@ -349,7 +345,6 @@ Noise: air ejectors are loud (about 71-72 dB(A) for a small one with a silencer;
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
-- ⚑ Finder value `powered_does` = pump or control a flow (best guess): set by Claude from the entry's name and power text (R33), for "What should it do?" under "Hold or let go using power"
 - ⚑ Research note: *Venturi vacuum generator*: throat and diffuser proportions come from one maker's model description and are marked [uncertain]; a "300 mbar" figure is labelled as a maker's claim.
 
 ## Sources

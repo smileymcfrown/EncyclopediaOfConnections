@@ -86,12 +86,8 @@ finder:
   fluid_does: [not applicable]
   powered_does: [not applicable]
   also_under: [not applicable]
-  turns: [full turns]
-needs_confirming:
-  turns:
-    kind: best guess
-    reason: 'carried over from the finder''s old rule on entry names (R33), for "For things that turn: less than a full turn
-      (swings or rocks) or full turns (spins)."'
+  turns: [part of a turn, full turns]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -313,7 +309,6 @@ Razor blades and ground knife edges are very sharp: sci-toys warns to be 'very c
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `turns` = full turns (best guess): carried over from the finder's old rule on entry names (R33), for "For things that turn: less than a full turn (swings or rocks) or full turns (spins)."
 - ⚑ Research note: *Knife-edge and jewel pivots*: Rice Lake spells a pivot material "stellate"; probably Stellite, marked [uncertain].
 
 ## Sources

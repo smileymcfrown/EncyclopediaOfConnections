@@ -85,7 +85,7 @@ finder:
   adjusts: [not applicable]
   spring_kind: [not applicable]
   seal_use: [seal a still joint]
-  seal_material: ['plastic, fabric or a gap']
+  seal_material: [metal, 'plastic, fabric or a gap']
   hose_join: [not applicable]
   fluid_does: [not applicable]
   powered_does: [not applicable]
@@ -100,14 +100,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found
       [uncertain]. Grades exist for metal repa…"'
-  seal_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass
-      cables, air or liquid through"
-  seal_material:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass
-      cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 confirmed: []
 open_points: []
 uncertain_fields: [holding_principle, materials, processes, making_tips_3d_printing, environment_limits, safety_notes]
@@ -330,8 +322,6 @@ Uncured epoxy can cause allergic skin reactions and irritate eyes, skin and airw
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PVC, wood, metal, glass or ceramic, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found ⚑ [uncertain]. Grades exist for metal repa…"
 - ⚑ Finder value `bonds_poorly` = PLA, PETG, ABS or ASA, nylon, TPU or flexible prints, slippery plastics (PE or PP) (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found ⚑ [uncertain]. Grades exist for metal repa…"
-- ⚑ Finder value `seal_use` = seal a still joint (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Seal it, or pass cables, air or liquid through"
-- ⚑ Finder value `seal_material` = plastic, fabric or a gap (best guess): carried over from the finder's old rule on entry names (R33), for "What are the parts?" under "Seal it, or pass cables, air or liquid through > Keep water, dust or air out of a joint that does not move > No, never"
 
 ## Sources
 

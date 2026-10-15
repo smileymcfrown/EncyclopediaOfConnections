@@ -91,15 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  cord_use:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together
-      > Strap, cord, rope or fabric"
-  cord_part:
-    kind: best guess
-    reason: carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things
-      together > Strap, cord, rope or fabric > Fit a part"
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -357,8 +349,6 @@ Few hazards: keep fingers clear of the hammer, punch and press, and work on a so
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `cord_use` = a fitted part (best guess): carried over from the finder's old rule on entry names (R33), for "What do you need?" under "Hold two things together > Strap, cord, rope or fabric"
-- ⚑ Finder value `cord_part` = fix to fabric or an edge (best guess): carried over from the finder's old rule on entry names (R33), for "What should the part do?" under "Hold two things together > Strap, cord, rope or fabric > Fit a part"
 - ⚑ Research note: *Eyelets and grommets*: naming differs (Wikipedia: a small grommet is an eyelet; some leather and sewing suppliers: an eyelet is one piece, a grommet two pieces with a washer), and the same trade number means different holes (a #1 takes a 9/32 in hole plain and 3/8 in rolled-rim per Trivantage; Sailrite's #1 spur die set has a 5/16 in cutter); the Trivantage guide was read only through WebFetch, asked twice with matching answers. No pull-out figures for grommets or keder edges were found (`load` is [uncertain] in both).
 
 ## Sources
