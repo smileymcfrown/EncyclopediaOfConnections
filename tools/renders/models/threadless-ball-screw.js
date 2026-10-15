@@ -28,11 +28,11 @@ export default {
     parts.push(at(cyl(11, 2, mat.aluminium()), [-67, AX, 0], [0, 0, 90]));
     parts.push(at(box(14, AX + 12, 32, mat.pla(0x55595f, 50), 1.5), [61, (AX + 12) / 2, 0]));
     // the nut: two printed plates joined by three bolts, each carrying a tilted 608 bearing
-    const orange = mat.pla(0xd9601a, 30);
+    const orange = mat.pla(0xc9501a, 30);
     const bolts = ANG.map((a) => [-15 * Math.cos(a), 15 * Math.sin(a)]);       // plate (shape) coords: (-z, y)
-    const outline = hull(bolts.flatMap(([x, y]) => Array.from({ length: 24 }, (_, i) => [x + 8 * Math.cos((i / 24) * 2 * Math.PI), y + 8 * Math.sin((i / 24) * 2 * Math.PI)])));
-    for (const dx of [-8.2, 8.2]) {
-      parts.push(at(extrude(outline, 5, orange, { bevel: 0.8, holes: [{ x: 0, y: 0, r: 6.5 }], curve: 24 }), [NX + dx, AX, 0], [0, 90, 0]));
+    const outline = hull(bolts.flatMap(([x, y]) => Array.from({ length: 24 }, (_, i) => [x + 10.5 * Math.cos((i / 24) * 2 * Math.PI), y + 10.5 * Math.sin((i / 24) * 2 * Math.PI)])));
+    for (const dx of [-8.6, 8.6]) {
+      parts.push(at(extrude(outline, 6, orange, { bevel: 0.8, holes: [{ x: 0, y: 0, r: 6.5 }], curve: 24 }), [NX + dx, AX, 0], [0, 90, 0]));
     }
     const bearing = group(
       lathe([[9.4, -3.5], [RB, -3.5], [RB, 3.5], [9.4, 3.5], [9.4, -3.5]], mat.steel()),
@@ -45,7 +45,7 @@ export default {
       const q = new THREE.Quaternion().setFromUnitVectors(new THREE.Vector3(0, 1, 0), dir);
       const centre = new THREE.Vector3(NX, AX, 0).addScaledVector(u, RROD + RB);
       const b = bearing.clone(); b.position.copy(centre); b.quaternion.copy(q); parts.push(b);
-      const bolt = group(at(cyl(3.9, 27, mat.zinc()), [0, 0, 0]), at(hex(13, 5.3, mat.zinc()), [0, 13.4, 0]), at(hex(13, 6.5, mat.zinc(), 4), [0, -13.9, 0]));
+      const bolt = group(at(cyl(3.9, 30, mat.zinc()), [0, 0, 0]), at(cyl(6.5, 8, mat.blackOxide()), [0, 15.6, 0]), at(hex(13, 6.5, mat.zinc(), 4), [0, -14.9, 0]));
       bolt.position.copy(centre); bolt.quaternion.copy(q); parts.push(bolt);
     }
     return group(parts);

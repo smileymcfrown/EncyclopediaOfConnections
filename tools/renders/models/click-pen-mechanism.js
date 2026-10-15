@@ -1,5 +1,5 @@
-// Click-pen mechanism: a retractable ballpoint with its tip out, its clear lower barrel showing the
-// refill and return spring, and its coloured upper barrel cut open to show the push button's saw
+// Click-pen mechanism, close up on the top end of a retractable ballpoint (tip out, clear lower
+// barrel with the refill and return spring, out of frame below), its coloured upper barrel cut open to show the push button's saw
 // teeth, the toothed rotator sitting on the refill, and the ribs inside the tube that catch it.
 // teeth round a ring (a crown): n saw teeth, ring radii rIn..rOut, height h, pointing +y (or -y)
 function crown(K, rIn, rOut, n, h, y, m, down = false, skip = null) {
@@ -17,7 +17,7 @@ function crown(K, rIn, rOut, n, h, y, m, down = false, skip = null) {
   return g;
 }
 export default {
-  alt: 'Render of a click-pen mechanism: a retractable ballpoint pen with its tip out, the clear lower barrel showing the ink refill and the return spring, and the blue upper barrel cut open to show the push button with saw teeth on its end, the white toothed rotator sitting on top of the refill, and the ribs inside the tube that catch the rotator.',
+  alt: 'Render of a click-pen mechanism, close up: the blue upper barrel of a retractable ballpoint pen is cut open to show the push button with saw teeth on its end, the white toothed rotator sitting on top of the ink refill, and the ribs inside the tube that catch the rotator; the clear lower barrel shows the refill.',
   kind: 'cross-section',
   view: { dir: [0.45, 0.8, 0.9], fill: 2.6, target: [44, 0, 0] },
   build(K) {

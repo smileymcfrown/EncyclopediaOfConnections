@@ -1,9 +1,9 @@
 // Invisible barrel hinge: two wooden boards joined edge to edge by a pair of 14 mm brass barrel
 // hinges, opened to 90 degrees so the brass links show in the corner; each barrel is sunk in a hole
-// drilled into a board edge. A spare hinge lies on the bottom board, straight (closed), showing its
-// two barrels and the links between them.
+// drilled into a board edge; the pair stands like a tent, hinge side up. A spare hinge lies beside
+// it, straight (closed), showing its two barrels and the links between them.
 export default {
-  alt: 'Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the corner; a spare hinge, two brass cylinders joined end to end by short links, lies on the bottom board.',
+  alt: 'Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the corner; a spare hinge, two brass cylinders joined end to end by short links, lies on the table beside them.',
   view: { dir: [0.75, 0.95, 0.75], fill: 1.12 },
   build(K) {
     const { group, at, box, cyl, extrude, roundRect, mat } = K;
