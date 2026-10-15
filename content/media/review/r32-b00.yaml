@@ -39,7 +39,7 @@ ball-and-socket-joint:
   pictures:
     - commons: "File:KugelgelenkSchnitt.jpg"
       kind: cross-section
-      alt: A car ball joint with its socket cut open, showing the round ball on the end of a threaded stud sitting in a cup inside the housing.
+      alt: A ball joint cut in half, showing the round ball on a threaded, cone-shaped stud sitting in its socket inside the housing.
     - candidate: 3
       kind: photo
       alt: A black camera tripod ball head, its ball clamped in a socket by a big locking knob, with a quick-release plate on top.
@@ -75,7 +75,7 @@ basic-latches:
   pictures:
     - commons: "File:Öffnen eines Riegels.gif"
       kind: animation
-      alt: An animation of a slide bolt being opened, the bolt turned up out of its slot and slid back out of the catch.
+      alt: An animation of a slide bolt latch being opened, the bolt drawn back out of its catch.
     - candidate: 1
       kind: photo
       alt: A metal slide bolt screwed to a wooden door, its bar pushed across into a catch on the frame.
@@ -97,7 +97,7 @@ belt-drives:
   pictures:
     - commons: "File:Power transmission belt.gif"
       kind: animation
-      alt: An animation of a belt running round two pulleys, the driving pulley turning the other one through the belt.
+      alt: An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley.
     - candidate: 11
       kind: how-it-works
       alt: An old milling machine driven by wide flat belts running over a set of stepped pulleys.
@@ -252,7 +252,7 @@ cam-buckle:
   pictures:
     - commons: "File:Spanngurt mit Klemmverschluss.jpg"
       kind: photo
-      alt: A tie-down strap with a cam buckle, the webbing passing between the frame and the spring-loaded toothed cam that grips it.
+      alt: Close-up of a pressed-steel cam buckle on orange webbing, its toothed cam pressing down on the strap.
   needs_animation: true
   needs_photo: false
   note: every candidate is an archaeological buckle or unrelated; only the current photo shows a cam buckle (a second photo would help)
@@ -295,7 +295,7 @@ clamp-on-tube-fittings:
   pictures:
     - commons: "File:Basic kee klamp.jpg"
       kind: photo
-      alt: A cast metal tee fitting joining two lengths of plain steel tube at a right angle, with a set screw in the socket wall.
+      alt: A cast metal clamp-on fitting slipped over plain steel tube, with the set screw in its socket wall that locks it on.
   needs_animation: false
   needs_photo: false
   note: no candidate shows a tube fitting (bikes, engines, wall pipe clips); a second photo would help
@@ -330,7 +330,7 @@ combination-lock:
   pictures:
     - commons: "File:Combination discs.png"
       kind: diagram
-      alt: A drawing of the stack of notched wheels inside a combination lock, with their notches lined up so the bar can drop in.
+      alt: An exploded drawing of the notched number wheels of a combination lock, set to 9-2-4 so their notches line up.
     - candidate: 2
       kind: how-it-works
       alt: Close-up of a cable lock's three numbered wheels turned to a combination, beside the shackle they hold.
@@ -343,7 +343,7 @@ contact-adhesive:
   pictures:
     - commons: "File:Contact-cement 000000.jpg"
       kind: photo
-      alt: A tin of contact cement, the rubber-based glue spread on both surfaces and left to go tacky before they are pressed together.
+      alt: A can of Weldwood contact cement.
     - candidate: 1
       kind: photo
       alt: A yellow tube of Butapren contact adhesive with a black cap.
@@ -376,3 +376,51 @@ crimped-butt-splice:
       alt: A ratcheting crimp tool and wire strippers laid out with blue butt splice connectors, a motor and its controller.
   needs_animation: false
   needs_photo: false
+cross-halving-slot-joint:
+  pictures:
+    - commons: "File:Joinery-SimpleHalved.svg"
+      kind: diagram
+      alt: A drawing of two flat strips, each slotted halfway through from opposite edges, shown apart and then slotted together into a flush cross.
+  needs_animation: false
+  needs_photo: true
+  note: the only other candidate (#2) is an old line drawing of a timber cross-lap joint
+dampers:
+  pictures:
+    - commons: "File:Dashpot.svg"
+      kind: diagram
+      alt: A cut-away drawing of a dashpot, a piston on a rod inside a cylinder full of oil.
+    - candidate: 2
+      kind: how-it-works
+      alt: A kitchen cabinet door hinge with a small soft-close damper cylinder fitted beside it to slow the door as it shuts.
+  needs_animation: true
+  needs_photo: false
+  note: "#7 (gas damper animation) is too small (134x325) to show the piston clearly; #3 is ventilation louvres, #4 a bridge mass damper"
+din-rail-clip:
+  pictures:
+    - commons: "File:DIN rail rear view.JPG"
+      kind: photo
+      alt: The back of a two-pole circuit breaker clipped onto a DIN rail, shown upside down so its fixed hook and sliding spring latch can be seen.
+    - candidate: 3
+      kind: photo
+      alt: Green terminal blocks and a relay clipped side by side onto a slotted steel DIN rail.
+  needs_animation: true
+  needs_photo: false
+dog-clutch:
+  pictures:
+    - commons: "File:Dog Clutch.jpg"
+      kind: photo
+      alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
+    - candidate: 3
+      kind: photo
+      alt: Close-up inside a stripped-down motorcycle gearbox, showing a gear and the dog teeth on its side that lock it to its neighbour.
+  needs_animation: true
+  needs_photo: false
+  note: "#14 (manual gearbox animation) shows dog-clutch collars selecting gears but within a whole gearbox; usable as a fallback animation"
+drive-in-fixing-pins:
+  pictures:
+    - commons: "File:Spring-type slottet straigt pin labeled num.jpg"
+      kind: how-it-works
+      alt: A slotted spring pin and a washer securing a shaft, with the parts numbered.
+  needs_animation: false
+  needs_photo: false
+  note: no candidate adds a photo (#1 is a drawing of a coiled pin, the rest are a drill, a gate and a locomotive); a second photo would help
