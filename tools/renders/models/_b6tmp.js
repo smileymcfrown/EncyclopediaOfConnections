@@ -4,13 +4,14 @@
 const N = 12, RW = 20, DEPTH = 2.4;
 function wheelOutline() {
   const pts = [];
-  const n = N * 24;
+  const n = N * 90;
   for (let i = 0; i < n; i++) {
     const a = (i / n) * Math.PI * 2;
     // a rounded V notch centred on each multiple of the pitch, starting at +90 degrees (towards the arm)
     let f = ((a - Math.PI / 2) / ((Math.PI * 2) / N)) % 1; if (f < 0) f += 1;
-    const d = Math.min(f, 1 - f) / 0.17;                    // 0 at the notch centre
-    const r = d < 1 ? RW - DEPTH * Math.pow(Math.cos((d * Math.PI) / 2), 1.3) : RW;
+    const d = Math.min(f, 1 - f) / 0.2;                     // 0 at the notch centre
+    // a straight-sided V with a slightly rounded bottom
+    const r = d < 1 ? RW - DEPTH * (1 - Math.sqrt(d * d + 0.012) + Math.sqrt(0.012)) : RW;
     pts.push([r * Math.cos(a), r * Math.sin(a)]);
   }
   return pts;
@@ -30,9 +31,9 @@ export default {
     const zArm = RW + 2.3 + 0.7;                             // beam centre line (world z)
     const anchor = at(box(8, 7, 9, baseM, 1), [-27, T + 3.5, zArm + 1.5]);
     const beam = at(box(27, 6, 1.4, baseM, 0.3), [-10, T + 3.5, zArm]);
-    const nub = at(cyl(2.2, 6, baseM), [0, T + 3.5, RW - DEPTH + 2.2 - 0.1]);
+    const nub = at(cyl(1.6, 6, baseM), [0, T + 3.5, RW - DEPTH + 2.45]);
     // join the nub to the beam
-    const neck = at(box(3.2, 6, 2.6, baseM, 0.4), [0, T + 3.5, zArm - 1.4]);
+    const neck = at(box(2.6, 6, 2.4, baseM, 0.4), [0, T + 3.5, zArm - 1.3]);
 
     // the wheel (6 mm thick) and a knurled grip knob above it, on a centre post
     const wheel = flat(extrude(wheelOutline(), 6, knobM, { bevel: 0.5 }), T + 0.6 + 3);

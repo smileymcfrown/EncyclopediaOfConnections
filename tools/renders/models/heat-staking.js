@@ -6,7 +6,7 @@ export default {
   view: { dir: [0.8, 1.0, 1.25], fill: 0.95 },
   build(K) {
     const { group, at, box, cyl, lathe, extrude, roundRect, mat } = K;
-    const pla = mat.pla(0x2f6fc4, 70), pcbM = mat.plastic(0x1d6a3c), gold = mat.brass();
+    const pla = mat.pla(0x2f6fc4, 70), pcbM = mat.plastic(0x0e5a2c), gold = mat.brass();
     const W = 50, D = 32, BT = 3, SO = 4, PT = 1.6;
     const yPcb = BT + SO;                 // underside of the board
     const corners = [[-W / 2 + 4, -D / 2 + 4], [W / 2 - 4, -D / 2 + 4], [W / 2 - 4, D / 2 - 4], [-W / 2 + 4, D / 2 - 4]];

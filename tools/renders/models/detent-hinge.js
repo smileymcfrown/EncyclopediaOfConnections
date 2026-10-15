@@ -26,10 +26,10 @@ function disc() {
 export default {
   alt: 'Render of a black plastic detent hinge held open at a right angle, cut in half across its knuckle to show a spring in the fixed leaf pushing a steel ball into one of three notches in the moving leaf\'s round knuckle.',
   kind: 'cross-section',
-  view: { dir: [1.35, 0.55, 0.75], fill: 0.98, light: [0.7, 1, 0.6] },
+  view: { dir: [1.35, 0.55, 0.75], fill: 0.94, light: [0.7, 1, 0.6] },
   build(K) {
     const { group, at, extrude, mesh, THREE, sphere, spring, cyl, mat } = K;
-    const black = mat.plastic(0x26272b), cutBlack = mat.cut(0x6c7077), steel = mat.steel(), cutSteel = mat.cut(0xb9bdc3);
+    const black = mat.plastic(0x26272b), cutBlack = mat.cut(0x5c6066), cutMove = mat.cut(0x9a9fa6), steel = mat.steel(), cutSteel = mat.cut(0xb9bdc3);
     const parts = [];
     // a part with profile `outline` (in z, y) running along X from x0 to x1; cut face at x1 = 0
     const piece = (outline, x0, x1, m, cm, holes = []) => {
@@ -37,7 +37,7 @@ export default {
       if (x1 === 0 && cm) {
         const sh = new THREE.Shape(outline.map(([a, b]) => new THREE.Vector2(a, b)));
         for (const h of holes) { const p = new THREE.Path(); p.absarc(h.x, h.y, h.r, 0, Math.PI * 2, true); sh.holes.push(p); }
-        g.add(at(mesh(new THREE.ShapeGeometry(sh, 24), cm), [0.03, 0, 0], [0, 90, 0]));
+        g.add(at(mesh(new THREE.ShapeGeometry(sh, 24), cm), [0.03, 0, 0], [0, -90, 0]));
       }
       return g;
     };
@@ -51,9 +51,9 @@ export default {
       ...arc(0, AX, 7.25, -90 - 12.7, -180, 4).slice(0, -1), [-7.25, AX], [-8, AX]];
     parts.push(piece(cradle, -8.3, 0, black, cutBlack));
     // moving leaf, standing up at 90 degrees: notched disc, neck and plate
-    parts.push(piece(disc(), -8, 0, black, cutBlack, pin));
-    parts.push(piece([[-2, AX + 5], [2, AX + 5], [2, AX + 10], [-2, AX + 10]], -8, 0, black, cutBlack));
-    parts.push(piece([[-2, AX + 9.5], [2, AX + 9.5], [2, AX + 40], [-2, AX + 40]], -22, 0, black, cutBlack));
+    parts.push(piece(disc(), -8, 0, black, cutMove, pin));
+    parts.push(piece([[-2, AX + 5], [2, AX + 5], [2, AX + 10], [-2, AX + 10]], -8, 0, black, cutMove));
+    parts.push(piece([[-2, AX + 9.5], [2, AX + 9.5], [2, AX + 40], [-2, AX + 40]], -22, 0, black, cutMove));
     // hinge pin, ball and spring
     parts.push(piece(arc(0, AX, 2, 0, 360, 10).slice(0, -1), -22, 0, steel, cutSteel));
     parts.push(at(sphere(1.5, mat.chrome()), [0, AX - 7.3, 0]));
