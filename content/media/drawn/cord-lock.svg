@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-through of a barrel cord lock: a cord runs through holes in the barrel and in a sprung plunger; let go, the spring pushes the plunger up so its hole is out of line and the cord is pinched in an S-bend.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M40,260 L320,260 L333,232 L427,232 L440,260 L760,260" fill="none" stroke="#222" stroke-width="17" stroke-linecap="butt"></path>
+<path d="M40,260 L320,260 L333,232 L427,232 L440,260 L760,260" fill="none" stroke="#d8f0d2" stroke-width="11" stroke-linecap="butt"></path>
+<path d="M40,260 L320,260 L333,232 L427,232 L440,260 L760,260" fill="none" stroke="#5a8f4e" stroke-width="3" stroke-dasharray="5 11" stroke-linecap="butt"></path>
+<polyline points="380,292 380,296.7 414,301 346,309.6 414,318.1 346,326.7 414,335.3 346,343.9 414,352.4 346,361 380,365.3 380,370" fill="none" stroke="#222" stroke-width="3"></polyline>
+<g><rect x="355" y="118" width="50" height="58" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="340" y="106" width="80" height="16" rx="6" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="330" y="172" width="100" height="49" rx="3" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="330" y="243" width="100" height="49" rx="3" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<polygon points="300,150 350,150 350,170 320,170 320,249 300,249" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon points="300,271 320,271 320,370 440,370 440,271 460,271 460,390 300,390" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon points="410,150 460,150 460,249 440,249 440,170 410,170" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<g><g><path d="M380,52 L380,94" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="366" y="74" text-anchor="end">squeeze</text>
+<text x="250" y="190" text-anchor="end">barrel</text><line x1="256" y1="186" x2="300" y2="200" stroke="#222" stroke-width="2"/>
+<text x="470" y="118">plunger</text><line x1="468" y1="124" x2="406" y2="156" stroke="#222" stroke-width="2"/>
+<text x="490" y="350">spring</text><line x1="486" y1="344" x2="416" y2="334" stroke="#222" stroke-width="2"/>
+<text x="60" y="244">cord</text>
+<g><text x="490" y="170">Let go: the spring pushes</text><text x="490" y="194">the plunger up, its hole is</text><text x="490" y="218">out of line and the cord</text><text x="490" y="242">is pinched in an S-bend</text></g>
+<text x="400" y="438" text-anchor="middle" font-size="18">Friction holds the cord both ways until you squeeze</text>
+</g></svg>

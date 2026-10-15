@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A ratcheting reel seen from above, animated: turning the spool makes its three springy catches click over the ratchet teeth while the lace winds in; on letting go a catch blocks a tooth; pulling the knob up lifts the catches clear and the lace unwinds.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M225,180 L20,180" stroke="#555" stroke-width="5" fill="none" stroke-dasharray="14 8" stroke-linecap="butt"><animate attributeName="stroke-dashoffset" values="0;0;44;44;44;0;0;0" keyTimes="0;0.05;0.5;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/></path>
+<path d="M225,280 L430,280" stroke="#555" stroke-width="5" fill="none" stroke-dasharray="14 8" stroke-linecap="butt"><animate attributeName="stroke-dashoffset" values="0;0;44;44;44;0;0;0" keyTimes="0;0.05;0.5;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/></path>
+<path d="M377,230 A152,152 0 1 1 73,230 A152,152 0 1 1 377,230 Z M347,230 L331.3,258.5 L342.8,261.6 L320.3,285 L330.7,291 L302.8,307.8 L311.3,316.3 L280,325.3 L286,335.7 L253.5,336.3 L256.6,347.8 L225,340 L225,352 L196.5,336.3 L193.4,347.8 L170,325.3 L164,335.7 L147.2,307.8 L138.7,316.3 L129.7,285 L119.3,291 L118.7,258.5 L107.2,261.6 L115,230 L103,230 L118.7,201.5 L107.2,198.4 L129.7,175 L119.3,169 L147.2,152.2 L138.7,143.7 L170,134.7 L164,124.3 L196.5,123.7 L193.4,112.2 L225,120 L225,108 L253.5,123.7 L256.6,112.2 L280,134.7 L286,124.3 L302.8,152.2 L311.3,143.7 L320.3,175 L330.7,169 L331.3,201.5 L342.8,198.4 L335,230 Z" fill="#e8e8e8" fill-rule="evenodd"/>
+<circle cx="225" cy="230" r="122" fill="#ffffff" stroke="none" opacity="0"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 225 230;0 225 230;13.5 225 230;23.5 225 230;23.8 225 230;38.5 225 230;38.8 225 230;45 225 230;45 225 230;45 225 230;45 225 230;0 225 230;0 225 230;0 225 230" keyTimes="0;0.05;0.185;0.285;0.2875;0.435;0.4375;0.5;0.5417;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/>
+<circle cx="225" cy="230" r="56" fill="#cfe3f5"/>
+<circle cx="225" cy="230" r="44" fill="none" stroke="#555" stroke-width="8"/>
+<circle cx="225" cy="230" r="20" fill="#cfe3f5"/>
+<line x1="225" y1="230" x2="225" y2="250" stroke-width="2.5"/>
+<line x1="225" y1="230" x2="207.7" y2="220" stroke-width="2.5"/>
+<line x1="225" y1="230" x2="242.3" y2="220" stroke-width="2.5"/>
+<circle cx="225" cy="230" r="4" fill="#222"/>
+<g transform="rotate(0 225 230)">
+<g><animateTransform attributeName="transform" type="rotate" values="0 271.4 261.3;0 271.4 261.3;-10.3 271.4 261.3;-17.4 271.4 261.3;-6.8 271.4 261.3;-17.4 271.4 261.3;-6.8 271.4 261.3;-11.4 271.4 261.3;-11.4 271.4 261.3;-11.4 271.4 261.3;-19.4 271.4 261.3;-19.4 271.4 261.3;0 271.4 261.3;0 271.4 261.3" keyTimes="0;0.05;0.185;0.285;0.2875;0.435;0.4375;0.5;0.5417;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/>
+<path d="M271.4,261.3 Q305.5,242.1 343.8,234.1" fill="none" stroke="#2f6f3f" stroke-width="7"/>
+<circle cx="343.8" cy="234.1" r="5" fill="#d8f0d2" stroke-width="2.5"/>
+<animate attributeName="opacity" values="1;1;0.35;0.35;1;1" keyTimes="0;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/>
+</g>
+<circle cx="271.4" cy="261.3" r="5" fill="#d8f0d2" stroke-width="2.5"/>
+</g>
+<g transform="rotate(120 225 230)">
+<g><animateTransform attributeName="transform" type="rotate" values="0 271.4 261.3;0 271.4 261.3;-10.3 271.4 261.3;-17.4 271.4 261.3;-6.8 271.4 261.3;-17.4 271.4 261.3;-6.8 271.4 261.3;-11.4 271.4 261.3;-11.4 271.4 261.3;-11.4 271.4 261.3;-19.4 271.4 261.3;-19.4 271.4 261.3;0 271.4 261.3;0 271.4 261.3" keyTimes="0;0.05;0.185;0.285;0.2875;0.435;0.4375;0.5;0.5417;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/>
+<path d="M271.4,261.3 Q305.5,242.1 343.8,234.1" fill="none" stroke="#2f6f3f" stroke-width="7"/>
+<circle cx="343.8" cy="234.1" r="5" fill="#d8f0d2" stroke-width="2.5"/>
+<animate attributeName="opacity" values="1;1;0.35;0.35;1;1" keyTimes="0;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/>
+</g>
+<circle cx="271.4" cy="261.3" r="5" fill="#d8f0d2" stroke-width="2.5"/>
+</g>
+<g transform="rotate(240 225 230)">
+<g><animateTransform attributeName="transform" type="rotate" values="0 271.4 261.3;0 271.4 261.3;-10.3 271.4 261.3;-17.4 271.4 261.3;-6.8 271.4 261.3;-17.4 271.4 261.3;-6.8 271.4 261.3;-11.4 271.4 261.3;-11.4 271.4 261.3;-11.4 271.4 261.3;-19.4 271.4 261.3;-19.4 271.4 261.3;0 271.4 261.3;0 271.4 261.3" keyTimes="0;0.05;0.185;0.285;0.2875;0.435;0.4375;0.5;0.5417;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/>
+<path d="M271.4,261.3 Q305.5,242.1 343.8,234.1" fill="none" stroke="#2f6f3f" stroke-width="7"/>
+<circle cx="343.8" cy="234.1" r="5" fill="#d8f0d2" stroke-width="2.5"/>
+<animate attributeName="opacity" values="1;1;0.35;0.35;1;1" keyTimes="0;0.65;0.7167;0.9;0.9667;1" dur="6s" repeatCount="indefinite"/>
+</g>
+<circle cx="271.4" cy="261.3" r="5" fill="#d8f0d2" stroke-width="2.5"/>
+</g>
+</g>
+</g>
+<g fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)">
+<g><path d="M76,144 A172,172 0 0 1 195.1,60.6"/><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.5;0.5333;0.9667;1" dur="6s" repeatCount="indefinite"/></g>
+<line x1="70" y1="164" x2="130" y2="164"/><line x1="410" y1="296" x2="350" y2="296"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="20" y="40" font-size="20" font-weight="bold">Seen from above, knob cut away</text>
+<text x="22" y="152">lace</text>
+<g stroke="#222" stroke-width="1.5"><line x1="375" y1="105" x2="330" y2="128"/><line x1="440" y1="345" x2="306" y2="251"/><line x1="350" y1="398" x2="248" y2="284"/></g>
+<text x="380" y="104">ratchet teeth in the housing</text>
+<text x="445" y="350">springy catch (pawl)</text>
+<text x="355" y="405">spool winds the lace</text>
+<g><animate attributeName="opacity" values="1;1;0.3;0.3;1" keyTimes="0;0.4917;0.5;0.975;1" dur="6s" repeatCount="indefinite"/><text x="430" y="170">1  Turn the knob: catches click,</text><text x="452" y="191">lace winds in</text></g>
+<g><animate attributeName="opacity" values="0.3;0.3;1;1;0.3;0.3" keyTimes="0;0.4917;0.5;0.6417;0.65;1" dur="6s" repeatCount="indefinite"/><text x="430" y="222">2  Let go: lace pulls back, but</text><text x="452" y="243">a catch blocks a tooth</text></g>
+<g><animate attributeName="opacity" values="0.3;0.3;1;1;0.3" keyTimes="0;0.6417;0.65;0.975;1" dur="6s" repeatCount="indefinite"/><text x="430" y="274">3  Pull the knob up: catches lift</text><text x="452" y="295">out, spool unwinds</text></g>
+<text x="400" y="438" text-anchor="middle">The catches let the spool turn one way only</text>
+</g></svg>

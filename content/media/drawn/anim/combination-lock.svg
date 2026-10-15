@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Combination lock shown with its three notched wheels drawn side by side: a sprung fence bar rests on the wheel rims and holds a bolt up in its keeper until every wheel is turned so its notch (gate) is at the top; the wheels are turned one by one to their numbers, and when the last gate lines up the fence drops into all three and the bolt comes out of the keeper.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="530" y="78" width="60" height="22" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<path d="M596,70 L664,70 L664,104 L632,104 L632,82 L608,82 L608,104 L596,104 Z" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<polyline points="560,100 560,103.8 574,107.4 546,114.4 574,121.4 546,128.5 574,135.5 546,142.6 574,149.6 546,156.6 560,160.2 560,164" fill="none" stroke="#222" stroke-width="3"><animate attributeName="points" dur="8s" repeatCount="indefinite" keyTimes="0;0.61;0.65;0.86;0.89;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="560,100 560,103.8 574,107.4 546,114.4 574,121.4 546,128.5 574,135.5 546,142.6 574,149.6 546,156.6 560,160.2 560,164;560,100 560,103.8 574,107.4 546,114.4 574,121.4 546,128.5 574,135.5 546,142.6 574,149.6 546,156.6 560,160.2 560,164;560,100 560,105 574,109.7 546,118.9 574,128.1 546,137.4 574,146.6 546,155.9 574,165.1 546,174.3 560,179 560,184;560,100 560,105 574,109.7 546,118.9 574,128.1 546,137.4 574,146.6 546,155.9 574,165.1 546,174.3 560,179 560,184;560,100 560,103.8 574,107.4 546,114.4 574,121.4 546,128.5 574,135.5 546,142.6 574,149.6 546,156.6 560,160.2 560,164;560,100 560,103.8 574,107.4 546,114.4 574,121.4 546,128.5 574,135.5 546,142.6 574,149.6 546,156.6 560,160.2 560,164"/></polyline>
+<g transform="rotate(100 170 270)"><animateTransform attributeName="transform" type="rotate" dur="8s" repeatCount="indefinite" keyTimes="0;0.08;0.22;0.9;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="100 170 270;100 170 270;0 170 270;0 170 270;100 170 270"/><path d="M185,203.7 A68,68 0 1 1 155,203.7 L155,222 L185,222 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="170" cy="316" r="6" fill="#fde2c4" stroke="#222" stroke-width="2.5"/></g>
+<circle cx="170" cy="270" r="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="170" cy="270" r="3" fill="#222"/>
+<path d="M212,342.7 A84,84 0 0 1 128,342.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.07;0.08;0.22;0.23;1" values="0.3;0.3;1;1;0.3;0.3"/></path>
+<g transform="rotate(-140 330 270)"><animateTransform attributeName="transform" type="rotate" dur="8s" repeatCount="indefinite" keyTimes="0;0.26;0.4;0.9;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="-140 330 270;-140 330 270;0 330 270;0 330 270;-140 330 270"/><path d="M345,203.7 A68,68 0 1 1 315,203.7 L315,222 L345,222 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="330" cy="316" r="6" fill="#fde2c4" stroke="#222" stroke-width="2.5"/></g>
+<circle cx="330" cy="270" r="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="330" cy="270" r="3" fill="#222"/>
+<path d="M288,342.7 A84,84 0 0 0 372,342.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.25;0.26;0.4;0.41;1" values="0.3;0.3;1;1;0.3;0.3"/></path>
+<g transform="rotate(50 490 270)"><animateTransform attributeName="transform" type="rotate" dur="8s" repeatCount="indefinite" keyTimes="0;0.44;0.58;0.9;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="50 490 270;50 490 270;0 490 270;0 490 270;50 490 270"/><path d="M505,203.7 A68,68 0 1 1 475,203.7 L475,222 L505,222 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="490" cy="316" r="6" fill="#fde2c4" stroke="#222" stroke-width="2.5"/></g>
+<circle cx="490" cy="270" r="10" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="490" cy="270" r="3" fill="#222"/>
+<path d="M532,342.7 A84,84 0 0 1 448,342.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.43;0.44;0.58;0.59;1" values="0.3;0.3;1;1;0.3;0.3"/></path>
+<g><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.61;0.65;0.86;0.89;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="0 0;0 0;0 20;0 20;0 0;0 0"/><rect x="159" y="176" width="22" height="26" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="319" y="176" width="22" height="26" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="479" y="176" width="22" height="26" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="610" y="90" width="20" height="88" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="120" y="164" width="520" height="16" rx="3" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.6;0.61;0.86;0.87;1" values="0;0;1;1;0;0"/><path d="M690,120 L690,165" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="124" y="154">fence (sprung bar)</text>
+<text x="522" y="128" text-anchor="end">spring</text>
+<text x="672" y="96">keeper</text>
+<text x="640" y="150">bolt</text>
+<text x="170" y="384" text-anchor="middle" font-size="18">wheel 1</text>
+<text x="330" y="384" text-anchor="middle" font-size="18">wheel 2</text>
+<text x="490" y="384" text-anchor="middle" font-size="18">wheel 3</text>
+<g><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.65;0.86;1" values="1;0;1;1" calcMode="discrete"/><text x="400" y="414" text-anchor="middle">A wheel at the wrong number holds the fence up: locked</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.65;0.86;1" values="0;1;0;0" calcMode="discrete"/><text x="400" y="414" text-anchor="middle">All three gates lined up: the fence drops and the bolt comes out</text></g>
+<text x="400" y="442" text-anchor="middle" font-size="16">Wheels drawn side by side here; in a real lock they sit on one spindle</text>
+</g></svg>
