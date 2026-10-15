@@ -5,17 +5,17 @@
 // bottom of stage 2, so winding the spool pushes the whole stack out like a telescope.
 export default {
   alt: 'Render of a three-stage linear slide lift with continuous rigging: a single string runs from a motor-driven spool up over a pulley on the fixed base slide, down under a pulley on the first moving stage, up over its top pulley and down to an anchor on the second stage, which stands highest.',
-  view: { dir: [1.0, 0.32, 0.75], fill: 0.95 },
+  view: { dir: [1.0, 0.3, 0.95], fill: 0.98 },
   build(K) {
     const { group, at, box, cyl, tube, wire, torus, mat } = K;
     const alu = mat.aluminium(), dark = mat.blackOxide(), plateM = mat.pla(0x3a3f46, 1.2);
     const pulleyM = mat.nylon(0xf0ede4), stringM = mat.plastic(0xf2c230), steel = mat.steel();
-    const T = 6, W = 24, D = 8, L = 240, E = 130, xs = W / 2 + 4;   // xs: the plane the string runs in
-    const r = 5;                                                      // pulley radius to the string
+    const T = 6, W = 36, D = 12, L = 200, E = 80, xs = W / 2 + 5;   // xs: the plane the string runs in
+    const r = 7;                                                                                                            // pulley radius to the string
 
-    const plate = at(box(150, T, 110, plateM, 2), [30, T / 2, 0]);
+    const plate = at(box(170, T, 120, plateM, 2), [45, T / 2, 5]);
     const stage = (k) => {
-      const y0 = T + k * E, z = k * 10;
+      const y0 = T + k * E, z = k * 2 * r;
       return group(
         at(box(W, L, D, alu, 1), [0, y0 + L / 2, z]),
         at(box(0.4, L - 6, 3, dark, 0.1), [W / 2, y0 + L / 2, z]),          // slot line on the side face
@@ -28,9 +28,9 @@ export default {
 
     // a pulley on an axle sticking out from the side of a stage
     const pulley = (y, z, zStage) => group(
-      at(cyl(r - 0.6, 3, pulleyM), [xs, y, z], [0, 0, 90]),
-      at(cyl(r + 1.4, 0.8, pulleyM), [xs - 1.9, y, z], [0, 0, 90]),
-      at(cyl(r + 1.4, 0.8, pulleyM), [xs + 1.9, y, z], [0, 0, 90]),
+      at(cyl(r - 0.8, 4, pulleyM), [xs, y, z], [0, 0, 90]),
+      at(cyl(r + 2, 1, pulleyM), [xs - 2.5, y, z], [0, 0, 90]),
+      at(cyl(r + 2, 1, pulleyM), [xs + 2.5, y, z], [0, 0, 90]),
       at(cyl(1.4, xs + 3 - W / 2, steel), [(W / 2 + xs + 3) / 2, y, z], [0, 0, 90]),
       // a small bracket from the stage to the axle when the pulley sits beside another stage
       Math.abs(z - zStage) > 3 ? at(box(3, 8, Math.abs(z - zStage) + 4, alu, 0.8), [W / 2 + 1.5, y, (z + zStage) / 2]) : null,
@@ -39,11 +39,11 @@ export default {
     const yB1 = T + E + 8;                 // bottom of stage 1
     const yT1 = T + E + L - 8;             // top of stage 1
     const yA2 = T + 2 * E + 10;            // anchor on stage 2
-    const pulleys = [pulley(yP0, 0, 0), pulley(yB1, 10, 10), pulley(yT1, 20, 10)];
-    const anchor = group(at(box(4, 8, 6, dark, 1), [xs, yA2, 25]), at(box(W / 2 + 6 - W / 2, 8, 6, dark, 1), [W / 2 + 3, yA2, 22]));
+    const pulleys = [pulley(yP0, 0, 0), pulley(yB1, 2 * r, 2 * r), pulley(yT1, 4 * r, 2 * r)];
+    const anchor = group(at(box(5, 10, 6, dark, 1), [xs, yA2, 5 * r]), at(box(7, 10, 6, dark, 1), [W / 2 + 3, yA2, 5 * r - 2]));
 
     // spool on a motor beside the base, below the base pulley
-    const Rs = 8, yS = T + 34, zS = -5 - Rs;
+    const Rs = 9, yS = T + 36, zS = -r - Rs;
     const spool = group(
       at(cyl(Rs - 0.8, 6, mat.anodised(0xc0392b)), [xs, yS, zS], [0, 0, 90]),
       at(cyl(Rs + 3, 1.2, mat.anodised(0xc0392b)), [xs - 3.5, yS, zS], [0, 0, 90]),
@@ -57,15 +57,15 @@ export default {
     );
 
     // the string
-    const pts = [[xs, yS, zS + Rs], [xs, yS + 40, zS + Rs], [xs, yP0 - 30, -r]];
+    const pts = [[xs, yS, zS + Rs], [xs, yS + 30, zS + Rs], [xs, yP0 - 20, -r]];
     const arc = (yc, zc, a0, a1) => { for (let i = 0; i <= 10; i++) { const a = ((a0 + ((a1 - a0) * i) / 10) * Math.PI) / 180; pts.push([xs, yc + r * Math.sin(a), zc + r * Math.cos(a)]); } };
     arc(yP0, 0, 180, 0);
-    pts.push([xs, yP0 - 30, r], [xs, yB1 + 30, r]);
-    arc(yB1, 10, 180, 360);
-    pts.push([xs, yB1 + 30, 15], [xs, yT1 - 30, 15]);
-    arc(yT1, 20, 180, 0);
-    pts.push([xs, yT1 - 30, 25], [xs, yA2 + 4, 25]);
-    const string = wire(pts, 0.6, stringM);
+    pts.push([xs, yP0 - 20, r], [xs, yB1 + 20, r]);
+    arc(yB1, 2 * r, 180, 360);
+    pts.push([xs, yB1 + 20, 3 * r], [xs, yT1 - 20, 3 * r]);
+    arc(yT1, 4 * r, 180, 0);
+    pts.push([xs, yT1 - 20, 5 * r], [xs, yA2 + 5, 5 * r]);
+    const string = wire(pts, 0.8, stringM);
 
     return group(plate, foot, stages, pulleys, anchor, spool, motor, string);
   },

@@ -1,23 +1,25 @@
-// Servo or motorised latch: a printed box with its front wall cut away. Inside, a blue micro servo
+// Servo or motorised latch: a printed box cut in half front to back. Inside, a blue micro servo
 // on a stand turns its white horn, which pushes a steel bolt (via a wire pushrod) through two guide
 // blocks and through a screw eye hanging from the closed lid, locking it; a small controller board
 // and the servo cable sit on the floor.
 export default {
-  alt: 'Render of a servo latch: a printed box with its front cut away shows a small blue hobby servo whose white arm pushes a steel bolt, through a wire link, along two guide blocks and through a screw eye hanging from the closed lid, so the lid is locked; a small controller board lies on the floor of the box.',
+  alt: 'Render of a servo latch: a printed box cut in half shows a small blue hobby servo whose white arm pushes a steel bolt, through a wire link, along two guide blocks and through a screw eye hanging from the closed lid, so the lid is locked; a small controller board lies on the floor of the box.',
   kind: 'cross-section',
-  view: { dir: [0.35, 0.55, 1.0], fill: 1.0 },
+  view: { dir: [0.3, 0.42, 1.0], fill: 1.0 },
   build(K) {
     const { group, at, box, cyl, torus, extrude, roundRect, wire, mat } = K;
     const shell = mat.pla(0xe7e3d8, 60), cut = mat.pla(0xc9c3b4, 60), blue = mat.plastic(0x2f6fc0), white = mat.nylon(0xf5f3ee), parts = [];
     const W = 130, D = 70, H = 62, t = 4;
-    // box: floor, back, two sides (front removed), and the lid on top
-    parts.push(at(box(W, t, D, shell, 0.6), [0, t / 2, 0]));
+    // box cut in half front to back (front half removed): floor, back, sides and lid, cut at z = 0
+    const C = 0, half = D / 2;
+    parts.push(at(box(W, t, half, shell, 0.6), [0, t / 2, -half / 2]));
     parts.push(at(box(W, H, t, shell, 0.6), [0, H / 2, -D / 2 + t / 2]));
-    for (const s of [-1, 1]) parts.push(at(box(t, H, D, shell, 0.6), [s * (W / 2 - t / 2), H / 2, 0]));
-    parts.push(at(box(W + 2, t, D + 2, mat.pla(0xd9673a, 60), 0.6), [0, H + t / 2 + 0.3, 0]));
-    // cut faces along the missing front (a thin strip of the cut colour on the floor and side edges)
-    parts.push(at(box(W, t, 0.2, cut, 0), [0, t / 2, D / 2 + 0.05]));
-    for (const s of [-1, 1]) parts.push(at(box(t, H, 0.2, cut, 0), [s * (W / 2 - t / 2), H / 2, D / 2 + 0.05]));
+    for (const s of [-1, 1]) parts.push(at(box(t, H, half, shell, 0.6), [s * (W / 2 - t / 2), H / 2, -half / 2]));
+    parts.push(at(box(W + 2, t, half + 1, mat.pla(0xd9673a, 60), 0.6), [0, H + t / 2 + 0.3, -(half + 1) / 2]));
+    // cut faces
+    parts.push(at(box(W - 1, t - 0.6, 0.2, cut, 0), [0, t / 2, C + 0.02]));
+    for (const s of [-1, 1]) parts.push(at(box(t - 0.6, H - 1, 0.2, cut, 0), [s * (W / 2 - t / 2), H / 2, C + 0.02]));
+    parts.push(at(box(W + 1, t - 0.6, 0.2, mat.pla(0xb04f28, 60), 0), [0, H + t / 2 + 0.3, C + 0.52]));
     // micro servo on a printed stand
     const sx = -45, sz = -14, sy = t + 14;
     parts.push(at(box(30, 14, 16, shell, 0.8), [sx, t + 7, sz]));
@@ -47,10 +49,10 @@ export default {
     parts.push(at(cyl(1.4, 10, mat.zinc()), [ex, H - 5, bz]));
     parts.push(at(torus(4.4, 1.1, mat.zinc()), [ex, by, bz], [0, 90, 0]));
     // controller board and the servo cable
-    parts.push(at(box(18, 1.6, 44, mat.plastic(0x1f5b9a), 0.3), [10, t + 0.8, 18], [0, 90, 0]));
-    parts.push(at(box(12, 2.2, 7, mat.plastic(0x1a1a1a), 0.3), [12, t + 2.7, 18]));
+    parts.push(at(box(18, 1.6, 44, mat.plastic(0x1f5b9a), 0.3), [22, t + 0.8, -12], [0, 90, 0]));
+    parts.push(at(box(12, 2.2, 7, mat.plastic(0x1a1a1a), 0.3), [24, t + 2.7, -12]));
     for (const [i, c] of [[0, 0x6b3a1e], [1, 0xc0392b], [2, 0xe67e22]]) {
-      parts.push(wire([[sx - 11, sy + 8, sz + 2 + i * 1.1 - 1], [sx - 18, sy, sz + 8 + i], [sx - 14, t + 1.5, 14 + i], [sx + 10, t + 1.5, 20 + i * 0.9], [-9, t + 2.2, 18 + i * 0.9]], 0.55, mat.plastic(c)));
+      parts.push(wire([[sx - 11, sy + 8, sz + 2 + i * 1.1 - 1], [sx - 18, sy, sz + 6 + i], [sx - 12, t + 1.5, -4 + i], [sx + 14, t + 1.5, -6 + i * 0.9], [1, t + 2.2, -10 + i * 0.9]], 0.55, mat.plastic(c)));
     }
     return group(...parts);
   },
