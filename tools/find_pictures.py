@@ -8,9 +8,15 @@ saves a small thumbnail of each so a person (or a helper agent) can choose from 
 With --openverse it also asks Openverse (CC-licensed photos from Flickr and other sites) for
 entries that have few candidates; Openverse allows 200 searches a day without an API key.
 
+With --wide (R34) it searches further for the pages still marked needs_photo in
+content/media/review/r32-*.yaml (or the --only pages), looking for real photos only: the entry's
+other names (aliases), the Commons categories that match its name, the Wikidata item (its picture,
+Commons category and Wikipedia articles in English and German, whose pictures are mostly on
+Commons), and Openverse for the proper term and the first other names.
+
 Nothing here changes the site: the choices go in content/media/pictures.yaml.
 
-Run: python3 tools/find_pictures.py OUT_DIR [--only page1,page2] [--openverse]
+Run: python3 tools/find_pictures.py OUT_DIR [--only page1,page2] [--openverse] [--wide]
 Writes OUT_DIR/candidates.json and OUT_DIR/thumbs/. Needs pyyaml and Pillow.
 """
 import hashlib, json, os, re, sys, time, urllib.parse
@@ -59,6 +65,131 @@ def details(titles):
     return out
 
 
+WD = 'https://www.wikidata.org/w/api.php'
+WP = 'https://{}.wikipedia.org/w/api.php'
+PHOTO = ('image/jpeg', 'image/png', 'image/webp', 'image/gif', 'image/tiff')
+JUNK = re.compile(r'logo|icon|symbol|ambox|question.book|edit-clear|wiki.letter|portal|disambig|flag.of|'
+                  r'commons-|wiktionary|red.pencil|padlock|crystal.clear|nuvola|stub', re.I)
+
+
+def alias_names(fm, n=4):
+    """The entry's other names, plain: "Cardan joint / cardan (after ...)" gives Cardan joint, cardan."""
+    out, seen = [], {fm['title'].lower()}
+    for a in [fm.get('term') or ''] + list(fm.get('aliases') or []):
+        for x in re.split(r'\s+/\s+|;', re.sub(r'\s*\(.*?\)', '', str(a))):
+            x = x.strip(' ,.')
+            if 3 <= len(x) <= 50 and x.lower() not in seen:
+                seen.add(x.lower()); out.append(x)
+    return out[:n]
+
+
+def api(url, params):
+    d = json.loads(get(url, {'format': 'json', **params}))
+    time.sleep(0.6)
+    return d
+
+
+def category_files(q, ncat=2, n=40):
+    cats = [x['title'] for x in api(API, {'action': 'query', 'list': 'search', 'srnamespace': '14', 'srsearch': q,
+                                          'srlimit': str(ncat)}).get('query', {}).get('search', [])]
+    return cats, [f for c in cats for f in files_in(c, n)]
+
+
+def files_in(cat, n=40):
+    d = api(API, {'action': 'query', 'list': 'categorymembers', 'cmtitle': cat, 'cmtype': 'file', 'cmlimit': str(n)})
+    return [x['title'] for x in d.get('query', {}).get('categorymembers', [])]
+
+
+def wikidata(q):
+    """Pictures linked from the best-matching Wikidata items: their image (P18), their Commons
+    category (P373) and the pictures in their English and German Wikipedia articles."""
+    ids = [x['id'] for x in api(WD, {'action': 'wbsearchentities', 'search': q, 'language': 'en', 'limit': '2'}).get('search', [])]
+    files, where = [], []
+    if not ids:
+        return files, where
+    ents = api(WD, {'action': 'wbgetentities', 'ids': '|'.join(ids), 'props': 'claims|sitelinks|labels', 'languages': 'en'}).get('entities', {})
+    for e in ents.values():
+        cl = e.get('claims', {})
+        val = lambda p: [c['mainsnak'].get('datavalue', {}).get('value') for c in cl.get(p, []) if c['mainsnak'].get('datavalue')]
+        files += ['File:' + v for v in val('P18')]
+        for c in val('P373'):
+            where.append('Category:' + c); files += files_in('Category:' + c)
+        for lang in ('en', 'de'):
+            s = e.get('sitelinks', {}).get(lang + 'wiki')
+            if s:
+                where.append(f'{lang}.wikipedia: {s["title"]}')
+                d = api(WP.format(lang), {'action': 'query', 'titles': s['title'], 'prop': 'images', 'imlimit': '40'})
+                for pg in d.get('query', {}).get('pages', {}).values():
+                    files += ['File:' + x['title'].split(':', 1)[1] for x in pg.get('images', [])]
+        where.append(f'wikidata {e.get("id")} ({e.get("labels", {}).get("en", {}).get("value", "")})')
+    return files, where
+
+
+def wide_pages(only):
+    if only:
+        return sorted(only)
+    import glob
+    pages = set()
+    for f in glob.glob(os.path.join(os.path.dirname(ENTRIES), 'media', 'review', 'r32-*.yaml')):
+        pages |= {p for p, v in (yaml.safe_load(open(f)) or {}).items() if v.get('needs_photo')}
+    return sorted(pages)
+
+
+def main_wide(out_dir, only):
+    """--wide: real photos only, for the pages that still have none."""
+    tdir = os.path.join(out_dir, 'thumbs')
+    os.makedirs(tdir, exist_ok=True)
+    cf = os.path.join(out_dir, 'candidates.json')
+    cands = json.load(open(cf)) if os.path.exists(cf) else {}
+    pages = wide_pages(only)
+    ov_queue = []
+    for page in pages:
+        fm = yaml.safe_load(re.match(r'---\n(.*?)\n---\n', open(os.path.join(ENTRIES, page + '.md')).read(), re.S).group(1))
+        if page not in cands:
+            names = alias_names(fm)
+            found, where = [], []
+            try:
+                for nm in [fm['title']] + names[:3]:
+                    if nm != fm['title']:
+                        found += search(nm, 10)
+                    found += search(f'{nm} photo', 6)
+                cats, fs = category_files(fm['title'])
+                where += cats; found += fs
+                wf, ww = wikidata(re.sub(r'\s*\(.*?\)', '', fm['title']))
+                where += ww; found += wf
+                found = [f for f in dict.fromkeys(found) if not JUNK.search(f)]
+                info = details(found)
+            except Exception as e:
+                print(f'{page}: search failed ({e}); run again later')
+                continue
+            keep = [info[t] for t in found if t in info and usable(info[t]) and info[t]['mime'] in PHOTO]
+            cands[page] = {'title': fm['title'], 'summary': fm['description'], 'moving': False,
+                           'motion': fm['finder'].get('motion'), 'searched': where, 'candidates': keep}
+            ov_queue += [(i, page, q) for i, q in enumerate(names[:2])]
+        c = cands[page]
+        print(f'{page}: {len(c["candidates"])} candidates ({"; ".join(c.get("searched", []))[:150]})')
+        json.dump(cands, open(cf, 'w'), ensure_ascii=False, indent=0)
+    # Openverse: first other name for every page, then the second, while the day's searches last
+    for _, page, q in sorted(ov_queue, key=lambda x: x[0]):
+        if ov_used >= OV_MAX:
+            break
+        try:
+            seen = {x.get('id') for x in cands[page]['candidates']}
+            cands[page]['candidates'] += [x for x in openverse(q) if x['id'] not in seen and OK.search(x['license']) and not BAD.search(x['license'])]
+            cands[page].setdefault('searched', []).append(f'openverse: {q}')
+        except Exception as e:
+            print(f'{page}: Openverse failed ({e})')
+    for page in pages:
+        for x in cands.get(page, {}).get('candidates', []):
+            if not x.get('file') and x.get('thumb'):
+                try:
+                    x['file'] = thumb(x, tdir)
+                except Exception as e:
+                    print(f'{page}: no thumbnail for {x["title"]} ({e})')
+    json.dump(cands, open(cf, 'w'), ensure_ascii=False, indent=0)
+    print(len(pages), 'pages;', sum(len(cands.get(p, {}).get('candidates', [])) for p in pages), 'candidates;', ov_used, 'Openverse searches')
+
+
 def openverse(q, n=12):
     global ov_used
     ov_used += 1
@@ -95,6 +226,8 @@ def main():
     sys.stdout.reconfigure(line_buffering=True)
     out_dir = sys.argv[1]
     only = set(sys.argv[sys.argv.index('--only') + 1].split(',')) if '--only' in sys.argv else None
+    if '--wide' in sys.argv:
+        return main_wide(out_dir, only)
     tdir = os.path.join(out_dir, 'thumbs')
     os.makedirs(tdir, exist_ok=True)
     cf = os.path.join(out_dir, 'candidates.json')

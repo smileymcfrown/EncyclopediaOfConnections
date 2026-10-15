@@ -5,6 +5,8 @@ name: Find pictures
 # artifact ("picture-candidates", kept 5 days) for choosing. Runs on GitHub's machines because
 # Wikimedia limits shared cloud addresses. Start it by hand (Actions → Find pictures → Run
 # workflow), or push a commit to a branch other than main whose message contains "[find pictures]".
+# "[find photos]" (or wide: true) runs the wider search for real photos for the pages still marked
+# needs_photo (--wide, R34).
 on:
   workflow_dispatch:
     inputs:
@@ -12,13 +14,17 @@ on:
         description: 'Only these pages (comma-separated); empty for all'
         required: false
         default: ''
+      wide:
+        description: 'Wider search for real photos, for the pages still marked needs_photo'
+        type: boolean
+        default: false
   push:
     branches-ignore: [main]
 permissions:
   contents: read
 jobs:
   find:
-    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[find pictures]')
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[find pictures]') || contains(github.event.head_commit.message, '[find photos]')
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
@@ -27,9 +33,10 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install pyyaml==6.0.1 pillow
-      - run: python3 tools/find_pictures.py out --openverse ${ONLY:+--only "$ONLY"}
+      - run: python3 tools/find_pictures.py out --openverse ${WIDE:+--wide} ${ONLY:+--only "$ONLY"}
         env:
           ONLY: ${{ github.event.inputs.only }}
+          WIDE: ${{ (github.event.inputs.wide == 'true' || contains(github.event.head_commit.message, '[find photos]')) && '1' || '' }}
       - uses: actions/upload-artifact@v4
         if: always()
         with:
