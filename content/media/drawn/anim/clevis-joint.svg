@@ -22,7 +22,7 @@
 <rect x="420" y="212" width="60" height="36" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
 <path d="M478,188 L575,188 A42,42 0 0 1 575,272 L478,272 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
 <circle cx="575" cy="230" r="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="575" cy="230" r="3" fill="#222"/>
-<path d="M714,124 A170,170 0 0 1 714,336" fill="none" stroke="#d1495b" stroke-width="5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<path d="M747,110 A210,210 0 0 1 747,350" fill="none" stroke="#d1495b" stroke-width="5" marker-start="url(#ah)" marker-end="url(#ah)"/>
 </g>
 <g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#222">
 <g font-weight="bold" text-anchor="middle"><text x="200" y="40">Top view</text><text x="600" y="40">Side view, along the pin</text></g>

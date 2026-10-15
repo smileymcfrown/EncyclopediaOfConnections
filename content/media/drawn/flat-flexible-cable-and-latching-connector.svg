@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a flat flexible cable and a latching zero-insertion-force (ZIF) connector: with the latch lifted, the cable's stiffened tab, bare copper underneath, slides into the slot over the spring contact, and pressing the latch down clamps it; beside it, top views of a Type A cable (bare contacts on the same side at both ends) and a Type D cable (opposite sides).</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="550" y1="20" x2="550" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="200" y="300" width="340" height="18" fill="#d8f0d2"/>
+<path d="M330,300 V276 H470 V240 H500 V300 Z" fill="#e8e8e8"/>
+<polyline points="360,296 430,296 440,276 446,270 454,278" fill="none" stroke="#222" stroke-width="6"></polyline>
+<polyline points="360,296 430,296 440,276 446,270 454,278" fill="none" stroke="#fde2c4" stroke-width="2"></polyline>
+<g transform="translate(300,263)">
+<rect x="-480" y="0" width="480" height="4" fill="#cfe3f5"/>
+<rect x="-52" y="-4" width="52" height="4" fill="#e8e8e8" stroke-width="2"/>
+<rect x="-40" y="4" width="40" height="3" fill="#fde2c4" stroke-width="2"/>
+</g>
+<g transform="rotate(100 485 240)">
+<path d="M325,226 H493 V240 H325 Z" fill="#cfe3f5"/>
+<rect x="385" y="240" width="70" height="20" fill="#cfe3f5"/>
+</g>
+<circle cx="485" cy="240" r="5" fill="#ffffff" stroke-width="2.5"/><circle cx="485" cy="240" r="1.5" fill="#222" stroke="none"/>
+<path d="M410,92 A150,150 0 0 0 335,190" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="130" y1="282" x2="190" y2="282" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="572" y="120" width="206" height="40" fill="#cfe3f5"/><line x1="582" y1="128" x2="768" y2="128" stroke="#999999" stroke-width="2"/><line x1="582" y1="134" x2="768" y2="134" stroke="#999999" stroke-width="2"/><line x1="582" y1="140" x2="768" y2="140" stroke="#999999" stroke-width="2"/><line x1="582" y1="146" x2="768" y2="146" stroke="#999999" stroke-width="2"/><line x1="582" y1="152" x2="768" y2="152" stroke="#999999" stroke-width="2"/><rect x="574" y="126" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="126" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="574" y="132" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="132" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="574" y="138" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="138" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="574" y="144" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="144" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="574" y="150" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="150" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/>
+<rect x="572" y="260" width="206" height="40" fill="#cfe3f5"/><line x1="582" y1="268" x2="768" y2="268" stroke="#999999" stroke-width="2"/><line x1="582" y1="274" x2="768" y2="274" stroke="#999999" stroke-width="2"/><line x1="582" y1="280" x2="768" y2="280" stroke="#999999" stroke-width="2"/><line x1="582" y1="286" x2="768" y2="286" stroke="#999999" stroke-width="2"/><line x1="582" y1="292" x2="768" y2="292" stroke="#999999" stroke-width="2"/><rect x="574" y="266" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="266" width="26" height="4" fill="none" stroke-width="1.5" stroke-dasharray="3 2"/><rect x="574" y="272" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="272" width="26" height="4" fill="none" stroke-width="1.5" stroke-dasharray="3 2"/><rect x="574" y="278" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="278" width="26" height="4" fill="none" stroke-width="1.5" stroke-dasharray="3 2"/><rect x="574" y="284" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="284" width="26" height="4" fill="none" stroke-width="1.5" stroke-dasharray="3 2"/><rect x="574" y="290" width="26" height="4" fill="#fde2c4" stroke-width="1.5"/><rect x="750" y="290" width="26" height="4" fill="none" stroke-width="1.5" stroke-dasharray="3 2"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="270" y="40" font-size="21" font-weight="bold">Side view of a latching (ZIF) connector</text>
+<text x="675" y="40" font-size="21" font-weight="bold">Cable ends, top view</text>
+<text x="410" y="215">latch</text>
+<text x="80" y="250">flat cable</text>
+<text x="240" y="250">stiffened tab</text>
+<text x="160" y="300">bare copper below</text>
+<text x="270" y="345">circuit board</text><text x="450" y="345">spring contact</text>
+<g stroke="#222" stroke-width="1.5"><line x1="450" y1="328" x2="440" y2="292"/></g>
+<text x="675" y="104" font-weight="bold">Type A</text><text x="675" y="186">bare on the same side</text>
+<text x="675" y="244" font-weight="bold">Type D</text><text x="675" y="326">bare on opposite sides</text>
+<text x="675" y="352" font-size="16">(dashed = on the back)</text>
+<text x="400" y="430">Latch up · slide the cable in · latch down to clamp the tab onto the contacts</text>
+</g>
+</svg>
