@@ -454,3 +454,53 @@ gasket:
       alt: Several flat gaskets cut to shape, including an engine head gasket, a fibre washer, a paper gasket and an O-ring.
   needs_animation: false
   needs_photo: false
+geared-hinge:
+  pictures:
+    - commons: "File:Continuoushinge.jpg"
+      kind: photo
+      alt: A long aluminium geared continuous hinge, opened partway, with a cap running down its whole length over the toothed edges.
+    - candidate: 9
+      kind: how-it-works
+      alt: The end of a geared continuous hinge seen close up, showing the gear teeth on the two leaves meshing inside the cap.
+  needs_animation: true
+  needs_photo: false
+genderless-connector:
+  pictures:
+    - commons: "File:Festkupplung.jpg"
+      kind: photo
+      alt: The face of a Storz hose coupling, a metal ring with two curved hooks and slots so it joins to an identical coupling with a quarter turn.
+    - candidate: 2
+      kind: photo
+      alt: Two Anderson Powerpole connectors, one red and one black, identical housings that clip together, with their flat metal contacts beside them.
+    - candidate: 3
+      kind: how-it-works
+      alt: Two identical knuckle couplers on railway wagons locked together, each hook gripping the other.
+  needs_animation: false
+  needs_photo: false
+gimbal:
+  pictures:
+    - commons: "File:Gimbal 3 axes rotation.gif"
+      kind: animation
+      alt: An animation of three nested rings on pivots at right angles, each ring tilting on its own axis so the centre can face any way.
+    - candidate: 5
+      kind: how-it-works
+      alt: A small flying prototype held in a large test gimbal of nested metal rings, so it can tilt freely in every direction.
+    - candidate: 3
+      kind: photo
+      alt: A man holding a phone on a hand-held motorised gimbal, whose jointed arms keep the phone steady while his hand moves.
+  needs_animation: false
+  needs_photo: false
+glued-joint-design:
+  pictures:
+    - drawn
+    - candidate: 3
+      kind: how-it-works
+      alt: A guitar headstock glued onto the neck with a long sloping scarf joint, held under clamps while the glue sets.
+  needs_animation: false
+  needs_photo: false
+granular-jamming-gripper:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the contact sheet had no candidates.

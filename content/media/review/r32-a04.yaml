@@ -359,3 +359,47 @@ suction-cup:
       alt: "Two clear plastic suction cups with knobs on top, lying on a surface."
   needs_animation: false
   needs_photo: false
+swashplate-and-wobble-plate:
+  pictures:
+    - commons: "File:Axialkolbenpumpe - einfache Animation.gif"
+      kind: animation
+      alt: "Animation of an axial piston pump: a slanted red plate turns under a ring of pistons, pushing each one up and letting it down once per turn."
+  needs_animation: false
+  needs_photo: true
+  note: "Swapped the current tiny 180x135 metal animation (#1) for the larger, clearer #3; no real photo among the candidates."
+switchable-permanent-magnet:
+  pictures:
+    - commons: "File:Wiki MagneticBase ON.svg"
+      kind: diagram
+      alt: "Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves of the housing."
+  needs_animation: true
+  needs_photo: true
+  note: "Candidates #2-#9 are large permanent-magnet motors and generators, not switchable magnets."
+switching-valve:
+  pictures:
+    - commons: "File:Solenoid Valve.svg"
+      kind: diagram
+      alt: "Two cut-away drawings of a solenoid valve: at rest the diaphragm blocks the flow, and with the coil powered it lifts so liquid flows from inlet to outlet."
+    - candidate: 21
+      kind: cross-section
+      alt: "A vacuum selector valve in an aluminium box, cut away to show the moving part inside that connects different ports when the lever on the front is turned."
+  needs_animation: true
+  needs_photo: false
+  note: "#21 is a museum cutaway of a vacuum selector valve; a photo of a hobby 5/2 pneumatic or solenoid valve would be more typical."
+syringe-pump:
+  pictures:
+    - commons: "File:Syringe pump.jpg"
+      kind: photo
+      alt: "A laboratory syringe pump with a syringe clamped on top and a pusher block that drives its plunger."
+    - candidate: 7
+      kind: how-it-works
+      alt: "A red single-syringe pump: the syringe is clamped on top and a pusher block running on two guide rods presses its plunger in."
+  needs_animation: true
+  needs_photo: false
+tab-and-slot-joint:
+  pictures:
+    - commons: "File:ADBO - Project Box for Arduino (laser cut).jpg"
+      kind: photo
+      alt: "A clear laser-cut acrylic project box holding an Arduino and a display, its panels located by tabs fitted into slots and held with screws."
+  needs_animation: false
+  needs_photo: false
