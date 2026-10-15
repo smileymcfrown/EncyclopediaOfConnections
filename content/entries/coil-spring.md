@@ -141,17 +141,23 @@ sources:
 - https://www.kjmagnetics.com/blog/magnetic-springs
 research: research/connection-types/results/Coil_spring_compression_extension_torsion.json
 image:
-  file: coil-spring.webp
-  title: File:Helical compression spring parameters.svg
-  author: Yapparina
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg
-  alt: A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/coil-spring.svg
+  alt: 'Three coil springs: a compression spring on a guide rod squashed shorter between two plates, an extension spring hung
+    from a hook and pulled longer, and a torsion spring seen end-on on a rod, whose arm is turned the way that winds the coils
+    tighter; each is loaded and let go in turn, the coils closing up, opening out and the torsion coil shrinking slightly
+    as it winds up.'
+  drawn: true
+  still: drawn/coil-spring.svg
+  kind: animation
 pictures:
+- file: drawn/anim/coil-spring.svg
+  alt: 'Three coil springs: a compression spring on a guide rod squashed shorter between two plates, an extension spring hung
+    from a hook and pulled longer, and a torsion spring seen end-on on a rod, whose arm is turned the way that winds the coils
+    tighter; each is loaded and let go in turn, the coils closing up, opening out and the torsion coil shrinking slightly
+    as it winds up.'
+  drawn: true
+  still: drawn/coil-spring.svg
+  kind: animation
 - file: coil-spring.webp
   title: File:Helical compression spring parameters.svg
   author: Yapparina
@@ -187,7 +193,8 @@ glossary: [axial--radial, over-centre, detent, ratchet, pawl, torque, pitch, sti
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/coil-spring.webp" alt="A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg">Helical compression spring parameters</a> by Yapparina, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/coil-spring.svg"><img src="../media/drawn/anim/coil-spring.svg" alt="Three coil springs: a compression spring on a guide rod squashed shorter between two plates, an extension spring hung from a hook and pulled longer, and a torsion spring seen end-on on a rod, whose arm is turned the way that winds the coils tighter; each is loaded and let go in turn, the coils closi"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/coil-spring.webp" alt="A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg">Helical compression spring parameters</a> by Yapparina, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/coil-spring-eb890a.webp" alt="An old motorcycle saddle sitting on a pair of chrome coil springs that squash as the rider sits down." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/36766110@N08/7899456674">LIKE A COILED SPRING...</a> by REDMAXSPEEDSHOP.COM, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/coil-spring-63ca77.webp" alt="A pale fibreglass-and-epoxy coil spring lying on a blue background, its thick round wire wound into a helix." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/17968829@N03/22568919880">CH-62 - Fiberglass-Epoxy Composite Coil Spring</a> by SPE Automotive Division, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>

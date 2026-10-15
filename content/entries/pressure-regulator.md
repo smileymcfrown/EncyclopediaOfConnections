@@ -134,18 +134,23 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Depiction_of_a_two-gauge_pressure_regulator_connected_to_a_cylinder.png
 research: research/connection-types/results/Pressure_regulator_pressurereducing_valve.json
 image:
-  file: pressure-regulator.webp
-  title: File:Single-stage-regulator.svg
-  author: Mintrick (talk)
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg
-  alt: A cross-section drawing of a single-stage regulator, the adjusting spring pressing a diaphragm that opens and closes
-    a small poppet valve.
-  site: Wikimedia Commons
-  kind: cross-section
-  drawn: false
+  file: drawn/anim/pressure-regulator.svg
+  alt: 'Animated: cutaway of a pressure regulator between a high-pressure tank and an air tool: a knob squeezes a big spring
+    onto a diaphragm, which pushes a small poppet valve open; outlet pressure under the diaphragm pushes back, so the poppet
+    closes once the set pressure is reached and opens a little again whenever air is used; the outlet gauge dips as the tool
+    uses air, the spring pushes the poppet open, then it closes again when the tool stops.'
+  drawn: true
+  still: drawn/pressure-regulator.svg
+  kind: animation
 pictures:
+- file: drawn/anim/pressure-regulator.svg
+  alt: 'Animated: cutaway of a pressure regulator between a high-pressure tank and an air tool: a knob squeezes a big spring
+    onto a diaphragm, which pushes a small poppet valve open; outlet pressure under the diaphragm pushes back, so the poppet
+    closes once the set pressure is reached and opens a little again whenever air is used; the outlet gauge dips as the tool
+    uses air, the spring pushes the poppet open, then it closes again when the tool stops.'
+  drawn: true
+  still: drawn/pressure-regulator.svg
+  kind: animation
 - file: pressure-regulator.webp
   title: File:Single-stage-regulator.svg
   author: Mintrick (talk)
@@ -172,7 +177,8 @@ glossary: [oscillating, actuator, solenoid, cantilever, damping, hysteresis, bos
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/pressure-regulator.webp" alt="A cross-section drawing of a single-stage regulator, the adjusting spring pressing a diaphragm that opens and closes a small poppet valve."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg">Single-stage-regulator</a> by Mintrick (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/pressure-regulator.svg"><img src="../media/drawn/anim/pressure-regulator.svg" alt="Animated: cutaway of a pressure regulator between a high-pressure tank and an air tool: a knob squeezes a big spring onto a diaphragm, which pushes a small poppet valve open; outlet pressure under the diaphragm pushes back, so the poppet closes once the set pressure is reached and opens a little aga"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pressure-regulator.webp" alt="A cross-section drawing of a single-stage regulator, the adjusting spring pressing a diaphragm that opens and closes a small poppet valve." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg">Single-stage-regulator</a> by Mintrick (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/pressure-regulator-e896cc.webp" alt="A brass gas-bottle pressure regulator with two dial gauges, a black adjusting knob and a hose outlet." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/28958738@N06/7304227552">200bar-High-Pressure-Regulator-Argon__41749</a> by Public Domain Photos, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 

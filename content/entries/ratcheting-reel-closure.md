@@ -115,17 +115,21 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Ratcheting_reel_closure_dial_lacing_system.json
 image:
-  file: ratcheting-reel-closure.webp
-  title: File:ThirtyTwo snowboard boot.jpg
-  author: WillisMoon
-  license: CC BY 4.0
-  license_url: https://creativecommons.org/licenses/by/4.0
-  source: https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg
-  alt: A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/ratcheting-reel-closure.svg
+  alt: 'A ratcheting reel seen from above, animated: turning the spool makes its three springy catches click over the ratchet
+    teeth while the lace winds in; on letting go a catch blocks a tooth; pulling the knob up lifts the catches clear and the
+    lace unwinds.'
+  drawn: true
+  still: drawn/ratcheting-reel-closure.svg
+  kind: animation
 pictures:
+- file: drawn/anim/ratcheting-reel-closure.svg
+  alt: 'A ratcheting reel seen from above, animated: turning the spool makes its three springy catches click over the ratchet
+    teeth while the lace winds in; on letting go a catch blocks a tooth; pulling the knob up lifts the catches clear and the
+    lace unwinds.'
+  drawn: true
+  still: drawn/ratcheting-reel-closure.svg
+  kind: animation
 - file: ratcheting-reel-closure.webp
   title: File:ThirtyTwo snowboard boot.jpg
   author: WillisMoon
@@ -141,7 +145,8 @@ glossary: [misalignment, self-locking, axial--radial, coaxial, detent, ratchet, 
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ratcheting-reel-closure.webp" alt="A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg">ThirtyTwo snowboard boot</a> by WillisMoon, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ratcheting-reel-closure.svg"><img src="../media/drawn/anim/ratcheting-reel-closure.svg" alt="A ratcheting reel seen from above, animated: turning the spool makes its three springy catches click over the ratchet teeth while the lace winds in; on letting go a catch blocks a tooth; pulling the knob up lifts the catches clear and the lace unwinds."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ratcheting-reel-closure.webp" alt="A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg">ThirtyTwo snowboard boot</a> by WillisMoon, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A knob on a small reel that you turn to wind in a thin lace and pull two sides of a shoe, boot, brace or bag together; springy catches ([pawls](../glossary.md#pawl)) click over [ratchet](../glossary.md#ratchet) teeth so it cannot unwind by itself, and it releases when you pull the knob up or turn it backwards.

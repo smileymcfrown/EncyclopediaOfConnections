@@ -117,18 +117,21 @@ sources:
 - https://www.youtube.com/watch?v=-2bxol03MO8 (verified via YouTube oEmbed)
 research: research/connection-types/results/Belt_tensioner_springloaded_idler.json
 image:
-  file: belt-tensioner.webp
-  title: File:Kettenspanner für Singlespeed-Räder.jpg
-  author: Kab/http://du-und-dein-fahrrad.de
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg
-  alt: A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against
-    the slack lower run of the chain.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/belt-tensioner.svg
+  alt: 'Animated: a belt tensioner: a belt runs round a driving pulley and a driven pulley, and a small idler wheel on a pivoting
+    arm is pushed by a coil spring into the slack lower span; as the belt stretches, the spring swings the arm further in
+    so the belt stays tight.'
+  drawn: true
+  still: drawn/belt-tensioner.svg
+  kind: animation
 pictures:
+- file: drawn/anim/belt-tensioner.svg
+  alt: 'Animated: a belt tensioner: a belt runs round a driving pulley and a driven pulley, and a small idler wheel on a pivoting
+    arm is pushed by a coil spring into the slack lower span; as the belt stretches, the spring swings the arm further in
+    so the belt stays tight.'
+  drawn: true
+  still: drawn/belt-tensioner.svg
+  kind: animation
 - file: belt-tensioner.webp
   title: File:Kettenspanner für Singlespeed-Räder.jpg
   author: Kab/http://du-und-dein-fahrrad.de
@@ -155,7 +158,8 @@ glossary: [misalignment, freewheel, pitch, idler, stiffness, preload, deflection
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/belt-tensioner.webp" alt="A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against the slack lower run of the chain."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg">Kettenspanner für Singlespeed-Räder</a> by Kab/http://du-und-dein-fahrrad.de, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/belt-tensioner.svg"><img src="../media/drawn/anim/belt-tensioner.svg" alt="Animated: a belt tensioner: a belt runs round a driving pulley and a driven pulley, and a small idler wheel on a pivoting arm is pushed by a coil spring into the slack lower span; as the belt stretches, the spring swings the arm further in so the belt stays tight."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/belt-tensioner.webp" alt="A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against the slack lower run of the chain." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg">Kettenspanner für Singlespeed-Räder</a> by Kab/http://du-und-dein-fahrrad.de, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/belt-tensioner-cfa2e0.webp" alt="A car engine&#x27;s automatic belt tensioner, a smooth idler pulley on a spring-loaded arm pressing on the ribbed drive belt." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Belt_tensioner_(15973554259).jpg">Belt tensioner (15973554259)</a> by dave_7 from Lethbridge, Canada, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

@@ -137,17 +137,21 @@ sources:
 - https://www.youtube.com/watch?v=VfqbIIk6YKs
 research: research/connection-types/results/Spiral_power_spring_clock_spring.json
 image:
-  file: spiral-power-spring.webp
-  title: File:Alarm clock mainspring.JPG
-  author: Chetvorno
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG
-  alt: The coiled steel mainspring inside an old alarm clock movement, wound round its centre shaft.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/spiral-power-spring.svg
+  alt: 'A spiral power spring in its round case, animated: the centre shaft is turned three turns, wrapping the steel strip
+    tighter around it while the click drops into each ratchet tooth and the turning force on the graph rises; then the click
+    is lifted and the spring unwinds the shaft back again.'
+  drawn: true
+  still: drawn/spiral-power-spring.svg
+  kind: animation
 pictures:
+- file: drawn/anim/spiral-power-spring.svg
+  alt: 'A spiral power spring in its round case, animated: the centre shaft is turned three turns, wrapping the steel strip
+    tighter around it while the click drops into each ratchet tooth and the turning force on the graph rises; then the click
+    is lifted and the spring unwinds the shaft back again.'
+  drawn: true
+  still: drawn/spiral-power-spring.svg
+  kind: animation
 - file: spiral-power-spring.webp
   title: File:Alarm clock mainspring.JPG
   author: Chetvorno
@@ -173,7 +177,8 @@ glossary: [ratchet, pawl, torque, preload, torsion, hysteresis, collet, creep, f
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spiral-power-spring.webp" alt="The coiled steel mainspring inside an old alarm clock movement, wound round its centre shaft."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG">Alarm clock mainspring</a> by Chetvorno, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spiral-power-spring.svg"><img src="../media/drawn/anim/spiral-power-spring.svg" alt="A spiral power spring in its round case, animated: the centre shaft is turned three turns, wrapping the steel strip tighter around it while the click drops into each ratchet tooth and the turning force on the graph rises; then the click is lifted and the spring unwinds the shaft back again."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spiral-power-spring.webp" alt="The coiled steel mainspring inside an old alarm clock movement, wound round its centre shaft." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG">Alarm clock mainspring</a> by Chetvorno, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/spiral-power-spring-00c62b.webp" alt="A watch mainspring taken out and lying loose, showing the flat steel strip&#x27;s natural S-shaped curl." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mainspring_Chinese_uncoiled.jpg">Mainspring Chinese uncoiled</a> by Hustvedt, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

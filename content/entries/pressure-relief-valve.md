@@ -144,18 +144,25 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Rupturedisc_burst.JPG
 research: research/connection-types/results/Pressure_relief_valve_safety_valve_popoff_valve.json
 image:
-  file: pressure-relief-valve.webp
-  title: File:Relief Valve.png
-  author: Mbeychok
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Relief_Valve.png
-  alt: A numbered cross-section drawing of a spring-loaded relief valve, the spring pressing the disc down onto its seat over
-    the inlet.
-  site: Wikimedia Commons
-  kind: cross-section
-  drawn: false
+  file: drawn/anim/pressure-relief-valve.svg
+  alt: 'Animated: a pressure relief valve on top of an air tank, with a gauge and a lift-versus-pressure graph: a spring holds
+    a disc on its seat; when the tank pressure passes the set pressure the disc lifts and air escapes, and once the pressure
+    has fallen a little below the set point (blowdown) the disc closes again; a safety valve instead pops fully open; the
+    needle climbs to the red line, the disc lifts and air puffs out, then the disc reseats as the needle falls, while a dot
+    traces the graph.'
+  drawn: true
+  still: drawn/pressure-relief-valve.svg
+  kind: animation
 pictures:
+- file: drawn/anim/pressure-relief-valve.svg
+  alt: 'Animated: a pressure relief valve on top of an air tank, with a gauge and a lift-versus-pressure graph: a spring holds
+    a disc on its seat; when the tank pressure passes the set pressure the disc lifts and air escapes, and once the pressure
+    has fallen a little below the set point (blowdown) the disc closes again; a safety valve instead pops fully open; the
+    needle climbs to the red line, the disc lifts and air puffs out, then the disc reseats as the needle falls, while a dot
+    traces the graph.'
+  drawn: true
+  still: drawn/pressure-relief-valve.svg
+  kind: animation
 - file: pressure-relief-valve.webp
   title: File:Relief Valve.png
   author: Mbeychok
@@ -192,7 +199,8 @@ glossary: [stroke, over-centre, torque, actuator, fail-safe--fail-secure, hyster
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/pressure-relief-valve.webp" alt="A numbered cross-section drawing of a spring-loaded relief valve, the spring pressing the disc down onto its seat over the inlet."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Relief_Valve.png">Relief Valve</a> by Mbeychok, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/pressure-relief-valve.svg"><img src="../media/drawn/anim/pressure-relief-valve.svg" alt="Animated: a pressure relief valve on top of an air tank, with a gauge and a lift-versus-pressure graph: a spring holds a disc on its seat; when the tank pressure passes the set pressure the disc lifts and air escapes, and once the pressure has fallen a little below the set point (blowdown) the disc "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pressure-relief-valve.webp" alt="A numbered cross-section drawing of a spring-loaded relief valve, the spring pressing the disc down onto its seat over the inlet." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Relief_Valve.png">Relief Valve</a> by Mbeychok, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/pressure-relief-valve-408318.webp" alt="A cut-away render of a relief valve, showing the blue spring pushing the red valve onto its seat inside the body." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Safetyvalve.png">Safetyvalve</a> by EugeneZ, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/pressure-relief-valve-4fa9cc.webp" alt="A blue spring-loaded pressure relief valve with a lifting lever, fitted on top of a cooling-water pipe." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pressure_relief_valve_DN25_on_cooling_water.jpg">Pressure relief valve DN25 on cooling water</a> by RomanM82, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

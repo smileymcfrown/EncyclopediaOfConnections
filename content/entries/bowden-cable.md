@@ -120,18 +120,23 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bowden_cable_pushpull_cable.json
 image:
-  file: bowden-cable.webp
-  title: File:Bowden.jpg
-  author: Baran Ivo
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Bowden.jpg
-  alt: A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the
-    inner wire.
-  site: Wikimedia Commons
-  kind: cross-section
-  drawn: false
+  file: drawn/anim/bowden-cable.svg
+  alt: 'Animated: a Bowden cable from a hand lever to a brake caliper: squeezing the lever pulls the inner wire, which slides
+    inside a curved outer sleeve held in a stop at each end, so the far end of the wire pulls the brake arm and its pad onto
+    the rim while the sleeve pushes back on its two stops; a return spring opens the brake again. A small graph shows the
+    force getting through falling as the total bend grows.'
+  drawn: true
+  still: drawn/bowden-cable.svg
+  kind: animation
 pictures:
+- file: drawn/anim/bowden-cable.svg
+  alt: 'Animated: a Bowden cable from a hand lever to a brake caliper: squeezing the lever pulls the inner wire, which slides
+    inside a curved outer sleeve held in a stop at each end, so the far end of the wire pulls the brake arm and its pad onto
+    the rim while the sleeve pushes back on its two stops; a return spring opens the brake again. A small graph shows the
+    force getting through falling as the total bend grows.'
+  drawn: true
+  still: drawn/bowden-cable.svg
+  kind: animation
 - file: bowden-cable.webp
   title: File:Bowden.jpg
   author: Baran Ivo
@@ -168,7 +173,8 @@ glossary: [misalignment, backlash, linkage, stick-slip, form-fit--force-fit--mat
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bowden-cable.webp" alt="A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the inner wire."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bowden.jpg">Bowden</a> by Baran Ivo, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bowden-cable.svg"><img src="../media/drawn/anim/bowden-cable.svg" alt="Animated: a Bowden cable from a hand lever to a brake caliper: squeezing the lever pulls the inner wire, which slides inside a curved outer sleeve held in a stop at each end, so the far end of the wire pulls the brake arm and its pad onto the rim while the sleeve pushes back on its two stops; a retu"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bowden-cable.webp" alt="A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the inner wire." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bowden.jpg">Bowden</a> by Baran Ivo, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/bowden-cable-f0b7df.webp" alt="A bicycle gear cable running in its black outer sleeve to a rear derailleur, where the inner wire leaves the sleeve and is clamped to the derailleur arm." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bowden_cable.JPG">Bowden cable</a> by Cropped by AndrewDressel at en.wikipedia, original file was created by C. Corleis (Kuddel), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/bowden-cable-0ad49b.webp" alt="The end of a Bowden cable fitted with a barrel adjuster, a threaded sleeve stop with the inner wire coming out of it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg">Bowden cable with barrel adjuster</a> by AndrewDressel (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

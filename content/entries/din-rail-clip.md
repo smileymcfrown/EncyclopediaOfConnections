@@ -123,18 +123,25 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/DINrail_clip_tophat_rail_snap_mount.json
 image:
-  file: din-rail-clip.webp
-  title: File:DIN rail rear view.JPG
-  author: Kae
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:DIN_rail_rear_view.JPG
-  alt: The back of a two-pole circuit breaker clipped onto a DIN rail, shown upside down so its fixed hook and sliding spring
-    latch can be seen.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/din-rail-clip.svg
+  alt: 'Side cross-section of a 35 mm top-hat DIN rail on a wall with a module clipped on: a fixed hook on the module hangs
+    over the top lip and a spring latch sits behind the bottom lip; a small top view shows modules side by side on the rail
+    between two end stops; the module is taken off (a screwdriver pulls the latch down, the module tilts and lifts off) and
+    put back on (hook over the top lip, swing in, the sloped latch is pushed down and clicks up behind the lip), while in
+    the top view a module slides along the rail.'
+  drawn: true
+  still: drawn/din-rail-clip.svg
+  kind: animation
 pictures:
+- file: drawn/anim/din-rail-clip.svg
+  alt: 'Side cross-section of a 35 mm top-hat DIN rail on a wall with a module clipped on: a fixed hook on the module hangs
+    over the top lip and a spring latch sits behind the bottom lip; a small top view shows modules side by side on the rail
+    between two end stops; the module is taken off (a screwdriver pulls the latch down, the module tilts and lifts off) and
+    put back on (hook over the top lip, swing in, the sloped latch is pushed down and clicks up behind the lip), while in
+    the top view a module slides along the rail.'
+  drawn: true
+  still: drawn/din-rail-clip.svg
+  kind: animation
 - file: din-rail-clip.webp
   title: File:DIN rail rear view.JPG
   author: Kae
@@ -161,7 +168,8 @@ glossary: [cantilever, clearance, tolerance, form-fit--force-fit--material-bond,
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/din-rail-clip.webp" alt="The back of a two-pole circuit breaker clipped onto a DIN rail, shown upside down so its fixed hook and sliding spring latch can be seen."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:DIN_rail_rear_view.JPG">DIN rail rear view</a> by Kae, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/din-rail-clip.svg"><img src="../media/drawn/anim/din-rail-clip.svg" alt="Side cross-section of a 35 mm top-hat DIN rail on a wall with a module clipped on: a fixed hook on the module hangs over the top lip and a spring latch sits behind the bottom lip; a small top view shows modules side by side on the rail between two end stops; the module is taken off (a screwdriver pu"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/din-rail-clip.webp" alt="The back of a two-pole circuit breaker clipped onto a DIN rail, shown upside down so its fixed hook and sliding spring latch can be seen." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:DIN_rail_rear_view.JPG">DIN rail rear view</a> by Kae, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/din-rail-clip-0ac66f.webp" alt="Green terminal blocks and a relay clipped side by side onto a slotted steel DIN rail." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Din_rail.jpg">Din rail</a> by Ulfbastel, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 

@@ -154,8 +154,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg
-  alt: A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot
+  alt: A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: clamp-on-accessory-mount-for-bars-poles-and-edges.webp
@@ -164,15 +165,16 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg
-  alt: A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot
+  alt: A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [over-centre, ratchet, torque, form-fit--force-fit--material-bond, set-screw, taper, collet, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot"><figcaption><a href="https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg">AltmanClamp</a> by StarX (talk) (Uploads), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg">AltmanClamp</a> by StarX (talk) (Uploads), Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A clamp that grips an existing bar, pole, tube, pipe or desk edge by squeezing it, often through a rubber pad, so an accessory can be fixed on, repositioned or removed without drilling or changing the thing it is clamped to.

@@ -138,18 +138,23 @@ sources:
 - https://www.printables.com/model/276863-31-magnetic-gearbox
 research: research/connection-types/results/Magnetic_coupling_and_magnetic_gear.json
 image:
-  file: magnetic-coupling-and-magnetic-gear.webp
-  title: File:Magnetgetriebe.png
-  author: Petitebiscotte
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png
-  alt: A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of
-    steel pole pieces between them.
-  site: Wikimedia Commons
-  kind: cross-section
-  drawn: false
+  file: drawn/anim/magnetic-coupling-and-magnetic-gear.svg
+  alt: 'Animated: magnetic coupling seen end-on: an outer ring of magnets turned by a motor and an inner ring of magnets that
+    drives the load, with a thin sealed wall between them; opposite poles (N and S) attract, so the inner ring follows the
+    outer one without touching it; under too much load the poles slip past each other and the follower stutters, until the
+    driver stops and it locks in step again.'
+  drawn: true
+  still: drawn/magnetic-coupling-and-magnetic-gear.svg
+  kind: animation
 pictures:
+- file: drawn/anim/magnetic-coupling-and-magnetic-gear.svg
+  alt: 'Animated: magnetic coupling seen end-on: an outer ring of magnets turned by a motor and an inner ring of magnets that
+    drives the load, with a thin sealed wall between them; opposite poles (N and S) attract, so the inner ring follows the
+    outer one without touching it; under too much load the poles slip past each other and the follower stutters, until the
+    driver stops and it locks in step again.'
+  drawn: true
+  still: drawn/magnetic-coupling-and-magnetic-gear.svg
+  kind: animation
 - file: magnetic-coupling-and-magnetic-gear.webp
   title: File:Magnetgetriebe.png
   author: Petitebiscotte
@@ -166,7 +171,8 @@ glossary: [misalignment, backlash, axial--radial, coaxial, torque, fail-safe--fa
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/magnetic-coupling-and-magnetic-gear.webp" alt="A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of steel pole pieces between them."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png">Magnetgetriebe</a> by Petitebiscotte, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/magnetic-coupling-and-magnetic-gear.svg"><img src="../media/drawn/anim/magnetic-coupling-and-magnetic-gear.svg" alt="Animated: magnetic coupling seen end-on: an outer ring of magnets turned by a motor and an inner ring of magnets that drives the load, with a thin sealed wall between them; opposite poles (N and S) attract, so the inner ring follows the outer one without touching it; under too much load the poles sl"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/magnetic-coupling-and-magnetic-gear.webp" alt="A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of steel pole pieces between them." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png">Magnetgetriebe</a> by Petitebiscotte, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Rings or discs of permanent magnets on a driving part and a driven part lock together magnetically across an air gap or a thin non-magnetic wall, so turning force passes without contact (at 1:1 in a coupling, or with a speed change in a magnetic gear) and the parts slip harmlessly past each other if the load gets too high.

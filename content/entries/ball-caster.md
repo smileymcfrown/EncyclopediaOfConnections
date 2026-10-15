@@ -117,18 +117,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ball_caster_ball_transfer_unit.json
 image:
-  file: ball-caster.webp
-  title: File:BallTransferUnitCrossSection.png
-  author: Slashme
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png
-  alt: A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held
-    in by a blue lip.
-  site: Wikimedia Commons
-  kind: cross-section
-  drawn: false
+  file: drawn/anim/ball-caster.svg
+  alt: 'Animated: a ball caster cut away under a robot: a big ball held in a housing by a lip smaller than the ball, resting
+    on small rollers, turns as the floor slides past, with the rollers spinning the other way; seen from above, it rolls off
+    sideways at once, while a swivel castor must first swing its wheel round.'
+  drawn: true
+  still: drawn/ball-caster.svg
+  kind: animation
 pictures:
+- file: drawn/anim/ball-caster.svg
+  alt: 'Animated: a ball caster cut away under a robot: a big ball held in a housing by a lip smaller than the ball, resting
+    on small rollers, turns as the floor slides past, with the rollers spinning the other way; seen from above, it rolls off
+    sideways at once, while a swivel castor must first swing its wheel round.'
+  drawn: true
+  still: drawn/ball-caster.svg
+  kind: animation
 - file: ball-caster.webp
   title: File:BallTransferUnitCrossSection.png
   author: Slashme
@@ -165,7 +168,8 @@ glossary: [clearance, tolerance, form-fit--force-fit--material-bond, repeatabili
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-caster.webp" alt="A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held in by a blue lip."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png">BallTransferUnitCrossSection</a> by Slashme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ball-caster.svg"><img src="../media/drawn/anim/ball-caster.svg" alt="Animated: a ball caster cut away under a robot: a big ball held in a housing by a lip smaller than the ball, resting on small rollers, turns as the floor slides past, with the rollers spinning the other way; seen from above, it rolls off sideways at once, while a swivel castor must first swing its w"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-caster.webp" alt="A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held in by a blue lip." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png">BallTransferUnitCrossSection</a> by Slashme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/ball-caster-dc0b70.webp" alt="A real pressed-steel ball transfer unit sawn in half, showing the large ball resting on a ring of small balls in its cup." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Schulz-www.Kugelrollen.de-im-Schnitt.jpg">Schulz-www.Kugelrollen.de-im-Schnitt</a> by Schulz-Stanztechnik.de, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/ball-caster-90ee8c.webp" alt="The underside of a small two-wheeled robot, with a little metal ball caster at the front acting as its third wheel." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/7320302@N07/3057606500">Robot 2</a> by Adam Greig, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>

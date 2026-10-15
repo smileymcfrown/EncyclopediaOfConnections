@@ -137,17 +137,21 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Bevel_gears_incl_mitre_and_crown_gears.json
 image:
-  file: bevel-gears.webp
-  title: File:Gear - Bevel (PSF).png
-  author: Pearson Scott Foresman
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png
-  alt: A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/bevel-gears.svg
+  alt: 'Animated: two bevel gears seen from the side: a 20-tooth pinion on a horizontal shaft meshes with a 40-tooth gear
+    on a vertical shaft; their teeth are cut on cones whose tips meet where the shafts cross, the gear turns at half the pinion''s
+    speed, and the load pushes each gear back along its shaft, away from the tip.'
+  drawn: true
+  still: drawn/bevel-gears.svg
+  kind: animation
 pictures:
+- file: drawn/anim/bevel-gears.svg
+  alt: 'Animated: two bevel gears seen from the side: a 20-tooth pinion on a horizontal shaft meshes with a 40-tooth gear
+    on a vertical shaft; their teeth are cut on cones whose tips meet where the shafts cross, the gear turns at half the pinion''s
+    speed, and the load pushes each gear back along its shaft, away from the tip.'
+  drawn: true
+  still: drawn/bevel-gears.svg
+  kind: animation
 - file: bevel-gears.webp
   title: File:Gear - Bevel (PSF).png
   author: Pearson Scott Foresman
@@ -185,7 +189,8 @@ glossary: [misalignment, backlash, self-locking, axial--radial, gear-ratio, pitc
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bevel-gears.webp" alt="A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png">Gear - Bevel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bevel-gears.svg"><img src="../media/drawn/anim/bevel-gears.svg" alt="Animated: two bevel gears seen from the side: a 20-tooth pinion on a horizontal shaft meshes with a 40-tooth gear on a vertical shaft; their teeth are cut on cones whose tips meet where the shafts cross, the gear turns at half the pinion&#x27;s speed, and the load pushes each gear back along its shaft, a"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bevel-gears.webp" alt="A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png">Gear - Bevel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/bevel-gears-cd05b4.webp" alt="A loader axle cut open at a trade show, showing the bevel gears inside that turn the drive from the prop shaft through a right angle to the wheels." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bauma_2007_ZF_Loader_Axle_MT-L3075_2.jpg">Bauma 2007 ZF Loader Axle MT-L3075 2</a> by Aconcagua, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/bevel-gears-52a2b1.webp" alt="A pair of big red-painted bevel gears on an old grain mill, one gear&#x27;s teeth fitted with wooden inserts, meshing at a right angle." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bevel_gears_on_grain_mill_at_Dordrecht,_Eastern_Cape.jpg">Bevel gears on grain mill at Dordrecht, Eastern Cape</a> by Gregory David Harington, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

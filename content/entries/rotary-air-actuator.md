@@ -121,18 +121,21 @@ sources:
 - https://www.printables.com/model/44562-pneumatic-stepper-motor-t-8
 research: research/connection-types/results/Rotary_air_actuator_vane_or_rackandpinion_rotary_actuator.json
 image:
-  file: rotary-air-actuator.webp
-  title: File:Verin rotatif principe.svg
-  author: Cdang
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg
-  alt: A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns
-    a gear on the output shaft.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/rotary-air-actuator.svg
+  alt: 'Two rotary air actuators, animated: in the vane type air fills one side of the chamber and swings the paddle and shaft
+    270 degrees, then air on the other side swings it back; in the rack-and-pinion type air pushes the two pistons apart so
+    their racks turn the gear a quarter turn, and the springs push them back.'
+  drawn: true
+  still: drawn/rotary-air-actuator.svg
+  kind: animation
 pictures:
+- file: drawn/anim/rotary-air-actuator.svg
+  alt: 'Two rotary air actuators, animated: in the vane type air fills one side of the chamber and swings the paddle and shaft
+    270 degrees, then air on the other side swings it back; in the rack-and-pinion type air pushes the two pistons apart so
+    their racks turn the gear a quarter turn, and the springs push them back.'
+  drawn: true
+  still: drawn/rotary-air-actuator.svg
+  kind: animation
 - file: rotary-air-actuator.webp
   title: File:Verin rotatif principe.svg
   author: Cdang
@@ -160,7 +163,8 @@ glossary: [misalignment, backlash, oscillating, stroke, torque, actuator, soleno
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/rotary-air-actuator.webp" alt="A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns a gear on the output shaft."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg">Verin rotatif principe</a> by Cdang, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/rotary-air-actuator.svg"><img src="../media/drawn/anim/rotary-air-actuator.svg" alt="Two rotary air actuators, animated: in the vane type air fills one side of the chamber and swings the paddle and shaft 270 degrees, then air on the other side swings it back; in the rack-and-pinion type air pushes the two pistons apart so their racks turn the gear a quarter turn, and the springs pus"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rotary-air-actuator.webp" alt="A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns a gear on the output shaft." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg">Verin rotatif principe</a> by Cdang, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/rotary-air-actuator-8aad5c.webp" alt="Two grey pneumatic rack-and-pinion actuators mounted on top of big valves in a blue water pipe, turning the valves open and shut." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pneumatic_Rack_and_Pinion_Actuators.JPG">Pneumatic Rack and Pinion Actuators</a> by Z22, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

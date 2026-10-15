@@ -162,17 +162,21 @@ sources:
 - https://en.wikipedia.org/wiki/Flexible_flat_cable
 research: research/connection-types/results/Slip_ring_and_rotary_union.json
 image:
-  file: slip-ring-and-rotary-union.webp
-  title: File:Sliprings annotated.jpg
-  author: Wtshymanski
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg
-  alt: A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/slip-ring-and-rotary-union.svg
+  alt: 'Cut-away side view of one turning shaft, animated: the shaft and its slip rings spin continuously while the spring-pressed
+    brushes and their wires stay still, and on the right fluid flows from the fixed hose into a groove all round the shaft,
+    through the turning cross-drilled hole and along the shaft, between two O-ring seals.'
+  drawn: true
+  still: drawn/slip-ring-and-rotary-union.svg
+  kind: animation
 pictures:
+- file: drawn/anim/slip-ring-and-rotary-union.svg
+  alt: 'Cut-away side view of one turning shaft, animated: the shaft and its slip rings spin continuously while the spring-pressed
+    brushes and their wires stay still, and on the right fluid flows from the fixed hose into a groove all round the shaft,
+    through the turning cross-drilled hole and along the shaft, between two O-ring seals.'
+  drawn: true
+  still: drawn/slip-ring-and-rotary-union.svg
+  kind: animation
 - file: slip-ring-and-rotary-union.webp
   title: File:Sliprings annotated.jpg
   author: Wtshymanski
@@ -187,7 +191,8 @@ glossary: [torque, clearance, fatigue, o-ring, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/slip-ring-and-rotary-union.webp" alt="A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg">Sliprings annotated</a> by Wtshymanski, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/slip-ring-and-rotary-union.svg"><img src="../media/drawn/anim/slip-ring-and-rotary-union.svg" alt="Cut-away side view of one turning shaft, animated: the shaft and its slip rings spin continuously while the spring-pressed brushes and their wires stay still, and on the right fluid flows from the fixed hose into a groove all round the shaft, through the turning cross-drilled hole and along the shaf"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/slip-ring-and-rotary-union.webp" alt="A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg">Sliprings annotated</a> by Wtshymanski, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A slip ring passes electric power and signals from a stationary part to a continuously rotating one through springy contacts (brushes) rubbing on rings, and a rotary union does the same for liquids, air or vacuum through seals between a fixed housing and a turning shaft, so the rotating part can turn forever without its cables or hoses winding up.

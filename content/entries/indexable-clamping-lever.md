@@ -110,17 +110,23 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Indexable_clamping_lever_ratchet_handle.json
 image:
-  file: indexable-clamping-lever.webp
-  title: File:01 Klemmhebel 2012.jpg
-  author: Autorisiert vom Hersteller
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg
-  alt: A grey metal clamping lever, a curved handle with a round threaded boss at one end.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/indexable-clamping-lever.svg
+  alt: 'Animated: indexable clamping lever, cut open from the side and seen from above: a spring holds the teeth inside the
+    lever in mesh with a toothed insert on the screw, so turning the lever turns the screw; lifting the lever frees the teeth
+    so it can swing back without turning the screw, then it drops into mesh at a new angle; the animation tightens, lifts,
+    swings back and drops in, like a ratchet spanner.'
+  drawn: true
+  still: drawn/indexable-clamping-lever.svg
+  kind: animation
 pictures:
+- file: drawn/anim/indexable-clamping-lever.svg
+  alt: 'Animated: indexable clamping lever, cut open from the side and seen from above: a spring holds the teeth inside the
+    lever in mesh with a toothed insert on the screw, so turning the lever turns the screw; lifting the lever frees the teeth
+    so it can swing back without turning the screw, then it drops into mesh at a new angle; the animation tightens, lifts,
+    swings back and drops in, like a ratchet spanner.'
+  drawn: true
+  still: drawn/indexable-clamping-lever.svg
+  kind: animation
 - file: indexable-clamping-lever.webp
   title: File:01 Klemmhebel 2012.jpg
   author: Autorisiert vom Hersteller
@@ -146,7 +152,8 @@ glossary: [backlash, stroke, over-centre, ratchet, pawl, torque, linkage, cleara
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/indexable-clamping-lever.webp" alt="A grey metal clamping lever, a curved handle with a round threaded boss at one end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg">01 Klemmhebel 2012</a> by Autorisiert vom Hersteller, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/indexable-clamping-lever.svg"><img src="../media/drawn/anim/indexable-clamping-lever.svg" alt="Animated: indexable clamping lever, cut open from the side and seen from above: a spring holds the teeth inside the lever in mesh with a toothed insert on the screw, so turning the lever turns the screw; lifting the lever frees the teeth so it can swing back without turning the screw, then it drops "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/indexable-clamping-lever.webp" alt="A grey metal clamping lever, a curved handle with a round threaded boss at one end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg">01 Klemmhebel 2012</a> by Autorisiert vom Hersteller, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/indexable-clamping-lever-5e3423.webp" alt="An older clamping lever with a ball-ended handle, seen from below so its threaded bore is visible." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Klemmhebel_1952.jpg">Klemmhebel 1952</a> by autorisiert vom Hersteller, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

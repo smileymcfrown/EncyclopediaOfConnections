@@ -147,17 +147,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Speed_governor_fly_fan_centrifugal_governor.json
 image:
-  file: speed-governor.webp
-  title: File:Regulador mecánico.png
-  author: Wiki LIC
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png
-  alt: A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/speed-governor.svg
+  alt: 'Two speed governors, animated: on the left the spring barrel turns slowly and drives the gears up to a fan that speeds
+    up until the growing air drag holds it at a steady speed; on the right two weights on flat springs spin up, fly outwards
+    and rub on the fixed felt-lined drum, which holds their speed steady; then both stop.'
+  drawn: true
+  still: drawn/speed-governor.svg
+  kind: animation
 pictures:
+- file: drawn/anim/speed-governor.svg
+  alt: 'Two speed governors, animated: on the left the spring barrel turns slowly and drives the gears up to a fan that speeds
+    up until the growing air drag holds it at a steady speed; on the right two weights on flat springs spin up, fly outwards
+    and rub on the fixed felt-lined drum, which holds their speed steady; then both stop.'
+  drawn: true
+  still: drawn/speed-governor.svg
+  kind: animation
 - file: speed-governor.webp
   title: File:Regulador mecánico.png
   author: Wiki LIC
@@ -184,7 +188,8 @@ glossary: [ratchet, torque, crank, form-fit--force-fit--material-bond, repeatabi
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/speed-governor.webp" alt="A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png">Regulador mecánico</a> by Wiki LIC, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/speed-governor.svg"><img src="../media/drawn/anim/speed-governor.svg" alt="Two speed governors, animated: on the left the spring barrel turns slowly and drives the gears up to a fan that speeds up until the growing air drag holds it at a steady speed; on the right two weights on flat springs spin up, fly outwards and rub on the fixed felt-lined drum, which holds their spee"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/speed-governor.webp" alt="A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png">Regulador mecánico</a> by Wiki LIC, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/speed-governor-bd5306.webp" alt="A wind-up gramophone motor out of its case, with the spring barrel at the back and the spinning-weight governor at the front." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Grammoantrieb.jpg">Grammoantrieb</a> by Ulfbastel, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

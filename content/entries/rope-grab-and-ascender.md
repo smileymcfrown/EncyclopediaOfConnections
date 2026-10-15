@@ -130,17 +130,19 @@ sources:
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Rope_grab_and_ascender_cam_rope_clamp.json
 image:
-  file: rope-grab-and-ascender.webp
-  title: File:Petzl Ascenders (On Rope).jpg
-  author: Climber.Ben.Johnson
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg
-  alt: Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/rope-grab-and-ascender.svg
+  alt: 'A rope grab cut open from the side, animated: it slides up the rope with the cam dragged open, then the load pulls
+    down and the cam swings shut to pinch the rope; finally the cam is held open by hand and the clamp slides back down.'
+  drawn: true
+  still: drawn/rope-grab-and-ascender.svg
+  kind: animation
 pictures:
+- file: drawn/anim/rope-grab-and-ascender.svg
+  alt: 'A rope grab cut open from the side, animated: it slides up the rope with the cam dragged open, then the load pulls
+    down and the cam swings shut to pinch the rope; finally the cam is held open by hand and the clamp slides back down.'
+  drawn: true
+  still: drawn/rope-grab-and-ascender.svg
+  kind: animation
 - file: rope-grab-and-ascender.webp
   title: File:Petzl Ascenders (On Rope).jpg
   author: Climber.Ben.Johnson
@@ -175,7 +177,8 @@ glossary: [self-locking, ratchet, pawl, sprag, clearance, form-fit--force-fit--m
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-grab-and-ascender.webp" alt="Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg">Petzl Ascenders (On Rope)</a> by Climber.Ben.Johnson, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/rope-grab-and-ascender.svg"><img src="../media/drawn/anim/rope-grab-and-ascender.svg" alt="A rope grab cut open from the side, animated: it slides up the rope with the cam dragged open, then the load pulls down and the cam swings shut to pinch the rope; finally the cam is held open by hand and the clamp slides back down."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rope-grab-and-ascender.webp" alt="Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg">Petzl Ascenders (On Rope)</a> by Climber.Ben.Johnson, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/rope-grab-and-ascender-1a2d8f.webp" alt="An older metal Gibbs ascender with its spring-loaded cam lever and pin, with a red cord loop." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gibbs_Ascender.jpg">Gibbs Ascender</a> by Aglsilva at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/rope-grab-and-ascender-9937ea.webp" alt="A side view of two chest ascenders showing the toothed cam that pinches the rope." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg">Ascenders-cams</a> by Luca Bergamasco, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

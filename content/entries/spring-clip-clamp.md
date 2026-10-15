@@ -132,17 +132,19 @@ sources:
   9024; titles of 586755 and 466832 from search results)'
 research: research/connection-types/results/Spring_clip_clamp_clothespeg_clip_spring_clamp_clipon_holder.json
 image:
-  file: spring-clip-clamp.webp
-  title: File:Clothespin-0157e3.jpg
-  author: 'Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble). Email the author: David R.
-    Tribble Also see my personal gallery at Google Photos'
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg
-  alt: A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws.
-  site: Wikimedia Commons
-  drawn: false
+  file: drawn/anim/spring-clip-clamp.svg
+  alt: 'A spring clip clamp seen from the side, animated: squeezing the handles opens the jaws against the torsion spring
+    and the part slides out, the jaws snap shut when let go, then the clamp is squeezed open again and released onto the part.'
+  drawn: true
+  still: drawn/spring-clip-clamp.svg
+  kind: animation
 pictures:
+- file: drawn/anim/spring-clip-clamp.svg
+  alt: 'A spring clip clamp seen from the side, animated: squeezing the handles opens the jaws against the torsion spring
+    and the part slides out, the jaws snap shut when let go, then the clamp is squeezed open again and released onto the part.'
+  drawn: true
+  still: drawn/spring-clip-clamp.svg
+  kind: animation
 - file: spring-clip-clamp.webp
   title: File:Clothespin-0157e3.jpg
   author: 'Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble). Email the author: David R.
@@ -150,15 +152,17 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg
-  alt: A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws.
+  alt: A wooden clothes peg, two wooden jaws pressed together at the front by a coiled wire spring in the middle.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [dead-point, over-centre, ratchet, flexure, compliant-mechanism, cantilever, torsion, clearance, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, brittle--ductile, layer-lines, perimeters, infill, print-in-place, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-clip-clamp.webp" alt="A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg">Clothespin-0157e3</a> by Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble). Email the author: David R. Tribble A, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spring-clip-clamp.svg"><img src="../media/drawn/anim/spring-clip-clamp.svg" alt="A spring clip clamp seen from the side, animated: squeezing the handles opens the jaws against the torsion spring and the part slides out, the jaws snap shut when let go, then the clamp is squeezed open again and released onto the part."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-clip-clamp.webp" alt="A wooden clothes peg, two wooden jaws pressed together at the front by a coiled wire spring in the middle." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg">Clothespin-0157e3</a> by Loadmaster (David R. Tribble) This image was made by Loadmaster (David R. Tribble). Email the author: David R. Tribble A, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two jaws joined by a pivot and closed by a spring (usually a coiled wire [torsion](../glossary.md#torsion) spring, sometimes rubber bands or a springy printed arm), so you squeeze the handles to open it and let go to clamp it onto cloth, paper, a board edge, a rod or a cable.

@@ -129,18 +129,21 @@ sources:
 - https://www.youtube.com/watch?v=CCYB_KHfF_I (verified via YouTube oEmbed)
 research: research/connection-types/results/Siderelease_buckle.json
 image:
-  file: side-release-buckle.webp
-  title: File:Boucle rapide.svg
-  author: Jean Paul GIBERT
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg
-  alt: A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side
-    windows.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/side-release-buckle.svg
+  alt: 'Top view of a side-release buckle, with the female half drawn see-through, animated: both heads are squeezed in through
+    the side windows and the male half slides out, then it is pushed back in, the sloped heads bend the springy arms inward
+    at the mouth, and they click out into the windows again.'
+  drawn: true
+  still: drawn/side-release-buckle.svg
+  kind: animation
 pictures:
+- file: drawn/anim/side-release-buckle.svg
+  alt: 'Top view of a side-release buckle, with the female half drawn see-through, animated: both heads are squeezed in through
+    the side windows and the male half slides out, then it is pushed back in, the sloped heads bend the springy arms inward
+    at the mouth, and they click out into the windows again.'
+  drawn: true
+  still: drawn/side-release-buckle.svg
+  kind: animation
 - file: side-release-buckle.webp
   title: File:Boucle rapide.svg
   author: Jean Paul GIBERT
@@ -177,7 +180,8 @@ glossary: [stiffness, flexure, cantilever, clearance, form-fit--force-fit--mater
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/side-release-buckle.webp" alt="A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side windows."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg">Boucle rapide</a> by Jean Paul GIBERT, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/side-release-buckle.svg"><img src="../media/drawn/anim/side-release-buckle.svg" alt="Top view of a side-release buckle, with the female half drawn see-through, animated: both heads are squeezed in through the side windows and the male half slides out, then it is pushed back in, the sloped heads bend the springy arms inward at the mouth, and they click out into the windows again."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/side-release-buckle.webp" alt="A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side windows." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg">Boucle rapide</a> by Jean Paul GIBERT, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/side-release-buckle-fe0bf4.webp" alt="Three paracord bracelets, each closed with a small plastic side-release buckle." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/29053927@N05/9721202956">Paracord Bracelets</a> by GA-Kayaker, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/side-release-buckle-51e990.webp" alt="Bag hardware laid out on a table, including plastic and metal side-release buckles next to snap hooks." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/99304940@N00/361277758">Hardware</a> by mikest, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>

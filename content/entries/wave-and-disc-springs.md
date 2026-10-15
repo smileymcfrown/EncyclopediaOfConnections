@@ -137,17 +137,21 @@ sources:
   API)
 research: research/connection-types/results/Wave_and_disc_springs_compact_axial_springs.json
 image:
-  file: wave-and-disc-springs.webp
-  title: File:Washerstack.png
-  author: SammusWikiDude
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Washerstack.png
-  alt: A stack of cone-shaped disc springs on a shaft, some facing one way and some the other.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/wave-and-disc-springs.svg
+  alt: 'Side cut-aways on one base, animated: plates press down on a tall coil spring, a short multi-turn wave spring whose
+    waves flatten, a stack of four disc springs facing each other whose cones flatten for more travel, and four nested disc
+    springs that move only a little under a bigger push; then all spring back.'
+  drawn: true
+  still: drawn/wave-and-disc-springs.svg
+  kind: animation
 pictures:
+- file: drawn/anim/wave-and-disc-springs.svg
+  alt: 'Side cut-aways on one base, animated: plates press down on a tall coil spring, a short multi-turn wave spring whose
+    waves flatten, a stack of four disc springs facing each other whose cones flatten for more travel, and four nested disc
+    springs that move only a little under a bigger push; then all spring back.'
+  drawn: true
+  still: drawn/wave-and-disc-springs.svg
+  kind: animation
 - file: wave-and-disc-springs.webp
   title: File:Washerstack.png
   author: SammusWikiDude
@@ -163,7 +167,8 @@ glossary: [axial--radial, over-centre, detent, torque, stiffness, preload, canti
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wave-and-disc-springs.webp" alt="A stack of cone-shaped disc springs on a shaft, some facing one way and some the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Washerstack.png">Washerstack</a> by SammusWikiDude, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/wave-and-disc-springs.svg"><img src="../media/drawn/anim/wave-and-disc-springs.svg" alt="Side cut-aways on one base, animated: plates press down on a tall coil spring, a short multi-turn wave spring whose waves flatten, a stack of four disc springs facing each other whose cones flatten for more travel, and four nested disc springs that move only a little under a bigger push; then all sp"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wave-and-disc-springs.webp" alt="A stack of cone-shaped disc springs on a shaft, some facing one way and some the other." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Washerstack.png">Washerstack</a> by SammusWikiDude, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Washer-shaped springs, either wavy flat rings (wave springs) or shallow cones (disc or Belleville springs), that give a strong, steady push along a shaft or bolt in a very short height, used to [preload](../glossary.md#preload) bearings, keep bolted joints tight and take up play.

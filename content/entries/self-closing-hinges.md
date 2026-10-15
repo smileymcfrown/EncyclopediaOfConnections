@@ -146,17 +146,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selfclosing_hinges_spring_hinge_rising_butt_hinge.json
 image:
-  file: self-closing-hinges.webp
-  title: File:Bommerscharnier.JPG
-  author: Sindala
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG
-  alt: A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/self-closing-hinges.svg
+  alt: 'Two self-closing hinges, animated: the door is pushed open and the coiled spring in the spring hinge winds up, then
+    on letting go it swings the door shut; on the rising butt the door rises up the spiral ramp as it opens and its weight
+    slides it back down and shut.'
+  drawn: true
+  still: drawn/self-closing-hinges.svg
+  kind: animation
 pictures:
+- file: drawn/anim/self-closing-hinges.svg
+  alt: 'Two self-closing hinges, animated: the door is pushed open and the coiled spring in the spring hinge winds up, then
+    on letting go it swings the door shut; on the rising butt the door rises up the spiral ramp as it opens and its weight
+    slides it back down and shut.'
+  drawn: true
+  still: drawn/self-closing-hinges.svg
+  kind: animation
 - file: self-closing-hinges.webp
   title: File:Bommerscharnier.JPG
   author: Sindala
@@ -182,7 +186,8 @@ glossary: [detent, torque, fail-safe--fail-secure, stiffness, preload, flexure, 
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/self-closing-hinges.webp" alt="A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG">Bommerscharnier</a> by Sindala, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/self-closing-hinges.svg"><img src="../media/drawn/anim/self-closing-hinges.svg" alt="Two self-closing hinges, animated: the door is pushed open and the coiled spring in the spring hinge winds up, then on letting go it swings the door shut; on the rising butt the door rises up the spiral ramp as it opens and its weight slides it back down and shut."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/self-closing-hinges.webp" alt="A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG">Bommerscharnier</a> by Sindala, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/self-closing-hinges-dd1fa0.webp" alt="A rising door hinge with a spiral-cut knuckle, so the door lifts as it opens and its weight swings it shut." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg">Door hinge with spring less self closing mechanism</a> by Tobias ToMar Maier, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

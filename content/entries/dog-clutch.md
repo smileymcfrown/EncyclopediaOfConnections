@@ -129,17 +129,23 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Dog_clutch_claw_clutch.json
 image:
-  file: dog-clutch.webp
-  title: File:Dog Clutch.jpg
-  author: Ael150
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg
-  alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/dog-clutch.svg
+  alt: 'Side view of a dog clutch: a shaft with a hex section carries a ring that a fork can slide along; the ring''s square
+    dogs fit slots in the face of a gear that spins freely on the same shaft; end views show the shaft and the gear; with
+    the ring pulled back the shaft turns and the gear stays still, the shaft stops, the fork slides the ring in so its dogs
+    drop into the slots, then shaft and gear turn together at the same speed, and stop again for the ring to be pulled back.'
+  drawn: true
+  still: drawn/dog-clutch.svg
+  kind: animation
 pictures:
+- file: drawn/anim/dog-clutch.svg
+  alt: 'Side view of a dog clutch: a shaft with a hex section carries a ring that a fork can slide along; the ring''s square
+    dogs fit slots in the face of a gear that spins freely on the same shaft; end views show the shaft and the gear; with
+    the ring pulled back the shaft turns and the gear stays still, the shaft stops, the fork slides the ring in so its dogs
+    drop into the slots, then shaft and gear turn together at the same speed, and stop again for the ring to be pulled back.'
+  drawn: true
+  still: drawn/dog-clutch.svg
+  kind: animation
 - file: dog-clutch.webp
   title: File:Dog Clutch.jpg
   author: Ael150
@@ -167,7 +173,8 @@ glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sp
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/dog-clutch.webp" alt="Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg">Dog Clutch</a> by Ael150, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/dog-clutch.svg"><img src="../media/drawn/anim/dog-clutch.svg" alt="Side view of a dog clutch: a shaft with a hex section carries a ring that a fork can slide along; the ring&#x27;s square dogs fit slots in the face of a gear that spins freely on the same shaft; end views show the shaft and the gear; with the ring pulled back the shaft turns and the gear stays still, the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dog-clutch.webp" alt="Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg">Dog Clutch</a> by Ael150, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/dog-clutch-24501f.webp" alt="Close-up inside a stripped-down motorcycle gearbox, showing a gear and the dog teeth on its side that lock it to its neighbour." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Honda_CBR600RR_teardown_2015-10-19_13.44.17.jpg">Honda CBR600RR teardown 2015-10-19 13.44.17</a> by Spheroidite, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
