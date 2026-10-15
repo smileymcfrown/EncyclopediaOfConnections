@@ -129,9 +129,12 @@ def wide_pages(only):
     if only:
         return sorted(only)
     import glob
+    review = os.path.join(os.path.dirname(ENTRIES), 'media', 'review')
     pages = set()
-    for f in glob.glob(os.path.join(os.path.dirname(ENTRIES), 'media', 'review', 'r32-*.yaml')):
+    for f in glob.glob(os.path.join(review, 'r32-*.yaml')):
         pages |= {p for p, v in (yaml.safe_load(open(f)) or {}).items() if v.get('needs_photo')}
+    for f in glob.glob(os.path.join(review, 'r34-*.yaml')):          # found since
+        pages -= {p for p, v in (yaml.safe_load(open(f)) or {}).items() if v.get('photos')}
     return sorted(pages)
 
 

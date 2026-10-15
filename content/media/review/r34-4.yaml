@@ -1,9 +1,8 @@
+# R34 photo choices (helper agent, from the contact sheets of the wider search), checked by Claude.
 annular-snap-fit:
-  photos:
-    - candidate: 7
-      kind: photo
-      alt: A 3D-printable male hose connector, a round spigot with a raised ring (bead) around it that snaps into a matching groove in the other half
-  note: a plain CAD render from Thingiverse, not a photo; it shows only the male half with its bead
+  photos: []
+  note: 'a plain CAD render from Thingiverse, not a photo; it shows only the male half with its bead Claude''s check
+    removed #7: a plain render of one half; it does not show the snap.'
 capstan-cable-drive:
   photos: []
   note: only tape-recorder capstans, a deck winch, knot diagrams and street or house photos named Capstan Drive
@@ -18,15 +17,16 @@ four-bar-linkage:
   note: only drawings, animations and photos of bars, pubs and towers; no clear photo of a real four-bar linkage
 guy-line-slider:
   photos: []
-  note: runners and race photos; the guy-line photos (#16, #17) show no slider
+  note: runners and race photos; the guy-line photos (#16,
 intermittent-gear:
   photos: []
   note: only ordinary or broken gears and unrelated photos; none shows a part-toothed gear
 labyrinth-seal:
   photos:
-    - candidate: 7
-      kind: photo
-      alt: A steam turbine shaft on display, its labyrinth seal made of many thin ridges side by side around the shaft so the narrow gap zig-zags
+  - candidate: 7
+    kind: photo
+    alt: A steam turbine shaft on display, its labyrinth seal made of many thin ridges side by side around the shaft
+      so the narrow gap zig-zags
 magnet-joint:
   photos: []
   note: only physics and space images and doll photos where the magnets cannot be seen
@@ -47,12 +47,14 @@ split-part-joints-for-large-prints:
   note: only loose dowel pins, drawings and unrelated photos; no split printed model
 syringe-hydraulics:
   photos:
-    - candidate: 20
-      kind: cross-section
-      alt: A car brake wheel cylinder cut open down the middle, showing the pistons and the spring inside the bore that the brake fluid pushes apart
-    - candidate: 9
-      kind: photo
-      alt: A truck clutch master cylinder with its white fluid reservoir on top and a rubber boot over the push rod, the end you push that sends fluid down the pipe
+  - candidate: 20
+    kind: cross-section
+    alt: A car brake wheel cylinder cut open down the middle, showing the pistons and the spring inside the bore
+      that the brake fluid pushes apart
+  - candidate: 9
+    kind: photo
+    alt: A truck clutch master cylinder with its white fluid reservoir on top and a rubber boot over the push rod,
+      the end you push that sends fluid down the pipe
   note: '#20 is small (350x280); #13 (wheel cylinder taken apart and labelled) is a good fallback'
 tolerance-ring:
   photos: []

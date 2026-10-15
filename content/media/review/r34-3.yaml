@@ -1,9 +1,9 @@
+# R34 photo choices (helper agent, from the contact sheets of the wider search), checked by Claude.
 aluminium-extrusion-connectors:
-  photos:
-    - candidate: 12
-      kind: photo
-      alt: A zinc-plated spring nut, a rectangular nut with a coil spring on top and grooved edges that grip the lips of a metal framing channel.
-  note: this is the strut-channel spring nut (the heavier steel relative the page covers as an alias), not an aluminium-extrusion T-nut; the T-nut candidates were CAD renders, plain Thingiverse renders, wood T-nuts or tape-measure shots
+  photos: []
+  note: 'this is the strut-channel spring nut (the heavier steel relative the page covers as an alias), not an aluminium-extrusion
+    T-nut; the T-nut candidates were CAD renders, plain Thingiverse renders, wood T-nuts or tape-measure shots Claude''s
+    check removed #12: a spring nut for steel strut channel, a different system from aluminium extrusion.'
 bistable-compliant-mechanism:
   photos: []
   note: only keyboard and micro-switch photos, none showing a snap-through part
@@ -12,12 +12,14 @@ compliant-detent:
   note: all unrelated (ARM building, canal arm, football kits); one diagram of a watch detent
 elastic-band-and-elastic-cord-springs:
   photos:
-    - candidate: 23
-      kind: how-it-works
-      alt: A blue rubber band stretched round a small camera and a separate lens, pulling the lens tight against the camera body.
-    - candidate: 13
-      kind: photo
-      alt: Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a ruler.
+  - candidate: 23
+    kind: how-it-works
+    alt: A blue rubber band stretched round a small camera and a separate lens, pulling the lens tight against the
+      camera body.
+  - candidate: 13
+    kind: photo
+    alt: Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a
+      ruler.
 folded-seam:
   photos: []
   note: only books, archaeological finds and museum dresses were found
@@ -50,21 +52,26 @@ speed-control-valve:
   note: only cars and unrelated valves
 switchable-permanent-magnet:
   photos:
-    - candidate: 11
-      kind: how-it-works
-      alt: A home-made switchable magnet shown twice, switched off and then on, with the ferrofluid under it lying flat when off and standing up in spikes when on.
-    - candidate: 5
-      kind: photo
-      alt: Two magnetic bases for dial indicators with upright rods, one with a red on/off knob on its side for turning the magnet inside.
+  - candidate: 11
+    kind: how-it-works
+    alt: A home-made switchable magnet shown twice, switched off and then on, with the ferrofluid under it lying
+      flat when off and standing up in spikes when on.
+  - candidate: 5
+    kind: photo
+    alt: Two magnetic bases for dial indicators with upright rods, one with a red on/off knob on its side for turning
+      the magnet inside.
 toggle-clamp:
   photos:
-    - candidate: 23
-      kind: how-it-works
-      alt: A realistic 3D render of a vertical toggle clamp shown twice, closed with the arm pressed down and opened with the arm lifted and the red handle pulled back.
-    - candidate: 25
-      kind: how-it-works
-      alt: A car-factory welding fixture holding a curved body panel in place with many red-handled toggle clamps around its edge.
-  note: candidate 23 is a CAD render from the same set as the page's animation (but shows the vertical type); in candidate 25 some clamps on the fixture may be air-powered
+  - candidate: 23
+    kind: how-it-works
+    alt: A realistic 3D render of a vertical toggle clamp shown twice, closed with the arm pressed down and opened
+      with the arm lifted and the red handle pulled back.
+  - candidate: 25
+    kind: how-it-works
+    alt: A car-factory welding fixture holding a curved body panel in place with many red-handled toggle clamps
+      around its edge.
+  note: candidate 23 is a CAD render from the same set as the page's animation (but shows the vertical type); in
+    candidate 25 some clamps on the fixture may be air-powered
 wrap-spring-clutch:
   photos: []
   note: plate-clutch drawings, a pawl clutch, tape-deck slip clutches and cars; no wrap-spring clutch
