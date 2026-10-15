@@ -192,12 +192,36 @@ pictures:
   still: universal-joint.still.webp
   kind: animation
   drawn: false
+- file: universal-joint-190666.webp
+  title: Rusty U-Joint
+  author: gamillos
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/29198100@N00/3327665167
+  site: Flickr via Openverse
+  alt: A rusty universal joint on farm machinery, its cross-shaped centre piece held between two forks set at right angles
+    to each other
+  kind: photo
+  drawn: false
+- file: universal-joint-6f36bb.webp
+  title: File:Universal joint 3slash8 inches.jpg
+  author: Kae
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Universal_joint_3slash8_inches.jpg
+  site: Wikimedia Commons
+  alt: A chrome 3/8 inch universal joint for a socket wrench, bent to one side so the square drive and the socket end point
+    in different directions
+  kind: how-it-works
+  drawn: false
 glossary: [misalignment, backlash, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, set-screw, spline,
   heat-set-insert, captive-nut, brittle--ductile, lubrication, layer-lines, perimeters, infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/universal-joint.still.webp"><img src="../media/universal-joint.webp" alt="Animated model of a universal joint; two red forks joined by a cross-shaped piece turn together although the shafts are at an angle."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Universal_joint.gif">Universal joint</a> by Van helsing, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/universal-joint-190666.webp" alt="A rusty universal joint on farm machinery, its cross-shaped centre piece held between two forks set at right angles to each other" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/29198100@N00/3327665167">Rusty U-Joint</a> by gamillos, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/universal-joint-6f36bb.webp" alt="A chrome 3/8 inch universal joint for a socket wrench, bent to one side so the square drive and the socket end point in different directions" loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Universal_joint_3slash8_inches.jpg">Universal joint 3slash8 inches</a> by Kae, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two forks joined by a cross-shaped piece that pivots both ways, so turning one shaft turns another shaft set at an angle to it, even while that angle changes.

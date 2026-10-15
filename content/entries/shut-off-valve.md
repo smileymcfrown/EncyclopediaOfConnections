@@ -204,15 +204,26 @@ pictures:
   drawn: true
   still: drawn/shut-off-valve.svg
   kind: animation
-- file: shut-off-valve.webp
-  title: File:Ball.PNG
-  author: Ruben Castelnuovo (myself)
+- file: shut-off-valve-341f60.webp
+  title: File:Stopcock 2013 003.jpg
+  author: Veronidae
   license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Ball.PNG
-  alt: 'Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body.'
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Stopcock_2013_003.jpg
   site: Wikimedia Commons
-  kind: cross-section
+  alt: A small brass screw-down stopcock taken apart on a table, showing the body, the threaded stem, the nuts, a washer and
+    the red handwheel.
+  kind: how-it-works
+  drawn: false
+- file: shut-off-valve-17c9f2.webp
+  title: File:Stopcock.jpg
+  author: Wilfredor
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Stopcock.jpg
+  site: Wikimedia Commons
+  alt: A quarter-turn ball valve with a red lever handle fitted to a water pipe coming out of a wall.
+  kind: photo
   drawn: false
 glossary: [misalignment, actuator, solenoid, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, brittle--ductile,
   perimeters, infill, print-in-place, o-ring, check-valve, regulator, water-hammer]
@@ -220,7 +231,8 @@ glossary: [misalignment, actuator, solenoid, fail-safe--fail-secure, clearance, 
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/shut-off-valve.svg"><img src="../media/drawn/anim/shut-off-valve.svg" alt="Animated top cut-away view of a ball valve in a water pipe: the ball has a hole through it; with the lever along the pipe the hole lines up and water flows, and a quarter turn of the lever turns the solid side of the ball to face the pipe, pressed against soft seats, so the flow stops."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/shut-off-valve.webp" alt="Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ball.PNG">Ball</a> by Ruben Castelnuovo (myself), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shut-off-valve-341f60.webp" alt="A small brass screw-down stopcock taken apart on a table, showing the body, the threaded stem, the nuts, a washer and the red handwheel." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Stopcock_2013_003.jpg">Stopcock 2013 003</a> by Veronidae, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shut-off-valve-17c9f2.webp" alt="A quarter-turn ball valve with a red lever handle fitted to a water pipe coming out of a wall." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Stopcock.jpg">Stopcock</a> by Wilfredor, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A hand-operated valve fitted into a pipe or tube that is normally either fully open or fully shut: turning the handle swings a drilled ball or plug a quarter turn, or screws a gate or a rubber-faced plug down onto a seat, so you can turn a water, air, gas or vacuum line on and off or isolate part of a system for repair.

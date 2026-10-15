@@ -199,6 +199,17 @@ pictures:
   drawn: true
   still: drawn/clevis-joint.svg
   kind: animation
+- file: clevis-joint-e20e3c.webp
+  title: File:Fiedersplënt w 348.jpg
+  author: Cornischong at lb.wikipedia
+  license: CC BY-SA 3.0 lu
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Fiederspl%C3%ABnt_w_348.jpg
+  site: Wikimedia Commons
+  alt: Two yellow steel ears on a machine with a steel pin pushed through both, held in by a bent-wire spring clip, leaving
+    a gap between the ears for the tongue.
+  kind: photo
+  drawn: false
 - file: clevis-joint.webp
   title: File:Clevis.svg
   author: No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims).
@@ -215,6 +226,7 @@ glossary: [misalignment, detent, linkage, actuator, flexure, cantilever, clearan
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/clevis-joint.svg"><img src="../media/drawn/anim/clevis-joint.svg" alt="A clevis joint: a top view shows the flat tongue sitting between the two ears of a U-shaped fork with one pin through all three, cut by the load at two places (double shear), and a side view along the pin shows the tongue free to swing about the pin; the tongue swings up and down about the pin while"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clevis-joint-e20e3c.webp" alt="Two yellow steel ears on a machine with a steel pin pushed through both, held in by a bent-wire spring clip, leaving a gap between the ears for the tongue." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fiederspl%C3%ABnt_w_348.jpg">Fiedersplënt w 348</a> by Cornischong at lb.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en">CC BY-SA 3.0 lu</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/clevis-joint.webp" alt="A drawing of a U-shaped clevis with a pin through both ears, held in by a split pin." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clevis.svg">Clevis</a> by No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

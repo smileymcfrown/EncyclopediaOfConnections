@@ -228,12 +228,24 @@ pictures:
   still: straight-line-linkages.still.webp
   kind: animation
   drawn: false
+- file: straight-line-linkages-9242b7.webp
+  title: File:WattParallelMotion.jpg
+  author: Eclipse.sx
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:WattParallelMotion.jpg
+  site: Wikimedia Commons
+  alt: The beam of an old pumping engine in a German silver mine, with an enlarged inset of the bars of Watt's parallel motion
+    at the end of the beam, which keep the piston rod moving straight up and down.
+  kind: photo
+  drawn: false
 glossary: [stroke, pitch, idler, crank, linkage, flexure, clearance, form-fit--force-fit--material-bond, heat-set-insert,
   repeatability--accuracy, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/straight-line-linkages.still.webp"><img src="../media/straight-line-linkages.webp" alt="Animation of Watt&#x27;s linkage: two swinging arms are joined by a short bar, and the bar&#x27;s midpoint moves up and down in a nearly straight line."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif">Watts Linkage</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/straight-line-linkages-9242b7.webp" alt="The beam of an old pumping engine in a German silver mine, with an enlarged inset of the bars of Watt&#x27;s parallel motion at the end of the beam, which keep the piston rod moving straight up and down." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:WattParallelMotion.jpg">WattParallelMotion</a> by Eclipse.sx, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Pivoted bars (or, in the Tusi couple, a gear rolling inside a ring gear twice its size) are proportioned so that one point moves in a straight line, turning rotation or rocking into straight-line motion, or the reverse, without any sliding guide.
