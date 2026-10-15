@@ -125,17 +125,21 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Jaw_coupling_spider_coupling.json
 image:
-  file: jaw-coupling.webp
-  title: File:JawConcept2.jpg
-  author: Aruland
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:JawConcept2.jpg
-  alt: A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/jaw-coupling.svg
+  alt: 'A jaw coupling, shown turning: in the end view the motor hub''s jaws squeeze the rubber spider legs against the driven
+    jaws, which lag a little more during a shock as the rubber squashes; in the side view both shafts turn together, and keep
+    turning when the driven shaft tilts slightly out of line.'
+  drawn: true
+  still: drawn/jaw-coupling.svg
+  kind: animation
 pictures:
+- file: drawn/anim/jaw-coupling.svg
+  alt: 'A jaw coupling, shown turning: in the end view the motor hub''s jaws squeeze the rubber spider legs against the driven
+    jaws, which lag a little more during a shock as the rubber squashes; in the side view both shafts turn together, and keep
+    turning when the driven shaft tilts slightly out of line.'
+  drawn: true
+  still: drawn/jaw-coupling.svg
+  kind: animation
 - file: jaw-coupling.webp
   title: File:JawConcept2.jpg
   author: Aruland
@@ -151,7 +155,8 @@ glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/jaw-coupling.webp" alt="A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:JawConcept2.jpg">JawConcept2</a> by Aruland, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/jaw-coupling.svg"><img src="../media/drawn/anim/jaw-coupling.svg" alt="A jaw coupling, shown turning: in the end view the motor hub&#x27;s jaws squeeze the rubber spider legs against the driven jaws, which lag a little more during a shock as the rubber squashes; in the side view both shafts turn together, and keep turning when the driven shaft tilts slightly out of line."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/jaw-coupling.webp" alt="A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:JawConcept2.jpg">JawConcept2</a> by Aruland, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two hubs with interlocking jaws on their faces pass turning force through a rubbery star-shaped insert (the spider) squeezed between the jaws, so the shafts turn together while the spider soaks up shocks, vibration and small [misalignment](../glossary.md#misalignment).

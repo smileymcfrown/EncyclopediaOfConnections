@@ -127,19 +127,21 @@ sources:
 - https://507movements.com/mm_194.html
 research: research/connection-types/results/Lantern_gear_pin_gear.json
 image:
-  file: lantern-gear.webp
-  title: File:Cage Gear.png
-  author: 'Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National
-    Park Service derivative work: Twirlip (talk)'
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Cage_Gear.png
-  alt: A wooden lantern gear inside an old windmill, a ring of round wooden pins between two discs meshing with the teeth
-    of a big wheel.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/lantern-gear.svg
+  alt: 'A lantern gear: a pinion of eight round pins held between two discs meshes with a sixteen-tooth wheel whose curved
+    teeth follow the path of a pin centre; in the animation the wheel turns clockwise and pushes the pins round one at a time,
+    so the lantern turns the other way twice as fast, and the side view shows the pins of the birdcage passing.'
+  drawn: true
+  still: drawn/lantern-gear.svg
+  kind: animation
 pictures:
+- file: drawn/anim/lantern-gear.svg
+  alt: 'A lantern gear: a pinion of eight round pins held between two discs meshes with a sixteen-tooth wheel whose curved
+    teeth follow the path of a pin centre; in the animation the wheel turns clockwise and pushes the pins round one at a time,
+    so the lantern turns the other way twice as fast, and the side view shows the pins of the birdcage passing.'
+  drawn: true
+  still: drawn/lantern-gear.svg
+  kind: animation
 - file: lantern-gear.webp
   title: File:Cage Gear.png
   author: 'Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National
@@ -168,7 +170,8 @@ glossary: [backlash, axial--radial, reciprocating, torque, pitch, clearance, for
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/lantern-gear.webp" alt="A wooden lantern gear inside an old windmill, a ring of round wooden pins between two discs meshing with the teeth of a big wheel."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cage_Gear.png">Cage Gear</a> by Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National Pa, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/lantern-gear.svg"><img src="../media/drawn/anim/lantern-gear.svg" alt="A lantern gear: a pinion of eight round pins held between two discs meshes with a sixteen-tooth wheel whose curved teeth follow the path of a pin centre; in the animation the wheel turns clockwise and pushes the pins round one at a time, so the lantern turns the other way twice as fast, and the side"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lantern-gear.webp" alt="A wooden lantern gear inside an old windmill, a ring of round wooden pins between two discs meshing with the teeth of a big wheel." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cage_Gear.png">Cage Gear</a> by Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National Pa, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/lantern-gear-238735.webp" alt="The iron frame of a 1608 turret clock with small lantern pinions, rows of pins between two discs, meshing with toothed wheels." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lantern_gear_-_Turret_clock_from_1608.jpg">Lantern gear - Turret clock from 1608</a> by Ezrdr, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

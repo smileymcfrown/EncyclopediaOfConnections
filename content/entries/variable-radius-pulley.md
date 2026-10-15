@@ -121,18 +121,25 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Variableradius_pulley_fusee_compoundbow_cam.json
 image:
-  file: variable-radius-pulley.webp
-  title: File:Fusee.png
-  author: Dionysius Lardner
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Fusee.png
-  alt: Old engraving of a clock fusee, a cone-shaped pulley joined by a chain to the mainspring barrel, shown wound up and
-    run down.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/variable-radius-pulley.svg
+  alt: 'A clock fusee: a mainspring barrel joined by a chain to a cone-shaped fusee with a spiral groove. Fully wound, the
+    strong pull of the chain acts on the narrow top of the cone with a short lever arm; run down, the weaker pull acts on
+    the wide bottom with a long lever arm, so the turning force on the fusee stays the same. Animated: as the spring runs
+    down the chain winds off the fusee onto the barrel, the point where it leaves the cone moves down to wider grooves, the
+    pull arrow gets thinner and the lever arm longer; then it is wound up again.'
+  drawn: true
+  still: drawn/variable-radius-pulley.svg
+  kind: animation
 pictures:
+- file: drawn/anim/variable-radius-pulley.svg
+  alt: 'A clock fusee: a mainspring barrel joined by a chain to a cone-shaped fusee with a spiral groove. Fully wound, the
+    strong pull of the chain acts on the narrow top of the cone with a short lever arm; run down, the weaker pull acts on
+    the wide bottom with a long lever arm, so the turning force on the fusee stays the same. Animated: as the spring runs
+    down the chain winds off the fusee onto the barrel, the point where it leaves the cone moves down to wider grooves, the
+    pull arrow gets thinner and the lever arm longer; then it is wound up again.'
+  drawn: true
+  still: drawn/variable-radius-pulley.svg
+  kind: animation
 - file: variable-radius-pulley.webp
   title: File:Fusee.png
   author: Dionysius Lardner
@@ -159,7 +166,8 @@ glossary: [stroke, ratchet, torque, idler, cam-and-follower, hysteresis, form-fi
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/variable-radius-pulley.webp" alt="Old engraving of a clock fusee, a cone-shaped pulley joined by a chain to the mainspring barrel, shown wound up and run down."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fusee.png">Fusee</a> by Dionysius Lardner, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/variable-radius-pulley.svg"><img src="../media/drawn/anim/variable-radius-pulley.svg" alt="A clock fusee: a mainspring barrel joined by a chain to a cone-shaped fusee with a spiral groove. Fully wound, the strong pull of the chain acts on the narrow top of the cone with a short lever arm; run down, the weaker pull acts on the wide bottom with a long lever arm, so the turning force on the "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/variable-radius-pulley.webp" alt="Old engraving of a clock fusee, a cone-shaped pulley joined by a chain to the mainspring barrel, shown wound up and run down." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fusee.png">Fusee</a> by Dionysius Lardner, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/variable-radius-pulley-34b587.webp" alt="A row of photos of a compound bow&#x27;s cam wheel turning as the string is drawn, changing the leverage at each step." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Compound_Cams_Auszug_Weg%26Hebel.jpg">Compound Cams Auszug Weg&amp;Hebel</a> by StromBer, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

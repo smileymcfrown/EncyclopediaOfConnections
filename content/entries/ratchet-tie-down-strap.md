@@ -119,17 +119,23 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ratchet_tiedown_strap_ratchet_buckle.json
 image:
-  file: ratchet-tie-down-strap.webp
-  title: File:Ergo Ratsche mit langem Hebel..jpg
-  author: SpanSet1966
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Ergo_Ratsche_mit_langem_Hebel..jpg
-  alt: A worker pumping the long handle of a ratchet strap to tighten the webbing round a stack of concrete blocks.
-  site: Wikimedia Commons
-  kind: how-it-works
-  drawn: false
+  file: drawn/anim/ratchet-tie-down-strap.svg
+  alt: 'Side view of a ratchet tie-down buckle: in the animation the handle levers up, its pawl pushing the toothed wheel
+    round two teeth and winding the webbing onto the slotted spool while the locking pawl on the frame clicks over each tooth;
+    on the way back the handle pawl slides over the teeth and the locking pawl holds. A small view shows the handle swung
+    fully open with both pawls lifted to release.'
+  drawn: true
+  still: drawn/ratchet-tie-down-strap.svg
+  kind: animation
 pictures:
+- file: drawn/anim/ratchet-tie-down-strap.svg
+  alt: 'Side view of a ratchet tie-down buckle: in the animation the handle levers up, its pawl pushing the toothed wheel
+    round two teeth and winding the webbing onto the slotted spool while the locking pawl on the frame clicks over each tooth;
+    on the way back the handle pawl slides over the teeth and the locking pawl holds. A small view shows the handle swung
+    fully open with both pawls lifted to release.'
+  drawn: true
+  still: drawn/ratchet-tie-down-strap.svg
+  kind: animation
 - file: ratchet-tie-down-strap.webp
   title: File:Ergo Ratsche mit langem Hebel..jpg
   author: SpanSet1966
@@ -164,7 +170,8 @@ glossary: [oscillating, stroke, ratchet, pawl, clearance, form-fit--force-fit--m
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ratchet-tie-down-strap.webp" alt="A worker pumping the long handle of a ratchet strap to tighten the webbing round a stack of concrete blocks."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ergo_Ratsche_mit_langem_Hebel..jpg">Ergo Ratsche mit langem Hebel.</a> by SpanSet1966, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ratchet-tie-down-strap.svg"><img src="../media/drawn/anim/ratchet-tie-down-strap.svg" alt="Side view of a ratchet tie-down buckle: in the animation the handle levers up, its pawl pushing the toothed wheel round two teeth and winding the webbing onto the slotted spool while the locking pawl on the frame clicks over each tooth; on the way back the handle pawl slides over the teeth and the l"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ratchet-tie-down-strap.webp" alt="A worker pumping the long handle of a ratchet strap to tighten the webbing round a stack of concrete blocks." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ergo_Ratsche_mit_langem_Hebel..jpg">Ergo Ratsche mit langem Hebel.</a> by SpanSet1966, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/ratchet-tie-down-strap-0f881c.webp" alt="A yellow ratchet tie-down strap with its steel ratchet buckle and a hook on each end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Custom_made_tie_down_strap.jpg">Custom made tie down strap</a> by DustinMoving, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/ratchet-tie-down-strap-38ad3f.webp" alt="An orange ratchet strap pulled tight round logs on a railway wagon, the ratchet buckle locked closed." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:L%C3%BCdenscheid_-_Bahnhof_Br%C3%BCgge_03_ies.jpg">Lüdenscheid - Bahnhof Brügge 03 ies</a> by Frank Vincentz, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

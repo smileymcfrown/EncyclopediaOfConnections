@@ -117,17 +117,21 @@ sources:
 - https://www.youtube.com/watch?v=oBnVt-Si2o0
 research: research/connection-types/results/Spring_balancer_gravity_compensation.json
 image:
-  file: spring-balancer.webp
-  title: File:Angle Poise Lamp Diagram 2.png
-  author: Who created this image? Stef Breukel.Who owns the copyright to this image? Stef Breukel did..
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Angle_Poise_Lamp_Diagram_2.png
-  alt: 'Diagram of an Anglepoise lamp: springs near the base pull on the arms so the lamp head stays where it is put.'
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/spring-balancer.svg
+  alt: 'Animated side view of a spring balancer, moved up and down and staying put: an arm pivots on a post with a load at
+    its tip, and a spring runs from a point on the arm to an anchor directly above the pivot; the spring cancels the weight
+    at every angle, so the arm stays wherever it is let go. A small inset shows the counterweight version.'
+  drawn: true
+  still: drawn/spring-balancer.svg
+  kind: animation
 pictures:
+- file: drawn/anim/spring-balancer.svg
+  alt: 'Animated side view of a spring balancer, moved up and down and staying put: an arm pivots on a post with a load at
+    its tip, and a spring runs from a point on the arm to an anchor directly above the pivot; the spring cancels the weight
+    at every angle, so the arm stays wherever it is let go. A small inset shows the counterweight version.'
+  drawn: true
+  still: drawn/spring-balancer.svg
+  kind: animation
 - file: spring-balancer.webp
   title: File:Angle Poise Lamp Diagram 2.png
   author: Who created this image? Stef Breukel.Who owns the copyright to this image? Stef Breukel did..
@@ -153,7 +157,8 @@ glossary: [torque, linkage, stiffness, torsion, form-fit--force-fit--material-bo
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-balancer.webp" alt="Diagram of an Anglepoise lamp: springs near the base pull on the arms so the lamp head stays where it is put."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Angle_Poise_Lamp_Diagram_2.png">Angle Poise Lamp Diagram 2</a> by Who created this image? Stef Breukel.Who owns the copyright to this image? Stef Breukel did.., Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spring-balancer.svg"><img src="../media/drawn/anim/spring-balancer.svg" alt="Animated side view of a spring balancer, moved up and down and staying put: an arm pivots on a post with a load at its tip, and a spring runs from a point on the arm to an anchor directly above the pivot; the spring cancels the weight at every angle, so the arm stays wherever it is let go. A small i"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-balancer.webp" alt="Diagram of an Anglepoise lamp: springs near the base pull on the arms so the lamp head stays where it is put." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Angle_Poise_Lamp_Diagram_2.png">Angle Poise Lamp Diagram 2</a> by Who created this image? Stef Breukel.Who owns the copyright to this image? Stef Breukel did.., Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/spring-balancer-45c883.webp" alt="An Anglepoise model 1227 desk lamp from about 1935, with its balancing springs visible beside the arms at the base." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anglepoise_1227.jpg">Anglepoise 1227</a> by Flickr user &quot;renaissance chambara&quot;, cropped by uploader, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

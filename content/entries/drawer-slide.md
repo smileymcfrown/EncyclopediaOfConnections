@@ -150,17 +150,23 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Drawer_slide_telescopic_ballbearing_slide.json
 image:
-  file: drawer-slide.webp
-  title: File:Light Rail.jpg
-  author: Rollon91
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Light_Rail.jpg
-  alt: Several metal ball-bearing drawer slides, some pulled out to show their nested channels.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/drawer-slide.svg
+  alt: 'A three-part ball-bearing drawer slide: an end view of the nested outer, middle and inner channels with a row of balls
+    between each pair, and a side view of the slide pulled fully open, the middle part out half as far as the drawer and the
+    ball cages part-way along. Animated: the drawer slides shut and out again; the middle part moves half as far as the drawer,
+    and each ball cage rolls along half as far as the part riding on it.'
+  drawn: true
+  still: drawn/drawer-slide.svg
+  kind: animation
 pictures:
+- file: drawn/anim/drawer-slide.svg
+  alt: 'A three-part ball-bearing drawer slide: an end view of the nested outer, middle and inner channels with a row of balls
+    between each pair, and a side view of the slide pulled fully open, the middle part out half as far as the drawer and the
+    ball cages part-way along. Animated: the drawer slides shut and out again; the middle part moves half as far as the drawer,
+    and each ball cage rolls along half as far as the part riding on it.'
+  drawn: true
+  still: drawn/drawer-slide.svg
+  kind: animation
 - file: drawer-slide.webp
   title: File:Light Rail.jpg
   author: Rollon91
@@ -187,7 +193,8 @@ glossary: [stroke, detent, stiffness, deflection, clearance, form-fit--force-fit
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawer-slide.webp" alt="Several metal ball-bearing drawer slides, some pulled out to show their nested channels."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Light_Rail.jpg">Light Rail</a> by Rollon91, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/drawer-slide.svg"><img src="../media/drawn/anim/drawer-slide.svg" alt="A three-part ball-bearing drawer slide: an end view of the nested outer, middle and inner channels with a row of balls between each pair, and a side view of the slide pulled fully open, the middle part out half as far as the drawer and the ball cages part-way along. Animated: the drawer slides shut "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/drawer-slide.webp" alt="Several metal ball-bearing drawer slides, some pulled out to show their nested channels." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Light_Rail.jpg">Light Rail</a> by Rollon91, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/drawer-slide-3c3988.webp" alt="A telescopic drawer slide fitted between a wooden drawer side and the cabinet, seen from the front with the drawer open." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:P1000133_Teleskopschienenf%C3%BChrung.JPG">P1000133 Teleskopschienenführung</a> by Dynomat, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

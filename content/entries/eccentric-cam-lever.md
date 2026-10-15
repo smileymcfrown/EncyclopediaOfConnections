@@ -146,17 +146,23 @@ sources:
 - https://www.youtube.com/watch?v=fkTCNT-1sJ8
 research: research/connection-types/results/Eccentric_cam_lever_cam_clamp_quickrelease_skewer.json
 image:
-  file: eccentric-cam-lever.webp
-  title: File:Quick release scewer.JPG
-  author: AndrewDressel at en.wikipedia
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG
-  alt: A bicycle quick-release skewer, a long thin rod with a nut at one end and a curved cam lever at the other.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/eccentric-cam-lever.svg
+  alt: 'Side view of an eccentric cam lever: a lever with a round cam, pivoted off-centre on a pin through a threaded rod,
+    presses a washer down on two plates held by a nut below; a small graph shows the cam rise climbing steeply and then flattening
+    as the lever swings shut. Animated: the lever swings up, the cam rolls back and a gap opens between the plates, then the
+    lever swings down and the cam presses the plates shut again while a dot follows the graph.'
+  drawn: true
+  still: drawn/eccentric-cam-lever.svg
+  kind: animation
 pictures:
+- file: drawn/anim/eccentric-cam-lever.svg
+  alt: 'Side view of an eccentric cam lever: a lever with a round cam, pivoted off-centre on a pin through a threaded rod,
+    presses a washer down on two plates held by a nut below; a small graph shows the cam rise climbing steeply and then flattening
+    as the lever swings shut. Animated: the lever swings up, the cam rolls back and a gap opens between the plates, then the
+    lever swings down and the cam presses the plates shut again while a dot follows the graph.'
+  drawn: true
+  still: drawn/eccentric-cam-lever.svg
+  kind: animation
 - file: eccentric-cam-lever.webp
   title: File:Quick release scewer.JPG
   author: AndrewDressel at en.wikipedia
@@ -172,7 +178,8 @@ glossary: [misalignment, self-locking, stroke, over-centre, lever-arm, linkage, 
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/eccentric-cam-lever.webp" alt="A bicycle quick-release skewer, a long thin rod with a nut at one end and a curved cam lever at the other."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG">Quick release scewer</a> by AndrewDressel at en.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/eccentric-cam-lever.svg"><img src="../media/drawn/anim/eccentric-cam-lever.svg" alt="Side view of an eccentric cam lever: a lever with a round cam, pivoted off-centre on a pin through a threaded rod, presses a washer down on two plates held by a nut below; a small graph shows the cam rise climbing steeply and then flattening as the lever swings shut. Animated: the lever swings up, t"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eccentric-cam-lever.webp" alt="A bicycle quick-release skewer, a long thin rod with a nut at one end and a curved cam lever at the other." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG">Quick release scewer</a> by AndrewDressel at en.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A hand lever whose pivot is set off-centre in a round or spiral cam, so swinging the lever wedges the cam against a surface and squeezes parts together with many times the force of your hand, and the cam's gentle slope (or a small [over-centre](../glossary.md#over-centre) step) keeps it shut until you flip it back.

@@ -154,17 +154,21 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Schrader_valve_opening_and_closing_on_a_tire.gif
 research: research/connection-types/results/Check_valve_oneway_valve_flap_ball_or_duckbill.json
 image:
-  file: check-valve.webp
-  title: File:Checkvalveopen.svg
-  author: 'Original: Mion Vector: Chris828'
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg
-  alt: A cut-through drawing of a ball check valve, a red ball held against a narrowing seat by a spring below it.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/check-valve.svg
+  alt: 'Two check valves in cutaway, a spring-loaded ball and a hinged flap: forward flow pushes the ball off its seat against
+    the spring, or swings the flap open, and flow from the other side presses the ball or flap back onto its seat so nothing
+    gets through; the animation runs forward flow through each valve, then reverses it so the valve snaps shut.'
+  drawn: true
+  still: drawn/check-valve.svg
+  kind: animation
 pictures:
+- file: drawn/anim/check-valve.svg
+  alt: 'Two check valves in cutaway, a spring-loaded ball and a hinged flap: forward flow pushes the ball off its seat against
+    the spring, or swings the flap open, and flow from the other side presses the ball or flap back onto its seat so nothing
+    gets through; the animation runs forward flow through each valve, then reverses it so the valve snaps shut.'
+  drawn: true
+  still: drawn/check-valve.svg
+  kind: animation
 - file: check-valve.webp
   title: File:Checkvalveopen.svg
   author: 'Original: Mion Vector: Chris828'
@@ -201,7 +205,8 @@ glossary: [ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, stiffness,
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/check-valve.webp" alt="A cut-through drawing of a ball check valve, a red ball held against a narrowing seat by a spring below it."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg">Checkvalveopen</a> by Original: Mion Vector: Chris828, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/check-valve.svg"><img src="../media/drawn/anim/check-valve.svg" alt="Two check valves in cutaway, a spring-loaded ball and a hinged flap: forward flow pushes the ball off its seat against the spring, or swings the flap open, and flow from the other side presses the ball or flap back onto its seat so nothing gets through; the animation runs forward flow through each v"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/check-valve.webp" alt="A cut-through drawing of a ball check valve, a red ball held against a narrowing seat by a spring below it." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg">Checkvalveopen</a> by Original: Mion Vector: Chris828, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/check-valve-ca2478.webp" alt="The inside of a tilting-disc check valve, the round disc hanging on its hinge pin across the bore, ready to swing shut." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Inside-tilting-disc-check-valve-The-Alloy-Valve-Stockist.jpg">Inside-tilting-disc-check-valve-The-Alloy-Valve-Stockist</a> by Heather Smith, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/check-valve-dc7a94.webp" alt="Schrader tyre valves taken apart, showing the small spring-loaded valve core that lets air in and seals against it coming out." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Valvola_Schrader.jpg">Valvola Schrader</a> by A7N8X, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

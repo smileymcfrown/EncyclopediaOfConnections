@@ -142,17 +142,25 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tongueandgroove_joint_incl_slidinglid_grooves.json
 image:
-  file: tongue-and-groove-joint.webp
-  title: File:Pióro i wpust (ubt).jpg
-  author: tsca
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg
-  alt: End view of two boards, one with a tongue along its edge that fits a matching groove in the other.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/tongue-and-groove-joint.svg
+  alt: 'Tongue-and-groove joints: on the left an end view of three boards with tongues in grooves on a joist, with a small
+    gap at the bottom of each groove; on the right a box with grooves along the inside of both sides, shown end-on with the
+    lid edges in the grooves and from the side with the lid sliding out of the open end. Animated: the middle board shrinks
+    and swells, opening thin gaps at its edges while its tongues stay in the grooves, and the box lid slides out of the open
+    end and back.'
+  drawn: true
+  still: drawn/tongue-and-groove-joint.svg
+  kind: animation
 pictures:
+- file: drawn/anim/tongue-and-groove-joint.svg
+  alt: 'Tongue-and-groove joints: on the left an end view of three boards with tongues in grooves on a joist, with a small
+    gap at the bottom of each groove; on the right a box with grooves along the inside of both sides, shown end-on with the
+    lid edges in the grooves and from the side with the lid sliding out of the open end. Animated: the middle board shrinks
+    and swells, opening thin gaps at its edges while its tongues stay in the grooves, and the box lid slides out of the open
+    end and back.'
+  drawn: true
+  still: drawn/tongue-and-groove-joint.svg
+  kind: animation
 - file: tongue-and-groove-joint.webp
   title: File:Pióro i wpust (ubt).jpg
   author: tsca
@@ -178,7 +186,8 @@ glossary: [misalignment, axial--radial, cantilever, clearance, form-fit--force-f
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tongue-and-groove-joint.webp" alt="End view of two boards, one with a tongue along its edge that fits a matching groove in the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg">Pióro i wpust (ubt)</a> by tsca, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/tongue-and-groove-joint.svg"><img src="../media/drawn/anim/tongue-and-groove-joint.svg" alt="Tongue-and-groove joints: on the left an end view of three boards with tongues in grooves on a joist, with a small gap at the bottom of each groove; on the right a box with grooves along the inside of both sides, shown end-on with the lid edges in the grooves and from the side with the lid sliding o"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tongue-and-groove-joint.webp" alt="End view of two boards, one with a tongue along its edge that fits a matching groove in the other." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg">Pióro i wpust (ubt)</a> by tsca, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/tongue-and-groove-joint-89b98b.webp" alt="Two pine floorboards side by side, showing the tongue on one edge and the groove on the other." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dusheme.jpg">Dusheme</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

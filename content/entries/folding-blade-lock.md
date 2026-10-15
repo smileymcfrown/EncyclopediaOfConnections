@@ -138,18 +138,23 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Foldingblade_lock_liner_lock_lockback_slip_joint.json
 image:
-  file: folding-blade-lock.webp
-  title: File:Folding knife locking mechanisms.svg
-  author: Waerloeg
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg
-  alt: Simplified cut-away drawings of three folding knife locks (lockback, bolt lock and liner lock), showing the spring
-    part that drops behind the open blade.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/folding-blade-lock.svg
+  alt: 'Three folding-blade locks, shown folding and opening in step: the liner-lock strip is pushed aside by a thumb and
+    snaps back behind the heel when the blade opens; the lockback''s tail is pressed to lift its hook out of the notch, and
+    the hook drops back in when open; the slip joint''s backspring is pushed out by the heel''s corners and settles on each
+    flat.'
+  drawn: true
+  still: drawn/folding-blade-lock.svg
+  kind: animation
 pictures:
+- file: drawn/anim/folding-blade-lock.svg
+  alt: 'Three folding-blade locks, shown folding and opening in step: the liner-lock strip is pushed aside by a thumb and
+    snaps back behind the heel when the blade opens; the lockback''s tail is pressed to lift its hook out of the notch, and
+    the hook drops back in when open; the slip joint''s backspring is pushed out by the heel''s corners and settles on each
+    flat.'
+  drawn: true
+  still: drawn/folding-blade-lock.svg
+  kind: animation
 - file: folding-blade-lock.webp
   title: File:Folding knife locking mechanisms.svg
   author: Waerloeg
@@ -187,7 +192,8 @@ glossary: [misalignment, self-locking, over-centre, detent, torque, linkage, pre
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/folding-blade-lock.webp" alt="Simplified cut-away drawings of three folding knife locks (lockback, bolt lock and liner lock), showing the spring part that drops behind the open blade."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg">Folding knife locking mechanisms</a> by Waerloeg, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/folding-blade-lock.svg"><img src="../media/drawn/anim/folding-blade-lock.svg" alt="Three folding-blade locks, shown folding and opening in step: the liner-lock strip is pushed aside by a thumb and snaps back behind the heel when the blade opens; the lockback&#x27;s tail is pressed to lift its hook out of the notch, and the hook drops back in when open; the slip joint&#x27;s backspring is pu"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/folding-blade-lock.webp" alt="Simplified cut-away drawings of three folding knife locks (lockback, bolt lock and liner lock), showing the spring part that drops behind the open blade." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg">Folding knife locking mechanisms</a> by Waerloeg, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/folding-blade-lock-eea23d.webp" alt="Close-up of an open liner-lock knife, where a springy strip of the handle liner has moved across behind the base of the blade to lock it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:WalkerLinerlock2.jpg">WalkerLinerlock2</a> by Photograph by Jim Cooper, Knives by Michael Walker, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/folding-blade-lock-9d97a3.webp" alt="The handle of a frame-lock knife, where the split metal frame springs in behind the open blade." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Liner_Lock.jpg">Liner Lock</a> by Hustvedt, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

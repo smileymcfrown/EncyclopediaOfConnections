@@ -162,18 +162,21 @@ sources:
 - https://www.printables.com/model/474852-aquarium-auto-fill-float-ball-valve-bracket
 research: research/connection-types/results/Float_valve_ballcock.json
 image:
-  file: float-valve.webp
-  title: File:Portsmouth-Valve-Closed-detail.svg
-  author: SouthHamsian
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg
-  alt: A cross-section drawing of a float valve, with the float on its arm pushing a piston and washer shut over the inlet
-    hole.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/float-valve.svg
+  alt: 'Cut-away of a tank with a float valve, shown working: water pours in and the level rises, lifting the float, whose
+    long arm turns about the pivot and pushes the rubber washer onto the inlet until the flow stops at the set line; water
+    drawn off at the bottom lowers the float again and the valve reopens.'
+  drawn: true
+  still: drawn/float-valve.svg
+  kind: animation
 pictures:
+- file: drawn/anim/float-valve.svg
+  alt: 'Cut-away of a tank with a float valve, shown working: water pours in and the level rises, lifting the float, whose
+    long arm turns about the pivot and pushes the rubber washer onto the inlet until the flow stops at the set line; water
+    drawn off at the bottom lowers the float again and the valve reopens.'
+  drawn: true
+  still: drawn/float-valve.svg
+  kind: animation
 - file: float-valve.webp
   title: File:Portsmouth-Valve-Closed-detail.svg
   author: SouthHamsian
@@ -190,7 +193,8 @@ glossary: [misalignment, crank, solenoid, fail-safe--fail-secure, form-fit--forc
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/float-valve.webp" alt="A cross-section drawing of a float valve, with the float on its arm pushing a piston and washer shut over the inlet hole."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg">Portsmouth-Valve-Closed-detail</a> by SouthHamsian, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/float-valve.svg"><img src="../media/drawn/anim/float-valve.svg" alt="Cut-away of a tank with a float valve, shown working: water pours in and the level rises, lifting the float, whose long arm turns about the pivot and pushes the rubber washer onto the inlet until the flow stops at the set line; water drawn off at the bottom lowers the float again and the valve reope"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/float-valve.webp" alt="A cross-section drawing of a float valve, with the float on its arm pushing a piston and washer shut over the inlet hole." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg">Portsmouth-Valve-Closed-detail</a> by SouthHamsian, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A self-acting tap fitted through the wall of a tank: a float rides on the water and moves a lever, which opens the inlet when the level drops and presses a rubber washer or diaphragm onto the inlet hole when the level reaches a set height, keeping cisterns, troughs and reservoirs topped up with no power and no attention.

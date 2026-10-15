@@ -128,17 +128,25 @@ sources:
 - https://www.youtube.com/watch?v=zuleKwhwCn8
 research: research/connection-types/results/Telescoping_tube_lever_lock_flip_lock.json
 image:
-  file: telescoping-tube-lever-lock.webp
-  title: File:Saddle quick release clamp.JPG
-  author: Armchair
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG
-  alt: A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/telescoping-tube-lever-lock.svg
+  alt: 'A telescoping tube with a lever lock: side view of an outer tube with a split clamp collar on its end, a lever on
+    a pin through the collar ears and an inner tube sliding out, and an end view of the collar gap, the pin and its tension
+    nut. With the lever open the inner tube slides; snapping the lever down just past the dead-centre line squeezes the collar
+    gap shut and grips the tube. Animated: the inner tube slides out, the lever swings down past dead centre while the collar
+    gap closes and grip arrows appear, then the lever opens and the tube slides back.'
+  drawn: true
+  still: drawn/telescoping-tube-lever-lock.svg
+  kind: animation
 pictures:
+- file: drawn/anim/telescoping-tube-lever-lock.svg
+  alt: 'A telescoping tube with a lever lock: side view of an outer tube with a split clamp collar on its end, a lever on
+    a pin through the collar ears and an inner tube sliding out, and an end view of the collar gap, the pin and its tension
+    nut. With the lever open the inner tube slides; snapping the lever down just past the dead-centre line squeezes the collar
+    gap shut and grips the tube. Animated: the inner tube slides out, the lever swings down past dead centre while the collar
+    gap closes and grip arrows appear, then the lever opens and the tube slides back.'
+  drawn: true
+  still: drawn/telescoping-tube-lever-lock.svg
+  kind: animation
 - file: telescoping-tube-lever-lock.webp
   title: File:Saddle quick release clamp.JPG
   author: Armchair
@@ -154,7 +162,8 @@ glossary: [self-locking, over-centre, ratchet, linkage, clearance, form-fit--for
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/telescoping-tube-lever-lock.webp" alt="A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG">Saddle quick release clamp</a> by Armchair, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/telescoping-tube-lever-lock.svg"><img src="../media/drawn/anim/telescoping-tube-lever-lock.svg" alt="A telescoping tube with a lever lock: side view of an outer tube with a split clamp collar on its end, a lever on a pin through the collar ears and an inner tube sliding out, and an end view of the collar gap, the pin and its tension nut. With the lever open the inner tube slides; snapping the lever"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/telescoping-tube-lever-lock.webp" alt="A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG">Saddle quick release clamp</a> by Armchair, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A split clamp ring on the end of the outer tube with a lever that snaps shut over centre, squeezing the outer tube onto the inner one so the length is held at any position until you flip the lever open.

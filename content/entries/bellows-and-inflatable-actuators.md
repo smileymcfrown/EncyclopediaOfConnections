@@ -132,17 +132,23 @@ sources:
 - https://www.youtube.com/watch?v=UFrWfnwD3aU
 research: research/connection-types/results/Bellows_and_inflatable_actuators_air_bag_air_spring.json
 image:
-  file: bellows-and-inflatable-actuators.webp
-  title: File:Axiální pneumatický měch.jpg
-  author: Jjvcela
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg
-  alt: A cut-through drawing of an air bellows between two plates, with air let in at the bottom pushing the top plate up.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/bellows-and-inflatable-actuators.svg
+  alt: 'Two air-filled actuators: a folded rubber bellows between two plates that lifts a load when air is pumped in, and
+    a vine robot, a soft tube folded inside itself that grows from its tip as air pushes the folded-in material out, while
+    its body stays still; the bellows inflates and lifts, then lets the load squash it down, and the vine robot is pulled
+    back in and grows out again.'
+  drawn: true
+  still: drawn/bellows-and-inflatable-actuators.svg
+  kind: animation
 pictures:
+- file: drawn/anim/bellows-and-inflatable-actuators.svg
+  alt: 'Two air-filled actuators: a folded rubber bellows between two plates that lifts a load when air is pumped in, and
+    a vine robot, a soft tube folded inside itself that grows from its tip as air pushes the folded-in material out, while
+    its body stays still; the bellows inflates and lifts, then lets the load squash it down, and the vine robot is pulled
+    back in and grows out again.'
+  drawn: true
+  still: drawn/bellows-and-inflatable-actuators.svg
+  kind: animation
 - file: bellows-and-inflatable-actuators.webp
   title: File:Axiální pneumatický měch.jpg
   author: Jjvcela
@@ -179,7 +185,8 @@ glossary: [misalignment, stroke, actuator, solenoid, fail-safe--fail-secure, cle
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bellows-and-inflatable-actuators.webp" alt="A cut-through drawing of an air bellows between two plates, with air let in at the bottom pushing the top plate up."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg">Axiální pneumatický měch</a> by Jjvcela, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bellows-and-inflatable-actuators.svg"><img src="../media/drawn/anim/bellows-and-inflatable-actuators.svg" alt="Two air-filled actuators: a folded rubber bellows between two plates that lifts a load when air is pumped in, and a vine robot, a soft tube folded inside itself that grows from its tip as air pushes the folded-in material out, while its body stays still; the bellows inflates and lifts, then lets the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bellows-and-inflatable-actuators.webp" alt="A cut-through drawing of an air bellows between two plates, with air let in at the bottom pushing the top plate up." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg">Axiální pneumatický měch</a> by Jjvcela, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/bellows-and-inflatable-actuators-e71b7c.webp" alt="A cut-away render of a rolling-lobe air spring, a rubber sleeve clamped between a top cap and a piston that it rolls down over." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lufe_schnitt.png">Lufe schnitt</a> by Jan Müller, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/bellows-and-inflatable-actuators-6005b8.webp" alt="A big yellow inflatable lifting bag hanging from a crane arm at a rescue service display." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2023-06-04_DLRG_Hebesack_01.jpg">2023-06-04 DLRG Hebesack 01</a> by Bärbel Miemietz, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

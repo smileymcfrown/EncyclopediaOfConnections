@@ -137,17 +137,25 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Compliant_gripper_and_force_amplifier.json
 image:
-  file: compliant-gripper-and-force-amplifier.webp
-  title: File:Compliant plier mechanism.png
-  author: BYU CMR
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png
-  alt: The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/compliant-gripper-and-force-amplifier.svg
+  alt: 'Two grippers built like nutcrackers, with long handles and the jaws close to the hinge: the top one is two arms joined
+    by a pin, the bottom one is a single piece where the pin is replaced by a thin bending section; thin arrows show a small
+    push at the handles and thick arrows a big grip at the jaws. Animated: both are squeezed and released; the handle ends
+    move a long way while the jaws move a little and squash the object, and in the one-piece gripper the thin section bends
+    and springs back.'
+  drawn: true
+  still: drawn/compliant-gripper-and-force-amplifier.svg
+  kind: animation
 pictures:
+- file: drawn/anim/compliant-gripper-and-force-amplifier.svg
+  alt: 'Two grippers built like nutcrackers, with long handles and the jaws close to the hinge: the top one is two arms joined
+    by a pin, the bottom one is a single piece where the pin is replaced by a thin bending section; thin arrows show a small
+    push at the handles and thick arrows a big grip at the jaws. Animated: both are squeezed and released; the handle ends
+    move a long way while the jaws move a little and squash the object, and in the one-piece gripper the thin section bends
+    and springs back.'
+  drawn: true
+  still: drawn/compliant-gripper-and-force-amplifier.svg
+  kind: animation
 - file: compliant-gripper-and-force-amplifier.webp
   title: File:Compliant plier mechanism.png
   author: BYU CMR
@@ -164,7 +172,8 @@ glossary: [backlash, over-centre, bistable, lever-arm, mechanical-advantage, lin
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/compliant-gripper-and-force-amplifier.webp" alt="The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png">Compliant plier mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/compliant-gripper-and-force-amplifier.svg"><img src="../media/drawn/anim/compliant-gripper-and-force-amplifier.svg" alt="Two grippers built like nutcrackers, with long handles and the jaws close to the hinge: the top one is two arms joined by a pin, the bottom one is a single piece where the pin is replaced by a thin bending section; thin arrows show a small push at the handles and thick arrows a big grip at the jaws."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/compliant-gripper-and-force-amplifier.webp" alt="The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png">Compliant plier mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A single bending part shaped like a set of levers, so that pushing or squeezing one end makes the jaws at the other end close with more force (or more movement) than you put in, with no pins, springs or hinges to assemble.

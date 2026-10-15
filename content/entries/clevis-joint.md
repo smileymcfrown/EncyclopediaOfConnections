@@ -143,17 +143,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Clevis_joint_forkandpin_joint_prong_mount.json
 image:
-  file: clevis-joint.webp
-  title: File:Clevis.svg
-  author: No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims).
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Clevis.svg
-  alt: A drawing of a U-shaped clevis with a pin through both ears, held in by a split pin.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/clevis-joint.svg
+  alt: 'A clevis joint: a top view shows the flat tongue sitting between the two ears of a U-shaped fork with one pin through
+    all three, cut by the load at two places (double shear), and a side view along the pin shows the tongue free to swing
+    about the pin; the tongue swings up and down about the pin while the fork stays still.'
+  drawn: true
+  still: drawn/clevis-joint.svg
+  kind: animation
 pictures:
+- file: drawn/anim/clevis-joint.svg
+  alt: 'A clevis joint: a top view shows the flat tongue sitting between the two ears of a U-shaped fork with one pin through
+    all three, cut by the load at two places (double shear), and a side view along the pin shows the tongue free to swing
+    about the pin; the tongue swings up and down about the pin while the fork stays still.'
+  drawn: true
+  still: drawn/clevis-joint.svg
+  kind: animation
 - file: clevis-joint.webp
   title: File:Clevis.svg
   author: No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims).
@@ -169,7 +173,8 @@ glossary: [misalignment, detent, linkage, actuator, flexure, cantilever, clearan
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/clevis-joint.webp" alt="A drawing of a U-shaped clevis with a pin through both ears, held in by a split pin."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clevis.svg">Clevis</a> by No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/clevis-joint.svg"><img src="../media/drawn/anim/clevis-joint.svg" alt="A clevis joint: a top view shows the flat tongue sitting between the two ears of a U-shaped fork with one pin through all three, cut by the load at two places (double shear), and a side view along the pin shows the tongue free to swing about the pin; the tongue swings up and down about the pin while"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clevis-joint.webp" alt="A drawing of a U-shaped clevis with a pin through both ears, held in by a split pin." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clevis.svg">Clevis</a> by No machine-readable author provided. Sakurambo~commonswiki assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A U-shaped fork on one part and a flat tongue on the other are joined by a pin through both, making a simple, strong pivot that carries push and pull through the pin; on action-camera mounts, interleaved prongs are clamped by a thumbscrew so friction holds whatever angle you set.

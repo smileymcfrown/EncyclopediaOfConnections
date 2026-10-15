@@ -148,17 +148,23 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Draw_latch_overcentre_latch.json
 image:
-  file: draw-latch.webp
-  title: File:BuegelVS-Kniehebel2.JPG
-  author: StromBer
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG
-  alt: A draw latch on a metal box shown open, with its loop off the keeper, and closed, with the lever pressed flat.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/draw-latch.svg
+  alt: 'Side view of a draw latch: a lever pivoted on the box carries a loop that hooks a keeper on the lid; with the lever
+    shut, the loop pivot sits just past the dashed line from lever pivot to keeper, the lid is pulled down onto a squeezed
+    gasket, and the gasket''s push presses the lever further shut. Animated: the lever swings out, the loop goes slack and
+    the lid rises off the gasket, then the lever swings back past centre and pulls the lid down again.'
+  drawn: true
+  still: drawn/draw-latch.svg
+  kind: animation
 pictures:
+- file: drawn/anim/draw-latch.svg
+  alt: 'Side view of a draw latch: a lever pivoted on the box carries a loop that hooks a keeper on the lid; with the lever
+    shut, the loop pivot sits just past the dashed line from lever pivot to keeper, the lid is pulled down onto a squeezed
+    gasket, and the gasket''s push presses the lever further shut. Animated: the lever swings out, the loop goes slack and
+    the lid rises off the gasket, then the lever swings back past centre and pulls the lid down again.'
+  drawn: true
+  still: drawn/draw-latch.svg
+  kind: animation
 - file: draw-latch.webp
   title: File:BuegelVS-Kniehebel2.JPG
   author: StromBer
@@ -194,7 +200,8 @@ glossary: [misalignment, self-locking, over-centre, mechanical-advantage, linkag
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/draw-latch.webp" alt="A draw latch on a metal box shown open, with its loop off the keeper, and closed, with the lever pressed flat."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG">BuegelVS-Kniehebel2</a> by StromBer, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/draw-latch.svg"><img src="../media/drawn/anim/draw-latch.svg" alt="Side view of a draw latch: a lever pivoted on the box carries a loop that hooks a keeper on the lid; with the lever shut, the loop pivot sits just past the dashed line from lever pivot to keeper, the lid is pulled down onto a squeezed gasket, and the gasket&#x27;s push presses the lever further shut. Ani"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/draw-latch.webp" alt="A draw latch on a metal box shown open, with its loop off the keeper, and closed, with the lever pressed flat." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG">BuegelVS-Kniehebel2</a> by StromBer, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/draw-latch-7e3cf3.webp" alt="A finger lifting the lever of the draw latch on a springform cake tin, with the loop pivot swinging back over centre." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:SpringformPanSpring.jpg">SpringformPanSpring</a> by RibbonsOfIndecision, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/draw-latch-7d111a.webp" alt="A black plastic lever latch on a tool case, its lever folded down over the keeper." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:LatchExample1.JPG">LatchExample1</a> by Lmartin iii, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

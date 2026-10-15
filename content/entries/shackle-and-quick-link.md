@@ -132,18 +132,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shackle_and_quick_link_Dshackle_bow_shackle_maillon.json
 image:
-  file: shackle-and-quick-link.webp
-  title: File:Maillon.JPG
-  author: Cj8457
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Maillon.JPG
-  alt: 'Two steel quick links side by side: on the left the threaded sleeve is screwed back so the gap is open, on the right
-    it is screwed over the gap to close the link.'
-  site: Wikimedia Commons
-  kind: how-it-works
-  drawn: false
+  file: drawn/anim/shackle-and-quick-link.svg
+  alt: 'Animated: a screw-pin D-shackle and a quick link: the shackle''s pin is unscrewed and slid out so a rope eye can be
+    put on or taken off, then screwed back in to close the bow; the quick link''s threaded sleeve screws down to open the
+    gap in the link and back up over the gap until no thread shows.'
+  drawn: true
+  still: drawn/shackle-and-quick-link.svg
+  kind: animation
 pictures:
+- file: drawn/anim/shackle-and-quick-link.svg
+  alt: 'Animated: a screw-pin D-shackle and a quick link: the shackle''s pin is unscrewed and slid out so a rope eye can be
+    put on or taken off, then screwed back in to close the bow; the quick link''s threaded sleeve screws down to open the
+    gap in the link and back up over the gap until no thread shows.'
+  drawn: true
+  still: drawn/shackle-and-quick-link.svg
+  kind: animation
 - file: shackle-and-quick-link.webp
   title: File:Maillon.JPG
   author: Cj8457
@@ -180,7 +183,8 @@ glossary: [torque, form-fit--force-fit--material-bond, heat-set-insert]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/shackle-and-quick-link.webp" alt="Two steel quick links side by side: on the left the threaded sleeve is screwed back so the gap is open, on the right it is screwed over the gap to close the link."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Maillon.JPG">Maillon</a> by Cj8457, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/shackle-and-quick-link.svg"><img src="../media/drawn/anim/shackle-and-quick-link.svg" alt="Animated: a screw-pin D-shackle and a quick link: the shackle&#x27;s pin is unscrewed and slid out so a rope eye can be put on or taken off, then screwed back in to close the bow; the quick link&#x27;s threaded sleeve screws down to open the gap in the link and back up over the gap until no thread shows."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shackle-and-quick-link.webp" alt="Two steel quick links side by side: on the left the threaded sleeve is screwed back so the gap is open, on the right it is screwed over the gap to close the link." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Maillon.JPG">Maillon</a> by Cj8457, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/shackle-and-quick-link-a5dfa8.webp" alt="A workshop wall board hung with many shackles and hooks of different sizes, red and silver, each closed by a screw pin." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mannheim_Germany_Shackles-in-a-workshop-01.jpg">Mannheim Germany Shackles-in-a-workshop-01</a> by CEphoto, Uwe Aranas, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/shackle-and-quick-link-fe070f.webp" alt="A soft shackle: a loop of grey braided Dyneema rope closed by a knot at one end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manille_textile_dyneema_03.jpg">Manille textile dyneema 03</a> by Pep.per de Ré, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

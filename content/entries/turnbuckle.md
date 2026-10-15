@@ -130,17 +130,25 @@ sources:
 - https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v=5T_QNdU6t8s&format=json
 research: research/connection-types/results/Turnbuckle.json
 image:
-  file: turnbuckle.webp
-  title: File:Turnbuckles.jpg
-  author: Ted Major from Tuscaloosa, Ala., USA
-  license: CC BY-SA 2.0
-  license_url: https://creativecommons.org/licenses/by-sa/2.0
-  source: https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg
-  alt: Two turnbuckles, each an open frame with a hook or eye screwed into each end.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/turnbuckle.svg
+  alt: 'Cut-away side view of a turnbuckle: a body with a right-hand thread at its left end and a left-hand thread at its
+    right end, two eye bolts screwed in with lock nuts, and slack cables to two fixed anchors. Turning the body draws both
+    eye bolts in at once, by one thread pitch each per turn, pulling the cables tight without twisting them. Animated: a bar
+    through the body turns it three times, both eye bolts move in together and the sagging cables straighten; then it is turned
+    back and they let out again.'
+  drawn: true
+  still: drawn/turnbuckle.svg
+  kind: animation
 pictures:
+- file: drawn/anim/turnbuckle.svg
+  alt: 'Cut-away side view of a turnbuckle: a body with a right-hand thread at its left end and a left-hand thread at its
+    right end, two eye bolts screwed in with lock nuts, and slack cables to two fixed anchors. Turning the body draws both
+    eye bolts in at once, by one thread pitch each per turn, pulling the cables tight without twisting them. Animated: a bar
+    through the body turns it three times, both eye bolts move in together and the sagging cables straighten; then it is turned
+    back and they let out again.'
+  drawn: true
+  still: drawn/turnbuckle.svg
+  kind: animation
 - file: turnbuckle.webp
   title: File:Turnbuckles.jpg
   author: Ted Major from Tuscaloosa, Ala., USA
@@ -166,7 +174,8 @@ glossary: [misalignment, self-locking, axial--radial, over-centre, ratchet, pitc
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/turnbuckle.webp" alt="Two turnbuckles, each an open frame with a hook or eye screwed into each end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg">Turnbuckles</a> by Ted Major from Tuscaloosa, Ala., USA, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/turnbuckle.svg"><img src="../media/drawn/anim/turnbuckle.svg" alt="Cut-away side view of a turnbuckle: a body with a right-hand thread at its left end and a left-hand thread at its right end, two eye bolts screwed in with lock nuts, and slack cables to two fixed anchors. Turning the body draws both eye bolts in at once, by one thread pitch each per turn, pulling th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/turnbuckle.webp" alt="Two turnbuckles, each an open frame with a hook or eye screwed into each end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg">Turnbuckles</a> by Ted Major from Tuscaloosa, Ala., USA, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/turnbuckle-b178b2.webp" alt="A turnbuckle in use on a sailing ship, tightening a wire stay down to the deck." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Turnbuckle_James_Craig.JPG">Turnbuckle James Craig</a> by JohnsonL623, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

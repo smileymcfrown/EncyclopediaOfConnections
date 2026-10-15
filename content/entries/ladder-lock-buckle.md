@@ -141,17 +141,21 @@ sources:
 - https://www.youtube.com/watch?v=MLQ-xspxA7o (verified via YouTube oEmbed)
 research: research/connection-types/results/Ladder_lock_buckle_tension_lock_triglide.json
 image:
-  file: ladder-lock-buckle.webp
-  title: File:Cropped tri-glide slide.jpg
-  author: SaltySemanticSchmuck
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg
-  alt: A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/ladder-lock-buckle.svg
+  alt: 'Side cut-through of a ladder lock buckle: the strap goes up round the centre bar and back out under the gripping bar,
+    where the pull of the load pinches it against its own tail; the animation then lifts the tab, the buckle tilts, the pinch
+    opens and the strap slides out, before the tab drops and the strap locks again.'
+  drawn: true
+  still: drawn/ladder-lock-buckle.svg
+  kind: animation
 pictures:
+- file: drawn/anim/ladder-lock-buckle.svg
+  alt: 'Side cut-through of a ladder lock buckle: the strap goes up round the centre bar and back out under the gripping bar,
+    where the pull of the load pinches it against its own tail; the animation then lifts the tab, the buckle tilts, the pinch
+    opens and the strap slides out, before the tab drops and the strap locks again.'
+  drawn: true
+  still: drawn/ladder-lock-buckle.svg
+  kind: animation
 - file: ladder-lock-buckle.webp
   title: File:Cropped tri-glide slide.jpg
   author: SaltySemanticSchmuck
@@ -167,7 +171,8 @@ glossary: [self-locking, ratchet, stiffness, clearance, form-fit--force-fit--mat
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ladder-lock-buckle.webp" alt="A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg">Cropped tri-glide slide</a> by SaltySemanticSchmuck, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ladder-lock-buckle.svg"><img src="../media/drawn/anim/ladder-lock-buckle.svg" alt="Side cut-through of a ladder lock buckle: the strap goes up round the centre bar and back out under the gripping bar, where the pull of the load pinches it against its own tail; the animation then lifts the tab, the buckle tilts, the pinch opens and the strap slides out, before the tab drops and the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ladder-lock-buckle.webp" alt="A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg">Cropped tri-glide slide</a> by SaltySemanticSchmuck, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A one-piece buckle with two or three bars that a strap weaves through, so that pulling on the load makes the strap pinch itself against a bar and hold by friction, while tilting the buckle's tab lets the strap slide to lengthen it; a tri-glide is the same idea without the lock, and double D-rings and G-hooks are close relatives.

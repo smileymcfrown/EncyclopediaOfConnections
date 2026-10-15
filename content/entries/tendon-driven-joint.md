@@ -145,18 +145,25 @@ sources:
 - https://en.wikipedia.org/wiki/Prosthesis
 research: research/connection-types/results/Tendondriven_joint_cablepulled_finger_or_tentacle.json
 image:
-  file: tendon-driven-joint.webp
-  title: File:E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington
-    - London - DSC01581.jpg
-  author: Daderot
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg
-  alt: A 3D-printed yellow and orange prosthetic hand whose fingers are bent by cords running along them to the wrist.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/tendon-driven-joint.svg
+  alt: 'Side view of a tendon-driven finger: three hinged pieces on a fixed palm, a string running along the palm side through
+    holes a little below each hinge and tied at the fingertip, and an elastic cord along the back. The small offset of the
+    string below each hinge (the moment arm) turns a straight pull into a turning force at every joint. Animated: the string
+    is pulled a short way and all three joints curl together while the elastic stretches; when it is let go the elastic straightens
+    the finger.'
+  drawn: true
+  still: drawn/tendon-driven-joint.svg
+  kind: animation
 pictures:
+- file: drawn/anim/tendon-driven-joint.svg
+  alt: 'Side view of a tendon-driven finger: three hinged pieces on a fixed palm, a string running along the palm side through
+    holes a little below each hinge and tied at the fingertip, and an elastic cord along the back. The small offset of the
+    string below each hinge (the moment arm) turns a straight pull into a turning force at every joint. Animated: the string
+    is pulled a short way and all three joints curl together while the elastic stretches; when it is let go the elastic straightens
+    the finger.'
+  drawn: true
+  still: drawn/tendon-driven-joint.svg
+  kind: animation
 - file: tendon-driven-joint.webp
   title: File:E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington
     - London - DSC01581.jpg
@@ -172,7 +179,8 @@ glossary: [misalignment, backlash, torque, linkage, actuator, stiffness, flexure
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tendon-driven-joint.webp" alt="A 3D-printed yellow and orange prosthetic hand whose fingers are bent by cords running along them to the wrist."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg">E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington - London - DSC01581</a> by Daderot, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/tendon-driven-joint.svg"><img src="../media/drawn/anim/tendon-driven-joint.svg" alt="Side view of a tendon-driven finger: three hinged pieces on a fixed palm, a string running along the palm side through holes a little below each hinge and tied at the fingertip, and an elastic cord along the back. The small offset of the string below each hinge (the moment arm) turns a straight pull"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tendon-driven-joint.webp" alt="A 3D-printed yellow and orange prosthetic hand whose fingers are bent by cords running along them to the wrist." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:E-NABLE_Raptor_Reloaded_prosthetic_hand_and_arm,_designed_by_Ivan_Owen_et_al,_2013-2015_-_Design_Museum,_Kensington_-_London_-_DSC01581.jpg">E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington - London - DSC01581</a> by Daderot, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A tendon-driven joint bends a chain of hinged or flexible segments by pulling a string anchored near the tip and threaded past each joint a little way off its pivot, so a straight pull from a distant motor, lever or wrist becomes a curling motion, while elastic cord, springy hinges or a second string pull it back.

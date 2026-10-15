@@ -144,17 +144,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Hidden_latches_magnetickey_latch_puzzle_lock.json
 image:
-  file: hidden-latches.webp
-  title: File:Magnetic safety lock.jpg
-  author: Nhujs ntus
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg
-  alt: A white plastic magnetic child-safety catch fixed inside a cabinet door, its hook ready to catch the frame.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/hidden-latches.svg
+  alt: 'Two hidden latches, shown working: a key magnet is brought up to the outside of a cupboard door, pulls the hidden
+    hook off its catch so the door opens, then is taken away and the spring snaps the hook back; a box spins, its two pins
+    slide outwards, the lid lifts free and closes again, and the pins slide back in when it stops.'
+  drawn: true
+  still: drawn/hidden-latches.svg
+  kind: animation
 pictures:
+- file: drawn/anim/hidden-latches.svg
+  alt: 'Two hidden latches, shown working: a key magnet is brought up to the outside of a cupboard door, pulls the hidden
+    hook off its catch so the door opens, then is taken away and the spring snaps the hook back; a box spins, its two pins
+    slide outwards, the lid lifts free and closes again, and the pins slide back in when it stops.'
+  drawn: true
+  still: drawn/hidden-latches.svg
+  kind: animation
 - file: hidden-latches.webp
   title: File:Magnetic safety lock.jpg
   author: Nhujs ntus
@@ -179,7 +183,8 @@ glossary: [solenoid, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/hidden-latches.webp" alt="A white plastic magnetic child-safety catch fixed inside a cabinet door, its hook ready to catch the frame."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg">Magnetic safety lock</a> by Nhujs ntus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/hidden-latches.svg"><img src="../media/drawn/anim/hidden-latches.svg" alt="Two hidden latches, shown working: a key magnet is brought up to the outside of a cupboard door, pulls the hidden hook off its catch so the door opens, then is taken away and the spring snaps the hook back; a box spins, its two pins slide outwards, the lid lifts free and closes again, and the pins s"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hidden-latches.webp" alt="A white plastic magnetic child-safety catch fixed inside a cabinet door, its hook ready to catch the frame." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg">Magnetic safety lock</a> by Nhujs ntus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/hidden-latches-58570e.webp" alt="An antique wooden lap desk opened up to show a hidden compartment held shut by a spring latch." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Antique_lap_desk_with_hidden_compartment.JPG">Antique lap desk with hidden compartment</a> by Koppas, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

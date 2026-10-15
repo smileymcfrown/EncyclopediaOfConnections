@@ -135,17 +135,23 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ball_detent_spring_plunger.json
 image:
-  file: ball-detent.webp
-  title: File:Federndes Druckstück 2.tif
-  author: HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Federndes_Druckst%C3%BCck_2.tif
-  alt: Three threaded spring plungers, each with a steel ball poking out of one end.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/ball-detent.svg
+  alt: 'A threaded ball plunger in cross-section: a spring inside the body pushes a ball down into a cone-shaped dimple in
+    a plate; sliding the plate makes the dimple''s slope push the ball up into the body, squashing the spring, until the ball
+    drops into the next dimple with a click; the plate slides from one dimple to the next and back while the ball rides up
+    and clicks down.'
+  drawn: true
+  still: drawn/ball-detent.svg
+  kind: animation
 pictures:
+- file: drawn/anim/ball-detent.svg
+  alt: 'A threaded ball plunger in cross-section: a spring inside the body pushes a ball down into a cone-shaped dimple in
+    a plate; sliding the plate makes the dimple''s slope push the ball up into the body, squashing the spring, until the ball
+    drops into the next dimple with a click; the plate slides from one dimple to the next and back while the ball rides up
+    and clicks down.'
+  drawn: true
+  still: drawn/ball-detent.svg
+  kind: animation
 - file: ball-detent.webp
   title: File:Federndes Druckstück 2.tif
   author: HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar
@@ -161,7 +167,8 @@ glossary: [misalignment, detent, ratchet, pawl, torque, flexure, clearance, form
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-detent.webp" alt="Three threaded spring plungers, each with a steel ball poking out of one end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federndes_Druckst%C3%BCck_2.tif">Federndes Druckstück 2</a> by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ball-detent.svg"><img src="../media/drawn/anim/ball-detent.svg" alt="A threaded ball plunger in cross-section: a spring inside the body pushes a ball down into a cone-shaped dimple in a plate; sliding the plate makes the dimple&#x27;s slope push the ball up into the body, squashing the spring, until the ball drops into the next dimple with a click; the plate slides from o"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-detent.webp" alt="Three threaded spring plungers, each with a steel ball poking out of one end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federndes_Druckst%C3%BCck_2.tif">Federndes Druckstück 2</a> by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A spring presses a ball (or a roller) against the other part, so when a dimple, hole or groove lines up the ball drops in with a click and holds the part there, until a firm enough push forces the ball back into its hole so the part can move on.

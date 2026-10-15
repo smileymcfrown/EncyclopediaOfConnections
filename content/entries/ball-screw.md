@@ -131,17 +131,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Ball_screw.json
 image:
-  file: ball-screw.webp
-  title: File:BallScrews-with-detail-insets.jpg
-  author: No machine-readable author provided. Graibeard assumed (based on copyright claims).
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg
-  alt: Two ball screws on a wooden floor, with close-ups of a nut whose return tube is removed to show the balls.
-  site: Wikimedia Commons
-  kind: how-it-works
-  drawn: false
+  file: drawn/anim/ball-screw.svg
+  alt: 'Cutaway of a ball screw: a grooved screw turned by a handle, a nut cut open to show a row of steel balls rolling in
+    the matching grooves between screw and nut, and a return tube on top of the nut carrying the balls back to the other end;
+    as the screw turns one way and then back, the nut runs along it and the balls circulate through the tube.'
+  drawn: true
+  still: drawn/ball-screw.svg
+  kind: animation
 pictures:
+- file: drawn/anim/ball-screw.svg
+  alt: 'Cutaway of a ball screw: a grooved screw turned by a handle, a nut cut open to show a row of steel balls rolling in
+    the matching grooves between screw and nut, and a return tube on top of the nut carrying the balls back to the other end;
+    as the screw turns one way and then back, the nut runs along it and the balls circulate through the tube.'
+  drawn: true
+  still: drawn/ball-screw.svg
+  kind: animation
 - file: ball-screw.webp
   title: File:BallScrews-with-detail-insets.jpg
   author: No machine-readable author provided. Graibeard assumed (based on copyright claims).
@@ -168,7 +172,8 @@ glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, st
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-screw.webp" alt="Two ball screws on a wooden floor, with close-ups of a nut whose return tube is removed to show the balls."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg">BallScrews-with-detail-insets</a> by No machine-readable author provided. Graibeard assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ball-screw.svg"><img src="../media/drawn/anim/ball-screw.svg" alt="Cutaway of a ball screw: a grooved screw turned by a handle, a nut cut open to show a row of steel balls rolling in the matching grooves between screw and nut, and a return tube on top of the nut carrying the balls back to the other end; as the screw turns one way and then back, the nut runs along i"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-screw.webp" alt="Two ball screws on a wooden floor, with close-ups of a nut whose return tube is removed to show the balls." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg">BallScrews-with-detail-insets</a> by No machine-readable author provided. Graibeard assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/ball-screw-22880f.webp" alt="A ball screw nut partly taken apart, one return tube lifted off and loose steel balls laid out above it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallScrewNut-showing-balls-recirculating-tubes.jpg">BallScrewNut-showing-balls-recirculating-tubes</a> by No machine-readable author provided. Graibeard assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

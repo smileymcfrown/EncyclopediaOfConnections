@@ -126,17 +126,23 @@ sources:
 - https://www.youtube.com/watch?v=SUjvCixHpyg
 research: research/connection-types/results/Spring_bar_springloaded_telescoping_pin.json
 image:
-  file: spring-bar.webp
-  title: File:Federsteg.jpg
-  author: Wela49
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Federsteg.jpg
-  alt: 'Drawing of a watch spring bar: a thin tube with a small flanged pin sticking out of each end.'
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/spring-bar.svg
+  alt: 'Animated front cut-away view of a watch spring bar between two lugs, with a side view of the strap: a coil spring
+    inside the tube pushes a tip out of each end into small holes in the lugs; a forked tool pushes one flange inward so that
+    tip comes out of its hole, and when let go the spring pushes it back in; the strap loop hangs on the bar and swings round
+    it.'
+  drawn: true
+  still: drawn/spring-bar.svg
+  kind: animation
 pictures:
+- file: drawn/anim/spring-bar.svg
+  alt: 'Animated front cut-away view of a watch spring bar between two lugs, with a side view of the strap: a coil spring
+    inside the tube pushes a tip out of each end into small holes in the lugs; a forked tool pushes one flange inward so that
+    tip comes out of its hole, and when let go the spring pushes it back in; the strap loop hangs on the bar and swings round
+    it.'
+  drawn: true
+  still: drawn/spring-bar.svg
+  kind: animation
 - file: spring-bar.webp
   title: File:Federsteg.jpg
   author: Wela49
@@ -161,7 +167,8 @@ glossary: [self-locking, detent, clearance, form-fit--force-fit--material-bond, 
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-bar.webp" alt="Drawing of a watch spring bar: a thin tube with a small flanged pin sticking out of each end."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federsteg.jpg">Federsteg</a> by Wela49, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spring-bar.svg"><img src="../media/drawn/anim/spring-bar.svg" alt="Animated front cut-away view of a watch spring bar between two lugs, with a side view of the strap: a coil spring inside the tube pushes a tip out of each end into small holes in the lugs; a forked tool pushes one flange inward so that tip comes out of its hole, and when let go the spring pushes it "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-bar.webp" alt="Drawing of a watch spring bar: a thin tube with a small flanged pin sticking out of each end." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federsteg.jpg">Federsteg</a> by Wela49, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/spring-bar-9207d2.webp" alt="Three steel watch spring bars lying side by side, each with a short pin at both ends." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federstege.jpg">Federstege</a> by DerHans04, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

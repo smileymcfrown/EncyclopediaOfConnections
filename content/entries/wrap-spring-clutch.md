@@ -116,18 +116,23 @@ sources:
 - https://www.youtube.com/watch?v=AFFHEb4NEY4
 research: research/connection-types/results/Wrapspring_clutch_spring_clutch.json
 image:
-  file: wrap-spring-clutch.webp
-  title: File:Pružinovávolnoběžka.jpg
-  author: Juniperbushman
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg
-  alt: Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and
-    slips.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/wrap-spring-clutch.svg
+  alt: 'Side view of a wrap-spring clutch: an input hub and an output hub end to end with a coil spring wrapped over the joint.
+    Turned the winding way the coil squeezes down onto both hubs and the output is driven; turned the other way the coil opens
+    slightly and slips, so the output stays still. Animated: the input turns two turns the winding way and the output turns
+    with it; then the input turns back, the coil loosens and turns with the input while the output hub stays still.'
+  drawn: true
+  still: drawn/wrap-spring-clutch.svg
+  kind: animation
 pictures:
+- file: drawn/anim/wrap-spring-clutch.svg
+  alt: 'Side view of a wrap-spring clutch: an input hub and an output hub end to end with a coil spring wrapped over the joint.
+    Turned the winding way the coil squeezes down onto both hubs and the output is driven; turned the other way the coil opens
+    slightly and slips, so the output stays still. Animated: the input turns two turns the winding way and the output turns
+    with it; then the input turns back, the coil loosens and turns with the input while the output hub stays still.'
+  drawn: true
+  still: drawn/wrap-spring-clutch.svg
+  kind: animation
 - file: wrap-spring-clutch.webp
   title: File:Pružinovávolnoběžka.jpg
   author: Juniperbushman
@@ -145,7 +150,8 @@ glossary: [misalignment, self-locking, axial--radial, coaxial, ratchet, pawl, fr
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wrap-spring-clutch.webp" alt="Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and slips."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg">Pružinovávolnoběžka</a> by Juniperbushman, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/wrap-spring-clutch.svg"><img src="../media/drawn/anim/wrap-spring-clutch.svg" alt="Side view of a wrap-spring clutch: an input hub and an output hub end to end with a coil spring wrapped over the joint. Turned the winding way the coil squeezes down onto both hubs and the output is driven; turned the other way the coil opens slightly and slips, so the output stays still. Animated: "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wrap-spring-clutch.webp" alt="Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and slips." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg">Pružinovávolnoběžka</a> by Juniperbushman, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A coiled spring wrapped round two hubs end to end that winds down and grips them when the input turns one way, and loosens and slips when it turns the other way; with a collar holding one end of the spring it becomes an on/off clutch that can drive exactly one turn at a time.

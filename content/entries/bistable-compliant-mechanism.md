@@ -143,18 +143,23 @@ sources:
 - https://www.youtube.com/watch?v=97t7Xj_iBv0
 research: research/connection-types/results/Bistable_compliant_mechanism_snapthrough_switch_or_hinge.json
 image:
-  file: bistable-compliant-mechanism.webp
-  title: File:Bistable compliant switch mechanism.png
-  author: BYU CMR
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png
-  alt: A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting
-    positions.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/bistable-compliant-mechanism.svg
+  alt: 'A bistable compliant mechanism: a pre-curved springy beam clamped at both ends is pushed down until it flattens at
+    its tipping point and then snaps into the opposite curve, shown beside a ball-on-a-hill energy curve with two valleys
+    (the two stable shapes) and one peak; the beam is pushed down and snaps over, then pushed up and snaps back, while the
+    ball climbs the hill and rolls into the other valley.'
+  drawn: true
+  still: drawn/bistable-compliant-mechanism.svg
+  kind: animation
 pictures:
+- file: drawn/anim/bistable-compliant-mechanism.svg
+  alt: 'A bistable compliant mechanism: a pre-curved springy beam clamped at both ends is pushed down until it flattens at
+    its tipping point and then snaps into the opposite curve, shown beside a ball-on-a-hill energy curve with two valleys
+    (the two stable shapes) and one peak; the beam is pushed down and snaps over, then pushed up and snaps back, while the
+    ball climbs the hill and rolls into the other valley.'
+  drawn: true
+  still: drawn/bistable-compliant-mechanism.svg
+  kind: animation
 - file: bistable-compliant-mechanism.webp
   title: File:Bistable compliant switch mechanism.png
   author: BYU CMR
@@ -172,7 +177,8 @@ glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linka
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bistable-compliant-mechanism.webp" alt="A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting positions."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png">Bistable compliant switch mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bistable-compliant-mechanism.svg"><img src="../media/drawn/anim/bistable-compliant-mechanism.svg" alt="A bistable compliant mechanism: a pre-curved springy beam clamped at both ends is pushed down until it flattens at its tipping point and then snaps into the opposite curve, shown beside a ball-on-a-hill energy curve with two valleys (the two stable shapes) and one peak; the beam is pushed down and s"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bistable-compliant-mechanism.webp" alt="A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting positions." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png">Bistable compliant switch mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A part that bends instead of using hinges and has two resting shapes, so pushing it past a tipping point makes it snap quickly into the other shape and stay there with no latch, spring or power holding it.

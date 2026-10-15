@@ -125,17 +125,23 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Centrifugal_clutch.json
 image:
-  file: centrifugal-clutch.webp
-  title: File:CentrifugalClutch.jpg
-  author: Fletcher6
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg
-  alt: The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/centrifugal-clutch.svg
+  alt: 'End-on view of a centrifugal clutch: a hub on the engine shaft carries three shoes on radial lugs, held in by springs,
+    inside a free drum; when the hub spins fast enough the shoes are flung out against the drum, slip, then grip so the drum
+    turns with the hub; the engine speeds up and slows down, the shoes move out and in, and the drum starts, catches up and
+    coasts to a stop.'
+  drawn: true
+  still: drawn/centrifugal-clutch.svg
+  kind: animation
 pictures:
+- file: drawn/anim/centrifugal-clutch.svg
+  alt: 'End-on view of a centrifugal clutch: a hub on the engine shaft carries three shoes on radial lugs, held in by springs,
+    inside a free drum; when the hub spins fast enough the shoes are flung out against the drum, slip, then grip so the drum
+    turns with the hub; the engine speeds up and slows down, the shoes move out and in, and the drum starts, catches up and
+    coasts to a stop.'
+  drawn: true
+  still: drawn/centrifugal-clutch.svg
+  kind: animation
 - file: centrifugal-clutch.webp
   title: File:CentrifugalClutch.jpg
   author: Fletcher6
@@ -171,7 +177,8 @@ glossary: [misalignment, backlash, ratchet, freewheel, torque, gear-ratio, fail-
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/centrifugal-clutch.webp" alt="The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg">CentrifugalClutch</a> by Fletcher6, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/centrifugal-clutch.svg"><img src="../media/drawn/anim/centrifugal-clutch.svg" alt="End-on view of a centrifugal clutch: a hub on the engine shaft carries three shoes on radial lugs, held in by springs, inside a free drum; when the hub spins fast enough the shoes are flung out against the drum, slip, then grip so the drum turns with the hub; the engine speeds up and slows down, the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-clutch.webp" alt="The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg">CentrifugalClutch</a> by Fletcher6, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/centrifugal-clutch-a7aa6e.webp" alt="A centrifugal clutch taken out of its drum, showing the three shoes and the springs that pull them in towards the hub." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dry_clutch.JPG">Dry clutch</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/centrifugal-clutch-f1e484.webp" alt="A two-shoe centrifugal clutch from a motor scythe inside its drum, a spring stretched between the shoes." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Frizione_centrifuga.jpg">Frizione centrifuga</a> by A7N8X, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

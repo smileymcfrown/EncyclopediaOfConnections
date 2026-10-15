@@ -110,18 +110,19 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Geared_hinge_continuous_gear_hinge.json
 image:
-  file: geared-hinge.webp
-  title: File:Continuoushinge.jpg
-  author: PerryBallard
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg
-  alt: A long aluminium geared continuous hinge, opened partway, with a cap running down its whole length over the toothed
-    edges.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/geared-hinge.svg
+  alt: 'End view of a geared hinge, shown moving: as the door leaf swings, its teeth turn the frame leaf by the same amount
+    the other way, so the two leaves fold together evenly about the cap that holds the gears in mesh.'
+  drawn: true
+  still: drawn/geared-hinge.svg
+  kind: animation
 pictures:
+- file: drawn/anim/geared-hinge.svg
+  alt: 'End view of a geared hinge, shown moving: as the door leaf swings, its teeth turn the frame leaf by the same amount
+    the other way, so the two leaves fold together evenly about the cap that holds the gears in mesh.'
+  drawn: true
+  still: drawn/geared-hinge.svg
+  kind: animation
 - file: geared-hinge.webp
   title: File:Continuoushinge.jpg
   author: PerryBallard
@@ -147,7 +148,8 @@ glossary: [backlash, detent, torque, living-hinge, clearance, tolerance, creep, 
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/geared-hinge.webp" alt="A long aluminium geared continuous hinge, opened partway, with a cap running down its whole length over the toothed edges."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg">Continuoushinge</a> by PerryBallard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/geared-hinge.svg"><img src="../media/drawn/anim/geared-hinge.svg" alt="End view of a geared hinge, shown moving: as the door leaf swings, its teeth turn the frame leaf by the same amount the other way, so the two leaves fold together evenly about the cap that holds the gears in mesh."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/geared-hinge.webp" alt="A long aluminium geared continuous hinge, opened partway, with a cap running down its whole length over the toothed edges." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg">Continuoushinge</a> by PerryBallard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/geared-hinge-ee2a98.webp" alt="The end of a geared continuous hinge seen close up, showing the gear teeth on the two leaves meshing inside the cap." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Continuoushinge-crop.jpg">Continuoushinge-crop</a> by PerryBallard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

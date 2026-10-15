@@ -143,18 +143,21 @@ sources:
 - https://www.youtube.com/watch?v=K0wr_ZhhtbE
 research: research/connection-types/results/Flexure_hinge_notch_leafspring_and_crossaxis_pivots.json
 image:
-  file: flexure-hinge.webp
-  title: File:Flexure pivot.png
-  author: Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Flexure_pivot.png
-  alt: Two steel cross-spring flexure pivots, small cylinders joined inside by crossed flat springs instead of a bearing,
-    one shown cut open.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/flexure-hinge.svg
+  alt: 'Three flexure hinges side by side, shown moving: each arm swings to and fro with no pin, the notched block bending
+    a few degrees at its thin neck, the single blade curving so its turning point (red dot) drifts sideways, and the crossed
+    blades bending in an X so the arm turns about a nearly fixed point.'
+  drawn: true
+  still: drawn/flexure-hinge.svg
+  kind: animation
 pictures:
+- file: drawn/anim/flexure-hinge.svg
+  alt: 'Three flexure hinges side by side, shown moving: each arm swings to and fro with no pin, the notched block bending
+    a few degrees at its thin neck, the single blade curving so its turning point (red dot) drifts sideways, and the crossed
+    blades bending in an X so the arm turns about a nearly fixed point.'
+  drawn: true
+  still: drawn/flexure-hinge.svg
+  kind: animation
 - file: flexure-hinge.webp
   title: File:Flexure pivot.png
   author: Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski
@@ -181,7 +184,8 @@ glossary: [misalignment, backlash, axial--radial, bistable, stiffness, flexure, 
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/flexure-hinge.webp" alt="Two steel cross-spring flexure pivots, small cylinders joined inside by crossed flat springs instead of a bearing, one shown cut open."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flexure_pivot.png">Flexure pivot</a> by Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/flexure-hinge.svg"><img src="../media/drawn/anim/flexure-hinge.svg" alt="Three flexure hinges side by side, shown moving: each arm swings to and fro with no pin, the notched block bending a few degrees at its thin neck, the single blade curving so its turning point (red dot) drifts sideways, and the crossed blades bending in an X so the arm turns about a nearly fixed poi"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flexure-hinge.webp" alt="Two steel cross-spring flexure pivots, small cylinders joined inside by crossed flat springs instead of a bearing, one shown cut open." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flexure_pivot.png">Flexure pivot</a> by Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/flexure-hinge-4d1f61.webp" alt="Inside a precision balance, a thin springy brass strip joins two parts so they can tilt a little without a pin or bearing." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sartorius_BP_160_P_6.jpg">Sartorius BP 160 P 6</a> by PaulT (Gunther Tschuch), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

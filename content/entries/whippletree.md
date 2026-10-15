@@ -130,18 +130,25 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Whippletree_loadequalising_lever.json
 image:
-  file: whippletree.webp
-  title: File:Triple whippletree set.svg
-  author: 'Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk)'
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg
-  alt: Diagram of a whippletree set for three draught animals, bars hung from pivots so each animal's pull is shared to one
-    load.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/whippletree.svg
+  alt: 'A whippletree: one push on the middle pivot of a main bar is split, through two smaller bars on its ends, into four
+    equal pushes on four sliding pads that press on a bumpy object held against a wall. When one pad touches the object first
+    and stops, the bars tip so the other three keep moving until all four touch. Animated: all four pads move together, the
+    top pad meets the bump and stops, the bars tip while the other three keep moving, then the push is released and everything
+    returns.'
+  drawn: true
+  still: drawn/whippletree.svg
+  kind: animation
 pictures:
+- file: drawn/anim/whippletree.svg
+  alt: 'A whippletree: one push on the middle pivot of a main bar is split, through two smaller bars on its ends, into four
+    equal pushes on four sliding pads that press on a bumpy object held against a wall. When one pad touches the object first
+    and stops, the bars tip so the other three keep moving until all four touch. Animated: all four pads move together, the
+    top pad meets the bump and stops, the bars tip while the other three keep moving, then the push is released and everything
+    returns.'
+  drawn: true
+  still: drawn/whippletree.svg
+  kind: animation
 - file: whippletree.webp
   title: File:Triple whippletree set.svg
   author: 'Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk)'
@@ -177,7 +184,8 @@ glossary: [misalignment, torque, crank, linkage, form-fit--force-fit--material-b
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/whippletree.webp" alt="Diagram of a whippletree set for three draught animals, bars hung from pivots so each animal&#x27;s pull is shared to one load."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg">Triple whippletree set</a> by Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/whippletree.svg"><img src="../media/drawn/anim/whippletree.svg" alt="A whippletree: one push on the middle pivot of a main bar is split, through two smaller bars on its ends, into four equal pushes on four sliding pads that press on a bumpy object held against a wall. When one pad touches the object first and stops, the bars tip so the other three keep moving until a"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/whippletree.webp" alt="Diagram of a whippletree set for three draught animals, bars hung from pivots so each animal&#x27;s pull is shared to one load." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg">Triple whippletree set</a> by Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/whippletree-63baff.webp" alt="Two carriage horses pulling on swinging leader bars that pivot in the middle to share their pull." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Leader_bars.jpg">Leader bars</a> by Richard New Forest, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/whippletree-c6c340.webp" alt="An old wooden whippletree set hanging on a wall, a long bar with a shorter bar hooked to each end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pferde-Schwengel.JPG">Pferde-Schwengel</a> by Own work by uploader, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>

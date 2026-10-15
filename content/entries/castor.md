@@ -133,17 +133,21 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Castor_swivel_castor_fixed_castor_locking_castor.json
 image:
-  file: castor.webp
-  title: File:Swivel caster.jpg
-  author: Lambtron
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
-  alt: A swivel castor under a clothes rack, its hard rubber wheel set behind the swivel pivot in a steel fork.
-  site: Wikimedia Commons
-  kind: photo
-  drawn: false
+  file: drawn/anim/castor.svg
+  alt: 'A swivel castor: a side view shows the wheel''s axle a short distance (the trail) behind the vertical swivel pivot,
+    and a top view shows a trolley being pushed in a new direction with its four swivel castors swinging round to trail behind
+    their pivots; the trolley is pushed round a square and at each corner the castors swing round to trail behind again.'
+  drawn: true
+  still: drawn/castor.svg
+  kind: animation
 pictures:
+- file: drawn/anim/castor.svg
+  alt: 'A swivel castor: a side view shows the wheel''s axle a short distance (the trail) behind the vertical swivel pivot,
+    and a top view shows a trolley being pushed in a new direction with its four swivel castors swinging round to trail behind
+    their pivots; the trolley is pushed round a square and at each corner the castors swing round to trail behind again.'
+  drawn: true
+  still: drawn/castor.svg
+  kind: animation
 - file: castor.webp
   title: File:Swivel caster.jpg
   author: Lambtron
@@ -178,7 +182,8 @@ glossary: [fail-safe--fail-secure, clearance, creep, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/castor.webp" alt="A swivel castor under a clothes rack, its hard rubber wheel set behind the swivel pivot in a steel fork."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg">Swivel caster</a> by Lambtron, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/castor.svg"><img src="../media/drawn/anim/castor.svg" alt="A swivel castor: a side view shows the wheel&#x27;s axle a short distance (the trail) behind the vertical swivel pivot, and a top view shows a trolley being pushed in a new direction with its four swivel castors swinging round to trail behind their pivots; the trolley is pushed round a square and at each"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/castor.webp" alt="A swivel castor under a clothes rack, its hard rubber wheel set behind the swivel pivot in a steel fork." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg">Swivel caster</a> by Lambtron, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/castor-cc1793.webp" alt="A swivel castor with a wing-shaped brake lever that presses down on the wheel to stop it rolling." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swivel_caster_with_wheel_lock.JPG">Swivel caster with wheel lock</a> by DMahalko, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/castor-b2c6e1.webp" alt="The castors of a hospital stretcher joined by a central locking bar that brakes all the wheels at once." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Caster_-_Central_locking_mechanism_-_Stryker_hydraulic_stretcher.JPG">Caster - Central locking mechanism - Stryker hydraulic stretcher</a> by DMahalko, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

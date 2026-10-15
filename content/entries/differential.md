@@ -159,18 +159,27 @@ sources:
 - https://www.mcmaster.com/products/miter-gears/
 research: research/connection-types/results/Differential_bevel_gear_differential.json
 image:
-  file: differential.webp
-  title: File:Differential free.png
-  author: Wapcaplet
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Differential_free.png
-  alt: A coloured drawing of a differential, with arrows showing the input gear turning the cage and the two output shafts
-    turning out of the sides.
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/differential.svg
+  alt: 'Top-down schematic of an open differential: the engine turns a ring gear on a cage that carries spider gears on a
+    cross pin, meshing with side gears on the left and right axles; going round a bend the cage turns at 10 rpm while the
+    inner wheel turns at 8 and the outer at 12, with equal push arrows on both wheels. Animated: the tread lines show wheel
+    speed; on a bend the spider gears turn on their pin so one wheel turns slower and one faster; with one wheel on ice it
+    spins at 20 while the other stops; going straight both turn at 10 and the spider gears stay still. The cage always turns
+    at 10, the average.'
+  drawn: true
+  still: drawn/differential.svg
+  kind: animation
 pictures:
+- file: drawn/anim/differential.svg
+  alt: 'Top-down schematic of an open differential: the engine turns a ring gear on a cage that carries spider gears on a
+    cross pin, meshing with side gears on the left and right axles; going round a bend the cage turns at 10 rpm while the
+    inner wheel turns at 8 and the outer at 12, with equal push arrows on both wheels. Animated: the tread lines show wheel
+    speed; on a bend the spider gears turn on their pin so one wheel turns slower and one faster; with one wheel on ice it
+    spins at 20 while the other stops; going straight both turn at 10 and the spider gears stay still. The cage always turns
+    at 10, the average.'
+  drawn: true
+  still: drawn/differential.svg
+  kind: animation
 - file: differential.webp
   title: File:Differential free.png
   author: Wapcaplet
@@ -207,7 +216,8 @@ glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, prelo
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/differential.webp" alt="A coloured drawing of a differential, with arrows showing the input gear turning the cage and the two output shafts turning out of the sides."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Differential_free.png">Differential free</a> by Wapcaplet, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/differential.svg"><img src="../media/drawn/anim/differential.svg" alt="Top-down schematic of an open differential: the engine turns a ring gear on a cage that carries spider gears on a cross pin, meshing with side gears on the left and right axles; going round a bend the cage turns at 10 rpm while the inner wheel turns at 8 and the outer at 12, with equal push arrows o"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/differential.webp" alt="A coloured drawing of a differential, with arrows showing the input gear turning the cage and the two output shafts turning out of the sides." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Differential_free.png">Differential free</a> by Wapcaplet, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/differential-2f4e85.webp" alt="A modern car differential cut open, showing the large ring gear and the small bevel gears inside the housing." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Differentialgetriebe2.jpg">Differentialgetriebe2</a> by DrJunge, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/differential-79278f.webp" alt="A sectioned rear axle in a museum car, with a window cut in the casing to show the differential gears inside." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sectioned_MGB_at_the_British_motoring_heritage_museum_gaydon_(2).jpg">Sectioned MGB at the British motoring heritage museum gaydon (2)</a> by Paul brown from england, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>

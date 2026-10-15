@@ -155,18 +155,21 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Distributeurs_connexions.svg
 research: research/connection-types/results/Switching_valve_directional_control_valve_solenoid_valve.json
 image:
-  file: switching-valve.webp
-  title: File:Solenoid Valve.svg
-  author: '"SimonOrJ" (U/T/C)'
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg
-  alt: 'Two cut-away drawings of a solenoid valve: at rest the diaphragm blocks the flow, and with the coil powered it lifts
-    so liquid flows from inlet to outlet.'
-  site: Wikimedia Commons
-  kind: diagram
-  drawn: false
+  file: drawn/anim/switching-valve.svg
+  alt: 'Animated cut-away of a 5/2 solenoid switching valve driving a double-acting air cylinder: with the coil off a spring
+    holds the sliding spool to the left, so supply port 1 feeds port 2 and the rod pulls in while port 4 vents through 5;
+    with the coil on the spool slides right, so 1 feeds 4 and the rod pushes out while 2 vents through 3.'
+  drawn: true
+  still: drawn/switching-valve.svg
+  kind: animation
 pictures:
+- file: drawn/anim/switching-valve.svg
+  alt: 'Animated cut-away of a 5/2 solenoid switching valve driving a double-acting air cylinder: with the coil off a spring
+    holds the sliding spool to the left, so supply port 1 feeds port 2 and the rod pulls in while port 4 vents through 5;
+    with the coil on the spool slides right, so 1 feeds 4 and the rod pushes out while 2 vents through 3.'
+  drawn: true
+  still: drawn/switching-valve.svg
+  kind: animation
 - file: switching-valve.webp
   title: File:Solenoid Valve.svg
   author: '"SimonOrJ" (U/T/C)'
@@ -193,7 +196,8 @@ glossary: [bistable, detent, actuator, solenoid, fail-safe--fail-secure, infill,
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/switching-valve.webp" alt="Two cut-away drawings of a solenoid valve: at rest the diaphragm blocks the flow, and with the coil powered it lifts so liquid flows from inlet to outlet."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg">Solenoid Valve</a> by &quot;SimonOrJ&quot; (U/T/C), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/switching-valve.svg"><img src="../media/drawn/anim/switching-valve.svg" alt="Animated cut-away of a 5/2 solenoid switching valve driving a double-acting air cylinder: with the coil off a spring holds the sliding spool to the left, so supply port 1 feeds port 2 and the rod pulls in while port 4 vents through 5; with the coil on the spool slides right, so 1 feeds 4 and the rod"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/switching-valve.webp" alt="Two cut-away drawings of a solenoid valve: at rest the diaphragm blocks the flow, and with the coil powered it lifts so liquid flows from inlet to outlet." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg">Solenoid Valve</a> by &quot;SimonOrJ&quot; (U/T/C), Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/switching-valve-61007c.webp" alt="A vacuum selector valve in an aluminium box, cut away to show the moving part inside that connects different ports when the lever on the front is turned." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Valve,_Vacuum_Selector,_Cutaway_-_DPLA_-_e5633c7d1f7feeaa6330597b6289934f_(page_1).jpg">Valve, Vacuum Selector, Cutaway - DPLA - e5633c7d1f7feeaa6330597b6289934f (page 1)</a> by File URL Catalog record, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
