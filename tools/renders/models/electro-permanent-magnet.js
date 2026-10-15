@@ -8,7 +8,7 @@ export default {
     const { group, at, box, cyl, spring, mat } = K;
     const iron = mat.castIron(), parts = [];
     // the steel plate being held
-    parts.push(at(box(56, 2, 46, mat.paint(0x6f7378), 0.4), [0, 1, 0]));
+    parts.push(at(box(56, 2, 46, mat.castIron(), 0.4), [0, 1, 0]));
     const y0 = 2;
     // pole pieces
     for (const x of [-12.5, 12.5]) parts.push(at(box(7, 9, 32, mat.steel(), 0.6), [x, y0 + 4.5, 0]));

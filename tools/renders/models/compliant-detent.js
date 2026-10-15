@@ -9,7 +9,7 @@ function wheelOutline() {
     const a = (i / n) * Math.PI * 2;
     // a rounded V notch centred on each multiple of the pitch, starting at +90 degrees (towards the arm)
     let f = ((a - Math.PI / 2) / ((Math.PI * 2) / N)) % 1; if (f < 0) f += 1;
-    const d = Math.min(f, 1 - f) / 0.28;                    // 0 at the notch centre
+    const d = Math.min(f, 1 - f) / 0.17;                    // 0 at the notch centre
     const r = d < 1 ? RW - DEPTH * Math.pow(Math.cos((d * Math.PI) / 2), 1.3) : RW;
     pts.push([r * Math.cos(a), r * Math.sin(a)]);
   }
@@ -17,7 +17,7 @@ function wheelOutline() {
 }
 export default {
   alt: 'Render of a 3D-printed compliant detent: a notched wheel with a grip knob turns on a printed base, and a thin springy arm printed as part of the base rests its rounded tip in one of the notches, so the knob clicks from position to position.',
-  view: { dir: [0.35, 1.25, 1.0], fill: 0.95 },
+  view: { dir: [0.15, 1.15, 1.0], fill: 1.0 },
   build(K) {
     const { group, at, extrude, cyl, box, circle, mat } = K;
     const baseM = mat.pla(0x4a5058, 1.2), knobM = mat.pla(0xe4782d, 1.2), knobTop = mat.pla(0xe4782d, 8);
@@ -25,7 +25,7 @@ export default {
     const flat = (o, y) => at(o, [0, y, 0], [90, 0, 0]);
 
     const T = 3;                                             // base plate thickness
-    const plate = at(K.box(70, T, 62, baseM, 3), [0, T / 2, 0]);
+    const plate = at(K.box(66, T, 58, baseM, 3), [0, T / 2, 4]);
     // the spring arm: an anchor block on the left, a thin beam along x, a round nub at its tip
     const zArm = RW + 2.3 + 0.7;                             // beam centre line (world z)
     const anchor = at(box(8, 7, 9, baseM, 1), [-27, T + 3.5, zArm + 1.5]);
@@ -38,7 +38,7 @@ export default {
     const wheel = flat(extrude(wheelOutline(), 6, knobM, { bevel: 0.5 }), T + 0.6 + 3);
     const post = at(cyl(4, 8, baseM), [0, T + 4, 0]);
     const grip = [];
-    const kR = 13;
+    const kR = 9;
     const knob = at(cyl(kR, 12, knobM, { seg: 96 }), [0, T + 6.6 + 6, 0]);
     for (let i = 0; i < 24; i++) {
       const a = (i / 24) * Math.PI * 2;

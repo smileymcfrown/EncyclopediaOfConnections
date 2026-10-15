@@ -46,7 +46,7 @@ export default {
     const shaft = at(cyl(4, 54, mat.steel()), [0, 15, 0]);
     const spr = at(spring(8.5, 0.9, 5, 18, mat.stainless()), [0, bTop, 0]);
     const washer = at(tube(10, 4.2, 1.6, mat.zinc()), [0, bTop + 18.8, 0]);
-    const nut = at(hex(13, 6.5, mat.zinc(), 4.2), [0, bTop + 19.6 + 3.25, 0]);
+    const nut = at(group(hex(13, 6.5, mat.zinc(), 4.2)), [0, bTop + 19.6 + 3.25, 0]);
     return at(group(a, b, shaft, spr, washer, nut), [0, 0, 0], [0, 0, -90]);
   },
 };

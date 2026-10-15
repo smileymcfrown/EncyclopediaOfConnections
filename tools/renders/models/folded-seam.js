@@ -36,14 +36,18 @@ function sheet(pts) {
   return [...left, ...right.reverse()];
 }
 export default {
-  alt: 'Render of a folded seam: two strips of thin galvanised steel sheet joined edge to edge, each edge folded into a hook, the hooks interlocked and hammered flat; the cut end shows the four layers trapping each other.',
-  view: { dir: [0.55, 0.45, 1.0], fill: 1.0, target: [0, 0, 0] },
+  alt: 'Render of a folded seam: two strips of thin galvanised steel sheet joined edge to edge, each edge folded into a hook, the hooks interlocked and hammered flat, with a small step so both sheets lie flat; the cut end shows the four layers trapping each other.',
+  view: { dir: [0.4, 0.38, 1.0], fill: 1.1 },
   build(K) {
     const { group, at, extrude, mat } = K;
     const zinc = mat.zinc();
-    const W = 30, LEN = 46;
+    const W = 22, LEN = 26;
     // sheet 1: comes in from the left on top, folds down and back under itself
-    const s1 = path(-W, 3 * S, 0, [{ go: W }, { bend: -180, r: S }, { go: HOOK - 0.8 }]);
+    // (with a small step, the groove, so both sheets lie flat on the bench)
+    const rise = 3 * S - 4 * (1 - Math.cos(Math.PI / 6)), slope = rise / Math.sin(Math.PI / 6);
+    const run = slope * Math.cos(Math.PI / 6) + 2;
+    const s1 = path(-W, 0, 0, [{ go: W - 9 - run }, { bend: 30, r: 2 }, { go: slope }, { bend: -30, r: 2 }, { go: 9 },
+      { bend: -180, r: S }, { go: HOOK - 0.8 }]);
     // sheet 2: comes in from the right underneath, folds up and back inside sheet 1's hook
     const s2 = path(W, 0, 180, [{ go: W + HOOK }, { bend: -180, r: S }, { go: HOOK - 0.8 }]);
     const a = extrude(sheet(s1), LEN, zinc, { bevel: 0.05 });
