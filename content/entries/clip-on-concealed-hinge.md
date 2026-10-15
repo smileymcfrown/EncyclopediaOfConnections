@@ -206,12 +206,35 @@ pictures:
   still: clip-on-concealed-hinge.still.webp
   kind: animation
   drawn: false
+- file: clip-on-concealed-hinge-ac601b.webp
+  title: File:Euro hinge 2.jpg
+  author: Dvortygirl
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Euro_hinge_2.jpg
+  site: Wikimedia Commons
+  alt: A screwdriver turning one of the adjusting screws on a metal cup hinge fitted to a wooden cabinet door
+  kind: how-it-works
+  drawn: false
+- file: clip-on-concealed-hinge-abb481.webp
+  title: File:Euro hinge 1.jpg
+  author: Dvortygirl
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Euro_hinge_1.jpg
+  site: Wikimedia Commons
+  alt: A metal cup hinge on an open wooden cabinet door, its folding arm running from the cup in the door to the plate on
+    the cabinet side
+  kind: photo
+  drawn: false
 glossary: [over-centre, linkage, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss,
   pilot-hole, creep, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/clip-on-concealed-hinge.still.webp"><img src="../media/clip-on-concealed-hinge.webp" alt="An animated cup hinge set in a round pocket in a cabinet door, seen from above and from the side as its linkage swings the door open clear of the cabinet."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_06.gif">Scharnier 06</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clip-on-concealed-hinge-ac601b.webp" alt="A screwdriver turning one of the adjusting screws on a metal cup hinge fitted to a wooden cabinet door" loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Euro_hinge_2.jpg">Euro hinge 2</a> by Dvortygirl, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clip-on-concealed-hinge-abb481.webp" alt="A metal cup hinge on an open wooden cabinet door, its folding arm running from the cup in the door to the plate on the cabinet side" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Euro_hinge_1.jpg">Euro hinge 1</a> by Dvortygirl, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A cabinet-door hinge that hides inside a 35 mm round pocket drilled in the back of the door, clips onto a plate on the cabinet so the door can be lifted off without tools, and has three screws to shift the door sideways, up and down, and in and out until the gaps line up.

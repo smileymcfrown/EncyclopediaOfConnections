@@ -1347,6 +1347,19 @@ capstan-and-windlass:
   site: Wikimedia Commons
   alt: A wooden windlass beside a Cornish cove, a horizontal drum turned by long bars, used to haul boats up the slipway.
   kind: photo
+captive-nut-pocket:
+- src: openverse:20eba310-40d2-4ec1-a1f2-110d85ad42f9
+  file: captive-nut-pocket.webp
+  width: 500
+  height: 375
+  title: infill
+  author: Robosprout
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/68272764@N05/8362079991
+  site: Flickr via Openverse
+  alt: Grey 3D-printed brackets whose flat base has a six-sided pocket at each end, shaped to hold a nut so it can't turn
+  kind: photo
 castor:
 - src: File:Swivel caster.jpg
   file: castor.webp
@@ -1617,6 +1630,19 @@ clamp-on-tube-fittings:
   site: Wikimedia Commons
   kind: photo
 clevis-joint:
+- src: File:Fiedersplënt w 348.jpg
+  file: clevis-joint-e20e3c.webp
+  width: 796
+  height: 1024
+  title: File:Fiedersplënt w 348.jpg
+  author: Cornischong at lb.wikipedia
+  license: CC BY-SA 3.0 lu
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/lu/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Fiederspl%C3%ABnt_w_348.jpg
+  site: Wikimedia Commons
+  alt: Two yellow steel ears on a machine with a steel pin pushed through both, held in by a bent-wire spring clip, leaving
+    a gap between the ears for the tongue.
+  kind: photo
 - src: File:Clevis.svg
   file: clevis-joint.webp
   width: 800
@@ -1685,6 +1711,31 @@ clip-on-concealed-hinge:
   site: Wikimedia Commons
   still: clip-on-concealed-hinge.still.webp
   kind: animation
+- src: File:Euro hinge 2.jpg
+  file: clip-on-concealed-hinge-ac601b.webp
+  width: 800
+  height: 618
+  title: File:Euro hinge 2.jpg
+  author: Dvortygirl
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Euro_hinge_2.jpg
+  site: Wikimedia Commons
+  alt: A screwdriver turning one of the adjusting screws on a metal cup hinge fitted to a wooden cabinet door
+  kind: how-it-works
+- src: File:Euro hinge 1.jpg
+  file: clip-on-concealed-hinge-abb481.webp
+  width: 800
+  height: 602
+  title: File:Euro hinge 1.jpg
+  author: Dvortygirl
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Euro_hinge_1.jpg
+  site: Wikimedia Commons
+  alt: A metal cup hinge on an open wooden cabinet door, its folding arm running from the cup in the door to the plate on
+    the cabinet side
+  kind: photo
 coil-spring:
 - src: File:Helical compression spring parameters.svg
   file: coil-spring.webp
@@ -2642,6 +2693,31 @@ eddy-current-brake:
   alt: A bullet-train wheel set with a large eddy-current disc brake fitted on the axle, its electromagnet unit beside the
     disc.
   kind: photo
+elastic-band-and-elastic-cord-springs:
+- src: openverse:30ec9aac-f844-4a58-a14e-77da1ef12dfd
+  file: elastic-band-and-elastic-cord-springs.webp
+  width: 800
+  height: 412
+  title: Poor Man's Extension Tube
+  author: Kurayba
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/48503330@N08/6110452442
+  site: Flickr via Openverse
+  alt: A blue rubber band stretched round a small camera and a separate lens, pulling the lens tight against the camera body.
+  kind: how-it-works
+- src: File:Bungee Cord PICT6882a.jpg
+  file: elastic-band-and-elastic-cord-springs-28b440.webp
+  width: 800
+  height: 401
+  title: File:Bungee Cord PICT6882a.jpg
+  author: The original uploader was Jmb at English Wikipedia.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
+  site: Wikimedia Commons
+  alt: Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a ruler.
+  kind: photo
 elastomer-isolation-mount:
 - src: File:Schwingungsdämpfer Aufbau.jpg
   file: elastomer-isolation-mount.webp
@@ -2719,11 +2795,11 @@ electromagnetic-brake:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
-  alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched
-    on and pulls the armature plate back.
+  alt: A cut-away diagram of a power-off electromagnetic brake, with springs clamping the friction disc and the coil that
+    pulls the armature plate back.
   animated: false
   site: Wikimedia Commons
-  kind: animation
+  kind: diagram
 - src: File:Akım Baskılı Frenler.webp
   file: electromagnetic-brake-201f71.webp
   width: 450
@@ -3098,6 +3174,22 @@ flexure-hinge:
   alt: Inside a precision balance, a thin springy brass strip joins two parts so they can tilt a little without a pin or bearing.
   kind: how-it-works
 float-valve:
+- src: File:Float located adjacent to entry stair in filtration bed. The float actuates a valve that maintains water level
+    over the bed. - Lake Whitney Water Filtration Plant, Filtration Plant, HAER CT-186-A-22.tif
+  file: float-valve-41f750.webp
+  width: 800
+  height: 1006
+  title: File:Float located adjacent to entry stair in filtration bed. The float actuates a valve that maintains water level
+    over the bed. - Lake Whitney Water Filtration Plant, Filtration Plant, HAER CT-186-A-22.tif
+  author: 'Related names: Hill, A B Fuller, George W Ferry, Charles A Eglee and Bunting Company, Boston Grzywacz, Robert W
+    LaValley, Pilar, transmitter Elliot, Joseph, photographer Stewart, Robert C, historian'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Float_located_adjacent_to_entry_stair_in_filtration_bed._The_float_actuates_a_valve_that_maintains_water_level_over_the_bed._-_Lake_Whitney_Water_Filtration_Plant,_Filtration_Plant,_HAER_CT-186-A-22.tif
+  site: Wikimedia Commons
+  alt: An old black-and-white photo of a float hanging on a rod in a water tank, the rod running up to the valve that keeps
+    the water level steady
+  kind: how-it-works
 - src: File:Portsmouth-Valve-Closed-detail.svg
   file: float-valve.webp
   width: 800
@@ -3234,32 +3326,32 @@ friction-brake:
   alt: A gold sports-car wheel with a large drilled brake disc behind the spokes and a red brake caliper gripping its edge.
   kind: photo
 friction-clutch:
-- src: File:Cone clutch.svg
-  file: friction-clutch.webp
+- src: File:Clutch-c.jpg
+  file: friction-clutch-bdd222.webp
   width: 800
-  height: 566
-  title: File:Cone clutch.svg
-  author: Sweber.de
+  height: 631
+  title: File:Clutch-c.jpg
+  author: User:Kolossos
   license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Cone_clutch.svg
-  alt: A drawing of a cone clutch, where a spring pushes a cone-shaped part into a matching cup so friction makes them turn
-    together, and a lever pulls it out.
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Clutch-c.jpg
   site: Wikimedia Commons
-  kind: diagram
-- src: File:Basket clutch.png
-  file: friction-clutch-f3e6de.webp
-  width: 800
-  height: 513
-  title: File:Basket clutch.png
-  author: Genetics4good
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Basket_clutch.png
-  site: Wikimedia Commons
-  alt: A 3D render of a motorcycle basket clutch, whole and pulled apart to show the stack of friction plates between the
-    basket and the hub.
+  alt: A car engine on a display stand with its clutch pulled apart, showing the toothed flywheel, the friction disc and the
+    pressure plate that squeezes it
   kind: how-it-works
+- src: openverse:7e5e49df-c983-4e8c-b1fd-aa3ac5504896
+  file: friction-clutch-ed9c51.webp
+  width: 800
+  height: 600
+  title: New Clutch plate
+  author: nzhamstar
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/16982169@N03/2548210432
+  site: Flickr via Openverse
+  alt: A new car clutch disc held in a hand, with a ring of friction lining around the edge, coil springs in the middle and
+    a splined hole for the gearbox shaft
+  kind: photo
 friction-drives-and-cvts:
 - src: File:Evans friction cone - Hagley Aug 2009.jpg
   file: friction-drives-and-cvts.webp
@@ -3540,6 +3632,30 @@ geneva-drive:
   site: Wikimedia Commons
   still: geneva-drive.still.webp
   kind: animation
+- src: File:Geneva driven wheel.jpg
+  file: geneva-drive-e51866.webp
+  width: 800
+  height: 533
+  title: File:Geneva driven wheel.jpg
+  author: Runner1616
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Geneva_driven_wheel.jpg
+  site: Wikimedia Commons
+  alt: A steel four-slotted Geneva driven wheel on its shaft, with the drive roller, taken from an old film projector
+  kind: photo
+- src: openverse:e92b294f-b42b-42dc-a26f-2ba1fef48d6a
+  file: geneva-drive-9ca0f8.webp
+  width: 800
+  height: 600
+  title: Parametric Geneva Mechanism
+  author: jessed
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:27974
+  site: Thingiverse via Openverse
+  alt: A 3D render of a printable Geneva drive, a pin wheel next to the star-shaped wheel it turns one step at a time
+  kind: how-it-works
 gimbal:
 - src: File:Gimbal 3 axes rotation.gif
   file: gimbal.webp
@@ -4535,6 +4651,19 @@ labyrinth-seal:
   alt: A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth.
   site: Wikimedia Commons
   kind: cross-section
+- src: File:Labyrinthdichtung01.jpg
+  file: labyrinth-seal-0f3858.webp
+  width: 800
+  height: 533
+  title: File:Labyrinthdichtung01.jpg
+  author: self
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Labyrinthdichtung01.jpg
+  site: Wikimedia Commons
+  alt: A steam turbine shaft on display, its labyrinth seal made of many thin ridges side by side around the shaft so the
+    narrow gap zig-zags
+  kind: photo
 lacing:
 - src: File:Lamellar lacing.gif
   file: lacing.webp
@@ -4575,6 +4704,18 @@ lacing:
     knotted loops.
   kind: how-it-works
 ladder-lock-buckle:
+- src: openverse:ab321bbd-6bdb-4678-b9a2-7e87be34d68b
+  file: ladder-lock-buckle-923719.webp
+  width: 375
+  height: 499
+  title: ladder-lock
+  author: AlwynAllan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/9976528@N03/16528134648
+  site: Flickr via Openverse
+  alt: A black plastic ladder lock buckle on a backpack strap, the webbing woven over and under its bars
+  kind: photo
 - src: File:Cropped tri-glide slide.jpg
   file: ladder-lock-buckle.webp
   width: 306
@@ -4826,6 +4967,19 @@ magnetic-connector:
   site: Wikimedia Commons
   kind: photo
 magnetic-coupling-and-magnetic-gear:
+- src: File:Magnetic coupling.jpg
+  file: magnetic-coupling-and-magnetic-gear-fc1262.webp
+  width: 800
+  height: 490
+  title: File:Magnetic coupling.jpg
+  author: Benzhongo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetic_coupling.jpg
+  site: Wikimedia Commons
+  alt: A large red industrial magnetic drive coupling between a grey gearbox and a blue electric motor, joining their two
+    shafts
+  kind: photo
 - src: File:Magnetgetriebe.png
   file: magnetic-coupling-and-magnetic-gear.webp
   width: 537
@@ -5407,6 +5561,19 @@ planetary-gear-set:
   site: Wikimedia Commons
   still: planetary-gear-set.still.webp
   kind: animation
+- src: File:Ricardo, Professional MotorSport World Expo 2024, Cologne (P1031230).jpg
+  file: planetary-gear-set-5cda32.webp
+  width: 800
+  height: 1000
+  title: File:Ricardo, Professional MotorSport World Expo 2024, Cologne (P1031230).jpg
+  author: Matti Blume
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Ricardo,_Professional_MotorSport_World_Expo_2024,_Cologne_(P1031230).jpg
+  site: Wikimedia Commons
+  alt: A cut-away reduction gearbox at a trade show, opened to show planet gears on their carrier meshing inside a toothed
+    outer ring gear
+  kind: cross-section
 pneumatic-artificial-muscle:
 - src: File:Sam animation-real-muscle.gif
   file: pneumatic-artificial-muscle.webp
@@ -5778,6 +5945,19 @@ push-and-turn-child-resistant-cap:
   source: https://commons.wikimedia.org/wiki/File:Aspirin1.jpg
   site: Wikimedia Commons
   alt: A bottle of aspirin tablets with a white push-down-and-turn child-resistant cap, next to its box.
+  kind: photo
+push-in-plastic-rivet:
+- src: File:RFID Rivet Tag.jpg
+  file: push-in-plastic-rivet.webp
+  width: 619
+  height: 800
+  title: File:RFID Rivet Tag.jpg
+  author: GDpost
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:RFID_Rivet_Tag.jpg
+  site: Wikimedia Commons
+  alt: Two black push-in plastic plugs, each with a round head and a ribbed shank whose fins grip inside a drilled hole
   kind: photo
 pva-wood-glue:
 - src: File:Using wood glue.JPG
@@ -6674,6 +6854,20 @@ self-locking-wedge:
   site: Wikimedia Commons
   alt: A plain wooden wedge door stop lying on the floor.
   kind: photo
+self-tapping-screw-into-plastic:
+- src: File:Phillips screw.jpg
+  file: self-tapping-screw-into-plastic.webp
+  width: 800
+  height: 572
+  title: File:Phillips screw.jpg
+  author: Ssawka at Polish Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Phillips_screw.jpg
+  site: Wikimedia Commons
+  alt: A zinc-plated self-tapping screw with a wide washer head, a cross-shaped drive and a sharp, coarse thread down to a
+    point
+  kind: photo
 series-elastic-coupling:
 - src: File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png
   file: series-elastic-coupling.webp
@@ -6856,18 +7050,31 @@ shims-spacers-and-standoffs:
     holding the board up off the case.
   kind: how-it-works
 shut-off-valve:
-- src: File:Ball.PNG
-  file: shut-off-valve.webp
-  width: 400
-  height: 606
-  title: File:Ball.PNG
-  author: Ruben Castelnuovo (myself)
+- src: File:Stopcock 2013 003.jpg
+  file: shut-off-valve-341f60.webp
+  width: 800
+  height: 600
+  title: File:Stopcock 2013 003.jpg
+  author: Veronidae
   license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Ball.PNG
-  alt: 'Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body.'
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Stopcock_2013_003.jpg
   site: Wikimedia Commons
-  kind: cross-section
+  alt: A small brass screw-down stopcock taken apart on a table, showing the body, the threaded stem, the nuts, a washer and
+    the red handwheel.
+  kind: how-it-works
+- src: File:Stopcock.jpg
+  file: shut-off-valve-17c9f2.webp
+  width: 800
+  height: 572
+  title: File:Stopcock.jpg
+  author: Wilfredor
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Stopcock.jpg
+  site: Wikimedia Commons
+  alt: A quarter-turn ball valve with a red lever handle fitted to a water pipe coming out of a wall.
+  kind: photo
 side-release-buckle:
 - src: File:Boucle rapide.svg
   file: side-release-buckle.webp
@@ -7369,6 +7576,20 @@ spring-bar:
   site: Wikimedia Commons
   alt: Three steel watch spring bars lying side by side, each with a short pin at both ends.
   kind: photo
+spring-button-lock:
+- src: File:Valco Snap Button Variations for telescoping tubing and component attachments.png
+  file: spring-button-lock.webp
+  width: 800
+  height: 800
+  title: File:Valco Snap Button Variations for telescoping tubing and component attachments.png
+  author: ValcoCleve
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Valco_Snap_Button_Variations_for_telescoping_tubing_and_component_attachments.png
+  site: Wikimedia Commons
+  alt: A spread of V-shaped and U-shaped spring-steel snap buttons, each bent strip carrying a small round button that pops
+    out through a tube's hole
+  kind: photo
 spring-clamp-wire-connector:
 - src: File:Cage Clamp.jpg
   file: spring-clamp-wire-connector.webp
@@ -7513,6 +7734,31 @@ spur-gear-pair-and-gear-train:
   site: Wikimedia Commons
   still: spur-gear-pair-and-gear-train.still.webp
   kind: animation
+- src: File:Ellis Mill - Spur Gearing - geograph.org.uk - 2930545.jpg
+  file: spur-gear-pair-and-gear-train-1e78ba.webp
+  width: 640
+  height: 424
+  title: File:Ellis Mill - Spur Gearing - geograph.org.uk - 2930545.jpg
+  author: Ashley Dace
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Ellis_Mill_-_Spur_Gearing_-_geograph.org.uk_-_2930545.jpg
+  site: Wikimedia Commons
+  alt: Inside a windmill, a large wooden-toothed spur wheel on an upright shaft meshing with a smaller gear on a second upright
+    shaft beside it
+  kind: how-it-works
+- src: File:Abandoned concrete factory mechanism.jpg
+  file: spur-gear-pair-and-gear-train-31fdcd.webp
+  width: 800
+  height: 536
+  title: File:Abandoned concrete factory mechanism.jpg
+  author: Diacritica
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Abandoned_concrete_factory_mechanism.jpg
+  site: Wikimedia Commons
+  alt: Close-up of the rusty straight teeth of a big gear interlocking with a smaller gear in an old factory machine
+  kind: photo
 standard-plug-and-socket-connector:
 - src: File:Klinken- und Hohlstecker.jpg
   file: standard-plug-and-socket-connector.webp
@@ -7641,6 +7887,19 @@ straight-line-linkages:
   site: Wikimedia Commons
   still: straight-line-linkages.still.webp
   kind: animation
+- src: File:WattParallelMotion.jpg
+  file: straight-line-linkages-9242b7.webp
+  width: 800
+  height: 656
+  title: File:WattParallelMotion.jpg
+  author: Eclipse.sx
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:WattParallelMotion.jpg
+  site: Wikimedia Commons
+  alt: The beam of an old pumping engine in a German silver mine, with an enlarged inset of the bars of Watt's parallel motion
+    at the end of the beam, which keep the piston rod moving straight up and down.
+  kind: photo
 strain-wave-gear:
 - src: File:Harmonic-drive-explanation.gif
   file: strain-wave-gear.webp
@@ -7777,20 +8036,59 @@ swashplate-and-wobble-plate:
   kind: animation
   animated: true
   still: swashplate-and-wobble-plate-740654.still.webp
-switchable-permanent-magnet:
-- src: File:Wiki MagneticBase ON.svg
-  file: switchable-permanent-magnet.webp
-  width: 800
-  height: 903
-  title: File:Wiki MagneticBase ON.svg
-  author: 'Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz'
+- src: File:Swashplate-plungers.png
+  file: swashplate-and-wobble-plate.webp
+  width: 551
+  height: 688
+  title: File:Swashplate-plungers.png
+  author: KoenB
   license: Public domain
   license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg
-  alt: 'Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves
-    of the housing.'
+  source: https://commons.wikimedia.org/wiki/File:Swashplate-plungers.png
   site: Wikimedia Commons
-  kind: diagram
+  alt: A cut-away render of a slanted swashplate in a round housing, with plungers resting on it that rise and fall as it
+    turns
+  kind: cross-section
+- src: File:Swashplate-Radio-controlled helicopter-taumelscheibe.jpg
+  file: swashplate-and-wobble-plate-535a8b.webp
+  width: 665
+  height: 665
+  title: File:Swashplate-Radio-controlled helicopter-taumelscheibe.jpg
+  author: No machine-readable author provided. Flo422 assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Swashplate-Radio-controlled_helicopter-taumelscheibe.jpg
+  site: Wikimedia Commons
+  alt: The rotor head of a radio-controlled helicopter, with the swashplate ring on the mast and the links from it up to the
+    blade grips
+  kind: photo
+switchable-permanent-magnet:
+- src: File:Magnetic Switch acting on Ferrofluid.jpg
+  file: switchable-permanent-magnet-aa5d77.webp
+  width: 800
+  height: 1484
+  title: File:Magnetic Switch acting on Ferrofluid.jpg
+  author: Astroengy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetic_Switch_acting_on_Ferrofluid.jpg
+  site: Wikimedia Commons
+  alt: A home-made switchable magnet shown twice, switched off and then on, with the ferrofluid under it lying flat when off
+    and standing up in spikes when on.
+  kind: how-it-works
+- src: File:MagneticBase.jpg
+  file: switchable-permanent-magnet-ee853d.webp
+  width: 800
+  height: 1139
+  title: File:MagneticBase.jpg
+  author: unknown
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:MagneticBase.jpg
+  site: Wikimedia Commons
+  alt: Two magnetic bases for dial indicators with upright rods, one with a red on/off knob on its side for turning the magnet
+    inside.
+  kind: photo
 switching-valve:
 - src: File:Solenoid Valve.svg
   file: switching-valve.webp
@@ -7819,18 +8117,32 @@ switching-valve:
     when the lever on the front is turned.
   kind: cross-section
 syringe-hydraulics:
-- src: File:Hydraulic transmission between two syringes.svg
-  file: syringe-hydraulics.webp
-  width: 800
-  height: 473
-  title: File:Hydraulic transmission between two syringes.svg
-  author: MikeRun
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Hydraulic_transmission_between_two_syringes.svg
-  alt: A drawing of syringes joined by a liquid-filled tube, where pushing one plunger pushes the other plunger out.
+- src: File:Wheel cylinder.jpg
+  file: syringe-hydraulics-26d0a3.webp
+  width: 350
+  height: 280
+  title: File:Wheel cylinder.jpg
+  author: Nimal Kumar
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Wheel_cylinder.jpg
   site: Wikimedia Commons
-  kind: diagram
+  alt: A car brake wheel cylinder cut open down the middle, showing the pistons and the spring inside the bore that the brake
+    fluid pushes apart
+  kind: cross-section
+- src: File:Master clutch cylinder for Shacman and Howo 2013-11-23 19-51.jpg
+  file: syringe-hydraulics-071f88.webp
+  width: 800
+  height: 597
+  title: File:Master clutch cylinder for Shacman and Howo 2013-11-23 19-51.jpg
+  author: User:Otospareparts
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Master_clutch_cylinder_for_Shacman_and_Howo_2013-11-23_19-51.jpg
+  site: Wikimedia Commons
+  alt: A truck clutch master cylinder with its white fluid reservoir on top and a rubber boot over the push rod, the end you
+    push that sends fluid down the pipe
+  kind: photo
 syringe-pump:
 - src: File:Syringe pump.jpg
   file: syringe-pump.webp
@@ -8284,6 +8596,31 @@ toggle-clamp:
   site: Wikimedia Commons
   still: toggle-clamp.still.webp
   kind: animation
+- src: File:Toggle-clamp manual vertical 3D closed-opened.png
+  file: toggle-clamp-567f3c.webp
+  width: 800
+  height: 563
+  title: File:Toggle-clamp manual vertical 3D closed-opened.png
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Toggle-clamp_manual_vertical_3D_closed-opened.png
+  site: Wikimedia Commons
+  alt: A realistic 3D render of a vertical toggle clamp shown twice, closed with the arm pressed down and opened with the
+    arm lifted and the red handle pulled back.
+  kind: how-it-works
+- src: File:Manufacturing equipment 086.jpg
+  file: toggle-clamp-01c68e.webp
+  width: 800
+  height: 600
+  title: File:Manufacturing equipment 086.jpg
+  author: Mixabest
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manufacturing_equipment_086.jpg
+  site: Wikimedia Commons
+  alt: A car-factory welding fixture holding a curved body panel in place with many red-handled toggle clamps around its edge.
+  kind: how-it-works
 tongue-and-groove-joint:
 - src: File:Pióro i wpust (ubt).jpg
   file: tongue-and-groove-joint.webp
@@ -8578,6 +8915,32 @@ universal-joint:
   site: Wikimedia Commons
   still: universal-joint.still.webp
   kind: animation
+- src: openverse:e8f1bb6f-5140-436a-af7c-2a5eca16df03
+  file: universal-joint-190666.webp
+  width: 800
+  height: 534
+  title: Rusty U-Joint
+  author: gamillos
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/29198100@N00/3327665167
+  site: Flickr via Openverse
+  alt: A rusty universal joint on farm machinery, its cross-shaped centre piece held between two forks set at right angles
+    to each other
+  kind: photo
+- src: File:Universal joint 3slash8 inches.jpg
+  file: universal-joint-6f36bb.webp
+  width: 800
+  height: 1063
+  title: File:Universal joint 3slash8 inches.jpg
+  author: Kae
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Universal_joint_3slash8_inches.jpg
+  site: Wikimedia Commons
+  alt: A chrome 3/8 inch universal joint for a socket wrench, bent to one side so the square drive and the socket end point
+    in different directions
+  kind: how-it-works
 uv-curing-adhesive:
 - src: File:UV curing glue kit for Huawei-Screen.jpg
   file: uv-curing-adhesive.webp

@@ -218,6 +218,19 @@ pictures:
   drawn: true
   still: drawn/float-valve.svg
   kind: animation
+- file: float-valve-41f750.webp
+  title: File:Float located adjacent to entry stair in filtration bed. The float actuates a valve that maintains water level
+    over the bed. - Lake Whitney Water Filtration Plant, Filtration Plant, HAER CT-186-A-22.tif
+  author: 'Related names: Hill, A B Fuller, George W Ferry, Charles A Eglee and Bunting Company, Boston Grzywacz, Robert W
+    LaValley, Pilar, transmitter Elliot, Joseph, photographer Stewart, Robert C, historian'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Float_located_adjacent_to_entry_stair_in_filtration_bed._The_float_actuates_a_valve_that_maintains_water_level_over_the_bed._-_Lake_Whitney_Water_Filtration_Plant,_Filtration_Plant,_HAER_CT-186-A-22.tif
+  site: Wikimedia Commons
+  alt: An old black-and-white photo of a float hanging on a rod in a water tank, the rod running up to the valve that keeps
+    the water level steady
+  kind: how-it-works
+  drawn: false
 - file: float-valve.webp
   title: File:Portsmouth-Valve-Closed-detail.svg
   author: SouthHamsian
@@ -235,6 +248,7 @@ glossary: [misalignment, crank, solenoid, fail-safe--fail-secure, form-fit--forc
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/float-valve.svg"><img src="../media/drawn/anim/float-valve.svg" alt="Cut-away of a tank with a float valve, shown working: water pours in and the level rises, lifting the float, whose long arm turns about the pivot and pushes the rubber washer onto the inlet until the flow stops at the set line; water drawn off at the bottom lowers the float again and the valve reope"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/float-valve-41f750.webp" alt="An old black-and-white photo of a float hanging on a rod in a water tank, the rod running up to the valve that keeps the water level steady" loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Float_located_adjacent_to_entry_stair_in_filtration_bed._The_float_actuates_a_valve_that_maintains_water_level_over_the_bed._-_Lake_Whitney_Water_Filtration_Plant,_Filtration_Plant,_HAER_CT-186-A-22.tif">Float located adjacent to entry stair in filtration bed. The float actuates a valve that maintains water level over the bed. - Lake Whitney Water Filtration Plant, Filtration Plant, HAER CT-186-A-22</a> by Related names: Hill, A B Fuller, George W Ferry, Charles A Eglee and Bunting Company, Boston Grzywacz, Robert W LaValley, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/float-valve.webp" alt="A cross-section drawing of a float valve, with the float on its arm pushing a piston and washer shut over the inlet hole." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Portsmouth-Valve-Closed-detail.svg">Portsmouth-Valve-Closed-detail</a> by SouthHamsian, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

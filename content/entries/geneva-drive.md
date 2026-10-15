@@ -207,12 +207,34 @@ pictures:
   still: geneva-drive.still.webp
   kind: animation
   drawn: false
+- file: geneva-drive-e51866.webp
+  title: File:Geneva driven wheel.jpg
+  author: Runner1616
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Geneva_driven_wheel.jpg
+  site: Wikimedia Commons
+  alt: A steel four-slotted Geneva driven wheel on its shaft, with the drive roller, taken from an old film projector
+  kind: photo
+  drawn: false
+- file: geneva-drive-9ca0f8.webp
+  title: Parametric Geneva Mechanism
+  author: jessed
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:27974
+  site: Thingiverse via Openverse
+  alt: A 3D render of a printable Geneva drive, a pin wheel next to the star-shaped wheel it turns one step at a time
+  kind: how-it-works
+  drawn: false
 glossary: [misalignment, self-locking, axial--radial, ratchet, pawl, crank, clearance, form-fit--force-fit--material-bond,
   circlip, repeatability--accuracy, print-in-place, elephants-foot, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/geneva-drive.still.webp"><img src="../media/geneva-drive.webp" alt="An animation of a green drive wheel whose pin enters the slots of a red six-armed wheel, turning it one step each time round and holding it still in between."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif">Geneva mechanism 6spoke animation</a> by Mike1024, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/geneva-drive-e51866.webp" alt="A steel four-slotted Geneva driven wheel on its shaft, with the drive roller, taken from an old film projector" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Geneva_driven_wheel.jpg">Geneva driven wheel</a> by Runner1616, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/geneva-drive-9ca0f8.webp" alt="A 3D render of a printable Geneva drive, a pin wheel next to the star-shaped wheel it turns one step at a time" loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.thingiverse.com/thing:27974">Parametric Geneva Mechanism</a> by jessed, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, from Thingiverse via Openverse.</figcaption></figure>
 </div>
 
 A continuously turning drive wheel carries a pin that enters a slot in a driven wheel and turns it by a fixed step (360 degrees divided by the number of slots), then a raised locking disc on the drive wheel holds the driven wheel still until the next step.

@@ -197,6 +197,16 @@ pictures:
   drawn: true
   still: drawn/ladder-lock-buckle.svg
   kind: animation
+- file: ladder-lock-buckle-923719.webp
+  title: ladder-lock
+  author: AlwynAllan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/9976528@N03/16528134648
+  site: Flickr via Openverse
+  alt: A black plastic ladder lock buckle on a backpack strap, the webbing woven over and under its bars
+  kind: photo
+  drawn: false
 - file: ladder-lock-buckle.webp
   title: File:Cropped tri-glide slide.jpg
   author: SaltySemanticSchmuck
@@ -213,6 +223,7 @@ glossary: [self-locking, ratchet, stiffness, clearance, form-fit--force-fit--mat
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ladder-lock-buckle.svg"><img src="../media/drawn/anim/ladder-lock-buckle.svg" alt="Side cut-through of a ladder lock buckle: the strap goes up round the centre bar and back out under the gripping bar, where the pull of the load pinches it against its own tail; the animation then lifts the tab, the buckle tilts, the pinch opens and the strap slides out, before the tab drops and the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ladder-lock-buckle-923719.webp" alt="A black plastic ladder lock buckle on a backpack strap, the webbing woven over and under its bars" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/9976528@N03/16528134648">ladder-lock</a> by AlwynAllan, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/ladder-lock-buckle.webp" alt="A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg">Cropped tri-glide slide</a> by SaltySemanticSchmuck, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

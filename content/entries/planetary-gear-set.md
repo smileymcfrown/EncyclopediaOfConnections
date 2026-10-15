@@ -201,12 +201,24 @@ pictures:
   still: planetary-gear-set.still.webp
   kind: animation
   drawn: false
+- file: planetary-gear-set-5cda32.webp
+  title: File:Ricardo, Professional MotorSport World Expo 2024, Cologne (P1031230).jpg
+  author: Matti Blume
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Ricardo,_Professional_MotorSport_World_Expo_2024,_Cologne_(P1031230).jpg
+  site: Wikimedia Commons
+  alt: A cut-away reduction gearbox at a trade show, opened to show planet gears on their carrier meshing inside a toothed
+    outer ring gear
+  kind: cross-section
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, crank, actuator, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, repeatability--accuracy, lubrication, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/planetary-gear-set.still.webp"><img src="../media/planetary-gear-set.webp" alt="A yellow sun gear turning four blue planet gears inside a fixed red ring gear, with the green carrier going round slowly."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif">Epicyclic Gearing Stationary Ring</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/planetary-gear-set-5cda32.webp" alt="A cut-away reduction gearbox at a trade show, opened to show planet gears on their carrier meshing inside a toothed outer ring gear" loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ricardo,_Professional_MotorSport_World_Expo_2024,_Cologne_(P1031230).jpg">Ricardo, Professional MotorSport World Expo 2024, Cologne (P1031230)</a> by Matti Blume, <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A planetary gear set has a central sun gear, several planet gears that mesh with it and with an outer ring gear, and a carrier holding the planets, so holding one of the three parts still gives a compact, strong speed reduction (or increase) with the input and output on the same line.

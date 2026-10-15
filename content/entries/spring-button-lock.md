@@ -181,12 +181,24 @@ pictures:
   drawn: true
   still: drawn/spring-button-lock.svg
   kind: animation
+- file: spring-button-lock.webp
+  title: File:Valco Snap Button Variations for telescoping tubing and component attachments.png
+  author: ValcoCleve
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Valco_Snap_Button_Variations_for_telescoping_tubing_and_component_attachments.png
+  site: Wikimedia Commons
+  alt: A spread of V-shaped and U-shaped spring-steel snap buttons, each bent strip carrying a small round button that pops
+    out through a tube's hole
+  kind: photo
+  drawn: false
 glossary: [detent, preload, cantilever, clearance, form-fit--force-fit--material-bond, collet, chamfer--fillet, repeatability--accuracy,
   creep, stress-concentration, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spring-button-lock.svg"><img src="../media/drawn/anim/spring-button-lock.svg" alt="Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes its button out through a hole in both tubes so they are locked, and on the right a finger presses the button flush so the outer tube can slide on to the next hole. The animation slide"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-button-lock.webp" alt="A spread of V-shaped and U-shaped spring-steel snap buttons, each bent strip carrying a small round button that pops out through a tube&#x27;s hole" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Valco_Snap_Button_Variations_for_telescoping_tubing_and_component_attachments.png">Valco Snap Button Variations for telescoping tubing and component attachments</a> by ValcoCleve, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A spring-loaded button inside the inner tube that snaps out through holes in the outer tube, locking two sliding tubes at set lengths until you press the button in.

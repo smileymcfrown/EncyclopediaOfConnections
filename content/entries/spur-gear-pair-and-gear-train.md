@@ -208,6 +208,27 @@ pictures:
   still: spur-gear-pair-and-gear-train.still.webp
   kind: animation
   drawn: false
+- file: spur-gear-pair-and-gear-train-1e78ba.webp
+  title: File:Ellis Mill - Spur Gearing - geograph.org.uk - 2930545.jpg
+  author: Ashley Dace
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Ellis_Mill_-_Spur_Gearing_-_geograph.org.uk_-_2930545.jpg
+  site: Wikimedia Commons
+  alt: Inside a windmill, a large wooden-toothed spur wheel on an upright shaft meshing with a smaller gear on a second upright
+    shaft beside it
+  kind: how-it-works
+  drawn: false
+- file: spur-gear-pair-and-gear-train-31fdcd.webp
+  title: File:Abandoned concrete factory mechanism.jpg
+  author: Diacritica
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Abandoned_concrete_factory_mechanism.jpg
+  site: Wikimedia Commons
+  alt: Close-up of the rusty straight teeth of a big gear interlocking with a smaller gear in an old factory machine
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, idler, crank, cantilever, clearance, tolerance,
   form-fit--force-fit--material-bond, set-screw, circlip, undercut, repeatability--accuracy, creep, brittle--ductile, lubrication,
   infill, print-in-place, elephants-foot]
@@ -215,6 +236,8 @@ glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, i
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/spur-gear-pair-and-gear-train.still.webp"><img src="../media/spur-gear-pair-and-gear-train.webp" alt="Animation of a small red gear with 14 teeth turning a big green gear with 28 teeth, so the big gear turns half as fast and the other way."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif">Animated two spur gears 1 2</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spur-gear-pair-and-gear-train-1e78ba.webp" alt="Inside a windmill, a large wooden-toothed spur wheel on an upright shaft meshing with a smaller gear on a second upright shaft beside it" loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ellis_Mill_-_Spur_Gearing_-_geograph.org.uk_-_2930545.jpg">Ellis Mill - Spur Gearing - geograph.org.uk - 2930545</a> by Ashley Dace, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spur-gear-pair-and-gear-train-31fdcd.webp" alt="Close-up of the rusty straight teeth of a big gear interlocking with a smaller gear in an old factory machine" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Abandoned_concrete_factory_mechanism.jpg">Abandoned concrete factory mechanism</a> by Diacritica, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Meshing gears with straight teeth pass rotation between parallel shafts, changing speed and turning force in proportion to their tooth counts, reversing direction at each mesh, and multiplying their ratios when several pairs are chained on shared shafts.

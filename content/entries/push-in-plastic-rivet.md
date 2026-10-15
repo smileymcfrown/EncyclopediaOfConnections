@@ -182,11 +182,22 @@ pictures:
     after its centre pin is pushed flush, which spreads its split legs behind the sheet, and a fir-tree clip whose angled
     fins fold in going through the hole and spring out behind it.'
   drawn: true
+- file: push-in-plastic-rivet.webp
+  title: File:RFID Rivet Tag.jpg
+  author: GDpost
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:RFID_Rivet_Tag.jpg
+  site: Wikimedia Commons
+  alt: Two black push-in plastic plugs, each with a round head and a ribbed shank whose fins grip inside a drilled hole
+  kind: photo
+  drawn: false
 glossary: [ratchet, cantilever, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-in-plastic-rivet.svg" alt="Cut-away side views of push-in plastic rivets holding a trim panel to a backing sheet: a push-type rivet before and after its centre pin is pushed flush, which spreads its split legs behind the sheet, and a fir-tree clip whose angled fins fold in going through the hole and spring out behind it."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-in-plastic-rivet.webp" alt="Two black push-in plastic plugs, each with a round head and a ribbed shank whose fins grip inside a drilled hole" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:RFID_Rivet_Tag.jpg">RFID Rivet Tag</a> by GDpost, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A plastic pin that you push into a plain hole from one side, where springy fins or spreading legs grip behind or inside the hole, so panels and trim can be fixed in seconds without screws, nuts or tools.
