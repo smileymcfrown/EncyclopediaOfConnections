@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A thin syringe and a fat syringe joined by a liquid-filled tube: a small force pushes the thin plunger a long way while the fat plunger lifts a heavy load a short way, a pressure gauge at each end reads the same, and an inset shows an air bubble squashing, which makes the system feel spongy.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M140,336 V362 Q140,386 164,386 H556 Q580,386 580,362 V336" fill="none" stroke-width="18"/>
+<path d="M140,336 V362 Q140,386 164,386 H556 Q580,386 580,362 V336" fill="none" stroke="#cfe3f5" stroke-width="12"/>
+<path d="M140,336 V362 Q140,386 164,386 H556 Q580,386 580,362 V336" fill="none" stroke="#7fb0da" stroke-width="3" stroke-dasharray="8 22" stroke-linecap="butt"></path>
+<rect x="235" y="352" width="10" height="28" fill="#cfe3f5" stroke-width="2"/>
+<circle cx="240" cy="330" r="25" fill="#ffffff"/>
+<path d="M240,330 m-17,0 a17,17 0 0 1 34,0" fill="none" stroke="#999" stroke-width="2"/>
+<line x1="240" y1="330" x2="224.4" y2="321" stroke="#d1495b" stroke-width="3"/>
+<circle cx="240" cy="330" r="4" fill="#222"/>
+<rect x="475" y="352" width="10" height="28" fill="#cfe3f5" stroke-width="2"/>
+<circle cx="480" cy="330" r="25" fill="#ffffff"/>
+<path d="M480,330 m-17,0 a17,17 0 0 1 34,0" fill="none" stroke="#999" stroke-width="2"/>
+<line x1="480" y1="330" x2="464.4" y2="321" stroke="#d1495b" stroke-width="3"/>
+<circle cx="480" cy="330" r="4" fill="#222"/>
+<rect x="126" y="150" width="28" height="170" fill="#ffffff" stroke="none"/>
+<rect x="127" y="174" width="26" height="146" fill="#cfe3f5" stroke="none"></rect>
+<g><rect x="136" y="35" width="8" height="125" fill="#e8e8e8"/><rect x="114" y="23" width="52" height="12" rx="4" fill="#e8e8e8"/><rect x="127" y="160" width="26" height="14" rx="2" fill="#555"/></g>
+<path d="M126,150 V320 H154 V150 M112,150 H168" fill="none"/>
+<rect x="134" y="320" width="12" height="18" fill="#cfe3f5"/>
+<rect x="545" y="200" width="70" height="120" fill="#ffffff" stroke="none"/>
+<rect x="546" y="298" width="68" height="22" fill="#cfe3f5" stroke="none"></rect>
+<g><rect x="574" y="182" width="12" height="100" fill="#e8e8e8"/><rect x="530" y="172" width="100" height="10" rx="3" fill="#e8e8e8"/><rect x="540" y="102" width="80" height="70" rx="4" fill="#fde2c4"/><rect x="546" y="282" width="68" height="16" rx="2" fill="#555"/></g>
+<path d="M545,200 V320 H615 V200 M531,200 H629" fill="none"/>
+<rect x="574" y="320" width="12" height="18" fill="#cfe3f5"/>
+<rect x="680" y="262" width="100" height="58" rx="6" fill="#cfe3f5"/>
+<circle cx="730" cy="291" r="17" fill="#ffffff" stroke-width="2"></circle>
+</g>
+<g fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)">
+<line x1="190" y1="40" x2="190" y2="140"/><line x1="650" y1="168" x2="650" y2="140"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g text-anchor="start"><text x="206" y="80">small force,</text><text x="206" y="102">long push</text><text x="668" y="150">big force,</text><text x="668" y="172">short lift</text></g>
+<text x="470" y="142" text-anchor="end">heavy load</text>
+<text x="360" y="320">same pressure</text><text x="360" y="342">at both ends</text>
+<text x="730" y="346">an air bubble</text><text x="730" y="368">squashes: spongy</text>
+<text x="360" y="414">the liquid cannot squash, so it pushes the other piston</text>
+<text x="400" y="440">The fat piston has about 6 times the area: 6 times the force, 1/6 the distance</text>
+</g>
+</svg>

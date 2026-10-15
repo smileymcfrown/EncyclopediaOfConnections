@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two self-closing hinges: a spring hinge seen from above, whose coiled spring in the barrel winds up as the door is pushed open, and a rising butt seen from the front, whose door climbs a spiral ramp between the two knuckles as it opens.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="300" width="62" height="44" fill="url(#hatch)"/><rect x="346" y="300" width="44" height="44" fill="url(#hatch)"/>
+<path d="M330,296 A220,220 0 0 0 129.2,76.8" fill="none" stroke="#999999" stroke-width="2" stroke-dasharray="6 6"/>
+<g>
+<rect x="110" y="289" width="232" height="14" fill="#fde2c4"/>
+</g>
+<circle cx="110" cy="296" r="34" fill="#e8e8e8"/>
+<path d="M110,289 L111.6,288.9 L113.3,289.2 L114.9,289.8 L116.4,290.9 L117.7,292.3 L118.6,294 L119.1,296 L119.2,298.1 L118.7,300.2 L117.8,302.2 L116.4,304.1 L114.6,305.6 L112.4,306.6 L110,307.2 L107.4,307.2 L104.9,306.6 L102.5,305.5 L100.3,303.7 L98.6,301.5 L97.3,298.9 L96.7,296 L96.7,293 L97.5,290 L98.9,287.1 L101,284.7 L103.6,282.7 L106.6,281.3 L110,280.6 L113.5,280.7 L116.9,281.6 L120.2,283.3 L123,285.7 L125.2,288.7 L126.8,292.2 L127.5,296 L127.4,300 L126.3,303.9 L124.4,307.5 L121.7,310.6 L118.2,313.1 L114.3,314.8 L110,315.6 L105.6,315.4 L101.2,314.2 L97.2,312 L93.7,309 L91,305.2 L89.1,300.8 L88.3,296 L88.6,291.1 L89.9,286.3 L92.3,281.9 L95.7,278.1 L99.9,275.1 L104.8,273.1 L110,272.2 L115.4,272.5 L120.6,274 L125.4,276.7 L129.5,280.4 L132.8,285 L135,290.3 L135.9,296 L135.5,301.8 L133.9,307.5 L131,312.7 L126.9,317.2 L121.9,320.7 L116.2,323 L110,324" fill="none" stroke="#2f6f3f" stroke-width="2.5"></path>
+<circle cx="110" cy="296" r="5" fill="#222"/>
+<rect x="420" y="120" width="44" height="240" fill="url(#hatch)" stroke="none"/><line x1="464" y1="120" x2="464" y2="360"/>
+<path d="M462,350 L462,262 L498,240 L498,350 Z" fill="#e8e8e8"/>
+<g>
+<g transform="translate(498 0)"><g><rect x="0" y="130" width="262" height="218" fill="#cfe3f5" vector-effect="non-scaling-stroke"/><circle cx="232" cy="240" r="8" fill="#e8e8e8" vector-effect="non-scaling-stroke"/></g></g>
+<path d="M462,258 L498,236 L498,140 L462,140 Z" fill="#fde2c4"/>
+</g>
+</g>
+<g fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)">
+<g opacity="1"><path d="M344.9,210.5 A250,250 0 0 0 235,79.5"/></g>
+<line x1="520" y1="128" x2="520" y2="98" stroke-width="3"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="20" y="34" font-size="20" font-weight="bold">Spring hinge, seen from above</text>
+<text x="430" y="34" font-size="20" font-weight="bold">Rising butt, seen from the front</text>
+<g stroke="#222" stroke-width="1.5"><line x1="80" y1="372" x2="104" y2="324"/><line x1="560" y1="392" x2="498" y2="250"/></g>
+<text x="20" y="392">coiled spring in the barrel</text><text x="20" y="413">winds up as the door opens</text>
+<text x="250" y="330">door</text>
+<text x="290" y="110">push it open</text><text x="290" y="131">let go: the spring</text><text x="290" y="152">swings it shut</text>
+<text x="532" y="102">door rises as it opens</text>
+<text x="566" y="392">spiral ramp between</text><text x="566" y="413">the knuckles: its weight</text><text x="566" y="434">slides it back down, shut</text>
+<text x="20" y="440">Opening stores energy; letting go gives it back</text>
+</g></svg>
