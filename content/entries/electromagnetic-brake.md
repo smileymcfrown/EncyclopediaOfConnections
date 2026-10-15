@@ -119,28 +119,35 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Electromagnetic_brake_poweroff_springapplied.json
 image:
-  file: electromagnetic-brake.webp
-  title: File:O-2 electromagnetic-power-off-brake1.gif
-  author: Oguraclutch
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
-  alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched
-    on and pulls the armature plate back.
-  site: Wikimedia Commons
+  file: drawn/anim/electromagnetic-brake.svg
+  alt: 'Side cut-away of a spring-applied electromagnetic brake on a motor shaft lifting a load: with the power off, springs
+    in the fixed coil housing push the steel armature plate against the friction disc, squeezing it against the fixed plate,
+    so the shaft and the hanging load are held. Animated: the switch closes, the coil lights up and pulls the armature back
+    across the small air gap, squashing the springs; the disc is freed and the motor winds the load up. The power is cut,
+    the springs clamp the disc at once and the load stays put; then the brake is released again to lower it.'
+  drawn: true
+  still: drawn/electromagnetic-brake.svg
   kind: animation
-  drawn: false
 pictures:
+- file: drawn/anim/electromagnetic-brake.svg
+  alt: 'Side cut-away of a spring-applied electromagnetic brake on a motor shaft lifting a load: with the power off, springs
+    in the fixed coil housing push the steel armature plate against the friction disc, squeezing it against the fixed plate,
+    so the shaft and the hanging load are held. Animated: the switch closes, the coil lights up and pulls the armature back
+    across the small air gap, squashing the springs; the disc is freed and the motor winds the load up. The power is cut,
+    the springs clamp the disc at once and the load stays put; then the brake is released again to lower it.'
+  drawn: true
+  still: drawn/electromagnetic-brake.svg
+  kind: animation
 - file: electromagnetic-brake.webp
   title: File:O-2 electromagnetic-power-off-brake1.gif
   author: Oguraclutch
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
-  alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched
-    on and pulls the armature plate back.
+  alt: A cut-away diagram of a power-off electromagnetic brake, with springs clamping the friction disc and the coil that
+    pulls the armature plate back.
   site: Wikimedia Commons
-  kind: animation
+  kind: diagram
   drawn: false
 - file: electromagnetic-brake-201f71.webp
   title: File:Akım Baskılı Frenler.webp
@@ -158,7 +165,8 @@ glossary: [misalignment, backlash, self-locking, ratchet, freewheel, torque, gea
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/electromagnetic-brake.webp" alt="An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched on and pulls the armature plate back."><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif">O-2 electromagnetic-power-off-brake1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/electromagnetic-brake.svg"><img src="../media/drawn/anim/electromagnetic-brake.svg" alt="Side cut-away of a spring-applied electromagnetic brake on a motor shaft lifting a load: with the power off, springs in the fixed coil housing push the steel armature plate against the friction disc, squeezing it against the fixed plate, so the shaft and the hanging load are held. Animated: the swit"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/electromagnetic-brake.webp" alt="A cut-away diagram of a power-off electromagnetic brake, with springs clamping the friction disc and the coil that pulls the armature plate back." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif">O-2 electromagnetic-power-off-brake1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/electromagnetic-brake-201f71.webp" alt="A spring-applied electromagnetic brake unit, a round grey and green housing with a splined hub in the middle for the motor shaft." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ak%C4%B1m_Bask%C4%B1l%C4%B1_Frenler.webp">Akım Baskılı Frenler</a> by Emffren, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

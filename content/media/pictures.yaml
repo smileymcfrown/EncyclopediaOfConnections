@@ -986,10 +986,11 @@ electro-permanent-magnet:
   alt: A simulation of an electro-permanent magnet switching on and off, with the magnetic field lines reaching
     out into the steel below when on and staying inside the magnet when off.
 electromagnetic-brake:
+- drawn
 - commons: File:O-2 electromagnetic-power-off-brake1.gif
-  kind: animation
-  alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil
-    is switched on and pulls the armature plate back.
+  kind: diagram
+  alt: A cut-away diagram of a power-off electromagnetic brake, with springs clamping the friction disc and the
+    coil that pulls the armature plate back.
 - commons: File:Akım Baskılı Frenler.webp
   kind: photo
   alt: A spring-applied electromagnetic brake unit, a round grey and green housing with a splined hub in the middle

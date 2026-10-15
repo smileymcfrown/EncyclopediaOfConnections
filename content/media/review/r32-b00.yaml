@@ -432,9 +432,10 @@ elastic-band-and-elastic-cord-springs:
   note: no candidates on the sheet
 electromagnetic-brake:
   pictures:
+    - drawn   # main session: the Commons GIF is a single still frame, so an animated drawing was made
     - commons: "File:O-2 electromagnetic-power-off-brake1.gif"
-      kind: animation
-      alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched on and pulls the armature plate back.
+      kind: diagram
+      alt: A cut-away diagram of a power-off electromagnetic brake, with springs clamping the friction disc and the coil that pulls the armature plate back.
     - candidate: 3
       kind: photo
       alt: A spring-applied electromagnetic brake unit, a round grey and green housing with a splined hub in the middle for the motor shaft.
