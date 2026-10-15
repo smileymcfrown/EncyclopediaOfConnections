@@ -1,12 +1,10 @@
-// Iris valve: a fabric sleeve clamped between a fixed top ring and a turning bottom ring with a
-// lever. The bottom ring has been turned most of the way, so the sleeve is twisted into a waist
-// that has nearly closed, and plastic pellets poured in from the top are held back above it.
+// Iris valve: a fabric sleeve clamped between a fixed top ring (held up on three posts from a base
+// ring) and a bottom ring with a lever that turns. The bottom ring has been turned most of the
+// way, so the sleeve is twisted into a narrow waist that has nearly closed.
 const R = 46;                                  // sleeve radius (on the spigots)
 const Y0 = 20, Y1 = 84;                        // the twisted part runs from Y0 to Y1
 const PHI = (150 * Math.PI) / 180;             // how far the bottom ring has been turned
 
-// radius of the twisted sleeve at fraction v (0 at the bottom, 1 at the top)
-const rAt = (v) => R * Math.sqrt((1 - v) ** 2 + v ** 2 + 2 * v * (1 - v) * Math.cos(PHI));
 
 function sleeveGeometry(THREE) {
   const NU = 160, rows = [];
@@ -36,18 +34,18 @@ function sleeveGeometry(THREE) {
   return g;
 }
 export default {
-  alt: 'Render of an iris valve: a fabric sleeve held between a fixed top ring and a bottom ring with a lever; the bottom ring has been turned, twisting the sleeve into a narrow waist that holds back plastic pellets poured in from the top.',
-  view: { dir: [0.5, 0.5, 1.0], fill: 0.95 },
+  alt: 'Render of an iris valve: a fabric sleeve held between a fixed top ring on three posts and a bottom ring with a lever; the bottom ring has been turned, twisting the sleeve into a narrow hourglass waist that has nearly closed.',
+  view: { dir: [0.5, 0.7, 1.0], fill: 0.95 },
   build(K) {
-    const { group, at, mesh, tube, cyl, sphere, wire, mat, THREE } = K;
+    const { group, at, mesh, tube, cyl, mat, THREE } = K;
     // canvas cloth: a fine weave with a few darker seams running up the sleeve (they show the twist)
     const c = document.createElement('canvas'); c.width = 1024; c.height = 256;
     const g = c.getContext('2d'); g.fillStyle = '#e6dcc4'; g.fillRect(0, 0, 1024, 256);
     g.globalAlpha = 0.18; g.fillStyle = '#6b5a3a';
     for (let i = 0; i < 1024; i += 3) g.fillRect(i, 0, 1, 256);
     for (let j = 0; j < 256; j += 3) g.fillRect(0, j, 1024, 1);
-    g.globalAlpha = 0.55; g.fillStyle = '#8f7d5a';
-    for (let k = 0; k < 8; k++) g.fillRect(k * 128 + 62, 0, 4, 256);
+    g.globalAlpha = 0.8; g.fillStyle = '#9c8458';
+    for (let k = 0; k < 12; k++) g.fillRect(Math.round(k * 1024 / 12) + 40, 0, 6, 256);
     const map = new THREE.CanvasTexture(c); map.colorSpace = THREE.SRGBColorSpace; map.anisotropy = 8;
     const fabric = new THREE.MeshPhysicalMaterial({ map, roughness: 0.95, sheen: 0.5, sheenColor: new THREE.Color('#e6dcc4'), side: THREE.DoubleSide });
     const sleeve = mesh(sleeveGeometry(THREE), fabric);
@@ -56,16 +54,16 @@ export default {
     // bottom (turning) ring: flange plus spigot the sleeve is clamped onto; a lever with a knob
     const botFlange = at(tube(R + 16, R - 3, 7, ringBot), [0, 3.5, 0]);
     const botSpigot = at(tube(R - 0.2, R - 3, 14, ringBot), [0, 7 + 6.5, 0]);
-    const lever = at(K.box(46, 7, 12, ringBot, 2), [R + 16 + 20, 3.5, 0]);
-    const knob = at(cyl(6, 18, mat.plastic(0x1c1c1e)), [R + 16 + 38, 7 + 9, 0]);
+    const lever = at(group(at(K.box(46, 7, 12, ringBot, 2), [R + 16 + 20, 3.5, 0]),
+      at(cyl(6, 18, mat.plastic(0x1c1c1e)), [R + 16 + 38, 7 + 9, 0])), [0, 0, 0], [0, -20, 0]);
     // fixed frame: a base ring under the turning ring and three posts up to the top ring
     const frame = [at(tube(R + 24, R + 10, 4, ringTop), [0, -2, 0])];
-    for (const d of [60, 180, 300]) {
+    for (const d of [110, 230, 330]) {
       const a = (d * Math.PI) / 180;
       frame.push(at(cyl(4, Y1 + 13 + 7 + 4, ringTop), [(R + 20) * Math.cos(a), (Y1 + 13 + 7 - 4) / 2, (R + 20) * Math.sin(a)]));
     }
     // top (fixed) ring
-    const topFlange = at(tube(R + 25, R - 3, 7, ringTop), [0, Y1 + 13 + 3.5, 0]);
+    const topFlange = at(tube(R + 25, R - 3, 6, ringTop), [0, Y1 + 13 + 3, 0]);
     const topSpigot = at(tube(R - 0.2, R - 3, 14, ringTop), [0, Y1 + 6.5, 0]);
     // clamp bands round the sleeve cuffs
     const band1 = at(tube(R + 1.6, R + 0.3, 6, steel), [0, Y0 - 5.5, 0]);
@@ -74,18 +72,6 @@ export default {
     const lug1 = at(K.box(6, 6, 7, steel, 1), [0, Y0 - 5.5, R + 3]);
     const lug2 = at(K.box(6, 6, 7, steel, 1), [0, Y1 + 5.5, R + 3]);
 
-    // pellets held above the waist
-    const pel = mat.plastic(0x3d7fd1), pellets = [];
-    let seed = 3; const rnd = () => ((seed = (seed * 16807) % 2147483647) / 2147483647);
-    const vw = 0.5;                              // the waist is half-way up
-    for (let layer = 0; layer < 7; layer++) {
-      const v = vw + 0.02 + layer * 0.035, y = Y0 + (Y1 - Y0) * v, r = rAt(v) - 2.8;
-      const n = Math.floor((r * r) / 10);
-      for (let i = 0; i < n; i++) {
-        const a = rnd() * Math.PI * 2, d = Math.sqrt(rnd()) * r;
-        pellets.push(at(sphere(2.4, pel, 12), [d * Math.cos(a), y + rnd() * 1.5, d * Math.sin(a)]));
-      }
-    }
-    return group(sleeve, frame, botFlange, botSpigot, lever, knob, topFlange, topSpigot, band1, band2, lug1, lug2, pellets);
+    return group(sleeve, frame, botFlange, botSpigot, lever, topFlange, topSpigot, band1, band2, lug1, lug2);
   },
 };

@@ -2,20 +2,19 @@
 // sliding in a wider anodised outer tube, both cut away to show the plastic plug in the inner
 // tube's end, the threaded rod, and the split expander that a cone on the rod has swelled out
 // against the outer tube's wall.
-const steps = (pts) => pts;   // profiles are [radius, position along the tube]
-
+// (lathe profiles are [radius, position along the tube])
 export default {
   alt: 'Render of a twist-lock pole joint, cut away: a thin aluminium tube slides inside a wider blue tube; on its end a plastic plug carries a threaded rod with a cone that has been screwed into a red split expander sleeve, swelling it out to press on the inside of the outer tube.',
   kind: 'cross-section',
-  view: { dir: [0.35, 0.9, 1.2], fill: 1.0 },
+  view: { dir: [0.12, 1.0, 1.3], fill: 1.15 },
   build(K) {
     const { group, at, lathe, threaded, mat } = K;
     const alu = mat.aluminium(), blue = mat.anodised(0x23498a);
     const red = mat.plastic(0xc8372a), black = mat.plastic(0x232325);
     const cut = (m) => ({ cut: 90, cutMat: m });
-    const outer = lathe(steps([[8.3, 0], [9, 0], [9, 100], [8.3, 100], [8.3, 0]]), blue, cut(mat.anodised(0x23498a)));
+    const outer = lathe([[8.3, 0], [9, 0], [9, 92], [8.3, 92], [8.3, 0]], blue, cut(mat.anodised(0x23498a)));
     const collar = lathe([[8.1, -6], [10.2, -6], [10.6, -4], [10.6, 10], [9, 12], [9, 0], [8.1, 0], [8.1, -6]], black, cut(mat.plastic(0x232325)));
-    const inner = lathe([[7.3, -45], [8, -45], [8, 55], [7.3, 55], [7.3, -45]], alu, cut(mat.aluminium()));
+    const inner = lathe([[7.3, -32], [8, -32], [8, 55], [7.3, 55], [7.3, -32]], alu, cut(mat.aluminium()));
     // plug pressed into the inner tube's end, with a flange
     const plug = lathe([[0, 44], [7.3, 44], [7.3, 55], [7.9, 55], [7.9, 58], [3.2, 58], [3.2, 50], [0, 50], [0, 44]], black, cut(mat.plastic(0x232325)));
     // the split expander: its outside tapers out to touch the outer tube's wall, its bore is a cone
