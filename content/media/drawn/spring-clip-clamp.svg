@@ -21,12 +21,12 @@
 </g>
 <g fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)" opacity="1">
 <line x1="150" y1="88" x2="150" y2="140"/><line x1="150" y1="372" x2="150" y2="320"/>
-<line x1="700" y1="190" x2="700" y2="150"/><line x1="700" y1="270" x2="700" y2="310"/></g>
+<line x1="765" y1="200" x2="765" y2="155"/><line x1="765" y1="260" x2="765" y2="305"/></g>
 <g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
 <text x="175" y="104">squeeze the handles</text>
-<text x="725" y="160">jaws</text><text x="725" y="181">open</text>
-<g stroke="#222" stroke-width="1.5"><line x1="420" y1="300" x2="390" y2="250"/><line x1="630" y1="300" x2="610" y2="247"/></g>
+<text x="748" y="150" text-anchor="end">jaws open</text>
+<g stroke="#222" stroke-width="1.5"><line x1="420" y1="300" x2="390" y2="250"/><line x1="640" y1="355" x2="640" y2="247"/></g>
 <text x="300" y="322">coiled spring: also the pivot;</text><text x="300" y="343">its legs push the handles apart</text>
-<text x="560" y="322" text-anchor="start" dx="70">part held</text><text x="630" y="343">by the jaws</text>
+<text x="600" y="375">part held</text><text x="600" y="396">by the jaws</text>
 <text x="400" y="438" text-anchor="middle">Squeeze to open · let go and the spring clamps the jaws shut</text>
 </g></svg>
