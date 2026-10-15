@@ -178,12 +178,35 @@ pictures:
   still: air-or-hydraulic-cylinder.still.webp
   kind: animation
   drawn: false
+- file: air-or-hydraulic-cylinder-744b64.webp
+  title: File:8-stage single-acting air cylinder, Ergo-Help.jpg
+  author: Ergo-Help Pneumatics, Ergo-Help, Inc.
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg
+  site: Wikimedia Commons
+  alt: A silver telescoping air cylinder shown twice, squashed down into a short can and stretched out into a tall stack of
+    eight nested tubes.
+  kind: how-it-works
+  drawn: false
+- file: air-or-hydraulic-cylinder-bbe047.webp
+  title: File:Air Canada flight simulator.jpg
+  author: Piergiuliano Chesi
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Air_Canada_flight_simulator.jpg
+  site: Wikimedia Commons
+  alt: A flight simulator cabin standing on six long hydraulic cylinders that push and tilt it.
+  kind: photo
+  drawn: false
 glossary: [misalignment, self-locking, oscillating, stroke, actuator, solenoid, fail-safe--fail-secure, creep, lubrication,
   infill, o-ring, gland, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-or-hydraulic-cylinder.still.webp"><img src="../media/air-or-hydraulic-cylinder.webp" alt="An animated cut-away of a single-acting cylinder, air let in behind the piston pushing the rod out and a spring pushing it back when the air is let out."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif">Einfachwirkender Zylinder funktionsprinziep</a> by RainerB., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/air-or-hydraulic-cylinder-744b64.webp" alt="A silver telescoping air cylinder shown twice, squashed down into a short can and stretched out into a tall stack of eight nested tubes." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg">8-stage single-acting air cylinder, Ergo-Help</a> by Ergo-Help Pneumatics, Ergo-Help, Inc., <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/air-or-hydraulic-cylinder-bbe047.webp" alt="A flight simulator cabin standing on six long hydraulic cylinders that push and tilt it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Air_Canada_flight_simulator.jpg">Air Canada flight simulator</a> by Piergiuliano Chesi, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A powered straight-line pusher: compressed air or pressurised oil let in behind a sealed piston drives a rod out with a force equal to the pressure times the piston area, and a spring, the load or fluid fed to the other side brings it back.

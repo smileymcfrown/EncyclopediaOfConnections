@@ -127,17 +127,29 @@ sources:
 - https://api.printables.com/graphql/ (models 875756, 11188, 856329)
 research: research/connection-types/results/Melted_plastic_weld_plastic_welding_with_a_soldering_iron_3D_pen_or_hotair_gun.json
 image:
-  file: melted-plastic-weld.webp
-  title: File:Kunststoffziehschweissen Schweissschuh.jpg
-  author: Markus Bärlocher
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg
-  alt: A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along.
-  site: Wikimedia Commons
+  file: melted-plastic-weld-03db29.webp
+  title: Two 3D printed PLA plastics parts welded together
+  author: Creative Tools
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/33907867@N02/8693068112
+  site: Flickr via Openverse
+  alt: Two 3D-printed PLA parts being welded together with a soldering iron, which melts a strand of green filament into the
+    seam.
   kind: how-it-works
   drawn: false
 pictures:
+- file: melted-plastic-weld-03db29.webp
+  title: Two 3D printed PLA plastics parts welded together
+  author: Creative Tools
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/33907867@N02/8693068112
+  site: Flickr via Openverse
+  alt: Two 3D-printed PLA parts being welded together with a soldering iron, which melts a strand of green filament into the
+    seam.
+  kind: how-it-works
+  drawn: false
 - file: melted-plastic-weld.webp
   title: File:Kunststoffziehschweissen Schweissschuh.jpg
   author: Markus Bärlocher
@@ -153,7 +165,8 @@ glossary: [actuator, form-fit--force-fit--material-bond, spline, repeatability--
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/melted-plastic-weld.webp" alt="A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg">Kunststoffziehschweissen Schweissschuh</a> by Markus Bärlocher, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/melted-plastic-weld-03db29.webp" alt="Two 3D-printed PLA parts being welded together with a soldering iron, which melts a strand of green filament into the seam."><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/33907867@N02/8693068112">Two 3D printed PLA plastics parts welded together</a> by Creative Tools, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/melted-plastic-weld.webp" alt="A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg">Kunststoffziehschweissen Schweissschuh</a> by Markus Bärlocher, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Plastic welding melts the joint faces of two parts made of the same plastic and fuses in extra plastic from a rod, an offcut or 3D-printer filament, using a soldering iron, a 3D pen or a hot-air welder, so the joint becomes one continuous piece; it is the usual fix for polyethylene (PE) and polypropylene (PP), which glues and solvents can't hold.

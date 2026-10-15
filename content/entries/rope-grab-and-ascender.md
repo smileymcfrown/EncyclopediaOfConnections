@@ -151,11 +151,33 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: rope-grab-and-ascender-1a2d8f.webp
+  title: File:Gibbs Ascender.jpg
+  author: Aglsilva at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Gibbs_Ascender.jpg
+  site: Wikimedia Commons
+  alt: An older metal Gibbs ascender with its spring-loaded cam lever and pin, with a red cord loop.
+  kind: how-it-works
+  drawn: false
+- file: rope-grab-and-ascender-9937ea.webp
+  title: File:Ascenders-cams.jpg
+  author: Luca Bergamasco
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg
+  site: Wikimedia Commons
+  alt: A side view of two chest ascenders showing the toothed cam that pinches the rope.
+  kind: how-it-works
+  drawn: false
 glossary: [self-locking, ratchet, pawl, sprag, clearance, form-fit--force-fit--material-bond, threadlocker, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/rope-grab-and-ascender.webp" alt="Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg">Petzl Ascenders (On Rope)</a> by Climber.Ben.Johnson, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rope-grab-and-ascender-1a2d8f.webp" alt="An older metal Gibbs ascender with its spring-loaded cam lever and pin, with a red cord loop." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gibbs_Ascender.jpg">Gibbs Ascender</a> by Aglsilva at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rope-grab-and-ascender-9937ea.webp" alt="A side view of two chest ascenders showing the toothed cam that pinches the rope." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg">Ascenders-cams</a> by Luca Bergamasco, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A clamp with a spring-loaded, toothed, off-centre lever (cam) that slides up a rope in one direction but pinches the rope against its frame and locks when pulled the other way; used in pairs to climb a rope, to stop a hauled load slipping back, and on safety lines.

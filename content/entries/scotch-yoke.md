@@ -166,12 +166,34 @@ pictures:
   still: scotch-yoke.still.webp
   kind: animation
   drawn: false
+- file: scotch-yoke-c5ec7b.webp
+  title: File:Scotch Yoke Mechanism.jpg
+  author: Aliva Sahoo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Scotch_Yoke_Mechanism.jpg
+  site: Wikimedia Commons
+  alt: A science museum display of a Scotch yoke, a red crank pin in the slot of a yellow sliding bar behind glass.
+  kind: how-it-works
+  drawn: false
+- file: scotch-yoke-39cb53.webp
+  title: File:Scotch Yoke Mechanism - NMST - IIT Kharagpur - West Midnapore 2015-09-28 4601.JPG
+  author: Biswarup Ganguly
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Scotch_Yoke_Mechanism_-_NMST_-_IIT_Kharagpur_-_West_Midnapore_2015-09-28_4601.JPG
+  site: Wikimedia Commons
+  alt: An old metal working model of a Scotch yoke on a wooden base, with the slotted bar guided between upright frames.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, reciprocating, oscillating, stroke, torque, cam-and-follower, crank, actuator, clearance,
   tolerance, form-fit--force-fit--material-bond, circlip, lubrication, infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/scotch-yoke.still.webp"><img src="../media/scotch-yoke.webp" alt="An animation of a Scotch yoke, a pin on a turning wheel sliding up and down in a slot so the bar it sits in moves straight back and forth."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif">Yugo Escocés - Scotch yoke animation</a> by Gussisaurio, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/scotch-yoke-c5ec7b.webp" alt="A science museum display of a Scotch yoke, a red crank pin in the slot of a yellow sliding bar behind glass." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scotch_Yoke_Mechanism.jpg">Scotch Yoke Mechanism</a> by Aliva Sahoo, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/scotch-yoke-39cb53.webp" alt="An old metal working model of a Scotch yoke on a wooden base, with the slotted bar guided between upright frames." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scotch_Yoke_Mechanism_-_NMST_-_IIT_Kharagpur_-_West_Midnapore_2015-09-28_4601.JPG">Scotch Yoke Mechanism - NMST - IIT Kharagpur - West Midnapore 2015-09-28 4601</a> by Biswarup Ganguly, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pin on a turning wheel ([crank](../glossary.md#crank)) slides along a slot in a bar that is guided to move only in a straight line, so steady turning becomes a smooth back-and-forth push whose position follows a perfect sine wave; it can also work the other way round.

@@ -151,6 +151,16 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: sear-and-trigger-06bbaa.webp
+  title: File:Han crossbow trigger mechanism.jpg
+  author: Flickr user Gary Todd
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Han_crossbow_trigger_mechanism.jpg
+  site: Wikimedia Commons
+  alt: Bronze trigger mechanisms from ancient Chinese crossbows, laid out on a grey table, some assembled and some in pieces.
+  kind: photo
+  drawn: false
 glossary: [self-locking, dead-point, over-centre, detent, ratchet, pawl, linkage, actuator, solenoid, fail-safe--fail-secure,
   deflection, torsion, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, perimeters,
   infill, elephants-foot]
@@ -158,6 +168,7 @@ glossary: [self-locking, dead-point, over-centre, detent, ratchet, pawl, linkage
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/sear-and-trigger.webp" alt="A drawing of a crossbow lock, the round nut holding the string and bolt, with the trigger lever that lets the nut turn."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg">Noix corde carreau arbalette</a> by Christophe Dang Ngoc Chan (Cdang (talk)), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sear-and-trigger-06bbaa.webp" alt="Bronze trigger mechanisms from ancient Chinese crossbows, laid out on a grey table, some assembled and some in pieces." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Han_crossbow_trigger_mechanism.jpg">Han crossbow trigger mechanism</a> by Flickr user Gary Todd, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A small hooked catch (the sear) holds a part that is loaded by a big spring, band or weight, and a trigger lever pulls the catch off with a light touch, releasing all the stored energy in an instant.

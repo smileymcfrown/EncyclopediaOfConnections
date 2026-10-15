@@ -158,12 +158,36 @@ pictures:
   still: plain-pivot-and-rolling-bearing.still.webp
   kind: animation
   drawn: false
+- file: plain-pivot-and-rolling-bearing-089ef5.webp
+  title: File:Radial-deep-groove-ball-bearing din625-t1 2rs 120.png
+  author: Silberwolf
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png
+  site: Wikimedia Commons
+  alt: A render of a deep-groove ball bearing cut open, showing the steel balls in their cage between the inner and outer
+    rings and the rubber seals.
+  kind: cross-section
+  drawn: false
+- file: plain-pivot-and-rolling-bearing-eb4706.webp
+  title: File:Revolute Pin Joint.png
+  author: I.Elgamal
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png
+  site: Wikimedia Commons
+  alt: A render of a plain pin joint cut away, a round pin passing through matching holes in a fork and a link so one can
+    turn on the other.
+  kind: cross-section
+  drawn: false
 glossary: [misalignment, axial--radial, linkage, flexure, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, circlip, repeatability--accuracy, creep, galling--fretting, lubrication, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/plain-pivot-and-rolling-bearing.still.webp"><img src="../media/plain-pivot-and-rolling-bearing.webp" alt="An animation of a ball bearing seen face on, the balls rolling round between the inner and outer rings as the inner ring turns."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallBearing.gif">BallBearing</a> by PlusMinus, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/plain-pivot-and-rolling-bearing-089ef5.webp" alt="A render of a deep-groove ball bearing cut open, showing the steel balls in their cage between the inner and outer rings and the rubber seals." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png">Radial-deep-groove-ball-bearing din625-t1 2rs 120</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/plain-pivot-and-rolling-bearing-eb4706.webp" alt="A render of a plain pin joint cut away, a round pin passing through matching holes in a fork and a link so one can turn on the other." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png">Revolute Pin Joint</a> by I.Elgamal, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pin or shaft passes through a hole so one part can turn on the other, sliding directly in the hole or a sleeve (plain bearing), or rolling on balls between two rings (ball bearing) for less friction.

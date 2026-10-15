@@ -159,12 +159,35 @@ pictures:
   site: Wikimedia Commons
   kind: cross-section
   drawn: false
+- file: gas-spring-026d66.webp
+  title: File:Chair gas spring disassembled.jpg
+  author: ASDFS
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Chair_gas_spring_disassembled.jpg
+  site: Wikimedia Commons
+  alt: An office-chair gas spring taken apart on a wooden table, with its long rod, black outer tube, seals and washers laid
+    out.
+  kind: how-it-works
+  drawn: false
+- file: gas-spring-50d01a.webp
+  title: File:Gas spring-2.jpg
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Gas_spring-2.jpg
+  site: Wikimedia Commons
+  alt: A gas spring fitted to a red lifting barrier, its rod pushed out to hold the barrier open.
+  kind: photo
+  drawn: false
 glossary: [self-locking, stroke, over-centre, ratchet, torque, linkage, damping, tolerance, heat-set-insert, chamfer--fillet,
   creep, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/gas-spring.webp" alt="A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png">Gas-spring simplified numbered 120</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gas-spring-026d66.webp" alt="An office-chair gas spring taken apart on a wooden table, with its long rod, black outer tube, seals and washers laid out." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Chair_gas_spring_disassembled.jpg">Chair gas spring disassembled</a> by ASDFS, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gas-spring-50d01a.webp" alt="A gas spring fitted to a red lifting barrier, its rod pushed out to hold the barrier open." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gas_spring-2.jpg">Gas spring-2</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A sealed cylinder of pressurised nitrogen and a little oil whose rod pushes out with a fairly steady force and a controlled speed, used to lift and hold lids, hatches and seats; a lockable version has a valve that freezes the rod at any length until you press a release pin.

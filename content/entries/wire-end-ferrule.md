@@ -151,11 +151,22 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: wire-end-ferrule-195f8c.webp
+  title: File:Ca 1990 sample assortment of DIN 46228 T4 wire ferrules for electrical conductors by GKV Graupner Germany.jpg
+  author: R. Henrik Nilsson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ca_1990_sample_assortment_of_DIN_46228_T4_wire_ferrules_for_electrical_conductors_by_GKV_Graupner_Germany.jpg
+  site: Wikimedia Commons
+  alt: An assortment of colour-coded wire ferrules spilling from a small plastic bag.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, gland]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/wire-end-ferrule.webp" alt="Wire-end ferrules, thin metal tubes, some with coloured plastic collars and some bare."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg">Wire ferrules with and without insulation</a> by Simon A. Eugster, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-end-ferrule-195f8c.webp" alt="An assortment of colour-coded wire ferrules spilling from a small plastic bag." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ca_1990_sample_assortment_of_DIN_46228_T4_wire_ferrules_for_electrical_conductors_by_GKV_Graupner_Germany.jpg">Ca 1990 sample assortment of DIN 46228 T4 wire ferrules for electrical conductors by GKV Graupner Germany</a> by R. Henrik Nilsson, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A thin tin-plated copper tube, usually with a colour-coded plastic collar, is slid over the stripped end of a stranded wire and crushed onto it with a crimping tool, so the strands stay together and the wire end goes into a screw or spring terminal like a single solid pin, giving a cooler, more reliable joint than bare splayed strands.

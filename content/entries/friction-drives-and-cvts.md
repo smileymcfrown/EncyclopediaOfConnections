@@ -159,12 +159,35 @@ pictures:
   drawn: true
   still: drawn/friction-drives-and-cvts.svg
   kind: animation
+- file: friction-drives-and-cvts.webp
+  title: File:Evans friction cone - Hagley Aug 2009.jpg
+  author: Ukexpat
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Evans_friction_cone_-_Hagley_Aug_2009.jpg
+  site: Wikimedia Commons
+  alt: An Evans friction cone drive in a museum machine shop, two long opposed cones with a leather ring between them that
+    is slid along to change the speed.
+  kind: how-it-works
+  drawn: false
+- file: friction-drives-and-cvts-8cf3b0.webp
+  title: File:TEZ-Reibradgetriebe 7271.JPG
+  author: Karl Gruber
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:TEZ-Reibradgetriebe_7271.JPG
+  site: Wikimedia Commons
+  alt: The friction-wheel gearing on an old textile machine, a small wheel pressed against the face of a large disc.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, freewheel, torque, idler, form-fit--force-fit--material-bond, set-screw, creep, fatigue,
   layer-lines, cure, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/friction-drives-and-cvts.svg"><img src="../media/drawn/anim/friction-drives-and-cvts.svg" alt="A turning disc seen face-on with a small rubber-tyred wheel pressed against its face: sliding the wheel out towards the rim makes it turn fast, near the centre slowly, at the centre not at all and past the centre backwards; a side view shows a spring pressing the wheel onto the disc. In the animatio"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/friction-drives-and-cvts.webp" alt="An Evans friction cone drive in a museum machine shop, two long opposed cones with a leather ring between them that is slid along to change the speed." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Evans_friction_cone_-_Hagley_Aug_2009.jpg">Evans friction cone - Hagley Aug 2009</a> by Ukexpat, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/friction-drives-and-cvts-8cf3b0.webp" alt="The friction-wheel gearing on an old textile machine, a small wheel pressed against the face of a large disc." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:TEZ-Reibradgetriebe_7271.JPG">TEZ-Reibradgetriebe 7271</a> by Karl Gruber, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A wheel or roller pressed against a wheel, disc, cone, ring or ball passes on rotation purely by friction, so it is smooth, quiet and free of play ([backlash](../glossary.md#backlash)), slips instead of breaking when overloaded and, when the contact point can be moved across a disc or cone, gives a smoothly variable speed ratio (a continuously variable transmission).

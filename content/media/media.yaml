@@ -10,8 +10,8 @@ air-bearing-and-air-caster:
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Aircaster.gif
-  alt: 'Animation of an air caster: compressed air fills the ring-shaped bag, then the space inside it, and escapes as a thin
-    film that lifts the load'
+  alt: An animated cut-away of an air caster under a load, its ring-shaped bags filling with air until the load lifts on a
+    thin film of air above the floor.
   animated: true
   site: Wikimedia Commons
   still: air-bearing-and-air-caster.still.webp
@@ -26,8 +26,8 @@ air-logic-valve:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif
-  alt: 'Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches
-    the outlet (the OR element)'
+  alt: An animated cut-away of a shuttle valve, a ball pushed from side to side by air arriving at either inlet so the air
+    always reaches the one outlet.
   animated: true
   site: Wikimedia Commons
   still: air-logic-valve.still.webp
@@ -42,11 +42,37 @@ air-or-hydraulic-cylinder:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif
-  alt: 'Animation of a single-acting cylinder: air pushes the piston out and a spring brings it back'
+  alt: An animated cut-away of a single-acting cylinder, air let in behind the piston pushing the rod out and a spring pushing
+    it back when the air is let out.
   animated: true
   site: Wikimedia Commons
   still: air-or-hydraulic-cylinder.still.webp
   kind: animation
+- src: File:8-stage single-acting air cylinder, Ergo-Help.jpg
+  file: air-or-hydraulic-cylinder-744b64.webp
+  width: 137
+  height: 289
+  title: File:8-stage single-acting air cylinder, Ergo-Help.jpg
+  author: Ergo-Help Pneumatics, Ergo-Help, Inc.
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg
+  site: Wikimedia Commons
+  alt: A silver telescoping air cylinder shown twice, squashed down into a short can and stretched out into a tall stack of
+    eight nested tubes.
+  kind: how-it-works
+- src: File:Air Canada flight simulator.jpg
+  file: air-or-hydraulic-cylinder-bbe047.webp
+  width: 800
+  height: 1189
+  title: File:Air Canada flight simulator.jpg
+  author: Piergiuliano Chesi
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Air_Canada_flight_simulator.jpg
+  site: Wikimedia Commons
+  alt: A flight simulator cabin standing on six long hydraulic cylinders that push and tilt it.
+  kind: photo
 air-tank-and-hydraulic-accumulator:
 - src: File:Hydraulic accumulator.svg
   file: air-tank-and-hydraulic-accumulator.webp
@@ -146,8 +172,22 @@ ball-and-socket-joint:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:KugelgelenkSchnitt.jpg
-  alt: A ball joint cut in half, showing the ball on a threaded, cone-shaped stud inside its socket
+  alt: A ball joint cut in half, showing the round ball on a threaded, cone-shaped stud sitting in its socket inside the housing.
   site: Wikimedia Commons
+  kind: cross-section
+- src: File:Manfrotto 488 RC4.jpg
+  file: ball-and-socket-joint-37c7a1.webp
+  width: 800
+  height: 854
+  title: File:Manfrotto 488 RC4.jpg
+  author: Nebrot
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manfrotto_488_RC4.jpg
+  site: Wikimedia Commons
+  alt: A black camera tripod ball head, its ball clamped in a socket by a big locking knob, with a quick-release plate on
+    top.
+  kind: photo
 ball-caster:
 - src: File:BallTransferUnitCrossSection.png
   file: ball-caster.webp
@@ -158,8 +198,35 @@ ball-caster:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png
-  alt: 'Rendered cut-away of a ball transfer unit: the large load ball resting on a bed of small balls inside the housing'
+  alt: A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held
+    in by a blue lip.
   site: Wikimedia Commons
+  kind: cross-section
+- src: File:Schulz-www.Kugelrollen.de-im-Schnitt.jpg
+  file: ball-caster-dc0b70.webp
+  width: 800
+  height: 523
+  title: File:Schulz-www.Kugelrollen.de-im-Schnitt.jpg
+  author: Schulz-Stanztechnik.de
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Schulz-www.Kugelrollen.de-im-Schnitt.jpg
+  site: Wikimedia Commons
+  alt: A real pressed-steel ball transfer unit sawn in half, showing the large ball resting on a ring of small balls in its
+    cup.
+  kind: cross-section
+- src: openverse:3e29c5ef-157e-40d4-8d8a-ddbb9fba4c11
+  file: ball-caster-90ee8c.webp
+  width: 800
+  height: 539
+  title: Robot 2
+  author: Adam Greig
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/7320302@N07/3057606500
+  site: Flickr via Openverse
+  alt: The underside of a small two-wheeled robot, with a little metal ball caster at the front acting as its third wheel.
+  kind: how-it-works
 ball-detent:
 - src: File:Federndes Druckstück 2.tif
   file: ball-detent.webp
@@ -258,8 +325,34 @@ basic-knots:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Square_knot.svg
-  alt: Clear diagram of a reef (square) knot
+  alt: A drawing of a reef knot, a red cord and a blue cord each folded back and looped through the other.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Macrame Basic Knots.jpg
+  file: basic-knots-0124a3.webp
+  width: 800
+  height: 600
+  title: File:Macrame Basic Knots.jpg
+  author: Stilfehler
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Macrame_Basic_Knots.jpg
+  site: Wikimedia Commons
+  alt: Four white macrame cords hanging from a wooden rod, each tied with a basic knot, the top row finished and the bottom
+    row loosened to show how it is made.
+  kind: how-it-works
+- src: File:Macrame Knots 06.jpg
+  file: basic-knots-cd8246.webp
+  width: 800
+  height: 600
+  title: File:Macrame Knots 06.jpg
+  author: Stilfehler
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Macrame_Knots_06.jpg
+  site: Wikimedia Commons
+  alt: White cords tied in chains of half hitches, hanging from a wooden rod.
+  kind: photo
 basic-latches:
 - src: File:Öffnen eines Riegels.gif
   file: basic-latches.webp
@@ -270,11 +363,23 @@ basic-latches:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif
-  alt: Animation of opening a captured draw-bolt (slide bolt) latch
+  alt: An animation of a slide bolt latch being opened, the bolt drawn back out of its catch.
   animated: true
   site: Wikimedia Commons
   still: basic-latches.still.webp
   kind: animation
+- src: File:Bolt lock.jpg
+  file: basic-latches-c80905.webp
+  width: 800
+  height: 600
+  title: File:Bolt lock.jpg
+  author: Dave&Lynne Slater from Cumbria, United kingdom
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Bolt_lock.jpg
+  site: Wikimedia Commons
+  alt: A metal slide bolt screwed to a wooden door, its bar pushed across into a catch on the frame.
+  kind: photo
 basic-strap-and-garment-closures:
 - src: File:Buckle Showing various parts.svg
   file: basic-strap-and-garment-closures.webp
@@ -475,8 +580,23 @@ bellows-boot-and-way-cover:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
-  alt: Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age
+  alt: The black pleated rubber boot on a car drive shaft joint, held on by a metal band clamp, with a split in one of its
+    folds.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Fahrzeugtechnik Vorderachse.jpg
+  file: bellows-boot-and-way-cover-f1df48.webp
+  width: 800
+  height: 1072
+  title: File:Fahrzeugtechnik Vorderachse.jpg
+  author: Btr
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
+  site: Wikimedia Commons
+  alt: A car's front wheel hub with the wheel removed, showing the pleated rubber boot covering the drive shaft joint where
+    it meets the hub.
+  kind: photo
 belt-drives:
 - src: File:Power transmission belt.gif
   file: belt-drives.webp
@@ -487,11 +607,35 @@ belt-drives:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif
-  alt: Animation of a belt running onto its pulley, showing the in-running nip point
+  alt: An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley.
   animated: true
   site: Wikimedia Commons
   still: belt-drives.still.webp
   kind: animation
+- src: File:Belt drive.JPG
+  file: belt-drives-c12b35.webp
+  width: 800
+  height: 533
+  title: File:Belt drive.JPG
+  author: Work With Sounds
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Belt_drive.JPG
+  site: Wikimedia Commons
+  alt: An old milling machine driven by wide flat belts running over a set of stepped pulleys.
+  kind: how-it-works
+- src: File:02010 Belt drives market in Poland Gates.JPG
+  file: belt-drives-3d5233.webp
+  width: 800
+  height: 533
+  title: File:02010 Belt drives market in Poland Gates.JPG
+  author: Silar
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:02010_Belt_drives_market_in_Poland_Gates.JPG
+  site: Wikimedia Commons
+  alt: Black toothed (timing) belts hanging on a rack, their teeth on the inside where they mesh with the pulleys.
+  kind: photo
 belt-tensioner:
 - src: File:Kettenspanner für Singlespeed-Räder.jpg
   file: belt-tensioner.webp
@@ -502,8 +646,23 @@ belt-tensioner:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg
-  alt: A bicycle chain tensioner, a small red pulley on a sprung arm pressing on the slack lower run of the chain.
+  alt: A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against
+    the slack lower run of the chain.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Belt tensioner (15973554259).jpg
+  file: belt-tensioner-cfa2e0.webp
+  width: 800
+  height: 1422
+  title: File:Belt tensioner (15973554259).jpg
+  author: dave_7 from Lethbridge, Canada
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Belt_tensioner_(15973554259).jpg
+  site: Wikimedia Commons
+  alt: A car engine's automatic belt tensioner, a smooth idler pulley on a spring-loaded arm pressing on the ribbed drive
+    belt.
+  kind: photo
 bends-for-joining-two-cords:
 - src: File:Doppelter Schotstek.jpg
   file: bends-for-joining-two-cords.webp
@@ -527,8 +686,23 @@ bernoulli-gripper:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Bernoulli_Gripper.png
-  alt: Diagram of air flowing out of a Bernoulli gripper and the lifting force it creates on a part
+  alt: A diagram of a Bernoulli gripper, air blown down the middle of the pad and out sideways in a thin stream, with arrows
+    showing the object below being lifted.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Jet gripper air-flow.jpg
+  file: bernoulli-gripper-21a918.webp
+  width: 800
+  height: 1257
+  title: File:Jet gripper air-flow.jpg
+  author: Roman211911
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Jet_gripper_air-flow.jpg
+  site: Wikimedia Commons
+  alt: Three photos of a gripper blowing smoke-filled air, showing the thin jet of air spreading out sideways from under the
+    pad.
+  kind: how-it-works
 bevel-gears:
 - src: File:Gear - Bevel (PSF).png
   file: bevel-gears.webp
@@ -539,8 +713,35 @@ bevel-gears:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png
-  alt: A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft.
+  alt: A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Bauma 2007 ZF Loader Axle MT-L3075 2.jpg
+  file: bevel-gears-cd05b4.webp
+  width: 800
+  height: 600
+  title: File:Bauma 2007 ZF Loader Axle MT-L3075 2.jpg
+  author: Aconcagua
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bauma_2007_ZF_Loader_Axle_MT-L3075_2.jpg
+  site: Wikimedia Commons
+  alt: A loader axle cut open at a trade show, showing the bevel gears inside that turn the drive from the prop shaft through
+    a right angle to the wheels.
+  kind: cross-section
+- src: File:Bevel gears on grain mill at Dordrecht, Eastern Cape.jpg
+  file: bevel-gears-52a2b1.webp
+  width: 800
+  height: 600
+  title: File:Bevel gears on grain mill at Dordrecht, Eastern Cape.jpg
+  author: Gregory David Harington
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Bevel_gears_on_grain_mill_at_Dordrecht,_Eastern_Cape.jpg
+  site: Wikimedia Commons
+  alt: A pair of big red-painted bevel gears on an old grain mill, one gear's teeth fitted with wooden inserts, meshing at
+    a right angle.
+  kind: photo
 binding-knots-and-seizings:
 - src: File:Constrictor-ABOK-1249.jpg
   file: binding-knots-and-seizings.webp
@@ -551,8 +752,34 @@ binding-knots-and-seizings:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg
-  alt: 'Four photographed steps in tying a constrictor knot round a post (ABOK #1249)'
+  alt: Four photos in a row showing the steps of tying a constrictor knot in blue cord round a rope.
   site: Wikimedia Commons
+  kind: how-it-works
+- src: File:Forestay-Eye-Round-seizings-Bulls-eye.jpg
+  file: binding-knots-and-seizings-97c579.webp
+  width: 800
+  height: 600
+  title: File:Forestay-Eye-Round-seizings-Bulls-eye.jpg
+  author: David J. Fred (Dfred)
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Forestay-Eye-Round-seizings-Bulls-eye.jpg
+  site: Wikimedia Commons
+  alt: The eye at the end of a sailing boat's forestay, its two ropes bound together by three tight round seizings of thin
+    cord.
+  kind: photo
+- src: File:Cable-lacing-nasa-style-spot-ties.jpg
+  file: binding-knots-and-seizings-a3911d.webp
+  width: 800
+  height: 583
+  title: File:Cable-lacing-nasa-style-spot-ties.jpg
+  author: David J. Fred
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Cable-lacing-nasa-style-spot-ties.jpg
+  site: Wikimedia Commons
+  alt: Blue cables bundled together with neat spot ties of white lacing tape knotted at intervals.
+  kind: photo
 binding-post-and-banana-plug:
 - src: File:BindingPostRed.jpg
   file: binding-post-and-banana-plug.webp
@@ -563,8 +790,34 @@ binding-post-and-banana-plug:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:BindingPostRed.jpg
-  alt: A red five-way binding post with its screw-down cap and the 4 mm socket in its tip
+  alt: A red binding post with its knurled plastic cap screwed onto a threaded metal post, a solder tag on the back.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Banana plugs speaker.jpg
+  file: binding-post-and-banana-plug-cd31f8.webp
+  width: 640
+  height: 480
+  title: File:Banana plugs speaker.jpg
+  author: The original uploader was Kallemax at English Wikipedia.
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Banana_plugs_speaker.jpg
+  site: Wikimedia Commons
+  alt: A red and a black banana plug pushed into the binding posts on the back of a loudspeaker.
+  kind: how-it-works
+- src: File:Double-stackable banana plugs.jpg
+  file: binding-post-and-banana-plug-753bda.webp
+  width: 800
+  height: 450
+  title: File:Double-stackable banana plugs.jpg
+  author: User:Ishimvlad
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Double-stackable_banana_plugs.jpg
+  site: Wikimedia Commons
+  alt: A red and a blue stackable banana plug on test leads, each with a springy metal pin and a socket in its side for another
+    plug.
+  kind: photo
 bistable-compliant-mechanism:
 - src: File:Bistable compliant switch mechanism.png
   file: bistable-compliant-mechanism.webp
@@ -629,8 +882,33 @@ blind-threaded-fixings:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg
-  alt: A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread
+  alt: A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body.
   site: Wikimedia Commons
+  kind: cross-section
+- src: File:1990s Molly well nuts D1420 with threaded brass insert by Emhart Teknik AB Oerebro Sweden.jpg
+  file: blind-threaded-fixings-62df09.webp
+  width: 800
+  height: 502
+  title: File:1990s Molly well nuts D1420 with threaded brass insert by Emhart Teknik AB Oerebro Sweden.jpg
+  author: R. Henrik Nilsson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:1990s_Molly_well_nuts_D1420_with_threaded_brass_insert_by_Emhart_Teknik_AB_Oerebro_Sweden.jpg
+  site: Wikimedia Commons
+  alt: Two rubber well nuts, one showing its flanged head and one its end with the brass threaded insert moulded inside.
+  kind: photo
+- src: File:Blindnietmutter.jpg
+  file: blind-threaded-fixings-3dc832.webp
+  width: 500
+  height: 339
+  title: File:Blindnietmutter.jpg
+  author: PeterScha
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Blindnietmutter.jpg
+  site: Wikimedia Commons
+  alt: A stainless steel rivet nut seen from the side and from the end, a short ribbed tube with a flange and a threaded hole.
+  kind: photo
 bowden-cable:
 - src: File:Bowden.jpg
   file: bowden-cable.webp
@@ -641,8 +919,35 @@ bowden-cable:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Bowden.jpg
-  alt: 'Cut-away photo of a Bowden cable: plastic outer coating, steel structure, inner low-friction sleeve and inner cable'
+  alt: A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the
+    inner wire.
   site: Wikimedia Commons
+  kind: cross-section
+- src: File:Bowden cable.JPG
+  file: bowden-cable-f0b7df.webp
+  width: 790
+  height: 320
+  title: File:Bowden cable.JPG
+  author: Cropped by AndrewDressel at en.wikipedia, original file was created by C. Corleis (Kuddel)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bowden_cable.JPG
+  site: Wikimedia Commons
+  alt: A bicycle gear cable running in its black outer sleeve to a rear derailleur, where the inner wire leaves the sleeve
+    and is clamped to the derailleur arm.
+  kind: how-it-works
+- src: File:Bowden cable with barrel adjuster.jpg
+  file: bowden-cable-0ad49b.webp
+  width: 163
+  height: 354
+  title: File:Bowden cable with barrel adjuster.jpg
+  author: AndrewDressel (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg
+  site: Wikimedia Commons
+  alt: The end of a Bowden cable fitted with a barrel adjuster, a threaded sleeve stop with the inner wire coming out of it.
+  kind: photo
 brazed-joint:
 - src: File:Principe brasage fort cuivre.svg
   file: brazed-joint.webp
@@ -743,8 +1048,21 @@ butterfly-key:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG
-  alt: Photo of a butterfly (dovetail key) joint in wood
+  alt: A dark bow-tie-shaped wooden key set flush into a board across a crack, its wide ends on either side.
   site: Wikimedia Commons
+  kind: photo
+- src: openverse:9f710fe2-2a18-4f46-8e4e-d37bfa8b366f
+  file: butterfly-key-82bfa6.webp
+  width: 800
+  height: 600
+  title: Wooden Floors with Walnut Pegs and Butterfly Keys
+  author: eekim
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/63669472@N00/1247258426
+  site: Flickr via Openverse
+  alt: A dark wooden floor whose planks are joined with walnut pegs and bow-tie keys set into the surface.
+  kind: photo
 cable-carrier:
 - src: File:Cable drag chain unsupported 3D animated.gif
   file: cable-carrier.webp
@@ -755,11 +1073,36 @@ cable-carrier:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Cable_drag_chain_unsupported_3D_animated.gif
-  alt: Animation of a self-supporting energy chain rolling back and forth as its moving end travels
+  alt: An animated cable carrier chain rolling over itself in a U-shaped loop as its free end moves back and forth.
   animated: true
   site: Wikimedia Commons
   still: cable-carrier.still.webp
   kind: animation
+- src: File:Cable drag chain-plastic.jpg
+  file: cable-carrier-ba6d32.webp
+  width: 800
+  height: 575
+  title: File:Cable drag chain-plastic.jpg
+  author: Matthias Krüger
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Cable_drag_chain-plastic.jpg
+  site: Wikimedia Commons
+  alt: A black plastic cable carrier chain bent in a U, made of hollow hinged links, with metal mounting brackets on both
+    ends.
+  kind: photo
+- src: File:Cable drag chain-metal.jpg
+  file: cable-carrier-558bf2.webp
+  width: 800
+  height: 411
+  title: File:Cable drag chain-metal.jpg
+  author: ekd gelenkrohr GmbH, D-40699 Erkrath (Germany)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Cable_drag_chain-metal.jpg
+  site: Wikimedia Commons
+  alt: A closed metal cable carrier chain bent round in a U, its links covered so the cables inside are hidden.
+  kind: photo
 cable-gland-and-strain-relief:
 - src: File:M16 cable gland.jpg
   file: cable-gland-and-strain-relief.webp
@@ -770,9 +1113,35 @@ cable-gland-and-strain-relief:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg
-  alt: A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber
-    seal inside, and the dome nut.
+  alt: A white nylon cable gland shown whole and in parts, its threaded body with clamping fingers and the domed cap nut that
+    squeezes them.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Exploded CW Gland annotated.png
+  file: cable-gland-and-strain-relief-ab3444.webp
+  width: 800
+  height: 558
+  title: File:Exploded CW Gland annotated.png
+  author: Andyremel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Exploded_CW_Gland_annotated.png
+  site: Wikimedia Commons
+  alt: A rendered armoured-cable gland pulled apart into its labelled parts, with a second view cut away to show the cable
+    clamped and sealed inside.
+  kind: cross-section
+- src: File:Cable Connectors.jpg
+  file: cable-gland-and-strain-relief-1ce6de.webp
+  width: 800
+  height: 600
+  title: File:Cable Connectors.jpg
+  author: Prosthetic Head
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cable_Connectors.jpg
+  site: Wikimedia Commons
+  alt: Several thick cables entering the top of a metal box through black plastic cable glands.
+  kind: how-it-works
 cable-through-a-hinge:
 - src: openverse:454b0958-fb82-43e8-81b0-062fe355ae13
   file: cable-through-a-hinge.webp
@@ -808,11 +1177,35 @@ cam-and-follower:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif
-  alt: Animation of a camshaft whose rotating cams push followers up and down
+  alt: An animated camshaft turning, its two egg-shaped cams pushing two followers up and letting them drop in turn.
   animated: true
   site: Wikimedia Commons
   still: cam-and-follower.still.webp
   kind: animation
+- src: File:Sanyo G2605H Turntable Cam Follower (30001014985).jpg
+  file: cam-and-follower-c93d71.webp
+  width: 800
+  height: 600
+  title: File:Sanyo G2605H Turntable Cam Follower (30001014985).jpg
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Sanyo_G2605H_Turntable_Cam_Follower_(30001014985).jpg
+  site: Wikimedia Commons
+  alt: A metal plate from a record player taken apart, with a lever whose tip rides on the edge of a black cam wheel.
+  kind: photo
+- src: File:Cam Follower.jpg
+  file: cam-and-follower-eefafd.webp
+  width: 640
+  height: 480
+  title: File:Cam Follower.jpg
+  author: Bteam75
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cam_Follower.jpg
+  site: Wikimedia Commons
+  alt: A home-built cam and follower made from perforated metal kit parts, a green cam wheel pushing an upright follower.
+  kind: photo
 cam-buckle:
 - src: File:Spanngurt mit Klemmverschluss.jpg
   file: cam-buckle.webp
@@ -823,8 +1216,9 @@ cam-buckle:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg
-  alt: Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap
+  alt: Close-up of a pressed-steel cam buckle on orange webbing, its toothed cam pressing down on the strap.
   site: Wikimedia Commons
+  kind: photo
 cam-cleat:
 - src: File:Curry2.jpg
   file: cam-cleat.webp
@@ -872,8 +1266,22 @@ cam-latch:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
-  alt: Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)
+  alt: A small round cam lock with a threaded body and nut, and the flat arm (cam) on the back that turns to hook behind the
+    frame.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Dubbelbaard slot.png
+  file: cam-latch-44467b.webp
+  width: 800
+  height: 450
+  title: File:Dubbelbaard slot.png
+  author: Biq OO
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Dubbelbaard_slot.png
+  site: Wikimedia Commons
+  alt: A chrome quarter-turn cam latch with a double-bit key socket in its face and a cranked arm on the back.
+  kind: photo
 cantilever-snap-fit:
 - src: File:Cantilever Snap-fit.gif
   file: cantilever-snap-fit.webp
@@ -1139,8 +1547,36 @@ chicago-screw:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg
-  alt: A bookbinding screw (Chicago screw) joining two pieces of leather
+  alt: The smooth round head of a Chicago screw holding two pieces of dark leather together, with a screwdriver slot across
+    it.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Buchschrauben Auswahl.jpg
+  file: chicago-screw-362895.webp
+  width: 800
+  height: 800
+  title: File:Buchschrauben Auswahl.jpg
+  author: Timo Huber (klebeshop24.de)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Buchschrauben_Auswahl.jpg
+  site: Wikimedia Commons
+  alt: Several Chicago screws in brass, nickel and black, some taken apart to show the hollow threaded post and the short
+    screw that goes into it.
+  kind: how-it-works
+- src: File:Hülsenmuttern.jpg
+  file: chicago-screw-2ac223.webp
+  width: 800
+  height: 684
+  title: File:Hülsenmuttern.jpg
+  author: Küchenkraut at de.wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:H%C3%BClsenmuttern.jpg
+  site: Wikimedia Commons
+  alt: Steel sleeve nuts with their screws laid out on wood, some screwed together and some apart, showing the long internally
+    threaded sleeve.
+  kind: photo
 clam-cleat:
 - src: File:Kammklemme.jpg
   file: clam-cleat.webp
@@ -1176,8 +1612,9 @@ clamp-on-tube-fittings:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg
-  alt: Photo of a basic slip-on Kee Klamp fitting with its set screw (used as the lead image of Wikipedia's 'Kee Klamp' article)
+  alt: A cast metal clamp-on fitting slipped over plain steel tube, with the set screw in its socket wall that locks it on.
   site: Wikimedia Commons
+  kind: photo
 clevis-joint:
 - src: File:Clevis.svg
   file: clevis-joint.webp
@@ -1241,7 +1678,8 @@ clip-on-concealed-hinge:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_06.gif
-  alt: Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens
+  alt: An animated cup hinge set in a round pocket in a cabinet door, seen from above and from the side as its linkage swings
+    the door open clear of the cabinet.
   animated: true
   site: Wikimedia Commons
   still: clip-on-concealed-hinge.still.webp
@@ -1256,8 +1694,33 @@ coil-spring:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg
-  alt: Labelled diagram of a helical compression spring and its main dimensions and symbols
+  alt: A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked.
   site: Wikimedia Commons
+  kind: diagram
+- src: openverse:e05cd809-ada9-47b9-9190-bc4d6b2c5bb8
+  file: coil-spring-eb890a.webp
+  width: 800
+  height: 600
+  title: LIKE A COILED SPRING...
+  author: REDMAXSPEEDSHOP.COM
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/36766110@N08/7899456674
+  site: Flickr via Openverse
+  alt: An old motorcycle saddle sitting on a pair of chrome coil springs that squash as the rider sits down.
+  kind: how-it-works
+- src: openverse:cdf923f5-c5c8-46b7-83ff-e5b0ef250e61
+  file: coil-spring-63ca77.webp
+  width: 800
+  height: 572
+  title: CH-62 - Fiberglass-Epoxy Composite Coil Spring
+  author: SPE Automotive Division
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/17968829@N03/22568919880
+  site: Flickr via Openverse
+  alt: A pale fibreglass-and-epoxy coil spring lying on a blue background, its thick round wire wound into a helix.
+  kind: photo
 collet:
 - src: File:External thread pull collet action.gif
   file: collet.webp
@@ -1308,9 +1771,33 @@ combination-lock:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Combination_discs.png
-  alt: Exploded view of the notched discs of a number-wheel lock set to 9-2-4 (companion images Combination unlocked.png and
-    Combination locked.png show the toothed pin free and blocked)
+  alt: An exploded drawing of the notched number wheels of a combination lock, set to 9-2-4 so their notches line up.
   site: Wikimedia Commons
+  kind: diagram
+- src: openverse:b76bee46-1fbf-49ea-b084-f2357b6c2373
+  file: combination-lock-f0c5ac.webp
+  width: 800
+  height: 530
+  title: Combination Lock on top of a Credit card e.g. Credit Card Security
+  author: perspec_photo88
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/111692634@N04/11406986014
+  site: Flickr via Openverse
+  alt: Close-up of a cable lock's three numbered wheels turned to a combination, beside the shackle they hold.
+  kind: how-it-works
+- src: openverse:0b6ddfda-203b-4c3a-add6-b98e8227b29f
+  file: combination-lock-03d454.webp
+  width: 800
+  height: 600
+  title: Combination Lock
+  author: Sh4rp_i
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/85638163@N00/4627233065
+  site: Flickr via Openverse
+  alt: Close-up of the black numbered dial of a combination padlock, with the steel shackle behind it.
+  kind: photo
 compliant-gripper-and-force-amplifier:
 - src: File:Compliant plier mechanism.png
   file: compliant-gripper-and-force-amplifier.webp
@@ -1519,8 +2006,21 @@ contact-adhesive:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg
-  alt: A can of Weldwood contact cement (used on Wikipedia's 'Impact glue' article)
+  alt: A can of Weldwood contact cement.
   site: Wikimedia Commons
+  kind: photo
+- src: File:2023 Butapren.jpg
+  file: contact-adhesive-08d835.webp
+  width: 800
+  height: 444
+  title: File:2023 Butapren.jpg
+  author: Jacek Halicki
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:2023_Butapren.jpg
+  site: Wikimedia Commons
+  alt: A yellow tube of Butapren contact adhesive with a black cap.
+  kind: photo
 cord-lock:
 - src: File:Cord-lock.jpg
   file: cord-lock.webp
@@ -1531,8 +2031,33 @@ cord-lock:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cord-lock.jpg
-  alt: Photo of a barrel-type cord lock with its spring plunger
+  alt: Two black plastic barrel cord locks, each with a cord hole through the barrel and a spring-loaded plunger cap on top.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Cord lock-427.jpg
+  file: cord-lock-670afc.webp
+  width: 800
+  height: 600
+  title: File:Cord lock-427.jpg
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cord_lock-427.jpg
+  site: Wikimedia Commons
+  alt: A black cord lock on a jacket's drawcord, the elastic cord passing through the barrel and ending in a round toggle.
+  kind: how-it-works
+- src: File:Cord lock-420.jpg
+  file: cord-lock-295591.webp
+  width: 800
+  height: 600
+  title: File:Cord lock-420.jpg
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cord_lock-420.jpg
+  site: Wikimedia Commons
+  alt: Close-up of a cord lock with the elastic drawcord running through the hole in its barrel and plunger.
+  kind: photo
 crimp-terminals:
 - src: File:Kabelschuh verschiedene commons.jpg
   file: crimp-terminals.webp
@@ -1580,8 +2105,33 @@ crimped-butt-splice:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG
-  alt: Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors
+  alt: Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined.
   site: Wikimedia Commons
+  kind: photo
+- src: File:First Butt Splice Completed.jpg
+  file: crimped-butt-splice-7b4629.webp
+  width: 800
+  height: 1071
+  title: File:First Butt Splice Completed.jpg
+  author: Rhorton4549
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:First_Butt_Splice_Completed.jpg
+  site: Wikimedia Commons
+  alt: A finished butt splice, two wires crimped into each end of an insulated connector tube, lying on squared notepaper.
+  kind: how-it-works
+- src: File:Crimper Thunderbird 9 ESC Butt Connectors Motor and Wire Strippers.JPG
+  file: crimped-butt-splice-a56921.webp
+  width: 800
+  height: 600
+  title: File:Crimper Thunderbird 9 ESC Butt Connectors Motor and Wire Strippers.JPG
+  author: Shatton8111
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Crimper_Thunderbird_9_ESC_Butt_Connectors_Motor_and_Wire_Strippers.JPG
+  site: Wikimedia Commons
+  alt: A ratcheting crimp tool and wire strippers laid out with blue butt splice connectors, a motor and its controller.
+  kind: photo
 cross-halving-slot-joint:
 - src: File:Joinery-SimpleHalved.svg
   file: cross-halving-slot-joint.webp
@@ -1592,9 +2142,10 @@ cross-halving-slot-joint:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Joinery-SimpleHalved.svg
-  alt: Clear drawing of two members, each slotted halfway on opposite edges, slipping together into a simple halved (egg-crate)
-    joint
+  alt: A drawing of two flat strips, each slotted halfway through from opposite edges, shown apart and then slotted together
+    into a flush cross.
   site: Wikimedia Commons
+  kind: diagram
 cyanoacrylate:
 - src: File:Super glue.jpg
   file: cyanoacrylate.webp
@@ -1671,8 +2222,21 @@ dampers:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Dashpot.svg
-  alt: 'Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder'
+  alt: A cut-away drawing of a dashpot, a piston on a rod inside a cylinder full of oil.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Hinge on kitchen cabinet with soft closing mechanism.jpg
+  file: dampers-680909.webp
+  width: 800
+  height: 1198
+  title: File:Hinge on kitchen cabinet with soft closing mechanism.jpg
+  author: Shixart1985
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Hinge_on_kitchen_cabinet_with_soft_closing_mechanism.jpg
+  site: Wikimedia Commons
+  alt: A kitchen cabinet door hinge with a small soft-close damper cylinder fitted beside it to slow the door as it shuts.
+  kind: how-it-works
 diaphragm-pump-and-squeeze-bulb:
 - src: File:Diaphragm pump animated.gif
   file: diaphragm-pump-and-squeeze-bulb-32b23f.webp
@@ -1789,9 +2353,22 @@ din-rail-clip:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:DIN_rail_rear_view.JPG
-  alt: Rear view of a 2-pole circuit breaker clipped on a DIN rail, shown upside down so the sliding latches and release loops
-    can be seen
+  alt: The back of a two-pole circuit breaker clipped onto a DIN rail, shown upside down so its fixed hook and sliding spring
+    latch can be seen.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Din rail.jpg
+  file: din-rail-clip-0ac66f.webp
+  width: 800
+  height: 533
+  title: File:Din rail.jpg
+  author: Ulfbastel
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Din_rail.jpg
+  site: Wikimedia Commons
+  alt: Green terminal blocks and a relay clipped side by side onto a slotted steel DIN rail.
+  kind: photo
 dog-clutch:
 - src: File:Dog Clutch.jpg
   file: dog-clutch.webp
@@ -1804,6 +2381,20 @@ dog-clutch:
   source: https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg
   alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Honda CBR600RR teardown 2015-10-19 13.44.17.jpg
+  file: dog-clutch-24501f.webp
+  width: 800
+  height: 600
+  title: File:Honda CBR600RR teardown 2015-10-19 13.44.17.jpg
+  author: Spheroidite
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Honda_CBR600RR_teardown_2015-10-19_13.44.17.jpg
+  site: Wikimedia Commons
+  alt: Close-up inside a stripped-down motorcycle gearbox, showing a gear and the dog teeth on its side that lock it to its
+    neighbour.
+  kind: photo
 double-sided-foam-tape:
 - src: File:Двухсторонний скотч f003.jpg
   file: double-sided-foam-tape.webp
@@ -1980,8 +2571,9 @@ drive-in-fixing-pins:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Spring-type_slottet_straigt_pin_labeled_num.jpg
-  alt: A slotted spring pin and a washer securing a shaft, with the parts numbered
+  alt: A slotted spring pin and a washer securing a shaft, with the parts numbered.
   site: Wikimedia Commons
+  kind: how-it-works
 eccentric-adjuster:
 - src: File:Eccentric bottom bracket.jpg
   file: eccentric-adjuster.webp
@@ -2126,9 +2718,24 @@ electromagnetic-brake:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
-  alt: Animated diagram of an electromagnetic power-off brake, used in Wikipedia's 'Electromagnetic brake' article
+  alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched
+    on and pulls the armature plate back.
   animated: false
   site: Wikimedia Commons
+  kind: animation
+- src: File:Akım Baskılı Frenler.webp
+  file: electromagnetic-brake-201f71.webp
+  width: 450
+  height: 450
+  title: File:Akım Baskılı Frenler.webp
+  author: Emffren
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ak%C4%B1m_Bask%C4%B1l%C4%B1_Frenler.webp
+  site: Wikimedia Commons
+  alt: A spring-applied electromagnetic brake unit, a round grey and green housing with a splined hub in the middle for the
+    motor shaft.
+  kind: photo
 electromagnetic-clutch:
 - src: File:B-1 electromagnetic-clutch1.png
   file: electromagnetic-clutch.webp
@@ -2259,9 +2866,33 @@ eye-bolts-screw-eyes-and-hooks:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif
-  alt: A heavy forged eye bolt with a shoulder (collar), the type that can take angled loads (used as 'Heavy forged eye bolt,
-    with shoulder' on Wikipedia 'Eye bolt')
+  alt: A heavy forged eye bolt painted red, with a collar (shoulder) between the round eye and the machine thread.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Eye bolt wood thread.jpg
+  file: eye-bolts-screw-eyes-and-hooks-e5ff97.webp
+  width: 800
+  height: 953
+  title: File:Eye bolt wood thread.jpg
+  author: Hustvedt
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Eye_bolt_wood_thread.jpg
+  site: Wikimedia Commons
+  alt: A row of screw eyes from large to tiny, each a bent-wire loop on a pointed wood-screw thread.
+  kind: photo
+- src: File:CrookedHook.jpg
+  file: eye-bolts-screw-eyes-and-hooks-2770b5.webp
+  width: 800
+  height: 600
+  title: File:CrookedHook.jpg
+  author: Kószó József
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:CrookedHook.jpg
+  site: Wikimedia Commons
+  alt: A large screw hook twisted into a wooden post outdoors, its curved hook ready to take a rope or chain.
+  kind: how-it-works
 eyelets-and-grommets:
 - src: File:Eyelet.jpg
   file: eyelets-and-grommets.webp
@@ -2423,8 +3054,22 @@ flexible-drive-shaft:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg
-  alt: Photo of a car speedometer cable in its casing
+  alt: A car speedometer cable held in a hand, the black casing with a square-ended drive core and a threaded nut at each
+    end.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Flexible shaft motor.jpg
+  file: flexible-drive-shaft-a0ff8f.webp
+  width: 800
+  height: 600
+  title: File:Flexible shaft motor.jpg
+  author: Mauro Cateb
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Flexible_shaft_motor.jpg
+  site: Wikimedia Commons
+  alt: A jeweller's pendant drill, a motor driving a long flexible shaft in a black casing that ends in a pen-like handpiece.
+  kind: how-it-works
 flexure-hinge:
 - src: File:Flexure pivot.png
   file: flexure-hinge.webp
@@ -2480,6 +3125,20 @@ flywheel:
   site: Wikimedia Commons
   still: flywheel.still.webp
   kind: animation
+folded-seam:
+- src: File:Can solderless seam cutaway.jpg
+  file: folded-seam.webp
+  width: 698
+  height: 698
+  title: File:Can solderless seam cutaway.jpg
+  author: Could not be extracted automatically; most are anonymous or pseudonymous. Scanned by the Seattle Public Library.
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Can_solderless_seam_cutaway.jpg
+  site: Wikimedia Commons
+  alt: A magnified cut-away of an early tin can's rim, showing the end and the body edges folded round each other into a tight
+    double seam.
+  kind: cross-section
 folding-blade-lock:
 - src: File:Folding knife locking mechanisms.svg
   file: folding-blade-lock.webp
@@ -2535,6 +3194,19 @@ four-bar-linkage:
   site: Wikimedia Commons
   still: four-bar-linkage.still.webp
   kind: animation
+friction-brake:
+- src: openverse:381ba97a-8132-43f9-ae8c-aae968570e27
+  file: friction-brake.webp
+  width: 800
+  height: 788
+  title: Pagani Zonda R wheel
+  author: exfordy
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/32659528@N00/3698748381
+  site: Flickr via Openverse
+  alt: A gold sports-car wheel with a large drilled brake disc behind the spokes and a red brake caliper gripping its edge.
+  kind: photo
 friction-clutch:
 - src: File:Cone clutch.svg
   file: friction-clutch.webp
@@ -2562,6 +3234,32 @@ friction-clutch:
   alt: A 3D render of a motorcycle basket clutch, whole and pulled apart to show the stack of friction plates between the
     basket and the hub.
   kind: how-it-works
+friction-drives-and-cvts:
+- src: File:Evans friction cone - Hagley Aug 2009.jpg
+  file: friction-drives-and-cvts.webp
+  width: 800
+  height: 581
+  title: File:Evans friction cone - Hagley Aug 2009.jpg
+  author: Ukexpat
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Evans_friction_cone_-_Hagley_Aug_2009.jpg
+  site: Wikimedia Commons
+  alt: An Evans friction cone drive in a museum machine shop, two long opposed cones with a leather ring between them that
+    is slid along to change the speed.
+  kind: how-it-works
+- src: File:TEZ-Reibradgetriebe 7271.JPG
+  file: friction-drives-and-cvts-8cf3b0.webp
+  width: 800
+  height: 1202
+  title: File:TEZ-Reibradgetriebe 7271.JPG
+  author: Karl Gruber
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:TEZ-Reibradgetriebe_7271.JPG
+  site: Wikimedia Commons
+  alt: The friction-wheel gearing on an old textile machine, a small wheel pressed against the face of a large disc.
+  kind: photo
 friction-hinge:
 - src: File:Lenovo ThinkPad X220 LCD hinges Kashui FRU 04W2185 vs Foxconn FRU 04W1406.jpg
   file: friction-hinge.webp
@@ -2612,9 +3310,34 @@ gas-spring:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png
-  alt: 'Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston
-    and flow-restriction orifice (used in Wikipedia''s ''Gas spring'' article)'
+  alt: A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube.
   site: Wikimedia Commons
+  kind: cross-section
+- src: File:Chair gas spring disassembled.jpg
+  file: gas-spring-026d66.webp
+  width: 800
+  height: 351
+  title: File:Chair gas spring disassembled.jpg
+  author: ASDFS
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Chair_gas_spring_disassembled.jpg
+  site: Wikimedia Commons
+  alt: An office-chair gas spring taken apart on a wooden table, with its long rod, black outer tube, seals and washers laid
+    out.
+  kind: how-it-works
+- src: File:Gas spring-2.jpg
+  file: gas-spring-50d01a.webp
+  width: 800
+  height: 1067
+  title: File:Gas spring-2.jpg
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Gas_spring-2.jpg
+  site: Wikimedia Commons
+  alt: A gas spring fitted to a red lifting barrier, its rod pushed out to hold the barrier open.
+  kind: photo
 gasket:
 - src: File:Gasket.svg
   file: gasket.webp
@@ -2663,11 +3386,37 @@ gear-pump:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
-  alt: Animation of liquid being carried round between the teeth and the case in an external gear pump
+  alt: An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round
+    the outside from one side to the other.
   animated: true
   site: Wikimedia Commons
   still: gear-pump.still.webp
   kind: animation
+- src: File:Internal gear pump (cut-away) (01).JPG
+  file: gear-pump-2f574c.webp
+  width: 800
+  height: 608
+  title: File:Internal gear pump (cut-away) (01).JPG
+  author: S.J. de Waard
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Internal_gear_pump_(cut-away)_(01).JPG
+  site: Wikimedia Commons
+  alt: A blue internal gear pump with part of its case cut away, showing the small gear turning inside the ring gear.
+  kind: cross-section
+- src: File:Napco Rotary Gear Pump.gif
+  file: gear-pump-9477b3.webp
+  width: 800
+  height: 706
+  title: File:Napco Rotary Gear Pump.gif
+  author: Reed T. Warnick
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Napco_Rotary_Gear_Pump.gif
+  site: Wikimedia Commons
+  alt: A rendered gear pump pulled apart, showing the two gears, their shafts, bearings and the end covers with their bolts.
+  kind: photo
+  animated: false
 geared-hinge:
 - src: File:Continuoushinge.jpg
   file: geared-hinge.webp
@@ -2704,8 +3453,8 @@ gearless-right-angle-drive:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:ElbowEngine.gif
-  alt: 'Animation of Hobson''s joint working as an elbow engine: L-shaped rods sliding in two cylinder blocks at right angles;
-    used as the lead image of Wikipedia''s ''Hobson''s joint'' article'
+  alt: An animation of bent rods sliding in and out of holes in two hubs set at a right angle, carrying the turning round
+    the corner.
   animated: true
   site: Wikimedia Commons
   still: gearless-right-angle-drive.still.webp
@@ -2759,7 +3508,8 @@ geneva-drive:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif
-  alt: Animated six-slot external Geneva drive stepping round, with the locking disc visible
+  alt: An animation of a green drive wheel whose pin enters the slots of a red six-armed wheel, turning it one step each time
+    round and holding it still in between.
   animated: true
   site: Wikimedia Commons
   still: geneva-drive.still.webp
@@ -2842,6 +3592,20 @@ hand-mouldable-thermoplastic:
   site: Wikimedia Commons
   alt: A home-made bicycle light mount moulded by hand from white PCL plastic, gripping the handlebar and holding two lights.
   kind: how-it-works
+hang-on-mounts:
+- src: File:French cleat.jpg
+  file: hang-on-mounts.webp
+  width: 755
+  height: 652
+  title: File:French cleat.jpg
+  author: Tenbergen
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:French_cleat.jpg
+  site: Wikimedia Commons
+  alt: A French cleat, a wooden strip with a bevelled top edge screwed to a wall, with a shelf hung on a matching strip beside
+    it.
+  kind: photo
 heat-fused-plastic-pipe:
 - src: File:Electrofusion coupler(1).jpg
   file: heat-fused-plastic-pipe.webp
@@ -2852,8 +3616,35 @@ heat-fused-plastic-pipe:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Electrofusion_coupler(1).jpg
-  alt: An electrofusion coupler with the two terminals where the control box leads plug in to heat the coils inside
+  alt: A black plastic electrofusion coupler, a short sleeve with heating wire inside and two terminals on top for the welding
+    leads.
   site: Wikimedia Commons
+  kind: photo
+heat-sealed-seam:
+- src: File:Impulse sealer.jpg
+  file: heat-sealed-seam.webp
+  width: 365
+  height: 321
+  title: File:Impulse sealer.jpg
+  author: Cjp24
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Impulse_sealer.jpg
+  site: Wikimedia Commons
+  alt: A white impulse bag sealer on a bench, with a hinged arm that presses a heated wire down across a plastic bag.
+  kind: how-it-works
+- src: File:Heat Sealing Film for Permeability Test.jpg
+  file: heat-sealed-seam-eaf094.webp
+  width: 427
+  height: 640
+  title: File:Heat Sealing Film for Permeability Test.jpg
+  author: Photo by Peggy Greb.
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Heat_Sealing_Film_for_Permeability_Test.jpg
+  site: Wikimedia Commons
+  alt: A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine.
+  kind: how-it-works
 heat-set-threaded-insert:
 - src: File:Press-in Insert.png
   file: heat-set-threaded-insert.webp
@@ -2981,8 +3772,33 @@ hide-glue:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg
-  alt: Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid
+  alt: Three small glass jars of warm, runny animal glue in shades of amber, each with a wooden stirring stick.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Animal glue liquid.jpg
+  file: hide-glue-1654a7.webp
+  width: 800
+  height: 530
+  title: File:Animal glue liquid.jpg
+  author: Simon Eugster – Simon / ?! 15:03, 10 May 2008 (UTC)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Animal_glue_liquid.jpg
+  site: Wikimedia Commons
+  alt: A brush lifting runny, honey-coloured hot hide glue out of a warmed glue pot.
+  kind: how-it-works
+- src: File:Old hot hide glue pot (51879504851).jpg
+  file: hide-glue-010bf8.webp
+  width: 800
+  height: 535
+  title: File:Old hot hide glue pot (51879504851).jpg
+  author: Joost J. Bakker IJmuiden
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Old_hot_hide_glue_pot_(51879504851).jpg
+  site: Wikimedia Commons
+  alt: An old cast-iron double glue pot, an outer water bath with an inner pot for the glue, shown with a lighter for size.
+  kind: photo
 high-current-battery-plug:
 - src: File:T-plug.jpg
   file: high-current-battery-plug.webp
@@ -3018,8 +3834,22 @@ hirth-joint:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg
-  alt: Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))
+  alt: A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth
+    on the other crank.
   site: Wikimedia Commons
+  kind: photo
+- src: openverse:a9db3b1c-41dc-4f1e-b1cf-33ce2f3f7806
+  file: hirth-joint-37109d.webp
+  width: 800
+  height: 600
+  title: Customizable Hirth Joint (CSG version) (library)
+  author: Lukas S.
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:397553
+  site: Thingiverse via Openverse
+  alt: A rendered 3D-printable Hirth joint half in blue plastic, with V-shaped teeth on its end face and a hole for a pin.
+  kind: photo
 hitches-to-a-post-rail-ring-or-eye:
 - src: File:Clove Hitch - ABoK 11 - USCG.jpg
   file: hitches-to-a-post-rail-ring-or-eye.webp
@@ -3030,9 +3860,21 @@ hitches-to-a-post-rail-ring-or-eye:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg
-  alt: A clove hitch round a rail, described as used 'to secure ropes running along a series of posts, belaying, starting
-    lashings, weak binding'
+  alt: A blue rope tied round a wooden post with a clove hitch, two crossing turns that grip the post.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Anderthalb Rundtörn mit zwei halben Schlägen.jpg
+  file: hitches-to-a-post-rail-ring-or-eye-452844.webp
+  width: 800
+  height: 600
+  title: File:Anderthalb Rundtörn mit zwei halben Schlägen.jpg
+  author: Markus Bärlocher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Anderthalb_Rundt%C3%B6rn_mit_zwei_halben_Schl%C3%A4gen.jpg
+  site: Wikimedia Commons
+  alt: A red rope tied to a metal ring with a round turn and two half hitches.
+  kind: photo
 holding-electromagnet:
 - src: File:Magnetic Lock.jpg
   file: holding-electromagnet.webp
@@ -3043,8 +3885,21 @@ holding-electromagnet:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg
-  alt: 'Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate'
+  alt: An electromagnetic door lock, a long magnet fixed to the door frame with a steel plate on the door that it holds shut.
   site: Wikimedia Commons
+  kind: photo
+- src: openverse:6a79071b-bb7d-4895-9b63-106142f4d20e
+  file: holding-electromagnet-426e55.webp
+  width: 800
+  height: 601
+  title: The Finished Magnet
+  author: shalf
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/99525316@N00/4252833389
+  site: Flickr via Openverse
+  alt: A home-made electromagnet, wire coiled round a steel bolt, holding up a paper clip while current flows through it.
+  kind: how-it-works
 hollow-wall-anchors:
 - src: File:Toggle bolts.JPG
   file: hollow-wall-anchors.webp
@@ -3055,8 +3910,9 @@ hollow-wall-anchors:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Toggle_bolts.JPG
-  alt: Various types of toggle bolts, open and closed (used in Wikipedia 'Toggle bolt')
+  alt: Spring toggle bolts, each a machine screw with folding metal wings that spring open behind a hollow wall.
   site: Wikimedia Commons
+  kind: photo
 hook-and-loop-fastener:
 - src: File:Velcro Hooks.jpg
   file: hook-and-loop-fastener.webp
@@ -3094,6 +3950,19 @@ hook-and-loop-fastener:
   site: Wikimedia Commons
   alt: Black hook-and-loop patches sewn onto the flap of a sleeping bag, one with hooks and one with loops.
   kind: photo
+hose-barb:
+- src: openverse:440765c9-a4a9-4804-955d-fa69b2153800
+  file: hose-barb.webp
+  width: 800
+  height: 600
+  title: 20mm female hose barb
+  author: Joseph Sanchez
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:3179198
+  site: Thingiverse via Openverse
+  alt: A rendered 3D-printable hose barb in blue plastic, a ridged spigot on one end and a threaded socket on the other.
+  kind: photo
 hose-clamp:
 - src: File:Hoseclamps.screw.agr.jpg
   file: hose-clamp.webp
@@ -3104,8 +3973,33 @@ hose-clamp:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg
-  alt: Assorted screw/band (worm-drive) hose clamps, showing the slotted band and screw housing
+  alt: Several worm-drive hose clamps, steel bands with slots and a small screw housing that tightens them.
   site: Wikimedia Commons
+  kind: photo
+- src: openverse:feff923d-4eca-4a8d-be65-1476ffaf8a14
+  file: hose-clamp-22b27d.webp
+  width: 680
+  height: 1024
+  title: hose clamp
+  author: theilr
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/90863480@N00/8548679054
+  site: Flickr via Openverse
+  alt: A close-up of a worm-drive hose clamp's screw housing, its screw thread meshing with the slots in the steel band.
+  kind: how-it-works
+- src: openverse:7460fe68-4a4d-43bb-8ffa-5966a05ba1e2
+  file: hose-clamp-4102fd.webp
+  width: 800
+  height: 450
+  title: Hose clamps by Hercules
+  author: MUSTAD MARINE
+  license: Public domain
+  license_url: https://creativecommons.org/publicdomain/mark/1.0/
+  source: https://www.flickr.com/photos/136938983@N07/49850661053
+  site: Flickr via Openverse
+  alt: Hose clamps tightened round the ends of rubber hoses where they push onto metal spigots on an engine.
+  kind: photo
 hot-melt-adhesive:
 - src: File:Stanley-Hot-Glue-Gun-GR35K.jpg
   file: hot-melt-adhesive.webp
@@ -3153,8 +4047,9 @@ housing-and-rebate-joints:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-dado.svg
-  alt: Drawing of a through dado (left) and a stopped dado (right)
+  alt: A drawing of a housing (dado) joint, one board's end sitting in a channel cut across another board.
   site: Wikimedia Commons
+  kind: diagram
 hydraulic-ram-pump:
 - src: File:Hydraulic Ram.gif
   file: hydraulic-ram-pump.webp
@@ -3166,10 +4061,36 @@ hydraulic-ram-pump:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Hydraulic_Ram.gif
-  alt: 'Animated cutaway of a ram pump cycling: drive pipe, waste valve, delivery check valve, pressure vessel and delivery
-    pipe'
+  alt: A numbered drawing of a ram pump, with the drive pipe coming in at the bottom, the waste valve, the delivery valve
+    and the air chamber above.
   animated: false
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Foto ariete hidráulico.jpg
+  file: hydraulic-ram-pump-c15684.webp
+  width: 800
+  height: 1067
+  title: File:Foto ariete hidráulico.jpg
+  author: Jorge Daniel Czajkowski
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Foto_ariete_hidr%C3%A1ulico.jpg
+  site: Wikimedia Commons
+  alt: A small ram pump working beside a stream, water spurting out of its waste valve as the delivery hose carries water
+    up the bank.
+  kind: how-it-works
+- src: File:HydraulischerWidder.jpg
+  file: hydraulic-ram-pump-b218e3.webp
+  width: 800
+  height: 598
+  title: File:HydraulischerWidder.jpg
+  author: Dr. Mirko Junge for the current photo, original photo was uploaded by FrankZ at de.wikipedia
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:HydraulischerWidder.jpg
+  site: Wikimedia Commons
+  alt: A grey cast-iron ram pump on display, with its round air chamber on top and the valve body and drive pipe below.
+  kind: photo
 in-line-swivel:
 - src: File:Swivel (PSF).png
   file: in-line-swivel.webp
@@ -3218,8 +4139,21 @@ indexable-clamping-lever:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:01_Klemmhebel_2012.jpg
-  alt: A modern stainless adjustable clamping lever with its threaded insert (KIPP (brand) product photo)
+  alt: A grey metal clamping lever, a curved handle with a round threaded boss at one end.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Klemmhebel 1952.jpg
+  file: indexable-clamping-lever-5e3423.webp
+  width: 800
+  height: 627
+  title: File:Klemmhebel 1952.jpg
+  author: autorisiert vom Hersteller
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Klemmhebel_1952.jpg
+  site: Wikimedia Commons
+  alt: An older clamping lever with a ball-ended handle, seen from below so its threaded bore is visible.
+  kind: photo
 inertia-locking-reel:
 - src: File:Intertial-reel.jpg
   file: inertia-locking-reel.webp
@@ -3230,8 +4164,21 @@ inertia-locking-reel:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg
-  alt: Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99
+  alt: A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool.
   site: Wikimedia Commons
+  kind: how-it-works
+- src: File:Inertial reel belt.jpg
+  file: inertia-locking-reel-a9057c.webp
+  width: 800
+  height: 1154
+  title: File:Inertial reel belt.jpg
+  author: A7N8X
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg
+  site: Wikimedia Commons
+  alt: A seat-belt retractor, a black cylindrical reel housing with the belt webbing running out of it, fitted in an old car.
+  kind: photo
 insulation-displacement-connector:
 - src: File:FDD 34 PIN Scheidklemmen IMG 0691.JPG
   file: insulation-displacement-connector.webp
@@ -3294,9 +4241,35 @@ interrupted-screw-lock:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg
-  alt: Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked
-    out in green.
+  alt: A drawing of a gun breech swung open, the plug's thread cut away in sectors to match the smooth gaps in the threaded
+    hole.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Breech 122m10 hameenlinna 2.jpg
+  file: interrupted-screw-lock-a8d312.webp
+  width: 800
+  height: 600
+  title: File:Breech 122m10 hameenlinna 2.jpg
+  author: Balcer~commonswiki
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Breech_122m10_hameenlinna_2.jpg
+  site: Wikimedia Commons
+  alt: A real gun breech swung open, showing the interrupted threads on the plug and the matching threaded and smooth sectors
+    in the barrel end.
+  kind: how-it-works
+- src: File:QF 6 inch gun coned breech screw.jpg
+  file: interrupted-screw-lock-bed466.webp
+  width: 300
+  height: 258
+  title: File:QF 6 inch gun coned breech screw.jpg
+  author: Notman Studio (Halifax)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:QF_6_inch_gun_coned_breech_screw.jpg
+  site: Wikimedia Commons
+  alt: A close-up photo of a large coned breech screw with its rows of thread broken by smooth strips.
+  kind: photo
 invisible-barrel-hinge:
 - src: File:Scharnier 11.gif
   file: invisible-barrel-hinge.webp
@@ -3377,9 +4350,23 @@ japanese-interlocking-joints:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png
-  alt: Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it
-    drops into on the other.
+  alt: A rendered lapped gooseneck joint, two timber ends pulled apart to show the hooked tongue on one and the matching stepped
+    pocket in the other.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Kanawa-tsugi.JPG
+  file: japanese-interlocking-joints-c87417.webp
+  width: 800
+  height: 600
+  title: File:Kanawa-tsugi.JPG
+  author: Abasaa
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Kanawa-tsugi.JPG
+  site: Wikimedia Commons
+  alt: A real kanawa-tsugi joint in a museum display, two timbers locked end to end by interlocking cuts with a small wooden
+    key driven through.
+  kind: photo
 jaw-coupling:
 - src: File:JawConcept2.jpg
   file: jaw-coupling.webp
@@ -3441,9 +4428,10 @@ keyless-locking-bush:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Spannsatz-2.jpg
-  alt: Cross-section drawing of a locking assembly between a shaft (W) and hub (N), with clamping screw (S) and conical rings
-    (K)
+  alt: A cut-away drawing of a locking bush between a shaft and a hub, its tapered inner and outer rings drawn together by
+    screws.
   site: Wikimedia Commons
+  kind: cross-section
 kinematic-coupling:
 - src: File:Maxwell kinematic coupling.png
   file: kinematic-coupling.webp
@@ -3518,8 +4506,9 @@ labyrinth-seal:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png
-  alt: Simple cross-section drawing of a labyrinth seal around a shaft, used on the English Wikipedia 'Labyrinth seal' article
+  alt: A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth.
   site: Wikimedia Commons
+  kind: cross-section
 lacing:
 - src: File:Lamellar lacing.gif
   file: lacing.webp
@@ -3610,8 +4599,21 @@ lead-screw-and-nut:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg
-  alt: Photo of a DVD drive's optical head moved by a small lead screw and stepper motor
+  alt: The inside of a DVD drive, where a thin lead screw turned by a small motor moves the laser head along its rails.
   site: Wikimedia Commons
+  kind: how-it-works
+- src: openverse:e34a2a2e-01d9-4a30-a882-aae3158e739c
+  file: lead-screw-and-nut-f45143.webp
+  width: 800
+  height: 450
+  title: Contrapteur lasercut lead nut mount
+  author: wolf.arthur
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/49412427@N06/5761157145
+  site: Flickr via Openverse
+  alt: A threaded rod passing through a brass lead nut held in a clear laser-cut acrylic mount.
+  kind: photo
 leather-and-textile-rivets:
 - src: File:Closeup of copper rivet on jeans.jpg
   file: leather-and-textile-rivets.webp
@@ -3622,8 +4624,9 @@ leather-and-textile-rivets:
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
   source: https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg
-  alt: Close-up of a copper rivet reinforcing the corner of a jeans pocket
+  alt: A close-up of a copper rivet holding the corner of a jeans pocket to the denim.
   site: Wikimedia Commons
+  kind: photo
 levelling-foot:
 - src: File:W7-X gyrotron, adjustable foot.jpg
   file: levelling-foot.webp
@@ -3648,9 +4651,22 @@ lever-cam-panel-connector:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg
-  alt: See-through 3D drawing of a lever connector's two biscuit-shaped halves apart, with the green lever folded down inside
-    one half and its hex socket visible
+  alt: A see-through render of a lever-cam connector in two panel edges, the green cam lever swung open so the panels can
+    part.
   site: Wikimedia Commons
+  kind: how-it-works
+- src: File:Clamex geschlossen.jpg
+  file: lever-cam-panel-connector-d62773.webp
+  width: 800
+  height: 1157
+  title: File:Clamex geschlossen.jpg
+  author: böhringer friedrich
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Clamex_geschlossen.jpg
+  site: Wikimedia Commons
+  alt: The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels tight together.
+  kind: how-it-works
 linear-guides:
 - src: File:Linear-table animated.gif
   file: linear-guides.webp
@@ -3793,9 +4809,10 @@ magnetic-coupling-and-magnetic-gear:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png
-  alt: 'Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole
-    pieces between them'
+  alt: A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of
+    steel pole pieces between them.
   site: Wikimedia Commons
+  kind: cross-section
 mechanical-interlock:
 - src: File:Trapped key interlock switchgear door.JPG
   file: mechanical-interlock.webp
@@ -3836,6 +4853,19 @@ mechanical-interlock:
   alt: A metal plate with a sliding linkage that locks a machine carriage whenever its handle is not in the normal position.
   kind: how-it-works
 melted-plastic-weld:
+- src: openverse:145c184a-9ac5-44b1-9e38-ebd9db87e685
+  file: melted-plastic-weld-03db29.webp
+  width: 800
+  height: 600
+  title: Two 3D printed PLA plastics parts welded together
+  author: Creative Tools
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/33907867@N02/8693068112
+  site: Flickr via Openverse
+  alt: Two 3D-printed PLA parts being welded together with a soldering iron, which melts a strand of green filament into the
+    seam.
+  kind: how-it-works
 - src: File:Kunststoffziehschweissen Schweissschuh.jpg
   file: melted-plastic-weld.webp
   width: 800
@@ -3845,9 +4875,9 @@ melted-plastic-weld:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg
-  alt: A temperature-controlled heat gun fitted with a reducing nozzle and a V-shaped speed-tip shoe, with 4 mm grey PP welding
-    rod
+  alt: A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along.
   site: Wikimedia Commons
+  kind: how-it-works
 metal-brackets-and-plates:
 - src: File:Flat and bent angle brackets.png
   file: metal-brackets-and-plates.webp
@@ -3858,8 +4888,33 @@ metal-brackets-and-plates:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png
-  alt: Drawing of a flat angle bracket on the side of a butt joint and a bent (L) angle bracket on the inside corner
+  alt: A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Joist hangers.jpg
+  file: metal-brackets-and-plates-599218.webp
+  width: 800
+  height: 239
+  title: File:Joist hangers.jpg
+  author: Sarang
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Joist_hangers.jpg
+  site: Wikimedia Commons
+  alt: Three galvanised steel joist hangers of different shapes, punched with rows of nail holes.
+  kind: photo
+- src: File:Gray metallic shelf bracket - 20 x 12 cm - A.jpg
+  file: metal-brackets-and-plates-7fdc4d.webp
+  width: 800
+  height: 600
+  title: File:Gray metallic shelf bracket - 20 x 12 cm - A.jpg
+  author: Fructibus
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Gray_metallic_shelf_bracket_-_20_x_12_cm_-_A.jpg
+  site: Wikimedia Commons
+  alt: A grey steel shelf bracket with a diagonal brace, lying on a wooden surface.
+  kind: photo
 modular-grid-mounting-systems:
 - src: File:Gridfinity drawer and bin.jpg
   file: modular-grid-mounting-systems.webp
@@ -4119,8 +5174,21 @@ ordinary-screw-joint:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Bolted_joint_with_nut.svg
-  alt: Cross-section drawing of two plates clamped by a bolt, washer and nut
+  alt: A cross-section drawing of a bolt passing through clearance holes in two plates and clamping them with a nut.
   site: Wikimedia Commons
+  kind: cross-section
+- src: File:Bolted joint bridge.jpg
+  file: ordinary-screw-joint-e7b02c.webp
+  width: 800
+  height: 533
+  title: File:Bolted joint bridge.jpg
+  author: Thermos
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bolted_joint_bridge.jpg
+  site: Wikimedia Commons
+  alt: A steel gusset plate on a bridge, fixed to the steel members by a group of bolts with their nuts tightened.
+  kind: photo
 origami-mechanisms:
 - src: File:Miura-ori.gif
   file: origami-mechanisms.webp
@@ -4266,11 +5334,38 @@ plain-pivot-and-rolling-bearing:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:BallBearing.gif
-  alt: Animation of a ball bearing turning, with the balls rolling between the rings
+  alt: An animation of a ball bearing seen face on, the balls rolling round between the inner and outer rings as the inner
+    ring turns.
   animated: true
   site: Wikimedia Commons
   still: plain-pivot-and-rolling-bearing.still.webp
   kind: animation
+- src: File:Radial-deep-groove-ball-bearing din625-t1 2rs 120.png
+  file: plain-pivot-and-rolling-bearing-089ef5.webp
+  width: 800
+  height: 1272
+  title: File:Radial-deep-groove-ball-bearing din625-t1 2rs 120.png
+  author: Silberwolf
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Radial-deep-groove-ball-bearing_din625-t1_2rs_120.png
+  site: Wikimedia Commons
+  alt: A render of a deep-groove ball bearing cut open, showing the steel balls in their cage between the inner and outer
+    rings and the rubber seals.
+  kind: cross-section
+- src: File:Revolute Pin Joint.png
+  file: plain-pivot-and-rolling-bearing-eb4706.webp
+  width: 800
+  height: 650
+  title: File:Revolute Pin Joint.png
+  author: I.Elgamal
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Revolute_Pin_Joint.png
+  site: Wikimedia Commons
+  alt: A render of a plain pin joint cut away, a round pin passing through matching holes in a fork and a link so one can
+    turn on the other.
+  kind: cross-section
 planetary-gear-set:
 - src: File:Epicyclic Gearing Stationary Ring.gif
   file: planetary-gear-set.webp
@@ -4296,8 +5391,7 @@ pneumatic-artificial-muscle:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif
-  alt: Animation of a Shadow Air Muscle shortening and fattening as it is inflated (used on Wikipedia's 'Pneumatic artificial
-    muscles' page)
+  alt: An animation of a braided air muscle swelling and getting shorter as air is pumped in, pulling a load up.
   animated: true
   site: Wikimedia Commons
   still: pneumatic-artificial-muscle.still.webp
@@ -4390,6 +5484,19 @@ polyurethane-glue:
   site: Wikimedia Commons
   alt: A bottle of polyurethane glue (Gorilla Glue) standing on a workbench.
   kind: photo
+posable-segmented-arm:
+- src: File:Detail Schwanenhals Leuchte waagerecht.jpg
+  file: posable-segmented-arm.webp
+  width: 497
+  height: 400
+  title: File:Detail Schwanenhals Leuchte waagerecht.jpg
+  author: Phrontis
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Detail_Schwanenhals_Leuchte_waagerecht.jpg
+  site: Wikimedia Commons
+  alt: A close-up of a metal gooseneck lamp arm, a tube made of tightly coiled wire that bends and stays where it is put.
+  kind: photo
 press-fit:
 - src: File:Eingepresste Pins in PCB (unten).jpg
   file: press-fit.webp
@@ -4425,8 +5532,9 @@ press-fit-and-expanding-inserts:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Press-in_Insert.png
-  alt: Photo of a knurled press-in threaded insert machined from free-cutting brass
+  alt: A brass press-in threaded insert with a diamond-knurled outside and a slot that lets it spread as the screw goes in.
   site: Wikimedia Commons
+  kind: photo
 press-stud:
 - src: File:Rivet snap parts.jpg
   file: press-stud.webp
@@ -4437,8 +5545,33 @@ press-stud:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
-  alt: 'Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud'
+  alt: The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap.
   site: Wikimedia Commons
+  kind: photo
+- src: File:DruckknopfInnen.jpg
+  file: press-stud-d71665.webp
+  width: 684
+  height: 684
+  title: File:DruckknopfInnen.jpg
+  author: Simulo
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:DruckknopfInnen.jpg
+  site: Wikimedia Commons
+  alt: The back of a sew-on press-stud socket, showing the two spring wires that grip the stud's neck when it is pushed in.
+  kind: how-it-works
+- src: File:Druckknopf.jpg
+  file: press-stud-697f71.webp
+  width: 800
+  height: 992
+  title: File:Druckknopf.jpg
+  author: Grkauls
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Druckknopf.jpg
+  site: Wikimedia Commons
+  alt: A press stud on a leather strap, the stud on one end and the socket on the other, unfastened.
+  kind: photo
 pressure-regulator:
 - src: File:Single-stage-regulator.svg
   file: pressure-regulator.webp
@@ -4449,9 +5582,22 @@ pressure-regulator:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg
-  alt: Cut-away drawing of a single-stage pressure regulator, where a spring pushes on a diaphragm that opens and closes a
-    small valve between the high-pressure inlet and the low-pressure outlet.
+  alt: A cross-section drawing of a single-stage regulator, the adjusting spring pressing a diaphragm that opens and closes
+    a small poppet valve.
   site: Wikimedia Commons
+  kind: cross-section
+- src: openverse:d1e0b028-d2a7-471e-982b-1a28d26a79df
+  file: pressure-regulator-e896cc.webp
+  width: 800
+  height: 534
+  title: 200bar-High-Pressure-Regulator-Argon__41749
+  author: Public Domain Photos
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/28958738@N06/7304227552
+  site: Flickr via Openverse
+  alt: A brass gas-bottle pressure regulator with two dial gauges, a black adjusting knob and a hose outlet.
+  kind: photo
 pressure-relief-valve:
 - src: File:Relief Valve.png
   file: pressure-relief-valve.webp
@@ -4462,8 +5608,34 @@ pressure-relief-valve:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Relief_Valve.png
-  alt: Schematic cross-section of a conventional spring-loaded pressure relief valve
+  alt: A numbered cross-section drawing of a spring-loaded relief valve, the spring pressing the disc down onto its seat over
+    the inlet.
   site: Wikimedia Commons
+  kind: cross-section
+- src: File:Safetyvalve.png
+  file: pressure-relief-valve-408318.webp
+  width: 800
+  height: 450
+  title: File:Safetyvalve.png
+  author: EugeneZ
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Safetyvalve.png
+  site: Wikimedia Commons
+  alt: A cut-away render of a relief valve, showing the blue spring pushing the red valve onto its seat inside the body.
+  kind: cross-section
+- src: File:Pressure relief valve DN25 on cooling water.jpg
+  file: pressure-relief-valve-4fa9cc.webp
+  width: 800
+  height: 1068
+  title: File:Pressure relief valve DN25 on cooling water.jpg
+  author: RomanM82
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Pressure_relief_valve_DN25_on_cooling_water.jpg
+  site: Wikimedia Commons
+  alt: A blue spring-loaded pressure relief valve with a lifting lever, fitted on top of a cooling-water pipe.
+  kind: photo
 print-in-place-hinge:
 - src: File:Print in place Fidget Cube.jpg
   file: print-in-place-hinge.webp
@@ -4503,6 +5675,20 @@ printed-chainmail-and-tile-fabric:
     so it hangs like cloth.
   site: Wikimedia Commons
   kind: photo
+printed-leaf-spring:
+- src: File:Duisburg, Landschaftspark Duisburg-Nord, Torpedowagen -- 2016 -- 1214.jpg
+  file: printed-leaf-spring.webp
+  width: 800
+  height: 533
+  title: File:Duisburg, Landschaftspark Duisburg-Nord, Torpedowagen -- 2016 -- 1214.jpg
+  author: Dietmar Rabich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Duisburg,_Landschaftspark_Duisburg-Nord,_Torpedowagen_--_2016_--_1214.jpg
+  site: Wikimedia Commons
+  alt: A rusty stacked metal leaf spring under an old railway wagon, its curved steel strips held by a clamp and fixed at
+    each end.
+  kind: photo
 printed-screw-thread:
 - src: openverse:01537f10-f343-4f59-bc86-9e51047e0bae
   file: printed-screw-thread.webp
@@ -4526,8 +5712,47 @@ pulley-system:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Tackles.png
-  alt: Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)
+  alt: A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs
+    on more rope parts.
   site: Wikimedia Commons
+  kind: diagram
+- src: openverse:07f4d021-ab1c-4549-913f-2e15ea57958b
+  file: pulley-system-2d6191.webp
+  width: 334
+  height: 500
+  title: Pulley System
+  author: schnaars
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/12595974@N00/3169924236
+  site: Flickr via Openverse
+  alt: A museum display of wooden pulley blocks with a rope threaded between them, above a drawing of the same set-up.
+  kind: how-it-works
+- src: File:2025 Pulley (Windmill in Xaghra).jpg
+  file: pulley-system-6f0a1c.webp
+  width: 800
+  height: 1067
+  title: File:2025 Pulley (Windmill in Xaghra).jpg
+  author: Qasinka
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:2025_Pulley_(Windmill_in_Xaghra).jpg
+  site: Wikimedia Commons
+  alt: An old wooden pulley block hanging from a stone wall inside a windmill, with its rope running down.
+  kind: photo
+push-and-turn-child-resistant-cap:
+- src: File:Aspirin1.jpg
+  file: push-and-turn-child-resistant-cap.webp
+  width: 800
+  height: 536
+  title: File:Aspirin1.jpg
+  author: User Mosesofmason on zh.Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Aspirin1.jpg
+  site: Wikimedia Commons
+  alt: A bottle of aspirin tablets with a white push-down-and-turn child-resistant cap, next to its box.
+  kind: photo
 pva-wood-glue:
 - src: File:Using wood glue.JPG
   file: pva-wood-glue.webp
@@ -4563,8 +5788,22 @@ quick-couplers-for-tubes-and-hoses:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Rtc-serie-171.08-gruppe.jpg
-  alt: Pneumatic safety couplings with two-stage release to ISO 4414, with mating nipples (plugs)
+  alt: Shiny steel air-line quick couplers, the round sockets with their sliding release sleeves next to the matching plug
+    ends.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Gardena hose pistol.jpg
+  file: quick-couplers-for-tubes-and-hoses-f59259.webp
+  width: 800
+  height: 600
+  title: File:Gardena hose pistol.jpg
+  author: User:Jarlhelm
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Gardena_hose_pistol.jpg
+  site: Wikimedia Commons
+  alt: A garden hose spray gun and a set of grey and orange snap-on hose connectors lying on brick paving.
+  kind: photo
 quick-release-hooks:
 - src: File:3Ring release animation.gif
   file: quick-release-hooks.webp
@@ -4575,8 +5814,8 @@ quick-release-hooks:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif
-  alt: 'Animation of a three-ring release unfolding: the cord loop freed from the cable, then the small, middle and large
-    rings cascading apart so the riser comes off the harness'
+  alt: An animation of a parachute three-ring release, where pulling a small cord frees a loop and the stacked rings slip
+    apart one after another.
   animated: true
   site: Wikimedia Commons
   still: quick-release-hooks.still.webp
@@ -4591,8 +5830,34 @@ quick-release-pin:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif
-  alt: Diagram of how a ball lock pin works (German labels), used on the German Wikipedia article 'Kugelsperrbolzen'
+  alt: A drawing of a T-handled ball-lock pin pushed into a hole through two plates, before and after it locks.
   site: Wikimedia Commons
+  kind: diagram
+quick-release-plate:
+- src: File:Manfrotto 323 quick release clamp open with 200PL plate.jpg
+  file: quick-release-plate.webp
+  width: 800
+  height: 463
+  title: File:Manfrotto 323 quick release clamp open with 200PL plate.jpg
+  author: Lucasbosch
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manfrotto_323_quick_release_clamp_open_with_200PL_plate.jpg
+  site: Wikimedia Commons
+  alt: A camera quick-release clamp with its lever open, next to the separate plate that slides into it.
+  kind: how-it-works
+- src: File:NEEWER Arca Swiss convertible plate; April 2019 (01).jpg
+  file: quick-release-plate-ad4d03.webp
+  width: 800
+  height: 449
+  title: File:NEEWER Arca Swiss convertible plate; April 2019 (01).jpg
+  author: MIKI Yoshihito
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:NEEWER_Arca_Swiss_convertible_plate;_April_2019_(01).jpg
+  site: Wikimedia Commons
+  alt: A black Arca-Swiss style clamp with a screw knob that squeezes the bevelled edges of a plate.
+  kind: photo
 quick-return-mechanism:
 - src: File:Quick Return Mechanism.jpg
   file: quick-return-mechanism.webp
@@ -4758,9 +6023,9 @@ ratcheting-reel-closure:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg
-  alt: 'Photo of a snowboard boot with two dial lace reels: the front dial tightens the shin area and the side dial tightens
-    the forefoot'
+  alt: A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces.
   site: Wikimedia Commons
+  kind: photo
 reciprocal-frame:
 - src: File:Three stick reciprocal frame.JPG
   file: reciprocal-frame.webp
@@ -4876,8 +6141,33 @@ rod-end-and-ball-link:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Heim_Joint.svg
-  alt: 'Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft'
+  alt: A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Female Heim Joint.png
+  file: rod-end-and-ball-link-a5f8cd.webp
+  width: 211
+  height: 282
+  title: File:Female Heim Joint.png
+  author: Masonjan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Female_Heim_Joint.png
+  site: Wikimedia Commons
+  alt: A metal female rod end, a ring holding a swivelling ball with a hole, on a body threaded inside.
+  kind: photo
+- src: File:Tie rod end.jpeg
+  file: rod-end-and-ball-link-5694ec.webp
+  width: 800
+  height: 749
+  title: File:Tie rod end.jpeg
+  author: Craig Howell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Tie_rod_end.jpeg
+  site: Wikimedia Commons
+  alt: A car tie rod end fitted under a car, its ball joint held in a rubber boot and bolted through the steering arm.
+  kind: how-it-works
 roller-clutch:
 - src: File:Freewheel en.svg
   file: roller-clutch.webp
@@ -4953,8 +6243,33 @@ rope-grab-and-ascender:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg
-  alt: Two handled rope ascenders side by side, one clipped onto a red climbing rope with its toothed cam closed on the rope.
+  alt: Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Gibbs Ascender.jpg
+  file: rope-grab-and-ascender-1a2d8f.webp
+  width: 800
+  height: 1067
+  title: File:Gibbs Ascender.jpg
+  author: Aglsilva at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Gibbs_Ascender.jpg
+  site: Wikimedia Commons
+  alt: An older metal Gibbs ascender with its spring-loaded cam lever and pin, with a red cord loop.
+  kind: how-it-works
+- src: File:Ascenders-cams.jpg
+  file: rope-grab-and-ascender-9937ea.webp
+  width: 800
+  height: 187
+  title: File:Ascenders-cams.jpg
+  author: Luca Bergamasco
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Ascenders-cams.jpg
+  site: Wikimedia Commons
+  alt: A side view of two chest ascenders showing the toothed cam that pinches the rope.
+  kind: how-it-works
 rope-splices:
 - src: File:Splitsar.png
   file: rope-splices.webp
@@ -4965,8 +6280,33 @@ rope-splices:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Splitsar.png
-  alt: 'Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice'
+  alt: A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Rope Eye splice 2.jpg
+  file: rope-splices-9861c4.webp
+  width: 800
+  height: 1713
+  title: File:Rope Eye splice 2.jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Rope_Eye_splice_2.jpg
+  site: Wikimedia Commons
+  alt: A three-strand rope bent into a loop, with the unlaid end strands being tucked into the main rope to make an eye splice.
+  kind: how-it-works
+- src: File:Rope Eye splice finished.jpg
+  file: rope-splices-c8c180.webp
+  width: 800
+  height: 1634
+  title: File:Rope Eye splice finished.jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Rope_Eye_splice_finished.jpg
+  site: Wikimedia Commons
+  alt: A finished eye splice, a fixed loop in a pale three-strand rope with the tucked strands trimmed.
+  kind: photo
 rotary-air-actuator:
 - src: File:Verin rotatif principe.svg
   file: rotary-air-actuator.webp
@@ -4977,9 +6317,23 @@ rotary-air-actuator:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg
-  alt: 'Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth
-    partly drawn); used on the Wikipedia ''Rotary actuator'' article'
+  alt: A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns
+    a gear on the output shaft.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Pneumatic Rack and Pinion Actuators.JPG
+  file: rotary-air-actuator-8aad5c.webp
+  width: 800
+  height: 1078
+  title: File:Pneumatic Rack and Pinion Actuators.JPG
+  author: Z22
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Pneumatic_Rack_and_Pinion_Actuators.JPG
+  site: Wikimedia Commons
+  alt: Two grey pneumatic rack-and-pinion actuators mounted on top of big valves in a blue water pipe, turning the valves
+    open and shut.
+  kind: photo
 schmidt-coupling:
 - src: File:SchmidtCouplingGif.gif
   file: schmidt-coupling.webp
@@ -4990,13 +6344,51 @@ schmidt-coupling:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
-  alt: Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in
-    the Wikipedia article)
+  alt: An animation of a Schmidt coupling, three discs joined by sets of parallel links, passing turning between two shafts
+    that are out of line.
   animated: true
   site: Wikimedia Commons
   still: schmidt-coupling.still.webp
   kind: animation
+- src: openverse:a0374c29-ef03-439b-ab2e-bd2a871f4d14
+  file: schmidt-coupling-6e88d1.webp
+  width: 334
+  height: 500
+  title: Meccanograph Schmidt coupling 2
+  author: Elsie esq.
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/61132483@N00/8201590232
+  site: Flickr via Openverse
+  alt: A Schmidt coupling built from Meccano, with a blue disc linked to the next disc by metal strips.
+  kind: photo
+- src: openverse:68c3cb72-ec76-4bc0-b833-01d534e74bd2
+  file: schmidt-coupling-e71789.webp
+  width: 333
+  height: 500
+  title: Meccanograph Schmidt coupling
+  author: Elsie esq.
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/61132483@N00/8201589874
+  site: Flickr via Openverse
+  alt: A side view of the same Meccano Schmidt coupling, showing the parallel links between its discs.
+  kind: photo
 scissor-linkage:
+- src: File:Pantograph Mirror.gif
+  file: scissor-linkage-826142.webp
+  width: 440
+  height: 440
+  title: File:Pantograph Mirror.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif
+  site: Wikimedia Commons
+  alt: An animation of a wall mirror on a folding scissor arm, the crossed bars stretching out and folding back flat.
+  kind: animation
+  animated: true
+  still: scissor-linkage-826142.still.webp
 - src: File:TL 2000 scissor lift.jpg
   file: scissor-linkage.webp
   width: 800
@@ -5006,8 +6398,9 @@ scissor-linkage:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg
-  alt: A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.
+  alt: An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform.
   site: Wikimedia Commons
+  kind: photo
 scotch-yoke:
 - src: File:Yugo Escocés - Scotch yoke animation.gif
   file: scotch-yoke.webp
@@ -5018,12 +6411,36 @@ scotch-yoke:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Yugo_Escoc%C3%A9s_-_Scotch_yoke_animation.gif
-  alt: An animated model of a Scotch yoke, where a pin on a turning disc slides in the slot of a bar and pushes the bar back
-    and forth.
+  alt: An animation of a Scotch yoke, a pin on a turning wheel sliding up and down in a slot so the bar it sits in moves straight
+    back and forth.
   animated: true
   site: Wikimedia Commons
   still: scotch-yoke.still.webp
   kind: animation
+- src: File:Scotch Yoke Mechanism.jpg
+  file: scotch-yoke-c5ec7b.webp
+  width: 800
+  height: 767
+  title: File:Scotch Yoke Mechanism.jpg
+  author: Aliva Sahoo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Scotch_Yoke_Mechanism.jpg
+  site: Wikimedia Commons
+  alt: A science museum display of a Scotch yoke, a red crank pin in the slot of a yellow sliding bar behind glass.
+  kind: how-it-works
+- src: File:Scotch Yoke Mechanism - NMST - IIT Kharagpur - West Midnapore 2015-09-28 4601.JPG
+  file: scotch-yoke-39cb53.webp
+  width: 800
+  height: 1203
+  title: File:Scotch Yoke Mechanism - NMST - IIT Kharagpur - West Midnapore 2015-09-28 4601.JPG
+  author: Biswarup Ganguly
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Scotch_Yoke_Mechanism_-_NMST_-_IIT_Kharagpur_-_West_Midnapore_2015-09-28_4601.JPG
+  site: Wikimedia Commons
+  alt: An old metal working model of a Scotch yoke on a wooden base, with the slotted bar guided between upright frames.
+  kind: photo
 screw-in-threaded-insert:
 - src: File:Taplok Insert.jpg
   file: screw-in-threaded-insert.webp
@@ -5034,8 +6451,10 @@ screw-in-threaded-insert:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg
-  alt: Photo of a self-tapping solid insert with cutting edges on its outside thread
+  alt: A screw-in threaded insert, a short metal sleeve with a coarse outside thread for the soft material and a fine machine-screw
+    thread inside.
   site: Wikimedia Commons
+  kind: photo
 screw-terminal:
 - src: File:Screw Terminals. Basic and Compression Types..jpg
   file: screw-terminal.webp
@@ -5046,9 +6465,34 @@ screw-terminal:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg
-  alt: A basic terminal with wires held under the screw heads beside a clamping-plate (compression) terminal with wires held
-    between plates
+  alt: Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping
+    plate onto the wire.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Australian Set Screw Connectors.jpg
+  file: screw-terminal-19ed0c.webp
+  width: 800
+  height: 1375
+  title: File:Australian Set Screw Connectors.jpg
+  author: Fredquint
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Australian_Set_Screw_Connectors.jpg
+  site: Wikimedia Commons
+  alt: Stripped wires pushed into small brass tubes and held by set screws, next to the empty connectors on squared paper.
+  kind: how-it-works
+- src: openverse:71d2271a-29b6-4b2c-88a7-925b9677116e
+  file: screw-terminal-f7b209.webp
+  width: 500
+  height: 500
+  title: Screw Terminals 3.5mm Pitch (3-Pin)
+  author: SparkFunElectronics
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/41898857@N04/16538538203
+  site: Flickr via Openverse
+  alt: A black three-way circuit-board screw terminal block, each opening with a screw on top and a pin underneath.
+  kind: photo
 scroll-mechanism:
 - src: File:ThreeJawChuckKey.jpg
   file: scroll-mechanism.webp
@@ -5059,9 +6503,9 @@ scroll-mechanism:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg
-  alt: Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll
-    plate, and the chuck key
+  alt: A three-jaw lathe chuck with its key, the key turns the scroll plate inside to move all three jaws together.
   site: Wikimedia Commons
+  kind: photo
 sear-and-trigger:
 - src: File:Noix corde carreau arbalette.svg
   file: sear-and-trigger.webp
@@ -5072,8 +6516,34 @@ sear-and-trigger:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg
-  alt: 'Labelled diagram of a medieval crossbow lock: the nut, the string, the bolt (quarrel) and the trigger'
+  alt: A drawing of a crossbow lock, the round nut holding the string and bolt, with the trigger lever that lets the nut turn.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Han crossbow trigger mechanism.jpg
+  file: sear-and-trigger-06bbaa.webp
+  width: 800
+  height: 533
+  title: File:Han crossbow trigger mechanism.jpg
+  author: Flickr user Gary Todd
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Han_crossbow_trigger_mechanism.jpg
+  site: Wikimedia Commons
+  alt: Bronze trigger mechanisms from ancient Chinese crossbows, laid out on a grey table, some assembled and some in pieces.
+  kind: photo
+self-centring-cone-and-socket:
+- src: File:Morse Taper No 2.jpg
+  file: self-centring-cone-and-socket.webp
+  width: 800
+  height: 600
+  title: File:Morse Taper No 2.jpg
+  author: DerrickOswald at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg
+  site: Wikimedia Commons
+  alt: A steel Morse taper shank, a long gently tapering cone, next to a tape measure.
+  kind: photo
 self-clinching-fastener:
 - src: File:17-SwageNuts.JPG
   file: self-clinching-fastener.webp
@@ -5098,8 +6568,21 @@ self-closing-hinges:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG
-  alt: A double-acting spring hinge on a door, with the two spring barrels that swing the door shut.
+  alt: A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Door hinge with spring less self closing mechanism.jpg
+  file: self-closing-hinges-dd1fa0.webp
+  width: 800
+  height: 1200
+  title: File:Door hinge with spring less self closing mechanism.jpg
+  author: Tobias ToMar Maier
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Door_hinge_with_spring_less_self_closing_mechanism.jpg
+  site: Wikimedia Commons
+  alt: A rising door hinge with a spiral-cut knuckle, so the door lifts as it opens and its weight swings it shut.
+  kind: how-it-works
 self-folding-print:
 - src: File:4D Printing - gripper.jpg
   file: self-folding-print.webp
@@ -5202,9 +6685,21 @@ sew-on-part:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg
-  alt: 'Three sew-through buttons with holes next to a shank button with a loop on the back: the two basic ways a part is
-    made sewable'
+  alt: Plastic and fabric-covered buttons, some with sewing holes through them and some with a loop (shank) on the back.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Hook and eye clasp.JPG
+  file: sew-on-part-807c06.webp
+  width: 800
+  height: 600
+  title: File:Hook and eye clasp.JPG
+  author: Eitan Ferman
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Hook_and_eye_clasp.JPG
+  site: Wikimedia Commons
+  alt: A metal hook and eye clasp, each piece bent from wire with small loops for sewing it to fabric.
+  kind: photo
 sewn-seams-and-hand-stitches:
 - src: File:Lockstitch - Anthony Atkielski.png
   file: sewn-seams-and-hand-stitches.webp
@@ -5357,8 +6852,34 @@ side-release-buckle:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg
-  alt: Drawing of the male and female halves of a side-release buckle
+  alt: A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side
+    windows.
   site: Wikimedia Commons
+  kind: diagram
+- src: openverse:f82ce718-d923-48c0-8864-137ce1d618c8
+  file: side-release-buckle-fe0bf4.webp
+  width: 800
+  height: 450
+  title: Paracord Bracelets
+  author: GA-Kayaker
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/29053927@N05/9721202956
+  site: Flickr via Openverse
+  alt: Three paracord bracelets, each closed with a small plastic side-release buckle.
+  kind: photo
+- src: openverse:3822bbf1-9e78-4329-a501-d00f7ba4248f
+  file: side-release-buckle-51e990.webp
+  width: 800
+  height: 534
+  title: Hardware
+  author: mikest
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/99304940@N00/361277758
+  site: Flickr via Openverse
+  alt: Bag hardware laid out on a table, including plastic and metal side-release buckles next to snap hooks.
+  kind: photo
 silicone-and-ms-polymer-adhesive-sealants:
 - src: File:Caulking.jpg
   file: silicone-and-ms-polymer-adhesive-sealants.webp
@@ -5465,8 +6986,9 @@ slip-ring-and-rotary-union:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg
-  alt: 'Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled'
+  alt: A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them.
   site: Wikimedia Commons
+  kind: photo
 slotted-adjustment-with-a-jacking-screw:
 - src: File:Tendeur courroie alternateur automobile.jpg
   file: slotted-adjustment-with-a-jacking-screw.webp
@@ -5623,8 +7145,9 @@ solvent-welding:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Water_Ram_Repair_PVC_Cement.jpg
-  alt: Photo of clear PVC cement brushed over dried primer on a pipe and fitting just before they are pushed together
+  alt: A PVC pipe being joined with solvent cement during a pump repair, with the can of cement beside it.
   site: Wikimedia Commons
+  kind: how-it-works
 speed-governor:
 - src: File:Regulador mecánico.png
   file: speed-governor.webp
@@ -5635,9 +7158,22 @@ speed-governor:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png
-  alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc
-    against a brake.
+  alt: A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Grammoantrieb.jpg
+  file: speed-governor-bd5306.webp
+  width: 800
+  height: 487
+  title: File:Grammoantrieb.jpg
+  author: Ulfbastel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Grammoantrieb.jpg
+  site: Wikimedia Commons
+  alt: A wind-up gramophone motor out of its case, with the spring barrel at the back and the spinning-weight governor at
+    the front.
+  kind: how-it-works
 spiral-power-spring:
 - src: File:Alarm clock mainspring.JPG
   file: spiral-power-spring.webp
@@ -5648,9 +7184,21 @@ spiral-power-spring:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Alarm_clock_mainspring.JPG
-  alt: Photo of an open (not cased) mainspring in a 1950s alarm clock, with its outer end hooked to a post and the winding
-    arbor at the centre
+  alt: The coiled steel mainspring inside an old alarm clock movement, wound round its centre shaft.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Mainspring Chinese uncoiled.jpg
+  file: spiral-power-spring-00c62b.webp
+  width: 800
+  height: 385
+  title: File:Mainspring Chinese uncoiled.jpg
+  author: Hustvedt
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Mainspring_Chinese_uncoiled.jpg
+  site: Wikimedia Commons
+  alt: A watch mainspring taken out and lying loose, showing the flat steel strip's natural S-shaped curl.
+  kind: photo
 spline-shaft:
 - src: File:Cardan-joint spline-shaft 3D transparent animated.gif
   file: spline-shaft-174a14.webp
@@ -5894,8 +7442,9 @@ spring-steel-push-on-fasteners:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg
-  alt: 'Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw'
+  alt: Two spring-steel push-on clips, flat stamped metal with angled teeth round a centre hole that grip a shaft or stud.
   site: Wikimedia Commons
+  kind: photo
 spur-gear-pair-and-gear-train:
 - src: File:Animated two spur gears 1 2.gif
   file: spur-gear-pair-and-gear-train.webp
@@ -5960,8 +7509,33 @@ staples-for-wood-and-fabric:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Basic_staple_diagram_(named_parts).svg
-  alt: A labelled drawing of a staple naming its crown and legs
+  alt: A drawing of a staple with its flat top (crown), two legs and pointed ends (teeth) labelled.
   site: Wikimedia Commons
+  kind: diagram
+- src: openverse:c33f091c-a695-4f1c-860e-2069e62291f8
+  file: staples-for-wood-and-fabric-111f98.webp
+  width: 800
+  height: 600
+  title: cardboard stapled
+  author: Mr Thinktank
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/34621580@N00/4047870809
+  site: Flickr via Openverse
+  alt: A row of staples driven along the edge of a sheet of brown board, holding it down.
+  kind: how-it-works
+- src: File:HMT53 57.JPG
+  file: staples-for-wood-and-fabric-4bf291.webp
+  width: 800
+  height: 484
+  title: File:HMT53 57.JPG
+  author: Horst
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:HMT53_57.JPG
+  site: Wikimedia Commons
+  alt: Two Bosch hammer tackers, tools that drive a staple each time they are swung against the work.
+  kind: photo
 stopper-knots-and-cord-end-anchors:
 - src: File:Figure-eight knot.svg
   file: stopper-knots-and-cord-end-anchors.webp
@@ -6202,9 +7776,9 @@ syringe-hydraulics:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Hydraulic_transmission_between_two_syringes.svg
-  alt: Two syringes of different sizes joined by a liquid-filled tube, showing the small plunger moving a long way while the
-    big one moves a short way with more force.
+  alt: A drawing of syringes joined by a liquid-filled tube, where pushing one plunger pushes the other plunger out.
   site: Wikimedia Commons
+  kind: diagram
 syringe-pump:
 - src: File:Syringe pump.jpg
   file: syringe-pump.webp
@@ -6383,8 +7957,33 @@ temporary-sheet-fastener:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
-  alt: A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding
+  alt: A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one.
   site: Wikimedia Commons
+  kind: how-it-works
+- src: File:Cleko.jpg
+  file: temporary-sheet-fastener-d4782e.webp
+  width: 800
+  height: 600
+  title: File:Cleko.jpg
+  author: FlugKerl2
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cleko.jpg
+  site: Wikimedia Commons
+  alt: Dozens of copper-coloured Cleco pins holding the skin onto an aircraft wing while it is being riveted.
+  kind: how-it-works
+- src: File:Cleco Tool for fitting temporary fasteners.jpg
+  file: temporary-sheet-fastener-651b3d.webp
+  width: 800
+  height: 578
+  title: File:Cleco Tool for fitting temporary fasteners.jpg
+  author: Thermofan
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Cleco_Tool_for_fitting_temporary_fasteners.jpg
+  site: Wikimedia Commons
+  alt: The special pliers used to fit Cleco pins, with a pin held in their jaws.
+  kind: photo
 tendon-driven-joint:
 - src: File:E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington
     - London - DSC01581.jpg
@@ -6449,8 +8048,22 @@ tensioning-and-adjustable-hitches:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg
-  alt: A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.
+  alt: A trucker's hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing
+    tight.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:AdjustableHitchVariations.jpg
+  file: tensioning-and-adjustable-hitches-9326ba.webp
+  width: 800
+  height: 1064
+  title: File:AdjustableHitchVariations.jpg
+  author: David J. Fred
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:AdjustableHitchVariations.jpg
+  site: Wikimedia Commons
+  alt: Six blue cord hitches tied round a green rope, rolling hitches and similar adjustable gripping knots.
+  kind: photo
 tesla-valve:
 - src: File:Tesla valve principle.svg
   file: tesla-valve.webp
@@ -6576,8 +8189,33 @@ threaded-rod-and-studs:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Threaded_rods_of_different_sizes.png
-  alt: A shop rack of threaded rod in several diameters
+  alt: Lengths of threaded rod in several thicknesses, threaded all along their length.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Baumchirurgie Klosterpark Weende 20231219 152622.jpg
+  file: threaded-rod-and-studs-20cfa1.webp
+  width: 800
+  height: 1067
+  title: File:Baumchirurgie Klosterpark Weende 20231219 152622.jpg
+  author: Plumerianer
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Baumchirurgie_Klosterpark_Weende_20231219_152622.jpg
+  site: Wikimedia Commons
+  alt: Threaded rods fitted across a split in a hollow chestnut tree trunk, with nuts pulling the two sides together.
+  kind: how-it-works
+- src: File:Hanger bolt.jpg
+  file: threaded-rod-and-studs-fe5889.webp
+  width: 800
+  height: 545
+  title: File:Hanger bolt.jpg
+  author: Milliped
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Hanger_bolt.jpg
+  site: Wikimedia Commons
+  alt: A hanger bolt (a stud) with a wood-screw thread at one end and a machine thread for a nut at the other.
+  kind: photo
 toggle-clamp:
 - src: File:Toggle-clamp manual horizontal 3D animated.gif
   file: toggle-clamp.webp
@@ -6629,8 +8267,21 @@ tool-free-fasteners:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg
-  alt: Photo of three wing nuts of different styles
+  alt: Metal wing nuts, each with two flat wings you can turn with your fingers.
   site: Wikimedia Commons
+  kind: photo
+- src: File:HitchPin.jpg
+  file: tool-free-fasteners-a5b5f8.webp
+  width: 276
+  height: 248
+  title: File:HitchPin.jpg
+  author: Chris Cross
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:HitchPin.jpg
+  site: Wikimedia Commons
+  alt: A hitch pin with a ring handle, held in place by a springy R-shaped wire clip through its end.
+  kind: photo
 tripod-and-stand-screw-mount:
 - src: File:Screw Head - Tripod screw-01.jpg
   file: tripod-and-stand-screw-mount.webp
@@ -6987,9 +8638,22 @@ venturi-vacuum-generator:
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg
-  alt: 'Cross-section diagram of an ejector: driving nozzle, side suction inlet, mixing section and diffuser (used on Wikipedia''s
-    ''Vacuum ejector'' page)'
+  alt: A cut-away drawing of an ejector, a fast jet from a nozzle drawing gas in through a side port and out through a widening
+    outlet.
   site: Wikimedia Commons
+  kind: diagram
+- src: File:Aspirator.jpg
+  file: venturi-vacuum-generator-ae031a.webp
+  width: 237
+  height: 598
+  title: File:Aspirator.jpg
+  author: Spatula Tzar at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Aspirator.jpg
+  site: Wikimedia Commons
+  alt: A brass lab aspirator, a T-shaped tube that fits on a tap so the running water sucks air in through its side arm.
+  kind: photo
 virtual-pivot-linkage:
 - src: File:Scharnier 02.gif
   file: virtual-pivot-linkage.webp
@@ -7057,8 +8721,9 @@ wall-plug:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wall_plugs_plastic_(cropped).jpg
-  alt: Photo of ribbed plastic wall plugs
+  alt: Plastic wall plugs, ribbed sleeves with split ends that spread out when a screw is driven in.
   site: Wikimedia Commons
+  kind: photo
 wave-and-disc-springs:
 - src: File:Washerstack.png
   file: wave-and-disc-springs.webp
@@ -7069,8 +8734,9 @@ wave-and-disc-springs:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Washerstack.png
-  alt: 'Belleville spring stacking configurations: single, parallel, series and series-parallel'
+  alt: A stack of cone-shaped disc springs on a shaft, some facing one way and some the other.
   site: Wikimedia Commons
+  kind: diagram
 weight-activated-gripping-tongs:
 - src: File:A lewis in Hainan - 01.jpg
   file: weight-activated-gripping-tongs.webp
@@ -7157,8 +8823,21 @@ wire-end-ferrule:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg
-  alt: Insulated and uninsulated wire ferrules next to a ferrule crimping plier
+  alt: Wire-end ferrules, thin metal tubes, some with coloured plastic collars and some bare.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Ca 1990 sample assortment of DIN 46228 T4 wire ferrules for electrical conductors by GKV Graupner Germany.jpg
+  file: wire-end-ferrule-195f8c.webp
+  width: 800
+  height: 730
+  title: File:Ca 1990 sample assortment of DIN 46228 T4 wire ferrules for electrical conductors by GKV Graupner Germany.jpg
+  author: R. Henrik Nilsson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ca_1990_sample_assortment_of_DIN_46228_T4_wire_ferrules_for_electrical_conductors_by_GKV_Graupner_Germany.jpg
+  site: Wikimedia Commons
+  alt: An assortment of colour-coded wire ferrules spilling from a small plastic bag.
+  kind: photo
 wire-rope-terminations:
 - src: File:Wire rope with thimble and ferrule.jpg
   file: wire-rope-terminations.webp
@@ -7243,8 +8922,33 @@ wire-wrap:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
-  alt: Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts
+  alt: Wire wrapped in tight coils round square metal posts on the back of a circuit board.
   site: Wikimedia Commons
+  kind: photo
+- src: File:Drahtwickelpistole-wires hg.jpg
+  file: wire-wrap-008b63.webp
+  width: 800
+  height: 446
+  title: File:Drahtwickelpistole-wires hg.jpg
+  author: Hannes Grobe
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Drahtwickelpistole-wires_hg.jpg
+  site: Wikimedia Commons
+  alt: A row of square pins, each with a neat coil of wire wound round its base.
+  kind: how-it-works
+- src: File:Manual wire wrap tool and wire wrap wire in various colours.jpg
+  file: wire-wrap-fdc755.webp
+  width: 800
+  height: 310
+  title: File:Manual wire wrap tool and wire wrap wire in various colours.jpg
+  author: User Mike1024 on en.wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Manual_wire_wrap_tool_and_wire_wrap_wire_in_various_colours.jpg
+  site: Wikimedia Commons
+  alt: A hand wire-wrap tool, a small pen-like tube, next to loops of thin coloured wire-wrap wire.
+  kind: photo
 wood-screw:
 - src: File:Wood screw with legend.svg
   file: wood-screw.webp

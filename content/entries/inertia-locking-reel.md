@@ -134,11 +134,22 @@ pictures:
   site: Wikimedia Commons
   kind: how-it-works
   drawn: false
+- file: inertia-locking-reel-a9057c.webp
+  title: File:Inertial reel belt.jpg
+  author: A7N8X
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg
+  site: Wikimedia Commons
+  alt: A seat-belt retractor, a black cylindrical reel housing with the belt webbing running out of it, fitted in an old car.
+  kind: photo
+  drawn: false
 glossary: [self-locking, ratchet, pawl, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/inertia-locking-reel.webp" alt="A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg">Intertial-reel</a> by Liftarn, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/inertia-locking-reel-a9057c.webp" alt="A seat-belt retractor, a black cylindrical reel housing with the belt webbing running out of it, fitted in an old car." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg">Inertial reel belt</a> by A7N8X, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A spring-return reel whose spool turns freely for slow movements, but whose built-in inertia sensor (a swinging pendulum, a rolling ball, or a flyweight or inertia wheel on the spool) throws a catch into [ratchet](../glossary.md#ratchet) teeth to lock it the moment the line is jerked or the vehicle decelerates sharply.

@@ -181,11 +181,22 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: tensioning-and-adjustable-hitches-9326ba.webp
+  title: File:AdjustableHitchVariations.jpg
+  author: David J. Fred
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:AdjustableHitchVariations.jpg
+  site: Wikimedia Commons
+  alt: Six blue cord hitches tied round a green rope, rolling hitches and similar adjustable gripping knots.
+  kind: photo
+  drawn: false
 glossary: [ratchet, mechanical-advantage, form-fit--force-fit--material-bond, creep]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/tensioning-and-adjustable-hitches.webp" alt="A trucker&#x27;s hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing tight."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg">Hitch-truckers-ABoK 1514-USCG</a> by USCG PTC Developer, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tensioning-and-adjustable-hitches-9326ba.webp" alt="Six blue cord hitches tied round a green rope, rolling hitches and similar adjustable gripping knots." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:AdjustableHitchVariations.jpg">AdjustableHitchVariations</a> by David J. Fred, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Knots that tension a line and hold it with no hardware: the trucker's hitch ties a loop into the rope that works like a pulley so you can haul a lashing tight, while friction hitches such as the taut-line, rolling, adjustable grip and Prusik hitches wrap round a rope or pole, grip when the line is loaded and slide by hand when it is slack, so the line can be tightened or moved again later.

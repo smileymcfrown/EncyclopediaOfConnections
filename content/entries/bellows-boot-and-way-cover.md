@@ -164,12 +164,24 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: bellows-boot-and-way-cover-f1df48.webp
+  title: File:Fahrzeugtechnik Vorderachse.jpg
+  author: Btr
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
+  site: Wikimedia Commons
+  alt: A car's front wheel hub with the wheel removed, showing the pleated rubber boot covering the drive shaft joint where
+    it meets the hub.
+  kind: photo
+  drawn: false
 glossary: [axial--radial, stroke, actuator, form-fit--force-fit--material-bond, brittle--ductile, shore-hardness, overhang--bridging,
   o-ring, gland]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/bellows-boot-and-way-cover.webp" alt="The black pleated rubber boot on a car drive shaft joint, held on by a metal band clamp, with a split in one of its folds."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg">2008-04-23 Cracked CV boot</a> by Ildar Sagdejev (Specious), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bellows-boot-and-way-cover-f1df48.webp" alt="A car&#x27;s front wheel hub with the wheel removed, showing the pleated rubber boot covering the drive shaft joint where it meets the hub." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg">Fahrzeugtechnik Vorderachse</a> by Btr, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A flexible, pleated sleeve clamped to a fixed part at one end and to the moving part at the other, so its folds open and close as the part slides or bends, keeping dirt, chips and water out and grease in without any rubbing seal.

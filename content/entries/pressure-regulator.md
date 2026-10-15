@@ -157,12 +157,23 @@ pictures:
   site: Wikimedia Commons
   kind: cross-section
   drawn: false
+- file: pressure-regulator-e896cc.webp
+  title: 200bar-High-Pressure-Regulator-Argon__41749
+  author: Public Domain Photos
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/28958738@N06/7304227552
+  site: Flickr via Openverse
+  alt: A brass gas-bottle pressure regulator with two dial gauges, a black adjusting knob and a hose outlet.
+  kind: photo
+  drawn: false
 glossary: [oscillating, actuator, solenoid, cantilever, damping, hysteresis, boss, repeatability--accuracy, creep, infill,
   o-ring, check-valve, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/pressure-regulator.webp" alt="A cross-section drawing of a single-stage regulator, the adjusting spring pressing a diaphragm that opens and closes a small poppet valve."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Single-stage-regulator.svg">Single-stage-regulator</a> by Mintrick (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pressure-regulator-e896cc.webp" alt="A brass gas-bottle pressure regulator with two dial gauges, a black adjusting knob and a hose outlet." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/28958738@N06/7304227552">200bar-High-Pressure-Regulator-Argon__41749</a> by Public Domain Photos, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A self-adjusting valve with a spring-loaded diaphragm that lowers a high supply pressure to a steady working pressure you set with a knob, opening a little more as air is used and closing as pressure builds, so tools, cylinders and soft [actuators](../glossary.md#actuator) only get the pressure they need.

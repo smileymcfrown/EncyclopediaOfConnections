@@ -151,11 +151,22 @@ pictures:
     behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just behind the last ridge so the tube can''t
     slide off.'
   drawn: true
+- file: hose-barb.webp
+  title: 20mm female hose barb
+  author: Joseph Sanchez
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:3179198
+  site: Thingiverse via Openverse
+  alt: A rendered 3D-printable hose barb in blue plastic, a ridged spigot on one end and a threaded socket on the other.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, collet, chamfer--fillet, perimeters, infill, o-ring, gland, check-valve]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/hose-barb.svg" alt="Cut-away of a soft tube pushed onto a hose barb fitting: the tube stretches up each sloping ridge, springs back down behind its sharp edge to squeeze the plain stem and seal, and a clamp sits just behind the last ridge so the tube can&#x27;t slide off."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hose-barb.webp" alt="A rendered 3D-printable hose barb in blue plastic, a ridged spigot on one end and a threaded socket on the other." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.thingiverse.com/thing:3179198">20mm female hose barb</a> by Joseph Sanchez, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, from Thingiverse via Openverse.</figcaption></figure>
 </div>
 
 A ridged spigot (hose barb) that a soft tube is stretched over, so the tube's own elasticity grips the ridges and seals the joint for low-pressure air, water or other fluids, with an optional clamp or cable tie behind the barb for extra hold.

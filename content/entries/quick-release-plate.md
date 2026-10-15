@@ -143,12 +143,34 @@ pictures:
     under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so the sloping faces wedge the plate
     sideways and down onto the clamp base.'
   drawn: true
+- file: quick-release-plate.webp
+  title: File:Manfrotto 323 quick release clamp open with 200PL plate.jpg
+  author: Lucasbosch
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manfrotto_323_quick_release_clamp_open_with_200PL_plate.jpg
+  site: Wikimedia Commons
+  alt: A camera quick-release clamp with its lever open, next to the separate plate that slides into it.
+  kind: how-it-works
+  drawn: false
+- file: quick-release-plate-ad4d03.webp
+  title: File:NEEWER Arca Swiss convertible plate; April 2019 (01).jpg
+  author: MIKI Yoshihito
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:NEEWER_Arca_Swiss_convertible_plate;_April_2019_(01).jpg
+  site: Wikimedia Commons
+  alt: A black Arca-Swiss style clamp with a screw knob that squeezes the bevelled edges of a plate.
+  kind: photo
+  drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep,
   layer-lines, perimeters, infill, print-in-place, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/quick-release-plate.svg" alt="End-on cross-section of a quick-release clamp holding a dovetail plate: the plate&#x27;s 45-degree bevelled edges sit under a fixed jaw and a moving jaw, and turning the knob pushes the moving jaw in so the sloping faces wedge the plate sideways and down onto the clamp base."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/quick-release-plate.webp" alt="A camera quick-release clamp with its lever open, next to the separate plate that slides into it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manfrotto_323_quick_release_clamp_open_with_200PL_plate.jpg">Manfrotto 323 quick release clamp open with 200PL plate</a> by Lucasbosch, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/quick-release-plate-ad4d03.webp" alt="A black Arca-Swiss style clamp with a screw knob that squeezes the bevelled edges of a plate." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:NEEWER_Arca_Swiss_convertible_plate;_April_2019_(01).jpg">NEEWER Arca Swiss convertible plate; April 2019 (01)</a> by MIKI Yoshihito, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A two-part mount in which a plate or rail with bevelled (dovetail) edges is trapped and squeezed by a matching clamp, so a camera, light, sight or instrument can be locked on in the same position in seconds and released by hand.

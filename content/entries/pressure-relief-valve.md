@@ -167,12 +167,34 @@ pictures:
   site: Wikimedia Commons
   kind: cross-section
   drawn: false
+- file: pressure-relief-valve-408318.webp
+  title: File:Safetyvalve.png
+  author: EugeneZ
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Safetyvalve.png
+  site: Wikimedia Commons
+  alt: A cut-away render of a relief valve, showing the blue spring pushing the red valve onto its seat inside the body.
+  kind: cross-section
+  drawn: false
+- file: pressure-relief-valve-4fa9cc.webp
+  title: File:Pressure relief valve DN25 on cooling water.jpg
+  author: RomanM82
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Pressure_relief_valve_DN25_on_cooling_water.jpg
+  site: Wikimedia Commons
+  alt: A blue spring-loaded pressure relief valve with a lifting lever, fitted on top of a cooling-water pipe.
+  kind: photo
+  drawn: false
 glossary: [stroke, over-centre, torque, actuator, fail-safe--fail-secure, hysteresis, repeatability--accuracy, fatigue, infill,
   check-valve, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/pressure-relief-valve.webp" alt="A numbered cross-section drawing of a spring-loaded relief valve, the spring pressing the disc down onto its seat over the inlet."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Relief_Valve.png">Relief Valve</a> by Mbeychok, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pressure-relief-valve-408318.webp" alt="A cut-away render of a relief valve, showing the blue spring pushing the red valve onto its seat inside the body." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Safetyvalve.png">Safetyvalve</a> by EugeneZ, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pressure-relief-valve-4fa9cc.webp" alt="A blue spring-loaded pressure relief valve with a lifting lever, fitted on top of a cooling-water pipe." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pressure_relief_valve_DN25_on_cooling_water.jpg">Pressure relief valve DN25 on cooling water</a> by RomanM82, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A normally-closed, spring-held valve that opens by itself when the pressure passes a set limit and lets fluid out until the pressure falls again, protecting tanks, pumps, pipes and soft [actuators](../glossary.md#actuator) from bursting; its one-shot cousin, the rupture disc, bursts instead.

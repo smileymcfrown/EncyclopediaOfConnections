@@ -136,11 +136,35 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: chicago-screw-362895.webp
+  title: File:Buchschrauben Auswahl.jpg
+  author: Timo Huber (klebeshop24.de)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Buchschrauben_Auswahl.jpg
+  site: Wikimedia Commons
+  alt: Several Chicago screws in brass, nickel and black, some taken apart to show the hollow threaded post and the short
+    screw that goes into it.
+  kind: how-it-works
+  drawn: false
+- file: chicago-screw-2ac223.webp
+  title: File:Hülsenmuttern.jpg
+  author: Küchenkraut at de.wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:H%C3%BClsenmuttern.jpg
+  site: Wikimedia Commons
+  alt: Steel sleeve nuts with their screws laid out on wood, some screwed together and some apart, showing the long internally
+    threaded sleeve.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, threadlocker, creep, cure, primer, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/chicago-screw.webp" alt="The smooth round head of a Chicago screw holding two pieces of dark leather together, with a screwdriver slot across it."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg">Buchbinderschraube zum verbinden von zwei Lederstücken</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/chicago-screw-362895.webp" alt="Several Chicago screws in brass, nickel and black, some taken apart to show the hollow threaded post and the short screw that goes into it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Buchschrauben_Auswahl.jpg">Buchschrauben Auswahl</a> by Timo Huber (klebeshop24.de), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/chicago-screw-2ac223.webp" alt="Steel sleeve nuts with their screws laid out on wood, some screwed together and some apart, showing the long internally threaded sleeve." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:H%C3%BClsenmuttern.jpg">Hülsenmuttern</a> by Küchenkraut at de.wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A Chicago screw is a hollow post with a thread inside and a matching screw that threads into it from the other side, clamping leather, straps, paper, plastic or printed parts between two smooth, low heads like a rivet, but one that can be unscrewed to swap a buckle or used as a pivot pin.

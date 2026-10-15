@@ -158,12 +158,36 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: bevel-gears-cd05b4.webp
+  title: File:Bauma 2007 ZF Loader Axle MT-L3075 2.jpg
+  author: Aconcagua
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bauma_2007_ZF_Loader_Axle_MT-L3075_2.jpg
+  site: Wikimedia Commons
+  alt: A loader axle cut open at a trade show, showing the bevel gears inside that turn the drive from the prop shaft through
+    a right angle to the wheels.
+  kind: cross-section
+  drawn: false
+- file: bevel-gears-52a2b1.webp
+  title: File:Bevel gears on grain mill at Dordrecht, Eastern Cape.jpg
+  author: Gregory David Harington
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Bevel_gears_on_grain_mill_at_Dordrecht,_Eastern_Cape.jpg
+  site: Wikimedia Commons
+  alt: A pair of big red-painted bevel gears on an old grain mill, one gear's teeth fitted with wooden inserts, meshing at
+    a right angle.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, gear-ratio, pitch, crank, clearance, tolerance, set-screw,
   taper, captive-nut, repeatability--accuracy, infill, print-in-place, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/bevel-gears.webp" alt="A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png">Gear - Bevel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bevel-gears-cd05b4.webp" alt="A loader axle cut open at a trade show, showing the bevel gears inside that turn the drive from the prop shaft through a right angle to the wheels." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bauma_2007_ZF_Loader_Axle_MT-L3075_2.jpg">Bauma 2007 ZF Loader Axle MT-L3075 2</a> by Aconcagua, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bevel-gears-52a2b1.webp" alt="A pair of big red-painted bevel gears on an old grain mill, one gear&#x27;s teeth fitted with wooden inserts, meshing at a right angle." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bevel_gears_on_grain_mill_at_Dordrecht,_Eastern_Cape.jpg">Bevel gears on grain mill at Dordrecht, Eastern Cape</a> by Gregory David Harington, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two gears with teeth cut on cones whose tips meet at one point, used to pass rotation between shafts that meet at an angle (usually 90 degrees), either at 1:1 (mitre gears) or with a speed change; a crown gear is a flat version that meshes with an ordinary straight-toothed gear.

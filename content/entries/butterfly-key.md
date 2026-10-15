@@ -138,11 +138,22 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: butterfly-key-82bfa6.webp
+  title: Wooden Floors with Walnut Pegs and Butterfly Keys
+  author: eekim
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/63669472@N00/1247258426
+  site: Flickr via Openverse
+  alt: A dark wooden floor whose planks are joined with walnut pegs and bow-tie keys set into the surface.
+  kind: photo
+  drawn: false
 glossary: [stiffness, tolerance, form-fit--force-fit--material-bond, spline, chamfer--fillet, undercut, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/butterfly-key.webp" alt="A dark bow-tie-shaped wooden key set flush into a board across a crack, its wide ends on either side."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG">Butterfly-joint</a> by Dominik Matus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/butterfly-key-82bfa6.webp" alt="A dark wooden floor whose planks are joined with walnut pegs and bow-tie keys set into the surface." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/63669472@N00/1247258426">Wooden Floors with Walnut Pegs and Butterfly Keys</a> by eekim, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A bow-tie-shaped key, wide at both ends and narrow in the middle, is fitted into a matching pocket that spans a joint or crack, so its wide ends lock into both sides and stop them pulling apart; used to stop cracks in wooden slabs and to join CNC-cut or 3D-printed panels.

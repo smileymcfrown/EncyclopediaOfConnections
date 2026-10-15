@@ -146,12 +146,23 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: din-rail-clip-0ac66f.webp
+  title: File:Din rail.jpg
+  author: Ulfbastel
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Din_rail.jpg
+  site: Wikimedia Commons
+  alt: Green terminal blocks and a relay clipped side by side onto a slotted steel DIN rail.
+  kind: photo
+  drawn: false
 glossary: [cantilever, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, creep, perimeters, infill,
   print-in-place, elephants-foot]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/din-rail-clip.webp" alt="The back of a two-pole circuit breaker clipped onto a DIN rail, shown upside down so its fixed hook and sliding spring latch can be seen."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:DIN_rail_rear_view.JPG">DIN rail rear view</a> by Kae, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/din-rail-clip-0ac66f.webp" alt="Green terminal blocks and a relay clipped side by side onto a slotted steel DIN rail." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Din_rail.jpg">Din rail</a> by Ulfbastel, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A mounting foot with a fixed hook on one side and a spring-loaded latch on the other, so electrical modules and home-made boxes can be clicked onto, slid along, and unclipped from a standard 35 mm metal top-hat rail.
