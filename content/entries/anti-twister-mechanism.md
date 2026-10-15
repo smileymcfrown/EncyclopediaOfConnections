@@ -190,11 +190,19 @@ pictures:
   drawn: true
   still: drawn/anti-twister-mechanism.svg
   kind: animation
+- file: render/anti-twister-mechanism.webp
+  alt: 'Render of an anti-twister demonstrator: a cable leaves a round fixed base beside a central shaft, loops out and up
+    through a guide on a carrier arm half-way up, and comes back in under the middle of a spinning platform on top, so the
+    platform can turn for ever without the cable twisting.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, idler, linkage, flexure, clearance, form-fit--force-fit--material-bond, fatigue, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/anti-twister-mechanism.svg"><img src="../media/drawn/anim/anti-twister-mechanism.svg" alt="Side view of an anti-twister, animated: a cable leaves a fixed base, loops out through a guide on a carrier arm and comes back in to a spinning platform on the same axis; while the platform makes two turns the carrier swings the loop round once, the same way, so the cable is only bent and never twis"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/anti-twister-mechanism.webp" alt="Render of an anti-twister demonstrator: a cable leaves a round fixed base beside a central shaft, loops out and up through a guide on a carrier arm half-way up, and comes back in under the middle of a spinning platform on top, so the platform can turn for ever without the cable twisting." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 An anti-twister passes a continuous cable or tube from a fixed base to a part that keeps spinning, by swinging the cable's loop round the axis at exactly half the part's speed, so the cable only bends and never builds up twist, and no slip ring or rotating seal is needed.

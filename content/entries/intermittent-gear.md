@@ -196,12 +196,20 @@ pictures:
   drawn: true
   still: drawn/intermittent-gear.svg
   kind: animation
+- file: render/intermittent-gear.webp
+  alt: 'Render of an intermittent gear pair: a 3D-printed driving gear with only three teeth and a smooth rim, and an output
+    gear with four curved notches in its rim, on steel pins in a printed base; the driver''s smooth rim sits in one notch,
+    holding the output gear still until the teeth come round.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, self-locking, axial--radial, reciprocating, detent, ratchet, pawl, torque, gear-ratio, crank, clearance,
   form-fit--force-fit--material-bond, circlip, repeatability--accuracy, print-in-place, elephants-foot, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/intermittent-gear.svg"><img src="../media/drawn/anim/intermittent-gear.svg" alt="An intermittent gear pair at three moments: the driving gear&#x27;s few teeth turn the output gear, then hand over, then the driver&#x27;s smooth rim sits in a curved notch on the output gear and holds it still; each driver swings to and fro so you can see the output turn, stop at the hand-over, and stay lock"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/intermittent-gear.webp" alt="Render of an intermittent gear pair: a 3D-printed driving gear with only three teeth and a smooth rim, and an output gear with four curved notches in its rim, on steel pins in a printed base; the driver&#x27;s smooth rim sits in one notch, holding the output gear still until the teeth come round." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A driving gear with teeth on only part of its rim turns its partner gear while those teeth pass, then a smooth arc on the toothless part slides against the partner and holds it still, so steady rotation becomes stop-go steps.

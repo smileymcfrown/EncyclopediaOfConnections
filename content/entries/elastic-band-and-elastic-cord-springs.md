@@ -213,12 +213,34 @@ pictures:
   drawn: true
   still: drawn/elastic-band-and-elastic-cord-springs.svg
   kind: animation
+- file: elastic-band-and-elastic-cord-springs.webp
+  title: Poor Man's Extension Tube
+  author: Kurayba
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/48503330@N08/6110452442
+  site: Flickr via Openverse
+  alt: A blue rubber band stretched round a small camera and a separate lens, pulling the lens tight against the camera body.
+  kind: how-it-works
+  drawn: false
+- file: elastic-band-and-elastic-cord-springs-28b440.webp
+  title: File:Bungee Cord PICT6882a.jpg
+  author: The original uploader was Jmb at English Wikipedia.
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
+  site: Wikimedia Commons
+  alt: Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a ruler.
+  kind: photo
+  drawn: false
 glossary: [misalignment, actuator, stiffness, preload, damping, hysteresis, creep, stress-relaxation, layer-lines, peel-vs-shear,
   o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/elastic-band-and-elastic-cord-springs.svg"><img src="../media/drawn/anim/elastic-band-and-elastic-cord-springs.svg" alt="A hinged arm held down by a rubber band looped between a peg on the arm and a peg on the base: on the left it rests closed with the band short, and on the right the arm is lifted, the band is stretched longer and thinner, and it pulls the arm back down. In the animation the right-hand arm is let go:"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/elastic-band-and-elastic-cord-springs.webp" alt="A blue rubber band stretched round a small camera and a separate lens, pulling the lens tight against the camera body." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/48503330@N08/6110452442">Poor Man&#x27;s Extension Tube</a> by Kurayba, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/elastic-band-and-elastic-cord-springs-28b440.webp" alt="Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a ruler." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg">Bungee Cord PICT6882a</a> by The original uploader was Jmb at English Wikipedia., <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rubber band, elastic cord or length of rubber tubing stretched between two anchor points so that it pulls them together: a cheap, very stretchy pull spring that you can cut, tie or swap by hand, but whose pull fades over time and which perishes in heat, sunlight and ozone.

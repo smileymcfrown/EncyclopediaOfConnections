@@ -14,11 +14,13 @@ air-bearing-and-air-caster:
   kind: animation
   alt: An animated cut-away of an air caster under a load, its ring-shaped bags filling with air until the load
     lifts on a thin film of air above the floor.
+- render
 air-logic-valve:
 - commons: File:Shuttle valve action principle cross section.gif
   kind: animation
   alt: An animated cut-away of a shuttle valve, a ball pushed from side to side by air arriving at either inlet
     so the air always reaches the one outlet.
+- render
 air-or-hydraulic-cylinder:
 - commons: File:Einfachwirkender Zylinder funktionsprinziep.gif
   kind: animation
@@ -50,6 +52,7 @@ aluminium-extrusion-connectors:
 - commons: File:T-Nut - Installed in a T-Slot.png
   kind: diagram
   alt: A rendered T-nut, coloured red, sitting in the T-shaped groove of a bar, held under the groove's lips.
+- render
 anaerobic-adhesive:
 - commons: File:Thread-locking fluid applied.jpg
   kind: how-it-works
@@ -62,10 +65,13 @@ anaerobic-adhesive:
   alt: A small red bottle of Loctite 243 thread-locking liquid with a white nozzle cap.
 annular-snap-fit:
 - drawn
+- render
 anti-backlash-gear:
 - drawn
+- render
 anti-twister-mechanism:
 - drawn
+- render
 automatic-siphon:
 - drawn
 - commons: File:AutoSifon 110-50-20.jpg
@@ -249,6 +255,7 @@ bends-for-joining-two-cords:
     thick rope.
 bent-or-twisted-tab-through-a-slot:
 - drawn
+- render
 bernoulli-gripper:
 - commons: File:Bernoulli Gripper.png
   kind: diagram
@@ -273,6 +280,7 @@ bevel-gears:
     meshing at a right angle.
 bidirectional-anti-back-drive-clutch:
 - drawn
+- render
 binding-knots-and-seizings:
 - commons: File:Constrictor-ABOK-1249.jpg
   kind: how-it-works
@@ -286,6 +294,7 @@ binding-knots-and-seizings:
   alt: Blue cables bundled together with neat spot ties of white lacing tape knotted at intervals.
 binding-plate-lock:
 - drawn
+- render
 binding-post-and-banana-plug:
 - commons: File:BindingPostRed.jpg
   kind: photo
@@ -299,6 +308,7 @@ binding-post-and-banana-plug:
     for another plug.
 bistable-compliant-mechanism:
 - drawn
+- render
 - commons: File:Bistable compliant switch mechanism.png
   kind: diagram
   alt: A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two
@@ -481,8 +491,20 @@ capstan-and-windlass:
     slipway.
 capstan-cable-drive:
 - drawn
+- render
 captive-nut-pocket:
 - drawn
+- openverse: 20eba310-40d2-4ec1-a1f2-110d85ad42f9
+  url: https://live.staticflickr.com/8086/8362079991_cdcc02bf05.jpg
+  title: infill
+  author: Robosprout
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/68272764@N05/8362079991
+  site: Flickr via Openverse
+  kind: photo
+  alt: Grey 3D-printed brackets whose flat base has a six-sided pocket at each end, shaped to hold a nut so it can't
+    turn
 castor:
 - drawn
 - commons: File:Swivel caster.jpg
@@ -565,6 +587,7 @@ clamp-on-accessory-mount-for-bars-poles-and-edges:
   kind: photo
   alt: A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the
     light.
+- render
 clamp-on-tube-fittings:
 - commons: File:Basic kee klamp.jpg
   kind: photo
@@ -572,11 +595,16 @@ clamp-on-tube-fittings:
     it on.
 clevis-joint:
 - drawn
+- commons: File:Fiedersplënt w 348.jpg
+  kind: photo
+  alt: Two yellow steel ears on a machine with a steel pin pushed through both, held in by a bent-wire spring clip,
+    leaving a gap between the ears for the tongue.
 - commons: File:Clevis.svg
   kind: diagram
   alt: A drawing of a U-shaped clevis with a pin through both ears, held in by a split pin.
 click-pen-mechanism:
 - drawn
+- render
 clinching:
 - commons: File:TOX Pressotechnik Clinching.gif
   kind: animation
@@ -595,6 +623,13 @@ clip-on-concealed-hinge:
   kind: animation
   alt: An animated cup hinge set in a round pocket in a cabinet door, seen from above and from the side as its linkage
     swings the door open clear of the cabinet.
+- commons: File:Euro hinge 2.jpg
+  kind: how-it-works
+  alt: A screwdriver turning one of the adjusting screws on a metal cup hinge fitted to a wooden cabinet door
+- commons: File:Euro hinge 1.jpg
+  kind: photo
+  alt: A metal cup hinge on an open wooden cabinet door, its folding arm running from the cup in the door to the
+    plate on the cabinet side
 coil-spring:
 - drawn
 - commons: File:Helical compression spring parameters.svg
@@ -660,13 +695,16 @@ combination-lock:
   alt: Close-up of the black numbered dial of a combination padlock, with the steel shackle behind it.
 compliant-detent:
 - drawn
+- render
 compliant-gripper-and-force-amplifier:
 - drawn
+- render
 - commons: File:Compliant plier mechanism.png
   kind: diagram
   alt: The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections.
 compliant-one-piece-latch:
 - drawn
+- render
 compliant-ratchet-and-overrunning-clutch:
 - drawn
 - commons: File:ZipTieCrossSection.JPG
@@ -793,8 +831,10 @@ cross-halving-slot-joint:
   kind: diagram
   alt: A drawing of two flat strips, each slotted halfway through from opposite edges, shown apart and then slotted
     together into a flush cross.
+- render
 crush-ribs-and-spring-fit-features:
 - drawn
+- render
 cyanoacrylate:
 - commons: File:Super glue.jpg
   kind: photo
@@ -826,6 +866,7 @@ dampers:
     it shuts.
 detent-hinge:
 - drawn
+- render
 diaphragm-pump-and-squeeze-bulb:
 - commons: File:Diaphragm pump animated.gif
   kind: animation
@@ -961,8 +1002,23 @@ eddy-current-brake:
     beside the disc.
 elastic-averaging:
 - drawn
+- render
 elastic-band-and-elastic-cord-springs:
 - drawn
+- openverse: 30ec9aac-f844-4a58-a14e-77da1ef12dfd
+  url: https://live.staticflickr.com/6206/6110452442_8be83aaf9c_b.jpg
+  title: Poor Man's Extension Tube
+  author: Kurayba
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/48503330@N08/6110452442
+  site: Flickr via Openverse
+  kind: how-it-works
+  alt: A blue rubber band stretched round a small camera and a separate lens, pulling the lens tight against the
+    camera body.
+- commons: File:Bungee Cord PICT6882a.jpg
+  kind: photo
+  alt: Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a ruler.
 elastomer-isolation-mount:
 - drawn
 - commons: File:Schwingungsdämpfer Aufbau.jpg
@@ -985,6 +1041,7 @@ electro-permanent-magnet:
   kind: animation
   alt: A simulation of an electro-permanent magnet switching on and off, with the magnetic field lines reaching
     out into the steel below when on and staying inside the magnet when off.
+- render
 electromagnetic-brake:
 - drawn
 - commons: File:O-2 electromagnetic-power-off-brake1.gif
@@ -1032,6 +1089,7 @@ escapement:
   alt: The opened movement of an 1845 pocket watch, showing the gear train and the verge escapement on top.
 exact-constraint-mounting:
 - drawn
+- render
 expanding-internal-grip:
 - drawn
 - commons: File:Airshaft closeup.jpg
@@ -1060,8 +1118,10 @@ eyelets-and-grommets:
   alt: Large curtain grommets in round, square and hexagon shapes set into red fabric.
 face-ratchet:
 - drawn
+- render
 fin-ray-gripper:
 - drawn
+- render
 finger-joint:
 - commons: File:Finger joint 20180321.jpg
   kind: photo
@@ -1100,6 +1160,7 @@ flat-flexible-cable-and-latching-connector:
     across a table.
 flexible-beam-coupling:
 - drawn
+- render
 flexible-drive-shaft:
 - drawn
 - commons: File:2008-05-06 1990 Geo Storm GSi speedometer cable.jpg
@@ -1122,6 +1183,11 @@ flexure-hinge:
     a pin or bearing.
 float-valve:
 - drawn
+- commons: File:Float located adjacent to entry stair in filtration bed. The float actuates a valve that maintains
+    water level over the bed. - Lake Whitney Water Filtration Plant, Filtration Plant, HAER CT-186-A-22.tif
+  kind: how-it-works
+  alt: An old black-and-white photo of a float hanging on a rod in a water tank, the rod running up to the valve
+    that keeps the water level steady
 - commons: File:Portsmouth-Valve-Closed-detail.svg
   kind: diagram
   alt: A cross-section drawing of a float valve, with the float on its arm pushing a piston and washer shut over
@@ -1140,6 +1206,7 @@ flywheel:
   alt: A heavy steel flywheel on a short shaft held in a wall bracket.
 folded-seam:
 - drawn
+- render
 - commons: File:Can solderless seam cutaway.jpg
   kind: cross-section
   alt: A magnified cut-away of an early tin can's rim, showing the end and the body edges folded round each other
@@ -1162,6 +1229,7 @@ four-bar-linkage:
   kind: animation
   alt: An animation of a crank-rocker four-bar linkage, where one bar turns full circles while the opposite bar
     rocks back and forth.
+- render
 friction-brake:
 - drawn
 - openverse: 381ba97a-8132-43f9-ae8c-aae968570e27
@@ -1177,14 +1245,21 @@ friction-brake:
     its edge.
 friction-clutch:
 - drawn
-- commons: File:Cone clutch.svg
-  kind: diagram
-  alt: A drawing of a cone clutch, where a spring pushes a cone-shaped part into a matching cup so friction makes
-    them turn together, and a lever pulls it out.
-- commons: File:Basket clutch.png
+- commons: File:Clutch-c.jpg
   kind: how-it-works
-  alt: A 3D render of a motorcycle basket clutch, whole and pulled apart to show the stack of friction plates between
-    the basket and the hub.
+  alt: A car engine on a display stand with its clutch pulled apart, showing the toothed flywheel, the friction
+    disc and the pressure plate that squeezes it
+- openverse: 7e5e49df-c983-4e8c-b1fd-aa3ac5504896
+  url: https://live.staticflickr.com/3078/2548210432_8b335a805b_b.jpg
+  title: New Clutch plate
+  author: nzhamstar
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/16982169@N03/2548210432
+  site: Flickr via Openverse
+  kind: photo
+  alt: A new car clutch disc held in a hand, with a ring of friction lining around the edge, coil springs in the
+    middle and a splined hole for the gearbox shaft
 friction-drives-and-cvts:
 - drawn
 - commons: File:Evans friction cone - Hagley Aug 2009.jpg
@@ -1212,6 +1287,7 @@ friction-slip-clutch:
     a circlip.
 friction-welded-plastic:
 - drawn
+- render
 gas-spring:
 - drawn
 - commons: File:Gas-spring simplified numbered 120.png
@@ -1266,6 +1342,7 @@ gearless-right-angle-drive:
   kind: animation
   alt: An animation of bent rods sliding in and out of holes in two hubs set at a right angle, carrying the turning
     round the corner.
+- render
 genderless-connector:
 - commons: File:Festkupplung.jpg
   kind: photo
@@ -1283,6 +1360,20 @@ geneva-drive:
   kind: animation
   alt: An animation of a green drive wheel whose pin enters the slots of a red six-armed wheel, turning it one step
     each time round and holding it still in between.
+- commons: File:Geneva driven wheel.jpg
+  kind: photo
+  alt: A steel four-slotted Geneva driven wheel on its shaft, with the drive roller, taken from an old film projector
+- openverse: e92b294f-b42b-42dc-a26f-2ba1fef48d6a
+  url: https://cdn.thingiverse.com/renders/f2/d0/6b/55/1a/geneva-wheels_display_large.jpg
+  title: Parametric Geneva Mechanism
+  author: jessed
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:27974
+  site: Thingiverse via Openverse
+  kind: how-it-works
+  alt: A 3D render of a printable Geneva drive, a pin wheel next to the star-shaped wheel it turns one step at a
+    time
 gimbal:
 - commons: File:Gimbal 3 axes rotation.gif
   kind: animation
@@ -1311,10 +1402,13 @@ glued-joint-design:
     sets.
 granular-jamming-gripper:
 - drawn
+- render
 guy-line-slider:
 - drawn
+- render
 half-nut:
 - drawn
+- render
 hand-mouldable-thermoplastic:
 - commons: File:PCL beads.jpg
   kind: photo
@@ -1345,6 +1439,7 @@ heat-sealed-seam:
   alt: A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine.
 heat-set-threaded-insert:
 - drawn
+- render
 - commons: File:Press-in Insert.png
   kind: photo
   alt: A small brass threaded insert with diamond knurling on the outside and a slot down one side.
@@ -1360,6 +1455,7 @@ heat-shrink-tubing:
   alt: Ten lengths of heat-shrink tubing in different colours laid side by side.
 heat-staking:
 - drawn
+- render
 herringbone-and-helical-gears:
 - commons: File:Anim engrenages helicoidaux.gif
   kind: animation
@@ -1505,6 +1601,7 @@ housing-and-rebate-joints:
 - commons: File:Woodworking-joint-dado.svg
   kind: diagram
   alt: A drawing of a housing (dado) joint, one board's end sitting in a channel cut across another board.
+- render
 hydraulic-ram-pump:
 - drawn
 - commons: File:Hydraulic Ram.gif
@@ -1542,6 +1639,7 @@ indexable-clamping-lever:
   alt: An older clamping lever with a ball-ended handle, seen from below so its threaded bore is visible.
 indexing-plunger:
 - drawn
+- render
 inertia-locking-reel:
 - drawn
 - commons: File:Intertial-reel.jpg
@@ -1564,6 +1662,7 @@ insulation-displacement-connector:
     cable is pressed onto.
 intermittent-gear:
 - drawn
+- render
 internal-tube-anchors:
 - drawn
 - commons: File:Quill stems.JPG
@@ -1588,6 +1687,7 @@ invisible-barrel-hinge:
   kind: animation
   alt: A cut-away animation of a concealed cross-link hinge, its crossed links folding into the two pockets as the
     door closes and unfolding as it opens.
+- render
 iris-mechanism:
 - commons: File:Iris Diaphragm.gif
   kind: animation
@@ -1598,6 +1698,7 @@ iris-mechanism:
     middle.
 iris-valve:
 - drawn
+- render
 iron-on-fusible-web:
 - commons: File:HemRepairTape.jpg
   kind: photo
@@ -1616,6 +1717,7 @@ japanese-interlocking-joints:
     small wooden key driven through.
 jaw-coupling:
 - drawn
+- render
 - commons: File:JawConcept2.jpg
   kind: photo
   alt: A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert.
@@ -1637,13 +1739,16 @@ keyless-locking-bush:
   kind: cross-section
   alt: A cut-away drawing of a locking bush between a shaft and a hub, its tapered inner and outer rings drawn together
     by screws.
+- render
 kinematic-coupling:
 - commons: File:Maxwell kinematic coupling.png
   kind: diagram
   alt: A drawing of a Maxwell kinematic coupling, a top disc with three round balls above a bottom disc with three
     V-grooves pointing to the centre.
+- render
 knife-edge-and-jewel-pivots:
 - drawn
+- render
 knock-down-cam-lock-and-cross-dowel-connectors:
 - commons: File:Cam connector cropped.png
   kind: photo
@@ -1665,6 +1770,10 @@ labyrinth-seal:
 - commons: File:Labyrinth-seal.png
   kind: cross-section
   alt: A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth.
+- commons: File:Labyrinthdichtung01.jpg
+  kind: photo
+  alt: A steam turbine shaft on display, its labyrinth seal made of many thin ridges side by side around the shaft
+    so the narrow gap zig-zags
 lacing:
 - commons: File:Lamellar lacing.gif
   kind: diagram
@@ -1678,11 +1787,22 @@ lacing:
     a row of knotted loops.
 ladder-lock-buckle:
 - drawn
+- openverse: ab321bbd-6bdb-4678-b9a2-7e87be34d68b
+  url: https://live.staticflickr.com/8609/16528134648_4658c95092.jpg
+  title: ladder-lock
+  author: AlwynAllan
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/9976528@N03/16528134648
+  site: Flickr via Openverse
+  kind: photo
+  alt: A black plastic ladder lock buckle on a backpack strap, the webbing woven over and under its bars
 - commons: File:Cropped tri-glide slide.jpg
   kind: photo
   alt: A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar.
 lamina-emergent-torsional-joint:
 - drawn
+- render
 lantern-gear:
 - drawn
 - commons: File:Cage Gear.png
@@ -1723,12 +1843,14 @@ lever-cam-panel-connector:
   kind: how-it-works
   alt: A see-through render of a lever-cam connector in two panel edges, the green cam lever swung open so the panels
     can part.
+- render
 - commons: File:Clamex geschlossen.jpg
   kind: how-it-works
   alt: The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels
     tight together.
 lid-and-flap-stays:
 - drawn
+- render
 linear-guides:
 - commons: File:Linear-table animated.gif
   kind: animation
@@ -1760,11 +1882,13 @@ living-hinge:
   alt: A clear plastic cassette case opened flat, its two halves joined by a thin moulded plastic hinge.
 load-bearing-stitch-patterns-for-straps-and-webbing:
 - drawn
+- render
 - commons: File:Bartacks (cropped).jpg
   kind: photo
   alt: Close-up of cloth with a short, dense zig-zag bar tack stitched across a seam to reinforce it.
 locating-pins-and-hole-and-slot:
 - drawn
+- render
 locking-adjustment-screws:
 - commons: File:Mirrormount1.jpg
   kind: how-it-works
@@ -1772,8 +1896,10 @@ locking-adjustment-screws:
     and the ball bearing they pivot on.
 magnet-joint:
 - drawn
+- render
 magnetic-assisted-buckle:
 - drawn
+- render
 magnetic-connector:
 - commons: File:MagSafe1.jpg
   kind: photo
@@ -1781,12 +1907,17 @@ magnetic-connector:
     contact pads.
 magnetic-coupling-and-magnetic-gear:
 - drawn
+- commons: File:Magnetic coupling.jpg
+  kind: photo
+  alt: A large red industrial magnetic drive coupling between a grey gearbox and a blue electric motor, joining
+    their two shafts
 - commons: File:Magnetgetriebe.png
   kind: cross-section
   alt: A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with
     a ring of steel pole pieces between them.
 magnetic-detent:
 - drawn
+- render
 mechanical-interlock:
 - drawn
 - commons: File:Trapped key interlock switchgear door.JPG
@@ -1803,6 +1934,7 @@ mechanical-interlock:
     position.
 mechanical-metamaterial-mechanism:
 - drawn
+- render
 melted-plastic-weld:
 - openverse: 145c184a-9ac5-44b1-9e38-ebd9db87e685
   url: https://live.staticflickr.com/8534/8693068112_462c9f765a_b.jpg
@@ -1831,6 +1963,7 @@ metal-brackets-and-plates:
   alt: A grey steel shelf bracket with a diagonal brace, lying on a wooden surface.
 mid-print-embedding:
 - drawn
+- render
 modular-grid-mounting-systems:
 - commons: File:Gridfinity drawer and bin.jpg
   kind: photo
@@ -1851,6 +1984,7 @@ mortise-and-tenon:
   alt: A weathered wooden post in the desert with its tenon passing through a mortise in the beam it holds up.
 multi-material-interlock:
 - drawn
+- render
 multi-point-bolt:
 - drawn
 - commons: File:Crémone.jpg
@@ -1867,8 +2001,10 @@ multi-point-bolt:
     bottom at once.
 multi-stage-slide-rigging:
 - drawn
+- render
 multi-turn-rotation-limiter:
 - drawn
+- render
 nails-brads-and-tacks:
 - commons: File:Spijkers (Nails).jpg
   kind: photo
@@ -1940,6 +2076,7 @@ origami-mechanisms:
     that can collapse and expand.
 ortho-planar-spring:
 - drawn
+- render
 over-centre-linkage:
 - drawn
 - commons: File:Kniehebel.jpg
@@ -1951,6 +2088,7 @@ over-centre-linkage:
   alt: A pair of locking pliers, whose handles lock shut by pushing their linkage just past straight.
 parallel-leaf-spring-flexure:
 - drawn
+- render
 parallel-pipe-thread-with-a-sealing-washer:
 - drawn
 - commons: File:Brass hose bipp with standard and GHT threads.jpg
@@ -1996,10 +2134,15 @@ planetary-gear-set:
   kind: animation
   alt: A yellow sun gear turning four blue planet gears inside a fixed red ring gear, with the green carrier going
     round slowly.
+- commons: File:Ricardo, Professional MotorSport World Expo 2024, Cologne (P1031230).jpg
+  kind: cross-section
+  alt: A cut-away reduction gearbox at a trade show, opened to show planet gears on their carrier meshing inside
+    a toothed outer ring gear
 pneumatic-artificial-muscle:
 - commons: File:Sam animation-real-muscle.gif
   kind: animation
   alt: An animation of a braided air muscle swelling and getting shorter as air is pumped in, pulling a load up.
+- render
 pogo-pin:
 - commons: File:Federkontaktstift.svg
   kind: diagram
@@ -2123,6 +2266,7 @@ printed-screw-thread:
     threads.
 printing-onto-fabric:
 - drawn
+- render
 pulley-system:
 - drawn
 - commons: File:Tackles.png
@@ -2149,10 +2293,16 @@ push-and-turn-child-resistant-cap:
   alt: A bottle of aspirin tablets with a white push-down-and-turn child-resistant cap, next to its box.
 push-in-plastic-rivet:
 - drawn
+- commons: File:RFID Rivet Tag.jpg
+  kind: photo
+  alt: Two black push-in plastic plugs, each with a round head and a ribbed shank whose fins grip inside a drilled
+    hole
 push-on-edge-trim:
 - drawn
+- render
 push-push-latch:
 - drawn
+- render
 pva-wood-glue:
 - drawn
 - commons: File:Using wood glue.JPG
@@ -2163,6 +2313,7 @@ pva-wood-glue:
   alt: Two strips of wood glued together and held tight with clamps on a workbench while the glue sets.
 quarter-turn-fastener:
 - drawn
+- render
 quick-couplers-for-tubes-and-hoses:
 - commons: File:Rtc-serie-171.08-gruppe.jpg
   kind: photo
@@ -2176,10 +2327,12 @@ quick-release-hooks:
   kind: animation
   alt: An animation of a parachute three-ring release, where pulling a small cord frees a loop and the stacked rings
     slip apart one after another.
+- render
 quick-release-pin:
 - commons: File:Kugelsperrbolzen Funktionsprinzip.tif
   kind: diagram
   alt: A drawing of a T-handled ball-lock pin pushed into a hole through two plates, before and after it locks.
+- render
 quick-release-plate:
 - drawn
 - commons: File:Manfrotto 323 quick release clamp open with 200PL plate.jpg
@@ -2239,6 +2392,7 @@ ratchet-tie-down-strap:
   alt: An orange ratchet strap pulled tight round logs on a railway wagon, the ratchet buckle locked closed.
 ratchet-tooth-torque-limiter:
 - drawn
+- render
 ratcheting-reel-closure:
 - drawn
 - commons: File:ThirtyTwo snowboard boot.jpg
@@ -2277,6 +2431,7 @@ rigid-chain-actuator:
   kind: animation
   alt: A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar
     and pulling it back in.
+- render
 rod-end-and-ball-link:
 - drawn
 - commons: File:Heim Joint.svg
@@ -2301,6 +2456,7 @@ roller-clutch:
     outer race.
 rolling-contact-joint:
 - drawn
+- render
 rope-end-finishing:
 - commons: File:Common-whipping.png
   kind: diagram
@@ -2347,6 +2503,7 @@ rotary-air-actuator:
     valves open and shut.
 rotary-latch:
 - drawn
+- render
 schmidt-coupling:
 - commons: File:SchmidtCouplingGif.gif
   kind: animation
@@ -2473,6 +2630,10 @@ self-locking-wedge:
   alt: A plain wooden wedge door stop lying on the floor.
 self-tapping-screw-into-plastic:
 - drawn
+- commons: File:Phillips screw.jpg
+  kind: photo
+  alt: A zinc-plated self-tapping screw with a wide washer head, a cross-shaped drive and a sharp, coarse thread
+    down to a point
 series-elastic-coupling:
 - drawn
 - commons: File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png
@@ -2486,6 +2647,7 @@ servo-horn-and-spline-hub:
     arm.
 servo-or-motorised-latch:
 - drawn
+- render
 sew-on-part:
 - commons: File:Plastic & fabric buttons showing holes & shank.jpg
   kind: photo
@@ -2536,8 +2698,10 @@ shaft-to-hub-joints-and-rigid-couplings:
   alt: A potentiometer with its knob pushed onto the shaft, held by a small set screw in the side of the knob.
 shape-memory-alloy-wire-latch:
 - drawn
+- render
 shear-pin-coupling:
 - drawn
+- render
 shims-spacers-and-standoffs:
 - commons: File:Metal shims.jpg
   kind: photo
@@ -2548,12 +2712,16 @@ shims-spacers-and-standoffs:
     a metal case, holding the board up off the case.
 shock-corded-sectional-pole:
 - drawn
+- render
 shut-off-valve:
 - drawn
-- commons: File:Ball.PNG
-  kind: cross-section
-  alt: 'Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a
-    blue body.'
+- commons: File:Stopcock 2013 003.jpg
+  kind: how-it-works
+  alt: A small brass screw-down stopcock taken apart on a table, showing the body, the threaded stem, the nuts,
+    a washer and the red handwheel.
+- commons: File:Stopcock.jpg
+  kind: photo
+  alt: A quarter-turn ball valve with a red lever handle fitted to a water pipe coming out of a wall.
 side-release-buckle:
 - drawn
 - commons: File:Boucle rapide.svg
@@ -2626,10 +2794,13 @@ slotted-adjustment-with-a-jacking-screw:
     be slid back to tighten the chain.
 snap-lock-sheet-joint:
 - drawn
+- render
 snap-pin:
 - drawn
+- render
 soft-pneumatic-bending-actuator:
 - drawn
+- render
 solder-sleeve:
 - commons: File:Geschrumpfter Lötverbinder auf Litzendraht.JPG
   kind: how-it-works
@@ -2681,6 +2852,7 @@ solvent-welding:
   alt: A PVC pipe being joined with solvent cement during a pump repair, with the can of cement beside it.
 speed-control-valve:
 - drawn
+- render
 speed-governor:
 - drawn
 - commons: File:Regulador mecánico.png
@@ -2713,6 +2885,7 @@ spline-shaft:
   alt: A rusty spline shaft on a farm trailer's drive shaft, with its lengthwise ridges clearly visible.
 split-part-joints-for-large-prints:
 - drawn
+- render
 spot-weld:
 - drawn
 - commons: File:TON09525.jpg
@@ -2752,6 +2925,10 @@ spring-bar:
   alt: Three steel watch spring bars lying side by side, each with a short pin at both ends.
 spring-button-lock:
 - drawn
+- commons: File:Valco Snap Button Variations for telescoping tubing and component attachments.png
+  kind: photo
+  alt: A spread of V-shaped and U-shaped spring-steel snap buttons, each bent strip carrying a small round button
+    that pops out through a tube's hole
 spring-clamp-wire-connector:
 - commons: File:Cage Clamp.jpg
   kind: how-it-works
@@ -2800,6 +2977,13 @@ spur-gear-pair-and-gear-train:
   kind: animation
   alt: Animation of a small red gear with 14 teeth turning a big green gear with 28 teeth, so the big gear turns
     half as fast and the other way.
+- commons: File:Ellis Mill - Spur Gearing - geograph.org.uk - 2930545.jpg
+  kind: how-it-works
+  alt: Inside a windmill, a large wooden-toothed spur wheel on an upright shaft meshing with a smaller gear on a
+    second upright shaft beside it
+- commons: File:Abandoned concrete factory mechanism.jpg
+  kind: photo
+  alt: Close-up of the rusty straight teeth of a big gear interlocking with a smaller gear in an old factory machine
 standard-plug-and-socket-connector:
 - commons: File:Klinken- und Hohlstecker.jpg
   kind: photo
@@ -2844,6 +3028,10 @@ straight-line-linkages:
   kind: animation
   alt: 'Animation of Watt''s linkage: two swinging arms are joined by a short bar, and the bar''s midpoint moves
     up and down in a nearly straight line.'
+- commons: File:WattParallelMotion.jpg
+  kind: photo
+  alt: The beam of an old pumping engine in a German silver mine, with an enlarged inset of the bars of Watt's parallel
+    motion at the end of the beam, which keep the piston rod moving straight up and down.
 strain-wave-gear:
 - commons: File:Harmonic-drive-explanation.gif
   kind: animation
@@ -2860,8 +3048,10 @@ strain-wave-gear:
     ring and the bolt holes round the outer ring.
 stretch-release-adhesive-strips:
 - drawn
+- render
 structural-acrylic-and-low-surface-energy-plastic-adhesives:
 - drawn
+- render
 - commons: File:Two-component adhesive cartridges.jpg
   kind: photo
   alt: A box of two-part adhesive cartridges seen end-on, the kind of twin cartridge that structural acrylic glues
@@ -2898,12 +3088,24 @@ swashplate-and-wobble-plate:
   kind: animation
   alt: 'Animation of an axial piston pump: a slanted red plate turns under a ring of pistons, pushing each one up
     and letting it down once per turn.'
+- commons: File:Swashplate-plungers.png
+  kind: cross-section
+  alt: A cut-away render of a slanted swashplate in a round housing, with plungers resting on it that rise and fall
+    as it turns
+- commons: File:Swashplate-Radio-controlled helicopter-taumelscheibe.jpg
+  kind: photo
+  alt: The rotor head of a radio-controlled helicopter, with the swashplate ring on the mast and the links from
+    it up to the blade grips
 switchable-permanent-magnet:
 - drawn
-- commons: File:Wiki MagneticBase ON.svg
-  kind: diagram
-  alt: 'Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two
-    steel halves of the housing.'
+- commons: File:Magnetic Switch acting on Ferrofluid.jpg
+  kind: how-it-works
+  alt: A home-made switchable magnet shown twice, switched off and then on, with the ferrofluid under it lying flat
+    when off and standing up in spikes when on.
+- commons: File:MagneticBase.jpg
+  kind: photo
+  alt: Two magnetic bases for dial indicators with upright rods, one with a red on/off knob on its side for turning
+    the magnet inside.
 switching-valve:
 - drawn
 - commons: File:Solenoid Valve.svg
@@ -2916,10 +3118,14 @@ switching-valve:
     ports when the lever on the front is turned.
 syringe-hydraulics:
 - drawn
-- commons: File:Hydraulic transmission between two syringes.svg
-  kind: diagram
-  alt: A drawing of syringes joined by a liquid-filled tube, where pushing one plunger pushes the other plunger
-    out.
+- commons: File:Wheel cylinder.jpg
+  kind: cross-section
+  alt: A car brake wheel cylinder cut open down the middle, showing the pistons and the spring inside the bore that
+    the brake fluid pushes apart
+- commons: File:Master clutch cylinder for Shacman and Howo 2013-11-23 19-51.jpg
+  kind: photo
+  alt: A truck clutch master cylinder with its white fluid reservoir on top and a rubber boot over the push rod,
+    the end you push that sends fluid down the pipe
 syringe-pump:
 - drawn
 - commons: File:Syringe pump.jpg
@@ -2931,6 +3137,7 @@ syringe-pump:
     its plunger in.'
 t-slot-joint:
 - drawn
+- render
 tab-and-slot-joint:
 - commons: File:ADBO - Project Box for Arduino (laser cut).jpg
   kind: photo
@@ -2959,6 +3166,7 @@ tamper-resistant-fasteners:
     screws.
 tape-spring-hinge:
 - drawn
+- render
 taper-fit:
 - commons: File:Morse Taper No 2.jpg
   kind: photo
@@ -2982,6 +3190,7 @@ telescoping-tube-lever-lock:
     it shut.
 telescoping-tube-twist-lock:
 - drawn
+- render
 temporary-sheet-fastener:
 - commons: File:Cleco fastener extended.jpg
   kind: how-it-works
@@ -3065,13 +3274,23 @@ threaded-rod-and-studs:
   alt: A hanger bolt (a stud) with a wood-screw thread at one end and a machine thread for a nut at the other.
 threadless-ball-screw:
 - drawn
+- render
 toggle-clamp:
 - commons: File:Toggle-clamp manual horizontal 3D animated.gif
   kind: animation
   alt: Animated model of a horizontal toggle clamp; pushing the red handle down swings the arm onto the work and
     locks it over centre.
+- commons: File:Toggle-clamp manual vertical 3D closed-opened.png
+  kind: how-it-works
+  alt: A realistic 3D render of a vertical toggle clamp shown twice, closed with the arm pressed down and opened
+    with the arm lifted and the red handle pulled back.
+- commons: File:Manufacturing equipment 086.jpg
+  kind: how-it-works
+  alt: A car-factory welding fixture holding a curved body panel in place with many red-handled toggle clamps around
+    its edge.
 tolerance-ring:
 - drawn
+- render
 tongue-and-groove-joint:
 - drawn
 - commons: File:Pióro i wpust (ubt).jpg
@@ -3089,8 +3308,10 @@ tool-free-fasteners:
   alt: A hitch pin with a ring handle, held in place by a springy R-shaped wire clip through its end.
 torque-limiting-gear-with-flexing-spring-arms:
 - drawn
+- render
 torsional-snap-fit:
 - drawn
+- render
 tripod-and-stand-screw-mount:
 - commons: File:Screw Head - Tripod screw-01.jpg
   kind: photo
@@ -3150,8 +3371,10 @@ twist-on-wire-connector:
   alt: Step by step, two wires stripped, twisted together, trimmed and capped with a twist-on connector.
 twisted-and-coiled-polymer-muscle:
 - drawn
+- render
 twisted-string-actuator:
 - drawn
+- render
 two-part-epoxy:
 - commons: File:FiveMinEpoxy.jpg
   kind: photo
@@ -3175,6 +3398,21 @@ universal-joint:
   kind: animation
   alt: Animated model of a universal joint; two red forks joined by a cross-shaped piece turn together although
     the shafts are at an angle.
+- openverse: e8f1bb6f-5140-436a-af7c-2a5eca16df03
+  url: https://live.staticflickr.com/3382/3327665167_5c3d7edb24_b.jpg
+  title: Rusty U-Joint
+  author: gamillos
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/29198100@N00/3327665167
+  site: Flickr via Openverse
+  kind: photo
+  alt: A rusty universal joint on farm machinery, its cross-shaped centre piece held between two forks set at right
+    angles to each other
+- commons: File:Universal joint 3slash8 inches.jpg
+  kind: how-it-works
+  alt: A chrome 3/8 inch universal joint for a socket wrench, bent to one side so the square drive and the socket
+    end point in different directions
 uv-curing-adhesive:
 - commons: File:UV curing glue kit for Huawei-Screen.jpg
   kind: photo
@@ -3184,6 +3422,7 @@ uv-curing-adhesive:
   alt: A diver's watch whose small magnifying lens over the date is fixed to the crystal with clear UV-cured glue.
 vacuum-driven-artificial-muscle:
 - drawn
+- render
 vacuum-hold-down-table:
 - drawn
 - commons: File:Vacuümtafel.jpg
@@ -3226,6 +3465,7 @@ virtual-pivot-linkage:
   kind: animation
   alt: Animation of a multi-link fridge-door hinge; the links swing so the door turns about a point out beyond its
     corner.
+- render
 walking-linkage:
 - commons: File:Strandbeest-Walking-Animation.gif
   kind: animation
@@ -3243,11 +3483,13 @@ wall-plug:
   alt: Plastic wall plugs, ribbed sleeves with split ends that spread out when a screw is driven in.
 wave-and-disc-springs:
 - drawn
+- render
 - commons: File:Washerstack.png
   kind: diagram
   alt: A stack of cone-shaped disc springs on a shaft, some facing one way and some the other.
 wedge-dowel:
 - drawn
+- render
 weight-activated-gripping-tongs:
 - drawn
 - commons: File:A lewis in Hainan - 01.jpg
@@ -3347,6 +3589,7 @@ woven-self-tightening-grip:
   alt: A woven wire cable sock gripping the end of a cable so it can be pulled through a duct.
 wrap-spring-clutch:
 - drawn
+- render
 - commons: File:Pružinovávolnoběžka.jpg
   kind: diagram
   alt: Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens

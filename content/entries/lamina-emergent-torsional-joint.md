@@ -190,12 +190,19 @@ pictures:
   drawn: true
   still: drawn/lamina-emergent-torsional-joint.svg
   kind: animation
+- file: render/lamina-emergent-torsional-joint.webp
+  alt: 'Render of a lamina emergent torsional joint in laser-cut plywood: one sheet with long slots cut along the fold line,
+    its right panel folded up at an angle while the thin strips left between the slots twist to let it bend.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, detent, torque, stiffness, flexure, compliant-mechanism, living-hinge, deflection, torsion, clearance,
   creep, fatigue, brittle--ductile, infill, print-in-place, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/lamina-emergent-torsional-joint.svg"><img src="../media/drawn/anim/lamina-emergent-torsional-joint.svg" alt="A lamina emergent torsional joint: on the left, a flat sheet seen from above with slots cut so two panels are joined only by four thin torsion bars and two end pieces; on the right, an end view folded to 60 degrees with the end piece turned half that, and a spring diagram of two bars and an end piec"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/lamina-emergent-torsional-joint.webp" alt="Render of a lamina emergent torsional joint in laser-cut plywood: one sheet with long slots cut along the fold line, its right panel folded up at an angle while the thin strips left between the slots twist to let it bend." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A hinge made only by cutting slots in a flat sheet: the strips left between the slots twist like tiny [torsion](../glossary.md#torsion) springs, so one side of the sheet can rotate up out of the plane while the whole thing stays one piece and springs back toward flat.

@@ -189,12 +189,20 @@ pictures:
   drawn: true
   still: drawn/soft-pneumatic-bending-actuator.svg
   kind: animation
+- file: render/soft-pneumatic-bending-actuator.webp
+  alt: 'Render of a soft pneumatic bending actuator: a pale blue cast-silicone finger lying on its side, its row of swollen
+    air chambers pushed apart so the finger curls round towards its flat base layer, with its root held in a grey printed
+    mount fed by a blue air tube.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, self-locking, linkage, actuator, solenoid, stiffness, flexure, hysteresis, fatigue, infill, cure,
   pot-life--working-time, peel-vs-shear, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/soft-pneumatic-bending-actuator.svg"><img src="../media/drawn/anim/soft-pneumatic-bending-actuator.svg" alt="A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along its bottom: with no air it lies straight, and with air pumped in through a supply with a pressure gauge and relief valve the chambers swell and push apart so the finger curls round a "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/soft-pneumatic-bending-actuator.webp" alt="Render of a soft pneumatic bending actuator: a pale blue cast-silicone finger lying on its side, its row of swollen air chambers pushed apart so the finger curls round towards its flat base layer, with its root held in a grey printed mount fed by a blue air tube." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A finger cast in silicone or printed in TPU with a network of air chambers along one side and a stretch-resistant layer along the other, so that pumping air in makes it curl and wrap gently round an object, and letting the air out makes it straighten and let go.

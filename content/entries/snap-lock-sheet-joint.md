@@ -182,12 +182,20 @@ pictures:
   alt: 'Three steps of a tab with a springy finger pushed through a slot in another sheet: the barb on the finger''s tip bends
     the finger aside, then the finger springs back and the barb''s flat back hooks under the far face.'
   drawn: true
+- file: render/snap-lock-sheet-joint.webp
+  alt: 'Render of a snap-lock sheet joint: a small laser-cut acrylic bridge, two blue side walls holding a white top; on each
+    wall a tab and a thin springy finger poke up through a slot in the top, and the little barb on the finger hooks over the
+    top face so it cannot lift off.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, stiffness, cantilever, deflection, clearance, form-fit--force-fit--material-bond, taper, captive-nut,
   chamfer--fillet, creep, brittle--ductile, layer-lines, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/snap-lock-sheet-joint.svg" alt="Three steps of a tab with a springy finger pushed through a slot in another sheet: the barb on the finger&#x27;s tip bends the finger aside, then the finger springs back and the barb&#x27;s flat back hooks under the far face."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/snap-lock-sheet-joint.webp" alt="Render of a snap-lock sheet joint: a small laser-cut acrylic bridge, two blue side walls holding a white top; on each wall a tab and a thin springy finger poke up through a slot in the top, and the little barb on the finger hooks over the top face so it cannot lift off." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Tabs cut into a flat sheet carry a small barb or a springy finger that bends as the tab goes through a slot and then springs back to catch, so flat parts click together and stay together without fasteners or glue.

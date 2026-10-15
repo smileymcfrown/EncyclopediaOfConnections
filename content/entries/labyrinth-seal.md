@@ -186,11 +186,23 @@ pictures:
   site: Wikimedia Commons
   kind: cross-section
   drawn: false
+- file: labyrinth-seal-0f3858.webp
+  title: File:Labyrinthdichtung01.jpg
+  author: self
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Labyrinthdichtung01.jpg
+  site: Wikimedia Commons
+  alt: A steam turbine shaft on display, its labyrinth seal made of many thin ridges side by side around the shaft so the
+    narrow gap zig-zags
+  kind: photo
+  drawn: false
 glossary: [axial--radial, freewheel, clearance, lubrication, o-ring, gland]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/labyrinth-seal.webp" alt="A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png">Labyrinth-seal</a> by unknown, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/labyrinth-seal-0f3858.webp" alt="A steam turbine shaft on display, its labyrinth seal made of many thin ridges side by side around the shaft so the narrow gap zig-zags" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Labyrinthdichtung01.jpg">Labyrinthdichtung01</a> by self, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two parts shaped so the gap between them doubles back on itself several times, so dust, grit and splashes run out of energy or drain away before they reach the inside, with no rubbing contact and nothing to wear out.

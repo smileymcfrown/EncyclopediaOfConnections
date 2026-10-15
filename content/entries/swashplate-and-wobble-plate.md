@@ -206,12 +206,36 @@ pictures:
   kind: animation
   still: swashplate-and-wobble-plate-740654.still.webp
   drawn: false
+- file: swashplate-and-wobble-plate.webp
+  title: File:Swashplate-plungers.png
+  author: KoenB
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Swashplate-plungers.png
+  site: Wikimedia Commons
+  alt: A cut-away render of a slanted swashplate in a round housing, with plungers resting on it that rise and fall as it
+    turns
+  kind: cross-section
+  drawn: false
+- file: swashplate-and-wobble-plate-535a8b.webp
+  title: File:Swashplate-Radio-controlled helicopter-taumelscheibe.jpg
+  author: No machine-readable author provided. Flo422 assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Swashplate-Radio-controlled_helicopter-taumelscheibe.jpg
+  site: Wikimedia Commons
+  alt: The rotor head of a radio-controlled helicopter, with the swashplate ring on the mast and the links from it up to the
+    blade grips
+  kind: photo
+  drawn: false
 glossary: [axial--radial, coaxial, reciprocating, stroke, pitch, cam-and-follower, crank, linkage, clearance, form-fit--force-fit--material-bond,
   circlip, lubrication, check-valve]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/swashplate-and-wobble-plate-740654.still.webp"><img src="../media/swashplate-and-wobble-plate-740654.webp" alt="Animation of an axial piston pump: a slanted red plate turns under a ring of pistons, pushing each one up and letting it down once per turn."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Axialkolbenpumpe_-_einfache_Animation.gif">Axialkolbenpumpe - einfache Animation</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/swashplate-and-wobble-plate.webp" alt="A cut-away render of a slanted swashplate in a round housing, with plungers resting on it that rise and fall as it turns" loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swashplate-plungers.png">Swashplate-plungers</a> by KoenB, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/swashplate-and-wobble-plate-535a8b.webp" alt="The rotor head of a radio-controlled helicopter, with the swashplate ring on the mast and the links from it up to the blade grips" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swashplate-Radio-controlled_helicopter-taumelscheibe.jpg">Swashplate-Radio-controlled helicopter-taumelscheibe</a> by No machine-readable author provided. Flo422 assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A swashplate is a disc fixed at a slant to a shaft, so turning the shaft makes rods or pistons arranged in a ring round it move back and forth parallel to the shaft (or the pistons turn the shaft); a wobble plate does the same without spinning, and a helicopter swashplate uses a tilting, sliding pair of plates to change the [pitch](../glossary.md#pitch) of spinning rotor blades.

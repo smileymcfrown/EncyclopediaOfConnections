@@ -198,12 +198,20 @@ pictures:
   still: invisible-barrel-hinge.still.webp
   kind: animation
   drawn: false
+- file: render/invisible-barrel-hinge.webp
+  alt: 'Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass
+    hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the
+    corner; a spare hinge, two brass cylinders joined end to end by short links, lies on the table beside them.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [linkage, stiffness, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/invisible-barrel-hinge.still.webp"><img src="../media/invisible-barrel-hinge.webp" alt="A cut-away animation of a concealed cross-link hinge, its crossed links folding into the two pockets as the door closes and unfolding as it opens."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_11.gif">Scharnier 11</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/invisible-barrel-hinge.webp" alt="Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the corner; a spare hinge, two brass cylinders joined end to end b" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A hinge made of two metal bodies sunk into matching pockets in the door edge and the frame, joined by folding links, so that when the door is shut nothing at all shows on either side and when it opens it swings a full 180°.

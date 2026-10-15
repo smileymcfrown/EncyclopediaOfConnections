@@ -195,11 +195,19 @@ pictures:
   drawn: true
   still: drawn/twisted-and-coiled-polymer-muscle.svg
   kind: animation
+- file: render/twisted-and-coiled-polymer-muscle.webp
+  alt: 'Render of a twisted-and-coiled polymer muscle on a small test stand: a nylon fishing line twisted into a tight coil
+    like a phone cord, with a thin heater wire wound along it, hangs from the stand’s arm by a crimped end and holds up a
+    brass weight; red and black leads carry current to its ends to heat it.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, self-locking, stroke, actuator, solenoid, stiffness, preload, hysteresis, creep]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/twisted-and-coiled-polymer-muscle.svg"><img src="../media/drawn/anim/twisted-and-coiled-polymer-muscle.svg" alt="Four side views of the same nylon line hanging from a support: straight, over-twisted with a heater wire wrapped round it, wound into a tight coil with a weight hanging below, and heated so the fibre untwists a little and the coil pulls shorter, lifting the weight. In the animation the last panel co"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/twisted-and-coiled-polymer-muscle.webp" alt="Render of a twisted-and-coiled polymer muscle on a small test stand: a nylon fishing line twisted into a tight coil like a phone cord, with a thin heater wire wound along it, hangs from the stand’s arm by a crimped end and holds up a brass weight; red and black leads carry current to its ends to hea" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A twisted-and-coiled polymer muscle is a cheap nylon fishing line or sewing thread that has been over-twisted into a tight coil and heat-set, so that heating it (with a wrapped heater wire, a conductive coating, hot air or hot water) makes it shorten and pull, and cooling lets it stretch back out.

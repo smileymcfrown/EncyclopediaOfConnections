@@ -196,6 +196,17 @@ pictures:
   drawn: true
   still: drawn/magnetic-coupling-and-magnetic-gear.svg
   kind: animation
+- file: magnetic-coupling-and-magnetic-gear-fc1262.webp
+  title: File:Magnetic coupling.jpg
+  author: Benzhongo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetic_coupling.jpg
+  site: Wikimedia Commons
+  alt: A large red industrial magnetic drive coupling between a grey gearbox and a blue electric motor, joining their two
+    shafts
+  kind: photo
+  drawn: false
 - file: magnetic-coupling-and-magnetic-gear.webp
   title: File:Magnetgetriebe.png
   author: Petitebiscotte
@@ -213,6 +224,7 @@ glossary: [misalignment, backlash, axial--radial, coaxial, torque, fail-safe--fa
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/magnetic-coupling-and-magnetic-gear.svg"><img src="../media/drawn/anim/magnetic-coupling-and-magnetic-gear.svg" alt="Animated: magnetic coupling seen end-on: an outer ring of magnets turned by a motor and an inner ring of magnets that drives the load, with a thin sealed wall between them; opposite poles (N and S) attract, so the inner ring follows the outer one without touching it; under too much load the poles sl"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/magnetic-coupling-and-magnetic-gear-fc1262.webp" alt="A large red industrial magnetic drive coupling between a grey gearbox and a blue electric motor, joining their two shafts" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetic_coupling.jpg">Magnetic coupling</a> by Benzhongo, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/magnetic-coupling-and-magnetic-gear.webp" alt="A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of steel pole pieces between them." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png">Magnetgetriebe</a> by Petitebiscotte, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

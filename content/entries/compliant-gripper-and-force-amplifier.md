@@ -197,6 +197,12 @@ pictures:
   drawn: true
   still: drawn/compliant-gripper-and-force-amplifier.svg
   kind: animation
+- file: render/compliant-gripper-and-force-amplifier.webp
+  alt: 'Render of a one-piece 3D-printed compliant gripper: two long plastic handles joined at one end by a thin U-shaped
+    loop that bends instead of a pin, with short jaws near the loop pinching a wooden bead.'
+  kind: render
+  render: true
+  drawn: true
 - file: compliant-gripper-and-force-amplifier.webp
   title: File:Compliant plier mechanism.png
   author: BYU CMR
@@ -214,6 +220,7 @@ glossary: [backlash, over-centre, bistable, lever-arm, mechanical-advantage, lin
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/compliant-gripper-and-force-amplifier.svg"><img src="../media/drawn/anim/compliant-gripper-and-force-amplifier.svg" alt="Two grippers built like nutcrackers, with long handles and the jaws close to the hinge: the top one is two arms joined by a pin, the bottom one is a single piece where the pin is replaced by a thin bending section; thin arrows show a small push at the handles and thick arrows a big grip at the jaws."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/compliant-gripper-and-force-amplifier.webp" alt="Render of a one-piece 3D-printed compliant gripper: two long plastic handles joined at one end by a thin U-shaped loop that bends instead of a pin, with short jaws near the loop pinching a wooden bead." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/compliant-gripper-and-force-amplifier.webp" alt="The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png">Compliant plier mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

@@ -195,12 +195,20 @@ pictures:
     in the edge of the lower panel, the nut that drops into the crossbar of the T and the screw through the upper panel; on
     the right the screw runs down the stem of the T into the trapped nut and pulls the panels tight together.'
   drawn: true
+- file: render/t-slot-joint.webp
+  alt: 'Render of a T-slot joint in laser-cut plywood: a top panel rests on a front panel whose tabs poke through it, and
+    two T-shaped cut-outs in the front panel each hold a square nut; one screw is done up through the top into its nut, and
+    the other lies beside its hole, ready to go in.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert, captive-nut, creep,
   perimeters, kerf]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/t-slot-joint.svg" alt="Two flat panels joined at a right angle with a T-slot: on the left the parts are apart, showing the T-shaped cut-out in the edge of the lower panel, the nut that drops into the crossbar of the T and the screw through the upper panel; on the right the screw runs down the stem of the T into the trappe"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/t-slot-joint.webp" alt="Render of a T-slot joint in laser-cut plywood: a top panel rests on a front panel whose tabs poke through it, and two T-shaped cut-outs in the front panel each hold a square nut; one screw is done up through the top into its nut, and the other lies beside its hole, ready to go in." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A T-shaped slot cut into the edge of a sheet traps a nut so that a screw through the neighbouring sheet can clamp the two sheets together at a corner, giving a strong joint that can be taken apart and reassembled many times.

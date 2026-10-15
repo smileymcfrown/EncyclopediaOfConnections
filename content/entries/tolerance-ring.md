@@ -162,12 +162,19 @@ pictures:
     the hole with its waves tall, then the shaft is pushed in and every wave squashes and pushes outwards on the hole and
     inwards on the shaft, and finally too much twist makes the shaft slip round inside the ring while the housing stays still.'
   drawn: true
+- file: render/tolerance-ring.webp
+  alt: 'Render of a tolerance ring: a thin band of spring steel with a row of bumps, curled round a steel shaft and just started
+    into the gap between the shaft and the bore of an aluminium hub, ready to be pushed in; the ring has a small split.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, torque, pitch, fail-safe--fail-secure, stiffness, damping, tolerance, interference-fit,
   form-fit--force-fit--material-bond, holding-force, set-screw, spline, chamfer--fillet, creep, brittle--ductile, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/tolerance-ring.svg" alt="Three end-on cut-away views of a shaft in a hole with a wavy spring-steel ring between them: first the ring sits in the hole with its waves tall, then the shaft is pushed in and every wave squashes and pushes outwards on the hole and inwards on the shaft, and finally too much twist makes the shaft s"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/tolerance-ring.webp" alt="Render of a tolerance ring: a thin band of spring steel with a row of bumps, curled round a steel shaft and just started into the gap between the shaft and the bore of an aluminium hub, ready to be pushed in; the ring has a small split." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A thin spring-steel strip with a row of waves, curled into a ring and pressed between a shaft and a bore, where every wave acts as a small stiff spring, so the joint holds by friction, copes with loose machining and different heat growth, centres the parts, and slips at a predictable [torque](../glossary.md#torque) instead of breaking.

@@ -175,11 +175,19 @@ pictures:
     two printed plates and leaves a melted bead behind as it moves along; on the right a drill press spins one round part
     pressed down on another held still, melting a thin layer where they touch.'
   drawn: true
+- file: render/friction-welded-plastic.webp
+  alt: 'Render of a friction-welded plastic joint: two 3D-printed plates laid edge to edge with a rough melted bead of filament
+    fused along most of the seam, the last part of the seam still open, and a short stub of filament with a worn, melted end
+    lying beside them.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [clearance, form-fit--force-fit--material-bond, collet, fatigue, infill, check-valve]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/friction-welded-plastic.svg" alt="Two ways to friction-weld plastic: on the left a rotary tool spins a short piece of filament against the seam between two printed plates and leaves a melted bead behind as it moves along; on the right a drill press spins one round part pressed down on another held still, melting a thin layer where t"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/friction-welded-plastic.webp" alt="Render of a friction-welded plastic joint: two 3D-printed plates laid edge to edge with a rough melted bead of filament fused along most of the seam, the last part of the seam still open, and a short stub of filament with a worn, melted end lying beside them." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Friction welding melts plastic by rubbing instead of by heating: a short length of filament spun in a rotary tool is run along a seam like a melting filler rod, or one round part is spun against another on a drill press or lathe, until the contact melts and the parts fuse into a single piece.

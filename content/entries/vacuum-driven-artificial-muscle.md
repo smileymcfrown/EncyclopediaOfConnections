@@ -178,11 +178,18 @@ pictures:
   drawn: true
   still: drawn/vacuum-driven-artificial-muscle.svg
   kind: animation
+- file: render/vacuum-driven-artificial-muscle.webp
+  alt: 'Render of a vacuum-driven artificial muscle: a strip of orange card folded into a zigzag lies sealed inside a clear
+    plastic bag, with a blue drinking straw glued into one end of the bag with hot glue so the air can be sucked out.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [stroke, actuator, solenoid, fail-safe--fail-secure, creep, regulator, venturi]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/vacuum-driven-artificial-muscle.svg"><img src="../media/drawn/anim/vacuum-driven-artificial-muscle.svg" alt="Cut-away of a zigzag-folded skeleton sealed in a clear bag hanging from a support: on the left, with normal air inside, it is fully open with a weight hanging below; on the right a pump sucks the air out, outside air presses the bag into the folds, and the stack folds up much shorter and lifts the w"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/vacuum-driven-artificial-muscle.webp" alt="Render of a vacuum-driven artificial muscle: a strip of orange card folded into a zigzag lies sealed inside a clear plastic bag, with a blue drinking straw glued into one end of the bag with hot glue so the air can be sucked out." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 An [actuator](../glossary.md#actuator) made of a compressible skeleton (a folded plastic sheet, a spring, foam or a printed shape) sealed in a flexible skin; removing the air (or liquid) from inside makes the skin pull tight on the skeleton, which folds along its designed pattern to contract by up to about 90%, bend or twist, lifting up to about 1,000 times its own weight.

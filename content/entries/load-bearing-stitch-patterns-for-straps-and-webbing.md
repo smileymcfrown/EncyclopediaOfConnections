@@ -166,6 +166,12 @@ pictures:
     bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows, with arrows showing the pull shared
     by all the stitches.'
   drawn: true
+- file: render/load-bearing-stitch-patterns-for-straps-and-webbing.webp
+  alt: 'Render of two nylon webbing straps sewn round steel D-rings: each strap passes round the ring, folds back on itself
+    and is sewn down, one with a box-X stitch (a rectangle with an X through it) and the other with three zigzag bar tacks.'
+  kind: render
+  render: true
+  drawn: true
 - file: load-bearing-stitch-patterns-for-straps-and-webbing.webp
   title: File:Bartacks (cropped).jpg
   author: kellyhogaboom
@@ -181,6 +187,7 @@ glossary: [form-fit--force-fit--material-bond, creep, layer-lines, perimeters, i
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/load-bearing-stitch-patterns-for-straps-and-webbing.svg" alt="Four straps each looped round a ring and folded back over themselves, sewn with four different stitch patterns: stacked bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows, with arrows showing the pull shared by all the stitches."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/load-bearing-stitch-patterns-for-straps-and-webbing.webp" alt="Render of two nylon webbing straps sewn round steel D-rings: each strap passes round the ring, folds back on itself and is sewn down, one with a box-X stitch (a rectangle with an X through it) and the other with three zigzag bar tacks." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/load-bearing-stitch-patterns-for-straps-and-webbing.webp" alt="Close-up of cloth with a short, dense zig-zag bar tack stitched across a seam to reinforce it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bartacks_(cropped).jpg">Bartacks (cropped)</a> by kellyhogaboom, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

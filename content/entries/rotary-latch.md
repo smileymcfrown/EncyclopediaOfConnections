@@ -183,12 +183,20 @@ pictures:
   drawn: true
   still: drawn/rotary-latch.svg
   kind: animation
+- file: render/rotary-latch.webp
+  alt: 'Render of a rotary latch with its cover plate left off: on a metal housing plate with a slot, a dark steel claw has
+    turned round a striker pin to trap it at the bottom of the slot, and a pawl rests in a notch on the claw to stop it turning
+    back; the striker pin stands out from a bracket behind.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [misalignment, self-locking, over-centre, detent, ratchet, pawl, actuator, solenoid, flexure, torsion, clearance,
   tolerance, form-fit--force-fit--material-bond, holding-force, creep, layer-lines, infill, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/rotary-latch.svg"><img src="../media/drawn/anim/rotary-latch.svg" alt="Three side views of a rotary latch: open with the striker coming into the claw&#x27;s mouth, closing as the striker turns the claw while the sprung pawl rides its rim, and latched with the pawl dropped into the claw&#x27;s notch. Animated: in view 2 the striker comes in and turns the claw while the pawl rides"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/rotary-latch.webp" alt="Render of a rotary latch with its cover plate left off: on a metal housing plate with a slot, a dark steel claw has turned round a striker pin to trap it at the bottom of the slot, and a pawl rests in a notch on the claw to stop it turning back; the striker pin stands out from a bracket behind." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A latch in which a spring-loaded rotating hook (the claw or rotor) swings shut around a striker bar as the door is pushed closed and is then held by a small catch (the [pawl](../glossary.md#pawl)), so the door stays shut until a handle, button, cable or motor lifts the catch.

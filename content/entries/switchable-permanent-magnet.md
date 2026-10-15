@@ -195,23 +195,35 @@ pictures:
   drawn: true
   still: drawn/switchable-permanent-magnet.svg
   kind: animation
-- file: switchable-permanent-magnet.webp
-  title: File:Wiki MagneticBase ON.svg
-  author: 'Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz'
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg
-  alt: 'Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves
-    of the housing.'
+- file: switchable-permanent-magnet-aa5d77.webp
+  title: File:Magnetic Switch acting on Ferrofluid.jpg
+  author: Astroengy
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Magnetic_Switch_acting_on_Ferrofluid.jpg
   site: Wikimedia Commons
-  kind: diagram
+  alt: A home-made switchable magnet shown twice, switched off and then on, with the ferrofluid under it lying flat when off
+    and standing up in spikes when on.
+  kind: how-it-works
+  drawn: false
+- file: switchable-permanent-magnet-ee853d.webp
+  title: File:MagneticBase.jpg
+  author: unknown
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:MagneticBase.jpg
+  site: Wikimedia Commons
+  alt: Two magnetic bases for dial indicators with upright rods, one with a red on/off knob on its side for turning the magnet
+    inside.
+  kind: photo
   drawn: false
 glossary: [detent, preload, tolerance, kinematic-coupling, creep, brittle--ductile, layer-lines, overhang--bridging, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/switchable-permanent-magnet.svg"><img src="../media/drawn/anim/switchable-permanent-magnet.svg" alt="Animated end-on cut-away of a switchable magnet base on a steel plate: a round magnet sits in a hole between two iron halves joined by a brass strip. Turned so its poles face the brass (OFF), its field just loops round inside the iron; a quarter turn puts one pole against each iron half (ON), so the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/switchable-permanent-magnet.webp" alt="Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves of the housing." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg">Wiki MagneticBase ON</a> by Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/switchable-permanent-magnet-aa5d77.webp" alt="A home-made switchable magnet shown twice, switched off and then on, with the ferrofluid under it lying flat when off and standing up in spikes when on." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetic_Switch_acting_on_Ferrofluid.jpg">Magnetic Switch acting on Ferrofluid</a> by Astroengy, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/switchable-permanent-magnet-ee853d.webp" alt="Two magnetic bases for dial indicators with upright rods, one with a red on/off knob on its side for turning the magnet inside." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:MagneticBase.jpg">MagneticBase</a> by unknown, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A permanent magnet inside a steel housing that you switch on and off by hand: turning a knob rotates a magnet so its pull either flows out through the base into the steel you want to hold (on) or loops round harmlessly inside the housing (off).

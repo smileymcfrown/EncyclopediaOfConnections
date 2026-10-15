@@ -187,12 +187,20 @@ pictures:
   drawn: true
   still: drawn/parallel-leaf-spring-flexure.svg
   kind: animation
+- file: render/parallel-leaf-spring-flexure.webp
+  alt: 'Render of a parallel leaf-spring flexure: a one-piece green 3D-printed part, a base block and a platform joined by
+    two thin upright blades; the platform has been pushed a little to one side, the blades bend into matching S shapes and
+    the platform stays level.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [degrees-of-freedom, backlash, stroke, linkage, actuator, stiffness, flexure, compliant-mechanism, living-hinge,
   stick-slip, chamfer--fillet, over-constraint, repeatability--accuracy, creep, fatigue, perimeters, print-in-place, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/parallel-leaf-spring-flexure.svg"><img src="../media/drawn/anim/parallel-leaf-spring-flexure.svg" alt="Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying level, dipping only very slightly; the pushed view slides back to r"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/parallel-leaf-spring-flexure.webp" alt="Render of a parallel leaf-spring flexure: a one-piece green 3D-printed part, a base block and a platform joined by two thin upright blades; the platform has been pushed a little to one side, the blades bend into matching S shapes and the platform stays level." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Two or more identical parallel blades join a fixed base to a moving platform, so the platform can slide a short distance in a nearly straight line with no friction, play or wear, guided and sprung by the bending blades.

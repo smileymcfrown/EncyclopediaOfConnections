@@ -199,11 +199,19 @@ pictures:
   drawn: true
   still: drawn/multi-stage-slide-rigging.svg
   kind: animation
+- file: render/multi-stage-slide-rigging.webp
+  alt: 'Render of a three-stage linear slide lift with continuous rigging: a single string runs from a motor-driven spool
+    up over a pulley on the fixed base slide, down under a pulley on the first moving stage, up over its top pulley and down
+    to an anchor on the second stage, which stands highest.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, self-locking, gear-ratio, actuator, tolerance, creep, layer-lines, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/multi-stage-slide-rigging.svg"><img src="../media/drawn/anim/multi-stage-slide-rigging.svg" alt="Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides out first, and on the right a separate string for each stage makes all stages move together, each faster than the one below. The animation winds the spool in: on the left the top stage "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/multi-stage-slide-rigging.webp" alt="Render of a three-stage linear slide lift with continuous rigging: a single string runs from a motor-driven spool up over a pulley on the fixed base slide, down under a pulley on the first moving stage, up over its top pulley and down to an anchor on the second stage, which stands highest." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A way of threading strings, belts or chains over pulleys on a set of nested sliding stages so that a single motor-driven reel extends every stage, either all at once in proportion (cascade) or one stage after another (continuous), with a second string or spring to pull them back in.

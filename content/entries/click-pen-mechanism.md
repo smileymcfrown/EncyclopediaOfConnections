@@ -189,12 +189,20 @@ pictures:
   drawn: true
   still: drawn/click-pen-mechanism.svg
   kind: animation
+- file: render/click-pen-mechanism.webp
+  alt: 'Render of a click-pen mechanism, close up: the blue upper barrel of a retractable ballpoint pen is cut open to show
+    the push button with saw teeth on its end, the white toothed rotator sitting on top of the ink refill, and the ribs inside
+    the tube that catch the rotator; the clear lower barrel shows the refill.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [axial--radial, stroke, bistable, detent, ratchet, pawl, compliant-mechanism, deflection, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, perimeters, infill, elephants-foot, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/click-pen-mechanism.svg"><img src="../media/drawn/anim/click-pen-mechanism.svg" alt="The inside of a click pen&#x27;s tube unrolled flat: fixed ribs with alternating short ledges and deep channels, and the zig-zag path of one rotator lug over four pushes, each push driving it down onto the button&#x27;s sloped teeth and letting it spring up into the next gap, so the pen tip goes out, in, out,"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/click-pen-mechanism.webp" alt="Render of a click-pen mechanism, close up: the blue upper barrel of a retractable ballpoint pen is cut open to show the push button with saw teeth on its end, the white toothed rotator sitting on top of the ink refill, and the ribs inside the tube that catch the rotator; the clear lower barrel shows" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A push button, a spring and a small toothed part that turns a fixed step every time you push, so the same push alternately locks a part out and lets it spring back in (or steps a dial round by one position).

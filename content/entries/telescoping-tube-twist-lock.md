@@ -209,12 +209,20 @@ pictures:
   drawn: true
   still: drawn/telescoping-tube-twist-lock.svg
   kind: animation
+- file: render/telescoping-tube-twist-lock.webp
+  alt: 'Render of a twist-lock pole joint, cut away: a thin aluminium tube slides inside a wider blue tube; on its end a plastic
+    plug carries a threaded rod with a cone that has been screwed into a red split expander sleeve, swelling it out to press
+    on the inside of the outer tube.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [self-locking, axial--radial, mechanical-advantage, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, collet, creep, perimeters, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/telescoping-tube-twist-lock.svg"><img src="../media/drawn/anim/telescoping-tube-twist-lock.svg" alt="Two cut-away views of a twist-lock pole: a thin tube slides inside a wider one and carries a split plastic plug with a cone on a threaded rod; unlocked, the cone sits loose and the tubes slide; after a twist the rod draws the cone into the plug, which swells out and presses on the wall of the outer "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/telescoping-tube-twist-lock.webp" alt="Render of a twist-lock pole joint, cut away: a thin aluminium tube slides inside a wider blue tube; on its end a plastic plug carries a threaded rod with a cone that has been screwed into a red split expander sleeve, swelling it out to press on the inside of the outer tube." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A lock for sliding tubes that holds them at any length by friction when you twist one section against the other (or turn a collar), and lets them slide again when you twist back.

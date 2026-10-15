@@ -174,6 +174,13 @@ pictures:
   drawn: true
   still: drawn/wrap-spring-clutch.svg
   kind: animation
+- file: render/wrap-spring-clutch.webp
+  alt: 'Render of a wrap-spring clutch with a quarter cut away: two steel hubs of the same size set end to end on separate
+    shafts, the lower one driven by a brass gear, with a tight coil spring wrapped over both so that turning the input the
+    winding way grips the output and turning it back lets it slip.'
+  kind: cross-section
+  render: true
+  drawn: true
 - file: wrap-spring-clutch.webp
   title: File:Pružinovávolnoběžka.jpg
   author: Juniperbushman
@@ -192,6 +199,7 @@ glossary: [misalignment, self-locking, axial--radial, coaxial, ratchet, pawl, fr
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/wrap-spring-clutch.svg"><img src="../media/drawn/anim/wrap-spring-clutch.svg" alt="Side view of a wrap-spring clutch: an input hub and an output hub end to end with a coil spring wrapped over the joint. Turned the winding way the coil squeezes down onto both hubs and the output is driven; turned the other way the coil opens slightly and slips, so the output stays still. Animated: "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/wrap-spring-clutch.webp" alt="Render of a wrap-spring clutch with a quarter cut away: two steel hubs of the same size set end to end on separate shafts, the lower one driven by a brass gear, with a tight coil spring wrapped over both so that turning the input the winding way grips the output and turning it back lets it slip." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/wrap-spring-clutch.webp" alt="Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and slips." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg">Pružinovávolnoběžka</a> by Juniperbushman, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

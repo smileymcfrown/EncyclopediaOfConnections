@@ -217,12 +217,20 @@ pictures:
   still: pneumatic-artificial-muscle.still.webp
   kind: animation
   drawn: false
+- file: render/pneumatic-artificial-muscle.webp
+  alt: 'Render of a pneumatic artificial muscle lying on the bench, inflated: an amber rubber tube swollen inside a black
+    criss-cross woven sleeve, clamped at both ends in crimped aluminium ferrules, with a mounting eye at one end and a barbed
+    air fitting and blue air tube at the other.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, self-locking, stroke, lever-arm, linkage, actuator, solenoid, fail-safe--fail-secure, stiffness,
   hysteresis, form-fit--force-fit--material-bond, creep, fatigue, layer-lines, infill, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/pneumatic-artificial-muscle.still.webp"><img src="../media/pneumatic-artificial-muscle.webp" alt="An animation of a braided air muscle swelling and getting shorter as air is pumped in, pulling a load up."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sam_animation-real-muscle.gif">Sam animation-real-muscle</a> by Rocketmagnet (hugo@shadowrobot.com), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/pneumatic-artificial-muscle.webp" alt="Render of a pneumatic artificial muscle lying on the bench, inflated: an amber rubber tube swollen inside a black criss-cross woven sleeve, clamped at both ends in crimped aluminium ferrules, with a mounting eye at one end and a barbed air fitting and blue air tube at the other." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A soft rubber tube (bladder) inside a woven sleeve (braid), sealed and clamped at both ends: when air is pumped in, the tube swells, the criss-crossed braid fibres scissor outwards and the whole thing shortens, pulling a load like a biological muscle; when the air is let out it relaxes.

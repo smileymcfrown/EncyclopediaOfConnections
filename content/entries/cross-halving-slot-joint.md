@@ -197,12 +197,20 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: render/cross-halving-slot-joint.webp
+  alt: 'Render of a cross-halving slot joint: two laser-cut plywood strips, one slotted halfway down from the top and one
+    halfway up from the bottom, pushed into each other to stand as a flush cross; a third strip lies flat beside them showing
+    its slot.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, creep, elephants-foot,
   kerf]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/cross-halving-slot-joint.webp" alt="A drawing of two flat strips, each slotted halfway through from opposite edges, shown apart and then slotted together into a flush cross."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Joinery-SimpleHalved.svg">Joinery-SimpleHalved</a> by Crati, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/cross-halving-slot-joint.webp" alt="Render of a cross-halving slot joint: two laser-cut plywood strips, one slotted halfway down from the top and one halfway up from the bottom, pushed into each other to stand as a flush cross; a third strip lies flat beside them showing its slot." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Two flat parts each get a slot as wide as the other part is thick and half as deep as the part is tall, so they slot together into a flush cross that needs no glue or fasteners.

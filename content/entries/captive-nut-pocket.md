@@ -177,11 +177,22 @@ pictures:
     sitting in a pocket in the bottom face, so tightening pulls the nut up against solid plastic; on the right the view from
     below, where the hexagonal pocket is just bigger than the nut, so its flat sides stop it turning.'
   drawn: true
+- file: captive-nut-pocket.webp
+  title: infill
+  author: Robosprout
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/68272764@N05/8362079991
+  site: Flickr via Openverse
+  alt: Grey 3D-printed brackets whose flat base has a six-sided pocket at each end, shaped to hold a nut so it can't turn
+  kind: photo
+  drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, creep, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/captive-nut-pocket.svg" alt="Captive nut pocket: on the left a cut-away of a printed block with a bolt passing down through a hole into a hex nut sitting in a pocket in the bottom face, so tightening pulls the nut up against solid plastic; on the right the view from below, where the hexagonal pocket is just bigger than the nut,"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/captive-nut-pocket.webp" alt="Grey 3D-printed brackets whose flat base has a six-sided pocket at each end, shaped to hold a nut so it can&#x27;t turn" loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/68272764@N05/8362079991">infill</a> by Robosprout, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A hexagonal or square pocket shaped to hold a standard nut so it can't spin, giving a printed part a strong metal thread for a bolt at almost no cost.

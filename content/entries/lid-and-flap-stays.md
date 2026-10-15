@@ -204,12 +204,20 @@ pictures:
   drawn: true
   still: drawn/lid-and-flap-stays.svg
   kind: animation
+- file: render/lid-and-flap-stays.webp
+  alt: 'Render of a folding lid stay: a small wooden chest with its lid open, held up by a brass stay inside the right-hand
+    wall, its two flat arms locked straight at a riveted elbow, one end screwed to the wall and the other to the underside
+    of the lid.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [dead-point, over-centre, detent, torque, linkage, torsion, clearance, form-fit--force-fit--material-bond, creep,
   layer-lines]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/lid-and-flap-stays.svg"><img src="../media/drawn/anim/lid-and-flap-stays.svg" alt="Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight so the lid&#x27;s weight presses it onto its stop, and on the right a sliding stay whose bar passes through a pivoting block that a screw squeezes so friction holds the lid at any angle"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/lid-and-flap-stays.webp" alt="Render of a folding lid stay: a small wooden chest with its lid open, held up by a brass stay inside the right-hand wall, its two flat arms locked straight at a riveted elbow, one end screwed to the wall and the other to the underside of the lid." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A folding or sliding arm between a lid (or flap, or window) and its box or frame that holds the lid open, either by locking straight just past its [dead point](../glossary.md#dead-point) or by squeezing a sliding bar so friction holds it at any angle.

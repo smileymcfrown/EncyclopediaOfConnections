@@ -209,11 +209,19 @@ pictures:
   still: electro-permanent-magnet.still.webp
   kind: animation
   drawn: false
+- file: render/electro-permanent-magnet.webp
+  alt: 'Render of an electro-permanent magnet gripper: a small square circuit board with a capacitor and chips sits on a magnet
+    block made of two iron pole pieces with a shiny neodymium bar and a copper-wound alnico bar between them, and the block
+    is holding a steel plate.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, bistable, solenoid, holding-force, heat-set-insert, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/electro-permanent-magnet.still.webp"><img src="../media/electro-permanent-magnet.webp" alt="A simulation of an electro-permanent magnet switching on and off, with the magnetic field lines reaching out into the steel below when on and staying inside the magnet when off."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Electropermanent_magnet_switching_simulation.gif">Electropermanent magnet switching simulation</a> by Magneticswizard, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/electro-permanent-magnet.webp" alt="Render of an electro-permanent magnet gripper: a small square circuit board with a capacitor and chips sits on a magnet block made of two iron pole pieces with a shiny neodymium bar and a copper-wound alnico bar between them, and the block is holding a steel plate." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A solid-state magnet made of two kinds of permanent magnet and a coil: a short pulse of current flips one of the magnets so the pair either adds up (on, gripping steel strongly) or cancels out (off), and it stays in that state with no power until the next pulse.

@@ -226,12 +226,35 @@ pictures:
   still: toggle-clamp.still.webp
   kind: animation
   drawn: false
+- file: toggle-clamp-567f3c.webp
+  title: File:Toggle-clamp manual vertical 3D closed-opened.png
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Toggle-clamp_manual_vertical_3D_closed-opened.png
+  site: Wikimedia Commons
+  alt: A realistic 3D render of a vertical toggle clamp shown twice, closed with the arm pressed down and opened with the
+    arm lifted and the red handle pulled back.
+  kind: how-it-works
+  drawn: false
+- file: toggle-clamp-01c68e.webp
+  title: File:Manufacturing equipment 086.jpg
+  author: Mixabest
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manufacturing_equipment_086.jpg
+  site: Wikimedia Commons
+  alt: A car-factory welding fixture holding a curved body panel in place with many red-handled toggle clamps around its edge.
+  kind: how-it-works
+  drawn: false
 glossary: [self-locking, stroke, over-centre, mechanical-advantage, linkage, fail-safe--fail-secure, stiffness, form-fit--force-fit--material-bond,
   holding-force, taper, creep, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/toggle-clamp.still.webp"><img src="../media/toggle-clamp.webp" alt="Animated model of a horizontal toggle clamp; pushing the red handle down swings the arm onto the work and locks it over centre."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Toggle-clamp_manual_horizontal_3D_animated.gif">Toggle-clamp manual horizontal 3D animated</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/toggle-clamp-567f3c.webp" alt="A realistic 3D render of a vertical toggle clamp shown twice, closed with the arm pressed down and opened with the arm lifted and the red handle pulled back." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Toggle-clamp_manual_vertical_3D_closed-opened.png">Toggle-clamp manual vertical 3D closed-opened</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/toggle-clamp-01c68e.webp" alt="A car-factory welding fixture holding a curved body panel in place with many red-handled toggle clamps around its edge." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manufacturing_equipment_086.jpg">Manufacturing equipment 086</a> by Mixabest, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A lever-and-link clamp that swings its arm or plunger onto the work, multiplies the hand force as its links straighten, and locks just past the straight position (over centre) so it holds the part firmly without any hand pressure until you pull the handle back.

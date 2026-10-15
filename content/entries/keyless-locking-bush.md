@@ -185,12 +185,20 @@ pictures:
   site: Wikimedia Commons
   kind: cross-section
   drawn: false
+- file: render/keyless-locking-bush.webp
+  alt: 'Render of a keyless locking bush, cut open by a quarter: a V-belt pulley sits on a plain steel shaft, held only by
+    a dark steel bush in its bore; the cut shows the bush''s two tapered rings wedged between shaft and pulley, with a ring
+    of cap screws on its front flange.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, deflection, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, set-screw, spline, taper, collet, creep, brittle--ductile, layer-lines]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/keyless-locking-bush.webp" alt="A cut-away drawing of a locking bush between a shaft and a hub, its tapered inner and outer rings drawn together by screws."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Spannsatz-2.jpg">Spannsatz-2</a> by Ukko-wc, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/keyless-locking-bush.webp" alt="Render of a keyless locking bush, cut open by a quarter: a V-belt pulley sits on a plain steel shaft, held only by a dark steel bush in its bore; the cut shows the bush&#x27;s two tapered rings wedged between shaft and pulley, with a ring of cap screws on its front flange." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A set of tapered steel rings that screws draw together so they wedge inward onto a plain shaft and outward into a hub, locking a pulley, gear or sprocket in place by friction without any key or keyway.

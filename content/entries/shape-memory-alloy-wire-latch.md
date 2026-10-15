@@ -164,11 +164,19 @@ pictures:
   drawn: true
   still: drawn/shape-memory-alloy-wire-latch.svg
   kind: animation
+- file: render/shape-memory-alloy-wire-latch.webp
+  alt: 'Render of a shape-memory-alloy wire latch: a 3D-printed lid hinged on a post is held shut by a catch lever whose nib
+    sits in a notch in the lid''s lip, pushed in by a small spring, with a thin nitinol wire running from the post to the
+    catch, ready to pull it free when current warms it.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [self-locking, stroke, detent, pawl, actuator, solenoid, flexure, form-fit--force-fit--material-bond, fatigue]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/shape-memory-alloy-wire-latch.svg"><img src="../media/drawn/anim/shape-memory-alloy-wire-latch.svg" alt="Two side views of a shape-memory wire latch: on the left a spring holds a hooked catch in a notch on the lid and the thin nickel-titanium wire is cold with the switch open; on the right the switch is closed, the current warms the wire so it shortens by about 4 percent, pulling the catch out of the n"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/shape-memory-alloy-wire-latch.webp" alt="Render of a shape-memory-alloy wire latch: a 3D-printed lid hinged on a post is held shut by a catch lever whose nib sits in a notch in the lid&#x27;s lip, pushed in by a small spring, with a thin nitinol wire running from the post to the catch, ready to pull it free when current warms it." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A spring holds a small catch shut, and a thin nickel-titanium wire hooked to the catch shortens by a few percent when an electric current heats it, pulling the catch free so the lid, door or pin is released without a sound.

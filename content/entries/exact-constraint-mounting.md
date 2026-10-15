@@ -172,6 +172,13 @@ pictures:
   alt: 'A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back
     wall and one on the end wall, with a spring pushing it diagonally into the corner so it always settles in the same place.'
   drawn: true
+- file: render/exact-constraint-mounting.webp
+  alt: 'Render of an exact-constraint (3-2-1) fixture on a 3D-printed plate: an aluminium block sits on three domed steel
+    rest buttons, clear of the plate, with two steel pins touching its long side and one its end, while a spring plunger in
+    a corner block pushes it into all six points.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [degrees-of-freedom, axial--radial, pitch, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, set-screw,
   taper, heat-set-insert, chamfer--fillet, keying, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep]
@@ -179,6 +186,7 @@ glossary: [degrees-of-freedom, axial--radial, pitch, stiffness, flexure, toleran
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/exact-constraint-mounting.svg" alt="A block held in a corner jig by exactly six small touching points: three under its bottom face, two on the long back wall and one on the end wall, with a spring pushing it diagonally into the corner so it always settles in the same place."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/exact-constraint-mounting.webp" alt="Render of an exact-constraint (3-2-1) fixture on a 3D-printed plate: an aluminium block sits on three domed steel rest buttons, clear of the plate, with two steel pins touching its long side and one its end, while a spring plunger in a corner block pushes it into all six points." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A way of holding a part with exactly as many small touching points as it has ways to move (six for a solid part: three on its main face, two on one side, one on the end), plus a gentle push that keeps it against them, so it always settles in the same position without being held twice over, bent or left wobbling.

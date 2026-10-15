@@ -222,12 +222,19 @@ pictures:
   still: four-bar-linkage.still.webp
   kind: animation
   drawn: false
+- file: render/four-bar-linkage.webp
+  alt: 'Render of a four-bar linkage made from 3D-printed flat links: a short orange crank and a longer green rocker pivot
+    on brass posts on a plywood base, joined across the top by a long blue coupler, with black screws as the four pivots.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [degrees-of-freedom, misalignment, backlash, stroke, over-centre, crank, linkage, actuator, clearance, tolerance,
   brittle--ductile, lubrication, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/four-bar-linkage.still.webp"><img src="../media/four-bar-linkage.webp" alt="An animation of a crank-rocker four-bar linkage, where one bar turns full circles while the opposite bar rocks back and forth."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif">Crank-Rocker 4-bar Linkage</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/four-bar-linkage.webp" alt="Render of a four-bar linkage made from 3D-printed flat links: a short orange crank and a longer green rocker pivot on brass posts on a plywood base, joined across the top by a long blue coupler, with black screws as the four pivots." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Four bars joined by four pivots into a closed loop, one bar fixed, so that turning or swinging one bar moves the rest in a single set way: turning into swinging, swinging into turning, a part kept level (parallelogram), or a drawing traced at a new scale (pantograph).

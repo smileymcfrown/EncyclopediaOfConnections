@@ -179,12 +179,20 @@ pictures:
   drawn: true
   still: drawn/threadless-ball-screw.svg
   kind: animation
+- file: render/threadless-ball-screw.webp
+  alt: 'Render of a threadless ball screw: a smooth steel rod turned by a stepper motor passes through a 3D-printed nut whose
+    two orange plates hold three ball bearings on bolts, pressed against the rod and tilted slightly so they roll round it
+    in a spiral and drive the nut along.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, self-locking, axial--radial, stroke, pitch, actuator, fail-safe--fail-secure, preload,
   tolerance, form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, creep, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/threadless-ball-screw.svg"><img src="../media/drawn/anim/threadless-ball-screw.svg" alt="A smooth rod seen from above running through a nut that holds a bearing pressed on the rod at a slight tilt; as the rod spins, the bearing rolls along a spiral path (dashed) and carries the nut one pitch along per turn. Small views show three bearings around the rod end-on, and that tilting the bear"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/threadless-ball-screw.webp" alt="Render of a threadless ball screw: a smooth steel rod turned by a stepper motor passes through a 3D-printed nut whose two orange plates hold three ball bearings on bolts, pressed against the rod and tilted slightly so they roll round it in a spiral and drive the nut along." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Bearings pressed at an angle against a smooth spinning rod roll round it in a spiral and so carry their housing (the 'nut') along the rod, turning rotation into straight-line motion with no [backlash](../glossary.md#backlash), and slipping harmlessly instead of jamming when overloaded.

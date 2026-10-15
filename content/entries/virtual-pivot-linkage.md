@@ -194,12 +194,20 @@ pictures:
   still: virtual-pivot-linkage.still.webp
   kind: animation
   drawn: false
+- file: render/virtual-pivot-linkage.webp
+  alt: 'Render of a virtual-pivot linkage: on an aluminium base bar, two 3D-printed side links angled towards each other carry
+    a T-shaped printed coupler, joined by small screws at four pivots, so the coupler turns about an empty point beyond the
+    end of its stem where the lines through the two side links would cross.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, stroke, pitch, linkage, flexure, clearance, chamfer--fillet, creep, lubrication, perimeters,
   print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/virtual-pivot-linkage.still.webp"><img src="../media/virtual-pivot-linkage.webp" alt="Animation of a multi-link fridge-door hinge; the links swing so the door turns about a point out beyond its corner."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_02.gif">Scharnier 02</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/virtual-pivot-linkage.webp" alt="Render of a virtual-pivot linkage: on an aluminium base bar, two 3D-printed side links angled towards each other carry a T-shaped printed coupler, joined by small screws at four pivots, so the coupler turns about an empty point beyond the end of its stem where the lines through the two side links wo" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A set of links, a curved track or bending strips arranged so that a part rotates about a point out in empty space, such as a surgeon's incision, the tip of a peg, a person's knee or the corner of a folding door, where no real pin could be placed.

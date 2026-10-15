@@ -172,12 +172,19 @@ pictures:
   drawn: true
   still: drawn/capstan-cable-drive.svg
   kind: animation
+- file: render/capstan-cable-drive.webp
+  alt: 'Render of a 3D-printed capstan cable drive: a thin rope wound four times round a small aluminium drum on a stepper
+    motor runs along the rim of a large blue printed drum sector, with both rope ends clamped at the ends of the sector.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, back-driving, self-locking, torque, pitch, actuator, stiffness, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, fatigue, layer-lines, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/capstan-cable-drive.svg"><img src="../media/drawn/anim/capstan-cable-drive.svg" alt="A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the wraps from the side and a graph of grip rising steeply wit"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/capstan-cable-drive.webp" alt="Render of a 3D-printed capstan cable drive: a thin rope wound four times round a small aluminium drum on a stepper motor runs along the rim of a large blue printed drum sector, with both rope ends clamped at the ends of the sector." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A cable wrapped several turns around a small input drum and anchored at both ends to a larger output drum turns the large drum at a reduced speed with more turning force, with zero [backlash](../glossary.md#backlash), very low friction and easy [back-driving](../glossary.md#back-driving), but only through a limited angle.

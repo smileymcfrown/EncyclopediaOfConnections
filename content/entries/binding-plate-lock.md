@@ -166,12 +166,20 @@ pictures:
   drawn: true
   still: drawn/binding-plate-lock.svg
   kind: animation
+- file: render/binding-plate-lock.webp
+  alt: 'Render of a binding-plate lock like the one at the back of a caulking gun: a smooth steel rod passes through a steel
+    bracket and then through a flat steel plate with a slightly oversized hole; a coil spring round the rod pushes the plate
+    so it leans a few degrees and grips the rod.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [self-locking, detent, ratchet, sprag, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
   collet, creep, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/binding-plate-lock.svg"><img src="../media/drawn/anim/binding-plate-lock.svg" alt="A rod passing through a flat plate with an oversized hole: on the left a thumb holds the plate square so the rod slides freely, and on the right a spring tips the plate so two opposite edges of the hole bite the rod and pushing the rod tips the plate harder and locks it. Animated: the rod slides to "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/binding-plate-lock.webp" alt="Render of a binding-plate lock like the one at the back of a caulking gun: a smooth steel rod passes through a steel bracket and then through a flat steel plate with a slightly oversized hole; a coil spring round the rod pushes the plate so it leans a few degrees and grips the rod." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A flat plate with a slightly oversized hole that slides freely along a rod while it sits square, but tips a few degrees and wedges the edges of its hole against the rod when pushed the other way, giving a stepless one-way lock that you release by pushing the plate square again.

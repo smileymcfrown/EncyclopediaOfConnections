@@ -139,14 +139,15 @@ def save(x, dest):
 
 
 def load_pictures():
-    """content/media/pictures.yaml: the pictures each page shows, in order (R32). Items are `drawn`
+    """content/media/pictures.yaml: the pictures each page shows, in order (R32). Items are
+    `render` (a 3D render made for the encyclopaedia, content/media/render/<page>.webp; R35), `drawn`
     (the diagram in drawn/<page>.svg, animated from drawn/anim/<page>.svg when there is one),
     {commons: "File:..."} or {openverse: <id>, url, title, author, license, license_url, source},
     each with an optional `kind` (animation, diagram, cross-section, how-it-works, photo) and `alt`."""
     f = os.path.join(MEDIA, 'pictures.yaml')
     out = {}
     for page, items in ((yaml.safe_load(open(f)) or {}) if os.path.exists(f) else {}).items():
-        out[page] = [{'drawn': True} if x == 'drawn' else dict(x) for x in items or []]
+        out[page] = [{'drawn': True} if x in ('drawn', 'render') else dict(x) for x in items or []]
     return out
 
 

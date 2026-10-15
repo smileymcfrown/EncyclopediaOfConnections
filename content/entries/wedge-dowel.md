@@ -142,11 +142,19 @@ pictures:
     a slot, the shelf slides along while the slot''s gently sloping grooves pull the two parts together, and it clicks home
     tight; small views show the keyhole-shaped slot from the front and the groove slope of about 2 degrees.'
   drawn: true
+- file: render/wedge-dowel.webp
+  alt: 'Render of wedge dowels: a wooden side panel standing on edge with two keyhole-shaped slots in its face, and a shelf
+    lying beside it with two ribbed dowels sticking out of its edge, lined up with the round ends of the slots, ready to be
+    pushed in and slid along until they wedge tight.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, layer-lines, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/wedge-dowel.svg" alt="Cut-away in three steps of a shelf with a ribbed dowel joining a side panel: the dowel drops into the wide end of a slot, the shelf slides along while the slot&#x27;s gently sloping grooves pull the two parts together, and it clicks home tight; small views show the keyhole-shaped slot from the front and "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/wedge-dowel.webp" alt="Render of wedge dowels: a wooden side panel standing on edge with two keyhole-shaped slots in its face, and a shelf lying beside it with two ribbed dowels sticking out of its edge, lined up with the round ends of the slots, ready to be pushed in and slid along until they wedge tight." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A factory-fitted dowel with rings of grooves on one furniture part slides along a milled slot with slightly sloping grooves in the other part, so the sloping grooves wedge the parts together and lock them tight without screws, glue or tools, and the joint can be slid apart again.

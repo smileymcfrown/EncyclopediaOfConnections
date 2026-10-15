@@ -215,12 +215,20 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: render/aluminium-extrusion-connectors.webp
+  alt: Render of two silver 20 mm aluminium frame bars joined at a right angle by a cast corner bracket with black screws
+    into the T-shaped grooves, with a loose slide-in T-nut and screw lying by the open end of the lower bar, whose T-slots
+    show end-on.
+  kind: render
+  render: true
+  drawn: true
 glossary: [self-locking, torque, pitch, set-screw, captive-nut, counterbore--countersink, threadlocker, kinematic-coupling,
   creep, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/aluminium-extrusion-connectors.webp" alt="A rendered T-nut, coloured red, sitting in the T-shaped groove of a bar, held under the groove&#x27;s lips."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:T-Nut_-_Installed_in_a_T-Slot.png">T-Nut - Installed in a T-Slot</a> by Robert Hewitt, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/aluminium-extrusion-connectors.webp" alt="Render of two silver 20 mm aluminium frame bars joined at a right angle by a cast corner bracket with black screws into the T-shaped grooves, with a loose slide-in T-nut and screw lying by the open end of the lower bar, whose T-slots show end-on." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A family of nuts, bolts, brackets and hidden connectors that lock into the T-shaped grooves of aluminium extrusion, clamping onto the groove's lips when tightened so bars, panels, motors and accessories can be bolted together anywhere along their length and moved later.

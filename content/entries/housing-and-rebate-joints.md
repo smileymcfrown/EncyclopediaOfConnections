@@ -184,12 +184,20 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: render/housing-and-rebate-joints.webp
+  alt: 'Render of housing and rebate joints in pine: a board lying flat has two shallow channels (housings or dados) cut across
+    it and a step (rebate or rabbet) cut along its end; an upright board sits in one housing and another in the rebate, and
+    the second housing is empty.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [stiffness, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, creep, stress-concentration,
   perimeters, infill, elephants-foot, kerf, end-grain, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/housing-and-rebate-joints.webp" alt="A drawing of a housing (dado) joint, one board&#x27;s end sitting in a channel cut across another board."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Woodworking-joint-dado.svg">Woodworking-joint-dado</a> by Woodworking-joint-dado.gif: SilentC derivative work: Zerodamage, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/housing-and-rebate-joints.webp" alt="Render of housing and rebate joints in pine: a board lying flat has two shallow channels (housings or dados) cut across it and a step (rebate or rabbet) cut along its end; an upright board sits in one housing and another in the rebate, and the second housing is empty." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A housing (dado) is a three-sided channel cut across a board, and a rebate (rabbet) is a two-sided step along an edge or end. Another board's end or edge sits in it, which lines the parts up and gives a ledge to carry load; glue, nails or screws usually stop it pulling out.

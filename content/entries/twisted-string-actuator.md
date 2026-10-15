@@ -194,11 +194,19 @@ pictures:
   drawn: true
   still: drawn/twisted-string-actuator.svg
   kind: animation
+- file: render/twisted-string-actuator.webp
+  alt: 'Render of a twisted-string actuator: a small gearmotor on a printed bracket turns a hub tied to two orange braided
+    strings; the strings are twisted tightly round each other and pull a printed carriage along two steel guide rods towards
+    the motor.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, self-locking, axial--radial, stroke, torque, gear-ratio, actuator, torsion, creep, fatigue]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/twisted-string-actuator.svg"><img src="../media/drawn/anim/twisted-string-actuator.svg" alt="A motor hanging from a fixed beam drives two strings that hold a load, drawn three times: with no twist the strings hang side by side and the load is low, after 10 turns the strings are twisted round each other and the load has risen, and after 20 turns the twist is tighter and the load is higher st"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/twisted-string-actuator.webp" alt="Render of a twisted-string actuator: a small gearmotor on a printed bracket turns a hub tied to two orange braided strings; the strings are twisted tightly round each other and pull a printed carriage along two steel guide rods towards the motor." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A twisted-string [actuator](../glossary.md#actuator) turns a motor's rotation into a strong straight-line pull by twisting two or more strings together, so they shorten like a wrung-out cloth and act as a very high, self-changing [gear ratio](../glossary.md#gear-ratio) in almost no space.
