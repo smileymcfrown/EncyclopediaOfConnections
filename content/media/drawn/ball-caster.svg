@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A ball caster cut away under a robot: a big ball held in a housing by a lip smaller than the ball, resting on small rollers, rolls along the floor; seen from above, it rolls off sideways at once, while a swivel castor must first swing its wheel round.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="fl"><rect x="30" y="314" width="340" height="40"/></clipPath>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="405" y1="20" x2="405" y2="410" stroke="#ccc" stroke-width="2"/>
+<g clip-path="url(#fl)"><g><rect x="20" y="315" width="820" height="26" fill="url(#hatch)" stroke="none"/></g></g>
+<rect x="30" y="315" width="340" height="26" fill="none" stroke-width="2"/>
+<rect x="60" y="88" width="280" height="24" rx="3" fill="#d8f0d2"/>
+<path d="M112,112 H288 V279 H268 A76,76 0 1 0 132,279 H112 Z" fill="#e8e8e8"/>
+<circle cx="140.6" cy="185.6" r="18" fill="#fff" stroke-width="2"/>
+<circle cx="259.4" cy="185.6" r="18" fill="#fff" stroke-width="2"/>
+<g><circle cx="200" cy="245" r="70" fill="#cfe3f5"/><path d="M140,245 H260 M200,185 V305" stroke="#7fa7c9" stroke-width="2.5"/><circle cx="238" cy="215" r="9" fill="#7fa7c9" stroke="none"/></g>
+<g><circle cx="140.6" cy="185.6" r="14" fill="#fde2c4"/><line x1="130.6" y1="185.6" x2="150.6" y2="185.6" stroke-width="2"/><circle cx="140.6" cy="185.6" r="2.5" fill="#222"/></g>
+<g><circle cx="259.4" cy="185.6" r="14" fill="#fde2c4"/><line x1="249.4" y1="185.6" x2="269.4" y2="185.6" stroke-width="2"/><circle cx="259.4" cy="185.6" r="2.5" fill="#222"/></g>
+<line x1="140" y1="66" x2="260" y2="66" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M160,271 A50,50 0 0 1 202,293" fill="none" stroke="#d1495b" stroke-width="3.5" marker-end="url(#ah)"/>
+<circle cx="500" cy="165" r="34" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>
+<rect x="480" y="310" width="40" height="40" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>
+<g><circle cx="500" cy="165" r="34" fill="#e8e8e8"/><circle cx="500" cy="165" r="24" fill="#cfe3f5"/></g>
+<g><rect x="480" y="310" width="40" height="40" fill="#e8e8e8"/><g><path d="M488,330 V372 M512,330 V372" stroke-width="4" fill="none"/><rect x="493" y="350" width="14" height="44" rx="4" fill="#fde2c4"/></g><circle cx="500" cy="330" r="5" fill="#fff"/><circle cx="500" cy="330" r="1.8" fill="#222"/></g>
+<line x1="560" y1="114" x2="680" y2="114" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="560" y1="292" x2="680" y2="292" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g text-anchor="middle" font-weight="bold" font-size="20"><text x="200" y="34">Cut-away, robot moving right</text><text x="605" y="34">Seen from above: push sideways</text></g>
+<text x="290" y="152">small rollers</text><line x1="288" y1="160" x2="272" y2="176" stroke="#222" stroke-width="1.5"/>
+<text x="12" y="200">big ball</text><line x1="62" y1="206" x2="148" y2="226" stroke="#222" stroke-width="1.5"/>
+<text x="298" y="262">lip smaller</text><text x="298" y="282">than the ball</text><line x1="296" y1="270" x2="268" y2="279" stroke="#222" stroke-width="1.5"/>
+<text x="425" y="84">ball caster: rolls off any way at once</text>
+<text x="425" y="248">swivel castor: its wheel must</text><text x="425" y="270">swing round before it rolls</text>
+<text x="400" y="438" text-anchor="middle" font-size="17">No front, so no steering: the ball rolls equally easily in every direction</text>
+</g>
+</svg>

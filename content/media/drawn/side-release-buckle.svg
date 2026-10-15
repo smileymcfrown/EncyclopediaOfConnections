@@ -12,8 +12,8 @@
 <g>
 <rect x="-280" y="197" width="590" height="56" fill="#e8e8e8"/>
 <rect x="380" y="212" width="222" height="26" rx="4" fill="#fde2c4"/>
-<g><path d="M376,158 H502 V130 H520 L542,162 V170 H376 Z" fill="#fde2c4"/></g>
-<g><path d="M376,292 H502 V320 H520 L542,288 V280 H376 Z" fill="#fde2c4"/></g>
+<path d="M376,158 L400,158 L425,158 L450,158 L475,158 L502,158 L502,130 L520,130 L542,162 L542,170 L510,170 L475,170 L450,170 L425,170 L400,170 L376,170 Z" fill="#fde2c4"></path>
+<path d="M376,292 L400,292 L425,292 L450,292 L475,292 L502,292 L502,320 L520,320 L542,288 L542,280 L510,280 L475,280 L450,280 L425,280 L400,280 L376,280 Z" fill="#fde2c4"></path>
 <rect x="300" y="140" width="80" height="170" rx="10" fill="#fde2c4"/>
 <rect x="318" y="182" width="16" height="86" rx="4" fill="#ffffff"/>
 </g>
