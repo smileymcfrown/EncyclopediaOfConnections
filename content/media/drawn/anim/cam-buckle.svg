@@ -26,7 +26,7 @@
 <text x="250" y="30" text-anchor="end">press the lever</text><text x="250" y="52" text-anchor="end">to release</text>
 <text x="540" y="110">toothed cam</text><line x1="538" y1="116" x2="500" y2="150" stroke="#222" stroke-width="1.5"/>
 <text x="318" y="168" text-anchor="end">spring</text>
-<text x="420" y="292" text-anchor="middle">fixed bar</text>
+<text x="420" y="302" text-anchor="middle">fixed bar</text>
 <text x="64" y="270">to the load</text><text x="690" y="270">tail</text>
 </g>
 </g>
