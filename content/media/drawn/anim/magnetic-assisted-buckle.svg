@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side cut-away of a magnetic buckle in three steps: the magnets pull the top half down and into line, the latched hook sits behind a ledge so a pull on the straps goes through the hook rather than the magnets, and sliding the top half back frees the hook and moves the magnets apart. Animated: in step 1 the top half drops onto the bottom half and the magnets slide it into line so the hook goes under the ledge; in step 2 the straps tug and the hook takes the pull; in step 3 the top half slides back and lifts away.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="lower" stroke="#222" stroke-width="3">
+<rect x="5" y="213" width="38" height="16" fill="#e8e8e8"/>
+<path d="M40,200 H95 V228 H175 V210 H150 V200 H200 V245 H40 Z" fill="#fde2c4"/>
+<rect x="55" y="206" width="32" height="26" fill="#f5d0d0"/>
+</g>
+<g id="upper" stroke="#222" stroke-width="3">
+<rect x="207" y="173" width="48" height="16" fill="#e8e8e8"/>
+<path d="M50,160 H210 V200 H136 V212 H170 V226 H122 V200 H50 Z" fill="#cfe3f5"/>
+<rect x="55" y="168" width="32" height="26" fill="#f5d0d0"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="265" y1="60" x2="265" y2="380" stroke="#cccccc" stroke-width="2"/>
+<line x1="530" y1="60" x2="530" y2="380" stroke="#cccccc" stroke-width="2"/>
+<!-- 1 approach -->
+<use href="#lower"/>
+<use href="#upper" transform="translate(-25,-34)"><animateTransform attributeName="transform" type="translate" values="-25,-34;-25,-34;-25,0;0,0;0,0;0,0;-25,-34;-25,-34;-25,-34" keyTimes="0;0.12;0.26;0.38;0.85;0.88;0.92;0.97;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.6 0 1 1;0.4 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="opacity" values="1;1;1;1;1;0;0;1;1" keyTimes="0;0.12;0.26;0.38;0.85;0.88;0.92;0.97;1" dur="6s" repeatCount="indefinite"/></use>
+<g opacity="1"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.24;0.27;0.97;1" dur="6s" repeatCount="indefinite"/><line x1="46" y1="168" x2="46" y2="196" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><line x1="120" y1="168" x2="120" y2="196" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g>
+<line x1="70" y1="258" x2="110" y2="258" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)" opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.28;0.45;0.5;1" dur="6s" repeatCount="indefinite"/></line>
+<!-- 2 latched -->
+<g transform="translate(265,0)">
+<use href="#lower"><animateTransform attributeName="transform" type="translate" values="0,0;0,0;-2,0;-2,0;0,0;0,0" keyTimes="0;0.3;0.45;0.7;0.85;1" dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1"/></use>
+<use href="#upper"><animateTransform attributeName="transform" type="translate" values="0,0;0,0;3,0;3,0;0,0;0,0" keyTimes="0;0.3;0.45;0.7;0.85;1" dur="3s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.4 0 0.2 1;0 0 1 1;0.4 0 0.2 1;0 0 1 1"/></use>
+<line x1="40" y1="258" x2="8" y2="258" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="0.35;0.35;1;1;0.35;0.35" keyTimes="0;0.3;0.45;0.7;0.85;1" dur="3s" repeatCount="indefinite"/></line>
+<line x1="215" y1="258" x2="250" y2="258" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="0.35;0.35;1;1;0.35;0.35" keyTimes="0;0.3;0.45;0.7;0.85;1" dur="3s" repeatCount="indefinite"/></line>
+<circle cx="162" cy="211" r="15" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="4 4"/>
+<line x1="150" y1="148" x2="160" y2="195" stroke="#222" stroke-width="2"/>
+</g>
+<!-- 3 open -->
+<g transform="translate(530,0)">
+<use href="#lower"/>
+<use href="#upper" transform="translate(-25,-16)"><animateTransform attributeName="transform" type="translate" values="-25,-16;-25,-16;-25,-16;0,0;0,0;0,0;-25,0;-25,-16;-25,-16" keyTimes="0;0.38;0.42;0.44;0.48;0.6;0.72;0.82;1" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0.4 0 0.2 1;0.4 0 0.2 1;0 0 1 1"/><animate attributeName="opacity" values="1;1;0;0;1;1;1;1;1" keyTimes="0;0.38;0.42;0.44;0.48;0.6;0.72;0.82;1" dur="6s" repeatCount="indefinite"/></use>
+<line x1="150" y1="122" x2="110" y2="122" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.38;0.4;0.58;0.6;1" dur="6s" repeatCount="indefinite"/></line>
+<line x1="160" y1="126" x2="160" y2="96" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.38;0.4;0.7;0.72;1" dur="6s" repeatCount="indefinite"/></line>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="20" font-weight="bold" text-anchor="middle">
+<text x="132" y="36">1. Magnets pull it shut</text>
+<text x="397" y="36">2. Latched</text>
+<text x="662" y="36">3. Slide to open</text>
+</g>
+<text x="132" y="290" text-anchor="middle">magnets (red)</text>
+<text x="132" y="312" text-anchor="middle">pull together</text>
+<text x="132" y="334" text-anchor="middle">and into line</text>
+<text x="397" y="140" text-anchor="middle">hook behind ledge</text>
+<text x="397" y="306" text-anchor="middle">strap pull goes</text>
+<text x="397" y="328" text-anchor="middle">through the hook</text>
+<text x="662" y="290" text-anchor="middle">hook slides clear,</text>
+<text x="662" y="312" text-anchor="middle">magnets move apart</text>
+<text x="400" y="420" text-anchor="middle">The magnet only closes and lines it up; the hook takes the load</text>
+</g>
+</svg>

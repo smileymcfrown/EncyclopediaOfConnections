@@ -130,24 +130,51 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Sear_and_trigger_trip_release_mechanism.json
 image:
-  file: sear-and-trigger.webp
-  width: 800
-  height: 289
+  file: drawn/anim/sear-and-trigger.svg
+  alt: 'A sear and trigger seen from the side, animated: a light finger pull turns the long trigger, which tips the sear down
+    off the bar''s notch, the big spring snaps the bar forward, and then the bar is cocked again and the sear springs back
+    up to hold it.'
+  drawn: true
+  still: drawn/sear-and-trigger.svg
+  kind: animation
+pictures:
+- file: drawn/anim/sear-and-trigger.svg
+  alt: 'A sear and trigger seen from the side, animated: a light finger pull turns the long trigger, which tips the sear down
+    off the bar''s notch, the big spring snaps the bar forward, and then the bar is cocked again and the sear springs back
+    up to hold it.'
+  drawn: true
+  still: drawn/sear-and-trigger.svg
+  kind: animation
+- file: sear-and-trigger.webp
   title: File:Noix corde carreau arbalette.svg
   author: Christophe Dang Ngoc Chan (Cdang (talk))
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg
-  alt: 'Labelled diagram of a medieval crossbow lock: the nut, the string, the bolt (quarrel) and the trigger'
+  alt: A drawing of a crossbow lock, the round nut holding the string and bolt, with the trigger lever that lets the nut turn.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: sear-and-trigger-06bbaa.webp
+  title: File:Han crossbow trigger mechanism.jpg
+  author: Flickr user Gary Todd
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Han_crossbow_trigger_mechanism.jpg
+  site: Wikimedia Commons
+  alt: Bronze trigger mechanisms from ancient Chinese crossbows, laid out on a grey table, some assembled and some in pieces.
+  kind: photo
   drawn: false
 glossary: [self-locking, dead-point, over-centre, detent, ratchet, pawl, linkage, actuator, solenoid, fail-safe--fail-secure,
   deflection, torsion, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, perimeters,
   infill, elephants-foot]
 ---
 
-![Labelled diagram of a medieval crossbow lock: the nut, the string, the bolt (quarrel) and the trigger](../media/sear-and-trigger.webp)
-
-*Picture: [Noix corde carreau arbalette.svg](https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg) by Christophe Dang Ngoc Chan (Cdang (talk)), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/sear-and-trigger.svg"><img src="../media/drawn/anim/sear-and-trigger.svg" alt="A sear and trigger seen from the side, animated: a light finger pull turns the long trigger, which tips the sear down off the bar&#x27;s notch, the big spring snaps the bar forward, and then the bar is cocked again and the sear springs back up to hold it."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sear-and-trigger.webp" alt="A drawing of a crossbow lock, the round nut holding the string and bolt, with the trigger lever that lets the nut turn." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Noix_corde_carreau_arbalette.svg">Noix corde carreau arbalette</a> by Christophe Dang Ngoc Chan (Cdang (talk)), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sear-and-trigger-06bbaa.webp" alt="Bronze trigger mechanisms from ancient Chinese crossbows, laid out on a grey table, some assembled and some in pieces." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Han_crossbow_trigger_mechanism.jpg">Han crossbow trigger mechanism</a> by Flickr user Gary Todd, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A small hooked catch (the sear) holds a part that is loaded by a big spring, band or weight, and a trigger lever pulls the catch off with a light touch, releasing all the stored energy in an instant.
 

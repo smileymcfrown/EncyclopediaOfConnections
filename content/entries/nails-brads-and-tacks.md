@@ -146,23 +146,44 @@ sources:
 research: research/connection-types/results/Nails_brads_and_tacks_ringshank_nail.json
 image:
   file: nails-brads-and-tacks.webp
-  width: 800
-  height: 528
   title: File:Spijkers (Nails).jpg
   author: Rasbak
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg
-  alt: Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia
-    'Nail (fastener)'
+  alt: Seven different nails laid side by side on wood, from short broad-headed roofing nails to long thin steel nails.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: nails-brads-and-tacks.webp
+  title: File:Spijkers (Nails).jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg
+  alt: Seven different nails laid side by side on wood, from short broad-headed roofing nails to long thin steel nails.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: nails-brads-and-tacks-04a045.webp
+  title: File:Toenailing example with hammer and nail.jpg
+  author: Thermosking
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Toenailing_example_with_hammer_and_nail.jpg
+  site: Wikimedia Commons
+  alt: A hammer driving a nail at an angle through the foot of an upright piece of wood into the board below (toenailing).
+  kind: how-it-works
   drawn: false
 glossary: [axial--radial, stiffness, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, brittle--ductile,
   infill, overhang--bridging, end-grain, peel-vs-shear]
 ---
 
-![Labelled photo of nail types, including copper, flathead steel, screw-shank and ring-shank nails, used on Wikipedia 'Nail (fastener)'](../media/nails-brads-and-tacks.webp)
-
-*Picture: [Spijkers (Nails).jpg](https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg) by Rasbak, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/nails-brads-and-tacks.webp" alt="Seven different nails laid side by side on wood, from short broad-headed roofing nails to long thin steel nails."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Spijkers_(Nails).jpg">Spijkers (Nails)</a> by Rasbak, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/nails-brads-and-tacks-04a045.webp" alt="A hammer driving a nail at an angle through the foot of an upright piece of wood into the board below (toenailing)." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Toenailing_example_with_hammer_and_nail.jpg">Toenailing example with hammer and nail</a> by Thermosking, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pointed steel pin hammered or fired into wood, where the squashed wood fibres grip its shank by friction, used to fix wood to wood (and thin board, felt, fabric or leather to wood) quickly and cheaply; it carries sideways ([shear](../glossary.md#peel-vs-shear)) loads well but pulls out more easily than a screw unless it has rings or a twist, is driven at an angle, or is bent over (clinched).
 

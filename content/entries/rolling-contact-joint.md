@@ -144,19 +144,31 @@ sources:
 - https://www.thenakedscientists.com/get-naked/experiments/snap-bracelets-tape-measures-bistable-structures
 research: research/connection-types/results/Rollingcontact_joint_CORE_Jacobsladder_hinge.json
 image:
-  file: drawn/rolling-contact-joint.svg
+  file: drawn/anim/rolling-contact-joint.svg
   alt: 'Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed
     straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over
-    the left block without sliding, and the contact point, which acts as the pivot, moves along the curved faces.'
+    the left block without sliding, and the contact point, which acts as the pivot, moves along the curved faces. Animated:
+    views 2 and 3 roll back to straight and up again, the contact point moving along the curved faces.'
   drawn: true
+  still: drawn/rolling-contact-joint.svg
+  kind: animation
+pictures:
+- file: drawn/anim/rolling-contact-joint.svg
+  alt: 'Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed
+    straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over
+    the left block without sliding, and the contact point, which acts as the pivot, moves along the curved faces. Animated:
+    views 2 and 3 roll back to straight and up again, the contact point moving along the curved faces.'
+  drawn: true
+  still: drawn/rolling-contact-joint.svg
+  kind: animation
 glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secure, stiffness, flexure, living-hinge, hysteresis,
   clearance, set-screw, chamfer--fillet, repeatability--accuracy, creep, stress-relaxation, brittle--ductile, lubrication,
   layer-lines, print-in-place]
 ---
 
-![Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed straps (blue over the left block and under the right, green the other way); as the ](../media/drawn/rolling-contact-joint.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/rolling-contact-joint.svg"><img src="../media/drawn/anim/rolling-contact-joint.svg" alt="Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over the left block without sliding, and the contact point, which act"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
 

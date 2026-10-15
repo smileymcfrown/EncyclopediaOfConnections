@@ -119,13 +119,19 @@ image:
     them stretched round the bends; below, the same sections in a straight line, with the stretched cord pulling each narrow
     end (spigot) into the next tube''s socket.'
   drawn: true
+pictures:
+- file: drawn/shock-corded-sectional-pole.svg
+  alt: 'Cut-away of a shock-corded tent pole: above, three tube sections folded side by side with the elastic cord inside
+    them stretched round the bends; below, the same sections in a straight line, with the stretched cord pulling each narrow
+    end (spigot) into the next tube''s socket.'
+  drawn: true
 glossary: [stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, stress-concentration,
   layer-lines, perimeters, infill]
 ---
 
-![Cut-away of a shock-corded tent pole: above, three tube sections folded side by side with the elastic cord inside them stretched round the bends; below, the same sections in a straight line, with the ](../media/drawn/shock-corded-sectional-pole.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/shock-corded-sectional-pole.svg" alt="Cut-away of a shock-corded tent pole: above, three tube sections folded side by side with the elastic cord inside them stretched round the bends; below, the same sections in a straight line, with the stretched cord pulling each narrow end (spigot) into the next tube&#x27;s socket."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A pole made of short tubes that plug into one another (socket, spigot or ferrule joints), with an elastic cord running through all of them under light tension, so the sections stay together as one set, pull themselves into line and home, and fold up small.
 

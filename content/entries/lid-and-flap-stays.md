@@ -144,18 +144,32 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lid_and_flap_stays_folding_stay_friction_stay.json
 image:
-  file: drawn/lid-and-flap-stays.svg
+  file: drawn/anim/lid-and-flap-stays.svg
   alt: 'Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight
     so the lid''s weight presses it onto its stop, and on the right a sliding stay whose bar passes through a pivoting block
-    that a screw squeezes so friction holds the lid at any angle.'
+    that a screw squeezes so friction holds the lid at any angle. The animation swings both lids part-way shut and open again:
+    the folding stay''s elbow bends and then locks just past straight, and the sliding stay''s bar slides through its pivoting
+    block.'
   drawn: true
+  still: drawn/lid-and-flap-stays.svg
+  kind: animation
+pictures:
+- file: drawn/anim/lid-and-flap-stays.svg
+  alt: 'Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight
+    so the lid''s weight presses it onto its stop, and on the right a sliding stay whose bar passes through a pivoting block
+    that a screw squeezes so friction holds the lid at any angle. The animation swings both lids part-way shut and open again:
+    the folding stay''s elbow bends and then locks just past straight, and the sliding stay''s bar slides through its pivoting
+    block.'
+  drawn: true
+  still: drawn/lid-and-flap-stays.svg
+  kind: animation
 glossary: [dead-point, over-centre, detent, torque, linkage, torsion, clearance, form-fit--force-fit--material-bond, creep,
   layer-lines]
 ---
 
-![Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight so the lid's weight presses it onto its stop, and on the right a sliding stay wh](../media/drawn/lid-and-flap-stays.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/lid-and-flap-stays.svg"><img src="../media/drawn/anim/lid-and-flap-stays.svg" alt="Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight so the lid&#x27;s weight presses it onto its stop, and on the right a sliding stay whose bar passes through a pivoting block that a screw squeezes so friction holds the lid at any angle"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A folding or sliding arm between a lid (or flap, or window) and its box or frame that holds the lid open, either by locking straight just past its [dead point](../glossary.md#dead-point) or by squeezing a sliding bar so friction holds it at any angle.
 

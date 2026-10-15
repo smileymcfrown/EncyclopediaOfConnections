@@ -157,23 +157,58 @@ sources:
 research: research/connection-types/results/Herringbone_and_helical_gears.json
 image:
   file: herringbone-and-helical-gears.webp
-  width: 539
-  height: 457
   title: File:Anim engrenages helicoidaux.gif
   author: user:Sador
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif
-  alt: 3D animation of a pair of helical gears meshing
-  animated: true
+  alt: Two grey helical gears with slanted teeth turning together in mesh.
+  site: Wikimedia Commons
+  still: herringbone-and-helical-gears.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: herringbone-and-helical-gears.webp
+  title: File:Anim engrenages helicoidaux.gif
+  author: user:Sador
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif
+  alt: Two grey helical gears with slanted teeth turning together in mesh.
+  site: Wikimedia Commons
+  still: herringbone-and-helical-gears.still.webp
+  kind: animation
+  drawn: false
+- file: herringbone-and-helical-gears-693bd5.webp
+  title: File:Double helical and herringbone gear.jpg
+  author: Anup Sadi
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Double_helical_and_herringbone_gear.jpg
+  site: Wikimedia Commons
+  alt: A pair of brass herringbone gears in a museum display, their V-shaped teeth meshing, above a sign reading Double helical
+    herringbone gear.
+  kind: photo
+  drawn: false
+- file: herringbone-and-helical-gears-1f8787.webp
+  title: File:Double-helical gear.jpg
+  author: Parchaco
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Double-helical_gear.jpg
+  site: Wikimedia Commons
+  alt: A large industrial gearbox with its cover off, showing big double-helical gears with V-shaped teeth in mesh.
+  kind: how-it-works
   drawn: false
 glossary: [backlash, self-locking, axial--radial, thrust-load, torque, gear-ratio, pitch, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, chamfer--fillet, lubrication, infill, print-in-place, elephants-foot, overhang--bridging]
 ---
 
-![3D animation of a pair of helical gears meshing](../media/herringbone-and-helical-gears.webp)
-
-*Picture: [Anim engrenages helicoidaux.gif](https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif) by user:Sador, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/herringbone-and-helical-gears.still.webp"><img src="../media/herringbone-and-helical-gears.webp" alt="Two grey helical gears with slanted teeth turning together in mesh."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anim_engrenages_helicoidaux.gif">Anim engrenages helicoidaux</a> by user:Sador, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/herringbone-and-helical-gears-693bd5.webp" alt="A pair of brass herringbone gears in a museum display, their V-shaped teeth meshing, above a sign reading Double helical herringbone gear." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Double_helical_and_herringbone_gear.jpg">Double helical and herringbone gear</a> by Anup Sadi, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/herringbone-and-helical-gears-1f8787.webp" alt="A large industrial gearbox with its cover off, showing big double-helical gears with V-shaped teeth in mesh." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Double-helical_gear.jpg">Double-helical gear</a> by Parchaco, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Cylindrical gears whose teeth are twisted at an angle (the helix angle) so each tooth engages gradually, making them quieter and stronger than straight spur gears; herringbone gears put a left-hand and a right-hand twist side by side so their sideways pushes cancel, and they are easy to 3D print.
 

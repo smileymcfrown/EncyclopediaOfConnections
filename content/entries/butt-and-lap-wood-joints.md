@@ -138,23 +138,57 @@ sources:
 research: research/connection-types/results/Butt_and_lap_wood_joints_screwed_pockethole_halflap.json
 image:
   file: butt-and-lap-wood-joints.webp
-  width: 800
-  height: 679
   title: File:Woodworking lap joints.svg
   author: Fred the Oyster
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg
-  alt: 'Drawing of four lap joints, left to right: half lap, mitred half lap, cross lap and dovetail lap (used on Wikipedia
-    ''Lap joint'')'
+  alt: Drawings of four lap joints, half lap, mitred half lap, cross lap and dovetail cross lap, each with half the wood cut
+    away so the pieces overlap flush.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: butt-and-lap-wood-joints.webp
+  title: File:Woodworking lap joints.svg
+  author: Fred the Oyster
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg
+  alt: Drawings of four lap joints, half lap, mitred half lap, cross lap and dovetail cross lap, each with half the wood cut
+    away so the pieces overlap flush.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: butt-and-lap-wood-joints-470fb1.webp
+  title: File:Wood chisel.JPG
+  author: Fishdecoy at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Wood_chisel.JPG
+  site: Wikimedia Commons
+  alt: A chisel cutting out the recess for a half-lap joint across a timber beam.
+  kind: how-it-works
+  drawn: false
+- file: butt-and-lap-wood-joints-93c53a.webp
+  title: File:Pocket-hole joint being assembled.gif
+  author: User:Derekbalsley
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pocket-hole_joint_being_assembled.gif
+  site: Wikimedia Commons
+  alt: A pocket-hole butt joint being clamped and screwed, the angled screw going through one board into the other.
+  kind: how-it-works
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, spline, heat-set-insert, captive-nut, pilot-hole, counterbore--countersink,
   repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear]
 ---
 
-![Drawing of four lap joints, left to right: half lap, mitred half lap, cross lap and dovetail lap (used on Wikipedia 'Lap joint')](../media/butt-and-lap-wood-joints.webp)
-
-*Picture: [Woodworking lap joints.svg](https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg) by Fred the Oyster, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/butt-and-lap-wood-joints.webp" alt="Drawings of four lap joints, half lap, mitred half lap, cross lap and dovetail cross lap, each with half the wood cut away so the pieces overlap flush."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg">Woodworking lap joints</a> by Fred the Oyster, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/butt-and-lap-wood-joints-470fb1.webp" alt="A chisel cutting out the recess for a half-lap joint across a timber beam." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wood_chisel.JPG">Wood chisel</a> by Fishdecoy at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/butt-and-lap-wood-joints-93c53a.webp" alt="A pocket-hole butt joint being clamped and screwed, the angled screw going through one board into the other." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pocket-hole_joint_being_assembled.gif">Pocket-hole joint being assembled</a> by User:Derekbalsley, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 The simplest wood joints: one piece meets another end-on (butt joint) or overlaps it (lap joint), and screws, nails, angled pocket screws or glue hold them together; the baseline every other wood joint is compared with.
 

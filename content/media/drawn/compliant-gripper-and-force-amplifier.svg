@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two grippers built like nutcrackers, with long handles and the jaws close to the hinge: the top one is two arms joined by a pin, the bottom one is a single piece where the pin is replaced by a thin bending section; thin arrows show a small push at the handles and thick arrows a big grip at the jaws.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(0,100)">
+<circle cx="150" cy="0" r="32" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
+<ellipse cx="250" cy="0" rx="16" ry="16" fill="#fde2c4" stroke="#222" stroke-width="3"></ellipse>
+<g><path d="M174,29 L150,16 A16,16 0 0 1 150,-16 L184,11 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/><polygon points="169.1,28.96 519.1,63.96 520.9,46.04 260.9,20.04 260.9,17.04 240.9,15.04 240.9,18.04 170.9,11.04" fill="#d8f0d2" stroke="#222" stroke-width="3"/><line x1="500" y1="88" x2="500" y2="67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,71 L256,71 L256,56 L264,56 L250,41 L236,56 L244,56 Z" fill="#d1495b"/></g>
+<g><path d="M174,-29 L150,-16 A16,16 0 0 0 150,16 L184,-11 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/><polygon points="169.1,-28.96 519.1,-63.96 520.9,-46.04 260.9,-20.04 260.9,-17.04 240.9,-15.04 240.9,-18.04 170.9,-11.04" fill="#cfe3f5" stroke="#222" stroke-width="3"/><line x1="500" y1="-88" x2="500" y2="-67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,-71 L256,-71 L256,-56 L264,-56 L250,-41 L236,-56 L244,-56 Z" fill="#d1495b"/></g>
+<circle cx="150" cy="0" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="150" cy="0" r="2.2" fill="#222"/>
+</g>
+<g transform="translate(0,290)">
+<circle cx="150" cy="0" r="32" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M172,-20 C130,-27.3 130,27.3 172,20" fill="none" stroke="#222" stroke-width="10" stroke-linecap="butt"></path>
+<path d="M172,-20 C130,-27.3 130,27.3 172,20" fill="none" stroke="#d8f0d2" stroke-width="4" stroke-linecap="butt"></path>
+<ellipse cx="250" cy="0" rx="16" ry="16" fill="#fde2c4" stroke="#222" stroke-width="3"></ellipse>
+<g><polygon points="169.1,28.96 519.1,63.96 520.9,46.04 260.9,20.04 260.9,17.04 240.9,15.04 240.9,18.04 170.9,11.04" fill="#d8f0d2" stroke="#222" stroke-width="3"/><line x1="500" y1="88" x2="500" y2="67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,71 L256,71 L256,56 L264,56 L250,41 L236,56 L244,56 Z" fill="#d1495b"/></g>
+<g><polygon points="169.1,-28.96 519.1,-63.96 520.9,-46.04 260.9,-20.04 260.9,-17.04 240.9,-15.04 240.9,-18.04 170.9,-11.04" fill="#cfe3f5" stroke="#222" stroke-width="3"/><line x1="500" y1="-88" x2="500" y2="-67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,-71 L256,-71 L256,-56 L264,-56 L250,-41 L236,-56 L244,-56 Z" fill="#d1495b"/></g>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<g text-anchor="start"><text x="20" y="34" font-size="21" font-weight="bold">Two pieces with a pin</text><text x="20" y="214" font-size="21" font-weight="bold">One piece that bends</text><text x="535" y="50">small push,</text><text x="535" y="72">long way</text><text x="270" y="40" font-size="17">big grip, short way</text></g><g text-anchor="end"><text x="106" y="106">pin</text><text x="106" y="276">thin</text><text x="106" y="298">bending</text><text x="106" y="320">section</text></g><text x="400" y="424" font-size="19">Long handles, short jaws: a small push becomes a big grip.</text><text x="400" y="446" font-size="19">In one piece, a thin section bends instead of a pin, and springs it open again.</text>
+</g>
+</svg>

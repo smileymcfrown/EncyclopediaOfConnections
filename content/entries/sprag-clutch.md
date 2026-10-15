@@ -111,24 +111,52 @@ sources:
 - https://www.youtube.com/watch?v=CFKsOhuGhno
 research: research/connection-types/results/Sprag_clutch.json
 image:
-  file: sprag-clutch.webp
-  width: 800
-  height: 379
+  file: drawn/anim/sprag-clutch.svg
+  alt: 'Animated cut-away view of a sprag clutch: tilted figure-eight steel blocks (sprags) sit in the gap between an outer
+    and an inner ring; turned one way the sprags lean over and slide, so the inner ring spins freely; turned the other way
+    they stand up, and because they are longer corner to corner than the gap they wedge the two rings together.'
+  drawn: true
+  still: drawn/sprag-clutch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/sprag-clutch.svg
+  alt: 'Animated cut-away view of a sprag clutch: tilted figure-eight steel blocks (sprags) sit in the gap between an outer
+    and an inner ring; turned one way the sprags lean over and slide, so the inner ring spins freely; turned the other way
+    they stand up, and because they are longer corner to corner than the gap they wedge the two rings together.'
+  drawn: true
+  still: drawn/sprag-clutch.svg
+  kind: animation
+- file: sprag-clutch.webp
   title: File:Sprag clutch.png
   author: Mikepj1967
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Sprag_clutch.png
-  alt: Diagram of a sprag clutch in drive and in freewheel, showing the sprags jammed and free; used on the English Wikipedia
-    article
+  alt: 'Two diagrams of a sprag clutch: turning forwards the tilted sprags jam between the rings and drive, turning in reverse
+    they slide and the rings spin freely.'
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: sprag-clutch-a67249.webp
+  title: File:Sprag one-way bearing labeled.png
+  author: Staff, Goddard Space Center
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Sprag_one-way_bearing_labeled.png
+  site: Wikimedia Commons
+  alt: A real one-way bearing with its side plate off, showing the ring of small tilted sprags sitting between the inner and
+    outer rings.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, ratchet, pawl, freewheel, sprag, torque, crank, flexure, clearance,
   tolerance, form-fit--force-fit--material-bond, set-screw, taper, repeatability--accuracy, lubrication]
 ---
 
-![Diagram of a sprag clutch in drive and in freewheel, showing the sprags jammed and free; used on the English Wikipedia article](../media/sprag-clutch.webp)
-
-*Picture: [Sprag clutch.png](https://commons.wikimedia.org/wiki/File:Sprag_clutch.png) by Mikepj1967, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/sprag-clutch.svg"><img src="../media/drawn/anim/sprag-clutch.svg" alt="Animated cut-away view of a sprag clutch: tilted figure-eight steel blocks (sprags) sit in the gap between an outer and an inner ring; turned one way the sprags lean over and slide, so the inner ring spins freely; turned the other way they stand up, and because they are longer corner to corner than "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sprag-clutch.webp" alt="Two diagrams of a sprag clutch: turning forwards the tilted sprags jam between the rings and drive, turning in reverse they slide and the rings spin freely." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sprag_clutch.png">Sprag clutch</a> by Mikepj1967, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sprag-clutch-a67249.webp" alt="A real one-way bearing with its side plate off, showing the ring of small tilted sprags sitting between the inner and outer rings." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sprag_one-way_bearing_labeled.png">Sprag one-way bearing labeled</a> by Staff, Goddard Space Center, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A ring of tilted steel wedge-blocks ([sprags](../glossary.md#sprag)) between two smooth rings that lets one ring spin freely past the other in one direction but wedges them together instantly and silently in the other, with no teeth and no clicking.
 

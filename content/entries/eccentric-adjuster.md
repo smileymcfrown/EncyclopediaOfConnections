@@ -139,18 +139,42 @@ sources:
 - https://www.youtube.com/watch?v=I6NI7lGAv44 (verified via YouTube oEmbed)
 research: research/connection-types/results/Eccentric_adjuster_eccentric_nut_spacer_or_bushing.json
 image:
-  file: drawn/eccentric-adjuster.svg
+  file: drawn/anim/eccentric-adjuster.svg
   alt: 'A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the
     spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves
-    down onto the rail by twice the offset.'
+    down onto the rail by twice the offset. Animated: the 90° and 180° spacers turn back to 0° and forward again, carrying
+    the wheel round with them.'
   drawn: true
+  still: drawn/eccentric-adjuster.svg
+  kind: animation
+pictures:
+- file: drawn/anim/eccentric-adjuster.svg
+  alt: 'A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the
+    spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves
+    down onto the rail by twice the offset. Animated: the 90° and 180° spacers turn back to 0° and forward again, carrying
+    the wheel round with them.'
+  drawn: true
+  still: drawn/eccentric-adjuster.svg
+  kind: animation
+- file: eccentric-adjuster.webp
+  title: File:Eccentric bottom bracket.jpg
+  author: AndrewDressel (talk)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg
+  site: Wikimedia Commons
+  alt: An eccentric bottom bracket on a bicycle, an off-centre insert in the frame that is turned to move the chainset and
+    tighten the chain.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, torque, idler, cam-and-follower, crank, form-fit--force-fit--material-bond, set-screw,
   kinematic-coupling, creep, peel-vs-shear]
 ---
 
-![A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the spacer turns about its own centre, the wheel axle in the off-centre hole moves round](../media/drawn/eccentric-adjuster.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/eccentric-adjuster.svg"><img src="../media/drawn/anim/eccentric-adjuster.svg" alt="A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves down onto the rail by twice the offset. Animated: the 90° and 18"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eccentric-adjuster.webp" alt="An eccentric bottom bracket on a bicycle, an off-centre insert in the frame that is turned to move the chainset and tighten the chain." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Eccentric_bottom_bracket.jpg">Eccentric bottom bracket</a> by AndrewDressel (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A spacer, bushing or bolt whose hole is off-centre, so turning it moves the part mounted on it sideways by up to twice the offset; you turn it until a belt, chain, wheel or gear is just right and then clamp it to lock the setting.
 

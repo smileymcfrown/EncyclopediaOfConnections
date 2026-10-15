@@ -129,18 +129,55 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Slotted_adjustment_with_a_jacking_screw_slotted_mount_sliding_motor_plate.json
 image:
-  file: drawn/slotted-adjustment-with-a-jacking-screw.svg
+  file: drawn/anim/slotted-adjustment-with-a-jacking-screw.svg
   alt: 'Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping
     screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the
-    belt is tight and the clamping screws are locked.'
+    belt is tight and the clamping screws are locked. Animated: in step 1 the jacking screw pushes the plate along its slots
+    until the belt is tight, then the clamping screws are locked.'
   drawn: true
+  still: drawn/slotted-adjustment-with-a-jacking-screw.svg
+  kind: animation
+pictures:
+- file: drawn/anim/slotted-adjustment-with-a-jacking-screw.svg
+  alt: 'Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping
+    screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the
+    belt is tight and the clamping screws are locked. Animated: in step 1 the jacking screw pushes the plate along its slots
+    until the belt is tight, then the clamping screws are locked.'
+  drawn: true
+  still: drawn/slotted-adjustment-with-a-jacking-screw.svg
+  kind: animation
+- file: slotted-adjustment-with-a-jacking-screw.webp
+  title: File:Tendeur courroie alternateur automobile.jpg
+  author: CZmarlin — Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is
+    used anywhere other than Wikipedia. Please leave a note at Wikipedia here. Thank you!
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Tendeur_courroie_alternateur_automobile.jpg
+  site: Wikimedia Commons
+  alt: Two car engines with the alternator swung on a hinge and held by a bolt through a curved slotted bracket, which sets
+    the belt tension.
+  kind: how-it-works
+  drawn: false
+- file: slotted-adjustment-with-a-jacking-screw-1b8e37.webp
+  title: File:Surly forkends.JPG
+  author: Christoph Laue
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Surly_forkends.JPG
+  site: Wikimedia Commons
+  alt: The back wheel of a single-speed mountain bike, its axle clamped in rear-facing slotted fork ends so it can be slid
+    back to tighten the chain.
+  kind: photo
+  drawn: false
 glossary: [misalignment, self-locking, pitch, idler, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert,
   captive-nut, creep, perimeters, infill]
 ---
 
-![Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping screws are loose and a jacking screw in a fixed lug pushes the plate along its slots ](../media/drawn/slotted-adjustment-with-a-jacking-screw.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/slotted-adjustment-with-a-jacking-screw.svg"><img src="../media/drawn/anim/slotted-adjustment-with-a-jacking-screw.svg" alt="Top view of a motor plate fixed through four slotted holes, with a belt to a driven pulley: in step 1 the clamping screws are loose and a jacking screw in a fixed lug pushes the plate along its slots away from the pulley; in step 2 the belt is tight and the clamping screws are locked. Animated: in s"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/slotted-adjustment-with-a-jacking-screw.webp" alt="Two car engines with the alternator swung on a hinge and held by a bolt through a curved slotted bracket, which sets the belt tension." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tendeur_courroie_alternateur_automobile.jpg">Tendeur courroie alternateur automobile</a> by CZmarlin — Christopher Ziemnowicz, releases all rights but a photo credit would be appreciated if this image is used any, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/slotted-adjustment-with-a-jacking-screw-1b8e37.webp" alt="The back wheel of a single-speed mountain bike, its axle clamped in rear-facing slotted fork ends so it can be slid back to tighten the chain." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Surly_forkends.JPG">Surly forkends</a> by Christoph Laue, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A part is fixed with screws through slots instead of round holes, so it can be slid to set a belt or chain tension or line it up, usually pushed by a separate adjusting (jacking) screw, and is then locked by tightening the screws.
 

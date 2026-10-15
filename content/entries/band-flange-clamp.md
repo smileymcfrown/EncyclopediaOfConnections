@@ -131,22 +131,44 @@ sources:
 research: research/connection-types/results/Band_flange_clamp_Vband_clamp_triclamp.json
 image:
   file: band-flange-clamp.webp
-  width: 800
-  height: 631
   title: File:HTML research (9067215099), clamp.jpg
   author: Oak Ridge National Laboratory
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
   source: https://commons.wikimedia.org/wiki/File:HTML_research_(9067215099),_clamp.jpg
   alt: A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+pictures:
+- file: band-flange-clamp.webp
+  title: File:HTML research (9067215099), clamp.jpg
+  author: Oak Ridge National Laboratory
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:HTML_research_(9067215099),_clamp.jpg
+  alt: A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: band-flange-clamp-03d692.webp
+  title: File:Marman clamp flanges.jpg
+  author: 'I, the copyright holder of this work, hereby publish it under the following license:'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg
+  site: Wikimedia Commons
+  alt: Two aircraft duct ends, one rigid and one braided, each with the raised lip a band clamp grips.
+  kind: photo
   drawn: false
 glossary: [misalignment, axial--radial, over-centre, torque, preload, torsion, clearance, form-fit--force-fit--material-bond,
   spline, creep, galling--fretting, peel-vs-shear, o-ring]
 ---
 
-![A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings.](../media/band-flange-clamp.webp)
-
-*Picture: [HTML research (9067215099), clamp.jpg](https://commons.wikimedia.org/wiki/File:HTML_research_(9067215099),_clamp.jpg) by Oak Ridge National Laboratory, [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/band-flange-clamp.webp" alt="A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:HTML_research_(9067215099),_clamp.jpg">HTML research (9067215099), clamp</a> by Oak Ridge National Laboratory, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/band-flange-clamp-03d692.webp" alt="Two aircraft duct ends, one rigid and one braided, each with the raised lip a band clamp grips." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Marman_clamp_flanges.jpg">Marman clamp flanges</a> by I, the copyright holder of this work, hereby publish it under the following license:, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A ring-shaped clamp with a V-shaped groove that wraps round the lipped ends of two pipes or ducts and, as it is tightened by one nut, wing nut or lever, wedges them together face to face so they hold and seal, yet can be undone quickly.
 

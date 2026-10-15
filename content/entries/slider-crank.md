@@ -145,18 +145,50 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/4.pdf
 research: research/connection-types/results/Slidercrank.json
 image:
-  file: drawn/slider-crank.svg
-  alt: 'A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide;
-    at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees the rod leans and presses the slider
-    sideways against its guide, and the slider travels twice the crank length.'
-  drawn: true
+  file: slider-crank.webp
+  title: File:Slider-Crank Mechanism.gif
+  author: Waffles Crazy Peanut
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Slider-Crank_Mechanism.gif
+  site: Wikimedia Commons
+  alt: 'Animation of a slider-crank: a point goes round a circle while a rod joined to it pushes and pulls a box back and
+    forth along a straight line.'
+  kind: animation
+  still: slider-crank.still.webp
+  drawn: false
+pictures:
+- file: slider-crank.webp
+  title: File:Slider-Crank Mechanism.gif
+  author: Waffles Crazy Peanut
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Slider-Crank_Mechanism.gif
+  site: Wikimedia Commons
+  alt: 'Animation of a slider-crank: a point goes round a circle while a rod joined to it pushes and pulls a box back and
+    forth along a straight line.'
+  kind: animation
+  still: slider-crank.still.webp
+  drawn: false
+- file: slider-crank-321d81.webp
+  title: File:Slider Crank Mechanism.jpg
+  author: Aliva Sahoo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Slider_Crank_Mechanism.jpg
+  site: Wikimedia Commons
+  alt: 'A museum wall exhibit called Conversion of Motion with a working slider-crank model: a red crank disc drives a yellow
+    slider up and down in a guide.'
+  kind: how-it-works
+  drawn: false
 glossary: [reciprocating, stroke, dead-point, over-centre, torque, cam-and-follower, crank, linkage, actuator, clearance,
   circlip, fatigue, lubrication, print-in-place, peel-vs-shear]
 ---
 
-![A slider-crank drawn in three positions: a turning crank, a connecting rod and a slider held in a straight guide; at top dead centre and bottom dead centre the crank and rod are in line, at 90 degrees](../media/drawn/slider-crank.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/slider-crank.still.webp"><img src="../media/slider-crank.webp" alt="Animation of a slider-crank: a point goes round a circle while a rod joined to it pushes and pulls a box back and forth along a straight line."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Slider-Crank_Mechanism.gif">Slider-Crank Mechanism</a> by Waffles Crazy Peanut, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/slider-crank-321d81.webp" alt="A museum wall exhibit called Conversion of Motion with a working slider-crank model: a red crank disc drives a yellow slider up and down in a guide." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Slider_Crank_Mechanism.jpg">Slider Crank Mechanism</a> by Aliva Sahoo, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A [crank](../glossary.md#crank) turns, and a connecting rod joins the crank's outer end to a slider (such as a piston) that moves only in a straight line, turning rotation into back-and-forth sliding or, in an engine, back-and-forth pushes into rotation.
 

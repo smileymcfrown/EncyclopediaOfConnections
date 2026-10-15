@@ -129,18 +129,32 @@ sources:
 - 'https://api.printables.com/graphql/ (Printables API: models 232284, 386241, 11188)'
 research: research/connection-types/results/Soft_pneumatic_bending_actuator_airpowered_soft_finger.json
 image:
-  file: drawn/soft-pneumatic-bending-actuator.svg
+  file: drawn/anim/soft-pneumatic-bending-actuator.svg
   alt: 'A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along
     its bottom: with no air it lies straight, and with air pumped in through a supply with a pressure gauge and relief valve
-    the chambers swell and push apart so the finger curls round a ball; a small inset shows a fibre-wound tube version.'
+    the chambers swell and push apart so the finger curls round a ball; a small inset shows a fibre-wound tube version. In
+    the animation the left finger is pumped up: its chambers swell and push apart so it curls towards the stiff strip, then
+    the air is let out and it springs back straight.'
   drawn: true
+  still: drawn/soft-pneumatic-bending-actuator.svg
+  kind: animation
+pictures:
+- file: drawn/anim/soft-pneumatic-bending-actuator.svg
+  alt: 'A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along
+    its bottom: with no air it lies straight, and with air pumped in through a supply with a pressure gauge and relief valve
+    the chambers swell and push apart so the finger curls round a ball; a small inset shows a fibre-wound tube version. In
+    the animation the left finger is pumped up: its chambers swell and push apart so it curls towards the stiff strip, then
+    the air is let out and it springs back straight.'
+  drawn: true
+  still: drawn/soft-pneumatic-bending-actuator.svg
+  kind: animation
 glossary: [misalignment, self-locking, linkage, actuator, solenoid, stiffness, flexure, hysteresis, fatigue, infill, cure,
   pot-life--working-time, peel-vs-shear, regulator]
 ---
 
-![A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along its bottom: with no air it lies straight, and with air pumped in through a supply w](../media/drawn/soft-pneumatic-bending-actuator.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/soft-pneumatic-bending-actuator.svg"><img src="../media/drawn/anim/soft-pneumatic-bending-actuator.svg" alt="A cut-away of a soft silicone finger with a row of air chambers along its stretchy top and a non-stretch strip along its bottom: with no air it lies straight, and with air pumped in through a supply with a pressure gauge and relief valve the chambers swell and push apart so the finger curls round a "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A finger cast in silicone or printed in TPU with a network of air chambers along one side and a stretch-resistant layer along the other, so that pumping air in makes it curl and wrap gently round an object, and letting the air out makes it straighten and let go.
 

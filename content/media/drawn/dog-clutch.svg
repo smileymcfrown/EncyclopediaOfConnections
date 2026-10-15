@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a dog clutch: a shaft with a hex section carries a ring that a fork can slide along; the ring's square dogs fit slots in the face of a gear that spins freely on the same shaft; end views show the shaft and the gear.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+
+<clipPath id="sh"><rect x="30" y="206" width="450" height="28"/><rect x="190" y="200" width="110" height="40"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="206" width="450" height="28" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="190" y="200" width="110" height="40" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="190" y1="220" x2="300" y2="220" stroke="#222" stroke-width="1.5"/>
+<line x1="255" y1="200" x2="255" y2="240" clip-path="url(#sh)" stroke="#222" stroke-opacity="0.35" stroke-width="450" stroke-dasharray="3 9" stroke-linecap="butt"></line>
+<rect x="60" y="194" width="30" height="12" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/><rect x="60" y="234" width="30" height="12" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<rect x="430" y="194" width="30" height="12" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/><rect x="430" y="234" width="30" height="12" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<path d="M300,125 L360,125 L360,315 L300,315 L300,277 L318,277 L318,257 L300,257 L300,183 L318,183 L318,163 L300,163 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="341" y1="125" x2="341" y2="315" stroke="#222" stroke-opacity="0.35" stroke-width="38" stroke-dasharray="4 8" stroke-linecap="butt"></line>
+<rect x="302" y="203" width="56" height="34" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<g><rect x="260" y="166" width="20" height="14" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><rect x="260" y="260" width="20" height="14" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><path d="M212,160 L230,160 L230,170 L244,170 L244,160 L262,160 L262,280 L244,280 L244,270 L230,270 L230,280 L212,280 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><line x1="237" y1="172" x2="237" y2="268" stroke="#222" stroke-opacity="0.3" stroke-width="46" stroke-dasharray="3 9" stroke-linecap="butt"></line><rect x="232" y="80" width="10" height="96" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="122" y="72" width="122" height="12" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/></g>
+<path d="M172,62 L222,62" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M40,186 A16,34 0 0 0 40,254" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g><polygon points="710,118 693,147.4 659,147.4 642,118 659,88.6 693,88.6" fill="#e8e8e8" stroke="#222" stroke-width="3"/><line x1="676" y1="118" x2="676" y2="92" stroke="#d1495b" stroke-width="5"/></g>
+<circle cx="676" cy="118" r="4" fill="#222"/>
+<g><polygon points="669.7,240.4 671.7,230.2 680.3,230.2 682.3,240.4 689.9,241.9 689.9,241.9 695.7,233.2 703.7,236.5 701.6,246.7 708,251 708,251 716.7,245.2 722.8,251.3 717,260 721.3,266.4 721.3,266.4 731.5,264.3 734.8,272.3 726.1,278.1 727.6,285.7 727.6,285.7 737.8,287.7 737.8,296.3 727.6,298.3 726.1,305.9 726.1,305.9 734.8,311.7 731.5,319.7 721.3,317.6 717,324 717,324 722.8,332.7 716.7,338.8 708,333 701.6,337.3 701.6,337.3 703.7,347.5 695.7,350.8 689.9,342.1 682.3,343.6 682.3,343.6 680.3,353.8 671.7,353.8 669.7,343.6 662.1,342.1 662.1,342.1 656.3,350.8 648.3,347.5 650.4,337.3 644,333 644,333 635.3,338.8 629.2,332.7 635,324 630.7,317.6 630.7,317.6 620.5,319.7 617.2,311.7 625.9,305.9 624.4,298.3 624.4,298.3 614.2,296.3 614.2,287.7 624.4,285.7 625.9,278.1 625.9,278.1 617.2,272.3 620.5,264.3 630.7,266.4 635,260 635,260 629.2,251.3 635.3,245.2 644,251 650.4,246.7 650.4,246.7 648.3,236.5 656.3,233.2 662.1,241.9 669.7,240.4" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/><rect x="669" y="256" width="14" height="14" fill="#fff" stroke="#222" stroke-width="2" transform="rotate(0 676 292)"/><rect x="669" y="256" width="14" height="14" fill="#fff" stroke="#222" stroke-width="2" transform="rotate(90 676 292)"/><rect x="669" y="256" width="14" height="14" fill="#fff" stroke="#222" stroke-width="2" transform="rotate(180 676 292)"/><rect x="669" y="256" width="14" height="14" fill="#fff" stroke="#222" stroke-width="2" transform="rotate(270 676 292)"/></g>
+<circle cx="676" cy="292" r="14" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><circle cx="676" cy="292" r="3" fill="#222"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="30" y="40">fork slides the ring</text>
+<text x="20" y="166">drive in</text>
+<text x="110" y="330">hex: the ring slides but</text><text x="110" y="354">must turn with the shaft</text><line x1="190" y1="312" x2="215" y2="244" stroke="#222" stroke-width="2"/>
+<text x="340" y="40">ring with dogs</text><line x1="350" y1="48" x2="270" y2="150" stroke="#222" stroke-width="2"/>
+<text x="560" y="330" text-anchor="end">gear, free</text><text x="560" y="354" text-anchor="end">on the shaft</text><line x1="500" y1="312" x2="362" y2="280" stroke="#222" stroke-width="2"/>
+<text x="724" y="124">shaft</text><text x="746" y="298">gear</text>
+<text x="676" y="40" text-anchor="middle" font-size="18">End views</text>
+<text x="400" y="404" text-anchor="middle" font-size="20">Slide the ring in: its dogs lock the gear to the shaft</text>
+<text x="400" y="438" text-anchor="middle" font-size="17">Engage only when stopped or at matched speeds, or the dogs bang</text>
+</g></svg>

@@ -130,18 +130,61 @@ sources:
 - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
 research: research/connection-types/results/Noncircular_gears.json
 image:
-  file: drawn/non-circular-gears.svg
-  alt: 'Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns
-    steadily, and because the reach from each pivot to the touching point keeps changing, the right gear speeds up and slows
-    down once every turn.'
-  drawn: true
+  file: non-circular-gears.webp
+  title: File:Antiparallelogram and Elliptical Gears.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Antiparallelogram_and_Elliptical_Gears.gif
+  site: Wikimedia Commons
+  alt: Two oval gears turning together, the driven one speeding up and slowing down, with the equivalent crossed linkage moving
+    below them.
+  kind: animation
+  still: non-circular-gears.still.webp
+  drawn: false
+pictures:
+- file: non-circular-gears.webp
+  title: File:Antiparallelogram and Elliptical Gears.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Antiparallelogram_and_Elliptical_Gears.gif
+  site: Wikimedia Commons
+  alt: Two oval gears turning together, the driven one speeding up and slowing down, with the equivalent crossed linkage moving
+    below them.
+  kind: animation
+  still: non-circular-gears.still.webp
+  drawn: false
+- file: non-circular-gears-ea2115.webp
+  title: File:Cames de la pompe Girodias de l’ancienne usine Mustad exposée au Centre d’Histoire Sociale de Haute-Normandie,
+    Expotec 103, à Rouen.jpg
+  author: Frédéric BISSON from Rouen, France
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Cames_de_la_pompe_Girodias_de_l%E2%80%99ancienne_usine_Mustad_expos%C3%A9e_au_Centre_d%E2%80%99Histoire_Sociale_de_Haute-Normandie,_Expotec_103,_%C3%A0_Rouen.jpg
+  site: Wikimedia Commons
+  alt: Red oval gears meshing in pairs inside an old Girodias pump, so the pump strokes speed up and slow down each turn.
+  kind: photo
+  drawn: false
+- file: non-circular-gears-6f2cce.webp
+  title: File:Netradiční ozubené převody.jpg
+  author: Fry72
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Netradi%C4%8Dn%C3%AD_ozuben%C3%A9_p%C5%99evody.jpg
+  site: Wikimedia Commons
+  alt: A toy made of white square and four-lobed gears that mesh and turn together on a black board.
+  kind: photo
+  drawn: false
 glossary: [backlash, axial--radial, stroke, torque, pitch, cam-and-follower, linkage, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, undercut, repeatability--accuracy, elephants-foot, overhang--bridging]
 ---
 
-![Two identical oval (elliptical) gears meshing, each turning on a pivot near one end of the oval: the left gear turns steadily, and because the reach from each pivot to the touching point keeps changin](../media/drawn/non-circular-gears.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/non-circular-gears.still.webp"><img src="../media/non-circular-gears.webp" alt="Two oval gears turning together, the driven one speeding up and slowing down, with the equivalent crossed linkage moving below them."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Antiparallelogram_and_Elliptical_Gears.gif">Antiparallelogram and Elliptical Gears</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/non-circular-gears-ea2115.webp" alt="Red oval gears meshing in pairs inside an old Girodias pump, so the pump strokes speed up and slow down each turn." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cames_de_la_pompe_Girodias_de_l%E2%80%99ancienne_usine_Mustad_expos%C3%A9e_au_Centre_d%E2%80%99Histoire_Sociale_de_Haute-Normandie,_Expotec_103,_%C3%A0_Rouen.jpg">Cames de la pompe Girodias de l’ancienne usine Mustad exposée au Centre d’Histoire Sociale de Haute-Normandie, Expotec 103, à Rouen</a> by Frédéric BISSON from Rouen, France, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/non-circular-gears-6f2cce.webp" alt="A toy made of white square and four-lobed gears that mesh and turn together on a black board." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Netradi%C4%8Dn%C3%AD_ozuben%C3%A9_p%C5%99evody.jpg">Netradiční ozubené převody</a> by Fry72, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pair of gears whose outlines are not circles (ovals, ellipses or lobed shapes), designed to roll on each other without slipping so that a steady input turn becomes an output that repeatedly speeds up and slows down.
 

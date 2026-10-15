@@ -140,18 +140,44 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Serieselastic_coupling_series_elastic_actuator.json
 image:
-  file: drawn/series-elastic-coupling.svg
+  file: drawn/anim/series-elastic-coupling.svg
   alt: 'Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with
     an angle sensor on each side of the spring so the force can be worked out from how far the spring is bent; below, a knock
-    on the joint squashes the spring so the gear teeth feel only a gentle push.'
+    on the joint squashes the spring so the gear teeth feel only a gentle push. The animation has the motor wind up the spring
+    so the motor dial turns further than the joint dial, then shows a hammer knock pushing the joint back while the spring
+    squashes and springs back.'
   drawn: true
+  still: drawn/series-elastic-coupling.svg
+  kind: animation
+pictures:
+- file: drawn/anim/series-elastic-coupling.svg
+  alt: 'Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with
+    an angle sensor on each side of the spring so the force can be worked out from how far the spring is bent; below, a knock
+    on the joint squashes the spring so the gear teeth feel only a gentle push. The animation has the motor wind up the spring
+    so the motor dial turns further than the joint dial, then shows a hammer knock pushing the joint back while the spring
+    squashes and springs back.'
+  drawn: true
+  still: drawn/series-elastic-coupling.svg
+  kind: animation
+- file: series-elastic-coupling.webp
+  title: File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png
+  author: Manuel Cestari Soto
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png
+  site: Wikimedia Commons
+  alt: A block diagram of a series elastic actuator above a labelled photo of a real one, with the motor, ball screw, springs
+    and sensor in a row.
+  kind: how-it-works
+  drawn: false
 glossary: [misalignment, backlash, self-locking, torque, linkage, actuator, fail-safe--fail-secure, stiffness, deflection,
   torsion, damping, hysteresis, tolerance, spline, heat-set-insert, creep, fatigue, perimeters, infill]
 ---
 
-![Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with an angle sensor on each side of the spring so the force can be worked out from how far](../media/drawn/series-elastic-coupling.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/series-elastic-coupling.svg"><img src="../media/drawn/anim/series-elastic-coupling.svg" alt="Two views of a series elastic actuator: a motor and gearbox drive a spring, and the spring drives the joint, with an angle sensor on each side of the spring so the force can be worked out from how far the spring is bent; below, a knock on the joint squashes the spring so the gear teeth feel only a g"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/series-elastic-coupling.webp" alt="A block diagram of a series elastic actuator above a labelled photo of a real one, with the motor, ball screw, springs and sensor in a row." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png">1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator</a> by Manuel Cestari Soto, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A series elastic [actuator](../glossary.md#actuator) drives a joint through a purposely soft spring placed after the gearbox, so the spring absorbs shocks and its measured [deflection](../glossary.md#deflection) tells the controller the force, letting the motor control force instead of just position.
 

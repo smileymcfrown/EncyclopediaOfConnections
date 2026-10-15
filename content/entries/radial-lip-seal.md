@@ -118,28 +118,65 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
 research: research/connection-types/results/Radial_lip_seal_rotary_shaft_seal_oil_seal.json
 image:
-  file: radial-lip-seal.webp
-  width: 800
-  height: 682
+  file: drawn/anim/radial-lip-seal.svg
+  alt: 'Cross-section of a radial lip seal: a metal ring pressed into the housing hole carries a rubber lip, squeezed onto
+    the shaft by a garter spring and pointing at the oil; in the animation the shaft spins and, in the close-up, drops of
+    oil in the thin film under the lip are pumped back towards the oil side.'
+  drawn: true
+  still: drawn/radial-lip-seal.svg
+  kind: animation
+pictures:
+- file: drawn/anim/radial-lip-seal.svg
+  alt: 'Cross-section of a radial lip seal: a metal ring pressed into the housing hole carries a rubber lip, squeezed onto
+    the shaft by a garter spring and pointing at the oil; in the animation the shaft spins and, in the close-up, drops of
+    oil in the thin film under the lip are pumped back towards the oil side.'
+  drawn: true
+  still: drawn/radial-lip-seal.svg
+  kind: animation
+- file: radial-lip-seal.webp
   title: File:Radial sealing CAD sectional view num.svg
   author: 'Radial sealing CAD sectional view numbered.PNG: Jahobr derivative work: Sunspeanzler'
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
-  alt: 'Labelled cross-section of a radial shaft seal: shaft, housing, oil (higher pressure) side, air side, metal ring, sealing
-    lip, garter spring and optional dust lip'
+  alt: A cut-through drawing of a radial lip seal in its housing, with its rubber lip and garter spring pressing on the shaft.
+  site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+- file: radial-lip-seal-71baf4.webp
+  title: File:Gufero s prachovkou (003).jpg
+  author: Juandev
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(003).jpg
+  site: Wikimedia Commons
+  alt: A small black rubber shaft seal (radial lip seal) lying on a white cloth.
+  kind: photo
+  drawn: false
+- file: radial-lip-seal-77bc1c.webp
+  title: File:Čerpadlo pračky Romo zespodu s guferem.JPG
+  author: Juan de Vojníkov
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:%C4%8Cerpadlo_pra%C4%8Dky_Romo_zespodu_s_guferem.JPG
+  site: Wikimedia Commons
+  alt: The underside of a washing-machine pump with a black lip seal fitted round the hole where the shaft comes through.
+  kind: photo
   drawn: false
 glossary: [misalignment, axial--radial, tolerance, interference-fit, form-fit--force-fit--material-bond, spline, chamfer--fillet,
   creep, lubrication, perimeters, o-ring]
 ---
 
-![Labelled cross-section of a radial shaft seal: shaft, housing, oil (higher pressure) side, air side, metal ring, sealing lip, garter spring and optional dust lip](../media/radial-lip-seal.webp)
-
-*Picture: [Radial sealing CAD sectional view num.svg](https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg) by [Radial](../glossary.md#axial--radial) sealing CAD sectional view numbered.PNG: Jahobr derivative work: Sunspeanzler, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/radial-lip-seal.svg"><img src="../media/drawn/anim/radial-lip-seal.svg" alt="Cross-section of a radial lip seal: a metal ring pressed into the housing hole carries a rubber lip, squeezed onto the shaft by a garter spring and pointing at the oil; in the animation the shaft spins and, in the close-up, drops of oil in the thin film under the lip are pumped back towards the oil "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/radial-lip-seal.webp" alt="A cut-through drawing of a radial lip seal in its housing, with its rubber lip and garter spring pressing on the shaft." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg">Radial sealing CAD sectional view num</a> by Radial sealing CAD sectional view numbered.PNG: Jahobr derivative work: Sunspeanzler, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/radial-lip-seal-71baf4.webp" alt="A small black rubber shaft seal (radial lip seal) lying on a white cloth." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(003).jpg">Gufero s prachovkou (003)</a> by Juandev, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/radial-lip-seal-77bc1c.webp" alt="The underside of a washing-machine pump with a black lip seal fitted round the hole where the shaft comes through." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:%C4%8Cerpadlo_pra%C4%8Dky_Romo_zespodu_s_guferem.JPG">Čerpadlo pračky Romo zespodu s guferem</a> by Juan de Vojníkov, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A ring pressed into a round hole around a spinning shaft, whose spring-loaded rubber lip rides on the shaft on a thin film of oil, so the shaft can turn for years while the oil stays in and dirt and splashes stay out.
 
-**In plain words:** A rubber ring with a metal stiffener and a thin, springy rubber lip that hugs a spinning shaft where it comes out of a gearbox, pump or bearing housing, keeping the oil or grease in and dirt and water out. **Proper term:** Radial shaft seal (rotary shaft lip seal), commonly called an oil seal.
+**In plain words:** A rubber ring with a metal stiffener and a thin, springy rubber lip that hugs a spinning shaft where it comes out of a gearbox, pump or bearing housing, keeping the oil or grease in and dirt and water out. **Proper term:** [Radial](../glossary.md#axial--radial) shaft seal (rotary shaft lip seal), commonly called an oil seal.
 
 **Also called:** rotary lip seal, radial lip seal (Wikipedia 'Radial shaft seal'); oil seal, shaft seal (trade names used by suppliers; American Rubber Corp); Simmerring or Simmer-Ring (brand of Freudenberg Sealing Technologies, often used as a generic name; Wikipedia); Radial-Wellendichtring or RWDR (German, as in DIN 3760; Wikipedia, Wikimedia Commons); gufero (Czech workshop name; Wikimedia Commons file titles); TC oil seal (main lip plus dust lip) and SC oil seal (single lip): supplier type codes (American Rubber Corp); CR seal (SKF CR Seals product line), e.g. HMS5 and HMSA10 (SKF); pressure radial shaft seal (short, stiff lip for hydraulic pumps and motors; Parker); by use: crankshaft seal, axle seal, pinion seal, power steering seal, pump seal, valve stem seal (Wikipedia 'Radial shaft seal').
 

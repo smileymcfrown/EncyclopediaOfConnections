@@ -127,21 +127,55 @@ sources:
 research: research/connection-types/results/Reciprocal_frame_selfsupporting_stick_bridge.json
 image:
   file: reciprocal-frame.webp
-  width: 800
-  height: 600
   title: File:Three stick reciprocal frame.JPG
   author: PeterEastern (talk)
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG
-  alt: 'Photo of the simplest reciprocal frame: three sticks, each resting on the next in a closed triangle'
+  alt: Three sticks on a table, each resting on the next in a small triangle so together they hold each other up.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: reciprocal-frame.webp
+  title: File:Three stick reciprocal frame.JPG
+  author: PeterEastern (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG
+  alt: Three sticks on a table, each resting on the next in a small triangle so together they hold each other up.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: reciprocal-frame-752b68.webp
+  title: File:Reciprocal roof structure, the Octagonal Shelter, Mags Wood in Evanton Community Wood (geograph 6866216).jpg
+  author: Julian Paren
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Reciprocal_roof_structure,_the_Octagonal_Shelter,_Mags_Wood_in_Evanton_Community_Wood_(geograph_6866216).jpg
+  site: Wikimedia Commons
+  alt: Looking up into a wooden reciprocal-frame roof, the rafters each resting on the next round a small open ring at the
+    top.
+  kind: photo
+  drawn: false
+- file: reciprocal-frame-3123f0.webp
+  title: File:Reciprocal frame roof 10.jpg
+  author: Tony Wrench
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Reciprocal_frame_roof_10.jpg
+  site: Wikimedia Commons
+  alt: A person fitting rough log rafters into a reciprocal-frame roof, each log laid over the end of the one before.
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, pitch, deflection, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
 
-![Photo of the simplest reciprocal frame: three sticks, each resting on the next in a closed triangle](../media/reciprocal-frame.webp)
-
-*Picture: [Three stick reciprocal frame.JPG](https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG) by PeterEastern (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/reciprocal-frame.webp" alt="Three sticks on a table, each resting on the next in a small triangle so together they hold each other up."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Three_stick_reciprocal_frame.JPG">Three stick reciprocal frame</a> by PeterEastern (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/reciprocal-frame-752b68.webp" alt="Looking up into a wooden reciprocal-frame roof, the rafters each resting on the next round a small open ring at the top." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Reciprocal_roof_structure,_the_Octagonal_Shelter,_Mags_Wood_in_Evanton_Community_Wood_(geograph_6866216).jpg">Reciprocal roof structure, the Octagonal Shelter, Mags Wood in Evanton Community Wood (geograph 6866216)</a> by Julian Paren, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/reciprocal-frame-3123f0.webp" alt="A person fitting rough log rafters into a reciprocal-frame roof, each log laid over the end of the one before." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Reciprocal_frame_roof_10.jpg">Reciprocal frame roof 10</a> by Tony Wrench, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A reciprocal frame is a closed ring of three or more sticks or beams in which each one rests on the next and carries the one before. Together they span a roof or a gap with no central support, held by their own weight and friction, or by simple ties.
 

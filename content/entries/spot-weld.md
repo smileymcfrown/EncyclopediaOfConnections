@@ -148,13 +148,43 @@ image:
     it, a battery welder''s two probes pressing a nickel strip onto a cell''s end, with the current going down one probe,
     along the strip and up the other.'
   drawn: true
+pictures:
+- file: drawn/spot-weld.svg
+  alt: 'Cross-section of a spot weld: two overlapping metal sheets squeezed between an upper and a lower copper electrode,
+    with current passing straight through and a lens-shaped nugget of melted metal forming where the sheets touch; beside
+    it, a battery welder''s two probes pressing a nickel strip onto a cell''s end, with the current going down one probe,
+    along the strip and up the other.'
+  drawn: true
+- file: spot-weld.webp
+  title: File:TON09525.jpg
+  author: Antoni Nogués
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:TON09525.jpg
+  site: Wikimedia Commons
+  alt: A steel cooking pot whose handle is fixed to the side by two small round spot welds.
+  kind: photo
+  drawn: false
+- file: spot-weld-956fe8.webp
+  title: File:Spot welder (Miller 12,000 amp model).jpg
+  author: Triddle
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Spot_welder_(Miller_12,000_amp_model).jpg
+  site: Wikimedia Commons
+  alt: A floor-standing spot welder with two long copper-tipped arms that squeeze the sheets together and carry the welding
+    current.
+  kind: how-it-works
+  drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, repeatability--accuracy, fatigue, warping--shrinkage, peel-vs-shear,
   regulator]
 ---
 
-![Cross-section of a spot weld: two overlapping metal sheets squeezed between an upper and a lower copper electrode, with current passing straight through and a lens-shaped nugget of melted metal formin](../media/drawn/spot-weld.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/spot-weld.svg" alt="Cross-section of a spot weld: two overlapping metal sheets squeezed between an upper and a lower copper electrode, with current passing straight through and a lens-shaped nugget of melted metal forming where the sheets touch; beside it, a battery welder&#x27;s two probes pressing a nickel strip onto a ce"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spot-weld.webp" alt="A steel cooking pot whose handle is fixed to the side by two small round spot welds." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:TON09525.jpg">TON09525</a> by Antoni Nogués, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spot-weld-956fe8.webp" alt="A floor-standing spot welder with two long copper-tipped arms that squeeze the sheets together and carry the welding current." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Spot_welder_(Miller_12,000_amp_model).jpg">Spot welder (Miller 12,000 amp model)</a> by Triddle, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A spot weld joins overlapping metal sheets or strips at small points: copper electrodes squeeze the parts together and a very short, very high current melts a nugget of metal between them, with no filler, flame or glue, as used on car bodies, sheet-steel boxes and nickel strips on battery packs.
 

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away view of a sprag clutch: tilted figure-eight steel blocks (sprags) sit in the gap between an outer and an inner ring; turned one way the sprags lean over and slide, so the inner ring spins freely; turned the other way they stand up, and because they are longer corner to corner than the gap they wedge the two rings together.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<g id="sp"><g transform="rotate(-62)"><path d="M0,-26 C9,-26 11,-12 6,0 C11,12 9,26 0,26 C-9,26 -11,12 -6,0 C-11,-12 -9,-26 0,-26 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><line x1="0" y1="-14" x2="0" y2="14" stroke="#999" stroke-width="1.5"/></g></g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g><path d="M70,200 a170,170 0 1 0 340,0 a170,170 0 1 0 -340,0 Z M100,200 a140,140 0 1 0 280,0 a140,140 0 1 0 -280,0 Z" fill="#cfe3f5" fill-rule="evenodd" stroke="#222" stroke-width="3"/>
+<circle cx="240" cy="45" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="374.2" cy="122.5" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="374.2" cy="277.5" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="240" cy="355" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="105.8" cy="277.5" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="105.8" cy="122.5" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/></g>
+<g><circle cx="240" cy="200" r="100" fill="#fde2c4" stroke="#222" stroke-width="3"/><polygon points="271.2,218 240,236 208.8,218 208.8,182 240,164 271.2,182" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="240" cy="200" r="4" fill="#222"/><circle cx="240" cy="132" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="298.9" cy="166" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="298.9" cy="234" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="240" cy="268" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="181.1" cy="234" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="181.1" cy="166" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/></g>
+<g><circle cx="240" cy="200" r="120" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="5 5"/>
+<use href="#sp" transform="translate(240,80) rotate(0)"/><use href="#sp" transform="translate(343.9,140) rotate(60)"/><use href="#sp" transform="translate(343.9,260) rotate(120)"/><use href="#sp" transform="translate(240,320) rotate(180)"/><use href="#sp" transform="translate(136.1,260) rotate(240)"/><use href="#sp" transform="translate(136.1,140) rotate(300)"/></g>
+<g><path d="M295.3,265.9 A86,86 0 0 1 184.7,265.9" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g>
+<rect x="555" y="153" width="220" height="22" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="555" y="255" width="220" height="22" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g transform="translate(613,215) scale(2)"><g transform="rotate(-62)"><path d="M0,-26 C9,-26 11,-12 6,0 C11,12 9,26 0,26 C-9,26 -11,12 -6,0 C-11,-12 -9,-26 0,-26 Z" fill="#e8e8e8" stroke="#222" stroke-width="1.4"/><line x1="0" y1="-25" x2="0" y2="25" stroke="#d1495b" stroke-width="1.4" stroke-dasharray="3 2"/></g></g>
+<g transform="translate(717,215) scale(2)"><g transform="rotate(-47)"><path d="M0,-26 C9,-26 11,-12 6,0 C11,12 9,26 0,26 C-9,26 -11,12 -6,0 C-11,-12 -9,-26 0,-26 Z" fill="#e8e8e8" stroke="#222" stroke-width="1.4"/><line x1="0" y1="-25" x2="0" y2="25" stroke="#d1495b" stroke-width="1.4" stroke-dasharray="3 2"/></g></g>
+<path d="M583,303 H643" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><path d="M747,303 H687" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle"><text x="613" y="337">free</text><text x="717" y="337">wedged</text></g>
+<path d="M392,60 L342,88 M440,108 L362,137 M430,300 L318,262" stroke="#222" stroke-width="1.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="396" y="58">outer ring</text>
+<text x="444" y="112">sprags</text>
+<text x="434" y="306">inner ring</text>
+<text x="665" y="84" text-anchor="middle">one sprag, enlarged:</text>
+<text x="665" y="108" text-anchor="middle">longer corner to corner</text>
+<text x="665" y="130" text-anchor="middle" fill="#d1495b">than the gap</text>
+<text x="400" y="400" text-anchor="middle" font-weight="bold" font-size="20">Free: the sprags lean over and slide</text>
+<text x="400" y="434" text-anchor="middle">Turned the other way they stand up and wedge · no teeth, so it locks at any angle</text>
+</g>
+</svg>

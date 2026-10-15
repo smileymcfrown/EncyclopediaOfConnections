@@ -152,23 +152,59 @@ sources:
 research: research/connection-types/results/Gear_pump_including_gerotor.json
 image:
   file: gear-pump.webp
-  width: 600
-  height: 400
   title: File:Gear pump animation.gif
   author: Jahobr
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
-  alt: Animation of liquid being carried round between the teeth and the case in an external gear pump
-  animated: true
+  alt: An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round
+    the outside from one side to the other.
+  site: Wikimedia Commons
+  still: gear-pump.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: gear-pump.webp
+  title: File:Gear pump animation.gif
+  author: Jahobr
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
+  alt: An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round
+    the outside from one side to the other.
+  site: Wikimedia Commons
+  still: gear-pump.still.webp
+  kind: animation
+  drawn: false
+- file: gear-pump-2f574c.webp
+  title: File:Internal gear pump (cut-away) (01).JPG
+  author: S.J. de Waard
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Internal_gear_pump_(cut-away)_(01).JPG
+  site: Wikimedia Commons
+  alt: A blue internal gear pump with part of its case cut away, showing the small gear turning inside the ring gear.
+  kind: cross-section
+  drawn: false
+- file: gear-pump-9477b3.webp
+  title: File:Napco Rotary Gear Pump.gif
+  author: Reed T. Warnick
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Napco_Rotary_Gear_Pump.gif
+  site: Wikimedia Commons
+  alt: A rendered gear pump pulled apart, showing the two gears, their shafts, bearings and the end covers with their bolts.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, torque, idler, actuator, clearance, tolerance, creep, perimeters, infill, o-ring, check-valve,
   venturi]
 ---
 
-![Animation of liquid being carried round between the teeth and the case in an external gear pump](../media/gear-pump.webp)
-
-*Picture: [Gear pump animation.gif](https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif) by Jahobr, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gear-pump.still.webp"><img src="../media/gear-pump.webp" alt="An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round the outside from one side to the other."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif">Gear pump animation</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gear-pump-2f574c.webp" alt="A blue internal gear pump with part of its case cut away, showing the small gear turning inside the ring gear." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Internal_gear_pump_(cut-away)_(01).JPG">Internal gear pump (cut-away) (01)</a> by S.J. de Waard, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gear-pump-9477b3.webp" alt="A rendered gear pump pulled apart, showing the two gears, their shafts, bearings and the end covers with their bolts." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Napco_Rotary_Gear_Pump.gif">Napco Rotary Gear Pump</a> by Reed T. Warnick, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A rotary pump in which two meshing gears (side by side, or one inside a ring gear as in the gerotor) trap liquid between their teeth and the close-fitting case and carry it from inlet to outlet, delivering a fixed amount per turn; many can also run backwards as a hydraulic motor.
 

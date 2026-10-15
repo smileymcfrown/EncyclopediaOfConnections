@@ -130,12 +130,40 @@ image:
     down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight
     seam.'
   drawn: true
+pictures:
+- file: drawn/heat-sealed-seam.svg
+  alt: 'Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses
+    down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight
+    seam.'
+  drawn: true
+- file: heat-sealed-seam.webp
+  title: File:Impulse sealer.jpg
+  author: Cjp24
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Impulse_sealer.jpg
+  site: Wikimedia Commons
+  alt: A white impulse bag sealer on a bench, with a hinged arm that presses a heated wire down across a plastic bag.
+  kind: how-it-works
+  drawn: false
+- file: heat-sealed-seam-eaf094.webp
+  title: File:Heat Sealing Film for Permeability Test.jpg
+  author: Photo by Peggy Greb.
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Heat_Sealing_Film_for_Permeability_Test.jpg
+  site: Wikimedia Commons
+  alt: A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine.
+  kind: how-it-works
+  drawn: false
 glossary: [stroke, bistable, actuator, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 
-![Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses down and melts the plastic where the films touch, then the jaws stay closed while ](../media/drawn/heat-sealed-seam.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-sealed-seam.svg" alt="Cross-section of heat sealing: two plastic films lie on a rubber pad under a sheet of baking paper; a hot bar presses down and melts the plastic where the films touch, then the jaws stay closed while the melted strip cools into one airtight seam."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-sealed-seam.webp" alt="A white impulse bag sealer on a bench, with a hinged arm that presses a heated wire down across a plastic bag." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Impulse_sealer.jpg">Impulse sealer</a> by Cjp24, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-sealed-seam-eaf094.webp" alt="A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Heat_Sealing_Film_for_Permeability_Test.jpg">Heat Sealing Film for Permeability Test</a> by Photo by Peggy Greb., Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A heat-sealed seam joins two thin layers of thermoplastic film, or coating-to-coating on plastic-coated fabric, by pressing them with a hot bar, iron, wire or tip until the facing plastic melts together, giving an airtight, waterproof line with no stitches or glue: the joint behind plastic bags, inflatables, dry bags and soft-robot air pouches.
 

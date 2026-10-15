@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Kerf bending: on the left a board with saw cuts across its back, bent so the cuts close up on the inside of the curve; on the right a flat sheet with staggered laser cuts, the same sheet bent into a curve seen from the side, and a close-up of one thin bar between cuts twisting.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<polyline id="sh" points="512.7,322.9 517.5,311.3 522.2,299.7 527,288.2 531.7,276.6 536.4,265 541.2,253.5 547,242.4 554.9,232.7 564.6,224.8 575.6,218.9 587.6,215.2 600,214 612.4,215.2 624.4,218.9 635.4,224.8 645.1,232.7 653,242.4 658.8,253.5 663.6,265 668.3,276.6 673,288.2 677.8,299.7 682.5,311.3 687.3,322.9" fill="none"></polyline>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<polygon points="179,168 221,168 221,175 217,175 217,216 183,216 183,175 179,175" fill="#fde2c4"/><g transform="rotate(10 221 168)"><polygon points="221,168 263,168 263,175 259,175 259,216 225,216 225,175 221,175" fill="#fde2c4"/><g transform="rotate(10 263 168)"><polygon points="263,168 305,168 305,175 301,175 301,216 267,216 267,175 263,175" fill="#fde2c4"/><g transform="rotate(10 305 168)"><polygon points="305,168 347,168 347,175 343,175 343,216 309,216 309,175 305,175" fill="#fde2c4"/><g transform="rotate(10 347 168)"><polygon points="347,168 385,168 385,175 385,175 385,216 351,216 351,175 347,175" fill="#fde2c4"/></g></g></g></g><g transform="rotate(-10 179 168)"><polygon points="137,168 179,168 179,175 175,175 175,216 141,216 141,175 137,175" fill="#fde2c4"/><g transform="rotate(-10 137 168)"><polygon points="95,168 137,168 137,175 133,175 133,216 99,216 99,175 95,175" fill="#fde2c4"/><g transform="rotate(-10 95 168)"><polygon points="53,168 95,168 95,175 91,175 91,216 57,216 57,175 53,175" fill="#fde2c4"/><g transform="rotate(-10 53 168)"><polygon points="15,168 53,168 53,175 49,175 49,216 15,216 15,175 15,175" fill="#fde2c4"/></g></g></g></g>
+<rect x="450" y="62" width="300" height="70" fill="#d8f0d2"/>
+<line x1="528" y1="72" x2="528" y2="122" stroke-width="2"/>
+<line x1="540" y1="62" x2="540" y2="91" stroke-width="2"/><line x1="540" y1="103" x2="540" y2="132" stroke-width="2"/>
+<line x1="552" y1="72" x2="552" y2="122" stroke-width="2"/>
+<line x1="564" y1="62" x2="564" y2="91" stroke-width="2"/><line x1="564" y1="103" x2="564" y2="132" stroke-width="2"/>
+<line x1="576" y1="72" x2="576" y2="122" stroke-width="2"/>
+<line x1="588" y1="62" x2="588" y2="91" stroke-width="2"/><line x1="588" y1="103" x2="588" y2="132" stroke-width="2"/>
+<line x1="600" y1="72" x2="600" y2="122" stroke-width="2"/>
+<line x1="612" y1="62" x2="612" y2="91" stroke-width="2"/><line x1="612" y1="103" x2="612" y2="132" stroke-width="2"/>
+<line x1="624" y1="72" x2="624" y2="122" stroke-width="2"/>
+<line x1="636" y1="62" x2="636" y2="91" stroke-width="2"/><line x1="636" y1="103" x2="636" y2="132" stroke-width="2"/>
+<line x1="648" y1="72" x2="648" y2="122" stroke-width="2"/>
+<line x1="660" y1="62" x2="660" y2="91" stroke-width="2"/><line x1="660" y1="103" x2="660" y2="132" stroke-width="2"/>
+<line x1="672" y1="72" x2="672" y2="122" stroke-width="2"/>
+<use href="#sh" stroke="#222" stroke-width="13"/><use href="#sh" stroke="#d8f0d2" stroke-width="7"/>
+<use href="#sh" stroke="#222" stroke-width="13" stroke-linecap="butt" stroke-dasharray="0 82 2 10 2 10 2 10 2 10 2 10 2 10 2 10 2 10 2 10 2 10 2 10 2 10 0 400"/>
+<polygon points="520,359 541.7,359.1 563.3,359.5 585,360.2 606.7,361.1 628.3,362.3 650,363.6 650,380.4 628.3,381.7 606.7,382.9 585,383.8 563.3,384.5 541.7,384.9 520,385" fill="#d8f0d2"></polygon>
+<line x1="520" y1="350" x2="520" y2="394" stroke-width="5"/>
+<rect x="647" y="359" width="6" height="26" fill="#d8f0d2" stroke-width="2.5" transform="rotate(50 650 372)"></rect>
+<path d="M668,350 A10,22 0 0 1 668,394" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">Saw kerfs</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Laser-cut pattern</text>
+<text x="200" y="140">thin skin left on top</text>
+<text x="200" y="340">cuts on the back close up</text><text x="200" y="362">on the inside of the bend</text>
+<text x="600" y="160">flat sheet with staggered cuts</text>
+<text x="690" y="370" text-anchor="start">each thin</text><text x="690" y="390" text-anchor="start">bar twists</text><text x="690" y="410" text-anchor="start">a little</text>
+<text x="400" y="438">Many small bends add up to one big curve</text>
+</g>
+</svg>

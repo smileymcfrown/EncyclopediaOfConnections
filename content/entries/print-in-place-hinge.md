@@ -143,19 +143,51 @@ sources:
 - https://api.semanticscholar.org/graph/v1/paper/DOI:10.3390/pr9060925
 research: research/connection-types/results/Printinplace_hinge.json
 image:
-  file: drawn/print-in-place-hinge.svg
+  file: drawn/anim/print-in-place-hinge.svg
   alt: 'Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one
     leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge
-    turns straight off the printer.'
+    turns straight off the printer; a small end view shows leaf B swinging round the hinge line.'
   drawn: true
+  still: drawn/print-in-place-hinge.svg
+  kind: animation
+pictures:
+- file: drawn/anim/print-in-place-hinge.svg
+  alt: 'Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one
+    leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge
+    turns straight off the printer; a small end view shows leaf B swinging round the hinge line.'
+  drawn: true
+  still: drawn/print-in-place-hinge.svg
+  kind: animation
+- file: print-in-place-hinge.webp
+  title: File:Print in place Fidget Cube.jpg
+  author: Gary C Martin
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Print_in_place_Fidget_Cube.jpg
+  site: Wikimedia Commons
+  alt: A blue 3D-printed fidget cube in front of an Ultimaker printer, its small cubes joined by hinges printed in place.
+  kind: photo
+  drawn: false
+- file: print-in-place-hinge-4e46b9.webp
+  title: File:CreativeTools.se - PackshotCreator - Hinge v01 (4668460409).jpg
+  author: Creative Tools from Halmstad, Sweden
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:CreativeTools.se_-_PackshotCreator_-_Hinge_v01_(4668460409).jpg
+  site: Wikimedia Commons
+  alt: Two 3D-printed hinges in grey plastic, one closed and one opened out, printed in one piece.
+  kind: photo
+  drawn: false
 glossary: [misalignment, detent, torque, flexure, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, brittle--ductile, layer-lines, perimeters, infill, print-in-place, elephants-foot, overhang--bridging,
   support-material]
 ---
 
-![Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one leaf sit in cone-shaped sockets in the other, and a small gap all round every surface](../media/drawn/print-in-place-hinge.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/print-in-place-hinge.svg"><img src="../media/drawn/anim/print-in-place-hinge.svg" alt="Cut-away front view of a print-in-place hinge: five knuckles alternate between two leaves, cone-shaped pins on one leaf sit in cone-shaped sockets in the other, and a small gap all round every surface stops the parts fusing so the hinge turns straight off the printer; a small end view shows leaf B s"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/print-in-place-hinge.webp" alt="A blue 3D-printed fidget cube in front of an Ultimaker printer, its small cubes joined by hinges printed in place." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Print_in_place_Fidget_Cube.jpg">Print in place Fidget Cube</a> by Gary C Martin, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/print-in-place-hinge-4e46b9.webp" alt="Two 3D-printed hinges in grey plastic, one closed and one opened out, printed in one piece." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CreativeTools.se_-_PackshotCreator_-_Hinge_v01_(4668460409).jpg">CreativeTools.se - PackshotCreator - Hinge v01 (4668460409)</a> by Creative Tools from Halmstad, Sweden, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hinge printed in one go with its pin already inside the knuckles and a small gap all round, so it turns as soon as it comes off the print bed with no assembly or metal pin.
 

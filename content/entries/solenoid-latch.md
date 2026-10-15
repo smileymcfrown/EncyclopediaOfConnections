@@ -128,18 +128,54 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Solenoid_latch_solenoid_lock_electric_strike.json
 image:
-  file: drawn/solenoid-latch.svg
+  file: drawn/anim/solenoid-latch.svg
   alt: 'Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid''s
-    catch so the lid stays shut; with power on the coil pulls the bolt in and the lid lifts; when the lid is closed its catch
-    slides down the slanted face, pushing the bolt in until it snaps back out and locks.'
+    catch so the lid stays shut (it can only lift a hair); with power on the coil pulls the bolt in and the lid lifts; when
+    the lid is closed its catch slides down the slanted face, pushing the bolt in until it snaps back out and locks. Animated:
+    each panel plays its own movement in a loop.'
   drawn: true
+  still: drawn/solenoid-latch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/solenoid-latch.svg
+  alt: 'Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid''s
+    catch so the lid stays shut (it can only lift a hair); with power on the coil pulls the bolt in and the lid lifts; when
+    the lid is closed its catch slides down the slanted face, pushing the bolt in until it snaps back out and locks. Animated:
+    each panel plays its own movement in a loop.'
+  drawn: true
+  still: drawn/solenoid-latch.svg
+  kind: animation
+- file: solenoid-latch.webp
+  title: Solenoid - 12V (Latch / Lock)
+  author: SparkFunElectronics
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/41898857@N04/48021046541
+  site: Flickr via Openverse
+  alt: 'A small 12 V solenoid cabinet lock: a shiny metal box with red and black wires and a slanted steel bolt sticking out
+    of one end.'
+  kind: photo
+  drawn: false
+- file: solenoid-latch-224d23.webp
+  title: File:SolenoidLock.jpg
+  author: Cavernia
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:SolenoidLock.jpg
+  site: Wikimedia Commons
+  alt: A door lock case with a solenoid inside, shown from the side with its wires coming out and the latch bolt on the front
+    plate.
+  kind: photo
+  drawn: false
 glossary: [misalignment, stroke, bistable, solenoid, fail-safe--fail-secure, preload, clearance, form-fit--force-fit--material-bond,
   heat-set-insert, perimeters, peel-vs-shear]
 ---
 
-![Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid's catch so the lid stays shut; with power on the coil pulls the bolt in and the lid lift](../media/drawn/solenoid-latch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/solenoid-latch.svg"><img src="../media/drawn/anim/solenoid-latch.svg" alt="Three cut-away panels of a solenoid latch: with the power off a spring pushes the slanted bolt out over the lid&#x27;s catch so the lid stays shut (it can only lift a hair); with power on the coil pulls the bolt in and the lid lifts; when the lid is closed its catch slides down the slanted face, pushing "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/solenoid-latch.webp" alt="A small 12 V solenoid cabinet lock: a shiny metal box with red and black wires and a slanted steel bolt sticking out of one end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/41898857@N04/48021046541">Solenoid - 12V (Latch / Lock)</a> by SparkFunElectronics, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/solenoid-latch-224d23.webp" alt="A door lock case with a solenoid inside, shown from the side with its wires coming out and the latch bolt on the front plate." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:SolenoidLock.jpg">SolenoidLock</a> by Cavernia, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A spring-loaded bolt or catch that an electromagnet coil ([solenoid](../glossary.md#solenoid)) pulls back when it is powered, so a door, box, drawer or release mechanism opens on an electric signal and locks itself again when closed.
 

@@ -117,21 +117,54 @@ sources:
 research: research/connection-types/results/Temporary_sheet_fastener_Clecotype_spring_pin.json
 image:
   file: temporary-sheet-fastener.webp
-  width: 800
-  height: 852
   title: File:Cleco fastener extended.jpg
   author: Thermofan
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
-  alt: A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding
+  alt: A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+pictures:
+- file: temporary-sheet-fastener.webp
+  title: File:Cleco fastener extended.jpg
+  author: Thermofan
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
+  alt: A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: temporary-sheet-fastener-d4782e.webp
+  title: File:Cleko.jpg
+  author: FlugKerl2
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cleko.jpg
+  site: Wikimedia Commons
+  alt: Dozens of copper-coloured Cleco pins holding the skin onto an aircraft wing while it is being riveted.
+  kind: how-it-works
+  drawn: false
+- file: temporary-sheet-fastener-651b3d.webp
+  title: File:Cleco Tool for fitting temporary fasteners.jpg
+  author: Thermofan
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Cleco_Tool_for_fitting_temporary_fasteners.jpg
+  site: Wikimedia Commons
+  alt: The special pliers used to fit Cleco pins, with a pin held in their jaws.
+  kind: photo
   drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, pilot-hole, creep, peel-vs-shear]
 ---
 
-![A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding](../media/temporary-sheet-fastener.webp)
-
-*Picture: [Cleco fastener extended.jpg](https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg) by Thermofan, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/temporary-sheet-fastener.webp" alt="A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg">Cleco fastener extended</a> by Thermofan, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/temporary-sheet-fastener-d4782e.webp" alt="Dozens of copper-coloured Cleco pins holding the skin onto an aircraft wing while it is being riveted." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cleko.jpg">Cleko</a> by FlugKerl2, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/temporary-sheet-fastener-651b3d.webp" alt="The special pliers used to fit Cleco pins, with a pin held in their jaws." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cleco_Tool_for_fitting_temporary_fasteners.jpg">Cleco Tool for fitting temporary fasteners</a> by Thermofan, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A reusable spring-loaded pin, fitted from one side with special pliers, that grips behind two or more drilled sheets and clamps them together with their holes lined up while they are drilled, fitted or riveted, then comes straight out again.
 

@@ -134,22 +134,62 @@ sources:
 - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 research: research/connection-types/results/Cam_cleat.json
 image:
-  file: cam-cleat.webp
-  width: 800
-  height: 458
+  file: drawn/anim/cam-cleat.svg
+  alt: 'Top view of a cam cleat: a rope runs between two spring-loaded toothed cams on pivots; pulling the rope toward you
+    swings the cams open so it slides through, and when the load pulls back the cams turn shut and bite harder; a small side
+    view shows the rope lifted up and out to release it; the rope is pulled through, then the load pulls back and the cams
+    snap shut on it.'
+  drawn: true
+  still: drawn/cam-cleat.svg
+  kind: animation
+pictures:
+- file: drawn/anim/cam-cleat.svg
+  alt: 'Top view of a cam cleat: a rope runs between two spring-loaded toothed cams on pivots; pulling the rope toward you
+    swings the cams open so it slides through, and when the load pulls back the cams turn shut and bite harder; a small side
+    view shows the rope lifted up and out to release it; the rope is pulled through, then the load pulls back and the cams
+    snap shut on it.'
+  drawn: true
+  still: drawn/cam-cleat.svg
+  kind: animation
+- file: cam-cleat.webp
   title: File:Curry2.jpg
   author: Jörg Steinwiese
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Curry2.jpg
-  alt: 'Close-up of a plastic cam cleat: the two cams on their pivots with the gap between them where the rope is gripped'
+  alt: A small black cam cleat seen from above, its two grey spring-loaded cams side by side.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: cam-cleat-a4dab9.webp
+  title: File:Details of a Nordic Folkboat 01.jpg
+  author: Kritzolina
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Details_of_a_Nordic_Folkboat_01.jpg
+  site: Wikimedia Commons
+  alt: A rope gripped between the two toothed cams of a cam cleat on the side of a sailing boat.
+  kind: how-it-works
+  drawn: false
+- file: cam-cleat-e23fc6.webp
+  title: File:Cam cleat.jpg
+  author: Paul Fox
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Cam_cleat.jpg
+  site: Wikimedia Commons
+  alt: A blue rope held in a cam cleat under a pulley block on a yacht's mainsheet.
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, pawl, sprag, torsion, form-fit--force-fit--material-bond, creep, perimeters, print-in-place]
 ---
 
-![Close-up of a plastic cam cleat: the two cams on their pivots with the gap between them where the rope is gripped](../media/cam-cleat.webp)
-
-*Picture: [Curry2.jpg](https://commons.wikimedia.org/wiki/File:Curry2.jpg) by Jörg Steinwiese, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cam-cleat.svg"><img src="../media/drawn/anim/cam-cleat.svg" alt="Top view of a cam cleat: a rope runs between two spring-loaded toothed cams on pivots; pulling the rope toward you swings the cams open so it slides through, and when the load pulls back the cams turn shut and bite harder; a small side view shows the rope lifted up and out to release it; the rope is"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-cleat.webp" alt="A small black cam cleat seen from above, its two grey spring-loaded cams side by side." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Curry2.jpg">Curry2</a> by Jörg Steinwiese, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-cleat-a4dab9.webp" alt="A rope gripped between the two toothed cams of a cam cleat on the side of a sailing boat." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Details_of_a_Nordic_Folkboat_01.jpg">Details of a Nordic Folkboat 01</a> by Kritzolina, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-cleat-e23fc6.webp" alt="A blue rope held in a cam cleat under a pulley block on a yacht&#x27;s mainsheet." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cam_cleat.jpg">Cam cleat</a> by Paul Fox, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pair of spring-loaded toothed cams on a small base that let a rope be pulled through in one direction, grip it harder the more the load pulls back, and let it go when the rope is lifted up and out of the jaws.
 

@@ -122,22 +122,55 @@ sources:
 research: research/connection-types/results/Press_stud_snap_fastener_popper.json
 image:
   file: press-stud.webp
-  width: 800
-  height: 552
   title: File:Rivet snap parts.jpg
   author: Nate Wessel
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
-  alt: 'Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud'
+  alt: The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: press-stud.webp
+  title: File:Rivet snap parts.jpg
+  author: Nate Wessel
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
+  alt: The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: press-stud-d71665.webp
+  title: File:DruckknopfInnen.jpg
+  author: Simulo
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:DruckknopfInnen.jpg
+  site: Wikimedia Commons
+  alt: The back of a sew-on press-stud socket, showing the two spring wires that grip the stud's neck when it is pushed in.
+  kind: how-it-works
+  drawn: false
+- file: press-stud-697f71.webp
+  title: File:Druckknopf.jpg
+  author: Grkauls
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Druckknopf.jpg
+  site: Wikimedia Commons
+  alt: A press stud on a leather strap, the stud on one end and the socket on the other, unfastened.
+  kind: photo
   drawn: false
 glossary: [misalignment, detent, fail-safe--fail-secure, cantilever, form-fit--force-fit--material-bond, brittle--ductile,
   infill, peel-vs-shear]
 ---
 
-![Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud](../media/press-stud.webp)
-
-*Picture: [Rivet snap parts.jpg](https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg) by Nate Wessel, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/press-stud.webp" alt="The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg">Rivet snap parts</a> by Nate Wessel, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/press-stud-d71665.webp" alt="The back of a sew-on press-stud socket, showing the two spring wires that grip the stud&#x27;s neck when it is pushed in." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:DruckknopfInnen.jpg">DruckknopfInnen</a> by Simulo, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/press-stud-697f71.webp" alt="A press stud on a leather strap, the stud on one end and the socket on the other, unfastened." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Druckknopf.jpg">Druckknopf</a> by Grkauls, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A two-part fastener in which a stud with a small knob is pressed into a socket that has a springy ring or wire inside, which grips a groove on the stud and holds the two halves together until they are pulled apart by hand.
 

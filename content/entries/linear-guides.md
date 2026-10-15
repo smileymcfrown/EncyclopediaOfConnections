@@ -141,23 +141,46 @@ sources:
 research: research/connection-types/results/Linear_guides_bushings_on_rods_wheels_or_carriages_on_rails.json
 image:
   file: linear-guides.webp
-  width: 465
-  height: 325
   title: File:Linear-table animated.gif
   author: Silberwolf
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif
-  alt: Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)
-  animated: true
+  alt: A table slides back and forth on two round steel rods, guided by bushings that wrap round the rods.
+  site: Wikimedia Commons
+  still: linear-guides.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: linear-guides.webp
+  title: File:Linear-table animated.gif
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif
+  alt: A table slides back and forth on two round steel rods, guided by bushings that wrap round the rods.
+  site: Wikimedia Commons
+  still: linear-guides.still.webp
+  kind: animation
+  drawn: false
+- file: linear-guides-36fede.webp
+  title: File:Linear Bearing Guide way.jpg
+  author: Zdenek Vlasic
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Linear_Bearing_Guide_way.jpg
+  site: Wikimedia Commons
+  alt: A realistic render of a profile-rail linear guide, a red and green carriage block riding on a long steel rail.
+  kind: photo
   drawn: false
 glossary: [misalignment, self-locking, stroke, detent, torque, preload, flexure, clearance, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, repeatability--accuracy, creep, perimeters, infill]
 ---
 
-![Animation of a simple linear table sliding on round guide rods in guide bushings (DIN 4379 shaft guide)](../media/linear-guides.webp)
-
-*Picture: [Linear-table animated.gif](https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/linear-guides.still.webp"><img src="../media/linear-guides.webp" alt="A table slides back and forth on two round steel rods, guided by bushings that wrap round the rods."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Linear-table_animated.gif">Linear-table animated</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/linear-guides-36fede.webp" alt="A realistic render of a profile-rail linear guide, a red and green carriage block riding on a long steel rail." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Linear_Bearing_Guide_way.jpg">Linear Bearing Guide way</a> by Zdenek Vlasic, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A guide that lets a part (the carriage) slide or roll along a straight rod, bar or rail while stopping it from wobbling, tipping or twisting, so it can only move in one straight line.
 

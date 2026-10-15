@@ -126,24 +126,37 @@ sources:
 research: research/connection-types/results/Rigid_chain_actuator_zip_chain_push_chain.json
 image:
   file: rigid-chain-actuator.webp
-  width: 616
-  height: 452
   title: File:Rigid Chain Actuator.gif
   author: User:Catsquisher
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif
-  alt: Animation (40 frames) of a rigid chain actuator based on Serapid's LinkLift lifting column, showing the chain's links
-    forming a column as they are driven out
-  animated: true
+  alt: A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar and pulling
+    it back in.
+  site: Wikimedia Commons
+  still: rigid-chain-actuator.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: rigid-chain-actuator.webp
+  title: File:Rigid Chain Actuator.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif
+  alt: A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar and pulling
+    it back in.
+  site: Wikimedia Commons
+  still: rigid-chain-actuator.still.webp
+  kind: animation
   drawn: false
 glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
   overhang--bridging]
 ---
 
-![Animation (40 frames) of a rigid chain actuator based on Serapid's LinkLift lifting column, showing the chain's links forming a column as they are driven out](../media/rigid-chain-actuator.webp)
-
-*Picture: [Rigid Chain Actuator.gif](https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/rigid-chain-actuator.still.webp"><img src="../media/rigid-chain-actuator.webp" alt="A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar and pulling it back in."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif">Rigid Chain Actuator</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A motor-driven sprocket feeds out a chain whose links can bend only one way, and as they leave the housing they lock into a stiff bar that can push and pull a load; running backwards draws the chain in, where it bends again and coils or folds into a small magazine.
 

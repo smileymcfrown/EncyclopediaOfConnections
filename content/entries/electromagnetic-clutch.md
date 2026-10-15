@@ -122,23 +122,67 @@ sources:
 - https://www.thingiverse.com/thing:4647488
 research: research/connection-types/results/Electromagnetic_clutch.json
 image:
-  file: electromagnetic-clutch.webp
-  width: 216
-  height: 190
+  file: drawn/anim/electromagnetic-clutch.svg
+  alt: 'Side cut-away of an electromagnetic clutch: the input shaft carries a spinning rotor around a fixed coil; across a
+    small air gap sits a steel armature plate, held back by springs on the output hub, so with the power off the output shaft
+    stands still. Animated: the switch closes, the coil lights up and magnetic flux loops through rotor and armature, the
+    armature snaps onto the rotor and the output speeds up to turn with the input; the switch opens, the springs pull the
+    armature back and the output coasts to a stop.'
+  drawn: true
+  still: drawn/electromagnetic-clutch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/electromagnetic-clutch.svg
+  alt: 'Side cut-away of an electromagnetic clutch: the input shaft carries a spinning rotor around a fixed coil; across a
+    small air gap sits a steel armature plate, held back by springs on the output hub, so with the power off the output shaft
+    stands still. Animated: the switch closes, the coil lights up and magnetic flux loops through rotor and armature, the
+    armature snaps onto the rotor and the output speeds up to turn with the input; the switch opens, the springs pull the
+    armature back and the output coasts to a stop.'
+  drawn: true
+  still: drawn/electromagnetic-clutch.svg
+  kind: animation
+- file: electromagnetic-clutch.webp
   title: File:B-1 electromagnetic-clutch1.png
   author: Oguraclutch
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png
-  alt: Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article
+  alt: A half cross-section drawing of an electromagnetic clutch, labelling the coil, the spinning rotor, the armature plate
+    and the hub.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: electromagnetic-clutch-b4e4c1.webp
+  title: File:A-2 Ogura VCEH clutch.jpg
+  author: Oguraclutch
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:A-2_Ogura_VCEH_clutch.jpg
+  site: Wikimedia Commons
+  alt: A cut-away render of an electromagnetic clutch with a slice removed, showing the coil in its housing and the armature
+    plate beside the rotor.
+  kind: cross-section
+  drawn: false
+- file: electromagnetic-clutch-1b8dbf.webp
+  title: File:Magnetkuppl.jpg
+  author: Ulfbastel
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Magnetkuppl.jpg
+  site: Wikimedia Commons
+  alt: Two small electromagnetic clutches beside a ruler, one whole and one taken apart into its coil, rotor and armature.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, self-locking, freewheel, torque, solenoid, fail-safe--fail-secure, hysteresis, tolerance,
   form-fit--force-fit--material-bond, set-screw, repeatability--accuracy]
 ---
 
-![Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article](../media/electromagnetic-clutch.webp)
-
-*Picture: [B-1 electromagnetic-clutch1.png](https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png) by Oguraclutch, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/electromagnetic-clutch.svg"><img src="../media/drawn/anim/electromagnetic-clutch.svg" alt="Side cut-away of an electromagnetic clutch: the input shaft carries a spinning rotor around a fixed coil; across a small air gap sits a steel armature plate, held back by springs on the output hub, so with the power off the output shaft stands still. Animated: the switch closes, the coil lights up a"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/electromagnetic-clutch.webp" alt="A half cross-section drawing of an electromagnetic clutch, labelling the coil, the spinning rotor, the armature plate and the hub." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png">B-1 electromagnetic-clutch1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/electromagnetic-clutch-b4e4c1.webp" alt="A cut-away render of an electromagnetic clutch with a slice removed, showing the coil in its housing and the armature plate beside the rotor." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:A-2_Ogura_VCEH_clutch.jpg">A-2 Ogura VCEH clutch</a> by Oguraclutch, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/electromagnetic-clutch-1b8dbf.webp" alt="Two small electromagnetic clutches beside a ruler, one whole and one taken apart into its coil, rotor and armature." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetkuppl.jpg">Magnetkuppl</a> by Ulfbastel, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A drive connector that joins a spinning input to an output only while its coil is powered, by magnetically clamping a steel plate (armature) against a spinning face (rotor), and lets them separate the moment the current stops.
 

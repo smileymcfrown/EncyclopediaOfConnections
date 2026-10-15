@@ -118,22 +118,55 @@ sources:
 research: research/connection-types/results/Anaerobic_adhesive_threadlocker_retaining_compound.json
 image:
   file: anaerobic-adhesive.webp
-  width: 800
-  height: 600
   title: File:Thread-locking fluid applied.jpg
   author: Paul Breen
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg
-  alt: Photo of bolts with blue threadlocker on their threads
+  alt: Two bolts held in a gloved hand, their threads coated with blue thread-locking liquid.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+pictures:
+- file: anaerobic-adhesive.webp
+  title: File:Thread-locking fluid applied.jpg
+  author: Paul Breen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg
+  alt: Two bolts held in a gloved hand, their threads coated with blue thread-locking liquid.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: anaerobic-adhesive-af712f.webp
+  title: File:Crankcase Right SeamSealant.jpg
+  author: Sean Steven Philipp
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Crankcase_Right_SeamSealant.jpg
+  site: Wikimedia Commons
+  alt: Half of a motorbike engine case with orange anaerobic sealant run round its joint face, next to the red bottle.
+  kind: how-it-works
+  drawn: false
+- file: anaerobic-adhesive-2b7bee.webp
+  title: File:Thread locking fluid Loctite 243.jpg
+  author: Hugo LUC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Thread_locking_fluid_Loctite_243.jpg
+  site: Wikimedia Commons
+  alt: A small red bottle of Loctite 243 thread-locking liquid with a white nozzle cap.
+  kind: photo
   drawn: false
 glossary: [self-locking, torque, clearance, interference-fit, form-fit--force-fit--material-bond, set-screw, threadlocker,
   creep, brittle--ductile, cure, primer, peel-vs-shear]
 ---
 
-![Photo of bolts with blue threadlocker on their threads](../media/anaerobic-adhesive.webp)
-
-*Picture: [Thread-locking fluid applied.jpg](https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg) by Paul Breen, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/anaerobic-adhesive.webp" alt="Two bolts held in a gloved hand, their threads coated with blue thread-locking liquid."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Thread-locking_fluid_applied.jpg">Thread-locking fluid applied</a> by Paul Breen, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/anaerobic-adhesive-af712f.webp" alt="Half of a motorbike engine case with orange anaerobic sealant run round its joint face, next to the red bottle." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Crankcase_Right_SeamSealant.jpg">Crankcase Right SeamSealant</a> by Sean Steven Philipp, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/anaerobic-adhesive-2b7bee.webp" alt="A small red bottle of Loctite 243 thread-locking liquid with a white nozzle cap." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Thread_locking_fluid_Loctite_243.jpg">Thread locking fluid Loctite 243</a> by Hugo LUC, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An anaerobic adhesive is a one-part liquid that hardens only when it is shut away from air and touching metal, so it [cures](../glossary.md#cure) inside screw threads and close-fitting shaft joints, locking screws against vibration, holding bearings and gears on shafts, and sealing the gaps against leaks and rust.
 

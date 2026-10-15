@@ -131,18 +131,28 @@ sources:
 - https://www.youtube.com/watch?v=PaypcVFPs48
 research: research/connection-types/results/Parallel_leafspring_flexure_linear_flexure_stage.json
 image:
-  file: drawn/parallel-leaf-spring-flexure.svg
+  file: drawn/anim/parallel-leaf-spring-flexure.svg
   alt: 'Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and
     when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying
-    level, dipping only very slightly.'
+    level, dipping only very slightly; the pushed view slides back to rest and out again.'
   drawn: true
+  still: drawn/parallel-leaf-spring-flexure.svg
+  kind: animation
+pictures:
+- file: drawn/anim/parallel-leaf-spring-flexure.svg
+  alt: 'Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and
+    when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying
+    level, dipping only very slightly; the pushed view slides back to rest and out again.'
+  drawn: true
+  still: drawn/parallel-leaf-spring-flexure.svg
+  kind: animation
 glossary: [degrees-of-freedom, backlash, stroke, linkage, actuator, stiffness, flexure, compliant-mechanism, living-hinge,
   stick-slip, chamfer--fillet, over-constraint, repeatability--accuracy, creep, fatigue, perimeters, print-in-place, overhang--bridging]
 ---
 
-![Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and when the platform is pushed sideways both blades bend into the same S shape so the pla](../media/drawn/parallel-leaf-spring-flexure.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/parallel-leaf-spring-flexure.svg"><img src="../media/drawn/anim/parallel-leaf-spring-flexure.svg" alt="Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying level, dipping only very slightly; the pushed view slides back to r"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two or more identical parallel blades join a fixed base to a moving platform, so the platform can slide a short distance in a nearly straight line with no friction, play or wear, guided and sprung by the bending blades.
 

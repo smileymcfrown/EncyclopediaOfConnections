@@ -134,22 +134,55 @@ sources:
 research: research/connection-types/results/Twopart_epoxy.json
 image:
   file: two-part-epoxy.webp
-  width: 800
-  height: 248
   title: File:FiveMinEpoxy.jpg
   author: Taktoa
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg
-  alt: Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments
+  alt: A double syringe of five-minute epoxy, with resin in one barrel and hardener in the other, pushed out together.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: two-part-epoxy.webp
+  title: File:FiveMinEpoxy.jpg
+  author: Taktoa
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg
+  alt: A double syringe of five-minute epoxy, with resin in one barrel and hardener in the other, pushed out together.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: two-part-epoxy-3fab40.webp
+  title: File:Mix of Epoxy Resin and Hardener.jpg
+  author: Dzhang2680
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Mix_of_Epoxy_Resin_and_Hardener.jpg
+  site: Wikimedia Commons
+  alt: Resin and hardener being stirred together in a plastic cup, the clear mix lifting on the stirring stick.
+  kind: how-it-works
+  drawn: false
+- file: two-part-epoxy-8e74aa.webp
+  title: File:Epoxy putty.jpg
+  author: Salil Kumar Mukherjee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg
+  site: Wikimedia Commons
+  alt: Two sticks of epoxy putty, a brown resin and a black hardener, to be kneaded together in equal amounts.
+  kind: photo
   drawn: false
 glossary: [deflection, form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---
 
-![Photo of a double syringe of 5-minute epoxy with separate resin and hardener compartments](../media/two-part-epoxy.webp)
-
-*Picture: [FiveMinEpoxy.jpg](https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg) by Taktoa, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/two-part-epoxy.webp" alt="A double syringe of five-minute epoxy, with resin in one barrel and hardener in the other, pushed out together."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:FiveMinEpoxy.jpg">FiveMinEpoxy</a> by Taktoa, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/two-part-epoxy-3fab40.webp" alt="Resin and hardener being stirred together in a plastic cup, the clear mix lifting on the stirring stick." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mix_of_Epoxy_Resin_and_Hardener.jpg">Mix of Epoxy Resin and Hardener</a> by Dzhang2680, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/two-part-epoxy-8e74aa.webp" alt="Two sticks of epoxy putty, a brown resin and a black hardener, to be kneaded together in equal amounts." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg">Epoxy putty</a> by Salil Kumar Mukherjee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two-part epoxy is a resin and a hardener that you mix in a set ratio; the mix reacts into a hard, tough plastic that bonds metal, wood, glass, composites and many plastics, fills gaps, and comes in fast (minutes) and slow (hours) types.
 

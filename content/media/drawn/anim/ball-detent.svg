@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A threaded ball plunger in cross-section: a spring inside the body pushes a ball down into a cone-shaped dimple in a plate; sliding the plate makes the dimple's slope push the ball up into the body, squashing the spring, until the ball drops into the next dimple with a click; the plate slides from one dimple to the next and back while the ball rides up and clicks down.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="-5" y="360" width="810" height="24" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="translate" dur="4s" repeatCount="indefinite" keyTimes="0;0.15;0.1646;0.1792;0.1937;0.2083;0.2229;0.2375;0.2521;0.2667;0.2812;0.2958;0.3104;0.325;0.3396;0.3542;0.3688;0.3833;0.3979;0.4125;0.4271;0.4417;0.4562;0.4708;0.4854;0.5;0.65;0.6633;0.6767;0.69;0.7033;0.7167;0.73;0.7433;0.7567;0.77;0.7833;0.7967;0.81;0.8233;0.8367;0.85;0.8633;0.8767;0.89;0.9033;0.9167;0.93;0.9433;0.9567;0.97;1" values="0 0;0 0;-1 0;-3.9 0;-8.6 0;-14.8 0;-22.4 0;-31.2 0;-41.1 0;-51.9 0;-63.3 0;-75.2 0;-87.5 0;-100 0;-112.5 0;-124.8 0;-136.7 0;-148.1 0;-158.9 0;-168.8 0;-177.6 0;-185.2 0;-191.4 0;-196.1 0;-199 0;-200 0;-200 0;-199 0;-196.1 0;-191.4 0;-185.2 0;-177.6 0;-168.8 0;-158.9 0;-148.1 0;-136.7 0;-124.8 0;-112.5 0;-100 0;-87.5 0;-75.2 0;-63.3 0;-51.9 0;-41.1 0;-31.2 0;-22.4 0;-14.8 0;-8.6 0;-3.9 0;-1 0;0 0;0 0"/>
+<path d="M-10,300 L178,300 L200,322 L222,300 L378,300 L400,322 L422,300 L578,300 L600,322 L622,300 L778,300 L800,322 L822,300 L1010,300 L1010,360 L-10,360 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+</g>
+<rect x="250" y="150" width="96" height="80" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="454" y="150" width="96" height="80" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<polygon points="372,100 352,100 352,104 346,110 352,116 352,116 346,122 352,128 352,128 346,134 352,140 352,140 346,146 352,152 352,152 346,158 352,164 352,164 346,170 352,176 352,176 346,182 352,188 352,188 346,194 352,200 352,200 346,206 352,212 352,212 346,218 352,224 352,224 346,230 352,236 352,236 346,242 352,248 352,248 346,254 352,260 352,260 346,266 352,272 352,272 346,278 352,284 352,284 346,290 352,296 352,296 376.5,296 372,282" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="428,100 448,100 448,104 454,110 448,116 448,116 454,122 448,128 448,128 454,134 448,140 448,140 454,146 448,152 448,152 454,158 448,164 448,164 454,170 448,176 448,176 454,182 448,188 448,188 454,194 448,200 448,200 454,206 448,212 448,212 454,218 448,224 448,224 454,230 448,236 448,236 454,242 448,248 448,248 454,254 448,260 448,260 454,266 448,272 448,272 454,278 448,284 448,284 454,290 448,296 448,296 423.5,296 428,282" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="372" y="100" width="56" height="90" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<line x1="388" y1="100" x2="412" y2="100" stroke="#222" stroke-width="7"/>
+<g transform="translate(400,190)"><g><animateTransform attributeName="transform" type="scale" dur="4s" repeatCount="indefinite" keyTimes="0;0.15;0.1646;0.1792;0.1937;0.2083;0.2229;0.2375;0.2521;0.2667;0.2812;0.2958;0.3104;0.325;0.3396;0.3542;0.3688;0.3833;0.3979;0.4125;0.4271;0.4417;0.4562;0.4708;0.4854;0.5;0.65;0.6633;0.6767;0.69;0.7033;0.7167;0.73;0.7433;0.7567;0.77;0.7833;0.7967;0.81;0.8233;0.8367;0.85;0.8633;0.8767;0.89;0.9033;0.9167;0.93;0.9433;0.9567;0.97;1" values="1 1;1 1;1 1;1 0.9;1 0.9;1 0.9;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.9;1 0.9;1 0.9;1 1;1 1;1 1;1 1;1 0.9;1 0.9;1 0.9;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.8;1 0.9;1 0.9;1 0.9;1 1;1 1;1 1"/><polyline points="0,0 0,4 -19,7.8 19,15.5 -19,23.1 19,30.8 -19,38.4 19,46.1 -19,53.7 19,61.4 0,65.2 0,69.2" fill="none" stroke="#222" stroke-width="3" vector-effect="non-scaling-stroke"/></g></g>
+<circle cx="400" cy="285.2" r="26" fill="#fde2c4" stroke="#222" stroke-width="3"><animate attributeName="cy" dur="4s" repeatCount="indefinite" keyTimes="0;0.15;0.1646;0.1792;0.1937;0.2083;0.2229;0.2375;0.2521;0.2667;0.2812;0.2958;0.3104;0.325;0.3396;0.3542;0.3688;0.3833;0.3979;0.4125;0.4271;0.4417;0.4562;0.4708;0.4854;0.5;0.65;0.6633;0.6767;0.69;0.7033;0.7167;0.73;0.7433;0.7567;0.77;0.7833;0.7967;0.81;0.8233;0.8367;0.85;0.8633;0.8767;0.89;0.9033;0.9167;0.93;0.9433;0.9567;0.97;1" values="285.2;285.2;284.2;281.3;277.7;275;274;274;274;274;274;274;274;274;274;274;274;274;274;274;274;275;277.7;281.3;284.2;285.2;285.2;284.2;281.3;277.7;275;274;274;274;274;274;274;274;274;274;274;274;274;274;274;274;275;277.7;281.3;284.2;285.2;285.2"/></circle>
+<line x1="215" y1="268" x2="85" y2="268" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"><animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.13;0.17;0.48;0.52;1" values="0;0;1;1;0;0"/></line>
+<line x1="85" y1="268" x2="215" y2="268" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"><animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.63;0.67;0.95;0.99;1" values="0;0;1;1;0;0"/></line>
+<line x1="620" y1="200" x2="620" y2="250" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#222">
+<text x="150" y="250" text-anchor="middle">push the plate</text>
+<text x="300" y="80" text-anchor="middle">threaded body</text>
+<text x="470" y="80">spring</text><line x1="466" y1="86" x2="412" y2="200" stroke="#222" stroke-width="2"/>
+<text x="250" y="292" text-anchor="end">ball</text><line x1="256" y1="286" x2="374" y2="280" stroke="#222" stroke-width="2"/>
+<text x="632" y="216">spring pushes</text><text x="632" y="240">the ball in</text>
+<text x="470" y="290" font-weight="bold">click!<animate attributeName="opacity" dur="4s" repeatCount="indefinite" keyTimes="0;0.12;0.5;0.53;0.62;0.97;1" values="1;1;0;1;0;0;1"/></text>
+<text x="400" y="408" text-anchor="middle">sliding plate with cone-shaped dimples</text>
+<text x="400" y="438" text-anchor="middle" font-size="18">Push hard enough and the dimple's slope lifts the ball out · steep, deep dimples hold harder</text>
+</g>
+</svg>

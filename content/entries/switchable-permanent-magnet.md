@@ -137,23 +137,41 @@ sources:
 - https://www.thingiverse.com/thing:3623166 (search result snippet only)
 research: research/connection-types/results/Switchable_permanent_magnet_rotary_magnetic_base.json
 image:
-  file: switchable-permanent-magnet.webp
-  width: 800
-  height: 903
+  file: drawn/anim/switchable-permanent-magnet.svg
+  alt: 'Animated end-on cut-away of a switchable magnet base on a steel plate: a round magnet sits in a hole between two iron
+    halves joined by a brass strip. Turned so its poles face the brass (OFF), its field just loops round inside the iron;
+    a quarter turn puts one pole against each iron half (ON), so the field runs down through the steel plate and pulls it
+    on hard.'
+  drawn: true
+  still: drawn/switchable-permanent-magnet.svg
+  kind: animation
+pictures:
+- file: drawn/anim/switchable-permanent-magnet.svg
+  alt: 'Animated end-on cut-away of a switchable magnet base on a steel plate: a round magnet sits in a hole between two iron
+    halves joined by a brass strip. Turned so its poles face the brass (OFF), its field just loops round inside the iron;
+    a quarter turn puts one pole against each iron half (ON), so the field runs down through the steel plate and pulls it
+    on hard.'
+  drawn: true
+  still: drawn/switchable-permanent-magnet.svg
+  kind: animation
+- file: switchable-permanent-magnet.webp
   title: File:Wiki MagneticBase ON.svg
   author: 'Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz'
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg
-  alt: Schematic of the rotating magnet in the ON position between two iron halves; companion files Wiki MagneticBase OFF.svg
-    and ALL.svg show the off state and the assembly
+  alt: 'Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves
+    of the housing.'
+  site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [detent, preload, tolerance, kinematic-coupling, creep, brittle--ductile, layer-lines, overhang--bridging, peel-vs-shear]
 ---
 
-![Schematic of the rotating magnet in the ON position between two iron halves; companion files Wiki MagneticBase OFF.svg and ALL.svg show the off state and the assembly](../media/switchable-permanent-magnet.webp)
-
-*Picture: [Wiki MagneticBase ON.svg](https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg) by Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/switchable-permanent-magnet.svg"><img src="../media/drawn/anim/switchable-permanent-magnet.svg" alt="Animated end-on cut-away of a switchable magnet base on a steel plate: a round magnet sits in a hole between two iron halves joined by a brass strip. Turned so its poles face the brass (OFF), its field just loops round inside the iron; a quarter turn puts one pole against each iron half (ON), so the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/switchable-permanent-magnet.webp" alt="Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves of the housing." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg">Wiki MagneticBase ON</a> by Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A permanent magnet inside a steel housing that you switch on and off by hand: turning a knob rotates a magnet so its pull either flows out through the base into the steel you want to hold (on) or loops round harmlessly inside the housing (off).
 

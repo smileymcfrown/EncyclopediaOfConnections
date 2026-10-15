@@ -127,18 +127,42 @@ sources:
 - https://www.youtube.com/watch?v=hHZo82-PtT8
 research: research/connection-types/results/Printed_leaf_spring_flat_cantilever_spring.json
 image:
-  file: drawn/printed-leaf-spring.svg
+  file: drawn/anim/printed-leaf-spring.svg
   alt: 'Side view of a printed strip fixed at its left end: a finger pushes the free tip down so the strip bends and pushes
     back, with the most stress at the fixed root, which has a rounded corner; notes say twice as thick is 8 times stiffer
-    and twice as long is 8 times softer.'
+    and twice as long is 8 times softer. Animated: the finger lets go and the strip springs back straight, then the finger
+    pushes it down again.'
   drawn: true
+  still: drawn/printed-leaf-spring.svg
+  kind: animation
+pictures:
+- file: drawn/anim/printed-leaf-spring.svg
+  alt: 'Side view of a printed strip fixed at its left end: a finger pushes the free tip down so the strip bends and pushes
+    back, with the most stress at the fixed root, which has a rounded corner; notes say twice as thick is 8 times stiffer
+    and twice as long is 8 times softer. Animated: the finger lets go and the strip springs back straight, then the finger
+    pushes it down again.'
+  drawn: true
+  still: drawn/printed-leaf-spring.svg
+  kind: animation
+- file: printed-leaf-spring.webp
+  title: File:Duisburg, Landschaftspark Duisburg-Nord, Torpedowagen -- 2016 -- 1214.jpg
+  author: Dietmar Rabich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Duisburg,_Landschaftspark_Duisburg-Nord,_Torpedowagen_--_2016_--_1214.jpg
+  site: Wikimedia Commons
+  alt: A rusty stacked metal leaf spring under an old railway wagon, its curved steel strips held by a clamp and fixed at
+    each end.
+  kind: photo
+  drawn: false
 glossary: [detent, ratchet, pawl, stiffness, preload, flexure, living-hinge, cantilever, deflection, torsion, taper, chamfer--fillet,
   creep, stress-relaxation, fatigue, brittle--ductile, stress-concentration, layer-lines, infill, peel-vs-shear]
 ---
 
-![Side view of a printed strip fixed at its left end: a finger pushes the free tip down so the strip bends and pushes back, with the most stress at the fixed root, which has a rounded corner; notes say ](../media/drawn/printed-leaf-spring.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/printed-leaf-spring.svg"><img src="../media/drawn/anim/printed-leaf-spring.svg" alt="Side view of a printed strip fixed at its left end: a finger pushes the free tip down so the strip bends and pushes back, with the most stress at the fixed root, which has a rounded corner; notes say twice as thick is 8 times stiffer and twice as long is 8 times softer. Animated: the finger lets go "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/printed-leaf-spring.webp" alt="A rusty stacked metal leaf spring under an old railway wagon, its curved steel strips held by a clamp and fixed at each end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Duisburg,_Landschaftspark_Duisburg-Nord,_Torpedowagen_--_2016_--_1214.jpg">Duisburg, Landschaftspark Duisburg-Nord, Torpedowagen -- 2016 -- 1214</a> by Dietmar Rabich, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A strip of springy plastic or metal, fixed at one end or at both ends, that bends under a push and springs back, storing energy; it is the easiest spring to design into a 3D-printed part.
 

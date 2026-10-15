@@ -1,22 +1,23 @@
-"""Copy one picture per entry from Wikimedia Commons into content/media/ (R29, P7).
+"""Copy each entry's pictures into content/media/ (R29, R32, P7).
 
-For each entry page, the Commons file links the research found (`links` in the front matter) are
-checked in order on Commons itself (its file API), and the first one whose licence allows copying
-is kept: public domain, CC0, CC BY or CC BY-SA (any version). Non-commercial (NC), no-derivatives
-(ND), GFDL-only and unknown licences are skipped. A web-sized copy (at most 800 px wide, as WebP)
-is saved as content/media/<page>.webp, and content/media/media.yaml records the file's title,
-author, licence and Commons page, which each entry page shows as a credit line under the picture.
-
-content/media/choices.yaml (R30) overrides the research's order: `use: "File:..."` tries that
-Commons file first, and `use: drawn` drops the copy so the page shows its drawn diagram. Animated
-GIFs are saved as animated WebP (marked `animated` in media.yaml), so they play on their own.
+content/media/pictures.yaml lists each page's pictures in order (see load_pictures). For each
+Wikimedia Commons file the licence is checked on Commons itself (its file API): public domain,
+CC0, CC BY or CC BY-SA (any version) are copied; non-commercial (NC), no-derivatives (ND),
+GFDL-only and unknown licences are skipped. Openverse pictures (CC-licensed photos from Flickr and
+similar) carry their licence and credit in pictures.yaml. A web-sized copy (at most 800 px wide,
+as WebP) is saved as content/media/<page>.webp (or <page>-<id>.webp for a second or third
+picture), and content/media/media.yaml records each one's title, author, licence and source page,
+which the entry page shows as a credit line under the picture. Animated GIFs are saved as
+animated WebP (marked `animated`), with a still copy (<file>.still.webp) for people who ask for
+reduced motion and for the finder cards. A page not in pictures.yaml gets the first copyable
+Commons file among the research's links.
 
 Run: python3 tools/fetch_images.py [--only page1,page2] [--force]
 Needs Python 3, pyyaml and Pillow (pip install pillow). Entries already in media.yaml are kept
-unless --force. Entries with no usable Commons file are listed at the end: they get a drawn
-diagram instead (content/media/drawn/<page>.svg, see content/README.md).
+unless --force. Pictures no longer listed are removed. Entries with nothing copied and no drawn
+diagram are listed at the end (see content/README.md).
 """
-import html, io, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
+import hashlib, html, io, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 import yaml
 from PIL import Image
 
@@ -100,6 +101,10 @@ def flat(im):
     return bg
 
 
+def still_name(dest):
+    return dest[:-len('.webp')] + '.still.webp'
+
+
 def save(x, dest):
     """Save a web-sized WebP. Animated GIFs stay animated (an animated WebP plays by itself in
     every current browser); they are read from the original file, as Commons may serve a still
@@ -120,6 +125,7 @@ def save(x, dest):
             durations.append(im.info.get('duration', 100) or 100)
         frames[0].save(dest, 'WEBP', save_all=True, append_images=frames[1:], duration=durations, loop=0,
                        quality=75, method=4)
+        frames[0].save(still_name(dest), 'WEBP', quality=80, method=6)   # for reduced motion and finder cards
         if os.path.getsize(dest) > 3_000_000:   # a long animation: smaller and lower quality, to keep pages quick
             frames = [f.resize((560, round(f.height * 560 / f.width)), Image.LANCZOS) if f.width > 560 else f
                       for f in frames]
@@ -132,62 +138,115 @@ def save(x, dest):
     return im.width, im.height, 1
 
 
+def load_pictures():
+    """content/media/pictures.yaml: the pictures each page shows, in order (R32). Items are `drawn`
+    (the diagram in drawn/<page>.svg, animated from drawn/anim/<page>.svg when there is one),
+    {commons: "File:..."} or {openverse: <id>, url, title, author, license, license_url, source},
+    each with an optional `kind` (animation, diagram, cross-section, how-it-works, photo) and `alt`."""
+    f = os.path.join(MEDIA, 'pictures.yaml')
+    out = {}
+    for page, items in ((yaml.safe_load(open(f)) or {}) if os.path.exists(f) else {}).items():
+        out[page] = [{'drawn': True} if x == 'drawn' else dict(x) for x in items or []]
+    return out
+
+
+def src_of(x):
+    return x['commons'].replace('_', ' ') if x.get('commons') else 'openverse:' + x['openverse'] if x.get('openverse') else None
+
+
 def main():
     sys.stdout.reconfigure(line_buffering=True)
-    only = None
-    if '--only' in sys.argv:
-        only = set(sys.argv[sys.argv.index('--only') + 1].split(','))
+    only = set(sys.argv[sys.argv.index('--only') + 1].split(',')) if '--only' in sys.argv else None
     force = '--force' in sys.argv
-    # content/media/choices.yaml (R30): a person's (or reviewer's) choice of picture for a page:
-    # {use: 'File:...'} puts that Commons file first; {use: drawn} shows the drawn diagram instead.
-    cf = os.path.join(MEDIA, 'choices.yaml')
-    choices = (yaml.safe_load(open(cf)) or {}) if os.path.exists(cf) else {}
+    chosen = load_pictures()
     os.makedirs(MEDIA, exist_ok=True)
     rec = (yaml.safe_load(open(RECORD)) or {}) if os.path.exists(RECORD) else {}
     pages = {}
     for fn in sorted(os.listdir(ENTRIES)):
         if fn.endswith('.md') and (only is None or fn[:-3] in only):
-            fm = yaml.safe_load(re.match(r'---\n(.*?)\n---\n', open(os.path.join(ENTRIES, fn)).read(), re.S).group(1))
-            pages[fn[:-3]] = fm
-    for p, c in choices.items():
-        if c.get('use') == 'drawn' and p in rec:
-            os.remove(os.path.join(MEDIA, rec.pop(p)['file']))
-    want = lambda p: (choices.get(p, {}).get('use') or '').replace('_', ' ')
-    todo = {p: fm for p, fm in pages.items() if want(p) != 'drawn' and (
-        force or p not in rec or (want(p).startswith('File:') and rec[p]['title'] != want(p))
-        or (rec[p]['title'].lower().endswith('.gif') and 'animated' not in rec[p]))}   # R30: older GIF copies were one still frame
-    cand = {p: [(file_title(l['url']), l) for l in fm.get('links') or [] if file_title(l['url'])] for p, fm in todo.items()}
-    for p in cand:                       # a chosen file goes first, even if the research did not list it
-        if want(p).startswith('File:'):
-            cand[p] = [(want(p), {'shows': choices[p].get('alt', '')})] + [c for c in cand[p] if c[0] != want(p)]
-    meta = info(sorted({t for c in cand.values() for t, _ in c}))
+            pages[fn[:-3]] = yaml.safe_load(re.match(r'---\n(.*?)\n---\n', open(os.path.join(ENTRIES, fn)).read(), re.S).group(1))
+    # What each page wants copied: its pictures.yaml items, or else (a page not listed yet) the
+    # first Commons file among the research's links whose licence allows copying.
+    want = {}
+    for p, fm in pages.items():
+        if p in chosen:
+            want[p] = [x for x in chosen[p] if src_of(x)]
+        else:
+            want[p] = [{'commons': t, 'alt': l.get('shows') or '', 'auto': True}
+                       for t, l in ((file_title(l['url']), l) for l in fm.get('links') or []) if t]
+    have = {r['src'] for rs in rec.values() for r in rs}
+    meta = info(sorted({src_of(x) for xs in want.values() for x in xs
+                        if x.get('commons') and (force or src_of(x) not in have)}))
     none = []
-    for p, cs in cand.items():
-        pick = next(((t, l) for t, l in cs if t in meta and usable(meta[t])), None)
-        if not pick:
-            none.append(p)
-            continue
-        t, l = pick
-        x = meta[t]
-        try:
-            w, h, n = save(x, os.path.join(MEDIA, p + '.webp.tmp'))
-            os.replace(os.path.join(MEDIA, p + '.webp.tmp'), os.path.join(MEDIA, p + '.webp'))
-        except Exception as err:     # one bad file must not lose the rest of the run
-            print(f'{p}: could not save {t}: {err}')
-            none.append(p)
-            continue
-        rec[p] = {'file': p + '.webp', 'width': w, 'height': h, 'title': x['title'], 'author': x['author'] or 'unknown',
-                  'license': x['license'], 'license_url': x['license_url'], 'source': x['page'],
-                  'alt': l.get('shows') or x['name'] or pages[p]['title']}
-        if x['mime'] == 'image/gif':
-            rec[p]['animated'] = n > 1   # saved as an animated WebP, which plays by itself in every browser
-        print(f'{p}: {x["title"]} ({x["license"]})')
-        time.sleep(1.5)
+    for p, xs in want.items():
+        old = {r['src']: r for r in rec.get(p, [])}
+        new = []
+        for x in xs:
+            s = src_of(x)
+            r = old.get(s)
+            gif_still = r and r.get('title', '').lower().endswith('.gif') and 'animated' not in r
+            if r and not force and not gif_still:
+                r = dict(r, alt=x.get('alt') or r['alt'])
+                if x.get('kind'):
+                    r['kind'] = x['kind']
+                new.append(r)
+                if x.get('auto'):
+                    break
+                continue
+            if x.get('commons'):
+                m = meta.get(s) or info([s]).get(s)
+                if not m or not usable(m):
+                    if not x.get('auto'):
+                        print(f'{p}: {s} is missing or its licence does not allow copying')
+                    continue
+                pic = dict(m)
+                credit = {'title': m['title'], 'author': m['author'] or 'unknown', 'license': m['license'],
+                          'license_url': m['license_url'], 'source': m['page'], 'site': 'Wikimedia Commons'}
+            else:
+                pic = {'mime': 'image/' + ('gif' if x['url'].lower().endswith('.gif') else 'jpeg'),
+                       'thumb': x['url'], 'original': x['url']}
+                credit = {k: x.get(k) or '' for k in ('title', 'author', 'license', 'license_url', 'source')}
+                credit['site'] = x.get('site') or 'Openverse'
+            taken = {q['file'] for q in new} | {q['file'] for q in old.values() if q['src'] != s}
+            name = (r or {}).get('file') or (p + '.webp' if p + '.webp' not in taken
+                                              else f'{p}-{hashlib.sha1(s.encode()).hexdigest()[:6]}.webp')
+            tmp = os.path.join(MEDIA, '.tmp-' + name)
+            try:
+                w, h, n = save(pic, tmp)
+                os.replace(tmp, os.path.join(MEDIA, name))
+                if n > 1:
+                    os.replace(still_name(tmp), os.path.join(MEDIA, still_name(name)))
+            except Exception as err:     # one bad file must not lose the rest of the run
+                print(f'{p}: could not save {s}: {err}')
+                continue
+            r = dict(src=s, file=name, width=w, height=h, **credit, alt=x.get('alt') or pic.get('name') or pages[p]['title'])
+            if x.get('kind'):
+                r['kind'] = x['kind']
+            if pic['mime'] == 'image/gif':
+                r['animated'] = n > 1   # saved as an animated WebP, which plays by itself in every browser
+                if n > 1:
+                    r['still'] = still_name(name)
+            new.append(r)
+            print(f'{p}: {s} ({r["license"]})')
+            time.sleep(1.5)
+            if x.get('auto'):
+                break
+        for r in old.values():           # pictures the page no longer shows
+            if r['src'] not in {q['src'] for q in new}:
+                for f in (r['file'], r.get('still')):
+                    if f and os.path.exists(os.path.join(MEDIA, f)) and not any(f in (q['file'], q.get('still')) for q in new):
+                        os.remove(os.path.join(MEDIA, f))
+        if new:
+            rec[p] = new
+        else:
+            rec.pop(p, None)
+            if not any(x.get('drawn') for x in chosen.get(p, [])):
+                none.append(p)
     with open(RECORD, 'w') as f:
-        f.write('# Pictures copied from Wikimedia Commons by tools/fetch_images.py (licence and author read from\n'
-                '# each file\'s Commons page). Each entry page shows the credit line under its picture.\n')
+        f.write('# Pictures copied by tools/fetch_images.py, per page in the order shown (licence and author read\n'
+                '# from each file\'s own page). Each entry page shows the credit line under its picture.\n')
         yaml.safe_dump(dict(sorted(rec.items())), f, allow_unicode=True, sort_keys=False, width=120)
-    print(f'{len(rec)} entries have a picture; {len(none)} have no usable Commons file: {", ".join(sorted(none))}')
+    print(f'{len(rec)} entries have a copied picture; {len(none)} have none and no drawn diagram: {", ".join(sorted(none))}')
 
 
 if __name__ == '__main__':

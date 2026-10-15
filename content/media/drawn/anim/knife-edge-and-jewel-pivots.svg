@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two low-friction pivots in cross-section: on the left a balance beam rests on a sharp steel knife edge that rocks in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft with a cone point turns in a slightly blunter cone-shaped jewel cup, touching at one tiny point. Animated: the beam rocks to and fro on its edge and the shaft spins on its point.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round" stroke="#222" stroke-width="3">
+<line x1="420" y1="20" x2="420" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- knife edge -->
+<rect x="120" y="300" width="160" height="16" fill="url(#hatch)" stroke-width="2"/>
+<polygon points="140,226 160,226 200,250 240,226 260,226 260,300 140,300" fill="#cfe3f5"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 200 250;-6 200 250;0 200 250;6 200 250;0 200 250" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" dur="4s" repeatCount="indefinite"/>
+<rect x="40" y="150" width="320" height="26" fill="#fde2c4"/>
+<polygon points="178,176 222,176 200,250" fill="#e8e8e8"/>
+</g>
+<path d="M80,128 Q200,92 320,128" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<!-- jewel pivot -->
+<rect x="520" y="340" width="160" height="16" fill="url(#hatch)" stroke-width="2"/>
+<polygon points="540,280 568,280 600,302 632,280 660,280 660,340 540,340" fill="#f5d0d0"/>
+<rect x="585" y="80" width="30" height="190" fill="#e8e8e8"/>
+<rect x="-2" y="82" width="4" height="186" fill="#999999" stroke="none"><animateTransform attributeName="transform" type="translate" values="600;613;600;587;600" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.61 1 0.88 1;0.12 0 0.39 0;0.61 1 0.88 1;0.12 0 0.39 0" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0;0.25;0.251;0.749;0.75;1" dur="2s" repeatCount="indefinite"/></rect>
+<rect x="-2" y="82" width="4" height="186" fill="#999999" stroke="none"><animateTransform attributeName="transform" type="translate" values="600;587;600;613;600" keyTimes="0;0.25;0.5;0.75;1" calcMode="spline" keySplines="0.61 1 0.88 1;0.12 0 0.39 0;0.61 1 0.88 1;0.12 0 0.39 0" dur="2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.251;0.749;0.75;1" dur="2s" repeatCount="indefinite"/></rect>
+<polygon points="585,270 615,270 600,301" fill="#e8e8e8"/>
+<path d="M566,140 A34,11 0 0 0 634,140" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g stroke-width="1.5">
+<line x1="204" y1="252" x2="300" y2="360"/>
+<line x1="606" y1="299" x2="684" y2="252"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="210" y="40" font-size="21" font-weight="bold">Knife edge</text>
+<text x="610" y="40" font-size="21" font-weight="bold">Jewel pivot</text>
+<text x="200" y="84">beam rocks</text>
+<text x="300" y="168">beam</text>
+<text x="105" y="215">sharp steel edge</text>
+<text x="200" y="338">hard stone seat</text>
+<text x="300" y="382">touches along one line</text>
+<text x="660" y="190" text-anchor="start">shaft</text>
+<text x="660" y="212" text-anchor="start">turns</text>
+<text x="578" y="262" text-anchor="end">cone point</text>
+<text x="600" y="330">jewel cup</text>
+<text x="690" y="250" text-anchor="start">touches at</text>
+<text x="690" y="272" text-anchor="start">one point</text>
+<text x="400" y="440">Almost nothing rubs, so tiny forces still move it</text>
+</g>
+</svg>

@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A chain and sprocket drive: a small 12-tooth sprocket drives a large 36-tooth sprocket through a roller chain whose rollers drop into the gaps between the teeth; the top run is pulled tight and the bottom run sags slack; both sprockets turn the same way, the large one three times slower, while the chain runs round them.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path id="cp" d="M476.4,113.1 L141.7,187.7 A38.2,38.2 0 0 0 141.7,262.3 Q309.1,317.6 476.4,336.9 A114.6,114.6 0 1 0 476.4,113.1" fill="none" stroke="#222" stroke-width="15"/><path d="M476.4,113.1 L141.7,187.7 A38.2,38.2 0 0 0 141.7,262.3 Q309.1,317.6 476.4,336.9 A114.6,114.6 0 1 0 476.4,113.1" fill="none" stroke="#e8e8e8" stroke-width="10"/>
+<g><animateTransform attributeName="transform" type="rotate" dur="2.0s" repeatCount="indefinite" keyTimes="0;1" values="-128.1 150 225;-488.1 150 225" calcMode="linear"/><g transform="translate(150,225)"><polygon points="38,8 33,5 31,0 33,-5 38,-8 46,-7 43,-17 37,-13 31,-12 27,-15 26,-21 29,-26 36,-29 29,-36 26,-29 21,-26 15,-27 12,-31 13,-37 17,-43 7,-46 8,-38 5,-33 0,-31 -5,-33 -7,-38 -7,-46 -17,-43 -13,-37 -12,-31 -15,-27 -21,-26 -26,-29 -29,-36 -36,-29 -29,-26 -26,-21 -27,-15 -31,-12 -37,-13 -43,-17 -46,-7 -38,-8 -33,-5 -31,0 -33,5 -38,7 -46,7 -43,17 -37,13 -31,12 -27,15 -26,21 -29,26 -36,29 -29,36 -26,29 -21,26 -15,27 -12,31 -13,37 -17,43 -7,46 -8,38 -5,33 0,31 5,33 7,38 7,46 17,43 13,37 12,31 15,27 21,26 26,29 29,36 36,29 29,26 26,21 27,15 31,12 37,13 43,17 46,7" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/></g></g>
+<g><animateTransform attributeName="transform" type="rotate" dur="2.0s" repeatCount="indefinite" keyTimes="0;1" values="0 150 225;-360 150 225" calcMode="linear"/><circle cx="150" cy="225" r="14" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="146" y="197" width="8" height="18" rx="3" fill="#fde2c4" stroke="#222" stroke-width="2"/><circle cx="150" cy="225" r="4" fill="#222"/></g>
+<g><animateTransform attributeName="transform" type="rotate" dur="6.0s" repeatCount="indefinite" keyTimes="0;1" values="-262.6 501.4 225;-622.6 501.4 225" calcMode="linear"/><g transform="translate(501.4,225)"><polygon points="115,8 109,5 107,0 109,-5 115,-8 122,-6 122,-15 114,-13 109,-14 105,-19 107,-24 112,-27 119,-28 117,-36 110,-32 105,-32 101,-37 101,-42 105,-46 113,-48 109,-56 103,-51 97,-50 93,-54 92,-59 95,-64 103,-67 98,-74 93,-68 87,-66 82,-69 80,-74 83,-79 90,-84 84,-90 79,-83 74,-80 69,-82 66,-87 68,-93 74,-98 67,-103 64,-95 59,-92 54,-93 50,-97 51,-103 56,-109 48,-113 46,-105 42,-101 37,-101 32,-105 32,-110 36,-117 28,-119 27,-112 24,-107 19,-105 14,-109 13,-114 15,-122 6,-122 8,-115 5,-109 0,-107 -5,-109 -7,-115 -6,-122 -15,-122 -13,-114 -14,-109 -19,-105 -24,-107 -27,-112 -28,-119 -36,-117 -32,-110 -32,-105 -37,-101 -42,-101 -46,-105 -48,-113 -56,-109 -51,-103 -50,-97 -54,-93 -59,-92 -64,-95 -67,-103 -74,-98 -68,-93 -66,-87 -69,-82 -74,-80 -79,-83 -84,-90 -90,-84 -83,-79 -80,-74 -82,-69 -87,-66 -93,-68 -98,-74 -103,-67 -95,-64 -92,-59 -93,-54 -97,-50 -103,-51 -109,-56 -113,-48 -105,-46 -101,-42 -101,-37 -105,-32 -110,-32 -117,-36 -119,-28 -112,-27 -107,-24 -105,-19 -109,-14 -114,-13 -122,-15 -122,-6 -115,-8 -109,-5 -107,0 -109,5 -115,7 -122,6 -122,15 -114,13 -109,14 -105,19 -107,24 -112,27 -119,28 -117,36 -110,32 -105,32 -101,37 -101,42 -105,46 -113,48 -109,56 -103,51 -97,50 -93,54 -92,59 -95,64 -103,67 -98,74 -93,68 -87,66 -82,69 -80,74 -83,79 -90,84 -84,90 -79,83 -74,80 -69,82 -66,87 -68,93 -74,98 -67,103 -64,95 -59,92 -54,93 -50,97 -51,103 -56,109 -48,113 -46,105 -42,101 -37,101 -32,105 -32,110 -36,117 -28,119 -27,112 -24,107 -19,105 -14,109 -13,114 -15,122 -6,122 -8,115 -5,109 0,107 5,109 7,115 6,122 15,122 13,114 14,109 19,105 24,107 27,112 28,119 36,117 32,110 32,105 37,101 42,101 46,105 48,113 56,109 51,103 50,97 54,93 59,92 64,95 67,103 74,98 68,93 66,87 69,82 74,80 79,83 84,90 90,84 83,79 80,74 82,69 87,66 93,68 98,74 103,67 95,64 92,59 93,54 97,50 103,51 109,56 113,48 105,46 101,42 101,37 105,32 110,32 117,36 119,28 112,27 107,24 105,19 109,14 114,13 122,15 122,6" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/></g></g>
+<g><animateTransform attributeName="transform" type="rotate" dur="6.0s" repeatCount="indefinite" keyTimes="0;1" values="0 501.4 225;-360 501.4 225" calcMode="linear"/><circle cx="501.4" cy="225" r="30" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="497.4" y="140" width="8" height="59" rx="3" fill="#fde2c4" stroke="#222" stroke-width="2"/><circle cx="501.4" cy="225" r="4" fill="#222"/></g>
+<g fill="#fff" stroke="#222" stroke-width="2.5"><circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="0s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-0.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-0.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5" fill="#fde2c4"><animateMotion dur="10s" repeatCount="indefinite" begin="-0.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-0.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-0.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-1s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-1.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-1.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-1.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-1.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-1.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-2s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-2.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-2.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-2.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-2.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-2.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-3s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-3.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-3.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-3.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-3.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-3.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-4s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-4.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-4.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-4.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-4.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-4.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-5.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-5.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-5.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-5.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-5.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-6s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-6.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-6.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-6.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-6.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-6.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-7s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-7.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-7.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-7.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-7.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-7.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-8s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-8.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-8.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-8.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-8.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-8.8333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-9s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-9.1667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-9.3333s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-9.5s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-9.6667s"><mpath href="#cp"/></animateMotion></circle>
+<circle r="6.5"><animateMotion dur="10s" repeatCount="indefinite" begin="-9.8333s"><mpath href="#cp"/></animateMotion></circle>
+</g>
+<path d="M180,170 A62,62 0 0 0 100,187" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M571.4,90 A150,150 0 0 0 471.4,77" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="420" y1="113" x2="340" y2="121" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#222">
+<text x="380" y="97" text-anchor="middle">tight side (pulled)</text>
+<text x="290" y="340" text-anchor="middle">slack side</text>
+<text x="150" y="345" text-anchor="middle">driver: 12 teeth</text>
+<text x="560" y="385" text-anchor="middle">36 teeth: 1 turn for every 3</text>
+<text x="20" y="60">rollers drop into the</text><text x="20" y="84">gaps between teeth</text>
+<text x="400" y="436" text-anchor="middle" font-size="18">Both turn the same way · output 3 times slower with about 3 times the turning force</text>
+</g>
+</svg>

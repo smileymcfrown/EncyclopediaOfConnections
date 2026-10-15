@@ -148,13 +148,41 @@ image:
     outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the
     cup and the part drops away.'
   drawn: true
+pictures:
+- file: drawn/vacuum.svg
+  alt: 'Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the
+    outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the
+    cup and the part drops away.'
+  drawn: true
+- file: vacuum.webp
+  title: File:Blue Grass Chemical Agent-Destruction Pilot Plant Munitions Demilitarization Building (8461456045).jpg
+  author: PEO ACWA
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Blue_Grass_Chemical_Agent-Destruction_Pilot_Plant_Munitions_Demilitarization_Building_(8461456045).jpg
+  site: Wikimedia Commons
+  alt: A vacuum lifter hanging from a crane holds a long building panel by suction while a worker guides it into place.
+  kind: how-it-works
+  drawn: false
+- file: vacuum-edfa1c.webp
+  title: File:Palettieranlage für Möbelteile der de Man Automation + Service GmbH.jpg
+  author: De Man Automation + Service
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Palettieranlage_f%C3%BCr_M%C3%B6belteile_der_de_Man_Automation_%2B_Service_GmbH.jpg
+  site: Wikimedia Commons
+  alt: A factory robot arm with a suction gripper stacking furniture panels onto a pallet.
+  kind: photo
+  drawn: false
 glossary: [misalignment, self-locking, stroke, solenoid, form-fit--force-fit--material-bond, holding-force, repeatability--accuracy,
   perimeters, infill, peel-vs-shear, regulator, venturi]
 ---
 
-![Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the outside air presses the cup and a flat part together and the part is lifted; on the r](../media/drawn/vacuum.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/vacuum.svg" alt="Two cut-away side views of a vacuum suction cup on a hose: on the left a pump pulls the air out of the cup, so the outside air presses the cup and a flat part together and the part is lifted; on the right a valve lets air back into the cup and the part drops away."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/vacuum.webp" alt="A vacuum lifter hanging from a crane holds a long building panel by suction while a worker guides it into place." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Blue_Grass_Chemical_Agent-Destruction_Pilot_Plant_Munitions_Demilitarization_Building_(8461456045).jpg">Blue Grass Chemical Agent-Destruction Pilot Plant Munitions Demilitarization Building (8461456045)</a> by PEO ACWA, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/vacuum-edfa1c.webp" alt="A factory robot arm with a suction gripper stacking furniture panels onto a pallet." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Palettieranlage_f%C3%BCr_M%C3%B6belteile_der_de_Man_Automation_%2B_Service_GmbH.jpg">Palettieranlage für Möbelteile der de Man Automation + Service GmbH</a> by De Man Automation + Service, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flexible cup connected to a vacuum pump or an air-powered vacuum generator that holds smooth objects by pumping the air out from under it, and lets go when a valve lets air back in.
 

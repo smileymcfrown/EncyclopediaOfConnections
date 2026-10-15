@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three folding-blade locks side by side, blades open: a liner lock seen from the spine, where a strip of the liner springs across behind the blade's heel; a lockback, where a rocker's hook sits in a notch on the heel until its tail is pressed; and a slip joint, where a backspring only presses on a flat of the square heel.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="267" y1="20" x2="267" y2="400" stroke="#cccccc" stroke-width="2"/><line x1="534" y1="20" x2="534" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="76" y="174" width="8" height="178" fill="#fde2c4"/><rect x="136" y="174" width="8" height="178" fill="#fde2c4"/>
+<rect x="84" y="174" width="6" height="178" fill="#cfe3f5"/><rect x="130" y="174" width="6" height="178" fill="#cfe3f5"/>
+<rect x="105" y="70" width="10" height="134" fill="#e8e8e8"></rect>
+<rect x="72" y="185" width="76" height="10" rx="3" fill="#e8e8e8"/>
+<line x1="133" y1="340" x2="110" y2="208" stroke="#222" stroke-width="8" stroke-linecap="butt"></line>
+<line x1="133" y1="340" x2="110" y2="208" stroke="#cfe3f5" stroke-width="3" stroke-linecap="butt"></line>
+
+<rect x="353" y="176" width="50" height="174" rx="8" fill="#fde2c4"/>
+<g transform="translate(377,190)"><g><path d="M-12,-16 L-12,-112 Q-11,-124 -3,-128 Q11,-98 13,-20 Z" fill="#e8e8e8"/><path d="M-20.9,-7 A22,22 0 1 1 -20.9,7 L-10,7 L-10,-7 Z" fill="#e8e8e8"/><circle r="4" fill="#ffffff" stroke-width="2"/></g></g>
+<rect x="387" y="335" width="12" height="14" fill="url(#hatch)" stroke-width="2"/>
+<polyline points="353,342 358.7,349 364.3,335 370,349 375.7,335 381.3,349 387,342" fill="none" stroke-width="2.5"></polyline>
+<g><path d="M343,180 H353 V183 H367 V197 H353 V348 H343 Z" fill="#d8f0d2"/></g>
+<circle cx="348" cy="264" r="4" fill="#ffffff" stroke-width="2"/>
+
+<rect x="620" y="176" width="50" height="174" rx="8" fill="#fde2c4"/>
+<g transform="translate(644,190)"><g><path d="M-12,-16 L-12,-112 Q-11,-124 -3,-128 Q11,-98 13,-20 Z" fill="#e8e8e8"/><rect x="-18" y="-18" width="36" height="36" rx="3" fill="#e8e8e8"/><circle r="4" fill="#ffffff" stroke-width="2"/></g></g>
+<path d="M616,350 Q616,210 624,190" fill="none" stroke="#222" stroke-width="8"></path>
+<path d="M616,350 Q616,210 624,190" fill="none" stroke="#d8f0d2" stroke-width="3"></path>
+
+<line x1="94" y1="234" x2="122" y2="234" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></line>
+<line x1="305" y1="340" x2="337" y2="340" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></line>
+<line x1="586" y1="98" x2="624" y2="98" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></line>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="14" y="34" font-size="21" font-weight="bold">Liner lock</text><text x="14" y="56">(seen from the spine)</text>
+<text x="281" y="34" font-size="21" font-weight="bold">Lockback</text>
+<text x="548" y="34" font-size="21" font-weight="bold">Slip joint</text>
+<g text-anchor="middle">
+<text x="133" y="382">strip springs in behind</text><text x="133" y="404">the heel; thumb pushes it</text>
+<text x="400" y="382">hook drops into a notch;</text><text x="400" y="404">press the tail to lift it</text>
+<text x="667" y="382">spring presses on flats;</text><text x="667" y="404">a firm push folds it</text>
+<text x="400" y="438">A lock blocks the blade; a slip joint only holds it with a spring</text>
+</g></g>
+</svg>

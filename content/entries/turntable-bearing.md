@@ -127,22 +127,52 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Turntable_bearing_lazySusan_bearing_slewing_ring.json
 image:
-  file: turntable-bearing.webp
-  width: 800
-  height: 890
+  file: drawn/anim/turntable-bearing.svg
+  alt: 'A turntable bearing: on the left a cross-section of a top ring bolted to a platform and a bottom ring bolted to a
+    base, with balls in facing grooves between them, an off-centre weight pressing the balls on one side and trying to lift
+    the other; on the right the bearing seen from above, with the top ring drawn see-through over the ring of balls. Animated:
+    seen from above the top ring turns round once while the balls between the rings roll round at half its speed.'
+  drawn: true
+  still: drawn/turntable-bearing.svg
+  kind: animation
+pictures:
+- file: drawn/anim/turntable-bearing.svg
+  alt: 'A turntable bearing: on the left a cross-section of a top ring bolted to a platform and a bottom ring bolted to a
+    base, with balls in facing grooves between them, an off-centre weight pressing the balls on one side and trying to lift
+    the other; on the right the bearing seen from above, with the top ring drawn see-through over the ring of balls. Animated:
+    seen from above the top ring turns round once while the balls between the rings roll round at half its speed.'
+  drawn: true
+  still: drawn/turntable-bearing.svg
+  kind: animation
+- file: turntable-bearing.webp
   title: File:Slewing bearing.jpg
   author: Dkluscious
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Slewing_bearing.jpg
-  alt: Photo of a slew ring bearing
+  alt: A large slewing ring bearing, two flat steel rings with bolt holes and gear teeth round the outside.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: turntable-bearing-ecb4d9.webp
+  title: File:DETAIL OF RIM-BEARING TURNTABLE, LOOKING EAST - Romeo Road, Sanitary and Ship Canal Bridge, Spanning Sanitary
+    and Ship Canal, Romeoville, Will County, IL HAER ILL, 99-ROM, 1-10.tif
+  author: https://www.loc.gov/pictures/item/il0606.photos.037011p
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:DETAIL_OF_RIM-BEARING_TURNTABLE,_LOOKING_EAST_-_Romeo_Road,_Sanitary_and_Ship_Canal_Bridge,_Spanning_Sanitary_and_Ship_Canal,_Romeoville,_Will_County,_IL_HAER_ILL,_99-ROM,_1-10.tif
+  site: Wikimedia Commons
+  alt: The rim bearing under a swing bridge, a ring of rollers running on a circular track that lets the whole bridge turn.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, axial--radial, thrust-load, torque, clearance, tolerance, form-fit--force-fit--material-bond, lubrication]
 ---
 
-![Photo of a slew ring bearing](../media/turntable-bearing.webp)
-
-*Picture: [Slewing bearing.jpg](https://commons.wikimedia.org/wiki/File:Slewing_bearing.jpg) by Dkluscious, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/turntable-bearing.svg"><img src="../media/drawn/anim/turntable-bearing.svg" alt="A turntable bearing: on the left a cross-section of a top ring bolted to a platform and a bottom ring bolted to a base, with balls in facing grooves between them, an off-centre weight pressing the balls on one side and trying to lift the other; on the right the bearing seen from above, with the top "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/turntable-bearing.webp" alt="A large slewing ring bearing, two flat steel rings with bolt holes and gear teeth round the outside." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Slewing_bearing.jpg">Slewing bearing</a> by Dkluscious, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/turntable-bearing-ecb4d9.webp" alt="The rim bearing under a swing bridge, a ring of rollers running on a circular track that lets the whole bridge turn." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:DETAIL_OF_RIM-BEARING_TURNTABLE,_LOOKING_EAST_-_Romeo_Road,_Sanitary_and_Ship_Canal_Bridge,_Spanning_Sanitary_and_Ship_Canal,_Romeoville,_Will_County,_IL_HAER_ILL,_99-ROM,_1-10.tif">DETAIL OF RIM-BEARING TURNTABLE, LOOKING EAST - Romeo Road, Sanitary and Ship Canal Bridge, Spanning Sanitary and Ship Canal, Romeoville, Will County, IL HAER ILL, 99-ROM, 1-10</a> by https://www.loc.gov/pictures/item/il0606.photos.037011p, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A large-diameter, thin ring bearing, with balls (or rollers or plastic pads) running in grooves between two rings or plates, that lets a platform turn about an upright axis while carrying its weight and, in stronger types, tipping loads from off-centre weight.
 

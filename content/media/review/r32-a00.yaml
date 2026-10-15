@@ -1,0 +1,465 @@
+# R32 picture choices, batch a00 (see the pick brief). Per page: ordered pictures (at most 3).
+air-tank-and-hydraulic-accumulator:
+  pictures:
+    - commons: "File:Hydraulic accumulator.svg"
+      kind: cross-section
+      alt: A cut-away drawing of a bladder accumulator, a rounded steel bottle with a rubber bag of gas inside that oil squeezes from below.
+    - candidate: 5
+      kind: photo
+      alt: A small yellow hydraulic accumulator fitted with hoses in a boat's autopilot system.
+  needs_animation: false
+  needs_photo: false
+  note: only one real photo, of a hydraulic accumulator; no plain air tank photo among the candidates
+aluminium-extrusion-connectors:
+  pictures:
+    - commons: "File:T-Nut - Installed in a T-Slot.png"
+      kind: diagram
+      alt: A rendered T-nut, coloured red, sitting in the T-shaped groove of a bar, held under the groove's lips.
+  needs_animation: false
+  needs_photo: true
+  note: the spring nut photo (#2) is steel strut channel, not aluminium extrusion, so left out
+anaerobic-adhesive:
+  pictures:
+    - commons: "File:Thread-locking fluid applied.jpg"
+      kind: how-it-works
+      alt: Two bolts held in a gloved hand, their threads coated with blue thread-locking liquid.
+    - candidate: 9
+      kind: how-it-works
+      alt: Half of a motorbike engine case with orange anaerobic sealant run round its joint face, next to the red bottle.
+    - candidate: 2
+      kind: photo
+      alt: A small red bottle of Loctite 243 thread-locking liquid with a white nozzle cap.
+  needs_animation: false
+  needs_photo: false
+annular-snap-fit:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+anti-backlash-gear:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate is a flat backlash diagram
+automatic-siphon:
+  pictures:
+    - drawn
+    - candidate: 6
+      kind: cross-section
+      alt: A cut-away render of a bell siphon, a perforated tube capped at the top, with the drain standpipe visible inside it.
+  needs_animation: false
+  needs_photo: false
+  note: "#8 'The autosiphon' is a brewer's pump-started racking siphon, a different thing, so left out"
+ball-detent-torque-limiter:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: cross-section
+      alt: A cut-away torque limiter on a trade-show stand, showing the springs and the ring of balls between its two plates.
+    - candidate: 2
+      kind: photo
+      alt: A cordless drill's clutch and motor taken out of the case, with the numbered torque-setting ring in front.
+  needs_animation: false
+  needs_photo: false
+  note: "#2 is a drill clutch; the balls are hidden inside, so it only shows the product"
+ball-detent:
+  pictures:
+    - commons: "File:Federndes Druckstück 2.tif"
+      kind: photo
+      alt: Three threaded spring plungers, each with a steel ball poking out of one end.
+  needs_animation: true
+  needs_photo: false
+  note: no candidate animation or drawn diagram; the typewriter detent photos use leaf springs, not balls
+ball-screw:
+  pictures:
+    - commons: "File:BallScrews-with-detail-insets.jpg"
+      kind: how-it-works
+      alt: Two ball screws on a wooden floor, with close-ups of a nut whose return tube is removed to show the balls.
+    - candidate: 6
+      kind: how-it-works
+      alt: A ball screw nut partly taken apart, one return tube lifted off and loose steel balls laid out above it.
+  needs_animation: true
+  needs_photo: false
+  note: "#5 (GearBoxRotLinScrew.gif) animates a plain screw and nut with no balls visible, so not used"
+band-flange-clamp:
+  pictures:
+    - commons: "File:HTML research (9067215099), clamp.jpg"
+      kind: how-it-works
+      alt: A hinged metal band clamp with a wing nut being closed round the lipped ends of two pipe fittings.
+    - candidate: 2
+      kind: photo
+      alt: Two aircraft duct ends, one rigid and one braided, each with the raised lip a band clamp grips.
+  needs_animation: false
+  needs_photo: false
+basic-strap-and-garment-closures:
+  pictures:
+    - commons: "File:Buckle Showing various parts.svg"
+      kind: diagram
+      alt: A drawing of a prong buckle with its frame, bar, prong and chape labelled.
+    - candidate: 4
+      kind: how-it-works
+      alt: Duffle-coat toggles, wooden bars on cords, pushed through cord loops to close the coat.
+    - candidate: 2
+      kind: photo
+      alt: Plastic buttons with sewing holes beside a fabric-covered button with a shank loop on the back.
+  needs_animation: false
+  needs_photo: false
+battery-holder-and-battery-contacts:
+  pictures:
+    - commons: "File:AAbatteryholder.jpg"
+      kind: photo
+      alt: A black plastic holder with four AA batteries pressed between metal contacts at each end.
+    - candidate: 3
+      kind: photo
+      alt: A 3D-printed yellow battery box for four cells, with metal spring contacts fitted at the ends.
+    - candidate: 2
+      kind: photo
+      alt: A 9 volt battery snap, a black clip with two press-stud contacts and red and black wires.
+  needs_animation: false
+  needs_photo: false
+bayonet-mount:
+  pictures:
+    - commons: "File:Bayonet-mount-01.svg"
+      kind: diagram
+      alt: A drawing of two tubes, one with an L-shaped slot and the other with a pin that slides in and twists to lock.
+    - candidate: 3
+      kind: how-it-works
+      alt: A bayonet light bulb next to its socket, showing the bulb's two side pins and the L-shaped slots they twist into.
+    - candidate: 6
+      kind: photo
+      alt: A camera lens taken off its camera body, showing the metal bayonet tabs on the lens and the matching mount on the camera.
+  needs_animation: true
+  needs_photo: false
+  note: the two candidate animations are unrelated (a physics graph and a chess game)
+bead-in-groove-fabric-edge:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: The side of a caravan with a keder rail, a metal track with a narrow-mouthed groove for an awning's beaded edge.
+  needs_animation: false
+  needs_photo: false
+  note: the photo shows the rail only, with no awning slid into it
+bell-crank:
+  pictures:
+    - candidate: 10
+      kind: animation
+      alt: A rendered L-shaped bell crank rocking on a pivot post, so a rod pulling one arm pushes a rod on the other arm sideways.
+    - candidate: 6
+      kind: photo
+      alt: The back wheel of a city bike with a small bell-crank box on the hub axle, where the gear cable turns into a push on the hub's gear rod.
+  needs_animation: false
+  needs_photo: false
+  note: "#1 (steering linkage animation) is faint and small; the museum engine photos show bell cranks too small to see"
+bellows-and-inflatable-actuators:
+  pictures:
+    - commons: "File:Axiální pneumatický měch.jpg"
+      kind: diagram
+      alt: A cut-through drawing of an air bellows between two plates, with air let in at the bottom pushing the top plate up.
+    - candidate: 2
+      kind: cross-section
+      alt: A cut-away render of a rolling-lobe air spring, a rubber sleeve clamped between a top cap and a piston that it rolls down over.
+    - candidate: 3
+      kind: photo
+      alt: A big yellow inflatable lifting bag hanging from a crane arm at a rescue service display.
+  needs_animation: true
+  needs_photo: false
+bends-for-joining-two-cords:
+  pictures:
+    - commons: "File:Doppelter Schotstek.jpg"
+      kind: photo
+      alt: A thin yellow cord joined to a thick red rope with a double sheet bend, wrapped twice round a bend in the thick rope.
+  needs_animation: false
+  needs_photo: false
+  note: only one photo, of the sheet bend; nothing for the double fisherman's, water knot or Zeppelin bend
+bidirectional-anti-back-drive-clutch:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+binding-plate-lock:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the candidates are ski bindings, lock rings and trunks, none of them a tipping plate on a rod
+bistable-compliant-mechanism:
+  pictures:
+    - commons: "File:Bistable compliant switch mechanism.png"
+      kind: diagram
+      alt: A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting positions.
+  needs_animation: true
+  needs_photo: true
+blind-rivet:
+  pictures:
+    - commons: "File:Popnagel.gif"
+      kind: animation
+      alt: An animated cut-through of a blind rivet in two sheets, its pin pulled back so the far end swells into a second head and the pin snaps off.
+    - candidate: 2
+      kind: how-it-works
+      alt: Two blind rivets, one unused and one after setting, its far end bulged out into a wide head with the pin still in it.
+    - candidate: 4
+      kind: photo
+      alt: A hand rivet tool with red handles beside a few loose blind rivets.
+  needs_animation: false
+  needs_photo: false
+brazed-joint:
+  pictures:
+    - commons: "File:Principe brasage fort cuivre.svg"
+      kind: diagram
+      alt: A drawing of two copper pipes heated by a flame, then a rod of filler melting and running into the joint between them.
+    - candidate: 3
+      kind: how-it-works
+      alt: A partly built steel bicycle frame whose tubes are joined with smooth fillets of brass brazing at each corner.
+    - candidate: 5
+      kind: photo
+      alt: Pipe joints on a table, an unbrazed sleeve and rings beside finished brazed pipe joints (black and white).
+  needs_animation: false
+  needs_photo: false
+burn-wire-and-fusible-link-release:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: how-it-works
+      alt: The top of an underwater acoustic release, with a lever held shut by a fusible wire that lets it swing open when the wire burns through.
+  needs_animation: false
+  needs_photo: false
+  note: no photo of a building fire-door fusible link among the candidates
+butt-and-lap-wood-joints:
+  pictures:
+    - commons: "File:Woodworking lap joints.svg"
+      kind: diagram
+      alt: Drawings of four lap joints, half lap, mitred half lap, cross lap and dovetail cross lap, each with half the wood cut away so the pieces overlap flush.
+    - candidate: 5
+      kind: how-it-works
+      alt: A chisel cutting out the recess for a half-lap joint across a timber beam.
+    - candidate: 3
+      kind: how-it-works
+      alt: A pocket-hole butt joint being clamped and screwed, the angled screw going through one board into the other.
+  needs_animation: false
+  needs_photo: false
+  note: "#3 is only 200 px wide"
+cable-through-a-hinge:
+  pictures:
+    - drawn
+    - candidate: 6
+      kind: how-it-works
+      alt: An opened hinged case with loose loops of wire running across the hinge from the base to the lid.
+    - candidate: 2
+      kind: photo
+      alt: A flat flexible cable bending round between the two sliding halves of a slide phone's circuit boards.
+  needs_animation: false
+  needs_photo: false
+  note: "#2 crosses a sliding joint, not a hinge, but shows the same rolling flat cable idea"
+cam-cleat:
+  pictures:
+    - commons: "File:Curry2.jpg"
+      kind: photo
+      alt: A small black cam cleat seen from above, its two grey spring-loaded cams side by side.
+    - candidate: 8
+      kind: how-it-works
+      alt: A rope gripped between the two toothed cams of a cam cleat on the side of a sailing boat.
+    - candidate: 2
+      kind: how-it-works
+      alt: A blue rope held in a cam cleat under a pulley block on a yacht's mainsheet.
+  needs_animation: true
+  needs_photo: false
+cantilever-snap-fit:
+  pictures:
+    - commons: "File:Cantilever Snap-fit.gif"
+      kind: animation
+      alt: An animated drawing of a hooked arm bending aside as it is pushed down, then springing back to hook under the other part's ledge.
+    - candidate: 10
+      kind: photo
+      alt: A 3D-printed red clip held in the fingers, its long flexible arms ending in hooks that snap over a car key fob.
+    - candidate: 8
+      kind: how-it-works
+      alt: The red 3D-printed clip snapped round a broken car key fob, its hooked ends holding the two halves together.
+  needs_animation: false
+  needs_photo: false
+  note: the printed clip snaps on with hooked arms, but is not a classic single-arm snap fit
+capstan-and-windlass:
+  pictures:
+    - drawn
+    - candidate: 9
+      kind: photo
+      alt: An old iron ship's capstan on a quay, an upright drum with square holes at the top for the bars people push round.
+    - candidate: 4
+      kind: photo
+      alt: A wooden windlass beside a Cornish cove, a horizontal drum turned by long bars, used to haul boats up the slipway.
+  needs_animation: false
+  needs_photo: false
+castor:
+  pictures:
+    - commons: "File:Swivel caster.jpg"
+      kind: photo
+      alt: A swivel castor under a clothes rack, its hard rubber wheel set behind the swivel pivot in a steel fork.
+    - candidate: 3
+      kind: how-it-works
+      alt: A swivel castor with a wing-shaped brake lever that presses down on the wheel to stop it rolling.
+    - candidate: 4
+      kind: how-it-works
+      alt: The castors of a hospital stretcher joined by a central locking bar that brakes all the wheels at once.
+  needs_animation: true
+  needs_photo: false
+  note: the only candidate animations are Busy Beaver computing animations (the name clash with 'beaver')
+centrifugal-clutch:
+  pictures:
+    - commons: "File:CentrifugalClutch.jpg"
+      kind: photo
+      alt: The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum.
+    - candidate: 8
+      kind: how-it-works
+      alt: A centrifugal clutch taken out of its drum, showing the three shoes and the springs that pull them in towards the hub.
+    - candidate: 9
+      kind: how-it-works
+      alt: A two-shoe centrifugal clutch from a motor scythe inside its drum, a spring stretched between the shoes.
+  needs_animation: true
+  needs_photo: false
+  note: no candidate animation; the numbered labels on #8 have no key on the picture
+centrifugal-pump:
+  pictures:
+    - commons: "File:Centrifugal pump.gif"
+      kind: animation
+      alt: An animated impeller with curved blades spinning, carrying water outwards from the centre to the rim.
+    - candidate: 22
+      kind: cross-section
+      alt: A cut-away electric pump on a trade-show stand, the casing opened to show the impeller inside its spiral housing.
+    - candidate: 5
+      kind: photo
+      alt: Two blue centrifugal pumps piped into a hot-water heating system.
+  needs_animation: false
+  needs_photo: false
+chain-and-sprocket-drive:
+  pictures:
+    - commons: "File:Chain.gif"
+      kind: animation
+      alt: An animated roller chain running round a yellow sprocket, its rollers dropping into the gaps between the teeth.
+    - candidate: 26
+      kind: how-it-works
+      alt: A large sprocket and roller chain driving a shaft on an old peat-digging machine in a museum.
+    - candidate: 30
+      kind: how-it-works
+      alt: A render of a roller chain pulled apart into its outer plates, inner plates, pins, bushes and rollers.
+  needs_animation: true
+  needs_photo: false
+  note: the current animation is only 128 px across; a bigger drawn one would be clearer
+check-valve:
+  pictures:
+    - commons: "File:Checkvalveopen.svg"
+      kind: diagram
+      alt: A cut-through drawing of a ball check valve, a red ball held against a narrowing seat by a spring below it.
+    - candidate: 16
+      kind: how-it-works
+      alt: The inside of a tilting-disc check valve, the round disc hanging on its hinge pin across the bore, ready to swing shut.
+    - candidate: 4
+      kind: how-it-works
+      alt: Schrader tyre valves taken apart, showing the small spring-loaded valve core that lets air in and seals against it coming out.
+  needs_animation: true
+  needs_photo: false
+  note: the candidate animations show whole pumps (diaphragm, piston, inductive) rather than the check valve itself
+clam-cleat:
+  pictures:
+    - commons: "File:Kammklemme.jpg"
+      kind: how-it-works
+      alt: A green rope jammed in the ridged V-groove of a black clam cleat on a sailing boat, next to a winch.
+  needs_animation: true
+  needs_photo: false
+  note: only one candidate, the current photo
+clevis-joint:
+  pictures:
+    - commons: "File:Clevis.svg"
+      kind: diagram
+      alt: A drawing of a U-shaped clevis with a pin through both ears, held in by a split pin.
+  needs_animation: true
+  needs_photo: true
+  note: the photo candidates are a broken clevis test piece, bolts and space-station hardware, none a clear clevis joint
+clinching:
+  pictures:
+    - commons: "File:TOX Pressotechnik Clinching.gif"
+      kind: animation
+      alt: An animated cut-through of two sheets being pressed into a die, the metal flowing sideways into a locked button.
+    - candidate: 4
+      kind: how-it-works
+      alt: A person using a hand-held clinching tool to join two metal sheets, with a row of clinched buttons already along the edge.
+    - candidate: 10
+      kind: photo
+      alt: An aluminium gas-meter case with arrows pointing to the round clinch buttons that hold its sheet-metal parts together.
+  needs_animation: false
+  needs_photo: false
+collet:
+  pictures:
+    - commons: "File:External thread pull collet action.gif"
+      kind: animation
+      alt: An animation of a slotted collet being pulled into its cone-shaped seat by a drawbar, closing on a shaft and then letting it go.
+    - candidate: 3
+      kind: how-it-works
+      alt: A keyless drill chuck on its arbor, a keyed chuck and its key, and a chuck taken apart to show its three jaws.
+    - candidate: 2
+      kind: photo
+      alt: A steel ER collet, a cone-shaped sleeve cut with slots from both ends so it can squeeze down on a tool shank.
+  needs_animation: false
+  needs_photo: false
+compliant-detent:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+compliant-gripper-and-force-amplifier:
+  pictures:
+    - commons: "File:Compliant plier mechanism.png"
+      kind: diagram
+      alt: The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections.
+  needs_animation: true
+  needs_photo: true
+  note: the other candidates are unrelated photos of people ('grip', 'non-compliant')
+compliant-one-piece-latch:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+compliant-ratchet-and-overrunning-clutch:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: cross-section
+      alt: A cable tie cut in half through its head, showing the one-piece springy catch pressing into the teeth of the strap.
+  needs_animation: false
+  needs_photo: false
+  note: the cable tie is a straight-line compliant ratchet, not a rotating one; a photo of a printed ratchet wheel would suit better
+compound-planetary-gearbox:
+  pictures:
+    - drawn
+    - candidate: 7
+      kind: photo
+      alt: A render of a blue 3D-printable stepped planet gear, two sets of teeth on one shaft so it can mesh with two different ring gears.
+  needs_animation: false
+  needs_photo: false
+  note: the openverse renders show single printed parts, not the assembled gearbox; #1 is a small drawing of a different stepped hub gear
+compression-fitting:
+  pictures:
+    - commons: "File:Schneidring lose.jpg"
+      kind: cross-section
+      alt: A cut-away render of a cutting-ring fitting with its numbered body, cap nut, cutting ring and pipe, before tightening.
+    - candidate: 4
+      kind: how-it-works
+      alt: A brass isolating valve with its compression nut and copper olive taken off, showing the parts that slide onto the pipe.
+    - candidate: 3
+      kind: how-it-works
+      alt: A steel tube fitting laid out in order, nut, back ferrule, front ferrule and body, as they go onto the tube.
+  needs_animation: false
+  needs_photo: false
+conductive-glue-paint-and-ink:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: how-it-works
+      alt: An electron-microscope picture of dried conductive silver paint, a rough layer of tiny silver flakes touching each other.
+  needs_animation: false
+  needs_photo: false
+  note: "no photo of conductive glue or paint in use; #2 (a bowl of home-made ink) shows too little"

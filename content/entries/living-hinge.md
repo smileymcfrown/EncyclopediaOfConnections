@@ -128,24 +128,61 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 research: research/connection-types/results/Living_hinge.json
 image:
-  file: living-hinge.webp
-  width: 736
-  height: 1020
+  file: drawn/anim/living-hinge.svg
+  alt: 'Side cut-away of a living hinge: a box and its lid are one piece of plastic joined by a thin flexible web; the animation
+    folds the lid up through 90 degrees and over to close on the box, the web bending into a tight curve, then opens it flat
+    again.'
+  drawn: true
+  still: drawn/living-hinge.svg
+  kind: animation
+pictures:
+- file: drawn/anim/living-hinge.svg
+  alt: 'Side cut-away of a living hinge: a box and its lid are one piece of plastic joined by a thin flexible web; the animation
+    folds the lid up through 90 degrees and over to close on the box, the web bending into a tight curve, then opens it flat
+    again.'
+  drawn: true
+  still: drawn/living-hinge.svg
+  kind: animation
+- file: living-hinge.webp
   title: File:Mint box polypropylene lid.JPG
   author: en:User:Polyparadig
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG
-  alt: Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles
-    'Living hinge' and 'Flexure bearing'
+  alt: An empty mint box with its white plastic lid flipped open, joined to the box by a thin flexible strip of the same plastic.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: living-hinge-efdd32.webp
+  title: File:Hartschaum-Eierkarton.jpg
+  author: User:MarkusHagenlocher
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Hartschaum-Eierkarton.jpg
+  site: Wikimedia Commons
+  alt: An open foam egg box, its lid and base moulded in one piece and joined by a thin fold line along the back.
+  kind: photo
+  drawn: false
+- file: living-hinge-189430.webp
+  title: File:MS Box.jpg
+  author: Magnasound
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:MS_Box.jpg
+  site: Wikimedia Commons
+  alt: A clear plastic cassette case opened flat, its two halves joined by a thin moulded plastic hinge.
+  kind: photo
   drawn: false
 glossary: [misalignment, over-centre, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever, creep,
   fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear]
 ---
 
-![Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles 'Living hinge' and 'Flexure bearing'](../media/living-hinge.webp)
-
-*Picture: [Mint box polypropylene lid.JPG](https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG) by en:User:Polyparadig, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/living-hinge.svg"><img src="../media/drawn/anim/living-hinge.svg" alt="Side cut-away of a living hinge: a box and its lid are one piece of plastic joined by a thin flexible web; the animation folds the lid up through 90 degrees and over to close on the box, the web bending into a tight curve, then opens it flat again."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/living-hinge.webp" alt="An empty mint box with its white plastic lid flipped open, joined to the box by a thin flexible strip of the same plastic." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG">Mint box polypropylene lid</a> by en:User:Polyparadig, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/living-hinge-efdd32.webp" alt="An open foam egg box, its lid and base moulded in one piece and joined by a thin fold line along the back." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hartschaum-Eierkarton.jpg">Hartschaum-Eierkarton</a> by User:MarkusHagenlocher, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/living-hinge-189430.webp" alt="A clear plastic cassette case opened flat, its two halves joined by a thin moulded plastic hinge." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:MS_Box.jpg">MS Box</a> by Magnasound, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A thinned strip of the same plastic that joins two stiff parts so they fold like a hinge, with no pin, no assembly and nothing to wear out or lose.
 

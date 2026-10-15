@@ -125,24 +125,63 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Centrifugal_clutch.json
 image:
-  file: centrifugal-clutch.webp
-  width: 800
-  height: 532
+  file: drawn/anim/centrifugal-clutch.svg
+  alt: 'End-on view of a centrifugal clutch: a hub on the engine shaft carries three shoes on radial lugs, held in by springs,
+    inside a free drum; when the hub spins fast enough the shoes are flung out against the drum, slip, then grip so the drum
+    turns with the hub; the engine speeds up and slows down, the shoes move out and in, and the drum starts, catches up and
+    coasts to a stop.'
+  drawn: true
+  still: drawn/centrifugal-clutch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/centrifugal-clutch.svg
+  alt: 'End-on view of a centrifugal clutch: a hub on the engine shaft carries three shoes on radial lugs, held in by springs,
+    inside a free drum; when the hub spins fast enough the shoes are flung out against the drum, slip, then grip so the drum
+    turns with the hub; the engine speeds up and slows down, the shoes move out and in, and the drum starts, catches up and
+    coasts to a stop.'
+  drawn: true
+  still: drawn/centrifugal-clutch.svg
+  kind: animation
+- file: centrifugal-clutch.webp
   title: File:CentrifugalClutch.jpg
   author: Fletcher6
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg
-  alt: 'Close-up photo of a chainsaw''s centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside
-    the drum'
+  alt: The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: centrifugal-clutch-a7aa6e.webp
+  title: File:Dry clutch.JPG
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Dry_clutch.JPG
+  site: Wikimedia Commons
+  alt: A centrifugal clutch taken out of its drum, showing the three shoes and the springs that pull them in towards the hub.
+  kind: how-it-works
+  drawn: false
+- file: centrifugal-clutch-f1e484.webp
+  title: File:Frizione centrifuga.jpg
+  author: A7N8X
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Frizione_centrifuga.jpg
+  site: Wikimedia Commons
+  alt: A two-shoe centrifugal clutch from a motor scythe inside its drum, a spring stretched between the shoes.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, ratchet, freewheel, torque, gear-ratio, fail-safe--fail-secure, flexure, form-fit--force-fit--material-bond,
   set-screw, brittle--ductile]
 ---
 
-![Close-up photo of a chainsaw's centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside the drum](../media/centrifugal-clutch.webp)
-
-*Picture: [CentrifugalClutch.jpg](https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg) by Fletcher6, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/centrifugal-clutch.svg"><img src="../media/drawn/anim/centrifugal-clutch.svg" alt="End-on view of a centrifugal clutch: a hub on the engine shaft carries three shoes on radial lugs, held in by springs, inside a free drum; when the hub spins fast enough the shoes are flung out against the drum, slip, then grip so the drum turns with the hub; the engine speeds up and slows down, the"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-clutch.webp" alt="The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg">CentrifugalClutch</a> by Fletcher6, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-clutch-a7aa6e.webp" alt="A centrifugal clutch taken out of its drum, showing the three shoes and the springs that pull them in towards the hub." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dry_clutch.JPG">Dry clutch</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-clutch-f1e484.webp" alt="A two-shoe centrifugal clutch from a motor scythe inside its drum, a spring stretched between the shoes." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Frizione_centrifuga.jpg">Frizione centrifuga</a> by A7N8X, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A clutch that engages by itself as it speeds up: spinning weights are flung outwards against a drum and drive it by friction, and they let go again when the speed drops.
 

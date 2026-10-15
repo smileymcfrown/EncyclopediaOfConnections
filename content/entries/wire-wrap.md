@@ -145,21 +145,54 @@ sources:
 research: research/connection-types/results/Wire_wrap_wirewrapped_connection.json
 image:
   file: wire-wrap.webp
-  width: 800
-  height: 600
   title: File:Wire Wrap 1.jpg
   author: Shri Hari Ram
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
-  alt: Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts
+  alt: Wire wrapped in tight coils round square metal posts on the back of a circuit board.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: wire-wrap.webp
+  title: File:Wire Wrap 1.jpg
+  author: Shri Hari Ram
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
+  alt: Wire wrapped in tight coils round square metal posts on the back of a circuit board.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: wire-wrap-008b63.webp
+  title: File:Drahtwickelpistole-wires hg.jpg
+  author: Hannes Grobe
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Drahtwickelpistole-wires_hg.jpg
+  site: Wikimedia Commons
+  alt: A row of square pins, each with a neat coil of wire wound round its base.
+  kind: how-it-works
+  drawn: false
+- file: wire-wrap-fdc755.webp
+  title: File:Manual wire wrap tool and wire wrap wire in various colours.jpg
+  author: User Mike1024 on en.wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Manual_wire_wrap_tool_and_wire_wrap_wire_in_various_colours.jpg
+  site: Wikimedia Commons
+  alt: A hand wire-wrap tool, a small pen-like tube, next to loops of thin coloured wire-wrap wire.
+  kind: photo
   drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, fatigue]
 ---
 
-![Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts](../media/wire-wrap.webp)
-
-*Picture: [Wire Wrap 1.jpg](https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg) by Shri Hari Ram, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-wrap.webp" alt="Wire wrapped in tight coils round square metal posts on the back of a circuit board."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg">Wire Wrap 1</a> by Shri Hari Ram, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-wrap-008b63.webp" alt="A row of square pins, each with a neat coil of wire wound round its base." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Drahtwickelpistole-wires_hg.jpg">Drahtwickelpistole-wires hg</a> by Hannes Grobe, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-wrap-fdc755.webp" alt="A hand wire-wrap tool, a small pen-like tube, next to loops of thin coloured wire-wrap wire." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manual_wire_wrap_tool_and_wire_wrap_wire_in_various_colours.jpg">Manual wire wrap tool and wire wrap wire in various colours</a> by User Mike1024 on en.wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Wire wrap joins a thin solid wire to a square metal post by winding the bared wire tightly round it with a small spinning tool: the post's sharp corners bite into the wire at every turn, making about 28 tiny gas-tight, cold-welded contact points that need no solder and can be unwound and redone.
 

@@ -155,18 +155,30 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
 research: research/connection-types/results/Elastic_band_and_elastic_cord_springs_elastomer_springs.json
 image:
-  file: drawn/elastic-band-and-elastic-cord-springs.svg
+  file: drawn/anim/elastic-band-and-elastic-cord-springs.svg
   alt: 'A hinged arm held down by a rubber band looped between a peg on the arm and a peg on the base: on the left it rests
     closed with the band short, and on the right the arm is lifted, the band is stretched longer and thinner, and it pulls
-    the arm back down.'
+    the arm back down. In the animation the right-hand arm is let go: the band shortens and thickens as it pulls the arm down,
+    then the arm is lifted again and the band stretches.'
   drawn: true
+  still: drawn/elastic-band-and-elastic-cord-springs.svg
+  kind: animation
+pictures:
+- file: drawn/anim/elastic-band-and-elastic-cord-springs.svg
+  alt: 'A hinged arm held down by a rubber band looped between a peg on the arm and a peg on the base: on the left it rests
+    closed with the band short, and on the right the arm is lifted, the band is stretched longer and thinner, and it pulls
+    the arm back down. In the animation the right-hand arm is let go: the band shortens and thickens as it pulls the arm down,
+    then the arm is lifted again and the band stretches.'
+  drawn: true
+  still: drawn/elastic-band-and-elastic-cord-springs.svg
+  kind: animation
 glossary: [misalignment, actuator, stiffness, preload, damping, hysteresis, creep, stress-relaxation, layer-lines, peel-vs-shear,
   o-ring]
 ---
 
-![A hinged arm held down by a rubber band looped between a peg on the arm and a peg on the base: on the left it rests closed with the band short, and on the right the arm is lifted, the band is stretche](../media/drawn/elastic-band-and-elastic-cord-springs.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/elastic-band-and-elastic-cord-springs.svg"><img src="../media/drawn/anim/elastic-band-and-elastic-cord-springs.svg" alt="A hinged arm held down by a rubber band looped between a peg on the arm and a peg on the base: on the left it rests closed with the band short, and on the right the arm is lifted, the band is stretched longer and thinner, and it pulls the arm back down. In the animation the right-hand arm is let go:"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A rubber band, elastic cord or length of rubber tubing stretched between two anchor points so that it pulls them together: a cheap, very stretchy pull spring that you can cut, tie or swap by hand, but whose pull fades over time and which perishes in heat, sunlight and ozone.
 

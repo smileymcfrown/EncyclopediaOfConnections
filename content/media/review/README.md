@@ -16,9 +16,9 @@ The pictures that were wrong outright (a different item) were all swapped or dra
 press-in insert).
 
 `batch-01.yaml` … `batch-06.yaml` hold every verdict with its reason (`page: {verdict, use, alt,
-reason, unsure}`). The swaps and drawn verdicts were copied into `../choices.yaml`, which is what
-`tools/fetch_images.py` and `tools/make_entries.py` read. To change a page's picture, edit
-`choices.yaml`, not these files.
+reason, unsure}`). The swaps and drawn verdicts were copied into `choices.yaml`, which R32
+replaced with `../pictures.yaml` (several pictures per page). To change a page's pictures, edit
+`pictures.yaml`, not these files.
 
 Totals: 257 keep, 26 swap, 78 drawn.
 
@@ -41,3 +41,19 @@ of the review), but a person could improve them:
 
 Files marked "Copyrighted free use" on Commons (e.g. `File:Hirth Verzahnungsringe.JPG`) were not
 used, as that is not one of the licences the project accepts (D29).
+
+## R32: animations first, then real photos
+
+The owner asked for an animation on every entry that moves, animated versions of the drawn
+diagrams, and real photos, preferring cross-sections, then photos that show how it works, then a
+clear product photo. `tools/find_pictures.py` (the *Find pictures* workflow) searched Commons and
+Openverse for every entry; helpers chose from contact sheets of the candidates. `r32-*.yaml` hold
+each page's choice with notes: `pictures` (merged into `../pictures.yaml`), `needs_animation` (an
+animated drawing was then made for each of these that moves) and `needs_photo`.
+
+### ⚑ Still needs a real photo (116 pages)
+
+No copyable photo that really shows the item was found for these. A photo of your own (CC BY or
+CC BY-SA, on Wikimedia Commons) would help:
+
+air-bearing-and-air-caster, air-logic-valve, aluminium-extrusion-connectors, annular-snap-fit, anti-backlash-gear, anti-twister-mechanism, bent-or-twisted-tab-through-a-slot, bidirectional-anti-back-drive-clutch, binding-plate-lock, bistable-compliant-mechanism, capstan-cable-drive, captive-nut-pocket, clamp-on-accessory-mount-for-bars-poles-and-edges, clevis-joint, click-pen-mechanism, clip-on-concealed-hinge, compliant-detent, compliant-gripper-and-force-amplifier, compliant-one-piece-latch, cross-halving-slot-joint, crush-ribs-and-spring-fit-features, detent-hinge, elastic-averaging, elastic-band-and-elastic-cord-springs, electro-permanent-magnet, exact-constraint-mounting, face-ratchet, fin-ray-gripper, flexible-beam-coupling, float-valve, folded-seam, four-bar-linkage, friction-clutch, friction-welded-plastic, gearless-right-angle-drive, geneva-drive, granular-jamming-gripper, guy-line-slider, half-nut, heat-set-threaded-insert, heat-staking, housing-and-rebate-joints, indexing-plunger, intermittent-gear, invisible-barrel-hinge, iris-valve, jaw-coupling, keyless-locking-bush, kinematic-coupling, knife-edge-and-jewel-pivots, labyrinth-seal, ladder-lock-buckle, lamina-emergent-torsional-joint, lever-cam-panel-connector, lid-and-flap-stays, load-bearing-stitch-patterns-for-straps-and-webbing, locating-pins-and-hole-and-slot, magnet-joint, magnetic-assisted-buckle, magnetic-coupling-and-magnetic-gear, magnetic-detent, mechanical-metamaterial-mechanism, mid-print-embedding, multi-material-interlock, multi-stage-slide-rigging, multi-turn-rotation-limiter, ortho-planar-spring, parallel-leaf-spring-flexure, planetary-gear-set, pneumatic-artificial-muscle, printing-onto-fabric, push-in-plastic-rivet, push-on-edge-trim, push-push-latch, quarter-turn-fastener, quick-release-hooks, quick-release-pin, ratchet-tooth-torque-limiter, rigid-chain-actuator, rolling-contact-joint, rotary-latch, self-tapping-screw-into-plastic, servo-or-motorised-latch, shape-memory-alloy-wire-latch, shear-pin-coupling, shock-corded-sectional-pole, shut-off-valve, snap-lock-sheet-joint, snap-pin, soft-pneumatic-bending-actuator, speed-control-valve, split-part-joints-for-large-prints, spring-button-lock, spur-gear-pair-and-gear-train, straight-line-linkages, stretch-release-adhesive-strips, structural-acrylic-and-low-surface-energy-plastic-adhesives, swashplate-and-wobble-plate, switchable-permanent-magnet, syringe-hydraulics, t-slot-joint, tape-spring-hinge, telescoping-tube-twist-lock, threadless-ball-screw, toggle-clamp, tolerance-ring, torque-limiting-gear-with-flexing-spring-arms, torsional-snap-fit, twisted-and-coiled-polymer-muscle, twisted-string-actuator, universal-joint, vacuum-driven-artificial-muscle, virtual-pivot-linkage, wave-and-disc-springs, wedge-dowel, wrap-spring-clutch

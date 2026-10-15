@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two end views of a motor with an off-centre weight on a thin panel: bolted straight on, the panel shakes and passes the vibration on; on two rubber mounts, the rubber flexes and the panel stays nearly still.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<clipPath id="below200"><rect x="30" y="308" width="340" height="52"/></clipPath><clipPath id="below600"><rect x="430" y="308" width="340" height="52"/></clipPath>
+<line x1="400" y1="20" x2="400" y2="390" stroke="#cccccc" stroke-width="2"/>
+<rect x="28" y="306" width="34" height="22" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/><rect x="338" y="306" width="34" height="22" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<g clip-path="url(#below200)" fill="none" stroke="#d1495b" stroke-width="4"><circle cx="200" cy="300" r="20" opacity="1"></circle><circle cx="200" cy="300" r="50" opacity="0.67"></circle><circle cx="200" cy="300" r="80" opacity="0.33"></circle></g>
+<path d="M40,300 C120,300 130,300 200,300 C270,300 280,300 360,300" fill="none" stroke="#222" stroke-width="10"></path>
+<path d="M40,300 C120,300 130,300 200,300 C270,300 280,300 360,300" fill="none" stroke="#d8f0d2" stroke-width="5"></path>
+<g><rect x="138" y="279" width="124" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/><path d="M170,279 L178,253 L222,253 L230,279 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="200" cy="223" r="48" fill="#cfe3f5" stroke="#222" stroke-width="3"/><g><line x1="200" y1="223" x2="226" y2="223" stroke="#222" stroke-width="5"/><circle cx="226" cy="223" r="11" fill="#fde2c4" stroke="#222" stroke-width="3"/></g><circle cx="200" cy="223" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><line x1="155" y1="270" x2="155" y2="312" stroke="#222" stroke-width="5"/><line x1="245" y1="270" x2="245" y2="312" stroke="#222" stroke-width="5"/></g>
+<rect x="428" y="306" width="34" height="22" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/><rect x="738" y="306" width="34" height="22" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<g clip-path="url(#below600)" fill="none" stroke="#d1495b" stroke-width="2.5"><circle cx="600" cy="300" r="20" opacity="0.25"></circle><circle cx="600" cy="300" r="50" opacity="0.17"></circle><circle cx="600" cy="300" r="80" opacity="0.08"></circle></g>
+<path d="M440,300 C520,300 530,300 600,300 C670,300 680,300 760,300" fill="none" stroke="#222" stroke-width="10"/>
+<path d="M440,300 C520,300 530,300 600,300 C670,300 680,300 760,300" fill="none" stroke="#d8f0d2" stroke-width="5"/>
+<rect x="538" y="265" width="34" height="30" rx="9" fill="#f5d0d0" stroke="#222" stroke-width="3"></rect>
+<rect x="628" y="265" width="34" height="30" rx="9" fill="#f5d0d0" stroke="#222" stroke-width="3"></rect>
+<g><rect x="538" y="249" width="124" height="16" fill="#e8e8e8" stroke="#222" stroke-width="3"/><path d="M570,249 L578,223 L622,223 L630,249 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="600" cy="193" r="48" fill="#cfe3f5" stroke="#222" stroke-width="3"/><g><line x1="600" y1="193" x2="626" y2="193" stroke="#222" stroke-width="5"/><circle cx="626" cy="193" r="11" fill="#fde2c4" stroke="#222" stroke-width="3"/></g><circle cx="600" cy="193" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">Bolted straight on</text><text x="600" y="40" font-size="21" font-weight="bold">On rubber mounts</text><text x="200" y="80" font-size="17">motor with an off-centre weight</text><text x="600" y="80" font-size="17">same motor, shaking as hard</text><text x="85" y="285" font-size="17">thin panel</text><text x="200" y="378" font-size="17">shaking spreads into the panel</text><text x="728" y="292" font-size="17">rubber flexes</text><text x="600" y="378" font-size="17">panel stays nearly still</text><text x="400" y="430" font-size="19">The rubber is a soft spring: fast shaking stays in the motor instead of the panel</text>
+</g>
+</svg>

@@ -121,14 +121,41 @@ image:
   alt: Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all
     round, with small insets of a chamfer guiding the pin in and a heated hub dropped over a cold shaft (shrink fit).
   drawn: true
+pictures:
+- file: drawn/press-fit.svg
+  alt: Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all
+    round, with small insets of a chamfer guiding the pin in and a heated hub dropped over a cold shaft (shrink fit).
+  drawn: true
+- file: press-fit.webp
+  title: File:Eingepresste Pins in PCB (unten).jpg
+  author: Laserlicht
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Eingepresste_Pins_in_PCB_(unten).jpg
+  site: Wikimedia Commons
+  alt: The underside of a circuit board where square press-fit pins have been forced into round plated holes, with no solder.
+  kind: photo
+  drawn: false
+- file: press-fit-2f8650.webp
+  title: File:Press fit Flowerpot.jpg
+  author: जाधव प्रियांका
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Press_fit_Flowerpot.jpg
+  site: Wikimedia Commons
+  alt: A flowerpot cover made of laser-cut wooden rings and ribs that are pushed tightly into each other's slots.
+  kind: photo
+  drawn: false
 glossary: [misalignment, torque, stiffness, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   set-screw, taper, captive-nut, chamfer--fillet, creep, brittle--ductile, stress-concentration, galling--fretting, layer-lines,
   perimeters, o-ring]
 ---
 
-![Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all round, with small insets of a chamfer guiding the pin in and a heated hub dropped ](../media/drawn/press-fit.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/press-fit.svg" alt="Cross-section of a pin slightly wider than its hole, then pressed in so the hole wall bulges and squeezes it from all round, with small insets of a chamfer guiding the pin in and a heated hub dropped over a cold shaft (shrink fit)."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/press-fit.webp" alt="The underside of a circuit board where square press-fit pins have been forced into round plated holes, with no solder." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Eingepresste_Pins_in_PCB_(unten).jpg">Eingepresste Pins in PCB (unten)</a> by Laserlicht, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/press-fit-2f8650.webp" alt="A flowerpot cover made of laser-cut wooden rings and ribs that are pushed tightly into each other&#x27;s slots." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Press_fit_Flowerpot.jpg">Press fit Flowerpot</a> by जाधव प्रियांका, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 The inner part is made slightly bigger than the hole and forced (or heat-shrunk) into it, so both materials spring back against each other and friction holds them together, centred and with no play.
 

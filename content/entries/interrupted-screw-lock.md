@@ -125,24 +125,65 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Interruptedscrew_lock_interrupted_thread_breech_lock.json
 image:
-  file: interrupted-screw-lock.webp
-  width: 400
-  height: 259
+  file: drawn/anim/interrupted-screw-lock.svg
+  alt: 'Animated: interrupted-screw lock, seen end-on and cut open from the side: the plug and the socket each have thread
+    only on alternate sectors, so with the plug threads lined up with the smooth gaps it pushes straight in, and a quarter
+    turn brings the threads into mesh, pulling the plug in against a gasket; the animation pushes it in, turns it a quarter
+    turn to lock, then turns it back and pulls it out.'
+  drawn: true
+  still: drawn/interrupted-screw-lock.svg
+  kind: animation
+pictures:
+- file: drawn/anim/interrupted-screw-lock.svg
+  alt: 'Animated: interrupted-screw lock, seen end-on and cut open from the side: the plug and the socket each have thread
+    only on alternate sectors, so with the plug threads lined up with the smooth gaps it pushes straight in, and a quarter
+    turn brings the threads into mesh, pulling the plug in against a gasket; the animation pushes it in, turns it a quarter
+    turn to lock, then turns it back and pulls it out.'
+  drawn: true
+  still: drawn/interrupted-screw-lock.svg
+  kind: animation
+- file: interrupted-screw-lock.webp
   title: File:Interrupted breech screw.jpg
   author: https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg
-  alt: Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked
-    out in green.
+  alt: A drawing of a gun breech swung open, the plug's thread cut away in sectors to match the smooth gaps in the threaded
+    hole.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: interrupted-screw-lock-a8d312.webp
+  title: File:Breech 122m10 hameenlinna 2.jpg
+  author: Balcer~commonswiki
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Breech_122m10_hameenlinna_2.jpg
+  site: Wikimedia Commons
+  alt: A real gun breech swung open, showing the interrupted threads on the plug and the matching threaded and smooth sectors
+    in the barrel end.
+  kind: how-it-works
+  drawn: false
+- file: interrupted-screw-lock-bed466.webp
+  title: File:QF 6 inch gun coned breech screw.jpg
+  author: Notman Studio (Halifax)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:QF_6_inch_gun_coned_breech_screw.jpg
+  site: Wikimedia Commons
+  alt: A close-up photo of a large coned breech screw with its rows of thread broken by smooth strips.
+  kind: photo
   drawn: false
 glossary: [misalignment, detent, preload, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, stress-concentration,
   galling--fretting, print-in-place, o-ring]
 ---
 
-![Drawing of an opened breech with the plug swung out, the threaded and plain sections of the plug and of the hole picked out in green.](../media/interrupted-screw-lock.webp)
-
-*Picture: [Interrupted breech screw.jpg](https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg) by https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/interrupted-screw-lock.svg"><img src="../media/drawn/anim/interrupted-screw-lock.svg" alt="Animated: interrupted-screw lock, seen end-on and cut open from the side: the plug and the socket each have thread only on alternate sectors, so with the plug threads lined up with the smooth gaps it pushes straight in, and a quarter turn brings the threads into mesh, pulling the plug in against a g"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/interrupted-screw-lock.webp" alt="A drawing of a gun breech swung open, the plug&#x27;s thread cut away in sectors to match the smooth gaps in the threaded hole." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Interrupted_breech_screw.jpg">Interrupted breech screw</a> by https://www.logsa.army.mil/WEB-PAGE/2000/577/577-18.pdf, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/interrupted-screw-lock-a8d312.webp" alt="A real gun breech swung open, showing the interrupted threads on the plug and the matching threaded and smooth sectors in the barrel end." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Breech_122m10_hameenlinna_2.jpg">Breech 122m10 hameenlinna 2</a> by Balcer~commonswiki, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/interrupted-screw-lock-bed466.webp" alt="A close-up photo of a large coned breech screw with its rows of thread broken by smooth strips." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:QF_6_inch_gun_coned_breech_screw.jpg">QF 6 inch gun coned breech screw</a> by Notman Studio (Halifax), Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A screw thread with alternate sections removed from both the plug and the hole, so the plug pushes straight in past the gaps and a fraction of a turn (1/4 down to 1/16) engages the remaining thread sections and locks it.
 

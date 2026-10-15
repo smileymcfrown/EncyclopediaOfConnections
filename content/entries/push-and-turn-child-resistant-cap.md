@@ -130,18 +130,39 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushandturn_childresistant_cap.json
 image:
-  file: drawn/push-and-turn-child-resistant-cap.svg
-  alt: 'Cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose outer
-    cap up so its teeth slip over the inner cap''s ramps and it clicks round uselessly; pressing down while twisting meshes
-    the teeth so both caps turn together and the inner cap unscrews.'
+  file: drawn/anim/push-and-turn-child-resistant-cap.svg
+  alt: 'Animated cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose
+    outer cap up so its teeth slide past above the inner cap''s ramps and it clicks round uselessly while the inner cap stays
+    put; pressing down while twisting meshes the teeth so both caps turn together and the inner cap unscrews and rises.'
   drawn: true
+  still: drawn/push-and-turn-child-resistant-cap.svg
+  kind: animation
+pictures:
+- file: drawn/anim/push-and-turn-child-resistant-cap.svg
+  alt: 'Animated cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose
+    outer cap up so its teeth slide past above the inner cap''s ramps and it clicks round uselessly while the inner cap stays
+    put; pressing down while twisting meshes the teeth so both caps turn together and the inner cap unscrews and rises.'
+  drawn: true
+  still: drawn/push-and-turn-child-resistant-cap.svg
+  kind: animation
+- file: push-and-turn-child-resistant-cap.webp
+  title: File:Aspirin1.jpg
+  author: User Mosesofmason on zh.Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Aspirin1.jpg
+  site: Wikimedia Commons
+  alt: A bottle of aspirin tablets with a white push-down-and-turn child-resistant cap, next to its box.
+  kind: photo
+  drawn: false
 glossary: [coaxial, ratchet, torque, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile,
   print-in-place, regulator]
 ---
 
-![Cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose outer cap up so its teeth slip over the inner cap's ramps and it clicks round uselessly; pr](../media/drawn/push-and-turn-child-resistant-cap.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/push-and-turn-child-resistant-cap.svg"><img src="../media/drawn/anim/push-and-turn-child-resistant-cap.svg" alt="Animated cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose outer cap up so its teeth slide past above the inner cap&#x27;s ramps and it clicks round uselessly while the inner cap stays put; pressing down while twisting meshes the teeth so both ca"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-and-turn-child-resistant-cap.webp" alt="A bottle of aspirin tablets with a white push-down-and-turn child-resistant cap, next to its box." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Aspirin1.jpg">Aspirin1</a> by User Mosesofmason on zh.Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A two-layer screw cap whose loose outer shell only grips the threaded inner cap when you press down while turning, so a child who just twists it gets nothing but spinning and clicking, while an adult who knows the trick can open it.
 

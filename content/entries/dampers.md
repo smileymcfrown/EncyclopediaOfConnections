@@ -145,23 +145,52 @@ sources:
 - https://en.wikipedia.org/wiki/Crumple_zone
 research: research/connection-types/results/Dampers_rotary_and_linear_softclose_dampers.json
 image:
-  file: dampers.webp
-  width: 800
-  height: 3001
+  file: drawn/anim/dampers.svg
+  alt: 'Two dampers: a box lid on a hinge with a rotary damper at the pivot, and a cut-open linear damper whose piston has
+    a tiny hole for oil to squeeze through and a one-way check valve, with a spring to push it back out; the lid sinks slowly
+    shut while the piston is pushed in slowly, oil squeezing through the tiny hole, then the lid is lifted and the piston
+    springs back out fast as the valve opens.'
+  drawn: true
+  still: drawn/dampers.svg
+  kind: animation
+pictures:
+- file: drawn/anim/dampers.svg
+  alt: 'Two dampers: a box lid on a hinge with a rotary damper at the pivot, and a cut-open linear damper whose piston has
+    a tiny hole for oil to squeeze through and a one-way check valve, with a spring to push it back out; the lid sinks slowly
+    shut while the piston is pushed in slowly, oil squeezing through the tiny hole, then the lid is lifted and the piston
+    springs back out fast as the valve opens.'
+  drawn: true
+  still: drawn/dampers.svg
+  kind: animation
+- file: dampers.webp
   title: File:Dashpot.svg
   author: Egmason
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Dashpot.svg
-  alt: 'Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder'
+  alt: A cut-away drawing of a dashpot, a piston on a rod inside a cylinder full of oil.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: dampers-680909.webp
+  title: File:Hinge on kitchen cabinet with soft closing mechanism.jpg
+  author: Shixart1985
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Hinge_on_kitchen_cabinet_with_soft_closing_mechanism.jpg
+  site: Wikimedia Commons
+  alt: A kitchen cabinet door hinge with a small soft-close damper cylinder fitted beside it to slow the door as it shuts.
+  kind: how-it-works
   drawn: false
 glossary: [axial--radial, stroke, detent, torque, gear-ratio, actuator, damping, clearance, creep, perimeters, peel-vs-shear,
   o-ring, check-valve]
 ---
 
-![Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder](../media/dampers.webp)
-
-*Picture: [Dashpot.svg](https://commons.wikimedia.org/wiki/File:Dashpot.svg) by Egmason, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/dampers.svg"><img src="../media/drawn/anim/dampers.svg" alt="Two dampers: a box lid on a hinge with a rotary damper at the pivot, and a cut-open linear damper whose piston has a tiny hole for oil to squeeze through and a one-way check valve, with a spring to push it back out; the lid sinks slowly shut while the piston is pushed in slowly, oil squeezing throug"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dampers.webp" alt="A cut-away drawing of a dashpot, a piston on a rod inside a cylinder full of oil." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dashpot.svg">Dashpot</a> by Egmason, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dampers-680909.webp" alt="A kitchen cabinet door hinge with a small soft-close damper cylinder fitted beside it to slow the door as it shuts." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hinge_on_kitchen_cabinet_with_soft_closing_mechanism.jpg">Hinge on kitchen cabinet with soft closing mechanism</a> by Shixart1985, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A damper is a sealed oil- or air-filled part whose resistance grows with speed, fitted at a hinge or along a slide so that a falling lid, a sprung drawer or a closing door slows down and settles quietly instead of slamming.
 

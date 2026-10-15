@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Ball-detent torque limiter drawn unrolled flat, shown moving: on the left, springs press a plate so steel balls sit in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls roll up out of the dimples, pushing the plate back against the springs, so the drive side slips past and the balls click into each dimple as it goes by.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0,12 L12,0" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="cb"><rect x="38.5" y="90" width="323" height="160"/></clipPath>
+<clipPath id="co"><rect x="28.5" y="200" width="343" height="120"/></clipPath>
+<clipPath id="cr"><rect x="428.5" y="200" width="343" height="120"/></clipPath></defs>
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- normal: everything turns together -->
+<path d="M65,114 L65,120 L78,124.2 L52,132.6 L78,140.9 L52,149.3 L78,157.7 L52,166.1 L78,174.4 L52,182.8 L65,187 L65,193" fill="none"/><path d="M155,114 L155,120 L168,124.2 L142,132.6 L168,140.9 L142,149.3 L168,157.7 L142,166.1 L168,174.4 L142,182.8 L155,187 L155,193" fill="none"/><path d="M245,114 L245,120 L258,124.2 L232,132.6 L258,140.9 L232,149.3 L258,157.7 L232,166.1 L258,174.4 L232,182.8 L245,187 L245,193" fill="none"/><path d="M335,114 L335,120 L348,124.2 L322,132.6 L348,140.9 L322,149.3 L348,157.7 L322,166.1 L348,174.4 L322,182.8 L335,187 L335,193" fill="none"/>
+<rect x="40" y="96" width="320" height="18" fill="url(#hatch)"/>
+<rect x="40" y="193" width="320" height="50" fill="#cfe3f5"/>
+<g clip-path="url(#co)"><g><animateTransform attributeName="transform" type="translate" values="0 0;90 0" dur="3s" repeatCount="indefinite"/><path d="M-70,310 L-70,250 L-2,250 L20,264 L42,250 L88,250 L110,264 L132,250 L178,250 L200,264 L222,250 L268,250 L290,264 L312,250 L370,250 L370,310 Z" fill="#fde2c4"/></g></g>
+<g clip-path="url(#cb)"><g><animateTransform attributeName="transform" type="translate" values="0 0;90 0" dur="3s" repeatCount="indefinite"/><rect x="1" y="221" width="38" height="22" fill="#ffffff"/><rect x="91" y="221" width="38" height="22" fill="#ffffff"/><rect x="181" y="221" width="38" height="22" fill="#ffffff"/><rect x="271" y="221" width="38" height="22" fill="#ffffff"/><circle cx="20" cy="243" r="18" fill="#e8e8e8"/><circle cx="110" cy="243" r="18" fill="#e8e8e8"/><circle cx="200" cy="243" r="18" fill="#e8e8e8"/><circle cx="290" cy="243" r="18" fill="#e8e8e8"/></g></g>
+<!-- too much torque: the drive plate slides under, balls ride out and click into each dimple -->
+<rect x="440" y="96" width="320" height="18" fill="url(#hatch)"/>
+<g transform="translate(0,114)"><g><animateTransform attributeName="transform" type="scale" values="1 0.7975;1 0.7975;1 0.7975;1 0.8021;1 0.8164;1 0.8419;1 0.8767;1 0.9118;1 0.9470;1 0.9821;1 0.9704;1 0.9352;1 0.9001;1 0.8649;1 0.8320;1 0.8105;1 0.7995;1 0.7975;1 0.7975" keyTimes="0.0000;0.1556;0.1778;0.2111;0.2444;0.2778;0.3111;0.3444;0.3778;0.4111;0.4444;0.4778;0.5111;0.5444;0.5778;0.6111;0.6444;0.6889;1.0000" dur="3s" repeatCount="indefinite"/><g transform="translate(0,-114)"><path d="M465,114.0 L465,120.0 L478,124.2 L452,132.6 L478,140.9 L452,149.3 L478,157.7 L452,166.1 L478,174.4 L452,182.8 L465,187.0 L465,193.0" fill="none" vector-effect="non-scaling-stroke"/><path d="M555,114.0 L555,120.0 L568,124.2 L542,132.6 L568,140.9 L542,149.3 L568,157.7 L542,166.1 L568,174.4 L542,182.8 L555,187.0 L555,193.0" fill="none" vector-effect="non-scaling-stroke"/><path d="M645,114.0 L645,120.0 L658,124.2 L632,132.6 L658,140.9 L632,149.3 L658,157.7 L632,166.1 L658,174.4 L632,182.8 L645,187.0 L645,193.0" fill="none" vector-effect="non-scaling-stroke"/><path d="M735,114.0 L735,120.0 L748,124.2 L722,132.6 L748,140.9 L722,149.3 L748,157.7 L722,166.1 L748,174.4 L722,182.8 L735,187.0 L735,193.0" fill="none" vector-effect="non-scaling-stroke"/></g></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0.00;0 0.00;0 0.00;0 0.37;0 1.50;0 3.51;0 6.26;0 9.03;0 11.81;0 14.59;0 13.66;0 10.88;0 8.11;0 5.33;0 2.73;0 1.03;0 0.16;0 0.00;0 0.00" keyTimes="0.0000;0.1556;0.1778;0.2111;0.2444;0.2778;0.3111;0.3444;0.3778;0.4111;0.4444;0.4778;0.5111;0.5444;0.5778;0.6111;0.6444;0.6889;1.0000" dur="3s" repeatCount="indefinite"/><rect x="440" y="177" width="320" height="50" fill="#cfe3f5"/><rect x="491" y="205" width="38" height="22" fill="#ffffff"/><rect x="581" y="205" width="38" height="22" fill="#ffffff"/><rect x="671" y="205" width="38" height="22" fill="#ffffff"/></g>
+<g clip-path="url(#cr)"><g><animateTransform attributeName="transform" type="translate" values="0 0;90 0" dur="3s" repeatCount="indefinite"/><path d="M340,310 L340,250 L360,250 L382,264 L404,250 L450,250 L472,264 L494,250 L540,250 L562,264 L584,250 L630,250 L652,264 L674,250 L720,250 L742,264 L764,250 L770,250 L770,310 Z" fill="#fde2c4"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" values="0 0.00;0 0.00;0 0.00;0 0.25;0 1.03;0 2.41;0 4.30;0 6.21;0 8.12;0 10.03;0 9.39;0 7.48;0 5.57;0 3.66;0 1.88;0 0.71;0 0.11;0 0.00;0 0.00" keyTimes="0.0000;0.1556;0.1778;0.2111;0.2444;0.2778;0.3111;0.3444;0.3778;0.4111;0.4444;0.4778;0.5111;0.5444;0.5778;0.6111;0.6444;0.6889;1.0000" dur="3s" repeatCount="indefinite"/><circle cx="510" cy="232" r="18" fill="#e8e8e8"/><circle cx="600" cy="232" r="18" fill="#e8e8e8"/><circle cx="690" cy="232" r="18" fill="#e8e8e8"/></g>
+</g>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)"><line x1="140" y1="335" x2="260" y2="335"/><line x1="500" y1="335" x2="700" y2="335"/><line x1="600" y1="170" x2="600" y2="134"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">Normal: balls seated</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Too much torque: slips</text>
+<text x="200" y="76">springs press the plate down</text>
+<text x="600" y="76">balls roll out, plate pushed up</text>
+<text x="200" y="290">drive plate with dimples</text>
+<text x="200" y="368">both sides turn together</text>
+<text x="600" y="368">drive side slips past</text>
+<text x="200" y="214">steel balls in holes</text>
+<text x="400" y="432" font-size="18">Shown unrolled flat · stronger springs or steeper dimples slip at a higher torque</text>
+</g></svg>

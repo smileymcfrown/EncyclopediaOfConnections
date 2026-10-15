@@ -131,22 +131,33 @@ sources:
 research: research/connection-types/results/Knockdown_camlock_and_crossdowel_connectors.json
 image:
   file: knock-down-cam-lock-and-cross-dowel-connectors.webp
-  width: 800
-  height: 442
   title: File:Cam connector cropped.png
   author: Swpb
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Cam_connector_cropped.png
-  alt: Photo of a furniture cam lock housing next to its connecting bolt
+  alt: A furniture cam-lock fitting, a long bolt with a round head lying next to the round metal cam that grips it.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: knock-down-cam-lock-and-cross-dowel-connectors.webp
+  title: File:Cam connector cropped.png
+  author: Swpb
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cam_connector_cropped.png
+  alt: A furniture cam-lock fitting, a long bolt with a round head lying next to the round metal cam that grips it.
+  site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, repeatability--accuracy, creep, brittle--ductile,
   perimeters, infill, peel-vs-shear]
 ---
 
-![Photo of a furniture cam lock housing next to its connecting bolt](../media/knock-down-cam-lock-and-cross-dowel-connectors.webp)
-
-*Picture: [Cam connector cropped.png](https://commons.wikimedia.org/wiki/File:Cam_connector_cropped.png) by Swpb, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/knock-down-cam-lock-and-cross-dowel-connectors.webp" alt="A furniture cam-lock fitting, a long bolt with a round head lying next to the round metal cam that grips it."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cam_connector_cropped.png">Cam connector cropped</a> by Swpb, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two-part metal fittings that pull a panel edge tight against another panel or rail and hold it there: in a cam lock a turning cam grabs a bolt head, and in a cross dowel a bolt screws into a threaded barrel set across it, so furniture can be put together and taken apart with just a screwdriver or Allen key.
 

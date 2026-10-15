@@ -163,23 +163,53 @@ sources:
 - https://en.wikipedia.org/wiki/Ottobock
 research: research/connection-types/results/Ballandsocket_joint_lockable_ball_head.json
 image:
-  file: ball-and-socket-joint.webp
-  width: 800
-  height: 1493
+  file: drawn/anim/ball-and-socket-joint.svg
+  alt: 'Animated cut-away of a ball-and-socket joint: a ball on a neck sits in a slotted cup whose lip wraps past the ball''s
+    widest point, so the neck can tilt in any direction until it meets the rim and spin about itself, but cannot pull out;
+    screwing the locking ring down squeezes the fingers onto the ball to lock it. The animation tilts the neck left and right
+    to the rim, then screws the ring down.'
+  drawn: true
+  still: drawn/ball-and-socket-joint.svg
+  kind: animation
+pictures:
+- file: drawn/anim/ball-and-socket-joint.svg
+  alt: 'Animated cut-away of a ball-and-socket joint: a ball on a neck sits in a slotted cup whose lip wraps past the ball''s
+    widest point, so the neck can tilt in any direction until it meets the rim and spin about itself, but cannot pull out;
+    screwing the locking ring down squeezes the fingers onto the ball to lock it. The animation tilts the neck left and right
+    to the rim, then screws the ring down.'
+  drawn: true
+  still: drawn/ball-and-socket-joint.svg
+  kind: animation
+- file: ball-and-socket-joint.webp
   title: File:KugelgelenkSchnitt.jpg
   author: S.Wetzel (Maschinenelemente, Maschinen und Geräte)
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:KugelgelenkSchnitt.jpg
-  alt: A ball joint cut in half, showing the ball on a threaded, cone-shaped stud inside its socket
+  alt: A ball joint cut in half, showing the round ball on a threaded, cone-shaped stud sitting in its socket inside the housing.
+  site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+- file: ball-and-socket-joint-37c7a1.webp
+  title: File:Manfrotto 488 RC4.jpg
+  author: Nebrot
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manfrotto_488_RC4.jpg
+  site: Wikimedia Commons
+  alt: A black camera tripod ball head, its ball clamped in a socket by a big locking knob, with a quick-release plate on
+    top.
+  kind: photo
   drawn: false
 glossary: [degrees-of-freedom, misalignment, detent, linkage, stiffness, cantilever, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, boss, undercut, creep, stress-relaxation, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---
 
-![A ball joint cut in half, showing the ball on a threaded, cone-shaped stud inside its socket](../media/ball-and-socket-joint.webp)
-
-*Picture: [KugelgelenkSchnitt.jpg](https://commons.wikimedia.org/wiki/File:KugelgelenkSchnitt.jpg) by S.Wetzel (Maschinenelemente, Maschinen und Geräte), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ball-and-socket-joint.svg"><img src="../media/drawn/anim/ball-and-socket-joint.svg" alt="Animated cut-away of a ball-and-socket joint: a ball on a neck sits in a slotted cup whose lip wraps past the ball&#x27;s widest point, so the neck can tilt in any direction until it meets the rim and spin about itself, but cannot pull out; screwing the locking ring down squeezes the fingers onto the bal"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-and-socket-joint.webp" alt="A ball joint cut in half, showing the round ball on a threaded, cone-shaped stud sitting in its socket inside the housing." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:KugelgelenkSchnitt.jpg">KugelgelenkSchnitt</a> by S.Wetzel (Maschinenelemente, Maschinen und Geräte), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-and-socket-joint-37c7a1.webp" alt="A black camera tripod ball head, its ball clamped in a socket by a big locking knob, with a quick-release plate on top." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manfrotto_488_RC4.jpg">Manfrotto 488 RC4</a> by Nebrot, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A ball on one part sits in a matching cup (socket) on the other so it can turn about any axis through the ball's centre but can't pull out; friction holds it at an angle, and a knob, nut or clamp can squeeze the cup to lock it.
 

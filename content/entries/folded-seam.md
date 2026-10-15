@@ -132,12 +132,29 @@ image:
   alt: 'Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks
     are slid together so they interlock, and then the joint is hammered flat so the folds trap each other.'
   drawn: true
+pictures:
+- file: drawn/folded-seam.svg
+  alt: 'Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks
+    are slid together so they interlock, and then the joint is hammered flat so the folds trap each other.'
+  drawn: true
+- file: folded-seam.webp
+  title: File:Can solderless seam cutaway.jpg
+  author: Could not be extracted automatically; most are anonymous or pseudonymous. Scanned by the Seattle Public Library.
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Can_solderless_seam_cutaway.jpg
+  site: Wikimedia Commons
+  alt: A magnified cut-away of an early tin can's rim, showing the end and the body edges folded round each other into a tight
+    double seam.
+  kind: cross-section
+  drawn: false
 glossary: [pitch, stiffness, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
-![Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks are slid together so they interlock, and then the joint is hammered flat so the fold](../media/drawn/folded-seam.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/folded-seam.svg" alt="Side view of two sheet-metal edges joined by a folded seam in three steps: each edge is bent into a hook, the hooks are slid together so they interlock, and then the joint is hammered flat so the folds trap each other."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/folded-seam.webp" alt="A magnified cut-away of an early tin can&#x27;s rim, showing the end and the body edges folded round each other into a tight double seam." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Can_solderless_seam_cutaway.jpg">Can solderless seam cutaway</a> by Could not be extracted automatically; most are anonymous or pseudonymous. Scanned by the Seattle Public Library., Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Sheet-metal edges are bent into hooks or pockets, slid or hooked together and pressed flat so the folds trap each other, making a permanent, often near-airtight joint along a whole edge without heat or fasteners.
 

@@ -127,23 +127,59 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rod_end_and_ball_link_rose_joint_RC_ball_link.json
 image:
-  file: rod-end-and-ball-link.webp
-  width: 800
-  height: 1612
+  file: drawn/anim/rod-end-and-ball-link.svg
+  alt: 'A rod end cut in half with its ball and bolt tilting in the spherical seat, and an RC push rod animated: the servo
+    arm swings both ways, the rod pushes and pulls, and the ball link and rod end swivel so the control horn and flap follow.'
+  drawn: true
+  still: drawn/rod-end-and-ball-link.svg
+  kind: animation
+pictures:
+- file: drawn/anim/rod-end-and-ball-link.svg
+  alt: 'A rod end cut in half with its ball and bolt tilting in the spherical seat, and an RC push rod animated: the servo
+    arm swings both ways, the rod pushes and pulls, and the ball link and rod end swivel so the control horn and flap follow.'
+  drawn: true
+  still: drawn/rod-end-and-ball-link.svg
+  kind: animation
+- file: rod-end-and-ball-link.webp
   title: File:Heim Joint.svg
   author: Vladsinger
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Heim_Joint.svg
-  alt: 'Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft'
+  alt: A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: rod-end-and-ball-link-a5f8cd.webp
+  title: File:Female Heim Joint.png
+  author: Masonjan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Female_Heim_Joint.png
+  site: Wikimedia Commons
+  alt: A metal female rod end, a ring holding a swivelling ball with a hole, on a body threaded inside.
+  kind: photo
+  drawn: false
+- file: rod-end-and-ball-link-5694ec.webp
+  title: File:Tie rod end.jpeg
+  author: Craig Howell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Tie_rod_end.jpeg
+  site: Wikimedia Commons
+  alt: A car tie rod end fitted under a car, its ball joint held in a rubber boot and bolted through the steering arm.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, axial--radial, lever-arm, linkage, actuator, clearance, form-fit--force-fit--material-bond, set-screw,
   threadlocker, creep, perimeters, infill, print-in-place, o-ring]
 ---
 
-![Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft](../media/rod-end-and-ball-link.webp)
-
-*Picture: [Heim Joint.svg](https://commons.wikimedia.org/wiki/File:Heim_Joint.svg) by Vladsinger, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/rod-end-and-ball-link.svg"><img src="../media/drawn/anim/rod-end-and-ball-link.svg" alt="A rod end cut in half with its ball and bolt tilting in the spherical seat, and an RC push rod animated: the servo arm swings both ways, the rod pushes and pulls, and the ball link and rod end swivel so the control horn and flap follow."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rod-end-and-ball-link.webp" alt="A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Heim_Joint.svg">Heim Joint</a> by Vladsinger, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rod-end-and-ball-link-a5f8cd.webp" alt="A metal female rod end, a ring holding a swivelling ball with a hole, on a body threaded inside." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Female_Heim_Joint.png">Female Heim Joint</a> by Masonjan, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rod-end-and-ball-link-5694ec.webp" alt="A car tie rod end fitted under a car, its ball joint held in a rubber boot and bolted through the steering arm." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tie_rod_end.jpeg">Tie rod end</a> by Craig Howell, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded end fitting holding a swivelling ball (a spherical bearing) or a snap-on ball cup, fitted at each end of a push rod or tie rod so the rod can pass push and pull between two levers that move out of line, with the rod length set by how far the ends are screwed on.
 

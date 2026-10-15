@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side cross-section of a 35 mm top-hat DIN rail on a wall with a module clipped on: a fixed hook on the module hangs over the top lip and a spring latch sits behind the bottom lip; a small top view shows modules side by side on the rail between two end stops; the module is taken off (a screwdriver pulls the latch down, the module tilts and lifts off) and put back on (hook over the top lip, swing in, the sloped latch is pushed down and clicks up behind the lip), while in the top view a module slides along the rail.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(0,-20)">
+<rect x="110" y="110" width="40" height="320" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<polygon points="150,195 189,195 189,165 195,165 195,201 156,201 156,339 195,339 195,375 189,375 189,345 150,345" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.25;1" values="0;1;0;0" calcMode="discrete"/><g><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.16;0.22;0.25;1" values="50 30;50 30;0 0;0 16;0 16;50 30"/><line x1="210" y1="406" x2="292" y2="440" stroke="#222" stroke-width="9"/><line x1="210" y1="406" x2="290" y2="439" stroke="#e8e8e8" stroke-width="4"/><line x1="280" y1="435" x2="340" y2="460" stroke="#222" stroke-width="22"/><line x1="282" y1="436" x2="340" y2="460" stroke="#fde2c4" stroke-width="16"/><path d="M250,370 L250,400" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g></g>
+<g><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.34;0.42;0.48;0.56;0.62;0.68;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="0 0;0 0;0 -28;34 -28;34 -28;0 -28;0 0;0 0"/><g><animateTransform attributeName="transform" type="rotate" dur="8s" repeatCount="indefinite" keyTimes="0;0.24;0.34;0.7;0.86;1" values="0 190 165;0 190 165;-10 190 165;-10 190 165;0 190 165;0 190 165"/>
+<path d="M195,140 L470,140 L470,400 L195,400 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon points="195,156 172,156 172,182 184,182 184,165 195,165" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="195" y1="157" x2="195" y2="164" stroke="#cfe3f5" stroke-width="4"/>
+<circle cx="440" cy="166" r="11" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><line x1="433" y1="159" x2="447" y2="173" stroke="#222" stroke-width="2.5"/>
+<circle cx="440" cy="370" r="11" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><line x1="433" y1="363" x2="447" y2="377" stroke="#222" stroke-width="2.5"/>
+<rect x="250" y="210" width="160" height="110" rx="6" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<circle cx="210" cy="390" r="5" fill="#222"/>
+<polyline points="210,340 210,342.6 216,345.9 204,352.3 216,358.8 204,365.2 216,371.7 204,378.1 210,381.4 210,384" fill="none" stroke="#222" stroke-width="2.5"><animate attributeName="points" dur="8s" repeatCount="indefinite" keyTimes="0;0.16;0.22;0.44;0.45;0.764;0.7832;0.86;0.87;1" values="210,340 210,342.6 216,345.9 204,352.3 216,358.8 204,365.2 216,371.7 204,378.1 210,381.4 210,384;210,340 210,342.6 216,345.9 204,352.3 216,358.8 204,365.2 216,371.7 204,378.1 210,381.4 210,384;210,356 210,357.7 216,359.7 204,363.8 216,367.9 204,372.1 216,376.2 204,380.3 210,382.3 210,384;210,356 210,357.7 216,359.7 204,363.8 216,367.9 204,372.1 216,376.2 204,380.3 210,382.3 210,384;210,340 210,342.6 216,345.9 204,352.3 216,358.8 204,365.2 216,371.7 204,378.1 210,381.4 210,384;210,340 210,342.6 216,345.9 204,352.3 216,358.8 204,365.2 216,371.7 204,378.1 210,381.4 210,384;210,356 210,357.7 216,359.7 204,363.8 216,367.9 204,372.1 216,376.2 204,380.3 210,382.3 210,384;210,356 210,357.7 216,359.7 204,363.8 216,367.9 204,372.1 216,376.2 204,380.3 210,382.3 210,384;210,340 210,342.6 216,345.9 204,352.3 216,358.8 204,365.2 216,371.7 204,378.1 210,381.4 210,384;210,340 210,342.6 216,345.9 204,352.3 216,358.8 204,365.2 216,371.7 204,378.1 210,381.4 210,384"/></polyline>
+<g><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.16;0.22;0.44;0.45;0.764;0.7832;0.86;0.87;1" values="0 0;0 0;0 16;0 16;0 0;0 0;0 16;0 16;0 0;0 0"/><path d="M196,330 L224,330 L224,414 L196,414 Z M202,340 L202,398 L218,398 L218,340 Z" fill="#fde2c4" fill-rule="evenodd" stroke="#222" stroke-width="2.5"/><polygon points="196,362 184,362 176,372 176,382 196,382" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><rect x="204" y="403" width="12" height="6" fill="#222"/></g>
+</g></g>
+</g>
+<rect x="556" y="190" width="234" height="36" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="566" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="592" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="618" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="644" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="670" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="696" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="722" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="748" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="774" y="203" width="14" height="10" rx="3" fill="#fff" stroke="#222" stroke-width="1.5"/>
+<rect x="568" y="166" width="14" height="84" rx="2" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<rect x="762" y="166" width="14" height="84" rx="2" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<rect x="582" y="150" width="36" height="116" rx="3" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<rect x="618" y="150" width="36" height="116" rx="3" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<g><animateTransform attributeName="transform" type="translate" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.4;0.6;0.9;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" values="0 0;0 0;-52 0;-52 0;0 0;0 0"/><rect x="724" y="150" width="36" height="116" rx="3" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/></g>
+<path d="M736,286 L684,286" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)" marker-start="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="20" y="40">DIN rail (35 mm top hat)</text><line x1="110" y1="46" x2="160" y2="140" stroke="#222" stroke-width="2"/>
+<text x="250" y="62" text-anchor="middle">fixed hook</text>
+<text x="20" y="380">spring latch</text><line x1="80" y1="386" x2="176" y2="352" stroke="#222" stroke-width="2"/>
+<g font-weight="bold"><text x="556" y="132">Top view</text></g>
+<text x="790" y="132" text-anchor="end">end stops</text><line x1="740" y1="138" x2="768" y2="164" stroke="#222" stroke-width="2"/>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.54;0.88" values="1;0;0;1" calcMode="discrete"/><text x="556" y="340">Clipped on: hook over the</text><text x="556" y="364">top lip, latch behind the</text><text x="556" y="388">bottom lip</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.54;0.88" values="0;1;0;0" calcMode="discrete"/><text x="556" y="340">Off: a screwdriver pulls</text><text x="556" y="364">the latch down, then tilt</text><text x="556" y="388">and lift the module off</text></g>
+<g opacity="0"><animate attributeName="opacity" dur="8s" repeatCount="indefinite" keyTimes="0;0.1;0.54;0.88" values="0;0;1;0" calcMode="discrete"/><text x="556" y="340">On: hook over the top lip,</text><text x="556" y="364">swing in, the sloped latch</text><text x="556" y="388">is pushed down and clicks</text></g>
+<text x="790" y="312" text-anchor="end" font-size="17">modules slide along</text>
+<text x="556" y="444" font-size="18">Hook on, swing in, click</text>
+</g></svg>

@@ -132,22 +132,61 @@ sources:
 - 'https://api.printables.com/graphql/ (Printables API: models 983933, 367523, 1332089, 1208378, 1636795)'
 research: research/connection-types/results/Inline_swivel_rope_swivel_chain_swivel_ballbearing_swivel.json
 image:
-  file: in-line-swivel.webp
-  width: 800
-  height: 529
+  file: drawn/anim/in-line-swivel.svg
+  alt: 'Cut-aways of two in-line swivels, shown turning: a spinning lure twists its line, and the eye on that side spins freely
+    on its trapped head while the eye on the rod side stays still; in the ball-bearing swivel the balls under the head roll
+    as the eye turns.'
+  drawn: true
+  still: drawn/in-line-swivel.svg
+  kind: animation
+pictures:
+- file: drawn/anim/in-line-swivel.svg
+  alt: 'Cut-aways of two in-line swivels, shown turning: a spinning lure twists its line, and the eye on that side spins freely
+    on its trapped head while the eye on the rod side stays still; in the ball-bearing swivel the balls under the head roll
+    as the eye turns.'
+  drawn: true
+  still: drawn/in-line-swivel.svg
+  kind: animation
+- file: in-line-swivel.webp
   title: File:Swivel (PSF).png
   author: Pearson Scott Foresman
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png
-  alt: Simple line drawing of a swivel in a chain link (captioned 'A swivel in a chain link' in Wikipedia 'Swivel')
+  alt: A line drawing of a chain swivel, a link with a ring at each end joined through a body so the two ends can turn separately.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: in-line-swivel-ac5368.webp
+  title: File:Anchor swivel.jpg
+  author: Arrivisto
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Anchor_swivel.jpg
+  site: Wikimedia Commons
+  alt: A polished stainless-steel anchor swivel, a forked jaw at one end and an eye at the other joined through a round body
+    that lets them turn.
+  kind: photo
+  drawn: false
+- file: in-line-swivel-72cadb.webp
+  title: File:Swivel (2).JPG
+  author: S.J. de Waard
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Swivel_(2).JPG
+  site: Wikimedia Commons
+  alt: A large steel swivel on a display stand, two shackle-like ends joined by a turning body.
+  kind: photo
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, creep, infill, print-in-place]
 ---
 
-![Simple line drawing of a swivel in a chain link (captioned 'A swivel in a chain link' in Wikipedia 'Swivel')](../media/in-line-swivel.webp)
-
-*Picture: [Swivel (PSF).png](https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png) by Pearson Scott Foresman, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/in-line-swivel.svg"><img src="../media/drawn/anim/in-line-swivel.svg" alt="Cut-aways of two in-line swivels, shown turning: a spinning lure twists its line, and the eye on that side spins freely on its trapped head while the eye on the rod side stays still; in the ball-bearing swivel the balls under the head roll as the eye turns."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/in-line-swivel.webp" alt="A line drawing of a chain swivel, a link with a ring at each end joined through a body so the two ends can turn separately." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swivel_(PSF).png">Swivel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/in-line-swivel-ac5368.webp" alt="A polished stainless-steel anchor swivel, a forked jaw at one end and an eye at the other joined through a round body that lets them turn." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anchor_swivel.jpg">Anchor swivel</a> by Arrivisto, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/in-line-swivel-72cadb.webp" alt="A large steel swivel on a display stand, two shackle-like ends joined by a turning body." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swivel_(2).JPG">Swivel (2)</a> by S.J. de Waard, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A link with an eye at each end, joined through a body by a shaft that turns freely, so twist that builds up in a fishing line, lead, rope or chain can unwind instead of kinking or tangling, while the swivel still carries the pull.
 

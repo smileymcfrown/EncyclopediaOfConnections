@@ -139,24 +139,62 @@ sources:
 - https://raw.githubusercontent.com/gumyr/cq_warehouse/main/LICENSE
 research: research/connection-types/results/Chain_and_sprocket_drive.json
 image:
-  file: chain-and-sprocket-drive.webp
-  width: 128
-  height: 124
+  file: drawn/anim/chain-and-sprocket-drive.svg
+  alt: 'A chain and sprocket drive: a small 12-tooth sprocket drives a large 36-tooth sprocket through a roller chain whose
+    rollers drop into the gaps between the teeth; the top run is pulled tight and the bottom run sags slack; both sprockets
+    turn the same way, the large one three times slower, while the chain runs round them.'
+  drawn: true
+  still: drawn/chain-and-sprocket-drive.svg
+  kind: animation
+pictures:
+- file: drawn/anim/chain-and-sprocket-drive.svg
+  alt: 'A chain and sprocket drive: a small 12-tooth sprocket drives a large 36-tooth sprocket through a roller chain whose
+    rollers drop into the gaps between the teeth; the top run is pulled tight and the bottom run sags slack; both sprockets
+    turn the same way, the large one three times slower, while the chain runs round them.'
+  drawn: true
+  still: drawn/chain-and-sprocket-drive.svg
+  kind: animation
+- file: chain-and-sprocket-drive.webp
   title: File:Chain.gif
   author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Chain.gif
-  alt: Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet
-  animated: true
+  alt: An animated roller chain running round a yellow sprocket, its rollers dropping into the gaps between the teeth.
+  site: Wikimedia Commons
+  still: chain-and-sprocket-drive.still.webp
+  kind: animation
+  drawn: false
+- file: chain-and-sprocket-drive-ec8cf5.webp
+  title: File:Barßel - Moor- und Fehnmuseum - Großer Strenge-Bagger 19 ies.jpg
+  author: Frank Vincentz
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bar%C3%9Fel_-_Moor-_und_Fehnmuseum_-_Gro%C3%9Fer_Strenge-Bagger_19_ies.jpg
+  site: Wikimedia Commons
+  alt: A large sprocket and roller chain driving a shaft on an old peat-digging machine in a museum.
+  kind: how-it-works
+  drawn: false
+- file: chain-and-sprocket-drive-b823d2.webp
+  title: File:Roller Chain Render.png
+  author: Niabot
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Roller_Chain_Render.png
+  site: Wikimedia Commons
+  alt: A render of a roller chain pulled apart into its outer plates, inner plates, pins, bushes and rollers.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, self-locking, torque, pitch, idler, actuator, clearance, form-fit--force-fit--material-bond,
   set-screw, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill, o-ring]
 ---
 
-![Animation of a chain running onto a sprocket, highlighting the in-running nip point where they meet](../media/chain-and-sprocket-drive.webp)
-
-*Picture: [Chain.gif](https://commons.wikimedia.org/wiki/File:Chain.gif) by Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/chain-and-sprocket-drive.svg"><img src="../media/drawn/anim/chain-and-sprocket-drive.svg" alt="A chain and sprocket drive: a small 12-tooth sprocket drives a large 36-tooth sprocket through a roller chain whose rollers drop into the gaps between the teeth; the top run is pulled tight and the bottom run sags slack; both sprockets turn the same way, the large one three times slower, while the c"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/chain-and-sprocket-drive.still.webp"><img src="../media/chain-and-sprocket-drive.webp" alt="An animated roller chain running round a yellow sprocket, its rollers dropping into the gaps between the teeth." loading="lazy"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Chain.gif">Chain</a> by Occupational Safety &amp; Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/chain-and-sprocket-drive-ec8cf5.webp" alt="A large sprocket and roller chain driving a shaft on an old peat-digging machine in a museum." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bar%C3%9Fel_-_Moor-_und_Fehnmuseum_-_Gro%C3%9Fer_Strenge-Bagger_19_ies.jpg">Barßel - Moor- und Fehnmuseum - Großer Strenge-Bagger 19 ies</a> by Frank Vincentz, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/chain-and-sprocket-drive-b823d2.webp" alt="A render of a roller chain pulled apart into its outer plates, inner plates, pins, bushes and rollers." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Roller_Chain_Render.png">Roller Chain Render</a> by Niabot, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A steel (or plastic) roller chain runs round toothed wheels called sprockets on two parallel shafts, passing strong rotation between them without slipping and changing speed according to the tooth counts.
 

@@ -134,22 +134,56 @@ sources:
 research: research/connection-types/results/Compression_fitting_ferrule_fitting.json
 image:
   file: compression-fitting.webp
-  width: 800
-  height: 600
   title: File:Schneidring lose.jpg
   author: Christian Lindecke
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Schneidring_lose.jpg
-  alt: 'Cut-away drawing of a cutting ring (ferrule) fitting before tightening: 1 body, 2 cap nut, 3 cutting ring, 4 pipe'
+  alt: A cut-away render of a cutting-ring fitting with its numbered body, cap nut, cutting ring and pipe, before tightening.
+  site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+pictures:
+- file: compression-fitting.webp
+  title: File:Schneidring lose.jpg
+  author: Christian Lindecke
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Schneidring_lose.jpg
+  alt: A cut-away render of a cutting-ring fitting with its numbered body, cap nut, cutting ring and pipe, before tightening.
+  site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+- file: compression-fitting-bdc625.webp
+  title: File:Compression fitting isolating valve 15mm screwdriver turn.jpg
+  author: Mike1024
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Compression_fitting_isolating_valve_15mm_screwdriver_turn.jpg
+  site: Wikimedia Commons
+  alt: A brass isolating valve with its compression nut and copper olive taken off, showing the parts that slide onto the
+    pipe.
+  kind: how-it-works
+  drawn: false
+- file: compression-fitting-401e61.webp
+  title: File:Fitok Tube Fittings.jpg
+  author: HPS Solutions GmbH
+  license: CC BY-SA 3.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Fitok_Tube_Fittings.jpg
+  site: Wikimedia Commons
+  alt: A steel tube fitting laid out in order, nut, back ferrule, front ferrule and body, as they go onto the tube.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, collet, creep, fatigue, galling--fretting, perimeters, infill, overhang--bridging,
   o-ring, gland, water-hammer]
 ---
 
-![Cut-away drawing of a cutting ring (ferrule) fitting before tightening: 1 body, 2 cap nut, 3 cutting ring, 4 pipe](../media/compression-fitting.webp)
-
-*Picture: [Schneidring lose.jpg](https://commons.wikimedia.org/wiki/File:Schneidring_lose.jpg) by Christian Lindecke, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/compression-fitting.webp" alt="A cut-away render of a cutting-ring fitting with its numbered body, cap nut, cutting ring and pipe, before tightening."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Schneidring_lose.jpg">Schneidring lose</a> by Christian Lindecke, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/compression-fitting-bdc625.webp" alt="A brass isolating valve with its compression nut and copper olive taken off, showing the parts that slide onto the pipe." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Compression_fitting_isolating_valve_15mm_screwdriver_turn.jpg">Compression fitting isolating valve 15mm screwdriver turn</a> by Mike1024, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/compression-fitting-401e61.webp" alt="A steel tube fitting laid out in order, nut, back ferrule, front ferrule and body, as they go onto the tube." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fitok_Tube_Fittings.jpg">Fitok Tube Fittings</a> by HPS Solutions GmbH, <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en">CC BY-SA 3.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded nut that, when tightened, drives a ring (ferrule or olive) into a tapered seat in the fitting body, squeezing the ring onto the outside of a tube so it both seals and grips the tube, for water, air, gas, oil and hydraulic lines that you may need to take apart later.
 

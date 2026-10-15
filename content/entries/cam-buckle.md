@@ -120,22 +120,38 @@ sources:
 - https://help.prusa3d.com/article/asa_1809
 research: research/connection-types/results/Cam_buckle_webbing_cam_buckle.json
 image:
-  file: cam-buckle.webp
-  width: 800
-  height: 600
+  file: drawn/anim/cam-buckle.svg
+  alt: 'Animated: side cut-away of a cam buckle: the webbing runs between a fixed bar and a toothed cam on a pivot, which
+    a small spring presses onto it; pulling the tail lifts the cam slightly so the strap slides through, the load pulling
+    back rolls the cam in so its teeth bite and hold, and pressing the lever lifts the cam to release.'
+  drawn: true
+  still: drawn/cam-buckle.svg
+  kind: animation
+pictures:
+- file: drawn/anim/cam-buckle.svg
+  alt: 'Animated: side cut-away of a cam buckle: the webbing runs between a fixed bar and a toothed cam on a pivot, which
+    a small spring presses onto it; pulling the tail lifts the cam slightly so the strap slides through, the load pulling
+    back rolls the cam in so its teeth bite and hold, and pressing the lever lifts the cam to release.'
+  drawn: true
+  still: drawn/cam-buckle.svg
+  kind: animation
+- file: cam-buckle.webp
   title: File:Spanngurt mit Klemmverschluss.jpg
   author: HobbyAstronaut
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg
-  alt: Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap
+  alt: Close-up of a pressed-steel cam buckle on orange webbing, its toothed cam pressing down on the strap.
+  site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, over-centre, ratchet, torsion, form-fit--force-fit--material-bond, boss, creep, print-in-place]
 ---
 
-![Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap](../media/cam-buckle.webp)
-
-*Picture: [Spanngurt mit Klemmverschluss.jpg](https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg) by HobbyAstronaut, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cam-buckle.svg"><img src="../media/drawn/anim/cam-buckle.svg" alt="Animated: side cut-away of a cam buckle: the webbing runs between a fixed bar and a toothed cam on a pivot, which a small spring presses onto it; pulling the tail lifts the cam slightly so the strap slides through, the load pulling back rolls the cam in so its teeth bite and hold, and pressing the l"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-buckle.webp" alt="Close-up of a pressed-steel cam buckle on orange webbing, its toothed cam pressing down on the strap." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg">Spanngurt mit Klemmverschluss</a> by HobbyAstronaut, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A strap buckle in which a spring presses a toothed cam against the webbing, so the strap pulls through one way to tighten, is gripped harder the more the load pulls back, and slides free when you press the cam's lever.
 

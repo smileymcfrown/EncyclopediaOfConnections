@@ -155,21 +155,54 @@ sources:
 research: research/connection-types/results/Fixed_loop_knots_bowline_figureeight_loop_alpine_butterfly.json
 image:
   file: fixed-loop-knots.webp
-  width: 800
-  height: 600
   title: File:Palstek innen.jpg
   author: Markus Bärlocher
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Palstek_innen.jpg
-  alt: Clear photo of a bowline tied in rope, with the tail inside the loop
+  alt: A bowline knot tied in red climbing rope, with a fixed loop that will not shrink.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: fixed-loop-knots.webp
+  title: File:Palstek innen.jpg
+  author: Markus Bärlocher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Palstek_innen.jpg
+  alt: A bowline knot tied in red climbing rope, with a fixed loop that will not shrink.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: fixed-loop-knots-d54070.webp
+  title: File:Alpine butterfly on the bight howto.jpg
+  author: No machine-readable author provided. Johan Andersson assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Alpine_butterfly_on_the_bight_howto.jpg
+  site: Wikimedia Commons
+  alt: Three steps of tying an alpine butterfly loop in white rope wrapped around a hand, from the turns to the finished loop.
+  kind: how-it-works
+  drawn: false
+- file: fixed-loop-knots-f569cf.webp
+  title: File:Alpine butterfly loop.jpg
+  author: Mark A. Taff. http://www.MarkTaff.com
+  license: CC BY-SA 3.0 us
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/us/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Alpine_butterfly_loop.jpg
+  site: Wikimedia Commons
+  alt: An alpine butterfly loop tied in the middle of a green rope with a carabiner clipped through it.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, peel-vs-shear]
 ---
 
-![Clear photo of a bowline tied in rope, with the tail inside the loop](../media/fixed-loop-knots.webp)
-
-*Picture: [Palstek innen.jpg](https://commons.wikimedia.org/wiki/File:Palstek_innen.jpg) by Markus Bärlocher, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/fixed-loop-knots.webp" alt="A bowline knot tied in red climbing rope, with a fixed loop that will not shrink."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Palstek_innen.jpg">Palstek innen</a> by Markus Bärlocher, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/fixed-loop-knots-d54070.webp" alt="Three steps of tying an alpine butterfly loop in white rope wrapped around a hand, from the turns to the finished loop." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Alpine_butterfly_on_the_bight_howto.jpg">Alpine butterfly on the bight howto</a> by No machine-readable author provided. Johan Andersson assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/fixed-loop-knots-f569cf.webp" alt="An alpine butterfly loop tied in the middle of a green rope with a carabiner clipped through it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Alpine_butterfly_loop.jpg">Alpine butterfly loop</a> by Mark A. Taff. http://www.MarkTaff.com, <a href="https://creativecommons.org/licenses/by-sa/3.0/us/deed.en">CC BY-SA 3.0 us</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Knots that make a loop that won't shrink or slip, at the end of a rope (bowline, figure-eight loop) or in its middle (alpine butterfly), to hook, clip or drop over something, and that untie by hand afterwards.
 

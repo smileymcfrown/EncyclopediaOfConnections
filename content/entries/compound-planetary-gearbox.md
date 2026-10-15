@@ -139,18 +139,42 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Compound_planetary_gearbox_splitring_or_Wolfrom_planetary.json
 image:
-  file: drawn/compound-planetary-gearbox.svg
+  file: drawn/anim/compound-planetary-gearbox.svg
   alt: 'Top view of a compound planetary gearbox: a sun gear and three planets inside a fixed grey ring with 58 teeth and
     a blue output ring with 60 teeth; after the planets go round once, a marker on the output ring has moved on by only 2
-    teeth.'
+    teeth. In the animation the left-hand gearbox runs: the sun spins, the planets roll once round the fixed ring and the
+    output marker creeps on 2 teeth, then the motor reverses and it all runs back.'
   drawn: true
+  still: drawn/compound-planetary-gearbox.svg
+  kind: animation
+pictures:
+- file: drawn/anim/compound-planetary-gearbox.svg
+  alt: 'Top view of a compound planetary gearbox: a sun gear and three planets inside a fixed grey ring with 58 teeth and
+    a blue output ring with 60 teeth; after the planets go round once, a marker on the output ring has moved on by only 2
+    teeth. In the animation the left-hand gearbox runs: the sun spins, the planets roll once round the fixed ring and the
+    output marker creeps on 2 teeth, then the motor reverses and it all runs back.'
+  drawn: true
+  still: drawn/compound-planetary-gearbox.svg
+  kind: animation
+- file: compound-planetary-gearbox.webp
+  title: 43.3:1 Compound Planetary Gearbox For Robotic Arm Project!
+  author: Gear Down For What?
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:2101218
+  site: Thingiverse via Openverse
+  alt: A render of a blue 3D-printable stepped planet gear, two sets of teeth on one shaft so it can mesh with two different
+    ring gears.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, coaxial, ratchet, torque, gear-ratio, pitch, actuator, clearance,
   tolerance, form-fit--force-fit--material-bond, heat-set-insert, creep, infill, print-in-place]
 ---
 
-![Top view of a compound planetary gearbox: a sun gear and three planets inside a fixed grey ring with 58 teeth and a blue output ring with 60 teeth; after the planets go round once, a marker on the out](../media/drawn/compound-planetary-gearbox.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/compound-planetary-gearbox.svg"><img src="../media/drawn/anim/compound-planetary-gearbox.svg" alt="Top view of a compound planetary gearbox: a sun gear and three planets inside a fixed grey ring with 58 teeth and a blue output ring with 60 teeth; after the planets go round once, a marker on the output ring has moved on by only 2 teeth. In the animation the left-hand gearbox runs: the sun spins, t"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/compound-planetary-gearbox.webp" alt="A render of a blue 3D-printable stepped planet gear, two sets of teeth on one shaft so it can mesh with two different ring gears." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.thingiverse.com/thing:2101218">43.3:1 Compound Planetary Gearbox For Robotic Arm Project!</a> by Gear Down For What?, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, from Thingiverse via Openverse.</figcaption></figure>
+</div>
 
 A planetary gear set whose planet gears mesh with two ring gears that differ by only a few teeth; one ring is fixed and the other is the output, so each trip of the planets round the fixed ring nudges the output ring on by the tooth difference, giving reductions from about 30:1 to over 200:1 in one flat stage.
 

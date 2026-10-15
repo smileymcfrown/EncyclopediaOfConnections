@@ -141,23 +141,52 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg
 research: research/connection-types/results/Bellows_boot_and_way_cover_gaiter.json
 image:
-  file: bellows-boot-and-way-cover.webp
-  width: 800
-  height: 532
+  file: drawn/anim/bellows-boot-and-way-cover.svg
+  alt: 'Animated: a lead-screw slide with a pleated bellows cover on each side of the moving carriage: each bellows is fixed
+    to an end block and to the carriage, so as the carriage travels one bellows opens out long and the other squashes into
+    a short stack, while grit bounces off the folds, keeping it off the screw.'
+  drawn: true
+  still: drawn/bellows-boot-and-way-cover.svg
+  kind: animation
+pictures:
+- file: drawn/anim/bellows-boot-and-way-cover.svg
+  alt: 'Animated: a lead-screw slide with a pleated bellows cover on each side of the moving carriage: each bellows is fixed
+    to an end block and to the carriage, so as the carriage travels one bellows opens out long and the other squashes into
+    a short stack, while grit bounces off the folds, keeping it off the screw.'
+  drawn: true
+  still: drawn/bellows-boot-and-way-cover.svg
+  kind: animation
+- file: bellows-boot-and-way-cover.webp
   title: File:2008-04-23 Cracked CV boot.jpg
   author: Ildar Sagdejev (Specious)
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
-  alt: Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age
+  alt: The black pleated rubber boot on a car drive shaft joint, held on by a metal band clamp, with a split in one of its
+    folds.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: bellows-boot-and-way-cover-f1df48.webp
+  title: File:Fahrzeugtechnik Vorderachse.jpg
+  author: Btr
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
+  site: Wikimedia Commons
+  alt: A car's front wheel hub with the wheel removed, showing the pleated rubber boot covering the drive shaft joint where
+    it meets the hub.
+  kind: photo
   drawn: false
 glossary: [axial--radial, stroke, actuator, form-fit--force-fit--material-bond, brittle--ductile, shore-hardness, overhang--bridging,
   o-ring, gland]
 ---
 
-![Photo of a cracked rubber CV boot on a car axle, showing how the folds split with age](../media/bellows-boot-and-way-cover.webp)
-
-*Picture: [2008-04-23 Cracked CV boot.jpg](https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg) by Ildar Sagdejev (Specious), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bellows-boot-and-way-cover.svg"><img src="../media/drawn/anim/bellows-boot-and-way-cover.svg" alt="Animated: a lead-screw slide with a pleated bellows cover on each side of the moving carriage: each bellows is fixed to an end block and to the carriage, so as the carriage travels one bellows opens out long and the other squashes into a short stack, while grit bounces off the folds, keeping it off "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bellows-boot-and-way-cover.webp" alt="The black pleated rubber boot on a car drive shaft joint, held on by a metal band clamp, with a split in one of its folds." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg">2008-04-23 Cracked CV boot</a> by Ildar Sagdejev (Specious), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bellows-boot-and-way-cover-f1df48.webp" alt="A car&#x27;s front wheel hub with the wheel removed, showing the pleated rubber boot covering the drive shaft joint where it meets the hub." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg">Fahrzeugtechnik Vorderachse</a> by Btr, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flexible, pleated sleeve clamped to a fixed part at one end and to the moving part at the other, so its folds open and close as the part slides or bends, keeping dirt, chips and water out and grease in without any rubbing seal.
 

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A hex spacer with an off-centre hole carrying a V-wheel above a rail, shown turned to 0, 90 and 180 degrees: as the spacer turns about its own centre, the wheel axle in the off-centre hole moves round a small circle, so the wheel moves down onto the rail by twice the offset. Animated: the 90° and 180° spacers turn back to 0° and forward again, carrying the wheel round with them.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="20" y="307" width="760" height="34" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="140.0" cy="178.0" r="85" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="140.0" cy="178.0" r="73" fill="none" stroke="#222" stroke-width="1.5"/>
+<polygon points="162.0,161.9 184.0,200.0 162.0,238.1 118.0,238.1 96.0,200.0 118.0,161.9" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<circle cx="140" cy="200" r="22" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="134" y1="200" x2="146" y2="200" stroke="#222" stroke-width="2"/><line x1="140" y1="194" x2="140" y2="206" stroke="#222" stroke-width="2"/>
+<circle cx="140.0" cy="178.0" r="10" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="140.0" cy="178.0" r="3.5" fill="#222"/>
+<text x="140" y="44" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#222" text-anchor="middle">turned 0°</text>
+<g><circle cx="422.0" cy="200.0" r="85" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="422.0" cy="200.0" r="73" fill="none" stroke="#222" stroke-width="1.5"/>
+<polygon points="438.1,222.0 400.0,244.0 361.9,222.0 361.9,178.0 400.0,156.0 438.1,178.0" fill="#fde2c4" stroke="#222" stroke-width="3"/><animateTransform attributeName="transform" type="rotate" values="0 400 200;0 400 200;-90 400 200;-90 400 200;0 400 200;0 400 200" keyTimes="0;0.45;0.60;0.65;0.80;1" dur="6s" begin="-1.2s" repeatCount="indefinite"/></g>
+<circle cx="400" cy="200" r="22" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="394" y1="200" x2="406" y2="200" stroke="#222" stroke-width="2"/><line x1="400" y1="194" x2="400" y2="206" stroke="#222" stroke-width="2"/>
+<g><circle cx="422.0" cy="200.0" r="10" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="422.0" cy="200.0" r="3.5" fill="#222"/><animateTransform attributeName="transform" type="rotate" values="0 400 200;0 400 200;-90 400 200;-90 400 200;0 400 200;0 400 200" keyTimes="0;0.45;0.60;0.65;0.80;1" dur="6s" begin="-1.2s" repeatCount="indefinite"/></g>
+<text x="400" y="44" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#222" text-anchor="middle">turned 90°</text>
+<g><circle cx="660.0" cy="222.0" r="85" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="660.0" cy="222.0" r="73" fill="none" stroke="#222" stroke-width="1.5"/>
+<polygon points="638.0,238.1 616.0,200.0 638.0,161.9 682.0,161.9 704.0,200.0 682.0,238.1" fill="#fde2c4" stroke="#222" stroke-width="3"/><animateTransform attributeName="transform" type="rotate" values="0 660 200;0 660 200;-180 660 200;-180 660 200;0 660 200;0 660 200" keyTimes="0;0.30;0.60;0.65;0.95;1" dur="6s" begin="-1.2s" repeatCount="indefinite"/></g>
+<circle cx="660" cy="200" r="22" fill="none" stroke="#222" stroke-width="1.5" stroke-dasharray="4 4"/>
+<line x1="654" y1="200" x2="666" y2="200" stroke="#222" stroke-width="2"/><line x1="660" y1="194" x2="660" y2="206" stroke="#222" stroke-width="2"/>
+<g><circle cx="660.0" cy="222.0" r="10" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="660.0" cy="222.0" r="3.5" fill="#222"/><animateTransform attributeName="transform" type="rotate" values="0 660 200;0 660 200;-180 660 200;-180 660 200;0 660 200;0 660 200" keyTimes="0;0.30;0.60;0.65;0.95;1" dur="6s" begin="-1.2s" repeatCount="indefinite"/></g>
+<text x="660" y="44" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="bold" fill="#222" text-anchor="middle">turned 180°</text>
+<line x1="40" y1="263" x2="770" y2="263" stroke="#888888" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="530" y1="265" x2="530" y2="305" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<path d="M92.5,160.1 A62,62 0 0 1 187.5,160.1" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="40" y="370">wheel clear of the rail</text>
+<text x="660" y="370" text-anchor="middle">wheel pressed onto the rail</text>
+<text x="514" y="292" text-anchor="end">2 × offset</text>
+<text x="400" y="370" text-anchor="middle">rail</text>
+<text x="262" y="100" text-anchor="middle">hex spacer</text>
+<line x1="270" y1="106" x2="364" y2="188" stroke="#222" stroke-width="1.5"/>
+<text x="545" y="82" text-anchor="middle">wheel axle in the</text><text x="545" y="102" text-anchor="middle">off-centre hole</text>
+<line x1="530" y1="108" x2="430" y2="194" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="434" text-anchor="middle" font-size="19">Turn the spacer to move the wheel in or out · then tighten the bolt to lock it</text>
+</g></svg>

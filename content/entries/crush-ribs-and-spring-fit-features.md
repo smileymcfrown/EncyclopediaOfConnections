@@ -148,13 +148,19 @@ image:
     cracks along a layer line, a larger hole where only four small ribs squash, and a hole beside a slot that leaves a thin
     springy arm pressing the part against two bumps.'
   drawn: true
+pictures:
+- file: drawn/crush-ribs-and-spring-fit-features.svg
+  alt: 'Three top views of a round part pressed into a printed plate: a plain tight hole whose whole wall is stretched and
+    cracks along a layer line, a larger hole where only four small ribs squash, and a hole beside a slot that leaves a thin
+    springy arm pressing the part against two bumps.'
+  drawn: true
 glossary: [stiffness, cantilever, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   taper, captive-nut, chamfer--fillet, elastic-averaging, creep, brittle--ductile, layer-lines, perimeters, kerf, o-ring]
 ---
 
-![Three top views of a round part pressed into a printed plate: a plain tight hole whose whole wall is stretched and cracks along a layer line, a larger hole where only four small ribs squash, and a hol](../media/drawn/crush-ribs-and-spring-fit-features.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/crush-ribs-and-spring-fit-features.svg" alt="Three top views of a round part pressed into a printed plate: a plain tight hole whose whole wall is stretched and cracks along a layer line, a larger hole where only four small ribs squash, and a hole beside a slot that leaves a thin springy arm pressing the part against two bumps."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A press fit made forgiving: instead of the whole hole gripping the part, a few narrow ribs squash or a thin springy arm bends, so the grip stays about right over a much wider range of sizes.
 

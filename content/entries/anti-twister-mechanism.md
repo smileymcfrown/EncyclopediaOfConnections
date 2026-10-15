@@ -134,17 +134,27 @@ sources:
 - https://www.youcanic.com/properly-set-a-new-clock-spring/
 research: research/connection-types/results/Antitwister_mechanism_twistfree_cable_feed.json
 image:
-  file: drawn/anti-twister-mechanism.svg
-  alt: 'Side view of an anti-twister: a cable leaves a fixed base, loops out through a guide on a carrier arm and comes back
-    in to a spinning platform on the same axis; the carrier turns at half the platform''s speed, so the cable is only bent
-    and never twisted.'
+  file: drawn/anim/anti-twister-mechanism.svg
+  alt: 'Side view of an anti-twister, animated: a cable leaves a fixed base, loops out through a guide on a carrier arm and
+    comes back in to a spinning platform on the same axis; while the platform makes two turns the carrier swings the loop
+    round once, the same way, so the cable is only bent and never twisted.'
   drawn: true
+  still: drawn/anti-twister-mechanism.svg
+  kind: animation
+pictures:
+- file: drawn/anim/anti-twister-mechanism.svg
+  alt: 'Side view of an anti-twister, animated: a cable leaves a fixed base, loops out through a guide on a carrier arm and
+    comes back in to a spinning platform on the same axis; while the platform makes two turns the carrier swings the loop
+    round once, the same way, so the cable is only bent and never twisted.'
+  drawn: true
+  still: drawn/anti-twister-mechanism.svg
+  kind: animation
 glossary: [backlash, idler, linkage, flexure, clearance, form-fit--force-fit--material-bond, fatigue, print-in-place]
 ---
 
-![Side view of an anti-twister: a cable leaves a fixed base, loops out through a guide on a carrier arm and comes back in to a spinning platform on the same axis; the carrier turns at half the platform'](../media/drawn/anti-twister-mechanism.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/anti-twister-mechanism.svg"><img src="../media/drawn/anim/anti-twister-mechanism.svg" alt="Side view of an anti-twister, animated: a cable leaves a fixed base, loops out through a guide on a carrier arm and comes back in to a spinning platform on the same axis; while the platform makes two turns the carrier swings the loop round once, the same way, so the cable is only bent and never twis"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 An anti-twister passes a continuous cable or tube from a fixed base to a part that keeps spinning, by swinging the cable's loop round the axis at exactly half the part's speed, so the cable only bends and never builds up twist, and no slip ring or rotating seal is needed.
 

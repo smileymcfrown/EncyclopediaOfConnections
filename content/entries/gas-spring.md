@@ -138,24 +138,64 @@ sources:
 - https://www.youtube.com/watch?v=HojDjwwRZ04
 research: research/connection-types/results/Gas_spring_incl_lockable_gas_spring.json
 image:
-  file: gas-spring.webp
-  width: 800
-  height: 1405
+  file: drawn/anim/gas-spring.svg
+  alt: 'Animated: a lid on a hinge held up by a gas strut, and the strut cut open: nitrogen gas fills the tube on both sides
+    of a piston with a tiny hole, a little oil sits at the rod end, and because the rod takes up area on one side the gas
+    pushes the rod out, lifting the lid; the lid opens slowly as the rod slides out, then is pushed shut again, squeezing
+    the rod back in.'
+  drawn: true
+  still: drawn/gas-spring.svg
+  kind: animation
+pictures:
+- file: drawn/anim/gas-spring.svg
+  alt: 'Animated: a lid on a hinge held up by a gas strut, and the strut cut open: nitrogen gas fills the tube on both sides
+    of a piston with a tiny hole, a little oil sits at the rod end, and because the rod takes up area on one side the gas
+    pushes the rod out, lifting the lid; the lid opens slowly as the rod slides out, then is pushed shut again, squeezing
+    the rod back in.'
+  drawn: true
+  still: drawn/gas-spring.svg
+  kind: animation
+- file: gas-spring.webp
   title: File:Gas-spring simplified numbered 120.png
   author: Silberwolf
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png
-  alt: 'Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston
-    and flow-restriction orifice (used in Wikipedia''s ''Gas spring'' article)'
+  alt: A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube.
+  site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+- file: gas-spring-026d66.webp
+  title: File:Chair gas spring disassembled.jpg
+  author: ASDFS
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Chair_gas_spring_disassembled.jpg
+  site: Wikimedia Commons
+  alt: An office-chair gas spring taken apart on a wooden table, with its long rod, black outer tube, seals and washers laid
+    out.
+  kind: how-it-works
+  drawn: false
+- file: gas-spring-50d01a.webp
+  title: File:Gas spring-2.jpg
+  author: Silberwolf
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Gas_spring-2.jpg
+  site: Wikimedia Commons
+  alt: A gas spring fitted to a red lifting barrier, its rod pushed out to hold the barrier open.
+  kind: photo
   drawn: false
 glossary: [self-locking, stroke, over-centre, ratchet, torque, linkage, damping, tolerance, heat-set-insert, chamfer--fillet,
   creep, infill]
 ---
 
-![Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston and flow-restriction orifice (used in Wikipedia's 'Gas spring' article)](../media/gas-spring.webp)
-
-*Picture: [Gas-spring simplified numbered 120.png](https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/gas-spring.svg"><img src="../media/drawn/anim/gas-spring.svg" alt="Animated: a lid on a hinge held up by a gas strut, and the strut cut open: nitrogen gas fills the tube on both sides of a piston with a tiny hole, a little oil sits at the rod end, and because the rod takes up area on one side the gas pushes the rod out, lifting the lid; the lid opens slowly as the "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gas-spring.webp" alt="A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png">Gas-spring simplified numbered 120</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gas-spring-026d66.webp" alt="An office-chair gas spring taken apart on a wooden table, with its long rod, black outer tube, seals and washers laid out." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Chair_gas_spring_disassembled.jpg">Chair gas spring disassembled</a> by ASDFS, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gas-spring-50d01a.webp" alt="A gas spring fitted to a red lifting barrier, its rod pushed out to hold the barrier open." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gas_spring-2.jpg">Gas spring-2</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A sealed cylinder of pressurised nitrogen and a little oil whose rod pushes out with a fairly steady force and a controlled speed, used to lift and hold lids, hatches and seats; a lockable version has a valve that freezes the rod at any length until you press a release pin.
 

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-away of a laptop-style friction hinge: the lid bracket turns on a pin between friction washers and dished spring washers that a nut squeezes together; beside it, an open lid whose weight, acting a distance x from the pin, is held up by the hinge's rubbing; the lid is moved to a new angle, stays there, and is moved back.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round" stroke="#222" stroke-width="3">
+<line x1="470" y1="20" x2="470" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- left: the friction pack -->
+<rect x="40" y="300" width="100" height="16" fill="url(#hatch)" stroke-width="2"/>
+<rect x="70" y="150" width="22" height="150" fill="#d8f0d2"/>
+<rect x="60" y="215" width="300" height="20" fill="#e8e8e8"/>
+<rect x="130" y="90" width="22" height="170" fill="#cfe3f5"/>
+<g fill="#fde2c4">
+<rect x="160" y="180" width="12" height="90"/>
+<rect x="208" y="180" width="12" height="90"/>
+</g>
+<g fill="#f5d0d0">
+<polygon points="180,178 188,178 200,212 192,212"/>
+<polygon points="192,238 200,238 188,272 180,272"/>
+<polygon points="228,178 236,178 248,212 240,212"/>
+<polygon points="240,238 248,238 236,272 228,272"/>
+</g>
+<rect x="258" y="190" width="40" height="70" fill="#e8e8e8"/>
+<line x1="258" y1="212" x2="298" y2="212" stroke-width="2"/>
+<line x1="258" y1="238" x2="298" y2="238" stroke-width="2"/>
+<line x1="345" y1="200" x2="304" y2="200" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<g stroke-width="1.5" fill="none">
+<line x1="166" y1="274" x2="196" y2="300"/>
+<line x1="214" y1="274" x2="214" y2="300"/>
+<line x1="186" y1="176" x2="200" y2="150"/>
+<line x1="234" y1="176" x2="220" y2="150"/>
+</g>
+<!-- right: the lid -->
+<rect x="520" y="340" width="260" height="26" fill="#e8e8e8"/>
+<rect x="560" y="321" width="230" height="18" fill="#cfe3f5" transform="rotate(-60 560 330)"><animateTransform attributeName="transform" type="rotate" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="-60 560 330;-60 560 330;-70 560 330;-80 560 330;-80 560 330;-80 560 330;-70 560 330;-60 560 330;-60 560 330;-60 560 330"/></rect>
+<circle cx="560" cy="330" r="9" fill="#ffffff"/>
+<circle cx="560" cy="330" r="2.5" fill="#222"/>
+<path d="M528,316 A35,35 0 0 1 553,296" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)"/>
+<line x1="617" y1="230" x2="617" y2="312" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="x1" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="617.5;617.5;599.33;579.97;579.97;579.97;599.33;617.5;617.5;617.5"/><animate attributeName="x2" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="617.5;617.5;599.33;579.97;579.97;579.97;599.33;617.5;617.5;617.5"/><animate attributeName="y1" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="230.41;230.41;221.94;216.75;216.75;216.75;221.94;230.41;230.41;230.41"/><animate attributeName="y2" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="312.41;312.41;303.94;298.75;298.75;298.75;303.94;312.41;312.41;312.41"/></line>
+<circle cx="617" cy="230" r="6" fill="#222"><animate attributeName="cx" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="617.5;617.5;599.33;579.97;579.97;579.97;599.33;617.5;617.5;617.5"/><animate attributeName="cy" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="230.41;230.41;221.94;216.75;216.75;216.75;221.94;230.41;230.41;230.41"/></circle>
+<g stroke-width="2">
+<line x1="560" y1="385" x2="617" y2="385"><animate attributeName="x2" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="617.5;617.5;599.33;579.97;579.97;579.97;599.33;617.5;617.5;617.5"/></line>
+<line x1="560" y1="376" x2="560" y2="394"/>
+<line x1="617" y1="376" x2="617" y2="394"><animate attributeName="x1" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="617.5;617.5;599.33;579.97;579.97;579.97;599.33;617.5;617.5;617.5"/><animate attributeName="x2" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="617.5;617.5;599.33;579.97;579.97;579.97;599.33;617.5;617.5;617.5"/></line>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="230" y="40" font-size="21" font-weight="bold">Inside: a squeezed stack</text>
+<text x="630" y="40" font-size="21" font-weight="bold">Why the lid stays put</text>
+<text x="141" y="80">lid bracket</text>
+<text x="85" y="340">fixed bracket</text>
+<text x="210" y="140">spring washers</text>
+<text x="215" y="320">friction washers</text>
+<text x="390" y="160">nut sets</text>
+<text x="390" y="182">the squeeze</text>
+<text x="660" y="275" text-anchor="start">weight</text>
+<text x="520" y="285" text-anchor="end">rubbing holds</text>
+<text x="588" y="412">x<animate attributeName="x" dur="6s" repeatCount="indefinite" keyTimes="0;0.167;0.233;0.3;0.367;0.567;0.633;0.7;0.767;1" values="588.75;588.75;579.67;569.98;569.98;569.98;579.67;588.75;588.75;588.75"/></text>
+<text x="400" y="438">Rubbing torque must be a bit more than weight × x</text>
+</g>
+</svg>

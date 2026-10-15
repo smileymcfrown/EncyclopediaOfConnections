@@ -128,17 +128,50 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Selffolding_print_4D_printing.json
 image:
-  file: drawn/self-folding-print.svg
+  file: drawn/anim/self-folding-print.svg
   alt: 'Three side views of a self-folding print: a flat strip of stiff panels joined by two-layer hinges (a stretched PLA
     layer on a TPU layer) printed on the bed, the strip dropped into hot water where the PLA layer shrinks, and the strip
-    folded up into a U shape that it keeps after cooling.'
+    folded up into a U shape that it keeps after cooling; the last view starts flat and curls up.'
   drawn: true
+  still: drawn/self-folding-print.svg
+  kind: animation
+pictures:
+- file: drawn/anim/self-folding-print.svg
+  alt: 'Three side views of a self-folding print: a flat strip of stiff panels joined by two-layer hinges (a stretched PLA
+    layer on a TPU layer) printed on the bed, the strip dropped into hot water where the PLA layer shrinks, and the strip
+    folded up into a U shape that it keeps after cooling; the last view starts flat and curls up.'
+  drawn: true
+  still: drawn/self-folding-print.svg
+  kind: animation
+- file: self-folding-print.webp
+  title: File:4D Printing - gripper.jpg
+  author: Qi Ge, Amir Hosein Sakhaei, Howon Lee, Conner K. Dunn, Nicholas X. Fang & Martin L. Dunn
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:4D_Printing_-_gripper.jpg
+  site: Wikimedia Commons
+  alt: Four snapshots of an orange 4D-printed gripper whose fingers curl closed by themselves to grab a bolt and lift it.
+  kind: how-it-works
+  drawn: false
+- file: self-folding-print-9a4426.webp
+  title: File:4d printing - Mobile.gif
+  author: Matthew Young
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:4d_printing_-_Mobile.gif
+  site: Wikimedia Commons
+  alt: A flat printed strip in water slowly bending itself into a curved shape as it soaks up the water.
+  kind: animation
+  still: self-folding-print-9a4426.still.webp
+  drawn: false
 glossary: [bistable, actuator, compliant-mechanism, living-hinge, form-fit--force-fit--material-bond, print-in-place, peel-vs-shear]
 ---
 
-![Three side views of a self-folding print: a flat strip of stiff panels joined by two-layer hinges (a stretched PLA layer on a TPU layer) printed on the bed, the strip dropped into hot water where the ](../media/drawn/self-folding-print.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/self-folding-print.svg"><img src="../media/drawn/anim/self-folding-print.svg" alt="Three side views of a self-folding print: a flat strip of stiff panels joined by two-layer hinges (a stretched PLA layer on a TPU layer) printed on the bed, the strip dropped into hot water where the PLA layer shrinks, and the strip folded up into a U shape that it keeps after cooling; the last view"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/self-folding-print.webp" alt="Four snapshots of an orange 4D-printed gripper whose fingers curl closed by themselves to grab a bolt and lift it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:4D_Printing_-_gripper.jpg">4D Printing - gripper</a> by Qi Ge, Amir Hosein Sakhaei, Howon Lee, Conner K. Dunn, Nicholas X. Fang &amp; Martin L. Dunn, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/self-folding-print-9a4426.still.webp"><img src="../media/self-folding-print-9a4426.webp" alt="A flat printed strip in water slowly bending itself into a curved shape as it soaks up the water." loading="lazy"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:4d_printing_-_Mobile.gif">4d printing - Mobile</a> by Matthew Young, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A print made flat on the bed that bends its own hinges into a planned 3D shape when triggered by heat or water, then stays in that shape.
 

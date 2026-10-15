@@ -139,23 +139,59 @@ sources:
 research: research/connection-types/results/Cycloidal_drive_cycloidal_reducer.json
 image:
   file: cycloidal-drive.webp
-  width: 800
-  height: 600
   title: File:Cycloidal drive.gif
   author: Petteri Aimonen
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cycloidal_drive.gif
-  alt: Rendered animation of the eccentric input, wobbling lobed disc, fixed pin ring and output pins
-  animated: true
+  alt: An animation of a cycloidal drive, where the lobed yellow disc wobbles round inside a ring of pins and slowly turns
+    the output pins.
+  site: Wikimedia Commons
+  still: cycloidal-drive.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: cycloidal-drive.webp
+  title: File:Cycloidal drive.gif
+  author: Petteri Aimonen
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Cycloidal_drive.gif
+  alt: An animation of a cycloidal drive, where the lobed yellow disc wobbles round inside a ring of pins and slowly turns
+    the output pins.
+  site: Wikimedia Commons
+  still: cycloidal-drive.still.webp
+  kind: animation
+  drawn: false
+- file: cycloidal-drive-752da5.webp
+  title: File:Zyklo-Getriebe-Modell.jpg
+  author: 1-1111 at German Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Zyklo-Getriebe-Modell.jpg
+  site: Wikimedia Commons
+  alt: A plastic model of a cycloidal drive seen from above, with the blue lobed disc sitting inside a ring of white pins.
+  kind: how-it-works
+  drawn: false
+- file: cycloidal-drive-5acc60.webp
+  title: File:Stereolithography cycloidal drive.JPG
+  author: Clemenspool
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG
+  site: Wikimedia Commons
+  alt: A cycloidal drive 3D printed in clear resin, so the lobed disc and pins can be seen through the case.
+  kind: photo
   drawn: false
 glossary: [backlash, self-locking, coaxial, ratchet, torque, actuator, stiffness, preload, clearance, tolerance, form-fit--force-fit--material-bond,
   heat-set-insert, creep, print-in-place]
 ---
 
-![Rendered animation of the eccentric input, wobbling lobed disc, fixed pin ring and output pins](../media/cycloidal-drive.webp)
-
-*Picture: [Cycloidal drive.gif](https://commons.wikimedia.org/wiki/File:Cycloidal_drive.gif) by Petteri Aimonen, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cycloidal-drive.still.webp"><img src="../media/cycloidal-drive.webp" alt="An animation of a cycloidal drive, where the lobed yellow disc wobbles round inside a ring of pins and slowly turns the output pins."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cycloidal_drive.gif">Cycloidal drive</a> by Petteri Aimonen, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cycloidal-drive-752da5.webp" alt="A plastic model of a cycloidal drive seen from above, with the blue lobed disc sitting inside a ring of white pins." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Zyklo-Getriebe-Modell.jpg">Zyklo-Getriebe-Modell</a> by 1-1111 at German Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cycloidal-drive-5acc60.webp" alt="A cycloidal drive 3D printed in clear resin, so the lobed disc and pins can be seen through the case." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Stereolithography_cycloidal_drive.JPG">Stereolithography cycloidal drive</a> by Clemenspool, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An eccentric cam on the input shaft rolls a lobed disc (cycloidal disc) round inside a fixed ring of pins or rollers; with one lobe fewer than pins, the disc turns backwards by one lobe per input turn, and output pins in oversized holes in the disc turn this slow wobbling spin into a steady output rotation, giving about 10:1 to 100:1 per stage with low play and high shock resistance.
 

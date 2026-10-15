@@ -131,23 +131,65 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Eddycurrent_brake_magnetic_brake.json
 image:
-  file: eddy-current-brake.webp
-  width: 800
-  height: 540
+  file: drawn/anim/eddy-current-brake.svg
+  alt: 'Top view of an eddy-current brake: an aluminium disc spins past a magnet (one above and one below the disc); swirling
+    currents form just ahead of and just behind the magnet and drag against the motion, and a graph shows the drag rising
+    from zero with speed, peaking, then slowly falling. Animated: the disc slows down, the currents and drag fade with its
+    speed and vanish when it stops, then it is spun up again; a dot follows the drag graph.'
+  drawn: true
+  still: drawn/eddy-current-brake.svg
+  kind: animation
+pictures:
+- file: drawn/anim/eddy-current-brake.svg
+  alt: 'Top view of an eddy-current brake: an aluminium disc spins past a magnet (one above and one below the disc); swirling
+    currents form just ahead of and just behind the magnet and drag against the motion, and a graph shows the drag rising
+    from zero with speed, peaking, then slowly falling. Animated: the disc slows down, the currents and drag fade with its
+    speed and vanish when it stops, then it is spun up again; a dot follows the drag graph.'
+  drawn: true
+  still: drawn/eddy-current-brake.svg
+  kind: animation
+- file: eddy-current-brake.webp
   title: File:Eddy current brake diagram.svg
   author: Chetvorno
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Eddy_current_brake_diagram.svg
-  alt: 'A disc eddy-current brake: a spinning metal disc between magnet poles, with the induced current loops and the resulting
-    drag'
+  alt: A drawing of a spinning metal disc passing between the poles of a magnet, with red loops showing the swirling eddy
+    currents that drag on it.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: eddy-current-brake-64a089.webp
+  title: File:KWh meter magnetic brake.jpg
+  author: Olli Niemitalo
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:KWh_meter_magnetic_brake.jpg
+  site: Wikimedia Commons
+  alt: Inside an old electricity meter, an adjustable permanent magnet sits over the edge of the thin aluminium disc to brake
+    it without touching.
+  kind: how-it-works
+  drawn: false
+- file: eddy-current-brake-33d734.webp
+  title: File:Eddy current disk brake.JPG
+  author: Toshinori baba
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Eddy_current_disk_brake.JPG
+  site: Wikimedia Commons
+  alt: A bullet-train wheel set with a large eddy-current disc brake fitted on the axle, its electromagnet unit beside the
+    disc.
+  kind: photo
   drawn: false
 glossary: [axial--radial, ratchet, torque, linkage, fail-safe--fail-secure, damping, hysteresis, holding-force]
 ---
 
-![A disc eddy-current brake: a spinning metal disc between magnet poles, with the induced current loops and the resulting drag](../media/eddy-current-brake.webp)
-
-*Picture: [Eddy current brake diagram.svg](https://commons.wikimedia.org/wiki/File:Eddy_current_brake_diagram.svg) by Chetvorno, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/eddy-current-brake.svg"><img src="../media/drawn/anim/eddy-current-brake.svg" alt="Top view of an eddy-current brake: an aluminium disc spins past a magnet (one above and one below the disc); swirling currents form just ahead of and just behind the magnet and drag against the motion, and a graph shows the drag rising from zero with speed, peaking, then slowly falling. Animated: th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eddy-current-brake.webp" alt="A drawing of a spinning metal disc passing between the poles of a magnet, with red loops showing the swirling eddy currents that drag on it." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Eddy_current_brake_diagram.svg">Eddy current brake diagram</a> by Chetvorno, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eddy-current-brake-64a089.webp" alt="Inside an old electricity meter, an adjustable permanent magnet sits over the edge of the thin aluminium disc to brake it without touching." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:KWh_meter_magnetic_brake.jpg">KWh meter magnetic brake</a> by Olli Niemitalo, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eddy-current-brake-33d734.webp" alt="A bullet-train wheel set with a large eddy-current disc brake fitted on the axle, its electromagnet unit beside the disc." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Eddy_current_disk_brake.JPG">Eddy current disk brake</a> by Toshinori baba, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A contactless brake in which a magnet (permanent or electromagnet) induces swirling electric currents (eddy currents) in a nearby moving conductor, and those currents' own magnetic field drags against the motion, turning it into heat, with a force that grows with speed and vanishes at standstill (Wikipedia, Eddy current brake).
 

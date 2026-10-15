@@ -143,22 +143,45 @@ sources:
 research: research/connection-types/results/Taper_fit_Morse_taper.json
 image:
   file: taper-fit.webp
-  width: 800
-  height: 600
   title: File:Morse Taper No 2.jpg
   author: DerrickOswald at English Wikipedia
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg
-  alt: Photo of an MT2 Morse-taper shank with its flat tang
+  alt: A Morse taper shank, a long shallow cone of steel with a flat tang on the end, next to a tape measure.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: taper-fit.webp
+  title: File:Morse Taper No 2.jpg
+  author: DerrickOswald at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg
+  alt: A Morse taper shank, a long shallow cone of steel with a flat tang on the end, next to a tape measure.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: taper-fit-1a1767.webp
+  title: File:Lathe Tailstock Taper Ejection System.jpg
+  author: Progress and Poverty
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Lathe_Tailstock_Taper_Ejection_System.jpg
+  site: Wikimedia Commons
+  alt: A lathe tailstock taken apart, showing a drill bit's taper shank, the hollow quill it wedges into and the screw that
+    pushes it out.
+  kind: how-it-works
   drawn: false
 glossary: [backlash, self-locking, axial--radial, torque, pitch, crank, tolerance, interference-fit, form-fit--force-fit--material-bond,
   taper, collet, kinematic-coupling, creep, perimeters, infill]
 ---
 
-![Photo of an MT2 Morse-taper shank with its flat tang](../media/taper-fit.webp)
-
-*Picture: [Morse Taper No 2.jpg](https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg) by DerrickOswald at English Wikipedia, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/taper-fit.webp" alt="A Morse taper shank, a long shallow cone of steel with a flat tang on the end, next to a tape measure."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Morse_Taper_No_2.jpg">Morse Taper No 2</a> by DerrickOswald at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/taper-fit-1a1767.webp" alt="A lathe tailstock taken apart, showing a drill bit&#x27;s taper shank, the hollow quill it wedges into and the screw that pushes it out." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lathe_Tailstock_Taper_Ejection_System.jpg">Lathe Tailstock Taper Ejection System</a> by Progress and Poverty, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A shallow cone pressed into a matching cone-shaped socket, where the wedge action squeezes the surfaces so hard that friction holds it in, centres it exactly and (in syringe and lab-glass fittings) seals it, yet a knock with a wedge or a twist separates it again.
 

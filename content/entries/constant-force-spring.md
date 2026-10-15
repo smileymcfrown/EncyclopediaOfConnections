@@ -125,17 +125,42 @@ sources:
 - https://www.youtube.com/watch?v=65KoSqo3F_0
 research: research/connection-types/results/Constantforce_spring_springreturn_reel.json
 image:
-  file: drawn/constant-force-spring.svg
-  alt: A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each
-    time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives a rising
-    one.
+  file: drawn/anim/constant-force-spring.svg
+  alt: 'A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow
+    each time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives
+    a rising one. Animated: each strip is let in and pulled out again while its drum turns and the pull arrow stays the same
+    length, and dots on the graph show the force staying level while a coil spring''s would rise.'
   drawn: true
+  still: drawn/constant-force-spring.svg
+  kind: animation
+pictures:
+- file: drawn/anim/constant-force-spring.svg
+  alt: 'A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow
+    each time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives
+    a rising one. Animated: each strip is let in and pulled out again while its drum turns and the pull arrow stays the same
+    length, and dots on the graph show the force staying level while a coil spring''s would rise.'
+  drawn: true
+  still: drawn/constant-force-spring.svg
+  kind: animation
+- file: constant-force-spring.webp
+  title: New Bot Day! Awika! was designed by Chico Bicalho for Kikkerland and was released in 2004. His walking power comes
+    from a constant force spring that is tightened. He also makes sparks! I believe @chrisgreazel & family also gave me this
+    one.
+  author: Joe Crawford (artlung)
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/37996599088@N01/51563309840
+  site: Flickr via Openverse
+  alt: A clear plastic walking toy robot with blue feet, driven by a coiled steel strip spring visible inside it.
+  kind: photo
+  drawn: false
 glossary: [stroke, torque, idler, linkage, deflection, damping, clearance, tolerance, creep, stress-relaxation, fatigue]
 ---
 
-![A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each time, beside a graph where the constant-force spring gives a flat force line whil](../media/drawn/constant-force-spring.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/constant-force-spring.svg"><img src="../media/drawn/anim/constant-force-spring.svg" alt="A coil of steel strip on a free-turning drum pulled out three different distances with the same-length pull arrow each time, beside a graph where the constant-force spring gives a flat force line while an ordinary coil spring gives a rising one. Animated: each strip is let in and pulled out again wh"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/constant-force-spring.webp" alt="A clear plastic walking toy robot with blue feet, driven by a coiled steel strip spring visible inside it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/37996599088@N01/51563309840">New Bot Day! Awika! was designed by Chico Bicalho for Kikkerland and was released in 2004. His walking power comes from a constant force spring that is tightened. He also makes sparks! I believe @chrisgreazel &amp; family also gave me this one.</a> by Joe Crawford (artlung), <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+</div>
 
 A coil of pre-curled steel strip that, once pulled out a short way, pulls back with an almost constant force over a very long distance, used to counterbalance, retract and keep things under steady tension.
 

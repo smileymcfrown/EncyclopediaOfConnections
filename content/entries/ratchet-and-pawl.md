@@ -149,25 +149,48 @@ sources:
 research: research/connection-types/results/Ratchet_and_pawl_incl_reversible_ratchet.json
 image:
   file: ratchet-and-pawl.webp
-  width: 646
-  height: 646
   title: File:Ratchet Gear and Pawl.gif
   author: Arglin Kampling
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Ratchet_Gear_and_Pawl.gif
-  alt: 'Animation of a ratchet wheel (green) and pawl (pink): the wheel turns one way while the pawl clicks over the teeth
-    and blocks it the other way'
-  animated: true
+  alt: A green toothed wheel that clicks round one way under a pink pawl and is stopped by it when pushed the other way.
+  site: Wikimedia Commons
+  still: ratchet-and-pawl.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: ratchet-and-pawl.webp
+  title: File:Ratchet Gear and Pawl.gif
+  author: Arglin Kampling
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ratchet_Gear_and_Pawl.gif
+  alt: A green toothed wheel that clicks round one way under a pink pawl and is stopped by it when pushed the other way.
+  site: Wikimedia Commons
+  still: ratchet-and-pawl.still.webp
+  kind: animation
+  drawn: false
+- file: ratchet-and-pawl-81c158.webp
+  title: File:Cliquet.jpg
+  author: Bachelot Pierre J-P
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Cliquet.jpg
+  site: Wikimedia Commons
+  alt: The ratchet wheel and pawl of a San Francisco cable car's hand brake, a green toothed wheel at the foot of the brake
+    post with a pawl catching its teeth.
+  kind: how-it-works
   drawn: false
 glossary: [backlash, self-locking, stroke, detent, ratchet, pawl, freewheel, sprag, torque, pitch, flexure, deflection, torsion,
   clearance, form-fit--force-fit--material-bond, circlip, chamfer--fillet, creep, stress-relaxation, layer-lines, perimeters,
   infill, print-in-place, elephants-foot, peel-vs-shear]
 ---
 
-![Animation of a ratchet wheel (green) and pawl (pink): the wheel turns one way while the pawl clicks over the teeth and blocks it the other way](../media/ratchet-and-pawl.webp)
-
-*Picture: [Ratchet Gear and Pawl.gif](https://commons.wikimedia.org/wiki/File:Ratchet_Gear_and_Pawl.gif) by Arglin Kampling, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/ratchet-and-pawl.still.webp"><img src="../media/ratchet-and-pawl.webp" alt="A green toothed wheel that clicks round one way under a pink pawl and is stopped by it when pushed the other way."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ratchet_Gear_and_Pawl.gif">Ratchet Gear and Pawl</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ratchet-and-pawl-81c158.webp" alt="The ratchet wheel and pawl of a San Francisco cable car&#x27;s hand brake, a green toothed wheel at the foot of the brake post with a pawl catching its teeth." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cliquet.jpg">Cliquet</a> by Bachelot Pierre J-P, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A toothed wheel with a spring-held catch ([pawl](../glossary.md#pawl)) that lets the wheel turn freely one way with a click and locks it against turning back, used to hold winches and reels, to step a wheel round one tooth at a time, and, with a switchable pawl, in reversible tools such as socket wrenches.
 

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a draw latch: a lever pivoted on the box carries a loop that hooks a keeper on the lid; with the lever shut, the loop pivot sits just past the dashed line from lever pivot to keeper, the lid is pulled down onto a squeezed gasket, and the gasket's push presses the lever further shut.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(-120,-75) scale(1.15)"><g><rect x="112" y="80" width="268" height="114" fill="#cfe3f5" stroke="#222" stroke-width="3"/><rect x="380" y="100" width="12" height="56" fill="#e8e8e8" stroke="#222" stroke-width="3"/><path d="M392,121 L398,121 A9,9 0 0 1 398,139 L392,139 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/></g>
+<rect x="336" y="194" width="40" height="6" fill="#f5d0d0" stroke="#222" stroke-width="2.5"></rect>
+<rect x="112" y="200" width="268" height="200" fill="#e8e8e8" stroke="#222" stroke-width="3"/><path d="M380,250 L392,250 L404,266 L404,294 L392,310 L392,395 L380,395 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<line x1="398" y1="130" x2="414.8" y2="309.9" stroke="#222" stroke-width="2" stroke-dasharray="6 6" opacity="0.6"/>
+<g><line x1="412" y1="272" x2="400" y2="400" stroke="#222" stroke-width="19"/><line x1="412" y1="272" x2="400" y2="400" stroke="#fde2c4" stroke-width="13"/><circle cx="412" cy="280" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="412" cy="280" r="2.2" fill="#222"/></g>
+<g transform="translate(409 305.8) rotate(-3.58)"><path d="M0,0 L11,-176.14 A11,11 0 0 0 -11,-176.14 l0,7" fill="none" stroke="#222" stroke-width="5"/><circle r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle r="2" fill="#222"/></g>
+<g stroke="#d1495b" stroke-width="4" fill="none"><line x1="300" y1="185" x2="300" y2="150" marker-end="url(#ah)"/><path d="M445,380 Q440,396 422,398" marker-end="url(#ah)"/></g>
+<path d="M520,330 A120,120 0 0 1 455,393" fill="none" stroke="#d1495b" stroke-width="4" stroke-dasharray="8 6" marker-end="url(#ah)" opacity="0.5"></path></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="110" y="80">lid</text><text x="110" y="260">box</text><text x="190" y="190" font-size="17">gasket squeezed</text><text x="225" y="84" font-size="17">gasket pushes up</text><g text-anchor="start"><text x="362" y="56">keeper</text><text x="385" y="165">loop</text><text x="392" y="222">lever pivot</text><text x="392" y="414">lever (shut)</text><text x="530" y="110" font-size="17">Dashed line: lever pivot</text><text x="530" y="132" font-size="17">to keeper. When shut,</text><text x="530" y="154" font-size="17">the loop pivot sits just</text><text x="530" y="176" font-size="17">past it (over centre)</text></g><text x="400" y="440" font-size="19">Pushing the lever shut pulls the lid down; then the pull holds it shut</text>
+</g>
+</svg>

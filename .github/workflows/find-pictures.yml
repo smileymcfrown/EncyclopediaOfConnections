@@ -1,0 +1,38 @@
+name: Find pictures
+# Searches Wikimedia Commons (and Openverse, for entries with few results) for candidate pictures
+# for every entry: animations, cross-sections and real photos (tools/find_pictures.py, R32). It
+# changes nothing in the repository: the candidates and their thumbnails are uploaded as an
+# artifact ("picture-candidates", kept 5 days) for choosing. Runs on GitHub's machines because
+# Wikimedia limits shared cloud addresses. Start it by hand (Actions → Find pictures → Run
+# workflow), or push a commit to a branch other than main whose message contains "[find pictures]".
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Only these pages (comma-separated); empty for all'
+        required: false
+        default: ''
+  push:
+    branches-ignore: [main]
+permissions:
+  contents: read
+jobs:
+  find:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '[find pictures]')
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install pyyaml==6.0.1 pillow
+      - run: python3 tools/find_pictures.py out --openverse ${ONLY:+--only "$ONLY"}
+        env:
+          ONLY: ${{ github.event.inputs.only }}
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: picture-candidates
+          path: out
+          retention-days: 5

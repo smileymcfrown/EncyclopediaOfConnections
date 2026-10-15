@@ -140,21 +140,43 @@ sources:
 research: research/connection-types/results/Toolfree_fasteners_thumbscrew_wing_nut_hitch_pin_and_Rclip.json
 image:
   file: tool-free-fasteners.webp
-  width: 212
-  height: 260
   title: File:Wingnut-hardware.jpg
   author: 'Nut-hardware.jpg: Muke derivative work: Xoristzatziki (talk)'
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg
-  alt: Photo of three wing nuts of different styles
+  alt: Metal wing nuts, each with two flat wings you can turn with your fingers.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: tool-free-fasteners.webp
+  title: File:Wingnut-hardware.jpg
+  author: 'Nut-hardware.jpg: Muke derivative work: Xoristzatziki (talk)'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg
+  alt: Metal wing nuts, each with two flat wings you can turn with your fingers.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: tool-free-fasteners-a5b5f8.webp
+  title: File:HitchPin.jpg
+  author: Chris Cross
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:HitchPin.jpg
+  site: Wikimedia Commons
+  alt: A hitch pin with a ring handle, held in place by a springy R-shaped wire clip through its end.
+  kind: photo
   drawn: false
 glossary: [torque, lever-arm, linkage, clearance, form-fit--force-fit--material-bond, captive-nut, creep, peel-vs-shear]
 ---
 
-![Photo of three wing nuts of different styles](../media/tool-free-fasteners.webp)
-
-*Picture: [Wingnut-hardware.jpg](https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg) by Nut-hardware.jpg: Muke derivative work: Xoristzatziki (talk), Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tool-free-fasteners.webp" alt="Metal wing nuts, each with two flat wings you can turn with your fingers."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg">Wingnut-hardware</a> by Nut-hardware.jpg: Muke derivative work: Xoristzatziki (talk), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tool-free-fasteners-a5b5f8.webp" alt="A hitch pin with a ring handle, held in place by a springy R-shaped wire clip through its end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:HitchPin.jpg">HitchPin</a> by Chris Cross, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Everyday fasteners with a shape your fingers can grip, such as a ridged or winged head, a knob, or a pin with a springy wire clip, so that a joint can be done up, adjusted and taken apart again and again without any tools.
 

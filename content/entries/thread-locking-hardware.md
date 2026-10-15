@@ -145,22 +145,55 @@ sources:
 research: research/connection-types/results/Threadlocking_hardware_nyloninsert_nut_lock_washer_split_pin.json
 image:
   file: thread-locking-hardware.webp
-  width: 800
-  height: 519
   title: File:Nylon Lock Nut.png
   author: Original uploader was Btarski at en.wikipedia.
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Nylon_Lock_Nut.png
-  alt: Photo of a nylon-insert lock nut showing the nylon ring in the top of the nut
+  alt: Two nylon-insert lock nuts, steel nuts with a ring of nylon inside one end that grips the bolt thread.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: thread-locking-hardware.webp
+  title: File:Nylon Lock Nut.png
+  author: Original uploader was Btarski at en.wikipedia.
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Nylon_Lock_Nut.png
+  alt: Two nylon-insert lock nuts, steel nuts with a ring of nylon inside one end that grips the bolt thread.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: thread-locking-hardware-744ea7.webp
+  title: File:Castellated Nut (new).png
+  author: Btarski at English Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Castellated_Nut_(new).png
+  site: Wikimedia Commons
+  alt: A castle nut with slots across its top for a split pin to pass through the bolt.
+  kind: photo
+  drawn: false
+- file: thread-locking-hardware-170d0d.webp
+  title: File:Wedge Locking Washer.jpg
+  author: Doctorfastener
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Wedge_Locking_Washer.jpg
+  site: Wikimedia Commons
+  alt: A pair of wedge-locking washers, with ramps on their faces and grip teeth on the outside.
+  kind: photo
   drawn: false
 glossary: [self-locking, axial--radial, torque, pitch, linkage, preload, form-fit--force-fit--material-bond, circlip, heat-set-insert,
   captive-nut, threadlocker, creep, fatigue, peel-vs-shear]
 ---
 
-![Photo of a nylon-insert lock nut showing the nylon ring in the top of the nut](../media/thread-locking-hardware.webp)
-
-*Picture: [Nylon Lock Nut.png](https://commons.wikimedia.org/wiki/File:Nylon_Lock_Nut.png) by Original uploader was Btarski at en.wikipedia., [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/thread-locking-hardware.webp" alt="Two nylon-insert lock nuts, steel nuts with a ring of nylon inside one end that grips the bolt thread."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Nylon_Lock_Nut.png">Nylon Lock Nut</a> by Original uploader was Btarski at en.wikipedia., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/thread-locking-hardware-744ea7.webp" alt="A castle nut with slots across its top for a split pin to pass through the bolt." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Castellated_Nut_(new).png">Castellated Nut (new)</a> by Btarski at English Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/thread-locking-hardware-170d0d.webp" alt="A pair of wedge-locking washers, with ramps on their faces and grip teeth on the outside." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wedge_Locking_Washer.jpg">Wedge Locking Washer</a> by Doctorfastener, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Ordinary-looking nuts, washers and pins that stop a bolted joint undoing itself: a nylon ring or deformed thread that drags on the bolt, a washer that springs, bites or wedges, or a pin through the bolt that physically blocks the nut.
 

@@ -134,24 +134,61 @@ sources:
 - https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr282/chapter_04_fpl_gtr282.pdf
 research: research/connection-types/results/Sliding_dovetail.json
 image:
-  file: sliding-dovetail.webp
-  width: 600
-  height: 400
+  file: sliding-dovetail-467272.webp
+  title: File:Linear table rail guide animated.gif
+  author: Silberwolf (talk)
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Linear_table_rail_guide_animated.gif
+  site: Wikimedia Commons
+  alt: 'Animated 3D model of a dovetail slide: a grey table with flared edges slides back and forth along a base with matching
+    flared grooves.'
+  kind: animation
+  still: sliding-dovetail-467272.still.webp
+  drawn: false
+pictures:
+- file: sliding-dovetail-467272.webp
+  title: File:Linear table rail guide animated.gif
+  author: Silberwolf (talk)
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Linear_table_rail_guide_animated.gif
+  site: Wikimedia Commons
+  alt: 'Animated 3D model of a dovetail slide: a grey table with flared edges slides back and forth along a base with matching
+    flared grooves.'
+  kind: animation
+  still: sliding-dovetail-467272.still.webp
+  drawn: false
+- file: sliding-dovetail.webp
   title: File:Joinery-slidingdovetail.gif
   author: SilentC at English Wikipedia
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif
-  alt: Animated diagram of a sliding dovetail tongue sliding into its groove
-  animated: false
+  alt: '3D model of a woodwork sliding dovetail: a board with a flared tongue on its end slides into a flared groove across
+    a second board.'
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: sliding-dovetail-a41ab1.webp
+  title: File:Dovetail-MTO11CA.jpg
+  author: Radoslaw Ziomber
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Dovetail-MTO11CA.jpg
+  site: Wikimedia Commons
+  alt: A telescope fixed to its mount by a dovetail bar clamped in a matching saddle and locked by a black knob.
+  kind: photo
   drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, undercut, creep, elephants-foot,
   overhang--bridging, peel-vs-shear]
 ---
 
-![Animated diagram of a sliding dovetail tongue sliding into its groove](../media/sliding-dovetail.webp)
-
-*Picture: [Joinery-slidingdovetail.gif](https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif) by SilentC at English Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/sliding-dovetail-467272.still.webp"><img src="../media/sliding-dovetail-467272.webp" alt="Animated 3D model of a dovetail slide: a grey table with flared edges slides back and forth along a base with matching flared grooves."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Linear_table_rail_guide_animated.gif">Linear table rail guide animated</a> by Silberwolf (talk), <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sliding-dovetail.webp" alt="3D model of a woodwork sliding dovetail: a board with a flared tongue on its end slides into a flared groove across a second board." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Joinery-slidingdovetail.gif">Joinery-slidingdovetail</a> by SilentC at English Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sliding-dovetail-a41ab1.webp" alt="A telescope fixed to its mount by a dovetail bar clamped in a matching saddle and locked by a black knob." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dovetail-MTO11CA.jpg">Dovetail-MTO11CA</a> by Radoslaw Ziomber, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flared tongue on one part slides into a matching flared groove in the other, locking the parts so they can't be pulled apart sideways while still letting them slide along the groove, as used to hold shelves in bookcases or slide-on mounts together.
 

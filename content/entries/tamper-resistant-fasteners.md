@@ -145,22 +145,58 @@ sources:
 research: research/connection-types/results/Tamperresistant_fasteners_security_screw_oneway_screw_breakawayhead_bolt.json
 image:
   file: tamper-resistant-fasteners.webp
-  width: 190
-  height: 177
   title: File:Screws - tamper resistant slotted.jpg
   author: Scott Ehardt
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg
-  alt: Close-up of a one-way slotted screw with its ramped slot, as found on a bathroom stall
+  alt: A one-way screw head whose slot has ramped sides, so a screwdriver can turn it in but slips out when turned the other
+    way.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: tamper-resistant-fasteners.webp
+  title: File:Screws - tamper resistant slotted.jpg
+  author: Scott Ehardt
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg
+  alt: A one-way screw head whose slot has ramped sides, so a screwdriver can turn it in but slips out when turned the other
+    way.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: tamper-resistant-fasteners-85984e.webp
+  title: File:Abreißschrauben (part, bg-).jpg
+  author: An-d
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Abrei%C3%9Fschrauben_(part,_bg-).jpg
+  site: Wikimedia Commons
+  alt: A shear-off security screw whose star-shaped top is gripped to tighten it and then snaps off, leaving a head no tool
+    can grip.
+  kind: photo
+  drawn: false
+- file: tamper-resistant-fasteners-1442bd.webp
+  title: File:Set of security screw driver bits.jpg
+  author: Junkyardsparkle
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Set_of_security_screw_driver_bits.jpg
+  site: Wikimedia Commons
+  alt: A set of security screwdriver bits, including star and hex bits with a hole drilled in the tip to fit pinned screws.
+  kind: photo
   drawn: false
 glossary: [torque, form-fit--force-fit--material-bond, captive-nut, boss, counterbore--countersink, threadlocker, creep, peel-vs-shear,
   regulator]
 ---
 
-![Close-up of a one-way slotted screw with its ramped slot, as found on a bathroom stall](../media/tamper-resistant-fasteners.webp)
-
-*Picture: [Screws - tamper resistant slotted.jpg](https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg) by Scott Ehardt, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tamper-resistant-fasteners.webp" alt="A one-way screw head whose slot has ramped sides, so a screwdriver can turn it in but slips out when turned the other way."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Screws_-_tamper_resistant_slotted.jpg">Screws - tamper resistant slotted</a> by Scott Ehardt, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tamper-resistant-fasteners-85984e.webp" alt="A shear-off security screw whose star-shaped top is gripped to tighten it and then snaps off, leaving a head no tool can grip." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Abrei%C3%9Fschrauben_(part,_bg-).jpg">Abreißschrauben (part, bg-)</a> by An-d, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tamper-resistant-fasteners-1442bd.webp" alt="A set of security screwdriver bits, including star and hex bits with a hole drilled in the tip to fit pinned screws." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Set_of_security_screw_driver_bits.jpg">Set of security screw driver bits</a> by Junkyardsparkle, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A screw, bolt or nut with an unusual drive (a pin in the socket, odd lobes, two holes, an odd number of sides), a slot that only grips one way, or a head that snaps off when tight, so that ordinary tools can't undo it and casual tampering with covers, battery boxes, signs and public fittings is stopped or slowed.
 

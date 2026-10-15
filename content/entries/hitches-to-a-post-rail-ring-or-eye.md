@@ -132,22 +132,43 @@ sources:
 research: research/connection-types/results/Hitches_to_a_post_rail_ring_or_eye_clove_hitch_round_turn_and_two_half_hitches.json
 image:
   file: hitches-to-a-post-rail-ring-or-eye.webp
-  width: 800
-  height: 533
   title: File:Clove Hitch - ABoK 11 - USCG.jpg
   author: USCG PTC Developer
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg
-  alt: A clove hitch round a rail, described as used 'to secure ropes running along a series of posts, belaying, starting
-    lashings, weak binding'
+  alt: A blue rope tied round a wooden post with a clove hitch, two crossing turns that grip the post.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: hitches-to-a-post-rail-ring-or-eye.webp
+  title: File:Clove Hitch - ABoK 11 - USCG.jpg
+  author: USCG PTC Developer
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg
+  alt: A blue rope tied round a wooden post with a clove hitch, two crossing turns that grip the post.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: hitches-to-a-post-rail-ring-or-eye-452844.webp
+  title: File:Anderthalb Rundtörn mit zwei halben Schlägen.jpg
+  author: Markus Bärlocher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Anderthalb_Rundt%C3%B6rn_mit_zwei_halben_Schl%C3%A4gen.jpg
+  site: Wikimedia Commons
+  alt: A red rope tied to a metal ring with a round turn and two half hitches.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, infill, peel-vs-shear]
 ---
 
-![A clove hitch round a rail, described as used 'to secure ropes running along a series of posts, belaying, starting lashings, weak binding'](../media/hitches-to-a-post-rail-ring-or-eye.webp)
-
-*Picture: [Clove Hitch - ABoK 11 - USCG.jpg](https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg) by USCG PTC Developer, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hitches-to-a-post-rail-ring-or-eye.webp" alt="A blue rope tied round a wooden post with a clove hitch, two crossing turns that grip the post."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clove_Hitch_-_ABoK_11_-_USCG.jpg">Clove Hitch - ABoK 11 - USCG</a> by USCG PTC Developer, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hitches-to-a-post-rail-ring-or-eye-452844.webp" alt="A red rope tied to a metal ring with a round turn and two half hitches." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anderthalb_Rundt%C3%B6rn_mit_zwei_halben_Schl%C3%A4gen.jpg">Anderthalb Rundtörn mit zwei halben Schlägen</a> by Markus Bärlocher, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A knot that ties a line directly to a post, rail, ring, bar, eye, log or a hole in a part, holding by the turns and tucks gripping the object and the rope itself, so it needs no hardware or tools and can be untied by hand; which hitch to use depends on what you tie to and whether you will adjust or release it.
 

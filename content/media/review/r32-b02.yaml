@@ -1,0 +1,436 @@
+# R32 picture choices, batch b02 (see the pick brief). Per page: ordered pictures (at most 3).
+pulley-system:
+  pictures:
+    - commons: "File:Tackles.png"
+      kind: diagram
+      alt: A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs on more rope parts.
+    - candidate: 7
+      kind: how-it-works
+      alt: A museum display of wooden pulley blocks with a rope threaded between them, above a drawing of the same set-up.
+    - candidate: 2
+      kind: photo
+      alt: An old wooden pulley block hanging from a stone wall inside a windmill, with its rope running down.
+  needs_animation: true
+  needs_photo: false
+  note: no drawn diagram or candidate animation; the two photos are older pulley blocks, not a modern block and tackle
+push-and-turn-child-resistant-cap:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A bottle of aspirin tablets with a white push-down-and-turn child-resistant cap, next to its box.
+  needs_animation: false
+  needs_photo: false
+quick-couplers-for-tubes-and-hoses:
+  pictures:
+    - commons: "File:Rtc-serie-171.08-gruppe.jpg"
+      kind: photo
+      alt: Shiny steel air-line quick couplers, the round sockets with their sliding release sleeves next to the matching plug ends.
+    - candidate: 2
+      kind: photo
+      alt: A garden hose spray gun and a set of grey and orange snap-on hose connectors lying on brick paving.
+  needs_animation: false
+  needs_photo: false
+quick-release-hooks:
+  pictures:
+    - commons: "File:3Ring release animation.gif"
+      kind: animation
+      alt: An animation of a parachute three-ring release, where pulling a small cord frees a loop and the stacked rings slip apart one after another.
+  needs_animation: false
+  needs_photo: true
+  note: the photo candidates are military scenes where the hook is tiny or not visible
+quick-release-pin:
+  pictures:
+    - commons: "File:Kugelsperrbolzen Funktionsprinzip.tif"
+      kind: diagram
+      alt: A drawing of a T-handled ball-lock pin pushed into a hole through two plates, before and after it locks.
+  needs_animation: false
+  needs_photo: true
+  note: no clear ball-lock pin photo; #9 may be a push-button wheel axle but is too unclear to use
+quick-release-plate:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: how-it-works
+      alt: A camera quick-release clamp with its lever open, next to the separate plate that slides into it.
+    - candidate: 8
+      kind: photo
+      alt: A black Arca-Swiss style clamp with a screw knob that squeezes the bevelled edges of a plate.
+  needs_animation: false
+  needs_photo: false
+ratcheting-reel-closure:
+  pictures:
+    - commons: "File:ThirtyTwo snowboard boot.jpg"
+      kind: photo
+      alt: A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces.
+  needs_animation: true
+  needs_photo: false
+  note: no drawn diagram and no candidates on the sheet
+rod-end-and-ball-link:
+  pictures:
+    - commons: "File:Heim Joint.svg"
+      kind: diagram
+      alt: A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank.
+    - candidate: 2
+      kind: photo
+      alt: A metal female rod end, a ring holding a swivelling ball with a hole, on a body threaded inside.
+    - candidate: 4
+      kind: how-it-works
+      alt: A car tie rod end fitted under a car, its ball joint held in a rubber boot and bolted through the steering arm.
+  needs_animation: true
+  needs_photo: false
+rolling-contact-joint:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the candidates are unrelated photos (people, a tank)
+rope-grab-and-ascender:
+  pictures:
+    - commons: "File:Petzl Ascenders (On Rope).jpg"
+      kind: photo
+      alt: Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor.
+    - candidate: 3
+      kind: how-it-works
+      alt: An older metal Gibbs ascender with its spring-loaded cam lever and pin, with a red cord loop.
+    - candidate: 1
+      kind: how-it-works
+      alt: A side view of two chest ascenders showing the toothed cam that pinches the rope.
+  needs_animation: true
+  needs_photo: false
+rope-splices:
+  pictures:
+    - commons: "File:Splitsar.png"
+      kind: diagram
+      alt: A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope.
+    - candidate: 4
+      kind: how-it-works
+      alt: A three-strand rope bent into a loop, with the unlaid end strands being tucked into the main rope to make an eye splice.
+    - candidate: 6
+      kind: photo
+      alt: A finished eye splice, a fixed loop in a pale three-strand rope with the tucked strands trimmed.
+  needs_animation: false
+  needs_photo: false
+rotary-air-actuator:
+  pictures:
+    - commons: "File:Verin rotatif principe.svg"
+      kind: diagram
+      alt: A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns a gear on the output shaft.
+    - candidate: 2
+      kind: photo
+      alt: Two grey pneumatic rack-and-pinion actuators mounted on top of big valves in a blue water pipe, turning the valves open and shut.
+  needs_animation: true
+  needs_photo: false
+  note: the two sheet animations show a linear actuator and a piezo motor, not this; the orange and grey damper actuators are electric
+schmidt-coupling:
+  pictures:
+    - commons: "File:SchmidtCouplingGif.gif"
+      kind: animation
+      alt: An animation of a Schmidt coupling, three discs joined by sets of parallel links, passing turning between two shafts that are out of line.
+    - candidate: 4
+      kind: photo
+      alt: A Schmidt coupling built from Meccano, with a blue disc linked to the next disc by metal strips.
+    - candidate: 3
+      kind: photo
+      alt: A side view of the same Meccano Schmidt coupling, showing the parallel links between its discs.
+  needs_animation: false
+  needs_photo: false
+  note: both photos are of the same Meccano model; no photo of an industrial Schmidt coupling
+scissor-linkage:
+  pictures:
+    - commons: "File:Pantograph Mirror.gif"
+      kind: animation
+      alt: An animation of a wall mirror on a folding scissor arm, the crossed bars stretching out and folding back flat.
+    - commons: "File:TL 2000 scissor lift.jpg"
+      kind: photo
+      alt: An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform.
+  needs_animation: false
+  needs_photo: false
+  note: "#7 (Scissor Riveter.gif) and #6 (Scissor Tower.gif) are also good animations but drawn in very thin faint lines"
+scotch-yoke:
+  pictures:
+    - commons: "File:Yugo Escocés - Scotch yoke animation.gif"
+      kind: animation
+      alt: An animation of a Scotch yoke, a pin on a turning wheel sliding up and down in a slot so the bar it sits in moves straight back and forth.
+    - candidate: 8
+      kind: how-it-works
+      alt: A science museum display of a Scotch yoke, a red crank pin in the slot of a yellow sliding bar behind glass.
+    - candidate: 3
+      kind: photo
+      alt: An old metal working model of a Scotch yoke on a wooden base, with the slotted bar guided between upright frames.
+  needs_animation: false
+  needs_photo: false
+screw-in-threaded-insert:
+  pictures:
+    - commons: "File:Taplok Insert.jpg"
+      kind: photo
+      alt: A screw-in threaded insert, a short metal sleeve with a coarse outside thread for the soft material and a fine machine-screw thread inside.
+  needs_animation: false
+  needs_photo: false
+  note: the sheet candidates are unrelated (cassette, phone, 3D-print renders); a photo of a wire-coil insert would help
+screw-terminal:
+  pictures:
+    - commons: "File:Screw Terminals. Basic and Compression Types..jpg"
+      kind: photo
+      alt: Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping plate onto the wire.
+    - candidate: 4
+      kind: how-it-works
+      alt: Stripped wires pushed into small brass tubes and held by set screws, next to the empty connectors on squared paper.
+    - candidate: 10
+      kind: photo
+      alt: A black three-way circuit-board screw terminal block, each opening with a screw on top and a pin underneath.
+  needs_animation: false
+  needs_photo: false
+scroll-mechanism:
+  pictures:
+    - commons: "File:ThreeJawChuckKey.jpg"
+      kind: photo
+      alt: A three-jaw lathe chuck with its key, the key turns the scroll plate inside to move all three jaws together.
+  needs_animation: true
+  needs_photo: false
+  note: no drawn diagram and no relevant candidates; a photo of a chuck opened to show the spiral scroll would explain it better
+sear-and-trigger:
+  pictures:
+    - commons: "File:Noix corde carreau arbalette.svg"
+      kind: diagram
+      alt: A drawing of a crossbow lock, the round nut holding the string and bolt, with the trigger lever that lets the nut turn.
+    - candidate: 2
+      kind: photo
+      alt: Bronze trigger mechanisms from ancient Chinese crossbows, laid out on a grey table, some assembled and some in pieces.
+  needs_animation: true
+  needs_photo: false
+  note: "#3 (Colt M1911 cross-section) is a line drawing, not a photo, so left out"
+self-centring-cone-and-socket:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A steel Morse taper shank, a long gently tapering cone, next to a tape measure.
+  needs_animation: false
+  needs_photo: false
+self-closing-hinges:
+  pictures:
+    - commons: "File:Bommerscharnier.JPG"
+      kind: photo
+      alt: A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs.
+    - candidate: 1
+      kind: how-it-works
+      alt: A rising door hinge with a spiral-cut knuckle, so the door lifts as it opens and its weight swings it shut.
+  needs_animation: true
+  needs_photo: false
+  note: "#3 is an arm-type door closer, not a hinge"
+sew-on-part:
+  pictures:
+    - commons: "File:Plastic & fabric buttons showing holes & shank.jpg"
+      kind: photo
+      alt: Plastic and fabric-covered buttons, some with sewing holes through them and some with a loop (shank) on the back.
+    - candidate: 1
+      kind: photo
+      alt: A metal hook and eye clasp, each piece bent from wire with small loops for sewing it to fabric.
+  needs_animation: false
+  needs_photo: false
+shock-corded-sectional-pole:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate is a broken tent pole that does not show the joints or the cord
+side-release-buckle:
+  pictures:
+    - commons: "File:Boucle rapide.svg"
+      kind: diagram
+      alt: A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side windows.
+    - candidate: 12
+      kind: photo
+      alt: Three paracord bracelets, each closed with a small plastic side-release buckle.
+    - candidate: 10
+      kind: photo
+      alt: Bag hardware laid out on a table, including plastic and metal side-release buckles next to snap hooks.
+  needs_animation: true
+  needs_photo: false
+  note: the silver "Buckle (AM ...)" candidates are an antique belt buckle, not a side-release buckle
+slip-ring-and-rotary-union:
+  pictures:
+    - commons: "File:Sliprings annotated.jpg"
+      kind: photo
+      alt: A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them.
+  needs_animation: true
+  needs_photo: false
+  note: no drawn diagram and no candidates on the sheet
+solvent-welding:
+  pictures:
+    - commons: "File:Water Ram Repair PVC Cement.jpg"
+      kind: how-it-works
+      alt: A PVC pipe being joined with solvent cement during a pump repair, with the can of cement beside it.
+  needs_animation: false
+  needs_photo: false
+  note: the other candidates are a hot-air plastic welder (a different method) and unrelated art photos
+speed-governor:
+  pictures:
+    - commons: "File:Regulador mecánico.png"
+      kind: diagram
+      alt: A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad.
+    - candidate: 3
+      kind: how-it-works
+      alt: A wind-up gramophone motor out of its case, with the spring barrel at the back and the spinning-weight governor at the front.
+  needs_animation: true
+  needs_photo: false
+  note: "#4 and #7 are cut-aways of an aircraft propeller governor, a flyweight valve rather than a brake, so left out"
+spiral-power-spring:
+  pictures:
+    - commons: "File:Alarm clock mainspring.JPG"
+      kind: photo
+      alt: The coiled steel mainspring inside an old alarm clock movement, wound round its centre shaft.
+    - candidate: 4
+      kind: photo
+      alt: A watch mainspring taken out and lying loose, showing the flat steel strip's natural S-shaped curl.
+  needs_animation: true
+  needs_photo: false
+split-part-joints-for-large-prints:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate is a woodworking sliding-dovetail render, not a printed part
+spring-button-lock:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the candidates are street scenes and unrelated objects
+spring-steel-push-on-fasteners:
+  pictures:
+    - commons: "File:Two spire clips.jpg"
+      kind: photo
+      alt: Two spring-steel push-on clips, flat stamped metal with angled teeth round a centre hole that grip a shaft or stud.
+  needs_animation: false
+  needs_photo: false
+  note: "#1 is a cage nut (a related spring-steel part, not a push-on clip)"
+staples-for-wood-and-fabric:
+  pictures:
+    - commons: "File:Basic staple diagram (named parts).svg"
+      kind: diagram
+      alt: A drawing of a staple with its flat top (crown), two legs and pointed ends (teeth) labelled.
+    - candidate: 4
+      kind: how-it-works
+      alt: A row of staples driven along the edge of a sheet of brown board, holding it down.
+    - candidate: 2
+      kind: photo
+      alt: Two Bosch hammer tackers, tools that drive a staple each time they are swung against the work.
+  needs_animation: false
+  needs_photo: false
+syringe-hydraulics:
+  pictures:
+    - commons: "File:Hydraulic transmission between two syringes.svg"
+      kind: diagram
+      alt: A drawing of syringes joined by a liquid-filled tube, where pushing one plunger pushes the other plunger out.
+  needs_animation: true
+  needs_photo: true
+  note: "#2 animates a car disc brake (a different machine); the bicycle hydraulic brake photos are real hydraulics but not syringes"
+t-slot-joint:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate is an unrelated railway axle-box drawing
+temporary-sheet-fastener:
+  pictures:
+    - commons: "File:Cleco fastener extended.jpg"
+      kind: how-it-works
+      alt: A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one.
+    - candidate: 3
+      kind: how-it-works
+      alt: Dozens of copper-coloured Cleco pins holding the skin onto an aircraft wing while it is being riveted.
+    - candidate: 2
+      kind: photo
+      alt: The special pliers used to fit Cleco pins, with a pin held in their jaws.
+  needs_animation: false
+  needs_photo: false
+tensioning-and-adjustable-hitches:
+  pictures:
+    - commons: "File:Hitch-truckers-ABoK 1514-USCG.jpg"
+      kind: diagram
+      alt: A trucker's hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing tight.
+    - candidate: 1
+      kind: photo
+      alt: Six blue cord hitches tied round a green rope, rolling hitches and similar adjustable gripping knots.
+  needs_animation: true
+  needs_photo: false
+threaded-rod-and-studs:
+  pictures:
+    - commons: "File:Threaded rods of different sizes.png"
+      kind: photo
+      alt: Lengths of threaded rod in several thicknesses, threaded all along their length.
+    - candidate: 5
+      kind: how-it-works
+      alt: Threaded rods fitted across a split in a hollow chestnut tree trunk, with nuts pulling the two sides together.
+    - candidate: 1
+      kind: photo
+      alt: A hanger bolt (a stud) with a wood-screw thread at one end and a machine thread for a nut at the other.
+  needs_animation: false
+  needs_photo: false
+threadless-ball-screw:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate is an old photo of a steam locomotive, unrelated
+tool-free-fasteners:
+  pictures:
+    - commons: "File:Wingnut-hardware.jpg"
+      kind: photo
+      alt: Metal wing nuts, each with two flat wings you can turn with your fingers.
+    - candidate: 1
+      kind: photo
+      alt: A hitch pin with a ring handle, held in place by a springy R-shaped wire clip through its end.
+  needs_animation: false
+  needs_photo: false
+venturi-vacuum-generator:
+  pictures:
+    - commons: "File:Ejector or Injector.svg"
+      kind: diagram
+      alt: A cut-away drawing of an ejector, a fast jet from a nozzle drawing gas in through a side port and out through a widening outlet.
+    - candidate: 2
+      kind: photo
+      alt: A brass lab aspirator, a T-shaped tube that fits on a tap so the running water sucks air in through its side arm.
+  needs_animation: false
+  needs_photo: false
+wall-plug:
+  pictures:
+    - commons: "File:Wall plugs plastic (cropped).jpg"
+      kind: photo
+      alt: Plastic wall plugs, ribbed sleeves with split ends that spread out when a screw is driven in.
+  needs_animation: false
+  needs_photo: false
+  note: the other candidates are electric sockets (a different meaning of "wall plug"); a photo of a plug cut open in a wall would help
+wave-and-disc-springs:
+  pictures:
+    - commons: "File:Washerstack.png"
+      kind: diagram
+      alt: A stack of cone-shaped disc springs on a shaft, some facing one way and some the other.
+  needs_animation: true
+  needs_photo: true
+  note: the only candidate is a load-deflection graph
+wire-end-ferrule:
+  pictures:
+    - commons: "File:Wire ferrules with and without insulation.jpg"
+      kind: photo
+      alt: Wire-end ferrules, thin metal tubes, some with coloured plastic collars and some bare.
+    - candidate: 2
+      kind: photo
+      alt: An assortment of colour-coded wire ferrules spilling from a small plastic bag.
+  needs_animation: false
+  needs_photo: false
+wire-wrap:
+  pictures:
+    - commons: "File:Wire Wrap 1.jpg"
+      kind: photo
+      alt: Wire wrapped in tight coils round square metal posts on the back of a circuit board.
+    - candidate: 6
+      kind: how-it-works
+      alt: A row of square pins, each with a neat coil of wire wound round its base.
+    - candidate: 2
+      kind: photo
+      alt: A hand wire-wrap tool, a small pen-like tube, next to loops of thin coloured wire-wrap wire.
+  needs_animation: false
+  needs_photo: false

@@ -113,12 +113,17 @@ image:
   alt: Edge view and top view of a metal tab pushed through a slot, then either folded flat or twisted a quarter turn so it
     is too wide to pull back out.
   drawn: true
+pictures:
+- file: drawn/bent-or-twisted-tab-through-a-slot.svg
+  alt: Edge view and top view of a metal tab pushed through a slot, then either folded flat or twisted a quarter turn so it
+    is too wide to pull back out.
+  drawn: true
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, brittle--ductile, layer-lines, infill]
 ---
 
-![Edge view and top view of a metal tab pushed through a slot, then either folded flat or twisted a quarter turn so it is too wide to pull back out.](../media/drawn/bent-or-twisted-tab-through-a-slot.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/bent-or-twisted-tab-through-a-slot.svg" alt="Edge view and top view of a metal tab pushed through a slot, then either folded flat or twisted a quarter turn so it is too wide to pull back out."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A tab on one sheet-metal part passes through a slot in the other and is then folded over or twisted about a quarter turn, so the parts line themselves up and are locked together with no screws, rivets, glue or heat.
 

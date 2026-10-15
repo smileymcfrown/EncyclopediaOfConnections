@@ -139,25 +139,49 @@ sources:
 - https://www.printables.com/model/518385-traxxas-rustler-2wd-steering-bellcrank
 research: research/connection-types/results/Bell_crank_angle_lever.json
 image:
-  file: bell-crank.webp
-  width: 336
-  height: 285
-  title: File:Chambers 1908 Bell Crank.png
-  author: Rev. Thomas Davidson 1856-1923 (ed.)
+  file: bell-crank-652b18.webp
+  title: File:Bell Crank.gif
+  author: (npcserver)
   license: Public domain
   license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png
-  alt: An old drawing of a right-angled bell crank on a pivot, with a wire pulled sideways at one arm and the other arm pulling
-    a wire downwards.
+  source: https://commons.wikimedia.org/wiki/File:Bell_Crank.gif
+  site: Wikimedia Commons
+  alt: A rendered L-shaped bell crank rocking on a pivot post, so a rod pulling one arm pushes a rod on the other arm sideways.
+  kind: animation
+  still: bell-crank-652b18.still.webp
+  drawn: false
+pictures:
+- file: bell-crank-652b18.webp
+  title: File:Bell Crank.gif
+  author: (npcserver)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Bell_Crank.gif
+  site: Wikimedia Commons
+  alt: A rendered L-shaped bell crank rocking on a pivot post, so a rod pulling one arm pushes a rod on the other arm sideways.
+  kind: animation
+  still: bell-crank-652b18.still.webp
+  drawn: false
+- file: bell-crank-26708b.webp
+  title: File:Shimano Nexus 3 bell crank clickbox.jpg
+  author: Andrej Shadura
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Shimano_Nexus_3_bell_crank_clickbox.jpg
+  site: Wikimedia Commons
+  alt: The back wheel of a city bike with a small bell-crank box on the hub axle, where the gear cable turns into a push on
+    the hub's gear rod.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, axial--radial, dead-point, over-centre, mechanical-advantage, pitch, crank, linkage, actuator,
   stiffness, clearance, form-fit--force-fit--material-bond, spline, boss, repeatability--accuracy, creep, brittle--ductile,
   infill, print-in-place]
 ---
 
-![An old drawing of a right-angled bell crank on a pivot, with a wire pulled sideways at one arm and the other arm pulling a wire downwards.](../media/bell-crank.webp)
-
-*Picture: [Chambers 1908 Bell Crank.png](https://commons.wikimedia.org/wiki/File:Chambers_1908_Bell_Crank.png) by Rev. Thomas Davidson 1856-1923 (ed.), Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/bell-crank-652b18.still.webp"><img src="../media/bell-crank-652b18.webp" alt="A rendered L-shaped bell crank rocking on a pivot post, so a rod pulling one arm pushes a rod on the other arm sideways."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bell_Crank.gif">Bell Crank</a> by (npcserver), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bell-crank-26708b.webp" alt="The back wheel of a city bike with a small bell-crank box on the hub axle, where the gear cable turns into a push on the hub&#x27;s gear rod." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Shimano_Nexus_3_bell_crank_clickbox.jpg">Shimano Nexus 3 bell crank clickbox</a> by Andrej Shadura, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A bell [crank](../glossary.md#crank) is a lever that rocks on a pivot at its corner, so a rod or cable pulling one arm makes the other arm push or pull in a different direction (usually at 90 degrees), with the arm lengths setting how much the movement and force are scaled up or down.
 

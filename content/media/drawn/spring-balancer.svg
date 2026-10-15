@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a spring balancer: an arm pivots on a post with a load at its tip, and a spring runs from a point on the arm to an anchor directly above the pivot; the spring cancels the weight at every angle, so the arm stays wherever it is let go. A small inset shows the counterweight version.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="110" y="400" width="210" height="14" fill="url(#hatch)" stroke="#222" stroke-width="2"/>
+<rect x="198" y="86" width="24" height="314" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<circle cx="210" cy="100" r="6" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<rect x="186" y="239" width="326" height="22" rx="11" transform="rotate(-32 210 250)" fill="none" stroke="#999" stroke-width="2.5" stroke-dasharray="8 6"/>
+<rect x="186" y="239" width="326" height="22" rx="11" transform="rotate(18 210 250)" fill="none" stroke="#999" stroke-width="2.5" stroke-dasharray="8 6"/>
+<path d="M489.9,75.1 A330,330 0 0 1 523.8,352" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<polyline points="210,100 219.9,109.9 222.1,126.3 245.6,121.4 240.7,144.9 264.2,140 259.3,163.5 282.8,158.6 277.9,182.1 301.4,177.2 296.5,200.7 320,195.8 315.1,219.3 338.6,214.4 333.7,237.9 350.1,240.1 360,250" fill="none" stroke="#222" stroke-width="3"></polyline>
+<g><rect x="186" y="239" width="326" height="22" rx="11" fill="#fde2c4" stroke="#222" stroke-width="3"/><circle cx="360" cy="250" r="5" fill="#ffffff" stroke="#222" stroke-width="2.5"/></g>
+<circle cx="210" cy="250" r="9" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="210" cy="250" r="3" fill="#222"/>
+<g><path d="M500,250 V270" stroke="#222" stroke-width="3"/><rect x="470" y="270" width="60" height="42" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/><text x="500" y="298" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" stroke="none">load</text></g>
+<rect x="560" y="150" width="225" height="230" rx="10" fill="none" stroke="#cccccc" stroke-width="2"/>
+<path d="M634,340 L650,300 L666,340 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g><rect x="593" y="294" width="169" height="12" rx="6" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<circle cx="650" cy="300" r="4" fill="#222"/>
+<g><path d="M605,300 V316" stroke="#222" stroke-width="2.5"/><rect x="583.0" y="316" width="44" height="40" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/></g>
+<g><path d="M750,300 V316" stroke="#222" stroke-width="2.5"/><rect x="737.0" y="316" width="26" height="22" rx="3" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="188" y="106" text-anchor="end">anchor above</text>
+<text x="188" y="128" text-anchor="end">the pivot</text>
+<text x="188" y="290" text-anchor="end">pivot</text>
+<text x="272" y="92">spring</text>
+<g font-size="18" text-anchor="middle"><text x="672" y="180">counterweight</text><text x="672" y="202">version:</text><text x="672" y="232">weight × distance</text><text x="672" y="254">= load × distance</text></g>
+<text x="400" y="440" text-anchor="middle">The spring cancels the weight at every angle, so the arm stays where you let go</text>
+</g>
+</svg>

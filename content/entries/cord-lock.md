@@ -124,22 +124,60 @@ sources:
 - https://en.wikipedia.org/wiki/Drawstring
 research: research/connection-types/results/Cord_lock_spring_toggle.json
 image:
-  file: cord-lock.webp
-  width: 194
-  height: 153
+  file: drawn/anim/cord-lock.svg
+  alt: 'Cut-through of a barrel cord lock: a cord runs through holes in the barrel and in a sprung plunger; let go, the spring
+    pushes the plunger up so its hole is out of line and the cord is pinched in an S-bend; the plunger is squeezed in against
+    the spring, the three holes line up, the cord slides through, and on letting go it is pinched again.'
+  drawn: true
+  still: drawn/cord-lock.svg
+  kind: animation
+pictures:
+- file: drawn/anim/cord-lock.svg
+  alt: 'Cut-through of a barrel cord lock: a cord runs through holes in the barrel and in a sprung plunger; let go, the spring
+    pushes the plunger up so its hole is out of line and the cord is pinched in an S-bend; the plunger is squeezed in against
+    the spring, the three holes line up, the cord slides through, and on letting go it is pinched again.'
+  drawn: true
+  still: drawn/cord-lock.svg
+  kind: animation
+- file: cord-lock.webp
   title: File:Cord-lock.jpg
   author: Ratel
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cord-lock.jpg
-  alt: Photo of a barrel-type cord lock with its spring plunger
+  alt: Two black plastic barrel cord locks, each with a cord hole through the barrel and a spring-loaded plunger cap on top.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: cord-lock-670afc.webp
+  title: File:Cord lock-427.jpg
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cord_lock-427.jpg
+  site: Wikimedia Commons
+  alt: A black cord lock on a jacket's drawcord, the elastic cord passing through the barrel and ending in a round toggle.
+  kind: how-it-works
+  drawn: false
+- file: cord-lock-295591.webp
+  title: File:Cord lock-420.jpg
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cord_lock-420.jpg
+  site: Wikimedia Commons
+  alt: Close-up of a cord lock with the elastic drawcord running through the hole in its barrel and plunger.
+  kind: photo
   drawn: false
 glossary: [self-locking, detent, form-fit--force-fit--material-bond, perimeters, infill]
 ---
 
-![Photo of a barrel-type cord lock with its spring plunger](../media/cord-lock.webp)
-
-*Picture: [Cord-lock.jpg](https://commons.wikimedia.org/wiki/File:Cord-lock.jpg) by Ratel, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cord-lock.svg"><img src="../media/drawn/anim/cord-lock.svg" alt="Cut-through of a barrel cord lock: a cord runs through holes in the barrel and in a sprung plunger; let go, the spring pushes the plunger up so its hole is out of line and the cord is pinched in an S-bend; the plunger is squeezed in against the spring, the three holes line up, the cord slides throug"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cord-lock.webp" alt="Two black plastic barrel cord locks, each with a cord hole through the barrel and a spring-loaded plunger cap on top." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cord-lock.jpg">Cord-lock</a> by Ratel, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cord-lock-670afc.webp" alt="A black cord lock on a jacket&#x27;s drawcord, the elastic cord passing through the barrel and ending in a round toggle." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cord_lock-427.jpg">Cord lock-427</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cord-lock-295591.webp" alt="Close-up of a cord lock with the elastic drawcord running through the hole in its barrel and plunger." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cord_lock-420.jpg">Cord lock-420</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A small barrel with a spring-loaded plunger inside: when you let go, the spring pushes the plunger's hole out of line with the barrel's holes and pinches the cord passing through; when you squeeze, the holes line up and the lock slides freely along the cord.
 

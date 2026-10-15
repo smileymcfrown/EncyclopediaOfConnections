@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two boxes seen from the side with their lids open: on the left a folding stay whose elbow has locked just past straight so the lid's weight presses it onto its stop, and on the right a sliding stay whose bar passes through a pivoting block that a screw squeezes so friction holds the lid at any angle. The animation swings both lids part-way shut and open again: the folding stay's elbow bends and then locks just past straight, and the sliding stay's bar slides through its pivoting block.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<g id="pv"><circle r="7" fill="#ffffff" stroke="#222" stroke-width="3"/><circle r="2" fill="#222"/></g>
+<path id="a1" d="M220,330 L269,247"><animate attributeName="d" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="M220,330 L269,247;M220,330 L269,247;M220,330 L266.4,246.4;M220,330 L239.9,235.7;M220,330 L227,233.9;M220,330 L214.4,233.8;M220,330 L203.1,235.1;M220,330 L194,237.2;M220,330 L188,239.1;M220,330 L185.8,239.9;M220,330 L185.8,239.9;M220,330 L188,239.1;M220,330 L194,237.2;M220,330 L203.1,235.1;M220,330 L214.4,233.8;M220,330 L227,233.9;M220,330 L239.9,235.7;M220,330 L266.4,246.4;M220,330 L269,247;M220,330 L269,247"/></path>
+<path id="a2" d="M269,247 L304,167"><animate attributeName="d" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="M269,247 L304,167;M269,247 L304,167;M266.4,246.4 L301.8,167.4;M239.9,235.7 L296,168.7;M227,233.9 L287.9,171.3;M214.4,233.8 L279,175;M203.1,235.1 L270.5,179.7;M194,237.2 L263.5,184.4;M188,239.1 L258.9,188.1;M185.8,239.9 L257.1,189.6;M185.8,239.9 L257.1,189.6;M188,239.1 L258.9,188.1;M194,237.2 L263.5,184.4;M203.1,235.1 L270.5,179.7;M214.4,233.8 L279,175;M227,233.9 L287.9,171.3;M239.9,235.7 L296,168.7;M266.4,246.4 L301.8,167.4;M269,247 L304,167;M269,247 L304,167"/></path>
+<path id="br" d="M705,175 L596.2,335.6"><animate attributeName="d" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="M705,175 L596.2,335.6;M705,175 L596.2,335.6;M703,175.4 L595.4,336.9;M697.6,176.6 L593.5,340.3;M690.3,179 L590.7,345.5;M682.2,182.4 L587.8,351.9;M674.4,186.7 L585,358.9;M668,191.1 L582.7,365.3;M663.8,194.5 L581.2,370;M662.2,195.9 L580.6,371.8;M662.2,195.9 L580.6,371.8;M663.8,194.5 L581.2,370;M668,191.1 L582.7,365.3;M674.4,186.7 L585,358.9;M682.2,182.4 L587.8,351.9;M690.3,179 L590.7,345.5;M697.6,176.6 L593.5,340.3;M703,175.4 L595.4,336.9;M705,175 L596.2,335.6;M705,175 L596.2,335.6"/></path>
+<clipPath id="inbox"><rect x="300" y="0" width="500" height="377"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<!-- left: folding stay -->
+<rect x="40" y="260" width="280" height="120" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="0 320 260;0 320 260;-1.4 320 260;-5 320 260;-10.1 320 260;-16 320 260;-21.9 320 260;-27 320 260;-30.6 320 260;-32 320 260;-32 320 260;-30.6 320 260;-27 320 260;-21.9 320 260;-16 320 260;-10.1 320 260;-5 320 260;-1.4 320 260;-0 320 260;0 320 260"/>
+<polygon points="313,261 327,259 297,89 283,91" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<use href="#pv" x="304" y="167"/>
+</g>
+<use href="#a1" stroke="#222" stroke-width="13"/><use href="#a1" stroke="#cfe3f5" stroke-width="7"/>
+<use href="#a2" stroke="#222" stroke-width="13"/><use href="#a2" stroke="#cfe3f5" stroke-width="7"/>
+<g><animateTransform attributeName="transform" type="translate" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="-0 -0;-0 -0;-2.6 -0.6;-29.1 -11.3;-42 -13.1;-54.6 -13.2;-65.9 -11.9;-75 -9.8;-81 -7.9;-83.2 -7.1;-83.2 -7.1;-81 -7.9;-75 -9.8;-65.9 -11.9;-54.6 -13.2;-42 -13.1;-29.1 -11.3;-2.6 -0.6;-0 -0;-0 -0"/><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="-0 269 247;-0 269 247;-1.5 269 247;-18.7 269 247;-26.4 269 247;-33.9 269 247;-40.7 269 247;-46.2 269 247;-50 269 247;-51.4 269 247;-51.4 269 247;-50 269 247;-46.2 269 247;-40.7 269 247;-33.9 269 247;-26.4 269 247;-18.7 269 247;-1.5 269 247;-0 269 247;-0 269 247" additive="sum"/>
+<rect x="256" y="242" width="10" height="20" fill="#e8e8e8" stroke="#222" stroke-width="2" transform="rotate(30 261 252)"/>
+<use href="#pv" x="269" y="247"/>
+</g>
+<use href="#pv" x="220" y="330"/>
+<use href="#pv" x="320" y="260"/>
+<path d="M276,78 Q240,80 222,108" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="1.00;1.00;0.87;0.53;0.05;0.00;0.00;0.00;0.00;0.00;0.00;0.00;0.00;0.00;0.00;0.05;0.53;0.87;1.00;1.00"/></path>
+<!-- right: sliding friction stay -->
+<rect x="440" y="260" width="280" height="120" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="0 720 260;0 720 260;-1.4 720 260;-5 720 260;-10.1 720 260;-16 720 260;-21.9 720 260;-27 720 260;-30.6 720 260;-32 720 260;-32 720 260;-30.6 720 260;-27 720 260;-21.9 720 260;-16 720 260;-10.1 720 260;-5 720 260;-1.4 720 260;-0 720 260;0 720 260"/>
+<polygon points="713,261 727,259 697,89 683,91" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+</g>
+<g clip-path="url(#inbox)"><use href="#br" stroke="#222" stroke-width="12"/><use href="#br" stroke="#e8e8e8" stroke-width="6"/></g>
+<g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="0 600 330;0 600 330;-0.5 600 330;-1.6 600 330;-3.2 600 330;-5 600 330;-6.7 600 330;-8 600 330;-8.9 600 330;-9.2 600 330;-9.2 600 330;-8.9 600 330;-8 600 330;-6.7 600 330;-5 600 330;-3.2 600 330;-1.6 600 330;-0.5 600 330;0 600 330;0 600 330"/>
+<g transform="translate(600,330) rotate(-56)">
+<rect x="-22" y="-13" width="44" height="26" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="-5" y="-30" width="10" height="17" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="-12" y="-40" width="24" height="10" rx="3" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+</g>
+<use href="#pv" x="600" y="330"/>
+<line x1="655" y1="194" x2="605" y2="268" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+</g>
+<g><animateTransform attributeName="transform" type="rotate" dur="5s" repeatCount="indefinite" keyTimes="0;0.2;0.235;0.27;0.305;0.34;0.375;0.41;0.445;0.48;0.6;0.635;0.67;0.705;0.74;0.775;0.81;0.845;0.88;1" values="0 720 260;0 720 260;-1.4 720 260;-5 720 260;-10.1 720 260;-16 720 260;-21.9 720 260;-27 720 260;-30.6 720 260;-32 720 260;-32 720 260;-30.6 720 260;-27 720 260;-21.9 720 260;-16 720 260;-10.1 720 260;-5 720 260;-1.4 720 260;-0 720 260;0 720 260"/><use href="#pv" x="705" y="175"/></g>
+<use href="#pv" x="720" y="260"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="21" font-weight="bold">Folding stay</text>
+<text x="600" y="36" font-size="21" font-weight="bold">Sliding friction stay</text>
+<text x="130" y="100">lid's weight</text>
+<text x="105" y="220">elbow locks just</text>
+<text x="105" y="241">past straight</text>
+<text x="120" y="345">box</text>
+<text x="335" y="160">lid</text>
+<text x="610" y="180" text-anchor="end">bar slides</text>
+<text x="510" y="296">screw squeezes</text>
+<text x="510" y="317">the bar</text>
+<text x="660" y="360">box</text>
+<text x="400" y="428">Folding: locks over centre · Friction: holds the lid at any angle</text>
+</g>
+</svg>

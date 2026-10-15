@@ -115,21 +115,55 @@ sources:
 research: research/connection-types/results/Twiston_wire_connector_wire_nut.json
 image:
   file: twist-on-wire-connector.webp
-  width: 800
-  height: 450
   title: File:Array of twist-on wire connectors aka wire nuts in different sizes.jpg
   author: Junkyardsparkle
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Array_of_twist-on_wire_connectors_aka_wire_nuts_in_different_sizes.jpg
-  alt: Five colour-coded sizes seen end-on, showing the metal coil inserts
+  alt: Five twist-on wire connectors in different sizes and colours, from small grey to large red.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: twist-on-wire-connector.webp
+  title: File:Array of twist-on wire connectors aka wire nuts in different sizes.jpg
+  author: Junkyardsparkle
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Array_of_twist-on_wire_connectors_aka_wire_nuts_in_different_sizes.jpg
+  alt: Five twist-on wire connectors in different sizes and colours, from small grey to large red.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: twist-on-wire-connector-a402b8.webp
+  title: File:Lasdoppen met veren.jpg
+  author: Alex P. Kok
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Lasdoppen_met_veren.jpg
+  site: Wikimedia Commons
+  alt: Twist-on connectors with their coiled metal springs taken out, showing the tapered spring that grips the wires inside
+    the cap.
+  kind: cross-section
+  drawn: false
+- file: twist-on-wire-connector-103e9c.webp
+  title: File:Gebruik lasdop.jpg
+  author: Alex P. Kok
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Gebruik_lasdop.jpg
+  site: Wikimedia Commons
+  alt: Step by step, two wires stripped, twisted together, trimmed and capped with a twist-on connector.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, infill]
 ---
 
-![Five colour-coded sizes seen end-on, showing the metal coil inserts](../media/twist-on-wire-connector.webp)
-
-*Picture: [Array of twist-on wire connectors aka wire nuts in different sizes.jpg](https://commons.wikimedia.org/wiki/File:Array_of_twist-on_wire_connectors_aka_wire_nuts_in_different_sizes.jpg) by Junkyardsparkle, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/twist-on-wire-connector.webp" alt="Five twist-on wire connectors in different sizes and colours, from small grey to large red."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Array_of_twist-on_wire_connectors_aka_wire_nuts_in_different_sizes.jpg">Array of twist-on wire connectors aka wire nuts in different sizes</a> by Junkyardsparkle, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/twist-on-wire-connector-a402b8.webp" alt="Twist-on connectors with their coiled metal springs taken out, showing the tapered spring that grips the wires inside the cap." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lasdoppen_met_veren.jpg">Lasdoppen met veren</a> by Alex P. Kok, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/twist-on-wire-connector-103e9c.webp" alt="Step by step, two wires stripped, twisted together, trimmed and capped with a twist-on connector." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gebruik_lasdop.jpg">Gebruik lasdop</a> by Alex P. Kok, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A twist-on wire connector is an insulating cap with a tapered coil spring inside that is screwed by hand onto the stripped ends of several wires, drawing them together and squeezing them into one electrical joint while covering the bare metal.
 

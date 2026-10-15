@@ -126,23 +126,54 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Lead_screw_and_nut_incl_antibacklash_nut.json
 image:
-  file: lead-screw-and-nut.webp
-  width: 750
-  height: 563
+  file: drawn/anim/lead-screw-and-nut.svg
+  alt: 'Animated: lead screw and nut: turning the handwheel turns a threaded rod, and a nut fixed in a carriage that slides
+    on a guide rail moves along by one lead for every turn; two close-ups show the small gap between nut and screw threads
+    (backlash) and a spring-loaded two-part nut that presses on both thread faces to remove it; three turns move the carriage
+    three leads and back, and the close-ups show the plain nut pausing on each reversal while the anti-backlash nut follows
+    at once.'
+  drawn: true
+  still: drawn/lead-screw-and-nut.svg
+  kind: animation
+pictures:
+- file: drawn/anim/lead-screw-and-nut.svg
+  alt: 'Animated: lead screw and nut: turning the handwheel turns a threaded rod, and a nut fixed in a carriage that slides
+    on a guide rail moves along by one lead for every turn; two close-ups show the small gap between nut and screw threads
+    (backlash) and a spring-loaded two-part nut that presses on both thread faces to remove it; three turns move the carriage
+    three leads and back, and the close-ups show the plain nut pausing on each reversal while the anti-backlash nut follows
+    at once.'
+  drawn: true
+  still: drawn/lead-screw-and-nut.svg
+  kind: animation
+- file: lead-screw-and-nut.webp
   title: File:Dvd pohon vozika hlavy.jpg
   author: Baran Ivo
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg
-  alt: Photo of a DVD drive's optical head moved by a small lead screw and stepper motor
+  alt: The inside of a DVD drive, where a thin lead screw turned by a small motor moves the laser head along its rails.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: lead-screw-and-nut-f45143.webp
+  title: Contrapteur lasercut lead nut mount
+  author: wolf.arthur
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/49412427@N06/5761157145
+  site: Flickr via Openverse
+  alt: A threaded rod passing through a brass lead nut held in a clear laser-cut acrylic mount.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, pitch, crank, actuator, preload, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, over-constraint, repeatability--accuracy, creep, lubrication, perimeters, cure]
 ---
 
-![Photo of a DVD drive's optical head moved by a small lead screw and stepper motor](../media/lead-screw-and-nut.webp)
-
-*Picture: [Dvd pohon vozika hlavy.jpg](https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg) by Baran Ivo, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/lead-screw-and-nut.svg"><img src="../media/drawn/anim/lead-screw-and-nut.svg" alt="Animated: lead screw and nut: turning the handwheel turns a threaded rod, and a nut fixed in a carriage that slides on a guide rail moves along by one lead for every turn; two close-ups show the small gap between nut and screw threads (backlash) and a spring-loaded two-part nut that presses on both "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lead-screw-and-nut.webp" alt="The inside of a DVD drive, where a thin lead screw turned by a small motor moves the laser head along its rails." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg">Dvd pohon vozika hlavy</a> by Baran Ivo, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lead-screw-and-nut-f45143.webp" alt="A threaded rod passing through a brass lead nut held in a clear laser-cut acrylic mount." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/49412427@N06/5761157145">Contrapteur lasercut lead nut mount</a> by wolf.arthur, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+</div>
 
 Turning a threaded rod (the lead screw) moves a nut that is kept from spinning along the rod in a straight line, trading speed for a lot of pushing force; fine threads hold their place, and a spring-loaded anti-backlash nut removes the wobble when the direction changes.
 

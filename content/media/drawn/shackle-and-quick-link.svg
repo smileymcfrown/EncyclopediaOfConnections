@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A screw-pin D-shackle and a quick link: the shackle's pin is unscrewed and slid out so a rope eye can be put on or taken off, then screwed back in to close the bow; the quick link's threaded sleeve screws down to open the gap in the link and back up over the gap until no thread shows.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<ellipse cx="310" cy="352" rx="22" ry="42" fill="none" stroke="#222" stroke-width="16"/><ellipse cx="310" cy="352" rx="22" ry="42" fill="none" stroke="#cfe3f5" stroke-width="10"/>
+<path d="M240,128 V250 A70,70 0 0 0 380,250 V128" fill="none" stroke="#222" stroke-width="26"/><path d="M240,128 V250 A70,70 0 0 0 380,250 V128" fill="none" stroke="#e8e8e8" stroke-width="20"/>
+<g><path d="M298,-5 V110 A12,12 0 0 0 322,110 V-5" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M298,20 L322,34 M298,48 L322,62 M298,76 L322,90" stroke="#b5651d" stroke-width="2"/></g>
+<rect x="225" y="88" width="30" height="46" rx="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/><rect x="365" y="88" width="30" height="46" rx="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g><rect x="225" y="101" width="177" height="18" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/><path d="M368,119 L374,101 M375,119 L381,101 M382,119 L388,101 M389,119 L395,101 M396,119 L402,101" stroke="#222" stroke-width="1.8"/><rect x="205" y="92" width="20" height="36" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="192" cy="110" r="13" fill="none" stroke="#222" stroke-width="9"/><circle cx="192" cy="110" r="13" fill="none" stroke="#cfe3f5" stroke-width="4"/><g><path d="M214,82 A7,30 0 1 0 220,140" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g></g>
+<path d="M178,84 H118" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="440" y1="30" x2="440" y2="400" stroke="#cccccc" stroke-width="2"/>
+<path d="M520,140 V340 A40,40 0 0 0 600,340 V235 M600,205 V140 A40,40 0 0 0 520,140" fill="none" stroke="#222" stroke-width="22"/><path d="M520,140 V340 A40,40 0 0 0 600,340 V235 M600,205 V140 A40,40 0 0 0 520,140" fill="none" stroke="#e8e8e8" stroke-width="16"/>
+<path d="M593,190 L607,184 M593,196 L607,190 M593,202 L607,196 M593,242 L607,236 M593,248 L607,242 M593,254 L607,248 M593,260 L607,254" stroke="#222" stroke-width="1.8"/>
+<g><rect x="585" y="178" width="30" height="84" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/><path d="M590,190 H610 M590,250 H610" stroke="#222" stroke-width="1.5"/><g><path d="M632,196 A30,8 0 1 1 620,212" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g></g>
+<path d="M680,232 L604,222" stroke="#222" stroke-width="1.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="40" y="40">screw pin:</text><text x="40" y="62">unscrew, slide out</text>
+<text x="335" y="30">rope eye</text>
+<text x="310" y="225" text-anchor="middle">bow</text>
+<text x="344" y="412">chain</text>
+<text x="640" y="150">threaded</text><text x="640" y="172">sleeve</text>
+<text x="686" y="238">gap</text>
+<text x="610" y="412" text-anchor="middle">Closed when no thread shows</text>
+<text x="400" y="440" text-anchor="middle">Pull in line for full strength · a 90° sideways pull leaves about half</text>
+</g>
+</svg>

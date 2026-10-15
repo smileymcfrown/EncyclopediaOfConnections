@@ -136,22 +136,46 @@ sources:
 research: research/connection-types/results/Solder_sleeve_solderseal_splice.json
 image:
   file: solder-sleeve.webp
-  width: 800
-  height: 199
   title: File:Geschrumpfter Lötverbinder auf Litzendraht.JPG
   author: 'Photograph: wdwd'
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Geschrumpfter_L%C3%B6tverbinder_auf_Litzendraht.JPG
-  alt: 'A finished solder sleeve on stranded wire: the solder area and contact ring in the middle and the two blue sealing
-    rings closed round the insulation either side'
+  alt: 'A shrunk solder sleeve on a blue stranded wire: through the clear tube the melted solder band can be seen joining
+    the wires in the middle, with a sealing ring at each end.'
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+pictures:
+- file: solder-sleeve.webp
+  title: File:Geschrumpfter Lötverbinder auf Litzendraht.JPG
+  author: 'Photograph: wdwd'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Geschrumpfter_L%C3%B6tverbinder_auf_Litzendraht.JPG
+  alt: 'A shrunk solder sleeve on a blue stranded wire: through the clear tube the melted solder band can be seen joining
+    the wires in the middle, with a sealing ring at each end.'
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: solder-sleeve-a7723d.webp
+  title: File:Lötverbinder versch Durchmesser.JPG
+  author: 'Photograph: wdwd'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:L%C3%B6tverbinder_versch_Durchmesser.JPG
+  site: Wikimedia Commons
+  alt: Four unused solder sleeves of different sizes, each a clear tube with a grey solder ring in the middle and a coloured
+    glue ring at each end.
+  kind: photo
   drawn: false
 glossary: [coaxial, form-fit--force-fit--material-bond, chamfer--fillet, creep, fatigue, print-in-place, peel-vs-shear, gland]
 ---
 
-![A finished solder sleeve on stranded wire: the solder area and contact ring in the middle and the two blue sealing rings closed round the insulation either side](../media/solder-sleeve.webp)
-
-*Picture: [Geschrumpfter Lötverbinder auf Litzendraht.JPG](https://commons.wikimedia.org/wiki/File:Geschrumpfter_L%C3%B6tverbinder_auf_Litzendraht.JPG) by Photograph: wdwd, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/solder-sleeve.webp" alt="A shrunk solder sleeve on a blue stranded wire: through the clear tube the melted solder band can be seen joining the wires in the middle, with a sealing ring at each end."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Geschrumpfter_L%C3%B6tverbinder_auf_Litzendraht.JPG">Geschrumpfter Lötverbinder auf Litzendraht</a> by Photograph: wdwd, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/solder-sleeve-a7723d.webp" alt="Four unused solder sleeves of different sizes, each a clear tube with a grey solder ring in the middle and a coloured glue ring at each end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:L%C3%B6tverbinder_versch_Durchmesser.JPG">Lötverbinder versch Durchmesser</a> by Photograph: wdwd, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A clear heat-shrink tube with a built-in ring of flux-cored solder and two rings of hot-melt glue: heated with a hot-air gun over two overlapped bare wire ends, the solder melts into the wires while the tube shrinks and the glue seals onto the insulation, giving a soldered, insulated, splash-proof splice you can inspect through the tube.
 

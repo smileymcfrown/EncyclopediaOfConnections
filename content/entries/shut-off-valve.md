@@ -148,23 +148,39 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Tap.png
 research: research/connection-types/results/Shutoff_valve_tap_ball_valve_stopcock.json
 image:
-  file: shut-off-valve.webp
-  width: 400
-  height: 606
+  file: drawn/anim/shut-off-valve.svg
+  alt: 'Animated top cut-away view of a ball valve in a water pipe: the ball has a hole through it; with the lever along the
+    pipe the hole lines up and water flows, and a quarter turn of the lever turns the solid side of the ball to face the pipe,
+    pressed against soft seats, so the flow stops.'
+  drawn: true
+  still: drawn/shut-off-valve.svg
+  kind: animation
+pictures:
+- file: drawn/anim/shut-off-valve.svg
+  alt: 'Animated top cut-away view of a ball valve in a water pipe: the ball has a hole through it; with the lever along the
+    pipe the hole lines up and water flows, and a quarter turn of the lever turns the solid side of the ball to face the pipe,
+    pressed against soft seats, so the flow stops.'
+  drawn: true
+  still: drawn/shut-off-valve.svg
+  kind: animation
+- file: shut-off-valve.webp
   title: File:Ball.PNG
   author: Ruben Castelnuovo (myself)
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Ball.PNG
-  alt: Cutaway of a simple manual ball valve with its body, seat/head, ball, lever handle and stem labelled
+  alt: 'Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body.'
+  site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [misalignment, actuator, solenoid, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, brittle--ductile,
   perimeters, infill, print-in-place, o-ring, check-valve, regulator, water-hammer]
 ---
 
-![Cutaway of a simple manual ball valve with its body, seat/head, ball, lever handle and stem labelled](../media/shut-off-valve.webp)
-
-*Picture: [Ball.PNG](https://commons.wikimedia.org/wiki/File:Ball.PNG) by Ruben Castelnuovo (myself), [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/shut-off-valve.svg"><img src="../media/drawn/anim/shut-off-valve.svg" alt="Animated top cut-away view of a ball valve in a water pipe: the ball has a hole through it; with the lever along the pipe the hole lines up and water flows, and a quarter turn of the lever turns the solid side of the ball to face the pipe, pressed against soft seats, so the flow stops."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shut-off-valve.webp" alt="Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ball.PNG">Ball</a> by Ruben Castelnuovo (myself), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hand-operated valve fitted into a pipe or tube that is normally either fully open or fully shut: turning the handle swings a drilled ball or plug a quarter turn, or screws a gate or a rubber-faced plug down onto a seat, so you can turn a water, air, gas or vacuum line on and off or isolate part of a system for repair.
 

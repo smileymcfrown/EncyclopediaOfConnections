@@ -131,18 +131,43 @@ sources:
 - https://www.mcmaster.com/products/dovetail-slides/
 research: research/connection-types/results/Dovetail_slide_with_gib_strip_dovetail_ways.json
 image:
-  file: drawn/dovetail-slide-with-gib-strip.svg
+  file: drawn/anim/dovetail-slide-with-gib-strip.svg
   alt: 'Left: end view of a dovetail slide, with the carriage wrapped round the fixed angled rail and a thin gib strip filling
     the gap on one side, pushed in by a screw. Right: top view of a tapered gib, a long thin wedge that an end screw slides
-    along to make the fit tighter by a tiny amount.'
+    along to make the fit tighter by a tiny amount. The animation backs the screws out so the carriage has side play and wobbles,
+    then screws them in to push the gib home so the wobble stops; from above, the tapered gib slides back and forth with its
+    end screw.'
   drawn: true
+  still: drawn/dovetail-slide-with-gib-strip.svg
+  kind: animation
+pictures:
+- file: drawn/anim/dovetail-slide-with-gib-strip.svg
+  alt: 'Left: end view of a dovetail slide, with the carriage wrapped round the fixed angled rail and a thin gib strip filling
+    the gap on one side, pushed in by a screw. Right: top view of a tapered gib, a long thin wedge that an end screw slides
+    along to make the fit tighter by a tiny amount. The animation backs the screws out so the carriage has side play and wobbles,
+    then screws them in to push the gib home so the wobble stops; from above, the tapered gib slides back and forth with its
+    end screw.'
+  drawn: true
+  still: drawn/dovetail-slide-with-gib-strip.svg
+  kind: animation
+- file: dovetail-slide-with-gib-strip.webp
+  title: File:Schwalbenschwanz2.jpg
+  author: Kolossos
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Schwalbenschwanz2.jpg
+  site: Wikimedia Commons
+  alt: The angled dovetail track on a cast-iron machine bed, with the sloping sides that a carriage wraps round.
+  kind: photo
+  drawn: false
 glossary: [misalignment, stiffness, flexure, stick-slip, clearance, form-fit--force-fit--material-bond, set-screw, taper,
   chamfer--fillet, repeatability--accuracy, creep, perimeters, infill, overhang--bridging]
 ---
 
-![Left: end view of a dovetail slide, with the carriage wrapped round the fixed angled rail and a thin gib strip filling the gap on one side, pushed in by a screw. Right: top view of a tapered gib, a lo](../media/drawn/dovetail-slide-with-gib-strip.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/dovetail-slide-with-gib-strip.svg"><img src="../media/drawn/anim/dovetail-slide-with-gib-strip.svg" alt="Left: end view of a dovetail slide, with the carriage wrapped round the fixed angled rail and a thin gib strip filling the gap on one side, pushed in by a screw. Right: top view of a tapered gib, a long thin wedge that an end screw slides along to make the fit tighter by a tiny amount. The animation"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dovetail-slide-with-gib-strip.webp" alt="The angled dovetail track on a cast-iron machine bed, with the sloping sides that a carriage wraps round." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Schwalbenschwanz2.jpg">Schwalbenschwanz2</a> by Kolossos, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A carriage with angled (dovetail) edges slides along a matching angled track that stops it lifting off or rocking, and a thin strip (the gib), pushed in by screws or slid along as a wedge, takes up the play so it slides snugly without wobble and can be re-tightened as it wears.
 

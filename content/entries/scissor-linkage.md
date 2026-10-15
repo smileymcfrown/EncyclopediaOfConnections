@@ -132,23 +132,47 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Scissor_linkage_lazy_tongs_scissor_lift.json
 image:
-  file: scissor-linkage.webp
-  width: 800
-  height: 558
+  file: scissor-linkage-826142.webp
+  title: File:Pantograph Mirror.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif
+  site: Wikimedia Commons
+  alt: An animation of a wall mirror on a folding scissor arm, the crossed bars stretching out and folding back flat.
+  kind: animation
+  still: scissor-linkage-826142.still.webp
+  drawn: false
+pictures:
+- file: scissor-linkage-826142.webp
+  title: File:Pantograph Mirror.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif
+  site: Wikimedia Commons
+  alt: An animation of a wall mirror on a folding scissor arm, the crossed bars stretching out and folding back flat.
+  kind: animation
+  still: scissor-linkage-826142.still.webp
+  drawn: false
+- file: scissor-linkage.webp
   title: File:TL 2000 scissor lift.jpg
   author: Edmolift AB
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg
-  alt: A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.
+  alt: An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform.
+  site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, stroke, crank, linkage, actuator, clearance, form-fit--force-fit--material-bond, circlip, creep,
   infill, print-in-place, peel-vs-shear]
 ---
 
-![A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.](../media/scissor-linkage.webp)
-
-*Picture: [TL 2000 scissor lift.jpg](https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg) by Edmolift AB, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/scissor-linkage-826142.still.webp"><img src="../media/scissor-linkage-826142.webp" alt="An animation of a wall mirror on a folding scissor arm, the crossed bars stretching out and folding back flat."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pantograph_Mirror.gif">Pantograph Mirror</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/scissor-linkage.webp" alt="An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg">TL 2000 scissor lift</a> by Edmolift AB, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Pairs of bars crossed in an X and pinned at their middles and ends form a chain that folds and unfolds as one piece, so a short push, pull or squeeze at one end becomes a much longer extension at the other, as in scissor lifts, car jacks, extending mirrors and grabber toys.
 

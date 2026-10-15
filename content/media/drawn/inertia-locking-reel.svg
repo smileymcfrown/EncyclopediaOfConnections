@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Inertia-locking reel seen from the side: a spring-return spool with a ratchet wheel, a small flyweight on the spool held in by a spring, and a pawl on the frame; a slow pull lets the spool turn freely, but a sudden jerk flings the flyweight out, which tips the pawl into the ratchet teeth and stops the spool.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="150" y="80" width="70" height="16" fill="url(#hatch)" stroke="#222" stroke-width="3"/><rect x="183" y="96" width="14" height="10" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<rect x="260" y="336" width="540" height="12" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<line x1="260" y1="342" x2="800" y2="342" stroke="#5a7ea0" stroke-width="3" stroke-dasharray="6 24" stroke-dashoffset="0" stroke-linecap="butt"></line>
+<circle cx="260" cy="230" r="112" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="260" cy="230" r="104" fill="none" stroke="#5a7ea0" stroke-width="1.5"/><circle cx="260" cy="230" r="96" fill="none" stroke="#5a7ea0" stroke-width="1.5"/>
+<g><polygon points="336,230 350,232.4 325.8,268 336.7,277 298,295.8 302.9,309.1 260,306 257.6,320 222,295.8 213,306.7 194.2,268 180.9,272.9 184,230 170,227.6 194.2,192 183.3,183 222,164.2 217.1,150.9 260,154 262.4,140 298,164.2 307,153.3 325.8,192 339.1,187.1" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="260" cy="230" r="14" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/><rect x="294" y="230" width="8" height="8" fill="#222"/><polyline points="298,234 291.9,235 299.2,242.7 288.7,241.5 296,249.2 285.4,248 292.7,255.7 282.2,254.5 285,260" fill="none" stroke="#222" stroke-width="2.5"></polyline><g><line x1="225" y1="250" x2="285" y2="270" stroke="#222" stroke-width="7"/><line x1="225" y1="250" x2="285" y2="270" stroke="#fde2c4" stroke-width="3"/><circle cx="285" cy="270" r="13" fill="#fde2c4" stroke="#222" stroke-width="3"/></g><circle cx="225" cy="250" r="5" fill="#fff" stroke="#222" stroke-width="2"/><circle cx="225" cy="250" r="1.8" fill="#222"/></g>
+<g transform="rotate(-15 190 105)"><path d="M182,99 L255.4,138 L262.4,151 L194,117 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/></g><circle cx="190" cy="105" r="6" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="190" cy="105" r="2" fill="#222"/>
+<line x1="620" y1="318" x2="680" y2="318" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="142" y="128" text-anchor="end">pawl</text>
+<text x="350" y="150">ratchet teeth</text>
+<text x="380" y="245">orange flyweight, held</text><text x="380" y="267">in by a small spring</text>
+<text x="260" y="384" text-anchor="middle">spring-return spool</text>
+<text x="700" y="384" text-anchor="middle">strap</text>
+<text x="580" y="80" text-anchor="middle" font-weight="bold" font-size="20">Slow pull: the spool turns freely</text>
+<text x="400" y="430" text-anchor="middle">Car versions use a swinging pendulum or ball that tips the pawl in during a hard stop</text>
+</g>
+</svg>

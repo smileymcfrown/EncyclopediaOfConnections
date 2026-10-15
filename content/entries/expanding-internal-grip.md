@@ -152,13 +152,31 @@ image:
     a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it swells outward and grips the inside
     of the tube.'
   drawn: true
+pictures:
+- file: drawn/expanding-internal-grip.svg
+  alt: 'Cut-away of an expanding mandrel inside a tube: on the left the slotted sleeve sits loose on the tapered bar with
+    a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it swells outward and grips the inside
+    of the tube.'
+  drawn: true
+- file: expanding-internal-grip.webp
+  title: File:Airshaft closeup.jpg
+  author: Alexander Davronov
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Airshaft_closeup.jpg
+  site: Wikimedia Commons
+  alt: The end of an air shaft, a metal shaft with an air valve that is pumped up so strips along its length push out and
+    grip the inside of a roll's core.
+  kind: photo
+  drawn: false
 glossary: [misalignment, self-locking, axial--radial, linkage, actuator, fail-safe--fail-secure, cantilever, tolerance, form-fit--force-fit--material-bond,
   spline, taper, collet, captive-nut, creep, perimeters, infill, o-ring, regulator]
 ---
 
-![Cut-away of an expanding mandrel inside a tube: on the left the slotted sleeve sits loose on the tapered bar with a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it ](../media/drawn/expanding-internal-grip.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/expanding-internal-grip.svg" alt="Cut-away of an expanding mandrel inside a tube: on the left the slotted sleeve sits loose on the tapered bar with a gap to the tube wall; on the right the nut has pushed the sleeve up the taper so it swells outward and grips the inside of the tube."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/expanding-internal-grip.webp" alt="The end of an air shaft, a metal shaft with an air valve that is pumped up so strips along its length push out and grip the inside of a roll&#x27;s core." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Airshaft_closeup.jpg">Airshaft closeup</a> by Alexander Davronov, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A plug or set of fingers goes into a hole, tube or ring and is made to grow outward, by a cone or wedge, a screw-driven [linkage](../glossary.md#linkage) or an inflated rubber bladder, so friction against the inside wall holds and centres the part, and shrinking it again lets the part go.
 

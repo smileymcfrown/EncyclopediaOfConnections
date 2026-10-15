@@ -130,23 +130,46 @@ sources:
 research: research/connection-types/results/Levercam_panel_connector_selfclamping_click_connector.json
 image:
   file: lever-cam-panel-connector.webp
-  width: 800
-  height: 1157
   title: File:Clamex offen.jpg
   author: böhringer friedrich
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg
-  alt: See-through 3D drawing of a lever connector's two biscuit-shaped halves apart, with the green lever folded down inside
-    one half and its hex socket visible
+  alt: A see-through render of a lever-cam connector in two panel edges, the green cam lever swung open so the panels can
+    part.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+pictures:
+- file: lever-cam-panel-connector.webp
+  title: File:Clamex offen.jpg
+  author: böhringer friedrich
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg
+  alt: A see-through render of a lever-cam connector in two panel edges, the green cam lever swung open so the panels can
+    part.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: lever-cam-panel-connector-d62773.webp
+  title: File:Clamex geschlossen.jpg
+  author: böhringer friedrich
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Clamex_geschlossen.jpg
+  site: Wikimedia Commons
+  alt: The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels tight together.
+  kind: how-it-works
   drawn: false
 glossary: [over-centre, preload, tolerance, form-fit--force-fit--material-bond, captive-nut, undercut, perimeters, infill,
   peel-vs-shear]
 ---
 
-![See-through 3D drawing of a lever connector's two biscuit-shaped halves apart, with the green lever folded down inside one half and its hex socket visible](../media/lever-cam-panel-connector.webp)
-
-*Picture: [Clamex offen.jpg](https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg) by böhringer friedrich, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/lever-cam-panel-connector.webp" alt="A see-through render of a lever-cam connector in two panel edges, the green cam lever swung open so the panels can part."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg">Clamex offen</a> by böhringer friedrich, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lever-cam-panel-connector-d62773.webp" alt="The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels tight together." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clamex_geschlossen.jpg">Clamex geschlossen</a> by böhringer friedrich, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pair of biscuit-shaped fittings pushed into matching [undercut](../glossary.md#undercut) slots in two panels; a cam lever turned with an Allen key through a 6 mm hole (or built-in springs) hooks the halves together and pulls the joint tight, invisibly and at almost any angle.
 

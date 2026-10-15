@@ -133,23 +133,47 @@ sources:
 research: research/connection-types/results/Iris_mechanism.json
 image:
   file: iris-mechanism.webp
-  width: 672
-  height: 607
   title: File:Iris Diaphragm.gif
   author: User:Catsquisher
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif
-  alt: Animation of a 9-blade camera-lens iris diaphragm opening and closing
-  animated: true
+  alt: Nine thin curved blades swing inwards together to shrink a round opening, then outwards to open it again.
+  site: Wikimedia Commons
+  still: iris-mechanism.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: iris-mechanism.webp
+  title: File:Iris Diaphragm.gif
+  author: User:Catsquisher
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif
+  alt: Nine thin curved blades swing inwards together to shrink a round opening, then outwards to open it again.
+  site: Wikimedia Commons
+  still: iris-mechanism.still.webp
+  kind: animation
+  drawn: false
+- file: iris-mechanism-901a78.webp
+  title: File:Irisblende Zuiko MC 50 1.8.gif
+  author: (c) Rudolfo42
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Irisblende_Zuiko_MC_50_1.8.gif
+  site: Wikimedia Commons
+  alt: A real camera lens seen from the front, its metal iris blades closing down and opening up the hole in the middle.
+  kind: how-it-works
+  still: iris-mechanism-901a78.still.webp
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, detent, crank, linkage, stiffness, clearance, form-fit--force-fit--material-bond,
   collet, repeatability--accuracy, print-in-place, elephants-foot, warping--shrinkage, peel-vs-shear]
 ---
 
-![Animation of a 9-blade camera-lens iris diaphragm opening and closing](../media/iris-mechanism.webp)
-
-*Picture: [Iris Diaphragm.gif](https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif) by User:Catsquisher, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/iris-mechanism.still.webp"><img src="../media/iris-mechanism.webp" alt="Nine thin curved blades swing inwards together to shrink a round opening, then outwards to open it again."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Iris_Diaphragm.gif">Iris Diaphragm</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/iris-mechanism-901a78.still.webp"><img src="../media/iris-mechanism-901a78.webp" alt="A real camera lens seen from the front, its metal iris blades closing down and opening up the hole in the middle." loading="lazy"></picture><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Irisblende_Zuiko_MC_50_1.8.gif">Irisblende Zuiko MC 50 1.8</a> by (c) Rudolfo42, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Several thin, curved blades are each pivoted on one ring and steered by a pin in a slot (or a small link or gear) on a second ring, so turning one ring swings all the blades inward or outward together and makes a central round opening smaller or larger.
 

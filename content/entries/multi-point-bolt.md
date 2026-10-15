@@ -153,23 +153,64 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Multipoint_bolt_espagnolette_crmone_bolt_lock_rods.json
 image:
-  file: multi-point-bolt.webp
-  width: 557
-  height: 742
+  file: drawn/anim/multi-point-bolt.svg
+  alt: 'A multi-point bolt (cremone bolt) on a tall door: in the animation the knob turns, the small gear inside the gearbox
+    drives one toothed bar up and the other down by the same amount, so one rod slides up into the head of the frame and the
+    other down into the sill; then it turns back to unlock.'
+  drawn: true
+  still: drawn/multi-point-bolt.svg
+  kind: animation
+pictures:
+- file: drawn/anim/multi-point-bolt.svg
+  alt: 'A multi-point bolt (cremone bolt) on a tall door: in the animation the knob turns, the small gear inside the gearbox
+    drives one toothed bar up and the other down by the same amount, so one rod slides up into the head of the frame and the
+    other down into the sill; then it turns back to unlock.'
+  drawn: true
+  still: drawn/multi-point-bolt.svg
+  kind: animation
+- file: multi-point-bolt.webp
   title: File:Crémone.jpg
   author: Neri.jp
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg
-  alt: 'Rear of a crémone bolt gearbox: the knob turns a pinion that pushes two racks and their half-round rods up and down'
+  alt: A crémone bolt on a window frame with its cover off, showing the small gear between two toothed rods that slide up
+    and down.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: multi-point-bolt-6ae2a4.webp
+  title: File:Mottura 556 6l dblebit rim mpl (2).jpg
+  author: CHUBBBRAMAH
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Mottura_556_6l_dblebit_rim_mpl_(2).jpg
+  site: Wikimedia Commons
+  alt: A multipoint mortice lock opened up on a cutting mat, showing the bolts that shoot out sideways and the rod connections
+    that throw bolts up and down.
+  kind: how-it-works
+  drawn: false
+- file: multi-point-bolt-bbdbec.webp
+  title: File:Espagnolette.JPG
+  author: Nerijp
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Espagnolette.JPG
+  site: Wikimedia Commons
+  alt: An espagnolette on a pair of shutters, a long rod with a hook at each end that turns to lock the top and bottom at
+    once.
+  kind: photo
   drawn: false
 glossary: [misalignment, over-centre, detent, pitch, linkage, stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet,
   creep, infill, print-in-place, cure, peel-vs-shear]
 ---
 
-![Rear of a crémone bolt gearbox: the knob turns a pinion that pushes two racks and their half-round rods up and down](../media/multi-point-bolt.webp)
-
-*Picture: [Crémone.jpg](https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg) by Neri.jp, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/multi-point-bolt.svg"><img src="../media/drawn/anim/multi-point-bolt.svg" alt="A multi-point bolt (cremone bolt) on a tall door: in the animation the knob turns, the small gear inside the gearbox drives one toothed bar up and the other down by the same amount, so one rod slides up into the head of the frame and the other down into the sill; then it turns back to unlock."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/multi-point-bolt.webp" alt="A crémone bolt on a window frame with its cover off, showing the small gear between two toothed rods that slide up and down." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cr%C3%A9mone.jpg">Crémone</a> by Neri.jp, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/multi-point-bolt-6ae2a4.webp" alt="A multipoint mortice lock opened up on a cutting mat, showing the bolts that shoot out sideways and the rod connections that throw bolts up and down." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mottura_556_6l_dblebit_rim_mpl_(2).jpg">Mottura 556 6l dblebit rim mpl (2)</a> by CHUBBBRAMAH, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/multi-point-bolt-bbdbec.webp" alt="An espagnolette on a pair of shutters, a long rod with a hook at each end that turns to lock the top and bottom at once." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Espagnolette.JPG">Espagnolette</a> by Nerijp, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A multi-point bolt ties two or more bolts to one handle, through a turning rod with hooked or cam ends or a small gear driving toothed bars, so a single movement locks a tall door, a pair of doors or a big lid at the top, the bottom and sometimes the sides.
 

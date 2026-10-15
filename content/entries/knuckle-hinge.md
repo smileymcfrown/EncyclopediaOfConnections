@@ -138,23 +138,59 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Knuckle_hinge_butt_hinge.json
 image:
-  file: knuckle-hinge.webp
-  width: 800
-  height: 513
+  file: drawn/anim/knuckle-hinge.svg
+  alt: 'A knuckle hinge: in front view the knuckles of the frame leaf and the door leaf alternate along one pin; the animation
+    swings the door leaf about the pin through 180 degrees and back, seen from the front and looking down the pin.'
+  drawn: true
+  still: drawn/knuckle-hinge.svg
+  kind: animation
+pictures:
+- file: drawn/anim/knuckle-hinge.svg
+  alt: 'A knuckle hinge: in front view the knuckles of the frame leaf and the door leaf alternate along one pin; the animation
+    swings the door leaf about the pin through 180 degrees and back, seen from the front and looking down the pin.'
+  drawn: true
+  still: drawn/knuckle-hinge.svg
+  kind: animation
+- file: knuckle-hinge.webp
   title: File:Butt Hinge annotated.jpg
   author: JonRichfield
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg
-  alt: An annotated photo of a butt hinge with its parts labelled; also used to illustrate a revolute joint
+  alt: A steel butt hinge with labels pointing to its two leaves, the interlocking knuckles and the pin running through them.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: knuckle-hinge-c826cc.webp
+  title: File:After using a butt marker to chisel out hole for door hinge.JPG
+  author: Tomwsulcer
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:After_using_a_butt_marker_to_chisel_out_hole_for_door_hinge.JPG
+  site: Wikimedia Commons
+  alt: A butt hinge screwed into a shallow chiselled recess in a door edge, its knuckles sticking out past the edge.
+  kind: how-it-works
+  drawn: false
+- file: knuckle-hinge-ade01a.webp
+  title: File:Hamburgerpaumelle.JPG
+  author: Sindala
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Hamburgerpaumelle.JPG
+  site: Wikimedia Commons
+  alt: A lift-off steel hinge with two knuckles on a single pin, so the door leaf can be lifted off the frame leaf.
+  kind: photo
   drawn: false
 glossary: [misalignment, detent, torque, pitch, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   pilot-hole, creep, perimeters, infill, print-in-place, peel-vs-shear]
 ---
 
-![An annotated photo of a butt hinge with its parts labelled; also used to illustrate a revolute joint](../media/knuckle-hinge.webp)
-
-*Picture: [Butt Hinge annotated.jpg](https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg) by JonRichfield, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/knuckle-hinge.svg"><img src="../media/drawn/anim/knuckle-hinge.svg" alt="A knuckle hinge: in front view the knuckles of the frame leaf and the door leaf alternate along one pin; the animation swings the door leaf about the pin through 180 degrees and back, seen from the front and looking down the pin."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/knuckle-hinge.webp" alt="A steel butt hinge with labels pointing to its two leaves, the interlocking knuckles and the pin running through them." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Butt_Hinge_annotated.jpg">Butt Hinge annotated</a> by JonRichfield, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/knuckle-hinge-c826cc.webp" alt="A butt hinge screwed into a shallow chiselled recess in a door edge, its knuckles sticking out past the edge." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:After_using_a_butt_marker_to_chisel_out_hole_for_door_hinge.JPG">After using a butt marker to chisel out hole for door hinge</a> by Tomwsulcer, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/knuckle-hinge-ade01a.webp" alt="A lift-off steel hinge with two knuckles on a single pin, so the door leaf can be lifted off the frame leaf." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hamburgerpaumelle.JPG">Hamburgerpaumelle</a> by Sindala, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two leaves with interlocking rings (knuckles) along one edge share a single pin, so a door, lid or flap can swing about that pin while the hinge carries its weight.
 

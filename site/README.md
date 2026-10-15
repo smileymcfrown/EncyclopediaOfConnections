@@ -34,7 +34,8 @@ from their family page, the finder or search, which keeps every page small.
 
 `.github/workflows/check.yml` runs on every pull request and on pushes to `main`. It runs the
 finder test, makes and checks the entry pages, exports the finder data and builds the site.
-`.github/workflows/deploy.yml` publishes the site to GitHub Pages, but only when started by hand
-(Actions → Deploy site → Run workflow). This is decision D20 in `PROJECT.md`. Before the first run,
-set **Settings → Pages → Source** to **GitHub Actions**. To publish on every push to `main`, add a
-`push` trigger to the workflow.
+`.github/workflows/deploy.yml` publishes the site to GitHub Pages on every push to `main`, so a
+merged pull request goes live by itself in a few minutes (decision D34 in `PROJECT.md`, replacing
+D20's publishing by hand). It can also be started by hand: Actions → Deploy site → **Run workflow**
+(not *Re-run*, which publishes that old run's commit again). It needs **Settings → Pages → Source**
+set to **GitHub Actions**, which is done.

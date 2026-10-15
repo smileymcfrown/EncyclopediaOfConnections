@@ -138,24 +138,37 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Kerf_bending_lasercut_living_hinge.json
 image:
-  file: kerf-bending.webp
-  width: 800
-  height: 598
+  file: drawn/anim/kerf-bending.svg
+  alt: 'Kerf bending, shown moving: the board with saw cuts on its back flattens out and bends again, the cuts opening and
+    closing like hinges, while the laser-cut sheet curves and straightens and each thin bar between its cuts twists a little.'
+  drawn: true
+  still: drawn/kerf-bending.svg
+  kind: animation
+pictures:
+- file: drawn/anim/kerf-bending.svg
+  alt: 'Kerf bending, shown moving: the board with saw cuts on its back flattens out and bends again, the cuts opening and
+    closing like hinges, while the laser-cut sheet curves and straightens and each thin bar between its cuts twists a little.'
+  drawn: true
+  still: drawn/kerf-bending.svg
+  kind: animation
+- file: kerf-bending.webp
   title: File:Living hinge (wood).jpg
   author: Autopilot
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg
-  alt: A laser-cut plywood box whose rounded wall is a kerf-cut living hinge, with finger joints at the edges; used on the
-    Wikipedia 'Living hinge' article
+  alt: A laser-cut plywood box whose side is cut with rows of fine slits so the wood bends round the curved corners.
+  site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [stiffness, flexure, living-hinge, torsion, clearance, form-fit--force-fit--material-bond, repeatability--accuracy,
   creep, fatigue, brittle--ductile, kerf, peel-vs-shear]
 ---
 
-![A laser-cut plywood box whose rounded wall is a kerf-cut living hinge, with finger joints at the edges; used on the Wikipedia 'Living hinge' article](../media/kerf-bending.webp)
-
-*Picture: [Living hinge (wood).jpg](https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg) by Autopilot, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/kerf-bending.svg"><img src="../media/drawn/anim/kerf-bending.svg" alt="Kerf bending, shown moving: the board with saw cuts on its back flattens out and bends again, the cuts opening and closing like hinges, while the laser-cut sheet curves and straightens and each thin bar between its cuts twists a little."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/kerf-bending.webp" alt="A laser-cut plywood box whose side is cut with rows of fine slits so the wood bends round the curved corners." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg">Living hinge (wood)</a> by Autopilot, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Cutting many closely spaced slots, or a lattice of short cuts, into a stiff sheet so the thin strips left between them can bend or twist, letting the sheet curve around a form or flex like a hinge while staying in one piece.
 

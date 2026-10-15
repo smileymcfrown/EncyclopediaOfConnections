@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A lamina emergent torsional joint: on the left, a flat sheet seen from above with slots cut so two panels are joined only by four thin torsion bars and two end pieces; on the right, an end view folded to 60 degrees with the end piece turned half that, and a spring diagram of two bars and an end piece in series, in two rows side by side. Animated: the end view unfolds to flat and folds back to 60 degrees, the end piece always turning half as far.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="415" y1="20" x2="415" y2="430" stroke="#cccccc" stroke-width="2"/>
+<!-- top view -->
+<rect x="30" y="70" width="140" height="320" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="250" y="70" width="140" height="320" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<path d="M180,70 H240 V390 H180 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="170" y="210" width="10" height="40" fill="#cfe3f5"/>
+<rect x="240" y="210" width="10" height="40" fill="#d8f0d2"/>
+<line x1="170" y1="210" x2="180" y2="210" stroke="#222" stroke-width="3"/>
+<line x1="170" y1="250" x2="180" y2="250" stroke="#222" stroke-width="3"/>
+<line x1="240" y1="210" x2="250" y2="210" stroke="#222" stroke-width="3"/>
+<line x1="240" y1="250" x2="250" y2="250" stroke="#222" stroke-width="3"/>
+<g fill="#555555" stroke="#222" stroke-width="2">
+<rect x="198" y="88" width="24" height="284"/>
+<rect x="170" y="70" width="10" height="140"/>
+<rect x="170" y="250" width="10" height="140"/>
+<rect x="240" y="70" width="10" height="140"/>
+<rect x="240" y="250" width="10" height="140"/>
+</g>
+<line x1="210" y1="52" x2="210" y2="408" stroke="#222" stroke-width="2" stroke-dasharray="8 6"/>
+<line x1="150" y1="306" x2="186" y2="318" stroke="#222" stroke-width="2"/>
+<line x1="210" y1="400" x2="210" y2="384" stroke="#222" stroke-width="2"/>
+<!-- end view -->
+<rect x="440" y="206" width="120" height="14" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="440" y="194" width="156" height="12" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="604" y="194" width="150" height="12" fill="#d8f0d2" stroke="#222" stroke-width="3" transform="rotate(-60 600 200)"><animateTransform attributeName="transform" type="rotate" values="-60 600 200;-60 600 200;0 600 200;0 600 200;-60 600 200" keyTimes="0;0.15;0.5;0.65;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.55 1;0 0 1 1;0.45 0 0.55 1"/></rect>
+<rect x="572" y="194" width="56" height="12" fill="#fde2c4" stroke="#222" stroke-width="3" transform="rotate(-30 600 200)"><animateTransform attributeName="transform" type="rotate" values="-30 600 200;-30 600 200;0 600 200;0 600 200;-30 600 200" keyTimes="0;0.15;0.5;0.65;1" dur="4s" repeatCount="indefinite" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.55 1;0 0 1 1;0.45 0 0.55 1"/></rect>
+<circle cx="600" cy="200" r="3" fill="#222"/>
+<path d="M710,200 A110,110 0 0 0 655.0,104.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0.25;0.25;1;1" keyTimes="0;0.15;0.2;0.62;0.65;1" dur="4s" repeatCount="indefinite"/></path>
+<!-- spring model -->
+<rect x="440" y="305" width="12" height="105" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<rect x="758" y="305" width="12" height="105" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<polyline points="452.0,330.0 460.0,330.0 466.7,340.0 480.1,320.0 493.4,340.0 506.8,320.0 520.2,340.0 533.6,320.0 546.9,340.0 560.3,320.0 567.0,330.0 575.0,330.0" fill="none" stroke="#222" stroke-width="3"/>
+<rect x="575" y="320" width="30" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polyline points="605.0,330.0 613.0,330.0 621.6,340.0 638.7,320.0 655.8,340.0 672.9,320.0 690.1,340.0 707.2,320.0 724.3,340.0 741.4,320.0 750.0,330.0 758.0,330.0" fill="none" stroke="#222" stroke-width="3"/>
+<polyline points="452.0,388.0 460.0,388.0 466.7,398.0 480.1,378.0 493.4,398.0 506.8,378.0 520.2,398.0 533.6,378.0 546.9,398.0 560.3,378.0 567.0,388.0 575.0,388.0" fill="none" stroke="#222" stroke-width="3"/>
+<rect x="575" y="378" width="30" height="20" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<polyline points="605.0,388.0 613.0,388.0 621.6,398.0 638.7,378.0 655.8,398.0 672.9,378.0 690.1,398.0 707.2,378.0 724.3,398.0 741.4,378.0 750.0,388.0 758.0,388.0" fill="none" stroke="#222" stroke-width="3"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="20" font-weight="bold" text-anchor="middle">
+<text x="210" y="36">Top view, flat</text>
+<text x="600" y="36">End view, folded 60°</text>
+</g>
+<text x="100" y="150" text-anchor="middle">fixed panel</text>
+<text x="320" y="150" text-anchor="middle">folding panel</text>
+<text x="100" y="300" text-anchor="middle">torsion bar</text>
+<text x="210" y="426" text-anchor="middle">end piece</text>
+<text x="728" y="150">folds</text>
+<text x="612" y="250">end piece turns 30°</text>
+<text x="513" y="312" text-anchor="middle">torsion bar</text>
+<text x="590" y="366" text-anchor="middle">end piece</text>
+<text x="605" y="440" text-anchor="middle">springs in series, two rows in parallel</text>
+</g>
+</svg>

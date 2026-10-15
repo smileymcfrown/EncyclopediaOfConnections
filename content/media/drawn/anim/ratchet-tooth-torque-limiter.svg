@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two rings of lopsided teeth, drawn unrolled flat and pressed together by springs, shown moving: turning to tighten, the gentle slopes push the top ring up until it clicks over a tooth, again and again; turning to undo, the steep faces meet and both rings turn together.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<clipPath id="c1"><rect x="28.5" y="100" width="353" height="260"/></clipPath>
+<clipPath id="c2"><rect x="418.5" y="100" width="353" height="260"/></clipPath>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<!-- frame 1: tightening, overloaded; the top ring slides right, rides up the slopes and drops a tooth -->
+<rect x="30" y="112" width="350" height="18" rx="3" fill="#e8e8e8"/>
+<path d="M100,130.0 L100,136.0 L86,143.0 L114,152.0 L86,161.0 L114,170.0 L86,179.0 L114,188.0 L100,194.0 L100,200.0" fill="none"><animate attributeName="d" values="M100,130.0 L100,136.0 L86,143.0 L114,152.0 L86,161.0 L114,170.0 L86,179.0 L114,188.0 L100,194.0 L100,200.0;M100,130.0 L100,134.71 L86,140.21 L114,147.29 L86,154.36 L114,161.43 L86,168.5 L114,175.57 L100,180.29 L100,185.0;M100,130.0 L100,137.29 L86,145.79 L114,156.71 L86,167.64 L114,178.57 L86,189.5 L114,200.43 L100,207.71 L100,215.0;M100,130.0 L100,134.71 L86,140.21 L114,147.29 L86,154.36 L114,161.43 L86,168.5 L114,175.57 L100,180.29 L100,185.0;M100,130.0 L100,137.29 L86,145.79 L114,156.71 L86,167.64 L114,178.57 L86,189.5 L114,200.43 L100,207.71 L100,215.0;M100,130.0 L100,134.71 L86,140.21 L114,147.29 L86,154.36 L114,161.43 L86,168.5 L114,175.57 L100,180.29 L100,185.0;M100,130.0 L100,137.29 L86,145.79 L114,156.71 L86,167.64 L114,178.57 L86,189.5 L114,200.43 L100,207.71 L100,215.0;M100,130.0 L100,136.0 L86,143.0 L114,152.0 L86,161.0 L114,170.0 L86,179.0 L114,188.0 L100,194.0 L100,200.0" keyTimes="0;0.15417;0.17917;0.4875;0.5125;0.82083;0.84583;1" dur="6s" repeatCount="indefinite"/></path>
+<path d="M310,130.0 L310,136.0 L296,143.0 L324,152.0 L296,161.0 L324,170.0 L296,179.0 L324,188.0 L310,194.0 L310,200.0" fill="none"><animate attributeName="d" values="M310,130.0 L310,136.0 L296,143.0 L324,152.0 L296,161.0 L324,170.0 L296,179.0 L324,188.0 L310,194.0 L310,200.0;M310,130.0 L310,134.71 L296,140.21 L324,147.29 L296,154.36 L324,161.43 L296,168.5 L324,175.57 L310,180.29 L310,185.0;M310,130.0 L310,137.29 L296,145.79 L324,156.71 L296,167.64 L324,178.57 L296,189.5 L324,200.43 L310,207.71 L310,215.0;M310,130.0 L310,134.71 L296,140.21 L324,147.29 L296,154.36 L324,161.43 L296,168.5 L324,175.57 L310,180.29 L310,185.0;M310,130.0 L310,137.29 L296,145.79 L324,156.71 L296,167.64 L324,178.57 L296,189.5 L324,200.43 L310,207.71 L310,215.0;M310,130.0 L310,134.71 L296,140.21 L324,147.29 L296,154.36 L324,161.43 L296,168.5 L324,175.57 L310,180.29 L310,185.0;M310,130.0 L310,137.29 L296,145.79 L324,156.71 L296,167.64 L324,178.57 L296,189.5 L324,200.43 L310,207.71 L310,215.0;M310,130.0 L310,136.0 L296,143.0 L324,152.0 L296,161.0 L324,170.0 L296,179.0 L324,188.0 L310,194.0 L310,200.0" keyTimes="0;0.15417;0.17917;0.4875;0.5125;0.82083;0.84583;1" dur="6s" repeatCount="indefinite"/></path>
+<g clip-path="url(#c1)"><g><animateTransform attributeName="transform" type="translate" values="0 0;35 0;35 0;105 0;105 0;175 0;175 0;210 0" keyTimes="0;0.15417;0.17917;0.4875;0.5125;0.82083;0.84583;1" dur="6s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -15;0 15;0 -15;0 15;0 -15;0 15;0 0" keyTimes="0;0.15417;0.17917;0.4875;0.5125;0.82083;0.84583;1" dur="6s" repeatCount="indefinite"/><path d="M-320,200 L-320,270.0 L-285,255 L-285,285 L-215,255 L-215,285 L-145,255 L-145,285 L-75,255 L-75,285 L-5,255 L-5,285 L65,255 L65,285 L135,255 L135,285 L205,255 L205,285 L275,255 L275,285 L345,255 L345,285 L415,255 L415,285 L450,270.0 L450,200 Z" fill="#cfe3f5"/></g></g></g>
+<path d="M30,350 L30,300 L100,270 L100,300 L170,270 L170,300 L240,270 L240,300 L310,270 L310,300 L380,270 L380,350 Z" fill="#fde2c4"/>
+<g clip-path="url(#c1)"><g><animateTransform attributeName="transform" type="translate" values="0 0;35 0;35 0;105 0;105 0;175 0;175 0;210 0" keyTimes="0;0.15417;0.17917;0.4875;0.5125;0.82083;0.84583;1" dur="6s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -15;0 15;0 -15;0 15;0 -15;0 15;0 0" keyTimes="0;0.15417;0.17917;0.4875;0.5125;0.82083;0.84583;1" dur="6s" repeatCount="indefinite"/><g stroke="#d1495b" stroke-width="5"><line x1="-215" y1="285" x2="-198" y2="278"/><line x1="-145" y1="285" x2="-128" y2="278"/><line x1="-75" y1="285" x2="-58" y2="278"/><line x1="-5" y1="285" x2="12" y2="278"/><line x1="65" y1="285" x2="82" y2="278"/><line x1="135" y1="285" x2="152" y2="278"/><line x1="205" y1="285" x2="222" y2="278"/><line x1="275" y1="285" x2="292" y2="278"/><line x1="345" y1="285" x2="362" y2="278"/></g></g></g></g>
+<!-- frame 2: undoing; steep faces lock and both rings move together -->
+<rect x="420" y="112" width="350" height="18" rx="3" fill="#e8e8e8"/>
+<path d="M490,130.0 L490,137.29 L476,145.79 L504,156.71 L476,167.64 L504,178.57 L476,189.5 L504,200.43 L490,207.71 L490,215.0" fill="none"/><path d="M700,130.0 L700,137.29 L686,145.79 L714,156.71 L686,167.64 L714,178.57 L686,189.5 L714,200.43 L700,207.71 L700,215.0" fill="none"/>
+<g clip-path="url(#c2)"><g><animateTransform attributeName="transform" type="translate" values="0 0;-210 0" dur="6s" repeatCount="indefinite"/>
+<path d="M350,215 L350,282.86 L380,270 L380,300 L450,270 L450,300 L520,270 L520,300 L590,270 L590,300 L660,270 L660,300 L730,270 L730,300 L800,270 L800,300 L870,270 L870,300 L940,270 L940,300 L1010,270 L1010,300 L1050,282.86 L1050,215 Z" fill="#cfe3f5"/>
+<path d="M350,350 L350,282.86 L380,270 L380,300 L450,270 L450,300 L520,270 L520,300 L590,270 L590,300 L660,270 L660,300 L730,270 L730,300 L800,270 L800,300 L870,270 L870,300 L940,270 L940,300 L1010,270 L1010,300 L1050,282.86 L1050,350 Z" fill="#fde2c4"/>
+<g stroke="#d1495b" stroke-width="5"><line x1="490" y1="273" x2="490" y2="298"/><line x1="560" y1="273" x2="560" y2="298"/><line x1="630" y1="273" x2="630" y2="298"/><line x1="700" y1="273" x2="700" y2="298"/><line x1="770" y1="273" x2="770" y2="298"/><line x1="840" y1="273" x2="840" y2="298"/><line x1="910" y1="273" x2="910" y2="298"/><line x1="980" y1="273" x2="980" y2="298"/></g></g></g>
+</g>
+<!-- movement arrows -->
+<g stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)">
+<line x1="120" y1="228" x2="250" y2="228"/>
+<line x1="150" y1="196" x2="150" y2="150"/>
+<line x1="680" y1="243" x2="550" y2="243"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="205" y="45" text-anchor="middle" font-size="21" font-weight="bold">Tighten, too hard</text>
+<text x="595" y="45" text-anchor="middle" font-size="21" font-weight="bold">Undo</text>
+<text x="205" y="85" text-anchor="middle">gentle slopes slide</text>
+<text x="595" y="85" text-anchor="middle">steep faces meet</text>
+<text x="164" y="178">pushed up</text>
+<text x="326" y="170">spring</text>
+<text x="205" y="333" text-anchor="middle">to the cap or screw</text>
+<text x="205" y="385" text-anchor="middle">top ring hops a tooth: click</text>
+<text x="595" y="385" text-anchor="middle">drives solidly, always undoes</text>
+<text x="400" y="432" text-anchor="middle" font-size="18">Teeth shown unrolled flat · a stronger spring or steeper slope clicks at a higher torque</text>
+</g>
+</svg>

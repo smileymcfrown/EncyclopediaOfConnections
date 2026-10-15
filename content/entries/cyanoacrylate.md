@@ -113,22 +113,45 @@ sources:
 research: research/connection-types/results/Cyanoacrylate_superglue.json
 image:
   file: cyanoacrylate.webp
-  width: 800
-  height: 323
   title: File:Super glue.jpg
   author: unknown
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Super_glue.jpg
-  alt: A tube of superglue (cyanoacrylate glue).
+  alt: A small tube of superglue with a pointed nozzle cap, lying on a wooden table.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: cyanoacrylate.webp
+  title: File:Super glue.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Super_glue.jpg
+  alt: A small tube of superglue with a pointed nozzle cap, lying on a wooden table.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: cyanoacrylate-fe8f73.webp
+  title: File:СУПЕР-КЛЕЙ (cyanoacrylate). Склеивание детали (4).jpg
+  author: Schekinov Alexey Victorovich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:%D0%A1%D0%A3%D0%9F%D0%95%D0%A0-%D0%9A%D0%9B%D0%95%D0%99_(cyanoacrylate)._%D0%A1%D0%BA%D0%BB%D0%B5%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B8_(4).jpg
+  site: Wikimedia Commons
+  alt: Superglue being squeezed from a tube in a thin line around the rim of a white plastic part before the parts are pressed
+    together.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, layer-lines, warping--shrinkage, cure, pot-life--working-time,
   primer, peel-vs-shear]
 ---
 
-![A tube of superglue (cyanoacrylate glue).](../media/cyanoacrylate.webp)
-
-*Picture: [Super glue.jpg](https://commons.wikimedia.org/wiki/File:Super_glue.jpg) by unknown, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cyanoacrylate.webp" alt="A small tube of superglue with a pointed nozzle cap, lying on a wooden table."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Super_glue.jpg">Super glue</a> by unknown, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cyanoacrylate-fe8f73.webp" alt="Superglue being squeezed from a tube in a thin line around the rim of a white plastic part before the parts are pressed together." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:%D0%A1%D0%A3%D0%9F%D0%95%D0%A0-%D0%9A%D0%9B%D0%95%D0%99_(cyanoacrylate)._%D0%A1%D0%BA%D0%BB%D0%B5%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B8_(4).jpg">СУПЕР-КЛЕЙ (cyanoacrylate). Склеивание детали (4)</a> by Schekinov Alexey Victorovich, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Cyanoacrylate (superglue) is a one-part liquid glue that hardens in seconds in a thin film between tight-fitting parts, triggered by traces of moisture, giving a strong but [brittle](../glossary.md#brittle--ductile) bond on most plastics, metal, rubber and wood.
 

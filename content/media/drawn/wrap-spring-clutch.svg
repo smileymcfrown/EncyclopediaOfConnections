@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a wrap-spring clutch: an input hub and an output hub end to end with a coil spring wrapped over the joint. Turned the winding way the coil squeezes down onto both hubs and the output is driven; turned the other way the coil opens slightly and slips, so the output stays still.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="sp"><rect x="250" y="100" width="300" height="220"/></clipPath>
+<g id="coil"><line x1="0" y1="-52" x2="7" y2="52" stroke="#222" stroke-width="9"/><line x1="0" y1="-52" x2="7" y2="52" stroke="#fde2c4" stroke-width="4"/><circle cx="0" cy="-52" r="4.5" fill="#fde2c4" stroke="#222" stroke-width="2"/></g>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="194" width="110" height="32" fill="#e8e8e8"/><rect x="660" y="194" width="110" height="32" fill="#e8e8e8"/>
+<rect x="130" y="162" width="270" height="96" rx="4" fill="#cfe3f5"/><rect x="404" y="162" width="266" height="96" rx="4" fill="#d8f0d2"/>
+<g clip-path="url(#sp)"><g transform="translate(0,210)"><g><g transform="translate(0,-210)"><g><use href="#coil" x="236" y="210"/><use href="#coil" x="250" y="210"/><use href="#coil" x="264" y="210"/><use href="#coil" x="278" y="210"/><use href="#coil" x="292" y="210"/><use href="#coil" x="306" y="210"/><use href="#coil" x="320" y="210"/><use href="#coil" x="334" y="210"/><use href="#coil" x="348" y="210"/><use href="#coil" x="362" y="210"/><use href="#coil" x="376" y="210"/><use href="#coil" x="390" y="210"/><use href="#coil" x="404" y="210"/><use href="#coil" x="418" y="210"/><use href="#coil" x="432" y="210"/><use href="#coil" x="446" y="210"/><use href="#coil" x="460" y="210"/><use href="#coil" x="474" y="210"/><use href="#coil" x="488" y="210"/><use href="#coil" x="502" y="210"/><use href="#coil" x="516" y="210"/><use href="#coil" x="530" y="210"/><use href="#coil" x="544" y="210"/><use href="#coil" x="558" y="210"/><use href="#coil" x="572" y="210"/><use href="#coil" x="586" y="210"/><use href="#coil" x="600" y="210"/></g></g></g></g></g>
+<line x1="80" y1="210" x2="80" y2="164" stroke-width="7" stroke="#555"></line>
+<line x1="720" y1="210" x2="720" y2="164" stroke-width="7" stroke="#555"></line>
+<path d="M104,160 A14,50 0 0 1 104,260" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></path>
+<path d="M104,260 A14,50 0 0 0 104,160" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)" opacity="0"></path>
+<path d="M746,160 A14,50 0 0 1 746,260" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></path>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222" font-size="18" text-anchor="middle">
+<text x="400" y="40" font-size="20" font-weight="bold"><tspan>Winding way: the coil grips, both hubs turn</tspan></text>
+<text x="200" y="300">input hub</text><text x="600" y="300">output hub</text>
+<text x="400" y="136">coil spring over both hubs</text>
+<text x="400" y="340">turned the winding way it squeezes down and drives;</text>
+<text x="400" y="362">turned back it opens a little and the output stays still</text>
+<text x="400" y="430">Grip grows with every turn of the coil, like a rope wound round a post</text>
+</g>
+</svg>

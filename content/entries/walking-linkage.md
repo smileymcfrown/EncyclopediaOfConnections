@@ -152,23 +152,60 @@ sources:
 research: research/connection-types/results/Walking_linkage_Jansen_and_Klann_leg_mechanisms.json
 image:
   file: walking-linkage.webp
-  width: 447
-  height: 391
   title: File:Strandbeest-Walking-Animation.gif
   author: MichaelFrey
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif
-  alt: Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path
-  animated: true
+  alt: Animation of one Strandbeest leg, a set of bars and pins turned by a crank so the foot traces a flat step and a lifted
+    return.
+  site: Wikimedia Commons
+  still: walking-linkage.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: walking-linkage.webp
+  title: File:Strandbeest-Walking-Animation.gif
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif
+  alt: Animation of one Strandbeest leg, a set of bars and pins turned by a crank so the foot traces a flat step and a lifted
+    return.
+  site: Wikimedia Commons
+  still: walking-linkage.still.webp
+  kind: animation
+  drawn: false
+- file: walking-linkage-1e46f1.webp
+  title: File:Strider Linkage Robot.gif
+  author: WadeVagle based on DIY Walkers' work
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Strider_Linkage_Robot.gif
+  site: Wikimedia Commons
+  alt: A real eight-legged robot built from construction-kit bars walking across a floor on Strider linkage legs.
+  kind: how-it-works
+  still: walking-linkage-1e46f1.still.webp
+  drawn: false
+- file: walking-linkage-6ed2d0.webp
+  title: File:Klann linkage, lobsterbot.jpg
+  author: Andy Dingley
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Klann_linkage,_lobsterbot.jpg
+  site: Wikimedia Commons
+  alt: The metal legs and gears of MechaLobster, an underwater walking robot that uses Klann linkage legs.
+  kind: photo
   drawn: false
 glossary: [misalignment, stroke, dead-point, torque, cam-and-follower, crank, linkage, actuator, stiffness, clearance, tolerance,
   form-fit--force-fit--material-bond, repeatability--accuracy, brittle--ductile, print-in-place]
 ---
 
-![Animation of one Jansen leg turning through a full crank cycle, with the foot tracing its flat-bottomed path](../media/walking-linkage.webp)
-
-*Picture: [Strandbeest-Walking-Animation.gif](https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif) by MichaelFrey, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/walking-linkage.still.webp"><img src="../media/walking-linkage.webp" alt="Animation of one Strandbeest leg, a set of bars and pins turned by a crank so the foot traces a flat step and a lifted return."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Strandbeest-Walking-Animation.gif">Strandbeest-Walking-Animation</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/walking-linkage-1e46f1.still.webp"><img src="../media/walking-linkage-1e46f1.webp" alt="A real eight-legged robot built from construction-kit bars walking across a floor on Strider linkage legs." loading="lazy"></picture><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Strider_Linkage_Robot.gif">Strider Linkage Robot</a> by WadeVagle based on DIY Walkers&#x27; work, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/walking-linkage-6ed2d0.webp" alt="The metal legs and gears of MechaLobster, an underwater walking robot that uses Klann linkage legs." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Klann_linkage,_lobsterbot.jpg">Klann linkage, lobsterbot</a> by Andy Dingley, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A planar [linkage](../glossary.md#linkage) of bars and pin joints, driven by one continuously turning [crank](../glossary.md#crank), that moves a foot around a closed loop with a long, nearly flat ground [stroke](../glossary.md#stroke) and a lifted return, so that several legs on a shared crankshaft make a machine walk.
 

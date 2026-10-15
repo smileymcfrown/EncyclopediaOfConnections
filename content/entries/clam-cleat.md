@@ -129,22 +129,38 @@ sources:
 - https://www.animatedknots.com/cleat-hitch-knot-dock-line
 research: research/connection-types/results/Clam_cleat_grooved_Vcleat.json
 image:
-  file: clam-cleat.webp
-  width: 800
-  height: 533
+  file: drawn/anim/clam-cleat.svg
+  alt: 'A clam cleat in side and end view: the rope lies in a narrow V-shaped groove whose walls carry ridges sloping toward
+    the load, so the load drags the rope down into the V where it jams; pulling the tail up and back lifts it out; the rope
+    is lifted out, laid back in, and pulled down into the groove again by the load.'
+  drawn: true
+  still: drawn/clam-cleat.svg
+  kind: animation
+pictures:
+- file: drawn/anim/clam-cleat.svg
+  alt: 'A clam cleat in side and end view: the rope lies in a narrow V-shaped groove whose walls carry ridges sloping toward
+    the load, so the load drags the rope down into the V where it jams; pulling the tail up and back lifts it out; the rope
+    is lifted out, laid back in, and pulled down into the groove again by the load.'
+  drawn: true
+  still: drawn/clam-cleat.svg
+  kind: animation
+- file: clam-cleat.webp
   title: File:Kammklemme.jpg
   author: Jeuwre
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Kammklemme.jpg
-  alt: A black nylon clam cleat on a sailing yacht with a green rope led into its groove
+  alt: A green rope jammed in the ridged V-groove of a black clam cleat on a sailing boat, next to a winch.
+  site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, form-fit--force-fit--material-bond, creep, infill]
 ---
 
-![A black nylon clam cleat on a sailing yacht with a green rope led into its groove](../media/clam-cleat.webp)
-
-*Picture: [Kammklemme.jpg](https://commons.wikimedia.org/wiki/File:Kammklemme.jpg) by Jeuwre, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/clam-cleat.svg"><img src="../media/drawn/anim/clam-cleat.svg" alt="A clam cleat in side and end view: the rope lies in a narrow V-shaped groove whose walls carry ridges sloping toward the load, so the load drags the rope down into the V where it jams; pulling the tail up and back lifts it out; the rope is lifted out, laid back in, and pulled down into the groove ag"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clam-cleat.webp" alt="A green rope jammed in the ridged V-groove of a black clam cleat on a sailing boat, next to a winch." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kammklemme.jpg">Kammklemme</a> by Jeuwre, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A one-piece block with a narrow V-shaped groove lined with slanted ridges: a tensioned rope pressed into the groove is pulled deeper by its own load and jams, and a short upward-and-backward pull lifts it free.
 

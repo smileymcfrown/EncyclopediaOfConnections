@@ -126,18 +126,28 @@ sources:
 - https://br.ci.ritsumei.ac.jp/AdvEngMatr2023preprint.pdf
 research: research/connection-types/results/Granular_jamming_gripper_coffeeballoon_gripper.json
 image:
-  file: drawn/granular-jamming-gripper.svg
+  file: drawn/anim/granular-jamming-gripper.svg
   alt: 'Four side-view steps of a granular jamming gripper: a soft bag of coffee grounds above a toy ball, the bag pressed
     down and flowing round the ball, the air pumped out so the grains pack solid and the ball is lifted, and air let back
-    in so the bag softens and the ball drops.'
+    in so the bag softens and the ball drops. Animated: the steps play in turn, then repeat.'
   drawn: true
+  still: drawn/granular-jamming-gripper.svg
+  kind: animation
+pictures:
+- file: drawn/anim/granular-jamming-gripper.svg
+  alt: 'Four side-view steps of a granular jamming gripper: a soft bag of coffee grounds above a toy ball, the bag pressed
+    down and flowing round the ball, the air pumped out so the grains pack solid and the ball is lifted, and air let back
+    in so the bag softens and the ball drops. Animated: the steps play in turn, then repeat.'
+  drawn: true
+  still: drawn/granular-jamming-gripper.svg
+  kind: animation
 glossary: [misalignment, solenoid, stiffness, flexure, tolerance, form-fit--force-fit--material-bond, holding-force, perimeters,
   o-ring, venturi]
 ---
 
-![Four side-view steps of a granular jamming gripper: a soft bag of coffee grounds above a toy ball, the bag pressed down and flowing round the ball, the air pumped out so the grains pack solid and the ](../media/drawn/granular-jamming-gripper.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/granular-jamming-gripper.svg"><img src="../media/drawn/anim/granular-jamming-gripper.svg" alt="Four side-view steps of a granular jamming gripper: a soft bag of coffee grounds above a toy ball, the bag pressed down and flowing round the ball, the air pumped out so the grains pack solid and the ball is lifted, and air let back in so the bag softens and the ball drops. Animated: the steps play "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A soft rubber bag filled with grains such as ground coffee that flows around an object when pressed onto it, then locks rigid and grips it when a pump sucks the air out, and softens and lets go when air is let back in.
 

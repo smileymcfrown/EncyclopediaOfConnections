@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed onto the thread so turning the screw moves the nut, and on the right they are pulled apart so the nut slides freely along the screw. Animated: the closed nut is carried to and fro as the screw turns one way then back (arrows show the drawn direction), while the open nut slides along a still screw.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<clipPath id="sc"><rect x="60" y="190" width="280" height="60"/></clipPath>
+<polygon id="threads" points="0,208 10,196 20,208 30,196 40,208 50,196 60,208 70,196 80,208 90,196 100,208 110,196 120,208 130,196 140,208 150,196 160,208 170,196 180,208 190,196 200,208 210,196 220,208 230,196 240,208 250,196 260,208 270,196 280,208 290,196 300,208 310,196 320,208 330,196 340,208 350,196 360,208 370,196 380,208 390,196 400,208 400,244 390,232 380,244 370,232 360,244 350,232 340,244 330,232 320,244 310,232 300,244 290,232 280,244 270,232 260,244 250,232 240,244 230,232 220,244 210,232 200,244 190,232 180,244 170,232 160,244 150,232 140,244 130,232 120,244 110,232 100,244 90,232 80,244 70,232 60,244 50,232 40,244 30,232 20,244 10,232 0,244" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g id="screwends" stroke="#222" stroke-width="3"><line x1="60" y1="208" x2="60" y2="244"/><line x1="340" y1="208" x2="340" y2="244"/></g>
+<polygon id="topnut" points="140,140 260,140 260,208 250,196 240,208 230,196 220,208 210,196 200,208 190,196 180,208 170,196 160,208 150,196 140,208" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<polygon id="botnut" points="140,244 150,232 160,244 170,232 180,244 190,232 200,244 210,232 220,244 230,232 240,244 250,232 260,244 260,300 140,300" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<g id="guides" fill="#fde2c4" stroke="#222" stroke-width="3">
+<rect x="128" y="110" width="12" height="220"/>
+<rect x="260" y="110" width="12" height="220"/>
+</g>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="430" stroke="#cccccc" stroke-width="2"/>
+<!-- closed -->
+<g clip-path="url(#sc)"><g><animateTransform attributeName="transform" type="translate" values="0 0;20 0;20 0;-20 0;-20 0;0 0" keyTimes="0;0.25;0.3;0.8;0.85;1" calcMode="spline" keySplines="0.4 0 0.4 1;0.4 0 0.4 1;0.4 0 0.4 1;0.4 0 0.4 1;0.4 0 0.4 1" dur="4s" repeatCount="indefinite"/><use href="#threads"/></g></g><use href="#screwends"/>
+<rect x="340" y="210" width="16" height="20" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;20 0;20 0;-20 0;-20 0;0 0" keyTimes="0;0.25;0.3;0.8;0.85;1" calcMode="spline" keySplines="0.4 0 0.4 1;0.4 0 0.4 1;0.4 0 0.4 1;0.4 0 0.4 1;0.4 0 0.4 1" dur="4s" repeatCount="indefinite"/><use href="#guides"/>
+<use href="#topnut"/>
+<use href="#botnut"/></g>
+<path d="M368,190 A14,30 0 0 1 368,250" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0.15;0.15;1;1" keyTimes="0;0.27;0.3;0.82;0.85;1" dur="4s" repeatCount="indefinite"/></path>
+<line x1="150" y1="360" x2="260" y2="360" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0.15;0.15;1;1" keyTimes="0;0.27;0.3;0.82;0.85;1" dur="4s" repeatCount="indefinite"/></line>
+<!-- open -->
+<g transform="translate(400,0)">
+<g clip-path="url(#sc)"><use href="#threads"/></g><use href="#screwends"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;30 0;-30 0;0 0" keyTimes="0;0.3;0.75;1" calcMode="spline" keySplines="0.4 0 0.4 1;0.4 0 0.4 1;0.4 0 0.4 1" dur="4s" repeatCount="indefinite"/><use href="#guides"/>
+<use href="#topnut" transform="translate(0,-28)"/>
+<use href="#botnut" transform="translate(0,28)"/></g>
+<line x1="200" y1="108" x2="200" y2="72" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="200" y1="332" x2="200" y2="356" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="130" y1="385" x2="270" y2="385" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+</g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="32" font-size="21" font-weight="bold">Closed: threads meshed</text>
+<text x="600" y="32" font-size="21" font-weight="bold">Open: threads apart</text>
+<text x="200" y="176">nut half</text>
+<text x="200" y="278">nut half</text>
+<text x="335" y="165">turn screw</text>
+<text x="205" y="392">nut and carriage move</text>
+<text x="600" y="226">lead screw</text>
+<text x="600" y="62">lever pulls halves apart</text>
+<text x="600" y="416">nut slides freely</text>
+</g>
+</svg>

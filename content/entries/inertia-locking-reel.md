@@ -113,22 +113,51 @@ sources:
 - https://www.youtube.com/watch?v=aunIE33GYZc
 research: research/connection-types/results/Inertialocking_reel_seatbelt_lock_centrifugal_catch.json
 image:
-  file: inertia-locking-reel.webp
-  width: 800
-  height: 1067
+  file: drawn/anim/inertia-locking-reel.svg
+  alt: 'Animated: inertia-locking reel seen from the side: a spring-return spool with a ratchet wheel, a small flyweight on
+    the spool held in by a spring, and a pawl on the frame; a slow pull lets the spool turn freely, but a sudden jerk flings
+    the flyweight out, which tips the pawl into the ratchet teeth and stops the spool; when the pull eases the pawl drops
+    out and the spring winds the strap back in.'
+  drawn: true
+  still: drawn/inertia-locking-reel.svg
+  kind: animation
+pictures:
+- file: drawn/anim/inertia-locking-reel.svg
+  alt: 'Animated: inertia-locking reel seen from the side: a spring-return spool with a ratchet wheel, a small flyweight on
+    the spool held in by a spring, and a pawl on the frame; a slow pull lets the spool turn freely, but a sudden jerk flings
+    the flyweight out, which tips the pawl into the ratchet teeth and stops the spool; when the pull eases the pawl drops
+    out and the spring winds the strap back in.'
+  drawn: true
+  still: drawn/inertia-locking-reel.svg
+  kind: animation
+- file: inertia-locking-reel.webp
   title: File:Intertial-reel.jpg
   author: Liftarn
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg
-  alt: Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99
+  alt: A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: inertia-locking-reel-a9057c.webp
+  title: File:Inertial reel belt.jpg
+  author: A7N8X
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg
+  site: Wikimedia Commons
+  alt: A seat-belt retractor, a black cylindrical reel housing with the belt webbing running out of it, fitted in an old car.
+  kind: photo
   drawn: false
 glossary: [self-locking, ratchet, pawl, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
 ---
 
-![Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99](../media/inertia-locking-reel.webp)
-
-*Picture: [Intertial-reel.jpg](https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg) by Liftarn, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/inertia-locking-reel.svg"><img src="../media/drawn/anim/inertia-locking-reel.svg" alt="Animated: inertia-locking reel seen from the side: a spring-return spool with a ratchet wheel, a small flyweight on the spool held in by a spring, and a pawl on the frame; a slow pull lets the spool turn freely, but a sudden jerk flings the flyweight out, which tips the pawl into the ratchet teeth a"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/inertia-locking-reel.webp" alt="A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg">Intertial-reel</a> by Liftarn, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/inertia-locking-reel-a9057c.webp" alt="A seat-belt retractor, a black cylindrical reel housing with the belt webbing running out of it, fitted in an old car." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg">Inertial reel belt</a> by A7N8X, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A spring-return reel whose spool turns freely for slow movements, but whose built-in inertia sensor (a swinging pendulum, a rolling ball, or a flyweight or inertia wheel on the spool) throws a catch into [ratchet](../glossary.md#ratchet) teeth to lock it the moment the line is jerked or the vehicle decelerates sharply.
 

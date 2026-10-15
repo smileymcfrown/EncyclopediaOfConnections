@@ -110,23 +110,35 @@ sources:
 research: research/connection-types/results/Selfclinching_fastener_pressin_nut_or_stud.json
 image:
   file: self-clinching-fastener.webp
-  width: 679
-  height: 429
   title: File:17-SwageNuts.JPG
   author: Douglas W. Jones
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:17-SwageNuts.JPG
-  alt: Photo of two self-clinching (swage) nuts for 8-32 screws; the narrow undercut just above the serrated clinching ring
-    is visible
+  alt: Two self-clinching nuts, each a threaded steel collar with a knurled ring round its base that bites into the sheet
+    metal.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: self-clinching-fastener.webp
+  title: File:17-SwageNuts.JPG
+  author: Douglas W. Jones
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:17-SwageNuts.JPG
+  alt: Two self-clinching nuts, each a threaded steel collar with a knurled ring round its base that bites into the sheet
+    metal.
+  site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, chamfer--fillet, undercut,
   brittle--ductile]
 ---
 
-![Photo of two self-clinching (swage) nuts for 8-32 screws; the narrow undercut just above the serrated clinching ring is visible](../media/self-clinching-fastener.webp)
-
-*Picture: [17-SwageNuts.JPG](https://commons.wikimedia.org/wiki/File:17-SwageNuts.JPG) by Douglas W. Jones, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/self-clinching-fastener.webp" alt="Two self-clinching nuts, each a threaded steel collar with a knurled ring round its base that bites into the sheet metal."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:17-SwageNuts.JPG">17-SwageNuts</a> by Douglas W. Jones, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded nut, stud or standoff that is pressed into a plain hole in thin sheet metal so the sheet cold-flows into a groove around it, making it a permanent, non-spinning part of the panel that you can then screw into from the other side.
 

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Tongue-and-groove joints: on the left an end view of three boards with tongues in grooves on a joist, with a small gap at the bottom of each groove; on the right a box with grooves along the inside of both sides, shown end-on with the lid edges in the grooves and from the side with the lid sliding out of the open end.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="box"><rect x="0" y="0" width="800" height="450"/></clipPath>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="20" y="184" width="365" height="16" fill="url(#hatch)"/>
+<polygon points="30,140 140,140 140,155 158,155 158,169 140,169 140,184 30,184" fill="#fde2c4"/>
+<polygon points="250,140 360,140 360,184 250,184 250,170 272,170 272,154 250,154" fill="#fde2c4"/>
+<polygon points="140,140 250,140 250,155 268,155 268,169 250,169 250,184 140,184 140,170 162,170 162,154 140,154" fill="#fde2c4"></polygon>
+<line x1="85" y1="146" x2="85" y2="194" stroke-width="3"/><line x1="79" y1="144" x2="91" y2="144" stroke-width="4"/><line x1="195" y1="146" x2="195" y2="194" stroke-width="3"/><line x1="189" y1="144" x2="201" y2="144" stroke-width="4"/><line x1="305" y1="146" x2="305" y2="194" stroke-width="3"/><line x1="299" y1="144" x2="311" y2="144" stroke-width="4"/>
+<g stroke-width="2"><line x1="110" y1="112" x2="150" y2="160"/><line x1="282" y1="112" x2="267" y2="157"/><line x1="300" y1="232" x2="271" y2="168"/></g>
+<g stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><line x1="160" y1="222" x2="180" y2="222"/><line x1="230" y1="222" x2="210" y2="222"/></g>
+<path d="M540,70 L560,70 L560,82 L552,82 L552,92 L560,92 L560,148 L640,148 L640,92 L648,92 L648,82 L640,82 L640,70 L660,70 L660,164 L540,164 Z" fill="#d8f0d2"/>
+<rect x="553" y="83" width="94" height="8" fill="#fde2c4" stroke-width="2.5"/>
+<rect x="430" y="250" width="230" height="80" fill="#d8f0d2"/>
+<rect x="430" y="258" width="230" height="10" fill="#bcd9b5" stroke-width="2"/>
+<rect x="416" y="250" width="16" height="96" fill="#d8f0d2"/>
+<rect x="416" y="330" width="258" height="16" fill="#d8f0d2"/>
+<rect x="658" y="272" width="16" height="74" fill="#d8f0d2"/>
+<g><rect x="426" y="259" width="230" height="8" fill="#fde2c4" stroke-width="2.5"/><path d="M620,259 a8,4 0 0 0 16,0" fill="none" stroke-width="2"/></g>
+<line x1="600" y1="372" x2="700" y2="372" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<line x1="600" y1="90" x2="600" y2="90"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222" font-size="18">
+<g font-size="20" font-weight="bold" text-anchor="middle"><text x="205" y="40">Boards edge to edge</text><text x="600" y="40">Sliding box lid</text></g>
+<text x="70" y="104">tongue</text>
+<text x="262" y="104">groove</text>
+<text x="210" y="262" text-anchor="middle">gap at the bottom of the groove</text>
+<text x="205" y="300" text-anchor="middle">the middle board shrinks and swells,</text>
+<text x="205" y="322" text-anchor="middle">its tongue stays in and hides the gap</text>
+<text x="672" y="104">lid held up,</text><text x="672" y="124">down and</text><text x="672" y="144">sideways</text>
+<text x="600" y="220" text-anchor="middle">grooves in both sides</text>
+<text x="650" y="400" text-anchor="middle">free to slide out the open end</text>
+<text x="400" y="438" text-anchor="middle">A tongue in a groove keeps faces flush but lets the parts slide along it</text>
+</g>
+</svg>

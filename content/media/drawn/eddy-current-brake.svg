@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Top view of an eddy-current brake: an aluminium disc spins past a magnet (one above and one below the disc); swirling currents form just ahead of and just behind the magnet and drag against the motion, and a graph shows the drag rising from zero with speed, peaking, then slowly falling.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g><circle cx="225" cy="225" r="165" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="142.73" cy="177.5" r="16" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="307.27" cy="177.5" r="16" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="225" cy="320" r="16" fill="#ffffff" stroke="#222" stroke-width="3"/><circle cx="225" cy="225" r="22" fill="#cfe3f5" stroke="#222" stroke-width="3"/><circle cx="225" cy="225" r="5" fill="#222"/></g>
+<path d="M95,85 A195,195 0 0 1 300,45" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></path>
+<rect x="305" y="190" width="54" height="70" rx="4" fill="#f5d0d0" stroke="#222" stroke-width="3"/>
+<g opacity="1"><g><path d="M358,152 A26,26 0 0 0 306,152" fill="none" stroke="#d1495b" stroke-width="3.5" marker-end="url(#ah)"/><path d="M306,152 A26,26 0 0 0 358,152" fill="none" stroke="#d1495b" stroke-width="3.5" marker-end="url(#ah)"/></g></g>
+<g opacity="1"><g><path d="M358,298 A26,26 0 0 1 306,298" fill="none" stroke="#d1495b" stroke-width="3.5" marker-end="url(#ah)"/><path d="M306,298 A26,26 0 0 1 358,298" fill="none" stroke="#d1495b" stroke-width="3.5" marker-end="url(#ah)"/></g></g>
+<line x1="288" y1="262" x2="288" y2="190" stroke="#d1495b" stroke-width="6" marker-end="url(#ah)"></line>
+<polyline points="480,110 480,330 775,330" fill="none" stroke="#222" stroke-width="3"/>
+<polyline points="480,330 490,313.51 500,297.2 510,281.26 520,265.85 530,251.12 540,237.19 550,224.15 560,212.09 570,201.05 580,191.05 590,182.09 600,174.16 610,167.22 620,161.23 630,156.13 640,151.86 650,148.36 660,145.57 670,143.42 680,141.84 690,140.78 700,140.19 710,140 720,140.17 730,140.66 740,141.42 750,142.42 760,143.62 770,144.99" fill="none" stroke="#222" stroke-width="3"/>
+<circle cx="600" cy="174.16" r="7" fill="#d1495b"></circle>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="225" y="415">aluminium disc, spinning</text><text x="398" y="232" font-size="17" text-anchor="start">magnet</text><g text-anchor="start" font-size="17"><text x="386" y="124">swirling</text><text x="386" y="144">currents</text><text x="278" y="258" text-anchor="end">drag</text><text x="490" y="122">drag</text><text x="488" y="358">no drag when stopped</text></g><text x="730" y="358" font-size="17">speed</text><text x="590" y="415" font-size="19">Faster spin, stronger drag;</text><text x="590" y="439" font-size="19">it can slow things but never hold them</text>
+</g>
+</svg>

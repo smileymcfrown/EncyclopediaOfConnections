@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A side view of two slightly misaligned shafts joined by a one-piece tube with a spiral slot cut through it: the tube bends to follow the tilt and offset while twisting from one shaft passes straight through to the other, with an inset comparing one long spiral cut with two short spiral cuts. The animation swings the driven shaft through different tilts and offsets while the slotted tube bends to follow it.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M0,10 L10,0" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="210" width="170" height="40" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 17;0 0" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite"/><g><animateTransform attributeName="transform" type="rotate" values="-8 400 215;5 400 215;-8 400 215" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite"/><rect x="400" y="195" width="160" height="40" fill="#e8e8e8" stroke="#222" stroke-width="3"/></g></g>
+<line x1="30" y1="230" x2="570" y2="230" stroke="#999" stroke-width="2" stroke-dasharray="10 8"/>
+<path d="M190,182 C275.0,182.0 315.0,174.0 393.3,167.5 L406.7,262.5 C320.0,268.0 275.0,278.0 190,278 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"><animate attributeName="d" values="M190,182 C275.0,182.0 315.0,174.0 393.3,167.5 L406.7,262.5 C320.0,268.0 275.0,278.0 190,278 Z;M190,182 C275.0,182.0 325.4,172.6 404.2,184.2 L395.8,279.8 C308.6,265.6 275.0,278.0 190,278 Z;M190,182 C275.0,182.0 315.0,174.0 393.3,167.5 L406.7,262.5 C320.0,268.0 275.0,278.0 190,278 Z" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite"/></path>
+<path d="M218.8,186.7 L202.5,272.9 M241.5,185.9 L226.9,272.3 M262.4,184.7 L249.6,271.2 M282.2,183.2 L271.1,269.7 M301.5,181.5 L291.8,267.9 M320.7,179.6 L312.5,265.8 M340.5,177.5 L333.6,263.7 M361.4,175.4 L355.7,261.5" fill="none" stroke="#222" stroke-width="6"><animate attributeName="d" values="M218.8,186.7 L202.5,272.9 M241.5,185.9 L226.9,272.3 M262.4,184.7 L249.6,271.2 M282.2,183.2 L271.1,269.7 M301.5,181.5 L291.8,267.9 M320.7,179.6 L312.5,265.8 M340.5,177.5 L333.6,263.7 M361.4,175.4 L355.7,261.5;M219.2,186.7 L202.4,272.9 M242.8,185.9 L226.2,272.2 M265.0,185.0 L247.7,271.1 M286.4,184.1 L267.7,269.9 M307.4,183.5 L286.6,268.9 M328.2,183.4 L305.6,268.1 M349.4,183.9 L325.1,268.1 M371.5,185.3 L345.9,269.0;M218.8,186.7 L202.5,272.9 M241.5,185.9 L226.9,272.3 M262.4,184.7 L249.6,271.2 M282.2,183.2 L271.1,269.7 M301.5,181.5 L291.8,267.9 M320.7,179.6 L312.5,265.8 M340.5,177.5 L333.6,263.7 M361.4,175.4 L355.7,261.5" calcMode="spline" keySplines="0.45 0 0.55 1;0.45 0 0.55 1" keyTimes="0;0.5;1" dur="4s" repeatCount="indefinite"/></path>
+<path d="M95,198 A16,36 0 0 0 95,262" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M505,182 A16,36 0 0 0 515,252" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M420,98 Q442,126 436,160" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+</g>
+<rect x="592" y="70" width="196" height="300" rx="10" fill="#ffffff" stroke="#999" stroke-width="2"/>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="620" y="130" width="140" height="56" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="644" y1="134" x2="632" y2="182" stroke="#222" stroke-width="5"/>
+<line x1="662" y1="134" x2="650" y2="182" stroke="#222" stroke-width="5"/>
+<line x1="680" y1="134" x2="668" y2="182" stroke="#222" stroke-width="5"/>
+<line x1="698" y1="134" x2="686" y2="182" stroke="#222" stroke-width="5"/>
+<line x1="716" y1="134" x2="704" y2="182" stroke="#222" stroke-width="5"/>
+<line x1="734" y1="134" x2="722" y2="182" stroke="#222" stroke-width="5"/>
+<line x1="752" y1="134" x2="740" y2="182" stroke="#222" stroke-width="5"/>
+<rect x="620" y="262" width="140" height="56" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<line x1="640" y1="266" x2="628" y2="314" stroke="#222" stroke-width="4"/>
+<line x1="650" y1="266" x2="638" y2="314" stroke="#222" stroke-width="4"/>
+<line x1="660" y1="266" x2="648" y2="314" stroke="#222" stroke-width="4"/>
+<line x1="670" y1="266" x2="658" y2="314" stroke="#222" stroke-width="4"/>
+<line x1="716" y1="266" x2="704" y2="314" stroke="#222" stroke-width="4"/>
+<line x1="726" y1="266" x2="714" y2="314" stroke="#222" stroke-width="4"/>
+<line x1="736" y1="266" x2="724" y2="314" stroke="#222" stroke-width="4"/>
+<line x1="746" y1="266" x2="734" y2="314" stroke="#222" stroke-width="4"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="300" y="40" font-size="21" font-weight="bold">Two shafts slightly out of line</text>
+<text x="100" y="300">motor shaft</text>
+<text x="490" y="290">driven shaft</text>
+<text x="300" y="320">spiral slot lets the tube bend</text>
+<text x="420" y="86">bends easily</text>
+<text x="300" y="360">twist passes straight through, no slack</text>
+<text x="690" y="100" font-weight="bold">single-beam</text>
+<text x="690" y="210">one long spiral</text>
+<text x="690" y="245" font-weight="bold">multi-beam</text>
+<text x="690" y="342">two short spirals</text>
+<text x="400" y="425">Flexible sideways · stiff in twist</text>
+</g>
+</svg>

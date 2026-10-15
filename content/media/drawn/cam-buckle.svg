@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side cut-away of a cam buckle: the webbing runs between a fixed bar and a toothed cam on a pivot, which a small spring presses onto it; pulling the tail lifts the cam slightly so the strap slides through, the load pulling back rolls the cam in so its teeth bite and hold, and pressing the lever lifts the cam to release.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g transform="translate(0,60)">
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="290" y="66" width="240" height="214" rx="10" fill="#f4f4f4" stroke="#999" stroke-width="2"/>
+<rect x="326" y="196" width="40" height="10" fill="#e8e8e8" stroke-width="2"/>
+<rect x="30" y="232" width="740" height="12" fill="#d8f0d2"/>
+<line x1="34" y1="238" x2="766" y2="238" stroke="#5f8f55" stroke-width="2.5" stroke-linecap="butt" stroke-dasharray="10 10"></line>
+<rect x="360" y="245" width="120" height="22" rx="8" fill="#e8e8e8"/>
+<polyline points="346,196 346,190 353.7,184.5 337.4,179 353,173.4 336.7,167.9 352.4,162.4 336.1,156.9 351.8,151.3 335.5,145.8 351.1,140.3 334.8,134.8 350.5,129.2 342.2,123.7 342.2,117.7" fill="none" stroke-width="2.5"></polyline>
+<g><path d="M513.5,194 L508.1,201.1 L502.3,207.5 L496,213.2 L489.3,218.2 L482.4,222.4 L477.9,228.9 L468,228.6 L462.8,234 L453.5,231.8 L447.7,236.1 L439.3,232.2 L433.3,235.3 L426.1,230 L420,232 L414.3,225.5 L408.3,226.5 L404.1,219.2 L398.5,219.2 L396,211.4 L390.8,210.7 L390,202.8 L385.3,201.4 L386.2,193.8 L385.1,189.2 L384.6,184.8 L384.5,180.5 L381.9,177.7 L379.4,170.9 L378.2,163.7 L378.2,156.3 L379.4,149.1 L393,128.9 L330.7,85.3 L319.2,101.7 L381.5,145.2 L395.9,125.6 L405.6,120.5 L416.3,118.2 L427.3,118.6 L437.7,121.9 L447,127.8 L454.4,135.9 L459.5,145.6 L461.8,156.3 L461.4,167.3 Z" fill="#cfe3f5"/></g>
+<circle cx="420" cy="160" r="8" fill="#fff"/><circle cx="420" cy="160" r="3" fill="#222"/>
+<line x1="600" y1="220" x2="690" y2="220" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></line>
+<line x1="200" y1="220" x2="110" y2="220" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></line>
+<line x1="262" y1="40" x2="290" y2="80" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></line>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="560" y="196">pull the tail to tighten</text>
+<text x="20" y="186">load pulls back:</text><text x="20" y="208">teeth bite and hold</text>
+<text x="250" y="30" text-anchor="end">press the lever</text><text x="250" y="52" text-anchor="end">to release</text>
+<text x="540" y="110">toothed cam</text><line x1="538" y1="116" x2="500" y2="150" stroke="#222" stroke-width="1.5"/>
+<text x="318" y="168" text-anchor="end">spring</text>
+<text x="420" y="302" text-anchor="middle">fixed bar</text>
+<text x="64" y="270">to the load</text><text x="690" y="270">tail</text>
+</g>
+</g>
+<text x="400" y="438" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" fill="#222" font-size="17">Slides through one way, grips harder the more the load pulls · press the lever to let go</text>
+</svg>

@@ -156,21 +156,54 @@ sources:
 research: research/connection-types/results/Rope_splices_eye_splice_short_splice_braidedrope_splice.json
 image:
   file: rope-splices.webp
-  width: 800
-  height: 608
   title: File:Splitsar.png
   author: NH
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Splitsar.png
-  alt: 'Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice'
+  alt: A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: rope-splices.webp
+  title: File:Splitsar.png
+  author: NH
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Splitsar.png
+  alt: A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: rope-splices-9861c4.webp
+  title: File:Rope Eye splice 2.jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Rope_Eye_splice_2.jpg
+  site: Wikimedia Commons
+  alt: A three-strand rope bent into a loop, with the unlaid end strands being tucked into the main rope to make an eye splice.
+  kind: how-it-works
+  drawn: false
+- file: rope-splices-c8c180.webp
+  title: File:Rope Eye splice finished.jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Rope_Eye_splice_finished.jpg
+  site: Wikimedia Commons
+  alt: A finished eye splice, a fixed loop in a pale three-strand rope with the tucked strands trimmed.
+  kind: photo
   drawn: false
 glossary: [self-locking, form-fit--force-fit--material-bond, taper, perimeters, infill]
 ---
 
-![Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice](../media/rope-splices.webp)
-
-*Picture: [Splitsar.png](https://commons.wikimedia.org/wiki/File:Splitsar.png) by NH, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-splices.webp" alt="A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Splitsar.png">Splitsar</a> by NH, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rope-splices-9861c4.webp" alt="A three-strand rope bent into a loop, with the unlaid end strands being tucked into the main rope to make an eye splice." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rope_Eye_splice_2.jpg">Rope Eye splice 2</a> by Rasbak, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rope-splices-c8c180.webp" alt="A finished eye splice, a fixed loop in a pale three-strand rope with the tucked strands trimmed." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rope_Eye_splice_finished.jpg">Rope Eye splice finished</a> by Rasbak, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A rope splice opens up the end of a rope and weaves its strands over and under the strands of the main rope, or, in hollow braided rope, pulls the end up inside the rope, to make a permanent loop, a join between two ropes or a neat end that keeps most or all of the rope's strength, where a knot typically loses 20-40% (Wikipedia 'Rope splicing').
 

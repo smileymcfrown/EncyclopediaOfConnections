@@ -135,22 +135,56 @@ sources:
 research: research/connection-types/results/Screw_terminal_terminal_block_barrier_strip_connector_strip.json
 image:
   file: screw-terminal.webp
-  width: 800
-  height: 548
   title: File:Screw Terminals. Basic and Compression Types..jpg
   author: Fredquint
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg
-  alt: A basic terminal with wires held under the screw heads beside a clamping-plate (compression) terminal with wires held
-    between plates
+  alt: Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping
+    plate onto the wire.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: screw-terminal.webp
+  title: File:Screw Terminals. Basic and Compression Types..jpg
+  author: Fredquint
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg
+  alt: Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping
+    plate onto the wire.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: screw-terminal-19ed0c.webp
+  title: File:Australian Set Screw Connectors.jpg
+  author: Fredquint
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Australian_Set_Screw_Connectors.jpg
+  site: Wikimedia Commons
+  alt: Stripped wires pushed into small brass tubes and held by set screws, next to the empty connectors on squared paper.
+  kind: how-it-works
+  drawn: false
+- file: screw-terminal-f7b209.webp
+  title: Screw Terminals 3.5mm Pitch (3-Pin)
+  author: SparkFunElectronics
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/41898857@N04/16538538203
+  site: Flickr via Openverse
+  alt: A black three-way circuit-board screw terminal block, each opening with a screw on top and a pin underneath.
+  kind: photo
   drawn: false
 glossary: [torque, pitch, form-fit--force-fit--material-bond, set-screw, creep, overhang--bridging]
 ---
 
-![A basic terminal with wires held under the screw heads beside a clamping-plate (compression) terminal with wires held between plates](../media/screw-terminal.webp)
-
-*Picture: [Screw Terminals. Basic and Compression Types..jpg](https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg) by Fredquint, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/screw-terminal.webp" alt="Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping plate onto the wire."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg">Screw Terminals. Basic and Compression Types.</a> by Fredquint, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/screw-terminal-19ed0c.webp" alt="Stripped wires pushed into small brass tubes and held by set screws, next to the empty connectors on squared paper." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Australian_Set_Screw_Connectors.jpg">Australian Set Screw Connectors</a> by Fredquint, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/screw-terminal-f7b209.webp" alt="A black three-way circuit-board screw terminal block, each opening with a screw on top and a pin underneath." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/41898857@N04/16538538203">Screw Terminals 3.5mm Pitch (3-Pin)</a> by SparkFunElectronics, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+</div>
 
 A screw terminal holds a stripped wire (or a crimped ring, fork or ferrule) by tightening a screw onto it, either under the screw head, under a clamping plate or with a [set screw](../glossary.md#set-screw) in a metal tube; it is the cheap, reusable way to land wires on boards, power supplies, barrier strips and connector strips and to undo them later with a screwdriver.
 

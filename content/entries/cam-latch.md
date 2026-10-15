@@ -116,23 +116,51 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
 research: research/connection-types/results/Cam_latch_quarterturn_cam_lock.json
 image:
-  file: cam-latch.webp
-  width: 800
-  height: 758
+  file: drawn/anim/cam-latch.svg
+  alt: 'Animated: a cam latch seen from inside the cabinet and in a section from above: turning the knob a quarter turn swings
+    the flat cam from alongside the door edge to behind the lip of the frame, where it holds the door shut; the grip is the
+    distance from the latch face to the cam''s contact face.'
+  drawn: true
+  still: drawn/cam-latch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/cam-latch.svg
+  alt: 'Animated: a cam latch seen from inside the cabinet and in a section from above: turning the knob a quarter turn swings
+    the flat cam from alongside the door edge to behind the lip of the frame, where it holds the door shut; the grip is the
+    distance from the latch face to the cam''s contact face.'
+  drawn: true
+  still: drawn/cam-latch.svg
+  kind: animation
+- file: cam-latch.webp
   title: File:Electronic-cam-lock.jpg
   author: Chole Wu
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg
-  alt: Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)
+  alt: A small round cam lock with a threaded body and nut, and the flat arm (cam) on the back that turns to hook behind the
+    frame.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: cam-latch-44467b.webp
+  title: File:Dubbelbaard slot.png
+  author: Biq OO
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Dubbelbaard_slot.png
+  site: Wikimedia Commons
+  alt: A chrome quarter-turn cam latch with a double-bit key socket in its face and a cranked arm on the back.
+  kind: photo
   drawn: false
 glossary: [misalignment, self-locking, over-centre, detent, pawl, torque, tolerance, form-fit--force-fit--material-bond, creep,
   brittle--ductile, layer-lines, infill, o-ring]
 ---
 
-![Photo of a cam lock showing the threaded body, mounting nut and flat cam arm (an electronic-key version)](../media/cam-latch.webp)
-
-*Picture: [Electronic-cam-lock.jpg](https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg) by Chole Wu, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cam-latch.svg"><img src="../media/drawn/anim/cam-latch.svg" alt="Animated: a cam latch seen from inside the cabinet and in a section from above: turning the knob a quarter turn swings the flat cam from alongside the door edge to behind the lip of the frame, where it holds the door shut; the grip is the distance from the latch face to the cam&#x27;s contact face."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-latch.webp" alt="A small round cam lock with a threaded body and nut, and the flat arm (cam) on the back that turns to hook behind the frame." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Electronic-cam-lock.jpg">Electronic-cam-lock</a> by Chole Wu, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cam-latch-44467b.webp" alt="A chrome quarter-turn cam latch with a double-bit key socket in its face and a cranked arm on the back." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dubbelbaard_slot.png">Dubbelbaard slot</a> by Biq OO, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A latch fitted through a single hole in a door or lid, whose knob, key or tool turns a flat arm (the cam) a quarter turn so that it hooks behind the frame and holds the door closed.
 

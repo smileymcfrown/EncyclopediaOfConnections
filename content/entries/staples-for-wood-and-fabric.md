@@ -127,21 +127,54 @@ sources:
 research: research/connection-types/results/Staples_for_wood_and_fabric_staple_gun_hammer_tacker_cable_staple.json
 image:
   file: staples-for-wood-and-fabric.webp
-  width: 800
-  height: 965
   title: File:Basic staple diagram (named parts).svg
   author: AnonMoos
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Basic_staple_diagram_(named_parts).svg
-  alt: A labelled drawing of a staple naming its crown and legs
+  alt: A drawing of a staple with its flat top (crown), two legs and pointed ends (teeth) labelled.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: staples-for-wood-and-fabric.webp
+  title: File:Basic staple diagram (named parts).svg
+  author: AnonMoos
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Basic_staple_diagram_(named_parts).svg
+  alt: A drawing of a staple with its flat top (crown), two legs and pointed ends (teeth) labelled.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: staples-for-wood-and-fabric-111f98.webp
+  title: cardboard stapled
+  author: Mr Thinktank
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/34621580@N00/4047870809
+  site: Flickr via Openverse
+  alt: A row of staples driven along the edge of a sheet of brown board, holding it down.
+  kind: how-it-works
+  drawn: false
+- file: staples-for-wood-and-fabric-4bf291.webp
+  title: File:HMT53 57.JPG
+  author: Horst
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:HMT53_57.JPG
+  site: Wikimedia Commons
+  alt: Two Bosch hammer tackers, tools that drive a staple each time they are swung against the work.
+  kind: photo
   drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, brittle--ductile, peel-vs-shear, gland]
 ---
 
-![A labelled drawing of a staple naming its crown and legs](../media/staples-for-wood-and-fabric.webp)
-
-*Picture: [Basic staple diagram (named parts).svg](https://commons.wikimedia.org/wiki/File:Basic_staple_diagram_(named_parts).svg) by AnonMoos, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/staples-for-wood-and-fabric.webp" alt="A drawing of a staple with its flat top (crown), two legs and pointed ends (teeth) labelled."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Basic_staple_diagram_(named_parts).svg">Basic staple diagram (named parts)</a> by AnonMoos, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/staples-for-wood-and-fabric-111f98.webp" alt="A row of staples driven along the edge of a sheet of brown board, holding it down." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/34621580@N00/4047870809">cardboard stapled</a> by Mr Thinktank, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/staples-for-wood-and-fabric-4bf291.webp" alt="Two Bosch hammer tackers, tools that drive a staple each time they are swung against the work." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:HMT53_57.JPG">HMT53 57</a> by Horst, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A U-shaped wire fastener driven straight into wood (or a similar soft base) by a staple gun or hammer tacker, whose flat top (crown) bridges over whatever it holds, which makes it the quick way to fix fabric, leather, mesh, plastic film, insulation and low-voltage cables flat onto wood.
 

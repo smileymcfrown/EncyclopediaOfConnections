@@ -132,22 +132,33 @@ sources:
 research: research/connection-types/results/Quickrelease_pin_balllock_pin.json
 image:
   file: quick-release-pin.webp
-  width: 500
-  height: 435
   title: File:Kugelsperrbolzen Funktionsprinzip.tif
   author: HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif
-  alt: Diagram of how a ball lock pin works (German labels), used on the German Wikipedia article 'Kugelsperrbolzen'
+  alt: A drawing of a T-handled ball-lock pin pushed into a hole through two plates, before and after it locks.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: quick-release-pin.webp
+  title: File:Kugelsperrbolzen Funktionsprinzip.tif
+  author: HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif
+  alt: A drawing of a T-handled ball-lock pin pushed into a hole through two plates, before and after it locks.
+  site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, detent, tolerance, form-fit--force-fit--material-bond, counterbore--countersink,
   creep, fatigue, perimeters, infill, peel-vs-shear]
 ---
 
-![Diagram of how a ball lock pin works (German labels), used on the German Wikipedia article 'Kugelsperrbolzen'](../media/quick-release-pin.webp)
-
-*Picture: [Kugelsperrbolzen Funktionsprinzip.tif](https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif) by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/quick-release-pin.webp" alt="A drawing of a T-handled ball-lock pin pushed into a hole through two plates, before and after it locks."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif">Kugelsperrbolzen Funktionsprinzip</a> by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pin that slides through lined-up holes in two or more parts and locks itself there with small spring-controlled balls, holding the parts together (and in line) until someone presses the button on its handle and pulls it out, with no tools.
 

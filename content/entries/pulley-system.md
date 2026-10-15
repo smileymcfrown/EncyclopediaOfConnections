@@ -149,23 +149,60 @@ sources:
 - https://api.printables.com/graphql/ (model 1772939, read 2026-10-06)
 research: research/connection-types/results/Pulley_system_block_and_tackle_differential_hoist.json
 image:
-  file: pulley-system.webp
-  width: 800
-  height: 534
+  file: drawn/anim/pulley-system.svg
+  alt: 'Three pulley systems lifting 100 kg by 1 m and lowering it again: in the single pulley the hand pulls 1 m of rope,
+    in the 2:1 moving pulley 2 m and in the 4:1 tackle 4 m, as the pulleys turn; the load is shared by 1, 2 or 4 rope parts.'
+  drawn: true
+  still: drawn/pulley-system.svg
+  kind: animation
+pictures:
+- file: drawn/anim/pulley-system.svg
+  alt: 'Three pulley systems lifting 100 kg by 1 m and lowering it again: in the single pulley the hand pulls 1 m of rope,
+    in the 2:1 moving pulley 2 m and in the 4:1 tackle 4 m, as the pulleys turn; the load is shared by 1, 2 or 4 rope parts.'
+  drawn: true
+  still: drawn/pulley-system.svg
+  kind: animation
+- file: pulley-system.webp
   title: File:Tackles.png
   author: Welkinridge
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Tackles.png
-  alt: Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)
+  alt: A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs
+    on more rope parts.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: pulley-system-2d6191.webp
+  title: Pulley System
+  author: schnaars
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/12595974@N00/3169924236
+  site: Flickr via Openverse
+  alt: A museum display of wooden pulley blocks with a rope threaded between them, above a drawing of the same set-up.
+  kind: how-it-works
+  drawn: false
+- file: pulley-system-6f0a1c.webp
+  title: File:2025 Pulley (Windmill in Xaghra).jpg
+  author: Qasinka
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:2025_Pulley_(Windmill_in_Xaghra).jpg
+  site: Wikimedia Commons
+  alt: An old wooden pulley block hanging from a stone wall inside a windmill, with its rope running down.
+  kind: photo
   drawn: false
 glossary: [self-locking, ratchet, pawl, mechanical-advantage, pitch, form-fit--force-fit--material-bond, creep, fatigue, perimeters,
   infill]
 ---
 
-![Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)](../media/pulley-system.webp)
-
-*Picture: [Tackles.png](https://commons.wikimedia.org/wiki/File:Tackles.png) by Welkinridge, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/pulley-system.svg"><img src="../media/drawn/anim/pulley-system.svg" alt="Three pulley systems lifting 100 kg by 1 m and lowering it again: in the single pulley the hand pulls 1 m of rope, in the 2:1 moving pulley 2 m and in the 4:1 tackle 4 m, as the pulleys turn; the load is shared by 1, 2 or 4 rope parts."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pulley-system.webp" alt="A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs on more rope parts." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tackles.png">Tackles</a> by Welkinridge, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pulley-system-2d6191.webp" alt="A museum display of wooden pulley blocks with a rope threaded between them, above a drawing of the same set-up." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/12595974@N00/3169924236">Pulley System</a> by schnaars, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pulley-system-6f0a1c.webp" alt="An old wooden pulley block hanging from a stone wall inside a windmill, with its rope running down." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2025_Pulley_(Windmill_in_Xaghra).jpg">2025 Pulley (Windmill in Xaghra)</a> by Qasinka, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two blocks of pulleys with one rope threaded back and forth between them, so the load hangs on several rope parts and a pull of only a fraction of its weight lifts it (at the cost of pulling that many times more rope); the differential chain hoist uses two joined chain wheels of slightly different size to get a very large gain and, because its friction is high, holds the load by itself.
 

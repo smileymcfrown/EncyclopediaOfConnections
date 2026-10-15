@@ -130,18 +130,44 @@ sources:
 - https://www.thingiverse.com/thing:3510009
 research: research/connection-types/results/Reversing_screw_diamondthread_or_levelwind_screw.json
 image:
-  file: drawn/reversing-screw.svg
+  file: drawn/anim/reversing-screw.svg
   alt: 'Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern
     and joined by U-turns at both ends, with a boat-shaped follower in the groove; the shaft always turns one way while the
-    follower and its carriage run out and back.'
+    follower and its carriage run out and back. The animation turns the shaft so both grooves travel along it in opposite
+    directions; the follower rides one groove out to the end, swivels round the U-turn into the other groove and rides it
+    back.'
   drawn: true
+  still: drawn/reversing-screw.svg
+  kind: animation
+pictures:
+- file: drawn/anim/reversing-screw.svg
+  alt: 'Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern
+    and joined by U-turns at both ends, with a boat-shaped follower in the groove; the shaft always turns one way while the
+    follower and its carriage run out and back. The animation turns the shaft so both grooves travel along it in opposite
+    directions; the follower rides one groove out to the end, swivels round the U-turn into the other groove and rides it
+    back.'
+  drawn: true
+  still: drawn/reversing-screw.svg
+  kind: animation
+- file: reversing-screw.webp
+  title: File:Seilwinde-Kreuzgewindespindel.jpg
+  author: Alfons Kifmann
+  license: CC BY-SA 3.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Seilwinde-Kreuzgewindespindel.jpg
+  site: Wikimedia Commons
+  alt: A winch drum on a blue frame with a level winder, a shaft with crossing spiral grooves that moves the rope guide back
+    and forth across the drum.
+  kind: photo
+  drawn: false
 glossary: [misalignment, stroke, pawl, gear-ratio, pitch, cam-and-follower, crank, clearance, form-fit--force-fit--material-bond,
   repeatability--accuracy, lubrication, infill, overhang--bridging]
 ---
 
-![Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern and joined by U-turns at both ends, with a boat-shaped follower in the groove; the](../media/drawn/reversing-screw.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/reversing-screw.svg"><img src="../media/drawn/anim/reversing-screw.svg" alt="Side view of a reversing screw: a shaft with a right-hand groove and a left-hand groove crossing in a diamond pattern and joined by U-turns at both ends, with a boat-shaped follower in the groove; the shaft always turns one way while the follower and its carriage run out and back. The animation turn"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/reversing-screw.webp" alt="A winch drum on a blue frame with a level winder, a shaft with crossing spiral grooves that moves the rope guide back and forth across the drum." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Seilwinde-Kreuzgewindespindel.jpg">Seilwinde-Kreuzgewindespindel</a> by Alfons Kifmann, <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en">CC BY-SA 3.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A shaft with a right-hand and a left-hand spiral groove crossing each other and joined at the ends, so a swivelling follower in the groove runs back and forth along the shaft while the shaft keeps turning one way, which is how fishing reels and winders lay line evenly across a spool.
 

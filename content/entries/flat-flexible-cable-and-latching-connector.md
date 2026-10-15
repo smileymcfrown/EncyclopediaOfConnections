@@ -138,22 +138,62 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Flat_flexible_cable_and_latching_connector_FFC_with_ZIF_connector.json
 image:
-  file: flat-flexible-cable-and-latching-connector.webp
-  width: 800
-  height: 528
+  file: drawn/anim/flat-flexible-cable-and-latching-connector.svg
+  alt: 'Side view of a flat flexible cable and a latching (ZIF) connector, shown working: the latch is up, the cable''s stiffened
+    tab slides into the slot with no force, the latch swings down and its pad presses the bare copper onto the spring contact,
+    then the latch lifts and the cable slides out again; beside it, top views of Type A and Type D cable ends.'
+  drawn: true
+  still: drawn/flat-flexible-cable-and-latching-connector.svg
+  kind: animation
+pictures:
+- file: drawn/anim/flat-flexible-cable-and-latching-connector.svg
+  alt: 'Side view of a flat flexible cable and a latching (ZIF) connector, shown working: the latch is up, the cable''s stiffened
+    tab slides into the slot with no force, the latch swings down and its pad presses the bare copper onto the spring contact,
+    then the latch lifts and the cable slides out again; beside it, top views of Type A and Type D cable ends.'
+  drawn: true
+  still: drawn/flat-flexible-cable-and-latching-connector.svg
+  kind: animation
+- file: flat-flexible-cable-and-latching-connector.webp
   title: File:ZIF connector and FFC.jpg
   author: Zeroping
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:ZIF_connector_and_FFC.jpg
-  alt: A pair of zero-insertion-force connectors on a laptop mainboard with the flat flexible cables that plug into them
+  alt: Two flat flexible cables with bare copper strips at their ends beside the matching latching connectors on a laptop
+    circuit board.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: flat-flexible-cable-and-latching-connector-a239e0.webp
+  title: File:Samsung SGH-U700 FFC.jpg
+  author: RobbertS
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg
+  site: Wikimedia Commons
+  alt: A flat flexible cable bending round from a phone screen into a small latching connector on the circuit board.
+  kind: how-it-works
+  drawn: false
+- file: flat-flexible-cable-and-latching-connector-0ec346.webp
+  title: File:Flat-Flex-Cable.jpg
+  author: Marcus Wong Wongm
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Flat-Flex-Cable.jpg
+  site: Wikimedia Commons
+  alt: A length of flat flexible cable, a thin plastic strip with many fine copper conductors side by side, curving across
+    a table.
+  kind: photo
   drawn: false
 glossary: [pitch, clearance, form-fit--force-fit--material-bond, keying, fatigue, gland]
 ---
 
-![A pair of zero-insertion-force connectors on a laptop mainboard with the flat flexible cables that plug into them](../media/flat-flexible-cable-and-latching-connector.webp)
-
-*Picture: [ZIF connector and FFC.jpg](https://commons.wikimedia.org/wiki/File:ZIF_connector_and_FFC.jpg) by Zeroping, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/flat-flexible-cable-and-latching-connector.svg"><img src="../media/drawn/anim/flat-flexible-cable-and-latching-connector.svg" alt="Side view of a flat flexible cable and a latching (ZIF) connector, shown working: the latch is up, the cable&#x27;s stiffened tab slides into the slot with no force, the latch swings down and its pad presses the bare copper onto the spring contact, then the latch lifts and the cable slides out again; bes"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flat-flexible-cable-and-latching-connector.webp" alt="Two flat flexible cables with bare copper strips at their ends beside the matching latching connectors on a laptop circuit board." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ZIF_connector_and_FFC.jpg">ZIF connector and FFC</a> by Zeroping, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flat-flexible-cable-and-latching-connector-a239e0.webp" alt="A flat flexible cable bending round from a phone screen into a small latching connector on the circuit board." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg">Samsung SGH-U700 FFC</a> by RobbertS, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flat-flexible-cable-and-latching-connector-0ec346.webp" alt="A length of flat flexible cable, a thin plastic strip with many fine copper conductors side by side, curving across a table." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flat-Flex-Cable.jpg">Flat-Flex-Cable</a> by Marcus Wong Wongm, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flat flexible cable is a thin plastic film with many flat copper conductors whose stiffened, bared ends slide into low-profile board connectors that are clamped shut by a small latch (a ZIF connector), carrying many low-current signals between boards, cameras and displays and through hinges and moving parts.
 

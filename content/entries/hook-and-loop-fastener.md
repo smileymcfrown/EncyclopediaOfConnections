@@ -123,21 +123,54 @@ sources:
 research: research/connection-types/results/Hookandloop_fastener.json
 image:
   file: hook-and-loop-fastener.webp
-  width: 800
-  height: 533
   title: File:Velcro Hooks.jpg
   author: Alexander Klink
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg
-  alt: Close-up photo of the hook side, showing the tiny J-shaped hooks
+  alt: Close-up of a black hook-and-loop strip, the hook side, covered in tiny stiff plastic hooks.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: hook-and-loop-fastener.webp
+  title: File:Velcro Hooks.jpg
+  author: Alexander Klink
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg
+  alt: Close-up of a black hook-and-loop strip, the hook side, covered in tiny stiff plastic hooks.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: hook-and-loop-fastener-cef2c9.webp
+  title: File:Velcro photomicrograph.jpg
+  author: Trazyanderson
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Velcro_photomicrograph.jpg
+  site: Wikimedia Commons
+  alt: A magnified view of clear plastic hooks on red fabric catching white loop fibres as the two sides are pulled apart.
+  kind: how-it-works
+  drawn: false
+- file: hook-and-loop-fastener-35cc87.webp
+  title: File:Suchý zip na spacáku.jpg
+  author: Topi Pigula
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Such%C3%BD_zip_na_spac%C3%A1ku.jpg
+  site: Wikimedia Commons
+  alt: Black hook-and-loop patches sewn onto the flap of a sleeping bag, one with hooks and one with loops.
+  kind: photo
   drawn: false
 glossary: [misalignment, fail-safe--fail-secure, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
 
-![Close-up photo of the hook side, showing the tiny J-shaped hooks](../media/hook-and-loop-fastener.webp)
-
-*Picture: [Velcro Hooks.jpg](https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg) by Alexander Klink, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hook-and-loop-fastener.webp" alt="Close-up of a black hook-and-loop strip, the hook side, covered in tiny stiff plastic hooks."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Velcro_Hooks.jpg">Velcro Hooks</a> by Alexander Klink, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hook-and-loop-fastener-cef2c9.webp" alt="A magnified view of clear plastic hooks on red fabric catching white loop fibres as the two sides are pulled apart." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Velcro_photomicrograph.jpg">Velcro photomicrograph</a> by Trazyanderson, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hook-and-loop-fastener-35cc87.webp" alt="Black hook-and-loop patches sewn onto the flap of a sleeping bag, one with hooks and one with loops." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Such%C3%BD_zip_na_spac%C3%A1ku.jpg">Suchý zip na spacáku</a> by Topi Pigula, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A pair of strips, one with thousands of tiny springy hooks and one with a pile of soft loops, that cling together wherever they are pressed and can be peeled apart and closed again thousands of times.
 

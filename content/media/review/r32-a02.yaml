@@ -1,0 +1,407 @@
+# R32 picture choices, batch a02
+half-nut:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: all candidates unrelated (rocks, dashes, edible nuts)
+hand-mouldable-thermoplastic:
+  pictures:
+    - commons: "File:PCL beads.jpg"
+      kind: photo
+      alt: A heap of small white polycaprolactone (PCL) plastic beads, each about 3.5 mm across.
+    - candidate: 2
+      kind: how-it-works
+      alt: A home-made bicycle light mount moulded by hand from white PCL plastic, gripping the handlebar and holding two lights.
+  needs_animation: false
+  needs_photo: false
+heat-set-threaded-insert:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A small brass threaded insert with diamond knurling on the outside and a slot down one side.
+  needs_animation: false
+  needs_photo: true
+  note: only photo is a tiny (116x187) shot of a press-in brass insert, not a heat-set one in a print
+heat-shrink-tubing:
+  pictures:
+    - commons: "File:Schrumpfschlauch animated modified.gif"
+      kind: animation
+      alt: A loose pink tube over the wires behind a small plug shrinks tight around them as it is heated.
+    - candidate: 2
+      kind: how-it-works
+      alt: A black heat-shrink sleeve shrunk tightly over a joint in a thin cable, held in a yellow tool.
+    - candidate: 3
+      kind: photo
+      alt: Ten lengths of heat-shrink tubing in different colours laid side by side.
+  needs_animation: false
+  needs_photo: false
+herringbone-and-helical-gears:
+  pictures:
+    - commons: "File:Anim engrenages helicoidaux.gif"
+      kind: animation
+      alt: Two grey helical gears with slanted teeth turning together in mesh.
+    - candidate: 4
+      kind: photo
+      alt: A pair of brass herringbone gears in a museum display, their V-shaped teeth meshing, above a sign reading Double helical herringbone gear.
+    - candidate: 2
+      kind: how-it-works
+      alt: A large industrial gearbox with its cover off, showing big double-helical gears with V-shaped teeth in mesh.
+  needs_animation: false
+  needs_photo: false
+hidden-latches:
+  pictures:
+    - commons: "File:Magnetic safety lock.jpg"
+      kind: photo
+      alt: A white plastic magnetic child-safety catch fixed inside a cabinet door, its hook ready to catch the frame.
+    - candidate: 2
+      kind: how-it-works
+      alt: An antique wooden lap desk opened up to show a hidden compartment held shut by a spring latch.
+  needs_animation: true
+  needs_photo: false
+high-current-battery-plug:
+  pictures:
+    - commons: "File:T-plug.jpg"
+      kind: photo
+      alt: A red T-shaped plug and socket (Deans style) with flat brass contacts, shown apart.
+    - candidate: 2
+      kind: how-it-works
+      alt: A red T-plug and its socket, each soldered to red and black battery wires, ready to be pushed together.
+  needs_animation: false
+  needs_photo: false
+hook-and-loop-fastener:
+  pictures:
+    - commons: "File:Velcro Hooks.jpg"
+      kind: photo
+      alt: Close-up of a black hook-and-loop strip, the hook side, covered in tiny stiff plastic hooks.
+    - candidate: 7
+      kind: how-it-works
+      alt: A magnified view of clear plastic hooks on red fabric catching white loop fibres as the two sides are pulled apart.
+    - candidate: 11
+      kind: photo
+      alt: Black hook-and-loop patches sewn onto the flap of a sleeping bag, one with hooks and one with loops.
+  needs_animation: false
+  needs_photo: false
+hot-melt-adhesive:
+  pictures:
+    - commons: "File:Stanley-Hot-Glue-Gun-GR35K.jpg"
+      kind: photo
+      alt: A small black hobby hot glue gun with a clear glue stick in the back.
+    - candidate: 2
+      kind: cross-section
+      alt: A hot glue gun with one half of its case removed, showing the trigger feed, the glue stick and the heated nozzle inside.
+    - candidate: 10
+      kind: how-it-works
+      alt: A person using a hot glue gun to fix parts onto a model boat.
+  needs_animation: false
+  needs_photo: false
+in-line-swivel:
+  pictures:
+    - commons: "File:Swivel (PSF).png"
+      kind: diagram
+      alt: A line drawing of a chain swivel, a link with a ring at each end joined through a body so the two ends can turn separately.
+    - candidate: 2
+      kind: photo
+      alt: A polished stainless-steel anchor swivel, a forked jaw at one end and an eye at the other joined through a round body that lets them turn.
+    - candidate: 3
+      kind: photo
+      alt: A large steel swivel on a display stand, two shackle-like ends joined by a turning body.
+  needs_animation: true
+  needs_photo: false
+insulation-displacement-connector:
+  pictures:
+    - commons: "File:FDD 34 PIN Scheidklemmen IMG 0691.JPG"
+      kind: photo
+      alt: A black 34-way connector pressed onto a grey ribbon cable, its blades cutting into every wire at once.
+    - candidate: 5
+      kind: cross-section
+      alt: Parallel ATA ribbon-cable connectors opened up, showing the forked metal blades that pierce each wire.
+    - candidate: 9
+      kind: how-it-works
+      alt: A black 10-way ribbon-cable connector with its cover lifted off, showing the row of sharp forked blades the cable is pressed onto.
+  needs_animation: false
+  needs_photo: false
+intermittent-gear:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "#3 is a Geneva drive, not this; #4 (museum 'Timing Gear') may be one but the mechanism is tiny in a big panel"
+internal-tube-anchors:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: Two old bicycle quill stems; the left one shows the angled wedge at the bottom that a bolt pulls up to jam the stem inside the fork tube.
+  needs_animation: false
+  needs_photo: false
+  note: only photo is a quill stem (expanding wedge type); no star nut or plug insert photo
+invisible-barrel-hinge:
+  pictures:
+    - commons: "File:Scharnier 11.gif"
+      kind: animation
+      alt: A cut-away animation of a concealed cross-link hinge, its crossed links folding into the two pockets as the door closes and unfolding as it opens.
+  needs_animation: false
+  needs_photo: true
+  note: other candidates are unrelated (a rocket)
+iris-mechanism:
+  pictures:
+    - commons: "File:Iris Diaphragm.gif"
+      kind: animation
+      alt: Nine thin curved blades swing inwards together to shrink a round opening, then outwards to open it again.
+    - candidate: 10
+      kind: how-it-works
+      alt: A real camera lens seen from the front, its metal iris blades closing down and opening up the hole in the middle.
+  needs_animation: false
+  needs_photo: false
+iris-valve:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "#1 is only a loose pinch-valve rubber sleeve; others are steampunk masks"
+iron-on-fusible-web:
+  pictures:
+    - commons: "File:HemRepairTape.jpg"
+      kind: photo
+      alt: A roll of white iron-on hem tape, a thin open web of glue fibres.
+    - candidate: 2
+      kind: how-it-works
+      alt: A fabric hem folded back to show the white fused interfacing bonded inside it.
+  needs_animation: false
+  needs_photo: false
+  note: "#4 appliqué may be fused but is also stitched, so left out"
+jaw-coupling:
+  pictures:
+    - commons: "File:JawConcept2.jpg"
+      kind: photo
+      alt: A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert.
+  needs_animation: true
+  needs_photo: true
+  note: current picture is a computer render; no real photo among candidates (#3 shows a motor where the coupling is tiny)
+kerf-bending:
+  pictures:
+    - commons: "File:Living hinge (wood).jpg"
+      kind: how-it-works
+      alt: A laser-cut plywood box whose side is cut with rows of fine slits so the wood bends round the curved corners.
+  needs_animation: true
+  needs_photo: false
+  note: other candidates are saw-tooth setters (a different meaning of kerf)
+keying:
+  pictures:
+    - commons: "File:Notch position between DDR and DDR2.jpg"
+      kind: photo
+      alt: A computer memory stick whose edge connector has a notch off-centre, so it only fits its slot one way round.
+    - candidate: 2
+      kind: photo
+      alt: An HDMI plug whose metal shell is narrower on one side, so it can only be pushed into the socket the right way up.
+  needs_animation: false
+  needs_photo: false
+kinematic-coupling:
+  pictures:
+    - commons: "File:Maxwell kinematic coupling.png"
+      kind: diagram
+      alt: A drawing of a Maxwell kinematic coupling, a top disc with three round balls above a bottom disc with three V-grooves pointing to the centre.
+  needs_animation: false
+  needs_photo: true
+  note: "#2 and #3 are plain CAD renders, not photos; no real-world photo found"
+knife-edge-and-jewel-pivots:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are only line drawings (Kater pendulum, watch jewel bearing)
+knock-down-cam-lock-and-cross-dowel-connectors:
+  pictures:
+    - commons: "File:Cam connector cropped.png"
+      kind: photo
+      alt: A furniture cam-lock fitting, a long bolt with a round head lying next to the round metal cam that grips it.
+  needs_animation: false
+  needs_photo: false
+  note: no photo of a cross dowel; "#3 and #4 are flat cut-away drawings"
+knuckle-hinge:
+  pictures:
+    - commons: "File:Butt Hinge annotated.jpg"
+      kind: photo
+      alt: A steel butt hinge with labels pointing to its two leaves, the interlocking knuckles and the pin running through them.
+    - candidate: 18
+      kind: how-it-works
+      alt: A butt hinge screwed into a shallow chiselled recess in a door edge, its knuckles sticking out past the edge.
+    - candidate: 3
+      kind: photo
+      alt: A lift-off steel hinge with two knuckles on a single pin, so the door leaf can be lifted off the frame leaf.
+  needs_animation: true
+  needs_photo: false
+lacing:
+  pictures:
+    - commons: "File:Lamellar lacing.gif"
+      kind: diagram
+      alt: A drawing of small armour plates laced together by a cord passing back and forth through rows of holes.
+    - candidate: 2
+      kind: photo
+      alt: A pair of canvas high-top trainers laced criss-cross through rows of metal eyelets.
+    - candidate: 16
+      kind: how-it-works
+      alt: Close-up of a bundle of wires in an old electrical machine, held together by waxed cord laced round it in a row of knotted loops.
+  needs_animation: false
+  needs_photo: false
+ladder-lock-buckle:
+  pictures:
+    - commons: "File:Cropped tri-glide slide.jpg"
+      kind: photo
+      alt: A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar.
+  needs_animation: true
+  needs_photo: true
+  note: only candidate is a tri-glide (a close relative); no photo of a ladder-lock buckle itself
+lamina-emergent-torsional-joint:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: no candidates on the sheet
+lantern-gear:
+  pictures:
+    - commons: "File:Cage Gear.png"
+      kind: photo
+      alt: A wooden lantern gear inside an old windmill, a ring of round wooden pins between two discs meshing with the teeth of a big wheel.
+    - candidate: 2
+      kind: photo
+      alt: The iron frame of a 1608 turret clock with small lantern pinions, rows of pins between two discs, meshing with toothed wheels.
+  needs_animation: true
+  needs_photo: false
+  note: candidate animations are ordinary spur and planetary gears, not lantern gears
+levelling-foot:
+  pictures:
+    - commons: "File:W7-X gyrotron, adjustable foot.jpg"
+      kind: photo
+      alt: A machine leg standing on a round steel foot pad, joined to it by a threaded stud that screws in or out to set the height.
+  needs_animation: false
+  needs_photo: false
+  note: other candidates are level crossings, unrelated
+linear-guides:
+  pictures:
+    - commons: "File:Linear-table animated.gif"
+      kind: animation
+      alt: A table slides back and forth on two round steel rods, guided by bushings that wrap round the rods.
+    - candidate: 3
+      kind: photo
+      alt: A realistic render of a profile-rail linear guide, a red and green carriage block riding on a long steel rail.
+  needs_animation: false
+  needs_photo: false
+  note: "#3 is a high-quality render, not a photo; no V-wheel or 3D-printer photo among candidates"
+linear-ratchet:
+  pictures:
+    - commons: "File:Ratchet Rack and Pawl.gif"
+      kind: animation
+      alt: A pawl clicks over the sloping teeth of a straight toothed rack, letting it slide one way and catching it if pushed back.
+    - candidate: 2
+      kind: cross-section
+      alt: A cable tie cut in half through its head, showing the little blue pawl hooked against the teeth of the yellow strap.
+  needs_animation: false
+  needs_photo: false
+living-hinge:
+  pictures:
+    - commons: "File:Mint box polypropylene lid.JPG"
+      kind: how-it-works
+      alt: An empty mint box with its white plastic lid flipped open, joined to the box by a thin flexible strip of the same plastic.
+    - candidate: 11
+      kind: photo
+      alt: An open foam egg box, its lid and base moulded in one piece and joined by a thin fold line along the back.
+    - candidate: 2
+      kind: photo
+      alt: A clear plastic cassette case opened flat, its two halves joined by a thin moulded plastic hinge.
+  needs_animation: true
+  needs_photo: false
+load-bearing-stitch-patterns-for-straps-and-webbing:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: Close-up of cloth with a short, dense zig-zag bar tack stitched across a seam to reinforce it.
+  needs_animation: false
+  needs_photo: true
+  note: only photo is a bar tack on clothing; no photo of a box-and-X stitch on webbing
+locating-pins-and-hole-and-slot:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "#1 is a render of a lone dowel pin; #2 and #3 do not clearly show a hole and slot"
+locking-adjustment-screws:
+  pictures:
+    - commons: "File:Mirrormount1.jpg"
+      kind: how-it-works
+      alt: A black kinematic mirror mount with labels showing an adjusting screw, the spring that pulls the plates together and the ball bearing they pivot on.
+  needs_animation: false
+  needs_photo: false
+  note: no candidate shows a 3D-printer bed levelling screw or a jam nut
+magnetic-connector:
+  pictures:
+    - commons: "File:MagSafe1.jpg"
+      kind: photo
+      alt: A laptop magnetic power plug about to meet its socket, showing the row of spring-loaded pins and the flat contact pads.
+  needs_animation: false
+  needs_photo: false
+  note: "other candidates are unrelated (hard-disk heads, solar field maps); #3 is a broken MagSafe tip"
+magnetic-detent:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: only candidate is an unrelated telegraph drawing
+mechanical-interlock:
+  pictures:
+    - commons: "File:Trapped key interlock switchgear door.JPG"
+      kind: photo
+      alt: A brass trapped-key lock on a grey electrical cabinet door; the key can only be turned and removed when the door is locked.
+    - candidate: 2
+      kind: how-it-works
+      alt: The locking bed of a railway interlocking machine, rows of sliding bars and notched blocks that stop levers being moved in an unsafe order.
+    - candidate: 4
+      kind: how-it-works
+      alt: A metal plate with a sliding linkage that locks a machine carriage whenever its handle is not in the normal position.
+  needs_animation: true
+  needs_photo: false
+mechanical-metamaterial-mechanism:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are renders of stiff lattice infill cubes, not a shear-cell mechanism
+mid-print-embedding:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: all candidates unrelated (maps, engravings, an abbey)
+modular-grid-mounting-systems:
+  pictures:
+    - commons: "File:Gridfinity drawer and bin.jpg"
+      kind: photo
+      alt: A 3D-printed drawer with a Gridfinity baseplate of square sockets and one long bin of toothpicks sitting in it.
+    - candidate: 1
+      kind: photo
+      alt: A piece of brown pegboard with evenly spaced round holes one inch apart.
+  needs_animation: false
+  needs_photo: false
+mortise-and-tenon:
+  pictures:
+    - commons: "File:Mortise and tenon joint.svg"
+      kind: diagram
+      alt: A drawing of a rectangular tenon on the end of one block lined up with the matching hole cut in another block.
+    - candidate: 11
+      kind: photo
+      alt: An ancient wooden beam with a post's tenon pushed right through a square mortise in it.
+    - candidate: 13
+      kind: photo
+      alt: A weathered wooden post in the desert with its tenon passing through a mortise in the beam it holds up.
+  needs_animation: false
+  needs_photo: false
+  note: real photos are of ancient ruins; no modern woodworking or 3D-printed example among candidates
+multi-material-interlock:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: all candidates unrelated (paving, railway interlocking, floor tiles)

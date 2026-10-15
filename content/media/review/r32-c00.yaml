@@ -1,0 +1,36 @@
+# R32 picture choices for the last three entries (chosen by the main session from their contact sheets)
+clamp-on-accessory-mount-for-bars-poles-and-edges:
+  pictures:
+    - commons: "File:AltmanClamp.jpg"
+      kind: photo
+      alt: A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light.
+  needs_animation: false
+  needs_photo: true
+  note: the search found only the current picture
+flywheel:
+  pictures:
+    - candidate: 17
+      kind: animation
+      alt: Animation of a small hot-air engine whose heavy spoked flywheel keeps turning and carries the crank round between power strokes.
+    - candidate: 4
+      kind: how-it-works
+      alt: A huge cast-iron flywheel from an old factory engine, still joined by its crank to the engine's connecting rod.
+    - candidate: 5
+      kind: photo
+      alt: A heavy steel flywheel on a short shaft held in a wall bracket.
+  needs_animation: false
+  needs_photo: false
+  note: the old first picture was a 116 px, four-frame animation
+spring-clip-clamp:
+  pictures:
+    - commons: "File:Clothespin-0157e3.jpg"
+      kind: photo
+      alt: A wooden clothes peg, two wooden jaws pressed together at the front by a coiled wire spring in the middle.
+    - candidate: 24
+      kind: photo
+      alt: A heavy-duty metal spring clamp with plastic-tipped jaws, set on a rock beside a lake.
+    - candidate: 27
+      kind: photo
+      alt: A blue plastic spring clamp, squeezed at the handles to open the jaws.
+  needs_animation: true
+  needs_photo: false

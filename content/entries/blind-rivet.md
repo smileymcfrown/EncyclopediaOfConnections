@@ -146,24 +146,59 @@ sources:
 research: research/connection-types/results/Blind_rivet_pop_rivet.json
 image:
   file: blind-rivet.webp
-  width: 186
-  height: 232
   title: File:Popnagel.gif
   author: Heedless
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Popnagel.gif
-  alt: 'Animation of a pop rivet being set: the mandrel is pulled and the rivet''s far end swells behind the sheets (used
-    in Wikipedia ''Rivet''; the mandrel''s weakened neck is not shown)'
-  animated: true
+  alt: An animated cut-through of a blind rivet in two sheets, its pin pulled back so the far end swells into a second head
+    and the pin snaps off.
+  site: Wikimedia Commons
+  still: blind-rivet.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: blind-rivet.webp
+  title: File:Popnagel.gif
+  author: Heedless
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Popnagel.gif
+  alt: An animated cut-through of a blind rivet in two sheets, its pin pulled back so the far end swells into a second head
+    and the pin snaps off.
+  site: Wikimedia Commons
+  still: blind-rivet.still.webp
+  kind: animation
+  drawn: false
+- file: blind-rivet-e85883.webp
+  title: File:Blind rivets before and after strain.jpg
+  author: Cjp24
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Blind_rivets_before_and_after_strain.jpg
+  site: Wikimedia Commons
+  alt: Two blind rivets, one unused and one after setting, its far end bulged out into a wide head with the pin still in it.
+  kind: how-it-works
+  drawn: false
+- file: blind-rivet-6c6cfc.webp
+  title: File:2023 Nitownica.jpg
+  author: Jacek Halicki
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:2023_Nitownica.jpg
+  site: Wikimedia Commons
+  alt: A hand rivet tool with red handles beside a few loose blind rivets.
+  kind: photo
   drawn: false
 glossary: [misalignment, pitch, clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, perimeters,
   infill, peel-vs-shear]
 ---
 
-![Animation of a pop rivet being set: the mandrel is pulled and the rivet's far end swells behind the sheets (used in Wikipedia 'Rivet'; the mandrel's weakened neck is not shown)](../media/blind-rivet.webp)
-
-*Picture: [Popnagel.gif](https://commons.wikimedia.org/wiki/File:Popnagel.gif) by Heedless, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/blind-rivet.still.webp"><img src="../media/blind-rivet.webp" alt="An animated cut-through of a blind rivet in two sheets, its pin pulled back so the far end swells into a second head and the pin snaps off."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Popnagel.gif">Popnagel</a> by Heedless, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/blind-rivet-e85883.webp" alt="Two blind rivets, one unused and one after setting, its far end bulged out into a wide head with the pin still in it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Blind_rivets_before_and_after_strain.jpg">Blind rivets before and after strain</a> by Cjp24, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/blind-rivet-6c6cfc.webp" alt="A hand rivet tool with red handles beside a few loose blind rivets." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2023_Nitownica.jpg">2023 Nitownica</a> by Jacek Halicki, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hollow rivet with a pulling pin (mandrel) through it that you fit from one side: a hand tool pulls the pin until the far end of the rivet swells into a second head behind the parts and the pin snaps off, clamping sheets or panels together permanently.
 

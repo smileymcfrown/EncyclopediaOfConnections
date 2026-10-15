@@ -157,24 +157,62 @@ sources:
 - https://en.wikipedia.org/wiki/Bendix_drive
 research: research/connection-types/results/Spline_shaft_sliding_spline.json
 image:
-  file: spline-shaft.webp
-  width: 800
-  height: 783
-  title: File:Spline-shaft.png
-  author: Silberwolf
+  file: spline-shaft-174a14.webp
+  title: File:Cardan-joint spline-shaft 3D transparent animated.gif
+  author: Silberwolf (talk)
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
-  source: https://commons.wikimedia.org/wiki/File:Spline-shaft.png
-  alt: A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.
+  source: https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_transparent_animated.gif
+  site: Wikimedia Commons
+  alt: 'Animated 3D model of a drive shaft with a universal joint at each end: as the ends move, a ridged shaft slides in
+    and out of a see-through hub while both keep turning together.'
+  kind: animation
+  still: spline-shaft-174a14.still.webp
+  drawn: false
+pictures:
+- file: spline-shaft-174a14.webp
+  title: File:Cardan-joint spline-shaft 3D transparent animated.gif
+  author: Silberwolf (talk)
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_transparent_animated.gif
+  site: Wikimedia Commons
+  alt: 'Animated 3D model of a drive shaft with a universal joint at each end: as the ends move, a ridged shaft slides in
+    and out of a see-through hub while both keep turning together.'
+  kind: animation
+  still: spline-shaft-174a14.still.webp
+  drawn: false
+- file: spline-shaft-2b4b9f.webp
+  title: File:Cassetteandfreehub.jpg
+  author: Rado bladteth Rzeznicki
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Cassetteandfreehub.jpg
+  site: Wikimedia Commons
+  alt: A bicycle gear cassette pulled off its freehub, showing the lengthwise ridges on the freehub body and the matching
+    notches inside the sprockets.
+  kind: how-it-works
+  drawn: false
+- file: spline-shaft-2eb9a9.webp
+  title: File:Cardan joint spline shaft 01.jpg
+  author: CosyCobra
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Cardan_joint_spline_shaft_01.jpg
+  site: Wikimedia Commons
+  alt: A rusty spline shaft on a farm trailer's drive shaft, with its lengthwise ridges clearly visible.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, torque, pitch, linkage, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, chamfer--fillet, repeatability--accuracy, creep, fatigue, brittle--ductile, stress-concentration,
   galling--fretting, lubrication, layer-lines, perimeters]
 ---
 
-![A splined shaft with lengthwise ridges beside the matching hub whose hole has the same ridged shape.](../media/spline-shaft.webp)
-
-*Picture: [Spline-shaft.png](https://commons.wikimedia.org/wiki/File:Spline-shaft.png) by Silberwolf, [CC BY-SA 2.5](https://creativecommons.org/licenses/by-sa/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/spline-shaft-174a14.still.webp"><img src="../media/spline-shaft-174a14.webp" alt="Animated 3D model of a drive shaft with a universal joint at each end: as the ends move, a ridged shaft slides in and out of a see-through hub while both keep turning together."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cardan-joint_spline-shaft_3D_transparent_animated.gif">Cardan-joint spline-shaft 3D transparent animated</a> by Silberwolf (talk), <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spline-shaft-2b4b9f.webp" alt="A bicycle gear cassette pulled off its freehub, showing the lengthwise ridges on the freehub body and the matching notches inside the sprockets." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cassetteandfreehub.jpg">Cassetteandfreehub</a> by Rado bladteth Rzeznicki, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spline-shaft-2eb9a9.webp" alt="A rusty spline shaft on a farm trailer&#x27;s drive shaft, with its lengthwise ridges clearly visible." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cardan_joint_spline_shaft_01.jpg">Cardan joint spline shaft 01</a> by CosyCobra, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A shaft with lengthwise ridges or flat sides that fits a hub with a matching hole, so turning force passes between them while the hub stays free to slide along the shaft.
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two bevel gears seen from the side: a 20-tooth pinion on a horizontal shaft meshes with a 40-tooth gear on a vertical shaft; their teeth are cut on cones whose tips meet where the shafts cross, the gear turns at half the pinion's speed, and the load pushes each gear back along its shaft, away from the tip.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="425" y="388" width="90" height="20" fill="url(#hatch)"/>
+<rect x="458" y="250" width="24" height="138" fill="#e8e8e8"/>
+<rect x="436" y="240" width="68" height="34" fill="#e8e8e8"/>
+<path d="M320,225 L340,244 L600,244 L620,225 Z" fill="#fde2c4"/>
+<path d="M320,225 L377,196 L563,196 L620,225 Z" fill="#fde2c4"/>
+<path d="M620,225 L563,196M620,225 L563,196M620,225 L563,196M618.2,225 L561.9,196M612.7,225 L558.4,196M603.7,225 L552.9,196M591.4,225 L545.2,196M576.1,225 L535.8,196M558.2,225 L524.7,196M538.1,225 L512.2,196M516.4,225 L498.7,196M493.5,225 L484.5,196M470,225 L470,196M446.5,225 L455.5,196M423.6,225 L441.3,196M401.9,225 L427.8,196M381.8,225 L415.3,196M363.9,225 L404.2,196M348.6,225 L394.8,196M336.3,225 L387.1,196M327.3,225 L381.6,196M321.8,225 L378.1,196" fill="none" stroke-width="4" stroke="#c98a4b" stroke-linecap="butt"></path>
+<rect x="20" y="112" width="70" height="76" rx="6" fill="#e8e8e8"/>
+<rect x="90" y="139" width="190" height="22" fill="#e8e8e8"/>
+<rect x="262" y="118" width="40" height="64" fill="#e8e8e8"/>
+<path d="M320,75 L300,95 L300,205 L320,225 Z" fill="#cfe3f5"/>
+<path d="M320,75 L377,103.5 L377,196.5 L320,225 Z" fill="#cfe3f5"/>
+<path d="M320,75 L377,103.5M320,75 L377,103.5M320,75 L377,103.5M320,78.7 L377,105.8M320,89.3 L377,112.4M320,105.9 L377,122.7M320,126.8 L377,135.6M320,150 L377,150M320,173.2 L377,164.4M320,194.1 L377,177.3M320,210.7 L377,187.6M320,221.3 L377,194.2" fill="none" stroke-width="4" stroke="#6f98bd" stroke-linecap="butt"></path>
+<path d="M320,225 L377,196 L563,196 L620,225 Z M320,75 L377,103.5 L377,196.5 L320,225" fill="none"/>
+<g stroke="#888" stroke-width="2" stroke-dasharray="7 6" fill="none"><path d="M320,75 L470,150 M320,225 L470,150 M620,225 L470,150"/></g>
+<path d="M100,150 H470 M470,150 V380" stroke="#888" stroke-width="1.5" stroke-dasharray="3 6" fill="none"/>
+<circle cx="470" cy="150" r="5" fill="#222"/>
+<path d="M190,104 A16,46 0 0 1 190,196" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M528,318 A58,16 0 0 1 412,318" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="330" y1="52" x2="262" y2="52" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="650" y1="236" x2="650" y2="296" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="345" y="58">pushed back along its shaft</text>
+<text x="664" y="262">pushed</text><text x="664" y="284">back</text>
+<text x="486" y="134">cone tips meet</text>
+<text x="20" y="232">20-tooth pinion:</text><text x="20" y="254">turns twice as fast</text>
+<text x="550" y="352">40-tooth gear:</text><text x="550" y="374">half speed</text>
+<text x="55" y="105" text-anchor="middle">motor</text>
+<text x="400" y="438" text-anchor="middle" font-size="17">The teeth roll together on two cones, carrying the turn round the corner</text>
+</g>
+</svg>

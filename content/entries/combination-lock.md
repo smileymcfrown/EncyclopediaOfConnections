@@ -137,24 +137,63 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Combination_lock_wheel_pack.json
 image:
-  file: combination-lock.webp
-  width: 250
-  height: 201
+  file: drawn/anim/combination-lock.svg
+  alt: 'Combination lock shown with its three notched wheels drawn side by side: a sprung fence bar rests on the wheel rims
+    and holds a bolt up in its keeper until every wheel is turned so its notch (gate) is at the top; the wheels are turned
+    one by one to their numbers, and when the last gate lines up the fence drops into all three and the bolt comes out of
+    the keeper.'
+  drawn: true
+  still: drawn/combination-lock.svg
+  kind: animation
+pictures:
+- file: drawn/anim/combination-lock.svg
+  alt: 'Combination lock shown with its three notched wheels drawn side by side: a sprung fence bar rests on the wheel rims
+    and holds a bolt up in its keeper until every wheel is turned so its notch (gate) is at the top; the wheels are turned
+    one by one to their numbers, and when the last gate lines up the fence drops into all three and the bolt comes out of
+    the keeper.'
+  drawn: true
+  still: drawn/combination-lock.svg
+  kind: animation
+- file: combination-lock.webp
   title: File:Combination discs.png
   author: unknown
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Combination_discs.png
-  alt: Exploded view of the notched discs of a number-wheel lock set to 9-2-4 (companion images Combination unlocked.png and
-    Combination locked.png show the toothed pin free and blocked)
+  alt: An exploded drawing of the notched number wheels of a combination lock, set to 9-2-4 so their notches line up.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: combination-lock-f0c5ac.webp
+  title: Combination Lock on top of a Credit card e.g. Credit Card Security
+  author: perspec_photo88
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/111692634@N04/11406986014
+  site: Flickr via Openverse
+  alt: Close-up of a cable lock's three numbered wheels turned to a combination, beside the shackle they hold.
+  kind: how-it-works
+  drawn: false
+- file: combination-lock-03d454.webp
+  title: Combination Lock
+  author: Sh4rp_i
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/85638163@N00/4627233065
+  site: Flickr via Openverse
+  alt: Close-up of the black numbered dial of a combination padlock, with the steel shackle behind it.
+  kind: photo
   drawn: false
 glossary: [detent, solenoid, clearance, tolerance, form-fit--force-fit--material-bond, brittle--ductile, lubrication, infill,
   print-in-place, elephants-foot]
 ---
 
-![Exploded view of the notched discs of a number-wheel lock set to 9-2-4 (companion images Combination unlocked.png and Combination locked.png show the toothed pin free and blocked)](../media/combination-lock.webp)
-
-*Picture: [Combination discs.png](https://commons.wikimedia.org/wiki/File:Combination_discs.png) by unknown, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/combination-lock.svg"><img src="../media/drawn/anim/combination-lock.svg" alt="Combination lock shown with its three notched wheels drawn side by side: a sprung fence bar rests on the wheel rims and holds a bolt up in its keeper until every wheel is turned so its notch (gate) is at the top; the wheels are turned one by one to their numbers, and when the last gate lines up the "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/combination-lock.webp" alt="An exploded drawing of the notched number wheels of a combination lock, set to 9-2-4 so their notches line up." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Combination_discs.png">Combination discs</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/combination-lock-f0c5ac.webp" alt="Close-up of a cable lock&#x27;s three numbered wheels turned to a combination, beside the shackle they hold." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/111692634@N04/11406986014">Combination Lock on top of a Credit card e.g. Credit Card Security</a> by perspec_photo88, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/combination-lock-03d454.webp" alt="Close-up of the black numbered dial of a combination padlock, with the steel shackle behind it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/85638163@N00/4627233065">Combination Lock</a> by Sh4rp_i, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+</div>
 
 A combination lock holds a bar, bolt or shackle in place with a stack of notched wheels, and releases it only when each wheel has been turned to its secret number so all the notches line up in a row.
 

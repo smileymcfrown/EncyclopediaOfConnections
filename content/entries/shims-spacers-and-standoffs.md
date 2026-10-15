@@ -127,22 +127,45 @@ sources:
 research: research/connection-types/results/Shims_spacers_and_standoffs_packing_spacer_washer.json
 image:
   file: shims-spacers-and-standoffs.webp
-  width: 360
-  height: 307
   title: File:Metal shims.jpg
   author: Ikris72
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Metal_shims.jpg
-  alt: Pre-cut slotted metal shims of different sizes, all 1.00 mm thick
+  alt: Four slotted metal shims, each 1.00 mm thick, fanned out so the slot that fits round a bolt can be seen.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: shims-spacers-and-standoffs.webp
+  title: File:Metal shims.jpg
+  author: Ikris72
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Metal_shims.jpg
+  alt: Four slotted metal shims, each 1.00 mm thick, fanned out so the slot that fits round a bolt can be seen.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: shims-spacers-and-standoffs-34fc29.webp
+  title: File:Three types of standoffs.jpg
+  author: Petteri Aimonen
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Three_types_of_standoffs.jpg
+  site: Wikimedia Commons
+  alt: Three loose hexagonal standoffs in front, and behind them one standoff fitted between a circuit board and a metal case,
+    holding the board up off the case.
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert,
   kinematic-coupling, creep, infill, peel-vs-shear]
 ---
 
-![Pre-cut slotted metal shims of different sizes, all 1.00 mm thick](../media/shims-spacers-and-standoffs.webp)
-
-*Picture: [Metal shims.jpg](https://commons.wikimedia.org/wiki/File:Metal_shims.jpg) by Ikris72, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/shims-spacers-and-standoffs.webp" alt="Four slotted metal shims, each 1.00 mm thick, fanned out so the slot that fits round a bolt can be seen."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Metal_shims.jpg">Metal shims</a> by Ikris72, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shims-spacers-and-standoffs-34fc29.webp" alt="Three loose hexagonal standoffs in front, and behind them one standoff fitted between a circuit board and a metal case, holding the board up off the case." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Three_types_of_standoffs.jpg">Three types of standoffs</a> by Petteri Aimonen, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A shim, spacer or standoff is a piece of known thickness or length put between two parts, so that the gap, height or spacing between them is set by that piece and then held when the parts are bolted or pressed together.
 

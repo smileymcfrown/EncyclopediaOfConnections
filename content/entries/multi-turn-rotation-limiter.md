@@ -138,18 +138,28 @@ sources:
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
 research: research/connection-types/results/Multiturn_rotation_limiter_travellingnut_and_stackedring_stops.json
 image:
-  file: drawn/multi-turn-rotation-limiter.svg
-  alt: 'Side view of a travelling-nut turn limiter: a threaded shaft turns freely while a nut, kept from spinning by a tab
-    in a fixed guide, walks along the thread a little each turn until it hits a stop collar at either end, which blocks the
-    shaft after a set number of turns.'
+  file: drawn/anim/multi-turn-rotation-limiter.svg
+  alt: 'Side view of a travelling-nut turn limiter, animated: a threaded shaft turns while a nut, kept from spinning by a
+    tab in a fixed guide, walks along the thread a little each turn until it hits the stop collar at one end; the shaft then
+    turns back and the nut walks to the other stop, so the shaft is blocked after a set number of turns either way.'
   drawn: true
+  still: drawn/multi-turn-rotation-limiter.svg
+  kind: animation
+pictures:
+- file: drawn/anim/multi-turn-rotation-limiter.svg
+  alt: 'Side view of a travelling-nut turn limiter, animated: a threaded shaft turns while a nut, kept from spinning by a
+    tab in a fixed guide, walks along the thread a little each turn until it hits the stop collar at one end; the shaft then
+    turns back and the nut walks to the other stop, so the shaft is blocked after a set number of turns either way.'
+  drawn: true
+  still: drawn/multi-turn-rotation-limiter.svg
+  kind: animation
 glossary: [backlash, back-driving, axial--radial, ratchet, torque, gear-ratio, pitch, crank, actuator, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, creep, print-in-place, peel-vs-shear]
 ---
 
-![Side view of a travelling-nut turn limiter: a threaded shaft turns freely while a nut, kept from spinning by a tab in a fixed guide, walks along the thread a little each turn until it hits a stop coll](../media/drawn/multi-turn-rotation-limiter.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/multi-turn-rotation-limiter.svg"><img src="../media/drawn/anim/multi-turn-rotation-limiter.svg" alt="Side view of a travelling-nut turn limiter, animated: a threaded shaft turns while a nut, kept from spinning by a tab in a fixed guide, walks along the thread a little each turn until it hits the stop collar at one end; the shaft then turns back and the nut walks to the other stop, so the shaft is b"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A turn-counting end stop: a nut that travels along a thread, a stack of rings that pick each other up one turn at a time, or a pair of gears that slowly drift out of step lets a shaft turn freely for a set number of turns (more than one) and then blocks it solidly, in both directions.
 

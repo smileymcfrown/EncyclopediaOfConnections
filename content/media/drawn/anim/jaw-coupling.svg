@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A jaw coupling, shown turning: in the end view the motor hub's jaws squeeze the rubber spider legs against the driven jaws, which lag a little more during a shock as the rubber squashes; in the side view both shafts turn together, and keep turning when the driven shaft tilts slightly out of line.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="410" y1="20" x2="410" y2="400" stroke="#cccccc" stroke-width="2"/>
+<circle cx="200" cy="228" r="128" fill="#f4f4f4" stroke="#999999" stroke-dasharray="6 5" stroke-width="2"/>
+<g><animateTransform attributeName="transform" type="rotate" values="0 200 228;360 200 228" dur="3s" repeatCount="indefinite"/>
+<circle cx="200" cy="228" r="56" fill="#d8f0d2"/><circle cx="200" cy="228" r="30" fill="#ffffff"/>
+<path d="M251.4,211.3 L317.9,189.7 A124,124 0 0 1 317.9,266.3 L251.4,244.7 A54,54 0 0 0 251.4,211.3 Z" fill="#fde2c4"/>
+<path d="M211.2,280.8 L224.5,343.4 A118,118 0 0 1 175.5,343.4 L188.8,280.8 A54,54 0 0 0 211.2,280.8 Z" fill="#d8f0d2"/>
+<path d="M251.4,244.7 L312.2,264.5 A118,118 0 0 1 293,300.6 L242.6,261.2 A54,54 0 0 0 251.4,244.7 Z" fill="#d8f0d2"><animate attributeName="d" values="M251.4,244.7 L312.2,264.5 A118,118 0 0 1 293,300.6 L242.6,261.2 A54,54 0 0 0 251.4,244.7 Z;M251.4,244.7 L312.2,264.5 A118,118 0 0 1 293,300.6 L242.6,261.2 A54,54 0 0 0 251.4,244.7 Z;M251.4,244.7 L312.2,264.5 A118,118 0 0 1 301.1,288.8 L246.3,255.8 A54,54 0 0 0 251.4,244.7 Z;M251.4,244.7 L312.2,264.5 A118,118 0 0 1 293,300.6 L242.6,261.2 A54,54 0 0 0 251.4,244.7 Z;M251.4,244.7 L312.2,264.5 A118,118 0 0 1 293,300.6 L242.6,261.2 A54,54 0 0 0 251.4,244.7 Z" dur="6s" repeatCount="indefinite" keyTimes="0;0.36;0.44;0.6;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/></path>
+<path d="M188.8,280.8 L174.2,349.3 A124,124 0 0 1 107.9,311 L159.9,264.1 A54,54 0 0 0 188.8,280.8 Z" fill="#fde2c4"/>
+<path d="M148.6,211.3 L87.8,191.5 A118,118 0 0 1 112.3,149 L159.9,191.9 A54,54 0 0 0 148.6,211.3 Z" fill="#d8f0d2"/>
+<path d="M159.9,264.1 L112.3,307 A118,118 0 0 1 90.6,272.2 L149.9,248.2 A54,54 0 0 0 159.9,264.1 Z" fill="#d8f0d2"><animate attributeName="d" values="M159.9,264.1 L112.3,307 A118,118 0 0 1 90.6,272.2 L149.9,248.2 A54,54 0 0 0 159.9,264.1 Z;M159.9,264.1 L112.3,307 A118,118 0 0 1 90.6,272.2 L149.9,248.2 A54,54 0 0 0 159.9,264.1 Z;M159.9,264.1 L112.3,307 A118,118 0 0 1 96.8,285.2 L152.8,254.2 A54,54 0 0 0 159.9,264.1 Z;M159.9,264.1 L112.3,307 A118,118 0 0 1 90.6,272.2 L149.9,248.2 A54,54 0 0 0 159.9,264.1 Z;M159.9,264.1 L112.3,307 A118,118 0 0 1 90.6,272.2 L149.9,248.2 A54,54 0 0 0 159.9,264.1 Z" dur="6s" repeatCount="indefinite" keyTimes="0;0.36;0.44;0.6;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/></path>
+<path d="M159.9,191.9 L107.9,145 A124,124 0 0 1 174.2,106.7 L188.8,175.2 A54,54 0 0 0 159.9,191.9 Z" fill="#fde2c4"/>
+<path d="M240.1,191.9 L287.7,149 A118,118 0 0 1 312.2,191.5 L251.4,211.3 A54,54 0 0 0 240.1,191.9 Z" fill="#d8f0d2"/>
+<path d="M188.8,175.2 L175.5,112.6 A118,118 0 0 1 216.4,111.1 L207.5,174.5 A54,54 0 0 0 188.8,175.2 Z" fill="#d8f0d2"><animate attributeName="d" values="M188.8,175.2 L175.5,112.6 A118,118 0 0 1 216.4,111.1 L207.5,174.5 A54,54 0 0 0 188.8,175.2 Z;M188.8,175.2 L175.5,112.6 A118,118 0 0 1 216.4,111.1 L207.5,174.5 A54,54 0 0 0 188.8,175.2 Z;M188.8,175.2 L175.5,112.6 A118,118 0 0 1 202.1,110 L200.9,174 A54,54 0 0 0 188.8,175.2 Z;M188.8,175.2 L175.5,112.6 A118,118 0 0 1 216.4,111.1 L207.5,174.5 A54,54 0 0 0 188.8,175.2 Z;M188.8,175.2 L175.5,112.6 A118,118 0 0 1 216.4,111.1 L207.5,174.5 A54,54 0 0 0 188.8,175.2 Z" dur="6s" repeatCount="indefinite" keyTimes="0;0.36;0.44;0.6;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/></path>
+<g transform="rotate(-4 200 228)"><animateTransform attributeName="transform" type="rotate" values="-4 200 228;-4 200 228;-11 200 228;-4 200 228;-4 200 228" dur="6s" repeatCount="indefinite" keyTimes="0;0.36;0.44;0.6;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+<path d="M240.1,264.1 L292.1,311 A124,124 0 0 1 225.8,349.3 L211.2,280.8 A54,54 0 0 0 240.1,264.1 Z" fill="#cfe3f5"/>
+<path d="M148.6,244.7 L82.1,266.3 A124,124 0 0 1 82.1,189.7 L148.6,211.3 A54,54 0 0 0 148.6,244.7 Z" fill="#cfe3f5"/>
+<path d="M211.2,175.2 L225.8,106.7 A124,124 0 0 1 292.1,145 L240.1,191.9 A54,54 0 0 0 211.2,175.2 Z" fill="#cfe3f5"/>
+</g></g>
+<path d="M99.6,116.5 A150,150 0 0 1 275,98.1" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="425" y="191" width="75" height="28" fill="#e8e8e8"/>
+<rect x="500" y="145" width="78" height="120" fill="#fde2c4"/>
+<rect x="576" y="145" width="40" height="34" fill="#fde2c4"/><rect x="576" y="231" width="40" height="34" fill="#fde2c4"/>
+<rect x="578" y="179" width="36" height="8" fill="#d8f0d2"/><rect x="578" y="223" width="36" height="8" fill="#d8f0d2"/>
+<line x1="505" x2="573" y1="145" y2="145" stroke="#222" stroke-width="2.5"><animate attributeName="y1" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1"/><animate attributeName="y2" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1"/><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="3s" repeatCount="indefinite"/></line><line x1="505" x2="573" y1="235" y2="235" stroke="#222" stroke-width="2.5"><animate attributeName="y1" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-1s"/><animate attributeName="y2" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-1s"/><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="3s" begin="-1s" repeatCount="indefinite"/></line><line x1="505" x2="573" y1="145" y2="145" stroke="#222" stroke-width="2.5" opacity="0"><animate attributeName="y1" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-2s"/><animate attributeName="y2" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-2s"/><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="3s" begin="-2s" repeatCount="indefinite"/></line>
+<g><animateTransform attributeName="transform" type="rotate" values="0 596 205;0 596 205;-4 596 205;-4 596 205;0 596 205;0 596 205" dur="6s" repeatCount="indefinite" keyTimes="0;0.12;0.32;0.78;0.95;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1"/>
+<rect x="578" y="187" width="40" height="36" fill="#cfe3f5"/>
+<rect x="616" y="145" width="78" height="120" fill="#cfe3f5"/>
+<rect x="694" y="191" width="90" height="28" fill="#e8e8e8"/>
+<line x1="621" x2="689" y1="145" y2="145" stroke="#222" stroke-width="2.5"><animate attributeName="y1" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1"/><animate attributeName="y2" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1"/><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="3s" repeatCount="indefinite"/></line><line x1="621" x2="689" y1="235" y2="235" stroke="#222" stroke-width="2.5"><animate attributeName="y1" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-1s"/><animate attributeName="y2" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-1s"/><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="3s" begin="-1s" repeatCount="indefinite"/></line><line x1="621" x2="689" y1="145" y2="145" stroke="#222" stroke-width="2.5" opacity="0"><animate attributeName="y1" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-2s"/><animate attributeName="y2" values="145;153;175;205;235;257;265;265" dur="3s" repeatCount="indefinite" keyTimes="0;0.0833;0.1667;0.25;0.3333;0.4167;0.5;1" begin="-2s"/><animate attributeName="opacity" values="1;0" keyTimes="0;0.5" calcMode="discrete" dur="3s" begin="-2s" repeatCount="indefinite"/></line>
+</g>
+<path d="M770,165 A180,180 0 0 0 772,129" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="440" y="316" width="26" height="18" fill="#fde2c4" stroke-width="2.5"/>
+<rect x="440" y="346" width="26" height="18" fill="#cfe3f5" stroke-width="2.5"/>
+<rect x="440" y="376" width="26" height="18" fill="#d8f0d2" stroke-width="2.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">End view, cut through the jaws</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Side view</text>
+<text x="462" y="120">motor</text><text x="740" y="120">driven shaft</text>
+<text x="610" y="294">driven shaft can tilt a little</text>
+<g text-anchor="start">
+<text x="476" y="331">driving jaws (motor hub)</text>
+<text x="476" y="361">driven jaws</text>
+<text x="476" y="391">rubber spider (legs squeezed)</text>
+</g>
+<text x="400" y="438">The jaws squeeze the rubber legs, which soak up shocks and misalignment</text>
+</g>
+</svg>

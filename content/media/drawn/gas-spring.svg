@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A lid on a hinge held up by a gas strut, and the strut cut open: nitrogen gas fills the tube on both sides of a piston with a tiny hole, a little oil sits at the rod end, and because the rod takes up area on one side the gas pushes the rod out, lifting the lid.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<pattern id="gas" width="14" height="14" patternUnits="userSpaceOnUse"><rect width="14" height="14" fill="#cfe3f5"/><circle cx="3" cy="4" r="1.8" fill="#5a7ea0"/><circle cx="10" cy="10" r="1.8" fill="#5a7ea0"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="20" y="412" width="350" height="14" fill="url(#hatch)" stroke="#222" stroke-width="3"/>
+<path d="M40,320 V412 H340 V320 H328 V400 H52 V320 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="242" y="392" width="16" height="8" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<g transform="translate(250,392)"><g transform="rotate(-149)"><rect x="0" y="-3.5" width="120" height="7" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><g><rect x="12.4" y="-10" width="102" height="20" rx="4" fill="#cfe3f5" stroke="#222" stroke-width="3"/></g><circle r="7" fill="#fff" stroke="#222" stroke-width="2.5"/><circle r="2" fill="#222"/></g></g>
+<g><rect x="60" y="306" width="280" height="14" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M136,320 V332 H154 V320" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><circle cx="145" cy="329" r="6" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="145" cy="329" r="2" fill="#222"/></g>
+<circle cx="60" cy="320" r="7" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="60" cy="320" r="2.2" fill="#222"/>
+<path d="M300,286 A240,240 0 0 0 250,160" fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)" opacity="1"></path>
+<rect x="560" y="170" width="200" height="60" fill="url(#gas)" stroke="#222" stroke-width="4"/>
+<rect x="564" y="172" width="18" height="56" fill="#fde2c4"/>
+<rect x="556" y="170" width="12" height="22" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/><rect x="556" y="208" width="12" height="22" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/>
+<line x1="760" y1="200" x2="772" y2="200" stroke="#222" stroke-width="5"/><circle cx="780" cy="200" r="9" fill="#fff" stroke="#222" stroke-width="3"/><circle cx="780" cy="200" r="2.5" fill="#222"/>
+<g><rect x="525" y="194" width="203" height="12" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><circle cx="517" cy="200" r="9" fill="#fff" stroke="#222" stroke-width="3"/><circle cx="517" cy="200" r="2.5" fill="#222"/><rect x="728" y="172" width="14" height="41" fill="#9a9a9a" stroke="#222" stroke-width="2"/><rect x="728" y="219" width="14" height="9" fill="#9a9a9a" stroke="#222" stroke-width="2"/><line x1="783" y1="182" x2="749" y2="182" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><line x1="783" y1="218" x2="749" y2="218" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><line x1="503" y1="200" x2="463" y2="200" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="660" y="118" text-anchor="middle" font-weight="bold" font-size="20">Inside the strut (cut open)</text>
+<text x="660" y="158" text-anchor="middle">nitrogen gas under pressure</text>
+<text x="672" y="256" text-anchor="middle">piston: gas seeps through</text><text x="672" y="278" text-anchor="middle">a tiny hole, so it moves slowly</text>
+<line x1="568" y1="232" x2="546" y2="247" stroke="#222" stroke-width="2"/><text x="470" y="264" text-anchor="middle">oil cushions the end</text>
+<text x="450" y="178" text-anchor="middle">rod pushes out</text>
+<text x="600" y="360" text-anchor="middle">push = gas pressure × rod area</text>
+<text x="72" y="347">hinge</text>
+<text x="62" y="393">gas strut</text>
+<text x="400" y="444" text-anchor="middle">The gas side of the piston has more area than the rod side, so the rod always pushes out</text>
+</g>
+</svg>

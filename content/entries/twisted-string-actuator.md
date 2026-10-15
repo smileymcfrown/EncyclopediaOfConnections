@@ -134,17 +134,31 @@ sources:
 - https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md
 research: research/connection-types/results/Twistedstring_actuator.json
 image:
-  file: drawn/twisted-string-actuator.svg
+  file: drawn/anim/twisted-string-actuator.svg
   alt: 'A motor hanging from a fixed beam drives two strings that hold a load, drawn three times: with no twist the strings
     hang side by side and the load is low, after 10 turns the strings are twisted round each other and the load has risen,
-    and after 20 turns the twist is tighter and the load is higher still.'
+    and after 20 turns the twist is tighter and the load is higher still. In the animation the left-hand motor winds its strings
+    up through 10 and 20 turns, so the twist tightens and the load rises to the heights of the other two drawings, then unwinds
+    again.'
   drawn: true
+  still: drawn/twisted-string-actuator.svg
+  kind: animation
+pictures:
+- file: drawn/anim/twisted-string-actuator.svg
+  alt: 'A motor hanging from a fixed beam drives two strings that hold a load, drawn three times: with no twist the strings
+    hang side by side and the load is low, after 10 turns the strings are twisted round each other and the load has risen,
+    and after 20 turns the twist is tighter and the load is higher still. In the animation the left-hand motor winds its strings
+    up through 10 and 20 turns, so the twist tightens and the load rises to the heights of the other two drawings, then unwinds
+    again.'
+  drawn: true
+  still: drawn/twisted-string-actuator.svg
+  kind: animation
 glossary: [backlash, self-locking, axial--radial, stroke, torque, gear-ratio, actuator, torsion, creep, fatigue]
 ---
 
-![A motor hanging from a fixed beam drives two strings that hold a load, drawn three times: with no twist the strings hang side by side and the load is low, after 10 turns the strings are twisted round ](../media/drawn/twisted-string-actuator.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/twisted-string-actuator.svg"><img src="../media/drawn/anim/twisted-string-actuator.svg" alt="A motor hanging from a fixed beam drives two strings that hold a load, drawn three times: with no twist the strings hang side by side and the load is low, after 10 turns the strings are twisted round each other and the load has risen, and after 20 turns the twist is tighter and the load is higher st"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A twisted-string [actuator](../glossary.md#actuator) turns a motor's rotation into a strong straight-line pull by twisting two or more strings together, so they shorten like a wrung-out cloth and act as a very high, self-changing [gear ratio](../glossary.md#gear-ratio) in almost no space.
 

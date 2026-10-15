@@ -148,22 +148,58 @@ sources:
 research: research/connection-types/results/Genderless_connector_hermaphroditic_coupling.json
 image:
   file: genderless-connector.webp
-  width: 484
-  height: 500
   title: File:Festkupplung.jpg
   author: Karl Gruber at German Wikipedia
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Festkupplung.jpg
-  alt: Photo of a Storz hose coupling face, showing the hooked lugs and flange slots that mate with an identical coupling
+  alt: The face of a Storz hose coupling, a metal ring with two curved hooks and slots so it joins to an identical coupling
+    with a quarter turn.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: genderless-connector.webp
+  title: File:Festkupplung.jpg
+  author: Karl Gruber at German Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Festkupplung.jpg
+  alt: The face of a Storz hose coupling, a metal ring with two curved hooks and slots so it joins to an identical coupling
+    with a quarter turn.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: genderless-connector-14c0b9.webp
+  title: File:Pp01.jpg
+  author: Cqdx
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Pp01.jpg
+  site: Wikimedia Commons
+  alt: Two Anderson Powerpole connectors, one red and one black, identical housings that clip together, with their flat metal
+    contacts beside them.
+  kind: photo
+  drawn: false
+- file: genderless-connector-c5867a.webp
+  title: File:Train coupling.jpg
+  author: Daniel Schwen
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Train_coupling.jpg
+  site: Wikimedia Commons
+  alt: Two identical knuckle couplers on railway wagons locked together, each hook gripping the other.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, detent, stiffness, clearance, form-fit--force-fit--material-bond, keying, print-in-place, elephants-foot,
   overhang--bridging]
 ---
 
-![Photo of a Storz hose coupling face, showing the hooked lugs and flange slots that mate with an identical coupling](../media/genderless-connector.webp)
-
-*Picture: [Festkupplung.jpg](https://commons.wikimedia.org/wiki/File:Festkupplung.jpg) by Karl Gruber at German Wikipedia, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/genderless-connector.webp" alt="The face of a Storz hose coupling, a metal ring with two curved hooks and slots so it joins to an identical coupling with a quarter turn."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Festkupplung.jpg">Festkupplung</a> by Karl Gruber at German Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/genderless-connector-14c0b9.webp" alt="Two Anderson Powerpole connectors, one red and one black, identical housings that clip together, with their flat metal contacts beside them." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pp01.jpg">Pp01</a> by Cqdx, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/genderless-connector-c5867a.webp" alt="Two identical knuckle couplers on railway wagons locked together, each hook gripping the other." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Train_coupling.jpg">Train coupling</a> by Daniel Schwen, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A connector or coupling made of two identical halves, each carrying both the 'male' and the 'female' features, so that any two of the same size and type can be joined, usually by turning one copy round to face the other so that its hooks meet the other's slots.
 

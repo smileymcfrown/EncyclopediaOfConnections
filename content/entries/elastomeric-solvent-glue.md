@@ -140,21 +140,34 @@ sources:
 research: research/connection-types/results/Elastomeric_solvent_glue_flexible_craft_glue.json
 image:
   file: elastomeric-solvent-glue.webp
-  width: 800
-  height: 602
   title: File:Repairing snowboard boots with Shoe Goo.jpg
   author: Syced
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg
-  alt: Photo of a boot repair with a clear, rubbery bead of Shoe Goo
+  alt: A pair of snowboard boots tied tightly with string while the rubbery shoe glue squeezed into their worn soles sets,
+    with the tube beside them.
+  site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+pictures:
+- file: elastomeric-solvent-glue.webp
+  title: File:Repairing snowboard boots with Shoe Goo.jpg
+  author: Syced
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg
+  alt: A pair of snowboard boots tied tightly with string while the rubbery shoe glue squeezed into their worn soles sets,
+    with the tube beside them.
+  site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, cure, peel-vs-shear]
 ---
 
-![Photo of a boot repair with a clear, rubbery bead of Shoe Goo](../media/elastomeric-solvent-glue.webp)
-
-*Picture: [Repairing snowboard boots with Shoe Goo.jpg](https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg) by Syced, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/elastomeric-solvent-glue.webp" alt="A pair of snowboard boots tied tightly with string while the rubbery shoe glue squeezed into their worn soles sets, with the tube beside them."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg">Repairing snowboard boots with Shoe Goo</a> by Syced, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 An elastomeric solvent glue is a synthetic rubber dissolved in a strong solvent; when the solvent evaporates the rubber is left behind as a clear, tough, stretchy layer that grips most materials and keeps the joint flexible and waterproof.
 

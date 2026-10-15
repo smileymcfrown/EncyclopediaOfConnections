@@ -134,21 +134,54 @@ sources:
 research: research/connection-types/results/Conductive_thread_sewn_circuit_etextile_stitching.json
 image:
   file: conductive-thread.webp
-  width: 800
-  height: 450
   title: File:Conductive thread.jpg
   author: Mosborne01
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Conductive_thread.jpg
-  alt: A bobbin of conductive thread
+  alt: A small bobbin of grey conductive thread with a loose end lying on a table.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: conductive-thread.webp
+  title: File:Conductive thread.jpg
+  author: Mosborne01
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Conductive_thread.jpg
+  alt: A small bobbin of grey conductive thread with a loose end lying on a table.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: conductive-thread-df426c.webp
+  title: File:Redoing Threading.jpg
+  author: Christopher.nunez
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Redoing_Threading.jpg
+  site: Wikimedia Commons
+  alt: A round sewable circuit board and small LED boards sewn onto blue fabric, joined by lines of silver conductive stitching.
+  kind: how-it-works
+  drawn: false
+- file: conductive-thread-6f91ab.webp
+  title: File:Gestickte Textile Sensorflächen.jpg
+  author: Forster Rohner AG
+  license: CC BY-SA 3.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/3.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Gestickte_Textile_Sensorfl%C3%A4chen.jpg
+  site: Wikimedia Commons
+  alt: Pads and wavy lines embroidered in silvery conductive thread on black fabric, forming a fabric touch sensor.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, layer-lines, infill]
 ---
 
-![A bobbin of conductive thread](../media/conductive-thread.webp)
-
-*Picture: [Conductive thread.jpg](https://commons.wikimedia.org/wiki/File:Conductive_thread.jpg) by Mosborne01, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/conductive-thread.webp" alt="A small bobbin of grey conductive thread with a loose end lying on a table."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Conductive_thread.jpg">Conductive thread</a> by Mosborne01, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/conductive-thread-df426c.webp" alt="A round sewable circuit board and small LED boards sewn onto blue fabric, joined by lines of silver conductive stitching." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Redoing_Threading.jpg">Redoing Threading</a> by Christopher.nunez, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/conductive-thread-6f91ab.webp" alt="Pads and wavy lines embroidered in silvery conductive thread on black fabric, forming a fabric touch sensor." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gestickte_Textile_Sensorfl%C3%A4chen.jpg">Gestickte Textile Sensorflächen</a> by Forster Rohner AG, <a href="https://creativecommons.org/licenses/by-sa/3.0/de/deed.en">CC BY-SA 3.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Conductive thread is sewing thread made from stainless-steel fibres or silver-plated filaments that is stitched through the holes (sew tabs) of sewable boards, LEDs and battery holders, so the tight loops make the electrical contacts and the lines of stitching act as bare wires across the fabric.
 

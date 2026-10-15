@@ -128,21 +128,43 @@ sources:
 research: research/connection-types/results/Contact_adhesive_contact_cement.json
 image:
   file: contact-adhesive.webp
-  width: 596
-  height: 798
   title: File:Contact-cement 000000.jpg
   author: Mwnuk
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg
-  alt: A can of Weldwood contact cement (used on Wikipedia's 'Impact glue' article)
+  alt: A can of Weldwood contact cement.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: contact-adhesive.webp
+  title: File:Contact-cement 000000.jpg
+  author: Mwnuk
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg
+  alt: A can of Weldwood contact cement.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: contact-adhesive-08d835.webp
+  title: File:2023 Butapren.jpg
+  author: Jacek Halicki
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:2023_Butapren.jpg
+  site: Wikimedia Commons
+  alt: A yellow tube of Butapren contact adhesive with a black cap.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 
-![A can of Weldwood contact cement (used on Wikipedia's 'Impact glue' article)](../media/contact-adhesive.webp)
-
-*Picture: [Contact-cement 000000.jpg](https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg) by Mwnuk, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/contact-adhesive.webp" alt="A can of Weldwood contact cement."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg">Contact-cement 000000</a> by Mwnuk, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/contact-adhesive-08d835.webp" alt="A yellow tube of Butapren contact adhesive with a black cap." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2023_Butapren.jpg">2023 Butapren</a> by Jacek Halicki, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A rubber-based glue spread on both mating surfaces and allowed to dry until tacky, so that when the surfaces touch the two rubber films fuse at once, bonding large sheets, laminate, veneer, rubber, foam, leather and fabric without clamps.
 

@@ -127,22 +127,57 @@ sources:
 research: research/connection-types/results/Tesla_valve_nomovingparts_oneway_channel.json
 image:
   file: tesla-valve.webp
-  width: 800
-  height: 533
   title: File:Tesla valve principle.svg
   author: Cmglee
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg
-  alt: Diagram of the blocking direction (part of the flow turned round each loop and colliding with the main stream) and
-    the easy direction
+  alt: Diagram of a Tesla valve, a channel with looped side branches; flow one way runs straight through, flow the other way
+    is turned back by the loops.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: tesla-valve.webp
+  title: File:Tesla valve principle.svg
+  author: Cmglee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg
+  alt: Diagram of a Tesla valve, a channel with looped side branches; flow one way runs straight through, flow the other way
+    is turned back by the loops.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: tesla-valve-a5b264.webp
+  title: File:Nguyen Tesla flow visualization.webp
+  author: Quynh M. Nguyen, Joanna Abouezzi, Leif Ristroph
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Nguyen_Tesla_flow_visualization.webp
+  site: Wikimedia Commons
+  alt: Dye in water flowing through a Tesla valve, staying in smooth lines one way and churning round the loops the other
+    way.
+  kind: how-it-works
+  drawn: false
+- file: tesla-valve-db2eee.webp
+  title: File:A rotated scanning electron microscope photograph of a Tesla valve by Forster et al. J anona-2020-0014 fig 001.jpg
+  author: Abdelwahed, M., Chorfi, N. and Malek, R.
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:A_rotated_scanning_electron_microscope_photograph_of_a_Tesla_valve_by_Forster_et_al._J_anona-2020-0014_fig_001.jpg
+  site: Wikimedia Commons
+  alt: Microscope photo of a tiny Tesla valve channel etched into a chip, with a teardrop-shaped loop beside the main channel.
+  kind: photo
   drawn: false
 glossary: [oscillating, actuator, fatigue, perimeters, overhang--bridging, check-valve]
 ---
 
-![Diagram of the blocking direction (part of the flow turned round each loop and colliding with the main stream) and the easy direction](../media/tesla-valve.webp)
-
-*Picture: [Tesla valve principle.svg](https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg) by Cmglee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tesla-valve.webp" alt="Diagram of a Tesla valve, a channel with looped side branches; flow one way runs straight through, flow the other way is turned back by the loops."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tesla_valve_principle.svg">Tesla valve principle</a> by Cmglee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tesla-valve-a5b264.webp" alt="Dye in water flowing through a Tesla valve, staying in smooth lines one way and churning round the loops the other way." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Nguyen_Tesla_flow_visualization.webp">Nguyen Tesla flow visualization</a> by Quynh M. Nguyen, Joanna Abouezzi, Leif Ristroph, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tesla-valve-db2eee.webp" alt="Microscope photo of a tiny Tesla valve channel etched into a chip, with a teardrop-shaped loop beside the main channel." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:A_rotated_scanning_electron_microscope_photograph_of_a_Tesla_valve_by_Forster_et_al._J_anona-2020-0014_fig_001.jpg">A rotated scanning electron microscope photograph of a Tesla valve by Forster et al. J anona-2020-0014 fig 001</a> by Abdelwahed, M., Chorfi, N. and Malek, R., <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A fixed-shape channel whose teardrop-shaped side loops give much more resistance to flow in one direction than the other, so it favours one-way flow with no moving parts, but it is only a 'slightly leaking valve' that slows backflow rather than sealing like a [check valve](../glossary.md#check-valve).
 

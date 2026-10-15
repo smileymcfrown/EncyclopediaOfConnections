@@ -154,21 +154,55 @@ sources:
 research: research/connection-types/results/Sewn_seams_and_hand_stitches_lockstitch_saddle_stitch_flatfelled_seam.json
 image:
   file: sewn-seams-and-hand-stitches.webp
-  width: 800
-  height: 320
   title: File:Lockstitch - Anthony Atkielski.png
   author: Agateller (Anthony Atkielski)
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Lockstitch_-_Anthony_Atkielski.png
-  alt: Simple diagram of the upper and bobbin threads interlocking inside the fabric
+  alt: 'Diagram of a lockstitch: an upper thread and a lower thread loop round each other in the middle of the cloth.'
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: sewn-seams-and-hand-stitches.webp
+  title: File:Lockstitch - Anthony Atkielski.png
+  author: Agateller (Anthony Atkielski)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Lockstitch_-_Anthony_Atkielski.png
+  alt: 'Diagram of a lockstitch: an upper thread and a lower thread loop round each other in the middle of the cloth.'
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: sewn-seams-and-hand-stitches-7b407d.webp
+  title: File:Flat felled seam.jpg
+  author: kellyhogaboom
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Flat_felled_seam.jpg
+  site: Wikimedia Commons
+  alt: 'Close-up of a flat-felled seam on red fabric: two parallel lines of stitching hold the folded-over edges flat.'
+  kind: photo
+  drawn: false
+- file: sewn-seams-and-hand-stitches-5f6181.webp
+  title: Chaqueta
+  author: kellyhogaboom
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/11597293@N00/4613895689
+  site: Flickr via Openverse
+  alt: A piece of spotted cotton fabric on a table, with a line of machine stitching running along its edge and a dark band
+    sewn on one side.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, spline, repeatability--accuracy, peel-vs-shear]
 ---
 
-![Simple diagram of the upper and bobbin threads interlocking inside the fabric](../media/sewn-seams-and-hand-stitches.webp)
-
-*Picture: [Lockstitch - Anthony Atkielski.png](https://commons.wikimedia.org/wiki/File:Lockstitch_-_Anthony_Atkielski.png) by Agateller (Anthony Atkielski), Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/sewn-seams-and-hand-stitches.webp" alt="Diagram of a lockstitch: an upper thread and a lower thread loop round each other in the middle of the cloth."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lockstitch_-_Anthony_Atkielski.png">Lockstitch - Anthony Atkielski</a> by Agateller (Anthony Atkielski), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sewn-seams-and-hand-stitches-7b407d.webp" alt="Close-up of a flat-felled seam on red fabric: two parallel lines of stitching hold the folded-over edges flat." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flat_felled_seam.jpg">Flat felled seam</a> by kellyhogaboom, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sewn-seams-and-hand-stitches-5f6181.webp" alt="A piece of spotted cotton fabric on a table, with a line of machine stitching running along its edge and a dark band sewn on one side." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/11597293@N00/4613895689">Chaqueta</a> by kellyhogaboom, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+</div>
 
 Two pieces of fabric or leather are held together by a line of thread stitched through both, by machine (usually a lockstitch) or by hand (running, back or saddle stitch), with the cut edges folded in, wrapped or overstitched so they can't fray.
 

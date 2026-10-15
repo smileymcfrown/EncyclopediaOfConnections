@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Animated cut-away of a push-and-turn child-resistant cap in two states: just twisting, springy fingers hold the loose outer cap up so its teeth slide past above the inner cap's ramps and it clicks round uselessly while the inner cap stays put; pressing down while twisting meshes the teeth so both caps turn together and the inner cap unscrews and rises.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<clipPath id="cl"><rect x="121" y="140" width="160" height="70"/></clipPath>
+<clipPath id="cr"><rect x="521" y="176" width="160" height="40"/></clipPath></defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<path d="M125,398 L125,235 L275,235 L275,398" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="125,250 117,256 125,262" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<polygon points="275,250 283,256 275,262" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<polygon points="125,275 117,281 125,287" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<polygon points="275,275 283,281 275,287" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<polygon points="105,300 105,200 130,200 144,186 148,200 162,186 166,200 180,186 184,200 198,186 202,200 216,186 220,200 234,186 238,200 252,186 256,200 270,186 274,200 295,200 295,300 280,300 280,222 120,222 120,300" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<polygon points="80,332 80,130 320,130 320,332 305,332 305,152 95,152 95,332" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g clip-path="url(#cl)"><g>
+<animateTransform attributeName="transform" type="translate" values="-18,0;0,0" dur="1.5s" repeatCount="indefinite"/>
+<path d="M104,150 V152 L113,164 L118,152 V150 Z M122,150 V152 L131,164 L136,152 V150 Z M140,150 V152 L149,164 L154,152 V150 Z M158,150 V152 L167,164 L172,152 V150 Z M176,150 V152 L185,164 L190,152 V150 Z M194,150 V152 L203,164 L208,152 V150 Z M212,150 V152 L221,164 L226,152 V150 Z M230,150 V152 L239,164 L244,152 V150 Z M248,150 V152 L257,164 L262,152 V150 Z M266,150 V152 L275,164 L280,152 V150 Z M284,150 V152 L293,164 L298,152 V150 Z" fill="#fde2c4"/><path d="M104,152 L113,164 L118,152 M122,152 L131,164 L136,152 M140,152 L149,164 L154,152 M158,152 L167,164 L172,152 M176,152 L185,164 L190,152 M194,152 L203,164 L208,152 M212,152 L221,164 L226,152 M230,152 L239,164 L244,152 M248,152 L257,164 L262,152 M266,152 L275,164 L280,152 M284,152 L293,164 L298,152" fill="none" stroke="#222" stroke-width="3"/>
+</g></g>
+<polyline points="113,152 119,160 107,168 119,176 107,184 119,192 113,200" fill="none" stroke="#222" stroke-width="2.5"/>
+<path d="M110,104 Q200,82 290,104" fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<path d="M525,398 L525,235 L675,235 L675,398" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<polygon points="525,250 517,256 525,262" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<polygon points="675,250 683,256 675,262" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<polygon points="525,275 517,281 525,287" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<polygon points="675,275 683,281 675,287" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+
+<g>
+<animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-8;0,-8;0,0;0,0" keyTimes="0;0.08;0.5;0.58;0.92;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" dur="6s" repeatCount="indefinite"/>
+<polygon points="505,300 505,200 695,200 695,300 680,300 680,222 520,222 520,300" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<g clip-path="url(#cr)"><g>
+<animateTransform attributeName="transform" type="translate" values="0,0;0,0;36,0;36,0;0,0;0,0" keyTimes="0;0.08;0.5;0.58;0.92;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" dur="6s" repeatCount="indefinite"/>
+<path d="M476,202 V200 L490,186 L494,200 V202 Z M494,202 V200 L508,186 L512,200 V202 Z M512,202 V200 L526,186 L530,200 V202 Z M530,202 V200 L544,186 L548,200 V202 Z M548,202 V200 L562,186 L566,200 V202 Z M566,202 V200 L580,186 L584,200 V202 Z M584,202 V200 L598,186 L602,200 V202 Z M602,202 V200 L616,186 L620,200 V202 Z M620,202 V200 L634,186 L638,200 V202 Z M638,202 V200 L652,186 L656,200 V202 Z M656,202 V200 L670,186 L674,200 V202 Z M674,202 V200 L688,186 L692,200 V202 Z" fill="#d8f0d2"/><path d="M476,200 L490,186 L494,200 M494,200 L508,186 L512,200 M512,200 L526,186 L530,200 M530,200 L544,186 L548,200 M548,200 L562,186 L566,200 M566,200 L580,186 L584,200 M584,200 L598,186 L602,200 M602,200 L616,186 L620,200 M620,200 L634,186 L638,200 M638,200 L652,186 L656,200 M656,200 L670,186 L674,200 M674,200 L688,186 L692,200" fill="none" stroke="#222" stroke-width="3"/>
+</g></g>
+<polygon points="480,357 480,166 720,166 720,357 705,357 705,188 495,188 495,357" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g clip-path="url(#cr)"><g>
+<animateTransform attributeName="transform" type="translate" values="0,0;0,0;36,0;36,0;0,0;0,0" keyTimes="0;0.08;0.5;0.58;0.92;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1;0.4 0 0.2 1" dur="6s" repeatCount="indefinite"/>
+<path d="M504,186 V188 L513,200 L518,188 V186 Z M522,186 V188 L531,200 L536,188 V186 Z M540,186 V188 L549,200 L554,188 V186 Z M558,186 V188 L567,200 L572,188 V186 Z M576,186 V188 L585,200 L590,188 V186 Z M594,186 V188 L603,200 L608,188 V186 Z M612,186 V188 L621,200 L626,188 V186 Z M630,186 V188 L639,200 L644,188 V186 Z M648,186 V188 L657,200 L662,188 V186 Z M666,186 V188 L675,200 L680,188 V186 Z M684,186 V188 L693,200 L698,188 V186 Z M702,186 V188 L711,200 L716,188 V186 Z" fill="#fde2c4"/><path d="M504,188 L513,200 L518,188 M522,188 L531,200 L536,188 M540,188 L549,200 L554,188 M558,188 L567,200 L572,188 M576,188 L585,200 L590,188 M594,188 L603,200 L608,188 M612,188 L621,200 L626,188 M630,188 L639,200 L644,188 M648,188 L657,200 L662,188 M666,188 L675,200 L680,188 M684,188 L693,200 L698,188 M702,188 L711,200 L716,188" fill="none" stroke="#222" stroke-width="3"/>
+</g></g>
+<polyline points="513,188 519,190 507,192 519,194 507,196 519,198 513,200" fill="none" stroke="#222" stroke-width="2.5"/>
+</g>
+<path d="M510,140 Q600,118 690,140" fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.55;0.6;0.95;1" dur="6s" repeatCount="indefinite"/></path>
+<line x1="655" y1="80" x2="655" y2="116" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="21" font-weight="bold">Just twist: clicks round</text>
+<text x="600" y="36" font-size="21" font-weight="bold">Push and twist: opens</text>
+<text x="200" y="68">teeth held apart, slip over</text>
+<text x="200" y="122">outer cap</text>
+<text x="8" y="168" text-anchor="start" font-size="16">springy</text><text x="8" y="186" text-anchor="start" font-size="16">finger</text>
+<line x1="62" y1="180" x2="104" y2="180" stroke="#222" stroke-width="1.5"/>
+<text x="328" y="236" text-anchor="start" font-size="16">inner</text><text x="328" y="254" text-anchor="start" font-size="16">cap</text>
+<line x1="326" y1="242" x2="290" y2="242" stroke="#222" stroke-width="1.5"/>
+<text x="200" y="370">bottle</text>
+<text x="670" y="100" text-anchor="start">push</text>
+<text x="560" y="68">teeth mesh: both turn together</text>
+<text x="600" y="370">bottle</text>
+<text x="400" y="432">Springy fingers keep the teeth apart until you press down</text>
+</g></svg>

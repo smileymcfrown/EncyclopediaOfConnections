@@ -158,22 +158,50 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Tensioning_and_adjustable_hitches_truckers_hitch_tautline_hitch_Prusik.json
 image:
-  file: tensioning-and-adjustable-hitches.webp
-  width: 800
-  height: 533
+  file: drawn/anim/tensioning-and-adjustable-hitches.svg
+  alt: 'Two tensioning knots, animated: on the left a trucker''s hitch, where pulling the free end down a long way draws the
+    loop (which works like a pulley) down a little and takes the slack out of the rope over the load; on the right a taut-line
+    hitch on a tent guy line, slid up the line to take up the sag; each lets off and is tightened again.'
+  drawn: true
+  still: drawn/tensioning-and-adjustable-hitches.svg
+  kind: animation
+pictures:
+- file: drawn/anim/tensioning-and-adjustable-hitches.svg
+  alt: 'Two tensioning knots, animated: on the left a trucker''s hitch, where pulling the free end down a long way draws the
+    loop (which works like a pulley) down a little and takes the slack out of the rope over the load; on the right a taut-line
+    hitch on a tent guy line, slid up the line to take up the sag; each lets off and is tightened again.'
+  drawn: true
+  still: drawn/tensioning-and-adjustable-hitches.svg
+  kind: animation
+- file: tensioning-and-adjustable-hitches.webp
   title: File:Hitch-truckers-ABoK 1514-USCG.jpg
   author: USCG PTC Developer
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg
-  alt: A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.
+  alt: A trucker's hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing
+    tight.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: tensioning-and-adjustable-hitches-9326ba.webp
+  title: File:AdjustableHitchVariations.jpg
+  author: David J. Fred
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:AdjustableHitchVariations.jpg
+  site: Wikimedia Commons
+  alt: Six blue cord hitches tied round a green rope, rolling hitches and similar adjustable gripping knots.
+  kind: photo
   drawn: false
 glossary: [ratchet, mechanical-advantage, form-fit--force-fit--material-bond, creep]
 ---
 
-![A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.](../media/tensioning-and-adjustable-hitches.webp)
-
-*Picture: [Hitch-truckers-ABoK 1514-USCG.jpg](https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg) by USCG PTC Developer, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/tensioning-and-adjustable-hitches.svg"><img src="../media/drawn/anim/tensioning-and-adjustable-hitches.svg" alt="Two tensioning knots, animated: on the left a trucker&#x27;s hitch, where pulling the free end down a long way draws the loop (which works like a pulley) down a little and takes the slack out of the rope over the load; on the right a taut-line hitch on a tent guy line, slid up the line to take up the sag"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tensioning-and-adjustable-hitches.webp" alt="A trucker&#x27;s hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing tight." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg">Hitch-truckers-ABoK 1514-USCG</a> by USCG PTC Developer, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tensioning-and-adjustable-hitches-9326ba.webp" alt="Six blue cord hitches tied round a green rope, rolling hitches and similar adjustable gripping knots." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:AdjustableHitchVariations.jpg">AdjustableHitchVariations</a> by David J. Fred, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Knots that tension a line and hold it with no hardware: the trucker's hitch ties a loop into the rope that works like a pulley so you can haul a lashing tight, while friction hitches such as the taut-line, rolling, adjustable grip and Prusik hitches wrap round a rope or pole, grip when the line is loaded and slide by hand when it is slack, so the line can be tightened or moved again later.
 

@@ -130,22 +130,55 @@ sources:
 research: research/connection-types/results/Lacing_cord_through_rows_of_holes_or_eyelets.json
 image:
   file: lacing.webp
-  width: 500
-  height: 525
   title: File:Lamellar lacing.gif
   author: unknown
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif
-  alt: Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels
-  animated: false
+  alt: A drawing of small armour plates laced together by a cord passing back and forth through rows of holes.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: lacing.webp
+  title: File:Lamellar lacing.gif
+  author: unknown
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif
+  alt: A drawing of small armour plates laced together by a cord passing back and forth through rows of holes.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: lacing-754978.webp
+  title: File:A classic Black pair of Converse All Stars resting on the Black & White Ed. Shoebox (1998-2002).JPG
+  author: Hadley1978 at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:A_classic_Black_pair_of_Converse_All_Stars_resting_on_the_Black_%26_White_Ed._Shoebox_(1998-2002).JPG
+  site: Wikimedia Commons
+  alt: A pair of canvas high-top trainers laced criss-cross through rows of metal eyelets.
+  kind: photo
+  drawn: false
+- file: lacing-11c442.webp
+  title: File:Cable lacing close-up.jpg
+  author: impulselabs
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Cable_lacing_close-up.jpg
+  site: Wikimedia Commons
+  alt: Close-up of a bundle of wires in an old electrical machine, held together by waxed cord laced round it in a row of
+    knotted loops.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, perimeters, infill]
 ---
 
-![Diagram of how small punched plates are laced together in rows, the idea behind lacing printed plates or panels](../media/lacing.webp)
-
-*Picture: [Lamellar lacing.gif](https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif) by unknown, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/lacing.webp" alt="A drawing of small armour plates laced together by a cord passing back and forth through rows of holes."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lamellar_lacing.gif">Lamellar lacing</a> by unknown, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lacing-754978.webp" alt="A pair of canvas high-top trainers laced criss-cross through rows of metal eyelets." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:A_classic_Black_pair_of_Converse_All_Stars_resting_on_the_Black_%26_White_Ed._Shoebox_(1998-2002).JPG">A classic Black pair of Converse All Stars resting on the Black &amp; White Ed. Shoebox (1998-2002)</a> by Hadley1978 at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lacing-11c442.webp" alt="Close-up of a bundle of wires in an old electrical machine, held together by waxed cord laced round it in a row of knotted loops." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cable_lacing_close-up.jpg">Cable lacing close-up</a> by impulselabs, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A lace is threaded back and forth through matching holes, eyelets or hooks on two edges and pulled tight, so many short crossings share the pull and draw the edges together; a knot, bow or lace lock holds it, and it can be loosened and re-tightened at any time.
 

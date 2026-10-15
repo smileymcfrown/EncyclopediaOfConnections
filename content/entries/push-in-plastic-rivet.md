@@ -132,12 +132,18 @@ image:
     after its centre pin is pushed flush, which spreads its split legs behind the sheet, and a fir-tree clip whose angled
     fins fold in going through the hole and spring out behind it.'
   drawn: true
+pictures:
+- file: drawn/push-in-plastic-rivet.svg
+  alt: 'Cut-away side views of push-in plastic rivets holding a trim panel to a backing sheet: a push-type rivet before and
+    after its centre pin is pushed flush, which spreads its split legs behind the sheet, and a fir-tree clip whose angled
+    fins fold in going through the hole and spring out behind it.'
+  drawn: true
 glossary: [ratchet, cantilever, form-fit--force-fit--material-bond, creep, brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
-![Cut-away side views of push-in plastic rivets holding a trim panel to a backing sheet: a push-type rivet before and after its centre pin is pushed flush, which spreads its split legs behind the sheet,](../media/drawn/push-in-plastic-rivet.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-in-plastic-rivet.svg" alt="Cut-away side views of push-in plastic rivets holding a trim panel to a backing sheet: a push-type rivet before and after its centre pin is pushed flush, which spreads its split legs behind the sheet, and a fir-tree clip whose angled fins fold in going through the hole and spring out behind it."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A plastic pin that you push into a plain hole from one side, where springy fins or spreading legs grip behind or inside the hole, so panels and trim can be fixed in seconds without screws, nuts or tools.
 

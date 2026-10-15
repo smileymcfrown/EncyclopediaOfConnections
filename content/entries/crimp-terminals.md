@@ -126,22 +126,54 @@ sources:
 research: research/connection-types/results/Crimp_terminals_ring_fork_and_spade_terminals_blade_quickdisconnect.json
 image:
   file: crimp-terminals.webp
-  width: 461
-  height: 358
   title: File:Kabelschuh verschiedene commons.jpg
   author: unknown
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg
-  alt: Insulated ring and spade terminals, FASTON blade tabs and receptacles, and male and female bullet terminals side by
-    side
+  alt: Many kinds of crimp terminals (rings, forks, blades and pins) crimped onto the ends of coloured wires.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: crimp-terminals.webp
+  title: File:Kabelschuh verschiedene commons.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg
+  alt: Many kinds of crimp terminals (rings, forks, blades and pins) crimped onto the ends of coloured wires.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: crimp-terminals-81ab57.webp
+  title: File:Krimp 3 vlakdraden - goede krimp.jpg
+  author: Fluppe37
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Krimp_3_vlakdraden_-_goede_krimp.jpg
+  site: Wikimedia Commons
+  alt: A crimped terminal sawn across, showing the copper wire strands squashed into one solid mass inside the metal barrel.
+  kind: cross-section
+  drawn: false
+- file: crimp-terminals-3a77cf.webp
+  title: File:Crimping three steps.jpg
+  author: Hundehalter
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Crimping_three_steps.jpg
+  site: Wikimedia Commons
+  alt: Three steps of crimping a red ring terminal onto a wire, from loose terminal to finished, squeezed barrel.
+  kind: how-it-works
   drawn: false
 glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, gland]
 ---
 
-![Insulated ring and spade terminals, FASTON blade tabs and receptacles, and male and female bullet terminals side by side](../media/crimp-terminals.webp)
-
-*Picture: [Kabelschuh verschiedene commons.jpg](https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg) by unknown, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/crimp-terminals.webp" alt="Many kinds of crimp terminals (rings, forks, blades and pins) crimped onto the ends of coloured wires."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kabelschuh_verschiedene_commons.jpg">Kabelschuh verschiedene commons</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/crimp-terminals-81ab57.webp" alt="A crimped terminal sawn across, showing the copper wire strands squashed into one solid mass inside the metal barrel." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Krimp_3_vlakdraden_-_goede_krimp.jpg">Krimp 3 vlakdraden - goede krimp</a> by Fluppe37, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/crimp-terminals-3a77cf.webp" alt="Three steps of crimping a red ring terminal onto a wire, from loose terminal to finished, squeezed barrel." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Crimping_three_steps.jpg">Crimping three steps</a> by Hundehalter, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A metal terminal whose barrel is squeezed (crimped) onto a stripped wire end with a crimping tool, giving a ring or fork to clamp under a screw or stud, or a blade or receptacle that pushes onto a matching tab, so a wire can be fixed to a terminal or unplugged without soldering.
 

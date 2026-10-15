@@ -95,12 +95,18 @@ image:
     a slot, the shelf slides along while the slot''s gently sloping grooves pull the two parts together, and it clicks home
     tight; small views show the keyhole-shaped slot from the front and the groove slope of about 2 degrees.'
   drawn: true
+pictures:
+- file: drawn/wedge-dowel.svg
+  alt: 'Cut-away in three steps of a shelf with a ribbed dowel joining a side panel: the dowel drops into the wide end of
+    a slot, the shelf slides along while the slot''s gently sloping grooves pull the two parts together, and it clicks home
+    tight; small views show the keyhole-shaped slot from the front and the groove slope of about 2 degrees.'
+  drawn: true
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, layer-lines, peel-vs-shear]
 ---
 
-![Cut-away in three steps of a shelf with a ribbed dowel joining a side panel: the dowel drops into the wide end of a slot, the shelf slides along while the slot's gently sloping grooves pull the two pa](../media/drawn/wedge-dowel.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/wedge-dowel.svg" alt="Cut-away in three steps of a shelf with a ribbed dowel joining a side panel: the dowel drops into the wide end of a slot, the shelf slides along while the slot&#x27;s gently sloping grooves pull the two parts together, and it clicks home tight; small views show the keyhole-shaped slot from the front and "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A factory-fitted dowel with rings of grooves on one furniture part slides along a milled slot with slightly sloping grooves in the other part, so the sloping grooves wedge the parts together and lock them tight without screws, glue or tools, and the joint can be slid apart again.
 

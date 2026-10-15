@@ -127,25 +127,59 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Rack_and_pinion.json
 image:
-  file: rack-and-pinion.webp
-  width: 152
-  height: 164
-  title: File:Rack and pinion animation.gif
-  author: OSHA Directorate of Technical Support and Emergency Management
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Rack_and_pinion_animation.gif
-  alt: Looping animation of a pinion turning and driving a rack sideways
-  animated: true
+  file: rack-and-pinion-af6272.webp
+  title: File:Animated rack and pinion.gif
+  author: Jahobr
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Animated_rack_and_pinion.gif
+  site: Wikimedia Commons
+  alt: A red gear (the pinion) turning on a straight green toothed bar (the rack) and rolling along it.
+  kind: animation
+  still: rack-and-pinion-af6272.still.webp
+  drawn: false
+pictures:
+- file: rack-and-pinion-af6272.webp
+  title: File:Animated rack and pinion.gif
+  author: Jahobr
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Animated_rack_and_pinion.gif
+  site: Wikimedia Commons
+  alt: A red gear (the pinion) turning on a straight green toothed bar (the rack) and rolling along it.
+  kind: animation
+  still: rack-and-pinion-af6272.still.webp
+  drawn: false
+- file: rack-and-pinion-354903.webp
+  title: File:Bremerhaven, Brückenanlage zwischen Altem und Neuem Hafen, Detailansicht -- 2024 -- 2251.jpg
+  author: Dietmar Rabich
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Bremerhaven,_Br%C3%BCckenanlage_zwischen_Altem_und_Neuem_Hafen,_Detailansicht_--_2024_--_2251.jpg
+  site: Wikimedia Commons
+  alt: The big riveted steel toothed rack that lifts a harbour bridge in Bremerhaven.
+  kind: photo
+  drawn: false
+- file: rack-and-pinion-0c3ddc.webp
+  title: File:Rack and Pinion Drive, Tyne Swing Bridge - geograph.org.uk - 966013.jpg
+  author: Stephen Horncastle
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Rack_and_Pinion_Drive,_Tyne_Swing_Bridge_-_geograph.org.uk_-_966013.jpg
+  site: Wikimedia Commons
+  alt: The rack and pinion drive that turns the Tyne Swing Bridge, a gear meshing with a large curved toothed rack.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, stroke, ratchet, pawl, torque, pitch, crank, actuator, stiffness,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, creep, lubrication, perimeters,
   infill, print-in-place]
 ---
 
-![Looping animation of a pinion turning and driving a rack sideways](../media/rack-and-pinion.webp)
-
-*Picture: [Rack and pinion animation.gif](https://commons.wikimedia.org/wiki/File:Rack_and_pinion_animation.gif) by OSHA Directorate of Technical Support and Emergency Management, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/rack-and-pinion-af6272.still.webp"><img src="../media/rack-and-pinion-af6272.webp" alt="A red gear (the pinion) turning on a straight green toothed bar (the rack) and rolling along it."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Animated_rack_and_pinion.gif">Animated rack and pinion</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rack-and-pinion-354903.webp" alt="The big riveted steel toothed rack that lifts a harbour bridge in Bremerhaven." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bremerhaven,_Br%C3%BCckenanlage_zwischen_Altem_und_Neuem_Hafen,_Detailansicht_--_2024_--_2251.jpg">Bremerhaven, Brückenanlage zwischen Altem und Neuem Hafen, Detailansicht -- 2024 -- 2251</a> by Dietmar Rabich, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rack-and-pinion-0c3ddc.webp" alt="The rack and pinion drive that turns the Tyne Swing Bridge, a gear meshing with a large curved toothed rack." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rack_and_Pinion_Drive,_Tyne_Swing_Bridge_-_geograph.org.uk_-_966013.jpg">Rack and Pinion Drive, Tyne Swing Bridge - geograph.org.uk - 966013</a> by Stephen Horncastle, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A round gear (the pinion) meshes with a straight toothed bar (the rack), so every turn of the pinion moves the rack by the distance round the pinion's [pitch](../glossary.md#pitch) circle, turning rotation into straight-line motion or straight-line motion back into rotation.
 

@@ -140,24 +140,38 @@ sources:
 - https://www.printables.com/model/934945-swash-plate-engine-no-extra-hardware-needed
 research: research/connection-types/results/Swashplate_and_wobble_plate.json
 image:
-  file: swashplate-and-wobble-plate.webp
-  width: 180
-  height: 135
-  title: File:Swashplate anim metal.gif
-  author: Van helsing
-  license: CC BY 2.5
-  license_url: https://creativecommons.org/licenses/by/2.5
-  source: https://commons.wikimedia.org/wiki/File:Swashplate_anim_metal.gif
-  alt: 'Animation: a slanted plate turning with its shaft pushes six rods in and out one after another'
-  animated: true
+  file: swashplate-and-wobble-plate-740654.webp
+  title: File:Axialkolbenpumpe - einfache Animation.gif
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Axialkolbenpumpe_-_einfache_Animation.gif
+  site: Wikimedia Commons
+  alt: 'Animation of an axial piston pump: a slanted red plate turns under a ring of pistons, pushing each one up and letting
+    it down once per turn.'
+  kind: animation
+  still: swashplate-and-wobble-plate-740654.still.webp
+  drawn: false
+pictures:
+- file: swashplate-and-wobble-plate-740654.webp
+  title: File:Axialkolbenpumpe - einfache Animation.gif
+  author: MichaelFrey
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Axialkolbenpumpe_-_einfache_Animation.gif
+  site: Wikimedia Commons
+  alt: 'Animation of an axial piston pump: a slanted red plate turns under a ring of pistons, pushing each one up and letting
+    it down once per turn.'
+  kind: animation
+  still: swashplate-and-wobble-plate-740654.still.webp
   drawn: false
 glossary: [axial--radial, coaxial, reciprocating, stroke, pitch, cam-and-follower, crank, linkage, clearance, form-fit--force-fit--material-bond,
   circlip, lubrication, check-valve]
 ---
 
-![Animation: a slanted plate turning with its shaft pushes six rods in and out one after another](../media/swashplate-and-wobble-plate.webp)
-
-*Picture: [Swashplate anim metal.gif](https://commons.wikimedia.org/wiki/File:Swashplate_anim_metal.gif) by Van helsing, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/swashplate-and-wobble-plate-740654.still.webp"><img src="../media/swashplate-and-wobble-plate-740654.webp" alt="Animation of an axial piston pump: a slanted red plate turns under a ring of pistons, pushing each one up and letting it down once per turn."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Axialkolbenpumpe_-_einfache_Animation.gif">Axialkolbenpumpe - einfache Animation</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A swashplate is a disc fixed at a slant to a shaft, so turning the shaft makes rods or pistons arranged in a ring round it move back and forth parallel to the shaft (or the pistons turn the shaft); a wobble plate does the same without spinning, and a helicopter swashplate uses a tilting, sliding pair of plates to change the [pitch](../glossary.md#pitch) of spinning rotor blades.
 

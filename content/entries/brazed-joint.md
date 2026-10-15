@@ -122,22 +122,54 @@ sources:
 research: research/connection-types/results/Brazed_joint_brazing_silver_soldering_hard_soldering.json
 image:
   file: brazed-joint.webp
-  width: 800
-  height: 717
   title: File:Principe brasage fort cuivre.svg
   author: Cdang
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Principe_brasage_fort_cuivre.svg
-  alt: 'Diagram of copper brazing: flame heating of the parts and the filler melting where it touches the hot parts and running
-    into the joint'
+  alt: A drawing of two copper pipes heated by a flame, then a rod of filler melting and running into the joint between them.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: brazed-joint.webp
+  title: File:Principe brasage fort cuivre.svg
+  author: Cdang
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Principe_brasage_fort_cuivre.svg
+  alt: A drawing of two copper pipes heated by a flame, then a rod of filler melting and running into the joint between them.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: brazed-joint-07f4e3.webp
+  title: File:Partially-completed steel bicycle frame.jpg
+  author: 4300streetcar
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Partially-completed_steel_bicycle_frame.jpg
+  site: Wikimedia Commons
+  alt: A partly built steel bicycle frame whose tubes are joined with smooth fillets of brass brazing at each corner.
+  kind: how-it-works
+  drawn: false
+- file: brazed-joint-abb3e4.webp
+  title: File:BRAZED TRANSITION JOINTS - 1 UNBRAZED ASSEMBLY - 2 BRAZED PIPE JOINTS - NARA - 17443723.jpg
+  author: Unknown authorUnknown author or not provided
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:BRAZED_TRANSITION_JOINTS_-_1_UNBRAZED_ASSEMBLY_-_2_BRAZED_PIPE_JOINTS_-_NARA_-_17443723.jpg
+  site: Wikimedia Commons
+  alt: Pipe joints on a table, an unbrazed sleeve and rings beside finished brazed pipe joints (black and white).
+  kind: photo
   drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear]
 ---
 
-![Diagram of copper brazing: flame heating of the parts and the filler melting where it touches the hot parts and running into the joint](../media/brazed-joint.webp)
-
-*Picture: [Principe brasage fort cuivre.svg](https://commons.wikimedia.org/wiki/File:Principe_brasage_fort_cuivre.svg) by Cdang, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/brazed-joint.webp" alt="A drawing of two copper pipes heated by a flame, then a rod of filler melting and running into the joint between them."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Principe_brasage_fort_cuivre.svg">Principe brasage fort cuivre</a> by Cdang, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/brazed-joint-07f4e3.webp" alt="A partly built steel bicycle frame whose tubes are joined with smooth fillets of brass brazing at each corner." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Partially-completed_steel_bicycle_frame.jpg">Partially-completed steel bicycle frame</a> by 4300streetcar, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/brazed-joint-abb3e4.webp" alt="Pipe joints on a table, an unbrazed sleeve and rings beside finished brazed pipe joints (black and white)." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:BRAZED_TRANSITION_JOINTS_-_1_UNBRAZED_ASSEMBLY_-_2_BRAZED_PIPE_JOINTS_-_NARA_-_17443723.jpg">BRAZED TRANSITION JOINTS - 1 UNBRAZED ASSEMBLY - 2 BRAZED PIPE JOINTS - NARA - 17443723</a> by Unknown authorUnknown author or not provided, Public domain, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Brazing heats close-fitting metal parts above about 450 °C, usually to a dull red heat, so that a brass, copper-phosphorus or silver alloy melts, wets both surfaces and is drawn by capillary action into the gap, giving a strong, leak-tight joint that also joins different metals, while the parts themselves never melt.
 

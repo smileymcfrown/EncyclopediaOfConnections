@@ -139,22 +139,32 @@ sources:
 research: research/connection-types/results/Doublesided_foam_tape_acrylic_foam_pressuresensitive_adhesive.json
 image:
   file: double-sided-foam-tape.webp
-  width: 800
-  height: 1067
   title: File:Двухсторонний скотч f003.jpg
   author: Ural-66
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:%D0%94%D0%B2%D1%83%D1%85%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87_f003.jpg
-  alt: Photo comparing a thin double-sided tape with a thick black polyurethane-foam double-sided tape, with toothpicks stuck
-    to both faces to show that both sides are sticky; used in the Wikipedia 'Double-sided tape' article
+  alt: Two rolls of double-sided tape, one yellow and one black foam tape, with their peel-off backing partly lifted.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: double-sided-foam-tape.webp
+  title: File:Двухсторонний скотч f003.jpg
+  author: Ural-66
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:%D0%94%D0%B2%D1%83%D1%85%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87_f003.jpg
+  alt: Two rolls of double-sided tape, one yellow and one black foam tape, with their peel-off backing partly lifted.
+  site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, elephants-foot, cure, surface-energy, primer, peel-vs-shear]
 ---
 
-![Photo comparing a thin double-sided tape with a thick black polyurethane-foam double-sided tape, with toothpicks stuck to both faces to show that both sides are sticky; used in the Wikipedia 'Double-s](../media/double-sided-foam-tape.webp)
-
-*Picture: [Двухсторонний скотч f003.jpg](https://commons.wikimedia.org/wiki/File:%D0%94%D0%B2%D1%83%D1%85%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87_f003.jpg) by Ural-66, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/double-sided-foam-tape.webp" alt="Two rolls of double-sided tape, one yellow and one black foam tape, with their peel-off backing partly lifted."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:%D0%94%D0%B2%D1%83%D1%85%D1%81%D1%82%D0%BE%D1%80%D0%BE%D0%BD%D0%BD%D0%B8%D0%B9_%D1%81%D0%BA%D0%BE%D1%82%D1%87_f003.jpg">Двухсторонний скотч f003</a> by Ural-66, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A roll of tape made of a soft foam layer with pressure-sensitive glue on both faces, which sticks two parts together as soon as you press them, spreads the load along the whole joint, soaks up small gaps and vibration, and can also seal the joint.
 

@@ -123,18 +123,30 @@ sources:
 - https://www.youtube.com/watch?v=Lp2uGtOGZRA
 research: research/connection-types/results/Spring_button_lock_snap_button_pushbutton_tube_lock.json
 image:
-  file: drawn/spring-button-lock.svg
+  file: drawn/anim/spring-button-lock.svg
   alt: 'Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes
     its button out through a hole in both tubes so they are locked, and on the right a finger presses the button flush so
-    the outer tube can slide on to the next hole.'
+    the outer tube can slide on to the next hole. The animation slides the outer tube along, lifts the finger so the spring
+    pops the button out through the next hole, then presses it in again and slides back.'
   drawn: true
+  still: drawn/spring-button-lock.svg
+  kind: animation
+pictures:
+- file: drawn/anim/spring-button-lock.svg
+  alt: 'Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes
+    its button out through a hole in both tubes so they are locked, and on the right a finger presses the button flush so
+    the outer tube can slide on to the next hole. The animation slides the outer tube along, lifts the finger so the spring
+    pops the button out through the next hole, then presses it in again and slides back.'
+  drawn: true
+  still: drawn/spring-button-lock.svg
+  kind: animation
 glossary: [detent, preload, cantilever, clearance, form-fit--force-fit--material-bond, collet, chamfer--fillet, repeatability--accuracy,
   creep, stress-concentration, peel-vs-shear]
 ---
 
-![Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes its button out through a hole in both tubes so they are locked, and on the right a ](../media/drawn/spring-button-lock.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spring-button-lock.svg"><img src="../media/drawn/anim/spring-button-lock.svg" alt="Cut-away of a thin tube sliding inside a wider tube: on the left a V-shaped spring clip inside the inner tube pushes its button out through a hole in both tubes so they are locked, and on the right a finger presses the button flush so the outer tube can slide on to the next hole. The animation slide"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A spring-loaded button inside the inner tube that snaps out through holes in the outer tube, locking two sliding tubes at set lengths until you press the button in.
 

@@ -116,23 +116,63 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Mechanical_interlock.json
 image:
-  file: mechanical-interlock.webp
-  width: 800
-  height: 600
+  file: drawn/anim/mechanical-interlock.svg
+  alt: 'A mechanical interlock: two sliding rods each have a notch, and a pin in a hole in the fixed block between them; in
+    the animation rod 1 slides and holds the pin in rod 2''s notch so rod 2 is locked, then rod 1 returns and rod 2 slides,
+    its ramp pushing the pin up into rod 1''s notch so rod 1 is locked.'
+  drawn: true
+  still: drawn/mechanical-interlock.svg
+  kind: animation
+pictures:
+- file: drawn/anim/mechanical-interlock.svg
+  alt: 'A mechanical interlock: two sliding rods each have a notch, and a pin in a hole in the fixed block between them; in
+    the animation rod 1 slides and holds the pin in rod 2''s notch so rod 2 is locked, then rod 1 returns and rod 2 slides,
+    its ramp pushing the pin up into rod 1''s notch so rod 1 is locked.'
+  drawn: true
+  still: drawn/mechanical-interlock.svg
+  kind: animation
+- file: mechanical-interlock.webp
   title: File:Trapped key interlock switchgear door.JPG
   author: Wtshymanski
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG
-  alt: Photo of a trapped-key interlock on an electrical switchgear cabinet door, fixed with one-way security screws
+  alt: A brass trapped-key lock on a grey electrical cabinet door; the key can only be turned and removed when the door is
+    locked.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: mechanical-interlock-1139fe.webp
+  title: File:Interlocking machine locking bed.jpg
+  author: JonRoma
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Interlocking_machine_locking_bed.jpg
+  site: Wikimedia Commons
+  alt: The locking bed of a railway interlocking machine, rows of sliding bars and notched blocks that stop levers being moved
+    in an unsafe order.
+  kind: how-it-works
+  drawn: false
+- file: mechanical-interlock-3f110f.webp
+  title: File:Carriage Interlock Linkage.jpg
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Carriage_Interlock_Linkage.jpg
+  site: Wikimedia Commons
+  alt: A metal plate with a sliding linkage that locks a machine carriage whenever its handle is not in the normal position.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, detent, ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, deflection, clearance, form-fit--force-fit--material-bond,
   holding-force, keying, creep, layer-lines, peel-vs-shear]
 ---
 
-![Photo of a trapped-key interlock on an electrical switchgear cabinet door, fixed with one-way security screws](../media/mechanical-interlock.webp)
-
-*Picture: [Trapped key interlock switchgear door.JPG](https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG) by Wtshymanski, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/mechanical-interlock.svg"><img src="../media/drawn/anim/mechanical-interlock.svg" alt="A mechanical interlock: two sliding rods each have a notch, and a pin in a hole in the fixed block between them; in the animation rod 1 slides and holds the pin in rod 2&#x27;s notch so rod 2 is locked, then rod 1 returns and rod 2 slides, its ramp pushing the pin up into rod 1&#x27;s notch so rod 1 is locked"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/mechanical-interlock.webp" alt="A brass trapped-key lock on a grey electrical cabinet door; the key can only be turned and removed when the door is locked." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Trapped_key_interlock_switchgear_door.JPG">Trapped key interlock switchgear door</a> by Wtshymanski, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/mechanical-interlock-1139fe.webp" alt="The locking bed of a railway interlocking machine, rows of sliding bars and notched blocks that stop levers being moved in an unsafe order." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Interlocking_machine_locking_bed.jpg">Interlocking machine locking bed</a> by JonRoma, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/mechanical-interlock-3f110f.webp" alt="A metal plate with a sliding linkage that locks a machine carriage whenever its handle is not in the normal position." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Carriage_Interlock_Linkage.jpg">Carriage Interlock Linkage</a> by tony_duell, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A mechanical interlock is a bar, pin, ball, plate or key that physically blocks one part from moving until another part is in the right (safe) position, so things can only happen in a safe order.
 

@@ -143,22 +143,55 @@ sources:
 research: research/connection-types/results/Basic_strap_and_garment_closures_prong_buckle_button_toggle_and_loop.json
 image:
   file: basic-strap-and-garment-closures.webp
-  width: 800
-  height: 518
   title: File:Buckle Showing various parts.svg
   author: '20040302'
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg
-  alt: Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia 'Buckle')
+  alt: A drawing of a prong buckle with its frame, bar, prong and chape labelled.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: basic-strap-and-garment-closures.webp
+  title: File:Buckle Showing various parts.svg
+  author: '20040302'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg
+  alt: A drawing of a prong buckle with its frame, bar, prong and chape labelled.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: basic-strap-and-garment-closures-568fa7.webp
+  title: File:Attaches de duffle-coat.jpg
+  author: DocteurCosmos
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg
+  site: Wikimedia Commons
+  alt: Duffle-coat toggles, wooden bars on cords, pushed through cord loops to close the coat.
+  kind: how-it-works
+  drawn: false
+- file: basic-strap-and-garment-closures-287125.webp
+  title: File:Plastic & fabric buttons showing holes & shank.jpg
+  author: Richard Wheeler (Zephyris) 2007. ==Licensing==
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg
+  site: Wikimedia Commons
+  alt: Plastic buttons with sewing holes beside a fabric-covered button with a shank loop on the back.
+  kind: photo
   drawn: false
 glossary: [self-locking, ratchet, clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, perimeters,
   infill]
 ---
 
-![Labelled diagram of a prong buckle showing its frame, bar, prong and other parts (used in Wikipedia 'Buckle')](../media/basic-strap-and-garment-closures.webp)
-
-*Picture: [Buckle Showing various parts.svg](https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg) by 20040302, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/basic-strap-and-garment-closures.webp" alt="A drawing of a prong buckle with its frame, bar, prong and chape labelled."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Buckle_Showing_various_parts.svg">Buckle Showing various parts</a> by 20040302, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/basic-strap-and-garment-closures-568fa7.webp" alt="Duffle-coat toggles, wooden bars on cords, pushed through cord loops to close the coat." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Attaches_de_duffle-coat.jpg">Attaches de duffle-coat</a> by DocteurCosmos, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/basic-strap-and-garment-closures-287125.webp" alt="Plastic buttons with sewing holes beside a fabric-covered button with a shank loop on the back." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Plastic_%26_fabric_buttons_showing_holes_%26_shank.jpg">Plastic &amp; fabric buttons showing holes &amp; shank</a> by Richard Wheeler (Zephyris) 2007. ==Licensing==, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 The oldest and simplest ways to close a strap or garment by hand: a prong buckle, whose pin goes through a hole in the strap so the strap can be set to one of several lengths; a button, which is wider than the slit or loop it passes through; and a toggle, a short bar on a cord that goes endways through a loop and is then turned crossways.
 

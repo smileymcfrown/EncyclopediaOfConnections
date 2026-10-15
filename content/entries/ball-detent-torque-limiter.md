@@ -112,18 +112,52 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Balldetent_torque_limiter.json
 image:
-  file: drawn/ball-detent-torque-limiter.svg
-  alt: 'Ball-detent torque limiter drawn unrolled flat: on the left, springs press a plate so steel balls sit in cone-shaped
-    dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls roll up out of
-    the dimples, pushing the plate back against the springs, so the drive side slips past.'
+  file: drawn/anim/ball-detent-torque-limiter.svg
+  alt: 'Ball-detent torque limiter drawn unrolled flat, shown moving: on the left, springs press a plate so steel balls sit
+    in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls
+    roll up out of the dimples, pushing the plate back against the springs, so the drive side slips past and the balls click
+    into each dimple as it goes by.'
   drawn: true
+  still: drawn/ball-detent-torque-limiter.svg
+  kind: animation
+pictures:
+- file: drawn/anim/ball-detent-torque-limiter.svg
+  alt: 'Ball-detent torque limiter drawn unrolled flat, shown moving: on the left, springs press a plate so steel balls sit
+    in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls
+    roll up out of the dimples, pushing the plate back against the springs, so the drive side slips past and the balls click
+    into each dimple as it goes by.'
+  drawn: true
+  still: drawn/ball-detent-torque-limiter.svg
+  kind: animation
+- file: ball-detent-torque-limiter.webp
+  title: File:Torque limiter with balls Make Ringspann.JPG
+  author: S.J. de Waard
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Torque_limiter_with_balls_Make_Ringspann.JPG
+  site: Wikimedia Commons
+  alt: A cut-away torque limiter on a trade-show stand, showing the springs and the ring of balls between its two plates.
+  kind: cross-section
+  drawn: false
+- file: ball-detent-torque-limiter-02c152.webp
+  title: File:Ikea Fixa -torque limiter and motor-1227.jpg
+  author: Raimond Spekking
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ikea_Fixa_-torque_limiter_and_motor-1227.jpg
+  site: Wikimedia Commons
+  alt: A cordless drill's clutch and motor taken out of the case, with the numbered torque-setting ring in front.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, coaxial, detent, ratchet, pawl, torque, fail-safe--fail-secure, preload, hysteresis, clearance,
   form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, brittle--ductile, peel-vs-shear]
 ---
 
-![Ball-detent torque limiter drawn unrolled flat: on the left, springs press a plate so steel balls sit in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much tor](../media/drawn/ball-detent-torque-limiter.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ball-detent-torque-limiter.svg"><img src="../media/drawn/anim/ball-detent-torque-limiter.svg" alt="Ball-detent torque limiter drawn unrolled flat, shown moving: on the left, springs press a plate so steel balls sit in cone-shaped dimples in the drive plate and both sides turn together; on the right, too much torque makes the balls roll up out of the dimples, pushing the plate back against the spr"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-detent-torque-limiter.webp" alt="A cut-away torque limiter on a trade-show stand, showing the springs and the ring of balls between its two plates." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Torque_limiter_with_balls_Make_Ringspann.JPG">Torque limiter with balls Make Ringspann</a> by S.J. de Waard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-detent-torque-limiter-02c152.webp" alt="A cordless drill&#x27;s clutch and motor taken out of the case, with the numbered torque-setting ring in front." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ikea_Fixa_-torque_limiter_and_motor-1227.jpg">Ikea Fixa -torque limiter and motor-1227</a> by Raimond Spekking, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Spring-loaded steel balls sitting in dimples between two plates pass on the drive until the [torque](../glossary.md#torque) gets too high, then roll out of their dimples so the drive side spins free (or clicks round) instead of breaking the gears, motor or workpiece.
 

@@ -141,24 +141,58 @@ sources:
 research: research/connection-types/results/Belt_drives_timing_round_and_Vbelt.json
 image:
   file: belt-drives.webp
-  width: 160
-  height: 120
   title: File:Power transmission belt.gif
   author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif
-  alt: Animation of a belt running onto its pulley, showing the in-running nip point
-  animated: true
+  alt: An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley.
+  site: Wikimedia Commons
+  still: belt-drives.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: belt-drives.webp
+  title: File:Power transmission belt.gif
+  author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif
+  alt: An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley.
+  site: Wikimedia Commons
+  still: belt-drives.still.webp
+  kind: animation
+  drawn: false
+- file: belt-drives-c12b35.webp
+  title: File:Belt drive.JPG
+  author: Work With Sounds
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Belt_drive.JPG
+  site: Wikimedia Commons
+  alt: An old milling machine driven by wide flat belts running over a set of stepped pulleys.
+  kind: how-it-works
+  drawn: false
+- file: belt-drives-3d5233.webp
+  title: File:02010 Belt drives market in Poland Gates.JPG
+  author: Silar
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:02010_Belt_drives_market_in_Poland_Gates.JPG
+  site: Wikimedia Commons
+  alt: Black toothed (timing) belts hanging on a rack, their teeth on the inside where they mesh with the pulleys.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, ratchet, torque, pitch, idler, deflection, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, collet, captive-nut, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,
   peel-vs-shear, o-ring]
 ---
 
-![Animation of a belt running onto its pulley, showing the in-running nip point](../media/belt-drives.webp)
-
-*Picture: [Power transmission belt.gif](https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif) by Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/belt-drives.still.webp"><img src="../media/belt-drives.webp" alt="An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif">Power transmission belt</a> by Occupational Safety &amp; Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/belt-drives-c12b35.webp" alt="An old milling machine driven by wide flat belts running over a set of stepped pulleys." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Belt_drive.JPG">Belt drive</a> by Work With Sounds, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/belt-drives-3d5233.webp" alt="Black toothed (timing) belts hanging on a rack, their teeth on the inside where they mesh with the pulleys." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:02010_Belt_drives_market_in_Poland_Gates.JPG">02010 Belt drives market in Poland Gates</a> by Silar, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flexible loop runs around two or more pulleys and carries rotation from one shaft to another, speeding it up or slowing it down according to the pulley sizes; toothed (timing) belts mesh like gears and never slip, while V-belts and round belts grip by friction and can slip when overloaded.
 

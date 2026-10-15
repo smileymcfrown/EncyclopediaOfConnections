@@ -126,22 +126,44 @@ sources:
 research: research/connection-types/results/Woven_selftightening_grip_fingertrap_grip.json
 image:
   file: woven-self-tightening-grip.webp
-  width: 800
-  height: 600
   title: File:Finger trap toys.jpg
   author: carol
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg
-  alt: Several woven Chinese finger trap toys, showing the crossing diagonal strips of the braid
+  alt: Several woven paper finger-trap toys, tubes of crossing spiral strips in different colours.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: woven-self-tightening-grip.webp
+  title: File:Finger trap toys.jpg
+  author: carol
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg
+  alt: Several woven paper finger-trap toys, tubes of crossing spiral strips in different colours.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: woven-self-tightening-grip-2627f2.webp
+  title: File:Towing sock - 01.jpg
+  author: Anna Frodesiak
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Towing_sock_-_01.jpg
+  site: Wikimedia Commons
+  alt: A woven wire cable sock gripping the end of a cable so it can be pulled through a duct.
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, torque, form-fit--force-fit--material-bond, taper, collet, creep, brittle--ductile, print-in-place,
   gland]
 ---
 
-![Several woven Chinese finger trap toys, showing the crossing diagonal strips of the braid](../media/woven-self-tightening-grip.webp)
-
-*Picture: [Finger trap toys.jpg](https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg) by carol, [CC BY 2.5](https://creativecommons.org/licenses/by/2.5), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/woven-self-tightening-grip.webp" alt="Several woven paper finger-trap toys, tubes of crossing spiral strips in different colours."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Finger_trap_toys.jpg">Finger trap toys</a> by carol, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/woven-self-tightening-grip-2627f2.webp" alt="A woven wire cable sock gripping the end of a cable so it can be pulled through a duct." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Towing_sock_-_01.jpg">Towing sock - 01</a> by Anna Frodesiak, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A tube woven from two sets of crossing spiral strands that slides over the end of a cable, rope or finger and then grips it harder the harder it is pulled, because pulling makes the weave longer and narrower.
 

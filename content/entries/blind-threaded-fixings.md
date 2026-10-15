@@ -133,22 +133,55 @@ sources:
 research: research/connection-types/results/Blind_threaded_fixings_rivet_nut_well_nut.json
 image:
   file: blind-threaded-fixings.webp
-  width: 800
-  height: 563
   title: File:Blindklinkmoer opengewerkt met bout.jpg
   author: Erik Wannee
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg
-  alt: A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread
+  alt: A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body.
+  site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+pictures:
+- file: blind-threaded-fixings.webp
+  title: File:Blindklinkmoer opengewerkt met bout.jpg
+  author: Erik Wannee
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg
+  alt: A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body.
+  site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+- file: blind-threaded-fixings-62df09.webp
+  title: File:1990s Molly well nuts D1420 with threaded brass insert by Emhart Teknik AB Oerebro Sweden.jpg
+  author: R. Henrik Nilsson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:1990s_Molly_well_nuts_D1420_with_threaded_brass_insert_by_Emhart_Teknik_AB_Oerebro_Sweden.jpg
+  site: Wikimedia Commons
+  alt: Two rubber well nuts, one showing its flanged head and one its end with the brass threaded insert moulded inside.
+  kind: photo
+  drawn: false
+- file: blind-threaded-fixings-3dc832.webp
+  title: File:Blindnietmutter.jpg
+  author: PeterScha
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Blindnietmutter.jpg
+  site: Wikimedia Commons
+  alt: A stainless steel rivet nut seen from the side and from the end, a short ribbed tube with a flange and a threaded hole.
+  kind: photo
   drawn: false
 glossary: [axial--radial, torque, damping, clearance, tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert,
   captive-nut, creep, brittle--ductile, perimeters, infill, peel-vs-shear, o-ring]
 ---
 
-![A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread](../media/blind-threaded-fixings.webp)
-
-*Picture: [Blindklinkmoer opengewerkt met bout.jpg](https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg) by Erik Wannee, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/blind-threaded-fixings.webp" alt="A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg">Blindklinkmoer opengewerkt met bout</a> by Erik Wannee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/blind-threaded-fixings-62df09.webp" alt="Two rubber well nuts, one showing its flanged head and one its end with the brass threaded insert moulded inside." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:1990s_Molly_well_nuts_D1420_with_threaded_brass_insert_by_Emhart_Teknik_AB_Oerebro_Sweden.jpg">1990s Molly well nuts D1420 with threaded brass insert by Emhart Teknik AB Oerebro Sweden</a> by R. Henrik Nilsson, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/blind-threaded-fixings-3dc832.webp" alt="A stainless steel rivet nut seen from the side and from the end, a short ribbed tube with a flange and a threaded hole." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Blindnietmutter.jpg">Blindnietmutter</a> by PeterScha, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A threaded insert that you push into a drilled hole from one side and then squeeze (rivet nut) or tighten a screw into (well nut), so its body swells into a collar behind the sheet or tube wall and gives you a strong thread where no nut could be held behind.
 

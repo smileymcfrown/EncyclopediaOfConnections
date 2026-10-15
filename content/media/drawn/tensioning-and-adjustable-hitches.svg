@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two tensioning knots: on the left a trucker's hitch over a load on a trailer, where the rope's free end runs round a hook and back through a loop that works like a pulley, giving 3F over the load and 2F on the hook for a pull F; on the right a taut-line hitch on a tent guy line, with an arrow showing the knot slid up the line to take up slack.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<path id="r1" d="M50,352 L66,204 L72,196 Q170,196 268,196 L276,204 L298,262"></path>
+<path id="r2" d="M296,268 L313,352 Q318,368 323,352 L304,292 L305,276 Q308,270 311,278 L345,325"></path>
+<path id="r3" d="M440,112 Q520,177 600,242"></path>
+<path id="r4" d="M602.5,238.9 L763.2,368.1 A5,5 0 0 1 756.8,375.9 L608.3,253.9"></path>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="50" x2="400" y2="395" stroke="#cccccc" stroke-width="2"/>
+<rect x="20" y="360" width="370" height="14" fill="url(#hatch)"/>
+<rect x="70" y="200" width="200" height="160" rx="4" fill="#e8e8e8"/>
+<circle cx="50" cy="354" r="7" fill="none" stroke="#555" stroke-width="4"/>
+<path d="M326,360 V364 A8,8 0 0 1 310,364 V358" fill="none" stroke="#555" stroke-width="5"/>
+<g fill="none"><use href="#r1" stroke="#222" stroke-width="9"/><use href="#r1" stroke="#fde2c4" stroke-width="4"/></g>
+<g fill="none"><use href="#r2" stroke="#222" stroke-width="9"/><use href="#r2" stroke="#fde2c4" stroke-width="4"/></g>
+<g><ellipse cx="300" cy="284" rx="7" ry="13" fill="none" stroke="#222" stroke-width="7"/><ellipse cx="300" cy="284" rx="7" ry="13" fill="none" stroke="#fde2c4" stroke-width="3"/><circle cx="298" cy="262" r="9" fill="#fde2c4"/></g>
+<g><rect x="334" y="325" width="22" height="26" rx="8" fill="#f5d0d0"/></g>
+<rect x="420" y="380" width="370" height="14" fill="url(#hatch)"/>
+<rect x="434" y="104" width="12" height="276" fill="#e8e8e8"/>
+<path d="M754,360 L766,360 L762,396 L758,396 Z" fill="#e8e8e8"/>
+<g fill="none"><use href="#r3" stroke="#222" stroke-width="9"/><use href="#r3" stroke="#fde2c4" stroke-width="4"/></g>
+<g fill="none"><use href="#r4" stroke="#222" stroke-width="9"/><use href="#r4" stroke="#fde2c4" stroke-width="4"/></g>
+<g><g transform="translate(600 242) rotate(39.1)"><rect x="-6" y="-10" width="34" height="20" rx="8" fill="#fde2c4"/><path d="M2,-10 L-2,10 M10,-10 L6,10 M18,-10 L14,10" fill="none" stroke-width="2.5"/></g></g>
+</g>
+<g fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)">
+<line x1="380" y1="288" x2="380" y2="340"/>
+<line x1="639.7" y1="240.7" x2="593.1" y2="202.9"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="30" font-size="21" font-weight="bold">Trucker's hitch</text>
+<text x="600" y="30" font-size="21" font-weight="bold">Taut-line hitch</text>
+<g font-weight="bold"><text x="170" y="140">3F</text><text x="380" y="278">F</text><text x="318" y="394">2F</text></g>
+<text x="170" y="290">load</text>
+<text x="200" y="416">the loop works like a pulley:</text><text x="200" y="438">3× the pull in theory, about 1.6× real</text>
+<text x="458" y="98" text-anchor="start">tent pole</text>
+<text x="660" y="196" text-anchor="start">slide the</text><text x="660" y="218" text-anchor="start">knot up</text>
+<text x="600" y="416">sliding the knot takes up the slack;</text><text x="600" y="438">a pull on the line makes it grip</text>
+</g>
+</svg>

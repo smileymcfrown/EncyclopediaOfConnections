@@ -1,0 +1,447 @@
+# R32 picture picks, batch a05
+tamper-evident-breakaway-bridge:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A plastic drink bottle with its cap unscrewed but still held to the ring left round the bottle neck.
+    - candidate: 2
+      kind: how-it-works
+      alt: A pill bottle whose tear-off seal strip has been pulled away from the cap, showing it has been opened.
+  needs_animation: false
+  needs_photo: false
+tamper-resistant-fasteners:
+  pictures:
+    - commons: "File:Screws - tamper resistant slotted.jpg"
+      kind: photo
+      alt: A one-way screw head whose slot has ramped sides, so a screwdriver can turn it in but slips out when turned the other way.
+    - candidate: 2
+      kind: photo
+      alt: A shear-off security screw whose star-shaped top is gripped to tighten it and then snaps off, leaving a head no tool can grip.
+    - candidate: 3
+      kind: photo
+      alt: A set of security screwdriver bits, including star and hex bits with a hole drilled in the tip to fit pinned screws.
+  needs_animation: false
+  needs_photo: false
+  note: candidate 2 is filed as a shear-off screw (Abreißschraube) with an external star top; check the alt against the full photo.
+tape-spring-hinge:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+taper-fit:
+  pictures:
+    - commons: "File:Morse Taper No 2.jpg"
+      kind: photo
+      alt: A Morse taper shank, a long shallow cone of steel with a flat tang on the end, next to a tape measure.
+    - candidate: 3
+      kind: how-it-works
+      alt: A lathe tailstock taken apart, showing a drill bit's taper shank, the hollow quill it wedges into and the screw that pushes it out.
+  needs_animation: false
+  needs_photo: false
+tapered-pipe-thread:
+  pictures:
+    - commons: "File:Teflon tape wound around threaded pipe.jpg"
+      kind: how-it-works
+      alt: White PTFE tape wound round the threads of a brass pipe end before it is screwed into a fitting.
+    - candidate: 3
+      kind: photo
+      alt: A threaded steel pipe end beside an elbow fitting with a matching thread inside.
+  needs_animation: false
+  needs_photo: false
+telescoping-tube-lever-lock:
+  pictures:
+    - commons: "File:Saddle quick release clamp.JPG"
+      kind: photo
+      alt: A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut.
+  needs_animation: true
+  needs_photo: false
+telescoping-tube-twist-lock:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: the only candidate animation is a machine-tool collet, a different mechanism.
+tendon-driven-joint:
+  pictures:
+    - commons: "File:E-NABLE Raptor Reloaded prosthetic hand and arm, designed by Ivan Owen et al, 2013-2015 - Design Museum, Kensington - London - DSC01581.jpg"
+      kind: photo
+      alt: A 3D-printed yellow and orange prosthetic hand whose fingers are bent by cords running along them to the wrist.
+  needs_animation: true
+  needs_photo: false
+tensegrity:
+  pictures:
+    - commons: "File:Tensegrity simple 3.gif"
+      kind: animation
+      alt: A turning model of the simplest tensegrity, three green struts that never touch, held in place by red cables.
+    - candidate: 2
+      kind: photo
+      alt: A home-made tensegrity ball of drinking straws held apart only by yellow string threaded through them.
+    - candidate: 3
+      kind: photo
+      alt: NASA's SUPERball robot, six metal struts linked only by cables, standing on rocky ground.
+  needs_animation: false
+  needs_photo: false
+tesla-valve:
+  pictures:
+    - commons: "File:Tesla valve principle.svg"
+      kind: diagram
+      alt: Diagram of a Tesla valve, a channel with looped side branches; flow one way runs straight through, flow the other way is turned back by the loops.
+    - candidate: 7
+      kind: how-it-works
+      alt: Dye in water flowing through a Tesla valve, staying in smooth lines one way and churning round the loops the other way.
+    - candidate: 6
+      kind: photo
+      alt: Microscope photo of a tiny Tesla valve channel etched into a chip, with a teardrop-shaped loop beside the main channel.
+  needs_animation: false
+  needs_photo: false
+thermal-actuators:
+  pictures:
+    - commons: "File:Bimetal.gif"
+      kind: animation
+      alt: Animation of a bimetal strip, two metals bonded together, bending to one side as it is heated.
+    - candidate: 3
+      kind: how-it-works
+      alt: A car engine thermostat with labels showing its wax capsule, the spring and the valve disc the wax pushes open.
+    - candidate: 4
+      kind: photo
+      alt: The bimetal strip taken out of a circuit breaker, with its contact and wire still attached.
+  needs_animation: false
+  needs_photo: false
+thread-locking-hardware:
+  pictures:
+    - commons: "File:Nylon Lock Nut.png"
+      kind: photo
+      alt: Two nylon-insert lock nuts, steel nuts with a ring of nylon inside one end that grips the bolt thread.
+    - candidate: 3
+      kind: photo
+      alt: A castle nut with slots across its top for a split pin to pass through the bolt.
+    - candidate: 4
+      kind: photo
+      alt: A pair of wedge-locking washers, with ramps on their faces and grip teeth on the outside.
+  needs_animation: false
+  needs_photo: false
+toggle-clamp:
+  pictures:
+    - commons: "File:Toggle-clamp manual horizontal 3D animated.gif"
+      kind: animation
+      alt: Animated model of a horizontal toggle clamp; pushing the red handle down swings the arm onto the work and locks it over centre.
+  needs_animation: false
+  needs_photo: true
+  note: the other candidates are CAD renders of the same clamps or unrelated photos.
+tolerance-ring:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+tongue-and-groove-joint:
+  pictures:
+    - commons: "File:Pióro i wpust (ubt).jpg"
+      kind: diagram
+      alt: End view of two boards, one with a tongue along its edge that fits a matching groove in the other.
+    - candidate: 3
+      kind: photo
+      alt: Two pine floorboards side by side, showing the tongue on one edge and the groove on the other.
+  needs_animation: true
+  needs_photo: false
+torque-limiting-gear-with-flexing-spring-arms:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+torsional-snap-fit:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+tripod-and-stand-screw-mount:
+  pictures:
+    - commons: "File:Screw Head - Tripod screw-01.jpg"
+      kind: photo
+      alt: A tripod screw with a flat folding finger tab on its head, for tightening a camera onto a tripod by hand.
+    - candidate: 2
+      kind: photo
+      alt: A bag of small threaded adapters for converting between the 1/4-inch and 3/8-inch tripod screw sizes.
+    - candidate: 4
+      kind: photo
+      alt: The underside of two radio flash triggers, each with a threaded tripod socket and a shoe for mounting.
+  needs_animation: false
+  needs_photo: false
+tuned-mass-damper:
+  pictures:
+    - commons: "File:Tuned mass damper.gif"
+      kind: animation
+      alt: Animation of a tall building swaying while a heavy ball hung inside it swings the opposite way, damped by green pistons.
+    - candidate: 4
+      kind: photo
+      alt: The huge golden steel ball of the Taipei 101 skyscraper's damper, hanging on cables with pistons below it.
+    - candidate: 3
+      kind: photo
+      alt: A Stockbridge damper for power lines, a clamp with a weight on a short cable on each side, next to a ruler.
+  needs_animation: false
+  needs_photo: false
+turnbuckle:
+  pictures:
+    - commons: "File:Turnbuckles.jpg"
+      kind: photo
+      alt: Two turnbuckles, each an open frame with a hook or eye screwed into each end.
+    - candidate: 2
+      kind: how-it-works
+      alt: A turnbuckle in use on a sailing ship, tightening a wire stay down to the deck.
+  needs_animation: true
+  needs_photo: false
+turntable-bearing:
+  pictures:
+    - commons: "File:Slewing bearing.jpg"
+      kind: photo
+      alt: A large slewing ring bearing, two flat steel rings with bolt holes and gear teeth round the outside.
+    - candidate: 11
+      kind: how-it-works
+      alt: The rim bearing under a swing bridge, a ring of rollers running on a circular track that lets the whole bridge turn.
+  needs_animation: true
+  needs_photo: false
+twist-on-wire-connector:
+  pictures:
+    - commons: "File:Array of twist-on wire connectors aka wire nuts in different sizes.jpg"
+      kind: photo
+      alt: Five twist-on wire connectors in different sizes and colours, from small grey to large red.
+    - candidate: 11
+      kind: cross-section
+      alt: Twist-on connectors with their coiled metal springs taken out, showing the tapered spring that grips the wires inside the cap.
+    - candidate: 2
+      kind: how-it-works
+      alt: Step by step, two wires stripped, twisted together, trimmed and capped with a twist-on connector.
+  needs_animation: false
+  needs_photo: false
+twisted-and-coiled-polymer-muscle:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+twisted-string-actuator:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidates are flat diagrams, an exosuit photo where no string drive is visible, and an unrelated camera.
+two-part-epoxy:
+  pictures:
+    - commons: "File:FiveMinEpoxy.jpg"
+      kind: photo
+      alt: A double syringe of five-minute epoxy, with resin in one barrel and hardener in the other, pushed out together.
+    - candidate: 7
+      kind: how-it-works
+      alt: Resin and hardener being stirred together in a plastic cup, the clear mix lifting on the stirring stick.
+    - candidate: 4
+      kind: photo
+      alt: Two sticks of epoxy putty, a brown resin and a black hardener, to be kneaded together in equal amounts.
+  needs_animation: false
+  needs_photo: false
+ultrasonic-weld:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: how-it-works
+      alt: An ultrasonic welding head rolling along a seam, joining thin foil sheets at a trade fair.
+    - candidate: 1
+      kind: photo
+      alt: A bench-top ultrasonic welding machine, with the vibrating horn above a fixture that holds the parts.
+  needs_animation: false
+  needs_photo: false
+universal-joint:
+  pictures:
+    - commons: "File:Universal joint.gif"
+      kind: animation
+      alt: Animated model of a universal joint; two red forks joined by a cross-shaped piece turn together although the shafts are at an angle.
+  needs_animation: false
+  needs_photo: true
+  note: the other candidates are CAD renders, animations of other joints or unrelated drawings.
+uv-curing-adhesive:
+  pictures:
+    - commons: "File:UV curing glue kit for Huawei-Screen.jpg"
+      kind: photo
+      alt: A phone-screen repair kit with a tube of UV-curing glue, a small UV lamp and the glass screen.
+    - candidate: 7
+      kind: photo
+      alt: A diver's watch whose small magnifying lens over the date is fixed to the crystal with clear UV-cured glue.
+  needs_animation: false
+  needs_photo: false
+vacuum-driven-artificial-muscle:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+vacuum-hold-down-table:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: photo
+      alt: A vacuum table, a flat plate on a stand with a pump and control box underneath.
+    - candidate: 2
+      kind: how-it-works
+      alt: Levers and a vacuum gauge on the side of a CNC machine table, used to switch the suction on and off for each zone of the bed.
+  needs_animation: false
+  needs_photo: false
+vacuum:
+  pictures:
+    - drawn
+    - candidate: 37
+      kind: how-it-works
+      alt: A vacuum lifter hanging from a crane holds a long building panel by suction while a worker guides it into place.
+    - candidate: 2
+      kind: photo
+      alt: A factory robot arm with a suction gripper stacking furniture panels onto a pallet.
+  needs_animation: false
+  needs_photo: false
+  note: the suction cups are small in both photos (judged from thumbnails); check them at full size.
+variable-radius-pulley:
+  pictures:
+    - commons: "File:Fusee.png"
+      kind: diagram
+      alt: Old engraving of a clock fusee, a cone-shaped pulley joined by a chain to the mainspring barrel, shown wound up and run down.
+    - candidate: 2
+      kind: how-it-works
+      alt: A row of photos of a compound bow's cam wheel turning as the string is drawn, changing the leverage at each step.
+  needs_animation: true
+  needs_photo: false
+virtual-pivot-linkage:
+  pictures:
+    - commons: "File:Scharnier 02.gif"
+      kind: animation
+      alt: Animation of a multi-link fridge-door hinge; the links swing so the door turns about a point out beyond its corner.
+  needs_animation: false
+  needs_photo: true
+walking-linkage:
+  pictures:
+    - commons: "File:Strandbeest-Walking-Animation.gif"
+      kind: animation
+      alt: Animation of one Strandbeest leg, a set of bars and pins turned by a crank so the foot traces a flat step and a lifted return.
+    - candidate: 14
+      kind: how-it-works
+      alt: A real eight-legged robot built from construction-kit bars walking across a floor on Strider linkage legs.
+    - candidate: 13
+      kind: photo
+      alt: The metal legs and gears of MechaLobster, an underwater walking robot that uses Klann linkage legs.
+  needs_animation: false
+  needs_photo: false
+  note: candidate 14 is a short real-world video clip (an animated GIF), used here as the how-it-works photo.
+wedge-dowel:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+weight-activated-gripping-tongs:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: how-it-works
+      alt: Road workers using a lewis hung from a wheeled lifting bar to carry a stone kerb block into place.
+  needs_animation: false
+  needs_photo: false
+welded-metal-joint:
+  pictures:
+    - drawn
+    - candidate: 2
+      kind: how-it-works
+      alt: Close-up through a welding filter of the glowing pool of melted metal under a stick-welding arc.
+    - candidate: 6
+      kind: photo
+      alt: A welder in a helmet and gloves joining two pieces of steel with a welding torch, sparks flying.
+  needs_animation: false
+  needs_photo: false
+whippletree:
+  pictures:
+    - commons: "File:Triple whippletree set.svg"
+      kind: diagram
+      alt: Diagram of a whippletree set for three draught animals, bars hung from pivots so each animal's pull is shared to one load.
+    - candidate: 4
+      kind: how-it-works
+      alt: Two carriage horses pulling on swinging leader bars that pivot in the middle to share their pull.
+    - candidate: 10
+      kind: photo
+      alt: An old wooden whippletree set hanging on a wall, a long bar with a shorter bar hooked to each end.
+  needs_animation: true
+  needs_photo: false
+wire-rope-terminations:
+  pictures:
+    - commons: "File:Wire rope with thimble and ferrule.jpg"
+      kind: photo
+      alt: A steel wire rope bent round a metal thimble into a loop, with the tail held by a pressed metal ferrule.
+    - candidate: 2
+      kind: how-it-works
+      alt: A row of U-bolt wire rope clips clamping the doubled-back tail of a thick rope on a logging machine.
+    - candidate: 15
+      kind: photo
+      alt: A wire rope loop held by a copper sleeve that has been crushed onto both strands with a crimping tool.
+  needs_animation: false
+  needs_photo: false
+wire-to-board-plug-connectors:
+  pictures:
+    - commons: "File:Balancer Buchse XH.JPG"
+      kind: photo
+      alt: Three white XH sockets for 4, 5 and 6-cell battery balance leads, each a row of pins inside a plastic shroud.
+    - candidate: 10
+      kind: photo
+      alt: A small LED board with a ribbon cable ending in a white plastic plug ready to push onto a pin header.
+    - candidate: 2
+      kind: photo
+      alt: A shrouded two-row pin header with a notch in its wall so the matching plug can only go in one way.
+  needs_animation: false
+  needs_photo: false
+wood-screw:
+  pictures:
+    - commons: "File:Wood screw with legend.svg"
+      kind: diagram
+      alt: Drawing of a wood screw with its head, plain shank, coarse thread and sharp point labelled.
+    - candidate: 2
+      kind: how-it-works
+      alt: A black hex-head lag screw part-driven into a block of wood, its coarse thread cutting its own way in.
+    - candidate: 6
+      kind: photo
+      alt: A black wood screw with a flat Phillips head and coarse, widely spaced thread lying on a wooden board.
+  needs_animation: false
+  needs_photo: false
+worm-drive:
+  pictures:
+    - commons: "File:Worm Gear.gif"
+      kind: animation
+      alt: Animation of a screw-shaped worm turning a large toothed wheel set at right angles to it.
+    - candidate: 6
+      kind: cross-section
+      alt: A worm gearbox cut open to show the worm shaft meshing with the worm wheel inside the casing.
+    - candidate: 3
+      kind: photo
+      alt: A wooden teaching model of a worm drive, a hand crank turning a wooden worm that drives a toothed wheel.
+  needs_animation: false
+  needs_photo: false
+woven-self-tightening-grip:
+  pictures:
+    - commons: "File:Finger trap toys.jpg"
+      kind: photo
+      alt: Several woven paper finger-trap toys, tubes of crossing spiral strips in different colours.
+    - candidate: 2
+      kind: how-it-works
+      alt: A woven wire cable sock gripping the end of a cable so it can be pulled through a duct.
+  needs_animation: false
+  needs_photo: false
+wrap-spring-clutch:
+  pictures:
+    - commons: "File:Pružinovávolnoběžka.jpg"
+      kind: diagram
+      alt: Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and slips.
+  needs_animation: true
+  needs_photo: true
+  note: the only photo candidate is a guitar capo whose wrap spring is hidden inside.
+zipper:
+  pictures:
+    - commons: "File:Zipper animated.gif"
+      kind: animation
+      alt: Animation of a zipper slider moving down, its Y-shaped channel pushing the two rows of teeth together one by one.
+    - candidate: 16
+      kind: how-it-works
+      alt: A brass zipper slider seen from the side, with arrows marking the two channels the rows of teeth enter.
+    - candidate: 3
+      kind: photo
+      alt: Three zippers side by side, one with metal teeth, one with plastic teeth and one with a nylon coil.
+  needs_animation: false
+  needs_photo: false

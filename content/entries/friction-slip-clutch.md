@@ -138,17 +138,51 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Friction_slip_clutch_slip_coupling_slipper_clutch.json
 image:
-  file: drawn/friction-slip-clutch.svg
-  alt: 'Cut-away side view of a friction slip clutch: a gear sits loose on a shaft, squeezed between two friction pads by
-    a spring and nut; normally gear and shaft turn together, but when the gear jams the pads slip and the shaft keeps turning.'
+  file: drawn/anim/friction-slip-clutch.svg
+  alt: 'Cut-away side view of a friction slip clutch, shown moving: a gear sits loose on a shaft, squeezed between two friction
+    pads by a spring and nut; normally gear and shaft turn together, but when the gear jams the pads slip and warm up while
+    the shaft keeps turning.'
   drawn: true
+  still: drawn/friction-slip-clutch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/friction-slip-clutch.svg
+  alt: 'Cut-away side view of a friction slip clutch, shown moving: a gear sits loose on a shaft, squeezed between two friction
+    pads by a spring and nut; normally gear and shaft turn together, but when the gear jams the pads slip and warm up while
+    the shaft keeps turning.'
+  drawn: true
+  still: drawn/friction-slip-clutch.svg
+  kind: animation
+- file: friction-slip-clutch.webp
+  title: File:Slipping Clutch parts.jpg
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Slipping_Clutch_parts.jpg
+  site: Wikimedia Commons
+  alt: A small slip clutch from a chart recorder taken apart, a plastic gear with its spring, friction washers, hub and circlip
+    laid out beside it.
+  kind: how-it-works
+  drawn: false
+- file: friction-slip-clutch-8099e4.webp
+  title: File:Slipping Clutch assembled.jpg
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Slipping_Clutch_assembled.jpg
+  site: Wikimedia Commons
+  alt: The same slip clutch put back together, the spring squeezing the washers against the gear and held on by a circlip.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, self-locking, torque, gear-ratio, hysteresis, tolerance, form-fit--force-fit--material-bond,
   set-screw, spline, circlip, repeatability--accuracy, creep, stress-relaxation, peel-vs-shear, o-ring]
 ---
 
-![Cut-away side view of a friction slip clutch: a gear sits loose on a shaft, squeezed between two friction pads by a spring and nut; normally gear and shaft turn together, but when the gear jams the pa](../media/drawn/friction-slip-clutch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/friction-slip-clutch.svg"><img src="../media/drawn/anim/friction-slip-clutch.svg" alt="Cut-away side view of a friction slip clutch, shown moving: a gear sits loose on a shaft, squeezed between two friction pads by a spring and nut; normally gear and shaft turn together, but when the gear jams the pads slip and warm up while the shaft keeps turning."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/friction-slip-clutch.webp" alt="A small slip clutch from a chart recorder taken apart, a plastic gear with its spring, friction washers, hub and circlip laid out beside it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Slipping_Clutch_parts.jpg">Slipping Clutch parts</a> by tony_duell, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/friction-slip-clutch-8099e4.webp" alt="The same slip clutch put back together, the spring squeezing the washers against the gear and held on by a circlip." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Slipping_Clutch_assembled.jpg">Slipping Clutch assembled</a> by tony_duell, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 Two or more friction surfaces held together by an adjustable spring pass turning force like a solid joint until a set [torque](../glossary.md#torque), then slide smoothly and keep sliding for as long as the overload lasts, resetting by themselves afterwards.
 

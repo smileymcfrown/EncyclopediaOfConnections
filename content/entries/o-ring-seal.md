@@ -132,21 +132,56 @@ sources:
 research: research/connection-types/results/Oring_seal.json
 image:
   file: o-ring-seal.webp
-  width: 708
-  height: 901
   title: File:O-ring static seal usage example.png
   author: Yapparina
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png
-  alt: Cross-section drawing of a static O-ring seal between two parts, with the ring (black circles) sitting in its groove
+  alt: A cut-through drawing of a cap bolted onto a fluid-filled body, with black O-rings squashed in grooves where the parts
+    meet.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: o-ring-seal.webp
+  title: File:O-ring static seal usage example.png
+  author: Yapparina
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png
+  alt: A cut-through drawing of a cap bolted onto a fluid-filled body, with black O-rings squashed in grooves where the parts
+    meet.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: o-ring-seal-53e538.webp
+  title: File:CRYO HIGH PRESSURE SEAL CONFIGURATION AND O RING BLISTERS - NARA - 17448503.jpg
+  author: Unknown authorUnknown author or not provided
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:CRYO_HIGH_PRESSURE_SEAL_CONFIGURATION_AND_O_RING_BLISTERS_-_NARA_-_17448503.jpg
+  site: Wikimedia Commons
+  alt: A steel shaft with several O-rings sitting in grooves around it, beside a small centimetre scale.
+  kind: photo
+  drawn: false
+- file: o-ring-seal-13c23f.webp
+  title: File:O-Rings Assorted.jpg
+  author: unknown
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:O-Rings_Assorted.jpg
+  site: Wikimedia Commons
+  alt: A bag of assorted black rubber O-rings of different sizes.
+  kind: photo
   drawn: false
 glossary: [axial--radial, tolerance, chamfer--fillet, creep, lubrication, perimeters, infill, o-ring, gland]
 ---
 
-![Cross-section drawing of a static O-ring seal between two parts, with the ring (black circles) sitting in its groove](../media/o-ring-seal.webp)
-
-*Picture: [O-ring static seal usage example.png](https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png) by Yapparina, [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/o-ring-seal.webp" alt="A cut-through drawing of a cap bolted onto a fluid-filled body, with black O-rings squashed in grooves where the parts meet."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:O-ring_static_seal_usage_example.png">O-ring static seal usage example</a> by Yapparina, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/o-ring-seal-53e538.webp" alt="A steel shaft with several O-rings sitting in grooves around it, beside a small centimetre scale." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CRYO_HIGH_PRESSURE_SEAL_CONFIGURATION_AND_O_RING_BLISTERS_-_NARA_-_17448503.jpg">CRYO HIGH PRESSURE SEAL CONFIGURATION AND O RING BLISTERS - NARA - 17448503</a> by Unknown authorUnknown author or not provided, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/o-ring-seal-13c23f.webp" alt="A bag of assorted black rubber O-rings of different sizes." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:O-Rings_Assorted.jpg">O-Rings Assorted</a> by unknown, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A ring of rubber with a round cross-section that sits in a groove and is squashed a set amount when two parts are closed, blocking the gap so liquids and gases can't leak through.
 

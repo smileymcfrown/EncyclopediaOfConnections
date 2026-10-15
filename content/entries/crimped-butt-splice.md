@@ -137,21 +137,54 @@ sources:
 research: research/connection-types/results/Crimped_butt_splice_crimp_splice_connector.json
 image:
   file: crimped-butt-splice.webp
-  width: 800
-  height: 600
   title: File:ESC and Motor Wires and Butt Connectors.JPG
   author: Shatton8111
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG
-  alt: Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors
+  alt: Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: crimped-butt-splice.webp
+  title: File:ESC and Motor Wires and Butt Connectors.JPG
+  author: Shatton8111
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG
+  alt: Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: crimped-butt-splice-7b4629.webp
+  title: File:First Butt Splice Completed.jpg
+  author: Rhorton4549
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:First_Butt_Splice_Completed.jpg
+  site: Wikimedia Commons
+  alt: A finished butt splice, two wires crimped into each end of an insulated connector tube, lying on squared notepaper.
+  kind: how-it-works
+  drawn: false
+- file: crimped-butt-splice-a56921.webp
+  title: File:Crimper Thunderbird 9 ESC Butt Connectors Motor and Wire Strippers.JPG
+  author: Shatton8111
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Crimper_Thunderbird_9_ESC_Butt_Connectors_Motor_and_Wire_Strippers.JPG
+  site: Wikimedia Commons
+  alt: A ratcheting crimp tool and wire strippers laid out with blue butt splice connectors, a motor and its controller.
+  kind: photo
   drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, gland]
 ---
 
-![Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors](../media/crimped-butt-splice.webp)
-
-*Picture: [ESC and Motor Wires and Butt Connectors.JPG](https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG) by Shatton8111, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/crimped-butt-splice.webp" alt="Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG">ESC and Motor Wires and Butt Connectors</a> by Shatton8111, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/crimped-butt-splice-7b4629.webp" alt="A finished butt splice, two wires crimped into each end of an insulated connector tube, lying on squared notepaper." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:First_Butt_Splice_Completed.jpg">First Butt Splice Completed</a> by Rhorton4549, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/crimped-butt-splice-a56921.webp" alt="A ratcheting crimp tool and wire strippers laid out with blue butt splice connectors, a motor and its controller." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Crimper_Thunderbird_9_ESC_Butt_Connectors_Motor_and_Wire_Strippers.JPG">Crimper Thunderbird 9 ESC Butt Connectors Motor and Wire Strippers</a> by Shatton8111, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A crimped butt splice joins two wires end to end: each stripped end goes into one half of a short metal tube, a ratcheting crimp tool squeezes the tube so hard that metal and strands cold-weld into a gas-tight joint, and the plastic or glue-lined heat-shrink sleeve outside insulates it (and, for the glue-lined kind, seals it against water).
 

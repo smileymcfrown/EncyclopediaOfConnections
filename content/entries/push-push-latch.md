@@ -139,17 +139,28 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pushpush_latch_pushtoopen_heartcam_latch.json
 image:
-  file: drawn/push-push-latch.svg
+  file: drawn/anim/push-push-latch.svg
   alt: 'A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest,
-    pushed in, caught in the notch, and released.'
+    pushed in, caught in the notch, and released. Animated: the pin runs round the loop one way, and in the side section the
+    stepped groove floor slides under the sprung pin, which rides up each ramp and drops off each step.'
   drawn: true
+  still: drawn/push-push-latch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/push-push-latch.svg
+  alt: 'A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest,
+    pushed in, caught in the notch, and released. Animated: the pin runs round the loop one way, and in the side section the
+    stepped groove floor slides under the sprung pin, which rides up each ramp and drops off each step.'
+  drawn: true
+  still: drawn/push-push-latch.svg
+  kind: animation
 glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
   overhang--bridging]
 ---
 
-![A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released.](../media/drawn/push-push-latch.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/push-push-latch.svg"><img src="../media/drawn/anim/push-push-latch.svg" alt="A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released. Animated: the pin runs round the loop one way, and in the side section the stepped groove floor slides under the sprung pin, which rides"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
 

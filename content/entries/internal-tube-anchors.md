@@ -136,13 +136,31 @@ image:
     pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, and an expanding plug where tightening
     a bolt squeezes a rubber sleeve so it swells against the wall.'
   drawn: true
+pictures:
+- file: drawn/internal-tube-anchors.svg
+  alt: 'Three cut-away tube ends: a star nut whose springy barbs bend back and bite the inside wall so it goes in but won''t
+    pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, and an expanding plug where tightening
+    a bolt squeezes a rubber sleeve so it swells against the wall.'
+  drawn: true
+- file: internal-tube-anchors.webp
+  title: File:Quill stems.JPG
+  author: AndrewDressel (talk)
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
+  site: Wikimedia Commons
+  alt: Two old bicycle quill stems; the left one shows the angled wedge at the bottom that a bolt pulls up to jam the stem
+    inside the fork tube.
+  kind: photo
+  drawn: false
 glossary: [self-locking, tolerance, form-fit--force-fit--material-bond, taper, collet, heat-set-insert, brittle--ductile,
   layer-lines, infill]
 ---
 
-![Three cut-away tube ends: a star nut whose springy barbs bend back and bite the inside wall so it goes in but won't pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, an](../media/drawn/internal-tube-anchors.svg)
-
-*Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/internal-tube-anchors.svg" alt="Three cut-away tube ends: a star nut whose springy barbs bend back and bite the inside wall so it goes in but won&#x27;t pull out, a ribbed plastic insert whose ribs press out on the walls around a nut, and an expanding plug where tightening a bolt squeezes a rubber sleeve so it swells against the wall."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/internal-tube-anchors.webp" alt="Two old bicycle quill stems; the left one shows the angled wedge at the bottom that a bolt pulls up to jam the stem inside the fork tube." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Quill_stems.JPG">Quill stems</a> by AndrewDressel (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A part pushed or tapped into the open end of a tube that locks against the inside wall, by barbs biting in, ribs pressing out, or a sleeve swollen by a bolt, wedge or cone, so the tube gets a thread, a foot, a caster or a pull point without welding or drilling.
 

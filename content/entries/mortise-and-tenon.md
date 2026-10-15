@@ -122,22 +122,55 @@ sources:
 research: research/connection-types/results/Mortise_and_tenon_incl_wedged_drawbored_and_tusk_tenons.json
 image:
   file: mortise-and-tenon.webp
-  width: 800
-  height: 477
   title: File:Mortise and tenon joint.svg
   author: GreyCat
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg
-  alt: Exploded diagram of a basic mortise and tenon joint
+  alt: A drawing of a rectangular tenon on the end of one block lined up with the matching hole cut in another block.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: mortise-and-tenon.webp
+  title: File:Mortise and tenon joint.svg
+  author: GreyCat
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg
+  alt: A drawing of a rectangular tenon on the end of one block lined up with the matching hole cut in another block.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: mortise-and-tenon-81de3b.webp
+  title: File:Karadong mortise and tenon BLP506 PHOTO1235 2 425.jpg
+  author: Rachel Roberts
+  license: CC BY-SA 1.0
+  license_url: https://creativecommons.org/licenses/by-sa/1.0
+  source: https://commons.wikimedia.org/wiki/File:Karadong_mortise_and_tenon_BLP506_PHOTO1235_2_425.jpg
+  site: Wikimedia Commons
+  alt: An ancient wooden beam with a post's tenon pushed right through a square mortise in it.
+  kind: photo
+  drawn: false
+- file: mortise-and-tenon-828f0a.webp
+  title: File:Niya mortise and tenon BLP500 PHOTO1235 2 184.jpg
+  author: Rachel Roberts
+  license: CC BY-SA 1.0
+  license_url: https://creativecommons.org/licenses/by-sa/1.0
+  source: https://commons.wikimedia.org/wiki/File:Niya_mortise_and_tenon_BLP500_PHOTO1235_2_184.jpg
+  site: Wikimedia Commons
+  alt: A weathered wooden post in the desert with its tenon passing through a mortise in the beam it holds up.
+  kind: photo
   drawn: false
 glossary: [self-locking, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, chamfer--fillet, brittle--ductile,
   stress-concentration, layer-lines, perimeters, infill, warping--shrinkage, kerf, peel-vs-shear]
 ---
 
-![Exploded diagram of a basic mortise and tenon joint](../media/mortise-and-tenon.webp)
-
-*Picture: [Mortise and tenon joint.svg](https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg) by GreyCat, [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/mortise-and-tenon.webp" alt="A drawing of a rectangular tenon on the end of one block lined up with the matching hole cut in another block."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mortise_and_tenon_joint.svg">Mortise and tenon joint</a> by GreyCat, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/mortise-and-tenon-81de3b.webp" alt="An ancient wooden beam with a post&#x27;s tenon pushed right through a square mortise in it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Karadong_mortise_and_tenon_BLP506_PHOTO1235_2_425.jpg">Karadong mortise and tenon BLP506 PHOTO1235 2 425</a> by Rachel Roberts, <a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/mortise-and-tenon-828f0a.webp" alt="A weathered wooden post in the desert with its tenon passing through a mortise in the beam it holds up." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Niya_mortise_and_tenon_BLP500_PHOTO1235_2_184.jpg">Niya mortise and tenon BLP500 PHOTO1235 2 184</a> by Rachel Roberts, <a href="https://creativecommons.org/licenses/by-sa/1.0">CC BY-SA 1.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A tongue (tenon) cut on the end of one part is pushed into a matching hole (mortise) in the other part and locked in place, giving a strong, square joint for frames, chairs, tables and timber buildings.
 

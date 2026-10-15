@@ -154,21 +154,55 @@ sources:
 research: research/connection-types/results/Pogo_pin_springloaded_contact_pin.json
 image:
   file: pogo-pin.webp
-  width: 800
-  height: 1143
   title: File:Federkontaktstift.svg
   author: Biezl
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Federkontaktstift.svg
-  alt: Cut-away drawing of a pogo pin showing plunger, barrel and spring; used on Wikipedia's 'Pogo pin' article
+  alt: A cut-through drawing of a pogo pin, a plunger in a tube pushed outwards by a coil spring.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: pogo-pin.webp
+  title: File:Federkontaktstift.svg
+  author: Biezl
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Federkontaktstift.svg
+  alt: A cut-through drawing of a pogo pin, a plunger in a tube pushed outwards by a coil spring.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: pogo-pin-4bac4d.webp
+  title: File:Pogo Types.png
+  author: C.C.P. Contact Probes Co. Ltd.
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Pogo_Types.png
+  site: Wikimedia Commons
+  alt: Three pogo pins cut in half, showing the coil spring inside each barrel under the plunger, one with a small ball between
+    them.
+  kind: cross-section
+  drawn: false
+- file: pogo-pin-106e14.webp
+  title: File:Pogo Pin Connectors.jpg
+  author: Jole222
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Pogo_Pin_Connectors.jpg
+  site: Wikimedia Commons
+  alt: Many gold-plated pogo pins and pogo pin connector strips scattered on a white surface.
+  kind: photo
   drawn: false
 glossary: [misalignment, stroke, detent, pitch, deflection, tolerance, o-ring]
 ---
 
-![Cut-away drawing of a pogo pin showing plunger, barrel and spring; used on Wikipedia's 'Pogo pin' article](../media/pogo-pin.webp)
-
-*Picture: [Federkontaktstift.svg](https://commons.wikimedia.org/wiki/File:Federkontaktstift.svg) by Biezl, [CC BY 3.0](https://creativecommons.org/licenses/by/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/pogo-pin.webp" alt="A cut-through drawing of a pogo pin, a plunger in a tube pushed outwards by a coil spring."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federkontaktstift.svg">Federkontaktstift</a> by Biezl, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pogo-pin-4bac4d.webp" alt="Three pogo pins cut in half, showing the coil spring inside each barrel under the plunger, one with a small ball between them." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pogo_Types.png">Pogo Types</a> by C.C.P. Contact Probes Co. Ltd., <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pogo-pin-106e14.webp" alt="Many gold-plated pogo pins and pogo pin connector strips scattered on a white surface." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pogo_Pin_Connectors.jpg">Pogo Pin Connectors</a> by Jole222, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A spring-loaded plunger in a small tube that is pressed onto a flat metal pad to carry electricity between two parts that just touch, so devices can be docked, charged, tested or programmed without a plug.
 

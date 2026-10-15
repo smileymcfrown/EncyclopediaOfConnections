@@ -136,23 +136,53 @@ sources:
 - https://en.wikipedia.org/wiki/C-stand
 research: research/connection-types/results/Hirth_joint_facespline_coupling.json
 image:
-  file: hirth-joint.webp
-  width: 800
-  height: 600
+  file: drawn/anim/hirth-joint.svg
+  alt: 'Animated: a Hirth joint: two parts with rings of V-shaped teeth on their faces, clamped together by a centre screw,
+    shown from the side and from above; to change the angle you loosen the screw, lift the upper part clear of the teeth,
+    turn it by one tooth (15 degrees with 24 teeth) and tighten again; the animation loosens, lifts, turns one tooth, lowers
+    and tightens, then turns back the same way.'
+  drawn: true
+  still: drawn/hirth-joint.svg
+  kind: animation
+pictures:
+- file: drawn/anim/hirth-joint.svg
+  alt: 'Animated: a Hirth joint: two parts with rings of V-shaped teeth on their faces, clamped together by a centre screw,
+    shown from the side and from above; to change the angle you loosen the screw, lift the upper part clear of the teeth,
+    turn it by one tooth (15 degrees with 24 teeth) and tighten again; the animation loosens, lifts, turns one tooth, lowers
+    and tightens, then turns back the same way.'
+  drawn: true
+  still: drawn/hirth-joint.svg
+  kind: animation
+- file: hirth-joint.webp
   title: File:Hirth joint.jpg
   author: AndrewDressel (talk)
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg
-  alt: Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))
+  alt: A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth
+    on the other crank.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: hirth-joint-37109d.webp
+  title: Customizable Hirth Joint (CSG version) (library)
+  author: Lukas S.
+  license: CC0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.thingiverse.com/thing:397553
+  site: Thingiverse via Openverse
+  alt: A rendered 3D-printable Hirth joint half in blue plastic, with V-shaped teeth on its end face and a hole for a pin.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, torque, crank, actuator, deflection, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert, captive-nut, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep, fatigue, galling--fretting]
 ---
 
-![Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))](../media/hirth-joint.webp)
-
-*Picture: [Hirth joint.jpg](https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg) by AndrewDressel (talk), [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/hirth-joint.svg"><img src="../media/drawn/anim/hirth-joint.svg" alt="Animated: a Hirth joint: two parts with rings of V-shaped teeth on their faces, clamped together by a centre screw, shown from the side and from above; to change the angle you loosen the screw, lift the upper part clear of the teeth, turn it by one tooth (15 degrees with 24 teeth) and tighten again;"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hirth-joint.webp" alt="A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth on the other crank." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg">Hirth joint</a> by AndrewDressel (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hirth-joint-37109d.webp" alt="A rendered 3D-printable Hirth joint half in blue plastic, with V-shaped teeth on its end face and a hole for a pin." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.thingiverse.com/thing:397553">Customizable Hirth Joint (CSG version) (library)</a> by Lukas S., <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>, from Thingiverse via Openverse.</figcaption></figure>
+</div>
 
 Two parts with matching rings of V-shaped teeth on their end faces are clamped together by a central screw, so they lock at any of a fixed set of angles with no play, and can be loosened, turned by a tooth or more, and locked again.
 

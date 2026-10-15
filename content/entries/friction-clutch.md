@@ -127,24 +127,52 @@ sources:
 - https://api.sketchfab.com/v3/models/08a6044f319440abbc99dc61e6fa2801
 research: research/connection-types/results/Friction_clutch_plate_or_cone_clutch.json
 image:
-  file: friction-clutch.webp
-  width: 800
-  height: 566
+  file: drawn/anim/friction-clutch.svg
+  alt: 'Cut-away of a single-plate friction clutch, shown working: with the pedal up the springs clamp the friction disc between
+    flywheel and pressure plate and both shafts turn together; pressing the pedal pushes the release bearing, the levers pull
+    the plate back and the gearbox shaft coasts to a stop; letting go, the disc slips and warms, then grips and turns again.'
+  drawn: true
+  still: drawn/friction-clutch.svg
+  kind: animation
+pictures:
+- file: drawn/anim/friction-clutch.svg
+  alt: 'Cut-away of a single-plate friction clutch, shown working: with the pedal up the springs clamp the friction disc between
+    flywheel and pressure plate and both shafts turn together; pressing the pedal pushes the release bearing, the levers pull
+    the plate back and the gearbox shaft coasts to a stop; letting go, the disc slips and warms, then grips and turns again.'
+  drawn: true
+  still: drawn/friction-clutch.svg
+  kind: animation
+- file: friction-clutch.webp
   title: File:Cone clutch.svg
   author: Sweber.de
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Cone_clutch.svg
-  alt: 'Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material,
-    the return spring and the release control'
+  alt: A drawing of a cone clutch, where a spring pushes a cone-shaped part into a matching cup so friction makes them turn
+    together, and a lever pulls it out.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: friction-clutch-f3e6de.webp
+  title: File:Basket clutch.png
+  author: Genetics4good
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Basket_clutch.png
+  site: Wikimedia Commons
+  alt: A 3D render of a motorcycle basket clutch, whole and pulled apart to show the stack of friction plates between the
+    basket and the hub.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, back-driving, axial--radial, sprag, torque, idler, linkage, hysteresis, tolerance, form-fit--force-fit--material-bond,
   spline, circlip, creep]
 ---
 
-![Labelled schematic of a cone clutch: male and female cones, the male cone sliding on splines, the friction material, the return spring and the release control](../media/friction-clutch.webp)
-
-*Picture: [Cone clutch.svg](https://commons.wikimedia.org/wiki/File:Cone_clutch.svg) by Sweber.de, [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/friction-clutch.svg"><img src="../media/drawn/anim/friction-clutch.svg" alt="Cut-away of a single-plate friction clutch, shown working: with the pedal up the springs clamp the friction disc between flywheel and pressure plate and both shafts turn together; pressing the pedal pushes the release bearing, the levers pull the plate back and the gearbox shaft coasts to a stop; le"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/friction-clutch.webp" alt="A drawing of a cone clutch, where a spring pushes a cone-shaped part into a matching cup so friction makes them turn together, and a lever pulls it out." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cone_clutch.svg">Cone clutch</a> by Sweber.de, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/friction-clutch-f3e6de.webp" alt="A 3D render of a motorcycle basket clutch, whole and pulled apart to show the stack of friction plates between the basket and the hub." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Basket_clutch.png">Basket clutch</a> by Genetics4good, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A clutch that connects a driving shaft to a driven shaft by pressing friction surfaces together and disconnects it by pulling them apart, and that can slip in between so the drive takes up gently.
 

@@ -152,22 +152,44 @@ sources:
 research: research/connection-types/results/Finger_joint_box_joint.json
 image:
   file: finger-joint.webp
-  width: 800
-  height: 601
   title: File:Finger joint 20180321.jpg
   author: Santeri Viinamäki
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Finger_joint_20180321.jpg
-  alt: Close-up photo of a pine box corner with a long row of square fingers, showing the alternating end grain and side grain
+  alt: The corner of a pale wooden box where square fingers cut on the two boards mesh together.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+pictures:
+- file: finger-joint.webp
+  title: File:Finger joint 20180321.jpg
+  author: Santeri Viinamäki
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Finger_joint_20180321.jpg
+  alt: The corner of a pale wooden box where square fingers cut on the two boards mesh together.
+  site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: finger-joint-b8d535.webp
+  title: File:Living hinge (wood).jpg
+  author: Autopilot
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg
+  site: Wikimedia Commons
+  alt: A laser-cut plywood box with finger-jointed corners and a curved wall bent round on a cut-pattern living hinge.
+  kind: photo
   drawn: false
 glossary: [misalignment, living-hinge, clearance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, repeatability--accuracy,
   creep, brittle--ductile, stress-concentration, layer-lines, elephants-foot, overhang--bridging, kerf, end-grain]
 ---
 
-![Close-up photo of a pine box corner with a long row of square fingers, showing the alternating end grain and side grain](../media/finger-joint.webp)
-
-*Picture: [Finger joint 20180321.jpg](https://commons.wikimedia.org/wiki/File:Finger_joint_20180321.jpg) by Santeri Viinamäki, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/finger-joint.webp" alt="The corner of a pale wooden box where square fingers cut on the two boards mesh together."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Finger_joint_20180321.jpg">Finger joint 20180321</a> by Santeri Viinamäki, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/finger-joint-b8d535.webp" alt="A laser-cut plywood box with finger-jointed corners and a curved wall bent round on a cut-pattern living hinge." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg">Living hinge (wood)</a> by Autopilot, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A corner joint where the edges of two boards or sheets are cut into alternating square fingers and gaps that mesh together, usually glued, giving a strong, square corner with lots of gluing surface that is easy to make on a table saw, router, laser cutter or CNC router.
 

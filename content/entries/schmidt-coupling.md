@@ -113,24 +113,59 @@ sources:
 research: research/connection-types/results/Schmidt_coupling_offset_coupling.json
 image:
   file: schmidt-coupling.webp
-  width: 400
-  height: 283
   title: File:SchmidtCouplingGif.gif
   author: Saturnautics
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
-  alt: Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in
-    the Wikipedia article)
-  animated: true
+  alt: An animation of a Schmidt coupling, three discs joined by sets of parallel links, passing turning between two shafts
+    that are out of line.
+  site: Wikimedia Commons
+  still: schmidt-coupling.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: schmidt-coupling.webp
+  title: File:SchmidtCouplingGif.gif
+  author: Saturnautics
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif
+  alt: An animation of a Schmidt coupling, three discs joined by sets of parallel links, passing turning between two shafts
+    that are out of line.
+  site: Wikimedia Commons
+  still: schmidt-coupling.still.webp
+  kind: animation
+  drawn: false
+- file: schmidt-coupling-6e88d1.webp
+  title: Meccanograph Schmidt coupling 2
+  author: Elsie esq.
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/61132483@N00/8201590232
+  site: Flickr via Openverse
+  alt: A Schmidt coupling built from Meccano, with a blue disc linked to the next disc by metal strips.
+  kind: photo
+  drawn: false
+- file: schmidt-coupling-e71789.webp
+  title: Meccanograph Schmidt coupling
+  author: Elsie esq.
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/61132483@N00/8201589874
+  site: Flickr via Openverse
+  alt: A side view of the same Meccano Schmidt coupling, showing the parallel links between its discs.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, crank, linkage, clearance, form-fit--force-fit--material-bond, infill,
   print-in-place]
 ---
 
-![Animated CAD model of a Schmidt coupling, made in Onshape, showing the discs and links turning while offset (used in the Wikipedia article)](../media/schmidt-coupling.webp)
-
-*Picture: [SchmidtCouplingGif.gif](https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif) by Saturnautics, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/schmidt-coupling.still.webp"><img src="../media/schmidt-coupling.webp" alt="An animation of a Schmidt coupling, three discs joined by sets of parallel links, passing turning between two shafts that are out of line."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:SchmidtCouplingGif.gif">SchmidtCouplingGif</a> by Saturnautics, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/schmidt-coupling-6e88d1.webp" alt="A Schmidt coupling built from Meccano, with a blue disc linked to the next disc by metal strips." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/61132483@N00/8201590232">Meccanograph Schmidt coupling 2</a> by Elsie esq., <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/schmidt-coupling-e71789.webp" alt="A side view of the same Meccano Schmidt coupling, showing the parallel links between its discs." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/61132483@N00/8201589874">Meccanograph Schmidt coupling</a> by Elsie esq., <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+</div>
 
 A coupling made of three discs linked in series by sets of equal parallel bars, which passes rotation at exactly constant speed between two parallel shafts that are far out of line, even while that offset changes.
 

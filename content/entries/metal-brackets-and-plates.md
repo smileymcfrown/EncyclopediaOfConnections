@@ -143,22 +143,55 @@ sources:
 research: research/connection-types/results/Metal_brackets_and_plates_angle_bracket_mending_plate_joist_hanger.json
 image:
   file: metal-brackets-and-plates.webp
-  width: 800
-  height: 508
   title: File:Flat and bent angle brackets.png
   author: Sauer202
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png
-  alt: Drawing of a flat angle bracket on the side of a butt joint and a bent (L) angle bracket on the inside corner
+  alt: A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+pictures:
+- file: metal-brackets-and-plates.webp
+  title: File:Flat and bent angle brackets.png
+  author: Sauer202
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png
+  alt: A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint.
+  site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: metal-brackets-and-plates-599218.webp
+  title: File:Joist hangers.jpg
+  author: Sarang
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Joist_hangers.jpg
+  site: Wikimedia Commons
+  alt: Three galvanised steel joist hangers of different shapes, punched with rows of nail holes.
+  kind: photo
+  drawn: false
+- file: metal-brackets-and-plates-7fdc4d.webp
+  title: File:Gray metallic shelf bracket - 20 x 12 cm - A.jpg
+  author: Fructibus
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Gray_metallic_shelf_bracket_-_20_x_12_cm_-_A.jpg
+  site: Wikimedia Commons
+  alt: A grey steel shelf bracket with a diagonal brace, lying on a wooden surface.
+  kind: photo
   drawn: false
 glossary: [deflection, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, perimeters, infill,
   warping--shrinkage, end-grain, peel-vs-shear]
 ---
 
-![Drawing of a flat angle bracket on the side of a butt joint and a bent (L) angle bracket on the inside corner](../media/metal-brackets-and-plates.webp)
-
-*Picture: [Flat and bent angle brackets.png](https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png) by Sauer202, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/metal-brackets-and-plates.webp" alt="A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png">Flat and bent angle brackets</a> by Sauer202, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/metal-brackets-and-plates-599218.webp" alt="Three galvanised steel joist hangers of different shapes, punched with rows of nail holes." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Joist_hangers.jpg">Joist hangers</a> by Sarang, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/metal-brackets-and-plates-7fdc4d.webp" alt="A grey steel shelf bracket with a diagonal brace, lying on a wooden surface." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gray_metallic_shelf_bracket_-_20_x_12_cm_-_A.jpg">Gray metallic shelf bracket - 20 x 12 cm - A</a> by Fructibus, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A stamped steel bracket, strap or flat plate fixed across a joint with screws, nails or teeth so that the metal carries the load the joint itself can't, from a small corner brace that stiffens a wobbly frame to a joist hanger or truss plate that holds up a floor or roof.
 

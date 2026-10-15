@@ -133,23 +133,37 @@ sources:
 research: research/connection-types/results/Invisible_barrel_hinge_Sosstype.json
 image:
   file: invisible-barrel-hinge.webp
-  width: 560
-  height: 707
   title: File:Scharnier 11.gif
   author: Manfredgoellner
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_11.gif
-  alt: 'Animation of how a cross hinge (Soss-type) works: two crossing arms with sliding pins fold into the door and frame'
-  animated: true
+  alt: A cut-away animation of a concealed cross-link hinge, its crossed links folding into the two pockets as the door closes
+    and unfolding as it opens.
+  site: Wikimedia Commons
+  still: invisible-barrel-hinge.still.webp
+  kind: animation
+  drawn: false
+pictures:
+- file: invisible-barrel-hinge.webp
+  title: File:Scharnier 11.gif
+  author: Manfredgoellner
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Scharnier_11.gif
+  alt: A cut-away animation of a concealed cross-link hinge, its crossed links folding into the two pockets as the door closes
+    and unfolding as it opens.
+  site: Wikimedia Commons
+  still: invisible-barrel-hinge.still.webp
+  kind: animation
   drawn: false
 glossary: [linkage, stiffness, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---
 
-![Animation of how a cross hinge (Soss-type) works: two crossing arms with sliding pins fold into the door and frame](../media/invisible-barrel-hinge.webp)
-
-*Picture: [Scharnier 11.gif](https://commons.wikimedia.org/wiki/File:Scharnier_11.gif) by Manfredgoellner, [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), from Wikimedia Commons.*
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/invisible-barrel-hinge.still.webp"><img src="../media/invisible-barrel-hinge.webp" alt="A cut-away animation of a concealed cross-link hinge, its crossed links folding into the two pockets as the door closes and unfolding as it opens."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_11.gif">Scharnier 11</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A hinge made of two metal bodies sunk into matching pockets in the door edge and the frame, joined by folding links, so that when the door is shut nothing at all shows on either side and when it opens it swings a full 180°.
 

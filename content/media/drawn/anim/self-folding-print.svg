@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three side views of a self-folding print: a flat strip of stiff panels joined by two-layer hinges (a stretched PLA layer on a TPU layer) printed on the bed, the strip dropped into hot water where the PLA layer shrinks, and the strip folded up into a U shape that it keeps after cooling; the last view starts flat and curls up.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="265" y1="60" x2="265" y2="390" stroke="#cccccc" stroke-width="2"/><line x1="530" y1="60" x2="530" y2="390" stroke="#cccccc" stroke-width="2"/>
+<rect x="22.0" y="292.0" width="220.0" height="8.0" fill="#d8f0d2" stroke="#222" stroke-width="2.5"/>
+<rect x="22.0" y="280.0" width="45.0" height="12.0" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="67.0" y="284.0" width="35.0" height="8.0" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<rect x="102.0" y="280.0" width="60.0" height="12.0" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="162.0" y="284.0" width="35.0" height="8.0" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<rect x="197.0" y="280.0" width="45.0" height="12.0" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="12" y="300" width="240" height="14" fill="#e8e8e8" stroke="#222" stroke-width="2"/><g stroke="#222" stroke-width="1.5"><line x1="16" y1="314" x2="28" y2="302"/><line x1="28" y1="314" x2="40" y2="302"/><line x1="40" y1="314" x2="52" y2="302"/><line x1="52" y1="314" x2="64" y2="302"/><line x1="64" y1="314" x2="76" y2="302"/><line x1="76" y1="314" x2="88" y2="302"/><line x1="88" y1="314" x2="100" y2="302"/><line x1="100" y1="314" x2="112" y2="302"/><line x1="112" y1="314" x2="124" y2="302"/><line x1="124" y1="314" x2="136" y2="302"/><line x1="136" y1="314" x2="148" y2="302"/><line x1="148" y1="314" x2="160" y2="302"/><line x1="160" y1="314" x2="172" y2="302"/><line x1="172" y1="314" x2="184" y2="302"/><line x1="184" y1="314" x2="196" y2="302"/><line x1="196" y1="314" x2="208" y2="302"/><line x1="208" y1="314" x2="220" y2="302"/><line x1="220" y1="314" x2="232" y2="302"/><line x1="232" y1="314" x2="244" y2="302"/></g>
+<line x1="78.5" y1="264" x2="58.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="90.5" y1="264" x2="110.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="173.5" y1="264" x2="153.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="185.5" y1="264" x2="205.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="277" y="200" width="240" height="140" fill="#cfe3f5"/>
+<path d="M277,180 V340 H517 V180" fill="none" stroke="#222" stroke-width="3"/>
+<line x1="277" y1="200" x2="517" y2="200" stroke="#222" stroke-width="2" stroke-dasharray="10 6"/>
+<rect x="287.0" y="292.0" width="220.0" height="8.0" fill="#d8f0d2" stroke="#222" stroke-width="2.5"/>
+<rect x="287.0" y="280.0" width="45.0" height="12.0" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="332.0" y="284.0" width="35.0" height="8.0" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<rect x="367.0" y="280.0" width="60.0" height="12.0" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="427.0" y="284.0" width="35.0" height="8.0" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<rect x="462.0" y="280.0" width="45.0" height="12.0" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<line x1="323.5" y1="264" x2="341.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animateTransform attributeName="transform" type="translate" dur="1.5s" repeatCount="indefinite" values="0,0;4,0;0,0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></line>
+<line x1="375.5" y1="264" x2="357.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animateTransform attributeName="transform" type="translate" dur="1.5s" repeatCount="indefinite" values="0,0;-4,0;0,0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></line>
+<line x1="418.5" y1="264" x2="436.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animateTransform attributeName="transform" type="translate" dur="1.5s" repeatCount="indefinite" values="0,0;4,0;0,0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></line>
+<line x1="470.5" y1="264" x2="452.5" y2="264" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animateTransform attributeName="transform" type="translate" dur="1.5s" repeatCount="indefinite" values="0,0;-4,0;0,0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/></line>
+<rect x="552" y="330" width="220" height="14" fill="#e8e8e8" stroke="#222" stroke-width="2"/><g stroke="#222" stroke-width="1.5"><line x1="556" y1="344" x2="568" y2="332"/><line x1="568" y1="344" x2="580" y2="332"/><line x1="580" y1="344" x2="592" y2="332"/><line x1="592" y1="344" x2="604" y2="332"/><line x1="604" y1="344" x2="616" y2="332"/><line x1="616" y1="344" x2="628" y2="332"/><line x1="628" y1="344" x2="640" y2="332"/><line x1="640" y1="344" x2="652" y2="332"/><line x1="652" y1="344" x2="664" y2="332"/><line x1="664" y1="344" x2="676" y2="332"/><line x1="676" y1="344" x2="688" y2="332"/><line x1="688" y1="344" x2="700" y2="332"/><line x1="700" y1="344" x2="712" y2="332"/><line x1="712" y1="344" x2="724" y2="332"/><line x1="724" y1="344" x2="736" y2="332"/><line x1="736" y1="344" x2="748" y2="332"/><line x1="748" y1="344" x2="760" y2="332"/></g>
+<g><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.248;0.25;0.3;0.383;0.448;0.512;0.576;0.64;0.705;0.769;0.833;1" values="1;1;0;0;1;1;1;1;1;1;1;1;1;1"/>
+<rect x="632.0" y="322.0" width="60.0" height="8.0" fill="#d8f0d2" stroke="#222" stroke-width="2.5"/>
+<rect x="632.0" y="310.0" width="60.0" height="12.0" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<g id="fl"><path d="M632,330 A30,30 0 0 1 602,300 L610,300 A22,22 0 0 0 632,322 Z" fill="#d8f0d2" stroke="#222" stroke-width="2.5"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.248;0.25;0.3;0.383;0.448;0.512;0.576;0.64;0.705;0.769;0.833;1" values="M632,330 A30,30 0 0 1 602,300 L610,300 A22,22 0 0 0 632,322 Z;M632,330 A30,30 0 0 1 602,300 L610,300 A22,22 0 0 0 632,322 Z;M632,330 A30,30 0 0 1 602,300 L610,300 A22,22 0 0 0 632,322 Z;M632,330 A4010.7,4010.7 0 0 1 597,329.8 L597.1,321.8 A4002.7,4002.7 0 0 0 632,322 Z;M632,330 A4010.7,4010.7 0 0 1 597,329.8 L597.1,321.8 A4002.7,4002.7 0 0 0 632,322 Z;M632,330 A4010.7,4010.7 0 0 1 597,329.8 L597.1,321.8 A4002.7,4002.7 0 0 0 632,322 Z;M632,330 A409.9,409.9 0 0 1 596.4,328.4 L597.1,320.5 A401.9,401.9 0 0 0 632,322 Z;M632,330 A120.1,120.1 0 0 1 595.2,324.2 L597.7,316.6 A112.1,112.1 0 0 0 632,322 Z;M632,330 A64.3,64.3 0 0 1 594.7,318.1 L599.4,311.6 A56.3,56.3 0 0 0 632,322 Z;M632,330 A44.4,44.4 0 0 1 595.8,311.3 L602.3,306.7 A36.4,36.4 0 0 0 632,322 Z;M632,330 A35.5,35.5 0 0 1 598.2,305.4 L605.8,302.9 A27.5,27.5 0 0 0 632,322 Z;M632,330 A31.3,31.3 0 0 1 600.8,301.4 L608.8,300.7 A23.3,23.3 0 0 0 632,322 Z;M632,330 A30,30 0 0 1 602,300 L610,300 A22,22 0 0 0 632,322 Z;M632,330 A30,30 0 0 1 602,300 L610,300 A22,22 0 0 0 632,322 Z"/></path>
+<path d="M632,322 A22,22 0 0 1 610,300 L618,300 A14,14 0 0 0 632,314 Z" fill="#fde2c4" stroke="#222" stroke-width="2.5"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.248;0.25;0.3;0.383;0.448;0.512;0.576;0.64;0.705;0.769;0.833;1" values="M632,322 A22,22 0 0 1 610,300 L618,300 A14,14 0 0 0 632,314 Z;M632,322 A22,22 0 0 1 610,300 L618,300 A14,14 0 0 0 632,314 Z;M632,322 A22,22 0 0 1 610,300 L618,300 A14,14 0 0 0 632,314 Z;M632,322 A4002.7,4002.7 0 0 1 597.1,321.8 L597.1,313.8 A3994.7,3994.7 0 0 0 632,314 Z;M632,322 A4002.7,4002.7 0 0 1 597.1,321.8 L597.1,313.8 A3994.7,3994.7 0 0 0 632,314 Z;M632,322 A4002.7,4002.7 0 0 1 597.1,321.8 L597.1,313.8 A3994.7,3994.7 0 0 0 632,314 Z;M632,322 A401.9,401.9 0 0 1 597.1,320.5 L597.8,312.5 A393.9,393.9 0 0 0 632,314 Z;M632,322 A112.1,112.1 0 0 1 597.7,316.6 L600.1,309 A104.1,104.1 0 0 0 632,314 Z;M632,322 A56.3,56.3 0 0 1 599.4,311.6 L604,305.1 A48.3,48.3 0 0 0 632,314 Z;M632,322 A36.4,36.4 0 0 1 602.3,306.7 L608.8,302 A28.4,28.4 0 0 0 632,314 Z;M632,322 A27.5,27.5 0 0 1 605.8,302.9 L613.4,300.5 A19.5,19.5 0 0 0 632,314 Z;M632,322 A23.3,23.3 0 0 1 608.8,300.7 L616.8,300 A15.3,15.3 0 0 0 632,314 Z;M632,322 A22,22 0 0 1 610,300 L618,300 A14,14 0 0 0 632,314 Z;M632,322 A22,22 0 0 1 610,300 L618,300 A14,14 0 0 0 632,314 Z"/></path>
+<path d="M602,300 L602,255 L610,255 L610,300 Z" fill="#d8f0d2" stroke="#222" stroke-width="2.5"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.248;0.25;0.3;0.383;0.448;0.512;0.576;0.64;0.705;0.769;0.833;1" values="M602,300 L602,255 L610,255 L610,300 Z;M602,300 L602,255 L610,255 L610,300 Z;M602,300 L602,255 L610,255 L610,300 Z;M597,329.8 L552,329.5 L552.1,321.5 L597.1,321.8 Z;M597,329.8 L552,329.5 L552.1,321.5 L597.1,321.8 Z;M597,329.8 L552,329.5 L552.1,321.5 L597.1,321.8 Z;M596.4,328.4 L551.5,324.5 L552.2,316.6 L597.1,320.5 Z;M595.2,324.2 L552.4,310.4 L554.8,302.8 L597.7,316.6 Z;M594.7,318.1 L558.1,292 L562.7,285.5 L599.4,311.6 Z;M595.8,311.3 L569.7,274.6 L576.2,270 L602.3,306.7 Z;M598.2,305.4 L584.4,262.5 L592,260.1 L605.8,302.9 Z;M600.8,301.4 L596.9,256.6 L604.9,255.9 L608.8,300.7 Z;M602,300 L602,255 L610,255 L610,300 Z;M602,300 L602,255 L610,255 L610,300 Z"/></path>
+<path d="M610,300 L610,255 L622,255 L622,300 Z" fill="#e8e8e8" stroke="#222" stroke-width="2.5"><animate attributeName="d" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.248;0.25;0.3;0.383;0.448;0.512;0.576;0.64;0.705;0.769;0.833;1" values="M610,300 L610,255 L622,255 L622,300 Z;M610,300 L610,255 L622,255 L622,300 Z;M610,300 L610,255 L622,255 L622,300 Z;M597.1,321.8 L552.1,321.5 L552.2,309.5 L597.2,309.8 Z;M597.1,321.8 L552.1,321.5 L552.2,309.5 L597.2,309.8 Z;M597.1,321.8 L552.1,321.5 L552.2,309.5 L597.2,309.8 Z;M597.1,320.5 L552.2,316.6 L553.3,304.6 L598.1,308.5 Z;M597.7,316.6 L554.8,302.8 L558.5,291.4 L601.3,305.2 Z;M599.4,311.6 L562.7,285.5 L569.6,275.7 L606.3,301.8 Z;M602.3,306.7 L576.2,270 L586,263.1 L612.1,299.7 Z;M605.8,302.9 L592,260.1 L603.5,256.4 L617.3,299.3 Z;M608.8,300.7 L604.9,255.9 L616.8,254.9 L620.8,299.7 Z;M610,300 L610,255 L622,255 L622,300 Z;M610,300 L610,255 L622,255 L622,300 Z"/></path>
+</g>
+<use href="#fl" transform="translate(1324,0) scale(-1,1)"/>
+</g>
+<path d="M785.6,283.5 A95,95 0 0 0 724.5,210.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.25;0.38;0.45;1" values="1;1;0;0;1;1"/></path>
+<path d="M538.4,283.5 A95,95 0 0 1 599.5,210.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><animate attributeName="opacity" dur="6s" repeatCount="indefinite" keyTimes="0;0.2;0.25;0.38;0.45;1" values="1;1;0;0;1;1"/></path>
+</g>
+<g stroke="#222" stroke-width="2"><rect x="40" y="372" width="28" height="14" fill="#fde2c4"/><rect x="300" y="372" width="28" height="14" fill="#d8f0d2"/><rect x="560" y="372" width="28" height="14" fill="#e8e8e8"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="132" y="40" font-size="20" text-anchor="middle" font-weight="bold">1. Printed flat</text>
+<text x="397" y="40" font-size="20" text-anchor="middle" font-weight="bold">2. Into hot water</text>
+<text x="662" y="40" font-size="20" text-anchor="middle" font-weight="bold">3. Folds and stays</text>
+<text x="132" y="230" font-size="18" text-anchor="middle">stretch locked in</text>
+<text x="132" y="342" font-size="18" text-anchor="middle">print bed</text>
+<text x="397" y="172" font-size="18" text-anchor="middle">about 70 °C</text>
+<text x="397" y="232" font-size="18" text-anchor="middle">PLA shrinks</text>
+<text x="76" y="385" font-size="18">stretched PLA</text>
+<text x="336" y="385" font-size="18">TPU (does not shrink)</text>
+<text x="596" y="385" font-size="18">stiff panel</text>
+<text x="400" y="432" font-size="18" text-anchor="middle" font-weight="bold">The shrinking top layer bends each hinge, like a bimetal strip</text>
+</g>
+</svg>

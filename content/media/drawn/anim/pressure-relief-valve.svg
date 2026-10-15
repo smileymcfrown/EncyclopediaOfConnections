@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Animated: a pressure relief valve on top of an air tank, with a gauge and a lift-versus-pressure graph: a spring holds a disc on its seat; when the tank pressure passes the set pressure the disc lifts and air escapes, and once the pressure has fallen a little below the set point (blowdown) the disc closes again; a safety valve instead pops fully open; the needle climbs to the red line, the disc lifts and air puffs out, then the disc reseats as the needle falls, while a dot traces the graph.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="60" y="260" width="300" height="130" rx="40" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="20" y="318" width="42" height="16" fill="#cfe3f5" stroke="#222" stroke-width="3"/><line x1="18" y1="300" x2="54" y2="300" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="130" y1="262" x2="130" y2="247" stroke="#222" stroke-width="4"/><circle cx="130" cy="215" r="32" fill="#ffffff" stroke="#222" stroke-width="3"/><path d="M148.4,196.6 A26,26 0 0 1 148.4,233.4" fill="none" stroke="#d1495b" stroke-width="5" stroke-linecap="butt"/><line x1="110.2" y1="234.8" x2="114.4" y2="230.6" stroke="#222" stroke-width="2"/><line x1="102" y1="215" x2="108" y2="215" stroke="#222" stroke-width="2"/><line x1="110.2" y1="195.2" x2="114.4" y2="199.4" stroke="#222" stroke-width="2"/><line x1="130" y1="187" x2="130" y2="193" stroke="#222" stroke-width="2"/><line x1="149.8" y1="195.2" x2="145.6" y2="199.4" stroke="#222" stroke-width="2"/><line x1="158" y1="215" x2="152" y2="215" stroke="#222" stroke-width="2"/><line x1="149.8" y1="234.8" x2="145.6" y2="230.6" stroke="#222" stroke-width="2"/><g transform="rotate(19.8 130 215)"><animateTransform attributeName="transform" type="rotate" values="19.8 130 215;45 130 215;63 130 215;39.6 130 215;16.2 130 215;19.8 130 215" keyTimes="0;0.42;0.55;0.7;0.85;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" dur="5s" repeatCount="indefinite"/><line x1="130" y1="221" x2="130" y2="190" stroke="#222" stroke-width="3"/></g><circle cx="130" cy="215" r="4" fill="#222"/>
+<rect x="236" y="208" width="28" height="54" fill="#cfe3f5"/><line x1="236" y1="210" x2="236" y2="262" stroke="#222" stroke-width="3"/><line x1="264" y1="210" x2="264" y2="262" stroke="#222" stroke-width="3"/>
+<path d="M212,172 H226 V96 H274 V172 H288 V182 H334 V202 H288 V214 H264 V210 H236 V214 H212 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M218,178 H232 V102 H268 V178 H282 V186 H334 V198 H282 V210 H218 Z" fill="#ffffff"/>
+<rect x="244" y="80" width="12" height="24" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/><rect x="236" y="96" width="28" height="8" fill="#9a9a9a" stroke="#222" stroke-width="2"/>
+<polyline points="250,104 237,112 263,120 237,128 263,136 237,144 263,152 237,160 263,168 237,176 263,184 237,192 250,200" fill="none" stroke="#222" stroke-width="3"><animate attributeName="points" values="250,104 237,112 263,120 237,128 263,136 237,144 263,152 237,160 263,168 237,176 263,184 237,192 250,200;250,104 237,112 263,120 237,128 263,136 237,144 263,152 237,160 263,168 237,176 263,184 237,192 250,200;250,104 237,111 263,118 237,125 263,132 237,139 263,146 237,153 263,160 237,167 263,174 237,181 250,188;250,104 237,111.4 263,118.8 237,126.2 263,133.6 237,141 263,148.4 237,155.8 263,163.2 237,170.6 263,178 237,185.4 250,192.8;250,104 237,112 263,120 237,128 263,136 237,144 263,152 237,160 263,168 237,176 263,184 237,192 250,200;250,104 237,112 263,120 237,128 263,136 237,144 263,152 237,160 263,168 237,176 263,184 237,192 250,200" keyTimes="0;0.42;0.55;0.7;0.85;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" dur="5s" repeatCount="indefinite"/></polyline>
+<g><animateTransform attributeName="transform" type="translate" values="0,0;0,0;0,-12;0,-7.2;0,0;0,0" keyTimes="0;0.42;0.55;0.7;0.85;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" dur="5s" repeatCount="indefinite"/><rect x="228" y="200" width="44" height="10" rx="2" fill="#fde2c4" stroke="#222" stroke-width="2.5"/></g>
+<line x1="250" y1="250" x2="250" y2="222" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.44;0.48;0.8;0.85;1" dur="5s" repeatCount="indefinite"/><circle r="6" fill="#cfe3f5" stroke="#5a7ea0" stroke-width="2"><animateMotion dur="0.8s" repeatCount="indefinite" begin="-0s" path="M250,205 V192 H340 Q370,186 400,170"/></circle><circle r="6" fill="#cfe3f5" stroke="#5a7ea0" stroke-width="2"><animateMotion dur="0.8s" repeatCount="indefinite" begin="-0.2s" path="M250,205 V192 H340 Q370,186 400,170"/></circle><circle r="6" fill="#cfe3f5" stroke="#5a7ea0" stroke-width="2"><animateMotion dur="0.8s" repeatCount="indefinite" begin="-0.4s" path="M250,205 V192 H340 Q370,186 400,170"/></circle><circle r="6" fill="#cfe3f5" stroke="#5a7ea0" stroke-width="2"><animateMotion dur="0.8s" repeatCount="indefinite" begin="-0.6s" path="M250,205 V192 H340 Q370,186 400,170"/></circle></g>
+<line x1="480" y1="330" x2="770" y2="330" stroke="#222" stroke-width="3" marker-end="url(#ak)"/><line x1="480" y1="330" x2="480" y2="140" stroke="#222" stroke-width="3" marker-end="url(#ak)"/>
+<line x1="666.7" y1="330" x2="666.7" y2="150" stroke="#bbbbbb" stroke-width="2" stroke-dasharray="6 5"/>
+<polyline points="623.1,330 666.7,330 666.7,160 623.1,160 623.1,330" fill="none" stroke="#222" stroke-width="3" stroke-dasharray="9 7"/>
+<polyline points="579.6,330 666.7,330 728.9,160 648,228 567.1,330 579.6,330" fill="none" stroke="#d1495b" stroke-width="5"/>
+<circle cx="579.6" cy="330" r="8" fill="#ffffff" stroke="#222" stroke-width="3"><animate attributeName="cx" values="579.6;666.7;728.9;648;567.1;579.6" keyTimes="0;0.42;0.55;0.7;0.85;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" dur="5s" repeatCount="indefinite"/><animate attributeName="cy" values="330;330;160;228;330;330" keyTimes="0;0.42;0.55;0.7;0.85;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1" dur="5s" repeatCount="indefinite"/></circle>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="218" y="124" text-anchor="end">spring holds</text><text x="218" y="146" text-anchor="end">the disc shut</text>
+<text x="92" y="200" text-anchor="end">gauge</text>
+<text x="210" y="335" text-anchor="middle">tank pressure</text><text x="210" y="357" text-anchor="middle">pushes up</text>
+<text x="350" y="160">air escapes</text>
+<text x="62" y="420">pump keeps filling</text>
+<text x="490" y="138">valve lift</text>
+<text x="740" y="355" text-anchor="middle">pressure</text>
+<text x="666.7" y="355" text-anchor="middle">set</text>
+<line x1="480" y1="384" x2="520" y2="384" stroke="#d1495b" stroke-width="5"/><text x="530" y="390">relief valve: opens gradually</text>
+<line x1="480" y1="412" x2="520" y2="412" stroke="#222" stroke-width="3" stroke-dasharray="9 7"/><text x="530" y="418">safety valve: pops fully open</text>
+<text x="400" y="444" text-anchor="middle" font-size="17">Opens above the set pressure, then shuts once the pressure falls a little (blowdown)</text>
+</g>
+</svg>
