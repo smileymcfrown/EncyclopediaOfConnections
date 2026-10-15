@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>End-on view of a centrifugal clutch: a hub on the engine shaft carries three shoes on radial lugs, held in by springs, inside a free drum; when the hub spins fast enough the shoes are flung out against the drum, slip, then grip so the drum turns with the hub.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(245,240)">
+<g><path d="M175,0 A175,175 0 1 1 -175,0 A175,175 0 1 1 175,0 Z M150,0 A150,150 0 1 0 -150,0 A150,150 0 1 0 150,0 Z" fill="#cfe3f5" fill-rule="evenodd" stroke="#222" stroke-width="3"/><circle cx="162" cy="0" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="0" cy="162" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="-162" cy="0" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/><circle cx="0" cy="-162" r="5" fill="#fff" stroke="#222" stroke-width="2.5"/></g>
+<g>
+<line x1="0" y1="0" x2="0" y2="-125" stroke="#222" stroke-width="27" stroke-linecap="butt"/><line x1="0" y1="0" x2="0" y2="-123.5" stroke="#e8e8e8" stroke-width="21" stroke-linecap="butt"/>
+<polyline points="23,-39.8 25,-43.3 31.5,-44.5 27.1,-56.9 40,-59.4 35.7,-71.8 48.6,-74.2 44.2,-86.6 57.2,-89.1 55,-95.3 57,-98.7" fill="none" stroke="#222" stroke-width="2.5"></polyline>
+<g transform="translate(0,-10)"><g><polygon points="-79.7,-66.8 -73.5,-73.5 -66.8,-79.7 -59.7,-85.2 -52,-90.1 -44,-94.3 -35.6,-97.7 -26.9,-100.5 -18.1,-102.4 -9.1,-103.6 0,-104 9.1,-103.6 18.1,-102.4 26.9,-100.5 35.6,-97.7 44,-94.3 52,-90.1 59.7,-85.2 66.8,-79.7 73.5,-73.5 79.7,-66.8 107.2,-90 99,-99 90,-107.2 80.3,-114.7 70,-121.2 59.2,-126.9 47.9,-131.6 36.2,-135.2 24.3,-137.9 12.2,-139.5 0,-140 -12.2,-139.5 -24.3,-137.9 -36.2,-135.2 -47.9,-131.6 -59.2,-126.9 -70,-121.2 -80.3,-114.7 -90,-107.2 -99,-99 -107.2,-90" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M-101.1,-91 A140,140 0 0 1 101.1,-91" fill="none" stroke="#777" stroke-width="7" stroke-linecap="butt"/></g></g>
+<line x1="0" y1="0" x2="108.3" y2="62.5" stroke="#222" stroke-width="27" stroke-linecap="butt"/><line x1="0" y1="0" x2="107" y2="61.7" stroke="#e8e8e8" stroke-width="21" stroke-linecap="butt"/>
+<polyline points="23,39.8 25,43.3 22.8,49.5 35.8,51.9 31.4,64.4 44.3,66.8 40,79.2 52.9,81.6 48.5,94.1 55,95.3 57,98.7" fill="none" stroke="#222" stroke-width="2.5"></polyline>
+<g transform="translate(8.7,5)"><g><polygon points="97.7,-35.6 100.5,-26.9 102.4,-18.1 103.6,-9.1 104,0 103.6,9.1 102.4,18.1 100.5,26.9 97.7,35.6 94.3,44 90.1,52 85.2,59.7 79.7,66.8 73.5,73.5 66.8,79.7 59.7,85.2 52,90.1 44,94.3 35.6,97.7 26.9,100.5 18.1,102.4 24.3,137.9 36.2,135.2 47.9,131.6 59.2,126.9 70,121.2 80.3,114.7 90,107.2 99,99 107.2,90 114.7,80.3 121.2,70 126.9,59.2 131.6,47.9 135.2,36.2 137.9,24.3 139.5,12.2 140,0 139.5,-12.2 137.9,-24.3 135.2,-36.2 131.6,-47.9" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M129.3,-42 A140,140 0 0 1 28.3,133" fill="none" stroke="#777" stroke-width="7" stroke-linecap="butt"/></g></g>
+<line x1="0" y1="0" x2="-108.3" y2="62.5" stroke="#222" stroke-width="27" stroke-linecap="butt"/><line x1="0" y1="0" x2="-107" y2="61.7" stroke="#e8e8e8" stroke-width="21" stroke-linecap="butt"/>
+<polyline points="-46,0 -50,0 -54.3,-5 -62.9,5 -71.4,-5 -80,5 -88.6,-5 -97.1,5 -105.7,-5 -110,0 -114,0" fill="none" stroke="#222" stroke-width="2.5"></polyline>
+<g transform="translate(-8.7,5)"><g><polygon points="-18.1,102.4 -26.9,100.5 -35.6,97.7 -44,94.3 -52,90.1 -59.7,85.2 -66.8,79.7 -73.5,73.5 -79.7,66.8 -85.2,59.7 -90.1,52 -94.3,44 -97.7,35.6 -100.5,26.9 -102.4,18.1 -103.6,9.1 -104,0 -103.6,-9.1 -102.4,-18.1 -100.5,-26.9 -97.7,-35.6 -131.6,-47.9 -135.2,-36.2 -137.9,-24.3 -139.5,-12.2 -140,0 -139.5,12.2 -137.9,24.3 -135.2,36.2 -131.6,47.9 -126.9,59.2 -121.2,70 -114.7,80.3 -107.2,90 -99,99 -90,107.2 -80.3,114.7 -70,121.2 -59.2,126.9 -47.9,131.6 -36.2,135.2 -24.3,137.9" fill="#fde2c4" stroke="#222" stroke-width="3"/><path d="M-28.3,133 A140,140 0 0 1 -129.3,-42" fill="none" stroke="#777" stroke-width="7" stroke-linecap="butt"/></g></g>
+<circle r="44" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle r="14" fill="#fff" stroke="#222" stroke-width="3"/><rect x="-4" y="-18" width="8" height="6" fill="#222"/>
+</g>
+</g>
+<rect x="470" y="78" width="300" height="22" fill="#fff" stroke="#222" stroke-width="2.5"/>
+<rect x="472" y="80" width="286.5" height="18" fill="#d1495b"></rect>
+<line x1="629.5" y1="70" x2="629.5" y2="108" stroke="#222" stroke-width="3"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="470" y="62">engine speed</text><text x="629.5" y="128" text-anchor="middle" font-size="17">shoes engage</text>
+<g opacity="0.6"><text x="470" y="170">Slow: springs pull the</text><text x="470" y="194">shoes clear, no drive</text></g>
+<g opacity="0.6"><text x="470" y="240">Speeding up: shoes fly</text><text x="470" y="264">out, touch, slip and heat up</text></g>
+<g opacity="1"><text x="470" y="310">Fast: shoes grip, the</text><text x="470" y="334">drum turns with the hub</text></g>
+<text x="40" y="40">drum (output)</text><line x1="110" y1="46" x2="140" y2="104" stroke="#222" stroke-width="2"/>
+<text x="470" y="400">hub on the engine shaft</text><line x1="466" y1="395" x2="275" y2="270" stroke="#222" stroke-width="2"/>
+<text x="400" y="440" text-anchor="middle" font-size="18">The pull on the shoes grows with speed squared, so the clutch takes up the drive smoothly</text>
+</g>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A clock fusee: a mainspring barrel joined by a chain to a cone-shaped fusee with a spiral groove. Fully wound, the strong pull of the chain acts on the narrow top of the cone with a short lever arm; run down, the weaker pull acts on the wide bottom with a long lever arm, so the turning force on the fusee stays the same.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="cf"><rect x="400" y="142" width="200" height="300"></rect></clipPath>
+<clipPath id="cb"><rect x="60" y="0" width="180" height="134"></rect></clipPath>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="130" y="78" width="40" height="16" fill="url(#hatch)"/><rect x="130" y="336" width="40" height="16" fill="url(#hatch)"/><line x1="150" y1="94" x2="150" y2="336" stroke-width="8"/><rect x="500" y="78" width="40" height="16" fill="url(#hatch)"/><rect x="500" y="336" width="40" height="16" fill="url(#hatch)"/><line x1="520" y1="94" x2="520" y2="336" stroke-width="8"/>
+<rect x="90" y="120" width="120" height="184" rx="6" fill="#cfe3f5"/>
+<g clip-path="url(#cb)" stroke-width="6"><line x1="92" y1="135" x2="208" y2="141"/><line x1="92" y1="152" x2="208" y2="158"/><line x1="92" y1="169" x2="208" y2="175"/><line x1="92" y1="186" x2="208" y2="192"/><line x1="92" y1="203" x2="208" y2="209"/><line x1="92" y1="220" x2="208" y2="226"/><line x1="92" y1="237" x2="208" y2="243"/><line x1="92" y1="254" x2="208" y2="260"/><line x1="92" y1="271" x2="208" y2="277"/><line x1="92" y1="288" x2="208" y2="294"/></g>
+<polygon points="498,130 542,130 590,300 450,300" fill="#fde2c4"/>
+<g stroke-width="1.5"><line x1="495.7" y1="138" x2="546" y2="144"/><line x1="490.9" y1="155" x2="550.8" y2="161"/><line x1="486.1" y1="172" x2="555.6" y2="178"/><line x1="481.3" y1="189" x2="560.4" y2="195"/><line x1="476.5" y1="206" x2="565.2" y2="212"/><line x1="471.7" y1="223" x2="570" y2="229"/><line x1="466.9" y1="240" x2="574.8" y2="246"/><line x1="462.1" y1="257" x2="579.6" y2="263"/><line x1="457.3" y1="274" x2="584.4" y2="280"/><line x1="452.5" y1="291" x2="589.2" y2="297"/></g>
+<g clip-path="url(#cf)" stroke-width="6"><line x1="495.7" y1="138" x2="546" y2="144"/><line x1="490.9" y1="155" x2="550.8" y2="161"/><line x1="486.1" y1="172" x2="555.6" y2="178"/><line x1="481.3" y1="189" x2="560.4" y2="195"/><line x1="476.5" y1="206" x2="565.2" y2="212"/><line x1="471.7" y1="223" x2="570" y2="229"/><line x1="466.9" y1="240" x2="574.8" y2="246"/><line x1="462.1" y1="257" x2="579.6" y2="263"/><line x1="457.3" y1="274" x2="584.4" y2="280"/><line x1="452.5" y1="291" x2="589.2" y2="297"/></g>
+<path d="M210,138 L495.7,138" fill="none" stroke-width="6" stroke-dasharray="10 5"></path>
+<path d="M430,113 L328.8,113 L328.8,100 L300,118 L328.8,136 L328.8,123 L430,123 Z" fill="#d1495b" stroke="none"></path>
+<path d="M495.7,154 L520,154 M495.7,148 L495.7,160 M520,148 L520,160" fill="none" stroke-width="2.5"></path>
+<path d="M476,108 A44,12 0 0 0 564,108" fill="none" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222" font-size="18">
+<text x="150" y="378" text-anchor="middle">mainspring barrel</text><text x="520" y="378" text-anchor="middle">fusee (cone)</text>
+<text x="582" y="114">same turning force</text>
+<text x="602" y="160">wound up: strong pull,</text><text x="602" y="180">short lever arm</text>
+<text x="602" y="276">run down: weak pull,</text><text x="602" y="296">long lever arm</text>
+<text x="300" y="56" text-anchor="middle">chain pull</text>
+<text x="400" y="430" text-anchor="middle">Pull × lever arm stays the same, so the clock gets an even drive</text>
+</g>
+</svg>

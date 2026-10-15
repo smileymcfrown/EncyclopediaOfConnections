@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Animated side view of a syringe pump: a stepper motor turns a lead screw, the nut in a carriage riding on a guide rod moves along it, and the carriage pushes the syringe plunger a precise distance, so a set volume of liquid (travel times barrel area) is pushed out of the tube, or drawn back in when it runs the other way.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<clipPath id="scr"><rect x="175" y="262" width="229" height="16"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="322" width="740" height="14" fill="url(#hatch)" stroke="#222" stroke-width="2"/>
+<rect x="40" y="210" width="90" height="112" rx="6" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<rect x="130" y="264" width="20" height="12" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="150" y="258" width="26" height="24" rx="4" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/>
+<rect x="130" y="228" width="276" height="8" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<rect x="175" y="262" width="229" height="16" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<g clip-path="url(#scr)"><g><animateTransform attributeName="transform" type="translate" values="0,0;0,0;100,0;100,0;0,0;0,0" keyTimes="0;0.08;0.55;0.62;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.2 0 0.8 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1" dur="6s" repeatCount="indefinite"/><path d="M40,278 L48,262 M50,278 L58,262 M60,278 L68,262 M70,278 L78,262 M80,278 L88,262 M90,278 L98,262 M100,278 L108,262 M110,278 L118,262 M120,278 L128,262 M130,278 L138,262 M140,278 L148,262 M150,278 L158,262 M160,278 L168,262 M170,278 L178,262 M180,278 L188,262 M190,278 L198,262 M200,278 L208,262 M210,278 L218,262 M220,278 L228,262 M230,278 L238,262 M240,278 L248,262 M250,278 L258,262 M260,278 L268,262 M270,278 L278,262 M280,278 L288,262 M290,278 L298,262 M300,278 L308,262 M310,278 L318,262 M320,278 L328,262 M330,278 L338,262 M340,278 L348,262 M350,278 L358,262 M360,278 L368,262 M370,278 L378,262 M380,278 L388,262 M390,278 L398,262 M400,278 L408,262" stroke="#222" stroke-width="2"/></g></g>
+<path d="M404,212 H426 V322 H404 Z M404,128 H426 V146 H404 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="410" y="136" width="10" height="78" rx="3" fill="#ffffff" stroke="#222" stroke-width="2.5"/>
+<rect x="420" y="150" width="280" height="50" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<rect x="460" y="152" width="237" height="46" fill="#cfe3f5"><animate attributeName="x" values="460;460;560;560;460;460" keyTimes="0;0.08;0.55;0.62;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.2 0 0.8 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1" dur="6s" repeatCount="indefinite"/><animate attributeName="width" values="237;237;137;137;237;237" keyTimes="0;0.08;0.55;0.62;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.2 0 0.8 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1" dur="6s" repeatCount="indefinite"/></rect>
+<path d="M700,162 L716,170 V180 L700,188 Z" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<path d="M716,175 H790" stroke="#222" stroke-width="10"/><path d="M716,175 H790" stroke="#cfe3f5" stroke-width="5"/>
+<path d="M470,150 V158 M490,150 V158 M510,150 V158 M530,150 V158 M550,150 V158 M570,150 V158 M590,150 V158 M610,150 V158 M630,150 V158 M650,150 V158 M670,150 V158 M690,150 V158" stroke="#222" stroke-width="1.5"/>
+<g><animateTransform attributeName="transform" type="translate" values="0,0;0,0;100,0;100,0;0,0;0,0" keyTimes="0;0.08;0.55;0.62;0.92;1" calcMode="spline" keySplines="0 0 1 1;0.2 0 0.8 1;0 0 1 1;0.4 0 0.6 1;0 0 1 1" dur="6s" repeatCount="indefinite"/>
+<rect x="292" y="168" width="156" height="14" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="446" y="152" width="14" height="46" rx="3" fill="#555555" stroke="#222" stroke-width="2.5"/>
+<rect x="230" y="140" width="50" height="150" rx="4" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="280" y="140" width="12" height="70" rx="2" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/><rect x="278" y="132" width="20" height="10" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<rect x="236" y="256" width="38" height="28" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/><rect x="236" y="224" width="38" height="16" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+</g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.08;0.1;0.53;0.55;1" dur="6s" repeatCount="indefinite"/><path d="M85,237 A28,28 0 1 1 57,265" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><path d="M722,160 H782" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><path d="M300,112 H380" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.62;0.64;0.9;0.92;1" dur="6s" repeatCount="indefinite"/><path d="M85,237 A28,28 0 1 0 113,265" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><path d="M782,160 H722" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/><path d="M380,112 H300" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/></g>
+<path d="M460,92 V104 M560,92 V104 M460,98 H560" stroke="#222" stroke-width="2"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="85" y="352" text-anchor="middle">stepper motor</text>
+<text x="136" y="220" font-size="17">guide rod</text>
+<text x="140" y="308" font-size="17">lead screw</text>
+<text x="255" y="352" text-anchor="middle">carriage</text>
+<text x="510" y="86" text-anchor="middle">travel</text>
+<text x="560" y="232" text-anchor="middle">syringe barrel</text>
+<text x="790" y="140" text-anchor="end">liquid out</text>
+<text x="232" y="100" font-size="17">pushes or pulls the plunger</text>
+<text x="400" y="394" text-anchor="middle">Liquid moved = travel × barrel area (run backwards, it draws liquid in)</text>
+<text x="400" y="420" text-anchor="middle">Each motor step moves the carriage a tiny, exact distance</text>
+</g>
+</svg>
