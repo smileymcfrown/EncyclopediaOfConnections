@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cut-aways of two in-line swivels: in a barrel swivel each eye's shaft ends in a head trapped inside the body, which the pull presses against the end face, so the eye on the lure side can turn while the rod side stays still; a ball-bearing swivel puts a ring of balls under one head so it keeps turning under heavy pull.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<line x1="40" y1="140" x2="224" y2="140"/>
+<rect x="296" y="112" width="128" height="56" rx="16" fill="#e8e8e8"/>
+<rect x="308" y="123" width="104" height="34" fill="#ffffff"/>
+<rect x="274" y="135" width="40" height="10" fill="#fde2c4"/><rect x="308" y="126" width="10" height="28" fill="#fde2c4"/>
+<rect x="406" y="135" width="40" height="10" fill="#cfe3f5"/><rect x="402" y="126" width="10" height="28" fill="#cfe3f5"/>
+<line x1="403" x2="411" y1="128" y2="128" stroke="#222" stroke-width="2"></line><line x1="403" x2="411" y1="128" y2="128" stroke="#222" stroke-width="2" opacity="0"></line>
+<ellipse cx="250" cy="140" rx="26" ry="18" fill="none" stroke-width="5"></ellipse><ellipse cx="472" cy="140" rx="26" ry="18" fill="none" stroke-width="5"></ellipse>
+<line x1="498" y1="140" x2="660" y2="140" stroke-width="5"/>
+<line x1="498" y1="140" x2="660" y2="140" stroke="#ffffff" stroke-width="2" stroke-linecap="butt" stroke-dasharray="5 7"></line>
+<circle cx="668" cy="140" r="8" fill="none" stroke-width="3"/>
+<ellipse cx="708" cy="140" rx="32" ry="15" fill="#d8f0d2"></ellipse>
+<path d="M752,114 A11,26 0 0 1 752,166" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M512,114 A11,26 0 0 1 512,166" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="90" y1="156" x2="44" y2="156" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="40" y1="318" x2="224" y2="318"/>
+<line x1="526" y1="318" x2="700" y2="318"/>
+<rect x="290" y="286" width="150" height="64" rx="16" fill="#e8e8e8"/>
+<rect x="302" y="296" width="126" height="44" fill="#ffffff"/>
+<rect x="274" y="313" width="40" height="10" fill="#fde2c4"/><rect x="302" y="301" width="10" height="34" fill="#fde2c4"/>
+<rect x="402" y="313" width="72" height="10" fill="#cfe3f5"/><rect x="402" y="298" width="10" height="40" fill="#cfe3f5"/>
+<line x1="403" x2="411" y1="302" y2="302" stroke="#222" stroke-width="2"></line><line x1="403" x2="411" y1="302" y2="302" stroke="#222" stroke-width="2" opacity="0"></line>
+<g><circle cx="420" cy="304" r="7.5" fill="#f5d0d0" stroke-width="2.5"/><line x1="420" y1="298" x2="420" y2="310" stroke-width="2"/></g>
+<g><circle cx="420" cy="332" r="7.5" fill="#f5d0d0" stroke-width="2.5"/><line x1="420" y1="326" x2="420" y2="338" stroke-width="2"/></g>
+<ellipse cx="250" cy="318" rx="26" ry="18" fill="none" stroke-width="5"></ellipse><ellipse cx="500" cy="318" rx="26" ry="18" fill="none" stroke-width="5"></ellipse>
+<path d="M540,292 A11,26 0 0 1 540,344" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="90" y1="334" x2="44" y2="334" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="650" y1="334" x2="700" y2="334" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="40" y="52" font-size="21" font-weight="bold">Barrel swivel</text>
+<text x="40" y="242" font-size="21" font-weight="bold">Ball-bearing swivel</text>
+<g text-anchor="middle">
+<text x="360" y="96">heads trapped inside</text>
+<text x="360" y="194">pull presses each head on the end</text>
+<text x="67" y="182">pull</text><text x="67" y="360">pull</text>
+<text x="600" y="104">twist unwinds here</text>
+<text x="708" y="194">spinning lure</text>
+<text x="420" y="378">balls roll, so it keeps</text><text x="420" y="398">turning under heavy pull</text>
+<text x="675" y="360">heavy pull</text>
+</g>
+<text x="400" y="438" text-anchor="middle">The two eyes turn on their own, so twist never builds up in the line</text>
+</g>
+</svg>

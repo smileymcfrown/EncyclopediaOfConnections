@@ -6,23 +6,23 @@
 <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#ffffff"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
 </defs>
 <g stroke-linejoin="round" stroke-linecap="round">
-<g transform="translate(0,118)">
-<circle cx="150" cy="0" r="36" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
-<ellipse cx="250" cy="0" rx="16.63" ry="16.63" fill="#fde2c4" stroke="#222" stroke-width="3"></ellipse>
-<g><path d="M174,25 L150,16 A16,16 0 0 1 150,-16 L184,7 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/><polygon points="168.38,24.85 518.38,88.85 521.62,71.15 261.62,23.6 261.62,18.6 241.62,14.95 241.62,19.95 171.62,7.15" fill="#d8f0d2" stroke="#222" stroke-width="3"/><line x1="500" y1="113.34" x2="500" y2="91.34" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><line x1="250" y1="79.63" x2="250" y2="49.63" stroke="#d1495b" stroke-width="8" marker-end="url(#ah)"/></g>
-<g><path d="M174,-25 L150,-16 A16,16 0 0 0 150,16 L184,-7 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/><polygon points="168.38,-24.85 518.38,-88.85 521.62,-71.15 261.62,-23.6 261.62,-18.6 241.62,-14.95 241.62,-19.95 171.62,-7.15" fill="#cfe3f5" stroke="#222" stroke-width="3"/><line x1="500" y1="-113.34" x2="500" y2="-91.34" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><line x1="250" y1="-79.63" x2="250" y2="-49.63" stroke="#d1495b" stroke-width="8" marker-end="url(#ah)"/></g>
+<g transform="translate(0,100)">
+<circle cx="150" cy="0" r="32" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
+<ellipse cx="250" cy="0" rx="16" ry="16" fill="#fde2c4" stroke="#222" stroke-width="3"></ellipse>
+<g><path d="M174,29 L150,16 A16,16 0 0 1 150,-16 L184,11 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/><polygon points="169.1,28.96 519.1,63.96 520.9,46.04 260.9,20.04 260.9,17.04 240.9,15.04 240.9,18.04 170.9,11.04" fill="#d8f0d2" stroke="#222" stroke-width="3"/><line x1="500" y1="88" x2="500" y2="67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,71 L256,71 L256,56 L264,56 L250,41 L236,56 L244,56 Z" fill="#d1495b"/></g>
+<g><path d="M174,-29 L150,-16 A16,16 0 0 0 150,16 L184,-11 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/><polygon points="169.1,-28.96 519.1,-63.96 520.9,-46.04 260.9,-20.04 260.9,-17.04 240.9,-15.04 240.9,-18.04 170.9,-11.04" fill="#cfe3f5" stroke="#222" stroke-width="3"/><line x1="500" y1="-88" x2="500" y2="-67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,-71 L256,-71 L256,-56 L264,-56 L250,-41 L236,-56 L244,-56 Z" fill="#d1495b"/></g>
 <circle cx="150" cy="0" r="7" fill="#ffffff" stroke="#222" stroke-width="2.5"/><circle cx="150" cy="0" r="2.2" fill="#222"/>
 </g>
-<g transform="translate(0,318)">
-<circle cx="150" cy="0" r="36" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
-<path d="M172,-16 C130,-23.3 130,23.3 172,16" fill="none" stroke="#222" stroke-width="10" stroke-linecap="butt"></path>
-<path d="M172,-16 C130,-23.3 130,23.3 172,16" fill="none" stroke="#d8f0d2" stroke-width="4" stroke-linecap="butt"></path>
-<ellipse cx="250" cy="0" rx="16.63" ry="16.63" fill="#fde2c4" stroke="#222" stroke-width="3"></ellipse>
-<g><polygon points="168.38,24.85 518.38,88.85 521.62,71.15 261.62,23.6 261.62,18.6 241.62,14.95 241.62,19.95 171.62,7.15" fill="#d8f0d2" stroke="#222" stroke-width="3"/><line x1="500" y1="113.34" x2="500" y2="91.34" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><line x1="250" y1="79.63" x2="250" y2="49.63" stroke="#d1495b" stroke-width="8" marker-end="url(#ah)"/></g>
-<g><polygon points="168.38,-24.85 518.38,-88.85 521.62,-71.15 261.62,-23.6 261.62,-18.6 241.62,-14.95 241.62,-19.95 171.62,-7.15" fill="#cfe3f5" stroke="#222" stroke-width="3"/><line x1="500" y1="-113.34" x2="500" y2="-91.34" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><line x1="250" y1="-79.63" x2="250" y2="-49.63" stroke="#d1495b" stroke-width="8" marker-end="url(#ah)"/></g>
+<g transform="translate(0,290)">
+<circle cx="150" cy="0" r="32" fill="none" stroke="#222" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M172,-20 C130,-27.3 130,27.3 172,20" fill="none" stroke="#222" stroke-width="10" stroke-linecap="butt"></path>
+<path d="M172,-20 C130,-27.3 130,27.3 172,20" fill="none" stroke="#d8f0d2" stroke-width="4" stroke-linecap="butt"></path>
+<ellipse cx="250" cy="0" rx="16" ry="16" fill="#fde2c4" stroke="#222" stroke-width="3"></ellipse>
+<g><polygon points="169.1,28.96 519.1,63.96 520.9,46.04 260.9,20.04 260.9,17.04 240.9,15.04 240.9,18.04 170.9,11.04" fill="#d8f0d2" stroke="#222" stroke-width="3"/><line x1="500" y1="88" x2="500" y2="67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,71 L256,71 L256,56 L264,56 L250,41 L236,56 L244,56 Z" fill="#d1495b"/></g>
+<g><polygon points="169.1,-28.96 519.1,-63.96 520.9,-46.04 260.9,-20.04 260.9,-17.04 240.9,-15.04 240.9,-18.04 170.9,-11.04" fill="#cfe3f5" stroke="#222" stroke-width="3"/><line x1="500" y1="-88" x2="500" y2="-67" stroke="#d1495b" stroke-width="3" marker-end="url(#ah)"/><path d="M244,-71 L256,-71 L256,-56 L264,-56 L250,-41 L236,-56 L244,-56 Z" fill="#d1495b"/></g>
 </g>
 </g>
 <g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
-<g text-anchor="start"><text x="20" y="34" font-size="21" font-weight="bold">Two pieces with a pin</text><text x="20" y="232" font-size="21" font-weight="bold">One piece that bends</text><text x="545" y="44">small push,</text><text x="545" y="66">long way</text><text x="300" y="70" font-size="17">big grip, short way</text></g><g text-anchor="end"><text x="108" y="124">pin</text><text x="108" y="314">thin</text><text x="108" y="336">bending</text><text x="108" y="358">section</text></g><text x="400" y="424" font-size="19">Long handles, short jaws: a small push becomes a big grip.</text><text x="400" y="446" font-size="19">In one piece, a thin section bends instead of a pin, and springs it open again.</text>
+<g text-anchor="start"><text x="20" y="34" font-size="21" font-weight="bold">Two pieces with a pin</text><text x="20" y="214" font-size="21" font-weight="bold">One piece that bends</text><text x="535" y="50">small push,</text><text x="535" y="72">long way</text><text x="270" y="40" font-size="17">big grip, short way</text></g><g text-anchor="end"><text x="106" y="106">pin</text><text x="106" y="276">thin</text><text x="106" y="298">bending</text><text x="106" y="320">section</text></g><text x="400" y="424" font-size="19">Long handles, short jaws: a small push becomes a big grip.</text><text x="400" y="446" font-size="19">In one piece, a thin section bends instead of a pin, and springs it open again.</text>
 </g>
 </svg>

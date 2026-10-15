@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side cut-away of a living hinge: a box and its lid are one piece of plastic joined by a thin flexible web, shown open as printed or moulded.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0,12 L12,0" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M240,251 L254,251 L254,358 L386,358 L386,251 L400,251 L400,372 L240,372 Z" fill="#cfe3f5"/>
+<g transform="translate(434.6 262)"><g><g transform="translate(-434.6 -262)"><path d="M434.6,251 L448.6,251 L448.6,286 L580.6,286 L580.6,251 L594.6,251 L594.6,300 L434.6,300 Z" fill="#cfe3f5"/></g></g></g>
+<path d="M400,265.5 L405.8,265.5 L411.5,265.5 L417.3,265.5 L423,265.5 L428.8,265.5 L434.6,265.5 L434.6,258.5 L428.8,258.5 L423,258.5 L417.3,258.5 L411.5,258.5 L405.8,258.5 L400,258.5Z" fill="#cfe3f5" stroke-width="2"></path>
+</g>
+<path d="M603.4,235.8 A188,188 0 0 0 231.1,235.8" stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)" marker-start="url(#ah)"/>
+<rect x="14" y="14" width="232" height="196" rx="10" fill="#ffffff" stroke="#999" stroke-width="2"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round"><rect x="26" y="150" width="38" height="44" fill="#cfe3f5"/><rect x="102" y="74" width="44" height="38" fill="#cfe3f5"/><path d="M64,182 82.1,179.6 99,172.6 113.5,161.5 124.6,147 131.6,130.1 134,112 L114,112 112.3,124.9 107.3,137 99.4,147.4 89,155.3 76.9,160.3 64,162Z" fill="#cfe3f5"/></g>
+<g stroke="#d1495b" stroke-width="3.5" fill="none"><path d="M126.8,164.7 A82,82 0 0 0 145.6,120.6" marker-end="url(#ah)"/><path d="M116.7,174.8 A82,82 0 0 1 72.6,193.6" marker-end="url(#ah)"/><path d="M101.6,117.3 A38,38 0 0 1 94.7,134.3" marker-end="url(#ah)"/><path d="M69.3,149.6 A38,38 0 0 0 86.3,142.7" marker-end="url(#ah)"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">
+<text x="130" y="38" font-size="18" font-weight="bold">close-up of the bend</text>
+<text x="180" y="180" font-size="18">stretches</text>
+<text x="74" y="96" font-size="18">squashes</text>
+<text x="320" y="320">box</text>
+<text x="514" y="325">lid</text>
+<text x="430" y="402">thin web</text>
+<text x="400" y="438" font-size="18">One piece of plastic: no pin, nothing to assemble · print it so the plastic runs across the fold</text>
+</g>
+<line x1="417" y1="382" x2="417" y2="272" stroke="#222" stroke-width="1.5"/>
+</svg>
