@@ -193,12 +193,20 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: render/quick-release-pin.webp
+  alt: 'Render of a quick-release pin holding a clevis together: a stainless pin with a push-button handle passes through
+    two bracket lugs and the link arm between them, and two small steel balls stick out near its tip past the far lug to lock
+    it in place; a split ring hangs from the handle.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, self-locking, axial--radial, detent, tolerance, form-fit--force-fit--material-bond, counterbore--countersink,
   creep, fatigue, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/quick-release-pin.webp" alt="A drawing of a T-handled ball-lock pin pushed into a hole through two plates, before and after it locks."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kugelsperrbolzen_Funktionsprinzip.tif">Kugelsperrbolzen Funktionsprinzip</a> by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/quick-release-pin.webp" alt="Render of a quick-release pin holding a clevis together: a stainless pin with a push-button handle passes through two bracket lugs and the link arm between them, and two small steel balls stick out near its tip past the far lug to lock it in place; a split ring hangs from the handle." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A pin that slides through lined-up holes in two or more parts and locks itself there with small spring-controlled balls, holding the parts together (and in line) until someone presses the button on its handle and pulls it out, with no tools.

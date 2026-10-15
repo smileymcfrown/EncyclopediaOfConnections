@@ -180,11 +180,19 @@ pictures:
     the wall, then the strip''s tab pulled slowly straight down so the strip stretches thin and peels off the wall and the
     hook plate from the bottom up, and a small sketch showing that pulling the tab outwards is the wrong way.'
   drawn: true
+- file: render/stretch-release-adhesive-strips.webp
+  alt: 'Render of a stretch-release adhesive strip holding a plastic hook on a painted wall: the white foam strip is sandwiched
+    between the wall and the hook''s back plate, with its plain pull tab hanging out below, ready to be pulled straight down
+    along the wall.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [lever-arm, form-fit--force-fit--material-bond, creep, primer, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/stretch-release-adhesive-strips.svg" alt="Side view of a hook stuck to a wall with a stretchy adhesive strip: first holding a hanging weight that pulls along the wall, then the strip&#x27;s tab pulled slowly straight down so the strip stretches thin and peels off the wall and the hook plate from the bottom up, and a small sketch showing that pul"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/stretch-release-adhesive-strips.webp" alt="Render of a stretch-release adhesive strip holding a plastic hook on a painted wall: the white foam strip is sandwiched between the wall and the hook&#x27;s back plate, with its plain pull tab hanging out below, ready to be pulled straight down along the wall." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A stretch-release strip is a double-sided pressure-sensitive adhesive on a very stretchy backing that holds strongly while the load pulls along the wall, but lets go cleanly and without residue when its tab is pulled slowly and parallel to the surface.

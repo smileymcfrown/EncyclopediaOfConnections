@@ -198,11 +198,18 @@ pictures:
   drawn: true
   still: drawn/speed-control-valve.svg
   kind: animation
+- file: render/speed-control-valve.webp
+  alt: 'Render of speed-control valves: a small round air cylinder with an elbow-shaped speed controller screwed into each
+    of its two ports, each with a blue air tube pushed into its side and a small adjusting screw with a locknut on top.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [stroke, actuator, solenoid, stick-slip, tolerance, repeatability--accuracy, infill, check-valve, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/speed-control-valve.svg"><img src="../media/drawn/anim/speed-control-valve.svg" alt="A double-acting air cylinder with a speed controller on each port, shown as it extends: on the inlet side air pushes the one-way check valve open and flows in freely; on the outlet side the check valve is pushed shut, so the escaping air must squeeze past an adjustable needle, which sets how fast th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/speed-control-valve.webp" alt="Render of speed-control valves: a small round air cylinder with an elbow-shaped speed controller screwed into each of its two ports, each with a blue air tube pushed into its side and a small adjusting screw with a locknut on top." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A needle valve and a one-way [check valve](../glossary.md#check-valve) in one small body: air or oil going one way must squeeze through a narrow gap that you set with a screw, which slows the cylinder, while flow the other way bypasses the gap, so each [stroke](../glossary.md#stroke)'s speed can be set separately without reducing the cylinder's force.

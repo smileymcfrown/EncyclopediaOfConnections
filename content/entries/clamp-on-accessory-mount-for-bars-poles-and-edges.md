@@ -210,12 +210,19 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
+- file: render/clamp-on-accessory-mount-for-bars-poles-and-edges.webp
+  alt: 'Render of a clamp-on accessory mount: a two-piece printed clamp squeezed round a short length of handlebar by two
+    screws, with a black rubber pad between clamp and bar and two flat prongs on top for fixing a light or camera.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [over-centre, ratchet, torque, form-fit--force-fit--material-bond, set-screw, taper, collet, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg">AltmanClamp</a> by StarX (talk) (Uploads), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="Render of a clamp-on accessory mount: a two-piece printed clamp squeezed round a short length of handlebar by two screws, with a black rubber pad between clamp and bar and two flat prongs on top for fixing a light or camera." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A clamp that grips an existing bar, pole, tube, pipe or desk edge by squeezing it, often through a rubber pad, so an accessory can be fixed on, repositioned or removed without drilling or changing the thing it is clamped to.

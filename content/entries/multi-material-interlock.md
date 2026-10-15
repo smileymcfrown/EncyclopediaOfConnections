@@ -184,12 +184,20 @@ pictures:
     into the other and turning 90 degrees on each layer like woven fabric; right: a simple dovetail joint, which can slide
     out along the seam.'
   drawn: true
+- file: render/multi-material-interlock.webp
+  alt: 'Render of a multi-material interlock: a 3D-printed bar that is rigid orange plastic at one end and soft black rubbery
+    plastic at the other, with a checked band across the seam where small beams of each material reach into the other, crossing
+    at right angles from layer to layer.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [flexure, compliant-mechanism, living-hinge, clearance, form-fit--force-fit--material-bond, undercut, repeatability--accuracy,
   creep, print-in-place, overhang--bridging, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/multi-material-interlock.svg" alt="Left: three printed layers of a rigid blue and a soft orange material pulled apart, with beams of each material reaching into the other and turning 90 degrees on each layer like woven fabric; right: a simple dovetail joint, which can slide out along the seam."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/multi-material-interlock.webp" alt="Render of a multi-material interlock: a 3D-printed bar that is rigid orange plastic at one end and soft black rubbery plastic at the other, with a checked band across the seam where small beams of each material reach into the other, crossing at right angles from layer to layer." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 When two printed materials that bond poorly (for example soft TPU and rigid PLA, or PP and PLA) are printed in one go, small beams or dovetails of each material are interlaced across the seam so the parts are locked together by shape rather than by adhesion.

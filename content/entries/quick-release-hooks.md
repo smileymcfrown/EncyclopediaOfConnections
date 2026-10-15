@@ -205,12 +205,20 @@ pictures:
   still: quick-release-hooks.still.webp
   kind: animation
   drawn: false
+- file: render/quick-release-hooks.webp
+  alt: 'Render of a stainless steel pelican hook hanging from its eye: a curved hinged tongue loops round under a steel ring
+    and its tip is held against the body by a sliding link, which is knocked off to let the tongue swing open and release
+    the ring.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [axial--radial, over-centre, mechanical-advantage, actuator, solenoid, fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond,
   layer-lines, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/quick-release-hooks.still.webp"><img src="../media/quick-release-hooks.webp" alt="An animation of a parachute three-ring release, where pulling a small cord frees a loop and the stacked rings slip apart one after another."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:3Ring_release_animation.gif">3Ring release animation</a> by ☭Acodered, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/quick-release-hooks.webp" alt="Render of a stainless steel pelican hook hanging from its eye: a curved hinged tongue loops round under a steel ring and its tip is held against the body by a sliding link, which is knocked off to let the tongue swing open and release the ring." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A hinged hook, jaw or stack of rings that carries a big load through its strong parts while a small latch (a sliding ring, spring pin, trigger or cord loop) keeps it shut, so a small, deliberate pull on the latch releases the load instantly.

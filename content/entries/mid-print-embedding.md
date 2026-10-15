@@ -179,11 +179,18 @@ pictures:
   alt: 'Three side cut-away steps of a 3D print: the printer pauses at the top of a pocket, a nut is dropped into the pocket,
     and printing resumes over it, sealing the nut inside with a bolt hole left above it.'
   drawn: true
+- file: render/mid-print-embedding.webp
+  alt: 'Render of mid-print embedding: a 3D-printed block with a corner cut away to show a steel hex nut sealed in a hex-shaped
+    pocket inside the plastic, with a bolt hole above it; a second nut lies beside the block.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/mid-print-embedding.svg" alt="Three side cut-away steps of a 3D print: the printer pauses at the top of a pocket, a nut is dropped into the pocket, and printing resumes over it, sealing the nut inside with a bolt hole left above it."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/mid-print-embedding.webp" alt="Render of mid-print embedding: a 3D-printed block with a corner cut away to show a steel hex nut sealed in a hex-shaped pocket inside the plastic, with a bolt hole above it; a second nut lies beside the block." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A way of trapping a nut, magnet, bearing or other metal part completely inside a 3D print by pausing the printer at the right layer, inserting the part, and printing over it.

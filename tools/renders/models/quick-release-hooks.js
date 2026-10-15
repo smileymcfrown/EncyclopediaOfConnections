@@ -2,6 +2,7 @@
 // tongue curls round under the ring and its tip rests against the body, where a sliding link (the
 // bail) holds it shut; knock the link off the tip and the tongue swings open under the load.
 export default {
+  note: 'weak: the pelican-hook shape is approximate (real tongues are flat, beak-shaped bars)',
   alt: 'Render of a stainless steel pelican hook hanging from its eye: a curved hinged tongue loops round under a steel ring and its tip is held against the body by a sliding link, which is knocked off to let the tongue swing open and release the ring.',
   view: { dir: [0.5, 0.2, 1.2], fill: 1.0, ground: false, light: [-0.5, 0.9, 0.9] },
   build(K) {

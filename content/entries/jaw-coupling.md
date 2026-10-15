@@ -181,6 +181,13 @@ pictures:
   drawn: true
   still: drawn/jaw-coupling.svg
   kind: animation
+- file: render/jaw-coupling.webp
+  alt: 'Render of a jaw coupling pulled apart along its shafts: two aluminium hubs, one on a plain motor shaft and one on
+    a leadscrew, each with three stubby jaws on its face, and a red rubber star-shaped spider between them whose six legs
+    fill the gaps between the jaws.'
+  kind: render
+  render: true
+  drawn: true
 - file: jaw-coupling.webp
   title: File:JawConcept2.jpg
   author: Aruland
@@ -197,6 +204,7 @@ glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/jaw-coupling.svg"><img src="../media/drawn/anim/jaw-coupling.svg" alt="A jaw coupling, shown turning: in the end view the motor hub&#x27;s jaws squeeze the rubber spider legs against the driven jaws, which lag a little more during a shock as the rubber squashes; in the side view both shafts turn together, and keep turning when the driven shaft tilts slightly out of line."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/jaw-coupling.webp" alt="Render of a jaw coupling pulled apart along its shafts: two aluminium hubs, one on a plain motor shaft and one on a leadscrew, each with three stubby jaws on its face, and a red rubber star-shaped spider between them whose six legs fill the gaps between the jaws." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/jaw-coupling.webp" alt="A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:JawConcept2.jpg">JawConcept2</a> by Aruland, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

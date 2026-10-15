@@ -179,12 +179,19 @@ pictures:
   drawn: true
   still: drawn/fin-ray-gripper.svg
   kind: animation
+- file: render/fin-ray-gripper.webp
+  alt: 'Render of a fin-ray gripper holding a ball: two soft, printed, triangular fingers with a ladder of cross ribs inside
+    stand on a gripper body, and each has curled its tip in around the ball instead of bending away from it.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, self-locking, linkage, actuator, stiffness, flexure, living-hinge, tolerance, form-fit--force-fit--material-bond,
   brittle--ductile, infill, print-in-place, elephants-foot]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/fin-ray-gripper.svg"><img src="../media/drawn/anim/fin-ray-gripper.svg" alt="Two side views of a gripper finger pressed by a round object: on the left a plain flexible strip bends away from the push, and on the right a triangular fin-ray finger with cross ribs passes the push to its back wall so its tip curls toward the object and wraps around it; both objects move away and "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/fin-ray-gripper.webp" alt="Render of a fin-ray gripper holding a ball: two soft, printed, triangular fingers with a ladder of cross ribs inside stand on a gripper body, and each has curled its tip in around the ball instead of bending away from it." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A flexible, hollow, triangular gripper finger with cross ribs that bends toward a pushing object and wraps around it, giving a gentle, self-adjusting grip with no sensors or joints.

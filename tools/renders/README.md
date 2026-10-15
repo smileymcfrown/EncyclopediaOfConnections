@@ -27,6 +27,7 @@ animation or diagram) and run `python3 tools/make_entries.py`.
 export default {
   alt: 'Render of …: one plain sentence saying what it shows, for people who cannot see it.',
   kind: 'cross-section',          // or leave out: a plain render
+  note: 'weak: …',                // optional: shown in the register (content/media/render/README.md)
   view: { dir: [0.75, 0.6, 1.5], fill: 0.92 },   // optional camera: direction to the camera, how much of the frame to fill
   build(K) {                      // K is kit.js; return a THREE.Object3D; millimetres, Y up
     const { group, at, lathe, mat } = K;
@@ -45,7 +46,7 @@ The kit (`kit.js`):
 |---|---|
 | `mat.*` | `steel`, `zinc` (zinc-plated), `stainless`, `chrome`, `aluminium`, `anodised(c)`, `brass`, `copper`, `blackOxide`, `castIron`, `paint(c)`, `rubber(c)`, `silicone(c)`, `plastic(c)`, `nylon(c)`, `pla(c, layers)` (3D print, with layer lines), `wood(c, grain)`, `fabric(c)`, `glass`, `magnet`, `cut(c)` (the colour of cut faces) |
 | shapes | `box(w, h, d, m, r)`, `cyl(r, h, m, {r2})`, `sphere`, `torus(R, r, m, arc)`, `tube(ro, ri, h, m)`, `lathe([[r, y], …], m, {cut})` (a turned part; `cut: 90` cuts a quarter away and fills the cut faces), `extrude(outline, depth, m, {holes})` (flat parts; `circle`, `roundRect` make outlines), `gear(teeth, module, width, m, {bore, hub})`, `spring(R, wire, turns, length, m)`, `threaded(r, pitch, length, m)`, `hex(af, h, m, hole)`, `wire(points, r, m)` (bent rods, cords, cables) |
-| placing | `at(obj, [x, y, z], [rx, ry, rz] in degrees)`, `group(...)`, `mesh(geometry, material)`; `THREE` for anything else |
+| placing | `at(obj, [x, y, z], [rx, ry, rz] in degrees)`, `group(...)`, `mesh(geometry, material)`; `THREE` for anything else. `at` sets the rotation, so wrap a part that comes pre-rotated (such as `hex`) first: `at(group(hex(…)), pos)` |
 
 ## What makes a good stand-in
 

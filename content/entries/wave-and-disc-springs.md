@@ -193,6 +193,13 @@ pictures:
   drawn: true
   still: drawn/wave-and-disc-springs.svg
   kind: animation
+- file: render/wave-and-disc-springs.webp
+  alt: 'Render of wave and disc springs: a stack of six dark cone-shaped disc springs on a bolt between flat washers, a quarter
+    cut away to show them facing alternately in a zigzag, with a shiny multi-turn wavy flat-wire wave spring standing beside
+    it and a single wave washer lying flat in front.'
+  kind: cross-section
+  render: true
+  drawn: true
 - file: wave-and-disc-springs.webp
   title: File:Washerstack.png
   author: SammusWikiDude
@@ -209,6 +216,7 @@ glossary: [axial--radial, over-centre, detent, torque, stiffness, preload, canti
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/wave-and-disc-springs.svg"><img src="../media/drawn/anim/wave-and-disc-springs.svg" alt="Side cut-aways on one base, animated: plates press down on a tall coil spring, a short multi-turn wave spring whose waves flatten, a stack of four disc springs facing each other whose cones flatten for more travel, and four nested disc springs that move only a little under a bigger push; then all sp"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/wave-and-disc-springs.webp" alt="Render of wave and disc springs: a stack of six dark cone-shaped disc springs on a bolt between flat washers, a quarter cut away to show them facing alternately in a zigzag, with a shiny multi-turn wavy flat-wire wave spring standing beside it and a single wave washer lying flat in front." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/wave-and-disc-springs.webp" alt="A stack of cone-shaped disc springs on a shaft, some facing one way and some the other." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Washerstack.png">Washerstack</a> by SammusWikiDude, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

@@ -184,12 +184,20 @@ pictures:
   drawn: true
   still: drawn/tape-spring-hinge.svg
   kind: animation
+- file: render/tape-spring-hinge.webp
+  alt: 'Render of a tape-spring hinge: a short strip of yellow steel tape-measure blade joins two grey 3D-printed blocks,
+    clamped to each under a metal plate with two screws; the hinge is folded to a right angle, the tape curved across its
+    width in the straight parts and bent into a flat kink at the fold.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, self-locking, over-centre, bistable, detent, linkage, fail-safe--fail-secure, stiffness,
   flexure, compliant-mechanism, living-hinge, damping, repeatability--accuracy, creep, lubrication, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/tape-spring-hinge.svg"><img src="../media/drawn/anim/tape-spring-hinge.svg" alt="A tape-measure-like strip clamped between two blocks in three stages: straight and stiff with a curved end view, bending until its middle flattens and snaps through, and folded with a short kink of radius R that springs back straight, beside a graph where the effort to fold peaks and then drops to a"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/tape-spring-hinge.webp" alt="Render of a tape-spring hinge: a short strip of yellow steel tape-measure blade joins two grey 3D-printed blocks, clamped to each under a metal plate with two screws; the hinge is folded to a right angle, the tape curved across its width in the straight parts and bent into a flat kink at the fold." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A strip with a curved cross-section, like a tape-measure blade, clamped between two parts so that it folds by buckling into a kink and then unfolds itself and locks straight, giving a hinge with no pin, no friction and no latch.

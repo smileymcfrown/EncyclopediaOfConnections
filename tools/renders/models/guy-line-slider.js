@@ -10,6 +10,7 @@ const s = Math.sin((SLOPE * Math.PI) / 180), c = Math.cos((SLOPE * Math.PI) / 18
 const W = (x, y, z) => [x * c + y * s, Y0 - x * s + y * c, z];
 
 export default {
+  note: 'weak: the way the line threads through the three holes is a guess',
   alt: 'Render of a three-hole guy-line runner on a taut tent line: the cord comes down from the tent, weaves through the holes of a small green aluminium plate, loops round a steel tent peg and comes back to end in a stopper knot, so sliding the plate along the line tightens it.',
   view: { dir: [0.15, 1.0, 1.1], fill: 1.05, light: [-0.4, 1, 0.8] },
   build(K) {

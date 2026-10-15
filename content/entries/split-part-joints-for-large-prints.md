@@ -190,12 +190,20 @@ pictures:
     holes in the upper one, and three close-ups of joint features: a peg entering a hole, loose dowels in holes on both faces,
     and a dovetail tail that fits a matching groove.'
   drawn: true
+- file: render/split-part-joints-for-large-prints.webp
+  alt: 'Render of split-part joints for a large print: a big round printed shape cut in two, the lower piece with two round
+    pegs standing up from its flat cut face and the domed upper piece resting upside down beside it, showing the two matching
+    holes the pegs fit into.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, cantilever, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   chamfer--fillet, repeatability--accuracy, creep, brittle--ductile, elephants-foot, warping--shrinkage, primer, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/split-part-joints-for-large-prints.svg" alt="A tall printed model cut into two pieces, with the top piece lifted to show pegs on the lower cut face and matching holes in the upper one, and three close-ups of joint features: a peg entering a hole, loose dowels in holes on both faces, and a dovetail tail that fits a matching groove."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/split-part-joints-for-large-prints.webp" alt="Render of split-part joints for a large print: a big round printed shape cut in two, the lower piece with two round pegs standing up from its flat cut face and the domed upper piece resting upside down beside it, showing the two matching holes the pegs fit into." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A big model is cut into printable pieces and the cut faces are given matching pegs, holes, dovetails or puzzle shapes, so the pieces go back together in exactly the right place and are then glued, clipped or simply slid together.

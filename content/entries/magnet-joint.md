@@ -178,12 +178,19 @@ pictures:
   alt: 'Side view of two printed blocks with magnets set into their faces: apart, the north and south poles pull them together;
     closed, they resist a straight pull strongly but slide sideways easily; with a lip added, the lip takes the sideways load.'
   drawn: true
+- file: render/magnet-joint.webp
+  alt: 'Render of a magnetic joint on a 3D-printed box: small round magnets are set flush into the four corners of the box
+    rim, and the lid, turned over beside it, has matching magnets in its corners that pull it shut and line it up.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, holding-force, captive-nut,
   keying, kinematic-coupling, creep, brittle--ductile, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/magnet-joint.svg" alt="Side view of two printed blocks with magnets set into their faces: apart, the north and south poles pull them together; closed, they resist a straight pull strongly but slide sideways easily; with a lip added, the lip takes the sideways load."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/magnet-joint.webp" alt="Render of a magnetic joint on a 3D-printed box: small round magnets are set flush into the four corners of the box rim, and the lid, turned over beside it, has matching magnets in its corners that pull it shut and line it up." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Pairs of permanent magnets, or a magnet and a piece of steel, set into the faces of two parts so the parts pull together, roughly line themselves up and stay shut, yet can be pulled apart by hand.

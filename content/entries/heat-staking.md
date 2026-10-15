@@ -176,12 +176,20 @@ pictures:
     with tape pressing and melting the post tip, and the cooled mushroom head filling the countersink so the plates cannot
     lift apart or slide.'
   drawn: true
+- file: render/heat-staking.webp
+  alt: 'Render of heat staking: a small green circuit board sits on a blue 3D-printed base, held at three corners by the base''s
+    own plastic posts melted into domed heads over the board''s holes; at the fourth corner the post still sticks up straight
+    through the hole, not yet melted.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [flexure, cantilever, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss, counterbore--countersink,
   chamfer--fillet, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-staking.svg" alt="Three cut-away steps of heat staking: a plastic post pushed through a countersunk hole in a second plate, a hot iron with tape pressing and melting the post tip, and the cooled mushroom head filling the countersink so the plates cannot lift apart or slide."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/heat-staking.webp" alt="Render of heat staking: a small green circuit board sits on a blue 3D-printed base, held at three corners by the base&#x27;s own plastic posts melted into domed heads over the board&#x27;s holes; at the fourth corner the post still sticks up straight through the hole, not yet melted." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A post on one plastic part is pushed through a hole in another part and its end is melted and pressed into a head, locking the parts together for good with no screw, rivet or glue.

@@ -179,12 +179,20 @@ pictures:
     at that hole, so the plate fits even when the spacing is slightly off; on the right two round holes spaced slightly too
     far apart cannot both drop over the pins.'
   drawn: true
+- file: render/locating-pins-and-hole-and-slot.webp
+  alt: 'Render of hole-and-slot location: an aluminium base with two steel dowel pins standing up from its top, and beside
+    it the blue plate that fits on it, with a snug round hole for one pin and a slot pointing towards that hole for the other,
+    plus two bolt holes.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, boss, chamfer--fillet, keying,
   kinematic-coupling, elastic-averaging, repeatability--accuracy, creep, brittle--ductile, layer-lines, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/locating-pins-and-hole-and-slot.svg" alt="Top view of a plate sitting on two pins: on the left one pin fits a snug round hole and the other sits in a slot pointing at that hole, so the plate fits even when the spacing is slightly off; on the right two round holes spaced slightly too far apart cannot both drop over the pins."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/locating-pins-and-hole-and-slot.webp" alt="Render of hole-and-slot location: an aluminium base with two steel dowel pins standing up from its top, and beside it the blue plate that fits on it, with a snug round hole for one pin and a slot pointing towards that hole for the other, plus two bolt holes." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Two pins on one part fit into a snug round hole and a slot on the other: the round hole fixes the position, the slot (pointing along the line between the pins) only stops the part turning, so the parts line up in exactly one position and still go together when the hole spacing is slightly off.

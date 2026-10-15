@@ -167,6 +167,13 @@ pictures:
   drawn: true
   still: drawn/face-ratchet.svg
   kind: animation
+- file: render/face-ratchet.webp
+  alt: 'Render of a face ratchet: two 3D-printed discs on a steel shaft with sloped saw teeth on their facing sides, the orange
+    disc pushed against the grey one by a coil spring held by a washer and nut, and lifted part way up the tooth ramps as
+    it is about to click into the next gap.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, sprag, torque, pitch, crank, flexure, clearance,
   form-fit--force-fit--material-bond, spline, circlip, undercut, creep, lubrication, layer-lines, print-in-place, overhang--bridging,
   peel-vs-shear]
@@ -174,6 +181,7 @@ glossary: [backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, s
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/face-ratchet.svg"><img src="../media/drawn/anim/face-ratchet.svg" alt="Side view of a face ratchet: two discs with sloped teeth on a shaft, a spring behind the right disc. Turned the drive way the steep faces butt and both discs turn together; turned back, the ramps push the right disc away against the spring until it clicks into the next gap. Animated: the locked pair"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/face-ratchet.webp" alt="Render of a face ratchet: two 3D-printed discs on a steel shaft with sloped saw teeth on their facing sides, the orange disc pushed against the grey one by a coil spring held by a washer and nut, and lifted part way up the tooth ramps as it is about to click into the next gap." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Two [coaxial](../glossary.md#coaxial) discs with sloped teeth on their facing sides, pressed together by a spring, that lock and drive together in one direction and ride up and click over each other in the other, as in star-ratchet bicycle hubs and printed one-way knobs and joints.

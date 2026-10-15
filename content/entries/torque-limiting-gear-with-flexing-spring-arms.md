@@ -183,6 +183,12 @@ pictures:
   drawn: true
   still: drawn/torque-limiting-gear-with-flexing-spring-arms.svg
   kind: animation
+- file: render/torque-limiting-gear-with-flexing-spring-arms.webp
+  alt: 'Render of a torque-limiting gear: a one-piece 3D-printed gear lying flat with an open middle, where three thin curved
+    spring arms reach in from the rim and press their tips against a steel shaft, gripping it by springiness alone.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, axial--radial, detent, ratchet, pawl, torque, linkage, stiffness, preload, flexure, torsion, tolerance,
   interference-fit, form-fit--force-fit--material-bond, set-screw, spline, chamfer--fillet, stress-relaxation, brittle--ductile,
   peel-vs-shear, o-ring]
@@ -190,6 +196,7 @@ glossary: [backlash, axial--radial, detent, ratchet, pawl, torque, linkage, stif
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/torque-limiting-gear-with-flexing-spring-arms.svg"><img src="../media/drawn/anim/torque-limiting-gear-with-flexing-spring-arms.svg" alt="Front views of a gear whose hub is split into three curved spring arms pressing on a round shaft: normally the arms&#x27; grip turns the shaft with the gear; when the shaft is stuck the gear keeps turning and the arms slide round it. On the right, a servo saver whose arm is held in line by springs gives "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/torque-limiting-gear-with-flexing-spring-arms.webp" alt="Render of a torque-limiting gear: a one-piece 3D-printed gear lying flat with an open middle, where three thin curved spring arms reach in from the rim and press their tips against a steel shaft, gripping it by springiness alone." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A gear or hub whose own flexible arms grip the shaft by spring force, so it drives normally but slips instead of stripping teeth when overloaded, with no separate springs, balls or nuts.

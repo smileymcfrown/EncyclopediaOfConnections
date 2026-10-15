@@ -201,6 +201,12 @@ pictures:
   drawn: true
   still: drawn/bistable-compliant-mechanism.svg
   kind: animation
+- file: render/bistable-compliant-mechanism.webp
+  alt: 'Render of two identical one-piece 3D-printed bistable snap switches lying flat: in each, a frame holds a centre block
+    on two thin pre-curved beams; in one the beams arch up and in the other they have snapped over to arch down.'
+  kind: render
+  render: true
+  drawn: true
 - file: bistable-compliant-mechanism.webp
   title: File:Bistable compliant switch mechanism.png
   author: BYU CMR
@@ -219,6 +225,7 @@ glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linka
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bistable-compliant-mechanism.svg"><img src="../media/drawn/anim/bistable-compliant-mechanism.svg" alt="A bistable compliant mechanism: a pre-curved springy beam clamped at both ends is pushed down until it flattens at its tipping point and then snaps into the opposite curve, shown beside a ball-on-a-hill energy curve with two valleys (the two stable shapes) and one peak; the beam is pushed down and s"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/bistable-compliant-mechanism.webp" alt="Render of two identical one-piece 3D-printed bistable snap switches lying flat: in each, a frame holds a centre block on two thin pre-curved beams; in one the beams arch up and in the other they have snapped over to arch down." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/bistable-compliant-mechanism.webp" alt="A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting positions." loading="lazy"><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png">Bistable compliant switch mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

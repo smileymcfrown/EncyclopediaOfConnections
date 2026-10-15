@@ -198,6 +198,12 @@ pictures:
   drawn: true
   still: drawn/flexible-beam-coupling.svg
   kind: animation
+- file: render/flexible-beam-coupling.webp
+  alt: 'Render of a flexible beam coupling: a short aluminium tube with a spiral slot cut through its middle and small grub
+    screws at each end joins the shaft of a black stepper motor to a threaded leadscrew, as on a 3D printer.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, torque, actuator, stiffness, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
   set-screw, heat-set-insert, captive-nut, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill,
   overhang--bridging]
@@ -205,6 +211,7 @@ glossary: [misalignment, backlash, axial--radial, torque, actuator, stiffness, f
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/flexible-beam-coupling.svg"><img src="../media/drawn/anim/flexible-beam-coupling.svg" alt="A side view of two slightly misaligned shafts joined by a one-piece tube with a spiral slot cut through it: the tube bends to follow the tilt and offset while twisting from one shaft passes straight through to the other, with an inset comparing one long spiral cut with two short spiral cuts. The ani"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/flexible-beam-coupling.webp" alt="Render of a flexible beam coupling: a short aluminium tube with a spiral slot cut through its middle and small grub screws at each end joins the shaft of a black stepper motor to a threaded leadscrew, as on a 3D printer." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A one-piece tube with a spiral slot cut through its wall that joins two shafts end to end, bending slightly to cope with small errors in their line-up while turning them together with no play.

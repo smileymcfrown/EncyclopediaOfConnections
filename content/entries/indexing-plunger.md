@@ -190,12 +190,19 @@ pictures:
   drawn: true
   still: drawn/indexing-plunger.svg
   kind: animation
+- file: render/indexing-plunger.webp
+  alt: Render of an indexing plunger screwed into a blue fixed bracket, cut in half to show the spring inside pushing its
+    steel pin down into one of a row of holes in a sliding aluminium bar, with a black pull knob on top.
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [misalignment, detent, cantilever, clearance, tolerance, form-fit--force-fit--material-bond, taper, chamfer--fillet,
   repeatability--accuracy, creep, layer-lines, overhang--bridging, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/indexing-plunger.svg"><img src="../media/drawn/anim/indexing-plunger.svg" alt="Cut-away of an indexing plunger screwed into a fixed bracket: on the left its spring pushes the pin down into a hole in a sliding bar, locking it; on the right the knob is pulled up, the spring is squashed and the bar slides along to the next hole, where the spring snaps the pin back in; the animati"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/indexing-plunger.webp" alt="Render of an indexing plunger screwed into a blue fixed bracket, cut in half to show the spring inside pushing its steel pin down into one of a row of holes in a sliding aluminium bar, with a black pull knob on top." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A hand-pulled, spring-returned steel pin that drops into one of a row or circle of holes to lock a sliding or turning part at a chosen position, and holds until you pull it out again.

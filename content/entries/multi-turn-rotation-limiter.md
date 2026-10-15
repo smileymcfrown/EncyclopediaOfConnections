@@ -194,12 +194,20 @@ pictures:
   drawn: true
   still: drawn/multi-turn-rotation-limiter.svg
   kind: animation
+- file: render/multi-turn-rotation-limiter.webp
+  alt: 'Render of a travelling-nut turn limiter: a threaded steel shaft with a knob on one end runs between two aluminium
+    end plates; a brass nut on the thread is kept from spinning by a steel guide rod through its top, and two black stop collars
+    on the shaft mark where the nut stops at each end.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, back-driving, axial--radial, ratchet, torque, gear-ratio, pitch, crank, actuator, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, creep, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/multi-turn-rotation-limiter.svg"><img src="../media/drawn/anim/multi-turn-rotation-limiter.svg" alt="Side view of a travelling-nut turn limiter, animated: a threaded shaft turns while a nut, kept from spinning by a tab in a fixed guide, walks along the thread a little each turn until it hits the stop collar at one end; the shaft then turns back and the nut walks to the other stop, so the shaft is b"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/multi-turn-rotation-limiter.webp" alt="Render of a travelling-nut turn limiter: a threaded steel shaft with a knob on one end runs between two aluminium end plates; a brass nut on the thread is kept from spinning by a steel guide rod through its top, and two black stop collars on the shaft mark where the nut stops at each end." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A turn-counting end stop: a nut that travels along a thread, a stack of rings that pick each other up one turn at a time, or a pair of gears that slowly drift out of step lets a shaft turn freely for a set number of turns (more than one) and then blocks it solidly, in both directions.

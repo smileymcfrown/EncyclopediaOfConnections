@@ -182,6 +182,12 @@ pictures:
   drawn: true
   still: drawn/compliant-one-piece-latch.svg
   kind: animation
+- file: render/compliant-one-piece-latch.webp
+  alt: 'Render of a 3D-printed box with a one-piece springy latch: a thin plastic beam printed as part of the lid hangs down
+    the front, its hook clicked in under a small ridge on the box wall, with a tab at the bottom to lift and open it.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, dead-point, over-centre, detent, fail-safe--fail-secure, stiffness, preload, flexure, compliant-mechanism,
   cantilever, deflection, clearance, tolerance, form-fit--force-fit--material-bond, holding-force, taper, chamfer--fillet,
   undercut, return-angle, creep, fatigue, brittle--ductile, stress-concentration, perimeters, print-in-place, elephants-foot]
@@ -189,6 +195,7 @@ glossary: [misalignment, dead-point, over-centre, detent, fail-safe--fail-secure
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/compliant-one-piece-latch.svg"><img src="../media/drawn/anim/compliant-one-piece-latch.svg" alt="Animated: three side views of a one-piece plastic latch on a lid edge and a box lip: closing, the lid comes down, the sloped face of the hook rides over the lip and the thin beam bends outward, then springs straight with a click; latched, pulling the lid meets the square back of the hook; opening, a"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/compliant-one-piece-latch.webp" alt="Render of a 3D-printed box with a one-piece springy latch: a thin plastic beam printed as part of the lid hangs down the front, its hook clicked in under a small ridge on the box wall, with a tab at the bottom to lift and open it." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A latch whose hook, spring and release handle are all one flexible piece of plastic: closing the lid bends the hook over a lip until it snaps behind it, and pressing the handle bends the same springy beam the other way to let go.

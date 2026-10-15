@@ -17,6 +17,7 @@ function crown(K, rIn, rOut, n, h, y, m, down = false, skip = null) {
   return g;
 }
 export default {
+  note: 'weak: the toothed parts inside the cut barrel are hard to make out',
   alt: 'Render of a click-pen mechanism, close up: the blue upper barrel of a retractable ballpoint pen is cut open to show the push button with saw teeth on its end, the white toothed rotator sitting on top of the ink refill, and the ribs inside the tube that catch the rotator; the clear lower barrel shows the refill.',
   kind: 'cross-section',
   view: { dir: [0.45, 0.8, 0.9], fill: 2.6, target: [44, 0, 0] },

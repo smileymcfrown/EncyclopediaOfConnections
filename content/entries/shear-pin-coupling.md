@@ -175,12 +175,20 @@ pictures:
     shaft surface; normally the pin carries the turning force, but when the gear jams the pin snaps at its necks and the shaft
     spins freely inside the stopped hub until a new pin is fitted.'
   drawn: true
+- file: render/shear-pin-coupling.webp
+  alt: 'Render of a shear-pin coupling: a steel gear and its hub on a shaft, with the hub and shaft cut in half to show the
+    brass cross pin that joins them, narrowed where the hub meets the shaft so that it snaps there if the gear jams; a spare
+    pin lies in front.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, torque, fail-safe--fail-secure, form-fit--force-fit--material-bond, circlip, creep, fatigue,
   brittle--ductile, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/shear-pin-coupling.svg" alt="Two side cut-aways of a shear-pin coupling: a gear hub on a shaft joined by one cross pin with narrowed necks at the shaft surface; normally the pin carries the turning force, but when the gear jams the pin snaps at its necks and the shaft spins freely inside the stopped hub until a new pin is fitte"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/shear-pin-coupling.webp" alt="Render of a shear-pin coupling: a steel gear and its hub on a shaft, with the hub and shaft cut in half to show the brass cross pin that joins them, narrowed where the hub meets the shaft so that it snaps there if the gear jams; a spare pin lies in front." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A pin, bolt or thin section sized to break at a set force or [torque](../glossary.md#torque), so it disconnects the drive (or lets a joint go) before anything more valuable is damaged, and is replaced afterwards, like an electrical fuse.

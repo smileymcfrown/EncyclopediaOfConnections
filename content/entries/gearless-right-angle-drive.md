@@ -201,12 +201,20 @@ pictures:
   still: gearless-right-angle-drive.still.webp
   kind: animation
   drawn: false
+- file: render/gearless-right-angle-drive.webp
+  alt: 'Render of a gearless right-angle drive (Hobson''s joint): two printed drums on shafts set at a right angle, linked
+    by a ring of six L-shaped steel rods whose legs slide in holes in the faces of both drums, with the shafts held in printed
+    bearing blocks on an L-shaped base.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, axial--radial, ratchet, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   fatigue, lubrication, print-in-place, elephants-foot]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gearless-right-angle-drive.still.webp"><img src="../media/gearless-right-angle-drive.webp" alt="An animation of bent rods sliding in and out of holes in two hubs set at a right angle, carrying the turning round the corner."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:ElbowEngine.gif">ElbowEngine</a> by WT79, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/gearless-right-angle-drive.webp" alt="Render of a gearless right-angle drive (Hobson&#x27;s joint): two printed drums on shafts set at a right angle, linked by a ring of six L-shaped steel rods whose legs slide in holes in the faces of both drums, with the shafts held in printed bearing blocks on an L-shaped base." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A gearless coupling that carries rotation round a fixed corner, usually 90 degrees, at exactly the same speed: three or more rods, each bent to the corner angle, slide and turn in matching rings of holes in two hubs, which forces the hubs to turn together.

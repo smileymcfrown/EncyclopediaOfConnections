@@ -165,12 +165,20 @@ pictures:
   drawn: true
   still: drawn/bidirectional-anti-back-drive-clutch.svg
   kind: animation
+- file: render/bidirectional-anti-back-drive-clutch.webp
+  alt: 'Render of a two-way anti-back-drive roller clutch with its input part taken out: inside the fixed ring a square output
+    hub has two steel rollers and a small spring on each flat, and beside it lies the input disc with four pins that slide
+    into the gaps between the rollers, and its own shaft.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [backlash, self-locking, ratchet, pawl, freewheel, sprag, torque, crank, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond,
   circlip, creep, perimeters, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bidirectional-anti-back-drive-clutch.svg"><img src="../media/drawn/anim/bidirectional-anti-back-drive-clutch.svg" alt="Cross-section of a two-way locking clutch: a square output hub sits inside a fixed ring with spring-loaded rollers in the wedge-shaped gaps; turning the output from the load side jams the rollers, while turning the input lets its pins push the rollers free and then drive the output. Animated: in A t"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/bidirectional-anti-back-drive-clutch.webp" alt="Render of a two-way anti-back-drive roller clutch with its input part taken out: inside the fixed ring a square output hub has two steel rollers and a small spring on each flat, and beside it lies the input disc with four pins that slide into the gaps between the rollers, and its own shaft." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A 1:1 shaft coupling with wedging rollers (or a coil spring) that passes turning from the input to the output in both directions, but jams the output against a fixed housing whenever the output itself tries to turn, so a load cannot drive the motor or handle backwards.

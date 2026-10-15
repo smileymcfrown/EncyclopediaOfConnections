@@ -3,6 +3,7 @@
 // drilled into a board edge; the pair stands like a tent, hinge side up. A spare hinge lies beside
 // it, straight (closed), showing its two barrels and the links between them.
 export default {
+  note: 'weak: the hinge itself is small in the frame; a photo of the hinge in a box edge would be much better',
   alt: 'Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the corner; a spare hinge, two brass cylinders joined end to end by short links, lies on the table beside them.',
   view: { dir: [0.75, 0.95, 0.75], fill: 1.12 },
   build(K) {

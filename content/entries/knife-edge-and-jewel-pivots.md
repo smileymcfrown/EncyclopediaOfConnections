@@ -178,12 +178,20 @@ pictures:
   drawn: true
   still: drawn/knife-edge-and-jewel-pivots.svg
   kind: animation
+- file: render/knife-edge-and-jewel-pivots.webp
+  alt: 'Render of a knife-edge pivot: a brass balance beam with a sharp triangular steel blade through its middle, the blade''s
+    lower edge resting in shallow V-grooves in two polished stone seats on top of two brass pillars, so the beam can rock
+    almost without friction.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, oscillating, detent, flexure, torsion, form-fit--force-fit--material-bond, kinematic-coupling, repeatability--accuracy,
   creep, brittle--ductile, lubrication, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/knife-edge-and-jewel-pivots.svg"><img src="../media/drawn/anim/knife-edge-and-jewel-pivots.svg" alt="Two low-friction pivots in cross-section: on the left a balance beam rests on a sharp steel knife edge that rocks in a wider V-shaped seat of hard stone, touching along one line; on the right a shaft with a cone point turns in a slightly blunter cone-shaped jewel cup, touching at one tiny point. Ani"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/knife-edge-and-jewel-pivots.webp" alt="Render of a knife-edge pivot: a brass balance beam with a sharp triangular steel blade through its middle, the blade&#x27;s lower edge resting in shallow V-grooves in two polished stone seats on top of two brass pillars, so the beam can rock almost without friction." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A pivot in which a hardened sharp edge or a fine pointed pin rests on a very hard, smooth seat (agate, steel, sapphire, ruby or glass), touching only along a line or at a point, so a beam, needle or pointer can rock or turn under tiny forces with very low and very consistent friction.

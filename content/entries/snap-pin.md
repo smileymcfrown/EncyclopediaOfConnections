@@ -168,12 +168,20 @@ pictures:
     once the barbs come out the far side, and the barbs'' flat backs catch when pulled; an inset shows the pin printed lying
     flat.'
   drawn: true
+- file: render/snap-pin.webp
+  alt: 'Render of a snap pin: two round 3D-printed parts held together by a split plastic pin, both parts cut away to show
+    the pin''s two legs passing through the hole with their barbs sprung out behind a shoulder inside the lower part; a second
+    pin lies beside them.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [axial--radial, preload, cantilever, clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert,
   chamfer--fillet, undercut, return-angle, creep, brittle--ductile, elephants-foot, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/snap-pin.svg" alt="Cut-away of a split snap pin going through a hole in two plates: the legs squeeze together in the hole, spring apart once the barbs come out the far side, and the barbs&#x27; flat backs catch when pulled; an inset shows the pin printed lying flat."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/snap-pin.webp" alt="Render of a snap pin: two round 3D-printed parts held together by a split plastic pin, both parts cut away to show the pin&#x27;s two legs passing through the hole with their barbs sprung out behind a shoulder inside the lower part; a second pin lies beside them." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A separate peg whose split, springy legs squeeze through a hole and spring open behind it, so barbs on the legs hold two parts together, either fixed or as a pivot.

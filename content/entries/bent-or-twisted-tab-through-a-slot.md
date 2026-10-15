@@ -159,11 +159,19 @@ pictures:
   alt: Edge view and top view of a metal tab pushed through a slot, then either folded flat or twisted a quarter turn so it
     is too wide to pull back out.
   drawn: true
+- file: render/bent-or-twisted-tab-through-a-slot.webp
+  alt: 'Render of a bent-tab and twist-tab joint: a steel sheet stands on edge under a blue painted metal sheet, and three
+    tabs on its top edge come up through slots in the blue sheet; the first is just pushed through, the second is twisted
+    a quarter turn and the third is folded flat, so neither of those two can pull back out.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, brittle--ductile, layer-lines, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/bent-or-twisted-tab-through-a-slot.svg" alt="Edge view and top view of a metal tab pushed through a slot, then either folded flat or twisted a quarter turn so it is too wide to pull back out."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/bent-or-twisted-tab-through-a-slot.webp" alt="Render of a bent-tab and twist-tab joint: a steel sheet stands on edge under a blue painted metal sheet, and three tabs on its top edge come up through slots in the blue sheet; the first is just pushed through, the second is twisted a quarter turn and the third is folded flat, so neither of those tw" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A tab on one sheet-metal part passes through a slot in the other and is then folded over or twisted about a quarter turn, so the parts line themselves up and are locked together with no screws, rivets, glue or heat.

@@ -193,6 +193,13 @@ pictures:
   site: Wikimedia Commons
   kind: how-it-works
   drawn: false
+- file: render/lever-cam-panel-connector.webp
+  alt: 'Render of a lever-cam panel connector: two wooden panels joined edge to edge, cut away round the joint to show the
+    two lens-shaped plastic connector halves set in curved slots in each edge, and the metal lever swung across the joint,
+    hooking them together.'
+  kind: cross-section
+  render: true
+  drawn: true
 - file: lever-cam-panel-connector-d62773.webp
   title: File:Clamex geschlossen.jpg
   author: böhringer friedrich
@@ -209,6 +216,7 @@ glossary: [over-centre, preload, tolerance, form-fit--force-fit--material-bond, 
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/lever-cam-panel-connector.webp" alt="A see-through render of a lever-cam connector in two panel edges, the green cam lever swung open so the panels can part."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clamex_offen.jpg">Clamex offen</a> by böhringer friedrich, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/lever-cam-panel-connector.webp" alt="Render of a lever-cam panel connector: two wooden panels joined edge to edge, cut away round the joint to show the two lens-shaped plastic connector halves set in curved slots in each edge, and the metal lever swung across the joint, hooking them together." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/lever-cam-panel-connector-d62773.webp" alt="The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels tight together." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Clamex_geschlossen.jpg">Clamex geschlossen</a> by böhringer friedrich, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

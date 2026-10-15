@@ -187,12 +187,19 @@ pictures:
   drawn: true
   still: drawn/detent-hinge.svg
   kind: animation
+- file: render/detent-hinge.webp
+  alt: Render of a black plastic detent hinge held open at a right angle, cut in half across its knuckle to show a spring
+    in the fixed leaf pushing a steel ball into one of three notches in the moving leaf's round knuckle.
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [over-centre, bistable, detent, ratchet, pawl, torque, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, lubrication, layer-lines, perimeters, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/detent-hinge.svg"><img src="../media/drawn/anim/detent-hinge.svg" alt="Left: a cut-away hinge knuckle with three notches, where a spring pushes a ball into one notch to hold the lid at 0, 90 or 120 degrees. Right: a sofa-style ratchet fitting, where a pawl clicks up a row of teeth as the arm is raised and a bump at the end knocks it clear so the arm can fold back down;"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/detent-hinge.webp" alt="Render of a black plastic detent hinge held open at a right angle, cut in half across its knuckle to show a spring in the fixed leaf pushing a steel ball into one of three notches in the moving leaf&#x27;s round knuckle." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A hinge with a built-in click mechanism (a spring pressing a ball, wedge, tooth or springy arm into notches, or a [pawl](../glossary.md#pawl) in a toothed segment) that holds a lid, door, leg or backrest at preset angles until it is pushed firmly on.

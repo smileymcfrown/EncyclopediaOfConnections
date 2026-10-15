@@ -176,6 +176,13 @@ pictures:
     the block off-centre by the whole error, and on the right twelve thin springy ribs, each a little off and bent by a different
     amount, push from both sides so the block settles in the middle where their errors average out.'
   drawn: true
+- file: render/elastic-averaging.webp
+  alt: 'Render of elastic averaging: a 3D-printed base with two square pockets lined with many thin springy fins; a printed
+    block is pressed into one pocket, bending all the fins a little so it sits centred, and the other pocket is empty to show
+    the fins.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, torque, stiffness, preload, flexure, cantilever, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, chamfer--fillet, kinematic-coupling, exact-constraint, over-constraint, elastic-averaging,
   repeatability--accuracy, creep, fatigue, brittle--ductile, galling--fretting, layer-lines, support-material]
@@ -183,6 +190,7 @@ glossary: [misalignment, backlash, axial--radial, torque, stiffness, preload, fl
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/elastic-averaging.svg" alt="Two cut-through views of a block sitting in a pocket: on the left one stiff pin in a slightly misplaced hole pushes the block off-centre by the whole error, and on the right twelve thin springy ribs, each a little off and bent by a different amount, push from both sides so the block settles in the m"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/elastic-averaging.webp" alt="Render of elastic averaging: a 3D-printed base with two square pockets lined with many thin springy fins; a printed block is pressed into one pocket, bending all the fins a little so it sits centred, and the other pocket is empty to show the fins." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 [Elastic averaging](../glossary.md#elastic-averaging) locates two parts with many more small springy contact features than strictly needed, so each feature flexes slightly and their individual errors average out, giving a stiff, repeatable fit from loosely made parts.

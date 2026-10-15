@@ -164,6 +164,12 @@ pictures:
   drawn: true
   still: drawn/torsional-snap-fit.svg
   kind: animation
+- file: render/torsional-snap-fit.webp
+  alt: 'Render of a torsional snap fit on a 3D-printed box: a rocker arm on the side of the box is held on a thin bar between
+    two lugs, with its hook over the edge of the lid and a ridged press pad below the bar that tips the hook clear when pressed.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, over-centre, fail-safe--fail-secure, stiffness, flexure, cantilever, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, holding-force, chamfer--fillet, undercut, creep, fatigue, brittle--ductile, perimeters,
   infill, elephants-foot, peel-vs-shear]
@@ -171,6 +177,7 @@ glossary: [misalignment, over-centre, fail-safe--fail-secure, stiffness, flexure
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/torsional-snap-fit.svg"><img src="../media/drawn/anim/torsional-snap-fit.svg" alt="Side views of a box edge with a see-saw catch arm pivoting on a thin bar that twists: the closing lid pushes the sloped hook outward and twists the bar, then the hook springs back over the lid to lock it, and pressing the pad below the bar tips the hook clear so the lid lifts free; the first and las"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/torsional-snap-fit.webp" alt="Render of a torsional snap fit on a 3D-printed box: a rocker arm on the side of the box is held on a thin bar between two lugs, with its hook over the edge of the lid and a ridged press pad below the bar that tips the hook clear when pressed." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A snap catch whose hooked arm is carried on a short bar that twists like a tiny spring ([torsion](../glossary.md#torsion) bar), so the hook clicks behind a lip when the lid closes and swings clear when you press the other end of the arm.

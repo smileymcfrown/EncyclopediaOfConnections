@@ -205,6 +205,13 @@ pictures:
   site: Wikimedia Commons
   kind: diagram
   drawn: false
+- file: render/kinematic-coupling.webp
+  alt: 'Render of a kinematic coupling: a round black aluminium plate with three V-grooves pointing to its centre, each made
+    of two steel pins, and a magnet in the middle; beside it the matching blue top plate lies upside down, showing the three
+    steel balls that drop into the grooves.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [degrees-of-freedom, backlash, stiffness, preload, deflection, clearance, set-screw, taper, heat-set-insert, keying,
   kinematic-coupling, exact-constraint, over-constraint, elastic-averaging, repeatability--accuracy, creep, galling--fretting,
   infill]
@@ -212,6 +219,7 @@ glossary: [degrees-of-freedom, backlash, stiffness, preload, deflection, clearan
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/kinematic-coupling.webp" alt="A drawing of a Maxwell kinematic coupling, a top disc with three round balls above a bottom disc with three V-grooves pointing to the centre."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Maxwell_kinematic_coupling.png">Maxwell kinematic coupling</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/kinematic-coupling.webp" alt="Render of a kinematic coupling: a round black aluminium plate with three V-grooves pointing to its centre, each made of two steel pins, and a magnet in the middle; beside it the matching blue top plate lies upside down, showing the three steel balls that drop into the grooves." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A locating joint that touches at exactly six points, two for each of three balls sitting in three V-grooves (or three, two and one points for a Kelvin coupling), which pins down all six ways a part can move so it always drops back into the same position, while a light hold-down such as gravity, magnets or springs keeps it seated.

@@ -14,6 +14,7 @@ function plate(K, w, d, r, h, m, holes = []) {
 }
 
 export default {
+  note: 'weak: a generic shape, not a recognisable magnetic buckle such as a Fidlock',
   alt: 'Render of a magnetic buckle, open: the dark plastic socket half lies face up with its strap, showing a pocket with a round magnet and a small ledge; beside it the plug half lies face down with its strap, showing the hook tongue and the steel disc that the magnet pulls into the pocket.',
   view: { dir: [0.2, 0.8, 1.0], fill: 1.2 },
   build(K) {

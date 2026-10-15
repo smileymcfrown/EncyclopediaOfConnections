@@ -234,12 +234,20 @@ pictures:
   still: air-logic-valve.still.webp
   kind: animation
   drawn: false
+- file: render/air-logic-valve.webp
+  alt: 'Render of a shuttle valve, the simplest air-logic element, cut in half: inside a brass body a steel ball sits against
+    one inlet seat, so air from the other inlet passes round it to the outlet on top; push-in fittings with blue and black
+    air tubes are attached.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [oscillating, stroke, over-centre, bistable, actuator, solenoid, fail-safe--fail-secure, stiffness, compliant-mechanism,
   hysteresis, perimeters, infill, support-material, check-valve, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-logic-valve.still.webp"><img src="../media/air-logic-valve.webp" alt="An animated cut-away of a shuttle valve, a ball pushed from side to side by air arriving at either inlet so the air always reaches the one outlet."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif">Shuttle valve action principle cross section</a> by 鐵路Railway, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/air-logic-valve.webp" alt="Render of a shuttle valve, the simplest air-logic element, cut in half: inside a brass body a steel ball sits against one inlet seat, so air from the other inlet passes round it to the outlet on top; push-in fittings with blue and black air tubes are attached." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A valve whose on/off state is set by air pressure in a control tube instead of by a button or an electric coil; combined with other such valves through tubing it performs simple logic (AND, OR, NOT), memory and timing, and a loop of them oscillates to drive the legs of an electronics-free soft robot from one steady air supply.

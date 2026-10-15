@@ -195,12 +195,19 @@ pictures:
     cracks along a layer line, a larger hole where only four small ribs squash, and a hole beside a slot that leaves a thin
     springy arm pressing the part against two bumps.'
   drawn: true
+- file: render/crush-ribs-and-spring-fit-features.webp
+  alt: 'Render of crush ribs: a 3D-printed plate with two holes for ball bearings, each hole lined with four narrow ribs running
+    down its wall; a bearing is pressed into one hole and a second bearing lies beside the empty one, ready to push in.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [stiffness, cantilever, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   taper, captive-nut, chamfer--fillet, elastic-averaging, creep, brittle--ductile, layer-lines, perimeters, kerf, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/crush-ribs-and-spring-fit-features.svg" alt="Three top views of a round part pressed into a printed plate: a plain tight hole whose whole wall is stretched and cracks along a layer line, a larger hole where only four small ribs squash, and a hole beside a slot that leaves a thin springy arm pressing the part against two bumps."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/crush-ribs-and-spring-fit-features.webp" alt="Render of crush ribs: a 3D-printed plate with two holes for ball bearings, each hole lined with four narrow ribs running down its wall; a bearing is pressed into one hole and a second bearing lies beside the empty one, ready to push in." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A press fit made forgiving: instead of the whole hole gripping the part, a few narrow ribs squash or a thin springy arm bends, so the grip stays about right over a much wider range of sizes.

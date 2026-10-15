@@ -210,12 +210,12 @@ def write_render_register(pics, rmeta, M):
          '**To replace a render with a real photo:** in `content/media/pictures.yaml`, put the photo in the page\'s',
          'list (`commons: "File:..."` with `kind` and `alt`) and remove `render`, then run `tools/fetch_images.py`',
          '(the *Fetch pictures* workflow) and `tools/make_entries.py`. The model can stay in `tools/renders/models/`.',
-         '', f'{len(used)} pages use a render.', '',
-         '| Page | Kind | What it shows |', '|---|---|---|']
+         '', f'{len(used)} pages use a render. The ones marked **weak** most need a real photo.', '',
+         '| Page | Kind | What it shows | Note |', '|---|---|---|---|']
     for p in used:
         m = rmeta[p]
         L.append(f'| [{p}](../../entries/{p}.md) | {"cut-away render" if m.get("kind") == "cross-section" else "render"} | '
-                 f'{m["alt"].replace("|", "/")} |')
+                 f'{m["alt"].replace("|", "/")} | {(m.get("note") or "").replace("|", "/")} |')
     if unused:
         L += ['', 'Rendered but not shown on any page: ' + ', '.join(unused) + '.']
     open(os.path.join(M, 'render', 'README.md'), 'w').write('\n'.join(L) + '\n')

@@ -191,12 +191,20 @@ pictures:
   still: rigid-chain-actuator.still.webp
   kind: animation
   drawn: false
+- file: render/rigid-chain-actuator.webp
+  alt: 'Render of a rigid chain actuator of the kind that opens windows: a slim aluminium box with a stainless steel chain
+    sticking straight out of the middle of its side, its links locked into a stiff straight bar held out in the air, ending
+    in a mounting bracket; a power cable leaves one end.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
   overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/rigid-chain-actuator.still.webp"><img src="../media/rigid-chain-actuator.webp" alt="A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar and pulling it back in."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif">Rigid Chain Actuator</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/rigid-chain-actuator.webp" alt="Render of a rigid chain actuator of the kind that opens windows: a slim aluminium box with a stainless steel chain sticking straight out of the middle of its side, its links locked into a stiff straight bar held out in the air, ending in a mounting bracket; a power cable leaves one end." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A motor-driven sprocket feeds out a chain whose links can bend only one way, and as they leave the housing they lock into a stiff bar that can push and pull a load; running backwards draws the chain in, where it bends again and coils or folds into a small magazine.

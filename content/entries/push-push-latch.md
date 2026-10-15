@@ -195,12 +195,20 @@ pictures:
   drawn: true
   still: drawn/push-push-latch.svg
   kind: animation
+- file: render/push-push-latch.webp
+  alt: 'Render of a push-push latch with its housing cut open: inside the white plastic body a black slider carries a heart-shaped
+    track, a thin steel wire reaches into the track and rests in the notch at the top of the heart, a coil spring behind the
+    slider pushes it outwards, and the plunger with a rubber tip sticks out of the front.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
   overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/push-push-latch.svg"><img src="../media/drawn/anim/push-push-latch.svg" alt="A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released. Animated: the pin runs round the loop one way, and in the side section the stepped groove floor slides under the sprung pin, which rides"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/push-push-latch.webp" alt="Render of a push-push latch with its housing cut open: inside the white plastic body a black slider carries a heart-shaped track, a thin steel wire reaches into the track and rests in the notch at the top of the heart, a coil spring behind the slider pushes it outwards, and the plunger with a rubber" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
