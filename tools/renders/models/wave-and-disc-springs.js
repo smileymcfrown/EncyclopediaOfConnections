@@ -27,13 +27,13 @@ function flatWire(K, R, w, t, turns, z, m, closed) {
 export default {
   alt: 'Render of wave and disc springs: a stack of six dark cone-shaped disc springs on a bolt between flat washers, a quarter cut away to show them facing alternately in a zigzag, with a shiny multi-turn wavy flat-wire wave spring standing beside it and a single wave washer lying flat in front.',
   kind: 'cross-section',
-  view: { dir: [0.5, 0.75, 1.3], fill: 1.0, light: [-0.4, 1, 0.8] },
+  view: { dir: [0.5, 0.75, 1.3], fill: 1.05, light: [-0.4, 1, 0.8] },
   build(K) {
     const { group, at, lathe, hex, threaded, mat } = K;
     const parts = [];
     // M12 bolt, head down, with the disc-spring stack between two flat washers and a nut on top
     const ri = 6.15, ro = 12.5, t = 1.0, h0 = 1.1, l0 = t + h0;
-    const disc = (flip) => lathe((flip ? [[ri, 0], [ro, h0], [ro, l0], [ri, t]] : [[ri, h0], [ro, 0], [ro, t], [ri, l0]]), mat.castIron(), { cut: 90, cutMat: mat.cut(0xb4b9bf) });
+    const disc = (flip) => lathe((flip ? [[ri, 0], [ro, h0], [ro, l0], [ri, t]] : [[ri, h0], [ro, 0], [ro, t], [ri, l0]]), mat.castIron(), { cut: 90, cutMat: mat.cut() });
     const washerCut = { cut: 90, cutMat: mat.cut(0xd3d8de) };
     parts.push(at(group(hex(18, 7.5, mat.zinc())), [0, 3.75, 0]));
     parts.push(at(threaded(6, 1.75, 36, mat.zinc()), [0, 7.5, 0]));
