@@ -1600,8 +1600,9 @@ clamp-on-accessory-mount-for-bars-poles-and-edges:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg
-  alt: A stage-lighting C-clamp (pipe clamp) with its clamp bolt and spigot
+  alt: A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light.
   site: Wikimedia Commons
+  kind: photo
 clamp-on-tube-fittings:
 - src: File:Basic kee klamp.jpg
   file: clamp-on-tube-fittings.webp
@@ -3111,20 +3112,45 @@ float-valve:
   site: Wikimedia Commons
   kind: diagram
 flywheel:
-- src: File:Spoked flywheel animation.gif
-  file: flywheel.webp
-  width: 116
-  height: 111
-  title: File:Spoked flywheel animation.gif
-  author: Occupational Safety & Health Administration (OSHA) part of the U.S. Department of Labor
+- src: File:Beta stirling animation.gif
+  file: flywheel-b9df00.webp
+  width: 453
+  height: 189
+  title: File:Beta stirling animation.gif
+  author: Van helsing
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Beta_stirling_animation.gif
+  site: Wikimedia Commons
+  alt: Animation of a small hot-air engine whose heavy spoked flywheel keeps turning and carries the crank round between power
+    strokes.
+  kind: animation
+  animated: true
+  still: flywheel-b9df00.still.webp
+- src: File:Flywheel from old factory.jpg
+  file: flywheel-f80ac2.webp
+  width: 800
+  height: 633
+  title: File:Flywheel from old factory.jpg
+  author: unknown
   license: Public domain
   license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Spoked_flywheel_animation.gif
-  alt: 'Animation of a spinning spoked flywheel: heavy rim, spokes and hub'
-  animated: true
+  source: https://commons.wikimedia.org/wiki/File:Flywheel_from_old_factory.jpg
   site: Wikimedia Commons
-  still: flywheel.still.webp
-  kind: animation
+  alt: A huge cast-iron flywheel from an old factory engine, still joined by its crank to the engine's connecting rod.
+  kind: how-it-works
+- src: File:Flywheel (2).jpg
+  file: flywheel-c61222.webp
+  width: 800
+  height: 620
+  title: File:Flywheel (2).jpg
+  author: Al Riaz Uddin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Flywheel_(2).jpg
+  site: Wikimedia Commons
+  alt: A heavy steel flywheel on a short shaft held in a wall bracket.
+  kind: photo
 folded-seam:
 - src: File:Can solderless seam cutaway.jpg
   file: folded-seam.webp
@@ -7392,8 +7418,34 @@ spring-clip-clamp:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Clothespin-0157e3.jpg
-  alt: A wooden spring clothespin, with the coiled wire spring that acts as its pivot and closes the jaws.
+  alt: A wooden clothes peg, two wooden jaws pressed together at the front by a coiled wire spring in the middle.
   site: Wikimedia Commons
+  kind: photo
+- src: File:1980s heavy duty metal spring clamp nr 480 6 inch by Swedish company EIA Edsbyns Industrier AB currently SNA Europe.jpg
+  file: spring-clip-clamp-37ce7d.webp
+  width: 800
+  height: 546
+  title: File:1980s heavy duty metal spring clamp nr 480 6 inch by Swedish company EIA Edsbyns Industrier AB currently SNA
+    Europe.jpg
+  author: R. Henrik Nilsson
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:1980s_heavy_duty_metal_spring_clamp_nr_480_6_inch_by_Swedish_company_EIA_Edsbyns_Industrier_AB_currently_SNA_Europe.jpg
+  site: Wikimedia Commons
+  alt: A heavy-duty metal spring clamp with plastic-tipped jaws, set on a rock beside a lake.
+  kind: photo
+- src: File:Blue clamp 01 ies.jpg
+  file: spring-clip-clamp-c2feb3.webp
+  width: 800
+  height: 533
+  title: File:Blue clamp 01 ies.jpg
+  author: Frank Vincentz
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Blue_clamp_01_ies.jpg
+  site: Wikimedia Commons
+  alt: A blue plastic spring clamp, squeezed at the handles to open the jaws.
+  kind: photo
 spring-gate-hook:
 - src: File:Assorted Biners.jpg
   file: spring-gate-hook.webp

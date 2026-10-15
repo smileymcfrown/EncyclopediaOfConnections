@@ -120,10 +120,60 @@ sources:
 - https://www.youtube.com/watch?v=P-xT0xrK6AE
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Flywheel_inertia_wheel_friction_motor.json
-image: null
-pictures: []
+image:
+  file: flywheel-b9df00.webp
+  title: File:Beta stirling animation.gif
+  author: Van helsing
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Beta_stirling_animation.gif
+  site: Wikimedia Commons
+  alt: Animation of a small hot-air engine whose heavy spoked flywheel keeps turning and carries the crank round between power
+    strokes.
+  kind: animation
+  still: flywheel-b9df00.still.webp
+  drawn: false
+pictures:
+- file: flywheel-b9df00.webp
+  title: File:Beta stirling animation.gif
+  author: Van helsing
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Beta_stirling_animation.gif
+  site: Wikimedia Commons
+  alt: Animation of a small hot-air engine whose heavy spoked flywheel keeps turning and carries the crank round between power
+    strokes.
+  kind: animation
+  still: flywheel-b9df00.still.webp
+  drawn: false
+- file: flywheel-f80ac2.webp
+  title: File:Flywheel from old factory.jpg
+  author: unknown
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Flywheel_from_old_factory.jpg
+  site: Wikimedia Commons
+  alt: A huge cast-iron flywheel from an old factory engine, still joined by its crank to the engine's connecting rod.
+  kind: how-it-works
+  drawn: false
+- file: flywheel-c61222.webp
+  title: File:Flywheel (2).jpg
+  author: Al Riaz Uddin
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Flywheel_(2).jpg
+  site: Wikimedia Commons
+  alt: A heavy steel flywheel on a short shaft held in a wall bracket.
+  kind: photo
+  drawn: false
 glossary: [stroke, freewheel, torque, gear-ratio, crank, set-screw, creep, fatigue, infill, elephants-foot]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/flywheel-b9df00.still.webp"><img src="../media/flywheel-b9df00.webp" alt="Animation of a small hot-air engine whose heavy spoked flywheel keeps turning and carries the crank round between power strokes."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Beta_stirling_animation.gif">Beta stirling animation</a> by Van helsing, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flywheel-f80ac2.webp" alt="A huge cast-iron flywheel from an old factory engine, still joined by its crank to the engine&#x27;s connecting rod." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flywheel_from_old_factory.jpg">Flywheel from old factory</a> by unknown, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flywheel-c61222.webp" alt="A heavy steel flywheel on a short shaft held in a wall bracket." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flywheel_(2).jpg">Flywheel (2)</a> by Al Riaz Uddin, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
 
 A flywheel is a heavy wheel on a shaft that stores energy as spin, so it evens out jerky turning, carries a [crank](../glossary.md#crank) past the points where it can't be pushed round, and keeps a machine or toy going for a while after the push stops.
 
