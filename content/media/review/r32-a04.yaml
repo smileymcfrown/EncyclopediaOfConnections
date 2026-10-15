@@ -299,3 +299,63 @@ stopper-knots-and-cord-end-anchors:
   needs_animation: false
   needs_photo: false
   note: "No photo of a cord anchored in a hole of a part; both photos are knots on their own."
+straight-line-linkages:
+  pictures:
+    - commons: "File:Watts Linkage.gif"
+      kind: animation
+      alt: "Animation of Watt's linkage: two swinging arms are joined by a short bar, and the bar's midpoint moves up and down in a nearly straight line."
+  needs_animation: false
+  needs_photo: true
+  note: "All candidates are animations or patent drawings; no real photo of a straight-line linkage."
+strain-wave-gear:
+  pictures:
+    - commons: "File:Harmonic-drive-explanation.gif"
+      kind: animation
+      alt: "Animation of a strain-wave gear: an oval cam turns inside a flexible toothed ring, bending it so its teeth mesh with a rigid outer ring at two points, and a mark shows the flexible ring creeping round slowly the other way."
+    - candidate: 3
+      kind: how-it-works
+      alt: "The three parts of a Harmonic Drive gear set laid out: the oval wave-generator bearing, the thin flexible toothed cup and the rigid ring with teeth inside."
+    - candidate: 6
+      kind: photo
+      alt: "Close-up of an assembled strain-wave gear from the front, showing the oval bearing inside the flexible toothed ring and the bolt holes round the outer ring."
+  needs_animation: false
+  needs_photo: false
+stretch-release-adhesive-strips:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: "No candidates on the sheet."
+structural-acrylic-and-low-surface-energy-plastic-adhesives:
+  pictures:
+    - drawn
+    - candidate: 3
+      kind: photo
+      alt: "A box of two-part adhesive cartridges seen end-on, the kind of twin cartridge that structural acrylic glues are sold in."
+  needs_animation: false
+  needs_photo: true
+  note: "#3 is a generic two-part glue cartridge (may be epoxy); a photo of an LSE glue or a bonded polyethylene part would be better."
+strut-hub:
+  pictures:
+    - drawn
+    - commons: "File:Gordons Dome strut hub (50173588816).jpg"
+      kind: how-it-works
+      alt: "Looking up inside a dome: six wooden struts meet at a metal hub that holds their ends at fixed angles (shown as a side-by-side 3D pair)."
+    - candidate: 11
+      kind: photo
+      alt: "A laser-cut wooden geodesic sphere on a table, built from flat struts joined at small star-shaped hubs."
+  needs_animation: false
+  needs_photo: false
+suction-cup:
+  pictures:
+    - commons: "File:Suction cup pressure from collisions.svg"
+      kind: diagram
+      alt: "Diagram of a suction cup on a surface: air molecules outside push on the cup much harder than the few left in the low-pressure pocket underneath."
+    - candidate: 7
+      kind: how-it-works
+      alt: "A clear suction cup stuck to a window, its flattened rim sealed against the glass with the sky behind."
+    - candidate: 6
+      kind: photo
+      alt: "Two clear plastic suction cups with knobs on top, lying on a surface."
+  needs_animation: false
+  needs_photo: false

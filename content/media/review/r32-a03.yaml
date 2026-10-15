@@ -426,3 +426,26 @@ self-locking-wedge:
       alt: A plain wooden wedge door stop lying on the floor.
   needs_animation: true
   needs_photo: false
+self-tapping-screw-into-plastic:
+  pictures:
+    - drawn
+  needs_animation: false
+  needs_photo: true
+  note: candidate 1 shows mostly sheet-metal and self-drilling screws, not screws for plastic; the rest are unrelated.
+series-elastic-coupling:
+  pictures:
+    - drawn
+    - candidate: 1
+      kind: how-it-works
+      alt: A block diagram of a series elastic actuator above a labelled photo of a real one, with the motor, ball screw, springs and sensor in a row.
+  needs_animation: false
+  needs_photo: false
+  note: candidate 1 is a figure with a small labelled photo (a straight-line actuator); candidate 2 is a variable-stiffness actuator, a related but different device.
+servo-horn-and-spline-hub:
+  pictures:
+    - commons: "File:Futaba 6-Arm plastic servo horn.jpg"
+      kind: photo
+      alt: A black six-armed plastic servo horn with a toothed (splined) hole in its centre and small holes along each arm.
+  needs_animation: false
+  needs_photo: false
+  note: a photo of a horn fitted on a servo's splined shaft would show the connection better; none on the sheet.
