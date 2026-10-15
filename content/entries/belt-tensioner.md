@@ -123,8 +123,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg
-  alt: A bicycle chain tensioner, a small red pulley on a sprung arm pressing on the slack lower run of the chain.
+  alt: A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against
+    the slack lower run of the chain.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: belt-tensioner.webp
@@ -133,14 +135,16 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg
-  alt: A bicycle chain tensioner, a small red pulley on a sprung arm pressing on the slack lower run of the chain.
+  alt: A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against
+    the slack lower run of the chain.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, freewheel, pitch, idler, stiffness, preload, deflection, torsion, creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/belt-tensioner.webp" alt="A bicycle chain tensioner, a small red pulley on a sprung arm pressing on the slack lower run of the chain."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg">Kettenspanner für Singlespeed-Räder</a> by Kab/http://du-und-dein-fahrrad.de, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/belt-tensioner.webp" alt="A bicycle chain tensioner bolted to the back of the frame, its spring-loaded arm pressing a small red wheel against the slack lower run of the chain."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kettenspanner_f%C3%BCr_Singlespeed-R%C3%A4der.jpg">Kettenspanner für Singlespeed-Räder</a> by Kab/http://du-und-dein-fahrrad.de, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A free-spinning pulley, sprocket or plastic shoe pushed against the slack side of a belt or chain by a spring (or set by a screw) so the drive stays snug as the belt or chain stretches and wears.

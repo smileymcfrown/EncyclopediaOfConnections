@@ -149,9 +149,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif
-  alt: A heavy forged eye bolt with a shoulder (collar), the type that can take angled loads (used as 'Heavy forged eye bolt,
-    with shoulder' on Wikipedia 'Eye bolt')
+  alt: A heavy forged eye bolt painted red, with a collar (shoulder) between the round eye and the machine thread.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: eye-bolts-screw-eyes-and-hooks.webp
@@ -160,16 +160,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif
-  alt: A heavy forged eye bolt with a shoulder (collar), the type that can take angled loads (used as 'Heavy forged eye bolt,
-    with shoulder' on Wikipedia 'Eye bolt')
+  alt: A heavy forged eye bolt painted red, with a collar (shoulder) between the round eye and the machine thread.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, pilot-hole, counterbore--countersink, undercut, creep, perimeters,
   infill, end-grain]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/eye-bolts-screw-eyes-and-hooks.webp" alt="A heavy forged eye bolt with a shoulder (collar), the type that can take angled loads (used as &#x27;Heavy forged eye bolt, with shoulder&#x27; on Wikipedia &#x27;Eye bolt&#x27;)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif">Anneau de levage CM</a> by Contribus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/eye-bolts-screw-eyes-and-hooks.webp" alt="A heavy forged eye bolt painted red, with a collar (shoulder) between the round eye and the machine thread."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anneau_de_levage_CM.tif">Anneau de levage CM</a> by Contribus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A screw or bolt that ends in a closed loop (eye) or an open hook, fixed into wood, masonry or a tapped hole to give a rope, wire, spring, chain or hanging object a fixed point to attach to; bent-wire eyes and hooks are for light loads only, while forged, shouldered and marked lifting eyes carry heavy, angled pulls.

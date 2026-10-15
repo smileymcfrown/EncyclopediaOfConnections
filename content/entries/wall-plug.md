@@ -149,8 +149,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wall_plugs_plastic_(cropped).jpg
-  alt: Photo of ribbed plastic wall plugs
+  alt: Plastic wall plugs, ribbed sleeves with split ends that spread out when a screw is driven in.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: wall-plug.webp
@@ -159,15 +160,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wall_plugs_plastic_(cropped).jpg
-  alt: Photo of ribbed plastic wall plugs
+  alt: Plastic wall plugs, ribbed sleeves with split ends that spread out when a screw is driven in.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, undercut, repeatability--accuracy,
   creep, perimeters, infill, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wall-plug.webp" alt="Photo of ribbed plastic wall plugs"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wall_plugs_plastic_(cropped).jpg">Wall plugs plastic (cropped)</a> by Rawlplug/Joanna Korzeniewska-Wieczorek, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wall-plug.webp" alt="Plastic wall plugs, ribbed sleeves with split ends that spread out when a screw is driven in."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wall_plugs_plastic_(cropped).jpg">Wall plugs plastic (cropped)</a> by Rawlplug/Joanna Korzeniewska-Wieczorek, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A wall plug is a plastic (once fibre or wood) sleeve that you push into a hole drilled in brick, block, stone or concrete; driving a screw into it spreads the sleeve against the hole so the screw can hold a shelf, bracket or cabinet, and bigger metal or resin anchors do the same job for heavy loads.

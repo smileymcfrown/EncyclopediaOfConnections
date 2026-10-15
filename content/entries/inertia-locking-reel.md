@@ -119,8 +119,9 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg
-  alt: Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99
+  alt: A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: inertia-locking-reel.webp
@@ -129,14 +130,15 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg
-  alt: Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99
+  alt: A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, ratchet, pawl, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/inertia-locking-reel.webp" alt="Photo of an inertial-reel seat belt with the roll of webbing exposed, retrofitted in a 1973 Saab 99"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg">Intertial-reel</a> by Liftarn, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/inertia-locking-reel.webp" alt="A car seat-belt inertia reel bolted to the floor, with the belt coming off its exposed spool."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Intertial-reel.jpg">Intertial-reel</a> by Liftarn, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A spring-return reel whose spool turns freely for slow movements, but whose built-in inertia sensor (a swinging pendulum, a rolling ball, or a flyweight or inertia wheel on the spool) throws a catch into [ratchet](../glossary.md#ratchet) teeth to lock it the moment the line is jerked or the vehicle decelerates sharply.

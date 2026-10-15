@@ -147,8 +147,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg
-  alt: Labelled diagram of a helical compression spring and its main dimensions and symbols
+  alt: A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: coil-spring.webp
@@ -157,15 +158,16 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg
-  alt: Labelled diagram of a helical compression spring and its main dimensions and symbols
+  alt: A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [axial--radial, over-centre, detent, ratchet, pawl, torque, pitch, stiffness, preload, cantilever, deflection, torsion,
   damping, clearance, tolerance, creep, fatigue, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/coil-spring.webp" alt="Labelled diagram of a helical compression spring and its main dimensions and symbols"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg">Helical compression spring parameters</a> by Yapparina, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/coil-spring.webp" alt="A drawing of a coil compression spring with its wire diameter, coil diameter, pitch and free length marked."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Helical_compression_spring_parameters.svg">Helical compression spring parameters</a> by Yapparina, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A length of springy wire wound into a helix that stores energy when it is squashed (compression spring), stretched (extension spring) or twisted by its arms ([torsion](../glossary.md#torsion) spring), and gives it back as a push, a pull or a turning force roughly in proportion to how far it was moved.

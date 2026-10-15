@@ -151,8 +151,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Dashpot.svg
-  alt: 'Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder'
+  alt: A cut-away drawing of a dashpot, a piston on a rod inside a cylinder full of oil.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: dampers.webp
@@ -161,15 +162,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Dashpot.svg
-  alt: 'Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder'
+  alt: A cut-away drawing of a dashpot, a piston on a rod inside a cylinder full of oil.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [axial--radial, stroke, detent, torque, gear-ratio, actuator, damping, clearance, creep, perimeters, peel-vs-shear,
   o-ring, check-valve]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/dampers.webp" alt="Simplified cutaway diagram of a dashpot: a piston in a fluid-filled cylinder"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Dashpot.svg">Dashpot</a> by Egmason, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/dampers.webp" alt="A cut-away drawing of a dashpot, a piston on a rod inside a cylinder full of oil."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dashpot.svg">Dashpot</a> by Egmason, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A damper is a sealed oil- or air-filled part whose resistance grows with speed, fitted at a hinge or along a slide so that a falling lid, a sprung drawer or a closing door slows down and settles quietly instead of slamming.

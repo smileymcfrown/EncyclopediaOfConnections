@@ -126,8 +126,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Bowden.jpg
-  alt: 'Cut-away photo of a Bowden cable: plastic outer coating, steel structure, inner low-friction sleeve and inner cable'
+  alt: A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the
+    inner wire.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: bowden-cable.webp
@@ -136,14 +138,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Bowden.jpg
-  alt: 'Cut-away photo of a Bowden cable: plastic outer coating, steel structure, inner low-friction sleeve and inner cable'
+  alt: A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the
+    inner wire.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [misalignment, backlash, linkage, stick-slip, form-fit--force-fit--material-bond, chamfer--fillet, fatigue]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bowden-cable.webp" alt="Cut-away photo of a Bowden cable: plastic outer coating, steel structure, inner low-friction sleeve and inner cable"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Bowden.jpg">Bowden</a> by Baran Ivo, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bowden-cable.webp" alt="A Bowden cable cut away in layers, showing the plastic coating, the coiled steel outer, a low-friction liner and the inner wire."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bowden.jpg">Bowden</a> by Baran Ivo, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 An inner wire sliding inside a flexible outer sleeve that is fixed at both ends carries a pull (and, in push-pull versions, a push) from a lever or motor to a distant part along any curving route, as in bike brakes, car throttles and 3D-printer Bowden extruders.

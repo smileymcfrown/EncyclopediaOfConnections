@@ -146,7 +146,7 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif
-  alt: Animation of a belt running onto its pulley, showing the in-running nip point
+  alt: An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley.
   site: Wikimedia Commons
   still: belt-drives.still.webp
   kind: animation
@@ -158,7 +158,7 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif
-  alt: Animation of a belt running onto its pulley, showing the in-running nip point
+  alt: An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley.
   site: Wikimedia Commons
   still: belt-drives.still.webp
   kind: animation
@@ -169,7 +169,7 @@ glossary: [misalignment, backlash, ratchet, torque, pitch, idler, deflection, cl
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/belt-drives.still.webp"><img src="../media/belt-drives.webp" alt="Animation of a belt running onto its pulley, showing the in-running nip point"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif">Power transmission belt</a> by Occupational Safety &amp; Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/belt-drives.still.webp"><img src="../media/belt-drives.webp" alt="An animation of a drive belt running onto its pulley as the pulley turns, showing where the belt meets the pulley."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Power_transmission_belt.gif">Power transmission belt</a> by Occupational Safety &amp; Health Administration (OSHA) part of the U.S. Department of Labor, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A flexible loop runs around two or more pulleys and carries rotation from one shaft to another, speeding it up or slowing it down according to the pulley sizes; toothed (timing) belts mesh like gears and never slip, while V-belts and round belts grip by friction and can slip when overloaded.

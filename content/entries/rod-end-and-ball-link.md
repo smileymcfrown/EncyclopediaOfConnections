@@ -133,8 +133,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Heim_Joint.svg
-  alt: 'Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft'
+  alt: A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: rod-end-and-ball-link.webp
@@ -143,15 +144,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Heim_Joint.svg
-  alt: 'Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft'
+  alt: A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [misalignment, axial--radial, lever-arm, linkage, actuator, clearance, form-fit--force-fit--material-bond, set-screw,
   threadlocker, creep, perimeters, infill, print-in-place, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/rod-end-and-ball-link.webp" alt="Labelled drawing of a male-threaded rod end: casing, ball swivel, hole for the bolt and threaded shaft"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Heim_Joint.svg">Heim Joint</a> by Vladsinger, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rod-end-and-ball-link.webp" alt="A drawing of a rod end, a round eye holding a swivelling ball with a hole through it, on a threaded shank."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Heim_Joint.svg">Heim Joint</a> by Vladsinger, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded end fitting holding a swivelling ball (a spherical bearing) or a snap-on ball cup, fitted at each end of a push rod or tie rod so the rod can pass push and pull between two levers that move out of line, with the rod length set by how far the ends are screwed on.

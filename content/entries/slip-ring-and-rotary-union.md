@@ -168,8 +168,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg
-  alt: 'Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled'
+  alt: A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: slip-ring-and-rotary-union.webp
@@ -178,14 +179,15 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg
-  alt: 'Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled'
+  alt: A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [torque, clearance, fatigue, o-ring, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/slip-ring-and-rotary-union.webp" alt="Slip rings on a hydroelectric generator: spring-loaded graphite brushes on steel rings, labelled"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg">Sliprings annotated</a> by Wtshymanski, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/slip-ring-and-rotary-union.webp" alt="A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sliprings_annotated.jpg">Sliprings annotated</a> by Wtshymanski, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A slip ring passes electric power and signals from a stationary part to a continuously rotating one through springy contacts (brushes) rubbing on rings, and a rotary union does the same for liquids, air or vacuum through seals between a fixed housing and a turning shaft, so the rotating part can turn forever without its cables or hoses winding up.

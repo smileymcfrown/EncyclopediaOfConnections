@@ -127,9 +127,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg
-  alt: 'Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth
-    partly drawn); used on the Wikipedia ''Rotary actuator'' article'
+  alt: A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns
+    a gear on the output shaft.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: rotary-air-actuator.webp
@@ -138,16 +139,17 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg
-  alt: 'Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth
-    partly drawn); used on the Wikipedia ''Rotary actuator'' article'
+  alt: A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns
+    a gear on the output shaft.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [misalignment, backlash, oscillating, stroke, torque, actuator, solenoid, fail-safe--fail-secure, stick-slip, spline,
   repeatability--accuracy, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/rotary-air-actuator.webp" alt="Diagram of the principle of a rack-and-pinion rotary actuator: a hydraulic cylinder whose rack turns a gear (teeth partly drawn); used on the Wikipedia &#x27;Rotary actuator&#x27; article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg">Verin rotatif principe</a> by Cdang, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rotary-air-actuator.webp" alt="A drawing of a rack-and-pinion rotary actuator, with a cut-away showing two pistons pushing a toothed rack that turns a gear on the output shaft."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Verin_rotatif_principe.svg">Verin rotatif principe</a> by Cdang, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A compact unit that turns compressed air or oil pressure into back-and-forth rotation of an output shaft through a set angle, either with a vane swinging in a round chamber or with pistons driving a rack and pinion; it is the turning cousin of the air cylinder and is widely used to open and close quarter-turn valves.

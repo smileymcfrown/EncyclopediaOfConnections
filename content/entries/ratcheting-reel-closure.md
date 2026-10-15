@@ -121,9 +121,9 @@ image:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg
-  alt: 'Photo of a snowboard boot with two dial lace reels: the front dial tightens the shin area and the side dial tightens
-    the forefoot'
+  alt: A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: ratcheting-reel-closure.webp
@@ -132,16 +132,16 @@ pictures:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg
-  alt: 'Photo of a snowboard boot with two dial lace reels: the front dial tightens the shin area and the side dial tightens
-    the forefoot'
+  alt: A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, coaxial, detent, ratchet, pawl, torque, form-fit--force-fit--material-bond,
   heat-set-insert, creep, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ratcheting-reel-closure.webp" alt="Photo of a snowboard boot with two dial lace reels: the front dial tightens the shin area and the side dial tightens the forefoot"><figcaption><a href="https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg">ThirtyTwo snowboard boot</a> by WillisMoon, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/ratcheting-reel-closure.webp" alt="A snowboard boot done up with a reel closure, a round knob on the boot that winds in thin laces."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ThirtyTwo_snowboard_boot.jpg">ThirtyTwo snowboard boot</a> by WillisMoon, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A knob on a small reel that you turn to wind in a thin lace and pull two sides of a shoe, boot, brace or bag together; springy catches ([pawls](../glossary.md#pawl)) click over [ratchet](../glossary.md#ratchet) teeth so it cannot unwind by itself, and it releases when you pull the knob up or turn it backwards.

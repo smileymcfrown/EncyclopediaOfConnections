@@ -157,7 +157,8 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
-  alt: Animation of liquid being carried round between the teeth and the case in an external gear pump
+  alt: An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round
+    the outside from one side to the other.
   site: Wikimedia Commons
   still: gear-pump.still.webp
   kind: animation
@@ -169,7 +170,8 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif
-  alt: Animation of liquid being carried round between the teeth and the case in an external gear pump
+  alt: An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round
+    the outside from one side to the other.
   site: Wikimedia Commons
   still: gear-pump.still.webp
   kind: animation
@@ -179,7 +181,7 @@ glossary: [misalignment, backlash, torque, idler, actuator, clearance, tolerance
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gear-pump.still.webp"><img src="../media/gear-pump.webp" alt="Animation of liquid being carried round between the teeth and the case in an external gear pump"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif">Gear pump animation</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gear-pump.still.webp"><img src="../media/gear-pump.webp" alt="An animation of two meshing gears, one blue and one orange, turning in a close-fitting case and carrying liquid round the outside from one side to the other."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gear_pump_animation.gif">Gear pump animation</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rotary pump in which two meshing gears (side by side, or one inside a ring gear as in the gerotor) trap liquid between their teeth and the close-fitting case and carry it from inlet to outlet, delivering a fixed amount per turn; many can also run backwards as a hydraulic motor.

@@ -130,8 +130,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg
-  alt: Photo of a self-tapping solid insert with cutting edges on its outside thread
+  alt: A screw-in threaded insert, a short metal sleeve with a coarse outside thread for the soft material and a fine machine-screw
+    thread inside.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: screw-in-threaded-insert.webp
@@ -140,15 +142,17 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg
-  alt: Photo of a self-tapping solid insert with cutting edges on its outside thread
+  alt: A screw-in threaded insert, a short metal sleeve with a coarse outside thread for the soft material and a fine machine-screw
+    thread inside.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, torque, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   threadlocker, brittle--ductile, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/screw-in-threaded-insert.webp" alt="Photo of a self-tapping solid insert with cutting edges on its outside thread"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg">Taplok Insert</a> by Sjgroovpin, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/screw-in-threaded-insert.webp" alt="A screw-in threaded insert, a short metal sleeve with a coarse outside thread for the soft material and a fine machine-screw thread inside."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Taplok_Insert.jpg">Taplok Insert</a> by Sjgroovpin, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded sleeve or a diamond-section wire coil that is screwed into a drilled or tapped hole to give soft, [brittle](../glossary.md#brittle--ductile) or worn material a strong, reusable machine-screw thread.

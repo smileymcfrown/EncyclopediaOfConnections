@@ -156,9 +156,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg
-  alt: A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber
-    seal inside, and the dome nut.
+  alt: A white nylon cable gland shown whole and in parts, its threaded body with clamping fingers and the domed cap nut that
+    squeezes them.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: cable-gland-and-strain-relief.webp
@@ -167,15 +168,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg
-  alt: A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber
-    seal inside, and the dome nut.
+  alt: A white nylon cable gland shown whole and in parts, its threaded body with clamping fingers and the domed cap nut that
+    squeezes them.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [coaxial, torque, clearance, form-fit--force-fit--material-bond, boss, perimeters, infill, o-ring, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/cable-gland-and-strain-relief.webp" alt="A white plastic cable gland, assembled and taken apart, showing its thread, the ring of gripping fingers with the rubber seal inside, and the dome nut."><figcaption><a href="https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg">M16 cable gland</a> by Phiarc, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cable-gland-and-strain-relief.webp" alt="A white nylon cable gland shown whole and in parts, its threaded body with clamping fingers and the domed cap nut that squeezes them."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg">M16 cable gland</a> by Phiarc, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded fitting that passes a cable through a wall or enclosure: tightening its dome nut presses a set of plastic fingers and a rubber seal round the cable, which seals the hole against dust and water and anchors the cable so pulling or twisting it doesn't strain the wires inside (strain relief).

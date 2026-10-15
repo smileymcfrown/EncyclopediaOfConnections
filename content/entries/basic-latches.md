@@ -163,7 +163,7 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif
-  alt: Animation of opening a captured draw-bolt (slide bolt) latch
+  alt: An animation of a slide bolt latch being opened, the bolt drawn back out of its catch.
   site: Wikimedia Commons
   still: basic-latches.still.webp
   kind: animation
@@ -175,7 +175,7 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif
-  alt: Animation of opening a captured draw-bolt (slide bolt) latch
+  alt: An animation of a slide bolt latch being opened, the bolt drawn back out of its catch.
   site: Wikimedia Commons
   still: basic-latches.still.webp
   kind: animation
@@ -185,7 +185,7 @@ glossary: [misalignment, axial--radial, over-centre, solenoid, flexure, clearanc
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/basic-latches.still.webp"><img src="../media/basic-latches.webp" alt="Animation of opening a captured draw-bolt (slide bolt) latch"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif">Öffnen eines Riegels</a> by Joho345, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/basic-latches.still.webp"><img src="../media/basic-latches.webp" alt="An animation of a slide bolt latch being opened, the bolt drawn back out of its catch."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:%C3%96ffnen_eines_Riegels.gif">Öffnen eines Riegels</a> by Joho345, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A latch holds a door, gate or lid shut by pushing a bolt or hook on one part into a catch on the other, and lets it open again as soon as a person pulls the bolt back or lifts the hook.

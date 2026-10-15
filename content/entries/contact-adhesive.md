@@ -133,8 +133,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg
-  alt: A can of Weldwood contact cement (used on Wikipedia's 'Impact glue' article)
+  alt: A can of Weldwood contact cement.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: contact-adhesive.webp
@@ -143,14 +144,15 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg
-  alt: A can of Weldwood contact cement (used on Wikipedia's 'Impact glue' article)
+  alt: A can of Weldwood contact cement.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/contact-adhesive.webp" alt="A can of Weldwood contact cement (used on Wikipedia&#x27;s &#x27;Impact glue&#x27; article)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg">Contact-cement 000000</a> by Mwnuk, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/contact-adhesive.webp" alt="A can of Weldwood contact cement."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Contact-cement_000000.jpg">Contact-cement 000000</a> by Mwnuk, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rubber-based glue spread on both mating surfaces and allowed to dry until tacky, so that when the surfaces touch the two rubber films fuse at once, bonding large sheets, laminate, veneer, rubber, foam, leather and fabric without clamps.

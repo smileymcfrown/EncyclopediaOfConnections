@@ -174,8 +174,8 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif
-  alt: 'Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches
-    the outlet (the OR element)'
+  alt: An animated cut-away of a shuttle valve, a ball pushed from side to side by air arriving at either inlet so the air
+    always reaches the one outlet.
   site: Wikimedia Commons
   still: air-logic-valve.still.webp
   kind: animation
@@ -187,8 +187,8 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif
-  alt: 'Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches
-    the outlet (the OR element)'
+  alt: An animated cut-away of a shuttle valve, a ball pushed from side to side by air arriving at either inlet so the air
+    always reaches the one outlet.
   site: Wikimedia Commons
   still: air-logic-valve.still.webp
   kind: animation
@@ -198,7 +198,7 @@ glossary: [oscillating, stroke, over-centre, bistable, actuator, solenoid, fail-
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-logic-valve.still.webp"><img src="../media/air-logic-valve.webp" alt="Animated cross-section of a shuttle valve: the ball is pushed to the opposite seat so air from either inlet reaches the outlet (the OR element)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif">Shuttle valve action principle cross section</a> by 鐵路Railway, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-logic-valve.still.webp"><img src="../media/air-logic-valve.webp" alt="An animated cut-away of a shuttle valve, a ball pushed from side to side by air arriving at either inlet so the air always reaches the one outlet."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Shuttle_valve_action_principle_cross_section.gif">Shuttle valve action principle cross section</a> by 鐵路Railway, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A valve whose on/off state is set by air pressure in a control tube instead of by a button or an electric coil; combined with other such valves through tubing it performs simple logic (AND, OR, NOT), memory and timing, and a loop of them oscillates to drive the legs of an electronics-free soft robot from one steady air supply.

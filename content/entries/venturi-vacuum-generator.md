@@ -141,9 +141,10 @@ image:
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg
-  alt: 'Cross-section diagram of an ejector: driving nozzle, side suction inlet, mixing section and diffuser (used on Wikipedia''s
-    ''Vacuum ejector'' page)'
+  alt: A cut-away drawing of an ejector, a fast jet from a nozzle drawing gas in through a side port and out through a widening
+    outlet.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: venturi-vacuum-generator.webp
@@ -152,16 +153,17 @@ pictures:
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg
-  alt: 'Cross-section diagram of an ejector: driving nozzle, side suction inlet, mixing section and diffuser (used on Wikipedia''s
-    ''Vacuum ejector'' page)'
+  alt: A cut-away drawing of an ejector, a fast jet from a nozzle drawing gas in through a side port and out through a widening
+    outlet.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [self-locking, solenoid, holding-force, creep, layer-lines, perimeters, infill, check-valve, regulator, water-hammer,
   venturi]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/venturi-vacuum-generator.webp" alt="Cross-section diagram of an ejector: driving nozzle, side suction inlet, mixing section and diffuser (used on Wikipedia&#x27;s &#x27;Vacuum ejector&#x27; page)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg">Ejector or Injector</a> by Johannes Rössel, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/venturi-vacuum-generator.webp" alt="A cut-away drawing of an ejector, a fast jet from a nozzle drawing gas in through a side port and out through a widening outlet."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ejector_or_Injector.svg">Ejector or Injector</a> by Johannes Rössel, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A nozzle fires a fast jet of compressed air or water across a gap inside a T-shaped body; the fast jet has low pressure and carries surrounding air with it, so the side port sucks, giving vacuum for suction cups, fume extraction or lab filtering with no moving parts (Wikipedia 'Vacuum ejector'; Hackaday 2019).

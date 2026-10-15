@@ -144,9 +144,9 @@ image:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png
-  alt: 'Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston
-    and flow-restriction orifice (used in Wikipedia''s ''Gas spring'' article)'
+  alt: A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: gas-spring.webp
@@ -155,16 +155,16 @@ pictures:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png
-  alt: 'Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston
-    and flow-restriction orifice (used in Wikipedia''s ''Gas spring'' article)'
+  alt: A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [self-locking, stroke, over-centre, ratchet, torque, linkage, damping, tolerance, heat-set-insert, chamfer--fillet,
   creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/gas-spring.webp" alt="Simplified cutaway of a gas spring with numbered parts: piston rod, head cap, guide bushing, seal, cylinder, piston and flow-restriction orifice (used in Wikipedia&#x27;s &#x27;Gas spring&#x27; article)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png">Gas-spring simplified numbered 120</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/gas-spring.webp" alt="A gas spring cut open lengthways, showing the rod, its seal and guide, and the piston inside the gas-filled tube."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gas-spring_simplified_numbered_120.png">Gas-spring simplified numbered 120</a> by Silberwolf, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A sealed cylinder of pressurised nitrogen and a little oil whose rod pushes out with a fairly steady force and a controlled speed, used to lift and hold lids, hatches and seats; a lockable version has a valve that freezes the rod at any length until you press a release pin.

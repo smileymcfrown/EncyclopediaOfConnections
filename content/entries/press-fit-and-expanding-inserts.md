@@ -130,8 +130,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Press-in_Insert.png
-  alt: Photo of a knurled press-in threaded insert machined from free-cutting brass
+  alt: A brass press-in threaded insert with a diamond-knurled outside and a slot that lets it spread as the screw goes in.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: press-fit-and-expanding-inserts.webp
@@ -140,15 +141,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Press-in_Insert.png
-  alt: Photo of a knurled press-in threaded insert machined from free-cutting brass
+  alt: A brass press-in threaded insert with a diamond-knurled outside and a slot that lets it spread as the screw goes in.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [torque, pitch, interference-fit, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   undercut, brittle--ductile, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/press-fit-and-expanding-inserts.webp" alt="Photo of a knurled press-in threaded insert machined from free-cutting brass"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Press-in_Insert.png">Press-in Insert</a> by Dhruvvasoya91, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/press-fit-and-expanding-inserts.webp" alt="A brass press-in threaded insert with a diamond-knurled outside and a slot that lets it spread as the screw goes in."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Press-in_Insert.png">Press-in Insert</a> by Dhruvvasoya91, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A metal threaded sleeve pushed or tapped cold into a slightly smaller hole, held by its barbs or knurls biting into the wall, and sometimes spread wider by the screw, to give a plastic or wooden part reusable metal threads without heat.

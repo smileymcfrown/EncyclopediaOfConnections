@@ -182,7 +182,7 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif
-  alt: Animation of a camshaft whose rotating cams push followers up and down
+  alt: An animated camshaft turning, its two egg-shaped cams pushing two followers up and letting them drop in turn.
   site: Wikimedia Commons
   still: cam-and-follower.still.webp
   kind: animation
@@ -194,7 +194,7 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif
-  alt: Animation of a camshaft whose rotating cams push followers up and down
+  alt: An animated camshaft turning, its two egg-shaped cams pushing two followers up and letting them drop in turn.
   site: Wikimedia Commons
   still: cam-and-follower.still.webp
   kind: animation
@@ -205,7 +205,7 @@ glossary: [misalignment, axial--radial, reciprocating, oscillating, stroke, dete
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cam-and-follower.still.webp"><img src="../media/cam-and-follower.webp" alt="Animation of a camshaft whose rotating cams push followers up and down"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif">Nockenwelle ani</a> by No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cam-and-follower.still.webp"><img src="../media/cam-and-follower.webp" alt="An animated camshaft turning, its two egg-shaped cams pushing two followers up and letting them drop in turn."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Nockenwelle_ani.gif">Nockenwelle ani</a> by No machine-readable author provided. Borowski~commonswiki assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A cam is a shaped wheel, drum or plate that turns (or slides) and pushes a follower, so steady rotation becomes a back-and-forth or rocking motion with exactly the pattern of rises, pauses (dwells) and falls that the cam's shape was designed to give.

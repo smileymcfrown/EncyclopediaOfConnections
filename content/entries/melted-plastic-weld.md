@@ -133,9 +133,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg
-  alt: A temperature-controlled heat gun fitted with a reducing nozzle and a V-shaped speed-tip shoe, with 4 mm grey PP welding
-    rod
+  alt: A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: melted-plastic-weld.webp
@@ -144,16 +144,16 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg
-  alt: A temperature-controlled heat gun fitted with a reducing nozzle and a V-shaped speed-tip shoe, with 4 mm grey PP welding
-    rod
+  alt: A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [actuator, form-fit--force-fit--material-bond, spline, repeatability--accuracy, creep, infill, warping--shrinkage,
   peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/melted-plastic-weld.webp" alt="A temperature-controlled heat gun fitted with a reducing nozzle and a V-shaped speed-tip shoe, with 4 mm grey PP welding rod"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg">Kunststoffziehschweissen Schweissschuh</a> by Markus Bärlocher, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/melted-plastic-weld.webp" alt="A hot-air plastic welder with a speed-welding shoe, feeding a plastic filler rod into the joint as it is pulled along."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kunststoffziehschweissen_Schweissschuh.jpg">Kunststoffziehschweissen Schweissschuh</a> by Markus Bärlocher, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Plastic welding melts the joint faces of two parts made of the same plastic and fuses in extra plastic from a rod, an offcut or 3D-printer filament, using a soldering iron, a 3D pen or a hot-air welder, so the joint becomes one continuous piece; it is the usual fix for polyethylene (PE) and polypropylene (PP), which glues and solvents can't hold.

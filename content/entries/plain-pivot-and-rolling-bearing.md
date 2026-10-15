@@ -139,7 +139,8 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:BallBearing.gif
-  alt: Animation of a ball bearing turning, with the balls rolling between the rings
+  alt: An animation of a ball bearing seen face on, the balls rolling round between the inner and outer rings as the inner
+    ring turns.
   site: Wikimedia Commons
   still: plain-pivot-and-rolling-bearing.still.webp
   kind: animation
@@ -151,7 +152,8 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:BallBearing.gif
-  alt: Animation of a ball bearing turning, with the balls rolling between the rings
+  alt: An animation of a ball bearing seen face on, the balls rolling round between the inner and outer rings as the inner
+    ring turns.
   site: Wikimedia Commons
   still: plain-pivot-and-rolling-bearing.still.webp
   kind: animation
@@ -161,7 +163,7 @@ glossary: [misalignment, axial--radial, linkage, flexure, clearance, tolerance, 
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/plain-pivot-and-rolling-bearing.still.webp"><img src="../media/plain-pivot-and-rolling-bearing.webp" alt="Animation of a ball bearing turning, with the balls rolling between the rings"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallBearing.gif">BallBearing</a> by PlusMinus, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/plain-pivot-and-rolling-bearing.still.webp"><img src="../media/plain-pivot-and-rolling-bearing.webp" alt="An animation of a ball bearing seen face on, the balls rolling round between the inner and outer rings as the inner ring turns."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallBearing.gif">BallBearing</a> by PlusMinus, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pin or shaft passes through a hole so one part can turn on the other, sliding directly in the hole or a sleeve (plain bearing), or rolling on balls between two rings (ball bearing) for less friction.

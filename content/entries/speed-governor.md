@@ -153,9 +153,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png
-  alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc
-    against a brake.
+  alt: A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: speed-governor.webp
@@ -164,16 +164,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png
-  alt: Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc
-    against a brake.
+  alt: A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [ratchet, torque, crank, form-fit--force-fit--material-bond, repeatability--accuracy, creep, perimeters, peel-vs-shear,
   o-ring, regulator]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/speed-governor.webp" alt="Two views of a spring-motor governor, at rest and spinning, where the spinning weights fly outward and lift a disc against a brake."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png">Regulador mecánico</a> by Wiki LIC, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/speed-governor.webp" alt="A drawing of a phonograph speed governor at rest and running, its spinning weights flung out to press a brake pad."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Regulador_mec%C3%A1nico.png">Regulador mecánico</a> by Wiki LIC, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A speed governor is a small fan or a set of spinning weights at the fast end of a spring- or weight-driven gear train that brakes harder the faster it turns, so the whole mechanism settles at a steady running speed instead of running away.

@@ -146,7 +146,8 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_06.gif
-  alt: Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens
+  alt: An animated cup hinge set in a round pocket in a cabinet door, seen from above and from the side as its linkage swings
+    the door open clear of the cabinet.
   site: Wikimedia Commons
   still: clip-on-concealed-hinge.still.webp
   kind: animation
@@ -158,7 +159,8 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_06.gif
-  alt: Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens
+  alt: An animated cup hinge set in a round pocket in a cabinet door, seen from above and from the side as its linkage swings
+    the door open clear of the cabinet.
   site: Wikimedia Commons
   still: clip-on-concealed-hinge.still.webp
   kind: animation
@@ -168,7 +170,7 @@ glossary: [over-centre, linkage, fail-safe--fail-secure, clearance, form-fit--fo
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/clip-on-concealed-hinge.still.webp"><img src="../media/clip-on-concealed-hinge.webp" alt="Animation of a cup hinge working as a multi-joint (four-bar) hinge, showing how the door moves out as it opens"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_06.gif">Scharnier 06</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/clip-on-concealed-hinge.still.webp"><img src="../media/clip-on-concealed-hinge.webp" alt="An animated cup hinge set in a round pocket in a cabinet door, seen from above and from the side as its linkage swings the door open clear of the cabinet."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_06.gif">Scharnier 06</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A cabinet-door hinge that hides inside a 35 mm round pocket drilled in the back of the door, clips onto a plate on the cabinet so the door can be lifted off without tools, and has three screws to shift the door sideways, up and down, and in and out until the gaps line up.

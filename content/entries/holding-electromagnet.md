@@ -150,8 +150,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg
-  alt: 'Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate'
+  alt: An electromagnetic door lock, a long magnet fixed to the door frame with a steel plate on the door that it holds shut.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: holding-electromagnet.webp
@@ -160,14 +161,15 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg
-  alt: 'Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate'
+  alt: An electromagnetic door lock, a long magnet fixed to the door frame with a steel plate on the door that it holds shut.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, axial--radial, solenoid, fail-safe--fail-secure, holding-force, heat-set-insert, creep, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/holding-electromagnet.webp" alt="Close-up photo of an electronically controlled door maglock: the long magnet body and its steel armature plate"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg">Magnetic Lock</a> by Mooinglemur, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/holding-electromagnet.webp" alt="An electromagnetic door lock, a long magnet fixed to the door frame with a steel plate on the door that it holds shut."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetic_Lock.jpg">Magnetic Lock</a> by Mooinglemur, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 An electromagnet (a coil of wire around an iron core) that clamps onto a flat steel plate with great force while current flows and releases it as soon as the current stops, used to lock doors, hold fire doors open, and let robots and cranes pick up and drop steel parts.

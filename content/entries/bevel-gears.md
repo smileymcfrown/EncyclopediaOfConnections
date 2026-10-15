@@ -143,8 +143,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png
-  alt: A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft.
+  alt: A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: bevel-gears.webp
@@ -153,15 +154,16 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png
-  alt: A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft.
+  alt: A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, gear-ratio, pitch, crank, clearance, tolerance, set-screw,
   taper, captive-nut, repeatability--accuracy, infill, print-in-place, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bevel-gears.webp" alt="A drawing of two cone-shaped bevel gears meshing at a right angle, each on its own shaft."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png">Gear - Bevel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bevel-gears.webp" alt="A drawing of two bevel gears meshing at a right angle, their cone-shaped toothed faces meeting at one corner."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gear_-_Bevel_(PSF).png">Gear - Bevel (PSF)</a> by Pearson Scott Foresman, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two gears with teeth cut on cones whose tips meet at one point, used to pass rotation between shafts that meet at an angle (usually 90 degrees), either at 1:1 (mitre gears) or with a speed change; a crown gear is a flat version that meshes with an ordinary straight-toothed gear.

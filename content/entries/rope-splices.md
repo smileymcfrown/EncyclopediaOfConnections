@@ -161,8 +161,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Splitsar.png
-  alt: 'Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice'
+  alt: A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: rope-splices.webp
@@ -171,14 +172,15 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Splitsar.png
-  alt: 'Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice'
+  alt: A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [self-locking, form-fit--force-fit--material-bond, taper, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-splices.webp" alt="Drawings of splices part-made: a long splice, a tapered short splice, an eye splice and a short splice"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Splitsar.png">Splitsar</a> by NH, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-splices.webp" alt="A drawing of rope splices, showing the strands of a rope end woven over and under the strands of the main rope."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Splitsar.png">Splitsar</a> by NH, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rope splice opens up the end of a rope and weaves its strands over and under the strands of the main rope, or, in hollow braided rope, pulls the end up inside the rope, to make a permanent loop, a join between two ropes or a neat end that keeps most or all of the rope's strength, where a knot typically loses 20-40% (Wikipedia 'Rope splicing').

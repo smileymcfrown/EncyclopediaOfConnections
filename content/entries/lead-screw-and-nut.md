@@ -132,8 +132,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg
-  alt: Photo of a DVD drive's optical head moved by a small lead screw and stepper motor
+  alt: The inside of a DVD drive, where a thin lead screw turned by a small motor moves the laser head along its rails.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: lead-screw-and-nut.webp
@@ -142,15 +143,16 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg
-  alt: Photo of a DVD drive's optical head moved by a small lead screw and stepper motor
+  alt: The inside of a DVD drive, where a thin lead screw turned by a small motor moves the laser head along its rails.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, pitch, crank, actuator, preload, torsion, clearance, form-fit--force-fit--material-bond,
   set-screw, over-constraint, repeatability--accuracy, creep, lubrication, perimeters, cure]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/lead-screw-and-nut.webp" alt="Photo of a DVD drive&#x27;s optical head moved by a small lead screw and stepper motor"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg">Dvd pohon vozika hlavy</a> by Baran Ivo, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/lead-screw-and-nut.webp" alt="The inside of a DVD drive, where a thin lead screw turned by a small motor moves the laser head along its rails."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dvd_pohon_vozika_hlavy.jpg">Dvd pohon vozika hlavy</a> by Baran Ivo, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Turning a threaded rod (the lead screw) moves a nut that is kept from spinning along the rod in a straight line, trading speed for a lot of pushing force; fine threads hold their place, and a spring-loaded anti-backlash nut removes the wobble when the direction changes.

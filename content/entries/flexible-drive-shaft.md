@@ -127,8 +127,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg
-  alt: Photo of a car speedometer cable in its casing
+  alt: A car speedometer cable held in a hand, the black casing with a square-ended drive core and a threaded nut at each
+    end.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: flexible-drive-shaft.webp
@@ -137,15 +139,17 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg
-  alt: Photo of a car speedometer cable in its casing
+  alt: A car speedometer cable held in a hand, the black casing with a square-ended drive core and a threaded nut at each
+    end.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, torque, crank, stiffness, deflection, torsion, tolerance, form-fit--force-fit--material-bond,
   collet]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/flexible-drive-shaft.webp" alt="Photo of a car speedometer cable in its casing"><figcaption><a href="https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg">2008-05-06 1990 Geo Storm GSi speedometer cable</a> by Ildar Sagdejev (Specious), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/flexible-drive-shaft.webp" alt="A car speedometer cable held in a hand, the black casing with a square-ended drive core and a threaded nut at each end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2008-05-06_1990_Geo_Storm_GSi_speedometer_cable.jpg">2008-05-06 1990 Geo Storm GSi speedometer cable</a> by Ildar Sagdejev (Specious), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rotating core of wire wound in layers, usually running inside a non-turning sleeve (casing), that carries turning motion or power round bends and between parts that aren't lined up or that move.

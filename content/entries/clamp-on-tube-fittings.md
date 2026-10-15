@@ -136,8 +136,9 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg
-  alt: Photo of a basic slip-on Kee Klamp fitting with its set screw (used as the lead image of Wikipedia's 'Kee Klamp' article)
+  alt: A cast metal clamp-on fitting slipped over plain steel tube, with the set screw in its socket wall that locks it on.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: clamp-on-tube-fittings.webp
@@ -146,15 +147,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg
-  alt: Photo of a basic slip-on Kee Klamp fitting with its set screw (used as the lead image of Wikipedia's 'Kee Klamp' article)
+  alt: A cast metal clamp-on fitting slipped over plain steel tube, with the set screw in its socket wall that locks it on.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, axial--radial, ratchet, torque, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   collet, heat-set-insert, captive-nut, boss, creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/clamp-on-tube-fittings.webp" alt="Photo of a basic slip-on Kee Klamp fitting with its set screw (used as the lead image of Wikipedia&#x27;s &#x27;Kee Klamp&#x27; article)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg">Basic kee klamp</a> by User Cwpollock on en.wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/clamp-on-tube-fittings.webp" alt="A cast metal clamp-on fitting slipped over plain steel tube, with the set screw in its socket wall that locks it on."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Basic_kee_klamp.jpg">Basic kee klamp</a> by User Cwpollock on en.wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Cast metal fittings with round sockets that slip over plain tube and are locked on by a [set screw](../glossary.md#set-screw) pressing on the tube, so tees, elbows, crosses and flanges can join cut lengths of pipe into strong frames and railings that can be adjusted or taken apart.

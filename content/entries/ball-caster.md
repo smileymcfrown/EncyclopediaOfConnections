@@ -123,8 +123,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png
-  alt: 'Rendered cut-away of a ball transfer unit: the large load ball resting on a bed of small balls inside the housing'
+  alt: A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held
+    in by a blue lip.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: ball-caster.webp
@@ -133,14 +135,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png
-  alt: 'Rendered cut-away of a ball transfer unit: the large load ball resting on a bed of small balls inside the housing'
+  alt: A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held
+    in by a blue lip.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, lubrication]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-caster.webp" alt="Rendered cut-away of a ball transfer unit: the large load ball resting on a bed of small balls inside the housing"><figcaption><a href="https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png">BallTransferUnitCrossSection</a> by Slashme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-caster.webp" alt="A rendered ball transfer unit cut in half, a big steel ball riding on a bed of small balls inside a steel cup, held in by a blue lip."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallTransferUnitCrossSection.png">BallTransferUnitCrossSection</a> by Slashme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A large ball held in a cup on small bearing balls or rollers, giving a support point that rolls equally easily in every direction, used as a small robot's third wheel or, ball-up, as the rolling surface of transfer tables and conveyors.

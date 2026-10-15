@@ -144,9 +144,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png
-  alt: 'Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole
-    pieces between them'
+  alt: A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of
+    steel pole pieces between them.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: magnetic-coupling-and-magnetic-gear.webp
@@ -155,16 +156,17 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png
-  alt: 'Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole
-    pieces between them'
+  alt: A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of
+    steel pole pieces between them.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, fail-safe--fail-secure, hysteresis, tolerance, set-screw,
   creep, brittle--ductile, infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/magnetic-coupling-and-magnetic-gear.webp" alt="Cross-section diagram of a coaxial magnetic gear: inner and outer magnet rotors with the ring of ferromagnetic pole pieces between them"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png">Magnetgetriebe</a> by Petitebiscotte, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/magnetic-coupling-and-magnetic-gear.webp" alt="A cross-section drawing of a magnetic gear, an inner ring and an outer ring of red and blue magnets with a ring of steel pole pieces between them."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetgetriebe.png">Magnetgetriebe</a> by Petitebiscotte, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Rings or discs of permanent magnets on a driving part and a driven part lock together magnetically across an air gap or a thin non-magnetic wall, so turning force passes without contact (at 1:1 in a coupling, or with a speed change in a magnetic gear) and the parts slip harmlessly past each other if the load gets too high.

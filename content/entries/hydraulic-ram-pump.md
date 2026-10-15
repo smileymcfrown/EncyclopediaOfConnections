@@ -158,9 +158,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Hydraulic_Ram.gif
-  alt: 'Animated cutaway of a ram pump cycling: drive pipe, waste valve, delivery check valve, pressure vessel and delivery
-    pipe'
+  alt: A numbered drawing of a ram pump, with the drive pipe coming in at the bottom, the waste valve, the delivery valve
+    and the air chamber above.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: hydraulic-ram-pump.webp
@@ -170,15 +171,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Hydraulic_Ram.gif
-  alt: 'Animated cutaway of a ram pump cycling: drive pipe, waste valve, delivery check valve, pressure vessel and delivery
-    pipe'
+  alt: A numbered drawing of a ram pump, with the drive pipe coming in at the bottom, the waste valve, the delivery valve
+    and the air chamber above.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [stroke, fatigue, perimeters, infill, primer, o-ring, check-valve, water-hammer]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/hydraulic-ram-pump.webp" alt="Animated cutaway of a ram pump cycling: drive pipe, waste valve, delivery check valve, pressure vessel and delivery pipe"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Hydraulic_Ram.gif">Hydraulic Ram</a> by The original uploader was Gutza at English Wikipedia.; subsequent functional corrections made by Sonett72 on en.wikipedi, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hydraulic-ram-pump.webp" alt="A numbered drawing of a ram pump, with the drive pipe coming in at the bottom, the waste valve, the delivery valve and the air chamber above."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hydraulic_Ram.gif">Hydraulic Ram</a> by The original uploader was Gutza at English Wikipedia.; subsequent functional corrections made by Sonett72 on en.wikipedi, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A cyclic pump powered only by falling water: flow builds up in a long rigid drive pipe until it slams a waste valve shut, and the resulting pressure surge ([water hammer](../glossary.md#water-hammer)) forces a fraction of the water through a one-way valve into an air chamber and up a delivery pipe to a height many times greater than the fall that drives it.

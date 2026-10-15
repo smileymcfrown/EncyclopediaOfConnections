@@ -143,8 +143,9 @@ image:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg
-  alt: 'Four photographed steps in tying a constrictor knot round a post (ABOK #1249)'
+  alt: Four photos in a row showing the steps of tying a constrictor knot in blue cord round a rope.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: binding-knots-and-seizings.webp
@@ -153,14 +154,15 @@ pictures:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg
-  alt: 'Four photographed steps in tying a constrictor knot round a post (ABOK #1249)'
+  alt: Four photos in a row showing the steps of tying a constrictor knot in blue cord round a rope.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, ratchet, form-fit--force-fit--material-bond, boss, creep, peel-vs-shear, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/binding-knots-and-seizings.webp" alt="Four photographed steps in tying a constrictor knot round a post (ABOK #1249)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg">Constrictor-ABOK-1249</a> by David J. Fred, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/binding-knots-and-seizings.webp" alt="Four photos in a row showing the steps of tying a constrictor knot in blue cord round a rope."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Constrictor-ABOK-1249.jpg">Constrictor-ABOK-1249</a> by David J. Fred, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A group of knots and wrappings that squeeze round something to hold it together: the constrictor knot grips a bundle, bag neck or hose so hard it may have to be cut off, a seizing binds two ropes side by side with many turns of small twine, and cable lacing ties wire bundles into a neat loom with a row of locked stitches.

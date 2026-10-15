@@ -127,8 +127,9 @@ image:
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
   source: https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg
-  alt: Close-up of a copper rivet reinforcing the corner of a jeans pocket
+  alt: A close-up of a copper rivet holding the corner of a jeans pocket to the denim.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: leather-and-textile-rivets.webp
@@ -137,14 +138,15 @@ pictures:
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
   source: https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg
-  alt: Close-up of a copper rivet reinforcing the corner of a jeans pocket
+  alt: A close-up of a copper rivet holding the corner of a jeans pocket to the denim.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, brittle--ductile, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/leather-and-textile-rivets.webp" alt="Close-up of a copper rivet reinforcing the corner of a jeans pocket"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg">Closeup of copper rivet on jeans</a> by Marcos André, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/leather-and-textile-rivets.webp" alt="A close-up of a copper rivet holding the corner of a jeans pocket to the denim."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Closeup_of_copper_rivet_on_jeans.jpg">Closeup of copper rivet on jeans</a> by Marcos André, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A small two-part or hollow metal rivet pushed through a punched hole in leather, webbing or fabric and squashed with a setter against a hard anvil, so its two heads clamp the layers together permanently to fix straps, handles, tabs and buckles or to reinforce the corners of pockets and seams.

@@ -127,8 +127,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
-  alt: 'Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud'
+  alt: The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: press-stud.webp
@@ -137,15 +138,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg
-  alt: 'Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud'
+  alt: The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, detent, fail-safe--fail-secure, cantilever, form-fit--force-fit--material-bond, brittle--ductile,
   infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/press-stud.webp" alt="Photo of the four parts of a rivet snap fastener: eyelet, socket, cap and stud"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg">Rivet snap parts</a> by Nate Wessel, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/press-stud.webp" alt="The four parts of a rivet-on press stud laid out, two posts, the socket and the stud, with the cap."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rivet_snap_parts.jpg">Rivet snap parts</a> by Nate Wessel, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A two-part fastener in which a stud with a small knob is pressed into a socket that has a springy ring or wire inside, which grips a groove on the stud and holds the two halves together until they are pulled apart by hand.

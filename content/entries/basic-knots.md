@@ -140,8 +140,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Square_knot.svg
-  alt: Clear diagram of a reef (square) knot
+  alt: A drawing of a reef knot, a red cord and a blue cord each folded back and looped through the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: basic-knots.webp
@@ -150,14 +151,15 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Square_knot.svg
-  alt: Clear diagram of a reef (square) knot
+  alt: A drawing of a reef knot, a red cord and a blue cord each folded back and looped through the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, layer-lines]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/basic-knots.webp" alt="Clear diagram of a reef (square) knot"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Square_knot.svg">Square knot</a> by CountingPine, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/basic-knots.webp" alt="A drawing of a reef knot, a red cord and a blue cord each folded back and looped through the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Square_knot.svg">Square knot</a> by CountingPine, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Three knots built from the same single tuck: the overhand makes a lump in the end of a cord so it can't slip through a hole, the half hitch ties a cord round a post or ring, and the reef knot ties the two ends of one cord round a bundle, with a slipped version that becomes the shoelace bow; they are the baseline that better knots for each job are compared with.

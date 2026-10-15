@@ -122,8 +122,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
-  alt: A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding
+  alt: A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: temporary-sheet-fastener.webp
@@ -132,14 +133,15 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg
-  alt: A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding
+  alt: A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, pilot-hole, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/temporary-sheet-fastener.webp" alt="A Cleco with its jaws pushed out next to one with its jaws retracted, showing the stepped jaws and the colour coding"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg">Cleco fastener extended</a> by Thermofan, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/temporary-sheet-fastener.webp" alt="A Cleco pin held open in its pliers with the thin gripping fingers pushed out, next to a closed one."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cleco_fastener_extended.jpg">Cleco fastener extended</a> by Thermofan, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A reusable spring-loaded pin, fitted from one side with special pliers, that grips behind two or more drilled sheets and clamps them together with their holes lined up while they are drilled, fitted or riveted, then comes straight out again.

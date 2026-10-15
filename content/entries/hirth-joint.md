@@ -142,8 +142,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg
-  alt: Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))
+  alt: A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth
+    on the other crank.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: hirth-joint.webp
@@ -152,15 +154,17 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg
-  alt: Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))
+  alt: A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth
+    on the other crank.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, torque, crank, actuator, deflection, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert, captive-nut, chamfer--fillet, kinematic-coupling, repeatability--accuracy, creep, fatigue, galling--fretting]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/hirth-joint.webp" alt="Photo of the Hirth joint in the middle of a taken-apart bicycle crankset (Campagnolo Ultra-Torque (brand))"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg">Hirth joint</a> by AndrewDressel (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hirth-joint.webp" alt="A bicycle crank with its axle end showing a ring of V-shaped teeth on the end face that lock into the matching teeth on the other crank."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hirth_joint.jpg">Hirth joint</a> by AndrewDressel (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two parts with matching rings of V-shaped teeth on their end faces are clamped together by a central screw, so they lock at any of a fixed set of angles with no play, and can be loosened, turned by a tooth or more, and locked again.

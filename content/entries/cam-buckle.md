@@ -126,8 +126,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg
-  alt: Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap
+  alt: Close-up of a pressed-steel cam buckle on orange webbing, its toothed cam pressing down on the strap.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: cam-buckle.webp
@@ -136,14 +137,15 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg
-  alt: Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap
+  alt: Close-up of a pressed-steel cam buckle on orange webbing, its toothed cam pressing down on the strap.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, over-centre, ratchet, torsion, form-fit--force-fit--material-bond, boss, creep, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/cam-buckle.webp" alt="Close-up of a pressed-steel cam buckle on orange webbing, with the toothed cam visible pressing on the strap"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg">Spanngurt mit Klemmverschluss</a> by HobbyAstronaut, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cam-buckle.webp" alt="Close-up of a pressed-steel cam buckle on orange webbing, its toothed cam pressing down on the strap."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Spanngurt_mit_Klemmverschluss.jpg">Spanngurt mit Klemmverschluss</a> by HobbyAstronaut, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A strap buckle in which a spring presses a toothed cam against the webbing, so the strap pulls through one way to tighten, is gripped harder the more the load pulls back, and slides free when you press the cam's lever.

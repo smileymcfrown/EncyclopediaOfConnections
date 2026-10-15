@@ -140,9 +140,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg
-  alt: A basic terminal with wires held under the screw heads beside a clamping-plate (compression) terminal with wires held
-    between plates
+  alt: Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping
+    plate onto the wire.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: screw-terminal.webp
@@ -151,15 +152,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg
-  alt: A basic terminal with wires held under the screw heads beside a clamping-plate (compression) terminal with wires held
-    between plates
+  alt: Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping
+    plate onto the wire.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [torque, pitch, form-fit--force-fit--material-bond, set-screw, creep, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/screw-terminal.webp" alt="A basic terminal with wires held under the screw heads beside a clamping-plate (compression) terminal with wires held between plates"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg">Screw Terminals. Basic and Compression Types.</a> by Fredquint, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/screw-terminal.webp" alt="Two kinds of screw terminal, one where the wire goes under the screw head and one where a screw squeezes a clamping plate onto the wire."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Screw_Terminals._Basic_and_Compression_Types..jpg">Screw Terminals. Basic and Compression Types.</a> by Fredquint, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A screw terminal holds a stripped wire (or a crimped ring, fork or ferrule) by tightening a screw onto it, either under the screw head, under a clamping plate or with a [set screw](../glossary.md#set-screw) in a metal tube; it is the cheap, reusable way to land wires on boards, power supplies, barrier strips and connector strips and to undo them later with a screwdriver.

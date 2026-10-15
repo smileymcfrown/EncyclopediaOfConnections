@@ -145,8 +145,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg
-  alt: Photo of three wing nuts of different styles
+  alt: Metal wing nuts, each with two flat wings you can turn with your fingers.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: tool-free-fasteners.webp
@@ -155,14 +156,15 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg
-  alt: Photo of three wing nuts of different styles
+  alt: Metal wing nuts, each with two flat wings you can turn with your fingers.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [torque, lever-arm, linkage, clearance, form-fit--force-fit--material-bond, captive-nut, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tool-free-fasteners.webp" alt="Photo of three wing nuts of different styles"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg">Wingnut-hardware</a> by Nut-hardware.jpg: Muke derivative work: Xoristzatziki (talk), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tool-free-fasteners.webp" alt="Metal wing nuts, each with two flat wings you can turn with your fingers."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wingnut-hardware.jpg">Wingnut-hardware</a> by Nut-hardware.jpg: Muke derivative work: Xoristzatziki (talk), Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Everyday fasteners with a shape your fingers can grip, such as a ridged or winged head, a knob, or a pin with a springy wire clip, so that a joint can be done up, adjusted and taken apart again and again without any tools.

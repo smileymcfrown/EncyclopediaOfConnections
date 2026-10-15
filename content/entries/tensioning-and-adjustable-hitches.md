@@ -164,8 +164,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg
-  alt: A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.
+  alt: A trucker's hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing
+    tight.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: tensioning-and-adjustable-hitches.webp
@@ -174,14 +176,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg
-  alt: A blue rope tied round a wooden post with a trucker's hitch, its loop acting as a pulley for the tail end.
+  alt: A trucker's hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing
+    tight.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [ratchet, mechanical-advantage, form-fit--force-fit--material-bond, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tensioning-and-adjustable-hitches.webp" alt="A blue rope tied round a wooden post with a trucker&#x27;s hitch, its loop acting as a pulley for the tail end."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg">Hitch-truckers-ABoK 1514-USCG</a> by USCG PTC Developer, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tensioning-and-adjustable-hitches.webp" alt="A trucker&#x27;s hitch, a rope with a loop tied in it that the free end passes round and back through to pull a lashing tight."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hitch-truckers-ABoK_1514-USCG.jpg">Hitch-truckers-ABoK 1514-USCG</a> by USCG PTC Developer, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Knots that tension a line and hold it with no hardware: the trucker's hitch ties a loop into the rope that works like a pulley so you can haul a lashing tight, while friction hitches such as the taut-line, rolling, adjustable grip and Prusik hitches wrap round a rope or pole, grip when the line is loaded and slide by hand when it is slack, so the line can be tightened or moved again later.

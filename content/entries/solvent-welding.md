@@ -153,8 +153,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Water_Ram_Repair_PVC_Cement.jpg
-  alt: Photo of clear PVC cement brushed over dried primer on a pipe and fitting just before they are pushed together
+  alt: A PVC pipe being joined with solvent cement during a pump repair, with the can of cement beside it.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: solvent-welding.webp
@@ -163,15 +164,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Water_Ram_Repair_PVC_Cement.jpg
-  alt: Photo of clear PVC cement brushed over dried primer on a pipe and fitting just before they are pushed together
+  alt: A PVC pipe being joined with solvent cement during a pump repair, with the can of cement beside it.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [interference-fit, form-fit--force-fit--material-bond, heat-set-insert, chamfer--fillet, repeatability--accuracy,
   brittle--ductile, layer-lines, cure, primer, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/solvent-welding.webp" alt="Photo of clear PVC cement brushed over dried primer on a pipe and fitting just before they are pushed together"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Water_Ram_Repair_PVC_Cement.jpg">Water Ram Repair PVC Cement</a> by Jshin722, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/solvent-welding.webp" alt="A PVC pipe being joined with solvent cement during a pump repair, with the can of cement beside it."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Water_Ram_Repair_PVC_Cement.jpg">Water Ram Repair PVC Cement</a> by Jshin722, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A solvent is brushed onto, or run into, the joint between two parts made of a plastic it can dissolve; the surfaces soften and mingle, and as the solvent evaporates they harden into one continuous piece of plastic with no separate layer of glue.

@@ -150,8 +150,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
-  alt: Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts
+  alt: Wire wrapped in tight coils round square metal posts on the back of a circuit board.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: wire-wrap.webp
@@ -160,14 +161,15 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg
-  alt: Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts
+  alt: Wire wrapped in tight coils round square metal posts on the back of a circuit board.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, fatigue]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-wrap.webp" alt="Close-up of wire-wrapped connections on an 8051 (AT89S51) development board, with coloured wires coiled on square posts"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg">Wire Wrap 1</a> by Shri Hari Ram, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-wrap.webp" alt="Wire wrapped in tight coils round square metal posts on the back of a circuit board."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wire_Wrap_1.jpg">Wire Wrap 1</a> by Shri Hari Ram, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Wire wrap joins a thin solid wire to a square metal post by winding the bared wire tightly round it with a small spinning tool: the post's sharp corners bite into the wire at every turn, making about 28 tiny gas-tight, cold-welded contact points that need no solder and can be unwound and redone.

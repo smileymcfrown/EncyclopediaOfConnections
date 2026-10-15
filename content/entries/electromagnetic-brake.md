@@ -125,8 +125,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
-  alt: Animated diagram of an electromagnetic power-off brake, used in Wikipedia's 'Electromagnetic brake' article
+  alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched
+    on and pulls the armature plate back.
   site: Wikimedia Commons
+  kind: animation
   drawn: false
 pictures:
 - file: electromagnetic-brake.webp
@@ -135,15 +137,17 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif
-  alt: Animated diagram of an electromagnetic power-off brake, used in Wikipedia's 'Electromagnetic brake' article
+  alt: An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched
+    on and pulls the armature plate back.
   site: Wikimedia Commons
+  kind: animation
   drawn: false
 glossary: [misalignment, backlash, self-locking, ratchet, freewheel, torque, gear-ratio, solenoid, fail-safe--fail-secure,
   clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/electromagnetic-brake.webp" alt="Animated diagram of an electromagnetic power-off brake, used in Wikipedia&#x27;s &#x27;Electromagnetic brake&#x27; article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif">O-2 electromagnetic-power-off-brake1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/electromagnetic-brake.webp" alt="An animated cut-away of a power-off electromagnetic brake, springs clamping the friction disc until the coil is switched on and pulls the armature plate back."><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:O-2_electromagnetic-power-off-brake1.gif">O-2 electromagnetic-power-off-brake1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Springs press a friction disc on the motor shaft between two plates so the shaft cannot turn, and while the machine runs an electric coil pulls the plate back against the springs, so the brake lets go only when powered and grabs automatically whenever power is cut.

@@ -168,8 +168,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Threaded_rods_of_different_sizes.png
-  alt: A shop rack of threaded rod in several diameters
+  alt: Lengths of threaded rod in several thicknesses, threaded all along their length.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: threaded-rod-and-studs.webp
@@ -178,15 +179,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Threaded_rods_of_different_sizes.png
-  alt: A shop rack of threaded rod in several diameters
+  alt: Lengths of threaded rod in several thicknesses, threaded all along their length.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [backlash, self-locking, axial--radial, torque, pitch, idler, preload, cantilever, clearance, form-fit--force-fit--material-bond,
   pilot-hole, threadlocker, chamfer--fillet, undercut, creep, galling--fretting, infill, warping--shrinkage, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/threaded-rod-and-studs.webp" alt="A shop rack of threaded rod in several diameters"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Threaded_rods_of_different_sizes.png">Threaded rods of different sizes</a> by Taylor 49, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/threaded-rod-and-studs.webp" alt="Lengths of threaded rod in several thicknesses, threaded all along their length."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Threaded_rods_of_different_sizes.png">Threaded rods of different sizes</a> by Taylor 49, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rod threaded along its length (or at both ends) that, with nuts and washers, makes a bolt of any length, a tie rod that pulls parts together, a frame member, an axle or an adjustable spacer; a stud screws into a tapped hole and stays there so a part can be clamped over it with a nut, and a hanger bolt does the same job in wood.

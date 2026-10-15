@@ -119,8 +119,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg
-  alt: A bookbinding screw (Chicago screw) joining two pieces of leather
+  alt: The smooth round head of a Chicago screw holding two pieces of dark leather together, with a screwdriver slot across
+    it.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: chicago-screw.webp
@@ -129,14 +131,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg
-  alt: A bookbinding screw (Chicago screw) joining two pieces of leather
+  alt: The smooth round head of a Chicago screw holding two pieces of dark leather together, with a screwdriver slot across
+    it.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, threadlocker, creep, cure, primer, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/chicago-screw.webp" alt="A bookbinding screw (Chicago screw) joining two pieces of leather"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg">Buchbinderschraube zum verbinden von zwei Lederstücken</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/chicago-screw.webp" alt="The smooth round head of a Chicago screw holding two pieces of dark leather together, with a screwdriver slot across it."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Buchbinderschraube_zum_verbinden_von_zwei_Lederst%C3%BCcken.jpg">Buchbinderschraube zum verbinden von zwei Lederstücken</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A Chicago screw is a hollow post with a thread inside and a matching screw that threads into it from the other side, clamping leather, straps, paper, plastic or printed parts between two smooth, low heads like a rivet, but one that can be unscrewed to swap a buckle or used as a pivot pin.

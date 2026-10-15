@@ -130,8 +130,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cord-lock.jpg
-  alt: Photo of a barrel-type cord lock with its spring plunger
+  alt: Two black plastic barrel cord locks, each with a cord hole through the barrel and a spring-loaded plunger cap on top.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: cord-lock.webp
@@ -140,14 +141,15 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cord-lock.jpg
-  alt: Photo of a barrel-type cord lock with its spring plunger
+  alt: Two black plastic barrel cord locks, each with a cord hole through the barrel and a spring-loaded plunger cap on top.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, detent, form-fit--force-fit--material-bond, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/cord-lock.webp" alt="Photo of a barrel-type cord lock with its spring plunger"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cord-lock.jpg">Cord-lock</a> by Ratel, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cord-lock.webp" alt="Two black plastic barrel cord locks, each with a cord hole through the barrel and a spring-loaded plunger cap on top."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cord-lock.jpg">Cord-lock</a> by Ratel, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A small barrel with a spring-loaded plunger inside: when you let go, the spring pushes the plunger's hole out of line with the barrel's holes and pinches the cord passing through; when you squeeze, the holes line up and the lock slides freely along the cord.

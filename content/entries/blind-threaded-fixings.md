@@ -138,8 +138,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg
-  alt: A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread
+  alt: A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: blind-threaded-fixings.webp
@@ -148,15 +149,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg
-  alt: A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread
+  alt: A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [axial--radial, torque, damping, clearance, tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert,
   captive-nut, creep, brittle--ductile, perimeters, infill, peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/blind-threaded-fixings.webp" alt="A rivet nut cut open with an M5 bolt inside, showing the thin collapsing section and the thread"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg">Blindklinkmoer opengewerkt met bout</a> by Erik Wannee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/blind-threaded-fixings.webp" alt="A rivet nut sawn open lengthways with a bolt screwed into it, showing the thread inside the tube-shaped body."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Blindklinkmoer_opengewerkt_met_bout.jpg">Blindklinkmoer opengewerkt met bout</a> by Erik Wannee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded insert that you push into a drilled hole from one side and then squeeze (rivet nut) or tighten a screw into (well nut), so its body swells into a collar behind the sheet or tube wall and gives you a strong thread where no nut could be held behind.

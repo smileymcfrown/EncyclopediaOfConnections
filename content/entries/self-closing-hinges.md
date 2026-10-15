@@ -152,8 +152,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG
-  alt: A double-acting spring hinge on a door, with the two spring barrels that swing the door shut.
+  alt: A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: self-closing-hinges.webp
@@ -162,15 +163,16 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG
-  alt: A double-acting spring hinge on a door, with the two spring barrels that swing the door shut.
+  alt: A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [detent, torque, fail-safe--fail-secure, stiffness, preload, flexure, living-hinge, deflection, torsion, clearance,
   form-fit--force-fit--material-bond, creep, lubrication, layer-lines, print-in-place, warping--shrinkage, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/self-closing-hinges.webp" alt="A double-acting spring hinge on a door, with the two spring barrels that swing the door shut."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG">Bommerscharnier</a> by Sindala, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/self-closing-hinges.webp" alt="A sprung door hinge on a wooden door frame, with round barrels that hold the coiled springs."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bommerscharnier.JPG">Bommerscharnier</a> by Sindala, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A hinge that stores some of the effort you use to open a door, in a coiled spring or by lifting the door up a sloping knuckle, and gives it back to swing the door shut when you let go.

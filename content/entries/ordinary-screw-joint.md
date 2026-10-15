@@ -129,8 +129,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Bolted_joint_with_nut.svg
-  alt: Cross-section drawing of two plates clamped by a bolt, washer and nut
+  alt: A cross-section drawing of a bolt passing through clearance holes in two plates and clamping them with a nut.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: ordinary-screw-joint.webp
@@ -139,8 +140,9 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Bolted_joint_with_nut.svg
-  alt: Cross-section drawing of two plates clamped by a bolt, washer and nut
+  alt: A cross-section drawing of a bolt passing through clearance holes in two plates and clamping them with a nut.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [misalignment, torque, linkage, preload, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   counterbore--countersink, threadlocker, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,
@@ -148,7 +150,7 @@ glossary: [misalignment, torque, linkage, preload, clearance, form-fit--force-fi
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ordinary-screw-joint.webp" alt="Cross-section drawing of two plates clamped by a bolt, washer and nut"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Bolted_joint_with_nut.svg">Bolted joint with nut</a> by Андрей Перцев, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/ordinary-screw-joint.webp" alt="A cross-section drawing of a bolt passing through clearance holes in two plates and clamping them with a nut."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bolted_joint_with_nut.svg">Bolted joint with nut</a> by Андрей Перцев, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded fastener passes through [clearance](../glossary.md#clearance) holes and is tightened into a nut or a tapped hole, stretching slightly like a stiff spring so it clamps the parts together; it is the standard removable joint that other connections are compared with.

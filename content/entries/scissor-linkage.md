@@ -138,8 +138,9 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg
-  alt: A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.
+  alt: An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: scissor-linkage.webp
@@ -148,15 +149,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg
-  alt: A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up.
+  alt: An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, stroke, crank, linkage, actuator, clearance, form-fit--force-fit--material-bond, circlip, creep,
   infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/scissor-linkage.webp" alt="A scissor lift table with its crossed orange arms pinned at the middle, holding the platform up."><figcaption><a href="https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg">TL 2000 scissor lift</a> by Edmolift AB, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/scissor-linkage.webp" alt="An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:TL_2000_scissor_lift.jpg">TL 2000 scissor lift</a> by Edmolift AB, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Pairs of bars crossed in an X and pinned at their middles and ends form a chain that folds and unfolds as one piece, so a short push, pull or squeeze at one end becomes a much longer extension at the other, as in scissor lifts, car jacks, extending mirrors and grabber toys.

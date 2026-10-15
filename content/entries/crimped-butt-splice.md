@@ -142,8 +142,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG
-  alt: Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors
+  alt: Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: crimped-butt-splice.webp
@@ -152,14 +153,15 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG
-  alt: Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors
+  alt: Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/crimped-butt-splice.webp" alt="Wires from a radio-control speed controller and motor laid out ready to be joined with insulated butt connectors"><figcaption><a href="https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG">ESC and Motor Wires and Butt Connectors</a> by Shatton8111, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/crimped-butt-splice.webp" alt="Three stripped wires from a motor controller lying next to blue insulated butt splice connectors, ready to be joined."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ESC_and_Motor_Wires_and_Butt_Connectors.JPG">ESC and Motor Wires and Butt Connectors</a> by Shatton8111, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A crimped butt splice joins two wires end to end: each stripped end goes into one half of a short metal tube, a ratcheting crimp tool squeezes the tube so hard that metal and strands cold-weld into a gas-tight joint, and the plastic or glue-lined heat-shrink sleeve outside insulates it (and, for the glue-lined kind, seals it against water).

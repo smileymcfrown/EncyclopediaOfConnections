@@ -130,8 +130,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg
-  alt: 'Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw'
+  alt: Two spring-steel push-on clips, flat stamped metal with angled teeth round a centre hole that grip a shaft or stud.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: spring-steel-push-on-fasteners.webp
@@ -140,15 +141,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg
-  alt: 'Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw'
+  alt: Two spring-steel push-on clips, flat stamped metal with angled teeth round a centre hole that grip a shaft or stud.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, self-locking, thrust-load, torque, pitch, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   circlip, heat-set-insert, captive-nut, boss, creep, brittle--ductile]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-steel-push-on-fasteners.webp" alt="Photo of an M6 spire clip (chimney U-nut) for a bolt and a #8 U-clip (speed-nut style) for a self-tapping screw"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg">Two spire clips</a> by Lithopsian, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-steel-push-on-fasteners.webp" alt="Two spring-steel push-on clips, flat stamped metal with angled teeth round a centre hole that grip a shaft or stud."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Two_spire_clips.jpg">Two spire clips</a> by Lithopsian, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Stamped, heat-treated spring-steel clips whose angled teeth or prongs slide over a plain shaft, stud or screw thread when pushed on and then bite into it, holding parts on without cutting a thread or groove and resisting vibration.

@@ -141,8 +141,8 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:ElbowEngine.gif
-  alt: 'Animation of Hobson''s joint working as an elbow engine: L-shaped rods sliding in two cylinder blocks at right angles;
-    used as the lead image of Wikipedia''s ''Hobson''s joint'' article'
+  alt: An animation of bent rods sliding in and out of holes in two hubs set at a right angle, carrying the turning round
+    the corner.
   site: Wikimedia Commons
   still: gearless-right-angle-drive.still.webp
   kind: animation
@@ -154,8 +154,8 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:ElbowEngine.gif
-  alt: 'Animation of Hobson''s joint working as an elbow engine: L-shaped rods sliding in two cylinder blocks at right angles;
-    used as the lead image of Wikipedia''s ''Hobson''s joint'' article'
+  alt: An animation of bent rods sliding in and out of holes in two hubs set at a right angle, carrying the turning round
+    the corner.
   site: Wikimedia Commons
   still: gearless-right-angle-drive.still.webp
   kind: animation
@@ -165,7 +165,7 @@ glossary: [misalignment, axial--radial, ratchet, torque, crank, clearance, toler
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gearless-right-angle-drive.still.webp"><img src="../media/gearless-right-angle-drive.webp" alt="Animation of Hobson&#x27;s joint working as an elbow engine: L-shaped rods sliding in two cylinder blocks at right angles; used as the lead image of Wikipedia&#x27;s &#x27;Hobson&#x27;s joint&#x27; article"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:ElbowEngine.gif">ElbowEngine</a> by WT79, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gearless-right-angle-drive.still.webp"><img src="../media/gearless-right-angle-drive.webp" alt="An animation of bent rods sliding in and out of holes in two hubs set at a right angle, carrying the turning round the corner."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:ElbowEngine.gif">ElbowEngine</a> by WT79, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A gearless coupling that carries rotation round a fixed corner, usually 90 degrees, at exactly the same speed: three or more rods, each bent to the corner angle, slide and turn in matching rings of holes in two hubs, which forces the hubs to turn together.

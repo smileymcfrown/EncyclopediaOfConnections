@@ -136,8 +136,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg
-  alt: Two handled rope ascenders side by side, one clipped onto a red climbing rope with its toothed cam closed on the rope.
+  alt: Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: rope-grab-and-ascender.webp
@@ -146,14 +147,15 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg
-  alt: Two handled rope ascenders side by side, one clipped onto a red climbing rope with its toothed cam closed on the rope.
+  alt: Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, ratchet, pawl, sprag, clearance, form-fit--force-fit--material-bond, threadlocker, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-grab-and-ascender.webp" alt="Two handled rope ascenders side by side, one clipped onto a red climbing rope with its toothed cam closed on the rope."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg">Petzl Ascenders (On Rope)</a> by Climber.Ben.Johnson, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-grab-and-ascender.webp" alt="Two handled rope ascenders, one black and one gold, clamped on a red rope lying on a wooden floor."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Petzl_Ascenders_(On_Rope).jpg">Petzl Ascenders (On Rope)</a> by Climber.Ben.Johnson, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A clamp with a spring-loaded, toothed, off-centre lever (cam) that slides up a rope in one direction but pinches the rope against its frame and locks when pulled the other way; used in pairs to climb a rope, to stop a hauled load slipping back, and on safety lines.

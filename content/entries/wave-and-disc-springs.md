@@ -143,8 +143,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Washerstack.png
-  alt: 'Belleville spring stacking configurations: single, parallel, series and series-parallel'
+  alt: A stack of cone-shaped disc springs on a shaft, some facing one way and some the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: wave-and-disc-springs.webp
@@ -153,15 +154,16 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Washerstack.png
-  alt: 'Belleville spring stacking configurations: single, parallel, series and series-parallel'
+  alt: A stack of cone-shaped disc springs on a shaft, some facing one way and some the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [axial--radial, over-centre, detent, torque, stiffness, preload, cantilever, deflection, torsion, damping, hysteresis,
   clearance, tolerance, circlip, creep, fatigue, brittle--ductile, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wave-and-disc-springs.webp" alt="Belleville spring stacking configurations: single, parallel, series and series-parallel"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Washerstack.png">Washerstack</a> by SammusWikiDude, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wave-and-disc-springs.webp" alt="A stack of cone-shaped disc springs on a shaft, some facing one way and some the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Washerstack.png">Washerstack</a> by SammusWikiDude, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Washer-shaped springs, either wavy flat rings (wave springs) or shallow cones (disc or Belleville springs), that give a strong, steady push along a shaft or bolt in a very short height, used to [preload](../glossary.md#preload) bearings, keep bolted joints tight and take up play.

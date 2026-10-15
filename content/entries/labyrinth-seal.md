@@ -130,8 +130,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png
-  alt: Simple cross-section drawing of a labyrinth seal around a shaft, used on the English Wikipedia 'Labyrinth seal' article
+  alt: A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: labyrinth-seal.webp
@@ -140,14 +141,15 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png
-  alt: Simple cross-section drawing of a labyrinth seal around a shaft, used on the English Wikipedia 'Labyrinth seal' article
+  alt: A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [axial--radial, freewheel, clearance, lubrication, o-ring, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/labyrinth-seal.webp" alt="Simple cross-section drawing of a labyrinth seal around a shaft, used on the English Wikipedia &#x27;Labyrinth seal&#x27; article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png">Labyrinth-seal</a> by unknown, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/labyrinth-seal.webp" alt="A cross-section drawing of a labyrinth seal, the narrow gap between the two parts zig-zagging back and forth."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Labyrinth-seal.png">Labyrinth-seal</a> by unknown, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two parts shaped so the gap between them doubles back on itself several times, so dust, grit and splashes run out of energy or drain away before they reach the inside, with no rubbing contact and nothing to wear out.

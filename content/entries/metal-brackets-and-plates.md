@@ -148,8 +148,9 @@ image:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png
-  alt: Drawing of a flat angle bracket on the side of a butt joint and a bent (L) angle bracket on the inside corner
+  alt: A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: metal-brackets-and-plates.webp
@@ -158,15 +159,16 @@ pictures:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png
-  alt: Drawing of a flat angle bracket on the side of a butt joint and a bent (L) angle bracket on the inside corner
+  alt: A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [deflection, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, perimeters, infill,
   warping--shrinkage, end-grain, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/metal-brackets-and-plates.webp" alt="Drawing of a flat angle bracket on the side of a butt joint and a bent (L) angle bracket on the inside corner"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png">Flat and bent angle brackets</a> by Sauer202, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/metal-brackets-and-plates.webp" alt="A rendered L-shaped wooden frame corner with a flat angle plate screwed across the face of the joint."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flat_and_bent_angle_brackets.png">Flat and bent angle brackets</a> by Sauer202, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A stamped steel bracket, strap or flat plate fixed across a joint with screws, nails or teeth so that the metal carries the load the joint itself can't, from a small corner brace that stiffens a wobbly frame to a joist hanger or truss plate that holds up a floor or roof.

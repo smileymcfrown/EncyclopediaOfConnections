@@ -155,8 +155,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Tackles.png
-  alt: Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)
+  alt: A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs
+    on more rope parts.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: pulley-system.webp
@@ -165,15 +167,17 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Tackles.png
-  alt: Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)
+  alt: A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs
+    on more rope parts.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [self-locking, ratchet, pawl, mechanical-advantage, pitch, form-fit--force-fit--material-bond, creep, fatigue, perimeters,
   infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/pulley-system.webp" alt="Diagram of common ways of rigging a tackle with their names (gun, luff, double, gyn tackle, threefold purchase)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Tackles.png">Tackles</a> by Welkinridge, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/pulley-system.webp" alt="A drawing of several pulley set-ups side by side, each with one rope threaded round more pulleys so the load hangs on more rope parts."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tackles.png">Tackles</a> by Welkinridge, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two blocks of pulleys with one rope threaded back and forth between them, so the load hangs on several rope parts and a pull of only a fraction of its weight lifts it (at the cost of pulling that many times more rope); the differential chain hoist uses two joined chain wheels of slightly different size to get a very large gain and, because its friction is high, holds the load by itself.

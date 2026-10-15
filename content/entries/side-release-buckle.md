@@ -135,8 +135,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg
-  alt: Drawing of the male and female halves of a side-release buckle
+  alt: A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side
+    windows.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: side-release-buckle.webp
@@ -145,15 +147,17 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg
-  alt: Drawing of the male and female halves of a side-release buckle
+  alt: A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side
+    windows.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [stiffness, flexure, cantilever, clearance, form-fit--force-fit--material-bond, taper, chamfer--fillet, creep, fatigue,
   layer-lines, perimeters, infill, support-material]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/side-release-buckle.webp" alt="Drawing of the male and female halves of a side-release buckle"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg">Boucle rapide</a> by Jean Paul GIBERT, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/side-release-buckle.webp" alt="A drawing of a black side-release buckle with its two halves clipped together, the springy arms caught in the side windows."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Boucle_rapide.svg">Boucle rapide</a> by Jean Paul GIBERT, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A two-part plastic buckle in which two springy arms on the male half flex inward as it is pushed into the female half, then click outward into side windows so it cannot pull out, until you pinch both arms through the windows to let it go.

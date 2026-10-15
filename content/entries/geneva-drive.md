@@ -147,7 +147,8 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif
-  alt: Animated six-slot external Geneva drive stepping round, with the locking disc visible
+  alt: An animation of a green drive wheel whose pin enters the slots of a red six-armed wheel, turning it one step each time
+    round and holding it still in between.
   site: Wikimedia Commons
   still: geneva-drive.still.webp
   kind: animation
@@ -159,7 +160,8 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif
-  alt: Animated six-slot external Geneva drive stepping round, with the locking disc visible
+  alt: An animation of a green drive wheel whose pin enters the slots of a red six-armed wheel, turning it one step each time
+    round and holding it still in between.
   site: Wikimedia Commons
   still: geneva-drive.still.webp
   kind: animation
@@ -169,7 +171,7 @@ glossary: [misalignment, self-locking, axial--radial, ratchet, pawl, crank, clea
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/geneva-drive.still.webp"><img src="../media/geneva-drive.webp" alt="Animated six-slot external Geneva drive stepping round, with the locking disc visible"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif">Geneva mechanism 6spoke animation</a> by Mike1024, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/geneva-drive.still.webp"><img src="../media/geneva-drive.webp" alt="An animation of a green drive wheel whose pin enters the slots of a red six-armed wheel, turning it one step each time round and holding it still in between."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Geneva_mechanism_6spoke_animation.gif">Geneva mechanism 6spoke animation</a> by Mike1024, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A continuously turning drive wheel carries a pin that enters a slot in a driven wheel and turns it by a fixed step (360 degrees divided by the number of slots), then a raised locking disc on the drive wheel holds the driven wheel still until the next step.

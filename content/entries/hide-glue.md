@@ -126,8 +126,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg
-  alt: Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid
+  alt: Three small glass jars of warm, runny animal glue in shades of amber, each with a wooden stirring stick.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: hide-glue.webp
@@ -136,15 +137,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg
-  alt: Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid
+  alt: Three small glass jars of warm, runny animal glue in shades of amber, each with a wooden stirring stick.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, warping--shrinkage, cure, pot-life--working-time,
   open-time, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/hide-glue.webp" alt="Photo of bone glue, hide glue and rabbit glue mixed 1:1 with water and warmed in a water bath until liquid"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg">Glutinleime-warm</a> by Simon A. Eugster, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hide-glue.webp" alt="Three small glass jars of warm, runny animal glue in shades of amber, each with a wooden stirring stick."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Glutinleime-warm.jpg">Glutinleime-warm</a> by Simon A. Eugster, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Hide glue is a traditional glue made from boiled animal skin that is brushed on warm, grips as it cools and dries into a hard, non-creeping bond, and stays reversible, so heat and moisture can release the joint for repair years later.

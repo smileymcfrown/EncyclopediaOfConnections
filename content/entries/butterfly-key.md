@@ -123,8 +123,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG
-  alt: Photo of a butterfly (dovetail key) joint in wood
+  alt: A dark bow-tie-shaped wooden key set flush into a board across a crack, its wide ends on either side.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: butterfly-key.webp
@@ -133,14 +134,15 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG
-  alt: Photo of a butterfly (dovetail key) joint in wood
+  alt: A dark bow-tie-shaped wooden key set flush into a board across a crack, its wide ends on either side.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [stiffness, tolerance, form-fit--force-fit--material-bond, spline, chamfer--fillet, undercut, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/butterfly-key.webp" alt="Photo of a butterfly (dovetail key) joint in wood"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG">Butterfly-joint</a> by Dominik Matus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/butterfly-key.webp" alt="A dark bow-tie-shaped wooden key set flush into a board across a crack, its wide ends on either side."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Butterfly-joint.JPG">Butterfly-joint</a> by Dominik Matus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A bow-tie-shaped key, wide at both ends and narrow in the middle, is fitted into a matching pocket that spans a joint or crack, so its wide ends lock into both sides and stop them pulling apart; used to stop cracks in wooden slabs and to join CNC-cut or 3D-printed panels.

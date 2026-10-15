@@ -137,6 +137,7 @@ image:
   source: https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg
   alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: dog-clutch.webp
@@ -147,6 +148,7 @@ pictures:
   source: https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg
   alt: Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sprag, torque, crank, linkage, actuator, deflection,
   clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip, chamfer--fillet, undercut, layer-lines, elephants-foot,
@@ -154,7 +156,7 @@ glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sp
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/dog-clutch.webp" alt="Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg">Dog Clutch</a> by Ael150, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/dog-clutch.webp" alt="Two halves of a dog clutch, each with raised teeth (dogs) and matching slots on its face and splines along its shaft."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dog_Clutch.jpg">Dog Clutch</a> by Ael150, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A clutch that connects and disconnects a drive by sliding a toothed ring into or out of mesh with matching teeth or slots, giving a solid, no-slip connection when engaged.

@@ -130,9 +130,9 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg
-  alt: Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll
-    plate, and the chuck key
+  alt: A three-jaw lathe chuck with its key, the key turns the scroll plate inside to move all three jaws together.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: scroll-mechanism.webp
@@ -141,9 +141,9 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg
-  alt: Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll
-    plate, and the chuck key
+  alt: A three-jaw lathe chuck with its key, the key turns the scroll plate inside to move all three jaws together.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [degrees-of-freedom, backlash, self-locking, axial--radial, torque, pitch, clearance, form-fit--force-fit--material-bond,
   taper, collet, circlip, chamfer--fillet, repeatability--accuracy, creep, lubrication, print-in-place, overhang--bridging,
@@ -151,7 +151,7 @@ glossary: [degrees-of-freedom, backlash, self-locking, axial--radial, torque, pi
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/scroll-mechanism.webp" alt="Photo of a three-jaw self-centring chuck with one jaw removed and turned over to show the teeth that engage the scroll plate, and the chuck key"><figcaption><a href="https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg">ThreeJawChuckKey</a> by Glenn McKechnie, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/scroll-mechanism.webp" alt="A three-jaw lathe chuck with its key, the key turns the scroll plate inside to move all three jaws together."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ThreeJawChuckKey.jpg">ThreeJawChuckKey</a> by Glenn McKechnie, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A plate with a spiral groove (or spiral slots) that, when turned, moves three or more jaws in or out by exactly the same amount, so they clamp a round or hexagonal part and centre it in one movement.

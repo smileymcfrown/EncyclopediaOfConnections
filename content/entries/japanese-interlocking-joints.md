@@ -154,9 +154,10 @@ image:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png
-  alt: Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it
-    drops into on the other.
+  alt: A rendered lapped gooseneck joint, two timber ends pulled apart to show the hooked tongue on one and the matching stepped
+    pocket in the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: japanese-interlocking-joints.webp
@@ -165,16 +166,17 @@ pictures:
   license: CC BY 4.0
   license_url: https://creativecommons.org/licenses/by/4.0
   source: https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png
-  alt: Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it
-    drops into on the other.
+  alt: A rendered lapped gooseneck joint, two timber ends pulled apart to show the hooked tongue on one and the matching stepped
+    pocket in the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, stress-concentration,
   layer-lines, infill, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/japanese-interlocking-joints.webp" alt="Drawing of a lapped gooseneck splice pulled apart, showing the hooked head on one timber and the matching pocket it drops into on the other."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png">Lapped gooseneck joint</a> by うぃき野郎, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/japanese-interlocking-joints.webp" alt="A rendered lapped gooseneck joint, two timber ends pulled apart to show the hooked tongue on one and the matching stepped pocket in the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lapped_gooseneck_joint.png">Lapped gooseneck joint</a> by うぃき野郎, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Traditional Japanese carpentry joints in which two or three timbers are cut into interlocking shapes (hooks, dovetails, stepped seats and small tenons) that fit together only along one path and are then locked with a driven wedge or peg, joining beams end to end or at a corner without metal fasteners or glue.
