@@ -149,9 +149,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Flexure_pivot.png
-  alt: A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and
-    scientific instruments
+  alt: Two steel cross-spring flexure pivots, small cylinders joined inside by crossed flat springs instead of a bearing,
+    one shown cut open.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: flexure-hinge.webp
@@ -160,16 +161,28 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Flexure_pivot.png
-  alt: A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and
-    scientific instruments
+  alt: Two steel cross-spring flexure pivots, small cylinders joined inside by crossed flat springs instead of a bearing,
+    one shown cut open.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: flexure-hinge-4d1f61.webp
+  title: File:Sartorius BP 160 P 6.jpg
+  author: PaulT (Gunther Tschuch)
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Sartorius_BP_160_P_6.jpg
+  site: Wikimedia Commons
+  alt: Inside a precision balance, a thin springy brass strip joins two parts so they can tilt a little without a pin or bearing.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, axial--radial, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever,
   torsion, chamfer--fillet, repeatability--accuracy, creep, fatigue, infill, print-in-place, peel-vs-shear, regulator]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/flexure-hinge.webp" alt="A Riverhawk Free-Flex crossed-spring flexure pivot, used in place of bearings in precision alignment mechanisms and scientific instruments"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Flexure_pivot.png">Flexure pivot</a> by Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/flexure-hinge.webp" alt="Two steel cross-spring flexure pivots, small cylinders joined inside by crossed flat springs instead of a bearing, one shown cut open."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flexure_pivot.png">Flexure pivot</a> by Ellen I. Williams, Richard T. Summers, and Miroslaw A. Ostaszewski, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flexure-hinge-4d1f61.webp" alt="Inside a precision balance, a thin springy brass strip joins two parts so they can tilt a little without a pin or bearing." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sartorius_BP_160_P_6.jpg">Sartorius BP 160 P 6</a> by PaulT (Gunther Tschuch), <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pivot made from a deliberately thinned or crossed springy section that bends to let two parts rotate a small angle about each other, with no friction, [backlash](../glossary.md#backlash) or wear.

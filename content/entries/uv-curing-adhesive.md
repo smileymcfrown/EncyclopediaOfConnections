@@ -136,8 +136,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:UV_curing_glue_kit_for_Huawei-Screen.jpg
-  alt: Photo of a consumer UV-curing glue kit with a small UV lamp, used for replacing a phone screen
+  alt: A phone-screen repair kit with a tube of UV-curing glue, a small UV lamp and the glass screen.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: uv-curing-adhesive.webp
@@ -146,15 +147,27 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:UV_curing_glue_kit_for_Huawei-Screen.jpg
-  alt: Photo of a consumer UV-curing glue kit with a small UV lamp, used for replacing a phone screen
+  alt: A phone-screen repair kit with a tube of UV-curing glue, a small UV lamp and the glass screen.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: uv-curing-adhesive-e3d15d.webp
+  title: File:Steeldive SD8205-5.jpg
+  author: Francis Flinch
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Steeldive_SD8205-5.jpg
+  site: Wikimedia Commons
+  alt: A diver's watch whose small magnifying lens over the date is fixed to the crystal with clear UV-cured glue.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, threadlocker, chamfer--fillet, brittle--ductile, layer-lines, warping--shrinkage,
   cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/uv-curing-adhesive.webp" alt="Photo of a consumer UV-curing glue kit with a small UV lamp, used for replacing a phone screen"><figcaption><a href="https://commons.wikimedia.org/wiki/File:UV_curing_glue_kit_for_Huawei-Screen.jpg">UV curing glue kit for Huawei-Screen</a> by Mcapdevila, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/uv-curing-adhesive.webp" alt="A phone-screen repair kit with a tube of UV-curing glue, a small UV lamp and the glass screen."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:UV_curing_glue_kit_for_Huawei-Screen.jpg">UV curing glue kit for Huawei-Screen</a> by Mcapdevila, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/uv-curing-adhesive-e3d15d.webp" alt="A diver&#x27;s watch whose small magnifying lens over the date is fixed to the crystal with clear UV-cured glue." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Steeldive_SD8205-5.jpg">Steeldive SD8205-5</a> by Francis Flinch, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A one-part liquid adhesive containing a light-sensitive starter (photoinitiator) that hardens into solid plastic within seconds when UV or violet light reaches it, so you can position parts at leisure and then fix them in place instantly.

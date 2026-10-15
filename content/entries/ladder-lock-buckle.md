@@ -147,8 +147,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg
-  alt: Close-up photo of a tri-glide slide threaded on a bra strap, showing how the strap weaves over the centre bar
+  alt: A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: ladder-lock-buckle.webp
@@ -157,15 +158,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg
-  alt: Close-up photo of a tri-glide slide threaded on a bra strap, showing how the strap weaves over the centre bar
+  alt: A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, ratchet, stiffness, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile,
   infill, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ladder-lock-buckle.webp" alt="Close-up photo of a tri-glide slide threaded on a bra strap, showing how the strap weaves over the centre bar"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg">Cropped tri-glide slide</a> by SaltySemanticSchmuck, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/ladder-lock-buckle.webp" alt="A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cropped_tri-glide_slide.jpg">Cropped tri-glide slide</a> by SaltySemanticSchmuck, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A one-piece buckle with two or three bars that a strap weaves through, so that pulling on the load makes the strap pinch itself against a bar and hold by friction, while tilting the buckle's tab lets the strap slide to lengthen it; a tri-glide is the same idea without the lock, and double D-rings and G-hooks are close relatives.

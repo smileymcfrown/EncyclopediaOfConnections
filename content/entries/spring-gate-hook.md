@@ -134,9 +134,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg
-  alt: 'Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength
-    rating marking in the centre'
+  alt: Five carabiners of different shapes laid out, with wire gates, straight gates and screw-lock and twist-lock gates.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: spring-gate-hook.webp
@@ -145,16 +145,39 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg
-  alt: 'Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength
-    rating marking in the centre'
+  alt: Five carabiners of different shapes laid out, with wire gates, straight gates and screw-lock and twist-lock gates.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: spring-gate-hook-1b4cbd.webp
+  title: File:Spring gate snap hook PA210114.jpg
+  author: Peter Southwood
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Spring_gate_snap_hook_PA210114.jpg
+  site: Wikimedia Commons
+  alt: 'A steel spring-gate snap hook: a pear-shaped hook whose thin spring gate closes against the nose of the hook.'
+  kind: photo
+  drawn: false
+- file: spring-gate-hook-cad26c.webp
+  title: File:Single end and double end bolt snaps PA210120.jpg
+  author: Peter Southwood
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Single_end_and_double_end_bolt_snaps_PA210120.jpg
+  site: Wikimedia Commons
+  alt: Two bolt snaps, one with a swivel ring and one double-ended, each with a small spring bolt that slides back to open
+    the hook.
+  kind: photo
   drawn: false
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, fatigue, brittle--ductile, layer-lines, perimeters,
   infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-gate-hook.webp" alt="Five carabiners: D-shape wire gate, straight gate, oval straight gate, auto-lock and twist-lock, with a standard strength rating marking in the centre"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg">Assorted Biners</a> by Zakabog, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-gate-hook.webp" alt="Five carabiners of different shapes laid out, with wire gates, straight gates and screw-lock and twist-lock gates."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Assorted_Biners.jpg">Assorted Biners</a> by Zakabog, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-gate-hook-1b4cbd.webp" alt="A steel spring-gate snap hook: a pear-shaped hook whose thin spring gate closes against the nose of the hook." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Spring_gate_snap_hook_PA210114.jpg">Spring gate snap hook PA210114</a> by Peter Southwood, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-gate-hook-cad26c.webp" alt="Two bolt snaps, one with a swivel ring and one double-ended, each with a small spring bolt that slides back to open the hook." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Single_end_and_double_end_bolt_snaps_PA210120.jpg">Single end and double end bolt snaps PA210120</a> by Peter Southwood, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A closed loop or hook with a spring-loaded gate that swings or slides open to let a rope, ring or strap in and then springs shut to trap it, joining the two in a second without tools; a screw or twist collar can lock the gate.

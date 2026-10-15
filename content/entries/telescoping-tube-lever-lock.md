@@ -134,9 +134,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG
-  alt: 'Close-up photo of a bicycle seatpost quick-release clamp: the split collar, cam lever and adjusting nut around a sliding
-    tube, the same principle as a flip lock (''Closing the lever toward the post tightens it'')'
+  alt: A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: telescoping-tube-lever-lock.webp
@@ -145,16 +145,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG
-  alt: 'Close-up photo of a bicycle seatpost quick-release clamp: the split collar, cam lever and adjusting nut around a sliding
-    tube, the same principle as a flip lock (''Closing the lever toward the post tightens it'')'
+  alt: A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, over-centre, ratchet, linkage, clearance, form-fit--force-fit--material-bond, holding-force, set-screw,
   collet, creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/telescoping-tube-lever-lock.webp" alt="Close-up photo of a bicycle seatpost quick-release clamp: the split collar, cam lever and adjusting nut around a sliding tube, the same principle as a flip lock (&#x27;Closing the lever toward the post tightens it&#x27;)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG">Saddle quick release clamp</a> by Armchair, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/telescoping-tube-lever-lock.webp" alt="A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Saddle_quick_release_clamp.JPG">Saddle quick release clamp</a> by Armchair, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A split clamp ring on the end of the outer tube with a lever that snaps shut over centre, squeezing the outer tube onto the inner one so the length is held at any position until you flip the lever open.

@@ -155,7 +155,8 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Miura-ori.gif
-  alt: Animation of a Miura-ori sheet folding and unfolding in one motion
+  alt: Two hands pulling apart a folded sheet of paper, which opens out flat in one movement along its Miura fold pattern
+    and folds back up again.
   site: Wikimedia Commons
   still: origami-mechanisms.still.webp
   kind: animation
@@ -167,17 +168,30 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Miura-ori.gif
-  alt: Animation of a Miura-ori sheet folding and unfolding in one motion
+  alt: Two hands pulling apart a folded sheet of paper, which opens out flat in one movement along its Miura fold pattern
+    and folds back up again.
   site: Wikimedia Commons
   still: origami-mechanisms.still.webp
   kind: animation
+  drawn: false
+- file: origami-mechanisms-7b0557.webp
+  title: Inside the Magic Ball
+  author: georigami
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/69208357@N00/2441252595
+  site: Flickr via Openverse
+  alt: A folded orange paper sheet with a repeating zigzag pattern of creases, the start of an origami magic ball that can
+    collapse and expand.
+  kind: photo
   drawn: false
 glossary: [degrees-of-freedom, self-locking, over-centre, bistable, linkage, flexure, compliant-mechanism, living-hinge, hysteresis,
   form-fit--force-fit--material-bond, holding-force, taper, fatigue, infill, print-in-place, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/origami-mechanisms.still.webp"><img src="../media/origami-mechanisms.webp" alt="Animation of a Miura-ori sheet folding and unfolding in one motion"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Miura-ori.gif">Miura-ori</a> by MetaNest, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/origami-mechanisms.still.webp"><img src="../media/origami-mechanisms.webp" alt="Two hands pulling apart a folded sheet of paper, which opens out flat in one movement along its Miura fold pattern and folds back up again."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Miura-ori.gif">Miura-ori</a> by MetaNest, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/origami-mechanisms-7b0557.webp" alt="A folded orange paper sheet with a repeating zigzag pattern of creases, the start of an origami magic ball that can collapse and expand." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/69208357@N00/2441252595">Inside the Magic Ball</a> by georigami, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A sheet or set of panels joined along a planned pattern of fold lines, so that it moves in one controlled way: folding flat, expanding, or shortening while it twists.

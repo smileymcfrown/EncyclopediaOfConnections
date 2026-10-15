@@ -165,9 +165,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Differential_free.png
-  alt: 'Colour-coded 3D diagram of a ring-and-pinion differential: ring gear and carrier driving both side gears; paired with
-    ''Differential locked-2.png'' showing the planet gear turning on a bend'
+  alt: A coloured drawing of a differential, with arrows showing the input gear turning the cage and the two output shafts
+    turning out of the sides.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: differential.webp
@@ -176,16 +177,39 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Differential_free.png
-  alt: 'Colour-coded 3D diagram of a ring-and-pinion differential: ring gear and carrier driving both side gears; paired with
-    ''Differential locked-2.png'' showing the planet gear turning on a bend'
+  alt: A coloured drawing of a differential, with arrows showing the input gear turning the cage and the two output shafts
+    turning out of the sides.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: differential-2f4e85.webp
+  title: File:Differentialgetriebe2.jpg
+  author: DrJunge
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Differentialgetriebe2.jpg
+  site: Wikimedia Commons
+  alt: A modern car differential cut open, showing the large ring gear and the small bevel gears inside the housing.
+  kind: cross-section
+  drawn: false
+- file: differential-79278f.webp
+  title: File:Sectioned MGB at the British motoring heritage museum gaydon (2).jpg
+  author: Paul brown from england
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Sectioned_MGB_at_the_British_motoring_heritage_museum_gaydon_(2).jpg
+  site: Wikimedia Commons
+  alt: A sectioned rear axle in a museum car, with a window cut in the casing to show the differential gears inside.
+  kind: cross-section
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, clearance, form-fit--force-fit--material-bond,
   infill, print-in-place, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/differential.webp" alt="Colour-coded 3D diagram of a ring-and-pinion differential: ring gear and carrier driving both side gears; paired with &#x27;Differential locked-2.png&#x27; showing the planet gear turning on a bend"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Differential_free.png">Differential free</a> by Wapcaplet, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/differential.webp" alt="A coloured drawing of a differential, with arrows showing the input gear turning the cage and the two output shafts turning out of the sides."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Differential_free.png">Differential free</a> by Wapcaplet, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/differential-2f4e85.webp" alt="A modern car differential cut open, showing the large ring gear and the small bevel gears inside the housing." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Differentialgetriebe2.jpg">Differentialgetriebe2</a> by DrJunge, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/differential-79278f.webp" alt="A sectioned rear axle in a museum car, with a window cut in the casing to show the differential gears inside." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sectioned_MGB_at_the_British_motoring_heritage_museum_gaydon_(2).jpg">Sectioned MGB at the British motoring heritage museum gaydon (2)</a> by Paul brown from england, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A small gear train, usually bevel gears inside a spinning cage, that splits one input between two output shafts and lets them turn at different speeds (as the inner and outer wheels of a car do on a bend), while always pushing on both with the same turning force.

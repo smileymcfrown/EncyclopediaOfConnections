@@ -126,8 +126,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg
-  alt: Photo of a flared copper tube end with its brass flare nut and fitting
+  alt: A copper tube with its end spread out into a cone, held behind the hexagon nut that clamps it.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: flare-fitting.webp
@@ -136,14 +137,15 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg
-  alt: Photo of a flared copper tube end with its brass flare nut and fitting
+  alt: A copper tube with its end spread out into a cone, held behind the hexagon nut that clamps it.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, torque, form-fit--force-fit--material-bond, brittle--ductile, cure, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/flare-fitting.webp" alt="Photo of a flared copper tube end with its brass flare nut and fitting"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg">Flare Fitting 2</a> by Mortezarahimi3rd, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/flare-fitting.webp" alt="A copper tube with its end spread out into a cone, held behind the hexagon nut that clamps it."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Flare_Fitting_2.jpg">Flare Fitting 2</a> by Mortezarahimi3rd, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A flare fitting joins a soft metal tube to a fitting or port by spreading the tube end into a cone and clamping it with a nut against a matching cone, giving a strong, leak-tight metal-to-metal seal that can be undone and remade, as on car brake lines, gas pipes and air-conditioner pipes.

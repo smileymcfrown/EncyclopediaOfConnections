@@ -149,8 +149,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Freewheel_en.svg
-  alt: Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets
+  alt: A drawing of a roller clutch, red rollers with springs sitting on ramps between a blue inner hub and a green outer
+    ring, with the free and engaged directions marked.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: roller-clutch.webp
@@ -159,8 +161,21 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Freewheel_en.svg
-  alt: Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets
+  alt: A drawing of a roller clutch, red rollers with springs sitting on ramps between a blue inner hub and a green outer
+    ring, with the free and engaged directions marked.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: roller-clutch-3bbbd3.webp
+  title: File:CLUTCH ROLLER BEARINGS - NARA - 17451201.jpg
+  author: Martin Brown
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:CLUTCH_ROLLER_BEARINGS_-_NARA_-_17451201.jpg
+  site: Wikimedia Commons
+  alt: The parts of a roller clutch bearing beside a centimetre scale, a ring of rollers in a cage next to the smooth outer
+    race.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, reciprocating, oscillating, stroke, ratchet, pawl, freewheel,
   sprag, torque, crank, flexure, clearance, tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, lubrication,
@@ -168,7 +183,8 @@ glossary: [misalignment, backlash, self-locking, axial--radial, reciprocating, o
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/roller-clutch.webp" alt="Labelled diagram of a roller freewheel showing which way is free and which way is engaged, with rollers in ramped pockets"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Freewheel_en.svg">Freewheel en</a> by derivative work: Borb (talk) Roue_libre2.svg: Technoargia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/roller-clutch.webp" alt="A drawing of a roller clutch, red rollers with springs sitting on ramps between a blue inner hub and a green outer ring, with the free and engaged directions marked."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Freewheel_en.svg">Freewheel en</a> by derivative work: Borb (talk) Roue_libre2.svg: Technoargia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/roller-clutch-3bbbd3.webp" alt="The parts of a roller clutch bearing beside a centimetre scale, a ring of rollers in a cage next to the smooth outer race." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CLUTCH_ROLLER_BEARINGS_-_NARA_-_17451201.jpg">CLUTCH ROLLER BEARINGS - NARA - 17451201</a> by Martin Brown, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Rollers sit in pockets with a sloping floor (ramps) between a shaft and an outer ring; turn one way and they roll into the wide end and spin free, turn the other way and they jam into the narrow end and lock the shaft to the ring.

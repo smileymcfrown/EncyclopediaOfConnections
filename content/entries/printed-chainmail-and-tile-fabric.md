@@ -136,8 +136,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg
-  alt: An early 3D-printed ring fabric sample draped over a seed, showing how linked rings drape like cloth
+  alt: A piece of white 3D-printed ring fabric, printed with every ring already linked, draped over a dark coco de mer nut
+    so it hangs like cloth.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: printed-chainmail-and-tile-fabric.webp
@@ -146,15 +148,17 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg
-  alt: An early 3D-printed ring fabric sample draped over a seed, showing how linked rings drape like cloth
+  alt: A piece of white 3D-printed ring fabric, printed with every ring already linked, draped over a dark coco de mer nut
+    so it hangs like cloth.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [degrees-of-freedom, stiffness, living-hinge, clearance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, overhang--bridging, kerf]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/printed-chainmail-and-tile-fabric.webp" alt="An early 3D-printed ring fabric sample draped over a seed, showing how linked rings drape like cloth"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg">Ring Fabric Sample Displayed on a Coco de Mer - Jiri Evenhuis 2003</a> by Jiri Evenhuis, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/printed-chainmail-and-tile-fabric.webp" alt="A piece of white 3D-printed ring fabric, printed with every ring already linked, draped over a dark coco de mer nut so it hangs like cloth."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ring_Fabric_Sample_Displayed_on_a_Coco_de_Mer_-_Jiri_Evenhuis_2003.jpg">Ring Fabric Sample Displayed on a Coco de Mer - Jiri Evenhuis 2003</a> by Jiri Evenhuis, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A flat sheet of small tiles or rings printed in one go with each piece already looped through its neighbours, so the stiff pieces together behave like a flexible cloth for costumes, covers, bags and fidget toys, although it is not real armour.

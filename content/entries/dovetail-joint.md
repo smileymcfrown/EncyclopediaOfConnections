@@ -149,9 +149,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg
-  alt: Exploded 3D drawing of a through dovetail, with tails on one board and pins on the other; used on the Wikipedia 'Dovetail
-    joint' article
+  alt: A drawing of a through dovetail joint pulled apart, showing the flared tails on one board and the wedge-shaped pins
+    on the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: dovetail-joint.webp
@@ -160,16 +161,39 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg
-  alt: Exploded 3D drawing of a through dovetail, with tails on one board and pins on the other; used on the Wikipedia 'Dovetail
-    joint' article
+  alt: A drawing of a through dovetail joint pulled apart, showing the flared tails on one board and the wedge-shaped pins
+    on the other.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: dovetail-joint-404a76.webp
+  title: File:My first handcut dovetails!.jpg
+  author: Damien Pollet
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:My_first_handcut_dovetails!.jpg
+  site: Wikimedia Commons
+  alt: A small hand-cut dovetail corner joint in oak standing on a workbench beside a drill.
+  kind: photo
+  drawn: false
+- file: dovetail-joint-3b75ff.webp
+  title: File:Finished dovetail.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Finished_dovetail.jpg
+  site: Wikimedia Commons
+  alt: A close view of a large dovetail joint in pale timber, the tails fitted tightly between the pins at the corner.
+  kind: photo
   drawn: false
 glossary: [misalignment, clearance, form-fit--force-fit--material-bond, spline, chamfer--fillet, creep, brittle--ductile,
   elephants-foot, end-grain, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/dovetail-joint.webp" alt="Exploded 3D drawing of a through dovetail, with tails on one board and pins on the other; used on the Wikipedia &#x27;Dovetail joint&#x27; article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg">Joinery-throughdovetail</a> by Joinery-throughdovetail.gif: SilentC SVG conversion: Duncan Tate (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/dovetail-joint.webp" alt="A drawing of a through dovetail joint pulled apart, showing the flared tails on one board and the wedge-shaped pins on the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Joinery-throughdovetail.svg">Joinery-throughdovetail</a> by Joinery-throughdovetail.gif: SilentC SVG conversion: Duncan Tate (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dovetail-joint-404a76.webp" alt="A small hand-cut dovetail corner joint in oak standing on a workbench beside a drill." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:My_first_handcut_dovetails!.jpg">My first handcut dovetails!</a> by Damien Pollet, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dovetail-joint-3b75ff.webp" alt="A close view of a large dovetail joint in pale timber, the tails fitted tightly between the pins at the corner." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Finished_dovetail.jpg">Finished dovetail</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A wooden corner joint whose flared tails and matching wedge-shaped pins interlock so the joint can only slide together one way, which lets it resist being pulled apart in the other direction; through dovetails show on both faces, half-blind ones are hidden from the front.

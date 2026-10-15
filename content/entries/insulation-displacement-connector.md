@@ -137,8 +137,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG
-  alt: Close-up of the forked connector blades cutting through the insulation of a ribbon cable
+  alt: A black 34-way connector pressed onto a grey ribbon cable, its blades cutting into every wire at once.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: insulation-displacement-connector.webp
@@ -147,14 +148,38 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG
-  alt: Close-up of the forked connector blades cutting through the insulation of a ribbon cable
+  alt: A black 34-way connector pressed onto a grey ribbon cable, its blades cutting into every wire at once.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: insulation-displacement-connector-7532c0.webp
+  title: File:PATA-Connectors-exposed.png
+  author: Archimerged
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:PATA-Connectors-exposed.png
+  site: Wikimedia Commons
+  alt: Parallel ATA ribbon-cable connectors opened up, showing the forked metal blades that pierce each wire.
+  kind: cross-section
+  drawn: false
+- file: insulation-displacement-connector-098479.webp
+  title: File:IDC-10 female connector (03).jpg
+  author: Retired electrician
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:IDC-10_female_connector_(03).jpg
+  site: Wikimedia Commons
+  alt: A black 10-way ribbon-cable connector with its cover lifted off, showing the row of sharp forked blades the cable is
+    pressed onto.
+  kind: how-it-works
   drawn: false
 glossary: [pitch, form-fit--force-fit--material-bond, keying, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/insulation-displacement-connector.webp" alt="Close-up of the forked connector blades cutting through the insulation of a ribbon cable"><figcaption><a href="https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG">FDD 34 PIN Scheidklemmen IMG 0691</a> by Hans Haase, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/insulation-displacement-connector.webp" alt="A black 34-way connector pressed onto a grey ribbon cable, its blades cutting into every wire at once."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:FDD_34_PIN_Scheidklemmen_IMG_0691.JPG">FDD 34 PIN Scheidklemmen IMG 0691</a> by Hans Haase, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/insulation-displacement-connector-7532c0.webp" alt="Parallel ATA ribbon-cable connectors opened up, showing the forked metal blades that pierce each wire." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:PATA-Connectors-exposed.png">PATA-Connectors-exposed</a> by Archimerged, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/insulation-displacement-connector-098479.webp" alt="A black 10-way ribbon-cable connector with its cover lifted off, showing the row of sharp forked blades the cable is pressed onto." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:IDC-10_female_connector_(03).jpg">IDC-10 female connector (03)</a> by Retired electrician, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Insulated wires are pushed or squeezed into slotted metal blades that cut through the insulation and grip the copper, making a gas-tight, unstripped joint; used to terminate many ribbon-cable wires in one press, punch network and phone wires into blocks and jacks, crimp RJ45 plugs, and tap a branch wire onto an existing one.

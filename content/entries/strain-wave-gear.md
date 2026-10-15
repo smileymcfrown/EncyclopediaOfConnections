@@ -140,7 +140,8 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif
-  alt: Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring
+  alt: 'Animation of a strain-wave gear: an oval cam turns inside a flexible toothed ring, bending it so its teeth mesh with
+    a rigid outer ring at two points, and a mark shows the flexible ring creeping round slowly the other way.'
   site: Wikimedia Commons
   still: strain-wave-gear.still.webp
   kind: animation
@@ -152,10 +153,33 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif
-  alt: Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring
+  alt: 'Animation of a strain-wave gear: an oval cam turns inside a flexible toothed ring, bending it so its teeth mesh with
+    a rigid outer ring at two points, and a mark shows the flexible ring creeping round slowly the other way.'
   site: Wikimedia Commons
   still: strain-wave-gear.still.webp
   kind: animation
+  drawn: false
+- file: strain-wave-gear-949520.webp
+  title: File:Harmonic Drive AG strain wave gear set.jpg
+  author: Pieceofmetalwork
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Harmonic_Drive_AG_strain_wave_gear_set.jpg
+  site: Wikimedia Commons
+  alt: 'The three parts of a Harmonic Drive gear set laid out: the oval wave-generator bearing, the thin flexible toothed
+    cup and the rigid ring with teeth inside.'
+  kind: how-it-works
+  drawn: false
+- file: strain-wave-gear-76fba2.webp
+  title: File:Harmonic Drive.jpg
+  author: wdwd
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Harmonic_Drive.jpg
+  site: Wikimedia Commons
+  alt: Close-up of an assembled strain-wave gear from the front, showing the oval bearing inside the flexible toothed ring
+    and the bolt holes round the outer ring.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, self-locking, coaxial, ratchet, torque, linkage, fail-safe--fail-secure, stiffness, hysteresis,
   tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert, repeatability--accuracy, creep, fatigue, brittle--ductile,
@@ -163,7 +187,9 @@ glossary: [misalignment, backlash, self-locking, coaxial, ratchet, torque, linka
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/strain-wave-gear.still.webp"><img src="../media/strain-wave-gear.webp" alt="Animation of a harmonic drive with marks added to explain how the flexspline creeps round relative to the ring"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif">Harmonic-drive-explanation</a> by LaurensvanLieshout, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/strain-wave-gear.still.webp"><img src="../media/strain-wave-gear.webp" alt="Animation of a strain-wave gear: an oval cam turns inside a flexible toothed ring, bending it so its teeth mesh with a rigid outer ring at two points, and a mark shows the flexible ring creeping round slowly the other way."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Harmonic-drive-explanation.gif">Harmonic-drive-explanation</a> by LaurensvanLieshout, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/strain-wave-gear-949520.webp" alt="The three parts of a Harmonic Drive gear set laid out: the oval wave-generator bearing, the thin flexible toothed cup and the rigid ring with teeth inside." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Harmonic_Drive_AG_strain_wave_gear_set.jpg">Harmonic Drive AG strain wave gear set</a> by Pieceofmetalwork, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/strain-wave-gear-76fba2.webp" alt="Close-up of an assembled strain-wave gear from the front, showing the oval bearing inside the flexible toothed ring and the bolt holes round the outer ring." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Harmonic_Drive.jpg">Harmonic Drive</a> by wdwd, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 An oval cam with a thin bearing (wave generator) bends a thin-walled toothed sleeve (flexspline) into an oval so its teeth mesh with a rigid internal-toothed ring (circular [spline](../glossary.md#spline)) at two points; because the sleeve has two fewer teeth, each turn of the cam shifts it by two teeth, giving a 30:1 to over 300:1 backlash-free reduction in one flat stage.

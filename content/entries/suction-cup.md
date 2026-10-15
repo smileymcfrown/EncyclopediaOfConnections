@@ -136,9 +136,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg
-  alt: Diagram of a suction cup on a surface with the air molecules outside pushing it on, and few inside, showing why the
-    pressure difference holds it
+  alt: 'Diagram of a suction cup on a surface: air molecules outside push on the cup much harder than the few left in the
+    low-pressure pocket underneath.'
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: suction-cup.webp
@@ -147,15 +148,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg
-  alt: Diagram of a suction cup on a surface with the air molecules outside pushing it on, and few inside, showing why the
-    pressure difference holds it
+  alt: 'Diagram of a suction cup on a surface: air molecules outside push on the cup much harder than the few left in the
+    low-pressure pocket underneath.'
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: suction-cup-838a93.webp
+  title: File:Suction cup 2.jpg
+  author: Couch-scratching-cats
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Suction_cup_2.jpg
+  site: Wikimedia Commons
+  alt: A clear suction cup stuck to a window, its flattened rim sealed against the glass with the sky behind.
+  kind: how-it-works
+  drawn: false
+- file: suction-cup-a0074d.webp
+  title: File:Suction cup 1.jpg
+  author: Couch-scratching-cats
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Suction_cup_1.jpg
+  site: Wikimedia Commons
+  alt: Two clear plastic suction cups with knobs on top, lying on a surface.
+  kind: photo
   drawn: false
 glossary: [over-centre, lever-arm, form-fit--force-fit--material-bond, holding-force, creep, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/suction-cup.webp" alt="Diagram of a suction cup on a surface with the air molecules outside pushing it on, and few inside, showing why the pressure difference holds it"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg">Suction cup pressure from collisions</a> by Becarlson, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/suction-cup.webp" alt="Diagram of a suction cup on a surface: air molecules outside push on the cup much harder than the few left in the low-pressure pocket underneath."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Suction_cup_pressure_from_collisions.svg">Suction cup pressure from collisions</a> by Becarlson, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/suction-cup-838a93.webp" alt="A clear suction cup stuck to a window, its flattened rim sealed against the glass with the sky behind." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Suction_cup_2.jpg">Suction cup 2</a> by Couch-scratching-cats, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/suction-cup-a0074d.webp" alt="Two clear plastic suction cups with knobs on top, lying on a surface." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Suction_cup_1.jpg">Suction cup 1</a> by Couch-scratching-cats, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A soft cup that you press flat against a smooth, airtight surface; as it springs back it leaves a pocket of low pressure under it, and the outside air pressure then holds it on until you let air back in.

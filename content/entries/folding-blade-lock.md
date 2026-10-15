@@ -144,9 +144,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg
-  alt: Simplified cutaway diagrams of a lockback (stop pin, rocker bar, rocker pin, torsion bar, pivot pin), a sliding bolt
-    lock with spring, and a liner lock (leaf spring cut from the liner, with top views), each shown open and being released
+  alt: Simplified cut-away drawings of three folding knife locks (lockback, bolt lock and liner lock), showing the spring
+    part that drops behind the open blade.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: folding-blade-lock.webp
@@ -155,16 +156,40 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg
-  alt: Simplified cutaway diagrams of a lockback (stop pin, rocker bar, rocker pin, torsion bar, pivot pin), a sliding bolt
-    lock with spring, and a liner lock (leaf spring cut from the liner, with top views), each shown open and being released
+  alt: Simplified cut-away drawings of three folding knife locks (lockback, bolt lock and liner lock), showing the spring
+    part that drops behind the open blade.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: folding-blade-lock-eea23d.webp
+  title: File:WalkerLinerlock2.jpg
+  author: Photograph by Jim Cooper, Knives by Michael Walker
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:WalkerLinerlock2.jpg
+  site: Wikimedia Commons
+  alt: Close-up of an open liner-lock knife, where a springy strip of the handle liner has moved across behind the base of
+    the blade to lock it.
+  kind: how-it-works
+  drawn: false
+- file: folding-blade-lock-9d97a3.webp
+  title: File:Liner Lock.jpg
+  author: Hustvedt
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Liner_Lock.jpg
+  site: Wikimedia Commons
+  alt: The handle of a frame-lock knife, where the split metal frame springs in behind the open blade.
+  kind: photo
   drawn: false
 glossary: [misalignment, self-locking, over-centre, detent, torque, linkage, preload, flexure, torsion, tolerance, form-fit--force-fit--material-bond,
   chamfer--fillet, creep, fatigue, galling--fretting, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/folding-blade-lock.webp" alt="Simplified cutaway diagrams of a lockback (stop pin, rocker bar, rocker pin, torsion bar, pivot pin), a sliding bolt lock with spring, and a liner lock (leaf spring cut from the liner, with top views), each shown open and being released"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg">Folding knife locking mechanisms</a> by Waerloeg, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/folding-blade-lock.webp" alt="Simplified cut-away drawings of three folding knife locks (lockback, bolt lock and liner lock), showing the spring part that drops behind the open blade."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Folding_knife_locking_mechanisms.svg">Folding knife locking mechanisms</a> by Waerloeg, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/folding-blade-lock-eea23d.webp" alt="Close-up of an open liner-lock knife, where a springy strip of the handle liner has moved across behind the base of the blade to lock it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:WalkerLinerlock2.jpg">WalkerLinerlock2</a> by Photograph by Jim Cooper, Knives by Michael Walker, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/folding-blade-lock-9d97a3.webp" alt="The handle of a frame-lock knife, where the split metal frame springs in behind the open blade." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Liner_Lock.jpg">Liner Lock</a> by Hustvedt, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pivot joint for a folding blade or arm in which, once it is swung fully open, a spring-loaded bar (a split strip of the handle liner, the handle frame itself, or a rocker along the spine) drops in behind the blade's heel and blocks it from folding until the bar is pushed aside, while a slip joint only holds the blade with spring pressure and a [detent](../glossary.md#detent).

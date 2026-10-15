@@ -161,32 +161,47 @@ sources:
 - https://www.youtube.com/watch?v=5a-UdttYEVs
 research: research/connection-types/results/Diaphragm_pump_and_squeeze_bulb_membrane_pump_micro_air_pump.json
 image:
-  file: diaphragm-pump-and-squeeze-bulb.webp
-  title: File:Membraanpomp.svg
-  author: Sjoerder
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Membraanpomp.svg
-  alt: 'Animation of a diaphragm (membrane) pump: the membrane moves, the inlet and outlet valves open and close in turn,
-    and bubbles show the flow'
+  file: diaphragm-pump-and-squeeze-bulb-32b23f.webp
+  title: File:Diaphragm pump animated.gif
+  author: TheresNoTime
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Diaphragm_pump_animated.gif
   site: Wikimedia Commons
+  alt: An animated cut-through of a double diaphragm pump, with the diaphragms moving side to side and arrows showing liquid
+    drawn in past ball valves and pushed out.
+  kind: animation
+  still: diaphragm-pump-and-squeeze-bulb-32b23f.still.webp
   drawn: false
 pictures:
-- file: diaphragm-pump-and-squeeze-bulb.webp
-  title: File:Membraanpomp.svg
-  author: Sjoerder
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Membraanpomp.svg
-  alt: 'Animation of a diaphragm (membrane) pump: the membrane moves, the inlet and outlet valves open and close in turn,
-    and bubbles show the flow'
+- file: diaphragm-pump-and-squeeze-bulb-32b23f.webp
+  title: File:Diaphragm pump animated.gif
+  author: TheresNoTime
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Diaphragm_pump_animated.gif
   site: Wikimedia Commons
+  alt: An animated cut-through of a double diaphragm pump, with the diaphragms moving side to side and arrows showing liquid
+    drawn in past ball valves and pushed out.
+  kind: animation
+  still: diaphragm-pump-and-squeeze-bulb-32b23f.still.webp
+  drawn: false
+- file: diaphragm-pump-and-squeeze-bulb-60afbe.webp
+  title: File:Gardena AquaBloom Set - AIM Technology AM370FPW-7694.jpg
+  author: Raimond Spekking
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Gardena_AquaBloom_Set_-_AIM_Technology_AM370FPW-7694.jpg
+  site: Wikimedia Commons
+  alt: A small black electric diaphragm pump with two hose spouts for water in and out.
+  kind: photo
   drawn: false
 glossary: [reciprocating, stroke, torque, crank, actuator, infill, primer, peel-vs-shear, o-ring, check-valve, venturi]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/diaphragm-pump-and-squeeze-bulb.webp" alt="Animation of a diaphragm (membrane) pump: the membrane moves, the inlet and outlet valves open and close in turn, and bubbles show the flow"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Membraanpomp.svg">Membraanpomp</a> by Sjoerder, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/diaphragm-pump-and-squeeze-bulb-32b23f.still.webp"><img src="../media/diaphragm-pump-and-squeeze-bulb-32b23f.webp" alt="An animated cut-through of a double diaphragm pump, with the diaphragms moving side to side and arrows showing liquid drawn in past ball valves and pushed out."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Diaphragm_pump_animated.gif">Diaphragm pump animated</a> by TheresNoTime, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/diaphragm-pump-and-squeeze-bulb-60afbe.webp" alt="A small black electric diaphragm pump with two hose spouts for water in and out." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gardena_AquaBloom_Set_-_AIM_Technology_AM370FPW-7694.jpg">Gardena AquaBloom Set - AIM Technology AM370FPW-7694</a> by Raimond Spekking, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A chamber with one flexible wall (a rubber diaphragm, a squeezable bulb or a folding bellows) or a sliding piston, fitted with an inlet and an outlet one-way valve: making the chamber bigger sucks fluid in through the inlet, making it smaller pushes it out through the outlet, so in-and-out movement becomes one-way flow of air or liquid.

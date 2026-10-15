@@ -165,37 +165,59 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Escapement_anchor_or_verge_escapement.json
 image:
-  file: escapement.webp
-  title: File:Anchor escapement animation 217x328px.gif
+  file: escapement-23e924.webp
+  title: File:Anchor escapement animation 315x478px.gif
   author: Chetvorno
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif
-  alt: 'Animated anchor escapement: pendulum, anchor and escape wheel ticking one tooth at a time (the lead image of Wikipedia''s
-    Escapement article)'
+  source: https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_315x478px.gif
   site: Wikimedia Commons
-  still: escapement.still.webp
+  alt: An animation of an anchor escapement, where the swinging anchor lets the toothed escape wheel turn one tooth at a time.
   kind: animation
+  still: escapement-23e924.still.webp
   drawn: false
 pictures:
-- file: escapement.webp
-  title: File:Anchor escapement animation 217x328px.gif
+- file: escapement-23e924.webp
+  title: File:Anchor escapement animation 315x478px.gif
   author: Chetvorno
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif
-  alt: 'Animated anchor escapement: pendulum, anchor and escape wheel ticking one tooth at a time (the lead image of Wikipedia''s
-    Escapement article)'
+  source: https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_315x478px.gif
   site: Wikimedia Commons
-  still: escapement.still.webp
+  alt: An animation of an anchor escapement, where the swinging anchor lets the toothed escape wheel turn one tooth at a time.
   kind: animation
+  still: escapement-23e924.still.webp
+  drawn: false
+- file: escapement-cc4caf.webp
+  title: File:Floating Balance Escapement (2).gif
+  author: Glosome
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Floating_Balance_Escapement_(2).gif
+  site: Wikimedia Commons
+  alt: A slow-motion clip of a real mantel-clock escapement, with the balance swinging and the escape wheel stepping on one
+    tooth at a time.
+  kind: how-it-works
+  still: escapement-cc4caf.still.webp
+  drawn: false
+- file: escapement-5b6a9b.webp
+  title: File:The 1845 Verge Escapement on a pocket watch.jpg
+  author: Rosser1954
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:The_1845_Verge_Escapement_on_a_pocket_watch.jpg
+  site: Wikimedia Commons
+  alt: The opened movement of an 1845 pocket watch, showing the gear train and the verge escapement on top.
+  kind: photo
   drawn: false
 glossary: [self-locking, axial--radial, ratchet, pawl, torque, crank, clearance, tolerance, form-fit--force-fit--material-bond,
   creep, lubrication, perimeters, regulator]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/escapement.still.webp"><img src="../media/escapement.webp" alt="Animated anchor escapement: pendulum, anchor and escape wheel ticking one tooth at a time (the lead image of Wikipedia&#x27;s Escapement article)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_217x328px.gif">Anchor escapement animation 217x328px</a> by Chetvorno, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/escapement-23e924.still.webp"><img src="../media/escapement-23e924.webp" alt="An animation of an anchor escapement, where the swinging anchor lets the toothed escape wheel turn one tooth at a time."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Anchor_escapement_animation_315x478px.gif">Anchor escapement animation 315x478px</a> by Chetvorno, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/escapement-cc4caf.still.webp"><img src="../media/escapement-cc4caf.webp" alt="A slow-motion clip of a real mantel-clock escapement, with the balance swinging and the escape wheel stepping on one tooth at a time." loading="lazy"></picture><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Floating_Balance_Escapement_(2).gif">Floating Balance Escapement (2)</a> by Glosome, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/escapement-5b6a9b.webp" alt="The opened movement of an 1845 pocket watch, showing the gear train and the verge escapement on top." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:The_1845_Verge_Escapement_on_a_pocket_watch.jpg">The 1845 Verge Escapement on a pocket watch</a> by Rosser1954, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 An escapement lets a spring- or weight-driven wheel turn only in small, regular steps, releasing one tooth at a time each time a pendulum or balance wheel swings, while giving that swinging part a small push to keep it going.

@@ -137,8 +137,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg
-  alt: Labelled drawing of a wood screw naming its parts (head, shank, thread, point)
+  alt: Drawing of a wood screw with its head, plain shank, coarse thread and sharp point labelled.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: wood-screw.webp
@@ -147,15 +148,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg
-  alt: Labelled drawing of a wood screw naming its parts (head, shank, thread, point)
+  alt: Drawing of a wood screw with its head, plain shank, coarse thread and sharp point labelled.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: wood-screw-d09fca.webp
+  title: File:Lag screw (05).jpg
+  author: Rasbak
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Lag_screw_(05).jpg
+  site: Wikimedia Commons
+  alt: A black hex-head lag screw part-driven into a block of wood, its coarse thread cutting its own way in.
+  kind: how-it-works
+  drawn: false
+- file: wood-screw-bfd08d.webp
+  title: File:Black wood screw with flat Phillips head.jpg
+  author: Mynameisnatmo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Black_wood_screw_with_flat_Phillips_head.jpg
+  site: Wikimedia Commons
+  alt: A black wood screw with a flat Phillips head and coarse, widely spaced thread lying on a wooden board.
+  kind: photo
   drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, pilot-hole, counterbore--countersink, creep, brittle--ductile,
   end-grain, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wood-screw.webp" alt="Labelled drawing of a wood screw naming its parts (head, shank, thread, point)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg">Wood screw with legend</a> by Rfc1394, Waterced, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wood-screw.webp" alt="Drawing of a wood screw with its head, plain shank, coarse thread and sharp point labelled."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wood_screw_with_legend.svg">Wood screw with legend</a> by Rfc1394, Waterced, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wood-screw-d09fca.webp" alt="A black hex-head lag screw part-driven into a block of wood, its coarse thread cutting its own way in." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lag_screw_(05).jpg">Lag screw (05)</a> by Rasbak, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wood-screw-bfd08d.webp" alt="A black wood screw with a flat Phillips head and coarse, widely spaced thread lying on a wooden board." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Black_wood_screw_with_flat_Phillips_head.jpg">Black wood screw with flat Phillips head</a> by Mynameisnatmo, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A sharp, coarse-threaded screw that forms its own thread in wood or board and clamps the parts together under its head; with the right pilot and [clearance](../glossary.md#clearance) holes it is the everyday way to fix wood to wood, and the coach screw (big, hex-headed) and Confirmat screw (fat, for chipboard furniture) are its heavy and flat-pack versions.

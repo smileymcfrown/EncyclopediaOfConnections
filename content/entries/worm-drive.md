@@ -140,7 +140,7 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Worm_Gear.gif
-  alt: Animated 4-start worm turning a 50-tooth throated wheel (12.5:1)
+  alt: Animation of a screw-shaped worm turning a large toothed wheel set at right angles to it.
   site: Wikimedia Commons
   still: worm-drive.still.webp
   kind: animation
@@ -152,17 +152,39 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Worm_Gear.gif
-  alt: Animated 4-start worm turning a 50-tooth throated wheel (12.5:1)
+  alt: Animation of a screw-shaped worm turning a large toothed wheel set at right angles to it.
   site: Wikimedia Commons
   still: worm-drive.still.webp
   kind: animation
+  drawn: false
+- file: worm-drive-066010.webp
+  title: File:Worm-WormWheel-gearbox.jpg
+  author: unknown
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Worm-WormWheel-gearbox.jpg
+  site: Wikimedia Commons
+  alt: A worm gearbox cut open to show the worm shaft meshing with the worm wheel inside the casing.
+  kind: cross-section
+  drawn: false
+- file: worm-drive-05a75d.webp
+  title: File:Engrenage à vis creuse CNAM-IMG 0602.jpg
+  author: Rama
+  license: CC BY-SA 2.0 fr
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Engrenage_%C3%A0_vis_creuse_CNAM-IMG_0602.jpg
+  site: Wikimedia Commons
+  alt: A wooden teaching model of a worm drive, a hand crank turning a wooden worm that drives a toothed wheel.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, ratchet, pawl, torque, gear-ratio, pitch, clearance,
   form-fit--force-fit--material-bond, set-screw, creep, lubrication, perimeters, print-in-place, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/worm-drive.still.webp"><img src="../media/worm-drive.webp" alt="Animated 4-start worm turning a 50-tooth throated wheel (12.5:1)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Worm_Gear.gif">Worm Gear</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/worm-drive.still.webp"><img src="../media/worm-drive.webp" alt="Animation of a screw-shaped worm turning a large toothed wheel set at right angles to it."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Worm_Gear.gif">Worm Gear</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/worm-drive-066010.webp" alt="A worm gearbox cut open to show the worm shaft meshing with the worm wheel inside the casing." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Worm-WormWheel-gearbox.jpg">Worm-WormWheel-gearbox</a> by unknown, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/worm-drive-05a75d.webp" alt="A wooden teaching model of a worm drive, a hand crank turning a wooden worm that drives a toothed wheel." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Engrenage_%C3%A0_vis_creuse_CNAM-IMG_0602.jpg">Engrenage à vis creuse CNAM-IMG 0602</a> by Rama, <a href="https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en">CC BY-SA 2.0 fr</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A screw-like gear (the worm) meshes with a gear wheel (the worm wheel) at right angles, giving a large speed reduction and turning-force increase in one step, and in low-angle, single-thread designs the wheel cannot drive the worm backwards.

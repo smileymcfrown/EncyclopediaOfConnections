@@ -148,8 +148,9 @@ image:
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
   source: https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg
-  alt: A propane torch being used to solder copper pipes for a residential water main
+  alt: A propane torch flame heating a copper pipe joint so the solder will melt and flow into the gap.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: soldered-metal-joint.webp
@@ -158,15 +159,27 @@ pictures:
   license: CC BY 2.0
   license_url: https://creativecommons.org/licenses/by/2.0
   source: https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg
-  alt: A propane torch being used to solder copper pipes for a residential water main
+  alt: A propane torch flame heating a copper pipe joint so the solder will melt and flow into the gap.
   site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: soldered-metal-joint-e1ffd4.webp
+  title: File:Fitting1537.JPG
+  author: Borsi112
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Fitting1537.JPG
+  site: Wikimedia Commons
+  alt: Finished soft-soldered copper water pipes and elbow fittings running out of a hole in a wall.
+  kind: photo
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, heat-set-insert, creep, brittle--ductile, infill, warping--shrinkage,
   peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/soldered-metal-joint.webp" alt="A propane torch being used to solder copper pipes for a residential water main"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg">Propane torch soldering copper pipe</a> by neffk (talk), <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/soldered-metal-joint.webp" alt="A propane torch flame heating a copper pipe joint so the solder will melt and flow into the gap."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Propane_torch_soldering_copper_pipe.jpg">Propane torch soldering copper pipe</a> by neffk (talk), <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/soldered-metal-joint-e1ffd4.webp" alt="Finished soft-soldered copper water pipes and elbow fittings running out of a hole in a wall." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fitting1537.JPG">Fitting1537</a> by Borsi112, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Soft soldering joins metal parts by heating them until a tin-based alloy that melts below about 450 °C flows into the narrow gap between them and wets both surfaces, giving a watertight, gas-tight and electrically conductive joint that is good for copper pipes and sheet metal but too weak to carry real mechanical loads on its own.

@@ -148,8 +148,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg
-  alt: A tongue-and-groove joint with the tongue (B) and groove (A) labelled
+  alt: End view of two boards, one with a tongue along its edge that fits a matching groove in the other.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: tongue-and-groove-joint.webp
@@ -158,15 +159,27 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg
-  alt: A tongue-and-groove joint with the tongue (B) and groove (A) labelled
+  alt: End view of two boards, one with a tongue along its edge that fits a matching groove in the other.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: tongue-and-groove-joint-89b98b.webp
+  title: File:Dusheme.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Dusheme.jpg
+  site: Wikimedia Commons
+  alt: Two pine floorboards side by side, showing the tongue on one edge and the groove on the other.
+  kind: photo
   drawn: false
 glossary: [misalignment, axial--radial, cantilever, clearance, form-fit--force-fit--material-bond, spline, chamfer--fillet,
   creep, stress-concentration, elephants-foot, overhang--bridging, warping--shrinkage, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tongue-and-groove-joint.webp" alt="A tongue-and-groove joint with the tongue (B) and groove (A) labelled"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg">Pióro i wpust (ubt)</a> by tsca, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tongue-and-groove-joint.webp" alt="End view of two boards, one with a tongue along its edge that fits a matching groove in the other."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pi%C3%B3ro_i_wpust_(ubt).jpg">Pióro i wpust (ubt)</a> by tsca, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tongue-and-groove-joint-89b98b.webp" alt="Two pine floorboards side by side, showing the tongue on one edge and the groove on the other." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dusheme.jpg">Dusheme</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A tongue on one edge fits a groove in the other, joining boards edge to edge into one flat surface that stays flush, or, with a groove on each side of a box, holding a lid that slides in and out.

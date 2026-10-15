@@ -171,12 +171,34 @@ pictures:
   drawn: true
   still: drawn/capstan-and-windlass.svg
   kind: animation
+- file: capstan-and-windlass.webp
+  title: File:Capstan from af Chapman ship 1888 01.jpg
+  author: Sinikka Halme
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Capstan_from_af_Chapman_ship_1888_01.jpg
+  site: Wikimedia Commons
+  alt: An old iron ship's capstan on a quay, an upright drum with square holes at the top for the bars people push round.
+  kind: photo
+  drawn: false
+- file: capstan-and-windlass-94f35d.webp
+  title: File:Penberth Cove windlass in 2020.jpg
+  author: Jowaninpensans
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Penberth_Cove_windlass_in_2020.jpg
+  site: Wikimedia Commons
+  alt: A wooden windlass beside a Cornish cove, a horizontal drum turned by long bars, used to haul boats up the slipway.
+  kind: photo
+  drawn: false
 glossary: [backlash, self-locking, ratchet, pawl, freewheel, gear-ratio, crank, actuator, clearance, form-fit--force-fit--material-bond,
   holding-force, set-screw, creep, fatigue, lubrication, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/capstan-and-windlass.svg"><img src="../media/drawn/anim/capstan-and-windlass.svg" alt="A windlass: on the left, front view of a rope drum on an axle between two posts, turned by a crank, winding up a rope that lifts a load; on the right, end view showing the long crank and small drum that multiply the pull, and a ratchet wheel with a pawl that stops the drum running back. Animated: th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/capstan-and-windlass.webp" alt="An old iron ship&#x27;s capstan on a quay, an upright drum with square holes at the top for the bars people push round." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Capstan_from_af_Chapman_ship_1888_01.jpg">Capstan from af Chapman ship 1888 01</a> by Sinikka Halme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/capstan-and-windlass-94f35d.webp" alt="A wooden windlass beside a Cornish cove, a horizontal drum turned by long bars, used to haul boats up the slipway." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Penberth_Cove_windlass_in_2020.jpg">Penberth Cove windlass in 2020</a> by Jowaninpensans, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A rope drum turned by a [crank](../glossary.md#crank) or bars (a windlass if the axle is horizontal, a capstan if it is vertical) that winds rope in with a force multiplied by the ratio of handle radius to drum radius, usually with a [ratchet](../glossary.md#ratchet) to hold the load; the friction of a few turns of rope round a drum also lets a small pull hold a large load (capstan effect), and a differential windlass winds rope onto one drum while unwinding it from a slightly smaller one for a huge force gain.

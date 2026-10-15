@@ -143,8 +143,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:MagSafe1.jpg
-  alt: Photo of an Apple MagSafe 1 magnetic power plug, showing the five contacts and the steel shroud
+  alt: A laptop magnetic power plug about to meet its socket, showing the row of spring-loaded pins and the flat contact pads.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: magnetic-connector.webp
@@ -153,15 +154,16 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:MagSafe1.jpg
-  alt: Photo of an Apple MagSafe 1 magnetic power plug, showing the five contacts and the steel shroud
+  alt: A laptop magnetic power plug about to meet its socket, showing the row of spring-loaded pins and the flat contact pads.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, stroke, pitch, fail-safe--fail-secure, tolerance, holding-force, brittle--ductile, print-in-place,
   peel-vs-shear, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/magnetic-connector.webp" alt="Photo of an Apple MagSafe 1 magnetic power plug, showing the five contacts and the steel shroud"><figcaption><a href="https://commons.wikimedia.org/wiki/File:MagSafe1.jpg">MagSafe1</a> by Shannon Savage (Techgeek2007 at en.wikipedia), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/magnetic-connector.webp" alt="A laptop magnetic power plug about to meet its socket, showing the row of spring-loaded pins and the flat contact pads."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:MagSafe1.jpg">MagSafe1</a> by Shannon Savage (Techgeek2007 at en.wikipedia), Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two connector halves with magnets that pull them together and line them up, so spring-loaded pins on one half press onto flat pads on the other to carry power or data, and the halves separate cleanly when pulled too hard.

@@ -116,8 +116,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg
-  alt: An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap.
+  alt: A long aluminium geared continuous hinge, opened partway, with a cap running down its whole length over the toothed
+    edges.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: geared-hinge.webp
@@ -126,14 +128,27 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg
-  alt: An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap.
+  alt: A long aluminium geared continuous hinge, opened partway, with a cap running down its whole length over the toothed
+    edges.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: geared-hinge-ee2a98.webp
+  title: File:Continuoushinge-crop.jpg
+  author: PerryBallard
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Continuoushinge-crop.jpg
+  site: Wikimedia Commons
+  alt: The end of a geared continuous hinge seen close up, showing the gear teeth on the two leaves meshing inside the cap.
+  kind: how-it-works
   drawn: false
 glossary: [backlash, detent, torque, living-hinge, clearance, tolerance, creep, perimeters, print-in-place, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/geared-hinge.webp" alt="An aluminium continuous geared hinge opened to a V, with the meshing gear teeth visible at the top end under the cap."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg">Continuoushinge</a> by PerryBallard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/geared-hinge.webp" alt="A long aluminium geared continuous hinge, opened partway, with a cap running down its whole length over the toothed edges."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Continuoushinge.jpg">Continuoushinge</a> by PerryBallard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/geared-hinge-ee2a98.webp" alt="The end of a geared continuous hinge seen close up, showing the gear teeth on the two leaves meshing inside the cap." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Continuoushinge-crop.jpg">Continuoushinge-crop</a> by PerryBallard, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two hinge leaves with meshing gear teeth along their edges, held together by a cap, so they turn together evenly and share the load along the whole length of the hinge.

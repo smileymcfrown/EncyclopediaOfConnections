@@ -143,8 +143,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png
-  alt: 'Simple drawing of a circlip on a shaft next to the shaft''s groove: what a retaining ring and its groove look like'
+  alt: Drawings of an E-shaped retaining ring and a shaft with a groove, showing how the ring clips into the groove.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: retaining-ring.webp
@@ -153,15 +154,38 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png
-  alt: 'Simple drawing of a circlip on a shaft next to the shaft''s groove: what a retaining ring and its groove look like'
+  alt: Drawings of an E-shaped retaining ring and a shaft with a groove, showing how the ring clips into the groove.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: retaining-ring-2686c2.webp
+  title: File:Circlip Holding a Slide (50940195553).jpg
+  author: Tero Karppinen from Finland
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Circlip_Holding_a_Slide_(50940195553).jpg
+  site: Wikimedia Commons
+  alt: A small circlip clipped into a groove on a pin, holding a plastic slide in place inside a camera.
+  kind: photo
+  drawn: false
+- file: retaining-ring-a3e991.webp
+  title: File:Axial Rings.jpg
+  author: Juergen Wenzel
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Axial_Rings.jpg
+  site: Wikimedia Commons
+  alt: A collection of steel retaining rings (circlips) of different sizes and types, many with two holes for pliers.
+  kind: photo
   drawn: false
 glossary: [self-locking, axial--radial, thrust-load, preload, deflection, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   set-screw, circlip, heat-set-insert, chamfer--fillet, creep, perimeters, infill, overhang--bridging, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/retaining-ring.webp" alt="Simple drawing of a circlip on a shaft next to the shaft&#x27;s groove: what a retaining ring and its groove look like"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png">Sicherungsring auf Welle mit Wellennut</a> by HobbyAstronaut, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/retaining-ring.webp" alt="Drawings of an E-shaped retaining ring and a shaft with a groove, showing how the ring clips into the groove."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sicherungsring_auf_Welle_mit_Wellennut.png">Sicherungsring auf Welle mit Wellennut</a> by HobbyAstronaut, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/retaining-ring-2686c2.webp" alt="A small circlip clipped into a groove on a pin, holding a plastic slide in place inside a camera." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Circlip_Holding_a_Slide_(50940195553).jpg">Circlip Holding a Slide (50940195553)</a> by Tero Karppinen from Finland, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/retaining-ring-a3e991.webp" alt="A collection of steel retaining rings (circlips) of different sizes and types, many with two holes for pliers." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Axial_Rings.jpg">Axial Rings</a> by Juergen Wenzel, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A springy steel ring or clip that snaps into a groove on a shaft or inside a hole, so that the part left sticking out forms a removable shoulder that stops wheels, bearings, gears or pins sliding along or falling out.

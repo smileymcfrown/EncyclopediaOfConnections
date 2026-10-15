@@ -131,9 +131,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg
-  alt: 'Close-up photo of a chainsaw''s centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside
-    the drum'
+  alt: The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: centrifugal-clutch.webp
@@ -142,16 +142,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg
-  alt: 'Close-up photo of a chainsaw''s centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside
-    the drum'
+  alt: The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: centrifugal-clutch-a7aa6e.webp
+  title: File:Dry clutch.JPG
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Dry_clutch.JPG
+  site: Wikimedia Commons
+  alt: A centrifugal clutch taken out of its drum, showing the three shoes and the springs that pull them in towards the hub.
+  kind: how-it-works
+  drawn: false
+- file: centrifugal-clutch-f1e484.webp
+  title: File:Frizione centrifuga.jpg
+  author: A7N8X
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Frizione_centrifuga.jpg
+  site: Wikimedia Commons
+  alt: A two-shoe centrifugal clutch from a motor scythe inside its drum, a spring stretched between the shoes.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, ratchet, freewheel, torque, gear-ratio, fail-safe--fail-secure, flexure, form-fit--force-fit--material-bond,
   set-screw, brittle--ductile]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/centrifugal-clutch.webp" alt="Close-up photo of a chainsaw&#x27;s centrifugal clutch: three shoes on a star-shaped hub, held in by coil springs, inside the drum"><figcaption><a href="https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg">CentrifugalClutch</a> by Fletcher6, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/centrifugal-clutch.webp" alt="The centrifugal clutch of a chainsaw, three shoes held in by a coiled spring inside the drum."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CentrifugalClutch.jpg">CentrifugalClutch</a> by Fletcher6, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-clutch-a7aa6e.webp" alt="A centrifugal clutch taken out of its drum, showing the three shoes and the springs that pull them in towards the hub." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Dry_clutch.JPG">Dry clutch</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-clutch-f1e484.webp" alt="A two-shoe centrifugal clutch from a motor scythe inside its drum, a spring stretched between the shoes." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Frizione_centrifuga.jpg">Frizione centrifuga</a> by A7N8X, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A clutch that engages by itself as it speeds up: spinning weights are flung outwards against a drum and drive it by friction, and they let go again when the speed drops.

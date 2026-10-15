@@ -124,7 +124,8 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif
-  alt: Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed
+  alt: An animation of three nested rings on pivots at right angles, each ring tilting on its own axis so the centre can face
+    any way.
   site: Wikimedia Commons
   still: gimbal.still.webp
   kind: animation
@@ -136,17 +137,40 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif
-  alt: Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed
+  alt: An animation of three nested rings on pivots at right angles, each ring tilting on its own axis so the centre can face
+    any way.
   site: Wikimedia Commons
   still: gimbal.still.webp
   kind: animation
+  drawn: false
+- file: gimbal-00bd88.webp
+  title: File:Aff-tech-demonstrator-prototype 1.jpg
+  author: NASA/Swamp Works
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Aff-tech-demonstrator-prototype_1.jpg
+  site: Wikimedia Commons
+  alt: A small flying prototype held in a large test gimbal of nested metal rings, so it can tilt freely in every direction.
+  kind: how-it-works
+  drawn: false
+- file: gimbal-d69219.webp
+  title: File:Gimbal 8jo WATANABEhachijo.jpg
+  author: 8joKeaton
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Gimbal_8jo_WATANABEhachijo.jpg
+  site: Wikimedia Commons
+  alt: A man holding a phone on a hand-held motorised gimbal, whose jointed arms keep the phone steady while his hand moves.
+  kind: photo
   drawn: false
 glossary: [backlash, pitch, stiffness, flexure, clearance, form-fit--force-fit--material-bond, repeatability--accuracy, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gimbal.still.webp"><img src="../media/gimbal.webp" alt="Animation of three nested gimbal rings turning about pitch, roll and yaw axes while the centre stays fixed"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif">Gimbal 3 axes rotation</a> by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/gimbal.still.webp"><img src="../media/gimbal.webp" alt="An animation of three nested rings on pivots at right angles, each ring tilting on its own axis so the centre can face any way."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gimbal_3_axes_rotation.gif">Gimbal 3 axes rotation</a> by Lookang many thanks to Fu-Kwun Hwang and author of Easy Java Simulation = Francisco Esquembre, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gimbal-00bd88.webp" alt="A small flying prototype held in a large test gimbal of nested metal rings, so it can tilt freely in every direction." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Aff-tech-demonstrator-prototype_1.jpg">Aff-tech-demonstrator-prototype 1</a> by NASA/Swamp Works, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gimbal-d69219.webp" alt="A man holding a phone on a hand-held motorised gimbal, whose jointed arms keep the phone steady while his hand moves." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gimbal_8jo_WATANABEhachijo.jpg">Gimbal 8jo WATANABEhachijo</a> by 8joKeaton, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A set of two or three nested pivots at right angles to each other, so the object in the middle can tilt freely about each axis, or stay level while whatever holds it rocks.

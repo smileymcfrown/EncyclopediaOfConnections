@@ -149,8 +149,9 @@ image:
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Balancer_Buchse_XH.JPG
-  alt: 2.50 mm JST-XH-type vertical board headers, the kind used for battery balance leads and 3D-printer boards
+  alt: Three white XH sockets for 4, 5 and 6-cell battery balance leads, each a row of pins inside a plastic shroud.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: wire-to-board-plug-connectors.webp
@@ -159,14 +160,37 @@ pictures:
   license: CC BY 3.0
   license_url: https://creativecommons.org/licenses/by/3.0
   source: https://commons.wikimedia.org/wiki/File:Balancer_Buchse_XH.JPG
-  alt: 2.50 mm JST-XH-type vertical board headers, the kind used for battery balance leads and 3D-printer boards
+  alt: Three white XH sockets for 4, 5 and 6-cell battery balance leads, each a row of pins inside a plastic shroud.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: wire-to-board-plug-connectors-876d9c.webp
+  title: LED module
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/43851301@N02/9339188957
+  site: Flickr via Openverse
+  alt: A small LED board with a ribbon cable ending in a white plastic plug ready to push onto a pin header.
+  kind: photo
+  drawn: false
+- file: wire-to-board-plug-connectors-cf6a53.webp
+  title: File:Stiftwanne2x13v2.jpg
+  author: User:PANAMATIK
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Stiftwanne2x13v2.jpg
+  site: Wikimedia Commons
+  alt: A shrouded two-row pin header with a notch in its wall so the matching plug can only go in one way.
+  kind: photo
   drawn: false
 glossary: [ratchet, pitch, form-fit--force-fit--material-bond, keying, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-to-board-plug-connectors.webp" alt="2.50 mm JST-XH-type vertical board headers, the kind used for battery balance leads and 3D-printer boards"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Balancer_Buchse_XH.JPG">Balancer Buchse XH</a> by Laurenz Wagner, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-to-board-plug-connectors.webp" alt="Three white XH sockets for 4, 5 and 6-cell battery balance leads, each a row of pins inside a plastic shroud."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Balancer_Buchse_XH.JPG">Balancer Buchse XH</a> by Laurenz Wagner, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-to-board-plug-connectors-876d9c.webp" alt="A small LED board with a ribbon cable ending in a white plastic plug ready to push onto a pin header." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/43851301@N02/9339188957">LED module</a> by tony_duell, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-to-board-plug-connectors-cf6a53.webp" alt="A shrouded two-row pin header with a notch in its wall so the matching plug can only go in one way." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Stiftwanne2x13v2.jpg">Stiftwanne2x13v2</a> by User:PANAMATIK, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A plastic plug (housing) holding small sprung metal sockets that have been crimped onto wire ends pushes onto a matching row of pins (header) soldered to a circuit board, making a removable, often latched and polarised, low-current connection.

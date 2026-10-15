@@ -125,8 +125,7 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif
-  alt: 'Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads
-    into a button'
+  alt: An animated cut-through of two sheets being pressed into a die, the metal flowing sideways into a locked button.
   site: Wikimedia Commons
   still: clinching.still.webp
   kind: animation
@@ -138,17 +137,39 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif
-  alt: 'Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads
-    into a button'
+  alt: An animated cut-through of two sheets being pressed into a die, the metal flowing sideways into a locked button.
   site: Wikimedia Commons
   still: clinching.still.webp
   kind: animation
+  drawn: false
+- file: clinching-13f682.webp
+  title: File:Durchsetzfuegen Clinchen Handgeraet 0076.jpg
+  author: Michael KR
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Durchsetzfuegen_Clinchen_Handgeraet_0076.jpg
+  site: Wikimedia Commons
+  alt: A person using a hand-held clinching tool to join two metal sheets, with a row of clinched buttons already along the
+    edge.
+  kind: how-it-works
+  drawn: false
+- file: clinching-f1400e.webp
+  title: File:Durchsetzfuegen an einem Gaszaehler 4447b.jpg
+  author: Michael KR
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Durchsetzfuegen_an_einem_Gaszaehler_4447b.jpg
+  site: Wikimedia Commons
+  alt: An aluminium gas-meter case with arrows pointing to the round clinch buttons that hold its sheet-metal parts together.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, creep, fatigue, brittle--ductile, lubrication, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/clinching.still.webp"><img src="../media/clinching.webp" alt="Animation of a round clinch point forming in a solid die: punch pushes two sheets into the die and the metal spreads into a button"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif">TOX Pressotechnik Clinching</a> by CRT4TopSpot, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/clinching.still.webp"><img src="../media/clinching.webp" alt="An animated cut-through of two sheets being pressed into a die, the metal flowing sideways into a locked button."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:TOX_Pressotechnik_Clinching.gif">TOX Pressotechnik Clinching</a> by CRT4TopSpot, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clinching-13f682.webp" alt="A person using a hand-held clinching tool to join two metal sheets, with a row of clinched buttons already along the edge." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Durchsetzfuegen_Clinchen_Handgeraet_0076.jpg">Durchsetzfuegen Clinchen Handgeraet 0076</a> by Michael KR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clinching-f1400e.webp" alt="An aluminium gas-meter case with arrows pointing to the round clinch buttons that hold its sheet-metal parts together." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Durchsetzfuegen_an_einem_Gaszaehler_4447b.jpg">Durchsetzfuegen an einem Gaszaehler 4447b</a> by Michael KR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A way of permanently joining overlapping metal sheets by pressing them with a punch into a shaped die, so the metal flows sideways into a button-shaped interlock that holds the sheets together without any extra part.

@@ -135,7 +135,7 @@ image:
   license: CC BY-SA 2.0 de
   license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
   source: https://commons.wikimedia.org/wiki/File:Schrumpfschlauch_animated_modified.gif
-  alt: Animation of heat-shrink tubing shrinking round a wire as heat is applied
+  alt: A loose pink tube over the wires behind a small plug shrinks tight around them as it is heated.
   site: Wikimedia Commons
   still: heat-shrink-tubing.still.webp
   kind: animation
@@ -147,16 +147,38 @@ pictures:
   license: CC BY-SA 2.0 de
   license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
   source: https://commons.wikimedia.org/wiki/File:Schrumpfschlauch_animated_modified.gif
-  alt: Animation of heat-shrink tubing shrinking round a wire as heat is applied
+  alt: A loose pink tube over the wires behind a small plug shrinks tight around them as it is heated.
   site: Wikimedia Commons
   still: heat-shrink-tubing.still.webp
   kind: animation
+  drawn: false
+- file: heat-shrink-tubing-2f238e.webp
+  title: File:Heat shrink covering.JPG
+  author: Steven1108
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Heat_shrink_covering.JPG
+  site: Wikimedia Commons
+  alt: A black heat-shrink sleeve shrunk tightly over a joint in a thin cable, held in a yellow tool.
+  kind: how-it-works
+  drawn: false
+- file: heat-shrink-tubing-86db65.webp
+  title: File:Heat-shrink tubing.jpg
+  author: oomlout
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Heat-shrink_tubing.jpg
+  site: Wikimedia Commons
+  alt: Ten lengths of heat-shrink tubing in different colours laid side by side.
+  kind: photo
   drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, warping--shrinkage, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/heat-shrink-tubing.still.webp"><img src="../media/heat-shrink-tubing.webp" alt="Animation of heat-shrink tubing shrinking round a wire as heat is applied"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Schrumpfschlauch_animated_modified.gif">Schrumpfschlauch animated modified</a> by User Smial on de.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/heat-shrink-tubing.still.webp"><img src="../media/heat-shrink-tubing.webp" alt="A loose pink tube over the wires behind a small plug shrinks tight around them as it is heated."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Schrumpfschlauch_animated_modified.gif">Schrumpfschlauch animated modified</a> by User Smial on de.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-shrink-tubing-2f238e.webp" alt="A black heat-shrink sleeve shrunk tightly over a joint in a thin cable, held in a yellow tool." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Heat_shrink_covering.JPG">Heat shrink covering</a> by Steven1108, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-shrink-tubing-86db65.webp" alt="Ten lengths of heat-shrink tubing in different colours laid side by side." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Heat-shrink_tubing.jpg">Heat-shrink tubing</a> by oomlout, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A tube of specially treated plastic is slid over a wire or joint and heated with a hot-air gun, so it shrinks to between a half and a sixth of its diameter and grips tightly, insulating the joint and protecting it from rubbing, while glue-lined versions also melt their inner glue to seal out water.

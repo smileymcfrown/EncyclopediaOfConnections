@@ -146,8 +146,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg
-  alt: PTFE tape wound three times round a threaded pipe under a bathroom sink, ready for a hose connection
+  alt: White PTFE tape wound round the threads of a brass pipe end before it is screwed into a fitting.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: tapered-pipe-thread.webp
@@ -156,15 +157,27 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg
-  alt: PTFE tape wound three times round a threaded pipe under a bathroom sink, ready for a hose connection
+  alt: White PTFE tape wound round the threads of a brass pipe end before it is screwed into a fitting.
   site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: tapered-pipe-thread-724e95.webp
+  title: File:Malefemalepipe.jpg
+  author: No machine-readable author provided. Scs assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Malefemalepipe.jpg
+  site: Wikimedia Commons
+  alt: A threaded steel pipe end beside an elbow fitting with a matching thread inside.
+  kind: photo
   drawn: false
 glossary: [torque, pitch, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond, taper, boss, threadlocker,
   galling--fretting, lubrication, perimeters, infill, cure, peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tapered-pipe-thread.webp" alt="PTFE tape wound three times round a threaded pipe under a bathroom sink, ready for a hose connection"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg">Teflon tape wound around threaded pipe</a> by Tomwsulcer, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tapered-pipe-thread.webp" alt="White PTFE tape wound round the threads of a brass pipe end before it is screwed into a fitting."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Teflon_tape_wound_around_threaded_pipe.jpg">Teflon tape wound around threaded pipe</a> by Tomwsulcer, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tapered-pipe-thread-724e95.webp" alt="A threaded steel pipe end beside an elbow fitting with a matching thread inside." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Malefemalepipe.jpg">Malefemalepipe</a> by No machine-readable author provided. Scs assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A tapered pipe thread is a screw thread whose diameter grows along its length, so tightening a male pipe end into a female fitting wedges the threads together, and a sealant such as PTFE tape, pipe dope or anaerobic sealant fills the small spiral gap that is left so the joint holds pressure.

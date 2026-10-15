@@ -143,8 +143,8 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif
-  alt: Animation of a collet being pulled into its tapered seat by a drawbar, clamping a shaft, spinning, and then releasing
-    it
+  alt: An animation of a slotted collet being pulled into its cone-shaped seat by a drawbar, closing on a shaft and then letting
+    it go.
   site: Wikimedia Commons
   still: collet.still.webp
   kind: animation
@@ -156,18 +156,40 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif
-  alt: Animation of a collet being pulled into its tapered seat by a drawbar, clamping a shaft, spinning, and then releasing
-    it
+  alt: An animation of a slotted collet being pulled into its cone-shaped seat by a drawbar, closing on a shaft and then letting
+    it go.
   site: Wikimedia Commons
   still: collet.still.webp
   kind: animation
+  drawn: false
+- file: collet-1eea0e.webp
+  title: File:ChuckDrillKeyedKeylessArbor.jpg
+  author: Glenn McKechnie
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:ChuckDrillKeyedKeylessArbor.jpg
+  site: Wikimedia Commons
+  alt: A keyless drill chuck on its arbor, a keyed chuck and its key, and a chuck taken apart to show its three jaws.
+  kind: how-it-works
+  drawn: false
+- file: collet-9c4b1a.webp
+  title: File:ER Collet.jpg
+  author: Aweber4418
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:ER_Collet.jpg
+  site: Wikimedia Commons
+  alt: A steel ER collet, a cone-shaped sleeve cut with slots from both ends so it can squeeze down on a tool shank.
+  kind: photo
   drawn: false
 glossary: [misalignment, ratchet, torque, clearance, form-fit--force-fit--material-bond, set-screw, taper, collet, repeatability--accuracy,
   creep, brittle--ductile, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/collet.still.webp"><img src="../media/collet.webp" alt="Animation of a collet being pulled into its tapered seat by a drawbar, clamping a shaft, spinning, and then releasing it"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif">External thread pull collet action</a> by Slashme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/collet.still.webp"><img src="../media/collet.webp" alt="An animation of a slotted collet being pulled into its cone-shaped seat by a drawbar, closing on a shaft and then letting it go."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:External_thread_pull_collet_action.gif">External thread pull collet action</a> by Slashme, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/collet-1eea0e.webp" alt="A keyless drill chuck on its arbor, a keyed chuck and its key, and a chuck taken apart to show its three jaws." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:ChuckDrillKeyedKeylessArbor.jpg">ChuckDrillKeyedKeylessArbor</a> by Glenn McKechnie, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/collet-9c4b1a.webp" alt="A steel ER collet, a cone-shaped sleeve cut with slots from both ends so it can squeeze down on a tool shank." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ER_Collet.jpg">ER Collet</a> by Aweber4418, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A slotted sleeve with a cone-shaped outside that a nut or pull-rod forces into a matching cone, so it squeezes evenly around a round tool shank or rod and holds it tight and accurately centred; a keyless chuck does the same job with three jaws that you tighten by hand.

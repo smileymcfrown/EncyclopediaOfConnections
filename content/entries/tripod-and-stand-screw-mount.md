@@ -143,8 +143,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Screw_Head_-_Tripod_screw-01.jpg
-  alt: Photo of a tripod screw with a fold-up D-ring for turning it by hand
+  alt: A tripod screw with a flat folding finger tab on its head, for tightening a camera onto a tripod by hand.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: tripod-and-stand-screw-mount.webp
@@ -153,14 +154,37 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Screw_Head_-_Tripod_screw-01.jpg
-  alt: Photo of a tripod screw with a fold-up D-ring for turning it by hand
+  alt: A tripod screw with a flat folding finger tab on its head, for tightening a camera onto a tripod by hand.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: tripod-and-stand-screw-mount-a91403.webp
+  title: File:Tripod screw to light stand spigot; August 2020.jpg
+  author: MIKI Yoshihito
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Tripod_screw_to_light_stand_spigot;_August_2020.jpg
+  site: Wikimedia Commons
+  alt: A bag of small threaded adapters for converting between the 1/4-inch and 3/8-inch tripod screw sizes.
+  kind: photo
+  drawn: false
+- file: tripod-and-stand-screw-mount-cd0dbc.webp
+  title: Jianisi PT-04TM radio flash trigger sync jack mod 1
+  author: Darron Birgenheier
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/28502132@N05/4229438759
+  site: Flickr via Openverse
+  alt: The underside of two radio flash triggers, each with a threaded tripod socket and a shoe for mounting.
+  kind: photo
   drawn: false
 glossary: [torque, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tripod-and-stand-screw-mount.webp" alt="Photo of a tripod screw with a fold-up D-ring for turning it by hand"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Screw_Head_-_Tripod_screw-01.jpg">Screw Head - Tripod screw-01</a> by Andrew Pertsev, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tripod-and-stand-screw-mount.webp" alt="A tripod screw with a flat folding finger tab on its head, for tightening a camera onto a tripod by hand."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Screw_Head_-_Tripod_screw-01.jpg">Screw Head - Tripod screw-01</a> by Andrew Pertsev, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tripod-and-stand-screw-mount-a91403.webp" alt="A bag of small threaded adapters for converting between the 1/4-inch and 3/8-inch tripod screw sizes." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tripod_screw_to_light_stand_spigot;_August_2020.jpg">Tripod screw to light stand spigot; August 2020</a> by MIKI Yoshihito, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tripod-and-stand-screw-mount-cd0dbc.webp" alt="The underside of two radio flash triggers, each with a threaded tripod socket and a shoe for mounting." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/28502132@N05/4229438759">Jianisi PT-04TM radio flash trigger sync jack mod 1</a> by Darron Birgenheier, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A single standard threaded socket or stud, nearly always 1/4-20 or 3/8-16 UNC, that lets any camera, light, phone holder or home-made part be screwed by hand onto any tripod, stand or rig, with locating pins, a lip, a rubber pad or a lock ring added because one screw on its own lets the part twist.

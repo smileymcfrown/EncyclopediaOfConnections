@@ -168,7 +168,8 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif
-  alt: Animated Watt's linkage tracing its nearly straight line (and figure-8 ends); dimensions given in the description
+  alt: 'Animation of Watt''s linkage: two swinging arms are joined by a short bar, and the bar''s midpoint moves up and down
+    in a nearly straight line.'
   site: Wikimedia Commons
   still: straight-line-linkages.still.webp
   kind: animation
@@ -180,7 +181,8 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif
-  alt: Animated Watt's linkage tracing its nearly straight line (and figure-8 ends); dimensions given in the description
+  alt: 'Animation of Watt''s linkage: two swinging arms are joined by a short bar, and the bar''s midpoint moves up and down
+    in a nearly straight line.'
   site: Wikimedia Commons
   still: straight-line-linkages.still.webp
   kind: animation
@@ -190,7 +192,7 @@ glossary: [stroke, pitch, idler, crank, linkage, flexure, clearance, form-fit--f
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/straight-line-linkages.still.webp"><img src="../media/straight-line-linkages.webp" alt="Animated Watt&#x27;s linkage tracing its nearly straight line (and figure-8 ends); dimensions given in the description"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif">Watts Linkage</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/straight-line-linkages.still.webp"><img src="../media/straight-line-linkages.webp" alt="Animation of Watt&#x27;s linkage: two swinging arms are joined by a short bar, and the bar&#x27;s midpoint moves up and down in a nearly straight line."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Watts_Linkage.gif">Watts Linkage</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Pivoted bars (or, in the Tusi couple, a gear rolling inside a ring gear twice its size) are proportioned so that one point moves in a straight line, turning rotation or rocking into straight-line motion, or the reverse, without any sliding guide.

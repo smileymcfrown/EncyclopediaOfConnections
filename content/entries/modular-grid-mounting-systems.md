@@ -178,8 +178,9 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg
-  alt: A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.
+  alt: A 3D-printed drawer with a Gridfinity baseplate of square sockets and one long bin of toothpicks sitting in it.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: modular-grid-mounting-systems.webp
@@ -188,14 +189,26 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg
-  alt: A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid.
+  alt: A 3D-printed drawer with a Gridfinity baseplate of square sockets and one long bin of toothpicks sitting in it.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: modular-grid-mounting-systems-695b5d.webp
+  title: File:Pegboard.jpg
+  author: Dave Pape
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pegboard.jpg
+  site: Wikimedia Commons
+  alt: A piece of brown pegboard with evenly spaced round holes one inch apart.
+  kind: photo
   drawn: false
 glossary: [cantilever, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/modular-grid-mounting-systems.webp" alt="A 3D-printed drawer with a Gridfinity grid baseplate and a bin of toothpicks sitting on the grid."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg">Gridfinity drawer and bin</a> by Sandstein, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/modular-grid-mounting-systems.webp" alt="A 3D-printed drawer with a Gridfinity baseplate of square sockets and one long bin of toothpicks sitting in it."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gridfinity_drawer_and_bin.jpg">Gridfinity drawer and bin</a> by Sandstein, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/modular-grid-mounting-systems-695b5d.webp" alt="A piece of brown pegboard with evenly spaced round holes one inch apart." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pegboard.jpg">Pegboard</a> by Dave Pape, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A board or baseplate with a regular grid of identical holes, slots or sockets, so any hook, holder or bin made to the same spacing can be hung, clicked, twisted, screwed or held by magnet in any position and moved again by hand.

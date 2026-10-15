@@ -148,11 +148,33 @@ pictures:
     its water soaking into the wood and drying into the air; beside it, a strong side-grain joint compared with a weak end-grain
     butt joint where the glue soaks away into the wood.
   drawn: true
+- file: pva-wood-glue.webp
+  title: File:Using wood glue.JPG
+  author: Amirreza Saharkhiz
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Using_wood_glue.JPG
+  site: Wikimedia Commons
+  alt: A wooden post glued onto a board, with creamy PVA glue squeezed out round the joint.
+  kind: how-it-works
+  drawn: false
+- file: pva-wood-glue-c8f9c3.webp
+  title: File:Wood glue and clamping the pieces before screwing them together.jpg
+  author: Own work
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg
+  site: Wikimedia Commons
+  alt: Two strips of wood glued together and held tight with clamps on a workbench while the glue sets.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/pva-wood-glue.svg" alt="Magnified cut-away of a clamped PVA glue line between two boards, with the glue reaching into the open wood cells and its water soaking into the wood and drying into the air; beside it, a strong side-grain joint compared with a weak end-grain butt joint where the glue soaks away into the wood."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pva-wood-glue.webp" alt="A wooden post glued onto a board, with creamy PVA glue squeezed out round the joint." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Using_wood_glue.JPG">Using wood glue</a> by Amirreza Saharkhiz, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pva-wood-glue-c8f9c3.webp" alt="Two strips of wood glued together and held tight with clamps on a workbench while the glue sets." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg">Wood glue and clamping the pieces before screwing them together</a> by Own work, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A water-based glue of plastic particles suspended in water that soaks into wood, paper, card and other porous materials and hardens as the water is absorbed and evaporates, giving strong, cheap, non-toxic joints for indoor woodwork, with yellow and water-resistant grades for tougher jobs.

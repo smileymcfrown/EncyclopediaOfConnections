@@ -137,9 +137,9 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg
-  alt: 'Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube,
-    and a view into the nut cavity'
+  alt: Two ball screws on a wooden floor, with close-ups of a nut whose return tube is removed to show the balls.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: ball-screw.webp
@@ -148,9 +148,19 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg
-  alt: 'Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube,
-    and a view into the nut cavity'
+  alt: Two ball screws on a wooden floor, with close-ups of a nut whose return tube is removed to show the balls.
   site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: ball-screw-22880f.webp
+  title: File:BallScrewNut-showing-balls-recirculating-tubes.jpg
+  author: No machine-readable author provided. Graibeard assumed (based on copyright claims).
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:BallScrewNut-showing-balls-recirculating-tubes.jpg
+  site: Wikimedia Commons
+  alt: A ball screw nut partly taken apart, one return tube lifted off and loose steel balls laid out above it.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, stroke, torque, pitch, actuator, stiffness,
   preload, flexure, clearance, form-fit--force-fit--material-bond, spline, repeatability--accuracy, fatigue, lubrication,
@@ -158,7 +168,8 @@ glossary: [misalignment, backlash, back-driving, self-locking, axial--radial, st
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-screw.webp" alt="Two ball screws, with insets of the ball nut: return tube removed showing loose balls, retainer bracket and tube, and a view into the nut cavity"><figcaption><a href="https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg">BallScrews-with-detail-insets</a> by No machine-readable author provided. Graibeard assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-screw.webp" alt="Two ball screws on a wooden floor, with close-ups of a nut whose return tube is removed to show the balls."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallScrews-with-detail-insets.jpg">BallScrews-with-detail-insets</a> by No machine-readable author provided. Graibeard assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ball-screw-22880f.webp" alt="A ball screw nut partly taken apart, one return tube lifted off and loose steel balls laid out above it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:BallScrewNut-showing-balls-recirculating-tubes.jpg">BallScrewNut-showing-balls-recirculating-tubes</a> by No machine-readable author provided. Graibeard assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Turning a grooved screw drives a nut along it in a straight line, and because hardened balls roll between the screw and nut instead of the threads sliding, it is about 90% efficient, fast, precise and long-lasting, but it will also run backwards if the load pushes on it.

@@ -143,12 +143,34 @@ pictures:
     bridges, with the band hooked under a bead on the neck; then the cap being unscrewed and rising while the band is held
     by the bead, so the bridges snap; then the cap gone and the broken band left on the neck as a sign it has been opened.'
   drawn: true
+- file: tamper-evident-breakaway-bridge.webp
+  title: File:Pulloon kiinnitetty pullonkorkki 3.JPG
+  author: MKFI
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pulloon_kiinnitetty_pullonkorkki_3.JPG
+  site: Wikimedia Commons
+  alt: A plastic drink bottle with its cap unscrewed but still held to the ring left round the bottle neck.
+  kind: photo
+  drawn: false
+- file: tamper-evident-breakaway-bridge-a620f2.webp
+  title: File:Tamper evident seal on OTC pharmaceutical.jpg
+  author: Rlsheehan
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Tamper_evident_seal_on_OTC_pharmaceutical.jpg
+  site: Wikimedia Commons
+  alt: A pill bottle whose tear-off seal strip has been pulled away from the cap, showing it has been opened.
+  kind: how-it-works
+  drawn: false
 glossary: [ratchet, fail-safe--fail-secure, living-hinge, cantilever, form-fit--force-fit--material-bond, captive-nut, creep,
   brittle--ductile, layer-lines, perimeters, infill, support-material]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/tamper-evident-breakaway-bridge.svg" alt="Three cut-away side views of a bottle neck and screw cap: first the new cap joined to a band below it by thin plastic bridges, with the band hooked under a bead on the neck; then the cap being unscrewed and rising while the band is held by the bead, so the bridges snap; then the cap gone and the bro"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tamper-evident-breakaway-bridge.webp" alt="A plastic drink bottle with its cap unscrewed but still held to the ring left round the bottle neck." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pulloon_kiinnitetty_pullonkorkki_3.JPG">Pulloon kiinnitetty pullonkorkki 3</a> by MKFI, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tamper-evident-breakaway-bridge-a620f2.webp" alt="A pill bottle whose tear-off seal strip has been pulled away from the cap, showing it has been opened." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tamper_evident_seal_on_OTC_pharmaceutical.jpg">Tamper evident seal on OTC pharmaceutical</a> by Rlsheehan, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A deliberately weak link of thin plastic bridges between a cap and a ring (or between any two parts) that survives making, filling and shipping but snaps the first time the item is opened, so anyone can see it has been opened.

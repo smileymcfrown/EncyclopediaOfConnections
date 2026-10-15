@@ -143,8 +143,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Stanley-Hot-Glue-Gun-GR35K.jpg
-  alt: Photo of an inexpensive hobby hot glue gun, the image used on Wikipedia's hot-melt adhesive article
+  alt: A small black hobby hot glue gun with a clear glue stick in the back.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: hot-melt-adhesive.webp
@@ -153,14 +154,37 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Stanley-Hot-Glue-Gun-GR35K.jpg
-  alt: Photo of an inexpensive hobby hot glue gun, the image used on Wikipedia's hot-melt adhesive article
+  alt: A small black hobby hot glue gun with a clear glue stick in the back.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: hot-melt-adhesive-bff48f.webp
+  title: File:1111-1 Hot Glue Gun intern - Interna einer Heißklebepstole.jpg
+  author: 1-1111
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:1111-1_Hot_Glue_Gun_intern_-_Interna_einer_Hei%C3%9Fklebepstole.jpg
+  site: Wikimedia Commons
+  alt: A hot glue gun with one half of its case removed, showing the trigger feed, the glue stick and the heated nozzle inside.
+  kind: cross-section
+  drawn: false
+- file: hot-melt-adhesive-d4d665.webp
+  title: File:Wikiversity model boat project - Hot-melt adhesive does it better.jpg
+  author: Afayyaz6843
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Wikiversity_model_boat_project_-_Hot-melt_adhesive_does_it_better.jpg
+  site: Wikimedia Commons
+  alt: A person using a hot glue gun to fix parts onto a model boat.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, infill, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/hot-melt-adhesive.webp" alt="Photo of an inexpensive hobby hot glue gun, the image used on Wikipedia&#x27;s hot-melt adhesive article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Stanley-Hot-Glue-Gun-GR35K.jpg">Stanley-Hot-Glue-Gun-GR35K</a> by Evan-Amos, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hot-melt-adhesive.webp" alt="A small black hobby hot glue gun with a clear glue stick in the back."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Stanley-Hot-Glue-Gun-GR35K.jpg">Stanley-Hot-Glue-Gun-GR35K</a> by Evan-Amos, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hot-melt-adhesive-bff48f.webp" alt="A hot glue gun with one half of its case removed, showing the trigger feed, the glue stick and the heated nozzle inside." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:1111-1_Hot_Glue_Gun_intern_-_Interna_einer_Hei%C3%9Fklebepstole.jpg">1111-1 Hot Glue Gun intern - Interna einer Heißklebepstole</a> by 1-1111, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hot-melt-adhesive-d4d665.webp" alt="A person using a hot glue gun to fix parts onto a model boat." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wikiversity_model_boat_project_-_Hot-melt_adhesive_does_it_better.jpg">Wikiversity model boat project - Hot-melt adhesive does it better</a> by Afayyaz6843, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A solid plastic glue stick is melted by an electrically heated glue gun and squeezed onto the parts; the molten plastic wets the surfaces and grips them as it cools and hardens, with no drying or curing step.

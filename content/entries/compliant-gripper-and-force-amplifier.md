@@ -143,9 +143,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png
-  alt: Drawing of BYU's single-piece compliant plier (vice grip) mechanism, used as the lead image of the Wikipedia article
-    Compliant mechanism
+  alt: The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: compliant-gripper-and-force-amplifier.webp
@@ -154,9 +154,9 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png
-  alt: Drawing of BYU's single-piece compliant plier (vice grip) mechanism, used as the lead image of the Wikipedia article
-    Compliant mechanism
+  alt: The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [backlash, over-centre, bistable, lever-arm, mechanical-advantage, linkage, actuator, stiffness, flexure, compliant-mechanism,
   living-hinge, clearance, form-fit--force-fit--material-bond, chamfer--fillet, repeatability--accuracy, creep, fatigue, stress-concentration,
@@ -164,7 +164,7 @@ glossary: [backlash, over-centre, bistable, lever-arm, mechanical-advantage, lin
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/compliant-gripper-and-force-amplifier.webp" alt="Drawing of BYU&#x27;s single-piece compliant plier (vice grip) mechanism, used as the lead image of the Wikipedia article Compliant mechanism"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png">Compliant plier mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/compliant-gripper-and-force-amplifier.webp" alt="The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Compliant_plier_mechanism.png">Compliant plier mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A single bending part shaped like a set of levers, so that pushing or squeezing one end makes the jaws at the other end close with more force (or more movement) than you put in, with no pins, springs or hinges to assemble.

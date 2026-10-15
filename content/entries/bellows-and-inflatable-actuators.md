@@ -138,8 +138,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg
-  alt: Photo of an axial (convoluted) pneumatic bellows, the industrial air spring or air actuator
+  alt: A cut-through drawing of an air bellows between two plates, with air let in at the bottom pushing the top plate up.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: bellows-and-inflatable-actuators.webp
@@ -148,15 +149,39 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg
-  alt: Photo of an axial (convoluted) pneumatic bellows, the industrial air spring or air actuator
+  alt: A cut-through drawing of an air bellows between two plates, with air let in at the bottom pushing the top plate up.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: bellows-and-inflatable-actuators-e71b7c.webp
+  title: File:Lufe schnitt.png
+  author: Jan Müller
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Lufe_schnitt.png
+  site: Wikimedia Commons
+  alt: A cut-away render of a rolling-lobe air spring, a rubber sleeve clamped between a top cap and a piston that it rolls
+    down over.
+  kind: cross-section
+  drawn: false
+- file: bellows-and-inflatable-actuators-6005b8.webp
+  title: File:2023-06-04 DLRG Hebesack 01.jpg
+  author: Bärbel Miemietz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:2023-06-04_DLRG_Hebesack_01.jpg
+  site: Wikimedia Commons
+  alt: A big yellow inflatable lifting bag hanging from a crane arm at a rescue service display.
+  kind: photo
   drawn: false
 glossary: [misalignment, stroke, actuator, solenoid, fail-safe--fail-secure, clearance, fatigue, brittle--ductile, lubrication,
   overhang--bridging, cure, o-ring, regulator]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bellows-and-inflatable-actuators.webp" alt="Photo of an axial (convoluted) pneumatic bellows, the industrial air spring or air actuator"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg">Axiální pneumatický měch</a> by Jjvcela, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bellows-and-inflatable-actuators.webp" alt="A cut-through drawing of an air bellows between two plates, with air let in at the bottom pushing the top plate up."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Axi%C3%A1ln%C3%AD_pneumatick%C3%BD_m%C4%9Bch.jpg">Axiální pneumatický měch</a> by Jjvcela, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bellows-and-inflatable-actuators-e71b7c.webp" alt="A cut-away render of a rolling-lobe air spring, a rubber sleeve clamped between a top cap and a piston that it rolls down over." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lufe_schnitt.png">Lufe schnitt</a> by Jan Müller, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bellows-and-inflatable-actuators-6005b8.webp" alt="A big yellow inflatable lifting bag hanging from a crane arm at a rescue service display." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:2023-06-04_DLRG_Hebesack_01.jpg">2023-06-04 DLRG Hebesack 01</a> by Bärbel Miemietz, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A flexible, airtight chamber (folded bellows, cushion or bag) between two end plates that pushes the plates apart when filled with air under pressure, or pulls them together under vacuum, giving a straight, single-acting push with no piston, rod or sliding seals (Firestone Airstroke design guide; Wikipedia 'Air suspension').

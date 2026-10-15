@@ -150,8 +150,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg
-  alt: Photo of a magnetic child-safety lock fixed inside a cabinet door
+  alt: A white plastic magnetic child-safety catch fixed inside a cabinet door, its hook ready to catch the frame.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: hidden-latches.webp
@@ -160,14 +161,26 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg
-  alt: Photo of a magnetic child-safety lock fixed inside a cabinet door
+  alt: A white plastic magnetic child-safety catch fixed inside a cabinet door, its hook ready to catch the frame.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: hidden-latches-58570e.webp
+  title: File:Antique lap desk with hidden compartment.JPG
+  author: Koppas
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Antique_lap_desk_with_hidden_compartment.JPG
+  site: Wikimedia Commons
+  alt: An antique wooden lap desk opened up to show a hidden compartment held shut by a spring latch.
+  kind: how-it-works
   drawn: false
 glossary: [solenoid, form-fit--force-fit--material-bond, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/hidden-latches.webp" alt="Photo of a magnetic child-safety lock fixed inside a cabinet door"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg">Magnetic safety lock</a> by Nhujs ntus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hidden-latches.webp" alt="A white plastic magnetic child-safety catch fixed inside a cabinet door, its hook ready to catch the frame."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetic_safety_lock.jpg">Magnetic safety lock</a> by Nhujs ntus, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hidden-latches-58570e.webp" alt="An antique wooden lap desk opened up to show a hidden compartment held shut by a spring latch." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Antique_lap_desk_with_hidden_compartment.JPG">Antique lap desk with hidden compartment</a> by Koppas, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A latch hidden inside a door, drawer or box that stays locked until a secret action moves it: a magnet held against the outside pulls the catch back, or tilting, spinning or tapping the box makes hidden weights (balls, pins or bolts) slide out of the way.

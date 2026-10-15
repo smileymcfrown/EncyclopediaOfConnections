@@ -136,8 +136,7 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_02.gif
-  alt: Animation of a built-in fridge's multi-joint hinge; the door and panel edges swing about imaginary axes where there
-    is no pin
+  alt: Animation of a multi-link fridge-door hinge; the links swing so the door turns about a point out beyond its corner.
   site: Wikimedia Commons
   still: virtual-pivot-linkage.still.webp
   kind: animation
@@ -149,8 +148,7 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Scharnier_02.gif
-  alt: Animation of a built-in fridge's multi-joint hinge; the door and panel edges swing about imaginary axes where there
-    is no pin
+  alt: Animation of a multi-link fridge-door hinge; the links swing so the door turns about a point out beyond its corner.
   site: Wikimedia Commons
   still: virtual-pivot-linkage.still.webp
   kind: animation
@@ -160,7 +158,7 @@ glossary: [misalignment, backlash, stroke, pitch, linkage, flexure, clearance, c
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/virtual-pivot-linkage.still.webp"><img src="../media/virtual-pivot-linkage.webp" alt="Animation of a built-in fridge&#x27;s multi-joint hinge; the door and panel edges swing about imaginary axes where there is no pin"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_02.gif">Scharnier 02</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/virtual-pivot-linkage.still.webp"><img src="../media/virtual-pivot-linkage.webp" alt="Animation of a multi-link fridge-door hinge; the links swing so the door turns about a point out beyond its corner."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_02.gif">Scharnier 02</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A set of links, a curved track or bending strips arranged so that a part rotates about a point out in empty space, such as a surgeon's incision, the tip of a peg, a person's knee or the corner of a folding door, where no real pin could be placed.

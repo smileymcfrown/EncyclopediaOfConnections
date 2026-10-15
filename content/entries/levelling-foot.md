@@ -165,8 +165,10 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg
-  alt: Photo of an 'adjustable machine leg' (the file's description) under a large laboratory machine
+  alt: A machine leg standing on a round steel foot pad, joined to it by a threaded stud that screws in or out to set the
+    height.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: levelling-foot.webp
@@ -175,15 +177,17 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg
-  alt: Photo of an 'adjustable machine leg' (the file's description) under a large laboratory machine
+  alt: A machine leg standing on a round steel foot pad, joined to it by a threaded stud that screws in or out to set the
+    height.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [self-locking, ratchet, pitch, clearance, tolerance, form-fit--force-fit--material-bond, creep, layer-lines, infill,
   o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/levelling-foot.webp" alt="Photo of an &#x27;adjustable machine leg&#x27; (the file&#x27;s description) under a large laboratory machine"><figcaption><a href="https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg">W7-X gyrotron, adjustable foot</a> by user:Bernd vdB, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/levelling-foot.webp" alt="A machine leg standing on a round steel foot pad, joined to it by a threaded stud that screws in or out to set the height."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:W7-X_gyrotron,_adjustable_foot.jpg">W7-X gyrotron, adjustable foot</a> by user:Bernd vdB, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded stud with a foot pad that screws into the bottom of a leg, cabinet or machine; turning it in or out raises or lowers that corner so the piece stands steady and level, and the ball joint under many pads lets the pad lie flat on a sloping or uneven floor.

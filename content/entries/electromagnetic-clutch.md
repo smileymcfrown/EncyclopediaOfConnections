@@ -128,8 +128,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png
-  alt: Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article
+  alt: A half cross-section drawing of an electromagnetic clutch, labelling the coil, the spinning rotor, the armature plate
+    and the hub.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: electromagnetic-clutch.webp
@@ -138,15 +140,40 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png
-  alt: Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia's article
+  alt: A half cross-section drawing of an electromagnetic clutch, labelling the coil, the spinning rotor, the armature plate
+    and the hub.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: electromagnetic-clutch-b4e4c1.webp
+  title: File:A-2 Ogura VCEH clutch.jpg
+  author: Oguraclutch
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:A-2_Ogura_VCEH_clutch.jpg
+  site: Wikimedia Commons
+  alt: A cut-away render of an electromagnetic clutch with a slice removed, showing the coil in its housing and the armature
+    plate beside the rotor.
+  kind: cross-section
+  drawn: false
+- file: electromagnetic-clutch-1b8dbf.webp
+  title: File:Magnetkuppl.jpg
+  author: Ulfbastel
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Magnetkuppl.jpg
+  site: Wikimedia Commons
+  alt: Two small electromagnetic clutches beside a ruler, one whole and one taken apart into its coil, rotor and armature.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, self-locking, freewheel, torque, solenoid, fail-safe--fail-secure, hysteresis, tolerance,
   form-fit--force-fit--material-bond, set-screw, repeatability--accuracy]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/electromagnetic-clutch.webp" alt="Cutaway diagram of a single-face electromagnetic clutch with field, rotor, armature and hub, used in Wikipedia&#x27;s article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png">B-1 electromagnetic-clutch1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/electromagnetic-clutch.webp" alt="A half cross-section drawing of an electromagnetic clutch, labelling the coil, the spinning rotor, the armature plate and the hub."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:B-1_electromagnetic-clutch1.png">B-1 electromagnetic-clutch1</a> by Oguraclutch, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/electromagnetic-clutch-b4e4c1.webp" alt="A cut-away render of an electromagnetic clutch with a slice removed, showing the coil in its housing and the armature plate beside the rotor." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:A-2_Ogura_VCEH_clutch.jpg">A-2 Ogura VCEH clutch</a> by Oguraclutch, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/electromagnetic-clutch-1b8dbf.webp" alt="Two small electromagnetic clutches beside a ruler, one whole and one taken apart into its coil, rotor and armature." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Magnetkuppl.jpg">Magnetkuppl</a> by Ulfbastel, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A drive connector that joins a spinning input to an output only while its coil is powered, by magnetically clamping a steel plate (armature) against a spinning face (rotor), and lets them separate the moment the current stops.

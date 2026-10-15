@@ -145,8 +145,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Cage_Clamp.jpg
-  alt: A bent spring-steel clamp pressing the bare copper end of a blue wire against a flat metal contact bar.
+  alt: A WAGO cage clamp spring on its own, gripping the bare copper end of a blue wire against a metal bar.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: spring-clamp-wire-connector.webp
@@ -155,14 +156,38 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Cage_Clamp.jpg
-  alt: A bent spring-steel clamp pressing the bare copper end of a blue wire against a flat metal contact bar.
+  alt: A WAGO cage clamp spring on its own, gripping the bare copper end of a blue wire against a metal bar.
   site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: spring-clamp-wire-connector-a3481f.webp
+  title: File:WAGO 221 mechanism.png
+  author: im_tau
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0
+  source: https://commons.wikimedia.org/wiki/File:WAGO_221_mechanism.png
+  site: Wikimedia Commons
+  alt: 'A WAGO 221 lever connector cut in half: inside, a bent steel spring presses each stripped orange wire against a shared
+    copper bar.'
+  kind: cross-section
+  drawn: false
+- file: spring-clamp-wire-connector-ce01a8.webp
+  title: File:WAGO 2273-200C.JPG
+  author: Dmitry G
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:WAGO_2273-200C.JPG
+  site: Wikimedia Commons
+  alt: A scattering of clear WAGO push-in wire connectors with two, three, five and eight wire openings, coloured by size.
+  kind: photo
   drawn: false
 glossary: [tolerance, form-fit--force-fit--material-bond, creep, infill, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-clamp-wire-connector.webp" alt="A bent spring-steel clamp pressing the bare copper end of a blue wire against a flat metal contact bar."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cage_Clamp.jpg">Cage Clamp</a> by Andre Düchting, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-clamp-wire-connector.webp" alt="A WAGO cage clamp spring on its own, gripping the bare copper end of a blue wire against a metal bar."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cage_Clamp.jpg">Cage Clamp</a> by Andre Düchting, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-clamp-wire-connector-a3481f.webp" alt="A WAGO 221 lever connector cut in half: inside, a bent steel spring presses each stripped orange wire against a shared copper bar." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:WAGO_221_mechanism.png">WAGO 221 mechanism</a> by im_tau, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-clamp-wire-connector-ce01a8.webp" alt="A scattering of clear WAGO push-in wire connectors with two, three, five and eight wire openings, coloured by size." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:WAGO_2273-200C.JPG">WAGO 2273-200C</a> by Dmitry G, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A spring-clamp wire connector joins wires, or lands them on a board or terminal block, with a pre-loaded spring instead of a screw: each stripped wire has its own spring clamp, opened by a lever or button or simply pushed past by a stiff wire, which presses it onto a tinned copper bar with the same force every time, so the joint needs no tool, never needs tightening and can be undone and reused.

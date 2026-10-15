@@ -147,8 +147,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Maxwell_kinematic_coupling.png
-  alt: 'Three red spherical surfaces resting in three green V-grooves: the Maxwell three-groove coupling'
+  alt: A drawing of a Maxwell kinematic coupling, a top disc with three round balls above a bottom disc with three V-grooves
+    pointing to the centre.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: kinematic-coupling.webp
@@ -157,8 +159,10 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Maxwell_kinematic_coupling.png
-  alt: 'Three red spherical surfaces resting in three green V-grooves: the Maxwell three-groove coupling'
+  alt: A drawing of a Maxwell kinematic coupling, a top disc with three round balls above a bottom disc with three V-grooves
+    pointing to the centre.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [degrees-of-freedom, backlash, stiffness, preload, deflection, clearance, set-screw, taper, heat-set-insert, keying,
   kinematic-coupling, exact-constraint, over-constraint, elastic-averaging, repeatability--accuracy, creep, galling--fretting,
@@ -166,7 +170,7 @@ glossary: [degrees-of-freedom, backlash, stiffness, preload, deflection, clearan
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/kinematic-coupling.webp" alt="Three red spherical surfaces resting in three green V-grooves: the Maxwell three-groove coupling"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Maxwell_kinematic_coupling.png">Maxwell kinematic coupling</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/kinematic-coupling.webp" alt="A drawing of a Maxwell kinematic coupling, a top disc with three round balls above a bottom disc with three V-grooves pointing to the centre."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Maxwell_kinematic_coupling.png">Maxwell kinematic coupling</a> by MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A locating joint that touches at exactly six points, two for each of three balls sitting in three V-grooves (or three, two and one points for a Kelvin coupling), which pins down all six ways a part can move so it always drops back into the same position, while a light hold-down such as gravity, magnets or springs keeps it seated.

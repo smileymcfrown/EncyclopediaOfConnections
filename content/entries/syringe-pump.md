@@ -166,9 +166,9 @@ image:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Syringe_pump.jpg
-  alt: A laboratory syringe pump (World Precision Instruments SP120PZ) with a syringe clamped in place and its pusher block
-    behind the plunger
+  alt: A laboratory syringe pump with a syringe clamped on top and a pusher block that drives its plunger.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: syringe-pump.webp
@@ -177,16 +177,28 @@ pictures:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Syringe_pump.jpg
-  alt: A laboratory syringe pump (World Precision Instruments SP120PZ) with a syringe clamped in place and its pusher block
-    behind the plunger
+  alt: A laboratory syringe pump with a syringe clamped on top and a pusher block that drives its plunger.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: syringe-pump-d4dfd8.webp
+  title: File:NE-1000 Single Syringe Pump.jpg
+  author: Cpersinger
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:NE-1000_Single_Syringe_Pump.jpg
+  site: Wikimedia Commons
+  alt: 'A red single-syringe pump: the syringe is clamped on top and a pusher block running on two guide rods presses its
+    plunger in.'
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, back-driving, self-locking, stroke, torque, pitch, actuator, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/syringe-pump.webp" alt="A laboratory syringe pump (World Precision Instruments SP120PZ) with a syringe clamped in place and its pusher block behind the plunger"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Syringe_pump.jpg">Syringe pump</a> by Nuno Nogueira (Nmnogueira), <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/syringe-pump.webp" alt="A laboratory syringe pump with a syringe clamped on top and a pusher block that drives its plunger."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Syringe_pump.jpg">Syringe pump</a> by Nuno Nogueira (Nmnogueira), <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/syringe-pump-d4dfd8.webp" alt="A red single-syringe pump: the syringe is clamped on top and a pusher block running on two guide rods presses its plunger in." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:NE-1000_Single_Syringe_Pump.jpg">NE-1000 Single Syringe Pump</a> by Cpersinger, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A stepper motor turns a screw, the screw drives a sliding block, and the block pushes or pulls a syringe plunger a precise distance per step, so a set volume of liquid is delivered or drawn at a set rate (for example millilitres per hour).

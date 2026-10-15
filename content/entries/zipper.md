@@ -131,7 +131,7 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Zipper_animated.gif
-  alt: Animation of the slider bringing the two rows of teeth together
+  alt: Animation of a zipper slider moving down, its Y-shaped channel pushing the two rows of teeth together one by one.
   site: Wikimedia Commons
   still: zipper.still.webp
   kind: animation
@@ -143,16 +143,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Zipper_animated.gif
-  alt: Animation of the slider bringing the two rows of teeth together
+  alt: Animation of a zipper slider moving down, its Y-shaped channel pushing the two rows of teeth together one by one.
   site: Wikimedia Commons
   still: zipper.still.webp
   kind: animation
+  drawn: false
+- file: zipper-558523.webp
+  title: File:Zipper slider.gif
+  author: Rabensteiner
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Zipper_slider.gif
+  site: Wikimedia Commons
+  alt: A brass zipper slider seen from the side, with arrows marking the two channels the rows of teeth enter.
+  kind: how-it-works
+  drawn: false
+- file: zipper-a834de.webp
+  title: File:Coil plastic and metal zippers.jpg
+  author: Woodbine9
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg
+  site: Wikimedia Commons
+  alt: Three zippers side by side, one with metal teeth, one with plastic teeth and one with a nylon coil.
+  kind: photo
   drawn: false
 glossary: [clearance, tolerance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/zipper.still.webp"><img src="../media/zipper.webp" alt="Animation of the slider bringing the two rows of teeth together"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Zipper_animated.gif">Zipper animated</a> by DemonDeLuxe (Dominique Toussaint), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/zipper.still.webp"><img src="../media/zipper.webp" alt="Animation of a zipper slider moving down, its Y-shaped channel pushing the two rows of teeth together one by one."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Zipper_animated.gif">Zipper animated</a> by DemonDeLuxe (Dominique Toussaint), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/zipper-558523.webp" alt="A brass zipper slider seen from the side, with arrows marking the two channels the rows of teeth enter." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Zipper_slider.gif">Zipper slider</a> by Rabensteiner, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/zipper-a834de.webp" alt="Three zippers side by side, one with metal teeth, one with plastic teeth and one with a nylon coil." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg">Coil plastic and metal zippers</a> by Woodbine9, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two rows of interlocking teeth on fabric tapes, closed or opened in a single pull by a slider whose Y-shaped channel squeezes the teeth together one by one or wedges them apart.

@@ -150,8 +150,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Futaba_6-Arm_plastic_servo_horn.jpg
-  alt: Photo of a typical six-arm plastic servo horn with rows of linkage holes and the toothed centre hole
+  alt: A black six-armed plastic servo horn with a toothed (splined) hole in its centre and small holes along each arm.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: servo-horn-and-spline-hub.webp
@@ -160,15 +161,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Futaba_6-Arm_plastic_servo_horn.jpg
-  alt: Photo of a typical six-arm plastic servo horn with rows of linkage holes and the toothed centre hole
+  alt: A black six-armed plastic servo horn with a toothed (splined) hole in its centre and small holes along each arm.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, axial--radial, torque, idler, crank, linkage, actuator, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond,
   spline, heat-set-insert]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/servo-horn-and-spline-hub.webp" alt="Photo of a typical six-arm plastic servo horn with rows of linkage holes and the toothed centre hole"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Futaba_6-Arm_plastic_servo_horn.jpg">Futaba 6-Arm plastic servo horn</a> by Suyash Dwivedi, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/servo-horn-and-spline-hub.webp" alt="A black six-armed plastic servo horn with a toothed (splined) hole in its centre and small holes along each arm."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Futaba_6-Arm_plastic_servo_horn.jpg">Futaba 6-Arm plastic servo horn</a> by Suyash Dwivedi, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A servo horn is an arm or disc with a toothed hole that pushes onto the matching toothed (splined) output shaft of a hobby servo and is held by a screw into the end of the shaft, so the servo's turning force goes into whatever is bolted to the horn.

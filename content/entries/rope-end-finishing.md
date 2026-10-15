@@ -155,8 +155,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Common-whipping.png
-  alt: 'Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under'
+  alt: A drawing of a rope end finished with a common whipping, tight turns of thin twine wound round the rope just before
+    the cut end.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: rope-end-finishing.webp
@@ -165,14 +167,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Common-whipping.png
-  alt: 'Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under'
+  alt: A drawing of a rope end finished with a common whipping, tight turns of thin twine wound round the rope just before
+    the cut end.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: rope-end-finishing-913931.webp
+  title: File:FusedRopeEnds.png
+  author: NE Ent
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:FusedRopeEnds.png
+  site: Wikimedia Commons
+  alt: Two braided rope ends that have been melted and fused with a hot knife so the fibres cannot fray.
+  kind: photo
+  drawn: false
+- file: rope-end-finishing-667983.webp
+  title: File:Three Different Aglets.jpg
+  author: Ian W. Fieggen
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Three_Different_Aglets.jpg
+  site: Wikimedia Commons
+  alt: Three shoelace ends, each finished with a different small metal tube (aglet) in copper, plastic and brass.
+  kind: photo
   drawn: false
 glossary: [stroke, clearance, form-fit--force-fit--material-bond, infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-end-finishing.webp" alt="Line drawing of the steps of a common whipping: the loop laid along the rope, the turns, and the end pulled under"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Common-whipping.png">Common-whipping</a> by User Hella on en.wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/rope-end-finishing.webp" alt="A drawing of a rope end finished with a common whipping, tight turns of thin twine wound round the rope just before the cut end."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Common-whipping.png">Common-whipping</a> by User Hella on en.wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rope-end-finishing-913931.webp" alt="Two braided rope ends that have been melted and fused with a hot knife so the fibres cannot fray." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:FusedRopeEnds.png">FusedRopeEnds</a> by NE Ent, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rope-end-finishing-667983.webp" alt="Three shoelace ends, each finished with a different small metal tube (aglet) in copper, plastic and brass." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Three_Different_Aglets.jpg">Three Different Aglets</a> by Ian W. Fieggen, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A finish put on the cut end of a rope, cord or strap (tight turns of twine, melted fibres, strands tucked back, tape, a rubbery dip or a small cap) that holds the fibres together so the end does not fray, and often makes it easier to thread through holes.

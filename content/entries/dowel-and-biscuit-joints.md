@@ -141,8 +141,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif
-  alt: Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia 'Butt joint')
+  alt: A drawing of two boards pulled apart at a butt joint, with two wooden dowels ready to go into matching holes in both
+    ends.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: dowel-and-biscuit-joints.webp
@@ -151,15 +153,39 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif
-  alt: Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia 'Butt joint')
+  alt: A drawing of two boards pulled apart at a butt joint, with two wooden dowels ready to go into matching holes in both
+    ends.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: dowel-and-biscuit-joints-700a0f.webp
+  title: File:Biscuit-joint.jpg
+  author: Billbeee at en.wikipedia
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Biscuit-joint.jpg
+  site: Wikimedia Commons
+  alt: A flat oval wooden biscuit sitting half in a slot cut in the edge of a board, ready for the matching board.
+  kind: how-it-works
+  drawn: false
+- file: dowel-and-biscuit-joints-82c093.webp
+  title: File:Рифление на шкантах.JPG
+  author: Андрей Перцев 1967
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B8%D1%84%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%88%D0%BA%D0%B0%D0%BD%D1%82%D0%B0%D1%85.JPG
+  site: Wikimedia Commons
+  alt: Four wooden dowels with fluted (grooved) sides, which let glue and air escape as they are pushed in.
+  kind: photo
   drawn: false
 glossary: [stroke, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, infill, end-grain,
   peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/dowel-and-biscuit-joints.webp" alt="Drawing of a butt joint reinforced with dowels in matching holes (used on Wikipedia &#x27;Butt joint&#x27;)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif">Woodworking-joint-butt-dowel</a> by Image by silentC, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/dowel-and-biscuit-joints.webp" alt="A drawing of two boards pulled apart at a butt joint, with two wooden dowels ready to go into matching holes in both ends."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Woodworking-joint-butt-dowel.gif">Woodworking-joint-butt-dowel</a> by Image by silentC, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dowel-and-biscuit-joints-700a0f.webp" alt="A flat oval wooden biscuit sitting half in a slot cut in the edge of a board, ready for the matching board." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Biscuit-joint.jpg">Biscuit-joint</a> by Billbeee at en.wikipedia, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/dowel-and-biscuit-joints-82c093.webp" alt="Four wooden dowels with fluted (grooved) sides, which let glue and air escape as they are pushed in." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B8%D1%84%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0_%D1%88%D0%BA%D0%B0%D0%BD%D1%82%D0%B0%D1%85.JPG">Рифление на шкантах</a> by Андрей Перцев 1967, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Matching holes or slots are cut in both parts, and a glued wooden pin (dowel) or a flat oval wafer (biscuit) bridges the joint, lining the parts up and adding glue area to what would otherwise be a weak butt joint.

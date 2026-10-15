@@ -141,8 +141,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Federndes_Druckst%C3%BCck_2.tif
-  alt: Picture of three spring plungers (federnde Druckstücke)
+  alt: Three threaded spring plungers, each with a steel ball poking out of one end.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: ball-detent.webp
@@ -151,15 +152,16 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Federndes_Druckst%C3%BCck_2.tif
-  alt: Picture of three spring plungers (federnde Druckstücke)
+  alt: Three threaded spring plungers, each with a steel ball poking out of one end.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, detent, ratchet, pawl, torque, flexure, clearance, form-fit--force-fit--material-bond, holding-force,
   set-screw, counterbore--countersink, creep, brittle--ductile, warping--shrinkage, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-detent.webp" alt="Picture of three spring plungers (federnde Druckstücke)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Federndes_Druckst%C3%BCck_2.tif">Federndes Druckstück 2</a> by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/ball-detent.webp" alt="Three threaded spring plungers, each with a steel ball poking out of one end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federndes_Druckst%C3%BCck_2.tif">Federndes Druckstück 2</a> by HEINRICH KIPP WERK KG Heubergstraße 2 72172 Sulz am Neckar, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A spring presses a ball (or a roller) against the other part, so when a dimple, hole or groove lines up the ball drops in with a click and holds the part there, until a firm enough push forces the ball back into its hole so the part can move on.

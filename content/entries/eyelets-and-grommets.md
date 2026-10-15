@@ -138,8 +138,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Eyelet.jpg
-  alt: Scan of metal eyelets and an eyelet setting tool
+  alt: A pair of eyelet pliers with a few small metal eyelets beside them.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: eyelets-and-grommets.webp
@@ -148,14 +149,37 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Eyelet.jpg
-  alt: Scan of metal eyelets and an eyelet setting tool
+  alt: A pair of eyelet pliers with a few small metal eyelets beside them.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: eyelets-and-grommets-c10a4b.webp
+  title: File:ハトメパンチ.jpg
+  author: ＋－
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:%E3%83%8F%E3%83%88%E3%83%A1%E3%83%91%E3%83%B3%E3%83%81.jpg
+  site: Wikimedia Commons
+  alt: Yellow-handled eyelet setting pliers with brass eyelets, used to fit eyelets through a stack of papers.
+  kind: photo
+  drawn: false
+- file: eyelets-and-grommets-17d58b.webp
+  title: File:Eyelets For Curtain.jpg
+  author: Aman78665
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Eyelets_For_Curtain.jpg
+  site: Wikimedia Commons
+  alt: Large curtain grommets in round, square and hexagon shapes set into red fabric.
+  kind: photo
   drawn: false
 glossary: [stroke, form-fit--force-fit--material-bond, spline, fatigue, brittle--ductile, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/eyelets-and-grommets.webp" alt="Scan of metal eyelets and an eyelet setting tool"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Eyelet.jpg">Eyelet</a> by Sonett72 at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/eyelets-and-grommets.webp" alt="A pair of eyelet pliers with a few small metal eyelets beside them."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Eyelet.jpg">Eyelet</a> by Sonett72 at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eyelets-and-grommets-c10a4b.webp" alt="Yellow-handled eyelet setting pliers with brass eyelets, used to fit eyelets through a stack of papers." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:%E3%83%8F%E3%83%88%E3%83%A1%E3%83%91%E3%83%B3%E3%83%81.jpg">ハトメパンチ</a> by ＋－, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/eyelets-and-grommets-17d58b.webp" alt="Large curtain grommets in round, square and hexagon shapes set into red fabric." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Eyelets_For_Curtain.jpg">Eyelets For Curtain</a> by Aman78665, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A small metal or plastic ring set into a punched hole in fabric, leather or thin sheet, with its tube (barrel) rolled over onto a washer or onto the material itself, so the hole has a smooth, strong rim that a lace, cord, hook, peg or pole can pass through without tearing the material.

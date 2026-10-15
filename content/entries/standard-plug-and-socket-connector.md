@@ -139,8 +139,9 @@ image:
   license: CC BY-SA 2.0 de
   license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
   source: https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg
-  alt: A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist
+  alt: 'A row of interchangeable adapter tips for a power supply: barrel plugs and audio-jack plugs of different sizes.'
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: standard-plug-and-socket-connector.webp
@@ -149,15 +150,39 @@ pictures:
   license: CC BY-SA 2.0 de
   license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
   source: https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg
-  alt: A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist
+  alt: 'A row of interchangeable adapter tips for a power supply: barrel plugs and audio-jack plugs of different sizes.'
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: standard-plug-and-socket-connector-853284.webp
+  title: File:Mated-plug-socket-switched.jpg
+  author: Iainf
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Mated-plug-socket-switched.jpg
+  site: Wikimedia Commons
+  alt: 'A jack plug pushed into a panel-mount jack socket: the socket''s springy metal contact presses on the plug''s tip
+    to hold it and make the connection.'
+  kind: how-it-works
+  drawn: false
+- file: standard-plug-and-socket-connector-193c00.webp
+  title: File:Assortment of keystone modules.jpg
+  author: Dmeranda
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Assortment_of_keystone_modules.jpg
+  site: Wikimedia Commons
+  alt: A row of snap-in keystone sockets on a ruler, including telephone, network (RJ45), coaxial and audio sockets.
+  kind: photo
   drawn: false
 glossary: [coaxial, fail-safe--fail-secure, form-fit--force-fit--material-bond, keying, repeatability--accuracy, creep, galling--fretting,
   warping--shrinkage, o-ring, gland, ip-rating]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/standard-plug-and-socket-connector.webp" alt="A set of look-alike barrel and jack plugs from a universal power adapter, showing how many similar sizes exist"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg">Klinken- und Hohlstecker</a> by Smial at de.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/standard-plug-and-socket-connector.webp" alt="A row of interchangeable adapter tips for a power supply: barrel plugs and audio-jack plugs of different sizes."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Klinken-_und_Hohlstecker.jpg">Klinken- und Hohlstecker</a> by Smial at de.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/standard-plug-and-socket-connector-853284.webp" alt="A jack plug pushed into a panel-mount jack socket: the socket&#x27;s springy metal contact presses on the plug&#x27;s tip to hold it and make the connection." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mated-plug-socket-switched.jpg">Mated-plug-socket-switched</a> by Iainf, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/standard-plug-and-socket-connector-193c00.webp" alt="A row of snap-in keystone sockets on a ruler, including telephone, network (RJ45), coaxial and audio sockets." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Assortment_of_keystone_modules.jpg">Assortment of keystone modules</a> by Dmeranda, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A bought plug and socket made to a published standard (USB, barrel jack, audio jack, RJ45 and many more), so a project can take power or signals from leads and chargers that already exist and be unplugged by hand; you choose by what the other device has, how often it will be plugged in, and whether it must latch or seal.

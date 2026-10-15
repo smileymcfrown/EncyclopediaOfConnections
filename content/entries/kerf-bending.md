@@ -144,9 +144,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg
-  alt: A laser-cut plywood box whose rounded wall is a kerf-cut living hinge, with finger joints at the edges; used on the
-    Wikipedia 'Living hinge' article
+  alt: A laser-cut plywood box whose side is cut with rows of fine slits so the wood bends round the curved corners.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: kerf-bending.webp
@@ -155,16 +155,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg
-  alt: A laser-cut plywood box whose rounded wall is a kerf-cut living hinge, with finger joints at the edges; used on the
-    Wikipedia 'Living hinge' article
+  alt: A laser-cut plywood box whose side is cut with rows of fine slits so the wood bends round the curved corners.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [stiffness, flexure, living-hinge, torsion, clearance, form-fit--force-fit--material-bond, repeatability--accuracy,
   creep, fatigue, brittle--ductile, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/kerf-bending.webp" alt="A laser-cut plywood box whose rounded wall is a kerf-cut living hinge, with finger joints at the edges; used on the Wikipedia &#x27;Living hinge&#x27; article"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg">Living hinge (wood)</a> by Autopilot, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/kerf-bending.webp" alt="A laser-cut plywood box whose side is cut with rows of fine slits so the wood bends round the curved corners."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Living_hinge_(wood).jpg">Living hinge (wood)</a> by Autopilot, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Cutting many closely spaced slots, or a lattice of short cuts, into a stiff sheet so the thin strips left between them can bend or twist, letting the sheet curve around a form or flex like a hinge while staying in one piece.

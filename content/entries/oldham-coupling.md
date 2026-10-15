@@ -127,28 +127,52 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 research: research/connection-types/results/Oldham_coupling.json
 image:
-  file: oldham-coupling.webp
-  title: File:Oldham coupler animated small.gif
-  author: Van helsing
-  license: CC BY 2.5
-  license_url: https://creativecommons.org/licenses/by/2.5
-  source: https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif
-  alt: Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots
+  file: oldham-coupling-f15516.webp
+  title: File:Oldham 120x30.gif
+  author: Bryllig
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Oldham_120x30.gif
   site: Wikimedia Commons
-  still: oldham-coupling.still.webp
+  alt: Two slotted circles on offset centres turning together while the green cross-shaped middle piece slides back and forth
+    in both slots.
   kind: animation
+  still: oldham-coupling-f15516.still.webp
   drawn: false
 pictures:
-- file: oldham-coupling.webp
-  title: File:Oldham coupler animated small.gif
-  author: Van helsing
-  license: CC BY 2.5
-  license_url: https://creativecommons.org/licenses/by/2.5
-  source: https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif
-  alt: Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots
+- file: oldham-coupling-f15516.webp
+  title: File:Oldham 120x30.gif
+  author: Bryllig
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Oldham_120x30.gif
   site: Wikimedia Commons
-  still: oldham-coupling.still.webp
+  alt: Two slotted circles on offset centres turning together while the green cross-shaped middle piece slides back and forth
+    in both slots.
   kind: animation
+  still: oldham-coupling-f15516.still.webp
+  drawn: false
+- file: oldham-coupling-19bcd8.webp
+  title: File:Klauenkupplung 3.jpg
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Klauenkupplung_3.jpg
+  site: Wikimedia Commons
+  alt: An Oldham coupling taken apart, two metal hubs each with a raised bar and a black middle disc with crossed slots that
+    fits between them.
+  kind: how-it-works
+  drawn: false
+- file: oldham-coupling-dc605f.webp
+  title: File:Oldham coupler Losmandy G11.jpg
+  author: Gn842
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Oldham_coupler_Losmandy_G11.jpg
+  site: Wikimedia Commons
+  alt: An Oldham coupling in use on a telescope mount, joining the motor shaft to the drive shaft with a white middle disc
+    between two metal hubs.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, crank, fail-safe--fail-secure, stiffness, damping,
   clearance, tolerance, form-fit--force-fit--material-bond, set-screw, spline, repeatability--accuracy, creep, infill, elephants-foot,
@@ -156,7 +180,9 @@ glossary: [misalignment, backlash, self-locking, axial--radial, torque, crank, f
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/oldham-coupling.still.webp"><img src="../media/oldham-coupling.webp" alt="Rendered animation of an Oldham coupling turning, with the middle disc sliding in its slots"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Oldham_coupler_animated_small.gif">Oldham coupler animated small</a> by Van helsing, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/oldham-coupling-f15516.still.webp"><img src="../media/oldham-coupling-f15516.webp" alt="Two slotted circles on offset centres turning together while the green cross-shaped middle piece slides back and forth in both slots."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Oldham_120x30.gif">Oldham 120x30</a> by Bryllig, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/oldham-coupling-19bcd8.webp" alt="An Oldham coupling taken apart, two metal hubs each with a raised bar and a black middle disc with crossed slots that fits between them." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Klauenkupplung_3.jpg">Klauenkupplung 3</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/oldham-coupling-dc605f.webp" alt="An Oldham coupling in use on a telescope mount, joining the motor shaft to the drive shaft with a white middle disc between two metal hubs." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Oldham_coupler_Losmandy_G11.jpg">Oldham coupler Losmandy G11</a> by Gn842, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two hubs, each with a slot (or tongue) across its face, are joined by a floating middle disc whose two tongues cross at right angles, so the disc slides to take up any sideways offset between two parallel shafts while passing turning force at exactly the same speed.

@@ -147,8 +147,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg
-  alt: Step-by-step drawing (A-D) of making a short-tie Western Union splice, plus two long-tie variations (E, F)
+  alt: 'Step-by-step drawing of a Western Union splice: two stripped wire ends are crossed, twisted round each other and wrapped
+    tight before soldering.'
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: soldered-wire-joint.webp
@@ -157,14 +159,39 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg
-  alt: Step-by-step drawing (A-D) of making a short-tie Western Union splice, plus two long-tie variations (E, F)
+  alt: 'Step-by-step drawing of a Western Union splice: two stripped wire ends are crossed, twisted round each other and wrapped
+    tight before soldering.'
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: soldered-wire-joint-2e9f44.webp
+  title: File:Soldered new motor shield connector.jpg
+  author: Agashi5859
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Soldered_new_motor_shield_connector.jpg
+  site: Wikimedia Commons
+  alt: A hand holding wires soldered to the pins of a small header connector, with black heat-shrink tubes slid over each
+    joint.
+  kind: photo
+  drawn: false
+- file: soldered-wire-joint-d05dac.webp
+  title: File:De-soldered wires on potentiometer.JPG
+  author: Nathanhall78
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:De-soldered_wires_on_potentiometer.JPG
+  site: Wikimedia Commons
+  alt: Coloured wires soldered onto the lugs of potentiometers mounted on a metal panel.
+  kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, print-in-place, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/soldered-wire-joint.webp" alt="Step-by-step drawing (A-D) of making a short-tie Western Union splice, plus two long-tie variations (E, F)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg">Western Union splice</a> by John MacLaren Sharp, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/soldered-wire-joint.webp" alt="Step-by-step drawing of a Western Union splice: two stripped wire ends are crossed, twisted round each other and wrapped tight before soldering."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Western_Union_splice.jpg">Western Union splice</a> by John MacLaren Sharp, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/soldered-wire-joint-2e9f44.webp" alt="A hand holding wires soldered to the pins of a small header connector, with black heat-shrink tubes slid over each joint." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Soldered_new_motor_shield_connector.jpg">Soldered new motor shield connector</a> by Agashi5859, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/soldered-wire-joint-d05dac.webp" alt="Coloured wires soldered onto the lugs of potentiometers mounted on a metal panel." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:De-soldered_wires_on_potentiometer.JPG">De-soldered wires on potentiometer</a> by Nathanhall78, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Stripped wire ends are twisted, hooked or laid side by side, molten solder is flowed into them with a soldering iron so it bonds to the copper, and the finished joint is covered with heat-shrink tubing; it is the basic permanent wire joint that crimps, solder sleeves, lever connectors and wire nuts are compared with.

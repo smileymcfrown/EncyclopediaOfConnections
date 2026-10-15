@@ -139,11 +139,34 @@ pictures:
     and a sixth strut being pushed in. Right: a small dome built from straight struts in triangles, with a hub joining the
     strut ends at every corner.'
   drawn: true
+- file: strut-hub.webp
+  title: File:Gordons Dome strut hub (50173588816).jpg
+  author: Robbie Sproule from Montreal, Canada
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Gordons_Dome_strut_hub_(50173588816).jpg
+  site: Wikimedia Commons
+  alt: 'Looking up inside a dome: six wooden struts meet at a metal hub that holds their ends at fixed angles (shown as a
+    side-by-side 3D pair).'
+  kind: how-it-works
+  drawn: false
+- file: strut-hub-22d273.webp
+  title: laser cut geodesic
+  author: jared
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/35468148654@N01/4678731463
+  site: Flickr via Openverse
+  alt: A laser-cut wooden geodesic sphere on a table, built from flat struts joined at small star-shaped hubs.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, set-screw, threadlocker, repeatability--accuracy, creep, infill, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/strut-hub.svg" alt="Left: close-up of a strut hub, a round connector with six angled sockets, with wooden struts pushed into five of them and a sixth strut being pushed in. Right: a small dome built from straight struts in triangles, with a hub joining the strut ends at every corner."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/strut-hub.webp" alt="Looking up inside a dome: six wooden struts meet at a metal hub that holds their ends at fixed angles (shown as a side-by-side 3D pair)." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gordons_Dome_strut_hub_(50173588816).jpg">Gordons Dome strut hub (50173588816)</a> by Robbie Sproule from Montreal, Canada, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/strut-hub-22d273.webp" alt="A laser-cut wooden geodesic sphere on a table, built from flat struts joined at small star-shaped hubs." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.flickr.com/photos/35468148654@N01/4678731463">laser cut geodesic</a> by jared, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 A single connector that holds the ends of three to six (or more) straight struts at fixed angles where they meet, so a pile of sticks, tubes or planks can be built into a rigid dome, frame or truss.

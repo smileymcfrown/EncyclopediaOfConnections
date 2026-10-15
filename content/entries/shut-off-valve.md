@@ -154,8 +154,9 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Ball.PNG
-  alt: Cutaway of a simple manual ball valve with its body, seat/head, ball, lever handle and stem labelled
+  alt: 'Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body.'
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: shut-off-valve.webp
@@ -164,15 +165,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Ball.PNG
-  alt: Cutaway of a simple manual ball valve with its body, seat/head, ball, lever handle and stem labelled
+  alt: 'Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body.'
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 glossary: [misalignment, actuator, solenoid, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, brittle--ductile,
   perimeters, infill, print-in-place, o-ring, check-valve, regulator, water-hammer]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/shut-off-valve.webp" alt="Cutaway of a simple manual ball valve with its body, seat/head, ball, lever handle and stem labelled"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Ball.PNG">Ball</a> by Ruben Castelnuovo (myself), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/shut-off-valve.webp" alt="Cut-away 3D model of a ball valve: a lever handle on a stem turns a ball with a hole through it inside a blue body."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ball.PNG">Ball</a> by Ruben Castelnuovo (myself), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A hand-operated valve fitted into a pipe or tube that is normally either fully open or fully shut: turning the handle swings a drilled ball or plug a quarter turn, or screws a gate or a rubber-faced plug down onto a seat, so you can turn a water, air, gas or vacuum line on and off or isolate part of a system for repair.

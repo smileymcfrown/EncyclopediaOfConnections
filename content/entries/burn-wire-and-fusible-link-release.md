@@ -158,11 +158,23 @@ pictures:
     runs across a thin heating wire; on the right a battery heats the wire until it glows, the cord burns through and the
     spring flips the lid open.'
   drawn: true
+- file: burn-wire-and-fusible-link-release.webp
+  title: File:Fusible Link Release Mechanism ARC1.jpg
+  author: Desertstar
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Fusible_Link_Release_Mechanism_ARC1.jpg
+  site: Wikimedia Commons
+  alt: The top of an underwater acoustic release, with a lever held shut by a fusible wire that lets it swing open when the
+    wire burns through.
+  kind: how-it-works
+  drawn: false
 glossary: [self-locking, actuator, solenoid, fail-safe--fail-secure, preload, form-fit--force-fit--material-bond, creep]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/burn-wire-and-fusible-link-release.svg" alt="Burn-wire release in two frames: on the left a hinged lid is pushed up by a spring but held down by a taut cord that runs across a thin heating wire; on the right a battery heats the wire until it glows, the cord burns through and the spring flips the lid open."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/burn-wire-and-fusible-link-release.webp" alt="The top of an underwater acoustic release, with a lever held shut by a fusible wire that lets it swing open when the wire burns through." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fusible_Link_Release_Mechanism_ARC1.jpg">Fusible Link Release Mechanism ARC1</a> by Desertstar, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A one-time release in which a cord or soldered link holds a spring-loaded or hanging part until heat cuts or melts it, either on command (a current through a nichrome wire burns through the cord) or automatically in a fire (the link's low-melting solder lets go).

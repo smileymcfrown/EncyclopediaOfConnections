@@ -136,8 +136,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:T-plug.jpg
-  alt: A T-shaped polarised plug for low-voltage power circuits (Deans-style T-plug)
+  alt: A red T-shaped plug and socket (Deans style) with flat brass contacts, shown apart.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: high-current-battery-plug.webp
@@ -146,14 +147,26 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:T-plug.jpg
-  alt: A T-shaped polarised plug for low-voltage power circuits (Deans-style T-plug)
+  alt: A red T-shaped plug and socket (Deans style) with flat brass contacts, shown apart.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: high-current-battery-plug-0c5ca0.webp
+  title: File:Deans connector 1.JPG
+  author: KundaliniZero
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Deans_connector_1.JPG
+  site: Wikimedia Commons
+  alt: A red T-plug and its socket, each soldered to red and black battery wires, ready to be pushed together.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, keying, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/high-current-battery-plug.webp" alt="A T-shaped polarised plug for low-voltage power circuits (Deans-style T-plug)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:T-plug.jpg">T-plug</a> by .tirnado, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/high-current-battery-plug.webp" alt="A red T-shaped plug and socket (Deans style) with flat brass contacts, shown apart."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:T-plug.jpg">T-plug</a> by .tirnado, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/high-current-battery-plug-0c5ca0.webp" alt="A red T-plug and its socket, each soldered to red and black battery wires, ready to be pushed together." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Deans_connector_1.JPG">Deans connector 1</a> by KundaliniZero, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A two-pin plug and socket with thick metal contacts in a shaped housing that fits only one way round, soldered (or crimped) onto heavy wires so a battery pack can be plugged into a model, robot or charger and unplugged by hand, carrying tens of amps; the plug and the wire must both suit the current.

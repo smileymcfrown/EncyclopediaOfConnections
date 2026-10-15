@@ -134,8 +134,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cage_Gear.png
-  alt: Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island
+  alt: A wooden lantern gear inside an old windmill, a ring of round wooden pins between two discs meshing with the teeth
+    of a big wheel.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: lantern-gear.webp
@@ -145,15 +147,29 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Cage_Gear.png
-  alt: Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island
+  alt: A wooden lantern gear inside an old windmill, a ring of round wooden pins between two discs meshing with the teeth
+    of a big wheel.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: lantern-gear-238735.webp
+  title: File:Lantern gear - Turret clock from 1608.jpg
+  author: Ezrdr
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Lantern_gear_-_Turret_clock_from_1608.jpg
+  site: Wikimedia Commons
+  alt: The iron frame of a 1608 turret clock with small lantern pinions, rows of pins between two discs, meshing with toothed
+    wheels.
+  kind: photo
   drawn: false
 glossary: [backlash, axial--radial, reciprocating, torque, pitch, clearance, form-fit--force-fit--material-bond, set-screw,
   kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/lantern-gear.webp" alt="Photo of the wooden lantern (cage) gear inside Pantigo Windmill, Long Island"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Cage_Gear.png">Cage Gear</a> by Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National Pa, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/lantern-gear.webp" alt="A wooden lantern gear inside an old windmill, a ring of round wooden pins between two discs meshing with the teeth of a big wheel."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cage_Gear.png">Cage Gear</a> by Interior_view_Pantigo_Windmill_East_Hampton_Suffolk_County_New_York.jpg: Historic American Buildings Survey, National Pa, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lantern-gear-238735.webp" alt="The iron frame of a 1608 turret clock with small lantern pinions, rows of pins between two discs, meshing with toothed wheels." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lantern_gear_-_Turret_clock_from_1608.jpg">Lantern gear - Turret clock from 1608</a> by Ezrdr, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pinion whose 'teeth' are round pins set between two discs, driven by a wheel with specially shaped (cycloidal) teeth; it is easy to make by drilling holes and pushing in dowels or steel pins, and was used for centuries in mills and clocks.

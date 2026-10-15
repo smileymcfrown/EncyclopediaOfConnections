@@ -131,8 +131,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:JawConcept2.jpg
-  alt: Computer drawing of a curved jaw coupling (the lead image of Wikipedia's 'Jaw coupling' article)
+  alt: A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: jaw-coupling.webp
@@ -141,15 +142,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:JawConcept2.jpg
-  alt: Computer drawing of a curved jaw coupling (the lead image of Wikipedia's 'Jaw coupling' article)
+  alt: A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure, stiffness, preload, damping, form-fit--force-fit--material-bond,
   set-screw, heat-set-insert, captive-nut, repeatability--accuracy, shore-hardness, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/jaw-coupling.webp" alt="Computer drawing of a curved jaw coupling (the lead image of Wikipedia&#x27;s &#x27;Jaw coupling&#x27; article)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:JawConcept2.jpg">JawConcept2</a> by Aruland, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/jaw-coupling.webp" alt="A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:JawConcept2.jpg">JawConcept2</a> by Aruland, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two hubs with interlocking jaws on their faces pass turning force through a rubbery star-shaped insert (the spider) squeezed between the jaws, so the shafts turn together while the spider soaks up shocks, vibration and small [misalignment](../glossary.md#misalignment).

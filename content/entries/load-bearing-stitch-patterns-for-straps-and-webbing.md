@@ -125,11 +125,22 @@ pictures:
     bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows, with arrows showing the pull shared
     by all the stitches.'
   drawn: true
+- file: load-bearing-stitch-patterns-for-straps-and-webbing.webp
+  title: File:Bartacks (cropped).jpg
+  author: kellyhogaboom
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Bartacks_(cropped).jpg
+  site: Wikimedia Commons
+  alt: Close-up of cloth with a short, dense zig-zag bar tack stitched across a seam to reinforce it.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, layer-lines, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/load-bearing-stitch-patterns-for-straps-and-webbing.svg" alt="Four straps each looped round a ring and folded back over themselves, sewn with four different stitch patterns: stacked bar tacks, a box with an X, a box with W-shaped zigzags, and close parallel rows, with arrows showing the pull shared by all the stitches."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/load-bearing-stitch-patterns-for-straps-and-webbing.webp" alt="Close-up of cloth with a short, dense zig-zag bar tack stitched across a seam to reinforce it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bartacks_(cropped).jpg">Bartacks (cropped)</a> by kellyhogaboom, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A strap is overlapped on itself or round a buckle, ring or slot and sewn with a dense, planned stitch pattern (bar tacks, a box with an X, W shapes or close rows) so that the pull is shared by many stitches and the joint can carry a large share of the webbing's own strength.

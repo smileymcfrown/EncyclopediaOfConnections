@@ -151,8 +151,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Doppelter_Schotstek.jpg
-  alt: Photo of a double sheet bend joining two ropes
+  alt: A thin yellow cord joined to a thick red rope with a double sheet bend, wrapped twice round a bend in the thick rope.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: bends-for-joining-two-cords.webp
@@ -161,14 +162,15 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Doppelter_Schotstek.jpg
-  alt: Photo of a double sheet bend joining two ropes
+  alt: A thin yellow cord joined to a thick red rope with a double sheet bend, wrapped twice round a bend in the thick rope.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [stiffness, form-fit--force-fit--material-bond, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bends-for-joining-two-cords.webp" alt="Photo of a double sheet bend joining two ropes"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Doppelter_Schotstek.jpg">Doppelter Schotstek</a> by Markus Bärlocher, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bends-for-joining-two-cords.webp" alt="A thin yellow cord joined to a thick red rope with a double sheet bend, wrapped twice round a bend in the thick rope."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Doppelter_Schotstek.jpg">Doppelter Schotstek</a> by Markus Bärlocher, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Knots that join two cords end to end, or close one cord into a ring: the sheet bend for cords of different thickness, the double fisherman's for a compact, very secure join, the water knot for flat tape, and the Zeppelin bend when it must still untie after a heavy pull.

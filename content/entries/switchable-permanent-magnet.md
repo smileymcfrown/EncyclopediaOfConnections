@@ -143,9 +143,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg
-  alt: Schematic of the rotating magnet in the ON position between two iron halves; companion files Wiki MagneticBase OFF.svg
-    and ALL.svg show the off state and the assembly
+  alt: 'Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves
+    of the housing.'
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: switchable-permanent-magnet.webp
@@ -154,15 +155,16 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg
-  alt: Schematic of the rotating magnet in the ON position between two iron halves; companion files Wiki MagneticBase OFF.svg
-    and ALL.svg show the off state and the assembly
+  alt: 'Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves
+    of the housing.'
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [detent, preload, tolerance, kinematic-coupling, creep, brittle--ductile, layer-lines, overhang--bridging, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/switchable-permanent-magnet.webp" alt="Schematic of the rotating magnet in the ON position between two iron halves; companion files Wiki MagneticBase OFF.svg and ALL.svg show the off state and the assembly"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg">Wiki MagneticBase ON</a> by Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/switchable-permanent-magnet.webp" alt="Diagram of a magnetic base switched on: a round magnet turned so its north and south poles face the two steel halves of the housing."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wiki_MagneticBase_ON.svg">Wiki MagneticBase ON</a> by Wiki_MagneticBase_ON.jpg: BaubiPacific at en.wikipedia derivative work: Malyszkz, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A permanent magnet inside a steel housing that you switch on and off by hand: turning a knob rotates a magnet so its pull either flows out through the base into the steel you want to hold (on) or loops round harmlessly inside the housing (off).

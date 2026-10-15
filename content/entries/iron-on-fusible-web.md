@@ -138,8 +138,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg
-  alt: Photo of a roll of iron-on hem repair tape (fusible hemming web)
+  alt: A roll of white iron-on hem tape, a thin open web of glue fibres.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: iron-on-fusible-web.webp
@@ -148,14 +149,26 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg
-  alt: Photo of a roll of iron-on hem repair tape (fusible hemming web)
+  alt: A roll of white iron-on hem tape, a thin open web of glue fibres.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: iron-on-fusible-web-77492b.webp
+  title: File:Interfacing at hem.jpg
+  author: kellyhogaboom
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Interfacing_at_hem.jpg
+  site: Wikimedia Commons
+  alt: A fabric hem folded back to show the white fused interfacing bonded inside it.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, warping--shrinkage, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/iron-on-fusible-web.webp" alt="Photo of a roll of iron-on hem repair tape (fusible hemming web)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg">HemRepairTape</a> by DavidBoden, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/iron-on-fusible-web.webp" alt="A roll of white iron-on hem tape, a thin open web of glue fibres."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:HemRepairTape.jpg">HemRepairTape</a> by DavidBoden, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/iron-on-fusible-web-77492b.webp" alt="A fabric hem folded back to show the white fused interfacing bonded inside it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Interfacing_at_hem.jpg">Interfacing at hem</a> by kellyhogaboom, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A thin, dry web or film of hot-melt glue, sold as sheets, tape or already on the back of interfacing and patches, that is laid between fabrics and pressed with an iron so it melts into both and sets as it cools, giving a no-sew hem, appliqué or patch.

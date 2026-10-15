@@ -144,7 +144,7 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Bimetal.gif
-  alt: Animated scheme of a bimetal strip bending as it is heated
+  alt: Animation of a bimetal strip, two metals bonded together, bending to one side as it is heated.
   site: Wikimedia Commons
   still: thermal-actuators.still.webp
   kind: animation
@@ -156,17 +156,39 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Bimetal.gif
-  alt: Animated scheme of a bimetal strip bending as it is heated
+  alt: Animation of a bimetal strip, two metals bonded together, bending to one side as it is heated.
   site: Wikimedia Commons
   still: thermal-actuators.still.webp
   kind: animation
+  drawn: false
+- file: thermal-actuators-fd2427.webp
+  title: File:Double valve automotive thermostat.jpg
+  author: Dougsim
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Double_valve_automotive_thermostat.jpg
+  site: Wikimedia Commons
+  alt: A car engine thermostat with labels showing its wax capsule, the spring and the valve disc the wax pushes open.
+  kind: how-it-works
+  drawn: false
+- file: thermal-actuators-c51ee3.webp
+  title: File:Bimetallic strip from circuit breaker.JPG
+  author: Dmitry G
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bimetallic_strip_from_circuit_breaker.JPG
+  site: Wikimedia Commons
+  alt: The bimetal strip taken out of a circuit breaker, with its contact and wire still attached.
+  kind: photo
   drawn: false
 glossary: [stroke, over-centre, bistable, linkage, actuator, solenoid, fail-safe--fail-secure, compliant-mechanism, deflection,
   hysteresis, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/thermal-actuators.still.webp"><img src="../media/thermal-actuators.webp" alt="Animated scheme of a bimetal strip bending as it is heated"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bimetal.gif">Bimetal</a> by Baran Ivo, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/thermal-actuators.still.webp"><img src="../media/thermal-actuators.webp" alt="Animation of a bimetal strip, two metals bonded together, bending to one side as it is heated."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bimetal.gif">Bimetal</a> by Baran Ivo, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/thermal-actuators-fd2427.webp" alt="A car engine thermostat with labels showing its wax capsule, the spring and the valve disc the wax pushes open." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Double_valve_automotive_thermostat.jpg">Double valve automotive thermostat</a> by Dougsim, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/thermal-actuators-c51ee3.webp" alt="The bimetal strip taken out of a circuit breaker, with its contact and wire still attached." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bimetallic_strip_from_circuit_breaker.JPG">Bimetallic strip from circuit breaker</a> by Dmitry G, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A heat-driven mover: a bimetal strip bends (or a bimetal disc snaps inside-out) and a wax capsule pushes out a pin when warmed, turning a temperature change, or an electric heater, into a small push that trips or opens a latch, valve or switch.

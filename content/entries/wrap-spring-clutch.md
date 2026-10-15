@@ -122,8 +122,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg
-  alt: Diagram of the principle of a spring freewheel (wrap-spring one-way clutch); used on Czech, German and Croatian Wikipedia
+  alt: Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and
+    slips.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: wrap-spring-clutch.webp
@@ -132,8 +134,10 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg
-  alt: Diagram of the principle of a spring freewheel (wrap-spring one-way clutch); used on Czech, German and Croatian Wikipedia
+  alt: Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and
+    slips.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, coaxial, ratchet, pawl, freewheel, sprag, torque, actuator, solenoid,
   interference-fit, form-fit--force-fit--material-bond, holding-force, set-screw, repeatability--accuracy, creep, fatigue,
@@ -141,7 +145,7 @@ glossary: [misalignment, self-locking, axial--radial, coaxial, ratchet, pawl, fr
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wrap-spring-clutch.webp" alt="Diagram of the principle of a spring freewheel (wrap-spring one-way clutch); used on Czech, German and Croatian Wikipedia"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg">Pružinovávolnoběžka</a> by Juniperbushman, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wrap-spring-clutch.webp" alt="Diagram of a spring wrapped round a hub; turned one way it tightens and grips, turned the other way it loosens and slips."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pru%C5%BEinov%C3%A1volnob%C4%9B%C5%BEka.jpg">Pružinovávolnoběžka</a> by Juniperbushman, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A coiled spring wrapped round two hubs end to end that winds down and grips them when the input turns one way, and loosens and slips when it turns the other way; with a collar holding one end of the spring it becomes an on/off clutch that can drive exactly one turn at a time.

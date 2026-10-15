@@ -156,8 +156,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg
-  alt: Clear drawing of a figure-eight stopper knot
+  alt: Drawing of a figure-eight knot tied in the end of a rope, making a lump too big to pull through a hole.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: stopper-knots-and-cord-end-anchors.webp
@@ -166,14 +167,37 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg
-  alt: Clear drawing of a figure-eight stopper knot
+  alt: Drawing of a figure-eight knot tied in the end of a rope, making a lump too big to pull through a hole.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: stopper-knots-and-cord-end-anchors-44fad0.webp
+  title: File:Ashley-stopper-lead-ABOK-526.jpg
+  author: David J. Fred
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Ashley-stopper-lead-ABOK-526.jpg
+  site: Wikimedia Commons
+  alt: An Ashley stopper knot tied near the end of a blue braided cord, forming a round lump.
+  kind: photo
+  drawn: false
+- file: stopper-knots-and-cord-end-anchors-a6fda3.webp
+  title: File:Decorative Stopper Knots.JPG
+  author: Cobanyastigi
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Decorative_Stopper_Knots.JPG
+  site: Wikimedia Commons
+  alt: Several different stopper knots, such as the diamond and lanyard knots, tied in red cord and numbered.
+  kind: photo
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/stopper-knots-and-cord-end-anchors.webp" alt="Clear drawing of a figure-eight stopper knot"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg">Figure-eight knot</a> by Lucasbosch, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/stopper-knots-and-cord-end-anchors.webp" alt="Drawing of a figure-eight knot tied in the end of a rope, making a lump too big to pull through a hole."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Figure-eight_knot.svg">Figure-eight knot</a> by Lucasbosch, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/stopper-knots-and-cord-end-anchors-44fad0.webp" alt="An Ashley stopper knot tied near the end of a blue braided cord, forming a round lump." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ashley-stopper-lead-ABOK-526.jpg">Ashley-stopper-lead-ABOK-526</a> by David J. Fred, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/stopper-knots-and-cord-end-anchors-a6fda3.webp" alt="Several different stopper knots, such as the diamond and lanyard knots, tied in red cord and numbered." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Decorative_Stopper_Knots.JPG">Decorative Stopper Knots</a> by Cobanyastigi, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A knot, bead or crimped sleeve that is too big to fit through a hole, or a clamp or a few turns round a post that grips the cord, holds the end of a cord, string, elastic or thin cable in a part so it can be pulled without coming out.

@@ -120,8 +120,8 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif
-  alt: 'Animation: turning one bolt through two nuts with slightly different pitches changes the gap between the nuts only
-    by the difference'
+  alt: An animation of a screw with two threads of different pitch turning inside two nuts, so the gap between the nuts changes
+    only a little each turn.
   site: Wikimedia Commons
   still: differential-screw.still.webp
   kind: animation
@@ -133,18 +133,40 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif
-  alt: 'Animation: turning one bolt through two nuts with slightly different pitches changes the gap between the nuts only
-    by the difference'
+  alt: An animation of a screw with two threads of different pitch turning inside two nuts, so the gap between the nuts changes
+    only a little each turn.
   site: Wikimedia Commons
   still: differential-screw.still.webp
   kind: animation
+  drawn: false
+- file: differential-screw-58132f.webp
+  title: File:Differential micrometer screw.jpg
+  author: Ansgar Hellwig
+  license: CC BY-SA 2.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Differential_micrometer_screw.jpg
+  site: Wikimedia Commons
+  alt: A differential micrometer screw, a precision adjusting screw with a graduated barrel and thimble.
+  kind: photo
+  drawn: false
+- file: differential-screw-61fc35.webp
+  title: File:23 0045467 Convair Negative Image - Differential screw components (53782490884).jpg
+  author: San Diego Air & Space Museum Archives
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:23_0045467_Convair_Negative_Image_-_Differential_screw_components_(53782490884).jpg
+  site: Wikimedia Commons
+  alt: The parts of a differential screw laid out in a row beside a ruler, a threaded shaft with the two nuts that fit it.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, mechanical-advantage, pitch, preload, flexure, tolerance,
   form-fit--force-fit--material-bond, kinematic-coupling, creep]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/differential-screw.still.webp"><img src="../media/differential-screw.webp" alt="Animation: turning one bolt through two nuts with slightly different pitches changes the gap between the nuts only by the difference"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif">DifferentialScrew</a> by ＋－ at Japanese Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/differential-screw.still.webp"><img src="../media/differential-screw.webp" alt="An animation of a screw with two threads of different pitch turning inside two nuts, so the gap between the nuts changes only a little each turn."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:DifferentialScrew.gif">DifferentialScrew</a> by ＋－ at Japanese Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/differential-screw-58132f.webp" alt="A differential micrometer screw, a precision adjusting screw with a graduated barrel and thimble." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Differential_micrometer_screw.jpg">Differential micrometer screw</a> by Ansgar Hellwig, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/differential-screw-61fc35.webp" alt="The parts of a differential screw laid out in a row beside a ruler, a threaded shaft with the two nuts that fit it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:23_0045467_Convair_Negative_Image_-_Differential_screw_components_(53782490884).jpg">23 0045467 Convair Negative Image - Differential screw components (53782490884)</a> by San Diego Air &amp; Space Museum Archives, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 One turn of a screw carrying two threads of slightly different [pitch](../glossary.md#pitch) moves a nut that can't rotate by only the difference of the two pitches (for example M5 and M4 threads give 0.1 mm per turn), giving very fine, steady adjustment from coarse, standard threads.

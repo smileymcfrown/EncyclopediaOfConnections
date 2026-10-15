@@ -134,9 +134,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG
-  alt: Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles
-    'Living hinge' and 'Flexure bearing'
+  alt: An empty mint box with its white plastic lid flipped open, joined to the box by a thin flexible strip of the same plastic.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: living-hinge.webp
@@ -145,16 +145,38 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG
-  alt: Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles
-    'Living hinge' and 'Flexure bearing'
+  alt: An empty mint box with its white plastic lid flipped open, joined to the box by a thin flexible strip of the same plastic.
   site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: living-hinge-efdd32.webp
+  title: File:Hartschaum-Eierkarton.jpg
+  author: User:MarkusHagenlocher
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Hartschaum-Eierkarton.jpg
+  site: Wikimedia Commons
+  alt: An open foam egg box, its lid and base moulded in one piece and joined by a thin fold line along the back.
+  kind: photo
+  drawn: false
+- file: living-hinge-189430.webp
+  title: File:MS Box.jpg
+  author: Magnasound
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:MS_Box.jpg
+  site: Wikimedia Commons
+  alt: A clear plastic cassette case opened flat, its two halves joined by a thin moulded plastic hinge.
+  kind: photo
   drawn: false
 glossary: [misalignment, over-centre, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever, creep,
   fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/living-hinge.webp" alt="Photo of an open Tic Tac box showing the polypropylene living hinge and the resin code 5; used on the Wikipedia articles &#x27;Living hinge&#x27; and &#x27;Flexure bearing&#x27;"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG">Mint box polypropylene lid</a> by en:User:Polyparadig, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/living-hinge.webp" alt="An empty mint box with its white plastic lid flipped open, joined to the box by a thin flexible strip of the same plastic."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mint_box_polypropylene_lid.JPG">Mint box polypropylene lid</a> by en:User:Polyparadig, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/living-hinge-efdd32.webp" alt="An open foam egg box, its lid and base moulded in one piece and joined by a thin fold line along the back." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hartschaum-Eierkarton.jpg">Hartschaum-Eierkarton</a> by User:MarkusHagenlocher, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/living-hinge-189430.webp" alt="A clear plastic cassette case opened flat, its two halves joined by a thin moulded plastic hinge." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:MS_Box.jpg">MS Box</a> by Magnasound, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A thinned strip of the same plastic that joins two stiff parts so they fold like a hinge, with no pin, no assembly and nothing to wear out or lose.

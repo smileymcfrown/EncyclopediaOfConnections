@@ -132,9 +132,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg
-  alt: A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with
-    a sleeve for the bolt.
+  alt: A rubber anti-vibration mount, a rubber core bonded to metal fittings, shown on a dark background.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: elastomer-isolation-mount.webp
@@ -143,16 +143,38 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg
-  alt: A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with
-    a sleeve for the bolt.
+  alt: A rubber anti-vibration mount, a rubber core bonded to metal fittings, shown on a dark background.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: elastomer-isolation-mount-4a23e7.webp
+  title: File:Silent PC-silicone grommets.JPG
+  author: DonES
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Silent_PC-silicone_grommets.JPG
+  site: Wikimedia Commons
+  alt: A computer hard drive held in its case on soft silicone grommets, so the screws never touch the metal frame directly.
+  kind: how-it-works
+  drawn: false
+- file: elastomer-isolation-mount-ec629f.webp
+  title: File:Home-Built Vibration Isolation Platform using Squash Balls.jpg
+  author: Quirkipedia
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Home-Built_Vibration_Isolation_Platform_using_Squash_Balls.jpg
+  site: Wikimedia Commons
+  alt: A home-made vibration isolation platform, a metal plate resting on four squash balls held in small brackets.
+  kind: photo
   drawn: false
 glossary: [misalignment, fail-safe--fail-secure, stiffness, damping, form-fit--force-fit--material-bond, creep, perimeters,
   infill, peel-vs-shear, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/elastomer-isolation-mount.webp" alt="A rubber anti-vibration mount cut in half, showing the rubber core between the metal cover and the base plate, with a sleeve for the bolt."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg">Schwingungsdämpfer Aufbau</a> by Schwingungsdämpfer, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/elastomer-isolation-mount.webp" alt="A rubber anti-vibration mount, a rubber core bonded to metal fittings, shown on a dark background."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Schwingungsd%C3%A4mpfer_Aufbau.jpg">Schwingungsdämpfer Aufbau</a> by Schwingungsdämpfer, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/elastomer-isolation-mount-4a23e7.webp" alt="A computer hard drive held in its case on soft silicone grommets, so the screws never touch the metal frame directly." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Silent_PC-silicone_grommets.JPG">Silent PC-silicone grommets</a> by DonES, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/elastomer-isolation-mount-ec629f.webp" alt="A home-made vibration isolation platform, a metal plate resting on four squash balls held in small brackets." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Home-Built_Vibration_Isolation_Platform_using_Squash_Balls.jpg">Home-Built Vibration Isolation Platform using Squash Balls</a> by Quirkipedia, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 An elastomer isolation mount holds a part to its frame through a piece of rubber or similar springy, lossy material, so vibration and shock from the part (or from the frame) are soaked up instead of being passed straight through as noise and shaking.

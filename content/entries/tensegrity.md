@@ -141,8 +141,7 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif
-  alt: 'Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don''t touch, each
-    end held by three red cables'
+  alt: A turning model of the simplest tensegrity, three green struts that never touch, held in place by red cables.
   site: Wikimedia Commons
   still: tensegrity.still.webp
   kind: animation
@@ -154,17 +153,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif
-  alt: 'Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don''t touch, each
-    end held by three red cables'
+  alt: A turning model of the simplest tensegrity, three green struts that never touch, held in place by red cables.
   site: Wikimedia Commons
   still: tensegrity.still.webp
   kind: animation
+  drawn: false
+- file: tensegrity-7bff16.webp
+  title: File:Icosahedral tensegrity structure.png
+  author: QuarterNotes
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Icosahedral_tensegrity_structure.png
+  site: Wikimedia Commons
+  alt: A home-made tensegrity ball of drinking straws held apart only by yellow string threaded through them.
+  kind: photo
+  drawn: false
+- file: tensegrity-43a62b.webp
+  title: File:NASA SUPERball Tensegrity Lander Prototype.jpg
+  author: Sunspiral
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:NASA_SUPERball_Tensegrity_Lander_Prototype.jpg
+  site: Wikimedia Commons
+  alt: NASA's SUPERball robot, six metal struts linked only by cables, standing on rocky ground.
+  kind: photo
   drawn: false
 glossary: [oscillating, torque, stiffness, damping, clearance, form-fit--force-fit--material-bond, creep, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/tensegrity.still.webp"><img src="../media/tensegrity.webp" alt="Spinning animation of the simplest tensegrity, the three-strut T3-prism: three green struts that don&#x27;t touch, each end held by three red cables"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif">Tensegrity simple 3</a> by Cmglee, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/tensegrity.still.webp"><img src="../media/tensegrity.webp" alt="A turning model of the simplest tensegrity, three green struts that never touch, held in place by red cables."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tensegrity_simple_3.gif">Tensegrity simple 3</a> by Cmglee, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tensegrity-7bff16.webp" alt="A home-made tensegrity ball of drinking straws held apart only by yellow string threaded through them." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Icosahedral_tensegrity_structure.png">Icosahedral tensegrity structure</a> by QuarterNotes, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tensegrity-43a62b.webp" alt="NASA&#x27;s SUPERball robot, six metal struts linked only by cables, standing on rocky ground." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:NASA_SUPERball_Tensegrity_Lander_Prototype.jpg">NASA SUPERball Tensegrity Lander Prototype</a> by Sunspiral, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A structure in which rigid struts (or two rigid halves) never touch each other and are held in a fixed shape only by tensioned cords, cables or chains, giving the 'floating' look of tensegrity tables, shelves and sculptures.

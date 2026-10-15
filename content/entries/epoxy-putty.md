@@ -124,9 +124,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg
-  alt: 'Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal
-    amounts'
+  alt: Two blocks of epoxy putty, a light brown resin part and a dark brown hardener part, before they are kneaded together.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: epoxy-putty.webp
@@ -135,15 +135,26 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg
-  alt: 'Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal
-    amounts'
+  alt: Two blocks of epoxy putty, a light brown resin part and a dark brown hardener part, before they are kneaded together.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: epoxy-putty-9581d8.webp
+  title: File:Park staff work carefully to add an epoxy putty gum line to the cast teeth. (fa99507d-1dd8-b71c-07e1-91cd400f3101).JPG
+  author: NPS Photo
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Park_staff_work_carefully_to_add_an_epoxy_putty_gum_line_to_the_cast_teeth._(fa99507d-1dd8-b71c-07e1-91cd400f3101).JPG
+  site: Wikimedia Commons
+  alt: Two people at a workbench pressing epoxy putty by hand along the gum line of a cast skull to fix the teeth in place.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, creep, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/epoxy-putty.webp" alt="Photo of the two unmixed parts of an epoxy putty: brown resin and black hardener, to be kneaded together in equal amounts"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg">Epoxy putty</a> by Salil Kumar Mukherjee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/epoxy-putty.webp" alt="Two blocks of epoxy putty, a light brown resin part and a dark brown hardener part, before they are kneaded together."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Epoxy_putty.jpg">Epoxy putty</a> by Salil Kumar Mukherjee, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/epoxy-putty-9581d8.webp" alt="Two people at a workbench pressing epoxy putty by hand along the gum line of a cast skull to fix the teeth in place." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Park_staff_work_carefully_to_add_an_epoxy_putty_gum_line_to_the_cast_teeth._(fa99507d-1dd8-b71c-07e1-91cd400f3101).JPG">Park staff work carefully to add an epoxy putty gum line to the cast teeth. (fa99507d-1dd8-b71c-07e1-91cd400f3101)</a> by NPS Photo, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Epoxy putty is a two-part dough of epoxy resin and hardener that you knead together by hand and press into place, where it sets into a hard, shrink-free, glued-on solid for filling gaps, plugging leaks, repairing and building up shapes that can then be sanded, drilled and tapped.

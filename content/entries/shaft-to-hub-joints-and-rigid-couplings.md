@@ -147,8 +147,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Parallel_keys.png
-  alt: Technical drawing of parallel keys and a keyed shaft-hub joint in cross-section
+  alt: Cut-away drawing of a hub on a shaft, with a rectangular key sitting half in a slot in the shaft and half in a slot
+    in the hub.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: shaft-to-hub-joints-and-rigid-couplings.webp
@@ -157,8 +159,20 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Parallel_keys.png
-  alt: Technical drawing of parallel keys and a keyed shaft-hub joint in cross-section
+  alt: Cut-away drawing of a hub on a shaft, with a rectangular key sitting half in a slot in the shaft and half in a slot
+    in the hub.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: shaft-to-hub-joints-and-rigid-couplings-86df46.webp
+  title: File:Potentiometer knob with set screw.jpg
+  author: Petteri Aimonen
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Potentiometer_knob_with_set_screw.jpg
+  site: Wikimedia Commons
+  alt: A potentiometer with its knob pushed onto the shaft, held by a small set screw in the side of the knob.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure, stiffness, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, set-screw, spline, taper, collet, circlip, heat-set-insert, captive-nut, threadlocker,
@@ -166,7 +180,8 @@ glossary: [misalignment, backlash, axial--radial, torque, fail-safe--fail-secure
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/shaft-to-hub-joints-and-rigid-couplings.webp" alt="Technical drawing of parallel keys and a keyed shaft-hub joint in cross-section"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Parallel_keys.png">Parallel keys</a> by No machine-readable author provided. SuperBo~commonswiki assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/shaft-to-hub-joints-and-rigid-couplings.webp" alt="Cut-away drawing of a hub on a shaft, with a rectangular key sitting half in a slot in the shaft and half in a slot in the hub."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Parallel_keys.png">Parallel keys</a> by No machine-readable author provided. SuperBo~commonswiki assumed (based on copyright claims)., <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shaft-to-hub-joints-and-rigid-couplings-86df46.webp" alt="A potentiometer with its knob pushed onto the shaft, held by a small set screw in the side of the knob." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Potentiometer_knob_with_set_screw.jpg">Potentiometer knob with set screw</a> by Petteri Aimonen, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 The hub of a gear, pulley or wheel is locked to its shaft, either by shape (a key, a flat, a hex or a pin) or by squeezing (a [set screw](../glossary.md#set-screw) or a clamp), so turning force passes between them; the same methods make a collar that stops things sliding along a shaft and a rigid coupling that joins two shaft ends.

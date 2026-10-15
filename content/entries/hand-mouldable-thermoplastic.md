@@ -148,8 +148,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:PCL_beads.jpg
-  alt: Close-up photo of polycaprolactone plastic beads about 3.5 mm across, as sold for industrial or hobby use
+  alt: A heap of small white polycaprolactone (PCL) plastic beads, each about 3.5 mm across.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: hand-mouldable-thermoplastic.webp
@@ -158,15 +159,27 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:PCL_beads.jpg
-  alt: Close-up photo of polycaprolactone plastic beads about 3.5 mm across, as sold for industrial or hobby use
+  alt: A heap of small white polycaprolactone (PCL) plastic beads, each about 3.5 mm across.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: hand-mouldable-thermoplastic-6067be.webp
+  title: File:Shapelock bike light.png
+  author: Catsmeat
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Shapelock_bike_light.png
+  site: Wikimedia Commons
+  alt: A home-made bicycle light mount moulded by hand from white PCL plastic, gripping the handlebar and holding two lights.
+  kind: how-it-works
   drawn: false
 glossary: [form-fit--force-fit--material-bond, undercut, repeatability--accuracy, creep, brittle--ductile, overhang--bridging,
   cure, pot-life--working-time, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/hand-mouldable-thermoplastic.webp" alt="Close-up photo of polycaprolactone plastic beads about 3.5 mm across, as sold for industrial or hobby use"><figcaption><a href="https://commons.wikimedia.org/wiki/File:PCL_beads.jpg">PCL beads</a> by Prosthetic Head, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/hand-mouldable-thermoplastic.webp" alt="A heap of small white polycaprolactone (PCL) plastic beads, each about 3.5 mm across."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:PCL_beads.jpg">PCL beads</a> by Prosthetic Head, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/hand-mouldable-thermoplastic-6067be.webp" alt="A home-made bicycle light mount moulded by hand from white PCL plastic, gripping the handlebar and holding two lights." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Shapelock_bike_light.png">Shapelock bike light</a> by Catsmeat, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A tough plastic (polycaprolactone) that softens in hot water at about 60 °C, so you can shape it by hand into grips, brackets, clips, moulds and repairs that lock round other parts as they cool, then reheat it later to adjust or reuse it.

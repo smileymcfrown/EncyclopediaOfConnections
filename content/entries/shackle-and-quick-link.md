@@ -138,9 +138,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Maillon.JPG
-  alt: A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve
-    screwed shut.
+  alt: 'Two steel quick links side by side: on the left the threaded sleeve is screwed back so the gap is open, on the right
+    it is screwed over the gap to close the link.'
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: shackle-and-quick-link.webp
@@ -149,15 +150,39 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Maillon.JPG
-  alt: A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve
-    screwed shut.
+  alt: 'Two steel quick links side by side: on the left the threaded sleeve is screwed back so the gap is open, on the right
+    it is screwed over the gap to close the link.'
   site: Wikimedia Commons
+  kind: how-it-works
+  drawn: false
+- file: shackle-and-quick-link-a5dfa8.webp
+  title: File:Mannheim Germany Shackles-in-a-workshop-01.jpg
+  author: CEphoto, Uwe Aranas
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Mannheim_Germany_Shackles-in-a-workshop-01.jpg
+  site: Wikimedia Commons
+  alt: A workshop wall board hung with many shackles and hooks of different sizes, red and silver, each closed by a screw
+    pin.
+  kind: photo
+  drawn: false
+- file: shackle-and-quick-link-fe070f.webp
+  title: File:Manille textile dyneema 03.jpg
+  author: Pep.per de Ré
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Manille_textile_dyneema_03.jpg
+  site: Wikimedia Commons
+  alt: 'A soft shackle: a loop of grey braided Dyneema rope closed by a knot at one end.'
+  kind: photo
   drawn: false
 glossary: [torque, form-fit--force-fit--material-bond, heat-set-insert]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/shackle-and-quick-link.webp" alt="A metal quick link shown twice, once with its threaded sleeve unscrewed and the gap open, and once with the sleeve screwed shut."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Maillon.JPG">Maillon</a> by Cj8457, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/shackle-and-quick-link.webp" alt="Two steel quick links side by side: on the left the threaded sleeve is screwed back so the gap is open, on the right it is screwed over the gap to close the link."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Maillon.JPG">Maillon</a> by Cj8457, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shackle-and-quick-link-a5dfa8.webp" alt="A workshop wall board hung with many shackles and hooks of different sizes, red and silver, each closed by a screw pin." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Mannheim_Germany_Shackles-in-a-workshop-01.jpg">Mannheim Germany Shackles-in-a-workshop-01</a> by CEphoto, Uwe Aranas, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shackle-and-quick-link-fe070f.webp" alt="A soft shackle: a loop of grey braided Dyneema rope closed by a knot at one end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manille_textile_dyneema_03.jpg">Manille textile dyneema 03</a> by Pep.per de Ré, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A closed metal link (a U-shaped shackle shut by a screw pin or bolt, or an oval quick link shut by a threaded sleeve) that joins rope eyes, chain, slings, straps and anchor points; because it closes completely it can't shake off like a hook, and a rated, marked one carries very heavy in-line loads.

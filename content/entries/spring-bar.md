@@ -132,8 +132,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Federsteg.jpg
-  alt: A simple drawing of a spring bar 'for fastening a strap to a wristwatch', showing the tube and its two tips
+  alt: 'Drawing of a watch spring bar: a thin tube with a small flanged pin sticking out of each end.'
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: spring-bar.webp
@@ -142,14 +143,26 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Federsteg.jpg
-  alt: A simple drawing of a spring bar 'for fastening a strap to a wristwatch', showing the tube and its two tips
+  alt: 'Drawing of a watch spring bar: a thin tube with a small flanged pin sticking out of each end.'
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: spring-bar-9207d2.webp
+  title: File:Federstege.jpg
+  author: DerHans04
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Federstege.jpg
+  site: Wikimedia Commons
+  alt: Three steel watch spring bars lying side by side, each with a short pin at both ends.
+  kind: photo
   drawn: false
 glossary: [self-locking, detent, clearance, form-fit--force-fit--material-bond, fatigue, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-bar.webp" alt="A simple drawing of a spring bar &#x27;for fastening a strap to a wristwatch&#x27;, showing the tube and its two tips"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Federsteg.jpg">Federsteg</a> by Wela49, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/spring-bar.webp" alt="Drawing of a watch spring bar: a thin tube with a small flanged pin sticking out of each end."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federsteg.jpg">Federsteg</a> by Wela49, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/spring-bar-9207d2.webp" alt="Three steel watch spring bars lying side by side, each with a short pin at both ends." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Federstege.jpg">Federstege</a> by DerHans04, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A small spring-loaded rod whose two ends push outwards into holes in a pair of lugs, so a strap's loop hangs on it and can be taken off again by pushing one end in, with a small forked tool or, on quick-release versions, a built-in lever.

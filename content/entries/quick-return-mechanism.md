@@ -155,6 +155,17 @@ pictures:
   drawn: true
   still: drawn/quick-return-mechanism.svg
   kind: animation
+- file: quick-return-mechanism.webp
+  title: File:Quick Return Mechanism.jpg
+  author: Aliva Sahoo
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism.jpg
+  site: Wikimedia Commons
+  alt: A science-museum exhibit of a quick-return mechanism, a red crank wheel driving an orange slotted lever behind a clear
+    cover.
+  kind: how-it-works
+  drawn: false
 glossary: [misalignment, axial--radial, reciprocating, stroke, dead-point, cam-and-follower, crank, linkage, actuator, clearance,
   form-fit--force-fit--material-bond, circlip, heat-set-insert, return-angle, lubrication, infill, print-in-place, elephants-foot,
   pot-life--working-time, peel-vs-shear]
@@ -162,6 +173,7 @@ glossary: [misalignment, axial--radial, reciprocating, stroke, dead-point, cam-a
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/quick-return-mechanism.svg"><img src="../media/drawn/anim/quick-return-mechanism.svg" alt="Crank and slotted-lever quick-return mechanism: a crank turning at steady speed slides a block in a lever pivoted below it, swinging the lever and the ram on top; the lever&#x27;s two end positions split the crank circle into a long arc for the slow working stroke and a short arc for the fast return. In "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/quick-return-mechanism.webp" alt="A science-museum exhibit of a quick-return mechanism, a red crank wheel driving an orange slotted lever behind a clear cover." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Quick_Return_Mechanism.jpg">Quick Return Mechanism</a> by Aliva Sahoo, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A [crank](../glossary.md#crank) turning at steady speed drives a block that slides in a slotted lever, so the lever (and the tool slide, or ram, it pushes) moves slowly on the working [stroke](../glossary.md#stroke) and returns quickly on the idle stroke, saving time on machines that only work in one direction.

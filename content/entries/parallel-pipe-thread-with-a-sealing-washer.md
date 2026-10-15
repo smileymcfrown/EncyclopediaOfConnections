@@ -172,12 +172,23 @@ pictures:
     gap, and the joint is sealed by a flat rubber washer squashed between the end of the tap thread and the bottom of the
     nut.'
   drawn: true
+- file: parallel-pipe-thread-with-a-sealing-washer.webp
+  title: File:Brass hose bipp with standard and GHT threads.jpg
+  author: Ipab
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Brass_hose_bipp_with_standard_and_GHT_threads.jpg
+  site: Wikimedia Commons
+  alt: A brass garden tap held in a hand, with a straight (parallel) thread on its inlet and a hose thread on its outlet.
+  kind: photo
+  drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, captive-nut, boss, creep, perimeters,
   infill, o-ring, gland, water-hammer]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/parallel-pipe-thread-with-a-sealing-washer.svg" alt="Cut-away side view of a hose nut screwed onto a tap outlet with straight threads: the threads leave a small spiral gap, and the joint is sealed by a flat rubber washer squashed between the end of the tap thread and the bottom of the nut."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/parallel-pipe-thread-with-a-sealing-washer.webp" alt="A brass garden tap held in a hand, with a straight (parallel) thread on its inlet and a hose thread on its outlet." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Brass_hose_bipp_with_standard_and_GHT_threads.jpg">Brass hose bipp with standard and GHT threads</a> by Ipab, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A straight screw thread holds a pipe, hose or tap fitting together and squeezes a washer, bonded seal or [O-ring](../glossary.md#o-ring) against a flat face, and that squeezed ring (not the thread) makes the joint watertight, so it can be undone and remade many times with nothing more than a new washer.

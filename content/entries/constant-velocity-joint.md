@@ -153,35 +153,60 @@ sources:
 - https://www.youtube.com/watch?v=nYLRZBvCwPE
 research: research/connection-types/results/Constantvelocity_joint_CV_joint.json
 image:
-  file: constant-velocity-joint.webp
-  title: File:Simple CV Joint animated.gif
-  author: User:Pwld
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif
-  alt: Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article
+  file: constant-velocity-joint-9f8ee6.webp
+  title: File:CV Joint Animation with Arrrows.gif
+  author: 'Original: User:Pwld recreated in OpenSCAD: MichaelFrey'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:CV_Joint_Animation_with_Arrrows.gif
   site: Wikimedia Commons
-  still: constant-velocity-joint.still.webp
+  alt: A turning animation of a ball-type CV joint, with arrows showing the bent input and output shafts spinning together
+    while the balls stay between them.
   kind: animation
+  still: constant-velocity-joint-9f8ee6.still.webp
   drawn: false
 pictures:
-- file: constant-velocity-joint.webp
-  title: File:Simple CV Joint animated.gif
-  author: User:Pwld
+- file: constant-velocity-joint-9f8ee6.webp
+  title: File:CV Joint Animation with Arrrows.gif
+  author: 'Original: User:Pwld recreated in OpenSCAD: MichaelFrey'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:CV_Joint_Animation_with_Arrrows.gif
+  site: Wikimedia Commons
+  alt: A turning animation of a ball-type CV joint, with arrows showing the bent input and output shafts spinning together
+    while the balls stay between them.
+  kind: animation
+  still: constant-velocity-joint-9f8ee6.still.webp
+  drawn: false
+- file: constant-velocity-joint-5471f1.webp
+  title: File:CV Joint with broken tone ring.JPG
+  author: Kiwiev
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:CV_Joint_with_broken_tone_ring.JPG
+  site: Wikimedia Commons
+  alt: A hand holding a car CV joint taken off its axle, showing the outer housing, the inner hub and the steel balls between
+    them.
+  kind: how-it-works
+  drawn: false
+- file: constant-velocity-joint-003258.webp
+  title: File:CV joint half axle.jpg
+  author: BiH
   license: Public domain
   license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif
-  alt: Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia's 'Constant-velocity joint' article
+  source: https://commons.wikimedia.org/wiki/File:CV_joint_half_axle.jpg
   site: Wikimedia Commons
-  still: constant-velocity-joint.still.webp
-  kind: animation
+  alt: A car half-axle with the ribbed rubber boots that cover the CV joints at each end.
+  kind: photo
   drawn: false
 glossary: [misalignment, backlash, torque, preload, clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip,
   layer-lines, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/constant-velocity-joint.still.webp"><img src="../media/constant-velocity-joint.webp" alt="Animation of a Rzeppa-type CV joint turning while bent, used at the top of Wikipedia&#x27;s &#x27;Constant-velocity joint&#x27; article"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Simple_CV_Joint_animated.gif">Simple CV Joint animated</a> by User:Pwld, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/constant-velocity-joint-9f8ee6.still.webp"><img src="../media/constant-velocity-joint-9f8ee6.webp" alt="A turning animation of a ball-type CV joint, with arrows showing the bent input and output shafts spinning together while the balls stay between them."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:CV_Joint_Animation_with_Arrrows.gif">CV Joint Animation with Arrrows</a> by Original: User:Pwld recreated in OpenSCAD: MichaelFrey, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/constant-velocity-joint-5471f1.webp" alt="A hand holding a car CV joint taken off its axle, showing the outer housing, the inner hub and the steel balls between them." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:CV_Joint_with_broken_tone_ring.JPG">CV Joint with broken tone ring</a> by Kiwiev, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/constant-velocity-joint-003258.webp" alt="A car half-axle with the ribbed rubber boots that cover the CV joints at each end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:CV_joint_half_axle.jpg">CV joint half axle</a> by BiH, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A joint between two spinning shafts that lets them meet at an angle, even a changing one, while the output shaft turns at exactly the same speed as the input at every moment of each turn.

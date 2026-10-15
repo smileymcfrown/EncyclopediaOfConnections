@@ -154,8 +154,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG
-  alt: Photo of over-centre (knee-lever) box fasteners on an aluminium transport case
+  alt: A draw latch on a metal box shown open, with its loop off the keeper, and closed, with the lever pressed flat.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: draw-latch.webp
@@ -164,15 +165,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG
-  alt: Photo of over-centre (knee-lever) box fasteners on an aluminium transport case
+  alt: A draw latch on a metal box shown open, with its loop off the keeper, and closed, with the lever pressed flat.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: draw-latch-7e3cf3.webp
+  title: File:SpringformPanSpring.jpg
+  author: RibbonsOfIndecision
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:SpringformPanSpring.jpg
+  site: Wikimedia Commons
+  alt: A finger lifting the lever of the draw latch on a springform cake tin, with the loop pivot swinging back over centre.
+  kind: how-it-works
+  drawn: false
+- file: draw-latch-7d111a.webp
+  title: File:LatchExample1.JPG
+  author: Lmartin iii
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:LatchExample1.JPG
+  site: Wikimedia Commons
+  alt: A black plastic lever latch on a tool case, its lever folded down over the keeper.
+  kind: photo
   drawn: false
 glossary: [misalignment, self-locking, over-centre, mechanical-advantage, linkage, preload, cantilever, tolerance, form-fit--force-fit--material-bond,
   creep, layer-lines, perimeters, infill, print-in-place, peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/draw-latch.webp" alt="Photo of over-centre (knee-lever) box fasteners on an aluminium transport case"><figcaption><a href="https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG">BuegelVS-Kniehebel2</a> by StromBer, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/draw-latch.webp" alt="A draw latch on a metal box shown open, with its loop off the keeper, and closed, with the lever pressed flat."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:BuegelVS-Kniehebel2.JPG">BuegelVS-Kniehebel2</a> by StromBer, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/draw-latch-7e3cf3.webp" alt="A finger lifting the lever of the draw latch on a springform cake tin, with the loop pivot swinging back over centre." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:SpringformPanSpring.jpg">SpringformPanSpring</a> by RibbonsOfIndecision, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/draw-latch-7d111a.webp" alt="A black plastic lever latch on a tool case, its lever folded down over the keeper." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:LatchExample1.JPG">LatchExample1</a> by Lmartin iii, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A two-part latch in which a lever on one part carries a loop or hook that catches a keeper on the other part; closing the lever swings the loop's pivot past the line between the lever pivot and the keeper (over centre), pulling the parts tightly together and locking them there until the lever is lifted.

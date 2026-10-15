@@ -132,7 +132,8 @@ image:
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Universal_joint.gif
-  alt: 3D animation of a single universal joint turning, showing the forks and cross
+  alt: Animated model of a universal joint; two red forks joined by a cross-shaped piece turn together although the shafts
+    are at an angle.
   site: Wikimedia Commons
   still: universal-joint.still.webp
   kind: animation
@@ -144,7 +145,8 @@ pictures:
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Universal_joint.gif
-  alt: 3D animation of a single universal joint turning, showing the forks and cross
+  alt: Animated model of a universal joint; two red forks joined by a cross-shaped piece turn together although the shafts
+    are at an angle.
   site: Wikimedia Commons
   still: universal-joint.still.webp
   kind: animation
@@ -154,7 +156,7 @@ glossary: [misalignment, backlash, torque, crank, linkage, clearance, form-fit--
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/universal-joint.still.webp"><img src="../media/universal-joint.webp" alt="3D animation of a single universal joint turning, showing the forks and cross"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Universal_joint.gif">Universal joint</a> by Van helsing, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/universal-joint.still.webp"><img src="../media/universal-joint.webp" alt="Animated model of a universal joint; two red forks joined by a cross-shaped piece turn together although the shafts are at an angle."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Universal_joint.gif">Universal joint</a> by Van helsing, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two forks joined by a cross-shaped piece that pivots both ways, so turning one shaft turns another shaft set at an angle to it, even while that angle changes.

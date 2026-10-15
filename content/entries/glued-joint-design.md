@@ -151,12 +151,23 @@ pictures:
     strip peeled up and two blocks levered apart put all the load on one edge of the glue, and a long slanted scarf joint
     gives a big glue area loaded by sliding.'
   drawn: true
+- file: glued-joint-design.webp
+  title: The Headstock Glued
+  author: Neillwphoto
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/
+  source: https://www.flickr.com/photos/61629383@N08/10100575415
+  site: Flickr via Openverse
+  alt: A guitar headstock glued onto the neck with a long sloping scarf joint, held under clamps while the glue sets.
+  kind: how-it-works
+  drawn: false
 glossary: [stiffness, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, creep, fatigue,
   stress-concentration, end-grain, cure, pot-life--working-time, primer, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glued-joint-design.svg" alt="Four side views of glued joints: a lap joint pulled along its length shares the load over the whole glue line, a flexible strip peeled up and two blocks levered apart put all the load on one edge of the glue, and a long slanted scarf joint gives a big glue area loaded by sliding."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glued-joint-design.webp" alt="A guitar headstock glued onto the neck with a long sloping scarf joint, held under clamps while the glue sets." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/61629383@N08/10100575415">The Headstock Glued</a> by Neillwphoto, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 The rules for shaping a glued joint so that the glue is loaded in shear (the two faces sliding past each other) or compression over a wide area, and never peeled from one edge or split open like a wedge, because almost every glue is many times stronger in shear than in [peel](../glossary.md#peel-vs-shear) or cleavage.

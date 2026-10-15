@@ -136,9 +136,9 @@ image:
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
   source: https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg
-  alt: A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the
-    open body and the two threaded ends
+  alt: Two turnbuckles, each an open frame with a hook or eye screwed into each end.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: turnbuckle.webp
@@ -147,16 +147,27 @@ pictures:
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
   source: https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg
-  alt: A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the
-    open body and the two threaded ends
+  alt: Two turnbuckles, each an open frame with a hook or eye screwed into each end.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: turnbuckle-b178b2.webp
+  title: File:Turnbuckle James Craig.JPG
+  author: JohnsonL623
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Turnbuckle_James_Craig.JPG
+  site: Wikimedia Commons
+  alt: A turnbuckle in use on a sailing ship, tightening a wire stay down to the deck.
+  kind: how-it-works
   drawn: false
 glossary: [misalignment, self-locking, axial--radial, over-centre, ratchet, pitch, idler, linkage, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, galling--fretting, layer-lines, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/turnbuckle.webp" alt="A cheap 3 in turnbuckle (aluminium body, hook and eye) next to a 9 in cast stainless-steel turnbuckle, showing the open body and the two threaded ends"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg">Turnbuckles</a> by Ted Major from Tuscaloosa, Ala., USA, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/turnbuckle.webp" alt="Two turnbuckles, each an open frame with a hook or eye screwed into each end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Turnbuckles.jpg">Turnbuckles</a> by Ted Major from Tuscaloosa, Ala., USA, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/turnbuckle-b178b2.webp" alt="A turnbuckle in use on a sailing ship, tightening a wire stay down to the deck." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Turnbuckle_James_Craig.JPG">Turnbuckle James Craig</a> by JohnsonL623, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A threaded sleeve with a right-hand thread at one end and a left-hand thread at the other, so turning the sleeve draws both end fittings in (or lets them out) at the same time, tightening or loosening a wire, rope, chain or rod without twisting it.

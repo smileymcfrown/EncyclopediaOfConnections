@@ -151,8 +151,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Square_Lashing.jpg
-  alt: Photo of a finished square lashing joining two poles
+  alt: A square lashing, rope wound tightly round two wooden poles where they cross and pulled tight with turns between them.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: pole-lashings.webp
@@ -161,14 +162,37 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Square_Lashing.jpg
-  alt: Photo of a finished square lashing joining two poles
+  alt: A square lashing, rope wound tightly round two wooden poles where they cross and pulled tight with turns between them.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: pole-lashings-850f9f.webp
+  title: File:2009 candidate chariot race 1200.jpg
+  author: Btphelps
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:2009_candidate_chariot_race_1200.jpg
+  site: Wikimedia Commons
+  alt: Scouts tying lashings to join three poles into a triangular frame on the ground.
+  kind: how-it-works
+  drawn: false
+- file: pole-lashings-e81592.webp
+  title: File:Temple St. bamboo scaffolding 2.JPG
+  author: BrokenSphere
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Temple_St._bamboo_scaffolding_2.JPG
+  site: Wikimedia Commons
+  alt: Bamboo scaffolding on a building in Hong Kong, the poles tied together at every crossing.
+  kind: photo
   drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, warping--shrinkage, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/pole-lashings.webp" alt="Photo of a finished square lashing joining two poles"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Square_Lashing.jpg">Square Lashing</a> by S.M.M.Musabbir Uddin, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/pole-lashings.webp" alt="A square lashing, rope wound tightly round two wooden poles where they cross and pulled tight with turns between them."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Square_Lashing.jpg">Square Lashing</a> by S.M.M.Musabbir Uddin, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pole-lashings-850f9f.webp" alt="Scouts tying lashings to join three poles into a triangular frame on the ground." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:2009_candidate_chariot_race_1200.jpg">2009 candidate chariot race 1200</a> by Btphelps, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pole-lashings-e81592.webp" alt="Bamboo scaffolding on a building in Hong Kong, the poles tied together at every crossing." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Temple_St._bamboo_scaffolding_2.JPG">Temple St. bamboo scaffolding 2</a> by BrokenSphere, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Rope wrapped round poles where they cross or touch and then tightened with turns between them, to make rigid frames, braced crossings, scissor legs, tripods and lengthened poles with no hardware or cut joints.

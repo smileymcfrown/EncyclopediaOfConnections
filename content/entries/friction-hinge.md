@@ -163,12 +163,24 @@ pictures:
   drawn: true
   still: drawn/friction-hinge.svg
   kind: animation
+- file: friction-hinge.webp
+  title: File:Lenovo ThinkPad X220 LCD hinges Kashui FRU 04W2185 vs Foxconn FRU 04W1406.jpg
+  author: Siarhei V
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_X220_LCD_hinges_Kashui_FRU_04W2185_vs_Foxconn_FRU_04W1406.jpg
+  site: Wikimedia Commons
+  alt: Two pairs of laptop screen hinges, the small friction hinges that hold a laptop lid at any angle, compared on a green
+    mat and a scale.
+  kind: photo
+  drawn: false
 glossary: [misalignment, detent, torque, torsion, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   holding-force, creep, stress-relaxation, layer-lines, print-in-place, peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/friction-hinge.svg"><img src="../media/drawn/anim/friction-hinge.svg" alt="Cut-away of a laptop-style friction hinge: the lid bracket turns on a pin between friction washers and dished spring washers that a nut squeezes together; beside it, an open lid whose weight, acting a distance x from the pin, is held up by the hinge&#x27;s rubbing; the lid is moved to a new angle, stays "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/friction-hinge.webp" alt="Two pairs of laptop screen hinges, the small friction hinges that hold a laptop lid at any angle, compared on a green mat and a scale." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lenovo_ThinkPad_X220_LCD_hinges_Kashui_FRU_04W2185_vs_Foxconn_FRU_04W1406.jpg">Lenovo ThinkPad X220 LCD hinges Kashui FRU 04W2185 vs Foxconn FRU 04W1406</a> by Siarhei V, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A hinge with a built-in, controlled amount of rubbing (friction) inside it, so that it holds a lid, screen or door at any angle against its own weight but still turns smoothly when you push it.

@@ -149,11 +149,34 @@ pictures:
     sucks the air out of the chamber through a hose, so the room air pressing on top pushes the sheet down hard and friction
     stops the cutter dragging it sideways.'
   drawn: true
+- file: vacuum-hold-down-table.webp
+  title: File:Vacuümtafel.jpg
+  author: Paul Hermans at Dutch Wikipedia
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Vacu%C3%BCmtafel.jpg
+  site: Wikimedia Commons
+  alt: A vacuum table, a flat plate on a stand with a pump and control box underneath.
+  kind: photo
+  drawn: false
+- file: vacuum-hold-down-table-186b8a.webp
+  title: File:Manual vacuum table valve control.jpg
+  author: Jaecnc
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Manual_vacuum_table_valve_control.jpg
+  site: Wikimedia Commons
+  alt: Levers and a vacuum gauge on the side of a CNC machine table, used to switch the suction on and off for each zone of
+    the bed.
+  kind: how-it-works
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, repeatability--accuracy, perimeters, check-valve, venturi]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/vacuum-hold-down-table.svg" alt="A side cut-away of a vacuum table: a flat sheet lies on a plate full of small holes over a sealed chamber; a pump sucks the air out of the chamber through a hose, so the room air pressing on top pushes the sheet down hard and friction stops the cutter dragging it sideways."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/vacuum-hold-down-table.webp" alt="A vacuum table, a flat plate on a stand with a pump and control box underneath." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Vacu%C3%BCmtafel.jpg">Vacuümtafel</a> by Paul Hermans at Dutch Wikipedia, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/vacuum-hold-down-table-186b8a.webp" alt="Levers and a vacuum gauge on the side of a CNC machine table, used to switch the suction on and off for each zone of the bed." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Manual_vacuum_table_valve_control.jpg">Manual vacuum table valve control</a> by Jaecnc, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A perforated or grooved plate over a sealed chamber that a vacuum source keeps below room pressure, so the air above presses any flat sheet laid on it down onto the plate and friction stops it sliding while it is milled, laser-cut, drilled or printed on.

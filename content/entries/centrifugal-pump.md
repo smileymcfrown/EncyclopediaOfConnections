@@ -155,7 +155,7 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif
-  alt: Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing
+  alt: An animated impeller with curved blades spinning, carrying water outwards from the centre to the rim.
   site: Wikimedia Commons
   still: centrifugal-pump.still.webp
   kind: animation
@@ -167,17 +167,39 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif
-  alt: Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing
+  alt: An animated impeller with curved blades spinning, carrying water outwards from the centre to the rim.
   site: Wikimedia Commons
   still: centrifugal-pump.still.webp
   kind: animation
+  drawn: false
+- file: centrifugal-pump-a8fcb2.webp
+  title: File:Pump (Cut-Away).JPG
+  author: S.J. de Waard
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Pump_(Cut-Away).JPG
+  site: Wikimedia Commons
+  alt: A cut-away electric pump on a trade-show stand, the casing opened to show the impeller inside its spiral housing.
+  kind: cross-section
+  drawn: false
+- file: centrifugal-pump-eaef41.webp
+  title: File:Centrifugal Pump.jpg
+  author: Saud
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Centrifugal_Pump.jpg
+  site: Wikimedia Commons
+  alt: Two blue centrifugal pumps piped into a hot-water heating system.
+  kind: photo
   drawn: false
 glossary: [torque, clearance, form-fit--force-fit--material-bond, spline, perimeters, infill, print-in-place, o-ring, check-valve,
   water-hammer]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/centrifugal-pump.still.webp"><img src="../media/centrifugal-pump.webp" alt="Simple animation of a blob of water entering the centre of a rotating impeller and being flung out to the casing"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif">Centrifugal pump</a> by Nguyen thanh chinh, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/centrifugal-pump.still.webp"><img src="../media/centrifugal-pump.webp" alt="An animated impeller with curved blades spinning, carrying water outwards from the centre to the rim."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Centrifugal_pump.gif">Centrifugal pump</a> by Nguyen thanh chinh, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-pump-a8fcb2.webp" alt="A cut-away electric pump on a trade-show stand, the casing opened to show the impeller inside its spiral housing." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pump_(Cut-Away).JPG">Pump (Cut-Away)</a> by S.J. de Waard, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/centrifugal-pump-eaef41.webp" alt="Two blue centrifugal pumps piped into a hot-water heating system." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Centrifugal_Pump.jpg">Centrifugal Pump</a> by Saud, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A motor spins a wheel of curved blades (the impeller) inside a spiral casing (the volute); water entering at the centre is whirled outwards, gains speed and pressure, and leaves through the outlet, giving a large, smooth flow at fairly low pressure, as long as the pump is already full of water (Wikipedia 'Centrifugal pump').

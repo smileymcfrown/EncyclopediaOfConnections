@@ -134,8 +134,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg
-  alt: AA cells in a multi-cell holder with spring and tab contacts
+  alt: A black plastic holder with four AA batteries pressed between metal contacts at each end.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: battery-holder-and-battery-contacts.webp
@@ -144,14 +145,37 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg
-  alt: AA cells in a multi-cell holder with spring and tab contacts
+  alt: A black plastic holder with four AA batteries pressed between metal contacts at each end.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: battery-holder-and-battery-contacts-750fbb.webp
+  title: File:Printed Battery Box Part 5.JPG
+  author: Will King2013
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Printed_Battery_Box_Part_5.JPG
+  site: Wikimedia Commons
+  alt: A 3D-printed yellow battery box for four cells, with metal spring contacts fitted at the ends.
+  kind: photo
+  drawn: false
+- file: battery-holder-and-battery-contacts-7a2b4e.webp
+  title: File:9 volt Battery Snap.jpg
+  author: oomlout
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:9_volt_Battery_Snap.jpg
+  site: Wikimedia Commons
+  alt: A 9 volt battery snap, a black clip with two press-stud contacts and red and black wires.
+  kind: photo
   drawn: false
 glossary: [cantilever, torsion, tolerance, form-fit--force-fit--material-bond, keying, creep, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/battery-holder-and-battery-contacts.webp" alt="AA cells in a multi-cell holder with spring and tab contacts"><figcaption><a href="https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg">AAbatteryholder</a> by Tom Blaha at the English Wikipedia project., <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/battery-holder-and-battery-contacts.webp" alt="A black plastic holder with four AA batteries pressed between metal contacts at each end."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:AAbatteryholder.jpg">AAbatteryholder</a> by Tom Blaha at the English Wikipedia project., <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/battery-holder-and-battery-contacts-750fbb.webp" alt="A 3D-printed yellow battery box for four cells, with metal spring contacts fitted at the ends." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Printed_Battery_Box_Part_5.JPG">Printed Battery Box Part 5</a> by Will King2013, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/battery-holder-and-battery-contacts-7a2b4e.webp" alt="A 9 volt battery snap, a black clip with two press-stud contacts and red and black wires." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:9_volt_Battery_Snap.jpg">9 volt Battery Snap</a> by oomlout, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A battery holder grips one or more cells and connects them through springy metal contacts pressed against their ends (and, for several cells, links them in series or parallel), so the cells can be taken out and replaced by hand while the device stays wired to the holder.

@@ -160,9 +160,9 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg
-  alt: Cutaway of a spring-loaded ball check valve open to forward flow; the companion file shows it closed against reverse
-    flow
+  alt: A cut-through drawing of a ball check valve, a red ball held against a narrowing seat by a spring below it.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: check-valve.webp
@@ -171,16 +171,39 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg
-  alt: Cutaway of a spring-loaded ball check valve open to forward flow; the companion file shows it closed against reverse
-    flow
+  alt: A cut-through drawing of a ball check valve, a red ball held against a narrowing seat by a spring below it.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: check-valve-ca2478.webp
+  title: File:Inside-tilting-disc-check-valve-The-Alloy-Valve-Stockist.jpg
+  author: Heather Smith
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Inside-tilting-disc-check-valve-The-Alloy-Valve-Stockist.jpg
+  site: Wikimedia Commons
+  alt: The inside of a tilting-disc check valve, the round disc hanging on its hinge pin across the bore, ready to swing shut.
+  kind: how-it-works
+  drawn: false
+- file: check-valve-dc7a94.webp
+  title: File:Valvola Schrader.jpg
+  author: A7N8X
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Valvola_Schrader.jpg
+  site: Wikimedia Commons
+  alt: Schrader tyre valves taken apart, showing the small spring-loaded valve core that lets air in and seals against it
+    coming out.
+  kind: how-it-works
   drawn: false
 glossary: [ratchet, pawl, actuator, solenoid, fail-safe--fail-secure, stiffness, form-fit--force-fit--material-bond, fatigue,
   infill, print-in-place, o-ring, check-valve, water-hammer]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/check-valve.webp" alt="Cutaway of a spring-loaded ball check valve open to forward flow; the companion file shows it closed against reverse flow"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg">Checkvalveopen</a> by Original: Mion Vector: Chris828, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/check-valve.webp" alt="A cut-through drawing of a ball check valve, a red ball held against a narrowing seat by a spring below it."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Checkvalveopen.svg">Checkvalveopen</a> by Original: Mion Vector: Chris828, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/check-valve-ca2478.webp" alt="The inside of a tilting-disc check valve, the round disc hanging on its hinge pin across the bore, ready to swing shut." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Inside-tilting-disc-check-valve-The-Alloy-Valve-Stockist.jpg">Inside-tilting-disc-check-valve-The-Alloy-Valve-Stockist</a> by Heather Smith, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/check-valve-dc7a94.webp" alt="Schrader tyre valves taken apart, showing the small spring-loaded valve core that lets air in and seals against it coming out." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Valvola_Schrader.jpg">Valvola Schrader</a> by A7N8X, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A two-port valve that works by itself: when the pressure on the inlet side beats the outlet side by a small 'cracking pressure', a flap, ball, poppet, reed or rubber beak moves aside and lets fluid through, and when the flow stops or reverses the same part is pressed back onto its seat to block it, making it the fluid version of a [ratchet](../glossary.md#ratchet).

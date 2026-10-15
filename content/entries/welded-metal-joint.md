@@ -129,12 +129,34 @@ pictures:
     melted together. Right: a welding torch moving along a joint, feeding filler wire into a small pool of molten metal under
     a cloud of shielding gas and leaving a solid bead behind it.'
   drawn: true
+- file: welded-metal-joint.webp
+  title: File:Weld puddle, also known as a weld pool or welding pool.png
+  author: Jose Bueno
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Weld_puddle,_also_known_as_a_weld_pool_or_welding_pool.png
+  site: Wikimedia Commons
+  alt: Close-up through a welding filter of the glowing pool of melted metal under a stick-welding arc.
+  kind: how-it-works
+  drawn: false
+- file: welded-metal-joint-954f2f.webp
+  title: File:US Army soldier welding two metal pieces, Fort Gregg-Adams, Virginia, March 2025.jpg
+  author: Juan F. Jimenez, Army
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:US_Army_soldier_welding_two_metal_pieces,_Fort_Gregg-Adams,_Virginia,_March_2025.jpg
+  site: Wikimedia Commons
+  alt: A welder in a helmet and gloves joining two pieces of steel with a welding torch, sparks flying.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, set-screw, chamfer--fillet, undercut, repeatability--accuracy, fatigue, brittle--ductile,
   warping--shrinkage, peel-vs-shear, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/welded-metal-joint.svg" alt="Left: cross-sections of three common welded joints, butt, lap and T, with the weld bead shaded where the metal has melted together. Right: a welding torch moving along a joint, feeding filler wire into a small pool of molten metal under a cloud of shielding gas and leaving a solid bead behind it."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/welded-metal-joint.webp" alt="Close-up through a welding filter of the glowing pool of melted metal under a stick-welding arc." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Weld_puddle,_also_known_as_a_weld_pool_or_welding_pool.png">Weld puddle, also known as a weld pool or welding pool</a> by Jose Bueno, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/welded-metal-joint-954f2f.webp" alt="A welder in a helmet and gloves joining two pieces of steel with a welding torch, sparks flying." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:US_Army_soldier_welding_two_metal_pieces,_Fort_Gregg-Adams,_Virginia,_March_2025.jpg">US Army soldier welding two metal pieces, Fort Gregg-Adams, Virginia, March 2025</a> by Juan F. Jimenez, Army, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Welding melts the edges of two metal parts, usually with extra filler metal from a wire or rod, using an electric arc or a gas flame, so the melted metal flows together and cools into one continuous piece: the strongest permanent way to join metal parts of the same or compatible metals.

@@ -132,8 +132,9 @@ image:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg
-  alt: A loop of wire rope wrapped round a thimble and held by a crimped ferrule
+  alt: A steel wire rope bent round a metal thimble into a loop, with the tail held by a pressed metal ferrule.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: wire-rope-terminations.webp
@@ -142,14 +143,37 @@ pictures:
   license: CC BY-SA 2.5
   license_url: https://creativecommons.org/licenses/by-sa/2.5
   source: https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg
-  alt: A loop of wire rope wrapped round a thimble and held by a crimped ferrule
+  alt: A steel wire rope bent round a metal thimble into a loop, with the tail held by a pressed metal ferrule.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: wire-rope-terminations-45a85e.webp
+  title: File:Wire rope clamps.jpg
+  author: Wasrts
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg
+  site: Wikimedia Commons
+  alt: A row of U-bolt wire rope clips clamping the doubled-back tail of a thick rope on a logging machine.
+  kind: how-it-works
+  drawn: false
+- file: wire-rope-terminations-4cf97f.webp
+  title: File:Nicopress Swaged Sleeve.jpg
+  author: Superior55
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Nicopress_Swaged_Sleeve.jpg
+  site: Wikimedia Commons
+  alt: A wire rope loop held by a copper sleeve that has been crushed onto both strands with a crimping tool.
+  kind: photo
   drawn: false
 glossary: [torque, form-fit--force-fit--material-bond, counterbore--countersink, creep, perimeters, peel-vs-shear, regulator]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-rope-terminations.webp" alt="A loop of wire rope wrapped round a thimble and held by a crimped ferrule"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg">Wire rope with thimble and ferrule</a> by Bernard S. Jansen, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-rope-terminations.webp" alt="A steel wire rope bent round a metal thimble into a loop, with the tail held by a pressed metal ferrule."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wire_rope_with_thimble_and_ferrule.jpg">Wire rope with thimble and ferrule</a> by Bernard S. Jansen, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-rope-terminations-45a85e.webp" alt="A row of U-bolt wire rope clips clamping the doubled-back tail of a thick rope on a logging machine." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wire_rope_clamps.jpg">Wire rope clamps</a> by Wasrts, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-rope-terminations-4cf97f.webp" alt="A wire rope loop held by a copper sleeve that has been crushed onto both strands with a crimping tool." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Nicopress_Swaged_Sleeve.jpg">Nicopress Swaged Sleeve</a> by Superior55, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A way of finishing steel wire rope with a loop (usually wrapped round a grooved thimble) or an end stop, held either by U-bolt clips clamped over the doubled rope or by a soft metal sleeve crushed onto it with a crimping tool, so the rope can be hooked, shackled or anchored without fraying or slipping.

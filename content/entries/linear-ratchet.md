@@ -154,7 +154,8 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif
-  alt: Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back
+  alt: A pawl clicks over the sloping teeth of a straight toothed rack, letting it slide one way and catching it if pushed
+    back.
   site: Wikimedia Commons
   still: linear-ratchet.still.webp
   kind: animation
@@ -166,17 +167,29 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif
-  alt: Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back
+  alt: A pawl clicks over the sloping teeth of a straight toothed rack, letting it slide one way and catching it if pushed
+    back.
   site: Wikimedia Commons
   still: linear-ratchet.still.webp
   kind: animation
+  drawn: false
+- file: linear-ratchet-2223e2.webp
+  title: File:ZipTieCrossSection.JPG
+  author: Mushrooshi
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:ZipTieCrossSection.JPG
+  site: Wikimedia Commons
+  alt: A cable tie cut in half through its head, showing the little blue pawl hooked against the teeth of the yellow strap.
+  kind: cross-section
   drawn: false
 glossary: [misalignment, self-locking, stroke, ratchet, pawl, pitch, flexure, clearance, form-fit--force-fit--material-bond,
   creep, brittle--ductile, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/linear-ratchet.still.webp"><img src="../media/linear-ratchet.webp" alt="Animation of a toothed rack (green) moving one way while a pawl (pink) clicks over the teeth and blocks it moving back"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif">Ratchet Rack and Pawl</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/linear-ratchet.still.webp"><img src="../media/linear-ratchet.webp" alt="A pawl clicks over the sloping teeth of a straight toothed rack, letting it slide one way and catching it if pushed back."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ratchet_Rack_and_Pawl.gif">Ratchet Rack and Pawl</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/linear-ratchet-2223e2.webp" alt="A cable tie cut in half through its head, showing the little blue pawl hooked against the teeth of the yellow strap." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:ZipTieCrossSection.JPG">ZipTieCrossSection</a> by Mushrooshi, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A toothed strip or bar and a catch ([pawl](../glossary.md#pawl)) that let it slide one way only, locking at each tooth, as in a cable tie, a snowboard-binding ladder strap or a [ratchet](../glossary.md#ratchet) jack.

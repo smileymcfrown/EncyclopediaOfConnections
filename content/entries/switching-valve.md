@@ -161,9 +161,10 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg
-  alt: 'Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot
-    passage, solenoid and outlet'
+  alt: 'Two cut-away drawings of a solenoid valve: at rest the diaphragm blocks the flow, and with the coil powered it lifts
+    so liquid flows from inlet to outlet.'
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: switching-valve.webp
@@ -172,15 +173,28 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg
-  alt: 'Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot
-    passage, solenoid and outlet'
+  alt: 'Two cut-away drawings of a solenoid valve: at rest the diaphragm blocks the flow, and with the coil powered it lifts
+    so liquid flows from inlet to outlet.'
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: switching-valve-61007c.webp
+  title: File:Valve, Vacuum Selector, Cutaway - DPLA - e5633c7d1f7feeaa6330597b6289934f (page 1).jpg
+  author: File URL Catalog record
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Valve,_Vacuum_Selector,_Cutaway_-_DPLA_-_e5633c7d1f7feeaa6330597b6289934f_(page_1).jpg
+  site: Wikimedia Commons
+  alt: A vacuum selector valve in an aluminium box, cut away to show the moving part inside that connects different ports
+    when the lever on the front is turned.
+  kind: cross-section
   drawn: false
 glossary: [bistable, detent, actuator, solenoid, fail-safe--fail-secure, infill, check-valve, regulator, water-hammer]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/switching-valve.webp" alt="Cross-section of a pilot-operated solenoid valve shut and open: inlet, diaphragm with pinhole, pressure chamber, pilot passage, solenoid and outlet"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg">Solenoid Valve</a> by &quot;SimonOrJ&quot; (U/T/C), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/switching-valve.webp" alt="Two cut-away drawings of a solenoid valve: at rest the diaphragm blocks the flow, and with the coil powered it lifts so liquid flows from inlet to outlet."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Solenoid_Valve.svg">Solenoid Valve</a> by &quot;SimonOrJ&quot; (U/T/C), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/switching-valve-61007c.webp" alt="A vacuum selector valve in an aluminium box, cut away to show the moving part inside that connects different ports when the lever on the front is turned." loading="lazy"><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Valve,_Vacuum_Selector,_Cutaway_-_DPLA_-_e5633c7d1f7feeaa6330597b6289934f_(page_1).jpg">Valve, Vacuum Selector, Cutaway - DPLA - e5633c7d1f7feeaa6330597b6289934f (page 1)</a> by File URL Catalog record, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A valve with two or more ports and two or three set positions: shifting its inner spool, poppet or diaphragm by an electric coil, hand, foot or air signal connects the supply to a chosen outlet and vents or blocks the others, which is how every powered cylinder, soft [actuator](../glossary.md#actuator) and suction cup is switched on and off.

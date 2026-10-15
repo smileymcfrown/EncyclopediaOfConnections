@@ -135,8 +135,9 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Kammklemme.jpg
-  alt: A black nylon clam cleat on a sailing yacht with a green rope led into its groove
+  alt: A green rope jammed in the ridged V-groove of a black clam cleat on a sailing boat, next to a winch.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 pictures:
 - file: clam-cleat.webp
@@ -145,14 +146,15 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Kammklemme.jpg
-  alt: A black nylon clam cleat on a sailing yacht with a green rope led into its groove
+  alt: A green rope jammed in the ridged V-groove of a black clam cleat on a sailing boat, next to a winch.
   site: Wikimedia Commons
+  kind: how-it-works
   drawn: false
 glossary: [self-locking, form-fit--force-fit--material-bond, creep, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/clam-cleat.webp" alt="A black nylon clam cleat on a sailing yacht with a green rope led into its groove"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Kammklemme.jpg">Kammklemme</a> by Jeuwre, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/clam-cleat.webp" alt="A green rope jammed in the ridged V-groove of a black clam cleat on a sailing boat, next to a winch."><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Kammklemme.jpg">Kammklemme</a> by Jeuwre, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A one-piece block with a narrow V-shaped groove lined with slanted ridges: a tensioned rope pressed into the groove is pulled deeper by its own load and jams, and a short upward-and-backward pull lifts it free.

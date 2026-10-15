@@ -148,7 +148,8 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif
-  alt: A 14-tooth gear driving a 28-tooth gear (2:1 ratio), turning in opposite directions
+  alt: Animation of a small red gear with 14 teeth turning a big green gear with 28 teeth, so the big gear turns half as fast
+    and the other way.
   site: Wikimedia Commons
   still: spur-gear-pair-and-gear-train.still.webp
   kind: animation
@@ -160,7 +161,8 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif
-  alt: A 14-tooth gear driving a 28-tooth gear (2:1 ratio), turning in opposite directions
+  alt: Animation of a small red gear with 14 teeth turning a big green gear with 28 teeth, so the big gear turns half as fast
+    and the other way.
   site: Wikimedia Commons
   still: spur-gear-pair-and-gear-train.still.webp
   kind: animation
@@ -171,7 +173,7 @@ glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, i
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/spur-gear-pair-and-gear-train.still.webp"><img src="../media/spur-gear-pair-and-gear-train.webp" alt="A 14-tooth gear driving a 28-tooth gear (2:1 ratio), turning in opposite directions"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif">Animated two spur gears 1 2</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/spur-gear-pair-and-gear-train.still.webp"><img src="../media/spur-gear-pair-and-gear-train.webp" alt="Animation of a small red gear with 14 teeth turning a big green gear with 28 teeth, so the big gear turns half as fast and the other way."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Animated_two_spur_gears_1_2.gif">Animated two spur gears 1 2</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Meshing gears with straight teeth pass rotation between parallel shafts, changing speed and turning force in proportion to their tooth counts, reversing direction at each mesh, and multiplying their ratios when several pairs are chained on shared shafts.

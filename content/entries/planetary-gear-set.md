@@ -143,7 +143,7 @@ image:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif
-  alt: Animation of a planetary set with the ring held still (sun 24, planets 16, ring 56 teeth) and the carrier turning
+  alt: A yellow sun gear turning four blue planet gears inside a fixed red ring gear, with the green carrier going round slowly.
   site: Wikimedia Commons
   still: planetary-gear-set.still.webp
   kind: animation
@@ -155,7 +155,7 @@ pictures:
   license: CC0
   license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
   source: https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif
-  alt: Animation of a planetary set with the ring held still (sun 24, planets 16, ring 56 teeth) and the carrier turning
+  alt: A yellow sun gear turning four blue planet gears inside a fixed red ring gear, with the green carrier going round slowly.
   site: Wikimedia Commons
   still: planetary-gear-set.still.webp
   kind: animation
@@ -165,7 +165,7 @@ glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, c
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/planetary-gear-set.still.webp"><img src="../media/planetary-gear-set.webp" alt="Animation of a planetary set with the ring held still (sun 24, planets 16, ring 56 teeth) and the carrier turning"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif">Epicyclic Gearing Stationary Ring</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/planetary-gear-set.still.webp"><img src="../media/planetary-gear-set.webp" alt="A yellow sun gear turning four blue planet gears inside a fixed red ring gear, with the green carrier going round slowly."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Epicyclic_Gearing_Stationary_Ring.gif">Epicyclic Gearing Stationary Ring</a> by Jahobr, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A planetary gear set has a central sun gear, several planet gears that mesh with it and with an outer ring gear, and a carrier holding the planets, so holding one of the three parts still gives a compact, strong speed reduction (or increase) with the input and output on the same line.

@@ -149,8 +149,10 @@ image:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png
-  alt: Image of BYU's one-piece bistable compliant switch, used on the Wikipedia article Compliant mechanism
+  alt: A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting
+    positions.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: bistable-compliant-mechanism.webp
@@ -159,8 +161,10 @@ pictures:
   license: CC BY-SA 4.0
   license_url: https://creativecommons.org/licenses/by-sa/4.0
   source: https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png
-  alt: Image of BYU's one-piece bistable compliant switch, used on the Wikipedia article Compliant mechanism
+  alt: A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting
+    positions.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linkage, actuator, flexure, compliant-mechanism,
   living-hinge, cantilever, damping, form-fit--force-fit--material-bond, repeatability--accuracy, creep, fatigue, brittle--ductile,
@@ -168,7 +172,7 @@ glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linka
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bistable-compliant-mechanism.webp" alt="Image of BYU&#x27;s one-piece bistable compliant switch, used on the Wikipedia article Compliant mechanism"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png">Bistable compliant switch mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bistable-compliant-mechanism.webp" alt="A one-piece switch with a centre block held by four thin slanted beams, which snaps up or down between two resting positions."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bistable_compliant_switch_mechanism.png">Bistable compliant switch mechanism</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A part that bends instead of using hinges and has two resting shapes, so pushing it past a tipping point makes it snap quickly into the other shape and stay there with no latch, spring or power holding it.

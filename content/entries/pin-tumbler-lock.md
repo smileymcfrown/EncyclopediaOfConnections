@@ -155,8 +155,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg
-  alt: 'Cut-away diagram of a pin-tumbler lock with no key: driver pins pushed across the shear line block the plug'
+  alt: A cut-away drawing of a pin-tumbler lock with no key, the spring-loaded pin stacks crossing the gap between the core
+    and the body so the core cannot turn.
   site: Wikimedia Commons
+  kind: cross-section
   drawn: false
 pictures:
 - file: pin-tumbler-lock.webp
@@ -165,15 +167,28 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg
-  alt: 'Cut-away diagram of a pin-tumbler lock with no key: driver pins pushed across the shear line block the plug'
+  alt: A cut-away drawing of a pin-tumbler lock with no key, the spring-loaded pin stacks crossing the gap between the core
+    and the body so the core cannot turn.
   site: Wikimedia Commons
+  kind: cross-section
+  drawn: false
+- file: pin-tumbler-lock-ebcc27.webp
+  title: File:Unbranded Pin Tumbler Euro cylinder (cropped).jpg
+  author: Willh26
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Unbranded_Pin_Tumbler_Euro_cylinder_(cropped).jpg
+  site: Wikimedia Commons
+  alt: A brass Euro cylinder lock fitted in a door, showing the keyway in the round core.
+  kind: photo
   drawn: false
 glossary: [axial--radial, ratchet, pawl, torque, solenoid, clearance, tolerance, form-fit--force-fit--material-bond, set-screw,
   keying, lubrication, layer-lines, infill, elephants-foot, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/pin-tumbler-lock.webp" alt="Cut-away diagram of a pin-tumbler lock with no key: driver pins pushed across the shear line block the plug"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg">Pin tumbler no key</a> by Original: GWirken Vector: Pbroks13, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/pin-tumbler-lock.webp" alt="A cut-away drawing of a pin-tumbler lock with no key, the spring-loaded pin stacks crossing the gap between the core and the body so the core cannot turn."><figcaption><strong>Cross-section.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pin_tumbler_no_key.svg">Pin tumbler no key</a> by Original: GWirken Vector: Pbroks13, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/pin-tumbler-lock-ebcc27.webp" alt="A brass Euro cylinder lock fitted in a door, showing the keyway in the round core." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Unbranded_Pin_Tumbler_Euro_cylinder_(cropped).jpg">Unbranded Pin Tumbler Euro cylinder (cropped)</a> by Willh26, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A tumbler lock uses several small movable blockers (pins, wafers, levers or discs) that each have to be moved to one exact position by the matching key before the lock's core can turn or its bolt can slide.

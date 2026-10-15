@@ -141,8 +141,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Gasket.svg
-  alt: Diagram of a gasket (orange) used as a face seal between two pipe flanges
+  alt: A drawing of two pipe flanges bolted together with an orange gasket squeezed between their faces to stop leaks.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: gasket.webp
@@ -151,15 +152,39 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Gasket.svg
-  alt: Diagram of a gasket (orange) used as a face seal between two pipe flanges
+  alt: A drawing of two pipe flanges bolted together with an orange gasket squeezed between their faces to stop leaks.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: gasket-957532.webp
+  title: File:CAT-B25-Battery-Cover.jpg
+  author: MarcoTangerino
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:CAT-B25-Battery-Cover.jpg
+  site: Wikimedia Commons
+  alt: The battery cover of a rugged phone, with a soft rubber gasket running round its rectangular rim that is squeezed when
+    the cover is screwed shut.
+  kind: how-it-works
+  drawn: false
+- file: gasket-1d82cb.webp
+  title: File:Gaskets.jpg
+  author: Sonett72 at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Gaskets.jpg
+  site: Wikimedia Commons
+  alt: Several flat gaskets cut to shape, including an engine head gasket, a fibre washer, a paper gasket and an O-ring.
+  kind: photo
   drawn: false
 glossary: [over-centre, deflection, form-fit--force-fit--material-bond, spline, creep, stress-relaxation, perimeters, cure,
   o-ring, gland]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/gasket.webp" alt="Diagram of a gasket (orange) used as a face seal between two pipe flanges"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Gasket.svg">Gasket</a> by Mysid, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/gasket.webp" alt="A drawing of two pipe flanges bolted together with an orange gasket squeezed between their faces to stop leaks."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gasket.svg">Gasket</a> by Mysid, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gasket-957532.webp" alt="The battery cover of a rugged phone, with a soft rubber gasket running round its rectangular rim that is squeezed when the cover is screwed shut." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:CAT-B25-Battery-Cover.jpg">CAT-B25-Battery-Cover</a> by MarcoTangerino, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/gasket-1d82cb.webp" alt="Several flat gaskets cut to shape, including an engine head gasket, a fibre washer, a paper gasket and an O-ring." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Gaskets.jpg">Gaskets</a> by Sonett72 at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A soft layer, cord or bead squeezed between two mating surfaces that fills their bumps and gaps so liquid and dust can't leak through the joint, even when the opening isn't round.

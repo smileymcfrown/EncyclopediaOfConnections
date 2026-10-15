@@ -152,8 +152,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG
-  alt: Photo of a bicycle quick-release skewer with its cam lever, rod and nut
+  alt: A bicycle quick-release skewer, a long thin rod with a nut at one end and a curved cam lever at the other.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: eccentric-cam-lever.webp
@@ -162,15 +163,16 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG
-  alt: Photo of a bicycle quick-release skewer with its cam lever, rod and nut
+  alt: A bicycle quick-release skewer, a long thin rod with a nut at one end and a curved cam lever at the other.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, self-locking, stroke, over-centre, lever-arm, linkage, clearance, form-fit--force-fit--material-bond,
   holding-force, repeatability--accuracy, creep, layer-lines, infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/eccentric-cam-lever.webp" alt="Photo of a bicycle quick-release skewer with its cam lever, rod and nut"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG">Quick release scewer</a> by AndrewDressel at en.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/eccentric-cam-lever.webp" alt="A bicycle quick-release skewer, a long thin rod with a nut at one end and a curved cam lever at the other."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Quick_release_scewer.JPG">Quick release scewer</a> by AndrewDressel at en.wikipedia, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A hand lever whose pivot is set off-centre in a round or spiral cam, so swinging the lever wedges the cam against a surface and squeezes parts together with many times the force of your hand, and the cam's gentle slope (or a small [over-centre](../glossary.md#over-centre) step) keeps it shut until you flip it back.

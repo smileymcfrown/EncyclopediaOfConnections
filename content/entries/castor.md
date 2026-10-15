@@ -139,8 +139,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
-  alt: A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.
+  alt: A swivel castor under a clothes rack, its hard rubber wheel set behind the swivel pivot in a steel fork.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: castor.webp
@@ -149,14 +150,37 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg
-  alt: A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it.
+  alt: A swivel castor under a clothes rack, its hard rubber wheel set behind the swivel pivot in a steel fork.
   site: Wikimedia Commons
+  kind: photo
+  drawn: false
+- file: castor-cc1793.webp
+  title: File:Swivel caster with wheel lock.JPG
+  author: DMahalko
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Swivel_caster_with_wheel_lock.JPG
+  site: Wikimedia Commons
+  alt: A swivel castor with a wing-shaped brake lever that presses down on the wheel to stop it rolling.
+  kind: how-it-works
+  drawn: false
+- file: castor-b2c6e1.webp
+  title: File:Caster - Central locking mechanism - Stryker hydraulic stretcher.JPG
+  author: DMahalko
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Caster_-_Central_locking_mechanism_-_Stryker_hydraulic_stretcher.JPG
+  site: Wikimedia Commons
+  alt: The castors of a hospital stretcher joined by a central locking bar that brakes all the wheels at once.
+  kind: how-it-works
   drawn: false
 glossary: [fail-safe--fail-secure, clearance, creep, perimeters, infill]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/castor.webp" alt="A swivel castor with a solid hard rubber wheel in a bracket that turns on a pivot above it."><figcaption><a href="https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg">Swivel caster</a> by Lambtron, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/castor.webp" alt="A swivel castor under a clothes rack, its hard rubber wheel set behind the swivel pivot in a steel fork."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swivel_caster.jpg">Swivel caster</a> by Lambtron, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/castor-cc1793.webp" alt="A swivel castor with a wing-shaped brake lever that presses down on the wheel to stop it rolling." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Swivel_caster_with_wheel_lock.JPG">Swivel caster with wheel lock</a> by DMahalko, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/castor-b2c6e1.webp" alt="The castors of a hospital stretcher joined by a central locking bar that brakes all the wheels at once." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Caster_-_Central_locking_mechanism_-_Stryker_hydraulic_stretcher.JPG">Caster - Central locking mechanism - Stryker hydraulic stretcher</a> by DMahalko, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 An unpowered wheel in a fixed or swivelling bracket fixed under an object so it can be rolled; a swivel castor's wheel trails behind its pivot so it lines itself up with the direction of travel, and braked versions lock the wheel, the swivel or both.

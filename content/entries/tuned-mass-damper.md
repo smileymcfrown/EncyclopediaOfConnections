@@ -123,8 +123,7 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif
-  alt: Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders
-    that damp the motion
+  alt: Animation of a tall building swaying while a heavy ball hung inside it swings the opposite way, damped by green pistons.
   site: Wikimedia Commons
   still: tuned-mass-damper.still.webp
   kind: animation
@@ -136,17 +135,38 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif
-  alt: Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders
-    that damp the motion
+  alt: Animation of a tall building swaying while a heavy ball hung inside it swings the opposite way, damped by green pistons.
   site: Wikimedia Commons
   still: tuned-mass-damper.still.webp
   kind: animation
+  drawn: false
+- file: tuned-mass-damper-9d76ed.webp
+  title: File:Taipei 101 Tuned Mass Damper 2010.jpg
+  author: Armand du Plessis
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Taipei_101_Tuned_Mass_Damper_2010.jpg
+  site: Wikimedia Commons
+  alt: The huge golden steel ball of the Taipei 101 skyscraper's damper, hanging on cables with pistons below it.
+  kind: photo
+  drawn: false
+- file: tuned-mass-damper-22e79d.webp
+  title: File:Stockbridge damper new with ruler.jpg
+  author: Alex P. Kok
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Stockbridge_damper_new_with_ruler.jpg
+  site: Wikimedia Commons
+  alt: A Stockbridge damper for power lines, a clamp with a weight on a short cable on each side, next to a ruler.
+  kind: photo
   drawn: false
 glossary: [stiffness, cantilever, deflection, damping, repeatability--accuracy, creep, fatigue, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/tuned-mass-damper.still.webp"><img src="../media/tuned-mass-damper.webp" alt="Animation of a skyscraper swaying with and without a tuned mass damper at the top; green marks the hydraulic cylinders that damp the motion"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif">Tuned mass damper</a> by Anarchemitis at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/tuned-mass-damper.still.webp"><img src="../media/tuned-mass-damper.webp" alt="Animation of a tall building swaying while a heavy ball hung inside it swings the opposite way, damped by green pistons."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Tuned_mass_damper.gif">Tuned mass damper</a> by Anarchemitis at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tuned-mass-damper-9d76ed.webp" alt="The huge golden steel ball of the Taipei 101 skyscraper&#x27;s damper, hanging on cables with pistons below it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Taipei_101_Tuned_Mass_Damper_2010.jpg">Taipei 101 Tuned Mass Damper 2010</a> by Armand du Plessis, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/tuned-mass-damper-22e79d.webp" alt="A Stockbridge damper for power lines, a clamp with a weight on a short cable on each side, next to a ruler." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Stockbridge_damper_new_with_ruler.jpg">Stockbridge damper new with ruler</a> by Alex P. Kok, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 An extra weight on a spring, fixed to a part or structure that keeps shaking at one particular rate, tuned so that it swings the opposite way to the shaking and soaks up its energy, making the structure move much less while weighing much less than it.

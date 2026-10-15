@@ -163,8 +163,9 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:5mm_copper_tape.jpg
-  alt: A roll of adhesive-backed copper tape for making paper electronics
+  alt: A narrow roll of shiny copper foil tape, partly unrolled on a table.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: conductive-tape.webp
@@ -173,14 +174,15 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:5mm_copper_tape.jpg
-  alt: A roll of adhesive-backed copper tape for making paper electronics
+  alt: A narrow roll of shiny copper foil tape, partly unrolled on a table.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/conductive-tape.webp" alt="A roll of adhesive-backed copper tape for making paper electronics"><figcaption><a href="https://commons.wikimedia.org/wiki/File:5mm_copper_tape.jpg">5mm copper tape</a> by Mosborne01, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/conductive-tape.webp" alt="A narrow roll of shiny copper foil tape, partly unrolled on a table."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:5mm_copper_tape.jpg">5mm copper tape</a> by Mosborne01, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Conductive tape is a thin copper foil or metal-plated fabric with a peel-off sticky back, laid down as flat 'wires' on paper, card, fabric or a 3D print so that LEDs, batteries and other small parts can be taped, soldered, glued or sewn onto it; the same copper tape is used to line boxes and guitar cavities as an electrical shield.

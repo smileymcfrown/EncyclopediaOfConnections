@@ -124,9 +124,10 @@ image:
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
   source: https://commons.wikimedia.org/wiki/File:ADBO_-_Project_Box_for_Arduino_(laser_cut).jpg
-  alt: Photo of a clear laser-cut acrylic box whose side walls have tabs passing through slots in the top and bottom plates,
-    clamped by long corner bolts
+  alt: A clear laser-cut acrylic project box holding an Arduino and a display, its panels located by tabs fitted into slots
+    and held with screws.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 pictures:
 - file: tab-and-slot-joint.webp
@@ -135,16 +136,17 @@ pictures:
   license: CC BY-SA 2.0
   license_url: https://creativecommons.org/licenses/by-sa/2.0
   source: https://commons.wikimedia.org/wiki/File:ADBO_-_Project_Box_for_Arduino_(laser_cut).jpg
-  alt: Photo of a clear laser-cut acrylic box whose side walls have tabs passing through slots in the top and bottom plates,
-    clamped by long corner bolts
+  alt: A clear laser-cut acrylic project box holding an Arduino and a display, its panels located by tabs fitted into slots
+    and held with screws.
   site: Wikimedia Commons
+  kind: photo
   drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, repeatability--accuracy,
   fatigue, brittle--ductile, stress-concentration, elephants-foot, warping--shrinkage, kerf]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/tab-and-slot-joint.webp" alt="Photo of a clear laser-cut acrylic box whose side walls have tabs passing through slots in the top and bottom plates, clamped by long corner bolts"><figcaption><a href="https://commons.wikimedia.org/wiki/File:ADBO_-_Project_Box_for_Arduino_(laser_cut).jpg">ADBO - Project Box for Arduino (laser cut)</a> by oomlout, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/tab-and-slot-joint.webp" alt="A clear laser-cut acrylic project box holding an Arduino and a display, its panels located by tabs fitted into slots and held with screws."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:ADBO_-_Project_Box_for_Arduino_(laser_cut).jpg">ADBO - Project Box for Arduino (laser cut)</a> by oomlout, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Tabs sticking out of the edge of one flat part pass into slots cut in another, so the parts find their exact position by themselves and stay put while they are glued, welded, bolted, keyed or simply press-fitted.

@@ -145,12 +145,34 @@ pictures:
     the horn shakes up and down about 20,000 times a second. Right: close-ups of the joint, first with a small triangular
     ridge on the lid touching the box wall, then with the ridge melted and flowed into a flat seam that fuses lid and box.'
   drawn: true
+- file: ultrasonic-weld.webp
+  title: File:Ultrasonic Welding.JPG
+  author: NearEMPTiness
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Ultrasonic_Welding.JPG
+  site: Wikimedia Commons
+  alt: An ultrasonic welding head rolling along a seam, joining thin foil sheets at a trade fair.
+  kind: how-it-works
+  drawn: false
+- file: ultrasonic-weld-fe9b47.webp
+  title: File:Ultraschall-Schweißmaschine.jpg
+  author: Herrmann Ultraschalltechnik GmbH & Co. KG
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ultraschall-Schwei%C3%9Fmaschine.jpg
+  site: Wikimedia Commons
+  alt: A bench-top ultrasonic welding machine, with the vibrating horn above a fixture that holds the parts.
+  kind: photo
+  drawn: false
 glossary: [axial--radial, cantilever, hysteresis, tolerance, form-fit--force-fit--material-bond, boss, repeatability--accuracy,
   creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, support-material, warping--shrinkage, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/ultrasonic-weld.svg" alt="Left: an ultrasonic welder&#x27;s converter, booster and horn pressing a plastic lid onto a box held in a fixture while the horn shakes up and down about 20,000 times a second. Right: close-ups of the joint, first with a small triangular ridge on the lid touching the box wall, then with the ridge melted "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ultrasonic-weld.webp" alt="An ultrasonic welding head rolling along a seam, joining thin foil sheets at a trade fair." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ultrasonic_Welding.JPG">Ultrasonic Welding</a> by NearEMPTiness, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ultrasonic-weld-fe9b47.webp" alt="A bench-top ultrasonic welding machine, with the vibrating horn above a fixture that holds the parts." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ultraschall-Schwei%C3%9Fmaschine.jpg">Ultraschall-Schweißmaschine</a> by Herrmann Ultraschalltechnik GmbH &amp; Co. KG, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Ultrasonic welding presses two thermoplastic parts together under a horn that vibrates at about 15-40 kHz; the rubbing and internal heating melt a small ridge (energy director) or a slight overlap ([shear](../glossary.md#peel-vs-shear) joint) where the parts meet, and in well under a second they fuse into one sealed, permanent piece.

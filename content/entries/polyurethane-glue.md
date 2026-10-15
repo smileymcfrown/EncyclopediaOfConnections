@@ -147,12 +147,23 @@ pictures:
     the wood (strong); on the right a gappy joint where the glue has foamed up into bubbles that fill the gap and ooze out
     (weak), with moisture going in and gas bubbles making the foam.'
   drawn: true
+- file: polyurethane-glue.webp
+  title: File:The glue we used..jpg
+  author: Fissbusta
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:The_glue_we_used..jpg
+  site: Wikimedia Commons
+  alt: A bottle of polyurethane glue (Gorilla Glue) standing on a workbench.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, end-grain, cure, pot-life--working-time, open-time, peel-vs-shear,
   gap-filling]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/polyurethane-glue.svg" alt="Two glued wood joints cut open: on the left a tight, clamped joint with a thin film of polyurethane glue soaked into the wood (strong); on the right a gappy joint where the glue has foamed up into bubbles that fill the gap and ooze out (weak), with moisture going in and gas bubbles making the foam."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/polyurethane-glue.webp" alt="A bottle of polyurethane glue (Gorilla Glue) standing on a workbench." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:The_glue_we_used..jpg">The glue we used.</a> by Fissbusta, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Polyurethane glue is a one-part liquid glue that [cures](../glossary.md#cure) by reacting with moisture in the air and in the materials, foaming slightly as it hardens, to give a strong, waterproof bond between wood and many other materials, provided the joint is tight and clamped.

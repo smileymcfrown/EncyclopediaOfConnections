@@ -131,12 +131,24 @@ pictures:
     into a round drop that barely touches the surface, so the second part pulls straight off; on the right a low-surface-energy
     glue, or glue on a primed surface, spreads into a thin flat layer that wets both parts and holds them together.'
   drawn: true
+- file: structural-acrylic-and-low-surface-energy-plastic-adhesives.webp
+  title: File:Two-component adhesive cartridges.jpg
+  author: Grzegorz W. Tężycki
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Two-component_adhesive_cartridges.jpg
+  site: Wikimedia Commons
+  alt: A box of two-part adhesive cartridges seen end-on, the kind of twin cartridge that structural acrylic glues are sold
+    in.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, creep, cure, pot-life--working-time, surface-energy, primer, peel-vs-shear,
   gap-filling]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/structural-acrylic-and-low-surface-energy-plastic-adhesives.svg" alt="Two cut-away close-ups of glue on a slippery polyethylene or polypropylene part: on the left ordinary glue beads up into a round drop that barely touches the surface, so the second part pulls straight off; on the right a low-surface-energy glue, or glue on a primed surface, spreads into a thin flat "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/structural-acrylic-and-low-surface-energy-plastic-adhesives.webp" alt="A box of two-part adhesive cartridges seen end-on, the kind of twin cartridge that structural acrylic glues are sold in." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Two-component_adhesive_cartridges.jpg">Two-component adhesive cartridges</a> by Grzegorz W. Tężycki, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 LSE adhesives are special structural acrylic glues, or superglue used after a polyolefin [primer](../glossary.md#primer), that can make strong bonds to polyethylene, polypropylene and similar slippery plastics that normal glues can't wet or grip.

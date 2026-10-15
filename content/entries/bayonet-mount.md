@@ -134,8 +134,9 @@ image:
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Bayonet-mount-01.svg
-  alt: 'Diagram of a bayonet mount before insertion: pins on the male part lined up with the L-shaped slots'
+  alt: A drawing of two tubes, one with an L-shaped slot and the other with a pin that slides in and twists to lock.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: bayonet-mount.webp
@@ -144,15 +145,38 @@ pictures:
   license: CC BY 2.5
   license_url: https://creativecommons.org/licenses/by/2.5
   source: https://commons.wikimedia.org/wiki/File:Bayonet-mount-01.svg
-  alt: 'Diagram of a bayonet mount before insertion: pins on the male part lined up with the L-shaped slots'
+  alt: A drawing of two tubes, one with an L-shaped slot and the other with a pin that slides in and twists to lock.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: bayonet-mount-ab6da8.webp
+  title: File:Bayonet lightbulb and socket.jpg
+  author: Jnestorius
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Bayonet_lightbulb_and_socket.jpg
+  site: Wikimedia Commons
+  alt: A bayonet light bulb next to its socket, showing the bulb's two side pins and the L-shaped slots they twist into.
+  kind: how-it-works
+  drawn: false
+- file: bayonet-mount-d515df.webp
+  title: File:Bajonett manual minolta.jpg
+  author: smial
+  license: CC BY-SA 2.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Bajonett_manual_minolta.jpg
+  site: Wikimedia Commons
+  alt: A camera lens taken off its camera body, showing the metal bayonet tabs on the lens and the matching mount on the camera.
+  kind: photo
   drawn: false
 glossary: [misalignment, axial--radial, detent, preload, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, print-in-place, elephants-foot, peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/bayonet-mount.webp" alt="Diagram of a bayonet mount before insertion: pins on the male part lined up with the L-shaped slots"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Bayonet-mount-01.svg">Bayonet-mount-01</a> by Iainf 04:22, 8 July 2006 (UTC), <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/bayonet-mount.webp" alt="A drawing of two tubes, one with an L-shaped slot and the other with a pin that slides in and twists to lock."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bayonet-mount-01.svg">Bayonet-mount-01</a> by Iainf 04:22, 8 July 2006 (UTC), <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bayonet-mount-ab6da8.webp" alt="A bayonet light bulb next to its socket, showing the bulb&#x27;s two side pins and the L-shaped slots they twist into." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bayonet_lightbulb_and_socket.jpg">Bayonet lightbulb and socket</a> by Jnestorius, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bayonet-mount-d515df.webp" alt="A camera lens taken off its camera body, showing the metal bayonet tabs on the lens and the matching mount on the camera." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bajonett_manual_minolta.jpg">Bajonett manual minolta</a> by smial, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two round parts that join end to end: push the pins or tabs on one part into notches in the other, twist a short way (typically a quarter turn or less) so they slide under ledges, and a spring or springy bump holds them locked until you push and twist back.

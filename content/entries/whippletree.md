@@ -136,8 +136,10 @@ image:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg
-  alt: Sketch of the set of whippletrees that shares a load between three draught animals
+  alt: Diagram of a whippletree set for three draught animals, bars hung from pivots so each animal's pull is shared to one
+    load.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: whippletree.webp
@@ -146,14 +148,38 @@ pictures:
   license: CC BY-SA 3.0
   license_url: http://creativecommons.org/licenses/by-sa/3.0/
   source: https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg
-  alt: Sketch of the set of whippletrees that shares a load between three draught animals
+  alt: Diagram of a whippletree set for three draught animals, bars hung from pivots so each animal's pull is shared to one
+    load.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: whippletree-63baff.webp
+  title: File:Leader bars.jpg
+  author: Richard New Forest
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Leader_bars.jpg
+  site: Wikimedia Commons
+  alt: Two carriage horses pulling on swinging leader bars that pivot in the middle to share their pull.
+  kind: how-it-works
+  drawn: false
+- file: whippletree-c6c340.webp
+  title: File:Pferde-Schwengel.JPG
+  author: Own work by uploader
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Pferde-Schwengel.JPG
+  site: Wikimedia Commons
+  alt: An old wooden whippletree set hanging on a wall, a long bar with a shorter bar hooked to each end.
+  kind: photo
   drawn: false
 glossary: [misalignment, torque, crank, linkage, form-fit--force-fit--material-bond, creep, perimeters, print-in-place]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/whippletree.webp" alt="Sketch of the set of whippletrees that shares a load between three draught animals"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg">Triple whippletree set</a> by Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/whippletree.webp" alt="Diagram of a whippletree set for three draught animals, bars hung from pivots so each animal&#x27;s pull is shared to one load."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Triple_whippletree_set.svg">Triple whippletree set</a> by Triple_whippletree_set.jpg: Richard New Forest derivative work: McSush (talk), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/whippletree-63baff.webp" alt="Two carriage horses pulling on swinging leader bars that pivot in the middle to share their pull." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Leader_bars.jpg">Leader bars</a> by Richard New Forest, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/whippletree-c6c340.webp" alt="An old wooden whippletree set hanging on a wall, a long bar with a shorter bar hooked to each end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Pferde-Schwengel.JPG">Pferde-Schwengel</a> by Own work by uploader, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A whippletree is a free-floating bar pulled or pushed at a pivot near its middle, so it tips until the forces at its two ends balance, sharing one force equally (or in a set ratio) between two points, and several bars hung from each other share it between many points.

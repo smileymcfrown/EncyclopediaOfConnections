@@ -136,8 +136,9 @@ image:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wedge-diagram.svg
-  alt: Cross-section of a wedge showing a downward push producing sideways forces on its sloping faces
+  alt: A drawing of a black wedge being pushed down into a split block, with arrows showing the two halves being forced apart.
   site: Wikimedia Commons
+  kind: diagram
   drawn: false
 pictures:
 - file: self-locking-wedge.webp
@@ -146,15 +147,39 @@ pictures:
   license: Public domain
   license_url: ''
   source: https://commons.wikimedia.org/wiki/File:Wedge-diagram.svg
-  alt: Cross-section of a wedge showing a downward push producing sideways forces on its sloping faces
+  alt: A drawing of a black wedge being pushed down into a split block, with arrows showing the two halves being forced apart.
   site: Wikimedia Commons
+  kind: diagram
+  drawn: false
+- file: self-locking-wedge-08904f.webp
+  title: File:Cotter-Pin.jpg
+  author: 'The original: Bukk; Cleanup & change scale indicator: rswarbrick'
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Cotter-Pin.jpg
+  site: Wikimedia Commons
+  alt: A bicycle crank cotter, a steel pin with a flat sloping face and a nut, that is driven in sideways to lock the crank
+    to its axle.
+  kind: photo
+  drawn: false
+- file: self-locking-wedge-f01065.webp
+  title: File:Wooden wedge door stop.jpg
+  author: Strait at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Wooden_wedge_door_stop.jpg
+  site: Wikimedia Commons
+  alt: A plain wooden wedge door stop lying on the floor.
+  kind: photo
   drawn: false
 glossary: [self-locking, sprag, torque, mechanical-advantage, crank, form-fit--force-fit--material-bond, taper, threadlocker,
   creep, perimeters, infill, warping--shrinkage, kerf]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/self-locking-wedge.webp" alt="Cross-section of a wedge showing a downward push producing sideways forces on its sloping faces"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Wedge-diagram.svg">Wedge-diagram</a> by Iainf 03:12, 8 July 2006 (UTC), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/self-locking-wedge.webp" alt="A drawing of a black wedge being pushed down into a split block, with arrows showing the two halves being forced apart."><figcaption><strong>Diagram.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wedge-diagram.svg">Wedge-diagram</a> by Iainf 03:12, 8 July 2006 (UTC), Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/self-locking-wedge-08904f.webp" alt="A bicycle crank cotter, a steel pin with a flat sloping face and a nut, that is driven in sideways to lock the crank to its axle." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cotter-Pin.jpg">Cotter-Pin</a> by The original: Bukk; Cleanup &amp; change scale indicator: rswarbrick, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/self-locking-wedge-f01065.webp" alt="A plain wooden wedge door stop lying on the floor." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Wooden_wedge_door_stop.jpg">Wooden wedge door stop</a> by Strait at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A shallow wedge driven into a gap multiplies a light tap into a strong squeeze, and because its slope is gentle, friction stops it sliding back out, so it holds parts tight until it is knocked out again.

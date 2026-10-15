@@ -150,8 +150,8 @@ image:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif
-  alt: Animation of a cantilever arm being pushed into another part, bending as it slides across it, then springing back into
-    the depression
+  alt: An animated drawing of a hooked arm bending aside as it is pushed down, then springing back to hook under the other
+    part's ledge.
   site: Wikimedia Commons
   still: cantilever-snap-fit.still.webp
   kind: animation
@@ -163,11 +163,31 @@ pictures:
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
   source: https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif
-  alt: Animation of a cantilever arm being pushed into another part, bending as it slides across it, then springing back into
-    the depression
+  alt: An animated drawing of a hooked arm bending aside as it is pushed down, then springing back to hook under the other
+    part's ledge.
   site: Wikimedia Commons
   still: cantilever-snap-fit.still.webp
   kind: animation
+  drawn: false
+- file: cantilever-snap-fit-e4fc94.webp
+  title: File:Volkswagen broken car remote hack - 21473319590.jpg
+  author: Creative Tools
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Volkswagen_broken_car_remote_hack_-_21473319590.jpg
+  site: Wikimedia Commons
+  alt: A 3D-printed red clip held in the fingers, its long flexible arms ending in hooks that snap over a car key fob.
+  kind: photo
+  drawn: false
+- file: cantilever-snap-fit-061095.webp
+  title: File:Volkswagen broken car remote hack - 21661213595.jpg
+  author: Creative Tools
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0
+  source: https://commons.wikimedia.org/wiki/File:Volkswagen_broken_car_remote_hack_-_21661213595.jpg
+  site: Wikimedia Commons
+  alt: The red 3D-printed clip snapped round a broken car key fob, its hooked ends holding the two halves together.
+  kind: how-it-works
   drawn: false
 glossary: [detent, stiffness, flexure, living-hinge, cantilever, deflection, torsion, clearance, tolerance, interference-fit,
   form-fit--force-fit--material-bond, holding-force, taper, heat-set-insert, chamfer--fillet, undercut, return-angle, creep,
@@ -175,7 +195,9 @@ glossary: [detent, stiffness, flexure, living-hinge, cantilever, deflection, tor
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cantilever-snap-fit.still.webp"><img src="../media/cantilever-snap-fit.webp" alt="Animation of a cantilever arm being pushed into another part, bending as it slides across it, then springing back into the depression"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif">Cantilever Snap-fit</a> by Original PNG Drawing: Ootsuka02GIF Animation: MichaelFrey (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/cantilever-snap-fit.still.webp"><img src="../media/cantilever-snap-fit.webp" alt="An animated drawing of a hooked arm bending aside as it is pushed down, then springing back to hook under the other part&#x27;s ledge."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Cantilever_Snap-fit.gif">Cantilever Snap-fit</a> by Original PNG Drawing: Ootsuka02GIF Animation: MichaelFrey (talk), <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cantilever-snap-fit-e4fc94.webp" alt="A 3D-printed red clip held in the fingers, its long flexible arms ending in hooks that snap over a car key fob." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Volkswagen_broken_car_remote_hack_-_21473319590.jpg">Volkswagen broken car remote hack - 21473319590</a> by Creative Tools, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cantilever-snap-fit-061095.webp" alt="The red 3D-printed clip snapped round a broken car key fob, its hooked ends holding the two halves together." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Volkswagen_broken_car_remote_hack_-_21661213595.jpg">Volkswagen broken car remote hack - 21661213595</a> by Creative Tools, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A flexible arm made as part of one part, with a hook at its tip that bends aside as the parts are pushed together and springs back behind a ledge ([undercut](../glossary.md#undercut)) on the other part, locking them together without screws or glue.

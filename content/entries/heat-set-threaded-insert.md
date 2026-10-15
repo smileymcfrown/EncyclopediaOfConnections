@@ -140,12 +140,23 @@ pictures:
     part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush
     and cool it holds a screw in its metal thread.'
   drawn: true
+- file: heat-set-threaded-insert.webp
+  title: File:Press-in Insert.png
+  author: Dhruvvasoya91
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Press-in_Insert.png
+  site: Wikimedia Commons
+  alt: A small brass threaded insert with diamond knurling on the outside and a slot down one side.
+  kind: photo
+  drawn: false
 glossary: [deflection, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, chamfer--fillet, creep, perimeters,
   infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-set-threaded-insert.svg" alt="Three cut-away steps of fitting a heat-set insert: a knurled brass insert sits on a slightly smaller hole in a printed part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush and cool it holds a screw in its metal thread."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-set-threaded-insert.webp" alt="A small brass threaded insert with diamond knurling on the outside and a slot down one side." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Press-in_Insert.png">Press-in Insert</a> by Dhruvvasoya91, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A knurled metal nut-like sleeve pressed into a plain hole with a hot soldering iron, so the melted plastic grips it and the part gets strong, reusable metal threads.

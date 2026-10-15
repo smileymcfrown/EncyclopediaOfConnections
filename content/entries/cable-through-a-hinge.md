@@ -132,11 +132,33 @@ pictures:
   drawn: true
   still: drawn/cable-through-a-hinge.svg
   kind: animation
+- file: cable-through-a-hinge.webp
+  title: Top_Case
+  author: tony_duell
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/43851301@N02/47156217491
+  site: Flickr via Openverse
+  alt: An opened hinged case with loose loops of wire running across the hinge from the base to the lid.
+  kind: how-it-works
+  drawn: false
+- file: cable-through-a-hinge-a239e0.webp
+  title: File:Samsung SGH-U700 FFC.jpg
+  author: RobbertS
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg
+  site: Wikimedia Commons
+  alt: A flat flexible cable bending round between the two sliding halves of a slide phone's circuit boards.
+  kind: photo
+  drawn: false
 glossary: [torque, actuator, torsion, form-fit--force-fit--material-bond, chamfer--fillet, fatigue, print-in-place, gland]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cable-through-a-hinge.svg"><img src="../media/drawn/anim/cable-through-a-hinge.svg" alt="Two ways to take a cable across a box lid&#x27;s hinge: on the left the cable runs through the hollow hinge pin between a clamp on each side, so opening the lid only twists it; on the right a slack loop of cable between a clamp on the box and a clamp on the lid bends as the lid opens. Animated: the lid c"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cable-through-a-hinge.webp" alt="An opened hinged case with loose loops of wire running across the hinge from the base to the lid." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/43851301@N02/47156217491">Top_Case</a> by tony_duell, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cable-through-a-hinge-a239e0.webp" alt="A flat flexible cable bending round between the two sliding halves of a slide phone&#x27;s circuit boards." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Samsung_SGH-U700_FFC.jpg">Samsung SGH-U700 FFC</a> by RobbertS, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A planned route for wires, flat cables or tubes across a hinge or a joint that turns less than a full turn (or a few turns), either through a hollow pin or shaft on the turning axis so the cable only twists, or as a loose loop or wound flat cable that rolls instead of kinking, with clamps on each side so the flexing happens only where it is designed to.
