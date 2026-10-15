@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>End-on cut-away of a switchable magnet base on a steel plate: a round magnet sits in a hole between two iron halves joined by a brass strip. Turned so its poles face the brass (OFF), its field just loops round inside the iron; a quarter turn puts one pole against each iron half (ON), so the field runs down through the steel plate and pulls it on hard.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+</defs>
+<g transform="translate(200,185) scale(0.85)" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-200" y="80" width="400" height="36" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M-150,-90 H-7 V80 H-150 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/><path d="M7,-90 H150 V80 H7 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="-7" y="-90" width="14" height="170" fill="#fdf3c4" stroke="#222" stroke-width="3"/>
+<circle r="55" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<g fill="none" stroke="#2f6fb0" stroke-width="3"><path d="M-8,-56 C-95,-78 -95,78 -8,56"/><path d="M8,-56 C95,-78 95,78 8,56"/><path d="M-4,-56 C-55,-64 -55,64 -4,56"/><path d="M4,-56 C55,-64 55,64 4,56"/></g>
+<g opacity="0" fill="none" stroke="#2f6fb0" stroke-width="3"><path d="M-56,8 C-100,10 -100,96 -50,96 H50 C100,96 100,10 56,8"/><path d="M-56,-14 C-140,-14 -140,104 -60,104 H60 C140,104 140,-14 56,-14"/></g>
+<g><path d="M-50,0 A50,50 0 0 1 50,0 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/><path d="M-50,0 A50,50 0 0 0 50,0 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/><path d="M0,30 V-26" stroke="#222" stroke-width="4" marker-end="url(#ak)"/><g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#222" stroke="none" text-anchor="middle"><text x="-26" y="-14">N</text><text x="-26" y="30">S</text></g></g>
+<path d="M-49.5,-49.5 A70,70 0 0 0 -70,0" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)" transform="rotate(-8)"/>
+</g>
+<g transform="translate(600,185) scale(0.85)" stroke-linejoin="round" stroke-linecap="round">
+<rect x="-200" y="80" width="400" height="36" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M-150,-90 H-7 V80 H-150 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/><path d="M7,-90 H150 V80 H7 Z" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="-7" y="-90" width="14" height="170" fill="#fdf3c4" stroke="#222" stroke-width="3"/>
+<circle r="55" fill="#ffffff" stroke="#222" stroke-width="3"/>
+<g opacity="0" fill="none" stroke="#2f6fb0" stroke-width="3"><path d="M-8,-56 C-95,-78 -95,78 -8,56"/><path d="M8,-56 C95,-78 95,78 8,56"/><path d="M-4,-56 C-55,-64 -55,64 -4,56"/><path d="M4,-56 C55,-64 55,64 4,56"/></g>
+<g fill="none" stroke="#2f6fb0" stroke-width="3"><path d="M-56,8 C-100,10 -100,96 -50,96 H50 C100,96 100,10 56,8"/><path d="M-56,-14 C-140,-14 -140,104 -60,104 H60 C140,104 140,-14 56,-14"/></g>
+<g transform="rotate(-90)"><path d="M-50,0 A50,50 0 0 1 50,0 Z" fill="#f5d0d0" stroke="#222" stroke-width="3"/><path d="M-50,0 A50,50 0 0 0 50,0 Z" fill="#d8f0d2" stroke="#222" stroke-width="3"/><path d="M0,30 V-26" stroke="#222" stroke-width="4" marker-end="url(#ak)"/><g font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" fill="#222" stroke="none" text-anchor="middle"><text x="-26" y="-14">N</text><text x="-26" y="30">S</text></g></g>
+<path d="M-49.5,-49.5 A70,70 0 0 0 -70,0" fill="none" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)" transform="rotate(-8)"/>
+<g><path d="M-110,160 V124" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/><path d="M110,160 V124" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/></g>
+</g>
+<line x1="400" y1="30" x2="400" y2="380" stroke="#cccccc" stroke-width="2"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">
+<text x="200" y="44" font-weight="bold" font-size="21">OFF: poles face the brass</text>
+<text x="600" y="44" font-weight="bold" font-size="21">ON: a pole on each iron half</text>
+<text x="200" y="98">brass strip</text>
+<text x="122" y="132">iron</text>
+<text x="200" y="324">steel plate</text>
+<text x="200" y="368">field loops inside the iron</text>
+<text x="600" y="368">field runs through the plate: it grips</text>
+<text x="400" y="420">A quarter turn of the knob switches it · no power used either way</text>
+</g>
+</svg>
