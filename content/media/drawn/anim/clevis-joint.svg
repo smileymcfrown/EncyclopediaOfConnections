@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A clevis joint: a top view shows the flat tongue sitting between the two ears of a U-shaped fork with one pin through all three, cut by the load at two places (double shear), and a side view along the pin shows the tongue free to swing about the pin; the tongue swings up and down about the pin while the fork stays still.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<line x1="400" y1="60" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<rect x="45" y="212" width="50" height="36" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M90,140 L235,140 A20,20 0 0 1 235,180 L130,180 L130,280 L235,280 A20,20 0 0 1 235,320 L90,320 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M300,215 L355,215 L355,245 L300,245" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<path d="M185,186 L300,186 L300,274 L185,274 A20,20 0 0 1 165,254 L165,206 A20,20 0 0 1 185,186 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="198" y="120" width="24" height="216" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="188" y="108" width="44" height="14" rx="4" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<path d="M190,330 L230,330 M230,330 Q246,334 240,344 M190,330 Q178,336 186,346" fill="none" stroke="#222" stroke-width="3"/>
+<line x1="186" y1="183" x2="234" y2="183" stroke="#d1495b" stroke-width="4" stroke-dasharray="6 4"/><line x1="186" y1="277" x2="234" y2="277" stroke="#d1495b" stroke-width="4" stroke-dasharray="6 4"/>
+<line x1="44" y1="230" x2="8" y2="230" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<line x1="357" y1="230" x2="393" y2="230" stroke="#d1495b" stroke-width="5" marker-end="url(#ah)"/>
+<g><animateTransform attributeName="transform" type="rotate" dur="4s" repeatCount="indefinite" keyTimes="0;0.25;0.5;0.75;1" values="0 575 230;-38 575 230;0 575 230;38 575 230;0 575 230" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"/><path d="M575,200 L740,214 L775,214 L775,246 L740,246 L575,260 A30,30 0 0 1 575,200 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/></g>
+<rect x="420" y="212" width="60" height="36" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<path d="M478,188 L575,188 A42,42 0 0 1 575,272 L478,272 Z" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<circle cx="575" cy="230" r="12" fill="#e8e8e8" stroke="#222" stroke-width="3"/><circle cx="575" cy="230" r="3" fill="#222"/>
+<path d="M714,124 A170,170 0 0 1 714,336" fill="none" stroke="#d1495b" stroke-width="5" marker-start="url(#ah)" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#222">
+<g font-weight="bold" text-anchor="middle"><text x="200" y="40">Top view</text><text x="600" y="40">Side view, along the pin</text></g>
+<text x="90" y="124" text-anchor="middle">fork</text>
+<text x="300" y="300" text-anchor="middle">tongue</text>
+<text x="250" y="102">pin</text>
+<text x="250" y="352" font-size="18">split pin</text>
+<text x="200" y="384" text-anchor="middle" font-size="18">red dashes: the two places</text><text x="200" y="406" text-anchor="middle" font-size="18">the pin is sheared</text>
+<text x="430" y="320" font-size="18">fork ear (near side)</text>
+<text x="600" y="384" text-anchor="middle" font-size="18">the tongue swings about the pin</text>
+<text x="400" y="438" text-anchor="middle" font-size="18">Push and pull cross the pin on two faces at once (double shear), so a small pin is strong</text>
+</g>
+</svg>
