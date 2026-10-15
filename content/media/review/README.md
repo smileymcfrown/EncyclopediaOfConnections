@@ -16,9 +16,9 @@ The pictures that were wrong outright (a different item) were all swapped or dra
 press-in insert).
 
 `batch-01.yaml` … `batch-06.yaml` hold every verdict with its reason (`page: {verdict, use, alt,
-reason, unsure}`). The swaps and drawn verdicts were copied into `../choices.yaml`, which is what
-`tools/fetch_images.py` and `tools/make_entries.py` read. To change a page's picture, edit
-`choices.yaml`, not these files.
+reason, unsure}`). The swaps and drawn verdicts were copied into `choices.yaml`, which R32
+replaced with `../pictures.yaml` (several pictures per page). To change a page's pictures, edit
+`pictures.yaml`, not these files.
 
 Totals: 257 keep, 26 swap, 78 drawn.
 

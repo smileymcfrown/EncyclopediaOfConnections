@@ -75,21 +75,29 @@ address.
 | `research` | The JSON file the page was made from |
 | `image` | The picture at the top: `file` (in `media/`), `alt`, and for a copied picture its `title`, `author`, `license`, `license_url` and `source`; `drawn: true` for a drawn diagram |
 
-## Pictures (R29)
+## Pictures (R29, R30, R32)
 
-Each page starts with a picture. Where the research found a Wikimedia Commons file whose licence
-allows copying (public domain, CC0, CC BY or CC BY-SA), `tools/fetch_images.py` checks the licence
-and author on the file's own Commons page. It saves a web-sized copy as `media/<page>.webp` and
-records the credit in `media/media.yaml`, and the page shows that credit under the picture. It runs
-on GitHub's machines (*Fetch pictures* workflow), because Wikimedia limits shared cloud addresses.
-Where there is no such file, the page shows a diagram drawn for the encyclopaedia from its
-`diagram_idea` (`media/drawn/<page>.svg`). Drawn diagrams are marked ⚑ *needs confirming*, as a
-drawing can simplify or get details wrong. The `image` key in the front matter names the picture.
+Each page starts with a few pictures, listed in order in `media/pictures.yaml`:
 
-*Picture review (R30).* Every copied picture was checked for whether it shows what the thing is or
-how it works (`media/review/`). Where it didn't, `media/choices.yaml` names a better Commons file
-(`use: "File:..."`) or the drawn diagram (`use: drawn`); edit that file to change a page's picture.
-Animated GIFs are copied as animated WebP, so they play by themselves.
+1. **The first, big one.** For an entry that moves, an animation of the movement: a Wikimedia
+   Commons animation (copied as animated WebP) or the diagram drawn for the encyclopaedia, animated
+   (`media/drawn/anim/<page>.svg`, SMIL animation in the SVG). For an entry that doesn't move, the
+   clearest picture of what it is.
+2. **Up to two real photos**, best first: a cross-section or cut-away, then one that shows how it
+   works (in use, opened, mid-movement), then a clear photo of the part, product or 3D print.
+
+`tools/fetch_images.py` copies the Commons and Openverse (CC-licensed Flickr and similar) pictures
+after checking each file's licence (public domain, CC0, CC BY or CC BY-SA), saves web-sized WebP
+copies in `media/` and records the credits in `media/media.yaml`; each picture shows its credit.
+It runs on GitHub's machines (*Fetch pictures* workflow), because Wikimedia limits shared cloud
+addresses. Every animation also has a still copy (`<file>.still.webp`, or the still diagram
+`media/drawn/<page>.svg`), which people whose device asks for reduced motion see instead, and
+which the finder cards use. Drawn diagrams are marked ⚑ *needs confirming*, as a drawing can
+simplify or get details wrong. The front matter's `pictures` lists them; `image` is the first.
+
+Finding pictures: `tools/find_pictures.py` (the *Find pictures* workflow) searches Commons and
+Openverse for each entry and leaves the candidates and thumbnails as a download from the
+workflow run. The choices made from them, with reasons, are in `media/review/`.
 
 ## Headings
 

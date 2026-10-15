@@ -1,20 +1,21 @@
-"""Copy one picture per entry from Wikimedia Commons into content/media/ (R29, P7).
+"""Copy each entry's pictures into content/media/ (R29, R32, P7).
 
-For each entry page, the Commons file links the research found (`links` in the front matter) are
-checked in order on Commons itself (its file API), and the first one whose licence allows copying
-is kept: public domain, CC0, CC BY or CC BY-SA (any version). Non-commercial (NC), no-derivatives
-(ND), GFDL-only and unknown licences are skipped. A web-sized copy (at most 800 px wide, as WebP)
-is saved as content/media/<page>.webp, and content/media/media.yaml records the file's title,
-author, licence and Commons page, which each entry page shows as a credit line under the picture.
-
-content/media/choices.yaml (R30) overrides the research's order: `use: "File:..."` tries that
-Commons file first, and `use: drawn` drops the copy so the page shows its drawn diagram. Animated
-GIFs are saved as animated WebP (marked `animated` in media.yaml), so they play on their own.
+content/media/pictures.yaml lists each page's pictures in order (see load_pictures). For each
+Wikimedia Commons file the licence is checked on Commons itself (its file API): public domain,
+CC0, CC BY or CC BY-SA (any version) are copied; non-commercial (NC), no-derivatives (ND),
+GFDL-only and unknown licences are skipped. Openverse pictures (CC-licensed photos from Flickr and
+similar) carry their licence and credit in pictures.yaml. A web-sized copy (at most 800 px wide,
+as WebP) is saved as content/media/<page>.webp (or <page>-<id>.webp for a second or third
+picture), and content/media/media.yaml records each one's title, author, licence and source page,
+which the entry page shows as a credit line under the picture. Animated GIFs are saved as
+animated WebP (marked `animated`), with a still copy (<file>.still.webp) for people who ask for
+reduced motion and for the finder cards. A page not in pictures.yaml gets the first copyable
+Commons file among the research's links.
 
 Run: python3 tools/fetch_images.py [--only page1,page2] [--force]
 Needs Python 3, pyyaml and Pillow (pip install pillow). Entries already in media.yaml are kept
-unless --force. Entries with no usable Commons file are listed at the end: they get a drawn
-diagram instead (content/media/drawn/<page>.svg, see content/README.md).
+unless --force. Pictures no longer listed are removed. Entries with nothing copied and no drawn
+diagram are listed at the end (see content/README.md).
 """
 import hashlib, html, io, json, os, re, sys, time, urllib.error, urllib.parse, urllib.request
 import yaml
