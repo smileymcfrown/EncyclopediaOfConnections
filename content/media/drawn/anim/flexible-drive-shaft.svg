@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cutaway of a flexible drive shaft: a centre wire wrapped in three layers of wire, each wound the opposite way to the one below, turning inside a casing that does not turn; inset: a hanging motor drives a handpiece through the shaft round a U-bend; the core spins the way that tightens the outer layer, so the opposite-handed layers seem to stream in opposite directions, and the motor and handpiece turn together.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<marker id="ak" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#222"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+
+<clipPath id="c0"><rect x="100" y="126" width="400" height="48"/></clipPath>
+<clipPath id="c1"><rect x="220" y="116" width="280" height="68"/></clipPath>
+<clipPath id="c2"><rect x="360" y="106" width="410" height="88"/></clipPath>
+</defs>
+<g stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="140" width="460" height="20" rx="4" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="100" y="126" width="400" height="48" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<g clip-path="url(#c0)"><path d="M52,174 L81,126 M68,174 L97,126 M84,174 L113,126 M100,174 L129,126 M116,174 L145,126 M132,174 L161,126 M148,174 L177,126 M164,174 L193,126 M180,174 L209,126 M196,174 L225,126 M212,174 L241,126 M228,174 L257,126 M244,174 L273,126 M260,174 L289,126 M276,174 L305,126 M292,174 L321,126 M308,174 L337,126 M324,174 L353,126 M340,174 L369,126 M356,174 L385,126 M372,174 L401,126 M388,174 L417,126 M404,174 L433,126 M420,174 L449,126 M436,174 L465,126 M452,174 L481,126 M468,174 L497,126 M484,174 L513,126 M500,174 L529,126 M516,174 L545,126 M532,174 L561,126 M548,174 L577,126" fill="none" stroke="#222" stroke-width="2.5"><animateTransform attributeName="transform" type="translate" dur="2s" repeatCount="indefinite" values="0 0;-32 0"/></path></g>
+<rect x="100" y="126" width="400" height="48" fill="none" stroke="#222" stroke-width="3"/>
+<rect x="220" y="116" width="280" height="68" fill="#d8f0d2" stroke="#222" stroke-width="3"/>
+<g clip-path="url(#c1)"><path d="M172,116 L213,184 M188,116 L229,184 M204,116 L245,184 M220,116 L261,184 M236,116 L277,184 M252,116 L293,184 M268,116 L309,184 M284,116 L325,184 M300,116 L341,184 M316,116 L357,184 M332,116 L373,184 M348,116 L389,184 M364,116 L405,184 M380,116 L421,184 M396,116 L437,184 M412,116 L453,184 M428,116 L469,184 M444,116 L485,184 M460,116 L501,184 M476,116 L517,184 M492,116 L533,184 M508,116 L549,184 M524,116 L565,184 M540,116 L581,184" fill="none" stroke="#222" stroke-width="2.5"><animateTransform attributeName="transform" type="translate" dur="2s" repeatCount="indefinite" values="0 0;32 0"/></path></g>
+<rect x="220" y="116" width="280" height="68" fill="none" stroke="#222" stroke-width="3"/>
+<rect x="360" y="106" width="410" height="88" fill="#cfe3f5" stroke="#222" stroke-width="3"/>
+<g clip-path="url(#c2)"><path d="M312,194 L365,106 M328,194 L381,106 M344,194 L397,106 M360,194 L413,106 M376,194 L429,106 M392,194 L445,106 M408,194 L461,106 M424,194 L477,106 M440,194 L493,106 M456,194 L509,106 M472,194 L525,106 M488,194 L541,106 M504,194 L557,106 M520,194 L573,106 M536,194 L589,106 M552,194 L605,106 M568,194 L621,106 M584,194 L637,106 M600,194 L653,106 M616,194 L669,106 M632,194 L685,106 M648,194 L701,106 M664,194 L717,106 M680,194 L733,106 M696,194 L749,106 M712,194 L765,106 M728,194 L781,106 M744,194 L797,106 M760,194 L813,106 M776,194 L829,106 M792,194 L845,106 M808,194 L861,106" fill="none" stroke="#222" stroke-width="2.5"><animateTransform attributeName="transform" type="translate" dur="2s" repeatCount="indefinite" values="0 0;-32 0"/></path></g>
+<rect x="360" y="106" width="410" height="88" fill="none" stroke="#222" stroke-width="3"/>
+<rect x="500" y="92" width="274" height="11" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<rect x="500" y="197" width="274" height="11" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<path d="M384,98 A24,52 0 0 1 384,202" fill="none" stroke="#d1495b" stroke-width="4" stroke-dasharray="12 6" marker-end="url(#ah)"><animate attributeName="stroke-dashoffset" dur="2s" repeatCount="indefinite" keyTimes="0;1" values="0;-36"/></path>
+<path d="M462,202 A24,52 0 0 0 462,98" fill="none" stroke="#222" stroke-width="2.5" stroke-dasharray="6 6" marker-end="url(#ak)"/>
+<rect x="470" y="246" width="60" height="10" fill="url(#hatch)" stroke="#222" stroke-width="2.5"/>
+<line x1="500" y1="256" x2="500" y2="266" stroke="#222" stroke-width="3"/>
+<rect x="462" y="266" width="76" height="46" rx="8" fill="#e8e8e8" stroke="#222" stroke-width="3"/>
+<rect x="490" y="312" width="20" height="12" fill="#cfe3f5" stroke="#222" stroke-width="2.5"/>
+<path d="M500,324 C500,440 720,440 720,340" fill="none" stroke="#222" stroke-width="18"/>
+<path d="M500,324 C500,440 720,440 720,340" fill="none" stroke="#e8e8e8" stroke-width="12"/>
+<rect x="707" y="268" width="26" height="76" rx="9" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+<rect x="717" y="246" width="6" height="22" fill="#e8e8e8" stroke="#222" stroke-width="2"/>
+<circle cx="720" cy="242" r="7" fill="#e8e8e8" stroke="#222" stroke-width="2.5"/>
+<path d="M476,330 A24,8 0 0 0 524,330" fill="none" stroke="#d1495b" stroke-width="3.5" stroke-dasharray="10 10" marker-end="url(#ah)"><animate attributeName="stroke-dashoffset" dur="2s" repeatCount="indefinite" keyTimes="0;1" values="0;-40"/></path>
+<path d="M700,256 A20,8 0 0 0 740,256" fill="none" stroke="#d1495b" stroke-width="3.5" stroke-dasharray="10 10" marker-end="url(#ah)"><animate attributeName="stroke-dashoffset" dur="2s" repeatCount="indefinite" keyTimes="0;1" values="0;-40"/></path>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222">
+<text x="392" y="60" text-anchor="end">this way: the outer layer tightens (strong)</text><line x1="392" y1="66" x2="392" y2="96" stroke="#222" stroke-width="2"/>
+<text x="476" y="226" font-size="18">other way: it loosens (weaker)</text><line x1="474" y1="220" x2="466" y2="204" stroke="#222" stroke-width="2"/>
+<text x="780" y="60" text-anchor="end">casing (does not turn)</text><line x1="700" y1="66" x2="690" y2="92" stroke="#222" stroke-width="2"/>
+<text x="30" y="250">centre wire</text><line x1="60" y1="234" x2="66" y2="162" stroke="#222" stroke-width="2"/>
+<text x="110" y="300">three wire layers, each wound</text><text x="110" y="324">the opposite way to the one below</text><line x1="150" y1="284" x2="160" y2="176" stroke="#222" stroke-width="2"/><line x1="250" y1="284" x2="280" y2="186" stroke="#222" stroke-width="2"/><line x1="350" y1="284" x2="440" y2="196" stroke="#222" stroke-width="2"/>
+<text x="552" y="290">motor</text>
+<text x="700" y="322" text-anchor="end">handpiece</text>
+<text x="260" y="410" text-anchor="middle" font-size="18">Bends easily round curves,</text><text x="260" y="434" text-anchor="middle" font-size="18">but stays stiff in twist</text>
+</g></svg>
