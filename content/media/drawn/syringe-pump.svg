@@ -36,7 +36,7 @@
 <text x="255" y="352" text-anchor="middle">carriage</text>
 <text x="510" y="86" text-anchor="middle">travel</text>
 <text x="560" y="232" text-anchor="middle">syringe barrel</text>
-<text x="790" y="140" text-anchor="end">liquid out</text>
+<text x="790" y="140" text-anchor="end">liquid out / in</text>
 <text x="232" y="100" font-size="17">pushes or pulls the plunger</text>
 <text x="400" y="394" text-anchor="middle">Liquid moved = travel × barrel area (run backwards, it draws liquid in)</text>
 <text x="400" y="420" text-anchor="middle">Each motor step moves the carriage a tiny, exact distance</text>

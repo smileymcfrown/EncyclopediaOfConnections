@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A whippletree: one pull on the middle pivot of a main bar is split by two smaller bars hung from its ends into four equal pulls on four sliding hooks that close on a bumpy object against a wall. When one hook touches the object first and stops, the bars tip so the other three keep closing until all four touch.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<polygon points="616,82 688,82 704,96 704,126 690,142 664,148 664,346 616,346" fill="#d8f0d2"/>
+<rect x="600" y="70" width="16" height="290" fill="url(#hatch)"/>
+<polyline points="500,110 400,110" fill="none" stroke-width="2.5"></polyline>
+<polyline points="500,180 400,180" fill="none" stroke-width="2.5"></polyline>
+<polyline points="500,250 400,250" fill="none" stroke-width="2.5"></polyline>
+<polyline points="500,320 400,320" fill="none" stroke-width="2.5"></polyline>
+<polyline points="400,145 260,145" fill="none" stroke-width="2.5"></polyline>
+<polyline points="400,285 260,285" fill="none" stroke-width="2.5"></polyline>
+<polyline points="260,215 70,215" fill="none" stroke-width="2.5"></polyline>
+<g><rect x="500" y="105" width="220" height="10" fill="#e8e8e8" stroke-width="2.5"/><rect x="720" y="88" width="12" height="44" rx="3" fill="#cfe3f5"/></g>
+<g><rect x="500" y="175" width="220" height="10" fill="#e8e8e8" stroke-width="2.5"/><rect x="720" y="158" width="12" height="44" rx="3" fill="#cfe3f5"/></g>
+<g><rect x="500" y="245" width="220" height="10" fill="#e8e8e8" stroke-width="2.5"/><rect x="720" y="228" width="12" height="44" rx="3" fill="#cfe3f5"/></g>
+<g><rect x="500" y="315" width="220" height="10" fill="#e8e8e8" stroke-width="2.5"/><rect x="720" y="298" width="12" height="44" rx="3" fill="#cfe3f5"/></g>
+<g><g><rect x="393" y="103" width="14" height="84" rx="7" fill="#fde2c4"/><circle cx="400" cy="110" r="3" fill="#222"/><circle cx="400" cy="180" r="3" fill="#222"/><circle cx="400" cy="145" r="6" fill="#ffffff"/><circle cx="400" cy="145" r="2" fill="#222"/></g></g>
+<g><g><rect x="393" y="243" width="14" height="84" rx="7" fill="#fde2c4"/><circle cx="400" cy="250" r="3" fill="#222"/><circle cx="400" cy="320" r="3" fill="#222"/><circle cx="400" cy="285" r="6" fill="#ffffff"/><circle cx="400" cy="285" r="2" fill="#222"/></g></g>
+<g><g><rect x="253" y="138" width="14" height="154" rx="7" fill="#fde2c4"/><circle cx="260" cy="145" r="3" fill="#222"/><circle cx="260" cy="285" r="3" fill="#222"/><circle cx="260" cy="215" r="6" fill="#ffffff"/><circle cx="260" cy="215" r="2" fill="#222"/></g></g>
+<circle cx="62" cy="215" r="9" fill="#ffffff"></circle>
+<line x1="70" y1="250" x2="20" y2="250" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"></line>
+<g stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><line x1="770" y1="180" x2="770" y2="320" marker-start="url(#ah)" opacity="0.3"></line></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222" font-size="18">
+<text x="20" y="40" font-size="20" font-weight="bold">One pull shared by four hooks</text>
+<text x="20" y="282">pull</text>
+<text x="400" y="88" text-anchor="middle">bars tip</text>
+<text x="230" y="320" text-anchor="middle">pivot</text>
+<text x="640" y="52" text-anchor="middle">touches first, stops</text>
+<text x="640" y="382" text-anchor="middle">the others keep closing</text>
+<text x="640" y="402" text-anchor="middle">until all four touch</text>
+<text x="640" y="230" text-anchor="middle" font-size="16"> </text>
+<text x="400" y="438" text-anchor="middle">Each bar tips until the pulls at its two ends are equal, so every hook pulls the same</text>
+</g>
+</svg>
