@@ -1880,6 +1880,226 @@ items:
     description: A tool vibrating at 15 to 40 kHz presses two plastic parts together and the vibration melts a small ridge between them in a moment, sealing them shut with no screws or glue, as in sealed chargers, toys and blister packs
     notes: "Also covers energy directors and shear joints, ultrasonic welding of prints, and laser, infrared, hot-plate and RF welding as mentions. Safety: keep hands away from the horn; noise"
 
+  # ==================== PHASE 5 (2026-10-22, R36, R37): materials and one-to-many ====================
+  # Added from the gap search in scope-search-2026-10-22-combined.md, in the owner's order: paper and card,
+  # paper pop-ups (new family), foam, clay and polymer clay, carbon fibre and composites, glass and mirror,
+  # then one-to-many and many-to-one drives.
+  # 410
+  - name: Score-and-fold hinge (scored crease, creasing, card hinge)
+    category: compliant mechanisms & flexures
+    description: A line pressed or lightly cut into paper or card so that it folds cleanly and accurately there, the fold itself then acting as the hinge, as in greeting cards, book covers, card boxes and papercraft models
+    notes: "Also covers scoring tools (bone folder, empty ballpoint pen, scoring board, rolling creaser), finding and folding with the paper grain, folding corrugated card across or along the flutes, half-cut (kiss-cut) scores for thick board, the cardboard rebate corner (peel away one liner and the flutes), mountain and valley folds, and folded ribs that stiffen cardboard. Fold patterns are Origami mechanisms, pop-up folds have their own entries. Safety: craft-knife cuts when half-cutting; cut away from the hand holding the ruler. Also list hinges & pivots and interlocking joints & joinery in other_families"
+  # 411
+  - name: Glued tab joint (glue tab, glue flap, construction tab; edge gluing with a backing strip)
+    category: adhesives & bonding
+    description: A narrow flap left on the edge of a paper or card part is folded and glued under or behind the next part, the standard way to join papercraft models, card boxes and cardboard tubes
+    notes: "Also covers tab width and angled tab ends, gluing the face rather than the tab, tabless edge gluing with a hidden backing strip, flange tabs for joining cardboard tubes and round parts, which glues suit tabs (glue stick, PVA, tacky glue, double-sided tape), and unfolding software that adds tabs automatically. A tab is a small lap joint, so see Glued joint design. Safety: craft knife and solvent glues. Also list interlocking joints & joinery in other_families"
+  # 412
+  - name: Adhesive tape joint and tape hinge (pressure-sensitive tape; masking, packing, gummed paper and double-sided tissue tape)
+    category: adhesives & bonding
+    description: A strip of sticky tape across or between two parts holds them together at once with no drying time, and a strip across a gap makes a quick bendy hinge, as on parcels, cardboard models and book repairs
+    notes: "Also covers choosing a tape (masking and drafting tape for temporary holds, transparent office tape, box-sealing and filament tape, water-activated gummed paper tape that soaks into cardboard, double-sided tissue tape and adhesive transfer tape for hidden joints, duct and gaffer tape), tape hinges on one side, both sides or woven (incl. the hinges on the moving flaps of foam model planes: clear packing tape, fibre-reinforced tape, soft medical tape of the Blenderm type and gapless hinge tape), quick taped seams on foam-board and cardboard prototypes, and why tape creeps, dries out and lets go with heat, sun and age. Thick foam tape is Double-sided foam tape and copper tape is Conductive tape. Safety: none special beyond residue on surfaces. Also list hinges & pivots in other_families"
+  # 413
+  - name: Split-pin paper fastener (brass fastener, paper brad, butterfly clip)
+    category: hinges & pivots
+    description: A small brass pin with a round head and two flat legs is pushed through holes in paper or card and the legs are spread flat behind, holding the layers together while letting them turn, as in moving pictures, card puppets, toy clocks and card linkages
+    notes: "Also covers loose and fixed pivots in card linkages, making the hole first with a pencil point or awl, card spacers, scrapbook brads and screenplay binding, and 3D-printed click-together versions. Not the small nail also called a brad (see Nails, brads and tacks). Safety: sharp leg tips; make the hole first instead of forcing the pin, and keep small parts away from young children. Also list everyday fasteners & fixings and motion conversion in other_families"
+  # 414
+  - name: Cardboard screws and rivets (cardboard construction screw, box rivet, zip-tie rivet)
+    category: everyday fasteners & fixings
+    description: Reusable plastic screws or click-together plastic rivets made for corrugated cardboard, which join box panels without tape or glue and can make swinging joints, as in cardboard forts, playhouses, costumes and classroom builds
+    notes: "Also covers punching the hole, how many layers each length grips, making hinges and pivots with a smooth-shank rivet, zip-tie rivets, brass paper fasteners and nuts and bolts as alternatives, 3D-printed compatible screws, hinges and brackets, and safe cutting tools for children. Brand names (Makedo, Mr. McGroovy's) as search terms only. Safety: punching holes towards the hand; small parts are a choking risk for under-3s. Also list snap & clip fits and hinges & pivots in other_families"
+  # 415
+  - name: Glue stick and starch paste (paper glue stick, wheat-starch paste, methyl cellulose, wallpaper paste)
+    category: adhesives & bonding
+    description: Mild water-based glues for paper and card, either a solid stick rubbed on like a lipstick or a cooked flour or starch paste brushed on, which grip the paper fibres and can often be loosened again with water
+    notes: "Also covers permanent, washable and colour-change glue sticks, why wet glue makes paper cockle and how to press it flat, wheat-starch paste and methyl cellulose in bookbinding and paper repair (reversible), papier-mâché strips to strengthen cardboard joints, and wallpaper paste. Rubber cement is mentioned under Contact adhesive. Safety: none special; cooked paste goes mouldy, so make it fresh"
+  # 416
+  - name: Folding box closures (tuck flap, slit lock, snap-lock 1-2-3 bottom, crash-lock bottom)
+    category: interlocking joints & joinery
+    description: The folded flaps that close a card or cardboard box without tape, where a tuck flap slides inside and is held by friction or a small slit, and lock bottoms interleave their flaps or use pre-glued flaps so the base snaps square as the box opens, as in cereal boxes, card-deck boxes and mailer boxes
+    notes: "Also covers straight and reverse tuck ends, dust flaps, friction tuck versus slit lock, tuck-top mailer boxes with locking ears, the glued side seam (manufacturer's joint), box-style codes (FEFCO, ECMA) as search terms, and making boxes from templates or a cutting plotter. Barbed lock tabs are in Snap-lock sheet joint. Safety: none special. Also list snap & clip fits and locks, latches & catches in other_families"
+  # 417
+  - name: Sewn book bindings (pamphlet stitch, Coptic stitch, kettle stitch, Japanese stab binding)
+    category: knots, lashings & sewn joints
+    description: Thread sewn through holes along the fold or the edge of a stack of paper holds the pages together as a book, from a three-hole pamphlet stitch for a zine to linked stitches for a sketchbook that opens flat, or a stab binding sewn through the side
+    notes: "Also covers sewing through the fold versus through the side, odd numbers of holes and hole spacing, waxed linen thread and how much to cut, piercing jigs and awls, grain direction so pages turn easily, saddle stapling as the quick alternative, and glued (perfect) binding as a mention. Screw-post binding is Chicago screw. Safety: awls and needles. Also list hinges & pivots in other_families"
+  # 418
+  - name: Loose-leaf bindings (ring binder, spiral coil, comb and wire binding, disc binding)
+    category: hinges & pivots
+    description: Rings, wire or plastic coils, plastic combs or discs pass through a row of punched holes so the sheets turn like a hinge and, for most types, can be added or removed, as in ring binders, spiral notebooks and disc-bound planners
+    notes: "Also covers hole patterns and punches, lever-arch files, binder rings, how discs grip mushroom-shaped holes, which types let a book open flat or fold back on itself, and 3D-printed rings and discs. Screw posts are Chicago screw. Safety: punch and wire-closing tools pinch. Also list quick-release & tool-free and snap & clip fits in other_families"
+  # 419
+  - name: Parallel-fold pop-up (box fold, step fold, floating layer, parallelogram pop-up)
+    category: pop-up & movable paper mechanisms
+    description: Two cuts across the centre fold of a card, or a strip glued across it, make a step, box or stage that stands up as the card opens and folds flat as it shuts; its sides stay parallel to the fold, like a paper parallelogram linkage
+    notes: "Also covers single-sheet cut-and-fold layer pop-ups and 90-degree kirigami ('origamic architecture') cards, glued-on boxes, tents and arches, multiple layers, floating layers (a flat plane on three parallel supports, straight or diagonal), slot-and-joint arms on a parallelogram, lattice pop-ups (needs confirming), and as mentions the concertina structures of tunnel (peepshow) and carousel books, whose accordion-folded side strips hold cut-out layers apart. Explains the balance rule (the piece's length plus its distance from the fold must match on both sides, or the card won't close) and 90-degree versus 180-degree pop-ups. Safety: craft knives; let glue set before opening. Also list motion conversion and compliant mechanisms & flexures in other_families"
+  # 420
+  - name: V-fold pop-up (angle fold, mouth fold)
+    category: pop-up & movable paper mechanisms
+    description: A piece cut or glued across the centre fold at an angle, so that its folds meet at one point on the spine; opening the card swings it up and forward, as in pop-up mouths, wings, trees and the classic pop-up monster card
+    notes: "Also covers the single-sheet mouth (beak) pop-up, symmetric and lopsided (asymmetric) V-folds, V-folds stacked on V-folds, the 45-degree fold, and why a narrow V stands taller. Explains the rule that all creases meet at one point on the spine and the angles must balance left and right, or the card won't close flat. Safety: craft knives. Also list motion conversion and compliant mechanisms & flexures in other_families"
+  # 421
+  - name: Pull-tab and slider mechanism (pull-strip, sliding motion, moving arm, transformation)
+    category: pop-up & movable paper mechanisms
+    description: A paper strip or tab, pulled by hand or by the page as it opens, slides in a slot or a glued channel to move a picture across the page, swing an arm on a pivot, lift a flap or change one scene into another
+    notes: "Also covers the slot slider with folded tabs, guide strips that make a channel, lever arms on paper rivets, the automatic pull-strip that works when the page opens, flaps raised or flipped by a pull-strip, transformations (Venetian-blind slats that slide over each other), the pull-down and the spider-web spiral lifted by a ribbon. Tips for smooth sliding: spacer frames, vellum or foam tape. Safety: craft knives; strips tear at glued ends if the glue has not set. Also list motion conversion and sliding, telescoping & linear motion in other_families"
+  # 422
+  - name: Volvelle (paper wheel, wheel chart, rotating disc)
+    category: pop-up & movable paper mechanisms
+    description: Paper discs stacked on one centre pivot so that turning one lines up windows, pointers and pictures on another, as in wheel charts, code and calculator wheels, old astronomy books and pop-up books
+    notes: "Also covers pivots made of string, a split-pin paper fastener, a paper rivet (split tabs through a hole), or a grommet or eyelet; wheels hidden between two pages and seen through die-cut windows; dials turned from the page edge; and the dissolving wheel (metamorphosis), where two slotted discs slide over and under each other to change a picture. Safety: sharp split-pin legs and small parts for young children (needs confirming). Also list hinges & pivots and indexing & detents in other_families"
+  # 423
+  - name: Spring-powered paper pop-up (rubber-band snap-up cube, paper spring, jumping card)
+    category: pop-up & movable paper mechanisms
+    description: A folded card box held flat with a stretched rubber band inside, or a springy folded paper strip, that jumps into shape when it is let go or slid out of a card or envelope
+    notes: "Also covers sizing the band (its flat length a little longer than one side of the cube), tab locks that hold the cube flat until dropped, the folded two-strip paper spring that bounces a figure out of a box, and pop-up cubes in cards. Safety: a strong band can flick the cube or the band at faces (needs confirming); rubber bands perish over time. Also list springs & energy storage in other_families"
+  # 424
+  - name: V-groove fold (mitre fold, fold-up corner, bevelled fold in foam board and EVA foam)
+    category: interlocking joints & joinery
+    description: A V-shaped strip is cut out of the back of a sheet almost all the way through, so the thin face layer left behind bends like a hinge and the two cut faces close into a neat glued corner, as in foam-board model planes, EVA foam armour ridges, plywood trays and folded aluminium-composite signs
+    notes: "Also covers the square-groove ('overlap') fold in foam board, where a strip of foam one board-thickness wide is removed and the paper skin wraps the corner; Flite Test A- and B-style folds; routed-and-folded composite panels; and mitre folds in wood and veneer held with packing tape on the face while the glue sets. Partial-depth valley cuts for curves belong to kerf bending. Safety: sharp knives and router bits; use contact cement only with good ventilation. Also list compliant mechanisms & flexures and adhesives & bonding in other_families"
+  # 425
+  - name: Pinned glue joint (pinning; wire, rod, toothpick or skewer pins)
+    category: adhesives & bonding
+    description: A short pin glued or pushed into matching holes in both parts, so a small glued joint (an arm on a miniature, a broken figure, a resin print, a polymer clay head, foam or foam-board parts) has a hidden pin across it and does not slide or snap off when handled
+    notes: "Also covers brass rod, paper-clip and garden-wire pins; toothpick and bamboo-skewer pins in foam and foam board; toothpick and wire pins pushed into raw clay before baking; temporary pins (dressmaker's pins, T-pins) holding foam-board parts while glue sets; marking the second hole with a dab of paint or Blu Tack; oversize holes filled with epoxy or epoxy putty; two pins to stop a part spinning; pinning miniatures to their bases; spreading the load in foam with tape, card or a thin plywood washer. Wooden dowels in furniture are Dowel and biscuit joints. Safety: drill with a pin vice (hand drill), not by holding the part under a power drill; clip wire with eye protection; cut skewer ends flush. Also list interlocking joints & joinery, locating & alignment and everyday fasteners & fixings in other_families"
+  # 426
+  - name: Slot-in model hinge (CA hinge, flat hinge, pinned hinge point)
+    category: hinges & pivots
+    description: Small hinges pushed into slots or drilled holes along the edges of a model's wing and its moving flap and glued in, leaving a hidden pivot with no screws, as on the control surfaces of radio-controlled planes made of foam or balsa
+    notes: "Also covers fibrous flat 'CA hinges' wicked with thin superglue, moulded pinned hinges, round hinge points set in slow epoxy, and pegging a hinge with a toothpick. Use foam-safe glue on EPS and EPO foam, glue one side at a time, and keep glue out of the pivot (a smear of petroleum jelly on the pin). Safety: a hinge that pulls out in flight loses control of the model, so test each one by tugging. Also list adhesives & bonding in other_families"
+  # 427
+  - name: Jigsaw puzzle-edge joint (puzzle joint, interlocking tile edge)
+    category: interlocking joints & joinery
+    description: Edges cut like jigsaw-puzzle pieces, so the shapes on one panel press into matching sockets on the next and lock them side by side with no glue, as on EVA foam floor and play mats
+    notes: "Also covers hidden snap-together tile edges and removable border strips. It resists pulling apart sideways but not lifting, so tiles separate on uneven floors or with heat and humidity changes. Overlaps the puzzle joints of split 3D prints (item 62). Also list snap & clip fits in other_families"
+  # 428
+  - name: Liquid-clay bond (bakeable clay glue, bake-in-stages join)
+    category: adhesives & bonding
+    description: A thin coat of liquid polymer clay brushed between two pieces of polymer clay, raw or already baked, which fuses them into one when the piece is baked again; used to add small details and to build a sculpture in several bakes
+    notes: "Also covers raw-to-raw, raw-to-baked and baked-to-baked joins, a raw-clay bridge between baked parts, thick bakeable pastes, and gel superglue for baked parts that cannot be baked again. Brand of clay changes the result. Safety: bake at the packet temperature with ventilation; burnt polymer clay gives off hydrogen chloride; do not use for food items. Also list welding, brazing & soldering in other_families"
+  # 429
+  - name: Score-and-slip join (scratch and slip, luting)
+    category: adhesives & bonding
+    description: Scratching criss-cross lines into both clay surfaces and brushing on slip (the same clay thinned with water to a thick cream), then pressing and blending the seam, so two pieces of soft or leather-hard pottery clay or air-dry clay grow into one; how handles, spouts and modelled details are attached
+    notes: "Also covers vinegar or 'magic water' (sodium silicate) instead of slip, reinforcing the seam with a thin coil, matching the dryness of both parts, and PVA glue for already-dry air-dry clay. Safety: dry slowly and evenly, or the join cracks; vinegar dissolves slip-cast pieces; clay dust from sanding dry clay should not be breathed. Firing ceramics is out of scope (parked)."
+  # 430
+  - name: "Baked-in findings (embedded hardware in clay: eye pins, screw eyes, earring posts, bails)"
+    category: everyday fasteners & fixings
+    description: Metal loops, pins, posts or bails set into soft polymer clay (with a bent end, a dip of liquid clay, or a second layer of clay pressed over a flat pad) so the baked clay holds them by shape rather than glue; how charms, pendants, earrings and clay buttons get their fittings
+    notes: "Also covers screw eyes twisted into a pilot hole in baked clay and locked with a drop of glue, hooked wire set into a drilled hole and filled with clay paste, gems pressed in raw then glued back into their seat, and magnets (glue them on after baking, or use high-temperature grades). Safety: standard neodymium magnets lose strength above about 80 °C and polymer clay cures at about 130 °C; don't bake resin or superglue; air bubbles round hardware can crack the piece. Also list print-in-place & 3D-printing joints and cord, strap, webbing & textile hardware in other_families"
+  # 431
+  - name: Elastic-strung ball joint (ball-jointed doll stringing, strung doll joint)
+    category: hinges & pivots
+    description: Hollow body parts with ball-and-socket ends threaded on a stretched elastic cord inside them, so the cord pulls every joint closed and friction holds the pose; used in ball-jointed dolls, printed and clay art dolls and posable figures
+    notes: "Also covers S-hooks at hands, feet and head, two-loop stringing (arms across the chest, an upside-down V from the neck to the feet), cord sizes by doll size, double joints, and swap-in hands held by a hook. Safety: an unhooked loop can snap back hard, so clamp it first; stringing too tight cracks thin wrists and ankles; elastic ages and needs replacing. Also list springs & energy storage and tensioning, reels & take-up in other_families"
+  # 432
+  - name: Wire and foil armature (sculpture armature, foil core)
+    category: everyday fasteners & fixings
+    description: A bendable wire skeleton, fixed into a base and bulked out with crumpled foil, that clay is pressed over, so thin limbs, heads and tails stay attached and a figure can stand; used for polymer clay, air-dry clay and epoxy putty figures
+    notes: "Also covers twisted double wire, epoxy-putty-reinforced armatures, toothpick neck pins, wooden or metal bases, and foil, polystyrene or paper bulking. Safety: wood and stone hold moisture and should be pre-dried before baking; trapped air between foil and clay cracks or puffs in the oven; a PLA print is not a bakeable armature (it softens far below polymer clay temperatures); metal armatures must be removed from clay that will be kiln-fired. Also list locating & alignment in other_families"
+  # 433
+  - name: Bonded tube joint (lugged, sleeved or fibre-wrapped tube joint; carbon tube connector, bonded end fitting)
+    category: adhesives & bonding
+    description: Tube ends are glued into or over a socket, sleeve or lug, or wrapped with resin-soaked fibre, so tubes join without drilling holes, as in carbon bike frames, drone booms, camera rigs and bamboo bikes
+    notes: "Also covers bond gap and bond length, sanding and cleaning, internal joiners (ferrule tubing), bonded threaded end plugs and quick-release end fittings, printed and metal lugs, tube-to-tube wrapped joints and hemp-wrapped bamboo joints. Safety: carbon touching bare aluminium corrodes it (isolate with anodising, glue or a glass layer); carbon dust; epoxy skin allergy; never ride a home-made frame without testing. Also list interlocking joints & joinery and print-in-place & 3D-printing joints in other_families"
+  # 434
+  - name: Fillet-and-tape joint (stitch-and-glue seam, glass-tape tabbing, tack-and-tape)
+    category: adhesives & bonding
+    description: Two panels are held edge to edge, often with wire stitches or cable ties, then a cove of thickened epoxy is run into the corner and resin-wet glass tape is laid over it, joining plywood boats, kayaks, bulkheads and fibreglass parts without frames or screws
+    notes: "Also covers stitching with copper wire or cable ties, tack fillets, fillet tools and fillers, taping both sides, tabbing bulkheads and stringers into fibreglass hulls, foam fillets against hard spots, taped butt joints in plywood, and wrapping printed or foam parts into a composite shell. Safety: epoxy skin allergy, sanding dust from glass and cured epoxy, heat from large batches. Also list interlocking joints & joinery in other_families"
+  # 435
+  - name: Potted insert (sandwich-panel insert, hard point, overdrill-fill-redrill)
+    category: everyday fasteners & fixings
+    description: The hole in a honeycomb, foam or balsa-cored panel is opened up, the soft core round it is dug out and filled with epoxy round a threaded insert or bolt, so a screw can grip and the core isn't crushed or soaked, as on boat decks, solar-car floors and RC panels
+    notes: "Also covers factory flanged inserts, through-thickness and blind potting, the boat 'overdrill, fill and redrill' method, solid hard points laid in during building, and sizing the bracket foot at least as wide as the potting. Safety: water in a cored deck rots balsa; epoxy skin allergy; fast epoxy can overheat in a large fill. Also list adhesives & bonding and seals & pass-throughs in other_families"
+  # 436
+  - name: Bonding fastener (glue-on stud, bonded-base stud or nut, perforated-base fastener)
+    category: everyday fasteners & fixings
+    description: A stud, nut or threaded collar on a wide perforated base plate that is glued onto a surface or laminated into it, giving a thread to bolt onto without a hole through the part, as on fibreglass boats, carbon panels and camper walls
+    notes: "Also covers surface bonding versus embedding in the lay-up, bonding to the back face so the stud passes through, home-made versions (threaded rod in a glued block of G10), choice of adhesive (epoxy, methacrylate) and holding it still while it cures. Safety: only as strong as the surface it is glued to; don't hang people or overhead loads on it without the maker's ratings. Also list adhesives & bonding in other_families"
+  # 437
+  - name: "Push-fit rod and spar fittings (kite fittings: tee and cross connectors, ferrules, nocks, end caps)"
+    category: quick-release & tool-free
+    description: Small moulded, metal or printed sockets that solid carbon or fibreglass rods push into and are held by friction, to join rods at an angle, join two lengths end to end, or finish a rod with a slot for a line, as on kites, model frames and light stands
+    notes: "Also covers Eddy and dihedral connectors, vinyl-tube connectors, brass and aluminium ferrules (with a centre stop), arrow nocks and split caps, sleeving a thin rod up to fit a bigger fitting, and printed connectors. Safety: carbon splinters from broken rods; carbon rods conduct electricity, so keep kites away from power lines. Also list clamping, magnetic & friction connections and cord, strap, webbing & textile hardware in other_families"
+  # 438
+  - name: Compression limiter (crush tube, bolt sleeve, compression sleeve)
+    category: everyday fasteners & fixings
+    description: A short metal tube fitted in a bolt hole through plastic, a print, a composite plate or a cored panel, so the bolt clamps on the tube instead of the soft material and the joint stays tight instead of crushing or creeping loose
+    notes: "Also covers sizing the tube a little shorter than the part, split-seam, moulded-in and pressed-in types, home-made tube or brass-tube versions in prints, epoxy rings in cored panels and wide washers. Safety: a crushed or crept joint loosens without warning, so check bolts on anything that carries people. Also list adjusters, levellers & spacers and print-in-place & 3D-printing joints in other_families"
+  # 439
+  - name: Panel standoff (sign standoff, glass standoff, stand-off mount, edge-grip standoff)
+    category: everyday fasteners & fixings
+    description: A metal barrel screwed to the wall, with a cap screwed into its front that clamps a drilled sheet of acrylic, glass or metal, so the sheet floats a set distance off the wall, as on lobby signs, glass name plates and laser-cut acrylic signs
+    notes: "Also covers barrel length and cap size, through-grip and edge-grip standoffs, female-female standoffs, mirror screws with domed caps, clear vinyl washers against glass, and printed standoffs. Hole size comes from the maker's table; keep holes at least 1 in (25 mm) from the edge. Safety: toughened (tempered) glass can't be drilled after toughening, so its holes are made before; never let metal touch glass directly; heavy panels need fixings into studs or proper wall anchors. Also list adjusters, levellers & spacers in other_families"
+  # 440
+  - name: Glass and mirror edge clips and clamps (mirror clips, glass clamp, glass shelf bracket, glass bed clip)
+    category: clamping, magnetic & friction connections
+    description: Small brackets that hold a sheet of glass, mirror or acrylic by its edge without drilling it, either with a lip the sheet sits behind (mirror clips) or with a screw clamp lined with rubber pads (glass shelf brackets, shower-panel clamps, 3D-printer glass bed clips)
+    notes: "Also covers fixed and sliding (spring) mirror clips, J-channel for gym mirrors, glass-to-wall and glass-to-glass clamps, display-cube connectors, printed bed clips and binder clips on glass beds. Two fixed clips below, sliding clips above, about 50 mm in from the corners. Match the clip to the sheet thickness. Safety: keep a gasket between metal and glass, tighten evenly and not too hard, and fix heavy mirrors into studs or with toggle anchors (plastic plugs only up to about 20 lb). Also list everyday fasteners & fixings in other_families"
+  # 441
+  - name: Copper-foil joint (Tiffany method, foiled and soldered glass)
+    category: welding, brazing & soldering
+    description: Each piece of glass has its edge wrapped in sticky copper tape that is pressed flat, and the pieces are joined by running a bead of solder along the copper seams, as in Tiffany lamps, suncatchers and small glass boxes
+    notes: "Also covers foiling and burnishing, tinning then beading, adding hanging loops and jump rings to glass pendants, 3D shapes held in printed angle jigs, and printed foilers. Safety: lead in 60/40 and 50/50 solder (wash hands, no food in the workspace, keep children away; lead-free solder exists); flux fumes; cut glass edges; wash the piece after soldering. Also list adhesives & bonding in other_families"
+  # 442
+  - name: Glazing in a rebated frame (glazier's points, glazing putty, glazing bead, picture-frame turn buttons)
+    category: everyday fasteners & fixings
+    description: A pane of glass, mirror or acrylic sits in a stepped recess (rebate) in a frame and is held by small metal points pushed into the wood, a bead of putty, a pinned strip of wood (glazing bead) or turn buttons that swivel over the backing, as in picture frames and old wooden windows
+    notes: "Also covers push-in and diamond points, flexible framing points and point drivers, bedding and face putty (linseed oil and synthetic), glazing beads and tape, and printed turn buttons and clips for printed frames. Safety: old window putty and paint may contain lead (don't dry-sand); cut glass edges; old glass may be brittle. Also list seals & pass-throughs and interlocking joints & joinery in other_families"
+  # 443
+  - name: Glass door hinge (clamp-on glass hinge, drilled glass-door cup hinge, pivot hinge for glass doors)
+    category: hinges & pivots
+    description: A hinge made for a glass or acrylic door that can't take wood screws. It either clamps onto the glass edge with a screw and anti-slip pads, fits a cup through a 26 mm hole drilled in the glass, or lets the door turn on pins at its top and bottom corners, as on display cabinets and 3D-printer enclosures
+    notes: "Also covers inset and overlay glass hinges, cover caps, pivot hinge and magnetic catch kits, and printed hinges for acrylic enclosure doors. Check the glass thickness range (often 4-6 mm) and weight per pair. Safety: holes in glass must be drilled by a glass shop, and before toughening for toughened glass; plastic must sit between glass and metal. Also list clamping, magnetic & friction connections in other_families"
+  # 444
+  - name: Wire-bail closure (flip-top, swing-top bottle, lightning stopper, clamp-lid jar)
+    category: over-centre, toggle & cam clamps
+    description: A wire loop and lever fixed to a bottle or jar swing a lid or stopper with a rubber seal down and lock it shut by snapping past centre, so it can be opened and resealed by hand, as on swing-top beer bottles and clip-top preserving jars
+    notes: "Also covers the older Kilner bail jar, porcelain and plastic stoppers, replacement rubber seals and printed TPU seals, and retaining clips. Safety: fermenting or fizzy drinks build pressure, so use bottles made for it and don't over-carbonate; chipped glass rims don't seal. Also list seals & pass-throughs in other_families"
+  # 445
+  - name: Lead came joint (leaded glass, came glasswork, zinc and brass came)
+    category: welding, brazing & soldering
+    description: Pieces of glass are slotted into H-shaped strips of soft lead (came), the strips are soldered only where they meet, and a putty-like cement is brushed under the strips to stiffen and waterproof the panel, as in leaded windows and cabinet doors
+    notes: "Also covers H and U came, flat and round profiles, stretching lead came, zinc borders, brass-capped and reinforced came, steel reinforcing bars, cementing, and allowing for the came's heart when cutting glass. Safety: lead dust and fumes (wash hands and face, change clothes, no eating in the workspace, keep children away), acid fluxes, cut glass. Also list interlocking joints & joinery in other_families"
+  # 446
+  - name: Glass fusing (kiln fusing, tack fusing, full fusing)
+    category: welding, brazing & soldering
+    description: Pieces of compatible glass are stacked and heated in a kiln to about 690-820 C until they stick together (tack fuse) or melt into one smooth piece (full fuse), then cooled slowly so they don't crack, as in fused glass pendants, coasters and dishes
+    notes: "Also covers glass compatibility (COE is not enough on its own), checking stress with two polarising filters, annealing and firing schedules, slumping as a second firing, fusing in wire loops and inclusions, and microwave kilns for small pieces. Lampworking and glassblowing are making processes, so they are left out. Safety: kiln heat and burns, glass that is not compatible can crack weeks later, and glass dust from grinding. Also list adhesives & bonding in other_families"
+  # 447
+  - name: Shelf pins and shelf supports (shelf pegs, spoon pins, glass shelf supports)
+    category: everyday fasteners & fixings
+    description: Small pegs pushed into a row of holes inside a cupboard or bookcase so a loose shelf rests on them and can be moved up or down; glass shelves use versions with a rubber pad or ring so the glass cannot slip
+    notes: "Also covers shelf-pin hole jigs and the 32 mm system, plain, spoon and sleeved pins, locking pins that stop a shelf tipping, glass-shelf supports with rubber rings, keyhole and hidden (floating-shelf) supports as mentions, and printed shelf pins for wood, glass and printed shelves. Safety: glass shelves need supports made for glass and a load limit. Also list adjusters, levellers & spacers in other_families"
+  # 448
+  - name: Linked lead screws (synchronised Z axis, Z sync belt, screw jack system)
+    category: motion conversion
+    description: Two or more lead screws turned together by one motor through a closed toothed belt, a chain, or shafts and right-angle gearboxes, so a 3D-printer bed, CNC gantry or lifting platform rises level at every corner
+    notes: "Also covers belt- and chain-linked screws on 3D printers and CNC machines, screw-jack lifting systems linked by shafts and T-shaped bevel gearboxes, where to feed the drive in (the middle of a long shaft line is better than one end), belt tensioners, setting all screws level before tightening the pulleys, and the alternative of one motor per screw (see Several motors driving one load). Safety: a skipped tooth or slipped pulley leaves the axis out of level and can jam it; lifting platforms need self-locking screws or a brake. Also list gear trains, gearboxes & transmissions and sliding, telescoping & linear motion in other_families"
+  # 449
+  - name: Line shaft and power take-off (lineshaft, jackshaft, countershaft, PTO)
+    category: gear trains, gearboxes & transmissions
+    description: One long driven shaft with several pulleys, sprockets or gears along it that each take power off to a different machine or part, as in old workshops, lapidary benches, toy steam-engine workshops and tractor power take-offs
+    notes: "Also covers fast and loose pulleys for stopping one machine, stepped pulleys for speed, a clutch on each take-off, twisting a belt to make one output turn the other way, the jackshaft as a middle shaft that changes the ratio (go-karts, minibikes), and the splined PTO shaft. Safety: spinning shafts, belts, set screws and PTO shafts catch hair and loose clothing and cause deaths and amputations; guard every exposed part. Also list clutches & couplings in other_families"
+  # 450
+  - name: Bevel splitter and counter-rotating drive (T-gearbox, three-way bevel gearbox, contra-rotating coaxial shafts)
+    category: gear trains, gearboxes & transmissions
+    description: One bevel gear driving two facing bevel gears, so a single input turns two outputs on one line in opposite directions; with one output shaft running inside the other it spins two propellers, rotors or discs against each other on the same axis
+    notes: "Also covers T-type bevel gearboxes with one input and two outputs (a through shaft turns both ends together), reversing an output by flipping the gearbox or by sliding a dog clutch onto the other bevel, planetary contra-rotating hubs, kinetic sculptures with counter-rotating discs, and two-motor coaxial RC helicopters as the electric alternative. Safety: two sets of blades or propellers turning against each other; guard them. Also list motion conversion in other_families"
+  # 451
+  - name: Several motors driving one load (dual-motor drive, ganged motors, dual-motor gantry)
+    category: gear trains, gearboxes & transmissions
+    description: Two or more motors geared to the same gear, shaft or axis so they add their power, share the load or hold each other against play, as in two-motor robot drive gearboxes, CNC gantries driven at both ends and 3D printers with two Z motors
+    notes: "Also covers gearing motors so their speed-torque curves match and they share the load, two steppers on one driver versus one driver each, auto-squaring a gantry with two endstops, electrical preload (two pinions on one rack pulling against each other to remove backlash), and one-way clutches that let either a motor or a hand crank drive. Safety: motors fighting each other or out of step can twist a frame, snap a shaft or tear a machine apart; turn the power off before swapping a motor's plug. Also list powered & active connectors in other_families"
+  # 452
+  - name: Cable splitter (cable doubler, one-into-two cable junction, dual-control brake splitter)
+    category: gear trains, gearboxes & transmissions
+    description: A small block or lever plate that joins one control cable to two, or two to one, so one lever works two brakes, one throttle opens two carburettors, or either of two levers works the same brake
+    notes: "Also covers motorcycle throttle and oil-pump junction boxes, tandem and trike brake splitters, home-made two-cable brake-lever plates, two-lever dual-control splitters, and setting each cable's slack with barrel adjusters. A splitter moves every cable the same distance but does not even out their pull (compare Whippletree). Safety: if the lever, splitter or shared cable fails, every brake on it fails; some trike race rules require two separate brake systems; a binding junction can hold a throttle open. Also list motion conversion in other_families"
+
 execution:
   batch_size: 6
   items_per_agent: 3
@@ -1903,6 +2123,9 @@ execution:
 #   "knots, lashings & sewn joints", "adjusters, levellers & spacers" and "welding, brazing &
 #   soldering", added last so existing report pages keep their numbers. The cord family's label
 #   changed (its key did not) now that knots and sewing have their own family.
+# - NEW (2026-10-22, R37): "pop-up & movable paper mechanisms" for the paper pop-up types (items
+#   419-423). The other new paper, foam, clay, composite and glass joints fit existing families; the
+#   finder's "Made of" filter (the made_of tag) gives the view by material.
 families:
   - key: torque limiting & slip
     label: Slips or lets go when overloaded
@@ -1966,3 +2189,5 @@ families:
     label: Sets, fine-tunes or levels a position, height or gap, then holds it
   - key: welding, brazing & soldering
     label: "Joins by melting: welds, brazes, solders and heat seals"
+  - key: pop-up & movable paper mechanisms
+    label: Pops up, slides or turns when a card or page is opened or pulled
