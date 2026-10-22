@@ -202,7 +202,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [self-locking, axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert,
-  kinematic-coupling, creep, infill, peel-vs-shear]
+  kinematic-coupling, creep, infill, peel-vs-shear, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -290,7 +290,7 @@ Search terms: 'shim stock' or 'precision shim stock' (steel, stainless, brass, p
 - Peel shims: a standard 1 mm U-shaped laminated shim is made of 8 layers of 0.1 mm and 4 of 0.05 mm, peeled until the exact thickness is reached (Jicey, https://jicey.com/shims.html; ERIKS BETEX, https://shop.eriks.be/en/peel-off-shims-hard-brass-or-stainless-steel-pr451749624000/1/).
 - Match the standoff thread to the board: Raspberry Pi mounting holes take M2.5, and 11 mm standoffs give the right spacing for an add-on board (HAT) on standard female headers (Pololu, https://www.pololu.com/product/1952); PC motherboards use 6-32 standoffs and D-sub connector jackscrews use 4-40 (Wikipedia, https://en.wikipedia.org/wiki/Spacers_and_standoffs).
 - Fit a standoff only under a matching board hole; remove any extra ones, because 'a standoff installed in the wrong place may cause electrical shorts' (ASRock install guide, https://download.asrock.com/Manual/InstallEATXMB/Install%20EATX%20Motherboard.pdf).
-- Use a washer to spread a bolt's load on soft material; hardened steel washers keep the bolt tight in high-quality joints, and insulating washers prevent galvanic corrosion between steel screws and aluminium (Wikipedia, https://en.wikipedia.org/wiki/Washer_(hardware)).
+- Use a washer to spread a bolt's load on soft material; hardened steel washers keep the bolt tight in high-quality joints, and insulating washers prevent [galvanic corrosion](../glossary.md#galvanic-corrosion) between steel screws and aluminium (Wikipedia, https://en.wikipedia.org/wiki/Washer_(hardware)).
 - Printed spacers soften under load at about 60 °C (PLA), 80 °C (PETG) and 110 °C (ASA) (CNC Kitchen, https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament).
 
 ## Common failures

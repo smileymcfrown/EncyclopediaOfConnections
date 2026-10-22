@@ -165,7 +165,8 @@ sources:
 research: research/connection-types/results/Glass_door_hinge_clampon_glass_hinge_drilled_glassdoor_cup_hinge_pivot_hinge_for_glass_doors.json
 image: null
 pictures: []
-glossary: [crank, clearance, form-fit--force-fit--material-bond, pilot-hole, repeatability--accuracy, creep, perimeters, print-in-place]
+glossary: [crank, clearance, form-fit--force-fit--material-bond, pilot-hole, repeatability--accuracy, creep, perimeters, print-in-place,
+  toughened-glass]
 ---
 
 A glass door hinge carries a glass or acrylic door on a cabinet without screwing into the door: it grips the sheet with a padded clamp, holds it with a cap bolted through a 26 mm hole drilled in the glass, or clamps the top and bottom corners onto pins that turn in the cabinet.
@@ -195,7 +196,7 @@ Use a glass door hinge when the door is a plain sheet of glass or acrylic with n
 
 ## When not to use it
 
-Don't use them for heavy or tall doors beyond the hinge's weight-per-pair figure; add a third hinge only if the maker allows it, or put the glass in a wooden frame and use ordinary hinges (Clip-on concealed hinge, Knuckle hinge) instead ⚑ [uncertain: third-hinge advice not found on an opened page]. Don't try to drill toughened glass yourself, because it shatters; order it drilled (Wikipedia 'Tempered glass'). For shower doors and full-height room doors use plumbing or building hardware rated for them, not cabinet hinges ⚑ [uncertain]. For sliding glass cabinet doors use a double track instead (Tongue-and-groove joint, sliding-lid grooves). For a door that must stay open at an angle use a friction hinge or a lid stay.
+Don't use them for heavy or tall doors beyond the hinge's weight-per-pair figure; add a third hinge only if the maker allows it, or put the glass in a wooden frame and use ordinary hinges (Clip-on concealed hinge, Knuckle hinge) instead ⚑ [uncertain: third-hinge advice not found on an opened page]. Don't try to drill [toughened glass](../glossary.md#toughened-glass) yourself, because it shatters; order it drilled (Wikipedia 'Tempered glass'). For shower doors and full-height room doors use plumbing or building hardware rated for them, not cabinet hinges ⚑ [uncertain]. For sliding glass cabinet doors use a double track instead (Tongue-and-groove joint, sliding-lid grooves). For a door that must stay open at an angle use a friction hinge or a lid stay.
 
 ## Details
 

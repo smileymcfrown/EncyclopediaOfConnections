@@ -211,7 +211,7 @@ pictures:
   alt: Two strips of wood glued together and held tight with clamps on a workbench while the glue sets.
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -302,7 +302,7 @@ Search for: 'PVA wood glue', 'white glue' or 'school glue' (general and paper), 
 - Clamp firmly but not too hard: about 100-150 psi (0.7-1.0 MPa) for softwoods, 125-175 psi for medium woods and 175-250 psi (1.2-1.7 MPa) for hardwoods (Titebond); FPL gives 0.7 MPa (100 psi) for low-density up to 1.7 MPa (250 psi) for the densest woods, and warns that too much pressure squeezes out the glue and leaves a starved joint (FPL Wood Handbook ch.10).
 - Keep an unstressed joint clamped for 30-60 minutes; a stressed joint (bent or sprung parts) for 24 hours; and don't load a new joint for at least 24 hours (Titebond FAQ). Water-based glues can take about 24 hours to [cure](../glossary.md#cure) before machining (Titebond FAQ).
 - Don't glue below the 'chalk temperature' of the glue, air and wood: about 50 °F (10 °C) for white and ordinary yellow glue, 55 °F (13 °C) for Type II and 45-47 °F (7-8 °C) for Type I (Titebond product pages).
-- Don't rely on end-grain butt joints: they reach only about 25% of the wood's tensile strength; use a scarf joint with a slope of 1 in 12 or flatter, finger joints, or joinery that turns end grain into side grain (FPL Wood Handbook ch.10).
+- Don't rely on end-grain butt joints: they reach only about 25% of the wood's tensile strength; use a [scarf joint](../glossary.md#scarf-joint) with a slope of 1 in 12 or flatter, finger joints, or joinery that turns end grain into side grain (FPL Wood Handbook ch.10).
 - Choose water resistance by where the piece will live (EN 204 classes): D1 dry interiors (wood below about 15% moisture), D2 occasional high humidity or brief water, D3 frequent short contact with water or outdoors under cover, D4 frequent long exposure to water or outdoors with a protective finish (European Wood Review; IVK leaflet). In US terms, ANSI/HPVA Type II passes three 4-hour soak and 120 °F bake cycles; Type I passes boiling tests (Titebond FAQ).
 - Don't thin it with more than about 5% water (Titebond FAQ).
 - Joints made with ordinary wood glues keep their strength indefinitely if the wood stays below about 15% moisture and at temperatures comfortable for people; some adhesives deteriorate if kept above 38 °C (100 °F) for long periods (FPL Wood Handbook ch.10).

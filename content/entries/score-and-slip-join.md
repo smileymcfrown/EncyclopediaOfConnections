@@ -158,14 +158,14 @@ sources:
 research: research/connection-types/results/Scoreandslip_join_scratch_and_slip_luting.json
 image: null
 pictures: []
-glossary: [form-fit--force-fit--material-bond, chamfer--fillet, warping--shrinkage]
+glossary: [form-fit--force-fit--material-bond, chamfer--fillet, warping--shrinkage, leather-hard]
 ---
 
 Two pieces of soft or part-dried water-based clay are scratched (scored) where they meet, coated with slip (the same clay mixed with water to a thick cream), pressed together and blended, so that as they dry the clay knits into one piece; this is how handles, spouts, ears and other details are attached.
 
 **In plain words:** Scratching criss-cross lines into both pieces of soft clay, painting on a creamy mix of the same clay and water, then pressing them together and smoothing over the seam so they grow into one piece. **Proper term:** Score-and-slip join (scratch and slip; luting).
 
-**Also called:** score and slip / slip and score; scratch and slip (Wikipedia 'Slip (ceramics)'); luting: joining two pieces of dry or leather-hard clay with a slip (Wikipedia 'Glossary of pottery terms'); a lute (the joint itself; Wikipedia 'Leather-hard'); slip as 'the glue of clay' (Lillian Gray); joining slip, joining clay; magic water (a sodium silicate and soda ash solution used instead of slip); magic mud, paper clay slip (slip with paper fibre added; Lakeside Pottery); vinegar join (white vinegar instead of slip; AMACO); sprigging (fixing moulded relief decoration on with slip; Wikipedia 'Slip (ceramics)').
+**Also called:** score and slip / slip and score; scratch and slip (Wikipedia 'Slip (ceramics)'); luting: joining two pieces of dry or [leather-hard](../glossary.md#leather-hard) clay with a slip (Wikipedia 'Glossary of pottery terms'); a lute (the joint itself; Wikipedia 'Leather-hard'); slip as 'the glue of clay' (Lillian Gray); joining slip, joining clay; magic water (a sodium silicate and soda ash solution used instead of slip); magic mud, paper clay slip (slip with paper fibre added; Lakeside Pottery); vinegar join (white vinegar instead of slip; AMACO); sprigging (fixing moulded relief decoration on with slip; Wikipedia 'Slip (ceramics)').
 
 ## How it works
 

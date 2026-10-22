@@ -187,7 +187,7 @@ pictures:
   render: true
   drawn: true
 glossary: [detent, ratchet, pawl, torque, stiffness, flexure, cantilever, deflection, clearance, form-fit--force-fit--material-bond,
-  taper, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, print-in-place, peel-vs-shear]
+  taper, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, print-in-place, peel-vs-shear, grain-direction]
 ---
 
 <div class="eoc-pictures">
@@ -249,7 +249,7 @@ Avoid it when the part carries a load or must stay locked against a push (use an
 - **Sealing:** none
 - **Adjustable:** Usually no: click strength is fixed by the arm's thickness, length and the notch depth. Ways to change it: print a stiffer or softer arm (Y Ibrahim's knob comes in three detent strengths; Printables), fit a different spring (the 'Clicker Knob' stacked counter uses two spring strengths so one ring clicks while the next holds), or move the spring's post (watch jumpers are adjusted on an eccentric post; AWCI). Loosening the screws of a laser-cut side spring added play and a sharper click (Shape-Haptics).
 - **Access needed:** not applicable: it is built into the part
-- **Materials:** Best plastics for springy arms are tough and resilient: acetal (POM, Delrin (brand)) and polyester elastomer (Hytrel (brand)) are the best unreinforced plastics for springs (DuPont, p. 36); Shape-Haptics used 3 mm POM sheet (Sustarin (brand)) because laser-cut acrylic loses strength and plywood's strength depends on grain direction. For FDM printing, tough, ductile ABS, PETG and nylon suit flexing features better than [brittle](../glossary.md#brittle--ductile) PLA (Protolabs/Hubs snap-fit guide), although PLA works for light fidget knobs. Watch jumpers and rotary-switch detent springs are spring steel (Wikipedia 'Detent': 'a piece of spring steel that snaps into position').
+- **Materials:** Best plastics for springy arms are tough and resilient: acetal (POM, Delrin (brand)) and polyester elastomer (Hytrel (brand)) are the best unreinforced plastics for springs (DuPont, p. 36); Shape-Haptics used 3 mm POM sheet (Sustarin (brand)) because laser-cut acrylic loses strength and plywood's strength depends on [grain direction](../glossary.md#grain-direction). For FDM printing, tough, ductile ABS, PETG and nylon suit flexing features better than [brittle](../glossary.md#brittle--ductile) PLA (Protolabs/Hubs snap-fit guide), although PLA works for light fidget knobs. Watch jumpers and rotary-switch detent springs are spring steel (Wikipedia 'Detent': 'a piece of spring steel that snaps into position').
 - **Heat, cold, water and wear:** PLA arms soften from about 60 °C and PETG from about 80 °C (CNC Kitchen), so a PLA detent left in a hot car may lose its click. Plastic arms held bent creep and relax, weakening the click over time (DuPont; thrinter PLA creep test). Acetal (POM) has good resistance to moisture, solvents and oils (DuPont, p. 36). Dust and old grease in the notches change the feel ⚑ [uncertain]. Shock and vibration can make a weak detent skip a notch (AWCI, for watch jumpers).
 
 ## Making it

@@ -158,7 +158,7 @@ research: research/connection-types/results/Several_motors_driving_one_load_dual
 image: null
 pictures: []
 glossary: [misalignment, backlash, self-locking, coaxial, freewheel, sprag, torque, gear-ratio, crank, preload, clearance,
-  set-screw, repeatability--accuracy]
+  set-screw, repeatability--accuracy, counter-rotating]
 ---
 
 Several motors are joined to one output, through a shared gear, the same shaft, both ends of one axis or one rack, so they add their power, keep a long axis square, back each other up, or pull against each other to take out play.
@@ -266,7 +266,7 @@ Motors fighting each other or out of step can twist a frame, snap a shaft, strip
 - Spur gear pair and gear train: the usual way two motor pinions meet one shared gear
 - Rack and pinion: two pinions on one rack for a dual-drive gantry or electrical preload
 - Whippletree: shares one pull between several points mechanically, the passive cousin of load sharing
-- Bevel splitter and counter-rotating drive: the one-motor alternative to two motors on coaxial rotors
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: the one-motor alternative to two motors on coaxial rotors
 - Line shaft and power take-off: the reverse case, one motor driving many outputs
 
 ## Make it yourself

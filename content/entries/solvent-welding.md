@@ -212,7 +212,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [interference-fit, form-fit--force-fit--material-bond, heat-set-insert, chamfer--fillet, repeatability--accuracy,
-  brittle--ductile, layer-lines, cure, primer, peel-vs-shear]
+  brittle--ductile, layer-lines, cure, primer, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -323,7 +323,7 @@ Solvent glues usually have the strongest smell of all glues and can contain flam
 - Ultrasonic weld: fuses plastic parts with heat made by high-frequency vibration, a factory process, instead of solvent
 - Heat staking: melts a post on one part into a rivet head, a mechanical joint rather than fused faces
 - Structural acrylic and low-surface-energy plastic adhesives: the glue route for polyethylene and polypropylene, which solvents can't weld
-- Glued joint design (butt, lap and scarf joints): a bigger overlapping area makes a solvent weld stronger, just as with glues
+- Glued joint design (butt, lap and [scarf joints](../glossary.md#scarf-joint)): a bigger overlapping area makes a solvent weld stronger, just as with glues
 - Heat-fused plastic pipe: how polyethylene and polypropylene (PP-R) pipe, which solvent cement can't weld, is joined instead: pipe and fitting are melted on a hot tool (socket or butt fusion) or by a heating wire built into the fitting (electrofusion) (Wikipedia 'Electrofusion'; Wikipedia 'Piping and plumbing fitting'; NIBCO PP-R socket fusion instructions)
 
 ## Make it yourself

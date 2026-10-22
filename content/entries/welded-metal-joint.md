@@ -193,7 +193,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [form-fit--force-fit--material-bond, set-screw, chamfer--fillet, undercut, repeatability--accuracy, fatigue, brittle--ductile,
-  warping--shrinkage, peel-vs-shear, regulator]
+  warping--shrinkage, peel-vs-shear, regulator, galvanic-corrosion, flux]
 ---
 
 <div class="eoc-pictures">
@@ -210,7 +210,7 @@ Welding melts the edges of two metal parts, usually with extra filler metal from
 
 ## How it works
 
-An electric arc (or a gas flame) heats a small spot until both edges melt into a pool of liquid metal (the weld pool or puddle); filler metal from the wire or rod melts into the pool, and the welder moves along the joint so the pool leaves behind a solid ridge (the bead) (Wikipedia 'Welding'). Hot liquid metal reacts with air, so it is protected by a shielding gas from a bottle (MIG and TIG), or by flux on the rod or inside the wire that makes its own gas and a crust of slag to chip off (stick and flux-cored); gas welding uses the flame itself. The processes differ mainly in how the heat and filler arrive: stick uses a flux-coated rod, MIG a continuously fed wire, TIG a non-melting tungsten electrode with a hand-fed filler rod, and gas welding a torch flame. Forge welding is the old blacksmith's method: two pieces are heated to a bright yellow heat with a borax flux and hammered together without fully melting (Wikipedia 'Forge welding').
+An electric arc (or a gas flame) heats a small spot until both edges melt into a pool of liquid metal (the weld pool or puddle); filler metal from the wire or rod melts into the pool, and the welder moves along the joint so the pool leaves behind a solid ridge (the bead) (Wikipedia 'Welding'). Hot liquid metal reacts with air, so it is protected by a shielding gas from a bottle (MIG and TIG), or by [flux](../glossary.md#flux) on the rod or inside the wire that makes its own gas and a crust of slag to chip off (stick and flux-cored); gas welding uses the flame itself. The processes differ mainly in how the heat and filler arrive: stick uses a flux-coated rod, MIG a continuously fed wire, TIG a non-melting tungsten electrode with a hand-fed filler rod, and gas welding a torch flame. Forge welding is the old blacksmith's method: two pieces are heated to a bright yellow heat with a borax flux and hammered together without fully melting (Wikipedia 'Forge welding').
 
 ## Parts
 
@@ -229,7 +229,7 @@ For strong, rigid, permanent joints in steel and other weldable metals: frames, 
 
 ## When not to use it
 
-When parts must come apart again: use bolts (Ordinary screw joint). For thin sheet that would burn through or warp, or for joining different metals: use brazing, blind rivets, clinching or adhesive. For aluminium to steel: not by ordinary welding; bolt or rivet them, with insulating washers to prevent galvanic corrosion (Wikipedia 'Washer (hardware)'). For plastics: use plastic welding entries. Near bearings, electronics, batteries, fuel, or on parts that have held flammable liquids (they can explode even when 'cleaned', Lincoln manual). On hardened or heat-treated parts such as shafts, springs and high-carbon steel: the heat-affected zone becomes weak or [brittle](../glossary.md#brittle--ductile) and cracks (Wikipedia 'Welding'); to fix a hub to a motor shaft use a shaft-to-hub joint (key, D-flat, clamp hub) or a retaining compound instead. Indoors without fume extraction: HSE no longer accepts any welding without suitable exposure control.
+When parts must come apart again: use bolts (Ordinary screw joint). For thin sheet that would burn through or warp, or for joining different metals: use brazing, blind rivets, clinching or adhesive. For aluminium to steel: not by ordinary welding; bolt or rivet them, with insulating washers to prevent [galvanic corrosion](../glossary.md#galvanic-corrosion) (Wikipedia 'Washer (hardware)'). For plastics: use plastic welding entries. Near bearings, electronics, batteries, fuel, or on parts that have held flammable liquids (they can explode even when 'cleaned', Lincoln manual). On hardened or heat-treated parts such as shafts, springs and high-carbon steel: the heat-affected zone becomes weak or [brittle](../glossary.md#brittle--ductile) and cracks (Wikipedia 'Welding'); to fix a hub to a motor shaft use a shaft-to-hub joint (key, D-flat, clamp hub) or a retaining compound instead. Indoors without fume extraction: HSE no longer accepts any welding without suitable exposure control.
 
 ## Details
 

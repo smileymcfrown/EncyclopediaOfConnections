@@ -206,7 +206,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [stiffness, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, creep, fatigue,
-  stress-concentration, end-grain, cure, pot-life--working-time, primer, peel-vs-shear]
+  stress-concentration, end-grain, cure, pot-life--working-time, primer, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -216,7 +216,7 @@ glossary: [stiffness, clearance, form-fit--force-fit--material-bond, spline, tap
 
 The rules for shaping a glued joint so that the glue is loaded in shear (the two faces sliding past each other) or compression over a wide area, and never peeled from one edge or split open like a wedge, because almost every glue is many times stronger in shear than in [peel](../glossary.md#peel-vs-shear) or cleavage.
 
-**In plain words:** How to shape the faces you glue together so the glue is slid along (strong) rather than peeled or pulled straight apart (weak): overlap the parts, or cut long slanted ends, instead of just sticking two ends face to face. **Proper term:** Adhesive joint design (bonded joint geometry): butt, lap (overlap) and scarf joints; shear, tension, compression, peel and cleavage loading.
+**In plain words:** How to shape the faces you glue together so the glue is slid along (strong) rather than peeled or pulled straight apart (weak): overlap the parts, or cut long slanted ends, instead of just sticking two ends face to face. **Proper term:** Adhesive joint design (bonded joint geometry): butt, lap (overlap) and [scarf joints](../glossary.md#scarf-joint); shear, tension, compression, peel and cleavage loading.
 
 **Also called:** glued joint, bonded joint, adhesive joint, glue line or bondline (Henkel LOCTITE design guide; Wood Handbook); butt joint, head-to-head joint, end-grain butt joint (Loctite manual; Wood Handbook); lap joint, overlap joint, single lap joint, offset joint; half lap, end lap, cross lap (Henkel; Wikipedia 'Lap joint'); joggle lap joint; tapered or bevelled lap joint; double lap joint; double butt lap joint (3M; Loctite manual); strap joint, single strap, double strap, recessed or bevelled double strap (Henkel; Loctite manual); scarf joint, scarph joint, plain scarf, stepped scarf, stepped lap, landed scarf tongue and groove (Wikipedia 'Scarf joint'; 3M; Loctite manual); fingerjoint (finger joint) for lengthening timber (Wood Handbook); tongue-and-groove joint, cylindrical or slip joint, T-joint (3M; Henkel); load types: shear, tensile (tension), compressive, peel, cleavage; tests: lap shear (ASTM D1002, ISO 4587), T-peel (ISO 11339), wedge (cleavage) test (Loctite manual); hybrid joining (glue plus rivets, screws, spot welds or clinching) (Wikipedia 'Adhesive bonding').
 

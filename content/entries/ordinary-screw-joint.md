@@ -199,7 +199,7 @@ pictures:
   drawn: false
 glossary: [misalignment, torque, linkage, preload, clearance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut,
   counterbore--countersink, threadlocker, repeatability--accuracy, creep, fatigue, brittle--ductile, lubrication, overhang--bridging,
-  peel-vs-shear, o-ring]
+  peel-vs-shear, o-ring, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -282,7 +282,7 @@ Avoid it when you can't reach both sides and have no threaded hole (use a blind 
 
 ### Buying one (off-the-shelf parts)
 
-Hex bolts, socket-head cap screws (SHCS), button-head and countersunk (flat-head) screws, pan-head and cheese-head machine screws; hex nuts, nylon-insert lock nuts (nyloc), flange nuts, square nuts, thin jam nuts; flat washers, fender (penny) washers, conical (Belleville) washers; threadlocker; threaded rod and studs. Metric sizes (M2, M2.5, M3, M4, M5, M6...) and ISO property classes (e.g. 8.8, A2-70 stainless) are the terms used in catalogues (Wikipedia 'Screw'; Wikipedia 'Nut (hardware)'; NASA RP-1228). Washers by job (Wikipedia 'Washer (hardware)'): plain (flat) washers spread the load and cover a hole bigger than the nut; fender, penny or repair washers have a large outside diameter for thin sheet metal and for holes enlarged by rust or wear; hardened steel washers keep the preload in high-quality joints by stopping the surface under the nut from being dented (brinelling); insulating and shoulder washers (often nylon) keep steel screws off aluminium to prevent galvanic corrosion and isolate the screw electrically; a torque washer with a square hole and teeth stops a carriage bolt spinning in wood. Carriage (coach) bolts, with a square neck under a domed head (Wikipedia 'Carriage bolt').
+Hex bolts, socket-head cap screws (SHCS), button-head and countersunk (flat-head) screws, pan-head and cheese-head machine screws; hex nuts, nylon-insert lock nuts (nyloc), flange nuts, square nuts, thin jam nuts; flat washers, fender (penny) washers, conical (Belleville) washers; threadlocker; threaded rod and studs. Metric sizes (M2, M2.5, M3, M4, M5, M6...) and ISO property classes (e.g. 8.8, A2-70 stainless) are the terms used in catalogues (Wikipedia 'Screw'; Wikipedia 'Nut (hardware)'; NASA RP-1228). Washers by job (Wikipedia 'Washer (hardware)'): plain (flat) washers spread the load and cover a hole bigger than the nut; fender, penny or repair washers have a large outside diameter for thin sheet metal and for holes enlarged by rust or wear; hardened steel washers keep the preload in high-quality joints by stopping the surface under the nut from being dented (brinelling); insulating and shoulder washers (often nylon) keep steel screws off aluminium to prevent [galvanic corrosion](../glossary.md#galvanic-corrosion) and isolate the screw electrically; a torque washer with a square hole and teeth stops a carriage bolt spinning in wood. Carriage (coach) bolts, with a square neck under a domed head (Wikipedia 'Carriage bolt').
 
 ## Rules of thumb
 

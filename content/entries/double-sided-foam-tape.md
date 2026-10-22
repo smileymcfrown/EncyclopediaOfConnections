@@ -202,7 +202,7 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, creep, elephants-foot, cure, surface-energy, primer, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, creep, elephants-foot, cure, surface-energy, primer, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -314,7 +314,7 @@ Low hazard in itself. Isopropyl alcohol, primers and adhesive removers are flamm
 - Hook-and-loop fastener: usually attached with its own adhesive backing; lets you remove and refit the part
 - Magnet joint (embedded magnets, magnetic catch): removable mounting on steel surfaces
 - Silicone and MS-polymer adhesive sealants: flexible, gap-filling bond and seal that needs curing time
-- Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape any bonded joint so it is loaded in shear rather than peel
+- Glued joint design (butt, lap and [scarf joints](../glossary.md#scarf-joint); peel vs shear): how to shape any bonded joint so it is loaded in shear rather than peel
 - Gel 'nano tape': a clear acrylic gel tape without a foam core, used the same way for light items
 
 ## Make it yourself

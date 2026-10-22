@@ -160,7 +160,7 @@ sources:
 research: research/connection-types/results/Lead_came_joint_leaded_glass_came_glasswork_zinc_and_brass_came.json
 image: null
 pictures: []
-glossary: [stiffness, form-fit--force-fit--material-bond]
+glossary: [stiffness, form-fit--force-fit--material-bond, flux]
 ---
 
 A lead came joint holds pieces of glass in the channels of grooved metal strips (came), joins the strips by soldering only where they cross, and fills the gaps under the strips with an oily cement that sets to stiffen the panel and make it waterproof.
@@ -216,7 +216,7 @@ For small, intricate pieces, curved or 3D shapes (lampshades, boxes, suncatchers
 - **Adjustable:** no
 - **Access needed:** both sides: solder every joint on one face, turn the panel over and solder the other, and cement both faces (Everything Stained Glass 'Stained Glass Lead Soldering' and 'Cementing Lead Came').
 - **Materials:** Came: lead (soft, cheap, easy to bend, ages to dark blue-grey), zinc (light, strong, rigid, for straight lines, borders and heavy bevelled glass), brass and copper (golden or copper colour, mainly about 1890-1920), brass-capped lead, and reinforced came with a brass or steel strip in the heart (Wikipedia 'Came glasswork'; Everything Stained Glass). Joins: pieces of sheet glass, including thick, irregular, plated or fused glass in high-heart lead (Everything Stained Glass 'Stained glass lead came'). Solder joins lead, zinc, brass and copper came; it does not stick to glass, which is held only by the came's shape (Wikipedia 'Came glasswork'). Cement: boiled linseed oil, whiting, lamp black and white spirit (Wikipedia 'Came glasswork'; Everything Stained Glass). Not a way to join plastics: the iron would melt acrylic or 3D prints ⚑ [uncertain].
-- **Heat, cold, water and wear:** Soft lead sags and buckles over time in large, unreinforced or bevelled panels (Wikipedia 'Came glasswork'). Panels that are external, south-facing or that open and close need more reinforcing (Everything Stained Glass 'How to Reinforce Stained Glass Panels'). Old cement dries, crumbles and stops keeping water out (Everything Stained Glass, reply to a reader). Lead came oxidises in damp storage, forming a scale that stops flux and solder working; store it dry or with baking soda (Everything Stained Glass; Stained Glass Club SCW).
+- **Heat, cold, water and wear:** Soft lead sags and buckles over time in large, unreinforced or bevelled panels (Wikipedia 'Came glasswork'). Panels that are external, south-facing or that open and close need more reinforcing (Everything Stained Glass 'How to Reinforce Stained Glass Panels'). Old cement dries, crumbles and stops keeping water out (Everything Stained Glass, reply to a reader). Lead came oxidises in damp storage, forming a scale that stops [flux](../glossary.md#flux) and solder working; store it dry or with baking soda (Everything Stained Glass; Stained Glass Club SCW).
 
 ## Making it
 

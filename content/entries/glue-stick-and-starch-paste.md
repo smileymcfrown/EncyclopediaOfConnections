@@ -174,7 +174,8 @@ sources:
 research: research/connection-types/results/Glue_stick_and_starch_paste_paper_glue_stick_wheatstarch_paste_methyl_cellulose_wallpaper_paste.json
 image: null
 pictures: []
-glossary: [stroke, form-fit--force-fit--material-bond, warping--shrinkage, pot-life--working-time, open-time, peel-vs-shear]
+glossary: [stroke, form-fit--force-fit--material-bond, warping--shrinkage, pot-life--working-time, open-time, peel-vs-shear,
+  grain-direction]
 ---
 
 Mild water-based glues for paper and card, either a solid stick rubbed on from a twist-up tube or a cooked starch, flour or cellulose paste brushed on, which soak into the paper fibres and harden as the water leaves, giving clean, non-toxic paper joints that are often reversible with water.
@@ -185,7 +186,7 @@ Mild water-based glues for paper and card, either a solid stick rubbed on from a
 
 ## How it works
 
-Both kinds are mostly water with a sticky natural or synthetic polymer dissolved or dispersed in it: Pritt Stick is 'Starch ether, polysaccharides, soap and water' (Henkel Pritt Stick TDS), other sticks use PVA, PVP or acrylic polymer (Wikipedia 'Glue stick'), and pastes use cooked starch or methyl cellulose (Wikipedia 'Wheatpaste'; 'Methyl cellulose'). Spread on paper, the wet glue soaks into the fibres; as the water soaks away and evaporates, the polymer dries into a film that locks the fibres of both sheets together ⚑ [uncertain: general adhesive science, stated in our words]. Because the dried film is still water-soluble or water-swellable, starch paste and methyl cellulose can later be softened and undone with water, which is why conservators use them (University of Virginia Library: 'the adhesion is reversible'; Conservation Resources: methyl cellulose 'is fully reversible with water'). The water also makes the paper fibres swell, mostly across the grain, so wet-glued paper can ripple (cockle) or warp unless it is kept flat while it dries (OAB 'grain direction'; Brighton 'Grain Direction').
+Both kinds are mostly water with a sticky natural or synthetic polymer dissolved or dispersed in it: Pritt Stick is 'Starch ether, polysaccharides, soap and water' (Henkel Pritt Stick TDS), other sticks use PVA, PVP or acrylic polymer (Wikipedia 'Glue stick'), and pastes use cooked starch or methyl cellulose (Wikipedia 'Wheatpaste'; 'Methyl cellulose'). Spread on paper, the wet glue soaks into the fibres; as the water soaks away and evaporates, the polymer dries into a film that locks the fibres of both sheets together ⚑ [uncertain: general adhesive science, stated in our words]. Because the dried film is still water-soluble or water-swellable, starch paste and methyl cellulose can later be softened and undone with water, which is why conservators use them (University of Virginia Library: 'the adhesion is reversible'; Conservation Resources: methyl cellulose 'is fully reversible with water'). The water also makes the paper fibres swell, mostly across the grain, so wet-glued paper can ripple (cockle) or warp unless it is kept flat while it dries (OAB '[grain direction](../glossary.md#grain-direction)'; Brighton 'Grain Direction').
 
 ## Parts
 

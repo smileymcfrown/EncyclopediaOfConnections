@@ -194,7 +194,7 @@ pictures:
   render: true
   drawn: true
 glossary: [stiffness, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, creep, stress-concentration,
-  perimeters, infill, elephants-foot, kerf, end-grain, peel-vs-shear]
+  perimeters, infill, elephants-foot, kerf, end-grain, peel-vs-shear, flute]
 ---
 
 <div class="eoc-pictures">
@@ -274,7 +274,7 @@ Don't rely on a plain housing or rebate where the joint is pulled apart (in tens
 
 ### Buying one (off-the-shelf parts)
 
-Router bits: straight bits with short flutes (dados seldom exceed 1/2 in deep) and plunge-cutting ends for stopped dados; 'undersized' plywood bits of 23/32 in, 15/32 in (or 31/64 in) and 15/64 in for nominal 3/4, 1/2 and 1/4 in plywood; bearing-guided rabbeting bit sets with interchangeable bearings; dovetail bits for dovetail housings (Rockler). Table-saw dado sets: a stacked dado set (two outer blades, chippers and shims) or a wobble dado; micro-adjustable sets such as Freud Dial-A-Width (brand) (Wikipedia 'Dado set'; Rockler). Hand tools: router plane, rebate (rabbet) plane, shoulder plane (Wikipedia 'Rabbet'; DT Online). Safety: featherboards ('combs') and push pads for table-saw dadoing and rabbeting (OSHA 1910.213; Fine Woodworking).
+Router bits: straight bits with short [flutes](../glossary.md#flute) (dados seldom exceed 1/2 in deep) and plunge-cutting ends for stopped dados; 'undersized' plywood bits of 23/32 in, 15/32 in (or 31/64 in) and 15/64 in for nominal 3/4, 1/2 and 1/4 in plywood; bearing-guided rabbeting bit sets with interchangeable bearings; dovetail bits for dovetail housings (Rockler). Table-saw dado sets: a stacked dado set (two outer blades, chippers and shims) or a wobble dado; micro-adjustable sets such as Freud Dial-A-Width (brand) (Wikipedia 'Dado set'; Rockler). Hand tools: router plane, rebate (rabbet) plane, shoulder plane (Wikipedia 'Rabbet'; DT Online). Safety: featherboards ('combs') and push pads for table-saw dadoing and rabbeting (OSHA 1910.213; Fine Woodworking).
 
 ## Rules of thumb
 

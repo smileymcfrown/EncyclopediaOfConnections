@@ -177,7 +177,7 @@ research: research/connection-types/results/Line_shaft_and_power_takeoff_linesha
 image: null
 pictures: []
 glossary: [misalignment, backlash, freewheel, torque, gear-ratio, idler, fail-safe--fail-secure, clearance, tolerance, set-screw,
-  spline, taper, repeatability--accuracy, creep, lubrication, perimeters]
+  spline, taper, repeatability--accuracy, creep, lubrication, perimeters, counter-rotating]
 ---
 
 A single driven shaft that runs past several machines and carries a pulley, sprocket or gear for each one, so one motor or engine can power many things, each with its own speed, its own direction and its own way to start and stop it; the tractor PTO is the same idea as a splined stub shaft that a machine plugs into.
@@ -280,7 +280,7 @@ Spinning shafts, belts, pulleys, chains, set screws and PTO shafts catch hair, l
 - Belt drives (timing, round and V-belt): one belt between two pulleys; a line shaft is many belt drives sharing one driving shaft
 - Chain and sprocket drive: the usual link to and from a go-kart or minibike jackshaft
 - Spur gear pair and gear train: gears instead of belts; a central gear driving a ring of gears is the gear version of one shaft driving several
-- Bevel splitter and counter-rotating drive: one input, two outputs on one line turning opposite ways
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: one input, two outputs on one line turning opposite ways
 - Linked lead screws: one motor driving several screws in exact step (needs a toothed belt or chain, not friction belts)
 - Several motors driving one load: the reverse case, many inputs to one output
 - Dog clutch, friction clutch and centrifugal clutch: ways to start and stop one take-off without stopping the shaft (the loose pulley is the belt version)

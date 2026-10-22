@@ -165,14 +165,14 @@ research: research/connection-types/results/Bevel_splitter_and_counterrotating_d
 image: null
 pictures: []
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, pitch, crank, preload, clearance, tolerance, set-screw,
-  creep, infill, o-ring]
+  creep, infill, o-ring, counter-rotating]
 ---
 
 A driving bevel gear meshes with two bevel gears that face each other across it, so one input turns two outputs on one line in opposite directions; nesting one output shaft inside the other turns two rotors on the same axis against each other, and a dog clutch that picks one of the two gears turns the same set into a forward-and-reverse switch.
 
 **In plain words:** One cone-shaped gear squeezed between two others that face each other, so turning one shaft makes two shafts on the same line spin in opposite directions; put one output shaft inside the other and you get two propellers, blades or discs spinning against each other on one axis. **Proper term:** Bevel splitter (three-way bevel gearbox, T-type bevel gearbox) and contra-rotating [coaxial](../glossary.md#coaxial) drive.
 
-**Also called:** T-gearbox / T-type bevel gearbox / T-shaped bevel gearbox (one input, two outputs; ZIMM); three-way bevel gearbox / 3-way right-angle gearbox / bevel gear splitter; counter-rotating gearbox / counterrotation gearbox (e.g. 'Rotary cutter with counterrotation gearbox', US patent 5450714); contra-rotating drive / coaxial contra-rotating shafts / coaxial counter-rotating drive; contra-rotating propellers (CRP), coaxial rotors (helicopters) (Wikipedia); bevel reverser / reversing bevel gears with a double clutch (507 Mechanical Movements no. 53); concentric shafts / nested shafts / shaft in a tube (inner shaft and outer tube or barrel); contra-rotating hub (single-shaft input with planetary gearing; Hackaday.io project 6711); coax copter / coaxial RC helicopter (two motors, the electric alternative); Kegelradgetriebe mit zwei Abtrieben (German, bevel gearbox with two outputs) ⚑ [uncertain].
+**Also called:** T-gearbox / T-type bevel gearbox / T-shaped bevel gearbox (one input, two outputs; ZIMM); three-way bevel gearbox / 3-way right-angle gearbox / bevel gear splitter; [counter-rotating](../glossary.md#counter-rotating) gearbox / counterrotation gearbox (e.g. 'Rotary cutter with counterrotation gearbox', US patent 5450714); contra-rotating drive / coaxial contra-rotating shafts / coaxial counter-rotating drive; contra-rotating propellers (CRP), coaxial rotors (helicopters) (Wikipedia); bevel reverser / reversing bevel gears with a double clutch (507 Mechanical Movements no. 53); concentric shafts / nested shafts / shaft in a tube (inner shaft and outer tube or barrel); contra-rotating hub (single-shaft input with planetary gearing; Hackaday.io project 6711); coax copter / coaxial RC helicopter (two motors, the electric alternative); Kegelradgetriebe mit zwei Abtrieben (German, bevel gearbox with two outputs) ⚑ [uncertain].
 
 ## How it works
 

@@ -173,7 +173,7 @@ sources:
 research: research/connection-types/results/Sewn_book_bindings_pamphlet_stitch_Coptic_stitch_kettle_stitch_Japanese_stab_binding.json
 image: null
 pictures: []
-glossary: [ratchet, form-fit--force-fit--material-bond, heat-set-insert, infill, warping--shrinkage]
+glossary: [ratchet, form-fit--force-fit--material-bond, heat-set-insert, infill, warping--shrinkage, grain-direction]
 ---
 
 Hand sewing joins sheets of paper into a book by passing a needle and waxed thread through a row of pierced holes, either along the fold of folded sheets (a pamphlet stitch for one section, or linked kettle or Coptic stitches for many) or straight through the stack near its edge (Japanese stab binding), so the thread acts as both fastener and hinge.
@@ -227,7 +227,7 @@ Not for documents whose pages you want to add or remove: use Loose-leaf bindings
 - **Adjustable:** no: tension is set while sewing; a loose binding has to be resewn. Stab binding can be resewn with a different pattern or ribbon through bigger holes (Dorset History Centre).
 - **Access needed:** both sides: the needle goes in and out of every hole, and for sewing through the fold you work from the inside and outside of each section (IU Libraries; Paper Mouse).
 - **Materials:** Paper, card and thin board for pages and covers; covers can be card, book board, leather, cloth, plywood (Makezine used thin Plyboo drilled with a 1/16 in bit) or a 3D print (Printables 1822742). Thread: waxed linen ('Irish Linen Thread' in Talas), unwaxed linen waxed with beeswax, cotton (e.g. pearl cotton), embroidery floss split into strands, or silk cord (traditional Chinese binding) (Talas; Paper Mouse; Reddit r/bookbinding; Wikipedia 'Traditional Chinese bookbinding'). Avoid elastic thread: it is weak and the rubber breaks down (Reddit r/bookbinding). Paper must be able to fold cleanly; very heavy or coated stocks resist folding and stitching (Paper Mill Store).
-- **Heat, cold, water and wear:** Damp: paper swells more across the grain than along it, so damp or wet glue causes [warping](../glossary.md#warping--shrinkage) if grain directions are mixed (University of Brighton 'Grain Direction'). Linen thread is durable; staples rust and stain paper over time (Talas pamphlet). Elastic thread weakens and its rubber splits with age (Reddit r/bookbinding). Light and acidity affect paper, not the stitch ⚑ [uncertain].
+- **Heat, cold, water and wear:** Damp: paper swells more across the grain than along it, so damp or wet glue causes [warping](../glossary.md#warping--shrinkage) if [grain directions](../glossary.md#grain-direction) are mixed (University of Brighton 'Grain Direction'). Linen thread is durable; staples rust and stain paper over time (Talas pamphlet). Elastic thread weakens and its rubber splits with age (Reddit r/bookbinding). Light and acidity affect paper, not the stitch ⚑ [uncertain].
 
 ## Making it
 

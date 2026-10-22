@@ -226,7 +226,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, taper, captive-nut, boss, creep, perimeters,
-  infill, o-ring, gland, water-hammer]
+  infill, o-ring, gland, water-hammer, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -257,7 +257,7 @@ A few parts: a male end with a straight thread and a flat end face or shoulder, 
 
 ## When to use it
 
-Whenever a water, air or oil connection must come apart again and be remade without tape or paste: hoses, sprinklers and pumps, tap connectors, shower hoses, pressure gauges (gasket-sealed gauge connections, Swagelok p. 39), and hydraulic or pneumatic ports with bonded seals or O-rings. Use a pipe union where two fixed pipes must be separated for maintenance (a pump, filter, water heater or valve), because it opens without turning either pipe (Wikipedia 'Piping and plumbing fitting'). Use a dielectric union where copper or brass meets galvanised steel, to stop galvanic corrosion (Wikipedia 'Piping and plumbing fitting'). For makers it is the easy way to connect a printed or home-made device to a tap or hose: buy or print an adapter with the right thread and a flat face for a standard washer.
+Whenever a water, air or oil connection must come apart again and be remade without tape or paste: hoses, sprinklers and pumps, tap connectors, shower hoses, pressure gauges (gasket-sealed gauge connections, Swagelok p. 39), and hydraulic or pneumatic ports with bonded seals or O-rings. Use a pipe union where two fixed pipes must be separated for maintenance (a pump, filter, water heater or valve), because it opens without turning either pipe (Wikipedia 'Piping and plumbing fitting'). Use a dielectric union where copper or brass meets galvanised steel, to stop [galvanic corrosion](../glossary.md#galvanic-corrosion) (Wikipedia 'Piping and plumbing fitting'). For makers it is the easy way to connect a printed or home-made device to a tap or hose: buy or print an adapter with the right thread and a flat face for a standard washer.
 
 ## When not to use it
 

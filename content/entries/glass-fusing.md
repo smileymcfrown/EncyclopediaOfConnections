@@ -152,10 +152,10 @@ sources:
 research: research/connection-types/results/Glass_fusing_kiln_fusing_tack_fusing_full_fusing.json
 image: null
 pictures: []
-glossary: [form-fit--force-fit--material-bond, brittle--ductile, primer]
+glossary: [form-fit--force-fit--material-bond, brittle--ductile, primer, toughened-glass, annealing]
 ---
 
-Glass fusing joins pieces of glass that are rated to work together by heating them in a kiln to roughly 690-820 °C, so that they stick together (tack fuse) or flow into one smooth piece (full fuse), and then cools them slowly through an annealing hold so that the finished piece has no built-in stress.
+Glass fusing joins pieces of glass that are rated to work together by heating them in a kiln to roughly 690-820 °C, so that they stick together (tack fuse) or flow into one smooth piece (full fuse), and then cools them slowly through an [annealing](../glossary.md#annealing) hold so that the finished piece has no built-in stress.
 
 **In plain words:** Stacking pieces of glass that are made to go together and baking them in a very hot oven (a kiln) until they stick to each other or melt into one smooth piece, then letting them cool very slowly so they don't crack. **Proper term:** Glass fusing (kiln fusing; tack fusing and full fusing; kilnformed glass).
 
@@ -181,7 +181,7 @@ When you want to join pieces of glass to each other with no glue, no metal frame
 
 ## When not to use it
 
-When the glasses are not known to be compatible: test first or use a cold method (UV-curing adhesive, copper foil and solder, or lead came) instead. To repair a broken window, drinking glass or toughened (tempered) glass: fusing reshapes the glass and toughened glass loses its temper ⚑ [uncertain]; use glass glue or replace it. To join glass to wood, metal or plastic: use glazing in a rebated frame, glass edge clips or clamps, or an adhesive. For anything that bears a load or must not break if dropped. When you have no kiln with a controller: annealing by guesswork leads to cracks; book kiln time at a studio instead. For food use, check the glass maker's food-safety notes: some coloured glasses contain more than 1.0% lead or 0.5% cadmium and Bullseye recommends capping them with clear glass for food-bearing pieces (Bullseye FAQ).
+When the glasses are not known to be compatible: test first or use a cold method (UV-curing adhesive, copper foil and solder, or lead came) instead. To repair a broken window, drinking glass or toughened (tempered) glass: fusing reshapes the glass and [toughened glass](../glossary.md#toughened-glass) loses its temper ⚑ [uncertain]; use glass glue or replace it. To join glass to wood, metal or plastic: use glazing in a rebated frame, glass edge clips or clamps, or an adhesive. For anything that bears a load or must not break if dropped. When you have no kiln with a controller: annealing by guesswork leads to cracks; book kiln time at a studio instead. For food use, check the glass maker's food-safety notes: some coloured glasses contain more than 1.0% lead or 0.5% cadmium and Bullseye recommends capping them with clear glass for food-bearing pieces (Bullseye FAQ).
 
 ## Details
 

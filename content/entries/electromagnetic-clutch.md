@@ -217,7 +217,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, self-locking, freewheel, torque, solenoid, fail-safe--fail-secure, hysteresis, tolerance,
-  form-fit--force-fit--material-bond, set-screw, repeatability--accuracy]
+  form-fit--force-fit--material-bond, set-screw, repeatability--accuracy, flux]
 ---
 
 <div class="eoc-pictures">
@@ -235,7 +235,7 @@ A drive connector that joins a spinning input to an output only while its coil i
 
 ## How it works
 
-The rotor spins with the input all the time. When DC current flows in the coil it becomes an electromagnet; the magnetic flux jumps the small air gap and pulls the armature, which is joined to the output hub, hard against the rotor face (Machine Design, 2009). Friction then speeds the output up: the faces slip for about 0.02 to 1.0 s until both turn together ('100% lockup'), after which there is no slip. When the current stops, the flux collapses and springs pull the armature back to a set air gap, so the output is free again (Wikipedia; Ogura). Other versions use teeth instead of friction (tooth clutch), a stack of discs (multiple-disc clutch), iron powder that stiffens in the field (magnetic particle clutch) or contact-free magnetic drag (hysteresis clutch) (Wikipedia, Electromagnetic clutch).
+The rotor spins with the input all the time. When DC current flows in the coil it becomes an electromagnet; the magnetic [flux](../glossary.md#flux) jumps the small air gap and pulls the armature, which is joined to the output hub, hard against the rotor face (Machine Design, 2009). Friction then speeds the output up: the faces slip for about 0.02 to 1.0 s until both turn together ('100% lockup'), after which there is no slip. When the current stops, the flux collapses and springs pull the armature back to a set air gap, so the output is free again (Wikipedia; Ogura). Other versions use teeth instead of friction (tooth clutch), a stack of discs (multiple-disc clutch), iron powder that stiffens in the field (magnetic particle clutch) or contact-free magnetic drag (hysteresis clutch) (Wikipedia, Electromagnetic clutch).
 
 ## Parts
 

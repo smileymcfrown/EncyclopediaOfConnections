@@ -172,7 +172,7 @@ sources:
 research: research/connection-types/results/Bonded_tube_joint_lugged_sleeved_or_fibrewrapped_tube_joint_carbon_tube_connector_bonded_end_fitting.json
 image: null
 pictures: []
-glossary: [form-fit--force-fit--material-bond, set-screw, creep, cure, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, set-screw, creep, cure, peel-vs-shear, lay-up, scarf-joint, galvanic-corrosion]
 ---
 
 Tubes are joined by gluing each tube end into or over a close-fitting socket, sleeve, plug or lug, or by binding the joint with resin-soaked fibre, so the load passes through a long glued overlap instead of through holes drilled in the tube wall.
@@ -227,7 +227,7 @@ Avoid it when the joint must be taken apart (use clamp-on tube fittings, bonded 
 - **Sealing:** none (the glue line may happen to keep water out of the tube end, but the joint is not designed as a seal) ⚑ [uncertain]
 - **Adjustable:** no once cured; angles and lengths are set in the jig before the glue cures. Threaded or quick-release end fittings let sections be swapped (DragonPlate).
 - **Access needed:** end of a tube or shaft: the connector, ferrule or plug goes into or over the open tube end; wrapped joints need room all round the junction
-- **Materials:** Tubes: roll-wrapped or pultruded carbon fibre, fibreglass, aluminium, titanium, steel and bamboo (DragonPlate; colorFabb lugs 'connect standard tubing in carbon, titanium, aluminum or bamboo', 3D Printing Industry; road.cc Calfee). Connectors: anodised aluminium (DragonPlate), moulded carbon, 3D-printed carbon-filled polymer such as XT-CF20 (colorFabb), stainless or titanium printed lugs, wrapped carbon cloth or hemp fibre. Adhesives: two-part epoxies such as 3M Scotch-Weld DP420 and 2216 (brands; Clearwater, DragonPlate), polyurethane adhesive (colorFabb). Poor matches: bare aluminium touching carbon (galvanic corrosion; Clearwater), HDPE and other low-surface-energy plastics, which need special adhesives (Clearwater), and the glossy outer skin of bamboo, which 'doesn't stick to epoxy well' unless sanded (Instructables 'Bamboo and Hemp Road Bike').
+- **Materials:** Tubes: roll-wrapped or pultruded carbon fibre, fibreglass, aluminium, titanium, steel and bamboo (DragonPlate; colorFabb lugs 'connect standard tubing in carbon, titanium, aluminum or bamboo', 3D Printing Industry; road.cc Calfee). Connectors: anodised aluminium (DragonPlate), moulded carbon, 3D-printed carbon-filled polymer such as XT-CF20 (colorFabb), stainless or titanium printed lugs, wrapped carbon cloth or hemp fibre. Adhesives: two-part epoxies such as 3M Scotch-Weld DP420 and 2216 (brands; Clearwater, DragonPlate), polyurethane adhesive (colorFabb). Poor matches: bare aluminium touching carbon ([galvanic corrosion](../glossary.md#galvanic-corrosion); Clearwater), HDPE and other low-surface-energy plastics, which need special adhesives (Clearwater), and the glossy outer skin of bamboo, which 'doesn't stick to epoxy well' unless sanded (Instructables 'Bamboo and Hemp Road Bike').
 - **Heat, cold, water and wear:** Most standard two-part epoxies are limited to below about 250 °F (about 120 °C); also consider chemicals and weather when choosing an adhesive (Clearwater Composites). Carbon and aluminium expand differently with heat, which can delaminate a metal-to-carbon bond; DragonPlate uses ridged and slotted connectors to resist this. Carbon touching bare aluminium causes galvanic corrosion, especially in wet conditions (Clearwater) ⚑ [uncertain] (the wet-conditions point is not on the page). Bamboo can crack as it dries out in a dry climate (aesdes bamboo bicycle). Bonded joints can crack from crashes, overtightening or poor installation (Wikipedia 'Bicycle frame').
 
 ## Making it
@@ -236,7 +236,7 @@ Avoid it when the joint must be taken apart (use clamp-on tube fittings, bonded 
   - off-the-shelf part: modular aluminium tube connectors, ferrules, threaded end adapters and quick-release fittings (DragonPlate)
   - 3D print (FDM): printed lugs and corner connectors with sockets for the tubes (colorFabb XT-CF20 bike; Printables 'Carbon fiber tube corner connector/bracket')
   - CNC: turned or milled aluminium inserts and lugs (Materials 2021 study)
-  - composite lay-up: wrapping joints with carbon or glass cloth or hemp fibre and resin (road.cc Condor and Calfee)
+  - composite [lay-up](../glossary.md#lay-up): wrapping joints with carbon or glass cloth or hemp fibre and resin (road.cc Condor and Calfee)
   - woodwork: mitring and jigs for bamboo frames (aesdes bamboo bicycle)
 - **Printing it in one piece (print in place):** no: the printed lug or connector is printed on its own and the tubes are glued into it.
 - **Tools:** Fine saw or cut-off tool for the tubes; 120-180 grit sandpaper, drum sander, rotary tool or flex hone; acetone or isopropyl alcohol; masking tape; two-part epoxy with mixing stick or dispenser; gloves, safety glasses and ventilation; a jig, fixture or clamps for alignment; an oven if the adhesive needs heat curing (Clearwater Composites; road.cc Condor).
@@ -271,7 +271,7 @@ Galvanic corrosion: carbon touching bare aluminium corrodes the aluminium; isola
 
 ## Related
 
-- Glued joint design (butt, lap and scarf joints; peel vs shear): the general rules for glued overlaps; a bonded tube joint is a lap joint wrapped round a tube
+- Glued joint design (butt, lap and [scarf joints](../glossary.md#scarf-joint); peel vs shear): the general rules for glued overlaps; a bonded tube joint is a lap joint wrapped round a tube
 - Two-part epoxy: the usual adhesive for these joints
 - Clamp-on tube fittings (slip-on structural fittings): join tubes with [set screws](../glossary.md#set-screw) and no glue, but set screws can crush carbon
 - Internal tube anchors (star nut, expansion plug): grip inside a tube by friction or barbs, not glue

@@ -209,7 +209,7 @@ sources:
 research: research/connection-types/results/Parallelfold_popup_box_fold_step_fold_floating_layer_parallelogram_popup.json
 image: null
 pictures: []
-glossary: [linkage, living-hinge, form-fit--force-fit--material-bond, brittle--ductile, cure]
+glossary: [linkage, living-hinge, form-fit--force-fit--material-bond, brittle--ductile, cure, mountain-fold--valley-fold]
 ---
 
 Pieces of card that cross the centre fold with all their creases running parallel to it, so that opening the card pulls them up into a step, box, tent or floating stage, and closing it folds them flat again, like a paper parallelogram [linkage](../glossary.md#linkage).
@@ -224,7 +224,7 @@ All the creases of the piece run parallel to the card's centre fold, so the base
 
 ## Parts
 
-Single piece, or a few parts glued together. Single-sheet version: one folded card with two cuts and a pushed-through strip (Sabuda). Glued-on version: a base card (the 'spread') plus a folded strip or box with glue tabs; a floating layer adds a flat top plane on three folded 'feet' or support arms (Barton; Chibitronics; Superplexus). Parts in plain words: base card, centre fold (gutter or spine), pop-up piece, creases (mountain and valley folds), glue tabs, support arms.
+Single piece, or a few parts glued together. Single-sheet version: one folded card with two cuts and a pushed-through strip (Sabuda). Glued-on version: a base card (the 'spread') plus a folded strip or box with glue tabs; a floating layer adds a flat top plane on three folded 'feet' or support arms (Barton; Chibitronics; Superplexus). Parts in plain words: base card, centre fold (gutter or spine), pop-up piece, creases (mountain and [valley folds](../glossary.md#mountain-fold--valley-fold)), glue tabs, support arms.
 
 ## Everyday examples
 

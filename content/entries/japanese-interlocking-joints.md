@@ -226,7 +226,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bond, taper, creep, brittle--ductile, stress-concentration,
-  layer-lines, infill, overhang--bridging]
+  layer-lines, infill, overhang--bridging, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -236,7 +236,7 @@ glossary: [self-locking, clearance, tolerance, form-fit--force-fit--material-bon
 
 Traditional Japanese carpentry joints in which two or three timbers are cut into interlocking shapes (hooks, dovetails, stepped seats and small tenons) that fit together only along one path and are then locked with a driven wedge or peg, joining beams end to end or at a corner without metal fasteners or glue.
 
-**In plain words:** Wooden beams cut into matching hooks, steps and tongues that slide or drop together like a 3D puzzle and lock by their shape alone, then get tightened with a wooden wedge or peg: no nails, screws or glue. **Proper term:** Japanese interlocking wood joints: splice joints (tsugite), e.g. the gooseneck joint (kama-tsugi) and the wedged scarf joint (kanawa-tsugi), and multi-member corner joints (shiguchi), e.g. the three-way post joint (sanbou-zashi, often written sampo-zashi) and the three-way pinned corner mitre (kane-tsugi).
+**In plain words:** Wooden beams cut into matching hooks, steps and tongues that slide or drop together like a 3D puzzle and lock by their shape alone, then get tightened with a wooden wedge or peg: no nails, screws or glue. **Proper term:** Japanese interlocking wood joints: splice joints (tsugite), e.g. the gooseneck joint (kama-tsugi) and the wedged [scarf joint](../glossary.md#scarf-joint) (kanawa-tsugi), and multi-member corner joints (shiguchi), e.g. the three-way post joint (sanbou-zashi, often written sampo-zashi) and the three-way pinned corner mitre (kane-tsugi).
 
 **Also called:** tsugite (end-to-end or splice joints) and shiguchi (angle or corner joints), the two basic families of Japanese joinery (JAANUS dictionary); kama-tsugi, gooseneck joint, gooseneck tenon and mortise joint (JAANUS; Big Sand Woodworking); koshikake kama-tsugi, lapped gooseneck joint, half-lap gooseneck tenon joint, also shikimen kama-tsugi (JAANUS; Wikimedia Commons file 'Lapped gooseneck joint'); kanawa-tsugi (金輪継ぎ), wedged scarf joint; in full 'an oblique, housed (dadoed), rabbeted, T-shaped, half-blind, tenoned scarf joint' (JAANUS); okkake daisen-tsugi, oblique housed and rabbeted scarf joint locked with two pins; okkake-tsugi when no pins are used (JAANUS); sanbou-zashi / sampo-zashi / sanpo-zashi, three-way joint where beams enter a post from three sides; shihou-zashi is the four-sided version (JAANUS; YouTube video titles 'Sampo zashi'); kane-tsugi, 'right-angle corner' joint, three-way pinned corner mitre, a mitre and pinned bridle joint combined (Fine Woodworking; Instructables); Kawai tsugite, '3-way joint', a modern puzzle-like splice that goes together in three directions (Core77; woodgears.ca); ne-tsugi ('splicing the roots'), repairing a rotted post base by splicing in new wood, often with kanawa-tsugi (Big Sand Woodworking); Japanese joinery, traditional timber joints, integral wood joints (MiGumi paper), nail-free joinery; scarf joint, splice joint, keyed-hook scarf: the Western equivalents (Wikipedia 'Scarf joint').
 

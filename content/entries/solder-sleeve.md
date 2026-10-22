@@ -212,7 +212,8 @@ pictures:
     glue ring at each end.
   kind: photo
   drawn: false
-glossary: [coaxial, form-fit--force-fit--material-bond, chamfer--fillet, creep, fatigue, print-in-place, peel-vs-shear, gland]
+glossary: [coaxial, form-fit--force-fit--material-bond, chamfer--fillet, creep, fatigue, print-in-place, peel-vs-shear, gland,
+  flux]
 ---
 
 <div class="eoc-pictures">
@@ -228,7 +229,7 @@ A clear heat-shrink tube with a built-in ring of flux-cored solder and two rings
 
 ## How it works
 
-You strip both wires, overlap (or lightly twist) the bare ends and slide the sleeve on so the solder ring sits over the bare copper and the glue rings sit over the insulation (NASA-STD-8739.4A §19.6.1a; TE RPIP-824-00 §4.2). Hot air shrinks the tube, which squeezes the softening solder ring onto the wires; the flux cleans the copper so the molten solder flows in and wets it, and the glue rings melt and seal round the insulation at each end (TE catalogue p. 3-4; Hackaday 2023). Because the tube is clear you can check the result: a good joint shows no trace of the ring's original shape and a smooth solder [fillet](../glossary.md#chamfer--fillet) along the wires (NASA §19.6.1c, §20.5.1g; TE RPIP-824-00 §4.2.3).
+You strip both wires, overlap (or lightly twist) the bare ends and slide the sleeve on so the solder ring sits over the bare copper and the glue rings sit over the insulation (NASA-STD-8739.4A §19.6.1a; TE RPIP-824-00 §4.2). Hot air shrinks the tube, which squeezes the softening solder ring onto the wires; the [flux](../glossary.md#flux) cleans the copper so the molten solder flows in and wets it, and the glue rings melt and seal round the insulation at each end (TE catalogue p. 3-4; Hackaday 2023). Because the tube is clear you can check the result: a good joint shows no trace of the ring's original shape and a smooth solder [fillet](../glossary.md#chamfer--fillet) along the wires (NASA §19.6.1c, §20.5.1g; TE RPIP-824-00 §4.2.3).
 
 ## Parts
 

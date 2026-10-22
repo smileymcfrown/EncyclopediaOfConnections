@@ -163,10 +163,10 @@ sources:
 research: research/connection-types/results/Copperfoil_joint_Tiffany_method_foiled_and_soldered_glass.json
 image: null
 pictures: []
-glossary: [form-fit--force-fit--material-bond]
+glossary: [form-fit--force-fit--material-bond, flux]
 ---
 
-Each glass piece's edge is wrapped in adhesive copper tape and pressed flat (burnished), the copper is brushed with flux, and solder is run along every seam where two foiled edges meet, so the pieces become one rigid panel or 3D shape held together by a continuous metal network.
+Each glass piece's edge is wrapped in adhesive copper tape and pressed flat (burnished), the copper is brushed with [flux](../glossary.md#flux), and solder is run along every seam where two foiled edges meet, so the pieces become one rigid panel or 3D shape held together by a continuous metal network.
 
 **In plain words:** Wrapping the edge of each piece of glass in sticky copper tape and then melting solder along the copper where the pieces meet, so the glass pieces are held together by little metal seams, as in Tiffany lamps and suncatchers. **Proper term:** Copper-foil joint (copper foil method, Tiffany method, foiled and soldered stained glass).
 

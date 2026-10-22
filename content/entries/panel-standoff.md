@@ -154,7 +154,7 @@ sources:
 research: research/connection-types/results/Panel_standoff_sign_standoff_glass_standoff_standoff_mount_edgegrip_standoff.json
 image: null
 pictures: []
-glossary: [clearance, form-fit--force-fit--material-bond, creep]
+glossary: [clearance, form-fit--force-fit--material-bond, creep, toughened-glass]
 ---
 
 A panel standoff is a two-part decorative fixing, a threaded barrel fixed to the wall and a cap screwed into its front, that clamps a drilled sheet of acrylic, glass, aluminium composite or metal between them so the panel is held a set distance off the wall with no frame or glue.
@@ -184,7 +184,7 @@ When you want a sheet panel (acrylic, glass, aluminium composite, metal, plywood
 
 ## When not to use it
 
-Not for heavy panels on weak walls (use fixings into studs or masonry, a French cleat, or a framed mount). Not for undrilled toughened glass: use edge-grip standoffs, mirror clips or glass clamps instead. Not where you don't want holes through the panel face: use edge-grip standoffs, rail or cable systems, or double-sided tape for very light signs. Not for holding a circuit board inside a case: that is a PCB standoff (see Shims, spacers and standoffs). Not for outdoor signs in strong wind on long barrels: use short barrels and more fixings (4over4).
+Not for heavy panels on weak walls (use fixings into studs or masonry, a French cleat, or a framed mount). Not for undrilled [toughened glass](../glossary.md#toughened-glass): use edge-grip standoffs, mirror clips or glass clamps instead. Not where you don't want holes through the panel face: use edge-grip standoffs, rail or cable systems, or double-sided tape for very light signs. Not for holding a circuit board inside a case: that is a PCB standoff (see Shims, spacers and standoffs). Not for outdoor signs in strong wind on long barrels: use short barrels and more fixings (4over4).
 
 ## Details
 

@@ -181,7 +181,7 @@ sources:
 research: research/connection-types/results/Cardboard_screws_and_rivets_cardboard_construction_screw_box_rivet_ziptie_rivet.json
 image: null
 pictures: []
-glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, brittle--ductile, infill, peel-vs-shear]
+glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, brittle--ductile, infill, peel-vs-shear, flute]
 ---
 
 Reusable plastic fasteners made for corrugated cardboard: a coarse-threaded plastic screw driven into a punched hole from one side, or a pair of plastic rivet halves pressed together through the hole from both sides, which clamp box panels together without tape or glue and can be taken out and reused, with smooth-shank rivets and plastic hinges for swinging joints.
@@ -261,7 +261,7 @@ Plastic cardboard screws and drivers (Makedo Scru, Scru+, Scru-Driver, Mini-Tool
 - Layers per length: the short Makedo Scru joins 'up to 3x layers' and the long Scru+ 'up to 5x layers' of corrugated cardboard (Makedo 'Using the Makedo tools'; Makedo FAQ). Other Makedo pages say the Scru+ handles 'four to six layers' (Pimoroni listing) or 'up to six layers' (Makedo FAQ, Invent kit list), and Adafruit says the short ones suit 'two or three layers' and the long one 'the thick, 5-ply cardboard from heavy-duty shipping boxes'. For more than 5 layers, 'Punch a hole from both sides and attach an additional Scru+ from behind', offsetting the screws (Makedo).
 - Don't over-tighten: 'Once the Scru stops turning, that will be enough' (Makedo 'Using the Makedo tools').
 - Fit box-rivet halves with their prongs at 90 degrees to each other, then press together until they click (TinkerLab).
-- Overlap panels, and put the flutes of the two layers in different directions for a stronger joint; fold brackets and ribs across (perpendicular to) the flutes (Makedo 'Connections and joints'). Where edges don't overlap, bridge them with a cardboard patch fastened on both sides (TinkerLab; Makedo).
+- Overlap panels, and put the [flutes](../glossary.md#flute) of the two layers in different directions for a stronger joint; fold brackets and ribs across (perpendicular to) the flutes (Makedo 'Connections and joints'). Where edges don't overlap, bridge them with a cardboard patch fastened on both sides (TinkerLab; Makedo).
 - Plan where the fasteners go and use as few as needed; one or two screws often hold (Makedo 'Connections and joints'). Fit the hard-to-reach rivets first and the ones near the edge last (TinkerLab).
 - For a hinged door, fix the hinge to the fixed (non-moving) panel first, with two screws per hinge half (Makedo Spin-Hinge page).
 - Know your board: common flutes are A (about 4.8 mm thick), B (3.2 mm), C (4.0 mm), E (1.6 mm) and F (0.8 mm), and Wikipedia says C flute is the most common in boxes (Wikipedia 'Corrugated fiberboard'), while Adafruit says A flute is (Adafruit 'Cardboard fundamentals').

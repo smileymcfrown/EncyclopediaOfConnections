@@ -178,7 +178,7 @@ sources:
 research: research/connection-types/results/Glued_tab_joint_glue_tab_glue_flap_construction_tab_edge_gluing_with_a_backing_strip.json
 image: null
 pictures: []
-glossary: [tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, peel-vs-shear]
+glossary: [tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, peel-vs-shear, flute, scarf-joint]
 ---
 
 A strip of extra paper or card left on one part's edge is folded on a scored line and glued under or behind the matching edge of the next part, making a small glued overlap (lap joint) that holds papercraft, card boxes and cardboard tubes together.
@@ -224,7 +224,7 @@ Avoid glue tabs when the joint must come apart again (use tab-and-slot joints, f
   - [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): glue between the tab and the next part; double-sided tape works the same way with a pressure-sensitive adhesive
 - **Input and output:** not applicable
 - **Power:** passive (no power needed)
-- **Load:** Light. The joint is strongest when loaded along the seam (shear) and weakest when the seam is pried open so the tab peels from one end (see Glued joint design). In practice the paper or card itself usually fails first ⚑ [uncertain]. Heavier cardboard joints use folded flanges, brackets and ribs, often across the flutes, for strength (Makedo).
+- **Load:** Light. The joint is strongest when loaded along the seam (shear) and weakest when the seam is pried open so the tab peels from one end (see Glued joint design). In practice the paper or card itself usually fails first ⚑ [uncertain]. Heavier cardboard joints use folded flanges, brackets and ribs, often across the [flutes](../glossary.md#flute), for strength (Makedo).
 - **Play and precision:** No play once set. [Accuracy](../glossary.md#repeatability--accuracy) depends on careful cutting and scoring, and small errors add up across many parts ([tolerance](../glossary.md#tolerance) stack-up), so build outwards from the middle (Gedelgo, DeviantArt). A tab leaves a small visible step the thickness of the paper at the seam; a tabless butt joint is flush but can leave a gap if the edges do not quite meet (Zealot Models forum).
 - **Taking it apart:** permanent: once glued, the paper usually tears before the tab comes away ⚑ [uncertain: no test found]. Cardboard flanges fixed with plastic cardboard screws instead of glue can be undone (Makedo).
 - **How often it can be reused:** once
@@ -248,7 +248,7 @@ Avoid glue tabs when the joint must come apart again (use tab-and-slot joints, f
 
 ### 3D printing tips
 
-not applicable: glue tabs are a paper and card joint. For gluing 3D-printed parts see Glued joint design (lap and scarf joints) and the split-part joints for large prints.
+not applicable: glue tabs are a paper and card joint. For gluing 3D-printed parts see Glued joint design (lap and [scarf joints](../glossary.md#scarf-joint)) and the split-part joints for large prints.
 
 ### Buying one (off-the-shelf parts)
 

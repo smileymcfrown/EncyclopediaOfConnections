@@ -167,7 +167,7 @@ sources:
 research: research/connection-types/results/Linked_lead_screws_synchronised_Z_axis_Z_sync_belt_screw_jack_system.json
 image: null
 pictures: []
-glossary: [misalignment, backlash, self-locking, idler, crank, linkage, solenoid, creep, perimeters]
+glossary: [misalignment, backlash, self-locking, idler, crank, linkage, solenoid, creep, perimeters, counter-rotating]
 ---
 
 Linked lead screws are two or more screws, each with a nut fixed to the part being lifted, that are tied together by a closed toothed belt, a chain or shafts and bevel gearboxes and turned by one motor, so they can never get out of step and the bed, gantry or platform stays level as it moves.
@@ -266,7 +266,7 @@ LOSS OF SYNC: a skipped belt tooth, a slipped pulley grub screw or a loose coupl
 - Ball screw: a low-friction screw that is never self-locking, so a linked ball-screw lift needs a brake
 - Belt drives (timing, round and V-belt) and Belt tensioner (spring-loaded idler): the belt and tensioner that do the linking
 - Chain and sprocket drive: the chain version of the link, stronger for heavy loads
-- Bevel gears (incl. mitre and crown gears), and Bevel splitter and counter-rotating drive (T-gearbox): the right-angle gearboxes used in screw-jack systems
+- Bevel gears (incl. mitre and crown gears), and Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive (T-gearbox): the right-angle gearboxes used in screw-jack systems
 - Line shaft and power take-off: one long shaft feeding several outputs, as in a screw-jack shaft line
 - Several motors driving one load (dual-motor drive, dual-motor gantry): the alternative of one motor per screw with electronic or firmware levelling
 - Rack and pinion: two racks tied to pinions on one shaft keep two sides of a gantry in step

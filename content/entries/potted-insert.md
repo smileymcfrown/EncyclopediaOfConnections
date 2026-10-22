@@ -162,14 +162,14 @@ image: null
 pictures: []
 glossary: [degrees-of-freedom, misalignment, tolerance, form-fit--force-fit--material-bond, captive-nut, boss, pilot-hole,
   counterbore--countersink, chamfer--fillet, undercut, repeatability--accuracy, brittle--ductile, perimeters, infill, cure,
-  peel-vs-shear]
+  peel-vs-shear, sandwich-panel]
 ---
 
 A local plug of hard epoxy (with or without a metal insert) set into the soft core of a sandwich or cored panel where a bolt or screw goes, so the fastener has something solid to grip and clamp against and the core around it stays sealed.
 
 **In plain words:** A way to put a solid, screw-holding spot into a light panel that has a soft or hollow filling between two thin skins: you open the hole up, scrape the soft filling out around it, fill the space with epoxy (often around a metal threaded insert), and drill or screw into that solid plug, so the bolt can't crush the panel and water can't get into the filling. **Proper term:** Potted insert (sandwich-panel insert; hard point).
 
-**Also called:** sandwich panel insert, honeycomb insert, panel insert (Shur-Lok 'Sandwich Panel Inserts'; Abbott Aerospace AA-SB-001 12.2.6); potted-in insert, potting an insert (Abbott Aerospace AA-SB-001 12.2.6); hard point, hardpoint (Kitplanes 'Tough Spot'; CMU Buggy 'Hard Point Manufacturing Documentation'; Model Aviation 'Installing a One-Piece Bolt-on Wing'); overdrill, fill and redrill; drill oversize, fill with epoxy and redrill (Practical Sailor 'A Solid Connection'; The Yacht Rigger); reefing and backfilling a cored deck (Cruising World, Steve D'Antonio); core-carve method (Practical Sailor); epoxy plug, epoxy ring (Practical Sailor; Cruising World); flox hard point (homebuilt aircraft; Kitplanes); through insert, blind insert, floating insert; spacer (Shur-Lok); hardware pad, high-density core insert (laid in during building; Cruising World).
+**Also called:** [sandwich panel](../glossary.md#sandwich-panel) insert, honeycomb insert, panel insert (Shur-Lok 'Sandwich Panel Inserts'; Abbott Aerospace AA-SB-001 12.2.6); potted-in insert, potting an insert (Abbott Aerospace AA-SB-001 12.2.6); hard point, hardpoint (Kitplanes 'Tough Spot'; CMU Buggy 'Hard Point Manufacturing Documentation'; Model Aviation 'Installing a One-Piece Bolt-on Wing'); overdrill, fill and redrill; drill oversize, fill with epoxy and redrill (Practical Sailor 'A Solid Connection'; The Yacht Rigger); reefing and backfilling a cored deck (Cruising World, Steve D'Antonio); core-carve method (Practical Sailor); epoxy plug, epoxy ring (Practical Sailor; Cruising World); flox hard point (homebuilt aircraft; Kitplanes); through insert, blind insert, floating insert; spacer (Shur-Lok); hardware pad, high-density core insert (laid in during building; Cruising World).
 
 ## How it works
 

@@ -217,7 +217,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [misalignment, over-centre, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever, creep,
-  fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear]
+  fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear, annealing]
 ---
 
 <div class="eoc-pictures">
@@ -308,7 +308,7 @@ None are needed; the hinge is part of the plastic. Useful supplies: polypropylen
 - Split hinges longer than about 6 in (150 mm) into two or more sections with small gaps (MIT guide; Fictiv).
 - Hinge length for a smooth bend: L = pi x R for a 180-degree fold, or L = (angle / 180) x pi x R for other angles, where R is the distance from the mating surface to the hinge centre line (Protolabs 'How to Design 3D-Printed Hinges'; Fictiv).
 - 3D-printed hinge thickness: FDM 0.4-0.6 mm with at least two layers; SLS 0.3-0.8 mm and at least 5 mm long; material jetting 0.4-0.8 mm (Hubs 'How to design living hinges for 3D printing'). MJF at least 0.02 in (0.5 mm), SLS at least 0.03 in (0.76 mm) (Protolabs).
-- Printed hinges last far less than moulded PP ones: about 25 folds for one FDM example and 30-50 for SLS, extended by annealing (Hubs); tens to hundreds of flexes versus millions for a well-moulded PP hinge (Fictiv).
+- Printed hinges last far less than moulded PP ones: about 25 folds for one FDM example and 30-50 for SLS, extended by [annealing](../glossary.md#annealing) (Hubs); tens to hundreds of flexes versus millions for a well-moulded PP hinge (Fictiv).
 - BOSL2's living_hinge_mask leaves hinge material 2 layer heights thick (e.g. 0.4 mm at 0.2 mm layers) at the bottom of a flat-printed plate, with a gap above it for folding (BOSL2 hinges.scad).
 - Avoid filled plastics: talc, mica and glass fibre in PP give very poor hinge life (MIT guide).
 

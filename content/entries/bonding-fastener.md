@@ -164,7 +164,7 @@ research: research/connection-types/results/Bonding_fastener_glueon_stud_bondedb
 image: null
 pictures: []
 glossary: [misalignment, torque, clearance, form-fit--force-fit--material-bond, captive-nut, repeatability--accuracy, creep,
-  cure, peel-vs-shear]
+  cure, peel-vs-shear, lay-up]
 ---
 
 A threaded stud, nut or collar welded to a broad perforated base plate that is glued to a surface or laminated into a composite, giving a strong threaded mounting point with no hole drilled through the part.
@@ -224,7 +224,7 @@ Not for loads that hold people, rigging, lifting or overhead loads unless the ma
 
 - **Ways to make or get it:**
   - off-the-shelf part (bonding studs, nuts and collars; adhesive kits)
-  - woodwork or composites lay-up (embedding in fibreglass, or a home-made G10 block with threaded rod)
+  - woodwork or composites [lay-up](../glossary.md#lay-up) (embedding in fibreglass, or a home-made G10 block with threaded rod)
   - 3D print (FDM) for home-made bases or covers holding a glued-in nut
 - **Printing it in one piece (print in place):** no: the threaded metal part is bought; a printed base with a [captive nut](../glossary.md#captive-nut) can be printed with a pause to drop the nut in, but it is then glued on as a separate part
 - **Tools:** Abrasive (sandpaper or Scotch-Brite) and solvent for surface preparation; the adhesive (two-part epoxy, a methacrylate in a cartridge gun with mixing nozzle, or a supplied one-part adhesive); tape, clamps or the maker's fixture to hold it still while it cures; a spanner for the nut (Carr Lane; Practical Sailor; Click Bond FAQ; tesa).

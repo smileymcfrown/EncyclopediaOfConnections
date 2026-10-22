@@ -180,7 +180,8 @@ sources:
 research: research/connection-types/results/Glass_and_mirror_edge_clips_and_clamps_mirror_clips_glass_clamp_glass_shelf_bracket_glass_bed_clip.json
 image: null
 pictures: []
-glossary: [form-fit--force-fit--material-bond, set-screw, counterbore--countersink, creep, perimeters, infill, overhang--bridging]
+glossary: [form-fit--force-fit--material-bond, set-screw, counterbore--countersink, creep, perimeters, infill, overhang--bridging,
+  toughened-glass]
 ---
 
 Brackets fixed to a wall, cabinet or printer bed that hold a sheet of glass, mirror or acrylic by its edge, either by a lip the sheet sits behind (mirror clips, J-channel) or by a screw that squeezes the sheet between rubber or plastic pads (glass clamps, shelf brackets, display connectors, bed clips), so the sheet is held without drilling it.
@@ -191,7 +192,7 @@ Brackets fixed to a wall, cabinet or printer bed that hold a sheet of glass, mir
 
 ## How it works
 
-Lip-type clips hold the sheet by shape: the bottom clips carry its weight on a ledge and the top clips reach over the front face so it can't tip forward; spring or sliding top clips are pushed up to slip the mirror in and then drop down to trap it (Reflect; RealHomes). Clamp-type fittings hold by friction: a screw squeezes the glass between two pads, and the rubber or plastic lining spreads the force, grips the smooth surface and keeps metal from touching the glass (Rainco: 'Ensure there is no direct metal-to-glass contact'). Some heavy shower clamps add a pin through a hole drilled in the toughened glass at the factory, so they are not truly drill-free (S3i). On a 3D printer, clips at the edges press the glass plate down onto the heated bed; on some printers two fixed clips at the back act as a lip and two front clips open (UltiMaker).
+Lip-type clips hold the sheet by shape: the bottom clips carry its weight on a ledge and the top clips reach over the front face so it can't tip forward; spring or sliding top clips are pushed up to slip the mirror in and then drop down to trap it (Reflect; RealHomes). Clamp-type fittings hold by friction: a screw squeezes the glass between two pads, and the rubber or plastic lining spreads the force, grips the smooth surface and keeps metal from touching the glass (Rainco: 'Ensure there is no direct metal-to-glass contact'). Some heavy shower clamps add a pin through a hole drilled in the [toughened glass](../glossary.md#toughened-glass) at the factory, so they are not truly drill-free (S3i). On a 3D printer, clips at the edges press the glass plate down onto the heated bed; on some printers two fixed clips at the back act as a lip and two front clips open (UltiMaker).
 
 ## Parts
 

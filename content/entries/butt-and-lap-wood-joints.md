@@ -224,7 +224,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, spline, heat-set-insert, captive-nut, pilot-hole, counterbore--countersink,
-  repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear]
+  repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -260,7 +260,7 @@ Use a screwed or nailed butt joint for quick, cheap, rough or temporary work: bu
 
 ## When not to use it
 
-Don't rely on screwed or pocket-screw butt joints for chairs or other furniture whose joints take repeated bending: they open up before they break (woodgears.ca); use mortise and tenon or dowel joints instead. Don't use a glued-only end-grain butt joint for anything load-bearing (USDA Wood Handbook ch. 10); reinforce it with dowels, biscuits, a [spline](../glossary.md#spline) or screws, or switch to a lap, finger or scarf joint. Avoid pocket holes in stock thinner than about 1/2 in. (Wikipedia; Kreg) and where both faces are visible (Wikipedia). For boxes and drawers seen from outside, finger or dovetail joints look better and hold better. For flat-pack furniture that must come apart often, use knock-down cam-lock or cross-dowel fittings rather than screws into particleboard edges.
+Don't rely on screwed or pocket-screw butt joints for chairs or other furniture whose joints take repeated bending: they open up before they break (woodgears.ca); use mortise and tenon or dowel joints instead. Don't use a glued-only end-grain butt joint for anything load-bearing (USDA Wood Handbook ch. 10); reinforce it with dowels, biscuits, a [spline](../glossary.md#spline) or screws, or switch to a lap, finger or [scarf joint](../glossary.md#scarf-joint). Avoid pocket holes in stock thinner than about 1/2 in. (Wikipedia; Kreg) and where both faces are visible (Wikipedia). For boxes and drawers seen from outside, finger or dovetail joints look better and hold better. For flat-pack furniture that must come apart often, use knock-down cam-lock or cross-dowel fittings rather than screws into particleboard edges.
 
 ## Details
 

@@ -238,7 +238,7 @@ pictures:
   alt: Many gold-plated pogo pins and pogo pin connector strips scattered on a white surface.
   kind: photo
   drawn: false
-glossary: [misalignment, stroke, detent, pitch, deflection, tolerance, o-ring]
+glossary: [misalignment, stroke, detent, pitch, deflection, tolerance, o-ring, flux]
 ---
 
 <div class="eoc-pictures">
@@ -333,7 +333,7 @@ Search for 'spring-loaded pin', 'spring-loaded contact', 'pogo pin' or 'test pro
 
 ## Common failures
 
-1) Intermittent contact because the pins are barely compressed: design for mid-stroke, or raise the target with a target pin or disc (Mill-Max). 2) Bent or jammed plungers from sideways loads or from parts sliding across the tips: guide the board straight down and support the pins in the holder (Mill-Max; MacroFab). 3) Pins crushed or worn early by over-compression: add a hard stop (Mill-Max). 4) Sticky plunger from dirt, flux, cleaning residue or glue that has wicked into the tube: keep pins clean and glue only at the base (Mill-Max FAQ on residues; glue point ⚑ [uncertain]). 5) Pins that miss their pads because the board isn't located: add a pocket, posts or stand-offs as registration (Adafruit; MacroFab). 6) Pins or tips that poke through plated holes: choose a head larger than the hole, or a cupped or crown head (MacroFab). 7) Weak springs after long use; MagSafe owners reported pin springs losing elasticity (Wikipedia 'MagSafe'). 8) Pins too short or too long for the stack-up: check the fit before committing (Adafruit). 9) A heavy bed-of-nails puts a lot of strain on the board under test (Wikipedia 'In-circuit testing').
+1) Intermittent contact because the pins are barely compressed: design for mid-stroke, or raise the target with a target pin or disc (Mill-Max). 2) Bent or jammed plungers from sideways loads or from parts sliding across the tips: guide the board straight down and support the pins in the holder (Mill-Max; MacroFab). 3) Pins crushed or worn early by over-compression: add a hard stop (Mill-Max). 4) Sticky plunger from dirt, [flux](../glossary.md#flux), cleaning residue or glue that has wicked into the tube: keep pins clean and glue only at the base (Mill-Max FAQ on residues; glue point ⚑ [uncertain]). 5) Pins that miss their pads because the board isn't located: add a pocket, posts or stand-offs as registration (Adafruit; MacroFab). 6) Pins or tips that poke through plated holes: choose a head larger than the hole, or a cupped or crown head (MacroFab). 7) Weak springs after long use; MagSafe owners reported pin springs losing elasticity (Wikipedia 'MagSafe'). 8) Pins too short or too long for the stack-up: check the fit before committing (Adafruit). 9) A heavy bed-of-nails puts a lot of strain on the board under test (Wikipedia 'In-circuit testing').
 
 ## Safety
 

@@ -204,7 +204,7 @@ pictures:
   alt: A red T-plug and its socket, each soldered to red and black battery wires, ready to be pushed together.
   kind: how-it-works
   drawn: false
-glossary: [form-fit--force-fit--material-bond, keying, gland]
+glossary: [form-fit--force-fit--material-bond, keying, gland, flux]
 ---
 
 <div class="eoc-pictures">
@@ -264,7 +264,7 @@ Not for mains: these are for battery and low-voltage DC wiring. Not for small cu
 - **Adjustable:** no.
 - **Access needed:** not applicable: most are in-line plugs on flying leads. Panel-mount versions are fixed into a printed or cut panel from the front (Printables 'XT60 Panel Mount').
 - **Materials:** Contacts: brass, gold-plated (AMASS XT60: brass gold plated, contact resistance 0.55 milliohm). Housing: nylon (PA) to UL94 V-0 flame rating, working range −20 to 120 °C (AMASS XT60 datasheet); some Deans-style housings soften when soldered (Wikipedia 'DC connector'). Wire: stranded copper, often soft silicone-insulated wire (Flite Test), sized to the plug: 12 AWG for XT60, 10 AWG for XT90, 8 AWG for XT120 and AS150, 6 AWG for AS300 (Holybro). Choose bullets that fit the wire without cutting strands away (Oscar Liang 2014). MC4: double-insulated, UV- and heat-resistant PV cable of the right diameter (Wikipedia 'MC4 connector').
-- **Heat, cold, water and wear:** Heat: AMASS XT60 working range is −20 to 120 °C, and its current rating assumes a temperature rise of under 60 °C (AMASS datasheet; Holybro). Deans-type housings can soften and twist if overheated while soldering (Wikipedia 'DC connector'). Lithium packs themselves should be kept out of direct sunlight, off hot surfaces and out of hot places (MIT). Water: XT, Deans, EC and bullet plugs are not sealed; Tamiya plugs are usable in damp, dirty conditions at low current (Wikipedia); MC4 is sealed by a rubber ring when used on the correct cable, and its cable must be UV- and heat-resistant because 'most cables deteriorate if used outdoors without protection from sunlight' (Wikipedia 'MC4 connector'). Corrosion: leftover soldering flux paste is corrosive, so clean it off (Flite Test). Wear: arcing on connection pits the contacts and raises their resistance (Wikipedia 'MC4 connector'; Aloft Hobbies).
+- **Heat, cold, water and wear:** Heat: AMASS XT60 working range is −20 to 120 °C, and its current rating assumes a temperature rise of under 60 °C (AMASS datasheet; Holybro). Deans-type housings can soften and twist if overheated while soldering (Wikipedia 'DC connector'). Lithium packs themselves should be kept out of direct sunlight, off hot surfaces and out of hot places (MIT). Water: XT, Deans, EC and bullet plugs are not sealed; Tamiya plugs are usable in damp, dirty conditions at low current (Wikipedia); MC4 is sealed by a rubber ring when used on the correct cable, and its cable must be UV- and heat-resistant because 'most cables deteriorate if used outdoors without protection from sunlight' (Wikipedia 'MC4 connector'). Corrosion: leftover soldering [flux](../glossary.md#flux) paste is corrosive, so clean it off (Flite Test). Wear: arcing on connection pits the contacts and raises their resistance (Wikipedia 'MC4 connector'; Aloft Hobbies).
 
 ## Making it
 

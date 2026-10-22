@@ -131,7 +131,7 @@ research: research/connection-types/results/Compression_limiter_crush_tube_bolt_
 image: null
 pictures: []
 glossary: [misalignment, axial--radial, torque, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
-  taper, boss, creep, stress-relaxation, perimeters, infill, peel-vs-shear]
+  taper, boss, creep, stress-relaxation, perimeters, infill, peel-vs-shear, sandwich-panel, lay-up, galvanic-corrosion]
 ---
 
 A compression limiter is a short, stiff metal tube fitted in a bolt hole through a soft or hollow part (plastic, a 3D print, rubber, wood, a composite or cored panel, a box-section tube), sized so the bolt's clamping force is carried by the tube instead of the soft material, which stops it crushing, cracking or slowly creeping until the bolt goes loose.
@@ -142,7 +142,7 @@ A compression limiter is a short, stiff metal tube fitted in a bolt hole through
 
 ## How it works
 
-A bolt clamps by stretching slightly, and that stretch only stays if everything it squeezes stays the same thickness. Plastic and other soft materials slowly squash and flow under a constant squeeze ([creep](../glossary.md#creep) and [stress relaxation](../glossary.md#stress-relaxation)), so the bolt loses its pull and the joint works loose (SPIROL: 'plastic always exhibits stress and strain relaxation under even modest loads'). A metal tube in the hole, made 'slightly shorter than the thickness of the plastic host', lets the plastic be gripped a little until the bolt head or washer lands on the tube; after that the tube carries the extra clamping load and the plastic is only lightly squeezed, so the bolt stays tight (SPIROL). The same idea stops a bolt crushing a hollow box section (a crush tube inside the rail; HP Academy) or the soft core of a sandwich panel (an epoxy ring round the bolt; Cruising World).
+A bolt clamps by stretching slightly, and that stretch only stays if everything it squeezes stays the same thickness. Plastic and other soft materials slowly squash and flow under a constant squeeze ([creep](../glossary.md#creep) and [stress relaxation](../glossary.md#stress-relaxation)), so the bolt loses its pull and the joint works loose (SPIROL: 'plastic always exhibits stress and strain relaxation under even modest loads'). A metal tube in the hole, made 'slightly shorter than the thickness of the plastic host', lets the plastic be gripped a little until the bolt head or washer lands on the tube; after that the tube carries the extra clamping load and the plastic is only lightly squeezed, so the bolt stays tight (SPIROL). The same idea stops a bolt crushing a hollow box section (a crush tube inside the rail; HP Academy) or the soft core of a [sandwich panel](../glossary.md#sandwich-panel) (an epoxy ring round the bolt; Cruising World).
 
 ## Parts
 
@@ -187,7 +187,7 @@ Not needed in solid metal parts or thick, hard laminates. Not a fix for a hole t
 - **Adjustable:** no: the limiter's length fixes the final clamped thickness; to change it, change the limiter or add a washer
 - **Access needed:** both sides: a through-bolt needs access to the bolt head and nut, unless the bolt goes into a threaded insert or tapped hole on the far side
 - **Materials:** Limiter: steel (high-carbon spring steel for split-seam types, low-carbon steel for moulded-in, zinc plated), aluminium 2024 (about 1/3 the weight of brass), brass (chosen where it must be more 'noble' than aluminium on the galvanic scale) (SPIROL); Bulten lists steel, brass and aluminium. Home-made: steel or aluminium tube, brass hobby tube, or a cured epoxy ring. Host (what it protects): thermoplastics and thermosets, 3D prints, plastic, wood and rubber parts (Vogelsang via Design World), composite and cored sandwich panels (Cruising World), hollow steel or aluminium box sections (HP Academy). Not needed where the part itself is a stiff metal or solid laminate that won't creep under the bolt.
-- **Heat, cold, water and wear:** The metal limiter itself is unaffected by heat and cold in hobby use; the point is that the plastic round it creeps faster when warm, so limiters matter most in hot places (engine bays, sunny windows, near heaters) ⚑ [uncertain: no opened source gives temperatures]. Corrosion: SPIROL's formed limiters are zinc plated with a sealer (144 hours to white corrosion and 384 hours to red corrosion in salt spray) or ArmorGalv-coated for 1000+ hours (CL220); aluminium and brass need no coating (SPIROL). Galvanic corrosion: choose brass where an aluminium limiter would sit against a more noble metal (SPIROL). Vibration: a limiter keeps bolt tension, which helps resist loosening, but still use thread-locking hardware where it shakes.
+- **Heat, cold, water and wear:** The metal limiter itself is unaffected by heat and cold in hobby use; the point is that the plastic round it creeps faster when warm, so limiters matter most in hot places (engine bays, sunny windows, near heaters) ⚑ [uncertain: no opened source gives temperatures]. Corrosion: SPIROL's formed limiters are zinc plated with a sealer (144 hours to white corrosion and 384 hours to red corrosion in salt spray) or ArmorGalv-coated for 1000+ hours (CL220); aluminium and brass need no coating (SPIROL). [Galvanic corrosion](../glossary.md#galvanic-corrosion): choose brass where an aluminium limiter would sit against a more noble metal (SPIROL). Vibration: a limiter keeps bolt tension, which helps resist loosening, but still use thread-locking hardware where it shakes.
 
 ## Making it
 
@@ -196,7 +196,7 @@ Not needed in solid metal parts or thick, hard laminates. Not a fix for a hole t
   - 3D print (FDM) or 3D print (resin): print the part with a hole sized for a metal tube, then press or glue the tube in (the tube itself should be metal)
   - CNC: machine a part's bolt [bosses](../glossary.md#boss) to take a pressed-in limiter
   - sheet metal: crush tubes welded into box sections (HP Academy)
-  - composite lay-up: overdrill, fill with thickened epoxy and redrill to make an epoxy ring in a cored panel (Cruising World)
+  - composite [lay-up](../glossary.md#lay-up): overdrill, fill with thickened epoxy and redrill to make an epoxy ring in a cored panel (Cruising World)
 - **Printing it in one piece (print in place):** partly: the printed part can be designed with a hole or a pause-and-drop pocket for the tube, but the limiter must be an added metal tube; a printed tube would creep just like the part it is meant to protect
 - **Tools:** none extra beyond the bolt's spanner or driver. To fit: an arbor press, vice or a bolt and washers to press knurled or split limiters in; epoxy for glued sleeves; a saw and file or linisher to cut home-made tube square; a drill to open the hole; a welder for welded-in crush tubes in steel rails (HP Academy). Factories use press machines or mould the limiter in (SPIROL).
 - **Difficulty:** easy: cut a metal tube square to just under the part's thickness and press or glue it into the hole; buy standard limiters if you need precise lengths
