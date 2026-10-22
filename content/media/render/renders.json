@@ -184,11 +184,6 @@
   "kind": "render",
   "note": ""
  },
- "glue-stick-and-starch-paste": {
-  "alt": "Render of a glue stick and starch paste: a blue paper panel is stuck down on one half of a white card sheet and the other half is shiny with freshly rubbed-on purple glue that dries clear; an open twist-up glue stick and its cap lie in front, and a small glass pot of white starch paste with a flat brush standing in it is behind.",
-  "kind": "render",
-  "note": ""
- },
  "glued-tab-joint": {
   "alt": "Render of glued tab joints in card: a small blue papercraft cube with its lid open shows narrow tabs folded in along the top edges and behind the corners, ready for the lid to be glued down onto them; beside it a brown card tube has its end cut into short tabs that are folded out flat and glued to a card base.",
   "kind": "render",
@@ -439,16 +434,6 @@
   "kind": "cross-section",
   "note": ""
  },
- "score-and-fold-hinge": {
-  "alt": "Render of a score-and-fold hinge: on a green cutting mat, a white card has a pressed V-groove scored along a steel ruler, with the bone folder that made it lying in front; beside it a piece of orange card folded on its score stands as a crisp tent, with the pressed line on the outside of the fold along its ridge.",
-  "kind": "render",
-  "note": "weak: at page size the score shows only as a thin grey line (on the white card and along the ridge of the orange tent); the light-and-shadow V of a real pressed groove is too small to show at this scale"
- },
- "score-and-slip-join": {
-  "alt": "Render of a score-and-slip join: a leather-hard clay mug has two patches of criss-cross scratches on its side where the handle will go, the upper one brushed with creamy slip; the curved clay handle lies beside it with its two ends scratched the same way, ready to be pressed on and blended in.",
-  "kind": "render",
-  "note": ""
- },
  "servo-or-motorised-latch": {
   "alt": "Render of a servo latch: a printed box cut in half shows a small blue hobby servo whose white arm pushes a steel bolt, through a wire link, along two guide blocks and through a screw eye hanging from the closed lid, so the lid is locked; a small controller board lies on the floor of the box.",
   "kind": "cross-section",
@@ -591,11 +576,6 @@
  },
  "wedge-dowel": {
   "alt": "Render of wedge dowels: a wooden side panel standing on edge with two keyhole-shaped slots in its face, and a shelf lying beside it with two ribbed dowels sticking out of its edge, lined up with the round ends of the slots, ready to be pushed in and slid along until they wedge tight.",
-  "kind": "render",
-  "note": ""
- },
- "wire-and-foil-armature": {
-  "alt": "Render of a wire and foil armature: a small four-legged figure being sculpted on a wooden base, with a skeleton of twisted aluminium wire running down its legs into holes in the base and along its neck and tail, crumpled foil taped round the wire to bulk out the body and head, and the back half already covered in a thin layer of clay.",
   "kind": "render",
   "note": ""
  },

@@ -204,19 +204,11 @@ pictures:
   drawn: true
   still: drawn/score-and-fold-hinge.svg
   kind: animation
-- file: render/score-and-fold-hinge.webp
-  alt: 'Render of a score-and-fold hinge: on a green cutting mat, a white card has a pressed V-groove scored along a steel
-    ruler, with the bone folder that made it lying in front; beside it a piece of orange card folded on its score stands as
-    a crisp tent, with the pressed line on the outside of the fold along its ridge.'
-  kind: render
-  render: true
-  drawn: true
 glossary: [stiffness, living-hinge, infill, kerf, grain-direction, flute, mountain-fold--valley-fold]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/score-and-fold-hinge.svg"><img src="../media/drawn/anim/score-and-fold-hinge.svg" alt="Side views of a score-and-fold hinge in card: a bone folder run along a ruler presses a groove into the top face and pushes a small bead out underneath; the card then folds on that line with the groove on the outside and the bead tucked inside the fold. Below, folding it the wrong way round (groove "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/score-and-fold-hinge.webp" alt="Render of a score-and-fold hinge: on a green cutting mat, a white card has a pressed V-groove scored along a steel ruler, with the bone folder that made it lying in front; beside it a piece of orange card folded on its score stands as a crisp tent, with the pressed line on the outside of the fold al" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A pressed (scored) or half-cut line that makes a sheet of paper, card, cardboard or foam board bend cleanly and accurately in one place, so the sheet folds into a box, card or model and the fold keeps working as a hinge.

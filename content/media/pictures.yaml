@@ -3731,7 +3731,12 @@ glued-tab-joint:
 - render
 glue-stick-and-starch-paste:
 - drawn
-- render
+- commons: File:Elmer's Office Glue Stick in action.JPG
+  kind: how-it-works
+  alt: A glue stick being rubbed across a sheet of paper, leaving a thin wet film of glue.
+- commons: File:FABER-CASTELL glue stick.jpg
+  kind: photo
+  alt: An open twist-up glue stick with its cap off and the solid stick of glue showing at the top.
 folding-box-closures:
 - drawn
 - render
@@ -3746,7 +3751,9 @@ baked-in-findings:
 - render
 wire-and-foil-armature:
 - drawn
-- render
+- commons: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  kind: how-it-works
+  alt: A sculptor pressing clay onto a bent-wire armature fixed upright in a wooden base; a finished small figure of the same pose stands behind.
 potted-insert:
 - drawn
 - render
@@ -3785,7 +3792,9 @@ cardboard-screws-and-rivets:
 - render
 score-and-fold-hinge:
 - drawn
-- render
+- commons: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  kind: how-it-works
+  alt: A hand creasing machine in use, with a sheet of card is held flat on its bed while the lever presses a crease line across it, ready to fold.
 pull-tab-and-slider-mechanism:
 - drawn
 - render
@@ -3806,4 +3815,13 @@ liquid-clay-bond:
 - render
 score-and-slip-join:
 - drawn
-- render
+- openverse: 38f0ba48-7a65-4f43-a492-ca0b2d02aeb3
+  url: https://live.staticflickr.com/14/14245847_84e665f0c8_b.jpg
+  title: scoring and slipping the flange
+  author: quinnums
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/35034359904@N01/14245847
+  site: Flickr via Openverse
+  kind: how-it-works
+  alt: A brush spreading slip onto the scored top edge of a soft clay ring before another part is pressed onto it.
