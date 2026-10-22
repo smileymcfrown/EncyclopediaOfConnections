@@ -72,7 +72,8 @@
       "Some backlash is required; a larger centre distance increases backlash and a smaller one can jam the gears (KHK 'Gear backlash' and 'Mounting accuracy of gears').",
       "Use tooth counts with no common factor (a hunting set, e.g. 15 and 31) to spread wear (EngineerDog; Wikipedia 'Gear train').",
       "Printed gear settings from one test series: horizontal expansion about -0.15 mm, infill at least 35%, 5 or more walls (HowToMechatronics; test your own printer).",
-      "Plastic gears grow with heat and moisture: KHK's example uses MC Nylon's expansion coefficient of 9 x 10^-5 per C, so a 1010 mm nylon rack lengthens about 1.8 mm for a 20 C rise (about 0.09 mm per 100 mm per 10 C); nylon also swells as it absorbs water, so allow extra backlash (KHK 'Design of plastic gears')."
+      "Plastic gears grow with heat and moisture: KHK's example uses MC Nylon's expansion coefficient of 9 x 10^-5 per C, so a 1010 mm nylon rack lengthens about 1.8 mm for a 20 C rise (about 0.09 mm per 100 mm per 10 C); nylon also swells as it absorbs water, so allow extra backlash (KHK 'Design of plastic gears').",
+      "One central gear driving a ring of gears round it (as in a multi-spindle drilling head, which drills several holes at once): each outer gear makes one outside mesh with the centre gear, so all the outer gears turn the same way as each other and the opposite way to the centre (Firgelli 'Multiple drilling machine'). If an outer ring gear (internal gear) also meshes with them, it is a planetary gear set; with the carrier held still (the 'star' type) it 'becomes an ordinary gear train', and the planets can only be spaced evenly if (sun teeth + ring teeth) / number of planets is a whole number (KHK Gear Technical Reference, section 17.1, Condition No. 2)."
     ]
   },
   "guidance": {
@@ -80,7 +81,8 @@
       "A mechanical clock or wind-up watch: its 'wheel train' of large wheels driving small pinions (Wikipedia 'Wheel train')",
       "A hobby servo or small gearmotor: a tiny fast motor driving a train of reduction gears (Wikipedia 'Servo (radio control)')",
       "A car's manual gearbox, where a reverse idler gear is slid in to make the car go backwards (Wikipedia 'Gear train')",
-      "Construction and school gear kits such as Meccano, K'Nex or Engino gear sets (brands), used to build and feel gear trains (DT Online buyers' guide)"
+      "Construction and school gear kits such as Meccano, K'Nex or Engino gear sets (brands), used to build and feel gear trains (DT Online buyers' guide)",
+      "A multi-spindle drilling head, where one central driver gear turns several equal spindle gears so a set of holes is drilled in one go (Firgelli 'Multiple drilling machine')"
     ],
     "when_to_use": "Use spur gears whenever you need a fixed, exact speed or torque change between parallel shafts: slowing a small motor down for a robot arm, winch, turntable or clock, speeding up a hand crank, keeping two shafts exactly in step, or reversing direction with an idler. They are the simplest, cheapest and most efficient gears (about 98-99.5% per mesh, KHK), easy to design with free generators, easy to print, and create no end thrust, so plain bearings or simple ball bearings are enough. Chain several stages (compound train) for big ratios in a small space.",
     "when_not_to_use": "Avoid spur gears for fast, quiet drives: they are noisy at high speed (Wikipedia 'Gear'); use helical or herringbone gears. For large reductions in one compact step use a planetary, worm, cycloidal or strain-wave gearbox; for a drive that must hold a load when the motor stops use a worm drive or add a brake; for shafts far apart use a belt or chain instead of a long chain of idlers (Wikipedia 'Gear train'); for zero backlash use anti-backlash gears or a strain-wave drive; for shafts at an angle use bevel or worm gears; if an overload must not break teeth, add a slip clutch.",
@@ -100,7 +102,10 @@
       "Intermittent gear and non-circular gears: special spur-like gears that give stop-go or varying speed",
       "Lantern gear (pin gear): a simple pin-and-disc gear that is easy to make from dowels",
       "Differential (bevel gear differential): lets two outputs turn at different speeds",
-      "Shaft-to-hub joints (key, set screw, D-flat, clamp hub): how each gear is fixed to its shaft"
+      "Shaft-to-hub joints (key, set screw, D-flat, clamp hub): how each gear is fixed to its shaft",
+      "Line shaft and power take-off: one long driven shaft that feeds several machines through its own belts, chains or gears, instead of a train of meshing gears",
+      "Bevel splitter and counter-rotating drive: one bevel gear between two facing bevels turns two outputs on one line in opposite directions",
+      "Several motors driving one load: two or more motors geared to one shared gear or shaft so their power adds up"
     ]
   },
   "media": {
@@ -199,7 +204,9 @@
       "https://help.prusa3d.com/article/pla_2062",
       "https://help.prusa3d.com/article/petg_2059",
       "https://www.youtube.com/watch?v=JTdSBcmtmsk",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.firgelliauto.com/blogs/mechanisms/multiple-drilling-machine",
+      "https://khkgears.us/media/izojpong/gear_guide1.pdf"
     ]
   },
   "uncertain": [

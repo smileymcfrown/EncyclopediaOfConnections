@@ -69,7 +69,8 @@
       "Tab width 1.0-1.5 x sheet thickness (1.2-1.8 x for press fits), tab length 1.0-1.2 x thickness, slot clearance 0.1-0.2 mm per side (0.05-0.1 mm for an accurate laser-cut friction fit; 0.1-0.15 mm per side for welded joints), tabs spaced 3-6 x thickness apart, at least 2 x thickness from the sheet edge and at least 1.5 x thickness from a bend tangent line (Fictiv 'Tabs and Slots for Sheet Metal Part Design'). Note: Protolabs' minimum for any tab feature on a sheet-metal outline is larger: at least 2 x thickness or 3.2 mm wide and no longer than 5 x its width (Protolabs sheet-metal design guidelines).",
       "Laser kerf is nominally about 0.007 inch; for a press fit, tab = slot + 2 x kerf + 2 x overlap, with an overlap of about 0.001-0.002 inch for stiff acrylic and 0.002-0.004 inch for MDF; always measure your sheet and test-cut (UPenn MEAM.Design 'Laser Cutting - Notes on Press Fits').",
       "In Boxes.py the 'burn' setting is half the laser cut width; bigger values give a tighter fit; wood can be cut oversized to press-fit without glue, brittle acrylic undersized to leave room for glue; adjust in steps of about 0.01 mm (Boxes.py user manual).",
-      "Run slots parallel to the direction of stress; in one FEA example turning the slot across the load doubled the peak stress (about 5 ksi to over 10 ksi); give slot corners a radius of at least 1/8 of the slot width and lengthen the slot by twice that radius so the tab still seats; a full-radius slot is strongest but least accurate, a dog-bone slot most accurate but with the biggest stress concentration (Mentored Engineer 'Proper Tab and Slot Design')."
+      "Run slots parallel to the direction of stress; in one FEA example turning the slot across the load doubled the peak stress (about 5 ksi to over 10 ksi); give slot corners a radius of at least 1/8 of the slot width and lengthen the slot by twice that radius so the tab still seats; a full-radius slot is strongest but least accurate, a dog-bone slot most accurate but with the biggest stress concentration (Mentored Engineer 'Proper Tab and Slot Design').",
+      "Corrugated card is much stiffer one way than the other: its properties are \"highly directional\", and edge crush strength and bending stiffness depend on which way the flutes run (Wikipedia 'Corrugated fiberboard'). Makedo finds overlapped panels stronger \"when the cardboard flutes are in different directions\" and folds \"across (perpendicular to) the flutes for strong, structural corners\" (Makedo connections and joints guide). Where you can, cut the tabs and slots so the flutes run across the joint [uncertain: advice from the gap search; no test of slotted card joints found]."
     ]
   },
   "guidance": {
@@ -77,7 +78,7 @@
       "Laser-cut acrylic or plywood project boxes, where the side walls' tabs poke through slots in the top and bottom (Wikimedia Commons 'ADBO - Project Box for Arduino (laser cut)')",
       "Flat-pack sheet-metal kits and brackets that slot together before welding, such as weld-it-yourself kits (SendCutSend) and a slot-together steel desk (Mentored Engineer)",
       "A laser-cut kitchen utensil holder and structural steel frames with interlocking tabs (Engineers Rule)",
-      "Cardboard boxes and packaging whose flaps tuck into slots [uncertain]"
+      "Card cartons closed by a tuck flap and locking tab (tongue) (Wikipedia 'Folding carton'); see Folding box closures for tuck, slit-lock and lock-bottom boxes"
     ],
     "when_to_use": "Use tab-and-slot joints whenever flat parts are cut by laser, waterjet, plasma or CNC router and must meet at an angle: boxes, enclosures, brackets, frames, shelves, gussets and furniture. They make parts find their own position so you don't need to measure, clamp or build a jig; welders use them to hold parts square while tacking, especially non-magnetic metals (SendCutSend; Fictiv). Different-sized tabs stop parts being fitted the wrong way round (SendCutSend). For hobby boxes they can be press-fitted without glue in wood, or keyed or bolted when the item must come apart (Ponoko; SendCutSend).",
     "when_not_to_use": "Avoid plain tabs in thin, flexible sheet, which flexes too much to hold (use bent tabs, hooks or a snap-lock sheet joint instead) (SendCutSend). Don't rely on a friction fit where tolerances are tight or the part will be moved a lot; Ponoko recommends bolts (a T-slot joint) or clips instead. Don't put slots in highly stressed areas or across the direction of load (Mentored Engineer); for critical structures add bolts or rivets or machine from solid (SendCutSend). If the joint must seal, fill it with glue or sealant or use a gasketed joint. For corner joints along whole edges a finger (box) joint is usually neater; for two parts crossing in the middle use a cross-halving slot joint.",
@@ -93,7 +94,9 @@
       "Mortise and tenon (incl. tusk tenon): the woodworking version; a tusk tenon is a tab locked by a removable wedge or key",
       "Crush ribs and spring-fit features: small ribs or nodes that make a press fit forgiving",
       "Locating pins and hole-and-slot: locate parts precisely with pins instead of tabs",
-      "Clinching and blind rivets: other ways to join sheet metal without welding"
+      "Clinching and blind rivets: other ways to join sheet metal without welding",
+      "Glued tab joint (glue tab, glue flap): the papercraft tab, folded on a score and glued behind the next part's edge instead of pushed through a slot",
+      "Folding box closures (tuck flap, slit lock, snap-lock and crash-lock bottoms): card box flaps and tabs that tuck or lock into place, covered in full there"
     ]
   },
   "media": {
@@ -171,16 +174,19 @@
       "https://commons.wikimedia.org/wiki/File:ADBO_-_Project_Box_for_Arduino_(laser_cut).jpg",
       "https://api.printables.com/graphql/",
       "https://www.youtube.com/watch?v=53Q4ct6bQeY",
-      "https://www.youtube.com/watch?v=DHcrX_ZnByA"
+      "https://www.youtube.com/watch?v=DHcrX_ZnByA",
+      "https://en.wikipedia.org/wiki/Corrugated_fiberboard",
+      "https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches",
+      "https://en.wikipedia.org/wiki/Folding_carton"
     ]
   },
   "uncertain": [
     "reuse_cycles",
     "adjustable",
     "making_tips_3d_printing",
-    "everyday_examples",
     "environment_limits",
     "safety_notes",
-    "make_it_yourself"
+    "make_it_yourself",
+    "rules_of_thumb"
   ]
 }
