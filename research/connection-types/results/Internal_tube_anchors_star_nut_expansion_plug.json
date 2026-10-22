@@ -10,7 +10,8 @@
       "expanding adapter stem; expansion stem; rubber expansion adapter (for casters in tube legs) (Caster Technology)",
       "expanding bar-end plug (bicycle handlebar end plug)",
       "tube-connecting nut ('push inside tubes to join them with a threaded stud instead of welding', McMaster-Carr category name)",
-      "expanding tube plug; wedge expanding plug; tube end plug with thread"
+      "expanding tube plug; wedge expanding plug; tube end plug with thread",
+      "bonded threaded end adapter; quick-release carbon tube connector (an aluminium adapter glued into a carbon tube end; DragonPlate)"
     ],
     "family": "clamping, magnetic & friction connections",
     "other_families": [
@@ -79,7 +80,7 @@
       "Screw-in levelling feet in square steel table and desk legs (Superior Glide), and expanding-stem casters in kitchen prep tables and carts (Caster Technology)",
       "The expanding plug that closes the end of a bicycle handlebar (Rossero's printable bar-end plug is based on 'common expanding sleeve bar ends')"
     ],
-    "when_to_use": "Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology).",
+    "when_to_use": "Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology). For carbon tube, a glued-in version is common: an aluminium threaded adapter is epoxied into each tube end and quick-release male and female ends screw into the adapters, so long trusses can be built from sections up to eight feet long and taken apart again; DragonPlate advises against drilling carbon tube to pin or bolt it, because that weakens the wall (DragonPlate 'How to Connect Carbon Fiber Tubes'). See Bonded tube joint.",
     "when_not_to_use": "Avoid them for heavy pulling loads or safety-critical joints where the only thing holding is friction inside a tube: use a through-bolt, a welded or bonded insert, or a rivet nut (see 'Blind threaded fixings'). Never use a barbed star nut in carbon fibre or other brittle tubes (use an expansion plug) (Sheldon Brown). If you need to fix something to the side of a tube rather than its end, use a clamp-on fitting or a rivet nut. If the tube's inside size varies or is unknown, a barbed or ribbed insert may be loose or impossible to fit: use an expanding type. For joining two tubes at an angle, clamp-on tube fittings are usually stronger.",
     "environment_limits": "Steel star nuts and plated nuts can rust inside a wet tube; zinc-plated steel nuts resist corrosion better (Superior Glide). Rubber and thermoplastic expanding bushings rely on staying squeezed: they may relax or loosen with time, heat or vibration, so re-check them [uncertain: no source gives figures]. Printed plugs: PLA softens above about 60 °C and degrades in sunlight (Prusa); use ASA for outdoor parts (ray of sunshine). Quill stem wedges can bind or seize inside the steerer over time (Wikipedia 'Stem (bicycle part)').",
     "safety_notes": "On a bicycle, a missing or loose steerer anchor lets the headset come loose, and a star nut in a carbon steerer can crack it to the point of failure (Wikipedia 'Stem (bicycle part)'); remember the anchor only pre-loads the bearings, and the stem clamp bolts must be tightened to hold the fork (Wikipedia 'Headset (bicycle part)'). Hammering in a star nut calls for eye protection and a guide so the hammer doesn't glance off [uncertain: general advice]. Don't rely on a friction-only plug to hold a person's weight in tension [uncertain: general advice]. Cut tube ends are sharp: deburr before fitting.",
@@ -95,7 +96,9 @@
       "Self-locking wedge (wedge clamp, taper key): the wedge principle behind the quill-stem wedge and printed wedge plugs",
       "Hose barb (barbed tube fitting): barbs that hold a soft hose from inside, and also seal",
       "Castor: the wheel that an expanding caster stem or a threaded tube insert holds in the end of a tube leg",
-      "Levelling foot: the screw-in foot that a ribbed threaded insert gives a square or round tube leg a thread for"
+      "Levelling foot: the screw-in foot that a ribbed threaded insert gives a square or round tube leg a thread for",
+      "Bonded tube joint (lugged or sleeved tube joint): glues a socket, sleeve or threaded end adapter into or over a tube end, the usual way to fix anything to carbon tube",
+      "Push-fit rod and spar fittings (kite fittings): small sockets and ferrules held on a rod or thin tube by a snug fit, for light frames such as kites"
     ]
   },
   "media": {
@@ -178,7 +181,8 @@
       "https://api.printables.com/graphql/",
       "https://help.prusa3d.com/article/pla_2062",
       "https://commons.wikimedia.org/wiki/File:Quill_stems.JPG",
-      "https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png"
+      "https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png",
+      "https://dragonplate.com/how-to-connect-carbon-fiber-tubes"
     ]
   },
   "uncertain": [
