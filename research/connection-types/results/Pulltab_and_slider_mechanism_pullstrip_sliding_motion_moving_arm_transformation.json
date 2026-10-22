@@ -66,7 +66,7 @@
   "rules_of_thumb": [
    "Pull slider: cut strips about 2 cm wide; cut a slot about 5 mm wide between the picture's start and end positions; fold two 2 cm tabs in half and glue them to the back of the picture; make the pull tab reach from one end of the slot to about 1 cm past the edge of the card; glue guide strips over the pull tab without gluing them to it (Warwick lesson 3).",
    "A slider needs a guide to keep it in place and a slot; Oak's quiz answer: 'The slot needs to be a bit longer than the slider bar'. Cut and measure accurately (Oak National Academy, 'Card slider mechanisms').",
-   "Levers: a rigid card bar turning on a split pin; make the pivot hole by pushing a pencil through the card into sticky tack (Oak National Academy, 'Card lever mechanisms'). A paperless-metal pivot: split tabs on the moving disc pushed through a hole about 1 cm wide and glued to the picture (Warwick lesson 3, rotary).",
+   "Levers: a rigid card bar turning on a split pin; make the pivot hole by pushing a pencil through the card into sticky tack (Oak National Academy, 'Card lever mechanisms'). A pivot with no metal: split tabs on the moving disc pushed through a hole about 1 cm wide and glued to the picture (Warwick lesson 3, rotary).",
    "Automatic pull-strip flap: attach the strip at line D on the flap; E = F flips the flap right over, E = 2 x F stands it vertical (Birmingham, via Cut Out + Keep). Start with card about 100 mm x 254 mm; put the main crease not more than 25 mm from the spine; for the under-page version extend the slit ends about 13 mm and set crease A about 13 mm from the spine.",
    "Test that the strip slides freely before gluing, and let the glue on the spine tab set before opening, because it 'takes a lot of stress' (Cut Out + Keep). White glue sets in about 30 minutes; PVA cures in about 24 hours (Superplexus 'Gluing Techniques').",
    "Give every pull tab hard stops; make it robust for children; do not let it cross the gutter unless it is meant to be automatic; design it so forgetting to reset it does not wreck it when the page turns; use a slip sheet between pull tabs on both sides of one leaf (Superplexus 'Interactive and Automatic Mechanisms'). A finger-slot slide in Peter and the Wolf moves about 2 in between the edges of its opening (Superplexus).",
@@ -85,7 +85,7 @@
   "when_not_to_use": "Not for something that should stand up off the page as it opens: use a parallel-fold or V-fold pop-up. Not for continuous turning: use a volvelle (paper wheel) on a centre pivot. Not for frequent rough use by small children unless it is built with stops and strong tabs (Superplexus). Avoid mechanisms that cross the gutter unless intended, since the risk of damage rises 'remarkably' (Superplexus). For rigid parts, use a real slide or linkage (rack and pinion, slider-crank, bell crank).",
   "environment_limits": "Paper: humidity makes card swell and stick in channels, and textured paper adds friction (Superplexus 'Paper') [uncertain: the humidity effect is not measured in a source]; static can make light paper layers cling (r/cardmaking comment suggesting an anti-static cloth) [uncertain]. Too much wet glue warps paper (Superplexus 'Physical Tools'). Acidic paper yellows and goes brittle; use acid-free card if it must last (Superplexus 'Paper').",
   "safety_notes": "Craft knives for cutting slots: cut to the side of yourself, on a cutting mat, with a safety ruler, a sharp blade and eye protection when changing blades (University of Greenwich workshop guidance). Strips tear at glued ends if pulled before the glue has set (Birmingham via Cut Out + Keep). Oak National Academy flags 'Risk assessment required - equipment' for its card lever and slider lessons; split-pin legs are sharp and small parts are a choking risk for young children [uncertain: not stated on the pages opened]. Light-up slide switches use coin cells; keep them away from young children [uncertain].",
-  "common_failures": "Sticks or jams: guide strips glued to the pull tab, a channel that is too tight, textured paper, or layers rubbing; leave clearance, test before gluing, use smooth card, vellum or a spacer frame (Warwick; Cut Out + Keep; Superplexus; r/cardmaking). Wobbles or runs at a slant: no proper channel (r/cardmaking). Pulls right out: no stops; add a stop such as a wider end (Superplexus). Tears at the glued end or slot ends: glue not set, or the strip is too weak; let glue set, reinforce tabs (Cut Out + Keep; Superplexus). Crushed when the page is turned with the tab out: design it so it fits inside the closed book in any position, or remind readers to reset it (Superplexus). Flap does not flip or stand as planned: strip attached at the wrong place on the flap (E = F or E = 2 x F; Cut Out + Keep). Two mechanisms on one leaf catch each other: add a slip sheet (Superplexus).",
+  "common_failures": "Sticks or jams: guide strips glued to the pull tab, a channel that is too tight, textured paper, or layers rubbing; leave clearance, test before gluing, use smooth card, vellum or a spacer frame (Warwick; Cut Out + Keep; Superplexus; r/cardmaking). Wobbles or runs at a slant: no proper channel (r/cardmaking). Pulls right out or over-travels: no stops; design in limits to movement ('stops', Superplexus). Tears at the glued end or slot ends: glue not set, or the strip is too weak; let glue set, reinforce tabs (Cut Out + Keep; Superplexus). Crushed when the page is turned with the tab out: design it so it fits inside the closed book in any position, or remind readers to reset it (Superplexus). Flap does not flip or stand as planned: strip attached at the wrong place on the flap (E = F or E = 2 x F; Cut Out + Keep). Two mechanisms on one leaf catch each other: add a slip sheet (Superplexus).",
   "related": [
    "Volvelle (paper wheel): paper discs turning on a centre pivot; the dissolving wheel is the rotating cousin of the Venetian-blind transformation",
    "Split-pin paper fastener (brass fastener): the usual pivot for paper lever arms",
@@ -124,10 +124,10 @@
     "license": "Copyright Michael McGinnis; videos on YouTube; link only"
    },
    {
-    "url": "https://commons.wikimedia.org/wiki/File:Lane%27s_Telescopic_View_-_The_Ceremony_of_Her_Majesty_Opening_the_Great_Exhibition_%28open%29.jpg",
-    "title": "Lane's Telescopic View (1851), Wikimedia Commons (Johns Hopkins Special Collections)",
-    "shows": "An 1851 tunnel (peepshow) book opened out, for the history of movable paper; not a pull-tab",
-    "license": "CC BY 2.0"
+    "url": "https://popuplady.com/about-pop-ups/glossary-of-pop-up-terms/",
+    "title": "Glossary of Pop-Up Terms, The Popuplady",
+    "shows": "Definitions with example photos: pull-tabs, metamorphosis (dissolving wheel and Venetian-blind slats, with a Nister example), spider web (a David A. Carter spider mechanism), flaps and lift-the-flap",
+    "license": "all rights reserved ('Any reproduction ... is expressly prohibited'); link only"
    }
   ],
   "make_it_yourself": [
@@ -168,7 +168,6 @@
    "https://www.cutoutandkeep.net/projects/automatic-pull-strip",
    "https://popuplady.com/about-pop-ups/glossary-of-pop-up-terms/",
    "https://en.wikipedia.org/wiki/Pop-up_book",
-   "https://commons.wikimedia.org/wiki/File:Lane%27s_Telescopic_View_-_The_Ceremony_of_Her_Majesty_Opening_the_Great_Exhibition_%28open%29.jpg",
    "https://collections.centerforbookarts.org/Detail/objects/1928",
    "https://www.thamesandhudson.com/products/paper-engineering-for-designers",
    "https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1vhkqv7&limit=50",
@@ -188,7 +187,6 @@
   ]
  },
  "uncertain": [
-  "aliases",
   "making_tips_3d_printing",
   "environment_limits",
   "safety_notes",
