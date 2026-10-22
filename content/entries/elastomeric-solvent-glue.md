@@ -94,6 +94,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, carbon fibre
+      or composites, glass or mirror, 'fabric, leather or cord']
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -106,6 +108,9 @@ needs_confirming:
   load_max:
     kind: source uncertain
     reason: '`load` is marked [uncertain] here: "light to medium [uncertain]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, holding_principle, load, materials, making_tips_3d_printing, environment_limits, common_failures]
@@ -336,6 +341,7 @@ The solvents are the main hazard. US Goop and Shoe Goo contain 25-50% toluene pl
 - ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, TPU or flexible prints, silicone, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, rubber, fabric or leather, foam, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…troleum distillates, but the sheets opened here don't name its rubber ⚑ [uncertain]. Older and Canadian formulas…"
 - ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), paper or card (source uncertain): `materials` is marked ⚑ [uncertain] here: "…troleum distillates, but the sheets opened here don't name its rubber ⚑ [uncertain]. Older and Canadian formulas…"
 - ⚑ Finder value `load_max` = medium (source uncertain): `load` is marked ⚑ [uncertain] here: "light to medium ⚑ [uncertain]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, clay or putty, carbon fibre or composites, glass or mirror, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -87,7 +87,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn, full turns]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -317,6 +321,7 @@ Razor blades and ground knife edges are very sharp: sci-toys warns to be 'very c
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Knife-edge and jewel pivots*: Rice Lake spells a pivot material "stellate"; probably Stellite, marked [uncertain].
 
 ## Sources

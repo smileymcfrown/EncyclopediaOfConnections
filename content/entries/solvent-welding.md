@@ -96,6 +96,7 @@ finder:
   powered_does: [not applicable]
   also_under: [melt]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -105,6 +106,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…''just fine'', but a reader reports it did not bond PLA+, so test first
       [uncertain]. PETG is ''inert to all chemi…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials, making_tips_3d_printing]
@@ -346,6 +350,7 @@ Solvent glues usually have the strongest smell of all glues and can contain flam
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, acrylic or polycarbonate, PVC, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…'just fine', but a reader reports it did not bond PLA+, so test first ⚑ [uncertain]. PETG is 'inert to all chemi…"
 - ⚑ Finder value `bonds_poorly` = resin prints, slippery plastics (PE or PP), wood, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…'just fine', but a reader reports it did not bond PLA+, so test first ⚑ [uncertain]. PETG is 'inert to all chemi…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

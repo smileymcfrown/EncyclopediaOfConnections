@@ -95,7 +95,11 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -364,6 +368,7 @@ This is the main topic for this entry. 1) Bursting: 'vessels containing compress
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Air tank and hydraulic accumulator*: Hackaday's 2016 article on printed air tanks says PVC pipe is safe for compressed air; OSHA's bulletin says never use it. The entry follows OSHA.
 - ⚑ Research note: Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law example).
 

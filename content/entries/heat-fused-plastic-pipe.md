@@ -90,7 +90,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -312,6 +316,7 @@ BURNS: socket fusion heater faces run at about 260 °C (500 °F) (NIBCO; CPChem)
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Heat-fused plastic pipe*: recorded side by side: insertion depth for 20 and 25 mm pipe (NIBCO 9/16 and 5/8 in, about 14 and 16 mm; a Printables gauge 15 and 18 mm), butt-fusion cooling (PPI TR-33 30-90 s per inch of diameter; ASTM F2620 11 min per inch of wall), and socket-fusion sizes (Wikipedia typically 40-125 mm; PP-R tables start at 20 mm).
 
 ## Sources

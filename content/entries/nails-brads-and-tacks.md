@@ -106,7 +106,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -351,6 +355,7 @@ Wear safety glasses or goggles when hammering, strike squarely, avoid glancing b
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Nails, brads and tacks*: nail-gun injuries differ (OSHA: about 37,000 emergency-room visits a year; Wikipedia quoting the CDC: about 42,000), both recorded; the worked load example is the agent's own calculation from the *Wood Handbook* equations and is marked [uncertain].
 
 ## Sources

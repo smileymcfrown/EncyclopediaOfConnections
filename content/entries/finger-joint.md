@@ -87,7 +87,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, seal, load, processes, print_in_place, making_tips_3d_printing, off_the_shelf_parts,
@@ -367,6 +371,7 @@ Table saw with a dado stack: the normal blade guard often can't be used for dado
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 15 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

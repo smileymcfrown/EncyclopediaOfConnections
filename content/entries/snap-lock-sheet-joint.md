@@ -87,11 +87,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ps release clips; a rubber mallet is not needed and can crack acrylic
       [uncertain].…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, seal, play_and_precision, materials, processes, making_tips_3d_printing, everyday_examples,
@@ -323,6 +327,7 @@ Acrylic clips that are over-bent can snap suddenly and leave sharp edges ⚑ [un
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ps release clips; a rubber mallet is not needed and can crack acrylic ⚑ [uncertain].…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

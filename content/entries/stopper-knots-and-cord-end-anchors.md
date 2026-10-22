@@ -91,11 +91,16 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or
+      cord']
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "3d print (fdm): holes, knot pockets, end"; knots family, so set to by hand (tied or
       wrapped)'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -369,6 +374,7 @@ Never trust a home-made knot, crimp or printed anchor to hold a person. 'Handle 
 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "3d print (fdm): holes, knot pockets, end"; knots family, so set to by hand (tied or wrapped)
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Stopper knots and cord-end anchors*: knot strength recorded side by side (Animated Knots 'at most 50%'; Yachting Monthly 2015 tests at Marlow Ropes, an overhand knot cut Dyneema and polyester braid to 35%). The figure-eight has three ABOK numbers in Wikipedia (#570, #420, #520).
 
 ## Sources

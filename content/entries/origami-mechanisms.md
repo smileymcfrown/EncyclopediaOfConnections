@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites,
+    'fabric, leather or cord']
 needs_confirming:
   connects:
     kind: best guess
@@ -105,6 +107,9 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube:
       push or pull along the a..."'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, job, input_output, power, play_and_precision, materials, processes, off_the_shelf_parts, everyday_examples,
@@ -373,6 +378,7 @@ Few hazards. Laying mesh or tape during a print pause puts your hands close to a
 - ⚑ Finder value `motion_in` = straight push or pull (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

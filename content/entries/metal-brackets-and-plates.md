@@ -101,7 +101,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -365,6 +369,7 @@ Connectors only reach their rated load with the fastener type, size and number t
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 15 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Metal brackets and plates* (369): written seconds before the usage limit stopped its agent on 2026-10-05, so there is no hand-back report and nothing was flagged; the file validates and was kept. It has 11 fields marked [uncertain], more than most entries, so check it first when reviewing.
 
 ## Sources

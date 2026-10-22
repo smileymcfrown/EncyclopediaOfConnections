@@ -94,10 +94,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
 needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -372,6 +376,7 @@ Burns: flames, hot knives and soldering irons burn, and molten nylon is hot and 
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Rope-end finishing*: recorded side by side: the common whipping's ABOK number (#3443 Animated Knots, #3442 Wikipedia); whipping width (about one rope diameter, Ashley via Wikipedia and Animated Knots, against 1.5 diameters, Wikipedia *Common whipping* and premiumropes); melt or whip synthetic rope (Wikipedia *Common whipping* says fuse; Animated Knots and Budworth say a whipping is better). One liquid whipping product carries a California Prop 65 warning.
 
 ## Sources

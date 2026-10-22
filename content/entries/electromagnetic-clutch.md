@@ -85,6 +85,7 @@ finder:
   powered_does: [brake or engage]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -92,6 +93,9 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, when_not_to_use, safety_notes]
@@ -354,6 +358,7 @@ Rotating shafts, pulleys and belts are entanglement and pinch hazards even when 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

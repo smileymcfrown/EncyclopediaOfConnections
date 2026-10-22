@@ -91,6 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [wires]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
@@ -98,6 +99,9 @@ needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -378,6 +382,7 @@ For mains voltage use certified glands and follow wiring rules; a printed gland 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "many times for bought glands ⚑ [uncertain];…"
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 
 ## Sources

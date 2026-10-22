@@ -92,7 +92,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -345,6 +349,7 @@ Not for lifting people, ever; overhead lifting needs rated terminations, rated s
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Wire-rope terminations*: clip count and spacing recorded side by side (Crosby sheet 56: 2 clips up to 7/16 in rope, 80%/90% efficiency; WorkSafeNB: 'at least three clips', 'up to 85%', though its own reprinted table lists 2; OSHA 1926.251 Table H-2 from 1/2 in rope: 3 drop-forged or 4 other clips, about 6 rope diameters apart; Wikipedia its own range). No efficiency for small crimped sleeves and no reuse limit for clips were found ([uncertain]).
 
 ## Sources

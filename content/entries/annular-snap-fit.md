@@ -89,11 +89,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts']
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…apart with a knife blade''); a press or mallet for large, stiff
       joints [uncertain]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, holding_principle, tools_needed, seal, play_and_precision, materials, processes, making_tips_3d_printing,
@@ -331,6 +335,7 @@ Small caps and snap-on parts can be swallowed or inhaled by children: pen caps f
 
 - ⚑ 18 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…apart with a knife blade'); a press or mallet for large, stiff joints ⚑ [uncertain]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

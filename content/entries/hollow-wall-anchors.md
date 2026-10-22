@@ -92,7 +92,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -344,6 +348,7 @@ Check for hidden cables and pipes before drilling: 'A common error is accidental
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Hollow-wall anchors*: makers' recommended loads (fischer, safety factor included: in 12.5 mm board about 0.08 kN self-drilling, 0.15-0.18 kN spring toggle, 0.20 kN molly) sit beside breaking loads (TOGGLER, which says use a quarter); Wikipedia's *Drywall anchor* load table cites no test source ([uncertain]). Where a gravity toggle belongs differs (Ramset: walls; Indexfix: ceilings).
 
 ## Sources

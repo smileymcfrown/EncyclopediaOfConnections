@@ -92,6 +92,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass
+      or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -101,6 +103,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL)
       [uncertain for silicone and PTFE]. Polye…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [holding_principle, materials, making_tips_3d_printing]
@@ -353,6 +358,7 @@ Skin: liquid resin and hardener irritate skin and eyes, and repeated contact can
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polye…"
 - ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), silicone (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polye…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, clay or putty, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

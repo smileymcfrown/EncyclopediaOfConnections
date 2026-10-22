@@ -84,6 +84,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   motion:
     kind: source uncertain
@@ -92,6 +93,9 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [motion, play_and_precision, making_tips_3d_printing, environment_limits]
@@ -348,6 +352,7 @@ Belt and chain drives trap fingers, hair and clothing: switch off and unplug bef
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `motion` = slide (source uncertain): `motion` is marked ⚑ [uncertain] here: "…length of the slot (typically a few millimetres to a few centimetres) ⚑ [uncertain:…"
 - ⚑ Finder value `connects` = wall, rail, desk or grid (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

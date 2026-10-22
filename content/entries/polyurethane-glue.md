@@ -90,6 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, glass or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -99,6 +100,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first
       [uncertain].…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials, processes, environment_limits, safety_notes]
@@ -330,6 +334,7 @@ It contains isocyanates, which irritate the eyes and skin and can sensitise the 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PETG, PVC, wood, metal, glass or ceramic, foam, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first ⚑ [uncertain].…"
 - ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), rubber (source uncertain): `materials` is marked ⚑ [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first ⚑ [uncertain].…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

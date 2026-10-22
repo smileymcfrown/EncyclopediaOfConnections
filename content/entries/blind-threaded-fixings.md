@@ -90,11 +90,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…asher (Smoking Steel Garage video ''Install Rivnuts Without The
       Tool'') [uncertain: video not watched]. Well nut…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, holding_principle, reuse_cycles, tools_needed, processes, making_tips_3d_printing, everyday_examples,
@@ -358,6 +362,7 @@ Drilling sheet metal leaves sharp burrs and swarf: wear eye protection and debur
 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…asher (Smoking Steel Garage video 'Install Rivnuts Without The Tool') ⚑ [uncertain: video not watched]. Well nut…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

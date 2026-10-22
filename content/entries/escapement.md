@@ -88,6 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -101,6 +102,9 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [adjustable, safety_notes, make_it_yourself]
@@ -394,6 +398,7 @@ Wound mainsprings store a lot of energy and can whip out or cut fingers if relea
 - ⚑ Finder value `motion_out` = steps, back-and-forth turning, straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = parallel, at an angle, crossed (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
+- ⚑ Finder value `made_of` = 3D prints, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -98,6 +98,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -107,6 +108,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…to verify'' (Loctite threadlocker manual). PLA and PETG are not listed
       [uncertain]. For plastic-to-plastic thre…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials, making_tips_3d_printing, when_not_to_use, environment_limits, common_failures, related]
@@ -328,6 +332,7 @@ Skin: typical threadlockers are skin sensitisers ('May cause an allergic skin re
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = metal (source uncertain): `materials` is marked ⚑ [uncertain] here: "…to verify' (Loctite threadlocker manual). PLA and PETG are not listed ⚑ [uncertain]. For plastic-to-plastic thre…"
 - ⚑ Finder value `bonds_poorly` = PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…to verify' (Loctite threadlocker manual). PLA and PETG are not listed ⚑ [uncertain]. For plastic-to-plastic thre…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, foam (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -93,6 +93,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -106,6 +107,9 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a
       lever: the closing force o..."'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -384,6 +388,7 @@ BS 1212 Part 1 (Portsmouth piston) brass float valves; Part 2 brass diaphragm an
 - ⚑ Finder value `motion_in` = not applicable (best guess): could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a lever: the closing force o..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a lever: the closing force o..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Water level (float height) -> valve opening. The float arm is a lever: the closing force o..."
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address; the entry credits the name only.
 
 ## Sources

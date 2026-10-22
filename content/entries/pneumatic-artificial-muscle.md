@@ -88,6 +88,7 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
 needs_confirming:
   power_source:
     kind: best guess
@@ -95,6 +96,9 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: lets go, keeps its last state'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -367,6 +371,7 @@ Stored air pressure is the main hazard. Over-inflation shortens a muscle's life 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, keeps its last state
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Pneumatic artificial muscle*: invention date (Wikipedia 1957; Wikibooks: Gaylord's 1957 patent; Bennington et al. 2023: 1930s-40s, made popular by McKibben in the 1950s); maximum contraction (Festo 25%, Shadow 35-37%, Osaka group 30% in its README but about 25% in its HardwareX test); twisting (Shadow: tolerated; Festo: forbidden, about 1° misalignment).
 
 ## Sources

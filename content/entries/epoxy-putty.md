@@ -91,6 +91,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass
+      or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -100,6 +102,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found
       [uncertain]. Grades exist for metal repa…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [holding_principle, materials, processes, making_tips_3d_printing, environment_limits, safety_notes]
@@ -322,6 +327,7 @@ Uncured epoxy can cause allergic skin reactions and irritate eyes, skin and airw
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PVC, wood, metal, glass or ceramic, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found ⚑ [uncertain]. Grades exist for metal repa…"
 - ⚑ Finder value `bonds_poorly` = PLA, PETG, ABS or ASA, nylon, TPU or flexible prints, slippery plastics (PE or PP) (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found ⚑ [uncertain]. Grades exist for metal repa…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, clay or putty, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

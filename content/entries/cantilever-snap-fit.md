@@ -84,11 +84,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release
       [uncertain]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -377,6 +381,7 @@ Generally none known. Over-bent arms can snap and send small sharp fragments fly
 
 - ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release ⚑ [uncertain]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

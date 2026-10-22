@@ -86,10 +86,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, materials, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes,
@@ -364,6 +368,7 @@ In motor-driven builds, the pin, slots and wheels form pinch and [shear](../glos
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

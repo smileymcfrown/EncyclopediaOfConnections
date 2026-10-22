@@ -89,6 +89,7 @@ finder:
   powered_does: [lock or hold]
   also_under: [control, overload]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
 needs_confirming:
   connects:
     kind: best guess
@@ -96,6 +97,9 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: stays locked, keeps its last state'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials, maker_difficulty, making_tips_3d_printing]
@@ -346,6 +350,7 @@ Fire and burns: the wire glows red to orange and reaches over 750 °C (Thurn); i
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `power_loss` = stays locked (best guess): versions differ: stays locked, keeps its last state
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -90,6 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming:
   seal:
     kind: source uncertain
@@ -102,6 +103,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…ion is small enough for the light to get through (single user report)
       [uncertain]. Limits: at least one part m…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [seal, materials, processes, environment_limits]
@@ -332,6 +336,7 @@ UV light is harmful to eyes and skin, so wear UV-blocking glasses and keep the b
 - ⚑ Finder value `seal` = watertight (source uncertain): `seal` is marked ⚑ [uncertain] here: "watertight ⚑ [uncertain]:…"
 - ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, resin prints, slippery plastics (PE or PP), silicone, acrylic or polycarbonate, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ion is small enough for the light to get through (single user report) ⚑ [uncertain]. Limits: at least one part m…"
 - ⚑ Finder value `bonds_poorly` =  (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ion is small enough for the light to get through (single user report) ⚑ [uncertain]. Limits: at least one part m…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

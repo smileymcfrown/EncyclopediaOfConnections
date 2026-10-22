@@ -88,6 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
 needs_confirming:
   tools:
     kind: source uncertain
@@ -96,6 +97,9 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process "injection moulding: where crush ribs come from; th" not recognised; defaulted'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, safety_notes, make_it_yourself]
@@ -337,6 +341,7 @@ Pressing parts in can crack the holder and send sharp fragments or brittle acryl
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…bolt-and-washer puller is kinder than a hammer for pressing bearings ⚑ [uncertain]; a lead-in chamfer on the ho…"
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process "injection moulding: where crush ribs come from; th" not recognised; defaulted
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

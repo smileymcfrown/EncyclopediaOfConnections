@@ -90,10 +90,14 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, environment_limits, safety_notes]
@@ -365,6 +369,7 @@ Pinch and crush point: fingers or loose clothing can be caught between the rolle
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = tube, rod or extrusion (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

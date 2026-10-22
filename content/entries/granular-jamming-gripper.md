@@ -85,10 +85,14 @@ finder:
   powered_does: [grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', paper or card, foam, glass or mirror]
 needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits, common_failures, make_it_yourself]
@@ -321,6 +325,7 @@ Latex balloons can trigger allergic reactions in people with latex allergy (Wiki
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, paper or card, foam, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

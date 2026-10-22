@@ -87,10 +87,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   seal:
     kind: source uncertain
     reason: '`seal` is marked [uncertain] here: "…levation), so the mechanism can be enclosed against dust and moisture [uncertain:…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [seal, load, play_and_precision, materials, processes, environment_limits, make_it_yourself]
@@ -342,6 +346,7 @@ Small neodymium magnets are dangerous if swallowed: two or more can pull togethe
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `seal` = none (source uncertain): `seal` is marked ⚑ [uncertain] here: "…levation), so the mechanism can be enclosed against dust and moisture ⚑ [uncertain:…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

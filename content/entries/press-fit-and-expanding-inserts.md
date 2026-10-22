@@ -90,7 +90,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -316,6 +320,7 @@ Few hazards: keep fingers clear of an arbor press or vice when pressing, and wea
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 18 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Press-fit and expanding inserts* (179): expansion inserts perform 'least of all' (SPIROL) against a 'very good hold' (Formlabs); boss size 1.5-2× the knurl diameter (SPIROL's 3D-print paper) against 2-3× the insert diameter (SPIROL's moulded-plastics guide). SPIROL's resin press-in figures (7 N·m, 40 N) were left out as inconsistent.
 
 ## Sources

@@ -86,11 +86,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…pliers and a vice or press to replace a car''s cross-and-bearing
       joint [uncertain]. Printed joints need small m…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, removability, tools_needed, load, play_and_precision, processes, making_tips_3d_printing,
@@ -350,6 +354,7 @@ Spinning universal joints are serious entanglement hazards: on tractor PTO shaft
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…pliers and a vice or press to replace a car's cross-and-bearing joint ⚑ [uncertain]. Printed joints need small m…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

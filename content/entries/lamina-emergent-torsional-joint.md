@@ -92,6 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
 needs_confirming:
   clicks:
     kind: best guess
@@ -100,6 +101,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…model has to hold its shape (BYU CMR ''Mini Flex Chair'' instructions)
       [uncertain] (for water jet and stamping)…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [motion, reuse_cycles, tools_needed, load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -332,6 +336,7 @@ A folded LET structure stores spring energy and snaps back toward flat when rele
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
 - ⚑ Finder value `tools` = power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…model has to hold its shape (BYU CMR 'Mini Flex Chair' instructions) ⚑ [uncertain] (for water jet and stamping)…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

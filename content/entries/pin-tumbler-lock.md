@@ -87,6 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -95,6 +96,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…e set screw); a mortice lock also needs a pocket cut in the door
       edge [uncertain: fitting details not from an…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, materials, processes, making_tips_3d_printing, safety_notes, common_failures, play_and_precision,
@@ -359,6 +363,7 @@ Few physical hazards; the main risks are lockouts (keep a spare key somewhere sa
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…e set screw); a mortice lock also needs a pocket cut in the door edge ⚑ [uncertain: fitting details not from an…"
+- ⚑ Finder value `made_of` = 3D prints, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

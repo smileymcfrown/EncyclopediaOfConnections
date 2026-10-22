@@ -90,7 +90,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam, carbon fibre or composites]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -309,6 +313,7 @@ EYES: wear safety glasses or goggles; 'you're spinning a molten plastic melt, we
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, foam, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Friction-welded plastic*: `scope-search-2026-10-03-heat-and-pipe.md` said friction-stir welds of PLA prints reached 106-124% of the base print's strength (Koçar et al., Polymers 2024). That compares the weld with a 20%-infill print; the best weld (17.83 MPa) is about a third of a solid PLA+ print (42-53 MPa). Both figures are in the entry, and the search file now carries a correction. Hackaday 2018's cut-through test showed the PLA glue-gun 'weld' fuses only on the surface; the entry uses it to explain cold welds.
 
 ## Sources

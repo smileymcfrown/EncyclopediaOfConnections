@@ -86,11 +86,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…may also need circlip pliers or a small press for shafts and bearings
       [uncertain]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, seal, play_and_precision, materials, maker_difficulty, processes, making_tips_3d_printing,
@@ -303,6 +307,7 @@ Because it holds the load when power is off, a jammed mechanism or trapped hand 
 
 - ⚑ 16 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…may also need circlip pliers or a small press for shafts and bearings ⚑ [uncertain]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

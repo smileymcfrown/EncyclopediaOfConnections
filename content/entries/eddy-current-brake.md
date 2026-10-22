@@ -87,11 +87,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the
       gap [uncertain]; pressing magnets into print…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, tools_needed, load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -355,6 +359,7 @@ Strong neodymium magnets can pinch skin and even break bones when they snap toge
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the gap ⚑ [uncertain]; pressing magnets into print…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

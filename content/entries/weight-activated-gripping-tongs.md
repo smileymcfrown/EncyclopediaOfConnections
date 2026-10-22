@@ -91,6 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -104,6 +105,9 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output:
       horizontal squeeze at..."'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -315,6 +319,7 @@ A dropped load can kill: 'The wrong application or improper use of a tong can ca
 - ⚑ Finder value `motion_in` = straight push or pull (best guess): could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Input: vertical pull on the bail (load + tongs weight, L) -> output: horizontal squeeze at..."
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Weight-activated gripping tongs*: "a grip ratio of 2 needs a friction coefficient above 0.25" is the agent's own calculation from Bushman's equations, labelled [derived]; check it.
 
 ## Sources

@@ -97,6 +97,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
 needs_confirming:
   clicks:
     kind: best guess
@@ -105,6 +106,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…eel cable, fittings such as wire rope clips or crimps at the hook
       end [uncertain]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -381,6 +385,7 @@ Stand back and stay out of the line the cable is pulling: if it slips or breaks 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
 - ⚑ Finder value `tools` = none, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…eel cable, fittings such as wire rope clips or crimps at the hook end ⚑ [uncertain]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -87,11 +87,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
     reason: '`reuse_cycles` is marked [uncertain] here: "…printed parts) though printed or wooden rails slowly wear and loosen
       [uncertain];…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, processes, environment_limits, off_the_shelf_parts]
@@ -360,6 +364,7 @@ Router safety: a dovetail bit can't plunge, so clear most of the waste first wit
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…printed parts) though printed or wooden rails slowly wear and loosen ⚑ [uncertain];…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

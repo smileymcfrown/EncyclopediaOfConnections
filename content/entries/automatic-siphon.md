@@ -90,6 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', clay or putty]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -103,6 +104,9 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical
       design figures: for ..."'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [power, making_tips_3d_printing, environment_limits]
@@ -345,6 +349,7 @@ Low risk in itself: no stored pressure and no moving parts. Related hazards in t
 - ⚑ Finder value `motion_in` = not applicable (best guess): could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical design figures: for ..."
 - ⚑ Finder value `motion_out` = steps (best guess): could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical design figures: for ..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Steady water inflow -> intermittent surges out (on-off flow). Typical design figures: for ..."
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, clay or putty (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -87,6 +87,7 @@ finder:
   powered_does: [lock or hold]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, metal]
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
@@ -97,6 +98,9 @@ needs_confirming:
   power_source:
     kind: best guess
     reason: powered, but no power source named in `power`; defaulted to electricity
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, make_it_yourself]
@@ -348,6 +352,7 @@ A power cut does not release the load: this is safer for lifting, but it also me
 - ⚑ Finder value `reuse_cycles` = effectively unlimited (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "effectively unlimited ⚑ [uncertain:…"
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `power_source` = electricity (best guess): powered, but no power source named in `power`; defaulted to electricity
+- ⚑ Finder value `made_of` = 3D prints, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

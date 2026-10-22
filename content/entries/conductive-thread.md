@@ -90,10 +90,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -347,6 +351,7 @@ SHORT CIRCUITS: the thread is bare and uninsulated, so a loose tail or two cross
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Conductive thread*: resistance per length recorded side by side (Adafruit stainless 16 and 10 Ω/ft; SparkFun 28 Ω/ft; Kitronik silver-plated 40-160 Ω/m, over 280 Ω after washing; Madeira HC12 under 100 Ω/m). No ABOK number was found for the quilter's knot. Where LilyPad began differs (Wikipedia: MIT Media Lab; SparkFun: Leah Buechley's PhD at CU Boulder); left out.
 
 ## Sources

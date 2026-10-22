@@ -89,6 +89,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -102,6 +103,9 @@ needs_confirming:
     kind: best guess
     reason: 'no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives
       a sidew..."'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [off_the_shelf_parts, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
@@ -342,6 +346,7 @@ Eccentrics set things that matter for safety, such as a car's wheel alignment, a
 - ⚑ Finder value `motion_in` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): no "in -> out" form in `input_output`: "An adjuster, not a drive: a rotation of the eccentric (up to 180°) gives a sidew..."
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

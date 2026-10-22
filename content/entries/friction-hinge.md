@@ -90,6 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -97,6 +98,9 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [play_and_precision, processes, print_in_place, making_tips_3d_printing, environment_limits, links, make_it_yourself]
@@ -357,6 +361,7 @@ A friction hinge only resists; it doesn't lock. If the torque is too low for the
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `clicks` = silent (best guess): the text uses both clicking and silent words
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

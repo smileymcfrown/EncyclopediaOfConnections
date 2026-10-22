@@ -86,6 +86,7 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', glass or mirror]
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -97,6 +98,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ts; a bowl of water for PVA-lock prints; tongs to handle the hot
       part [uncertain]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [power, reuse_cycles, tools_needed, making_tips_3d_printing, off_the_shelf_parts, everyday_examples, environment_limits,
@@ -339,6 +343,7 @@ Hot water at 70 to 85 degrees C and heat guns can scald or burn, so use tongs an
 - ⚑ Finder value `power_source` = liquid, heat (source uncertain): `power` is marked ⚑ [uncertain] here: "…n out of the hot water early it keeps the partial fold it has reached ⚑ [uncertain]…"
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `tools` = heat gun (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ts; a bowl of water for PVA-lock prints; tongs to handle the hot part ⚑ [uncertain]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

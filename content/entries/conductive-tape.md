@@ -96,6 +96,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
 needs_confirming:
   glue_traits:
     kind: best guess
@@ -114,6 +115,9 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -352,6 +356,7 @@ CUTS: 'Copper tape can give you a nasty paper cut, please be careful!' (SparkFun
 - ⚑ Finder value `bonds_poorly` = PLA, wood, paper or card (source uncertain): `materials` is marked ⚑ [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder ⚑ [uncertain: not on an opened page].…"
 - ⚑ Finder value `electrical_band` = up to about 3 A (source uncertain): `load` is marked ⚑ [uncertain] here: "Electrical: up to about 3 A ⚑ [uncertain: no maker publishes a current…"
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Conductive tape*: no maker publishes a current rating, so its 'up to about 3 A' lead-in is [uncertain]; copper tape's 0.08 Ω/m is labelled calculated.
 
 ## Sources

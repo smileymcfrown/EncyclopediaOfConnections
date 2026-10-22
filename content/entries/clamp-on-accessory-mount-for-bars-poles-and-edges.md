@@ -90,7 +90,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -355,6 +359,7 @@ On bikes and scooters, fit the mount where it 'does not interfere with the safe 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Clamp-on accessory mount*: printed bike-mount figures (PETG over PLA, bore 0.3 mm over the bar) are one filament maker's blog advice (QIDI) and are cited as such; clamp torques differ by maker (Garmin 0.8 N·m maximum; Surly the stated torque or 5 N·m, whichever is less).
 
 ## Sources

@@ -96,11 +96,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: rope, twine or strin"; knots family, so set to by hand (tied or
       wrapped)'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -363,6 +367,7 @@ Check any lashed structure under load before people climb or stand on it, and ne
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: rope, twine or strin"; knots family, so set to by hand (tied or wrapped)
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Pole lashings*: no laboratory strength data for rope lashings was found, so `load` is [uncertain]; wrap and frapping-turn counts differ between sources and are recorded side by side. Some facts in the knot and lashing entries come from designers' notes on Printables models (PLA going brittle outdoors, bamboo shrinking, how much cord a printed netting needle holds) and are labelled as such. Wikipedia's claim that polypropylene is damaged by UV has no citation there, so the entries say only that some synthetics are damaged more easily by UV.
 
 ## Sources

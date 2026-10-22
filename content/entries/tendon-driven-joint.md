@@ -87,6 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -94,6 +95,9 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: '`power` mentions losing power, but none of the three outcomes'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -358,6 +362,7 @@ Finger joints and the gap between fingers and palm are pinch points, and a servo
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…whereas a back-drivable drive lets the elastic return open the finger ⚑ [uncertain].…"
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Tendon-driven joint* (278): a cable-closed grip figure measured on people was left out on purpose.
 
 ## Sources

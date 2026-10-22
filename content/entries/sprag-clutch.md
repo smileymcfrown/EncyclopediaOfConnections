@@ -86,10 +86,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: []
@@ -320,6 +324,7 @@ A backstop that slips or rolls over lets a loaded conveyor, hoist or lift run ba
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ Finder value `clicks` = silent (best guess): the text uses both clicking and silent words
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

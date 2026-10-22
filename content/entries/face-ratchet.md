@@ -85,7 +85,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, input_output, load, play_and_precision, materials, processes, print_in_place, making_tips_3d_printing,
@@ -309,6 +313,7 @@ On a bicycle, a freewheel that slips because of wrong [lubrication](../glossary.
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 21 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

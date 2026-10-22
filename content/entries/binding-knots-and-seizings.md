@@ -100,10 +100,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', carbon fibre or composites, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: twine, whipping or s"; knots family, so set to sewing or leatherwork'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -354,6 +358,7 @@ Seizings and binding knots are not for heavy or critical loads (Wikipedia 'Seizi
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = sewing or leatherwork (best guess): first-listed process was "off-the-shelf part: twine, whipping or s"; knots family, so set to sewing or leatherwork
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Binding knots and seizings*: the constrictor's ABOK number differs (#1249 Wikipedia, #1188 on p. 216 per Animated Knots), both recorded; cable-lacing tie spacing differs between NASA-STD-8739.4A Table 9-1, the 1962 US Navy lacing manual and AeroElectric, recorded side by side; twine-size and turn rules for seizings come from ropeworks.biz, a hobbyist site, and are labelled so. **Convention to decide:** the entry is tagged with the electrical family but carries no current, so its `load` starts 'Electrical: not a conductor'; none of the fixed electrical lead-ins fits such entries.
 
 ## Sources

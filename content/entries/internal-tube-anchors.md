@@ -92,11 +92,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube
       end [uncertain: general advice].…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [load, removability, reuse_cycles, tools_needed, play_and_precision, materials, processes, making_tips_3d_printing,
@@ -334,6 +338,7 @@ On a bicycle, a missing or loose steerer anchor lets the headset come loose, and
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = sewing or leather tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube end ⚑ [uncertain: general advice].…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

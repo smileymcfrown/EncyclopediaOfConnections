@@ -99,7 +99,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -364,6 +368,7 @@ Never use unrated eyes or hooks for lifting people, climbing, swings, hammocks o
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Eye bolts, screw eyes and hooks*: angled-pull ratings differ (Crosby: 30% of the rating at 45°; DIN 580 instructions from Otto Ganter: M12 3,400 N in line, 2,400 N in a two-leg lift up to 45°, 1,700 N sideways up to 45°); same thread, different ratings (Crosby M12 1,000 kg, DIN 580 M12 about 340 kg); thread depth (DIN 580: 1.5× diameter in steel, 2× aluminium, 2.5× weak light metals; Crosby drawings at least 2×). All recorded side by side.
 
 ## Sources

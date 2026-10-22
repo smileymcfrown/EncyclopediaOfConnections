@@ -91,6 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -100,6 +101,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won''t bond
       [uncertain]. To fix cooled PCL to materi…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -348,6 +352,7 @@ Scalds and burns are the main hazard. Don't put your hands into hot water; lift 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond ⚑ [uncertain]. To fix cooled PCL to materi…"
 - ⚑ Finder value `bonds_poorly` = PLA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond ⚑ [uncertain]. To fix cooled PCL to materi…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Hand-mouldable thermoplastic*: moulding it on the body (Preproom: never in schools; Easy Composites sells it for that, with cling film over the skin). Both are in `safety_notes`.
 
 ## Sources

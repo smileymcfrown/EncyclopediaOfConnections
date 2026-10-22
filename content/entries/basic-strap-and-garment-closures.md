@@ -92,10 +92,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
 needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -364,6 +368,7 @@ Small buttons, toggles and buckle parts that come loose are a choking hazard for
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

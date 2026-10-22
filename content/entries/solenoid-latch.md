@@ -85,6 +85,7 @@ finder:
   powered_does: [lock or hold]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   power_loss:
     kind: best guess
@@ -92,6 +93,9 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, materials, making_tips_3d_printing, environment_limits, safety_notes, common_failures, make_it_yourself]
@@ -341,6 +345,7 @@ A fail-secure lock stays locked in a power cut: a DigiKey electronic-safe build 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = stays locked (best guess): versions differ: stays locked, lets go, keeps its last state
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

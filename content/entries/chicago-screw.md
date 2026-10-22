@@ -84,7 +84,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -330,6 +334,7 @@ A flat screwdriver 'can slip more easily on smooth metal surfaces', scratching t
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Chicago screw*: post length (Wikipedia: shorter than the material; Pet Hardware blog: 1-1.5 mm shorter, with a worked example); the alias 'binding post' clashes with the electrical binding post, and the entry says so; the Loctite manual rates ABS, ASA, PC, acrylic, PS and PVC 'often not suitable', so the entry keeps threadlocker off printed parts.
 
 ## Sources

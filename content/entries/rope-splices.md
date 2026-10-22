@@ -102,11 +102,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: rope, spliced by han"; knots family, so set to by hand (tied or
       wrapped)'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -379,6 +383,7 @@ Home-made splices aren't rated or tested: never use one for climbing, arborist w
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: rope, spliced by han"; knots family, so set to by hand (tied or wrapped)
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Rope splices*: recorded side by side: tuck counts (Toss via Wikipedia 3 natural / 5 synthetic; Animated Knots at least 5 in slippery synthetics, 7 for critical uses; Samson 5; OSHA 29 CFR 1910.184(h)(3), the legal minimum for US lifting slings: eye splice 3 in manila and 4 in synthetic, short splice 6 and 8); bury length (Animated Knots 72 rope diameters for HMPE, about half for polyester; DSM via Wikipedia 60x, 100x for uncoated Dyneema); strength ('full strength', '25-40% decay' against '5%', 90-100%). Best test source: Milne & McLaren, *Sports Engineering* 9(1) 2006 (2-tuck eye splices slipped at 73%; 4-tuck splices in 6 and 12 mm rope reached only 63% and 83%; short-overlap braid-on-braid splices slipped at 15-24%). The Diamond 2007 Strathclyde report could not be opened, so its figures are cited only through Wikipedia.
 
 ## Sources

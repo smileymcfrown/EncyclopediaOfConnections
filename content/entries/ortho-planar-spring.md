@@ -86,11 +86,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…gs that drop into a housing; a screwdriver if the rim is screwed
       down [uncertain: depends on the housing]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, tools_needed, load, adjustable, materials, processes, off_the_shelf_parts, environment_limits,
@@ -313,6 +317,7 @@ Generally low risk: it stores little energy. Printed legs can snap suddenly if p
 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…gs that drop into a housing; a screwdriver if the rim is screwed down ⚑ [uncertain: depends on the housing]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, paper or card (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

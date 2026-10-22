@@ -86,11 +86,16 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or
+      cord']
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…dia, Compound bow); a winding key and let-down tools for fusee clocks
       [uncertain]; ''everyday tools'' to adjust…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -337,6 +342,7 @@ Stored spring energy: if a fusee chain breaks, 'the force of the mainspring sent
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…dia, Compound bow); a winding key and let-down tools for fusee clocks ⚑ [uncertain]; 'everyday tools' to adjust…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

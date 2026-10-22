@@ -88,10 +88,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam]
 needs_confirming:
   threaded:
     kind: best guess
     reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [seal, common_failures, processes, environment_limits, safety_notes, links]
@@ -323,6 +327,7 @@ Low hazard. Clips and centre pins are small enough to be a choking hazard for yo
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `threaded` = no (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites,
+    glass or mirror]
 needs_confirming:
   usual_process:
     kind: best guess
@@ -98,6 +100,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`removability` is marked [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent
       [uncertain: no source describes removing…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -333,6 +338,7 @@ Edge trim is itself a safety part: it covers exposed sharp edges (PAR Group). Cu
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ Finder value `removability` = removable (source uncertain): `removability` is marked ⚑ [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent ⚑ [uncertain: no source describes removing…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Push-on edge trim*: mitring corners with tin snips (PAR Group: yes; Trim-Lok: 'not possible'), both recorded. No pull-off force or refit count found ([uncertain]); no openly licensed edge-trim images on Commons.
 
 ## Sources

@@ -88,6 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -101,6 +102,9 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: both sides turn, but no shaft layout named
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -391,6 +395,7 @@ Pinch and crush points: the force near straight is huge (about 29 times the inpu
 - ⚑ Finder value `motion_in` = back-and-forth turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `motion_out` = back-and-forth turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

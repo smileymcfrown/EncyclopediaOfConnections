@@ -93,7 +93,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  made_of: [3D prints, metal, carbon fibre or composites, 'fabric, leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -355,6 +359,7 @@ Use rated shackles and quick links, with the working load limit permanently mark
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Shackle and quick link*: Crosby's side-load table (70% at 45°, 50% at 90°) comes from 2013 catalogue pages in a CUNY handout; the 2023 sheet points to a Table 1 not in that PDF. Soft shackle test page (Balance Community 2014): heading 136% of line strength, table 139.63%.
 
 ## Sources

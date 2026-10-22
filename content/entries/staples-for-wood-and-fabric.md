@@ -92,6 +92,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
 needs_confirming:
   tools:
     kind: source uncertain
@@ -100,6 +101,9 @@ needs_confirming:
   cord_part:
     kind: best guess
     reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, seal, load, materials, processes, making_tips_3d_printing, environment_limits,
@@ -343,6 +347,7 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples ⚑ [uncertain]; safety glasses (Toolstation…"
 - ⚑ Finder value `cord_part` = fix to fabric or an edge (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

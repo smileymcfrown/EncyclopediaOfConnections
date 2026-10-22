@@ -85,10 +85,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
 needs_confirming:
   tools:
     kind: best guess
     reason: no tool named in `tools_needed`; defaulted to hand tools
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -323,6 +327,7 @@ None known specific to the joint. Normal printer precautions apply: hot nozzles 
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (best guess): no tool named in `tools_needed`; defaulted to hand tools
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Multi-material interlock*: which plastics bond (Bambu: TPU and PETG bond easily, TPU and PLA poorly; UltiMaker: CPE and TPU incompatible). UltiMaker's "only limited by the weakest material" overstates it: Kuipers et al. give an upper bound of 1/(1/σA + 1/σB).
 
 ## Sources

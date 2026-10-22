@@ -95,11 +95,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the retaining
       clip [uncertain]; someone or something to hol…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, tools_needed, play_and_precision, processes, making_tips_3d_printing, when_not_to_use, safety_notes,
@@ -366,6 +370,7 @@ It is a pressure vessel: internal pressure can be up to 300 bar (4,350 psi); do 
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the retaining clip ⚑ [uncertain]; someone or something to hol…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

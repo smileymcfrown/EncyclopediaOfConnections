@@ -93,6 +93,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   motion_in:
     kind: source uncertain
@@ -110,6 +111,9 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ud or to adjust the tension screw on some other pole and tripod
       locks [uncertain]…"'
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, load, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes,
@@ -354,6 +358,7 @@ A bike quick release that is left open, or closed like a wing nut without real c
 - ⚑ Finder value `motion_out` = straight push or pull (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli ⚑ [uncertain])…"
 - ⚑ Finder value `shaft_layout` = not applicable (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…clamping stroke (a skewer pulls its rod about 0.8 to 1.2 mm, Firgelli ⚑ [uncertain])…"
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ud or to adjust the tension screw on some other pole and tripod locks ⚑ [uncertain]…"
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

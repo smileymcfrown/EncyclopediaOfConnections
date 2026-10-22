@@ -91,6 +91,7 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   power_loss:
     kind: best guess
@@ -98,6 +99,9 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
+  made_of:
+    kind: best guess
+    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -379,6 +383,7 @@ External gear pumps and hydraulic gear motors (single or double direction, alumi
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: Items 316-323 (researched after the pause): printed gear pumps disagree on priming (Printables 277351 "needs to be primed"; 286142 and 1534241 say they prime themselves); gear-pump efficiency (Wikipedia *Gear pump* "generally very efficient" vs *Hydraulic pump* lowest volumetric efficiency, about 90%); air-caster air-film thickness (AeroGo 0.003-0.005 in, Wikipedia "less than a millimeter", Airfloat "approximately a millimeter"); BS 1212 Part 2 float valve (DIY Doctor: plastic Part 1 valve; Squote, APM and the BSI listing: brass diaphragm valve). CNC Cookbook's claim that sliding a part on a vacuum table takes at least twice the lifting force contradicts Mekanika's friction figure and was left out.
 
 ## Sources
