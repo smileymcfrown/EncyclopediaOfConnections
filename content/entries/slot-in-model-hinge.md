@@ -153,10 +153,32 @@ sources:
 - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Slotin_model_hinge_CA_hinge_flat_hinge_pinned_hinge_point.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/slot-in-model-hinge.svg
+  alt: Cut-away side view of the back edge of a model plane's wing and the front of its aileron, both balsa. A flat hinge
+    is pushed half into a slot in each and glued, with a toothpick peg through each half so it can't pull out; the edges are
+    bevelled and the hinge bends in the gap between them. Below, seen from above, three hinges share each hinge line, and
+    beside it a round hinge point turns on a pin in drilled holes. The animation swings the aileron up, then down, then back
+    level, the hinge bending in the gap.
+  drawn: true
+  still: drawn/slot-in-model-hinge.svg
+  kind: animation
+pictures:
+- file: drawn/anim/slot-in-model-hinge.svg
+  alt: Cut-away side view of the back edge of a model plane's wing and the front of its aileron, both balsa. A flat hinge
+    is pushed half into a slot in each and glued, with a toothpick peg through each half so it can't pull out; the edges are
+    bevelled and the hinge bends in the gap between them. Below, seen from above, three hinges share each hinge line, and
+    beside it a round hinge point turns on a pin in drilled holes. The animation swings the aileron up, then down, then back
+    level, the hinge bending in the gap.
+  drawn: true
+  still: drawn/slot-in-model-hinge.svg
+  kind: animation
 glossary: [stiffness, living-hinge, clearance, form-fit--force-fit--material-bond, brittle--ductile, cure, peel-vs-shear]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/slot-in-model-hinge.svg"><img src="../media/drawn/anim/slot-in-model-hinge.svg" alt="Cut-away side view of the back edge of a model plane&#x27;s wing and the front of its aileron, both balsa. A flat hinge is pushed half into a slot in each and glued, with a toothpick peg through each half so it can&#x27;t pull out; the edges are bevelled and the hinge bends in the gap between them. Below, see"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Hinges for radio-controlled model planes that are pushed into matching slits or drilled holes along the edges of a wing (or tail) and its moving flap and glued in, giving a hidden, screw-free pivot along the hinge line.
 

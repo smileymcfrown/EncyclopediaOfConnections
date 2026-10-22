@@ -170,10 +170,30 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Cable_splitter_cable_doubler_oneintotwo_cable_junction_dualcontrol_brake_splitter.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/cable-splitter.svg
+  alt: 'A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and
+    two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same
+    distance. Animated: the lever is pulled, the slider and both output wires move the same distance and both brake arms swing,
+    then springs pull everything back.'
+  drawn: true
+  still: drawn/cable-splitter.svg
+  kind: animation
+pictures:
+- file: drawn/anim/cable-splitter.svg
+  alt: 'A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and
+    two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same
+    distance. Animated: the lever is pulled, the slider and both output wires move the same distance and both brake arms swing,
+    then springs pull everything back.'
+  drawn: true
+  still: drawn/cable-splitter.svg
+  kind: animation
 glossary: [stroke, crank, linkage, clearance, form-fit--force-fit--material-bond, set-screw]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cable-splitter.svg"><img src="../media/drawn/anim/cable-splitter.svg" alt="A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same distance. Animated: the lever is pulled, the slider and both o"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A cable splitter is a small junction where one control cable is joined to two (so one lever pulls both the same distance) or two cables are joined to one (so either lever can pull the output), letting one hand work two brakes, one twistgrip open two carburettors and an oil pump, or a second lever work the same brake.
 

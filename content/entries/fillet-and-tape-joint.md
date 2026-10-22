@@ -181,11 +181,27 @@ sources:
 - https://idph.illinois.gov/envhealth/factsheets/fiberglass.htm
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Filletandtape_joint_stitchandglue_seam_glasstape_tabbing_tackandtape.json
-image: null
-pictures: []
+image:
+  file: drawn/fillet-and-tape-joint.svg
+  alt: Three cross-sections of a stitch-and-glue seam where two plywood panels meet in a V. First, a twist of wire through
+    holes near both edges holds the panels in shape. Second, with the wire snipped off, a curved fillet of thick epoxy fills
+    the inside corner. Third, glass tape wet with epoxy is laid over the fillet and onto both panels, so load flows round
+    the curve from one panel to the other instead of through a sharp corner.
+  drawn: true
+pictures:
+- file: drawn/fillet-and-tape-joint.svg
+  alt: Three cross-sections of a stitch-and-glue seam where two plywood panels meet in a V. First, a twist of wire through
+    holes near both edges holds the panels in shape. Second, with the wire snipped off, a curved fillet of thick epoxy fills
+    the inside corner. Third, glass tape wet with epoxy is laid over the fillet and onto both panels, so load flows round
+    the curve from one panel to the other instead of through a sharp corner.
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, taper, chamfer--fillet, repeatability--accuracy, stress-concentration, end-grain,
   cure, peel-vs-shear, sandwich-panel, lay-up, scarf-joint]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/fillet-and-tape-joint.svg" alt="Three cross-sections of a stitch-and-glue seam where two plywood panels meet in a V. First, a twist of wire through holes near both edges holds the panels in shape. Second, with the wire snipped off, a curved fillet of thick epoxy fills the inside corner. Third, glass tape wet with epoxy is laid ove"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A seam made by pulling two panels together with temporary stitches, filling the inside corner with a smooth cove of thickened epoxy (the [fillet](../glossary.md#chamfer--fillet)) and laying resin-soaked glass tape across it, so the panels are welded into one stiff shell without frames or fasteners.
 

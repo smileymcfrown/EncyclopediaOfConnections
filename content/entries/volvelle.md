@@ -206,10 +206,26 @@ sources:
   under 3)
 - 'https://api.printables.com/graphql/ (Printables API: models 226087 and 1882238)'
 research: research/connection-types/results/Volvelle_paper_wheel_wheel_chart_rotating_disc.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/volvelle.svg
+  alt: 'Animated volvelle (paper wheel): the top disc turns on its split-pin pivot, first one way and then the other, and
+    its window shows a different word from the ring printed on the base disc at each stop.'
+  drawn: true
+  still: drawn/volvelle.svg
+  kind: animation
+pictures:
+- file: drawn/anim/volvelle.svg
+  alt: 'Animated volvelle (paper wheel): the top disc turns on its split-pin pivot, first one way and then the other, and
+    its window shows a different word from the ring printed on the base disc at each stop.'
+  drawn: true
+  still: drawn/volvelle.svg
+  kind: animation
 glossary: [misalignment, detent, stiffness, clearance, form-fit--force-fit--material-bond, print-in-place]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/volvelle.svg"><img src="../media/drawn/anim/volvelle.svg" alt="Animated volvelle (paper wheel): the top disc turns on its split-pin pivot, first one way and then the other, and its window shows a different word from the ring printed on the base disc at each stop."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two or more paper or card discs share a single pivot through their centres, so turning one disc against another moves pointers, windows and printed scales into new line-ups, giving a paper calculator, a reference dial, a code wheel or a changing picture.
 

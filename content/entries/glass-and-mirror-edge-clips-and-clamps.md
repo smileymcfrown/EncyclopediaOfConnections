@@ -178,11 +178,27 @@ sources:
 - https://api.printables.com/graphql/ (models 8907, 711145, 501068, 242020, 1881558, 926695)
 - https://www.youtube.com/watch?v=dmuHNFfNVzk
 research: research/connection-types/results/Glass_and_mirror_edge_clips_and_clamps_mirror_clips_glass_clamp_glass_shelf_bracket_glass_bed_clip.json
-image: null
-pictures: []
+image:
+  file: drawn/glass-and-mirror-edge-clips-and-clamps.svg
+  alt: 'Left: side view of a mirror on a wall held by plastic clips with no holes in the glass; a fixed bottom clip carries
+    its weight on a ledge and a top clip, screwed through a plastic washer into a wall plug, slides up (shown dashed) to let
+    the mirror in and drops down over its front face. Right: a cut-away of a clamp holding a glass shelf, where a screw squeezes
+    the glass between two rubber pads so no metal touches it.'
+  drawn: true
+pictures:
+- file: drawn/glass-and-mirror-edge-clips-and-clamps.svg
+  alt: 'Left: side view of a mirror on a wall held by plastic clips with no holes in the glass; a fixed bottom clip carries
+    its weight on a ledge and a top clip, screwed through a plastic washer into a wall plug, slides up (shown dashed) to let
+    the mirror in and drops down over its front face. Right: a cut-away of a clamp holding a glass shelf, where a screw squeezes
+    the glass between two rubber pads so no metal touches it.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, set-screw, counterbore--countersink, creep, perimeters, infill, overhang--bridging,
   toughened-glass]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glass-and-mirror-edge-clips-and-clamps.svg" alt="Left: side view of a mirror on a wall held by plastic clips with no holes in the glass; a fixed bottom clip carries its weight on a ledge and a top clip, screwed through a plastic washer into a wall plug, slides up (shown dashed) to let the mirror in and drops down over its front face. Right: a cut-"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Brackets fixed to a wall, cabinet or printer bed that hold a sheet of glass, mirror or acrylic by its edge, either by a lip the sheet sits behind (mirror clips, J-channel) or by a screw that squeezes the sheet between rubber or plastic pads (glass clamps, shelf brackets, display connectors, bed clips), so the sheet is held without drilling it.
 

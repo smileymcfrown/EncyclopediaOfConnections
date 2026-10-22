@@ -142,10 +142,26 @@ sources:
 - https://en.wikipedia.org/wiki/Polymer_clay
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bakedin_findings_embedded_hardware_in_clay_eye_pins_screw_eyes_earring_posts_bails.json
-image: null
-pictures: []
+image:
+  file: drawn/baked-in-findings.svg
+  alt: 'Four cut-away views of metal fittings held in polymer clay by shape rather than by glue: a straight eye pin sliding
+    out of raw clay beside one with a bent end that holds fast; an earring post''s flat pad sandwiched under a second layer
+    of clay; a screw eye twisted into a smaller pilot hole in baked clay with a drop of glue on top; and a wire with a hooked
+    end set in a drilled hole packed with clay paste and baked again.'
+  drawn: true
+pictures:
+- file: drawn/baked-in-findings.svg
+  alt: 'Four cut-away views of metal fittings held in polymer clay by shape rather than by glue: a straight eye pin sliding
+    out of raw clay beside one with a bent end that holds fast; an earring post''s flat pad sandwiched under a second layer
+    of clay; a screw eye twisted into a smaller pilot hole in baked clay with a drop of glue on top; and a wire with a hooked
+    end set in a drilled hole packed with clay paste and baked again.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, captive-nut, pilot-hole, brittle--ductile, cure]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/baked-in-findings.svg" alt="Four cut-away views of metal fittings held in polymer clay by shape rather than by glue: a straight eye pin sliding out of raw clay beside one with a bent end that holds fast; an earring post&#x27;s flat pad sandwiched under a second layer of clay; a screw eye twisted into a smaller pilot hole in baked c"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Metal fittings for hanging or wearing a clay piece (eye pins, screw eyes, bails, earring posts, button shanks, pin backs) are trapped inside polymer clay before or between bakes, so the baked clay holds them by shape, because glue on its own does not hold metal to polymer clay reliably.
 

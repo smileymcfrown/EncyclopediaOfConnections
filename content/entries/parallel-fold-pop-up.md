@@ -207,10 +207,28 @@ sources:
 - https://blogs.gre.ac.uk/designsupport/?p=783
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Parallelfold_popup_box_fold_step_fold_floating_layer_parallelogram_popup.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/parallel-fold-pop-up.svg
+  alt: 'Animated side view and three-quarter view of a parallel-fold pop-up step: the card shuts, and the step made from a
+    strip of the card folds down flat between the pages, then the card opens again to a right angle and the step stands back
+    up, its top always parallel to the base page and its front always parallel to the back page.'
+  drawn: true
+  still: drawn/parallel-fold-pop-up.svg
+  kind: animation
+pictures:
+- file: drawn/anim/parallel-fold-pop-up.svg
+  alt: 'Animated side view and three-quarter view of a parallel-fold pop-up step: the card shuts, and the step made from a
+    strip of the card folds down flat between the pages, then the card opens again to a right angle and the step stands back
+    up, its top always parallel to the base page and its front always parallel to the back page.'
+  drawn: true
+  still: drawn/parallel-fold-pop-up.svg
+  kind: animation
 glossary: [linkage, living-hinge, form-fit--force-fit--material-bond, brittle--ductile, cure, mountain-fold--valley-fold]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/parallel-fold-pop-up.svg"><img src="../media/drawn/anim/parallel-fold-pop-up.svg" alt="Animated side view and three-quarter view of a parallel-fold pop-up step: the card shuts, and the step made from a strip of the card folds down flat between the pages, then the card opens again to a right angle and the step stands back up, its top always parallel to the base page and its front alway"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Pieces of card that cross the centre fold with all their creases running parallel to it, so that opening the card pulls them up into a step, box, tent or floating stage, and closing it folds them flat again, like a paper parallelogram [linkage](../glossary.md#linkage).
 

@@ -163,11 +163,31 @@ sources:
 - https://www.acrylite.co/resources/knowledge-base/article/how-far-in-should-I-drill-a-hole-from-the-edge-of-acrylic-sheet
 - https://api.printables.com/graphql/ (models 41109, 587197, 820251, 209584, 563324, 1573379; no Printables pages opened)
 research: research/connection-types/results/Glass_door_hinge_clampon_glass_hinge_drilled_glassdoor_cup_hinge_pivot_hinge_for_glass_doors.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/glass-door-hinge.svg
+  alt: 'Animated glass cabinet door on a pivot hinge. Left, seen from above: the door, gripped at its corner by a padded metal
+    clamp, swings open a quarter turn about the clamp''s pin and closes again onto its magnetic catch. Right, a clamp cut
+    open: plastic pads line the metal jaws so metal never touches the glass, a screw squeezes the pads, and the pin turns
+    in a plastic sleeve in the cabinet base.'
+  drawn: true
+  still: drawn/glass-door-hinge.svg
+  kind: animation
+pictures:
+- file: drawn/anim/glass-door-hinge.svg
+  alt: 'Animated glass cabinet door on a pivot hinge. Left, seen from above: the door, gripped at its corner by a padded metal
+    clamp, swings open a quarter turn about the clamp''s pin and closes again onto its magnetic catch. Right, a clamp cut
+    open: plastic pads line the metal jaws so metal never touches the glass, a screw squeezes the pads, and the pin turns
+    in a plastic sleeve in the cabinet base.'
+  drawn: true
+  still: drawn/glass-door-hinge.svg
+  kind: animation
 glossary: [crank, clearance, form-fit--force-fit--material-bond, pilot-hole, repeatability--accuracy, creep, perimeters, print-in-place,
   toughened-glass]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/glass-door-hinge.svg"><img src="../media/drawn/anim/glass-door-hinge.svg" alt="Animated glass cabinet door on a pivot hinge. Left, seen from above: the door, gripped at its corner by a padded metal clamp, swings open a quarter turn about the clamp&#x27;s pin and closes again onto its magnetic catch. Right, a clamp cut open: plastic pads line the metal jaws so metal never touches th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A glass door hinge carries a glass or acrylic door on a cabinet without screwing into the door: it grips the sheet with a padded clamp, holds it with a cap bolted through a 26 mm hole drilled in the glass, or clamps the top and bottom corners onto pins that turn in the cabinet.
 

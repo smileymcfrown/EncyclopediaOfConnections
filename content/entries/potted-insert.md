@@ -158,12 +158,28 @@ sources:
 - https://www.epoxyworks.com/?p=9878
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Potted_insert_sandwichpanel_insert_hard_point_overdrillfillredrill.json
-image: null
-pictures: []
+image:
+  file: drawn/potted-insert.svg
+  alt: 'Two cross-sections of a sandwich panel: two thin skins with a soft core of balsa or foam between them. Left: a bolt
+    through the bare panel crushes the core and dents the skins when it is tightened. Right: the core has been dug out round
+    the hole and filled with epoxy round a flanged threaded insert, so a bracket, whose foot is wider than the plug, screws
+    into a solid plug glued to both skins.'
+  drawn: true
+pictures:
+- file: drawn/potted-insert.svg
+  alt: 'Two cross-sections of a sandwich panel: two thin skins with a soft core of balsa or foam between them. Left: a bolt
+    through the bare panel crushes the core and dents the skins when it is tightened. Right: the core has been dug out round
+    the hole and filled with epoxy round a flanged threaded insert, so a bracket, whose foot is wider than the plug, screws
+    into a solid plug glued to both skins.'
+  drawn: true
 glossary: [degrees-of-freedom, misalignment, tolerance, form-fit--force-fit--material-bond, captive-nut, boss, pilot-hole,
   counterbore--countersink, chamfer--fillet, undercut, repeatability--accuracy, brittle--ductile, perimeters, infill, cure,
   peel-vs-shear, sandwich-panel]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/potted-insert.svg" alt="Two cross-sections of a sandwich panel: two thin skins with a soft core of balsa or foam between them. Left: a bolt through the bare panel crushes the core and dents the skins when it is tightened. Right: the core has been dug out round the hole and filled with epoxy round a flanged threaded insert,"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A local plug of hard epoxy (with or without a metal insert) set into the soft core of a sandwich or cored panel where a bolt or screw goes, so the fastener has something solid to grip and clamp against and the core around it stays sealed.
 

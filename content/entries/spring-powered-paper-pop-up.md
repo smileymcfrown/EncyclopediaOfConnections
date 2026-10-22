@@ -175,10 +175,28 @@ sources:
 - https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-16?part=1501 (16 CFR part 1501, small parts for children
   under 3)
 research: research/connection-types/results/Springpowered_paper_popup_rubberband_snapup_cube_paper_spring_jumping_card.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/spring-powered-paper-pop-up.svg
+  alt: 'Animated snap-up card cube: the cube is pressed flat, which pulls two opposite corners apart and stretches the rubber
+    band inside; let go, the band shortens and snaps the four card sides back into a cube. Beside it a paper spring of two
+    strips folded over each other squashes down and springs back up under a figure.'
+  drawn: true
+  still: drawn/spring-powered-paper-pop-up.svg
+  kind: animation
+pictures:
+- file: drawn/anim/spring-powered-paper-pop-up.svg
+  alt: 'Animated snap-up card cube: the cube is pressed flat, which pulls two opposite corners apart and stretches the rubber
+    band inside; let go, the band shortens and snaps the four card sides back into a cube. Beside it a paper spring of two
+    strips folded over each other squashes down and springs back up under a figure.'
+  drawn: true
+  still: drawn/spring-powered-paper-pop-up.svg
+  kind: animation
 glossary: [over-centre, linkage, flexure, torsion, form-fit--force-fit--material-bond]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spring-powered-paper-pop-up.svg"><img src="../media/drawn/anim/spring-powered-paper-pop-up.svg" alt="Animated snap-up card cube: the cube is pressed flat, which pulls two opposite corners apart and stretches the rubber band inside; let go, the band shortens and snaps the four card sides back into a cube. Beside it a paper spring of two strips folded over each other squashes down and springs back up"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A paper or card shape that is pressed flat against a stretched rubber band or a springy folded paper strip, so that when it is released, dropped or slid out of a card it springs up by itself into a cube, a box or a bouncing figure.
 

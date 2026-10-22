@@ -165,10 +165,30 @@ sources:
 - https://marlinfw.org/docs/gcode/G034-zsaa.html
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Linked_lead_screws_synchronised_Z_axis_Z_sync_belt_screw_jack_system.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/linked-lead-screws.svg
+  alt: 'Linked lead screws: seen from the front, a bed is carried on nuts on two upright lead screws, each with the same toothed
+    pulley at its foot, and one motor under the base drives a closed toothed belt that runs round both pulleys; seen from
+    above, the belt loops round the two screw pulleys and the motor pulley, kept tight by a spring idler. Animated: the motor
+    turns, the belt carries both screws round together, and the bed rises level, pauses, then comes back down.'
+  drawn: true
+  still: drawn/linked-lead-screws.svg
+  kind: animation
+pictures:
+- file: drawn/anim/linked-lead-screws.svg
+  alt: 'Linked lead screws: seen from the front, a bed is carried on nuts on two upright lead screws, each with the same toothed
+    pulley at its foot, and one motor under the base drives a closed toothed belt that runs round both pulleys; seen from
+    above, the belt loops round the two screw pulleys and the motor pulley, kept tight by a spring idler. Animated: the motor
+    turns, the belt carries both screws round together, and the bed rises level, pauses, then comes back down.'
+  drawn: true
+  still: drawn/linked-lead-screws.svg
+  kind: animation
 glossary: [misalignment, backlash, self-locking, idler, crank, linkage, solenoid, creep, perimeters, counter-rotating]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/linked-lead-screws.svg"><img src="../media/drawn/anim/linked-lead-screws.svg" alt="Linked lead screws: seen from the front, a bed is carried on nuts on two upright lead screws, each with the same toothed pulley at its foot, and one motor under the base drives a closed toothed belt that runs round both pulleys; seen from above, the belt loops round the two screw pulleys and the mot"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Linked lead screws are two or more screws, each with a nut fixed to the part being lifted, that are tied together by a closed toothed belt, a chain or shafts and bevel gearboxes and turned by one motor, so they can never get out of step and the bed, gantry or platform stays level as it moves.
 

@@ -188,10 +188,28 @@ sources:
 - https://blogs.gre.ac.uk/designsupport/?p=783
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Vfold_popup_angle_fold_mouth_fold.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/v-fold-pop-up.svg
+  alt: 'Animated three-quarter view of a V-fold pop-up: the right-hand page swings up and over to shut the card while the
+    V piece folds down flat between the pages, then the card opens flat again and the piece swings back up, its middle crease
+    and both glue lines always meeting at one point on the centre fold.'
+  drawn: true
+  still: drawn/v-fold-pop-up.svg
+  kind: animation
+pictures:
+- file: drawn/anim/v-fold-pop-up.svg
+  alt: 'Animated three-quarter view of a V-fold pop-up: the right-hand page swings up and over to shut the card while the
+    V piece folds down flat between the pages, then the card opens flat again and the piece swings back up, its middle crease
+    and both glue lines always meeting at one point on the centre fold.'
+  drawn: true
+  still: drawn/v-fold-pop-up.svg
+  kind: animation
 glossary: [linkage, living-hinge, tolerance, form-fit--force-fit--material-bond, brittle--ductile]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/v-fold-pop-up.svg"><img src="../media/drawn/anim/v-fold-pop-up.svg" alt="Animated three-quarter view of a V-fold pop-up: the right-hand page swings up and over to shut the card while the V piece folds down flat between the pages, then the card opens flat again and the piece swings back up, its middle crease and both glue lines always meeting at one point on the centre fo"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A piece of card whose creases all meet at one point on the centre fold of a card, so opening the card swings it up and forward at an angle and closing it folds it flat between the pages.
 

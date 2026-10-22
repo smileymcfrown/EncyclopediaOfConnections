@@ -175,11 +175,29 @@ sources:
 - https://api.printables.com/graphql/ (models 735504, 998514, 1613408, 996453, 1665899, 1365220, 603337, 784062; no Printables
   pages opened)
 research: research/connection-types/results/Looseleaf_bindings_ring_binder_spiral_coil_comb_and_wire_binding_disc_binding.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/loose-leaf-bindings.svg
+  alt: Five loose-leaf bindings seen from the face of the page and from the end; in each end view a page swings about the
+    ring, coil, comb, wire loop or disc from one side to the other and back. Icons below show which fold right round and which
+    let pages be taken out.
+  drawn: true
+  still: drawn/loose-leaf-bindings.svg
+  kind: animation
+pictures:
+- file: drawn/anim/loose-leaf-bindings.svg
+  alt: Five loose-leaf bindings seen from the face of the page and from the end; in each end view a page swings about the
+    ring, coil, comb, wire loop or disc from one side to the other and back. Icons below show which fold right round and which
+    let pages be taken out.
+  drawn: true
+  still: drawn/loose-leaf-bindings.svg
+  kind: animation
 glossary: [over-centre, pitch, living-hinge, tolerance, form-fit--force-fit--material-bond, brittle--ductile, infill, print-in-place,
   peel-vs-shear, o-ring]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/loose-leaf-bindings.svg"><img src="../media/drawn/anim/loose-leaf-bindings.svg" alt="Five loose-leaf bindings seen from the face of the page and from the end; in each end view a page swings about the ring, coil, comb, wire loop or disc from one side to the other and back. Icons below show which fold right round and which let pages be taken out."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Loose-leaf bindings hold punched sheets on rings, a helical coil, a curled plastic comb, a C-shaped wire closed into loops, or a stack of rimmed discs, so the pages pivot about the binding like a hinge and, for rings, combs and discs, can be opened, rearranged, added or removed.
 

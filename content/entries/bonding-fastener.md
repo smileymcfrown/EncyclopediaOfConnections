@@ -161,11 +161,27 @@ sources:
 - https://www.westsystem.com/safety/health-effects-from-overexposure-to-epoxy/
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bonding_fastener_glueon_stud_bondedbase_stud_or_nut_perforatedbase_fastener.json
-image: null
-pictures: []
+image:
+  file: drawn/bonding-fastener.svg
+  alt: 'Three cross-sections of a bonding fastener, a threaded stud welded to a wide, thin plate full of holes. Left: the
+    plate glued to the front of a panel, with glue squeezed up through the holes like rivet heads. Middle: the plate glued
+    to the back, the stud poking through a small hole and a nut clamping a bracket down. Right: the plate buried between the
+    glass layers as the part is made. In each, a pull on the stud is spread over the plate''s whole area.'
+  drawn: true
+pictures:
+- file: drawn/bonding-fastener.svg
+  alt: 'Three cross-sections of a bonding fastener, a threaded stud welded to a wide, thin plate full of holes. Left: the
+    plate glued to the front of a panel, with glue squeezed up through the holes like rivet heads. Middle: the plate glued
+    to the back, the stud poking through a small hole and a nut clamping a bracket down. Right: the plate buried between the
+    glass layers as the part is made. In each, a pull on the stud is spread over the plate''s whole area.'
+  drawn: true
 glossary: [misalignment, torque, clearance, form-fit--force-fit--material-bond, captive-nut, repeatability--accuracy, creep,
   cure, peel-vs-shear, lay-up]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/bonding-fastener.svg" alt="Three cross-sections of a bonding fastener, a threaded stud welded to a wide, thin plate full of holes. Left: the plate glued to the front of a panel, with glue squeezed up through the holes like rivet heads. Middle: the plate glued to the back, the stud poking through a small hole and a nut clampin"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A threaded stud, nut or collar welded to a broad perforated base plate that is glued to a surface or laminated into a composite, giving a strong threaded mounting point with no hole drilled through the part.
 

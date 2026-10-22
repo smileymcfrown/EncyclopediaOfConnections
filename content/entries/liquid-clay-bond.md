@@ -155,10 +155,24 @@ sources:
 - https://potterycrafts.co.uk/cdn/shop/files/Premo_Sculpey_Polymer_Clay_747a26ae-3aa8-4d8e-a413-1cfe01b669f7.pdf
 - https://www.sculpey.com/blogs/blog/6-things-to-avoid-when-baking-polymer-clay
 research: research/connection-types/results/Liquidclay_bond_bakeable_clay_glue_bakeinstages_join.json
-image: null
-pictures: []
+image:
+  file: drawn/liquid-clay-bond.svg
+  alt: 'Three ways to join polymer clay with liquid clay: two raw pieces, a raw piece to a baked piece, and two baked pieces
+    with a thin snake of raw clay laid in the joint as a bridge, each with a thin layer of liquid clay between the parts.
+    All three go into the oven and come out as one solid piece of plastic.'
+  drawn: true
+pictures:
+- file: drawn/liquid-clay-bond.svg
+  alt: 'Three ways to join polymer clay with liquid clay: two raw pieces, a raw piece to a baked piece, and two baked pieces
+    with a thin snake of raw clay laid in the joint as a bridge, each with a thin layer of liquid clay between the parts.
+    All three go into the oven and come out as one solid piece of plastic.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, cure, peel-vs-shear]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/liquid-clay-bond.svg" alt="Three ways to join polymer clay with liquid clay: two raw pieces, a raw piece to a baked piece, and two baked pieces with a thin snake of raw clay laid in the joint as a bridge, each with a thin layer of liquid clay between the parts. All three go into the oven and come out as one solid piece of pla"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A thin layer of liquid polymer clay (the same PVC-and-plasticiser material as the clay, without the fillers) is brushed onto the joint between two polymer clay parts, and baking the piece again [cures](../glossary.md#cure) it so the parts become one solid piece.
 

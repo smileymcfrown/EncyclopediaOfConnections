@@ -150,10 +150,26 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Fused_glass
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Glass_fusing_kiln_fusing_tack_fusing_full_fusing.json
-image: null
-pictures: []
+image:
+  file: drawn/glass-fusing.svg
+  alt: 'Side views of the same stack of glass on a kiln shelf: two clear glass layers with a wire loop between them and a
+    small green piece on top; after a tack fuse the pieces are stuck together but each keeps its shape; after a hotter full
+    fuse they have flowed into one smooth, rounded slab about 6 mm thick with the green piece flush in its surface and the
+    wire loop trapped inside.'
+  drawn: true
+pictures:
+- file: drawn/glass-fusing.svg
+  alt: 'Side views of the same stack of glass on a kiln shelf: two clear glass layers with a wire loop between them and a
+    small green piece on top; after a tack fuse the pieces are stuck together but each keeps its shape; after a hotter full
+    fuse they have flowed into one smooth, rounded slab about 6 mm thick with the green piece flush in its surface and the
+    wire loop trapped inside.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, primer, toughened-glass, annealing]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glass-fusing.svg" alt="Side views of the same stack of glass on a kiln shelf: two clear glass layers with a wire loop between them and a small green piece on top; after a tack fuse the pieces are stuck together but each keeps its shape; after a hotter full fuse they have flowed into one smooth, rounded slab about 6 mm thi"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Glass fusing joins pieces of glass that are rated to work together by heating them in a kiln to roughly 690-820 °C, so that they stick together (tack fuse) or flow into one smooth piece (full fuse), and then cools them slowly through an [annealing](../glossary.md#annealing) hold so that the finished piece has no built-in stress.
 

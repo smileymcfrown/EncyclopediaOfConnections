@@ -172,11 +172,27 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Wallpaper_paste_flakes.JPG
 - https://commons.wikimedia.org/wiki/File:Papier_mache.jpg
 research: research/connection-types/results/Glue_stick_and_starch_paste_paper_glue_stick_wheatstarch_paste_methyl_cellulose_wallpaper_paste.json
-image: null
-pictures: []
+image:
+  file: drawn/glue-stick-and-starch-paste.svg
+  alt: 'How glue stick and starch paste join paper. Top left, a magnified side view of two sheets of paper with a thin layer
+    of paste between them: water from the paste soaks into the paper fibres and dries off into the air, leaving the paste
+    to hold the fibres of both sheets together. Bottom left, a glue stick being rubbed on and paste brushed on. Right, two
+    results: left to dry freely the pasted paper ripples, while dried between blotting paper under a weight it stays flat.'
+  drawn: true
+pictures:
+- file: drawn/glue-stick-and-starch-paste.svg
+  alt: 'How glue stick and starch paste join paper. Top left, a magnified side view of two sheets of paper with a thin layer
+    of paste between them: water from the paste soaks into the paper fibres and dries off into the air, leaving the paste
+    to hold the fibres of both sheets together. Bottom left, a glue stick being rubbed on and paste brushed on. Right, two
+    results: left to dry freely the pasted paper ripples, while dried between blotting paper under a weight it stays flat.'
+  drawn: true
 glossary: [stroke, form-fit--force-fit--material-bond, warping--shrinkage, pot-life--working-time, open-time, peel-vs-shear,
   grain-direction]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glue-stick-and-starch-paste.svg" alt="How glue stick and starch paste join paper. Top left, a magnified side view of two sheets of paper with a thin layer of paste between them: water from the paste soaks into the paper fibres and dries off into the air, leaving the paste to hold the fibres of both sheets together. Bottom left, a glue s"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Mild water-based glues for paper and card, either a solid stick rubbed on from a twist-up tube or a cooked starch, flour or cellulose paste brushed on, which soak into the paper fibres and harden as the water leaves, giving clean, non-toxic paper joints that are often reversible with water.
 

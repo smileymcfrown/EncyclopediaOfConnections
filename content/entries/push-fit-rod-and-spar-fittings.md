@@ -185,11 +185,29 @@ sources:
 - https://api.printables.com/graphql/ (searches 'kite connector', 'kite end cap'; details of models 824733, 75831, 488247,
   1009584, 1156457, 877245)
 research: research/connection-types/results/Pushfit_rod_and_spar_fittings_kite_fittings_tee_and_cross_connectors_ferrules_nocks_end_caps.json
-image: null
-pictures: []
+image:
+  file: drawn/push-fit-rod-and-spar-fittings.svg
+  alt: 'A diamond kite frame and three close-ups of push-fit fittings. On the kite, a cross connector holds the spine and
+    spreader, a ferrule joins the spine low down, nocks at the spreader tips catch the sail''s edge line, and end caps finish
+    the spine. Close-ups: rods pushed into a cross connector''s snug sockets, held by friction; a metal ferrule glued on one
+    rod with the other rod pushed in; and a thin rod with a short piece of bigger rod glued over its end so it fits a bigger
+    socket.'
+  drawn: true
+pictures:
+- file: drawn/push-fit-rod-and-spar-fittings.svg
+  alt: 'A diamond kite frame and three close-ups of push-fit fittings. On the kite, a cross connector holds the spine and
+    spreader, a ferrule joins the spine low down, nocks at the spreader tips catch the sail''s edge line, and end caps finish
+    the spine. Close-ups: rods pushed into a cross connector''s snug sockets, held by friction; a metal ferrule glued on one
+    rod with the other rod pushed in; and a thin rod with a short piece of bigger rod glued over its end so it fits a bigger
+    socket.'
+  drawn: true
 glossary: [fail-safe--fail-secure, interference-fit, form-fit--force-fit--material-bond, set-screw, creep, brittle--ductile,
   layer-lines, warping--shrinkage]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-fit-rod-and-spar-fittings.svg" alt="A diamond kite frame and three close-ups of push-fit fittings. On the kite, a cross connector holds the spine and spreader, a ferrule joins the spine low down, nocks at the spreader tips catch the sail&#x27;s edge line, and end caps finish the spine. Close-ups: rods pushed into a cross connector&#x27;s snug s"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A small moulded, metal, vinyl-tube or 3D-printed socket that a solid or hollow carbon or fibreglass rod pushes into and is held by a snug fit, used to join rods at a fixed angle (tee, cross, dihedral), join two lengths end to end (ferrule), or finish a rod end with a cap or a slotted nock that holds a line, as on kites, model frames and other light rod structures.
 

@@ -156,10 +156,26 @@ sources:
 - https://www.sculpey.com/pages/faqs-1
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Scoreandslip_join_scratch_and_slip_luting.json
-image: null
-pictures: []
+image:
+  file: drawn/score-and-slip-join.svg
+  alt: 'Three steps of joining a clay handle to a mug wall, shown cut through: both meeting faces are scratched with criss-cross
+    lines, slip (a thick paste of the same clay and water) is brushed on, then the handle is pressed on, the seam blended
+    and a thin coil of clay rolled into each corner. An inset shows two parts that dried at different rates shrinking apart
+    and cracking.'
+  drawn: true
+pictures:
+- file: drawn/score-and-slip-join.svg
+  alt: 'Three steps of joining a clay handle to a mug wall, shown cut through: both meeting faces are scratched with criss-cross
+    lines, slip (a thick paste of the same clay and water) is brushed on, then the handle is pressed on, the seam blended
+    and a thin coil of clay rolled into each corner. An inset shows two parts that dried at different rates shrinking apart
+    and cracking.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, warping--shrinkage, leather-hard]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/score-and-slip-join.svg" alt="Three steps of joining a clay handle to a mug wall, shown cut through: both meeting faces are scratched with criss-cross lines, slip (a thick paste of the same clay and water) is brushed on, then the handle is pressed on, the seam blended and a thin coil of clay rolled into each corner. An inset sho"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two pieces of soft or part-dried water-based clay are scratched (scored) where they meet, coated with slip (the same clay mixed with water to a thick cream), pressed together and blended, so that as they dry the clay knits into one piece; this is how handles, spouts, ears and other details are attached.
 

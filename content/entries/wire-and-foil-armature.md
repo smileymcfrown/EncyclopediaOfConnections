@@ -145,10 +145,24 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Armature-sculpture.png
 - https://commons.wikimedia.org/wiki/File:Armature_for_Gromit.JPG
 research: research/connection-types/results/Wire_and_foil_armature_sculpture_armature_foil_core.json
-image: null
-pictures: []
+image:
+  file: drawn/wire-and-foil-armature.svg
+  alt: Cut-away of a small clay animal standing on a wooden base. A twisted wire skeleton runs from holes drilled in the base
+    up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills
+    out the body and head, and a thin, even layer of clay covers it all. An inset shows two wires twisted together.
+  drawn: true
+pictures:
+- file: drawn/wire-and-foil-armature.svg
+  alt: Cut-away of a small clay animal standing on a wooden base. A twisted wire skeleton runs from holes drilled in the base
+    up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills
+    out the body and head, and a thin, even layer of clay covers it all. An inset shows two wires twisted together.
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, cure]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/wire-and-foil-armature.svg" alt="Cut-away of a small clay animal standing on a wooden base. A twisted wire skeleton runs from holes drilled in the base up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills out the body and head, and a thin, even layer of clay cover"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A skeleton of bent, often twisted wire, anchored in a base and bulked out with foil, tape or other filler, that clay or putty is built up over so the finished figure has a strong core that holds its shape, keeps thin parts attached and stands up.
 

@@ -174,11 +174,33 @@ sources:
 - https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Line_shaft_and_power_takeoff_lineshaft_jackshaft_countershaft_PTO.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/line-shaft-and-power-take-off.svg
+  alt: 'A line shaft: one long shaft under the ceiling, turned by a motor at one end, carries three pulleys, and each pulley
+    drives a belt down to its own machine: a big pulley driving a small one makes the first machine turn twice as fast, a
+    crossed belt makes the second turn the other way, and a small pulley driving a big one makes the third turn at half speed.
+    Animated: the shaft and all three machines turn together, each at its own speed and direction, with the belts running
+    round.'
+  drawn: true
+  still: drawn/line-shaft-and-power-take-off.svg
+  kind: animation
+pictures:
+- file: drawn/anim/line-shaft-and-power-take-off.svg
+  alt: 'A line shaft: one long shaft under the ceiling, turned by a motor at one end, carries three pulleys, and each pulley
+    drives a belt down to its own machine: a big pulley driving a small one makes the first machine turn twice as fast, a
+    crossed belt makes the second turn the other way, and a small pulley driving a big one makes the third turn at half speed.
+    Animated: the shaft and all three machines turn together, each at its own speed and direction, with the belts running
+    round.'
+  drawn: true
+  still: drawn/line-shaft-and-power-take-off.svg
+  kind: animation
 glossary: [misalignment, backlash, freewheel, torque, gear-ratio, idler, fail-safe--fail-secure, clearance, tolerance, set-screw,
   spline, taper, repeatability--accuracy, creep, lubrication, perimeters, counter-rotating]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/line-shaft-and-power-take-off.svg"><img src="../media/drawn/anim/line-shaft-and-power-take-off.svg" alt="A line shaft: one long shaft under the ceiling, turned by a motor at one end, carries three pulleys, and each pulley drives a belt down to its own machine: a big pulley driving a small one makes the first machine turn twice as fast, a crossed belt makes the second turn the other way, and a small pul"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A single driven shaft that runs past several machines and carries a pulley, sprocket or gear for each one, so one motor or engine can power many things, each with its own speed, its own direction and its own way to start and stop it; the tractor PTO is the same idea as a splined stub shaft that a machine plugs into.
 

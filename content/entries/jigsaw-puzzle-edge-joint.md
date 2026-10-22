@@ -146,10 +146,24 @@ sources:
 - https://api.printables.com/graphql/
 - https://raw.githubusercontent.com/florianfesti/boxes/master/LICENSE.txt
 research: research/connection-types/results/Jigsaw_puzzleedge_joint_puzzle_joint_interlocking_tile_edge.json
-image: null
-pictures: []
+image:
+  file: drawn/jigsaw-puzzle-edge-joint.svg
+  alt: 'Two foam floor tiles joined by a jigsaw-puzzle edge. Seen from above on the left, each knob is wider at its head than
+    at its neck, so pulling the tiles apart sideways, in any direction along the floor, is blocked. On the right, one tile
+    lifted straight up: its knob slips out of the socket, because only friction holds it that way.'
+  drawn: true
+pictures:
+- file: drawn/jigsaw-puzzle-edge-joint.svg
+  alt: 'Two foam floor tiles joined by a jigsaw-puzzle edge. Seen from above on the left, each knob is wider at its head than
+    at its neck, so pulling the tiles apart sideways, in any direction along the floor, is blocked. On the right, one tile
+    lifted straight up: its knob slips out of the socket, because only friction holds it that way.'
+  drawn: true
 glossary: [stiffness, cantilever, clearance, form-fit--force-fit--material-bond, brittle--ductile, infill, kerf, peel-vs-shear]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/jigsaw-puzzle-edge-joint.svg" alt="Two foam floor tiles joined by a jigsaw-puzzle edge. Seen from above on the left, each knob is wider at its head than at its neck, so pulling the tiles apart sideways, in any direction along the floor, is blocked. On the right, one tile lifted straight up: its knob slips out of the socket, because o"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Two flat panels are cut along a matching wavy edge of rounded knobs and sockets, so pressing them together locks them side by side against being pulled apart, with no glue or fasteners.
 

@@ -189,11 +189,29 @@ sources:
 - https://www.robertsabuda.com/how-to-books.html
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pulltab_and_slider_mechanism_pullstrip_sliding_motion_moving_arm_transformation.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/pull-tab-and-slider-mechanism.svg
+  alt: 'Animated pull-tab slider: the pull tab is pulled out from the edge of the page and the pull strip slides under its
+    guide strips, carrying the picture along the slot on the front; then it is pushed back. A cut along the slot below shows
+    the same movement inside the page.'
+  drawn: true
+  still: drawn/pull-tab-and-slider-mechanism.svg
+  kind: animation
+pictures:
+- file: drawn/anim/pull-tab-and-slider-mechanism.svg
+  alt: 'Animated pull-tab slider: the pull tab is pulled out from the edge of the page and the pull strip slides under its
+    guide strips, carrying the picture along the slot on the front; then it is pushed back. A cut along the slot below shows
+    the same movement inside the page.'
+  drawn: true
+  still: drawn/pull-tab-and-slider-mechanism.svg
+  kind: animation
 glossary: [misalignment, lever-arm, crank, linkage, clearance, form-fit--force-fit--material-bond, brittle--ductile, overhang--bridging,
   cure]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/pull-tab-and-slider-mechanism.svg"><img src="../media/drawn/anim/pull-tab-and-slider-mechanism.svg" alt="Animated pull-tab slider: the pull tab is pulled out from the edge of the page and the pull strip slides under its guide strips, carrying the picture along the slot on the front; then it is pushed back. A cut along the slot below shows the same movement inside the page."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A strip of card that slides in a slot or a glued channel, pulled by the reader's fingers or by the opposite page as the book opens, to move a picture across the page, swing an arm on a paper pivot, raise or flip a flap, or slide one striped picture over another.
 

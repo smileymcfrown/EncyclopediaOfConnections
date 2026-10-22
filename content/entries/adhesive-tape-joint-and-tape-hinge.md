@@ -178,11 +178,27 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Adhesive_tape_joint_and_tape_hinge_pressuresensitive_tape_masking_packing_gummed_paper_and_doublesided_tissue_tape.json
-image: null
-pictures: []
+image:
+  file: drawn/adhesive-tape-joint-and-tape-hinge.svg
+  alt: 'Two side views of tape joints. Left: two card panels butted with a small gap and a strip of tape across the top; pulled
+    apart along the surface the tape holds, but once one end of the strip is lifted it peels off. Right: a tape hinge between
+    a foam board part and a flap, with one strip on the top face and one on the bottom face across a small gap, so the flap
+    swings up and down about the gap.'
+  drawn: true
+pictures:
+- file: drawn/adhesive-tape-joint-and-tape-hinge.svg
+  alt: 'Two side views of tape joints. Left: two card panels butted with a small gap and a strip of tape across the top; pulled
+    apart along the surface the tape holds, but once one end of the strip is lifted it peels off. Right: a tape hinge between
+    a foam board part and a flap, with one strip on the top face and one on the bottom face across a small gap, so the flap
+    swings up and down about the gap.'
+  drawn: true
 glossary: [living-hinge, form-fit--force-fit--material-bond, creep, brittle--ductile, overhang--bridging, surface-energy,
   peel-vs-shear, gap-filling]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/adhesive-tape-joint-and-tape-hinge.svg" alt="Two side views of tape joints. Left: two card panels butted with a small gap and a strip of tape across the top; pulled apart along the surface the tape holds, but once one end of the strip is lifted it peels off. Right: a tape hinge between a foam board part and a flap, with one strip on the top fa"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A strip of tape whose adhesive grips under finger pressure (or, for gummed paper tape, when wetted) holds two parts together at once with no drying time, and a strip [bridging](../glossary.md#overhang--bridging) a gap between two parts makes a quick, light, bendable hinge.
 

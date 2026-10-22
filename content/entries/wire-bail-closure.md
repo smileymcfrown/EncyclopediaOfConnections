@@ -168,10 +168,30 @@ sources:
 - https://help.prusa3d.com/article/food-safe-fdm-printing_112313
 - https://api.printables.com/graphql/ (models 1779340, 1188957, 1635064, 1139514, 311158; no Printables pages opened)
 research: research/connection-types/results/Wirebail_closure_fliptop_swingtop_bottle_lightning_stopper_clamplid_jar.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/wire-bail-closure.svg
+  alt: 'Animated side view of a swing-top bottle: the wire lever, pivoted on a collar round the neck, swings up and the wire
+    loop lifts the porcelain stopper off the mouth; then the lever swings down, the loop pulls the stopper onto the rubber
+    seal and squashes it, and the lever''s hook passes just over the dead point (the dashed line from stopper through pivot)
+    so the seal''s push keeps it locked.'
+  drawn: true
+  still: drawn/wire-bail-closure.svg
+  kind: animation
+pictures:
+- file: drawn/anim/wire-bail-closure.svg
+  alt: 'Animated side view of a swing-top bottle: the wire lever, pivoted on a collar round the neck, swings up and the wire
+    loop lifts the porcelain stopper off the mouth; then the lever swings down, the loop pulls the stopper onto the rubber
+    seal and squashes it, and the lever''s hook passes just over the dead point (the dashed line from stopper through pivot)
+    so the seal''s push keeps it locked.'
+  drawn: true
+  still: drawn/wire-bail-closure.svg
+  kind: animation
 glossary: [dead-point, over-centre, linkage, fail-safe--fail-secure, form-fit--force-fit--material-bond, taper, infill, o-ring]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/wire-bail-closure.svg"><img src="../media/drawn/anim/wire-bail-closure.svg" alt="Animated side view of a swing-top bottle: the wire lever, pivoted on a collar round the neck, swings up and the wire loop lifts the porcelain stopper off the mouth; then the lever swings down, the loop pulls the stopper onto the rubber seal and squashes it, and the lever&#x27;s hook passes just over the "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A wire-bail closure is a wire loop and lever, fixed permanently to a bottle neck or jar, that swings a stopper or glass lid with a rubber seal onto the mouth and locks it there by snapping over centre, so the container can be opened and resealed by hand many times.
 

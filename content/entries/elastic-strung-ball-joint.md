@@ -168,10 +168,34 @@ sources:
 - https://www.youtube.com/watch?v=dVKn9zhm8jU
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Elasticstrung_ball_joint_balljointed_doll_stringing_strung_doll_joint.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/elastic-strung-ball-joint.svg
+  alt: A see-through ball-jointed doll and a close-up of one of its joints. Inside the doll, one elastic loop runs across
+    the chest and out through both arms to S-hooks at the hands, and a second runs as an upside-down V from a hook in the
+    head down both legs to hooks at the feet. In a see-through close-up of one joint, the stretched cord runs through a hole
+    in the cup and the ball, pulling the ball into the cup so the rubbing holds the pose. The animation tilts the forearm
+    one way and the other on its ball, where it stays put, then pulls it out of the cup and lets go, and the cord snaps it
+    back in.
+  drawn: true
+  still: drawn/elastic-strung-ball-joint.svg
+  kind: animation
+pictures:
+- file: drawn/anim/elastic-strung-ball-joint.svg
+  alt: A see-through ball-jointed doll and a close-up of one of its joints. Inside the doll, one elastic loop runs across
+    the chest and out through both arms to S-hooks at the hands, and a second runs as an upside-down V from a hook in the
+    head down both legs to hooks at the feet. In a see-through close-up of one joint, the stretched cord runs through a hole
+    in the cup and the ball, pulling the ball into the cup so the rubbing holds the pose. The animation tilts the forearm
+    one way and the other on its ball, where it stays put, then pulls it out of the cup and lets go, and the cord snaps it
+    back in.
+  drawn: true
+  still: drawn/elastic-strung-ball-joint.svg
+  kind: animation
 glossary: [fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond, brittle--ductile, infill]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/elastic-strung-ball-joint.svg"><img src="../media/drawn/anim/elastic-strung-ball-joint.svg" alt="A see-through ball-jointed doll and a close-up of one of its joints. Inside the doll, one elastic loop runs across the chest and out through both arms to S-hooks at the hands, and a second runs as an upside-down V from a hook in the head down both legs to hooks at the feet. In a see-through close-up"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A chain of hollow ball-and-socket joints held together by a stretched elastic cord running through them, so the cord keeps every joint pulled closed and friction lets the figure hold a pose, yet any part can be unhooked and swapped.
 

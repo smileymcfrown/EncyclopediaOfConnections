@@ -176,10 +176,26 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Paper_VALMETRO.JPG
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Glued_tab_joint_glue_tab_glue_flap_construction_tab_edge_gluing_with_a_backing_strip.json
-image: null
-pictures: []
+image:
+  file: drawn/glued-tab-joint.svg
+  alt: 'Three glued tab joints in card. Left, seen end-on: a tab folded down from one panel on a scored line is glued behind
+    the next panel, whose cut edge then shows as a small step at the corner. Middle: the tabless way, with the two edges bevelled
+    to meet cleanly and a hidden paper strip glued behind both. Right: a card tube with a ring of short flanges cut round
+    its end, folded outwards and glued flat to a card base.'
+  drawn: true
+pictures:
+- file: drawn/glued-tab-joint.svg
+  alt: 'Three glued tab joints in card. Left, seen end-on: a tab folded down from one panel on a scored line is glued behind
+    the next panel, whose cut edge then shows as a small step at the corner. Middle: the tabless way, with the two edges bevelled
+    to meet cleanly and a hidden paper strip glued behind both. Right: a card tube with a ring of short flanges cut round
+    its end, folded outwards and glued flat to a card base.'
+  drawn: true
 glossary: [tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, peel-vs-shear, flute, scarf-joint]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glued-tab-joint.svg" alt="Three glued tab joints in card. Left, seen end-on: a tab folded down from one panel on a scored line is glued behind the next panel, whose cut edge then shows as a small step at the corner. Middle: the tabless way, with the two edges bevelled to meet cleanly and a hidden paper strip glued behind bot"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A strip of extra paper or card left on one part's edge is folded on a scored line and glued under or behind the matching edge of the next part, making a small glued overlap (lap joint) that holds papercraft, card boxes and cardboard tubes together.
 

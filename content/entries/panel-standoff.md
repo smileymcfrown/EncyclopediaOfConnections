@@ -152,10 +152,26 @@ sources:
 - https://vxb.com/products/100-dome-screw-covers-black-m4-mirror-and-glass-fa
 - https://api.printables.com/graphql/ (search 'sign standoff'; details of models 85831, 954045, 1658818, 1300840)
 research: research/connection-types/results/Panel_standoff_sign_standoff_glass_standoff_standoff_mount_edgegrip_standoff.json
-image: null
-pictures: []
+image:
+  file: drawn/panel-standoff.svg
+  alt: 'A panel standoff pulled apart in side view: a metal barrel is screwed to the wall through a wall plug, and its length
+    sets the gap behind the panel; the drilled glass panel, with a clear washer on each side, goes over the threaded stud
+    of the cap, which screws into the front of the barrel and pinches the panel. A small front view shows four standoffs,
+    one near each corner, with the holes kept at least 1 inch from the edges.'
+  drawn: true
+pictures:
+- file: drawn/panel-standoff.svg
+  alt: 'A panel standoff pulled apart in side view: a metal barrel is screwed to the wall through a wall plug, and its length
+    sets the gap behind the panel; the drilled glass panel, with a clear washer on each side, goes over the threaded stud
+    of the cap, which screws into the front of the barrel and pinches the panel. A small front view shows four standoffs,
+    one near each corner, with the holes kept at least 1 inch from the edges.'
+  drawn: true
 glossary: [clearance, form-fit--force-fit--material-bond, creep, toughened-glass]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/panel-standoff.svg" alt="A panel standoff pulled apart in side view: a metal barrel is screwed to the wall through a wall plug, and its length sets the gap behind the panel; the drilled glass panel, with a clear washer on each side, goes over the threaded stud of the cap, which screws into the front of the barrel and pinche"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A panel standoff is a two-part decorative fixing, a threaded barrel fixed to the wall and a cap screwed into its front, that clamps a drilled sheet of acrylic, glass, aluminium composite or metal between them so the panel is held a set distance off the wall with no frame or glue.
 

@@ -161,10 +161,24 @@ sources:
 - https://api.printables.com/graphql/ (models 868753, 764711, 831695, 777541)
 - https://www.youtube.com/watch?v=YVWeAVjsRBw
 research: research/connection-types/results/Copperfoil_joint_Tiffany_method_foiled_and_soldered_glass.json
-image: null
-pictures: []
+image:
+  file: drawn/copper-foil-joint.svg
+  alt: 'Cross-section through a copper foil joint between two pieces of glass: sticky copper foil is wrapped round each glass
+    edge with a small lip on both faces, the foil is fluxed and given a thin coat of solder, and then a rounded solder bead
+    fills the gap between the pieces and wraps over the foil on both faces, locking the two pieces together.'
+  drawn: true
+pictures:
+- file: drawn/copper-foil-joint.svg
+  alt: 'Cross-section through a copper foil joint between two pieces of glass: sticky copper foil is wrapped round each glass
+    edge with a small lip on both faces, the foil is fluxed and given a thin coat of solder, and then a rounded solder bead
+    fills the gap between the pieces and wraps over the foil on both faces, locking the two pieces together.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, flux]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/copper-foil-joint.svg" alt="Cross-section through a copper foil joint between two pieces of glass: sticky copper foil is wrapped round each glass edge with a small lip on both faces, the foil is fluxed and given a thin coat of solder, and then a rounded solder bead fills the gap between the pieces and wraps over the foil on bo"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Each glass piece's edge is wrapped in adhesive copper tape and pressed flat (burnished), the copper is brushed with [flux](../glossary.md#flux), and solder is run along every seam where two foiled edges meet, so the pieces become one rigid panel or 3D shape held together by a continuous metal network.
 

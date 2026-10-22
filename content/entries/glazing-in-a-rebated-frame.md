@@ -168,10 +168,28 @@ sources:
 - https://www.youtube.com/watch?v=rCz0T9FBDIA
 - https://www.youtube.com/watch?v=iiMb0eYOlhc
 research: research/connection-types/results/Glazing_in_a_rebated_frame_glaziers_points_glazing_putty_glazing_bead_pictureframe_turn_buttons.json
-image: null
-pictures: []
+image:
+  file: drawn/glazing-in-a-rebated-frame.svg
+  alt: 'Cut through one side of two frames, front at the top. Left, a picture frame: the glass, the card mount with the picture
+    and the backing board drop into a stepped ledge (rebate) and rest against the frame''s front lip, and a small metal glazier''s
+    point pushed into the wood holds them in; below, a back view of a turn button that swivels over the backing board and
+    swings back to let it out. Right, an old window: the glass sits on a bed of putty in the rebate, a glazier''s point holds
+    it, and bevelled face putty over the point sheds rain.'
+  drawn: true
+pictures:
+- file: drawn/glazing-in-a-rebated-frame.svg
+  alt: 'Cut through one side of two frames, front at the top. Left, a picture frame: the glass, the card mount with the picture
+    and the backing board drop into a stepped ledge (rebate) and rest against the frame''s front lip, and a small metal glazier''s
+    point pushed into the wood holds them in; below, a back view of a turn button that swivels over the backing board and
+    swings back to let it out. Right, an old window: the glass sits on a bed of putty in the rebate, a glazier''s point holds
+    it, and bevelled face putty over the point sheds rain.'
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, heat-set-insert, boss, brittle--ductile, perimeters, infill, overhang--bridging]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glazing-in-a-rebated-frame.svg" alt="Cut through one side of two frames, front at the top. Left, a picture frame: the glass, the card mount with the picture and the backing board drop into a stepped ledge (rebate) and rest against the frame&#x27;s front lip, and a small metal glazier&#x27;s point pushed into the wood holds them in; below, a back"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A pane of glass, mirror or acrylic rests against a stepped recess (rebate) round the inside of a frame and is trapped there from behind by metal points pushed into the wood, a bead of putty, a pinned strip of wood (glazing bead) or turn buttons screwed to the back, which also hold any backing board in place.
 

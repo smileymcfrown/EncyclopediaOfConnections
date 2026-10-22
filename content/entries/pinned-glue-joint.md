@@ -156,11 +156,27 @@ sources:
 - https://ccohs.ca/oshanswers/safety_haz/power_tools/drills.html
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Pinned_glue_joint_pinning_wire_rod_toothpick_or_skewer_pins.json
-image: null
-pictures: []
+image:
+  file: drawn/pinned-glue-joint.svg
+  alt: 'On the left, a cut-away of a model figure''s arm pulled slightly away from its body: a wire pin sits half in a drilled
+    hole in each part, each hole a little bigger than the pin and filled with glue, so a knock on the arm is carried by the
+    pin rather than the thin glue line. On the right, two toothpicks pushed through two layers of foam board stop the layers
+    sliding apart.'
+  drawn: true
+pictures:
+- file: drawn/pinned-glue-joint.svg
+  alt: 'On the left, a cut-away of a model figure''s arm pulled slightly away from its body: a wire pin sits half in a drilled
+    hole in each part, each hole a little bigger than the pin and filled with glue, so a knock on the arm is carried by the
+    pin rather than the thin glue line. On the right, two toothpicks pushed through two layers of foam board stop the layers
+    sliding apart.'
+  drawn: true
 glossary: [misalignment, form-fit--force-fit--material-bond, collet, counterbore--countersink, repeatability--accuracy, brittle--ductile,
   peel-vs-shear]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/pinned-glue-joint.svg" alt="On the left, a cut-away of a model figure&#x27;s arm pulled slightly away from its body: a wire pin sits half in a drilled hole in each part, each hole a little bigger than the pin and filled with glue, so a knock on the arm is carried by the pin rather than the thin glue line. On the right, two toothpic"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Drill (or poke) a matching hole into each of the two faces to be joined, push a short pin into both, and glue it all together, so the joint is held by the glue and also by a hidden pin that stops it sliding or snapping off.
 

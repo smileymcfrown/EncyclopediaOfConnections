@@ -174,10 +174,26 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:System_32
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Shelf_pins_and_shelf_supports_shelf_pegs_spoon_pins_glass_shelf_supports.json
-image: null
-pictures: []
+image:
+  file: drawn/shelf-pins-and-shelf-supports.svg
+  alt: 'Shelf pins: on the left, the inside face of a cupboard side with two rows of small holes 32 mm apart, the front row
+    37 mm from the front edge, and a shelf resting on two pins whose weight pushes straight down; on the right, side cut-aways
+    of four kinds of support: a plain pin, a flat spoon pin, a pin with a rubber ring under a glass shelf, and a support with
+    a flap that locks over the top of the shelf.'
+  drawn: true
+pictures:
+- file: drawn/shelf-pins-and-shelf-supports.svg
+  alt: 'Shelf pins: on the left, the inside face of a cupboard side with two rows of small holes 32 mm apart, the front row
+    37 mm from the front edge, and a shelf resting on two pins whose weight pushes straight down; on the right, side cut-aways
+    of four kinds of support: a plain pin, a flat spoon pin, a pin with a rubber ring under a glass shelf, and a support with
+    a flap that locks over the top of the shelf.'
+  drawn: true
 glossary: [stiffness, cantilever, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/shelf-pins-and-shelf-supports.svg" alt="Shelf pins: on the left, the inside face of a cupboard side with two rows of small holes 32 mm apart, the front row 37 mm from the front edge, and a shelf resting on two pins whose weight pushes straight down; on the right, side cut-aways of four kinds of support: a plain pin, a flat spoon pin, a pi"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Shelf pins are small pegs pushed into matching rows of holes drilled in the inside faces of a cabinet, usually 5 mm or 1/4 in holes spaced 32 mm apart, so a loose shelf rests on four of them and can be moved to another height in seconds; glass shelves use supports with a rubber ring or pad, or a locking clamp, so the glass can't slide or tip.
 

@@ -171,10 +171,28 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Traditional_Chinese_bookbinding_for_a_red_booklet.jpg
 - https://api.printables.com/graphql/ (models 706107, 377619, 380385, 633309, 38552, 1822742, 9906; no Printables pages opened)
 research: research/connection-types/results/Sewn_book_bindings_pamphlet_stitch_Coptic_stitch_kettle_stitch_Japanese_stab_binding.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/sewn-book-bindings.svg
+  alt: 'Three sewn bindings seen from above and from the end; in the end views a page turns: in the pamphlet and in the sewn
+    sections it swings about the fold and lies flat on the other side, while in the stab binding the top sheet only bends
+    up at the stitches and cannot open flat.'
+  drawn: true
+  still: drawn/sewn-book-bindings.svg
+  kind: animation
+pictures:
+- file: drawn/anim/sewn-book-bindings.svg
+  alt: 'Three sewn bindings seen from above and from the end; in the end views a page turns: in the pamphlet and in the sewn
+    sections it swings about the fold and lies flat on the other side, while in the stab binding the top sheet only bends
+    up at the stitches and cannot open flat.'
+  drawn: true
+  still: drawn/sewn-book-bindings.svg
+  kind: animation
 glossary: [ratchet, form-fit--force-fit--material-bond, heat-set-insert, infill, warping--shrinkage, grain-direction]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/sewn-book-bindings.svg"><img src="../media/drawn/anim/sewn-book-bindings.svg" alt="Three sewn bindings seen from above and from the end; in the end views a page turns: in the pamphlet and in the sewn sections it swings about the fold and lies flat on the other side, while in the stab binding the top sheet only bends up at the stitches and cannot open flat."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Hand sewing joins sheets of paper into a book by passing a needle and waxed thread through a row of pierced holes, either along the fold of folded sheets (a pamphlet stitch for one section, or linked kettle or Coptic stitches for many) or straight through the stack near its edge (Japanese stab binding), so the thread acts as both fastener and hinge.
 

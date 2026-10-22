@@ -162,11 +162,33 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Ka-32-coaxial.gif
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bevel_splitter_and_counterrotating_drive_Tgearbox_threeway_bevel_gearbox_contrarotating_coaxial_shafts.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/bevel-splitter-and-counter-rotating-drive.svg
+  alt: 'A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel
+    gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input
+    speed; a small inset shows the coaxial version, where one gear drives a rod running through a tube driven by the other,
+    and the two propellers on their ends spin opposite ways. Animated: the teeth roll round, the input gear twice as fast
+    as the two outputs, which turn against each other.'
+  drawn: true
+  still: drawn/bevel-splitter-and-counter-rotating-drive.svg
+  kind: animation
+pictures:
+- file: drawn/anim/bevel-splitter-and-counter-rotating-drive.svg
+  alt: 'A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel
+    gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input
+    speed; a small inset shows the coaxial version, where one gear drives a rod running through a tube driven by the other,
+    and the two propellers on their ends spin opposite ways. Animated: the teeth roll round, the input gear twice as fast
+    as the two outputs, which turn against each other.'
+  drawn: true
+  still: drawn/bevel-splitter-and-counter-rotating-drive.svg
+  kind: animation
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, pitch, crank, preload, clearance, tolerance, set-screw,
   creep, infill, o-ring, counter-rotating]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bevel-splitter-and-counter-rotating-drive.svg"><img src="../media/drawn/anim/bevel-splitter-and-counter-rotating-drive.svg" alt="A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input speed; a small inset shows the coaxial version, where one gear"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A driving bevel gear meshes with two bevel gears that face each other across it, so one input turns two outputs on one line in opposite directions; nesting one output shaft inside the other turns two rotors on the same axis against each other, and a dog clutch that picks one of the two gears turns the same set into a forward-and-reverse switch.
 

@@ -169,10 +169,32 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Brass_fasteners
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Splitpin_paper_fastener_brass_fastener_paper_brad_butterfly_clip.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/split-pin-paper-fastener.svg
+  alt: 'Using a split-pin paper fastener. Left, three side views: push its two legs through a hole made in both card strips,
+    spread the legs apart, then fold them flat against the back so the round head and the folded legs trap the strips. Right,
+    a moving card: a card arm is held to the backing card by one fastener (a fixed pivot) and joined to a sliding card strip
+    by another (a loose pivot); the strip runs under a card bridge, and pushing or pulling it swings the arm. The animation
+    pulls the strip to the right, which swings the arm to the left, then pushes it back so the arm swings to the right.'
+  drawn: true
+  still: drawn/split-pin-paper-fastener.svg
+  kind: animation
+pictures:
+- file: drawn/anim/split-pin-paper-fastener.svg
+  alt: 'Using a split-pin paper fastener. Left, three side views: push its two legs through a hole made in both card strips,
+    spread the legs apart, then fold them flat against the back so the round head and the folded legs trap the strips. Right,
+    a moving card: a card arm is held to the backing card by one fastener (a fixed pivot) and joined to a sliding card strip
+    by another (a loose pivot); the strip runs under a card bridge, and pushing or pulling it swings the arm. The animation
+    pulls the strip to the right, which swings the arm to the left, then pushes it back so the arm swings to the right.'
+  drawn: true
+  still: drawn/split-pin-paper-fastener.svg
+  kind: animation
 glossary: [misalignment, lever-arm, crank, linkage, clearance, form-fit--force-fit--material-bond, layer-lines, infill]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/split-pin-paper-fastener.svg"><img src="../media/drawn/anim/split-pin-paper-fastener.svg" alt="Using a split-pin paper fastener. Left, three side views: push its two legs through a hole made in both card strips, spread the legs apart, then fold them flat against the back so the round head and the folded legs trap the strips. Right, a moving card: a card arm is held to the backing card by one "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 A soft brass or brass-plated pin with a round head and two flat legs that is pushed through a hole in stacked paper or card and has its legs spread and folded flat behind, holding the layers together while still letting them turn, which makes it the standard beginner pivot for moving pictures, card puppets, toy clocks and card [linkages](../glossary.md#linkage).
 

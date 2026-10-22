@@ -155,11 +155,29 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Several_motors_driving_one_load_dualmotor_drive_ganged_motors_dualmotor_gantry.json
-image: null
-pictures: []
+image:
+  file: drawn/anim/several-motors-driving-one-load.svg
+  alt: 'Two motors, one on each side, each turn a small 12-tooth pinion that meshes with one large 48-tooth gear in the middle;
+    both pinions turn the same way and push the big gear round in the same direction, so their turning forces add up on the
+    load. Animated: both pinions turn clockwise at four times the speed of the big gear, which turns anticlockwise.'
+  drawn: true
+  still: drawn/several-motors-driving-one-load.svg
+  kind: animation
+pictures:
+- file: drawn/anim/several-motors-driving-one-load.svg
+  alt: 'Two motors, one on each side, each turn a small 12-tooth pinion that meshes with one large 48-tooth gear in the middle;
+    both pinions turn the same way and push the big gear round in the same direction, so their turning forces add up on the
+    load. Animated: both pinions turn clockwise at four times the speed of the big gear, which turns anticlockwise.'
+  drawn: true
+  still: drawn/several-motors-driving-one-load.svg
+  kind: animation
 glossary: [misalignment, backlash, self-locking, coaxial, freewheel, sprag, torque, gear-ratio, crank, preload, clearance,
   set-screw, repeatability--accuracy, counter-rotating]
 ---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/several-motors-driving-one-load.svg"><img src="../media/drawn/anim/several-motors-driving-one-load.svg" alt="Two motors, one on each side, each turn a small 12-tooth pinion that meshes with one large 48-tooth gear in the middle; both pinions turn the same way and push the big gear round in the same direction, so their turning forces add up on the load. Animated: both pinions turn clockwise at four times th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+</div>
 
 Several motors are joined to one output, through a shared gear, the same shaft, both ends of one axis or one rack, so they add their power, keep a long axis square, back each other up, or pull against each other to take out play.
 
