@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three steps of joining a clay handle to a mug wall, shown cut through: both meeting faces are scratched with criss-cross lines, slip (a thick paste of the same clay and water) is brushed on, then the handle is pressed on, the seam blended and a thin coil of clay rolled into each corner. An inset shows two parts that dried at different rates shrinking apart and cracking.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<polygon points="30,55 54,55 54,88 47,91 54,94 47,97 54,100 47,103 54,106 47,109 54,112 54,208 47,211 54,214 47,217 54,220 47,223 54,226 47,229 54,232 54,290 30,290" fill="#fde2c4"/>
+<path d="M80,88 87,91 80,94 87,97 80,100 87,103 80,106 87,109 80,112 L138,112 A48,48 0 0 1 138,208 L80,208 87,211 80,214 87,217 80,220 87,223 80,226 87,229 80,232 L138,232 A72,72 0 0 0 138,88 Z" fill="#fde2c4"/>
+<polygon points="295,55 319,55 319,88 312,91 319,94 312,97 319,100 312,103 319,106 312,109 319,112 319,208 312,211 319,214 312,217 319,220 312,223 319,226 312,229 319,232 319,290 295,290" fill="#fde2c4"/>
+<rect x="319" y="86" width="6" height="28" fill="#cfe3f5" stroke-width="2"/>
+<rect x="339" y="86" width="6" height="28" fill="#cfe3f5" stroke-width="2"/>
+<rect x="319" y="206" width="6" height="28" fill="#cfe3f5" stroke-width="2"/>
+<rect x="339" y="206" width="6" height="28" fill="#cfe3f5" stroke-width="2"/>
+<path d="M345,88 352,91 345,94 352,97 345,100 352,103 345,106 352,109 345,112 L403,112 A48,48 0 0 1 403,208 L345,208 352,211 345,214 352,217 345,220 352,223 345,226 352,229 345,232 L403,232 A72,72 0 0 0 403,88 Z" fill="#fde2c4"/>
+<polygon points="560,55 584,55 584,88 577,91 584,94 577,97 584,100 577,103 584,106 577,109 584,112 584,208 577,211 584,214 577,217 584,220 577,223 584,226 577,229 584,232 584,290 560,290" fill="#fde2c4"/>
+<rect x="584" y="86" width="3" height="28" fill="#cfe3f5" stroke-width="2"/>
+<rect x="584" y="206" width="3" height="28" fill="#cfe3f5" stroke-width="2"/>
+<path d="M587,88 594,91 587,94 594,97 587,100 594,103 587,106 594,109 587,112 L645,112 A48,48 0 0 1 645,208 L587,208 594,211 587,214 594,217 587,220 594,223 587,226 594,229 587,232 L645,232 A72,72 0 0 0 645,88 Z" fill="#fde2c4"/>
+<circle cx="592" cy="80" r="8" fill="#fde2c4" stroke-width="2"/>
+<circle cx="592" cy="120" r="8" fill="#fde2c4" stroke-width="2"/>
+<circle cx="592" cy="200" r="8" fill="#fde2c4" stroke-width="2"/>
+<circle cx="592" cy="240" r="8" fill="#fde2c4" stroke-width="2"/>
+<rect x="170" y="330" width="460" height="86" rx="10" fill="#ffffff" stroke="#999" stroke-width="2"/><path d="M190,346 L276,346 L270,360 L279,372 L271,386 L276,400 L190,400 Z" fill="#fde2c4"/><path d="M292,352 L344,352 L344,394 L292,394 L298,382 L290,370 L297,358 Z" fill="#fde2c4"/>
+</g>
+<g stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)">
+<line x1="790" y1="160" x2="752" y2="160"/>
+<line x1="230" y1="373" x2="200" y2="373"/><line x1="312" y1="373" x2="340" y2="373"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="133" y="36" font-size="20" font-weight="bold" text-anchor="middle">Score both faces</text>
+<text x="400" y="36" font-size="20" font-weight="bold" text-anchor="middle">Brush on slip</text>
+<text x="667" y="36" font-size="20" font-weight="bold" text-anchor="middle">Press, blend, add coils</text>
+<text x="36" y="316">mug wall</text>
+<text x="150" y="76">handle</text>
+<text x="160" y="316">criss-cross scratches</text>
+<line x1="170" y1="300" x2="76" y2="232" stroke="#222" stroke-width="1.5"/>
+<text x="395" y="316">slip: clay and water paste</text>
+<line x1="420" y1="300" x2="342" y2="232" stroke="#222" stroke-width="1.5"/>
+<text x="610" y="316">coil in each corner</text>
+<line x1="626" y1="300" x2="596" y2="244" stroke="#222" stroke-width="1.5"/>
+<text x="360" y="365">parts at different dampness</text><text x="360" y="388">shrink apart and crack</text>
+<text x="400" y="440" text-anchor="middle" font-size="17">Join both parts at the same dampness (leather-hard) and let the piece dry slowly and evenly</text>
+</g>
+</svg>
