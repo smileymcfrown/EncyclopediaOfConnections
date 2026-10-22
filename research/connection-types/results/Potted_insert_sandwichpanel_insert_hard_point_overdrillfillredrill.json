@@ -5,7 +5,7 @@
     "aliases": [
       "sandwich panel insert, honeycomb insert, panel insert (Shur-Lok 'Sandwich Panel Inserts'; Abbott Aerospace AA-SB-001 12.2.6)",
       "potted-in insert, potting an insert (Abbott Aerospace AA-SB-001 12.2.6)",
-      "hard point, hardpoint (Kitplanes 'Tough Spot'; CMU Buggy 'Hard Point Manufacturing Documentation'; Model Aviation 'Installing a one-piece bolt-on wing')",
+      "hard point, hardpoint (Kitplanes 'Tough Spot'; CMU Buggy 'Hard Point Manufacturing Documentation'; Model Aviation 'Installing a One-Piece Bolt-on Wing')",
       "overdrill, fill and redrill; drill oversize, fill with epoxy and redrill (Practical Sailor 'A Solid Connection'; The Yacht Rigger)",
       "reefing and backfilling a cored deck (Cruising World, Steve D'Antonio)",
       "core-carve method (Practical Sailor)",
@@ -121,7 +121,7 @@
       },
       {
         "url": "https://www.cruisingworld.com/?p=40890",
-        "title": "Bedding hardware on a cored deck (Steve D'Antonio, Cruising World)",
+        "title": "Core Concerns: Reefing and Backfilling (Steve D'Antonio, Cruising World)",
         "shows": "Illustrated four-step sequence: drill, redrill the top skin larger, dig out the core with a pick, fill with epoxy, redrill",
         "license": "link only"
       },
@@ -133,7 +133,7 @@
       },
       {
         "url": "https://www.practical-sailor.com/boat-maintenance/a-solid-connection",
-        "title": "Bulletproof Sailboat Deck Hardware / A Solid Connection (Practical Sailor)",
+        "title": "Bulletproof Sailboat Deck Hardware (Practical Sailor)",
         "shows": "Photos of sectioned balsa and foam core with epoxy plugs, core-removal tools (bent nail, roofing nail, Dremel cutter), and a table of core-filler strengths",
         "license": "link only"
       },
