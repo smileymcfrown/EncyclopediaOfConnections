@@ -158,11 +158,22 @@ pictures:
     at its neck, so pulling the tiles apart sideways, in any direction along the floor, is blocked. On the right, one tile
     lifted straight up: its knob slips out of the socket, because only friction holds it that way.'
   drawn: true
+- file: jigsaw-puzzle-edge-joint.webp
+  title: File:Close up of Hand Cut Jigsaw Puzzle.JPG
+  author: Charles Hamm
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Close_up_of_Hand_Cut_Jigsaw_Puzzle.JPG
+  site: Wikimedia Commons
+  alt: Close-up of thick hand-cut wooden jigsaw puzzle pieces, showing the rounded knobs and sockets that lock them together.
+  kind: photo
+  drawn: false
 glossary: [stiffness, cantilever, clearance, form-fit--force-fit--material-bond, brittle--ductile, infill, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/jigsaw-puzzle-edge-joint.svg" alt="Two foam floor tiles joined by a jigsaw-puzzle edge. Seen from above on the left, each knob is wider at its head than at its neck, so pulling the tiles apart sideways, in any direction along the floor, is blocked. On the right, one tile lifted straight up: its knob slips out of the socket, because o"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/jigsaw-puzzle-edge-joint.webp" alt="Close-up of thick hand-cut wooden jigsaw puzzle pieces, showing the rounded knobs and sockets that lock them together." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Close_up_of_Hand_Cut_Jigsaw_Puzzle.JPG">Close up of Hand Cut Jigsaw Puzzle</a> by Charles Hamm, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two flat panels are cut along a matching wavy edge of rounded knobs and sockets, so pressing them together locks them side by side against being pulled apart, with no glue or fasteners.

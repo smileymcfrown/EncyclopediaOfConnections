@@ -186,11 +186,34 @@ pictures:
   drawn: true
   still: drawn/wire-bail-closure.svg
   kind: animation
+- file: wire-bail-closure.webp
+  title: File:Bügelverschluss C.jpg
+  author: IgorCalzone1
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:B%C3%BCgelverschluss_C.jpg
+  site: Wikimedia Commons
+  alt: A swing-top bottle stopper turned over, showing the white porcelain plug, its red rubber seal ring and the wire bail
+    loops on each side.
+  kind: how-it-works
+  drawn: false
+- file: wire-bail-closure-a0c3ee.webp
+  title: File:French kilner.jpg
+  author: Roger Burton West
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:French_kilner.jpg
+  site: Wikimedia Commons
+  alt: Two glass storage jars with hinged glass lids held shut by wire bail clamps.
+  kind: photo
+  drawn: false
 glossary: [dead-point, over-centre, linkage, fail-safe--fail-secure, form-fit--force-fit--material-bond, taper, infill, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/wire-bail-closure.svg"><img src="../media/drawn/anim/wire-bail-closure.svg" alt="Animated side view of a swing-top bottle: the wire lever, pivoted on a collar round the neck, swings up and the wire loop lifts the porcelain stopper off the mouth; then the lever swings down, the loop pulls the stopper onto the rubber seal and squashes it, and the lever&#x27;s hook passes just over the "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-bail-closure.webp" alt="A swing-top bottle stopper turned over, showing the white porcelain plug, its red rubber seal ring and the wire bail loops on each side." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:B%C3%BCgelverschluss_C.jpg">Bügelverschluss C</a> by IgorCalzone1, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-bail-closure-a0c3ee.webp" alt="Two glass storage jars with hinged glass lids held shut by wire bail clamps." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:French_kilner.jpg">French kilner</a> by Roger Burton West, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A wire-bail closure is a wire loop and lever, fixed permanently to a bottle neck or jar, that swings a stopper or glass lid with a rubber seal onto the mouth and locks it there by snapping over centre, so the container can be opened and resealed by hand many times.

@@ -188,11 +188,23 @@ pictures:
   drawn: true
   still: drawn/cable-splitter.svg
   kind: animation
+- file: cable-splitter.webp
+  title: File:Detangler.JPG
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Detangler.JPG
+  site: Wikimedia Commons
+  alt: Close-up of a BMX bike's detangler under the handlebars, where the brake cable splits to pull the rotating plate from
+    both sides.
+  kind: how-it-works
+  drawn: false
 glossary: [stroke, crank, linkage, clearance, form-fit--force-fit--material-bond, set-screw]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cable-splitter.svg"><img src="../media/drawn/anim/cable-splitter.svg" alt="A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same distance. Animated: the lever is pulled, the slider and both o"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cable-splitter.webp" alt="Close-up of a BMX bike&#x27;s detangler under the handlebars, where the brake cable splits to pull the rotating plate from both sides." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Detangler.JPG">Detangler</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A cable splitter is a small junction where one control cable is joined to two (so one lever pulls both the same distance) or two cables are joined to one (so either lever can pull the output), letting one hand work two brakes, one twistgrip open two carburettors and an oil pump, or a second lever work the same brake.

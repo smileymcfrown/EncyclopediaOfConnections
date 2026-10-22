@@ -189,26 +189,34 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Vfold_popup_angle_fold_mouth_fold.json
 image:
-  file: drawn/anim/v-fold-pop-up.svg
-  alt: 'Animated three-quarter view of a V-fold pop-up: the right-hand page swings up and over to shut the card while the
-    V piece folds down flat between the pages, then the card opens flat again and the piece swings back up, its middle crease
-    and both glue lines always meeting at one point on the centre fold.'
-  drawn: true
-  still: drawn/v-fold-pop-up.svg
-  kind: animation
+  file: v-fold-pop-up.webp
+  title: File:PopupCinderella.gif
+  author: Hans Hartung
+  license: CC BY-SA 2.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:PopupCinderella.gif
+  site: Wikimedia Commons
+  alt: 'Animated GIF demonstrating a pop-up book being opened (Commons description: ''Vorführung eines Pop-up-Buches''); which
+    mechanisms it shows was not checked frame by frame [uncertain]'
+  still: v-fold-pop-up.still.webp
+  drawn: false
 pictures:
-- file: drawn/anim/v-fold-pop-up.svg
-  alt: 'Animated three-quarter view of a V-fold pop-up: the right-hand page swings up and over to shut the card while the
-    V piece folds down flat between the pages, then the card opens flat again and the piece swings back up, its middle crease
-    and both glue lines always meeting at one point on the centre fold.'
-  drawn: true
-  still: drawn/v-fold-pop-up.svg
-  kind: animation
+- file: v-fold-pop-up.webp
+  title: File:PopupCinderella.gif
+  author: Hans Hartung
+  license: CC BY-SA 2.0 de
+  license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
+  source: https://commons.wikimedia.org/wiki/File:PopupCinderella.gif
+  site: Wikimedia Commons
+  alt: 'Animated GIF demonstrating a pop-up book being opened (Commons description: ''Vorführung eines Pop-up-Buches''); which
+    mechanisms it shows was not checked frame by frame [uncertain]'
+  still: v-fold-pop-up.still.webp
+  drawn: false
 glossary: [linkage, living-hinge, tolerance, form-fit--force-fit--material-bond, brittle--ductile]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/v-fold-pop-up.svg"><img src="../media/drawn/anim/v-fold-pop-up.svg" alt="Animated three-quarter view of a V-fold pop-up: the right-hand page swings up and over to shut the card while the V piece folds down flat between the pages, then the card opens flat again and the piece swings back up, its middle crease and both glue lines always meeting at one point on the centre fo"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/v-fold-pop-up.still.webp"><img src="../media/v-fold-pop-up.webp" alt="Animated GIF demonstrating a pop-up book being opened (Commons description: &#x27;Vorführung eines Pop-up-Buches&#x27;); which mechanisms it shows was not checked frame by frame [uncertain]"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:PopupCinderella.gif">PopupCinderella</a> by Hans Hartung, <a href="https://creativecommons.org/licenses/by-sa/2.0/de/deed.en">CC BY-SA 2.0 de</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A piece of card whose creases all meet at one point on the centre fold of a card, so opening the card swings it up and forward at an angle and closing it folds it flat between the pages.

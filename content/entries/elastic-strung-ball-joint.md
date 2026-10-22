@@ -190,11 +190,22 @@ pictures:
   drawn: true
   still: drawn/elastic-strung-ball-joint.svg
   kind: animation
+- file: elastic-strung-ball-joint.webp
+  title: File:Elbow and wrist joint of male ball-jointed doll.jpg
+  author: Anna Frodesiak
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Elbow_and_wrist_joint_of_male_ball-jointed_doll.jpg
+  site: Wikimedia Commons
+  alt: The white resin arm of a ball-jointed doll, showing the round ball joints at the elbow and wrist.
+  kind: photo
+  drawn: false
 glossary: [fail-safe--fail-secure, tolerance, form-fit--force-fit--material-bond, brittle--ductile, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/elastic-strung-ball-joint.svg"><img src="../media/drawn/anim/elastic-strung-ball-joint.svg" alt="A see-through ball-jointed doll and a close-up of one of its joints. Inside the doll, one elastic loop runs across the chest and out through both arms to S-hooks at the hands, and a second runs as an upside-down V from a hook in the head down both legs to hooks at the feet. In a see-through close-up"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/elastic-strung-ball-joint.webp" alt="The white resin arm of a ball-jointed doll, showing the round ball joints at the elbow and wrist." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Elbow_and_wrist_joint_of_male_ball-jointed_doll.jpg">Elbow and wrist joint of male ball-jointed doll</a> by Anna Frodesiak, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A chain of hollow ball-and-socket joints held together by a stretched elastic cord running through them, so the cord keeps every joint pulled closed and friction lets the figure hold a pose, yet any part can be unhooked and swapped.

@@ -164,11 +164,33 @@ pictures:
     fuse they have flowed into one smooth, rounded slab about 6 mm thick with the green piece flush in its surface and the
     wire loop trapped inside.'
   drawn: true
+- file: glass-fusing.webp
+  title: File:Fusing Lapeyre.JPG
+  author: Kärjens Slædebjørg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Fusing_Lapeyre.JPG
+  site: Wikimedia Commons
+  alt: Three clear glass panels with grapes, wheat and lavender made from coloured glass pieces fused onto them.
+  kind: photo
+  drawn: false
+- file: glass-fusing-baf804.webp
+  title: File:Glassfusing.jpg
+  author: Tad Boniecki (Soler97 at en.wikipedia)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Glassfusing.jpg
+  site: Wikimedia Commons
+  alt: A fused glass plate with coloured glass shapes and beads melted onto a textured base sheet.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, primer, toughened-glass, annealing]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glass-fusing.svg" alt="Side views of the same stack of glass on a kiln shelf: two clear glass layers with a wire loop between them and a small green piece on top; after a tack fuse the pieces are stuck together but each keeps its shape; after a hotter full fuse they have flowed into one smooth, rounded slab about 6 mm thi"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glass-fusing.webp" alt="Three clear glass panels with grapes, wheat and lavender made from coloured glass pieces fused onto them." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Fusing_Lapeyre.JPG">Fusing Lapeyre</a> by Kärjens Slædebjørg, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glass-fusing-baf804.webp" alt="A fused glass plate with coloured glass shapes and beads melted onto a textured base sheet." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Glassfusing.jpg">Glassfusing</a> by Tad Boniecki (Soler97 at en.wikipedia), Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Glass fusing joins pieces of glass that are rated to work together by heating them in a kiln to roughly 690-820 °C, so that they stick together (tack fuse) or flow into one smooth piece (full fuse), and then cools them slowly through an [annealing](../glossary.md#annealing) hold so that the finished piece has no built-in stress.

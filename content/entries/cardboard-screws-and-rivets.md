@@ -180,26 +180,30 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Cardboard_screws_and_rivets_cardboard_construction_screw_box_rivet_ziptie_rivet.json
 image:
-  file: drawn/cardboard-screws-and-rivets.svg
-  alt: 'Cut-away views through two overlapped sheets of corrugated cardboard joined two ways. Left: a plastic cardboard screw
-    turned in from the front, its coarse thread biting into the card around a punched hole and pulling the layers together,
-    with nothing needed behind. Right: a box rivet made of two identical plastic halves pushed in from both sides, their ridged
-    prongs set at right angles so they slide past each other and click together; a small view from above shows the four prongs
-    crossing.'
-  drawn: true
+  file: cardboard-screws-and-rivets.webp
+  title: File:Corrugated Cardboard.JPG
+  author: Richard Wheeler (Zephyris)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Corrugated_Cardboard.JPG
+  site: Wikimedia Commons
+  alt: Close-up of corrugated fibreboard showing the fluted middle layer between two liners
+  drawn: false
 pictures:
-- file: drawn/cardboard-screws-and-rivets.svg
-  alt: 'Cut-away views through two overlapped sheets of corrugated cardboard joined two ways. Left: a plastic cardboard screw
-    turned in from the front, its coarse thread biting into the card around a punched hole and pulling the layers together,
-    with nothing needed behind. Right: a box rivet made of two identical plastic halves pushed in from both sides, their ridged
-    prongs set at right angles so they slide past each other and click together; a small view from above shows the four prongs
-    crossing.'
-  drawn: true
+- file: cardboard-screws-and-rivets.webp
+  title: File:Corrugated Cardboard.JPG
+  author: Richard Wheeler (Zephyris)
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Corrugated_Cardboard.JPG
+  site: Wikimedia Commons
+  alt: Close-up of corrugated fibreboard showing the fluted middle layer between two liners
+  drawn: false
 glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, brittle--ductile, infill, peel-vs-shear, flute]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/cardboard-screws-and-rivets.svg" alt="Cut-away views through two overlapped sheets of corrugated cardboard joined two ways. Left: a plastic cardboard screw turned in from the front, its coarse thread biting into the card around a punched hole and pulling the layers together, with nothing needed behind. Right: a box rivet made of two ide"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/cardboard-screws-and-rivets.webp" alt="Close-up of corrugated fibreboard showing the fluted middle layer between two liners"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Corrugated_Cardboard.JPG">Corrugated Cardboard</a> by Richard Wheeler (Zephyris), <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Reusable plastic fasteners made for corrugated cardboard: a coarse-threaded plastic screw driven into a punched hole from one side, or a pair of plastic rivet halves pressed together through the hole from both sides, which clamp box panels together without tape or glue and can be taken out and reused, with smooth-shank rivets and plastic hinges for swinging joints.

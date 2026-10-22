@@ -187,11 +187,34 @@ pictures:
   drawn: true
   still: drawn/sewn-book-bindings.svg
   kind: animation
+- file: sewn-book-bindings.webp
+  title: File:Coptic sewing.jpg
+  author: Ratbasket
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Coptic_sewing.jpg
+  site: Wikimedia Commons
+  alt: Close-up of the spine of a hand-made Coptic binding, showing the thread chain stitches linking each folded section
+    to the next and to the wooden covers.
+  kind: how-it-works
+  drawn: false
+- file: sewn-book-bindings-f6eb74.webp
+  title: File:Coptic flat.jpg
+  author: Ratbasket at English Wikipedia
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Coptic_flat.jpg
+  site: Wikimedia Commons
+  alt: A finished Coptic-bound book with wooden covers lying flat, its exposed sewn spine visible along one edge.
+  kind: photo
+  drawn: false
 glossary: [ratchet, form-fit--force-fit--material-bond, heat-set-insert, infill, warping--shrinkage, grain-direction]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/sewn-book-bindings.svg"><img src="../media/drawn/anim/sewn-book-bindings.svg" alt="Three sewn bindings seen from above and from the end; in the end views a page turns: in the pamphlet and in the sewn sections it swings about the fold and lies flat on the other side, while in the stab binding the top sheet only bends up at the stitches and cannot open flat."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sewn-book-bindings.webp" alt="Close-up of the spine of a hand-made Coptic binding, showing the thread chain stitches linking each folded section to the next and to the wooden covers." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Coptic_sewing.jpg">Coptic sewing</a> by Ratbasket, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/sewn-book-bindings-f6eb74.webp" alt="A finished Coptic-bound book with wooden covers lying flat, its exposed sewn spine visible along one edge." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Coptic_flat.jpg">Coptic flat</a> by Ratbasket at English Wikipedia, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Hand sewing joins sheets of paper into a book by passing a needle and waxed thread through a row of pierced holes, either along the fold of folded sheets (a pamphlet stitch for one section, or linked kettle or Coptic stitches for many) or straight through the stack near its edge (Japanese stab binding), so the thread acts as both fastener and hinge.

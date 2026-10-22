@@ -189,11 +189,33 @@ pictures:
   drawn: true
   still: drawn/split-pin-paper-fastener.svg
   kind: animation
+- file: split-pin-paper-fastener.webp
+  title: File:Attache parisienne.JPG
+  author: Zyzomis
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Attache_parisienne.JPG
+  site: Wikimedia Commons
+  alt: Close-up of a single brass paper fastener with a domed round head and two flat legs held together.
+  kind: photo
+  drawn: false
+- file: split-pin-paper-fastener-64e928.webp
+  title: File:Musterklammer 2005-05-06.JPG
+  author: No machine-readable author provided. Mws.richter assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Musterklammer_2005-05-06.JPG
+  site: Wikimedia Commons
+  alt: Several brass split-pin paper fasteners beside a millimetre ruler, one with its two legs spread apart.
+  kind: photo
+  drawn: false
 glossary: [misalignment, lever-arm, crank, linkage, clearance, form-fit--force-fit--material-bond, layer-lines, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/split-pin-paper-fastener.svg"><img src="../media/drawn/anim/split-pin-paper-fastener.svg" alt="Using a split-pin paper fastener. Left, three side views: push its two legs through a hole made in both card strips, spread the legs apart, then fold them flat against the back so the round head and the folded legs trap the strips. Right, a moving card: a card arm is held to the backing card by one "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/split-pin-paper-fastener.webp" alt="Close-up of a single brass paper fastener with a domed round head and two flat legs held together." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Attache_parisienne.JPG">Attache parisienne</a> by Zyzomis, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/split-pin-paper-fastener-64e928.webp" alt="Several brass split-pin paper fasteners beside a millimetre ruler, one with its two legs spread apart." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Musterklammer_2005-05-06.JPG">Musterklammer 2005-05-06</a> by No machine-readable author provided. Mws.richter assumed (based on copyright claims)., Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A soft brass or brass-plated pin with a round head and two flat legs that is pushed through a hole in stacked paper or card and has its legs spread and folded flat behind, holding the layers together while still letting them turn, which makes it the standard beginner pivot for moving pictures, card puppets, toy clocks and card [linkages](../glossary.md#linkage).

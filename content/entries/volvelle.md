@@ -220,11 +220,35 @@ pictures:
   drawn: true
   still: drawn/volvelle.svg
   kind: animation
+- file: volvelle.webp
+  title: File:Lyon 3e - Bibliothèque municipale de Lyon Part-Dieu - Dans les marges - Volvelle du thème astral de la naissance
+    d'Henri IV.jpg
+  author: Romainbehar
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Lyon_3e_-_Biblioth%C3%A8que_municipale_de_Lyon_Part-Dieu_-_Dans_les_marges_-_Volvelle_du_th%C3%A8me_astral_de_la_naissance_d%27Henri_IV.jpg
+  site: Wikimedia Commons
+  alt: A printed paper volvelle with stacked rotating discs, shown in a library exhibition beside a portrait of Henri IV.
+  kind: photo
+  drawn: false
+- file: volvelle-f975d3.webp
+  title: File:Astronomicum Caesareum (1540).f18.jpg
+  author: Petrus Apianus
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Astronomicum_Caesareum_(1540).f18.jpg
+  site: Wikimedia Commons
+  alt: A hand-coloured page from Apianus' Astronomicum Caesareum (1540) with several stacked paper discs turning on one central
+    pivot.
+  kind: photo
+  drawn: false
 glossary: [misalignment, detent, stiffness, clearance, form-fit--force-fit--material-bond, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/volvelle.svg"><img src="../media/drawn/anim/volvelle.svg" alt="Animated volvelle (paper wheel): the top disc turns on its split-pin pivot, first one way and then the other, and its window shows a different word from the ring printed on the base disc at each stop."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/volvelle.webp" alt="A printed paper volvelle with stacked rotating discs, shown in a library exhibition beside a portrait of Henri IV." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Lyon_3e_-_Biblioth%C3%A8que_municipale_de_Lyon_Part-Dieu_-_Dans_les_marges_-_Volvelle_du_th%C3%A8me_astral_de_la_naissance_d%27Henri_IV.jpg">Lyon 3e - Bibliothèque municipale de Lyon Part-Dieu - Dans les marges - Volvelle du thème astral de la naissance d&#x27;Henri IV</a> by Romainbehar, <a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/volvelle-f975d3.webp" alt="A hand-coloured page from Apianus&#x27; Astronomicum Caesareum (1540) with several stacked paper discs turning on one central pivot." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Astronomicum_Caesareum_(1540).f18.jpg">Astronomicum Caesareum (1540).f18</a> by Petrus Apianus, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Two or more paper or card discs share a single pivot through their centres, so turning one disc against another moves pointers, windows and printed scales into new line-ups, giving a paper calculator, a reference dial, a code wheel or a changing picture.

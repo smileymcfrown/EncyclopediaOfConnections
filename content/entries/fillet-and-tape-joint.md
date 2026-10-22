@@ -195,12 +195,24 @@ pictures:
     the inside corner. Third, glass tape wet with epoxy is laid over the fillet and onto both panels, so load flows round
     the curve from one panel to the other instead of through a sharp corner.
   drawn: true
+- file: fillet-and-tape-joint.webp
+  title: File:Canoe stitch and glue.jpg
+  author: Kevin Saff
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Canoe_stitch_and_glue.jpg
+  site: Wikimedia Commons
+  alt: A plywood canoe upside down on a deck, its panels pulled together along the seams with rows of wire stitches before
+    gluing.
+  kind: how-it-works
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, taper, chamfer--fillet, repeatability--accuracy, stress-concentration, end-grain,
   cure, peel-vs-shear, sandwich-panel, lay-up, scarf-joint]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/fillet-and-tape-joint.svg" alt="Three cross-sections of a stitch-and-glue seam where two plywood panels meet in a V. First, a twist of wire through holes near both edges holds the panels in shape. Second, with the wire snipped off, a curved fillet of thick epoxy fills the inside corner. Third, glass tape wet with epoxy is laid ove"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/fillet-and-tape-joint.webp" alt="A plywood canoe upside down on a deck, its panels pulled together along the seams with rows of wire stitches before gluing." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Canoe_stitch_and_glue.jpg">Canoe stitch and glue</a> by Kevin Saff, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A seam made by pulling two panels together with temporary stitches, filling the inside corner with a smooth cove of thickened epoxy (the [fillet](../glossary.md#chamfer--fillet)) and laying resin-soaked glass tape across it, so the panels are welded into one stiff shell without frames or fasteners.

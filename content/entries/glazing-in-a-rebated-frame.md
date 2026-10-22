@@ -184,11 +184,22 @@ pictures:
     swings back to let it out. Right, an old window: the glass sits on a bed of putty in the rebate, a glazier''s point holds
     it, and bevelled face putty over the point sheds rain.'
   drawn: true
+- file: glazing-in-a-rebated-frame.webp
+  title: File:Hacking knife chopping glazing putty.jpg
+  author: Andy Dingley
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg
+  site: Wikimedia Commons
+  alt: A hacking knife chopping old putty out of the rebate round a pane of glass in a wooden window frame.
+  kind: how-it-works
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, heat-set-insert, boss, brittle--ductile, perimeters, infill, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glazing-in-a-rebated-frame.svg" alt="Cut through one side of two frames, front at the top. Left, a picture frame: the glass, the card mount with the picture and the backing board drop into a stepped ledge (rebate) and rest against the frame&#x27;s front lip, and a small metal glazier&#x27;s point pushed into the wood holds them in; below, a back"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glazing-in-a-rebated-frame.webp" alt="A hacking knife chopping old putty out of the rebate round a pane of glass in a wooden window frame." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg">Hacking knife chopping glazing putty</a> by Andy Dingley, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pane of glass, mirror or acrylic rests against a stepped recess (rebate) round the inside of a frame and is trapped there from behind by metal points pushed into the wood, a bead of putty, a pinned strip of wood (glazing bead) or turn buttons screwed to the back, which also hold any backing board in place.

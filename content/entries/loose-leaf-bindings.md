@@ -191,12 +191,35 @@ pictures:
   drawn: true
   still: drawn/loose-leaf-bindings.svg
   kind: animation
+- file: loose-leaf-bindings.webp
+  title: File:Comb bind examples.JPG
+  author: Digitalgadget
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Comb_bind_examples.JPG
+  site: Wikimedia Commons
+  alt: A white plastic comb binding with its curled fingers passing through a row of rectangular punched holes along the edge
+    of the sheets.
+  kind: how-it-works
+  drawn: false
+- file: loose-leaf-bindings-a0b770.webp
+  title: File:Ringmechanik 01 (fcm).jpg
+  author: 'Photograph: Frank C. Müller, Frankfurt am Main'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ringmechanik_01_(fcm).jpg
+  site: Wikimedia Commons
+  alt: The metal ring mechanism of a lever-arch file, with its two rings open above the board.
+  kind: photo
+  drawn: false
 glossary: [over-centre, pitch, living-hinge, tolerance, form-fit--force-fit--material-bond, brittle--ductile, infill, print-in-place,
   peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/loose-leaf-bindings.svg"><img src="../media/drawn/anim/loose-leaf-bindings.svg" alt="Five loose-leaf bindings seen from the face of the page and from the end; in each end view a page swings about the ring, coil, comb, wire loop or disc from one side to the other and back. Icons below show which fold right round and which let pages be taken out."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/loose-leaf-bindings.webp" alt="A white plastic comb binding with its curled fingers passing through a row of rectangular punched holes along the edge of the sheets." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Comb_bind_examples.JPG">Comb bind examples</a> by Digitalgadget, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/loose-leaf-bindings-a0b770.webp" alt="The metal ring mechanism of a lever-arch file, with its two rings open above the board." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ringmechanik_01_(fcm).jpg">Ringmechanik 01 (fcm)</a> by Photograph: Frank C. Müller, Frankfurt am Main, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Loose-leaf bindings hold punched sheets on rings, a helical coil, a curled plastic comb, a C-shaped wire closed into loops, or a stack of rimmed discs, so the pages pivot about the binding like a hinge and, for rings, combs and discs, can be opened, rearranged, added or removed.

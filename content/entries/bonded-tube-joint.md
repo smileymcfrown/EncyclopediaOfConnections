@@ -182,11 +182,22 @@ pictures:
     thin, even glue gap all round and a bond length on each side of two to three times the tube''s inside width. Right: two
     tubes glued into the sockets of a corner lug, each socket a little bigger than the tube so glue fills the gap.'
   drawn: true
+- file: bonded-tube-joint.webp
+  title: File:Bamboo bike frame Bamboosero.jpg
+  author: Noah Scalin
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg
+  site: Wikimedia Commons
+  alt: A handmade bamboo bicycle frame whose tube joints are wrapped in resin-soaked fibre, held up at a bike show.
+  kind: photo
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, set-screw, creep, cure, peel-vs-shear, lay-up, scarf-joint, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/bonded-tube-joint.svg" alt="Two cut-aways of glued tube joints. Left: two carbon tubes meet end to end over a sleeve glued inside both, with a thin, even glue gap all round and a bond length on each side of two to three times the tube&#x27;s inside width. Right: two tubes glued into the sockets of a corner lug, each socket a little"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bonded-tube-joint.webp" alt="A handmade bamboo bicycle frame whose tube joints are wrapped in resin-soaked fibre, held up at a bike show." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg">Bamboo bike frame Bamboosero</a> by Noah Scalin, <a href="https://creativecommons.org/licenses/by-sa/2.0">CC BY-SA 2.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Tubes are joined by gluing each tube end into or over a close-fitting socket, sleeve, plug or lug, or by binding the joint with resin-soaked fibre, so the load passes through a long glued overlap instead of through holes drilled in the tube wall.

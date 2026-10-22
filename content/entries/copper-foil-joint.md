@@ -173,11 +173,33 @@ pictures:
     edge with a small lip on both faces, the foil is fluxed and given a thin coat of solder, and then a rounded solder bead
     fills the gap between the pieces and wraps over the foil on both faces, locking the two pieces together.'
   drawn: true
+- file: copper-foil-joint.webp
+  title: File:CopperFoil glasswork soldering.jpg
+  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_soldering.jpg
+  site: Wikimedia Commons
+  alt: A soldering iron running solder along the copper-foiled seams of a glass butterfly laid out on a board.
+  kind: how-it-works
+  drawn: false
+- file: copper-foil-joint-dc81f9.webp
+  title: File:CopperFoil glasswork wrapped before soldering.jpg
+  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_wrapped_before_soldering.jpg
+  site: Wikimedia Commons
+  alt: Pieces of red and grey glass for a butterfly, each edge wrapped in copper foil and fitted together before soldering.
+  kind: how-it-works
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, flux]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/copper-foil-joint.svg" alt="Cross-section through a copper foil joint between two pieces of glass: sticky copper foil is wrapped round each glass edge with a small lip on both faces, the foil is fluxed and given a thin coat of solder, and then a rounded solder bead fills the gap between the pieces and wraps over the foil on bo"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/copper-foil-joint.webp" alt="A soldering iron running solder along the copper-foiled seams of a glass butterfly laid out on a board." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_soldering.jpg">CopperFoil glasswork soldering</a> by No machine-readable author provided. Rickjpelleg assumed (based on copyright claims)., <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/copper-foil-joint-dc81f9.webp" alt="Pieces of red and grey glass for a butterfly, each edge wrapped in copper foil and fitted together before soldering." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_wrapped_before_soldering.jpg">CopperFoil glasswork wrapped before soldering</a> by No machine-readable author provided. Rickjpelleg assumed (based on copyright claims)., <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Each glass piece's edge is wrapped in adhesive copper tape and pressed flat (burnished), the copper is brushed with [flux](../glossary.md#flux), and solder is run along every seam where two foiled edges meet, so the pieces become one rigid panel or 3D shape held together by a continuous metal network.

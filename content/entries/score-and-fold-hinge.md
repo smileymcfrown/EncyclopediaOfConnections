@@ -185,30 +185,30 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Scoreandfold_hinge_scored_crease_creasing_card_hinge.json
 image:
-  file: drawn/anim/score-and-fold-hinge.svg
-  alt: 'Side views of a score-and-fold hinge in card: a bone folder run along a ruler presses a groove into the top face and
-    pushes a small bead out underneath; the card then folds on that line with the groove on the outside and the bead tucked
-    inside the fold. Below, folding it the wrong way round (groove inside) cracks the outer face, and thick foam board is
-    cut part-way through so its bottom paper is left to bend as the hinge. The animation folds the right-hand part of the
-    card down through a right angle on the scored line and opens it flat again.'
-  drawn: true
-  still: drawn/score-and-fold-hinge.svg
-  kind: animation
+  file: score-and-fold-hinge.webp
+  title: File:Bonefolders.jpg
+  author: Ratbasket at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Bonefolders.jpg
+  site: Wikimedia Commons
+  alt: Photo of three bone folders, two shaped and oiled, about 15-17.5 cm long
+  drawn: false
 pictures:
-- file: drawn/anim/score-and-fold-hinge.svg
-  alt: 'Side views of a score-and-fold hinge in card: a bone folder run along a ruler presses a groove into the top face and
-    pushes a small bead out underneath; the card then folds on that line with the groove on the outside and the bead tucked
-    inside the fold. Below, folding it the wrong way round (groove inside) cracks the outer face, and thick foam board is
-    cut part-way through so its bottom paper is left to bend as the hinge. The animation folds the right-hand part of the
-    card down through a right angle on the scored line and opens it flat again.'
-  drawn: true
-  still: drawn/score-and-fold-hinge.svg
-  kind: animation
+- file: score-and-fold-hinge.webp
+  title: File:Bonefolders.jpg
+  author: Ratbasket at English Wikipedia
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Bonefolders.jpg
+  site: Wikimedia Commons
+  alt: Photo of three bone folders, two shaped and oiled, about 15-17.5 cm long
+  drawn: false
 glossary: [stiffness, living-hinge, infill, kerf, grain-direction, flute, mountain-fold--valley-fold]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/score-and-fold-hinge.svg"><img src="../media/drawn/anim/score-and-fold-hinge.svg" alt="Side views of a score-and-fold hinge in card: a bone folder run along a ruler presses a groove into the top face and pushes a small bead out underneath; the card then folds on that line with the groove on the outside and the bead tucked inside the fold. Below, folding it the wrong way round (groove "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/score-and-fold-hinge.webp" alt="Photo of three bone folders, two shaped and oiled, about 15-17.5 cm long"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Bonefolders.jpg">Bonefolders</a> by Ratbasket at English Wikipedia, Public domain, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pressed (scored) or half-cut line that makes a sheet of paper, card, cardboard or foam board bend cleanly and accurately in one place, so the sheet folds into a box, card or model and the fold keeps working as a hinge.

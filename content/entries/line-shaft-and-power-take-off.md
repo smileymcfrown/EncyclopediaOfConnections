@@ -194,12 +194,35 @@ pictures:
   drawn: true
   still: drawn/line-shaft-and-power-take-off.svg
   kind: animation
+- file: line-shaft-and-power-take-off.webp
+  title: File:Olive Edis; Iwm Photographer of the Women's Services in France 1919 Q8116.jpg
+  author: Olive Edis
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg
+  site: Wikimedia Commons
+  alt: A 1919 machine shop where overhead line shafts drive rows of lathes through long leather belts while women work the
+    machines.
+  kind: how-it-works
+  drawn: false
+- file: line-shaft-and-power-take-off-663f28.webp
+  title: File:TractorPTOshaftMay04.jpg
+  author: Jesster79
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg
+  site: Wikimedia Commons
+  alt: A yellow-guarded drive shaft connected to the power take-off at the back of a farm tractor.
+  kind: photo
+  drawn: false
 glossary: [misalignment, backlash, freewheel, torque, gear-ratio, idler, fail-safe--fail-secure, clearance, tolerance, set-screw,
   spline, taper, repeatability--accuracy, creep, lubrication, perimeters, counter-rotating]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/line-shaft-and-power-take-off.svg"><img src="../media/drawn/anim/line-shaft-and-power-take-off.svg" alt="A line shaft: one long shaft under the ceiling, turned by a motor at one end, carries three pulleys, and each pulley drives a belt down to its own machine: a big pulley driving a small one makes the first machine turn twice as fast, a crossed belt makes the second turn the other way, and a small pul"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/line-shaft-and-power-take-off.webp" alt="A 1919 machine shop where overhead line shafts drive rows of lathes through long leather belts while women work the machines." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg">Olive Edis; Iwm Photographer of the Women&#x27;s Services in France 1919 Q8116</a> by Olive Edis, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/line-shaft-and-power-take-off-663f28.webp" alt="A yellow-guarded drive shaft connected to the power take-off at the back of a farm tractor." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg">TractorPTOshaftMay04</a> by Jesster79, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A single driven shaft that runs past several machines and carries a pulley, sprocket or gear for each one, so one motor or engine can power many things, each with its own speed, its own direction and its own way to start and stop it; the tractor PTO is the same idea as a splined stub shaft that a machine plugs into.

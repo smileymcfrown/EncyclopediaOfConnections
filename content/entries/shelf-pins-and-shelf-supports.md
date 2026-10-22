@@ -188,11 +188,35 @@ pictures:
     of four kinds of support: a plain pin, a flat spoon pin, a pin with a rubber ring under a glass shelf, and a support with
     a flap that locks over the top of the shelf.'
   drawn: true
+- file: shelf-pins-and-shelf-supports.webp
+  title: File:Sektion support shelf pins and Utrusta standard shelf pins.jpg
+  author: Stilfehler
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Sektion_support_shelf_pins_and_Utrusta_standard_shelf_pins.jpg
+  site: Wikimedia Commons
+  alt: Several metal and plastic shelf pins of two types lying on a table, some with a plain sleeve and some with a threaded
+    or ribbed shank.
+  kind: photo
+  drawn: false
+- file: shelf-pins-and-shelf-supports-608933.webp
+  title: File:2017 UEF Joensuu library 06 shelf.jpg
+  author: 'File:2017 UEF Joensuu library 06.jpg: Nemo bis derivate work: User:Westbahnhof'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:2017_UEF_Joensuu_library_06_shelf.jpg
+  site: Wikimedia Commons
+  alt: Empty library shelving whose upright sides are drilled with evenly spaced rows of small holes, with shelves resting
+    at chosen heights.
+  kind: how-it-works
+  drawn: false
 glossary: [stiffness, cantilever, form-fit--force-fit--material-bond, creep, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/shelf-pins-and-shelf-supports.svg" alt="Shelf pins: on the left, the inside face of a cupboard side with two rows of small holes 32 mm apart, the front row 37 mm from the front edge, and a shelf resting on two pins whose weight pushes straight down; on the right, side cut-aways of four kinds of support: a plain pin, a flat spoon pin, a pi"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shelf-pins-and-shelf-supports.webp" alt="Several metal and plastic shelf pins of two types lying on a table, some with a plain sleeve and some with a threaded or ribbed shank." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Sektion_support_shelf_pins_and_Utrusta_standard_shelf_pins.jpg">Sektion support shelf pins and Utrusta standard shelf pins</a> by Stilfehler, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/shelf-pins-and-shelf-supports-608933.webp" alt="Empty library shelving whose upright sides are drilled with evenly spaced rows of small holes, with shelves resting at chosen heights." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:2017_UEF_Joensuu_library_06_shelf.jpg">2017 UEF Joensuu library 06 shelf</a> by File:2017 UEF Joensuu library 06.jpg: Nemo bis derivate work: User:Westbahnhof, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Shelf pins are small pegs pushed into matching rows of holes drilled in the inside faces of a cabinet, usually 5 mm or 1/4 in holes spaced 32 mm apart, so a loose shelf rests on four of them and can be moved to another height in seconds; glass shelves use supports with a rubber ring or pad, or a locking clamp, so the glass can't slide or tip.
