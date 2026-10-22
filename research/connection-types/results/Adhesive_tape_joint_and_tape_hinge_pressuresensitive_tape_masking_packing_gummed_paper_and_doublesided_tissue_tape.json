@@ -72,7 +72,7 @@
       "Two-strip tape hinge: tape the top with the flap fully down, then tape the underside with the flap fully up (Flite Test 'RC Plane Hinge Types').",
       "Hinge gap: set it with scrap 1/16 in (1.6 mm) balsa spacers and press the tape down thoroughly; too little gap binds, too much flaps or vibrates; bevel the edges for top hinging (Model Aviation FAQ 2010/02).",
       "Pick hinge tape by model weight: soft Blenderm-type tape for micro and indoor models under 8 oz (about 225 g); a gapless hinge tape for 8-48 oz (about 225 g-1.4 kg); very few tapes resist fuel, so tape hinges suit electric models and gliders (Model Aviation FAQ 2010/02). Flite Test limits tape hinges to electric foam planes.",
-      "Woven tape hinge: cut a strip in half and stick the two halves together so they overlap in the middle by about the foam thickness (about 1/4 in), then stick one free end to each part, keeping the overlap over the gap (the photos show the ends going to opposite faces), giving a hinge with no bevel and no gap (Flite Test 'Tape weave hinges').",
+      "Woven tape hinge: cut a strip in half and stick the two halves together so they overlap in the middle by about the foam thickness (about 1/4 in), then stick one free end down on each part, keeping the overlap over the gap (in a woven hinge the two ends usually go on opposite faces [uncertain: not stated in the text]), giving a hinge with no bevel and no gap (Flite Test 'Tape weave hinges').",
       "Masking-tape adhesives: rubber-based grip hardest but tolerate the least heat; acrylic works from below freezing to about 150 °C; silicone tapes tolerate intermittent use up to about 260 °C (Wikipedia 'Masking tape', partly unsourced there).",
       "Mitre folds in wood: cut 45-degree V-grooves, lay the pieces face up edge to edge, tape across the face with heavy packing tape, flip, glue and fold; with brittle materials cut right through and slightly into the tape (Woodweb 'Miterfolds for clean corner joints')."
     ]
@@ -183,6 +183,7 @@
     "play_and_precision",
     "materials",
     "making_tips_3d_printing",
-    "environment_limits"
+    "environment_limits",
+    "rules_of_thumb"
   ]
 }
