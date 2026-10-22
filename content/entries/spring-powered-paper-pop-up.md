@@ -191,11 +191,19 @@ pictures:
   drawn: true
   still: drawn/spring-powered-paper-pop-up.svg
   kind: animation
+- file: render/spring-powered-paper-pop-up.webp
+  alt: 'Render of spring-powered paper pop-ups: a yellow card cube stands open with a rubber band stretched across its inside
+    between two opposite corners; beside it a second cube is pressed flat, its band stretched between the folded ends, ready
+    to snap it back into a cube; to one side a paper spring of two strips folded over each other holds up a card star.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [over-centre, linkage, flexure, torsion, form-fit--force-fit--material-bond]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/spring-powered-paper-pop-up.svg"><img src="../media/drawn/anim/spring-powered-paper-pop-up.svg" alt="Animated snap-up card cube: the cube is pressed flat, which pulls two opposite corners apart and stretches the rubber band inside; let go, the band shortens and snaps the four card sides back into a cube. Beside it a paper spring of two strips folded over each other squashes down and springs back up"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/spring-powered-paper-pop-up.webp" alt="Render of spring-powered paper pop-ups: a yellow card cube stands open with a rubber band stretched across its inside between two opposite corners; beside it a second cube is pressed flat, its band stretched between the folded ends, ready to snap it back into a cube; to one side a paper spring of tw" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A paper or card shape that is pressed flat against a stretched rubber band or a springy folded paper strip, so that when it is released, dropped or slid out of a card it springs up by itself into a cube, a box or a bouncing figure.

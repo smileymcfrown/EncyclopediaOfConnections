@@ -205,12 +205,20 @@ pictures:
   drawn: true
   still: drawn/pull-tab-and-slider-mechanism.svg
   kind: animation
+- file: render/pull-tab-and-slider-mechanism.webp
+  alt: 'Render of a pull-tab slider in a card book: on the right-hand page a cut-out card boat sits over a long slot, fixed
+    to a green card strip that slides in a channel behind the page, and the strip''s rounded tab sticks out of the edge of
+    the page, pulled part way out.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, lever-arm, crank, linkage, clearance, form-fit--force-fit--material-bond, brittle--ductile, overhang--bridging,
   cure]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/pull-tab-and-slider-mechanism.svg"><img src="../media/drawn/anim/pull-tab-and-slider-mechanism.svg" alt="Animated pull-tab slider: the pull tab is pulled out from the edge of the page and the pull strip slides under its guide strips, carrying the picture along the slot on the front; then it is pushed back. A cut along the slot below shows the same movement inside the page."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/pull-tab-and-slider-mechanism.webp" alt="Render of a pull-tab slider in a card book: on the right-hand page a cut-out card boat sits over a long slot, fixed to a green card strip that slides in a channel behind the page, and the strip&#x27;s rounded tab sticks out of the edge of the page, pulled part way out." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A strip of card that slides in a slot or a glued channel, pulled by the reader's fingers or by the opposite page as the book opens, to move a picture across the page, swing an arm on a paper pivot, raise or flip a flap, or slide one striped picture over another.

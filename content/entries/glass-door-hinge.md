@@ -181,12 +181,20 @@ pictures:
   drawn: true
   still: drawn/glass-door-hinge.svg
   kind: animation
+- file: render/glass-door-hinge.webp
+  alt: 'Render of a glass door hinge: a small wooden cabinet with a glass door standing part open, the door held only by two
+    chrome clamps gripping its top and bottom corners, each turning on a pin in the cabinet top and base, with a small magnetic
+    catch on the base for the other corner.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [crank, clearance, form-fit--force-fit--material-bond, pilot-hole, repeatability--accuracy, creep, perimeters, print-in-place,
   toughened-glass]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/glass-door-hinge.svg"><img src="../media/drawn/anim/glass-door-hinge.svg" alt="Animated glass cabinet door on a pivot hinge. Left, seen from above: the door, gripped at its corner by a padded metal clamp, swings open a quarter turn about the clamp&#x27;s pin and closes again onto its magnetic catch. Right, a clamp cut open: plastic pads line the metal jaws so metal never touches th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/glass-door-hinge.webp" alt="Render of a glass door hinge: a small wooden cabinet with a glass door standing part open, the door held only by two chrome clamps gripping its top and bottom corners, each turning on a pin in the cabinet top and base, with a small magnetic catch on the base for the other corner." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A glass door hinge carries a glass or acrylic door on a cabinet without screwing into the door: it grips the sheet with a padded clamp, holds it with a cap bolted through a 26 mm hole drilled in the glass, or clamps the top and bottom corners onto pins that turn in the cabinet.

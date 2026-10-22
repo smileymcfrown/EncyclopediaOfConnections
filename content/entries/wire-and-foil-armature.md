@@ -146,30 +146,30 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Armature_for_Gromit.JPG
 research: research/connection-types/results/Wire_and_foil_armature_sculpture_armature_foil_core.json
 image:
-  file: wire-and-foil-armature.webp
-  title: File:Armature-sculpture.png
-  author: unknown
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Armature-sculpture.png
-  site: Wikimedia Commons
-  alt: Classic drawing of a sculptor's wire and pipe armature for a standing figure, fixed to a base board
-  drawn: false
+  file: drawn/wire-and-foil-armature.svg
+  alt: Cut-away of a small clay animal standing on a wooden base. A twisted wire skeleton runs from holes drilled in the base
+    up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills
+    out the body and head, and a thin, even layer of clay covers it all. An inset shows two wires twisted together.
+  drawn: true
 pictures:
-- file: wire-and-foil-armature.webp
-  title: File:Armature-sculpture.png
-  author: unknown
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Armature-sculpture.png
-  site: Wikimedia Commons
-  alt: Classic drawing of a sculptor's wire and pipe armature for a standing figure, fixed to a base board
-  drawn: false
+- file: drawn/wire-and-foil-armature.svg
+  alt: Cut-away of a small clay animal standing on a wooden base. A twisted wire skeleton runs from holes drilled in the base
+    up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills
+    out the body and head, and a thin, even layer of clay covers it all. An inset shows two wires twisted together.
+  drawn: true
+- file: render/wire-and-foil-armature.webp
+  alt: 'Render of a wire and foil armature: a small four-legged figure being sculpted on a wooden base, with a skeleton of
+    twisted aluminium wire running down its legs into holes in the base and along its neck and tail, crumpled foil taped round
+    the wire to bulk out the body and head, and the back half already covered in a thin layer of clay.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, cure]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/wire-and-foil-armature.webp" alt="Classic drawing of a sculptor&#x27;s wire and pipe armature for a standing figure, fixed to a base board"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Armature-sculpture.png">Armature-sculpture</a> by unknown, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/wire-and-foil-armature.svg" alt="Cut-away of a small clay animal standing on a wooden base. A twisted wire skeleton runs from holes drilled in the base up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills out the body and head, and a thin, even layer of clay cover"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/wire-and-foil-armature.webp" alt="Render of a wire and foil armature: a small four-legged figure being sculpted on a wooden base, with a skeleton of twisted aluminium wire running down its legs into holes in the base and along its neck and tail, crumpled foil taped round the wire to bulk out the body and head, and the back half alre" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A skeleton of bent, often twisted wire, anchored in a base and bulked out with foil, tape or other filler, that clay or putty is built up over so the finished figure has a strong core that holds its shape, keeps thin parts attached and stands up.

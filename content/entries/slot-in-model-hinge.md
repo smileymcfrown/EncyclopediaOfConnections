@@ -173,11 +173,19 @@ pictures:
   drawn: true
   still: drawn/slot-in-model-hinge.svg
   kind: animation
+- file: render/slot-in-model-hinge.webp
+  alt: 'Render of slot-in model hinges: the back edge of a balsa model plane wing and its aileron joined by thin white flat
+    hinges pushed half into a slit in each part and glued, with the aileron swung down so the hinges bend in the gap between
+    the bevelled edges; the cut end shows one hinge buried in both slits, and a spare hinge lies in front.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [stiffness, living-hinge, clearance, form-fit--force-fit--material-bond, brittle--ductile, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/slot-in-model-hinge.svg"><img src="../media/drawn/anim/slot-in-model-hinge.svg" alt="Cut-away side view of the back edge of a model plane&#x27;s wing and the front of its aileron, both balsa. A flat hinge is pushed half into a slot in each and glued, with a toothpick peg through each half so it can&#x27;t pull out; the edges are bevelled and the hinge bends in the gap between them. Below, see"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/slot-in-model-hinge.webp" alt="Render of slot-in model hinges: the back edge of a balsa model plane wing and its aileron joined by thin white flat hinges pushed half into a slit in each part and glued, with the aileron swung down so the hinges bend in the gap between the bevelled edges; the cut end shows one hinge buried in both " loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Hinges for radio-controlled model planes that are pushed into matching slits or drilled holes along the edges of a wing (or tail) and its moving flap and glued in, giving a hidden, screw-free pivot along the hinge line.

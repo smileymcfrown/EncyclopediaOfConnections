@@ -177,32 +177,32 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Glued_tab_joint_glue_tab_glue_flap_construction_tab_edge_gluing_with_a_backing_strip.json
 image:
-  file: glued-tab-joint.webp
-  title: File:Blank RSC.svg
-  author: Life of Riley
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Blank_RSC.svg
-  site: Wikimedia Commons
-  alt: Flat blank of a regular slotted cardboard box with score lines, slots and the manufacturer's joint flap that is glued
-    to close the side seam
-  drawn: false
+  file: drawn/glued-tab-joint.svg
+  alt: 'Three glued tab joints in card. Left, seen end-on: a tab folded down from one panel on a scored line is glued behind
+    the next panel, whose cut edge then shows as a small step at the corner. Middle: the tabless way, with the two edges bevelled
+    to meet cleanly and a hidden paper strip glued behind both. Right: a card tube with a ring of short flanges cut round
+    its end, folded outwards and glued flat to a card base.'
+  drawn: true
 pictures:
-- file: glued-tab-joint.webp
-  title: File:Blank RSC.svg
-  author: Life of Riley
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Blank_RSC.svg
-  site: Wikimedia Commons
-  alt: Flat blank of a regular slotted cardboard box with score lines, slots and the manufacturer's joint flap that is glued
-    to close the side seam
-  drawn: false
+- file: drawn/glued-tab-joint.svg
+  alt: 'Three glued tab joints in card. Left, seen end-on: a tab folded down from one panel on a scored line is glued behind
+    the next panel, whose cut edge then shows as a small step at the corner. Middle: the tabless way, with the two edges bevelled
+    to meet cleanly and a hidden paper strip glued behind both. Right: a card tube with a ring of short flanges cut round
+    its end, folded outwards and glued flat to a card base.'
+  drawn: true
+- file: render/glued-tab-joint.webp
+  alt: 'Render of glued tab joints in card: a small blue papercraft cube with its lid open shows narrow tabs folded in along
+    the top edges and behind the corners, ready for the lid to be glued down onto them; beside it a brown card tube has its
+    end cut into short tabs that are folded out flat and glued to a card base.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [tolerance, form-fit--force-fit--material-bond, repeatability--accuracy, peel-vs-shear, flute, scarf-joint]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/glued-tab-joint.webp" alt="Flat blank of a regular slotted cardboard box with score lines, slots and the manufacturer&#x27;s joint flap that is glued to close the side seam"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Blank_RSC.svg">Blank RSC</a> by Life of Riley, Public domain, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glued-tab-joint.svg" alt="Three glued tab joints in card. Left, seen end-on: a tab folded down from one panel on a scored line is glued behind the next panel, whose cut edge then shows as a small step at the corner. Middle: the tabless way, with the two edges bevelled to meet cleanly and a hidden paper strip glued behind bot"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/glued-tab-joint.webp" alt="Render of glued tab joints in card: a small blue papercraft cube with its lid open shows narrow tabs folded in along the top edges and behind the corners, ready for the lid to be glued down onto them; beside it a brown card tube has its end cut into short tabs that are folded out flat and glued to a" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A strip of extra paper or card left on one part's edge is folded on a scored line and glued under or behind the matching edge of the next part, making a small glued overlap (lap joint) that holds papercraft, card boxes and cardboard tubes together.

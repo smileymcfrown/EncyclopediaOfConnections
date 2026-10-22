@@ -14,13 +14,13 @@ function bandLoop(s, h, off = 4.5) {
 }
 
 export default {
-  alt: 'Render of spring-powered paper pop-ups: a yellow card cube stands open with a rubber band stretched across its inside between two opposite corners; beside it a second cube is pressed flat, its band stretched between the folded ends, ready to snap it back into a cube; behind them a paper spring of two folded strips holds up a card star.',
+  alt: 'Render of spring-powered paper pop-ups: a yellow card cube stands open with a rubber band stretched across its inside between two opposite corners; beside it a second cube is pressed flat, its band stretched between the folded ends, ready to snap it back into a cube; to one side a paper spring of two strips folded over each other holds up a card star.',
   view: { dir: [0.5, 0.7, 1.0], fill: 1.12, exposure: 0.68, light: [-0.5, 1, 0.55] },
   build(K) {
     const { THREE, group, at, extrude, box, wire } = K;
     const paper = (c) => new THREE.MeshPhysicalMaterial({ color: c, roughness: 0.88, metalness: 0 });
     const yellow = paper(0xe9ae2c), blue = paper(0x3f86cc), red = paper(0xd9483b), white = paper(0xf3eee2);
-    const rubber = new THREE.MeshPhysicalMaterial({ color: 0xc08a4a, roughness: 0.7, metalness: 0 });
+    const rubber = new THREE.MeshPhysicalMaterial({ color: 0xa86532, roughness: 0.7, metalness: 0 });
     const panel = (w, h, m) => box(w, h, T, m, 0.2);
 
     // the open cube: four card walls and the band
@@ -28,7 +28,7 @@ export default {
       at(panel(S, S, yellow), [0, S / 2, -S / 2]), at(panel(S, S, yellow), [0, S / 2, S / 2]),
       at(panel(S, S, yellow), [-S / 2, S / 2, 0], [0, 90, 0]), at(panel(S, S, yellow), [S / 2, S / 2, 0], [0, 90, 0]),
     );
-    const band = wire(bandLoop(S, S - 5).map(([x, y, z]) => [x, y, z]), 0.65, rubber, true);
+    const band = wire(bandLoop(S, S - 5).map(([x, y, z]) => [x, y, z]), 0.8, rubber, true);
     const cube = group(walls, band);
 
     // the flattened cube: two layers, each two panels long, folded round at both ends
@@ -58,7 +58,7 @@ export default {
       if (i + 2 < N) {
         const side = (Math.floor(i / 2) % 2 ? -1 : 1);
         const fold = at(extrude(ring(g), w, m, { bevel: 0 }), [0, 0, 0], [0, side > 0 ? 0 : 180, 0]);
-        const holder = group(at(group(fold), [w / 2, y + g, 0]));
+        const holder = group(at(group(fold), [side * w / 2, y + g, 0]));
         holder.rotation.y = i % 2 ? Math.PI / 2 : 0;
         spring.add(holder);
       }

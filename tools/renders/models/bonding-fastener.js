@@ -31,7 +31,7 @@ function carbon(K) {
 }
 export default {
   alt: 'Render of a bonding fastener: a threaded steel stud welded to a thin, wide base plate full of holes, glued flat onto a carbon-fibre panel with no hole drilled, the glue squeezed up through the holes like little rivet heads; a second fastener lies beside it, tipped up to show its perforated plate.',
-  view: { dir: [0.75, 0.85, 1.3], fill: 0.98, light: [-0.4, 1, 0.6] },
+  view: { dir: [0.75, 0.85, 1.3], fill: 1.15, light: [-0.4, 1, 0.6] },
   build(K) {
     const { group, at, box, lathe, mat } = K;
     const TP = 3, glueM = mat.plastic(0xe6d9a6);
@@ -39,10 +39,10 @@ export default {
     // the glue line under the plate, with a small fillet round its edge, and blobs through the holes
     parts.push(at(lathe([[0, 0], [R + 1.4, 0], [R + 0.6, 0.35], [R + 0.1, 0.55], [R, 0.6], [0, 0.6]], glueM), [0, TP, 0]));
     for (const [x, z] of HOLES) parts.push(at(lathe([[0, 0], [1.5, 0], [1.5, PT], [1.45, PT + 0.25], [1.1, PT + 0.55], [0, PT + 0.7]], glueM), [x, TP + 0.6, z]));
-    parts.push(at(fastener(K), [0, TP + 0.6, 0], [0, 10, 0]));
+    parts.push(at(fastener(K), [0, TP + 0.6, 0]));
     // the loose one, resting on its plate rim and the end of its stud, plate face towards the camera
     const th = Math.atan((R - 3) / 21.8), cy = R * Math.cos(th);
-    parts.push(at(group(at(fastener(K), [0, 0, 0], [0, 0, 0])), [-36, cy, 30], [0, -35, 90 + (th * 180) / Math.PI]));
+    parts.push(at(group(at(fastener(K), [0, 0, 0], [0, 0, 0])), [-44, cy, 20], [0, 15, 90 + (th * 180) / Math.PI]));
     return group(parts);
   },
 };

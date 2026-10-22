@@ -180,12 +180,20 @@ pictures:
   drawn: true
   still: drawn/v-groove-fold.svg
   kind: animation
+- file: render/v-groove-fold.webp
+  alt: 'Render of a V-groove fold in foam board: a strip of board folded up into a neat right-angled corner, the two sloping
+    cut faces of the groove glued together inside it and the uncut paper skin wrapping round the outside corner; in front
+    lies a flat piece with a V-shaped groove cut almost through it, ready to fold.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [stiffness, living-hinge, form-fit--force-fit--material-bond, chamfer--fillet, repeatability--accuracy, creep, brittle--ductile,
   infill, kerf, end-grain, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/v-groove-fold.svg"><img src="../media/drawn/anim/v-groove-fold.svg" alt="Cross-sections of foam board (a foam core between two paper skins) folded into a corner. On the left a V-shaped groove is cut from the back down to the bottom paper, so when the board is folded up the two sloping cut faces meet and are glued, and the uncut paper wraps the outside corner. On the righ"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/v-groove-fold.webp" alt="Render of a V-groove fold in foam board: a strip of board folded up into a neat right-angled corner, the two sloping cut faces of the groove glued together inside it and the uncut paper skin wrapping round the outside corner; in front lies a flat piece with a V-shaped groove cut almost through it, r" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Cutting a V-shaped (or square) groove almost through the back of a sheet leaves a thin uncut face that acts as a hinge, so the sheet can be folded until the two cut faces of the groove meet, giving a crisp, seamless corner that is then glued or fixed.

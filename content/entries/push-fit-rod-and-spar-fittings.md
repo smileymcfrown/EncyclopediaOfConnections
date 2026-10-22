@@ -201,12 +201,20 @@ pictures:
     rod with the other rod pushed in; and a thin rod with a short piece of bigger rod glued over its end so it fits a bigger
     socket.'
   drawn: true
+- file: render/push-fit-rod-and-spar-fittings.webp
+  alt: 'Render of push-fit kite fittings: carbon rods pushed into a red moulded cross connector, one spar half pulled out
+    a little from its socket; lower down the spine is joined by an aluminium ferrule glued onto one rod with the other rod
+    partly pulled out, and the rod ends carry a slotted nock and end caps.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [fail-safe--fail-secure, interference-fit, form-fit--force-fit--material-bond, set-screw, creep, brittle--ductile,
   layer-lines, warping--shrinkage]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-fit-rod-and-spar-fittings.svg" alt="A diamond kite frame and three close-ups of push-fit fittings. On the kite, a cross connector holds the spine and spreader, a ferrule joins the spine low down, nocks at the spreader tips catch the sail&#x27;s edge line, and end caps finish the spine. Close-ups: rods pushed into a cross connector&#x27;s snug s"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/push-fit-rod-and-spar-fittings.webp" alt="Render of push-fit kite fittings: carbon rods pushed into a red moulded cross connector, one spar half pulled out a little from its socket; lower down the spine is joined by an aluminium ferrule glued onto one rod with the other rod partly pulled out, and the rod ends carry a slotted nock and end ca" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A small moulded, metal, vinyl-tube or 3D-printed socket that a solid or hollow carbon or fibreglass rod pushes into and is held by a snug fit, used to join rods at a fixed angle (tee, cross, dihedral), join two lengths end to end (ferrule), or finish a rod end with a cap or a slotted nock that holds a line, as on kites, model frames and other light rod structures.

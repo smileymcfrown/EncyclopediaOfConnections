@@ -166,11 +166,19 @@ pictures:
     of the cap, which screws into the front of the barrel and pinches the panel. A small front view shows four standoffs,
     one near each corner, with the holes kept at least 1 inch from the edges.'
   drawn: true
+- file: render/panel-standoff.webp
+  alt: 'Render of panel standoffs: a glass panel held about an inch clear of a painted wall by four stainless steel standoffs,
+    the glass pinched between each barrel and its domed cap; one cap is pulled out to show the threaded stud that passes through
+    the drilled hole in the glass.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [clearance, form-fit--force-fit--material-bond, creep, toughened-glass]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/panel-standoff.svg" alt="A panel standoff pulled apart in side view: a metal barrel is screwed to the wall through a wall plug, and its length sets the gap behind the panel; the drilled glass panel, with a clear washer on each side, goes over the threaded stud of the cap, which screws into the front of the barrel and pinche"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/panel-standoff.webp" alt="Render of panel standoffs: a glass panel held about an inch clear of a painted wall by four stainless steel standoffs, the glass pinched between each barrel and its domed cap; one cap is pulled out to show the threaded stud that passes through the drilled hole in the glass." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A panel standoff is a two-part decorative fixing, a threaded barrel fixed to the wall and a cap screwed into its front, that clamps a drilled sheet of acrylic, glass, aluminium composite or metal between them so the panel is held a set distance off the wall with no frame or glue.

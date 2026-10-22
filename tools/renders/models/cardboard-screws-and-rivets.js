@@ -62,8 +62,13 @@ export default {
     parts.push(at(screw(K, blue), [0, 2 * BT, -15], [0, 20, 0]));
     parts.push(at(rivetHalf(K, white), [0, 2 * BT, 12], [0, 10, 0]));
     // loose parts in front: a screw, and a rivet half lying prongs-up
-    parts.push(at(screw(K, blue), [-22, 9.5, 44], [0, 25, 90]));
-    parts.push(at(rivetHalf(K, white), [22, 1.8, 44], [180, 30, 0]));
+    // the loose screw lies on the bench resting on its flange rim and its point
+    const tilt = (Math.atan2(9.5, 18) * 180) / Math.PI;
+    const lying = at(screw(K, blue), [0, 0, 0], [0, 0, 90 - tilt]);
+    lying.updateMatrixWorld(true);
+    lying.position.y -= new K.THREE.Box3().setFromObject(lying).min.y;
+    parts.push(at(group(lying), [-30, 0, 62], [0, 25, 0]));
+    parts.push(at(rivetHalf(K, white), [22, 1.8, 52], [180, 30, 0]));
     return group(parts);
   },
 };

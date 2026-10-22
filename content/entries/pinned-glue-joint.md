@@ -170,12 +170,20 @@ pictures:
     pin rather than the thin glue line. On the right, two toothpicks pushed through two layers of foam board stop the layers
     sliding apart.'
   drawn: true
+- file: render/pinned-glue-joint.webp
+  alt: 'Render of a pinned glue joint: a grey plastic model figure cut in half shows a short brass pin set half into a drilled
+    hole in its shoulder and half into a hole in its arm, both holes filled with glue around the pin; in front lies a spare
+    arm with its pin already glued in and sticking out.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [misalignment, form-fit--force-fit--material-bond, collet, counterbore--countersink, repeatability--accuracy, brittle--ductile,
   peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/pinned-glue-joint.svg" alt="On the left, a cut-away of a model figure&#x27;s arm pulled slightly away from its body: a wire pin sits half in a drilled hole in each part, each hole a little bigger than the pin and filled with glue, so a knock on the arm is carried by the pin rather than the thin glue line. On the right, two toothpic"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/pinned-glue-joint.webp" alt="Render of a pinned glue joint: a grey plastic model figure cut in half shows a short brass pin set half into a drilled hole in its shoulder and half into a hole in its arm, both holes filled with glue around the pin; in front lies a spare arm with its pin already glued in and sticking out." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Drill (or poke) a matching hole into each of the two faces to be joined, push a short pin into both, and glue it all together, so the joint is held by the glue and also by a hidden pin that stops it sliding or snapping off.

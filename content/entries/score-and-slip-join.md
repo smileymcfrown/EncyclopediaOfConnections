@@ -170,11 +170,19 @@ pictures:
     and a thin coil of clay rolled into each corner. An inset shows two parts that dried at different rates shrinking apart
     and cracking.'
   drawn: true
+- file: render/score-and-slip-join.webp
+  alt: 'Render of a score-and-slip join: a leather-hard clay mug has two patches of criss-cross scratches on its side where
+    the handle will go, the upper one brushed with creamy slip; the curved clay handle lies beside it with its two ends scratched
+    the same way, ready to be pressed on and blended in.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, warping--shrinkage, leather-hard]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/score-and-slip-join.svg" alt="Three steps of joining a clay handle to a mug wall, shown cut through: both meeting faces are scratched with criss-cross lines, slip (a thick paste of the same clay and water) is brushed on, then the handle is pressed on, the seam blended and a thin coil of clay rolled into each corner. An inset sho"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/score-and-slip-join.webp" alt="Render of a score-and-slip join: a leather-hard clay mug has two patches of criss-cross scratches on its side where the handle will go, the upper one brushed with creamy slip; the curved clay handle lies beside it with its two ends scratched the same way, ready to be pressed on and blended in." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Two pieces of soft or part-dried water-based clay are scratched (scored) where they meet, coated with slip (the same clay mixed with water to a thick cream), pressed together and blended, so that as they dry the clay knits into one piece; this is how handles, spouts, ears and other details are attached.

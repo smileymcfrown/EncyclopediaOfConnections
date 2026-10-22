@@ -183,11 +183,19 @@ pictures:
   drawn: true
   still: drawn/linked-lead-screws.svg
   kind: animation
+- file: render/linked-lead-screws.webp
+  alt: 'Render of linked lead screws: two upright lead screws each carry a brass nut under an aluminium bed, and at their
+    feet the same toothed pulley on each screw is wrapped by one closed black timing belt that also runs round the pulley
+    of a single stepper motor, so both screws turn together.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, self-locking, idler, crank, linkage, solenoid, creep, perimeters, counter-rotating]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/linked-lead-screws.svg"><img src="../media/drawn/anim/linked-lead-screws.svg" alt="Linked lead screws: seen from the front, a bed is carried on nuts on two upright lead screws, each with the same toothed pulley at its foot, and one motor under the base drives a closed toothed belt that runs round both pulleys; seen from above, the belt loops round the two screw pulleys and the mot"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/linked-lead-screws.webp" alt="Render of linked lead screws: two upright lead screws each carry a brass nut under an aluminium bed, and at their feet the same toothed pulley on each screw is wrapped by one closed black timing belt that also runs round the pulley of a single stepper motor, so both screws turn together." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 Linked lead screws are two or more screws, each with a nut fixed to the part being lifted, that are tied together by a closed toothed belt, a chain or shafts and bevel gearboxes and turned by one motor, so they can never get out of step and the bed, gantry or platform stays level as it moves.

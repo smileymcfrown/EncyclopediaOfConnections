@@ -167,11 +167,19 @@ pictures:
     with a thin snake of raw clay laid in the joint as a bridge, each with a thin layer of liquid clay between the parts.
     All three go into the oven and come out as one solid piece of plastic.'
   drawn: true
+- file: render/liquid-clay-bond.webp
+  alt: 'Render of a liquid-clay bond in polymer clay: a small clay mushroom with a quarter cut away shows a thin, glossy layer
+    of liquid clay between its red cap and cream stem, with a little bead squeezed out round the joint; beside it a second
+    stem has a wet coat of liquid clay brushed on top, ready for its cap, and the brush lies in front.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [form-fit--force-fit--material-bond, brittle--ductile, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/liquid-clay-bond.svg" alt="Three ways to join polymer clay with liquid clay: two raw pieces, a raw piece to a baked piece, and two baked pieces with a thin snake of raw clay laid in the joint as a bridge, each with a thin layer of liquid clay between the parts. All three go into the oven and come out as one solid piece of pla"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/liquid-clay-bond.webp" alt="Render of a liquid-clay bond in polymer clay: a small clay mushroom with a quarter cut away shows a thin, glossy layer of liquid clay between its red cap and cream stem, with a little bead squeezed out round the joint; beside it a second stem has a wet coat of liquid clay brushed on top, ready for i" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A thin layer of liquid polymer clay (the same PVC-and-plasticiser material as the clay, without the fillers) is brushed onto the joint between two polymer clay parts, and baking the piece again [cures](../glossary.md#cure) it so the parts become one solid piece.

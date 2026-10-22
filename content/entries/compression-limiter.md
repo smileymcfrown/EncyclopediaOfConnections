@@ -142,12 +142,20 @@ pictures:
     a hair shorter than the plastic sits round the bolt, the washer lands on the tube, and the tube carries the clamping force
     so the bolt stays tight.
   drawn: true
+- file: render/compression-limiter.webp
+  alt: 'Render of a compression limiter: a 3D-printed bracket bolted to a painted steel plate, cut away to show a brass tube
+    pressed into the bolt hole, a hair shorter than the plastic, so the bolt''s washer rests on the tube instead of crushing
+    the plastic; a second tube stands beside it.'
+  kind: cross-section
+  render: true
+  drawn: true
 glossary: [misalignment, axial--radial, torque, clearance, tolerance, interference-fit, form-fit--force-fit--material-bond,
   taper, boss, creep, stress-relaxation, perimeters, infill, peel-vs-shear, sandwich-panel, lay-up, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/compression-limiter.svg" alt="Two cut-aways of a bolt clamping a printed plastic bracket to a metal plate. On the left there is no tube, so the washer sinks into the plastic, which squashes and slowly flows sideways until the bolt goes loose. On the right a metal tube a hair shorter than the plastic sits round the bolt, the wash"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/compression-limiter.webp" alt="Render of a compression limiter: a 3D-printed bracket bolted to a painted steel plate, cut away to show a brass tube pressed into the bolt hole, a hair shorter than the plastic, so the bolt&#x27;s washer rests on the tube instead of crushing the plastic; a second tube stands beside it." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A compression limiter is a short, stiff metal tube fitted in a bolt hole through a soft or hollow part (plastic, a 3D print, rubber, wood, a composite or cored panel, a box-section tube), sized so the bolt's clamping force is carried by the tube instead of the soft material, which stops it crushing, cracking or slowly creeping until the bolt goes loose.

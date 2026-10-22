@@ -185,30 +185,33 @@ sources:
 - https://api.printables.com/graphql/ (models 1385974, 1123522, 1719617, 9906, 998724, 1530618; no Printables pages opened)
 research: research/connection-types/results/Folding_box_closures_tuck_flap_slit_lock_snaplock_123_bottom_crashlock_bottom.json
 image:
-  file: folding-box-closures.webp
-  title: File:Carton and tape seal partially open.jpg
-  author: Rlsheehan
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg
-  site: Wikimedia Commons
-  alt: A partly opened carton showing the tuck flap and its locking tab (tongue)
-  drawn: false
+  file: drawn/folding-box-closures.svg
+  alt: 'Folding box closures. Left: the top of a card tuck-end box being closed: the two small dust flaps are folded in first,
+    then the closure panel swings over from the back and its rounded tuck flap slides down inside the front wall. Top right:
+    two tuck flaps compared, a plain friction tuck held only by a tight fit and a slit lock with small cuts at each end of
+    its fold that catch the edges of the dust flaps. Bottom right: the whole box as one flat die-cut blank, front, back and
+    two sides in a row with a glue flap at one end and the flaps at top and bottom, glued once down the side seam.'
+  drawn: true
 pictures:
-- file: folding-box-closures.webp
-  title: File:Carton and tape seal partially open.jpg
-  author: Rlsheehan
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg
-  site: Wikimedia Commons
-  alt: A partly opened carton showing the tuck flap and its locking tab (tongue)
-  drawn: false
+- file: drawn/folding-box-closures.svg
+  alt: 'Folding box closures. Left: the top of a card tuck-end box being closed: the two small dust flaps are folded in first,
+    then the closure panel swings over from the back and its rounded tuck flap slides down inside the front wall. Top right:
+    two tuck flaps compared, a plain friction tuck held only by a tight fit and a slit lock with small cuts at each end of
+    its fold that catch the edges of the dust flaps. Bottom right: the whole box as one flat die-cut blank, front, back and
+    two sides in a row with a glue flap at one end and the flaps at top and bottom, glued once down the side seam.'
+  drawn: true
+- file: render/folding-box-closures.webp
+  alt: 'Render of folding box closures: a green printed card carton stands with its top open, the two small dust flaps folded
+    in and the closure panel swung up, with the rounded tuck flap on its edge ready to slide down inside the front wall.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [living-hinge, cantilever, form-fit--force-fit--material-bond, infill, flute]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/folding-box-closures.webp" alt="A partly opened carton showing the tuck flap and its locking tab (tongue)"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg">Carton and tape seal partially open</a> by Rlsheehan, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/folding-box-closures.svg" alt="Folding box closures. Left: the top of a card tuck-end box being closed: the two small dust flaps are folded in first, then the closure panel swings over from the back and its rounded tuck flap slides down inside the front wall. Top right: two tuck flaps compared, a plain friction tuck held only by "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/folding-box-closures.webp" alt="Render of folding box closures: a green printed card carton stands with its top open, the two small dust flaps folded in and the closure panel swung up, with the rounded tuck flap on its edge ready to slide down inside the front wall." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 The cut-and-folded flaps on the ends of a card or cardboard box that close it without tape or glue: a tuck flap slides in behind the front panel and is held by friction or by small slits that catch, while a lock bottom is closed by interleaving shaped flaps (snap-lock or 1-2-3 bottom) or springs into place by itself from pre-glued flaps (crash-lock or auto bottom).

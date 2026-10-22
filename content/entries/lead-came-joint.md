@@ -159,30 +159,32 @@ sources:
 - https://api.printables.com/graphql/ (models 1312183, 1468163, 678895; no Printables pages opened)
 research: research/connection-types/results/Lead_came_joint_leaded_glass_came_glasswork_zinc_and_brass_came.json
 image:
-  file: lead-came-joint.webp
-  title: File:Lead came cross sections02.png
-  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
-  license: CC BY 2.5
-  license_url: https://creativecommons.org/licenses/by/2.5
-  source: https://commons.wikimedia.org/wiki/File:Lead_came_cross_sections02.png
-  site: Wikimedia Commons
-  alt: Diagram of H- and U-shaped lead came cross sections with glass pieces in their channels
-  drawn: false
+  file: drawn/lead-came-joint.svg
+  alt: 'Leaded glass in three steps: first, two pieces of glass slide into the grooves on each side of an H-shaped strip of
+    lead (came); then, seen from the front, three came strips meet between pieces of coloured glass and are soldered together
+    only at that joint; finally, in cross-section, dark cement packed under the came leaves seals the glass in and stiffens
+    the panel.'
+  drawn: true
 pictures:
-- file: lead-came-joint.webp
-  title: File:Lead came cross sections02.png
-  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
-  license: CC BY 2.5
-  license_url: https://creativecommons.org/licenses/by/2.5
-  source: https://commons.wikimedia.org/wiki/File:Lead_came_cross_sections02.png
-  site: Wikimedia Commons
-  alt: Diagram of H- and U-shaped lead came cross sections with glass pieces in their channels
-  drawn: false
+- file: drawn/lead-came-joint.svg
+  alt: 'Leaded glass in three steps: first, two pieces of glass slide into the grooves on each side of an H-shaped strip of
+    lead (came); then, seen from the front, three came strips meet between pieces of coloured glass and are soldered together
+    only at that joint; finally, in cross-section, dark cement packed under the came leaves seals the glass in and stiffens
+    the panel.'
+  drawn: true
+- file: render/lead-came-joint.webp
+  alt: 'Render of a lead came joint: a small leaded-glass panel of nine coloured and clear glass pieces held in grey H-shaped
+    lead strips, with bright solder blobs only where the strips meet and dark cement along their edges; a short offcut of
+    lead came lies in front, showing its H-shaped end.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [stiffness, form-fit--force-fit--material-bond, flux]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><img src="../media/lead-came-joint.webp" alt="Diagram of H- and U-shaped lead came cross sections with glass pieces in their channels"><figcaption><a href="https://commons.wikimedia.org/wiki/File:Lead_came_cross_sections02.png">Lead came cross sections02</a> by No machine-readable author provided. Rickjpelleg assumed (based on copyright claims)., <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/lead-came-joint.svg" alt="Leaded glass in three steps: first, two pieces of glass slide into the grooves on each side of an H-shaped strip of lead (came); then, seen from the front, three came strips meet between pieces of coloured glass and are soldered together only at that joint; finally, in cross-section, dark cement pac"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/lead-came-joint.webp" alt="Render of a lead came joint: a small leaded-glass panel of nine coloured and clear glass pieces held in grey H-shaped lead strips, with bright solder blobs only where the strips meet and dark cement along their edges; a short offcut of lead came lies in front, showing its H-shaped end." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A lead came joint holds pieces of glass in the channels of grooved metal strips (came), joins the strips by soldering only where they cross, and fills the gaps under the strips with an oily cement that sets to stiffen the panel and make it waterproof.

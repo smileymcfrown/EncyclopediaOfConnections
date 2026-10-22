@@ -163,33 +163,39 @@ sources:
 - https://api.printables.com/graphql/
 research: research/connection-types/results/Bevel_splitter_and_counterrotating_drive_Tgearbox_threeway_bevel_gearbox_contrarotating_coaxial_shafts.json
 image:
-  file: bevel-splitter-and-counter-rotating-drive.webp
-  title: File:Ka-32-coaxial.gif
-  author: FOX 52
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Ka-32-coaxial.gif
-  site: Wikimedia Commons
-  alt: A Kamov Ka-32 helicopter with coaxial contra-rotating rotors (used in Wikipedia 'Contra-rotating')
-  still: bevel-splitter-and-counter-rotating-drive.still.webp
-  drawn: false
+  file: drawn/anim/bevel-splitter-and-counter-rotating-drive.svg
+  alt: 'A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel
+    gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input
+    speed; a small inset shows the coaxial version, where one gear drives a rod running through a tube driven by the other,
+    and the two propellers on their ends spin opposite ways. Animated: the teeth roll round, the input gear twice as fast
+    as the two outputs, which turn against each other.'
+  drawn: true
+  still: drawn/bevel-splitter-and-counter-rotating-drive.svg
+  kind: animation
 pictures:
-- file: bevel-splitter-and-counter-rotating-drive.webp
-  title: File:Ka-32-coaxial.gif
-  author: FOX 52
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Ka-32-coaxial.gif
-  site: Wikimedia Commons
-  alt: A Kamov Ka-32 helicopter with coaxial contra-rotating rotors (used in Wikipedia 'Contra-rotating')
-  still: bevel-splitter-and-counter-rotating-drive.still.webp
-  drawn: false
+- file: drawn/anim/bevel-splitter-and-counter-rotating-drive.svg
+  alt: 'A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel
+    gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input
+    speed; a small inset shows the coaxial version, where one gear drives a rod running through a tube driven by the other,
+    and the two propellers on their ends spin opposite ways. Animated: the teeth roll round, the input gear twice as fast
+    as the two outputs, which turn against each other.'
+  drawn: true
+  still: drawn/bevel-splitter-and-counter-rotating-drive.svg
+  kind: animation
+- file: render/bevel-splitter-and-counter-rotating-drive.webp
+  alt: 'Render of a bevel splitter: a brass bevel gear on an upright input shaft meshes with two larger solid steel bevel
+    gears facing each other on one horizontal line, each fixed by its hub to its own output shaft in printed bearing blocks,
+    so the two outputs turn in opposite directions.'
+  kind: render
+  render: true
+  drawn: true
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, pitch, crank, preload, clearance, tolerance, set-screw,
   creep, infill, o-ring, counter-rotating]
 ---
 
 <div class="eoc-pictures">
-<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/bevel-splitter-and-counter-rotating-drive.still.webp"><img src="../media/bevel-splitter-and-counter-rotating-drive.webp" alt="A Kamov Ka-32 helicopter with coaxial contra-rotating rotors (used in Wikipedia &#x27;Contra-rotating&#x27;)"></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Ka-32-coaxial.gif">Ka-32-coaxial</a> by FOX 52, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bevel-splitter-and-counter-rotating-drive.svg"><img src="../media/drawn/anim/bevel-splitter-and-counter-rotating-drive.svg" alt="A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input speed; a small inset shows the coaxial version, where one gear"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/bevel-splitter-and-counter-rotating-drive.webp" alt="Render of a bevel splitter: a brass bevel gear on an upright input shaft meshes with two larger solid steel bevel gears facing each other on one horizontal line, each fixed by its hub to its own output shaft in printed bearing blocks, so the two outputs turn in opposite directions." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
 </div>
 
 A driving bevel gear meshes with two bevel gears that face each other across it, so one input turns two outputs on one line in opposite directions; nesting one output shaft inside the other turns two rotors on the same axis against each other, and a dog clutch that picks one of the two gears turns the same set into a forward-and-reverse switch.
