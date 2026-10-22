@@ -253,6 +253,7 @@ a working decision: say "change D3" (or similar) to revise it.
 | D50 | The hand-set finder answers of the 43 new entries were chosen by Claude from each entry's text (`research/finder-tags/hand-r37.yaml`), not checked by helpers as in R33; three existing entries (kerf bending, housing and rebate joints, staples) also got the new paper answer from the gap searches' evidence. `propose.py` now reads a pop-up's page opening as a part turn (not steady turning) and a "step fold" as not stepping motion; those values are marked best guess | 43 entries is a small set; they can be corrected value by value like any tag | `research/finder-tags/hand-r37.yaml`, `propose.py` |
 | D51 | The guide page **Driving several things from one** is hand-written in `site/` (not generated), with a drawing of which way each arrangement turns (made by a small script and checked by rendering) and the facts and sources from the drives gap search (each source opened by that agent). It is in the sidebar under *Start here*, and linked from the home page and the finder's new answer | R36; the table of directions belongs in one place, and the entries keep their own details | `site/src/content/docs/guides/`, `site/public/guides/directions.svg`, `tools/sync_site.py` |
 | D52 | 17 glossary terms for this stage (124 in all), in a new group *Paper, clay, composites and glass* plus *In step* and *Counter-rotating*. Four are not linked automatically because the same words mean other things on other pages (*score*, *gutter*, *in step*, *armature*) | P9; the R26 rule for everyday words (D14) | `content/glossary.yaml` |
+| D53 | **Pictures for the 43 new pages (R37)**, as for R32-R35: every page has a drawn diagram (43), and the 19 that move an animated one, each checked frame by frame; the normal *Find pictures* search, helpers choosing from contact sheets and Claude's check by eye gave 25 photos on 16 pages; the wide search (`--wide`) then ran for the rest. The pages still without a photo show a **render** as a stand-in (D43): 27 models by four helpers with a written brief, each preview checked by Claude, two sent back (saw-blade-looking bevel gears; a floating screw) and three marked weak (score-and-fold hinge, slot-in model hinge, liquid-clay bond). 121 renders in all, listed in `content/media/render/README.md` | R37 (pictures step); D43 (renders only where no photo) | `content/media/pictures.yaml`, `content/media/review/r37-*.yaml`, `content/media/drawn/`, `tools/renders/models/` |
 
 ## 4. Roadmap
 
@@ -299,7 +300,7 @@ a working decision: say "change D3" (or similar) to revise it.
 - [x] Research run on the new items (`/research-deep`), then the pipeline, incl. hand-set finder fields for the new entries (done 2026-10-22, D50)
 - [x] Finder: "Made of" filter on every shortlist (new finder-tag field on all entries) and the one-to-many / many-to-one question (D45) (done 2026-10-22, D48, D49)
 - [x] Guide page *Driving several things from one* (done 2026-10-22, D51)
-- [ ] Pictures for the new entries (photos, diagrams, animations; renders where no photo)
+- [x] Pictures for the new entries (photos, diagrams, animations; renders where no photo) (done 2026-10-22, D53)
 
 ---
 
