@@ -172,6 +172,7 @@ def gallery(pics):
     reduced motion. Each picture has its credit line, or the needs-confirming note if drawn."""
     e = lambda v: html.escape(str(v or ''), quote=True)
     out = ['<div class="eoc-pictures">']
+    photo = any(x.get('web') and x.get('kind') not in ('animation', 'diagram') for x in pics)   # an R39 photo
     for n, x in enumerate(pics):
         img = f'<img src="../media/{e(x["file"])}" alt="{e(x["alt"][:300])}"' + (' loading="lazy"' if n else '') + '>'
         if x.get('still'):
@@ -180,8 +181,10 @@ def gallery(pics):
         lead = f'<strong>{kind}.</strong> ' if kind else ''
         if x.get('render'):
             lead = '<strong>Cut-away render.</strong> ' if x.get('kind') == 'cross-section' else '<strong>Render.</strong> '
-            cap = (f'{lead}A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is '
-                   f'found. {FLAG} Needs confirming: a model can simplify or get details wrong; a real photo is welcome.')
+            cap = (f'{lead}A 3D model made for the encyclopaedia, not a photo' +
+                   (': a real one is shown below. ' if photo else ': a stand-in until a good real photo is found. ') +
+                   f'{FLAG} Needs confirming: a model can simplify or get details wrong' +
+                   ('.' if photo else '; a real photo is welcome.'))
         elif x.get('drawn'):
             cap = (f'{lead}Diagram drawn for the encyclopaedia from the research notes. {FLAG} Needs confirming: a drawing '
                    'can simplify or get details wrong; a real photo or a better diagram is welcome.')
@@ -210,12 +213,17 @@ def write_render_register(pics, rmeta, M):
          '**To replace a render with a real photo:** in `content/media/pictures.yaml`, put the photo in the page\'s',
          'list (`commons: "File:..."` with `kind` and `alt`) and remove `render`, then run `tools/fetch_images.py`',
          '(the *Fetch pictures* workflow) and `tools/make_entries.py`. The model can stay in `tools/renders/models/`.',
+         'Pages marked *also has a real photo* show a 3D-print photo from a Printables model page (R39) after the',
+         'render; the owner chose to keep the render there too.',
          '', f'{len(used)} pages use a render. The ones marked **weak** most need a real photo.', '',
          '| Page | Kind | What it shows | Note |', '|---|---|---|---|']
     for p in used:
         m = rmeta[p]
+        note = (m.get('note') or '').replace('|', '/')
+        if any(x.get('web') and x.get('kind') not in ('animation', 'diagram') for x in pics[p]):
+            note = (note + '; ' if note else '') + 'also has a real photo (R39)'
         L.append(f'| [{p}](../../entries/{p}.md) | {"cut-away render" if m.get("kind") == "cross-section" else "render"} | '
-                 f'{m["alt"].replace("|", "/")} | {(m.get("note") or "").replace("|", "/")} |')
+                 f'{m["alt"].replace("|", "/")} | {note} |')
     if unused:
         L += ['', 'Rendered but not shown on any page: ' + ', '.join(unused) + '.']
     open(os.path.join(M, 'render', 'README.md'), 'w').write('\n'.join(L) + '\n')
@@ -464,11 +472,12 @@ def main():
                 lst.append({'file': f'render/{p}.webp', 'alt': rmeta[p]['alt'], 'kind': rmeta[p].get('kind') or 'render',
                             'render': True, 'drawn': True})
                 continue
-            src = (x.get('commons') or '').replace('_', ' ') or 'openverse:' + str(x.get('openverse'))
+            src = ((x.get('commons') or '').replace('_', ' ') or
+                   ('web:' + str(x['web']) if x.get('web') else 'openverse:' + str(x.get('openverse'))))
             if src in by_src:
                 r = {k: v for k, v in by_src[src].items() if k not in ('src', 'width', 'height', 'animated')}
                 r.update({k: x[k] for k in ('kind', 'alt') if x.get(k)})
-                lst.append(dict(r, drawn=False))
+                lst.append(dict(r, drawn=False, **({'web': True} if src.startswith('web:') else {})))
         if not lst and copied.get(p) and p not in chosen:
             lst = [dict({k: v for k, v in copied[p][0].items() if k not in ('src', 'width', 'height', 'animated')}, drawn=False)]
         if not lst and p in drawn:

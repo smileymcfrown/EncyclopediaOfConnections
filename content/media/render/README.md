@@ -8,6 +8,8 @@ by `tools/renders/render.mjs`). A model can simplify or get details wrong, so ea
 **To replace a render with a real photo:** in `content/media/pictures.yaml`, put the photo in the page's
 list (`commons: "File:..."` with `kind` and `alt`) and remove `render`, then run `tools/fetch_images.py`
 (the *Fetch pictures* workflow) and `tools/make_entries.py`. The model can stay in `tools/renders/models/`.
+Pages marked *also has a real photo* show a 3D-print photo from a Printables model page (R39) after the
+render; the owner chose to keep the render there too.
 
 117 pages use a render. The ones marked **weak** most need a real photo.
 
