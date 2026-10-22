@@ -45,7 +45,7 @@
     "adjustable": "no: position is fixed once the glue sets; only during the glue's working time (seconds for superglue, minutes to hours for epoxy and wood glue) can the parts be moved (Prusa)",
     "play_and_precision": "None once cured. Accuracy depends on how the parts are located while the glue cures: plain butt, scarf and lap joints have no self-alignment, stepped laps and scarfs are better, and tongue-and-groove is best (Loctite manual joint suitability table); pegs or alignment pins help printed parts line up (Prusa; Printpool). The glue line must be even and the faces parallel, or the load goes off-axis and turns into cleavage (Loctite manual).",
     "access_needed": "not applicable: glue goes on the mating faces before the parts are put together; clamping usually needs access to both sides of the joint",
-    "materials": "Applies to any glue and material. Wood: long grain to long grain (edge-grain joints) bonds almost as strong as the wood, end grain soaks up glue and bonds poorly (Wood Handbook). Plastics and 3D prints (PLA, PETG, ABS/ASA, resin): usually stiffer glues (epoxy, superglue) on rigid parts; plastics are more flexible than metals, so flexible adhesives are generally recommended and joints should be designed against peel (Loctite manual 5.1.6; Henkel). Metals and composites: joggle, tapered, double-lap, strap and scarf joints (3M; Loctite manual). Hard-to-bond plastics such as PE, PP and silicone need special adhesives regardless of joint shape (see the adhesive entries).",
+    "materials": "Applies to any glue and material. Wood: long grain to long grain (edge-grain joints) bonds almost as strong as the wood, end grain soaks up glue and bonds poorly (Wood Handbook). Plastics and 3D prints (PLA, PETG, ABS/ASA, resin): usually stiffer glues (epoxy, superglue) on rigid parts; plastics are more flexible than metals, so flexible adhesives are generally recommended and joints should be designed against peel (Loctite manual 5.1.6; Henkel). Metals and composites: joggle, tapered, double-lap, strap and scarf joints (3M; Loctite manual). Hard-to-bond plastics such as PE, PP and silicone need special adhesives regardless of joint shape (see the adhesive entries). EVA foam (cosplay armour): the edges are cut at a bevel (an angle) before gluing with contact cement, so the pieces meet in a curve instead of a hard corner; on 10 mm foam the bevel 'creates a natural glue channel that strengthens the joint' (Costumary).",
     "maker_difficulty": "easy for lap, stepped-lap and pegged joints (easy to model in CAD or cut with hand tools); moderate for scarf joints, which need a long, accurate, flat taper (1 in 8 to 1 in 12 in wood) and a jig or careful planing"
   },
   "making": {
@@ -69,7 +69,8 @@
       "A datasheet shear strength is only a starting point: in Sika's worked example a 28 MPa epoxy was reduced to an allowable 3 MPa after factors for 70 °C service temperature (x0.58), three months' water immersion (x0.94), two million fatigue cycles (x0.39) and a safety factor of 2 (Sika, section 2.5 'Dimensioning with material reduction factors').",
       "A single lap joint bends under load; reduce the end stress peaks with tapered (bevelled) ends, a joggle that brings the loads into line, a double lap or a double strap; use a scarf or stepped lap to make the stress even (Sika sections 2.3-2.4; 3M bulletin; Loctite manual 5.1.3.11-5.1.3.13, https://www.loctitex.com/en/manuals/bonding/5.1.3.11-joggle-lap-joint/). For thin plastic parts the double strap is one of the most effective joints, with straps of similar material and thickness (Loctite manual 5.1.6, https://www.loctitex.com/en/manuals/bonding/5.1.6-joints-with-plastic-and-elastomeric-substrates/).",
       "Avoid butt joints on rods and tubes; use a sleeve, socket or overlapping (slip) joint that adds bonded area and bending strength (Loctite manual 5.1.5, https://www.loctitex.com/en/manuals/bonding/5.1.5-cylindrical-substrates/; 3M bulletin).",
-      "The standard lap-shear test mostly fails by peel at the ends of the overlap, and above a minimum overlap its length makes no difference to the breaking force (Steven Abbott, Practical Adhesion Science, https://www.stevenabbott.co.uk/practical-adhesion/g-rlap.php)."
+      "The standard lap-shear test mostly fails by peel at the ends of the overlap, and above a minimum overlap its length makes no difference to the breaking force (Steven Abbott, Practical Adhesion Science, https://www.stevenabbott.co.uk/practical-adhesion/g-rlap.php).",
+      "Repairing a fibreglass or other laminate (scarf repair): grind the edge of the damaged area to a long slant of at least 12:1 (scarf length to laminate thickness), give the repair a rounded outline with no sharp corners, where stress concentrates, and build the patch up to the same thickness as the original laminate so it is just as stiff and doesn't crack round the edge; on a cored (sandwich) panel the 12:1 slope applies to both skins (Epoxyworks 'Common errors in fiberglass laminate repair'; West System 'Determining laminate thickness')."
     ]
   },
   "guidance": {
@@ -77,7 +78,8 @@
       "sticky tape, which is hard to slide off a surface (shear) but peels off easily when lifted from one corner (peel)",
       "finger-jointed and scarf-jointed timber and plywood, made by gluing long slanted ends together (Wood Handbook)",
       "car windscreens and body parts, which are bonded to the car body with adhesives (Wikipedia 'Adhesive bonding')",
-      "a large 3D print split into pieces and glued back together, ideally with pegs and overlapping joints (Prusa; Printpool)"
+      "a large 3D print split into pieces and glued back together, ideally with pegs and overlapping joints (Prusa; Printpool)",
+      "plywood boat panels joined end to end with a glued plywood butt block (a strap joint) on one side and glass cloth on the other, as in stitch-and-glue boats (Duckworks stitch-and-glue skiff)"
     ],
     "when_to_use": "Whenever you glue parts that must carry load: splitting a 3D print that is too big for the printer, lengthening a board or strip, repairing a broken part, joining thin sheets, or bonding different materials that can't be screwed or welded. Choose a lap, double lap or strap joint for thin parts; a scarf or finger joint to lengthen wood, plywood or composite with an almost invisible glue line; tongue and groove or stepped laps when the parts must also locate themselves; and sockets or sleeves for rods and tubes. Glue spreads the load over the whole area without drilling holes, and can seal and damp at the same time (Wikipedia 'Adhesive bonding'; Loctite manual).",
     "when_not_to_use": "Don't design a glued joint that will be peeled, levered open, or bent across a butt joint: redesign it into a lap, sleeve or strap, or add a mechanical fastener (Sika; Loctite manual). Don't glue when you need to take it apart again: use screws, snap fits or interlocking joints instead (Printpool). Don't rely on glue alone where failure would be dangerous (overhead loads, anything that holds people) or where it will get hot: glue strength drops with heat and ageing (Sika) and some glues creep (Wikipedia 'Adhesive bonding'); combine glue with rivets, screws or clinching (hybrid joining). Don't glue end grain to end grain in wood and expect strength; use a scarf, finger joint, dowel, mortise and tenon or biscuit (Wood Handbook). Hard-to-glue plastics (PE, PP, silicone) need a special adhesive or a mechanical joint.",
@@ -92,7 +94,13 @@
       "Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): printable shapes that locate and help carry load in glued prints",
       "Solvent welding (solvent cement): melts plastic faces together; the same shear-not-peel rules apply",
       "Double-sided foam tape: a pressure-sensitive adhesive that is very sensitive to peel; the same design rules apply",
-      "Clinching and rivets: mechanical joints often combined with glue in hybrid joints to stop peel at the edges"
+      "Clinching and rivets: mechanical joints often combined with glue in hybrid joints to stop peel at the edges",
+      "Glued tab joint: the paper-and-card lap joint, a folded flap glued behind the next part",
+      "Glue stick and starch paste: mild water-based glues for paper and card joints",
+      "V-groove fold: a one-piece mitred corner, grooved and folded and then glued, instead of two bevelled pieces",
+      "Score-and-slip join: soft clay joined with slip, so the clay itself grows together instead of a glue line",
+      "Bonded tube joint: sockets, sleeves and lugs that apply the 'no butt joints on tubes' rule to glued tubes",
+      "Fillet-and-tape joint: panels joined edge to edge by an epoxy fillet and glass tape, the strap idea applied to boat and box seams"
     ]
   },
   "media": {
@@ -187,7 +195,11 @@
       "https://commons.wikimedia.org/wiki/File:Woodworking_lap_joints.svg",
       "https://www.youtube.com/watch?v=n0LNrwTk9MQ (verified via YouTube oEmbed)",
       "https://www.youtube.com/watch?v=3_9HR64bVus (verified via YouTube oEmbed)",
-      "https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)"
+      "https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)",
+      "https://www.costumary.com/blog/eva-foam-clean-builds",
+      "https://www.epoxyworks.com/common-errors-in-fiberglass-laminate-repair/",
+      "https://www.westsystem.com/determining-laminate-thickness/",
+      "https://duckworksmagazine.com/05/articles/s-and-g/index.htm"
     ]
   },
   "uncertain": [

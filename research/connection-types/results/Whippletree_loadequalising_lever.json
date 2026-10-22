@@ -14,7 +14,8 @@
       "whiffletree differential / seesaw differential (underactuated robot and prosthetic hands)",
       "whiffletree loading mechanism (aircraft structural testing)",
       "mechanical digital-to-analog converter (the IBM Selectric typewriter's whiffletree linkage)",
-      "equalising beam / equalising lever / compensating beam (a close relative in railway suspension, sharing weight between axles)"
+      "equalising beam / equalising lever / compensating beam (a close relative in railway suspension, sharing weight between axles)",
+      "linkage adder or summing linkage (linkage-type mechanical analogue computers use whippletree linkages to add and subtract quantities; Wikipedia)"
     ],
     "family": "motion conversion",
     "other_families": [
@@ -97,7 +98,9 @@
       "Equalising beam (railway suspension): a pivoted beam that shares a vehicle's weight between two axles (Wikipedia)",
       "Bell crank: a pivoted lever that turns a pull round a corner rather than splitting it",
       "Beam wiper blade: a pre-curved spring-steel strip that replaces the whippletree frame of a conventional wiper blade (Stoner Car Care)",
-      "Fluidic differential: hydraulic or pneumatic sharing between fingers, without bars but with the risk of leaks (Frontiers)"
+      "Fluidic differential: hydraulic or pneumatic sharing between fingers, without bars but with the risk of leaks (Frontiers)",
+      "Several motors driving one load: shares a load between motors that each push, where a whippletree passively shares one pull between several points",
+      "Cable splitter: joins one control cable to two so both move the same distance; a whippletree evens out the force and lets the distances differ, while a splitter copies the distance and 'does not provide balance' between brakes (IHPVA)"
     ]
   },
   "media": {
@@ -187,7 +190,8 @@
       "https://help.prusa3d.com/article/pla_2062",
       "https://help.prusa3d.com/article/petg_2059",
       "https://www.youtube.com/watch?v=G_SC7oWL78A",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://ihpva.org/Projects/tstrike/building/2into1.htm"
     ]
   },
   "uncertain": [
