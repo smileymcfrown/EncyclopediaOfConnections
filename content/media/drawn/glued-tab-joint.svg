@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three glued tab joints in card. Left, seen end-on: a tab folded down from one panel on a scored line is glued behind the next panel, whose cut edge then shows as a small step at the corner. Middle: the tabless way, with the two edges bevelled to meet cleanly and a hidden paper strip glued behind both. Right: a card tube with a ring of short flanges cut round its end, folded outwards and glued flat to a card base.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke="#cccccc" stroke-width="2"><line x1="268" y1="20" x2="268" y2="400"/><line x1="532" y1="20" x2="532" y2="400"/></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40,130 L180,130 Q192,130 192,142 L192,260 L180,260 L180,142 L40,142 Z" fill="#fde2c4"/>
+<rect x="192" y="146" width="8" height="114" fill="#d8f0d2" stroke-width="2"/>
+<rect x="200" y="130" width="12" height="200" fill="#fde2c4"/>
+<line x1="246" y1="210" x2="218" y2="210" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M300,130 L470,130 L458,142 L300,142 Z" fill="#fde2c4"/>
+<path d="M470,130 L470,330 L458,330 L458,142 Z" fill="#fde2c4"/>
+<path d="M380,142 L458,142 L458,240 L452,240 L452,148 L380,148 Z" fill="#d8f0d2" stroke-width="2"/>
+<path d="M380,148 L452,148 L452,240 L445,240 L445,155 L380,155 Z" fill="#fdf3c4" stroke-width="2"/>
+<path d="M548,300 A108,40 0 0 0 764,300 L764,310 A108,40 0 0 1 548,310 Z" fill="#fde2c4"/>
+<ellipse cx="656" cy="300" rx="108" ry="40" fill="#fde2c4"/>
+<path d="M600.2,298.4 L608,290.7 L585.4,287.3 L576.8,296.2 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M613.7,288.2 L634.1,283.4 L620.9,275.7 L598.5,281.2 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M643.4,282.5 L668.6,282.5 L669.9,273.4 L642.1,273.4 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M677.9,283.4 L698.3,288.2 L713.5,281.2 L691.1,275.7 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M704,290.7 L711.8,298.4 L735.2,296.2 L726.6,287.3 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M600,300 L600,130 A56,18 0 0 0 712,130 L712,300 A56,18 0 0 1 600,300 Z" fill="#fde2c4"/>
+<ellipse cx="656" cy="130" rx="56" ry="18" fill="#ffffff"/>
+<path d="M604,134 A52,15 0 0 0 708,134" fill="none" stroke-width="2"/>
+<path d="M711.8,301.6 L704,309.3 L726.6,312.7 L735.2,303.8 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M698.3,311.8 L677.9,316.6 L691.1,324.3 L713.5,318.8 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M668.6,317.5 L643.4,317.5 L642.1,326.6 L669.9,326.6 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M634.1,316.6 L613.7,311.8 L598.5,318.8 L620.9,324.3 Z" fill="#fde2c4" stroke-width="2.5"/>
+<path d="M608,309.3 L600.2,301.6 L576.8,303.8 L585.4,312.7 Z" fill="#fde2c4" stroke-width="2.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="19" font-weight="bold" text-anchor="middle"><text x="140" y="44">Tab glued behind</text><text x="400" y="44">No tab: strip behind</text><text x="660" y="44">Tube: flanges</text></g>
+<text x="40" y="166">card</text>
+<text x="100" y="230">tab</text><line x1="132" y1="224" x2="178" y2="214" stroke="#222" stroke-width="1.5"/>
+<text x="132" y="300">glue</text><line x1="172" y1="290" x2="195" y2="262" stroke="#222" stroke-width="1.5"/>
+<text x="40" y="84">cut edge shows</text><text x="40" y="104">as a small step</text><line x1="168" y1="100" x2="202" y2="128" stroke="#222" stroke-width="1.5"/>
+<text x="220" y="190" font-size="17">press</text>
+<text x="300" y="84">bevelled edges</text><text x="300" y="104">meet: no step</text><line x1="424" y1="100" x2="462" y2="134" stroke="#222" stroke-width="1.5"/>
+<text x="300" y="200">hidden paper</text><text x="300" y="220">strip, glued</text><line x1="404" y1="196" x2="444" y2="172" stroke="#222" stroke-width="1.5"/>
+<text x="540" y="96">card tube</text>
+<text x="548" y="384">flanges folded out</text><text x="548" y="404">and glued to the base</text><line x1="640" y1="366" x2="652" y2="332" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="438" text-anchor="middle">Score the tab folds first · use a thin layer of glue · hold each tab till it grabs</text>
+</g></svg>

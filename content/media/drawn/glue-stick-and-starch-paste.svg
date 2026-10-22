@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>How glue stick and starch paste join paper. Top left, a magnified side view of two sheets of paper with a thin layer of paste between them: water from the paste soaks into the paper fibres and dries off into the air, leaving the paste to hold the fibres of both sheets together. Bottom left, a glue stick being rubbed on and paste brushed on. Right, two results: left to dry freely the pasted paper ripples, while dried between blotting paper under a weight it stays flat.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker><g id="drop"><path d="M0,-9 C5,-2 7,2 7,4 A7,7 0 0 1 -7,4 C-7,2 -5,-2 0,-9 Z" fill="#cfe3f5" stroke="#222" stroke-width="2"/></g><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke="#cccccc" stroke-width="2"><line x1="400" y1="20" x2="400" y2="400"/><line x1="20" y1="252" x2="380" y2="252"/><line x1="420" y1="200" x2="780" y2="200"/></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="50" y="112" width="296" height="28" fill="#fdf3c4"/>
+<rect x="50" y="140" width="296" height="10" fill="#d8f0d2" stroke-width="2"/>
+<rect x="50" y="150" width="296" height="28" fill="#fdf3c4"/>
+<path d="M56.4,118.1 q6,-2.8 14,0 M73.9,117.3 q6,-2.8 14,0 M96.5,132 q6,-3.5 14,0 M110.3,126.7 q6,-2.6 14,0 M128,118.1 q6,-2.4 14,0 M150.6,132.6 q6,-3.6 14,0 M167.8,119.9 q6,-2.6 14,0 M184.8,130.6 q6,-3.7 14,0 M204.3,117.7 q6,-3.2 14,0 M221,126.1 q6,-2.4 14,0 M237.8,117.8 q6,-3.9 14,0 M258.2,127 q6,-2.6 14,0 M276.5,127.4 q6,-3.8 14,0 M294.1,126.2 q6,-2.8 14,0 M310.6,124.6 q6,-2.3 14,0 M326.8,132.3 q6,-2.1 14,0 M55.3,166.5 q6,-2.6 14,0 M76.2,163.4 q6,-2.7 14,0 M97,157.9 q6,-2.8 14,0 M110.2,166.7 q6,-2.6 14,0 M129.1,168.9 q6,-2.6 14,0 M148.4,172.1 q6,-2.2 14,0 M163.4,158.6 q6,-3.5 14,0 M184.7,158.7 q6,-2.7 14,0 M200.1,163.2 q6,-2.1 14,0 M221.2,171.9 q6,-3.9 14,0 M239.4,173.2 q6,-2 14,0 M254.7,173.3 q6,-3.6 14,0 M273.5,172.9 q6,-3.2 14,0 M293.9,159.9 q6,-2.4 14,0 M309.7,156.7 q6,-2.8 14,0 M330.8,160.6 q6,-2 14,0" fill="none" stroke="#b9a77a" stroke-width="2"/>
+<path d="M70,140 q4,-7 8,0 M120,140 q4,-6 8,0 M175,140 q4,-8 8,0 M240,140 q4,-6 8,0 M300,140 q4,-7 8,0 M90,150 q4,7 8,0 M150,150 q4,6 8,0 M210,150 q4,8 8,0 M270,150 q4,6 8,0 M325,150 q4,7 8,0" fill="#d8f0d2" stroke-width="1.5"/>
+</g>
+<use href="#drop" x="110" y="126"/>
+<use href="#drop" x="200" y="126"/>
+<use href="#drop" x="290" y="126"/>
+<use href="#drop" x="150" y="166"/>
+<use href="#drop" x="250" y="166"/>
+<g stroke="#d1495b" stroke-width="3.5" fill="none">
+<line x1="90" y1="138" x2="90" y2="120" marker-end="url(#ah)"/>
+<line x1="180" y1="138" x2="180" y2="120" marker-end="url(#ah)"/>
+<line x1="270" y1="138" x2="270" y2="120" marker-end="url(#ah)"/>
+<line x1="130" y1="152" x2="130" y2="170" marker-end="url(#ah)"/>
+<line x1="230" y1="152" x2="230" y2="170" marker-end="url(#ah)"/>
+<path d="M120,106 q-6,-8 0,-16 q6,-8 0,-16" marker-end="url(#ah)"/>
+<path d="M220,106 q-6,-8 0,-16 q6,-8 0,-16" marker-end="url(#ah)"/>
+<path d="M320,106 q-6,-8 0,-16 q6,-8 0,-16" marker-end="url(#ah)"/>
+</g>
+<use href="#drop" x="132" y="70"/>
+<use href="#drop" x="232" y="70"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="368" width="160" height="12" fill="#fdf3c4"/>
+<rect x="84" y="352" width="32" height="16" rx="3" fill="#ffffff"/>
+<rect x="80" y="286" width="40" height="66" rx="4" fill="#e8e8e8"/>
+<rect x="76" y="318" width="48" height="10" rx="3" fill="#e8e8e8"/>
+<line x1="46" y1="398" x2="154" y2="398" stroke="#d1495b" stroke-width="4" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<rect x="210" y="368" width="160" height="12" fill="#fdf3c4"/>
+<path d="M300,330 L344,366 L330,370 L294,336 Z" fill="#d8f0d2"/>
+<path d="M246,300 L292,328 L302,318 L256,290 Z" fill="#fde2c4"/>
+<rect x="288" y="318" width="18" height="16" transform="rotate(40 297 326)" fill="#e8e8e8"/>
+<path d="M338,372 Q350,374 362,371" fill="none" stroke="#9fcf93" stroke-width="5"/>
+<rect x="440" y="168" width="320" height="16" fill="url(#hatch)"/>
+<path d="M460,134 L463.5,131 L467,128.2 L470.5,125.6 L474,123.6 L477.5,122.1 L481,121.2 L484.5,121 L488,121.5 L491.5,122.7 L495,124.5 L498.5,126.9 L502,129.6 L505.5,132.5 L509,135.5 L512.5,138.4 L516,141.1 L519.5,143.5 L523,145.3 L526.5,146.5 L530,147 L533.5,146.8 L537,145.9 L540.5,144.4 L544,142.4 L547.5,139.8 L551,137 L554.5,134 L558,131 L561.5,128.2 L565,125.6 L568.5,123.6 L572,122.1 L575.5,121.2 L579,121 L582.5,121.5 L586,122.7 L589.5,124.5 L593,126.9 L596.5,129.6 L600,132.5 L603.5,135.5 L607,138.4 L610.5,141.1 L614,143.5 L617.5,145.3 L621,146.5 L624.5,147 L628,146.8 L631.5,145.9 L635,144.4 L638.5,142.4 L642,139.8 L645.5,137 L649,134 L652.5,131 L656,128.2 L659.5,125.6 L663,123.6 L666.5,122.1 L670,121.2 L673.5,121 L677,121.5 L680.5,122.7 L684,124.5 L687.5,126.9 L691,129.6 L694.5,132.5 L698,135.5 L701.5,138.4 L705,141.1 L708.5,143.5 L712,145.3 L715.5,146.5 L719,147 L722.5,146.8 L726,145.9 L729.5,144.4 L733,142.4 L736.5,139.8 L740,137 L740,149 L736.5,151.8 L733,154.4 L729.5,156.4 L726,157.9 L722.5,158.8 L719,159 L715.5,158.5 L712,157.3 L708.5,155.5 L705,153.1 L701.5,150.4 L698,147.5 L694.5,144.5 L691,141.6 L687.5,138.9 L684,136.5 L680.5,134.7 L677,133.5 L673.5,133 L670,133.2 L666.5,134.1 L663,135.6 L659.5,137.6 L656,140.2 L652.5,143 L649,146 L645.5,149 L642,151.8 L638.5,154.4 L635,156.4 L631.5,157.9 L628,158.8 L624.5,159 L621,158.5 L617.5,157.3 L614,155.5 L610.5,153.1 L607,150.4 L603.5,147.5 L600,144.5 L596.5,141.6 L593,138.9 L589.5,136.5 L586,134.7 L582.5,133.5 L579,133 L575.5,133.2 L572,134.1 L568.5,135.6 L565,137.6 L561.5,140.2 L558,143 L554.5,146 L551,149 L547.5,151.8 L544,154.4 L540.5,156.4 L537,157.9 L533.5,158.8 L530,159 L526.5,158.5 L523,157.3 L519.5,155.5 L516,153.1 L512.5,150.4 L509,147.5 L505.5,144.5 L502,141.6 L498.5,138.9 L495,136.5 L491.5,134.7 L488,133.5 L484.5,133 L481,133.2 L477.5,134.1 L474,135.6 L470.5,137.6 L467,140.2 L463.5,143 L460,146 Z" fill="#fdf3c4"/>
+<rect x="440" y="372" width="320" height="16" fill="url(#hatch)"/>
+<rect x="460" y="348" width="280" height="24" fill="#ffffff"/>
+<rect x="460" y="336" width="280" height="12" fill="#fdf3c4"/>
+<rect x="460" y="312" width="280" height="24" fill="#ffffff"/>
+<rect x="520" y="262" width="160" height="50" rx="4" fill="#e8e8e8"/>
+<line x1="600" y1="244" x2="600" y2="258" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="19" font-weight="bold"><text x="200" y="40" text-anchor="middle">Water soaks in, then dries off</text><text x="600" y="40" text-anchor="middle">Dried freely: it ripples</text></g>
+<text x="24" y="78" font-size="17">drying off</text>
+<text x="30" y="104" font-size="17">paper</text><text x="5" y="151" font-size="17">paste</text>
+
+<text x="50" y="204">paste dries and holds the</text><text x="50" y="224">fibres of both sheets</text><line x1="190" y1="190" x2="196" y2="152" stroke="#222" stroke-width="1.5"/>
+<text x="110" y="278" text-anchor="middle">glue stick: rub on</text>
+<text x="300" y="278" text-anchor="middle">paste: brush on</text>
+<text x="600" y="76" text-anchor="middle">the wet paper swells, mostly</text><text x="600" y="96" text-anchor="middle">across the grain (cockling)</text>
+<text x="600" y="232" font-weight="bold" font-size="19" text-anchor="middle">Dried flat: blotters and a weight</text>
+<text x="600" y="293" text-anchor="middle">weight</text><text x="600" y="330" text-anchor="middle" font-size="17">blotting paper</text><text x="600" y="366" text-anchor="middle" font-size="17">blotting paper</text>
+
+
+<text x="400" y="438" text-anchor="middle">Starch paste and methyl cellulose stay soluble: water can undo them later</text>
+</g></svg>
