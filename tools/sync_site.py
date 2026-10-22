@@ -124,6 +124,7 @@ def main():
             {'label': 'Home', 'link': '/'},
             {'label': 'Find a connection', 'link': '/finder/'},
             {'label': 'Glossary', 'link': '/glossary/'},
+            {'label': 'Driving several things from one', 'link': '/guides/driving-several-things-from-one/'},
             {'label': 'Needs confirming', 'link': '/needs-confirming/'},
             {'label': 'How to help', 'link': '/help/'}]},
         {'label': 'Families', 'items': [
