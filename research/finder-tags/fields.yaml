@@ -344,3 +344,9 @@ turns:
   set_by: hand
   meaning: 'For things that turn: less than a full turn (swings or rocks) or full turns (spins).'
   options: [part of a turn, full turns, not applicable]
+
+made_of:
+  kind: list
+  set_by: hand
+  meaning: 'The "Made of" filter under every finder shortlist (R37, D45): the materials it suits, i.e. a maker can use it to join, hold or move parts made of that material, or can make it from that material. First proposed from the research text by propose_made_of.py, then checked against the entry text (review-r37.yaml).'
+  options: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, carbon fibre or composites, glass or mirror, 'fabric, leather or cord', not applicable]
