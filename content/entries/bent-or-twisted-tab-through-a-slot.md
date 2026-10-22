@@ -84,6 +84,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: ['plastic sheet, tube or moulded parts', metal, paper or card]
 needs_confirming:
   tools:

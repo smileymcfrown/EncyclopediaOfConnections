@@ -88,6 +88,7 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, paper or card, carbon fibre or composites, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []

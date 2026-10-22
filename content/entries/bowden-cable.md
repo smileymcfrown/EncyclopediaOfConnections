@@ -88,6 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: ['pushes, pulls or flow shared out']
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   tools:

@@ -96,6 +96,7 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, 'fabric, leather or cord']
 needs_confirming:
   power_source:

@@ -90,6 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, clay or putty, glass or mirror]
 needs_confirming: {}
 confirmed: []

@@ -93,6 +93,7 @@ finder:
   powered_does: [grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites,
     'fabric, leather or cord']
 needs_confirming:

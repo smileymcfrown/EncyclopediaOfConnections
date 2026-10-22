@@ -94,6 +94,7 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: ['pushes, pulls or flow shared out']
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   power_loss:

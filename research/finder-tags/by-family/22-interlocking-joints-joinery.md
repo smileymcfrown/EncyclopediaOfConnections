@@ -1,6 +1,6 @@
 # interlocking joints & joinery: Joints for wood, sheet and panels
 
-25 entries. ⚑ = needs confirming: 1 best guesses and 5 values from text marked [uncertain]
+28 entries. ⚑ = needs confirming: 1 best guesses and 5 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -31,6 +31,9 @@ are welcome. Back to the [index](README.md).
 | 298 | Reciprocal frame | boards or sheet | none | – | – | – | – | – | – | none, drill and tap, hand tools | heavy | woodwork | partly | tool-free quick release |
 | 299 | Housing and rebate joints | boards or sheet | none | – | – | – | – | – | – | press or vice, power tools, hand tools | medium | woodwork | no | permanent |
 | 345 | Tensegrity | strap, cord or fabric | none | – | – | – | – | – | – | welding or brazing torch, drill and tap, power tools, hand tools | light | 3D print (FDM) | yes | removable |
+| 416 | Folding box closures | boards or sheet | none | – | – | – | – | – | – | power tools, hand tools | light | laser cut | no | removable |
+| 424 | V-groove fold | boards or sheet | none | – | – | – | – | – | – | glue gun, power tools, hand tools | medium | by hand (tied or wrapped) | no | permanent |
+| 427 | Jigsaw puzzle-edge joint | boards or sheet, lid, door or cover | none | – | – | – | – | – | – | none, power tools, hand tools | medium | off-the-shelf part | no | removable |
 
 ## Best guesses
 

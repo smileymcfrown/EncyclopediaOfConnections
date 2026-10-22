@@ -1,6 +1,6 @@
 # clamping, magnetic & friction connections: Held by clamping, friction, suction or magnets
 
-17 entries. ⚑ = needs confirming: 1 best guesses and 3 values from text marked [uncertain]
+18 entries. ⚑ = needs confirming: 2 best guesses and 3 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -23,12 +23,14 @@ are welcome. Back to the [index](README.md).
 | 364 | Hose clamp | hoses or pipes | none | – | – | – | – | – | – | press or vice, hand tools ⚑ | medium | off-the-shelf part | yes | removable |
 | 394 | Clamp-on accessory mount for bars, poles and edges | tube, rod or extrusion, wall, rail, desk or grid | none | – | – | – | – | – | – | press or vice, hand tools | medium | off-the-shelf part | yes | removable |
 | 398 | Spring clip clamp | wall, rail, desk or grid, something to grip | none | – | – | – | – | – | – | none, press or vice, hand tools | light | off-the-shelf part | no | tool-free quick release |
+| 440 | Glass and mirror edge clips and clamps | boards or sheet | none | – | – | – | – | – | – | drill and tap, press or vice, hand tools | medium | off-the-shelf part | yes | removable |
 
 ## Best guesses
 
 The script was unsure of these values.
 
 - ⚑ **257 Ordinary screw joint**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
+- ⚑ **398 Spring clip clamp**, `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, glass or mirror, fabric, leather or cord: still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Binder clips ('binder clip' or 'foldback clip') are the usual way to hold a 3D-printer glass bed.  That use is not stated in the JSON: Printables 'glass bed clip' results show it.
 
 ## From research text marked [uncertain]
 

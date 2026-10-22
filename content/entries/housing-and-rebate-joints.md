@@ -49,7 +49,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [wood]
+  sheet_material: [wood, 'paper, card or foam board']
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -88,6 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam, glass or mirror]
 needs_confirming: {}
 confirmed: []

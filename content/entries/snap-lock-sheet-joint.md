@@ -87,6 +87,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
 needs_confirming:
   tools:

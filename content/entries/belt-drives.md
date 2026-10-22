@@ -88,6 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [same way, opposite ways, different speeds]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   shaft_layout:

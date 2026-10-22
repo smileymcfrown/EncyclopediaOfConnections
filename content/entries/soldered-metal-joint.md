@@ -97,6 +97,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [metal, glass or mirror]
 needs_confirming:
   electrical_band:

@@ -94,6 +94,7 @@ finder:
   powered_does: [grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
 needs_confirming: {}
 confirmed: []

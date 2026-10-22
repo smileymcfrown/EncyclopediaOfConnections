@@ -1,0 +1,328 @@
+---
+title: Glazing in a rebated frame
+description: A pane of glass, mirror or acrylic rests against a stepped recess (rebate) round the inside of a frame and is
+  trapped there from behind by metal points pushed into the wood, a bead of putty, a pinned strip of wood (glazing bead) or
+  turn buttons screwed to the back, which also hold any backing board in place.
+num: 442
+term: Rebate glazing (glazing in a rebated frame, with glazier's points, glazing putty, glazing beads or turn buttons)
+plain_name: A sheet of glass, mirror or clear plastic dropped into a stepped ledge cut round the inside of a frame and held
+  there by little metal points pushed into the wood, a bead of putty, a thin strip of wood pinned over its edge, or small
+  swivelling tabs on the back, as in picture frames and old wooden windows
+aliases:
+- rebate or rabbet (US) glazing; the glass is 'fixed into a rabbet (rebate) in the frame' (Wikipedia 'Glazing (window)')
+- glazier's points, glazing points, push points, push-in points, diamond points, triangular points (Profile Products; American
+  Precision Museum; Reflect Window & Door)
+- framing points, framer's points, flexible points or Flexipoints, rigid points, Multipoints (LION Picture Framing), point
+  driver, point gun
+- glazing putty, window putty, linseed oil putty, glazing compound (e.g. DAP '33' (brand)), bedding or back putty and face
+  putty (NPS Preservation Brief 9; DAP)
+- glazing bead, glass bead, glazing stop, glass stop (Quantum Profile Systems; Wikipedia 'Tempered glass' mentions 'glass
+  stops')
+- turn button, turnbutton, frame turn button, backing clip (LION Picture Framing; Printables 376332)
+- spring clips (the metal-sash equivalent of glazier's points, DAP)
+- 'glazing tape, frame sealing tape (LION ''Seal the back of a frame'') [uncertain: glazing tape for windows not separately
+  sourced]'
+family: everyday fasteners & fixings
+other_families: [seals & pass-throughs, interlocking joints & joinery]
+finder:
+  job:
+  - join and hold
+  - seal it, or pass cables or fluid through
+  - lock, and release by hand
+  motion: none
+  special_behaviour: [quick-release]
+  holding_principle: [shape, friction or clamping, material bond]
+  reuse_cycles: many times
+  seal: watertight
+  access_needed: one side only
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, CNC, 3D print (FDM), laser cut, woodwork]
+  connects: [boards or sheet]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [soldering iron, heat gun, hand tools]
+  load_max: light
+  usual_process: woodwork
+  adjustable: 'no'
+  removability: removable
+  power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [glass or mirror]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [seal a still joint]
+  seal_material: ['plastic, fabric or a gap']
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Glazing in a rebated frame* (442): paint after a firm set of 7 days to 3 weeks (DAP) versus a skin in "2 or 3 days"
+    (National Park Service).'
+uncertain_fields: [aliases, load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, common_failures,
+  related]
+diagram_idea: 'Cross-section through one side of a frame: the stepped rebate with the glass resting against the front lip,
+  then mount and backing board, held by a glazier''s point pushed into the rebate wall; beside it the same section for a window
+  with bedding putty under the glass and a bevelled face putty over the point, and a back view of a turn button swivelling
+  over the backing board.'
+links:
+- url: https://www.nps.gov/orgs/1739/upload/preservation-brief-09-wood-windows.pdf
+  title: 'Preservation Brief 9: The Repair of Historic Wooden Windows (US National Park Service), figure 4d'
+  shows: 'Photos of removing putty and of reglazing: bed of putty, pane pressed in, glazing points inserted, bevelled face
+    putty'
+  license: US government work, public domain (NPS); photo credits shown in the brief
+- url: https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg
+  title: Hacking knife chopping glazing putty (Wikimedia Commons, Andy Dingley)
+  shows: A glazier's hacking knife scraping out old putty from a window rebate during reglazing
+  license: CC BY-SA 3.0
+- url: https://www.lionpic.co.uk/lion-product-guide/fix-the-back-into-the-frame/
+  title: Fix the Back Into the Frame (LION Picture Framing product guide)
+  shows: Point drivers, flexible and rigid framing points and how they hold the glazing, art and backing in the rebate
+  license: link only
+- url: https://www.youtube.com/watch?v=rCz0T9FBDIA
+  title: How to install glazing points (YouTube, stevenofpa; title checked through YouTube oEmbed)
+  shows: Short video of pushing glazier's points in to hold a pane
+  license: link only (standard YouTube licence)
+- url: https://www.youtube.com/watch?v=iiMb0eYOlhc
+  title: How to Re-glaze an Historic Window (YouTube, Indow; title checked through YouTube oEmbed)
+  shows: Video of reglazing a historic wooden window with putty
+  license: link only (standard YouTube licence)
+make_it_yourself:
+- url: https://www.printables.com/model/376332-picture-frame-turn-button-backing-clip
+  title: Picture Frame Turn Button (Backing Clip) (AverageYo, Printables) (URL from Printables API, page not opened)
+  what_it_is: 'Printed turn button that holds the backing onto a picture frame, for a #6 screw'
+  license: CC BY (Printables listing)
+- url: https://www.printables.com/model/1075535-picture-frame-din-a4-clip
+  title: Picture Frame DIN A4 Clip (softbugs, Printables) (URL from Printables API, page not opened)
+  what_it_is: Replacement clip for a frameless clip frame that holds the glass or acrylic front and the backing board together
+  license: CC BY (Printables listing)
+- url: https://www.printables.com/model/586248-parametric-picture-frame
+  title: Parametric Picture Frame (Jürgen Weigert, Printables) (URL from Printables API, page not opened)
+  what_it_is: 'FreeCAD two-part frame: the photo sits in a 1 mm groove and an inner frame pushes in and holds by friction'
+  license: CC BY-NC-SA (Printables listing)
+- url: https://www.printables.com/model/766879-parametric-picture-frame
+  title: Parametric Picture Frame (Steve DeGroof, Printables) (URL from Printables API, page not opened)
+  what_it_is: OpenSCAD frame printed as sides plus pop-in corners and a hanger
+  license: CC BY-SA (Printables listing)
+sources:
+- https://en.wikipedia.org/wiki/Glazing_(window)
+- https://en.wikipedia.org/wiki/Putty
+- https://en.wikipedia.org/wiki/Tempered_glass
+- https://www.nps.gov/orgs/1739/upload/preservation-brief-09-wood-windows.pdf
+- https://alex.dap.com/media/3835/33-window-glazing-tds_5-9-19.pdf
+- https://legacy.dap.com/resources-support/how-to-s-tips/window-door-siding/how-to-glaze-windows/
+- https://profileproducts.com.au/products/glaziers-points-push-in-points-pk50
+- https://www.lionpic.co.uk/turn-button-frame-fasteners/
+- https://www.lionpic.co.uk/lion-product-guide/fix-the-back-into-the-frame/
+- https://www.lionpic.co.uk/lion-product-guide/glaze-a-frame/
+- https://www.lionpic.co.uk/lion-product-guide/seal-the-back-of-a-frame/
+- https://www.lionpic.co.uk/lion-product-guide/create-a-space-between-the-glass-and-mount/
+- https://quantumprofilesystems.com/qwood/blog-post/glazing-timber-windows/
+- https://www.reflectwindow.com/blogs/news/reglazing-wood-windows-a-simple-how-to
+- https://americanprecision.org/learning-resources/glaziers-points/
+- https://www.epa.gov/system/files/documents/2022-03/lead-rrp-ct-code-officials.pdf
+- https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg
+- https://api.printables.com/graphql/ (models 376332, 1075535, 586248, 766879)
+- https://www.youtube.com/watch?v=rCz0T9FBDIA
+- https://www.youtube.com/watch?v=iiMb0eYOlhc
+research: research/connection-types/results/Glazing_in_a_rebated_frame_glaziers_points_glazing_putty_glazing_bead_pictureframe_turn_buttons.json
+image: null
+pictures: []
+glossary: [form-fit--force-fit--material-bond, heat-set-insert, boss, brittle--ductile, perimeters, infill, overhang--bridging]
+---
+
+A pane of glass, mirror or acrylic rests against a stepped recess (rebate) round the inside of a frame and is trapped there from behind by metal points pushed into the wood, a bead of putty, a pinned strip of wood (glazing bead) or turn buttons screwed to the back, which also hold any backing board in place.
+
+**In plain words:** A sheet of glass, mirror or clear plastic dropped into a stepped ledge cut round the inside of a frame and held there by little metal points pushed into the wood, a bead of putty, a thin strip of wood pinned over its edge, or small swivelling tabs on the back, as in picture frames and old wooden windows. **Proper term:** Rebate glazing (glazing in a rebated frame, with glazier's points, glazing putty, glazing beads or turn buttons).
+
+**Also called:** rebate or rabbet (US) glazing; the glass is 'fixed into a rabbet (rebate) in the frame' (Wikipedia 'Glazing (window)'); glazier's points, glazing points, push points, push-in points, diamond points, triangular points (Profile Products; American Precision Museum; Reflect Window & Door); framing points, framer's points, flexible points or Flexipoints, rigid points, Multipoints (LION Picture Framing), point driver, point gun; glazing putty, window putty, linseed oil putty, glazing compound (e.g. DAP '33' (brand)), bedding or back putty and face putty (NPS Preservation Brief 9; DAP); glazing bead, glass bead, glazing stop, glass stop (Quantum Profile Systems; Wikipedia 'Tempered glass' mentions 'glass stops'); turn button, turnbutton, frame turn button, backing clip (LION Picture Framing; Printables 376332); spring clips (the metal-sash equivalent of glazier's points, DAP); glazing tape, frame sealing tape (LION 'Seal the back of a frame') ⚑ [uncertain: glazing tape for windows not separately sourced].
+
+## How it works
+
+The rebate gives the pane a lip to rest against on the front side, so it can't fall forwards, and the retainers stop it falling backwards. Glazier's points are small flat metal triangles or diamonds pushed sideways into the wood of the rebate so that part sticks out over the glass; DAP says 'Points/clips are necessary to hold the glass in place. The glazing compound should not be expected to perform this function.' In a window, a bed of putty laid in the rebate cushions and seals the glass, and face putty bevelled over the points sheds rain (NPS; DAP). In a picture frame the points press the backing board, so the whole 'glazing/art/backing package' is clamped against the rebate lip (LION). A turn button is a flat plate on one screw that swivels over the backing board and swings back to let it out, 'ideal for when artwork needs to be removed and replaced' (LION).
+
+## Parts
+
+A few parts: a frame with a rebate, the pane, and the retainers. Window: bedding (back) putty, the pane, glazier's points every so often, and bevelled face putty, later painted (NPS Preservation Brief 9). Bead-glazed window or door: a wooden or composite glazing bead pinned or clipped over the glass, often with sealant or glazing tape (Quantum Profile Systems). Picture frame: glazing, mount and artwork, backing board, then push-in or driven points, flexible points or turn buttons, and often sealing tape over the gap (LION Picture Framing).
+
+## Everyday examples
+
+- The back of a shop-bought picture frame, with metal tabs that bend up or turn to let the backing board out (LION; Profile Products)
+- An old wooden sash window with a bevel of putty round each pane (NPS Preservation Brief 9)
+- A glazed wooden cabinet or door where a thin strip of moulding is pinned over the glass (Quantum Profile Systems)
+- A wall mirror in a wooden frame held in by points (LION)
+
+## When to use it
+
+Use rebate glazing whenever a pane sits inside a frame: picture and poster frames, shadow boxes, glazed cabinet doors, printed or laser-cut frames for acrylic, and traditional wooden windows. It is cheap, needs no drilling of the glass, lets the frame carry the weight, and lets the pane be replaced. Use turn buttons or flexible points when the contents will be changed, rigid points for mirrors and big frames (LION), putty for traditional windows that must shed rain (NPS), and glazing beads for a neat, easily replaced finish on doors and modern timber windows (Quantum Profile Systems).
+
+## When not to use it
+
+Don't use putty on plastic panes, insulated double-glazed units or leaded and stained glass (DAP), or on panes bigger than its limit (DAP: 48 in); use the window maker's beads, gaskets and sealant instead. Don't rely on putty alone to hold glass (DAP). In printed or plastic frames, use clips, turn buttons or screws, since metal points won't grip. For frameless sheets on a wall, use Glass and mirror edge clips and clamps or a Panel standoff. For leaded panels, the panel goes into the rebate, but the joints inside it are a Lead came joint.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: holds a pane, mirror or panel and its backing in a frame
+  - seal it, or pass cables or fluid through: bedding and face putty (or sealant and beads) keep wind and rain out of a window (NPS; DAP); sealing tape keeps dust out of a picture frame (LION)
+  - lock, and release by hand: turn buttons and flexible points let the back be opened again without tools (LION)
+- **Movement:** none (turn buttons swivel through about 90 degrees only to open or close the back)
+- **Directions it can move (degrees of freedom):** 0: the rebate lip, the frame sides and the points, putty or bead trap the pane in every direction
+- **Special behaviour:**
+  - quick-release: turn buttons and flexible points can be swung or bent out of the way by hand to change a picture (LION)
+  - none, for putty and rigid points, which are meant to stay
+- **How it holds:**
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the rebate lip on one face and the points, bead or turn buttons on the other trap the pane
+  - friction or clamping (force-fit): points and turn buttons press the backing and glazing against the rebate; points grip in the wood by friction
+  - material bond (glue, solvent or melting): putty and glazing compound stick to glass and to primed wood and seal the edge, but don't carry the pane on their own (DAP)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** light: the frame and rebate carry the pane's weight; points only stop it falling out backwards. DAP limits its putty to panes no more than 48 in (1.22 m) in any direction and asks for setting blocks under panes over 24 in wide. LION recommends rigid points rather than flexible ones for mirrors and for frames over 700 x 900 mm. Weak against the pane being pushed from the front side of a picture frame if points are few or bent ⚑ [uncertain].
+- **Play and precision:** small: the pane is cut a little smaller than the rebate so it fits and can expand; DAP calls for at least 1/8 in (3 mm) of bedding putty round the glass and no frame-to-glass contact, and setting blocks under large panes
+- **Taking it apart:** removable for picture frames with flexible points or turn buttons; semi-permanent for windows, where hardened putty has to be cut or scraped out (DAP) or softened with heat (NPS) and the points pulled before the pane comes out
+- **How often it can be reused:** many times for turn buttons and flexible points (they are made to be bent up and down; LION); a few times for push-in points; once for putty, which is replaced when reglazing
+- **Sealing:** watertight for a properly puttied and painted window: the paint should overlap slightly onto the glass 'to complete a weathertight seal' (NPS); dust-resistant for a picture frame sealed with tape (LION); none for a plain frame with points only
+- **Adjustable:** no: the pane's position is set by the rebate; turn buttons and flexible points can be loosened to re-fit the contents
+- **Access needed:** one side only (blind): everything is fitted from the back of a picture frame or from the putty side of a window sash; the rebate faces that side
+- **Materials:** Frames: wood (where points and pins can be pushed in) is the classic; metal sashes use spring clips instead of points (DAP); printed or plastic frames use clips, turn buttons or screws instead of points. Panes: float glass, mirror, picture-framing acrylic (lighter than glass, absorbs UV and won't shatter; LION 'Glaze a frame'), polycarbonate, and backing boards. Putty: traditional linseed oil and whiting putty, historically sometimes with white lead, and synthetic polybutene putties with butyl rubber (Wikipedia 'Putty'). Don't use DAP '33' on plastic panes, leaded or stained glass, or insulated glass units with an organic seal (DAP TDS). Linseed putty should go on primed or oiled wood so the wood doesn't draw out its oil (NPS).
+- **Heat, cold, water and wear:** Linseed putty takes days to weeks to skin and set, and stays soft for weeks: DAP warns the sash 'should be operated carefully for approximately three weeks'. DAP '33' should be applied only between 40 and 90 °F and is rated for -20 to 160 °F service (DAP TDS). Unpainted putty dries, cracks and lets water in, and old putty 'dries and becomes [brittle](../glossary.md#brittle--ductile) over time' (Reflect Window & Door; NPS). Wooden frames swell and shrink with damp, which can loosen points or crack a tightly fitted pane ⚑ [uncertain]. Picture frames: sealing tape over the back keeps out dust and moisture (LION). Acrylic glazing scratches more easily than glass ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - woodwork: cut the rebate with a router or table saw (see Housing and rebate joints), then glaze
+  - off-the-shelf part: glazier's points, framing points, turn buttons, glazing beads, putty and glazing compound
+  - 3D print (FDM): printed picture frames, turn buttons and backing clips (Printables 376332, 1075535, 586248)
+  - laser cut or CNC: layered frames with a rebate made from stacked sheets, and acrylic panes ⚑ [uncertain]
+- **Printing it in one piece (print in place):** no: printed frames and turn buttons are separate parts; turn buttons need a screw (Printables 376332: a #6 screw)
+- **Tools:** putty knife or a wide flat screwdriver for push-in points (Profile Products); a point driver or point gun for framing points (LION); glazing knife and putty knife for putty; hammer and pin punch for glazing beads; screwdriver for turn buttons; glass cutter; heat gun or soldering iron to soften old putty (NPS; DAP how-to)
+- **Difficulty:** easy for picture frames (push in points or screw on turn buttons); moderate for windows, where neat putty work and lead-safe removal of old putty take care
+
+### 3D printing tips
+
+1) Print the frame face down so the rebate is a simple step with no [overhang](../glossary.md#overhang--bridging), and make the rebate depth equal to the total stack of glazing + mount + backing, plus about 0.5-1 mm ⚑ [uncertain]. 2) Make the rebate opening 1-2 mm bigger than the pane in each direction so slightly oversized glass or acrylic still drops in and the plastic can expand ⚑ [uncertain]. 3) You can't push metal points into a print, so use printed turn buttons screwed into the back (Printables 376332, for a #6 screw), printed clips such as the DIN A4 clip-frame clip (Printables 1075535, ABS or PLA, any [infill](../glossary.md#infill)), or a two-part frame where an inner frame is pushed into the outer one and holds by friction (Printables 586248, with a 1 mm groove for the photo). 4) For screws into printed frames, give each screw a solid [boss](../glossary.md#boss) (more [perimeters](../glossary.md#perimeters)) or a [heat-set insert](../glossary.md#heat-set-insert) ⚑ [uncertain]. 5) Large printed frames are often made from separate sides joined by printed corners (Printables 766879, OpenSCAD source included). 6) Use acrylic rather than glass in printed frames for children's rooms or posting, as it is lighter and won't shatter (LION).
+
+### Buying one (off-the-shelf parts)
+
+Search for: 'glazier's points' or 'glazing points' (push, diamond or triangle points) and a 'glazier point driver' or 'PushMate' ⚑ [uncertain: brand name seen only in search results], 'framing points' ('flexible points', 'rigid points', 'Flexipoints', 'framer's point driver' or 'point gun'), 'turn buttons' or 'turnbuttons' (picture frame), 'glazing putty' or 'linseed oil putty' or 'window glazing compound', 'glazing bead' or 'glass stop' moulding, 'panel pins' or 'glazing sprigs' ⚑ [uncertain], 'setting blocks', 'frame sealing tape' or 'framing tape', 'spring clips' for metal sash. Catalogue examples: LION Picture Framing turn buttons https://www.lionpic.co.uk/turn-button-frame-fasteners/ and push-in points https://profileproducts.com.au/products/glaziers-points-push-in-points-pk50
+
+## Rules of thumb
+
+- Points hold the glass; putty only seals it: 'Points/clips are necessary to hold the glass in place. The glazing compound should not be expected to perform this function' (DAP '33' technical bulletin).
+- Window point spacing: points at the quarter points of each side, no more than 18 in (457 mm) apart for exterior-glazed sash and no more than 12 in (305 mm) apart for interior-glazed sash (DAP). Reflect Window & Door's simpler guide: two glazing points on each side of the pane.
+- Picture frame point spacing: about one point every 20 cm along each side (Profile Products push-in points).
+- Bedding: at least 1/8 in (3 mm) of back bedding all round, no metal or wood frame touching the glass, setting blocks at the quarter points of the bottom rail for panes over 24 in wide, and at least 1/4 in of glass-to-compound contact for clear glass (DAP).
+- DAP '33' limits: panes up to 48 in in any direction; apply at 40-90 °F; service range -20 to 160 °F (DAP TDS).
+- Sequence for reglazing: bed of putty round the rabbet, press the pane in, push in the glazing points, then bevel a final seal of putty round the glass (NPS Preservation Brief 9, fig. 4d). Prime the wood first: glazing compound should only go on wood brushed with linseed oil and primed (NPS).
+- Paint over putty: NPS says paint when a skin has formed, 'usually in 2 or 3 days'; DAP says its '33' must reach a firm set first, 'as little as 7 days ... but more likely 2-3 weeks' (no fingerprint when lightly touched). The figures differ by product; follow the label. Let the paint lap slightly onto the glass to seal (NPS; DAP).
+- Smooth face putty to an angle that sheds water, with rounded corners and no gaps (DAP).
+- Picture frames: flexible points let the back be removed; rigid points are stronger and preferred for mirrors and frames over 700 x 900 mm (LION Picture Framing).
+- Points in a picture frame are driven almost flat to the backing board (LION: angled noseplate drives points 'almost flat').
+
+## Common failures
+
+Pane rattles or falls out: too few points, or points not pushed in far enough; putty was expected to hold the glass (DAP). Putty cracks, shrinks or falls out: painted too early or not at all, wood not primed so it drew the oil out, or applied too cold (NPS; DAP). Glass cracks: frame touching the glass with no bedding, no setting blocks on a large pane, or points driven at an angle that nicked the edge (DAP; Wikipedia 'Tempered glass'). Picture frame back pops out: flexible points used on a heavy mirror or large frame (LION). Dust or insects inside a picture frame: back not sealed with tape (LION). Printed frames: points split the plastic; use turn buttons or clips instead ⚑ [uncertain].
+
+## Safety
+
+LEAD: old window putty and paint may contain lead; putty was historically sometimes made with white lead (Wikipedia 'Putty'), and homes built before 1978 may have lead paint. US EPA lead-safe practice bans open-flame burning and power tools without HEPA dust control on lead paint (EPA Region 1 RRP fact sheet), so don't dry-sand or burn off old putty and paint; scrape or soften it carefully, keep dust down and clean up thoroughly. HEAT: when using a heat gun to soften putty, keep it moving, wear leather gloves and eye protection, and shield the glass so it doesn't crack (DAP how-to). GLASS: cut glass and broken panes are sharp; wear gloves and safety glasses when removing broken glass (Reflect Window & Door). Old glass can be thin and brittle, so soak old putty off the glass in linseed oil rather than prying, to lower the risk of breaking it (NPS). Nicks on glass edges from fasteners driven at an angle can later grow into cracks (Wikipedia 'Tempered glass'). Mineral spirits for cleaning putty off tools must not be used on skin (DAP TDS).
+
+## Related
+
+- Housing and rebate joints (dado, rabbet): how to cut the rebate itself
+- Glass and mirror edge clips and clamps: hold a frameless sheet on a wall instead of in a frame
+- Panel standoff: holds a drilled sheet off a wall
+- Lead came joint: H-section lead strips that hold the pieces inside a leaded panel, itself then glazed into a frame
+- Copper-foil joint: how small stained-glass panels are made before framing
+- Silicone and MS-polymer adhesive sealants: modern sealant bedding instead of putty
+- Gasket: rubber glazing gaskets in metal and plastic window frames ⚑ [uncertain]
+- Basic latches (spring latch, slide bolt): the turn button is a very simple swivelling catch
+- Nails, brads and tacks: panel pins hold glazing beads; framers sometimes use brads instead of points ⚑ [uncertain]
+- Tongue-and-groove joint (sliding-lid grooves): a pane sliding in a groove instead of sitting in a rebate
+
+## Make it yourself
+
+- [Picture Frame Turn Button (Backing Clip) (AverageYo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/376332-picture-frame-turn-button-backing-clip): Printed turn button that holds the backing onto a picture frame, for a #6 screw *(licence: CC BY (Printables listing))*
+- [Picture Frame DIN A4 Clip (softbugs, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1075535-picture-frame-din-a4-clip): Replacement clip for a frameless clip frame that holds the glass or acrylic front and the backing board together *(licence: CC BY (Printables listing))*
+- [Parametric Picture Frame (Jürgen Weigert, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/586248-parametric-picture-frame): FreeCAD two-part frame: the photo sits in a 1 mm groove and an inner frame pushes in and holds by friction *(licence: CC BY-NC-SA (Printables listing))*
+- [Parametric Picture Frame (Steve DeGroof, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/766879-parametric-picture-frame): OpenSCAD frame printed as sides plus pop-in corners and a hanger *(licence: CC BY-SA (Printables listing))*
+
+## Pictures, videos and models
+
+- [Preservation Brief 9: The Repair of Historic Wooden Windows (US National Park Service), figure 4d](https://www.nps.gov/orgs/1739/upload/preservation-brief-09-wood-windows.pdf): Photos of removing putty and of reglazing: bed of putty, pane pressed in, glazing points inserted, bevelled face putty *(licence: US government work, public domain (NPS); photo credits shown in the brief)*
+- [Hacking knife chopping glazing putty (Wikimedia Commons, Andy Dingley)](https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg): A glazier's hacking knife scraping out old putty from a window rebate during reglazing *(licence: CC BY-SA 3.0)*
+- [Fix the Back Into the Frame (LION Picture Framing product guide)](https://www.lionpic.co.uk/lion-product-guide/fix-the-back-into-the-frame/): Point drivers, flexible and rigid framing points and how they hold the glazing, art and backing in the rebate *(licence: link only)*
+- [How to install glazing points (YouTube, stevenofpa; title checked through YouTube oEmbed)](https://www.youtube.com/watch?v=rCz0T9FBDIA): Short video of pushing glazier's points in to hold a pane *(licence: link only (standard YouTube licence))*
+- [How to Re-glaze an Historic Window (YouTube, Indow; title checked through YouTube oEmbed)](https://www.youtube.com/watch?v=iiMb0eYOlhc): Video of reglazing a historic wooden window with putty *(licence: link only (standard YouTube licence))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 13 sentences on this page marked [uncertain].
+- ⚑ Research note: *Glazing in a rebated frame* (442): paint after a firm set of 7 days to 3 weeks (DAP) versus a skin in "2 or 3 days" (National Park Service).
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Glazing_(window)>
+- <https://en.wikipedia.org/wiki/Putty>
+- <https://en.wikipedia.org/wiki/Tempered_glass>
+- <https://www.nps.gov/orgs/1739/upload/preservation-brief-09-wood-windows.pdf>
+- <https://alex.dap.com/media/3835/33-window-glazing-tds_5-9-19.pdf>
+- <https://legacy.dap.com/resources-support/how-to-s-tips/window-door-siding/how-to-glaze-windows/>
+- <https://profileproducts.com.au/products/glaziers-points-push-in-points-pk50>
+- <https://www.lionpic.co.uk/turn-button-frame-fasteners/>
+- <https://www.lionpic.co.uk/lion-product-guide/fix-the-back-into-the-frame/>
+- <https://www.lionpic.co.uk/lion-product-guide/glaze-a-frame/>
+- <https://www.lionpic.co.uk/lion-product-guide/seal-the-back-of-a-frame/>
+- <https://www.lionpic.co.uk/lion-product-guide/create-a-space-between-the-glass-and-mount/>
+- <https://quantumprofilesystems.com/qwood/blog-post/glazing-timber-windows/>
+- <https://www.reflectwindow.com/blogs/news/reglazing-wood-windows-a-simple-how-to>
+- <https://americanprecision.org/learning-resources/glaziers-points/>
+- <https://www.epa.gov/system/files/documents/2022-03/lead-rrp-ct-code-officials.pdf>
+- <https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg>
+- <https://api.printables.com/graphql/ (models 376332, 1075535, 586248, 766879)>
+- <https://www.youtube.com/watch?v=rCz0T9FBDIA>
+- <https://www.youtube.com/watch?v=iiMb0eYOlhc>

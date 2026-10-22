@@ -115,7 +115,7 @@ sheet_material:
   kind: list
   set_by: hand
   meaning: 'Answer to the finder question "What is the sheet made of?" (under: Hold two things together > Boards, panels or sheet > No, never).'
-  options: [wood, sheet metal, plastic sheet, not applicable]
+  options: [wood, sheet metal, plastic sheet, 'paper, card or foam board', glass or mirror, not applicable]
 
 carries_fluid:
   kind: list
@@ -193,7 +193,7 @@ weld_material:
   kind: list
   set_by: hand
   meaning: 'Answer to the finder question "What are the parts made of?" (under: Hold two things together > Melt them together).'
-  options: [metal, plastic or film, not applicable]
+  options: [metal, plastic or film, glass, not applicable]
 
 wire_use:
   kind: list

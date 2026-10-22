@@ -91,6 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   bonds_well:

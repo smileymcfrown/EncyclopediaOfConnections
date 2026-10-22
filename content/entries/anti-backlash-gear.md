@@ -84,6 +84,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [combines inputs]
   made_of: [3D prints, metal]
 needs_confirming: {}
 confirmed: []

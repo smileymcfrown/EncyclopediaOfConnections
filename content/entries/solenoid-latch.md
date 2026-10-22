@@ -85,6 +85,7 @@ finder:
   powered_does: [lock or hold]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   power_loss:

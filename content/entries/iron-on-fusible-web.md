@@ -98,6 +98,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: ['plastic sheet, tube or moulded parts', wood, paper or card, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []

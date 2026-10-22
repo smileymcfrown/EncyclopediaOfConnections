@@ -1,6 +1,6 @@
 # over-centre, toggle & cam clamps: Snaps past a dead point and stays
 
-4 entries. ⚑ = needs confirming: 8 best guesses and 4 values from text marked [uncertain]
+5 entries. ⚑ = needs confirming: 9 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -10,6 +10,7 @@ are welcome. Back to the [index](README.md).
 | 20 | Toggle clamp | something to grip | none | – | back-and-forth turning ⚑ | back-and-forth turning, straight push or pull ⚑ | – ⚑ | – | – | none, drill and tap, hand tools | heavy | off-the-shelf part | yes | tool-free quick release |
 | 21 | Draw latch | lid, door or cover | none | – | – | – | – | – | – | none, drill and tap, hand tools | heavy | off-the-shelf part ⚑ | yes | tool-free quick release |
 | 22 | Eccentric cam lever | something to grip | none | – | steady turning ⚑ | straight push or pull ⚑ | – ⚑ | – | – | none, hand tools ⚑ | heavy | off-the-shelf part | yes | tool-free quick release |
+| 444 | Wire-bail closure | lid, door or cover ⚑ | none | – | – | – | – | – | – | none, hand tools | medium | off-the-shelf part | partly | tool-free quick release |
 
 ## Best guesses
 
@@ -23,6 +24,7 @@ The script was unsure of these values.
 - ⚑ **20 Toggle clamp**, `motion_out` = back-and-forth turning, straight push or pull: both sides turn, but no shaft layout named
 - ⚑ **20 Toggle clamp**, `shaft_layout` = –: both sides turn, but no shaft layout named
 - ⚑ **21 Draw latch**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **444 Wire-bail closure**, `connects` = lid, door or cover: worked out from its name, but joining parts is not one of its two main jobs
 
 ## From research text marked [uncertain]
 

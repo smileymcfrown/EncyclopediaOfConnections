@@ -44,51 +44,69 @@
   explain: The print itself becomes the flexible fabric, chain or folding sheet.
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   example: a plywood box, an acrylic enclosure, a sheet-metal bracket
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - No, never (permanent)
   example: a glued and nailed drawer, a riveted aluminium box
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - No, never (permanent)
   - Wood or plywood
   example: a dovetailed drawer, a nailed crate, a dowelled shelf
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - No, never (permanent)
   - Sheet metal
   example: a riveted aluminium panel, a steel box held by bent tabs, a folded-seam duct
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - No, never (permanent)
   - Plastic sheet (acrylic, or laser-cut sheet)
   example: a heat-staked plastic cover, a glued-up laser-cut acrylic box, a push-in rivet holding a plastic panel
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
+  - No, never (permanent)
+  - Paper, card or foam board
+  example: the glued tabs of a paper model, a folded and glued foam-board corner, a cardboard box glued shut
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - Now and then, with a tool
   example: flat-pack furniture, a laser-cut box held together with screws in T-slots
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - Now and then, with a tool
   - Wood or plywood
   example: flat-pack furniture with cam locks, a screwed timber frame
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - Now and then, with a tool
   - Sheet metal, plastic or laser-cut sheet
   example: a laser-cut acrylic box with tabs and T-nuts, a sheet-metal case with clips
 - path:
   - Hold two things together (they stay still)
-  - Boards, panels or sheet (wood, plywood, acrylic, sheet metal)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
+  - Now and then, with a tool
+  - Paper, card or foam board
+  example: a brass paper fastener in a card model, cardboard screws in a cardboard fort, a tuck-flap box
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
+  - Now and then, with a tool
+  - Glass or mirror
+  example: mirror clips on a wall, a glass sign on standoffs, the glass in a picture frame
+- path:
+  - Hold two things together (they stay still)
+  - Boards, panels or sheet (wood, acrylic, metal, card, foam board, glass)
   - Often, by hand, without tools
   example: tongue-and-groove floor panels, a slot-together cardboard or plywood model
 - path:
@@ -105,6 +123,18 @@
   - Tube, rod, pole or aluminium extrusion
   - No (frames, poles and rails)
   example: a camping-pole joint, a corner of an aluminium-extrusion frame, a clamp on a bike bar
+- path:
+  - Hold two things together (they stay still)
+  - Tube, rod, pole or aluminium extrusion
+  - No (frames, poles and rails)
+  - At the end (into or over the end of the tube)
+  example: a carbon drone arm glued into a printed socket, a tent pole joined by shock cord, a star nut in a handlebar
+- path:
+  - Hold two things together (they stay still)
+  - Tube, rod, pole or aluminium extrusion
+  - No (frames, poles and rails)
+  - Along the side, or onto a slot or rail
+  example: a T-nut in an aluminium extrusion, a clamp-on phone mount on a handlebar, lashed bamboo poles
 - path:
   - Hold two things together (they stay still)
   - A wheel, gear or arm onto a shaft, or two shafts end to end
@@ -319,6 +349,11 @@
   example: fixing a cracked print with a soldering iron, sealing a plastic bag shut
 - path:
   - Hold two things together (they stay still)
+  - Melt them together (weld, braze or solder)
+  - Glass (stained glass, or fused in a kiln)
+  example: a stained-glass suncatcher, a leaded window, a fused glass pendant
+- path:
+  - Hold two things together (they stay still)
   - I just want to glue it
   example: gluing a broken mug, a printed part onto wood
 - path:
@@ -457,6 +492,18 @@
   - Any solid parts / something else
   - Both sides
   example: a bolt through two plates, a pivot pin through a bracket
+- path:
+  - Hold two things together (they stay still)
+  - Any solid parts / something else
+  - Both sides
+  - No, never (permanent)
+  example: a pinned and glued arm on a miniature, a handle joined to a clay mug, epoxy and glass tape on a plywood kayak
+- path:
+  - Hold two things together (they stay still)
+  - Any solid parts / something else
+  - Both sides
+  - 'Yes'
+  example: a bolt and nut, a ring binder, a strung doll joint, a lazy-Susan bearing
 - path:
   - Hold two things together (they stay still)
   - Any solid parts / something else
@@ -609,6 +656,10 @@
   example: a lid that lifts out and stays level, a walking toy's legs, a camera iris
   explain: A linkage guides the part along a fixed path instead of a simple swing.
 - path:
+  - Let something move (turn, slide, swing or bend)
+  - Pop up, slide or turn as a card or page opens (paper)
+  example: a pop-up birthday card, a pull-tab picture book, a paper code wheel
+- path:
   - Control a movement (one way only, clicks, slips, locks, slows)
   example: a bike freewheel, a dial that clicks, a drill clutch that slips
   explain: 'For moving parts that must behave in a certain way: one way only, clicking, slipping, locking
@@ -697,6 +748,12 @@
   - Slip, and keep going
   - No, I will buy or machine it
   example: a slip clutch on a conveyor, a centrifugal clutch on a go-kart
+- path:
+  - Control a movement (one way only, clicks, slips, locks, slows)
+  - Slip, click or let go if overloaded
+  - Slip, and keep going
+  - It is a brake or speed limiter (it slips to slow things down)
+  example: a bike brake, the fly fan in a music box, a stiff laptop hinge
 - path:
   - Control a movement (one way only, clicks, slips, locks, slows)
   - Slip, click or let go if overloaded
@@ -792,6 +849,18 @@
   - Faster, slower or stronger turning
   - Side by side (parallel)
   example: a bike chain, a timing belt on a 3D printer, two gears side by side
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Faster, slower or stronger turning
+  - Side by side (parallel)
+  - Yes, or partly
+  example: printed spur gears, a GT2 belt on printed pulleys, a wooden lantern gear
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Faster, slower or stronger turning
+  - Side by side (parallel)
+  - No, I will buy or machine it
+  example: a workshop line shaft, a geared two-motor robot drive, a capstan cable drive in a robot arm
 - path:
   - Change a movement (speed, force or kind of motion)
   - Faster, slower or stronger turning

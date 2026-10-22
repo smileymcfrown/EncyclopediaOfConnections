@@ -91,6 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [wires]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   reuse_cycles:

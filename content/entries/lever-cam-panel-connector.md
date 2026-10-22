@@ -89,6 +89,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
   made_of: [wood]
 needs_confirming: {}
 confirmed: []
