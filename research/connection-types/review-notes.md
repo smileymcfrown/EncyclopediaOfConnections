@@ -496,3 +496,21 @@ crlaurence.com, Lee Valley (429), cicacenter.org (502), Delphi Glass, the UW-Whi
 blog (404), This Old House (404), goot.jp (503), community.ultimaker.com. Model Airplane News
 articles are mostly paywalled (only visible sample text cited). Talas and CCI pages were read through
 WebFetch with exact quotes.
+
+### Conflicting figures and content points (items 443-452)
+- *Glass door hinge* (443): weight per pair varies by model (one Blum hinge 4 kg per pair, the vxb pivot kit 5-8 kg); follow the hinge maker's figure.
+- *Wire-bail closure* (444): safety views disagree: swing tops are safer because the gasket and bail fail before the glass (Craft Beer & Brewing) versus not for kombucha because the stopper can snap up and hurt hands (Kombucha Kamp). The over-centre geometry is [uncertain] (the Quillfeldt patent could not be opened; Google Patents 503).
+- *Lead came joint* (445): reinforce fixed panels over about 10 ft perimeter and moving ones over about 8 ft, every 18 in (source in the entry) versus "over 24 x 24 in" (an r/StainedGlass member); solder 50/50 (Everything Stained Glass) versus 60/40 (SCW club).
+- *Cable splitter* (452): Jtek DoubleControl L travel 27 mm (SJS product page) versus 26 mm (an SJS staff answer). The 80:20 front-to-rear brake split is forum advice only; UK road law on independent brakes only from forum statements (the legislation.gov.uk text could not be read). Google Patents read through WebFetch only. A MakerWorld throttle-splitter model appears from search results only (page 403; licence not checked).
+- *Glass fusing* (446): annealing differs: a 482 °C hold with about 3 h of cooling for 6 mm and 14 h for 25 mm (Bullseye, for its own glass) versus a 516 °C soak and 10-12 h in all (Wikipedia); fusing 700-820 °C (Wikipedia) versus tack fusing 690-788 °C (Bullseye). The gap search's ⚑ on microwave kilns is cleared (Ceramic Industry gives figures).
+- *Shelf pins and shelf supports* (447): the Wood magazine glass-span chart is quoted second-hand through WOODWEB and labelled so.
+- *Linked lead screws* (448): no source found for chain-linked lead screws (kept as a variant, [uncertain]). The ⚑ that K1 and Bambu printers use one motor, a belt and three screws rests on one Reddit comment and is left out. Correction to the drives scope-search write-up: Reddit post 14tvq4s does not say the belt was "too tight or misaligned", only that the printer homed fine once the belt was removed; the entry states it as the post does. Klipper's z_tilt page was cut off when fetched (cited only as a pointer).
+- *Line shaft and power take-off* (449): no reputable source explains the go-kart jackshaft in depth; the minibike detail comes from a GoPowerSports bracket listing. One printing tip cites Prusa material guidance that was not re-opened.
+- *Bevel splitter and counter-rotating drive* (450): whether it can be driven backwards is [uncertain].
+- *Several motors driving one load* (451): copies of the PLA softening point (about 60 °C) without a citation are [uncertain].
+
+### Blocked or unreadable (items 443-452; nothing cited from them)
+glassparts.ie, crlaurence.com, Google Patents (503; patents read through WebFetch), Brighton Toy
+Museum, Grassroots Motorsports, Endless-sphere (anti-bot page), CycleKarts GB, Thingiverse,
+ratrodbikes, the legislation.gov.uk text on vehicle brakes (a scan with no text). Skyjems pages
+were not used (AI-generated images and text).
