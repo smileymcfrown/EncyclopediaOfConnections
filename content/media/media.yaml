@@ -755,20 +755,6 @@ bevel-gears:
   alt: A pair of big red-painted bevel gears on an old grain mill, one gear's teeth fitted with wooden inserts, meshing at
     a right angle.
   kind: photo
-bevel-splitter-and-counter-rotating-drive:
-- src: File:Ka-32-coaxial.gif
-  file: bevel-splitter-and-counter-rotating-drive.webp
-  width: 800
-  height: 778
-  title: File:Ka-32-coaxial.gif
-  author: FOX 52
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Ka-32-coaxial.gif
-  site: Wikimedia Commons
-  alt: A Kamov Ka-32 helicopter with coaxial contra-rotating rotors (used in Wikipedia 'Contra-rotating')
-  animated: true
-  still: bevel-splitter-and-counter-rotating-drive.still.webp
 binding-knots-and-seizings:
 - src: File:Constrictor-ABOK-1249.jpg
   file: binding-knots-and-seizings.webp
@@ -1414,18 +1400,6 @@ captive-nut-pocket:
   site: Flickr via Openverse
   alt: Grey 3D-printed brackets whose flat base has a six-sided pocket at each end, shaped to hold a nut so it can't turn
   kind: photo
-cardboard-screws-and-rivets:
-- src: File:Corrugated Cardboard.JPG
-  file: cardboard-screws-and-rivets.webp
-  width: 800
-  height: 600
-  title: File:Corrugated Cardboard.JPG
-  author: Richard Wheeler (Zephyris)
-  license: CC BY-SA 3.0
-  license_url: http://creativecommons.org/licenses/by-sa/3.0/
-  source: https://commons.wikimedia.org/wiki/File:Corrugated_Cardboard.JPG
-  site: Wikimedia Commons
-  alt: Close-up of corrugated fibreboard showing the fluted middle layer between two liners
 castor:
 - src: File:Swivel caster.jpg
   file: castor.webp
@@ -3414,18 +3388,6 @@ folding-blade-lock:
   site: Wikimedia Commons
   alt: The handle of a frame-lock knife, where the split metal frame springs in behind the open blade.
   kind: photo
-folding-box-closures:
-- src: File:Carton and tape seal partially open.jpg
-  file: folding-box-closures.webp
-  width: 800
-  height: 600
-  title: File:Carton and tape seal partially open.jpg
-  author: Rlsheehan
-  license: CC BY-SA 4.0
-  license_url: https://creativecommons.org/licenses/by-sa/4.0
-  source: https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg
-  site: Wikimedia Commons
-  alt: A partly opened carton showing the tuck flap and its locking tab (tongue)
 four-bar-linkage:
 - src: File:Crank-Rocker 4-bar Linkage.gif
   file: four-bar-linkage.webp
@@ -3865,17 +3827,30 @@ glazing-in-a-rebated-frame:
   alt: A hacking knife chopping old putty out of the rebate round a pane of glass in a wooden window frame.
   kind: how-it-works
 glue-stick-and-starch-paste:
-- src: File:Pritt Sticks.JPG
-  file: glue-stick-and-starch-paste.webp
+- src: File:Elmer's Office Glue Stick in action.JPG
+  file: glue-stick-and-starch-paste-ecf9fd.webp
   width: 800
-  height: 600
-  title: File:Pritt Sticks.JPG
-  author: Elarkon
+  height: 533
+  title: File:Elmer's Office Glue Stick in action.JPG
+  author: Mk2010
   license: CC BY-SA 3.0
   license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Pritt_Sticks.JPG
+  source: https://commons.wikimedia.org/wiki/File:Elmer%27s_Office_Glue_Stick_in_action.JPG
   site: Wikimedia Commons
-  alt: A selection of twist-up glue sticks (Pritt Stick international and UK versions and Power Pritt)
+  alt: A glue stick being rubbed across a sheet of paper, leaving a thin wet film of glue.
+  kind: how-it-works
+- src: File:FABER-CASTELL glue stick.jpg
+  file: glue-stick-and-starch-paste-a77bb3.webp
+  width: 800
+  height: 1422
+  title: File:FABER-CASTELL glue stick.jpg
+  author: Nalinc3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:FABER-CASTELL_glue_stick.jpg
+  site: Wikimedia Commons
+  alt: An open twist-up glue stick with its cap off and the solid stick of glue showing at the top.
+  kind: photo
 glued-joint-design:
 - src: openverse:396421ef-5ec6-4f77-930d-5503619225f5
   file: glued-joint-design.webp
@@ -3889,19 +3864,6 @@ glued-joint-design:
   site: Flickr via Openverse
   alt: A guitar headstock glued onto the neck with a long sloping scarf joint, held under clamps while the glue sets.
   kind: how-it-works
-glued-tab-joint:
-- src: File:Blank RSC.svg
-  file: glued-tab-joint.webp
-  width: 800
-  height: 262
-  title: File:Blank RSC.svg
-  author: Life of Riley
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Blank_RSC.svg
-  site: Wikimedia Commons
-  alt: Flat blank of a regular slotted cardboard box with score lines, slots and the manufacturer's joint flap that is glued
-    to close the side seam
 hand-mouldable-thermoplastic:
 - src: File:PCL beads.jpg
   file: hand-mouldable-thermoplastic.webp
@@ -4962,18 +4924,6 @@ lantern-gear:
   alt: The iron frame of a 1608 turret clock with small lantern pinions, rows of pins between two discs, meshing with toothed
     wheels.
   kind: photo
-lead-came-joint:
-- src: File:Lead came cross sections02.png
-  file: lead-came-joint.webp
-  width: 800
-  height: 163
-  title: File:Lead came cross sections02.png
-  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
-  license: CC BY 2.5
-  license_url: https://creativecommons.org/licenses/by/2.5
-  source: https://commons.wikimedia.org/wiki/File:Lead_came_cross_sections02.png
-  site: Wikimedia Commons
-  alt: Diagram of H- and U-shaped lead came cross sections with glass pieces in their channels
 lead-screw-and-nut:
 - src: File:Dvd pohon vozika hlavy.jpg
   file: lead-screw-and-nut.webp
@@ -5694,18 +5644,6 @@ over-centre-linkage:
   site: Wikimedia Commons
   alt: A pair of locking pliers, whose handles lock shut by pushing their linkage just past straight.
   kind: photo
-parallel-fold-pop-up:
-- src: File:Popup-diagram.svg
-  file: parallel-fold-pop-up.webp
-  width: 800
-  height: 648
-  title: File:Popup-diagram.svg
-  author: KDS444
-  license: CC BY-SA 3.0
-  license_url: https://creativecommons.org/licenses/by-sa/3.0
-  source: https://commons.wikimedia.org/wiki/File:Popup-diagram.svg
-  site: Wikimedia Commons
-  alt: A geometric diagram of the parallelogram principle behind a pop-up book
 parallel-pipe-thread-with-a-sealing-washer:
 - src: File:Brass hose bipp with standard and GHT threads.jpg
   file: parallel-pipe-thread-with-a-sealing-washer.webp
@@ -5972,18 +5910,6 @@ posable-segmented-arm:
   site: Wikimedia Commons
   alt: A close-up of a metal gooseneck lamp arm, a tube made of tightly coiled wire that bends and stays where it is put.
   kind: photo
-potted-insert:
-- src: File:CompositeSandwich.svg
-  file: potted-insert.webp
-  width: 800
-  height: 1212
-  title: File:CompositeSandwich.svg
-  author: Андрей Перцев
-  license: CC0
-  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
-  source: https://commons.wikimedia.org/wiki/File:CompositeSandwich.svg
-  site: Wikimedia Commons
-  alt: 'Diagram of a sandwich panel: two face sheets and a honeycomb core (the panel type a potted insert goes into)'
 press-fit:
 - src: File:Eingepresste Pins in PCB (unten).jpg
   file: press-fit.webp
@@ -6902,17 +6828,32 @@ scissor-linkage:
   site: Wikimedia Commons
   kind: photo
 score-and-fold-hinge:
-- src: File:Bonefolders.jpg
-  file: score-and-fold-hinge.webp
-  width: 437
-  height: 757
-  title: File:Bonefolders.jpg
-  author: Ratbasket at English Wikipedia
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Bonefolders.jpg
+- src: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  file: score-and-fold-hinge-fabd5c.webp
+  width: 800
+  height: 476
+  title: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  author: TextPartner
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Urz%C4%85dzenie_do_r%C4%99cznego_bigowania_(przegniatania).jpg
   site: Wikimedia Commons
-  alt: Photo of three bone folders, two shaped and oiled, about 15-17.5 cm long
+  alt: A hand creasing machine in use, with a sheet of card is held flat on its bed while the lever presses a crease line
+    across it, ready to fold.
+  kind: how-it-works
+score-and-slip-join:
+- src: openverse:38f0ba48-7a65-4f43-a492-ca0b2d02aeb3
+  file: score-and-slip-join.webp
+  width: 800
+  height: 534
+  title: scoring and slipping the flange
+  author: quinnums
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/35034359904@N01/14245847
+  site: Flickr via Openverse
+  alt: A brush spreading slip onto the scored top edge of a soft clay ring before another part is pressed onto it.
+  kind: how-it-works
 scotch-yoke:
 - src: File:Yugo Escocés - Scotch yoke animation.gif
   file: scotch-yoke.webp
@@ -9350,21 +9291,6 @@ uv-curing-adhesive:
   site: Wikimedia Commons
   alt: A diver's watch whose small magnifying lens over the date is fixed to the crystal with clear UV-cured glue.
   kind: photo
-v-fold-pop-up:
-- src: File:PopupCinderella.gif
-  file: v-fold-pop-up.webp
-  width: 450
-  height: 337
-  title: File:PopupCinderella.gif
-  author: Hans Hartung
-  license: CC BY-SA 2.0 de
-  license_url: https://creativecommons.org/licenses/by-sa/2.0/de/deed.en
-  source: https://commons.wikimedia.org/wiki/File:PopupCinderella.gif
-  site: Wikimedia Commons
-  alt: 'Animated GIF demonstrating a pop-up book being opened (Commons description: ''Vorführung eines Pop-up-Buches''); which
-    mechanisms it shows was not checked frame by frame [uncertain]'
-  animated: true
-  still: v-fold-pop-up.still.webp
 vacuum:
 - src: File:Blue Grass Chemical Agent-Destruction Pilot Plant Munitions Demilitarization Building (8461456045).jpg
   file: vacuum.webp
@@ -9656,17 +9582,19 @@ whippletree:
   alt: An old wooden whippletree set hanging on a wall, a long bar with a shorter bar hooked to each end.
   kind: photo
 wire-and-foil-armature:
-- src: File:Armature-sculpture.png
-  file: wire-and-foil-armature.webp
-  width: 568
-  height: 1176
-  title: File:Armature-sculpture.png
-  author: unknown
-  license: Public domain
-  license_url: ''
-  source: https://commons.wikimedia.org/wiki/File:Armature-sculpture.png
+- src: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  file: wire-and-foil-armature-55ba3f.webp
+  width: 800
+  height: 968
+  title: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  author: Eugenefbanks, am the executor of the estate of Avard T. Fairbanks
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Avard_Fairbanks_demonstrating_statuette_method_with_Pele,_volcano_goddess.jpg
   site: Wikimedia Commons
-  alt: Classic drawing of a sculptor's wire and pipe armature for a standing figure, fixed to a base board
+  alt: A sculptor pressing clay onto a bent-wire armature fixed upright in a wooden base; a finished small figure of the same
+    pose stands behind.
+  kind: how-it-works
 wire-bail-closure:
 - src: File:Bügelverschluss C.jpg
   file: wire-bail-closure.webp

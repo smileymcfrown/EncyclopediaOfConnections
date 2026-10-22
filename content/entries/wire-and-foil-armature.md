@@ -157,11 +157,23 @@ pictures:
     up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills
     out the body and head, and a thin, even layer of clay covers it all. An inset shows two wires twisted together.
   drawn: true
+- file: wire-and-foil-armature-55ba3f.webp
+  title: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  author: Eugenefbanks, am the executor of the estate of Avard T. Fairbanks
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Avard_Fairbanks_demonstrating_statuette_method_with_Pele,_volcano_goddess.jpg
+  site: Wikimedia Commons
+  alt: A sculptor pressing clay onto a bent-wire armature fixed upright in a wooden base; a finished small figure of the same
+    pose stands behind.
+  kind: how-it-works
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, cure]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/wire-and-foil-armature.svg" alt="Cut-away of a small clay animal standing on a wooden base. A twisted wire skeleton runs from holes drilled in the base up through both legs, along the body and up the neck into the head, and out into the tail; crumpled foil, taped on, fills out the body and head, and a thin, even layer of clay cover"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/wire-and-foil-armature-55ba3f.webp" alt="A sculptor pressing clay onto a bent-wire armature fixed upright in a wooden base; a finished small figure of the same pose stands behind." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Avard_Fairbanks_demonstrating_statuette_method_with_Pele,_volcano_goddess.jpg">Avard Fairbanks demonstrating statuette method with Pele, volcano goddess</a> by Eugenefbanks, am the executor of the estate of Avard T. Fairbanks, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A skeleton of bent, often twisted wire, anchored in a base and bulked out with foil, tape or other filler, that clay or putty is built up over so the finished figure has a strong core that holds its shape, keeps thin parts attached and stands up.

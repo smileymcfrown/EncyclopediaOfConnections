@@ -186,12 +186,34 @@ pictures:
     to hold the fibres of both sheets together. Bottom left, a glue stick being rubbed on and paste brushed on. Right, two
     results: left to dry freely the pasted paper ripples, while dried between blotting paper under a weight it stays flat.'
   drawn: true
+- file: glue-stick-and-starch-paste-ecf9fd.webp
+  title: File:Elmer's Office Glue Stick in action.JPG
+  author: Mk2010
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Elmer%27s_Office_Glue_Stick_in_action.JPG
+  site: Wikimedia Commons
+  alt: A glue stick being rubbed across a sheet of paper, leaving a thin wet film of glue.
+  kind: how-it-works
+  drawn: false
+- file: glue-stick-and-starch-paste-a77bb3.webp
+  title: File:FABER-CASTELL glue stick.jpg
+  author: Nalinc3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:FABER-CASTELL_glue_stick.jpg
+  site: Wikimedia Commons
+  alt: An open twist-up glue stick with its cap off and the solid stick of glue showing at the top.
+  kind: photo
+  drawn: false
 glossary: [stroke, form-fit--force-fit--material-bond, warping--shrinkage, pot-life--working-time, open-time, peel-vs-shear,
   grain-direction]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glue-stick-and-starch-paste.svg" alt="How glue stick and starch paste join paper. Top left, a magnified side view of two sheets of paper with a thin layer of paste between them: water from the paste soaks into the paper fibres and dries off into the air, leaving the paste to hold the fibres of both sheets together. Bottom left, a glue s"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glue-stick-and-starch-paste-ecf9fd.webp" alt="A glue stick being rubbed across a sheet of paper, leaving a thin wet film of glue." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Elmer%27s_Office_Glue_Stick_in_action.JPG">Elmer&#x27;s Office Glue Stick in action</a> by Mk2010, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glue-stick-and-starch-paste-a77bb3.webp" alt="An open twist-up glue stick with its cap off and the solid stick of glue showing at the top." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:FABER-CASTELL_glue_stick.jpg">FABER-CASTELL glue stick</a> by Nalinc3, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 Mild water-based glues for paper and card, either a solid stick rubbed on from a twist-up tube or a cooked starch, flour or cellulose paste brushed on, which soak into the paper fibres and harden as the water leaves, giving clean, non-toxic paper joints that are often reversible with water.

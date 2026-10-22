@@ -204,11 +204,23 @@ pictures:
   drawn: true
   still: drawn/score-and-fold-hinge.svg
   kind: animation
+- file: score-and-fold-hinge-fabd5c.webp
+  title: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  author: TextPartner
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Urz%C4%85dzenie_do_r%C4%99cznego_bigowania_(przegniatania).jpg
+  site: Wikimedia Commons
+  alt: A hand creasing machine in use, with a sheet of card is held flat on its bed while the lever presses a crease line
+    across it, ready to fold.
+  kind: how-it-works
+  drawn: false
 glossary: [stiffness, living-hinge, infill, kerf, grain-direction, flute, mountain-fold--valley-fold]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/score-and-fold-hinge.svg"><img src="../media/drawn/anim/score-and-fold-hinge.svg" alt="Side views of a score-and-fold hinge in card: a bone folder run along a ruler presses a groove into the top face and pushes a small bead out underneath; the card then folds on that line with the groove on the outside and the bead tucked inside the fold. Below, folding it the wrong way round (groove "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/score-and-fold-hinge-fabd5c.webp" alt="A hand creasing machine in use, with a sheet of card is held flat on its bed while the lever presses a crease line across it, ready to fold." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Urz%C4%85dzenie_do_r%C4%99cznego_bigowania_(przegniatania).jpg">Urządzenie do ręcznego bigowania (przegniatania)</a> by TextPartner, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 
 A pressed (scored) or half-cut line that makes a sheet of paper, card, cardboard or foam board bend cleanly and accurately in one place, so the sheet folds into a box, card or model and the fold keeps working as a hinge.

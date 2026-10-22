@@ -170,11 +170,22 @@ pictures:
     and a thin coil of clay rolled into each corner. An inset shows two parts that dried at different rates shrinking apart
     and cracking.'
   drawn: true
+- file: score-and-slip-join.webp
+  title: scoring and slipping the flange
+  author: quinnums
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/35034359904@N01/14245847
+  site: Flickr via Openverse
+  alt: A brush spreading slip onto the scored top edge of a soft clay ring before another part is pressed onto it.
+  kind: how-it-works
+  drawn: false
 glossary: [form-fit--force-fit--material-bond, chamfer--fillet, warping--shrinkage, leather-hard]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/score-and-slip-join.svg" alt="Three steps of joining a clay handle to a mug wall, shown cut through: both meeting faces are scratched with criss-cross lines, slip (a thick paste of the same clay and water) is brushed on, then the handle is pressed on, the seam blended and a thin coil of clay rolled into each corner. An inset sho"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/score-and-slip-join.webp" alt="A brush spreading slip onto the scored top edge of a soft clay ring before another part is pressed onto it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.flickr.com/photos/35034359904@N01/14245847">scoring and slipping the flange</a> by quinnums, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a>, from Flickr via Openverse.</figcaption></figure>
 </div>
 
 Two pieces of soft or part-dried water-based clay are scratched (scored) where they meet, coated with slip (the same clay mixed with water to a thick cream), pressed together and blended, so that as they dry the clay knits into one piece; this is how handles, spouts, ears and other details are attached.
