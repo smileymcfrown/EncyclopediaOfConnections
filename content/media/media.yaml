@@ -1,5 +1,18 @@
 # Pictures copied by tools/fetch_images.py, per page in the order shown (licence and author read
 # from each file's own page). Each entry page shows the credit line under its picture.
+adhesive-tape-joint-and-tape-hinge:
+- src: File:Filament tape - 01.jpg
+  file: adhesive-tape-joint-and-tape-hinge.webp
+  width: 339
+  height: 300
+  title: File:Filament tape - 01.jpg
+  author: Phliar
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg
+  site: Wikimedia Commons
+  alt: Strips of clear filament tape wrapped over the joint between two foam parts of a model aeroplane, holding them together.
+  kind: how-it-works
 air-bearing-and-air-caster:
 - src: File:Aircaster.gif
   file: air-bearing-and-air-caster.webp
@@ -909,6 +922,19 @@ blind-threaded-fixings:
   site: Wikimedia Commons
   alt: A stainless steel rivet nut seen from the side and from the end, a short ribbed tube with a flange and a threaded hole.
   kind: photo
+bonded-tube-joint:
+- src: File:Bamboo bike frame Bamboosero.jpg
+  file: bonded-tube-joint.webp
+  width: 800
+  height: 533
+  title: File:Bamboo bike frame Bamboosero.jpg
+  author: Noah Scalin
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg
+  site: Wikimedia Commons
+  alt: A handmade bamboo bicycle frame whose tube joints are wrapped in resin-soaked fibre, held up at a bike show.
+  kind: photo
 bowden-cable:
 - src: File:Bowden.jpg
   file: bowden-cable.webp
@@ -1141,6 +1167,20 @@ cable-gland-and-strain-relief:
   source: https://commons.wikimedia.org/wiki/File:Cable_Connectors.jpg
   site: Wikimedia Commons
   alt: Several thick cables entering the top of a metal box through black plastic cable glands.
+  kind: how-it-works
+cable-splitter:
+- src: File:Detangler.JPG
+  file: cable-splitter.webp
+  width: 629
+  height: 870
+  title: File:Detangler.JPG
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Detangler.JPG
+  site: Wikimedia Commons
+  alt: Close-up of a BMX bike's detangler under the handlebars, where the brake cable splits to pull the rotating plate from
+    both sides.
   kind: how-it-works
 cable-through-a-hinge:
 - src: openverse:454b0958-fb82-43e8-81b0-062fe355ae13
@@ -2073,6 +2113,31 @@ contact-adhesive:
   site: Wikimedia Commons
   alt: A yellow tube of Butapren contact adhesive with a black cap.
   kind: photo
+copper-foil-joint:
+- src: File:CopperFoil glasswork soldering.jpg
+  file: copper-foil-joint.webp
+  width: 800
+  height: 600
+  title: File:CopperFoil glasswork soldering.jpg
+  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_soldering.jpg
+  site: Wikimedia Commons
+  alt: A soldering iron running solder along the copper-foiled seams of a glass butterfly laid out on a board.
+  kind: how-it-works
+- src: File:CopperFoil glasswork wrapped before soldering.jpg
+  file: copper-foil-joint-dc81f9.webp
+  width: 800
+  height: 600
+  title: File:CopperFoil glasswork wrapped before soldering.jpg
+  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_wrapped_before_soldering.jpg
+  site: Wikimedia Commons
+  alt: Pieces of red and grey glass for a butterfly, each edge wrapped in copper foil and fitted together before soldering.
+  kind: how-it-works
 cord-lock:
 - src: File:Cord-lock.jpg
   file: cord-lock.webp
@@ -2718,6 +2783,19 @@ elastic-band-and-elastic-cord-springs:
   site: Wikimedia Commons
   alt: Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a ruler.
   kind: photo
+elastic-strung-ball-joint:
+- src: File:Elbow and wrist joint of male ball-jointed doll.jpg
+  file: elastic-strung-ball-joint.webp
+  width: 800
+  height: 1048
+  title: File:Elbow and wrist joint of male ball-jointed doll.jpg
+  author: Anna Frodesiak
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Elbow_and_wrist_joint_of_male_ball-jointed_doll.jpg
+  site: Wikimedia Commons
+  alt: The white resin arm of a ball-jointed doll, showing the round ball joints at the elbow and wrist.
+  kind: photo
 elastomer-isolation-mount:
 - src: File:Schwingungsdämpfer Aufbau.jpg
   file: elastomer-isolation-mount.webp
@@ -3007,6 +3085,20 @@ eyelets-and-grommets:
   site: Wikimedia Commons
   alt: Large curtain grommets in round, square and hexagon shapes set into red fabric.
   kind: photo
+fillet-and-tape-joint:
+- src: File:Canoe stitch and glue.jpg
+  file: fillet-and-tape-joint.webp
+  width: 655
+  height: 729
+  title: File:Canoe stitch and glue.jpg
+  author: Kevin Saff
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Canoe_stitch_and_glue.jpg
+  site: Wikimedia Commons
+  alt: A plywood canoe upside down on a deck, its panels pulled together along the seams with rows of wire stitches before
+    gluing.
+  kind: how-it-works
 finger-joint:
 - src: File:Finger joint 20180321.jpg
   file: finger-joint.webp
@@ -3695,6 +3787,69 @@ gimbal:
   source: https://commons.wikimedia.org/wiki/File:Gimbal_8jo_WATANABEhachijo.jpg
   site: Wikimedia Commons
   alt: A man holding a phone on a hand-held motorised gimbal, whose jointed arms keep the phone steady while his hand moves.
+  kind: photo
+glass-fusing:
+- src: File:Fusing Lapeyre.JPG
+  file: glass-fusing.webp
+  width: 800
+  height: 599
+  title: File:Fusing Lapeyre.JPG
+  author: Kärjens Slædebjørg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Fusing_Lapeyre.JPG
+  site: Wikimedia Commons
+  alt: Three clear glass panels with grapes, wheat and lavender made from coloured glass pieces fused onto them.
+  kind: photo
+- src: File:Glassfusing.jpg
+  file: glass-fusing-baf804.webp
+  width: 500
+  height: 415
+  title: File:Glassfusing.jpg
+  author: Tad Boniecki (Soler97 at en.wikipedia)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Glassfusing.jpg
+  site: Wikimedia Commons
+  alt: A fused glass plate with coloured glass shapes and beads melted onto a textured base sheet.
+  kind: photo
+glazing-in-a-rebated-frame:
+- src: File:Hacking knife chopping glazing putty.jpg
+  file: glazing-in-a-rebated-frame.webp
+  width: 800
+  height: 531
+  title: File:Hacking knife chopping glazing putty.jpg
+  author: Andy Dingley
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg
+  site: Wikimedia Commons
+  alt: A hacking knife chopping old putty out of the rebate round a pane of glass in a wooden window frame.
+  kind: how-it-works
+glue-stick-and-starch-paste:
+- src: File:Elmer's Office Glue Stick in action.JPG
+  file: glue-stick-and-starch-paste-ecf9fd.webp
+  width: 800
+  height: 533
+  title: File:Elmer's Office Glue Stick in action.JPG
+  author: Mk2010
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Elmer%27s_Office_Glue_Stick_in_action.JPG
+  site: Wikimedia Commons
+  alt: A glue stick being rubbed across a sheet of paper, leaving a thin wet film of glue.
+  kind: how-it-works
+- src: File:FABER-CASTELL glue stick.jpg
+  file: glue-stick-and-starch-paste-a77bb3.webp
+  width: 800
+  height: 1422
+  title: File:FABER-CASTELL glue stick.jpg
+  author: Nalinc3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:FABER-CASTELL_glue_stick.jpg
+  site: Wikimedia Commons
+  alt: An open twist-up glue stick with its cap off and the solid stick of glue showing at the top.
   kind: photo
 glued-joint-design:
 - src: openverse:396421ef-5ec6-4f77-930d-5503619225f5
@@ -4522,6 +4677,19 @@ jaw-coupling:
   alt: A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert.
   site: Wikimedia Commons
   kind: photo
+jigsaw-puzzle-edge-joint:
+- src: File:Close up of Hand Cut Jigsaw Puzzle.JPG
+  file: jigsaw-puzzle-edge-joint.webp
+  width: 800
+  height: 600
+  title: File:Close up of Hand Cut Jigsaw Puzzle.JPG
+  author: Charles Hamm
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Close_up_of_Hand_Cut_Jigsaw_Puzzle.JPG
+  site: Wikimedia Commons
+  alt: Close-up of thick hand-cut wooden jigsaw puzzle pieces, showing the rounded knobs and sockets that lock them together.
+  kind: photo
 kerf-bending:
 - src: File:Living hinge (wood).jpg
   file: kerf-bending.webp
@@ -4834,6 +5002,32 @@ lever-cam-panel-connector:
   site: Wikimedia Commons
   alt: The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels tight together.
   kind: how-it-works
+line-shaft-and-power-take-off:
+- src: File:Olive Edis; Iwm Photographer of the Women's Services in France 1919 Q8116.jpg
+  file: line-shaft-and-power-take-off.webp
+  width: 800
+  height: 594
+  title: File:Olive Edis; Iwm Photographer of the Women's Services in France 1919 Q8116.jpg
+  author: Olive Edis
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg
+  site: Wikimedia Commons
+  alt: A 1919 machine shop where overhead line shafts drive rows of lathes through long leather belts while women work the
+    machines.
+  kind: how-it-works
+- src: File:TractorPTOshaftMay04.jpg
+  file: line-shaft-and-power-take-off-663f28.webp
+  width: 480
+  height: 331
+  title: File:TractorPTOshaftMay04.jpg
+  author: Jesster79
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg
+  site: Wikimedia Commons
+  alt: A yellow-guarded drive shaft connected to the power take-off at the back of a farm tractor.
+  kind: photo
 linear-guides:
 - src: File:Linear-table animated.gif
   file: linear-guides.webp
@@ -4953,6 +5147,32 @@ locking-adjustment-screws:
     the ball bearing they pivot on.
   site: Wikimedia Commons
   kind: how-it-works
+loose-leaf-bindings:
+- src: File:Comb bind examples.JPG
+  file: loose-leaf-bindings.webp
+  width: 568
+  height: 426
+  title: File:Comb bind examples.JPG
+  author: Digitalgadget
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Comb_bind_examples.JPG
+  site: Wikimedia Commons
+  alt: A white plastic comb binding with its curled fingers passing through a row of rectangular punched holes along the edge
+    of the sheets.
+  kind: how-it-works
+- src: File:Ringmechanik 01 (fcm).jpg
+  file: loose-leaf-bindings-a0b770.webp
+  width: 800
+  height: 1114
+  title: File:Ringmechanik 01 (fcm).jpg
+  author: 'Photograph: Frank C. Müller, Frankfurt am Main'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ringmechanik_01_(fcm).jpg
+  site: Wikimedia Commons
+  alt: The metal ring mechanism of a lever-arch file, with its two rings open above the board.
+  kind: photo
 magnetic-connector:
 - src: File:MagSafe1.jpg
   file: magnetic-connector.webp
@@ -6607,6 +6827,33 @@ scissor-linkage:
   alt: An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform.
   site: Wikimedia Commons
   kind: photo
+score-and-fold-hinge:
+- src: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  file: score-and-fold-hinge-fabd5c.webp
+  width: 800
+  height: 476
+  title: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  author: TextPartner
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Urz%C4%85dzenie_do_r%C4%99cznego_bigowania_(przegniatania).jpg
+  site: Wikimedia Commons
+  alt: A hand creasing machine in use, with a sheet of card is held flat on its bed while the lever presses a crease line
+    across it, ready to fold.
+  kind: how-it-works
+score-and-slip-join:
+- src: openverse:38f0ba48-7a65-4f43-a492-ca0b2d02aeb3
+  file: score-and-slip-join.webp
+  width: 800
+  height: 534
+  title: scoring and slipping the flange
+  author: quinnums
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/35034359904@N01/14245847
+  site: Flickr via Openverse
+  alt: A brush spreading slip onto the scored top edge of a soft clay ring before another part is pressed onto it.
+  kind: how-it-works
 scotch-yoke:
 - src: File:Yugo Escocés - Scotch yoke animation.gif
   file: scotch-yoke.webp
@@ -6920,6 +7167,32 @@ sew-on-part:
   site: Wikimedia Commons
   alt: A metal hook and eye clasp, each piece bent from wire with small loops for sewing it to fabric.
   kind: photo
+sewn-book-bindings:
+- src: File:Coptic sewing.jpg
+  file: sewn-book-bindings.webp
+  width: 800
+  height: 839
+  title: File:Coptic sewing.jpg
+  author: Ratbasket
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Coptic_sewing.jpg
+  site: Wikimedia Commons
+  alt: Close-up of the spine of a hand-made Coptic binding, showing the thread chain stitches linking each folded section
+    to the next and to the wooden covers.
+  kind: how-it-works
+- src: File:Coptic flat.jpg
+  file: sewn-book-bindings-f6eb74.webp
+  width: 800
+  height: 628
+  title: File:Coptic flat.jpg
+  author: Ratbasket at English Wikipedia
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Coptic_flat.jpg
+  site: Wikimedia Commons
+  alt: A finished Coptic-bound book with wooden covers lying flat, its exposed sewn spine visible along one edge.
+  kind: photo
 sewn-seams-and-hand-stitches:
 - src: File:Lockstitch - Anthony Atkielski.png
   file: sewn-seams-and-hand-stitches.webp
@@ -7023,6 +7296,33 @@ shaft-to-hub-joints-and-rigid-couplings:
   site: Wikimedia Commons
   alt: A potentiometer with its knob pushed onto the shaft, held by a small set screw in the side of the knob.
   kind: photo
+shelf-pins-and-shelf-supports:
+- src: File:Sektion support shelf pins and Utrusta standard shelf pins.jpg
+  file: shelf-pins-and-shelf-supports.webp
+  width: 800
+  height: 600
+  title: File:Sektion support shelf pins and Utrusta standard shelf pins.jpg
+  author: Stilfehler
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Sektion_support_shelf_pins_and_Utrusta_standard_shelf_pins.jpg
+  site: Wikimedia Commons
+  alt: Several metal and plastic shelf pins of two types lying on a table, some with a plain sleeve and some with a threaded
+    or ribbed shank.
+  kind: photo
+- src: File:2017 UEF Joensuu library 06 shelf.jpg
+  file: shelf-pins-and-shelf-supports-608933.webp
+  width: 400
+  height: 613
+  title: File:2017 UEF Joensuu library 06 shelf.jpg
+  author: 'File:2017 UEF Joensuu library 06.jpg: Nemo bis derivate work: User:Westbahnhof'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:2017_UEF_Joensuu_library_06_shelf.jpg
+  site: Wikimedia Commons
+  alt: Empty library shelving whose upright sides are drilled with evenly spaced rows of small holes, with shelves resting
+    at chosen heights.
+  kind: how-it-works
 shims-spacers-and-standoffs:
 - src: File:Metal shims.jpg
   file: shims-spacers-and-standoffs.webp
@@ -7472,6 +7772,31 @@ spline-shaft:
   source: https://commons.wikimedia.org/wiki/File:Cardan_joint_spline_shaft_01.jpg
   site: Wikimedia Commons
   alt: A rusty spline shaft on a farm trailer's drive shaft, with its lengthwise ridges clearly visible.
+  kind: photo
+split-pin-paper-fastener:
+- src: File:Attache parisienne.JPG
+  file: split-pin-paper-fastener.webp
+  width: 659
+  height: 432
+  title: File:Attache parisienne.JPG
+  author: Zyzomis
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Attache_parisienne.JPG
+  site: Wikimedia Commons
+  alt: Close-up of a single brass paper fastener with a domed round head and two flat legs held together.
+  kind: photo
+- src: File:Musterklammer 2005-05-06.JPG
+  file: split-pin-paper-fastener-64e928.webp
+  width: 796
+  height: 924
+  title: File:Musterklammer 2005-05-06.JPG
+  author: No machine-readable author provided. Mws.richter assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Musterklammer_2005-05-06.JPG
+  site: Wikimedia Commons
+  alt: Several brass split-pin paper fasteners beside a millimetre ruler, one with its two legs spread apart.
   kind: photo
 spot-weld:
 - src: File:TON09525.jpg
@@ -9084,6 +9409,34 @@ virtual-pivot-linkage:
   site: Wikimedia Commons
   still: virtual-pivot-linkage.still.webp
   kind: animation
+volvelle:
+- src: File:Lyon 3e - Bibliothèque municipale de Lyon Part-Dieu - Dans les marges - Volvelle du thème astral de la naissance
+    d'Henri IV.jpg
+  file: volvelle.webp
+  width: 800
+  height: 600
+  title: File:Lyon 3e - Bibliothèque municipale de Lyon Part-Dieu - Dans les marges - Volvelle du thème astral de la naissance
+    d'Henri IV.jpg
+  author: Romainbehar
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Lyon_3e_-_Biblioth%C3%A8que_municipale_de_Lyon_Part-Dieu_-_Dans_les_marges_-_Volvelle_du_th%C3%A8me_astral_de_la_naissance_d%27Henri_IV.jpg
+  site: Wikimedia Commons
+  alt: A printed paper volvelle with stacked rotating discs, shown in a library exhibition beside a portrait of Henri IV.
+  kind: photo
+- src: File:Astronomicum Caesareum (1540).f18.jpg
+  file: volvelle-f975d3.webp
+  width: 800
+  height: 1200
+  title: File:Astronomicum Caesareum (1540).f18.jpg
+  author: Petrus Apianus
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Astronomicum_Caesareum_(1540).f18.jpg
+  site: Wikimedia Commons
+  alt: A hand-coloured page from Apianus' Astronomicum Caesareum (1540) with several stacked paper discs turning on one central
+    pivot.
+  kind: photo
 walking-linkage:
 - src: File:Strandbeest-Walking-Animation.gif
   file: walking-linkage.webp
@@ -9227,6 +9580,46 @@ whippletree:
   source: https://commons.wikimedia.org/wiki/File:Pferde-Schwengel.JPG
   site: Wikimedia Commons
   alt: An old wooden whippletree set hanging on a wall, a long bar with a shorter bar hooked to each end.
+  kind: photo
+wire-and-foil-armature:
+- src: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  file: wire-and-foil-armature-55ba3f.webp
+  width: 800
+  height: 968
+  title: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  author: Eugenefbanks, am the executor of the estate of Avard T. Fairbanks
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Avard_Fairbanks_demonstrating_statuette_method_with_Pele,_volcano_goddess.jpg
+  site: Wikimedia Commons
+  alt: A sculptor pressing clay onto a bent-wire armature fixed upright in a wooden base; a finished small figure of the same
+    pose stands behind.
+  kind: how-it-works
+wire-bail-closure:
+- src: File:Bügelverschluss C.jpg
+  file: wire-bail-closure.webp
+  width: 800
+  height: 1155
+  title: File:Bügelverschluss C.jpg
+  author: IgorCalzone1
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:B%C3%BCgelverschluss_C.jpg
+  site: Wikimedia Commons
+  alt: A swing-top bottle stopper turned over, showing the white porcelain plug, its red rubber seal ring and the wire bail
+    loops on each side.
+  kind: how-it-works
+- src: File:French kilner.jpg
+  file: wire-bail-closure-a0c3ee.webp
+  width: 800
+  height: 419
+  title: File:French kilner.jpg
+  author: Roger Burton West
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:French_kilner.jpg
+  site: Wikimedia Commons
+  alt: Two glass storage jars with hinged glass lids held shut by wire bail clamps.
   kind: photo
 wire-end-ferrule:
 - src: File:Wire ferrules with and without insulation.jpg

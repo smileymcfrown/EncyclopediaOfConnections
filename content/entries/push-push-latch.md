@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -311,6 +313,7 @@ The door or drawer pops open by spring force when bumped, which can surprise peo
 - Push-to-close cam latch: latches automatically when a door is pushed shut, but opens with a handle or button rather than a second push (Southco)
 - Compliant one-piece latch: a printed springy latch released by bending a handle
 - Push-push locking bolt (indexing plunger): an industrial pin that extends and retracts with alternate pushes using a heart curve (GN 514)
+- Glass door hinge (clamp-on or drilled glass hinge): push-to-open (magnetic touch) latches are among the fittings sold for the glass cabinet doors these hinges carry
 
 ## Make it yourself
 

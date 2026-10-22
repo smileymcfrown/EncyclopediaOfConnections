@@ -1,7 +1,7 @@
 # The glossary (P9): 107 terms from the run 2 data, first written in research/flowchart-and-format.md
 # section 2 (2026-10-03) and moved here on 2026-10-06 (R26). This file is now the glossary's source:
 # tools/make_entries.py writes content/glossary.md from it and links the first use of each term on
-# every entry page. `link: false` keeps a term that is also an everyday word (play, lead, wear …)
+# every entry page. 17 terms were added on 2026-10-22 for the Phase 5 entries (R36, R37). `link: false` keeps a term that is also an everyday word (play, lead, wear …)
 # from being linked automatically. Writing style: one plain sentence per definition.
 - term: Degrees of freedom
   other_names: DOF
@@ -415,3 +415,70 @@
   definition: A narrowing in a pipe where the flow speeds up and the pressure drops, used to make suction from compressed
     air.
   group: Seals, air and liquid
+- term: In step
+  other_names: synchronised, in sync
+  definition: Moving together at exactly the same rate, so that two outputs such as two lead screws never drift apart.
+  group: Force, speed and gearing
+  link: false
+- term: Counter-rotating
+  other_names: contra-rotating
+  definition: Two parts on the same axis turning in opposite directions, such as the two propellers of a coaxial drone.
+  group: Force, speed and gearing
+- term: Score
+  other_names: scoring, crease
+  definition: A line pressed or lightly cut into paper or card so that it folds cleanly and accurately there.
+  group: Paper, clay, composites and glass
+  link: false
+- term: Grain direction
+  other_names: paper grain
+  definition: The way most of the fibres in paper, card or wood lie; paper folds and tears more neatly along the grain than across it.
+  group: Paper, clay, composites and glass
+- term: Flute
+  other_names: fluting
+  definition: The wavy middle layer of corrugated cardboard; the card bends easily along the flutes and resists bending across them.
+  group: Paper, clay, composites and glass
+- term: Mountain fold / valley fold
+  definition: A valley fold bends the paper towards you so the crease sinks like a valley; a mountain fold bends it away so the crease stands up like a ridge.
+  group: Paper, clay, composites and glass
+- term: Gutter
+  other_names: spine, centre fold
+  definition: The centre fold of a pop-up card or book, which the pop-up pieces are glued across.
+  group: Paper, clay, composites and glass
+  link: false
+- term: Slip
+  other_names: clay slip
+  definition: Clay thinned with water to a thick cream, brushed on to join two pieces of soft clay.
+  group: Paper, clay, composites and glass
+  link: false
+- term: Leather-hard
+  definition: Clay that has dried enough to hold its shape but is still damp enough to carve and join.
+  group: Paper, clay, composites and glass
+- term: Armature
+  definition: An inner skeleton, usually bendable wire, that a sculpture is built over so its thin parts don't sag or snap.
+  group: Paper, clay, composites and glass
+  link: false
+- term: Sandwich panel
+  other_names: cored panel
+  definition: Two thin, stiff skins glued either side of a light core (foam, honeycomb or balsa), making a panel that is stiff and light but soft inside.
+  group: Paper, clay, composites and glass
+- term: Lay-up
+  other_names: laminate, wet lay-up
+  definition: Layers of glass-fibre or carbon-fibre cloth soaked in resin and built up on a mould or surface, which set into a hard composite.
+  group: Paper, clay, composites and glass
+- term: Scarf joint
+  other_names: scarf
+  definition: Two pieces cut to long matching slopes and glued face to face, so the joint is no thicker than the parts and has a large glue area.
+  group: Paper, clay, composites and glass
+- term: Galvanic corrosion
+  definition: Corrosion that happens where two different metals, or carbon fibre and a metal, touch with moisture between them; the less noble one, such as aluminium, is eaten away.
+  group: Paper, clay, composites and glass
+- term: Toughened glass
+  other_names: tempered glass, safety glass
+  definition: Glass heat-treated to make it much stronger and to break into small blunt pieces; it can't be cut or drilled afterwards.
+  group: Paper, clay, composites and glass
+- term: Annealing
+  definition: Holding glass, metal or a plastic part at a set temperature and cooling it slowly, so the stresses inside it relax and it doesn't crack or warp later.
+  group: Paper, clay, composites and glass
+- term: Flux
+  definition: A paste or liquid that cleans metal as it heats, so solder can flow over it and stick.
+  group: Paper, clay, composites and glass

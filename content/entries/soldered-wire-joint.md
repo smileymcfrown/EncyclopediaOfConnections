@@ -93,6 +93,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [metal]
 needs_confirming:
   load_max:
     kind: best guess
@@ -226,7 +228,7 @@ pictures:
   alt: Coloured wires soldered onto the lugs of potentiometers mounted on a metal panel.
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, print-in-place, gland]
+glossary: [form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, print-in-place, gland, flux]
 ---
 
 <div class="eoc-pictures">
@@ -243,7 +245,7 @@ Stripped wire ends are twisted, hooked or laid side by side, molten solder is fl
 
 ## How it works
 
-The wires are first held together: twisted round each other (rat-tail or Western Union splice), laid side by side (lap splice), or pushed into a cup or hole. The iron heats the copper above the solder's melting point (183 °C for 63/37 tin-lead, about 217-220 °C for lead-free tin-silver-copper), and the flux in the solder cleans off oxide so the molten solder flows into the gaps and wets the metal (Wikipedia 'Soldering'). When it cools the solder sets into a metal bridge bonded to both wires, giving a low-resistance path; in NASA pull tests on soldered Western Union splices the wire broke beside the splice, never at it (Wikipedia 'Western Union splice'). The solder also soaks a little way along stranded wire (wicking), making it stiff up to that point and flexible beyond, so bending concentrates there and the joint needs strain relief (NASA-STD-8739.4A §13.3.1).
+The wires are first held together: twisted round each other (rat-tail or Western Union splice), laid side by side (lap splice), or pushed into a cup or hole. The iron heats the copper above the solder's melting point (183 °C for 63/37 tin-lead, about 217-220 °C for lead-free tin-silver-copper), and the [flux](../glossary.md#flux) in the solder cleans off oxide so the molten solder flows into the gaps and wets the metal (Wikipedia 'Soldering'). When it cools the solder sets into a metal bridge bonded to both wires, giving a low-resistance path; in NASA pull tests on soldered Western Union splices the wire broke beside the splice, never at it (Wikipedia 'Western Union splice'). The solder also soaks a little way along stranded wire (wicking), making it stiff up to that point and flexible beyond, so bending concentrates there and the joint needs strain relief (NASA-STD-8739.4A §13.3.1).
 
 ## Parts
 

@@ -85,6 +85,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
+  drive_split: [not applicable]
+  made_of: [3D prints]
 needs_confirming:
   tools:
     kind: source uncertain
@@ -331,6 +333,7 @@ None known beyond ordinary pinch points between the leaves when closing. Breakin
 - Snap-together or pin hinge printed as separate parts: leaves printed apart and joined with a snap-in pin, filament or metal rod; can be taken apart and has less play when a metal pin is used
 - [Flexure](../glossary.md#flexure) hinge: a precise, play-free pivot made by bending, for small angles only
 - Ball-and-socket print-in-place joint: the same trapped, printed-with-a-gap idea used for joints that swivel in several directions (e.g. articulated printed toys) ⚑ [uncertain]
+- Glass door hinge (clamp-on glass hinge): includes a print-in-place hinge for a 3 mm acrylic door on aluminium extrusion, and other printed hinges for acrylic doors
 
 ## Make it yourself
 

@@ -97,6 +97,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -105,6 +107,8 @@ open_points:
     only from a manufacturer''s blog (Ulanzi); only the geometry was used. Maximum screw length differs (Sony: under 5.5 mm;
     Ricoh: 6.7 mm socket depth), both recorded. ISO 1222 itself could not be opened (iso.org 403); thread sizes are linked
     to gewinde-normen.de tables, not copied.'
+- kind: scope
+  note: '*Tripod and stand screw mount* (393): none to *Panel standoff*;'
 uncertain_fields: [load, adjustable, making_tips_3d_printing, environment_limits, safety_notes]
 diagram_idea: 'A cut-away of a printed block with a brass 1/4-20 insert, a tripod head''s stud screwing into it, and arrows
   showing the strong direction (pull along the screw) and the weak one (twisting round it), beside three small fixes: a rubber
@@ -357,6 +361,7 @@ Falling gear: a camera, light or monitor falls if the thread strips in plastic, 
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Research note: *Tripod and stand screw mount*: ARRI anti-twist pin geometry (3 mm pins 60 mm apart; mini version 10.4 mm) comes only from a manufacturer's blog (Ulanzi); only the geometry was used. Maximum screw length differs (Sony: under 5.5 mm; Ricoh: 6.7 mm socket depth), both recorded. ISO 1222 itself could not be opened (iso.org 403); thread sizes are linked to gewinde-normen.de tables, not copied.
+- ⚑ Research note: *Tripod and stand screw mount* (393): none to *Panel standoff*;
 
 ## Sources
 

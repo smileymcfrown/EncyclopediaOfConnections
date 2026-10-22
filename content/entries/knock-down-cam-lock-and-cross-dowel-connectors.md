@@ -92,6 +92,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -306,6 +308,7 @@ Tall flat-pack furniture held with knock-down fittings should be anchored to the
 - Mortise and tenon with tusk wedge: the traditional wooden knock-down joint
 - Aluminium-extrusion connectors (T-slot nuts and brackets): the equivalent knock-down system for metal frames
 - Wood screw: covers the Confirmat screw, a fat, blunt cabinet screw driven into a stepped hole that joins board edges to faces with no separate nut or cam
+- Shelf pins and shelf supports: pegs in the same 32 mm system rows of holes that carry loose shelves, while cam locks and cross dowels hold the fixed panels together
 
 ## Make it yourself
 

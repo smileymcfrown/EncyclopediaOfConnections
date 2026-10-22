@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or cord']
 needs_confirming:
   connects:
     kind: best guess
@@ -188,6 +190,8 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://seas.harvard.edu/news/new-pop-strategy-inspired-cuts-not-folds
 - https://news.ncsu.edu/2022/01/kirigami-robotic-grippers/
+- https://en.wikipedia.org/wiki/Origamic_architecture
+- https://cg.cs.tsinghua.edu.cn/people/~xianying/Papers/V-Popup/index.html
 research: research/connection-types/results/Origami_mechanisms_waterbomb_Kresling_thickpanel_origami.json
 image:
   file: origami-mechanisms.webp
@@ -348,6 +352,12 @@ Few hazards. Laying mesh or tape during a print pause puts your hands close to a
 - Kirigami: cuts instead of folds; a thin perforated sheet 'can be transformed into a foldable 3D structure by simply stretching the cut material' (Harvard SEAS 2017), and a sheet cut with parallel slits curves into a 3D shape that can surround a fragile object such as an egg yolk and lift it, 'similar to the way we cup our hands around an object' (NC State 2022)
 - [Kerf](../glossary.md#kerf) bending: a pattern of laser cuts that lets stiff plywood or acrylic bend round curves or fold like a hinge, using cuts where origami uses creases
 - Printing onto fabric: the same pause-and-lay-in-mesh method used here for hinges, used on its own to fix cloth to a print or make flexible scale armour
+- Parallel-fold pop-up: not to be confused with origami. A pop-up is cut and glued from stiff card and is powered by opening the page, while origami 'in its simplest form doesn't use scissors or glue and tends to be made with very bendy paper' (Tsinghua V-pop-up page, quoting Wikipedia). Pop-up cards cut and folded from one sheet (origamic architecture, a form of kirigami; Wikipedia) belong with the parallel fold
+- V-fold pop-up (angle fold): the other basic pop-up; its creases meet at one point on the card's centre fold, and opening the card swings it up at an angle
+- Spring-powered paper pop-up: a folded paper shape that springs up by itself from a stretched rubber band or paper spring, instead of being driven by a pull or a page
+- Score-and-fold hinge: the single pressed or half-cut crease that every paper and card fold starts from
+- V-groove fold: a groove cut almost through foam board, EVA foam or other thick sheet so it folds to a crisp corner; one answer to folding thick material, like the offset hinges of thick-panel origami
+- Folding box closures (tuck flap, snap-lock and crash-lock bottoms): cut-and-folded card flaps that close a box without glue, the packaging use of folded card
 
 ## Make it yourself
 
@@ -400,3 +410,5 @@ Few hazards. Laying mesh or tape during a print pause puts your hands close to a
 - <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
 - <https://seas.harvard.edu/news/new-pop-strategy-inspired-cuts-not-folds>
 - <https://news.ncsu.edu/2022/01/kirigami-robotic-grippers/>
+- <https://en.wikipedia.org/wiki/Origamic_architecture>
+- <https://cg.cs.tsinghua.edu.cn/people/~xianying/Papers/V-Popup/index.html>

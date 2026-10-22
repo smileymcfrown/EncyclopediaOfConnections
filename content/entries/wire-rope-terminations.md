@@ -92,6 +92,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -208,7 +210,8 @@ pictures:
   alt: A wire rope loop held by a copper sleeve that has been crushed onto both strands with a crimping tool.
   kind: photo
   drawn: false
-glossary: [torque, form-fit--force-fit--material-bond, counterbore--countersink, creep, perimeters, peel-vs-shear, regulator]
+glossary: [torque, form-fit--force-fit--material-bond, counterbore--countersink, creep, perimeters, peel-vs-shear, regulator,
+  galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -305,7 +308,7 @@ Catalogue names: 'wire rope clip' or 'U-bolt clip' (drop-forged, malleable, stai
 
 ## Common failures
 
-1) Clips fitted backwards ('saddling a dead horse'), crushing the loaded side and cutting strength (Crosby; WorkSafeNB). 2) Too few clips, too short a turn-back or nuts not re-tightened after first load, so the tail slips (Crosby; Arthur Beale). 3) Clips on plastic-coated rope slip because the coating creeps (Crosby; Arthur Beale). 4) No thimble, so the loop is pinched, kinked or worn through where it bears on a shackle (Wikipedia). 5) Under-pressed crimp, wrong sleeve size or wrong tool groove: check every crimp with the gauge and re-adjust the tool if the sleeve won't enter (Nicopress). 6) Tail too short, so it pulls out of the sleeve; the end must still show after crimping (Nicopress). 7) Cracked crimp tube from brass that is too hard; use bronze (Model Airplane News). 8) Galvanic corrosion of aluminium ferrules on stainless rope at the coast (S3i). 9) In capstan and tendon drives the termination fails first, because it is weaker than the rope; in Sandia's tests every rope sample broke at the termination, so protect it with extra wraps (Mazumdar et al.). 10) Fraying from a poor cut; use a notched shear-type cable cutter (Nicopress; Model Airplane News).
+1) Clips fitted backwards ('saddling a dead horse'), crushing the loaded side and cutting strength (Crosby; WorkSafeNB). 2) Too few clips, too short a turn-back or nuts not re-tightened after first load, so the tail slips (Crosby; Arthur Beale). 3) Clips on plastic-coated rope slip because the coating creeps (Crosby; Arthur Beale). 4) No thimble, so the loop is pinched, kinked or worn through where it bears on a shackle (Wikipedia). 5) Under-pressed crimp, wrong sleeve size or wrong tool groove: check every crimp with the gauge and re-adjust the tool if the sleeve won't enter (Nicopress). 6) Tail too short, so it pulls out of the sleeve; the end must still show after crimping (Nicopress). 7) Cracked crimp tube from brass that is too hard; use bronze (Model Airplane News). 8) [Galvanic corrosion](../glossary.md#galvanic-corrosion) of aluminium ferrules on stainless rope at the coast (S3i). 9) In capstan and tendon drives the termination fails first, because it is weaker than the rope; in Sandia's tests every rope sample broke at the termination, so protect it with extra wraps (Mazumdar et al.). 10) Fraying from a poor cut; use a notched shear-type cable cutter (Nicopress; Model Airplane News).
 
 ## Safety
 

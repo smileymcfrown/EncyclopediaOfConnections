@@ -100,7 +100,8 @@
       "Sprag clutch and roller clutch (one-way bearing): engage and disengage automatically depending on direction",
       "Centrifugal clutch: engages automatically as speed rises",
       "Spline shaft (sliding spline) and hex shaft: the shaft the sliding half of a dog clutch runs on",
-      "Half nut (split nut): another positive, lever-operated engagement, used to connect a lathe carriage to its leadscrew"
+      "Half nut (split nut): another positive, lever-operated engagement, used to connect a lathe carriage to its leadscrew",
+      "Bevel splitter and counter-rotating drive: a dog clutch sliding between two loose bevel gears that turn opposite ways picks forward or reverse"
     ]
   },
   "media": {

@@ -102,6 +102,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, glass
+      or mirror, 'fabric, leather or cord']
 needs_confirming:
   tools:
     kind: best guess
@@ -199,7 +202,8 @@ pictures:
     other.
   kind: how-it-works
   drawn: false
-glossary: [form-fit--force-fit--material-bond, captive-nut, brittle--ductile, cure, pot-life--working-time, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, captive-nut, brittle--ductile, cure, pot-life--working-time, peel-vs-shear,
+  flux]
 ---
 
 <div class="eoc-pictures">
@@ -286,7 +290,7 @@ Search terms: 'silver conductive epoxy' (e.g. MG Chemicals 8331D, 8330D, brand; 
 - Push parts into paint while it is still wet and let it dry completely before powering; attach parts to a painted trace while the trace is still wet for the best connection (SparkFun).
 - Silver epoxy cure: MG Chemicals 8331 works for 10 minutes and fully cures in 24 hours at 22 °C or 15 minutes at 65 °C (2018 data sheet); the current 8331D has 20 minutes [working time](../glossary.md#pot-life--working-time) and cures in 6 hours at room temperature or 10 minutes at 65 °C (category data sheet).
 - Rear-window heater line repair: brush on four coats inside the stencil, letting each go tack-free; the repair must look completely opaque with 'essentially zero (0)' ohms across it; remove the stencil after 30 minutes and wait 24 hours before switching the heater on (Permatex, https://cdn.amplifi.pattern.com/69210793-d726-4c85-9584-3b22296b7321).
-- Clean surfaces first: 8331 'is not compatible with contaminants like water, oil, or greasy flux residues'; clean with isopropyl alcohol, and sand or prime weak surfaces (MG Chemicals, https://www.farnell.com/datasheets/2614609.pdf).
+- Clean surfaces first: 8331 'is not compatible with contaminants like water, oil, or greasy [flux](../glossary.md#flux) residues'; clean with isopropyl alcohol, and sand or prime weak surfaces (MG Chemicals, https://www.farnell.com/datasheets/2614609.pdf).
 - Glue parts down first with superglue, then paint over their pads, keeping glue out from between the ink and the pads (SparkFun, https://learn.sparkfun.com/tutorials/the-great-big-guide-to-paper-circuits/all).
 
 ## Common failures

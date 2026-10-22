@@ -94,6 +94,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -336,6 +338,8 @@ An unlocked arm can pop apart or sag and drop what it holds (Alex Rich, hackaday
 - Locking profile snake (contour gauge chain): links that go rigid when pressed together on tapered posts (LoboCNC, Printables)
 - Cable carrier (drag chain, energy chain): links that bend in one plane to guide moving cables; it doesn't hold a shape
 - Friction hinge: holds any angle about one axis only
+- Elastic-strung ball joint (ball-jointed doll stringing): ball joints held together by an elastic cord inside, so parts can be unhooked and swapped
+- Wire and foil armature (sculpture armature): a bendable wire skeleton that is posed once and covered in clay, rather than a chain of joints that keeps moving
 
 ## Make it yourself
 

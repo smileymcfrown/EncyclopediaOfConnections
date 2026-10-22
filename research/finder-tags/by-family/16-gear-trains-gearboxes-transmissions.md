@@ -1,6 +1,6 @@
 # gear trains, gearboxes & transmissions: Changes speed or turning force
 
-18 entries. ⚑ = needs confirming: 6 best guesses and 5 values from text marked [uncertain]
+22 entries. ⚑ = needs confirming: 9 best guesses and 5 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -24,6 +24,10 @@ are welcome. Back to the [index](README.md).
 | 205 | Friction drives and CVTs | – | none | – | steady turning | steady turning, straight push or pull | parallel, at an angle, in line | slips and keeps going | silent | hand tools | heavy | 3D print (FDM) | yes | removable |
 | 206 | Pulley system | – | none | – | straight push or pull | straight push or pull | – | – | clicks ⚑ | none, hand tools | heavy | 3D print (FDM) | yes | removable |
 | 267 | Spur gear pair and gear train | – | none | – | steady turning | steady turning | parallel | – | – | hand tools ⚑ | heavy | off-the-shelf part ⚑ | no | removable |
+| 449 | Line shaft and power take-off | shaft ⚑ | none | – | steady turning | steady turning | parallel, crossed | slips and keeps going | – | hand tools | heavy | off-the-shelf part | yes | removable |
+| 450 | Bevel splitter and counter-rotating drive | shaft ⚑ | none | – | steady turning | steady turning | at an angle, in line | – | – | hand tools | medium | off-the-shelf part | yes | removable |
+| 451 | Several motors driving one load | – | electricity | – ⚑ | steady turning | steady turning, straight push or pull | parallel | – | silent | hand tools | heavy | off-the-shelf part | yes | removable |
+| 452 | Cable splitter | – | none | – | straight push or pull | straight push or pull | – | – | – | drill and tap, hand tools | medium | off-the-shelf part | yes | removable |
 
 ## Best guesses
 
@@ -35,6 +39,9 @@ The script was unsure of these values.
 - ⚑ **202 Chain and sprocket drive**, `shaft_layout` = parallel, far apart: worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
 - ⚑ **206 Pulley system**, `clicks` = clicks: the text uses both clicking and silent words
 - ⚑ **267 Spur gear pair and gear train**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **449 Line shaft and power take-off**, `connects` = shaft: worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ **450 Bevel splitter and counter-rotating drive**, `connects` = shaft: worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ **451 Several motors driving one load**, `power_loss` = –: `power` mentions losing power, but none of the three outcomes
 
 ## From research text marked [uncertain]
 

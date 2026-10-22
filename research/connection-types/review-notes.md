@@ -389,3 +389,173 @@ exists), and an NTU study of a printed tuned mass damper. Google
 Patents blocks `curl`, so agents checked patent quotes through WebFetch. The RoboMech 2025 TPU
 article listed in `gap-search-2026-09-29.md` was behind a Springer bot check; Stano et al. 2020
 was used instead.
+
+## Phase 5: materials and one-to-many (R36, R37; items 410-452, researched 2026-10-22)
+
+Items 410-452 came from the gap search in `scope-search-2026-10-22-combined.md`. The usage limit
+stopped six agents once (09:05 UTC); after the reset they carried on from where they stopped, and
+files already written were checked (they validate and every `[uncertain]` field is listed).
+
+### Sources and links
+- *Score-and-fold hinge* (410): the gap search's ⚑ on which way to fold is settled by Briar Press
+  and GCA Cards (score on the outside of the fold, so the bead ends up inside); the Holmen page that
+  first gave the rule stayed blocked. The CITO creasing-channel rule is industrial, a guide only.
+- *Glued tab joint* (411): a tab width (Pepakura's 5 mm default; the forum page was 403), angled tab
+  ends and Tabgen's licence are [uncertain]; the Commons VALMETRO image was not checked to show tabs.
+- *Disc-binding grip* in *Loose-leaf bindings* (418) comes from a retailer guide (Lazada), and the
+  entry says so.
+- *Liquid-clay bond* (428): the brand rankings are one tester's (Blue Bottle Tree), who says another
+  tester's results were "different as night and day".
+- *Wire and foil armature* (432): Sculpey's pre-drying temperature "150-200 degrees" has no unit
+  (presumably °F).
+- *Bonded tube joint* (433): no test standard is named (the ISO 4210 page was 403); a cracked bamboo
+  bottom bracket is known only from a search snippet; the GrabCAD colorFabb bike licence is
+  [uncertain].
+- *Potted insert* (435): the CMU Buggy 30 kN figure is one club test, not a design value.
+- *Bonding fastener* (436): Practical Sailor pages lost their fraction characters, so their stud
+  sizes are left out.
+- *Push-fit rod and spar fittings* (437): kitebuilder.com now redirects to gambling spam and is not
+  cited, so the dihedral angle and the ferrule centre-stop have no source and are left out; the
+  "carbon splinters" point is [uncertain] (StewMac page blocked).
+- *Glass and mirror edge clips and clamps* (440): that a nozzle hitting a clip can crack a glass
+  bed is known only from search snippets (community.ultimaker.com 403), [uncertain].
+- No openly licensed Commons pictures were found for pinning, model hinges, mirror clips or glazing
+  points (Commons was also rate-limited for much of the run); YouTube titles in 440-442 were checked
+  through YouTube's oEmbed only.
+
+### Conflicting figures and content points
+- *Split-pin paper fastener* (413): screenplay brad size, #5 (Writing-World) versus #6 (Between
+  Borders).
+- *Cardboard screws and rivets* (414): layers the long screw grips: 5 (Makedo tools guide and FAQ),
+  "4-6" (Pimoroni), "up to six" (Makedo kit list), "5-ply" (Adafruit). Most common flute: C
+  (Wikipedia) versus A (Adafruit) (also in 410).
+- *Folding box closures* (416): strength: a snap-lock product at most 250 g (Die Cut Templates) and
+  1-2-3 bottoms not for heavy products (Pack.ly); crash-lock strongest (Sttark) versus snap-lock
+  stronger than auto bottom (Packmage). Straight tuck uses less paper (Sttark) versus reverse tuck
+  nests better (RRD, Diamond Packaging). ECMA codes differ between sources, so only the code
+  families are named.
+- *Sewn book bindings* (417): thread length for a pamphlet stitch 4-5 x the height (Talas), about
+  2.5 x the length (IU Libraries), twice the hole span + 6 in (Paper Mouse); stab binding 5 x the
+  height (Talas) or 5 x the width (Dorset). Stab-binding hole inset 1 cm (Wikipedia), 10-12 mm
+  (Reddit), 2 cm (Dorset).
+- *Loose-leaf bindings* (418): a comb on A4 has 21 rings (Wikipedia *Comb binding*) or 23 holes
+  (Wikipedia *Hole punch*); whether the ring mechanism is over-centre is [uncertain].
+- *Parallel-fold pop-up* (419), *V-fold pop-up* (420), *Pull-tab and slider mechanism* (421):
+  lattice pop-ups have no how-to source ⚑; "a narrow V stands taller" has no source and is written
+  from Superplexus's glue-in angle, flagged; Barton's "at 45 degrees the pop-up will not function
+  properly" measures a different 45 degrees from Superplexus and Make: (the entry explains);
+  construction paper allowed for beginners (Sabuda) versus never (Superplexus); paper weights are
+  quoted as each source gives them (80 lb / 216 gsm / 10 pt; 110 lb; 65 lb; 160 g). Unsourced:
+  how a pull-down is built, humidity and static, coin-cell risk, split-pin legs, pressing a pop-up
+  flat.
+- *Volvelle* (422): no geometry rule for the dissolving wheel was found; split-pin points ⚑.
+- *Spring-powered paper pop-up* (423): band size: flat length "slightly bigger" than a side, a
+  1.75 in cube on #16 bands of 2 1/2 in flat length, about 1.4 x the side (Alliance Rubber; the
+  ratio worked out by the agent), versus a 7 cm cube with "a rubber band of 16 cm", flat length or
+  round not said (Graphic 45). Flicking at faces ⚑ (only a general Wikipedia point on elastic cord).
+- *V-groove fold* (424): no fold-life count found; no V-groove depth rule for printed parts.
+- *Pinned glue joint* (425): clay pinning sources are craft tutorials only; the "thin plywood
+  washer" in foam is [uncertain].
+- *Slot-in model hinge* (426): Airfield Models advises against CA hinges while others use them;
+  Foam-Tac does not work on EPS (Motion RC) versus did not dissolve EPS (Model Aviation's tester).
+  The tug test is [uncertain] (HobbyKing page 403).
+- *Jigsaw puzzle-edge joint* (427): the McGill research is known through 3DPrint.com's report only.
+- *Score-and-slip join* (429) and *Liquid-clay bond* (428): drying air-dry clay: never sun,
+  hairdryer or oven (Art Shed) versus a 200 °F oven with a cracking warning (Sculpey FAQ). Sculpey's
+  table prints 275 °F as 130 °C (the °F values are quoted). No strength figures for any clay join;
+  that PLA can't survive a polymer clay bake has no tested temperature on an opened page in 428 (432
+  gives 60-65 °C softening from Wikipedia).
+- *Baked-in findings* (430): magnet heat loss: about 20% at a 100 °C bake (supermagnete) versus a
+  thin N42 disc keeping about 60% after 100 °C (K&J Magnetics); shape and grade differ.
+- *Elastic-strung ball joint* (431): the cord sizes (1.5-4 mm) are for vintage dolls; no opened
+  page gives sizes for resin BJDs.
+- *Fillet-and-tape joint* (434): Wikipedia's "8-10 times the strength" for stitch-and-glue is
+  unsourced ⚑. Fillet radius 1 in for main seams and 1/2 in for bulkheads (CLC) versus about 30 mm
+  (Welsford).
+- *Potted insert* (435): oversize: redrill about 1.5 x the hole and reef out 1/2 in of core
+  (Cruising World) versus a 5/8-3/4 in hole for a 5/16 in bolt through both skins (The Yacht Rigger).
+- *Compression limiter* (438): no printable model found (a MakerWorld page was 403).
+- *Panel standoff* (439): edge distance at least 1 in (4over4), hole centre at least 1.5 x the hole
+  diameter (ACRYLITE), at least 2 x the sheet thickness (Cut My), glass at least 6 mm or 2 x the
+  thickness (Viracon); hole about 1/16 in over the barrel (4over4) versus sized to the thread (Sign
+  Trade Supplies: 9 mm for a 7.5 mm thread).
+- *Glass and mirror edge clips and clamps* (440): clips about 50 mm from the corners (RealHomes)
+  versus an inch or two (Reflect).
+- *Glazing in a rebated frame* (442): paint after a firm set of 7 days to 3 weeks (DAP) versus a
+  skin in "2 or 3 days" (National Park Service).
+
+### Blocked or unreadable (nothing cited from them)
+Holmen, therpf.com, AICCM, two Tama Software Pepakura pages (404), NEDCC, the Indiana University
+library adhesives page (TLS; its Pressbooks copy was used), Mr. McGroovy's site (now an empty
+placeholder), CPSC and Amana, the splitcoaststampers View-Master page, Instructables *Surprise
+Picture Card* (no step text), Rob Ives's lever page (timed out), MIT K12 Maker's cutters guide,
+Animated Knots (Cloudflare; knots cited through Wikipedia), thepotterywheel.com, HGTV and CUNY clay
+pages, HobbyKing, EUR-Lex (empty; the EU formamide rule was read on legislation.gov.uk), Den of
+Angels (503), Road Bike Action, the ISO 4210 page, kitebuilder.com (spam), StewMac, MakerWorld,
+crlaurence.com, Lee Valley (429), cicacenter.org (502), Delphi Glass, the UW-Whitewater stained-glass
+blog (404), This Old House (404), goot.jp (503), community.ultimaker.com. Model Airplane News
+articles are mostly paywalled (only visible sample text cited). Talas and CCI pages were read through
+WebFetch with exact quotes.
+
+### Conflicting figures and content points (items 443-452)
+- *Glass door hinge* (443): weight per pair varies by model (one Blum hinge 4 kg per pair, the vxb pivot kit 5-8 kg); follow the hinge maker's figure.
+- *Wire-bail closure* (444): safety views disagree: swing tops are safer because the gasket and bail fail before the glass (Craft Beer & Brewing) versus not for kombucha because the stopper can snap up and hurt hands (Kombucha Kamp). The over-centre geometry is [uncertain] (the Quillfeldt patent could not be opened; Google Patents 503).
+- *Lead came joint* (445): reinforce fixed panels over about 10 ft perimeter and moving ones over about 8 ft, every 18 in (source in the entry) versus "over 24 x 24 in" (an r/StainedGlass member); solder 50/50 (Everything Stained Glass) versus 60/40 (SCW club).
+- *Cable splitter* (452): Jtek DoubleControl L travel 27 mm (SJS product page) versus 26 mm (an SJS staff answer). The 80:20 front-to-rear brake split is forum advice only; UK road law on independent brakes only from forum statements (the legislation.gov.uk text could not be read). Google Patents read through WebFetch only. A MakerWorld throttle-splitter model appears from search results only (page 403; licence not checked).
+- *Glass fusing* (446): annealing differs: a 482 °C hold with about 3 h of cooling for 6 mm and 14 h for 25 mm (Bullseye, for its own glass) versus a 516 °C soak and 10-12 h in all (Wikipedia); fusing 700-820 °C (Wikipedia) versus tack fusing 690-788 °C (Bullseye). The gap search's ⚑ on microwave kilns is cleared (Ceramic Industry gives figures).
+- *Shelf pins and shelf supports* (447): the Wood magazine glass-span chart is quoted second-hand through WOODWEB and labelled so.
+- *Linked lead screws* (448): no source found for chain-linked lead screws (kept as a variant, [uncertain]). The ⚑ that K1 and Bambu printers use one motor, a belt and three screws rests on one Reddit comment and is left out. Correction to the drives scope-search write-up: Reddit post 14tvq4s does not say the belt was "too tight or misaligned", only that the printer homed fine once the belt was removed; the entry states it as the post does. Klipper's z_tilt page was cut off when fetched (cited only as a pointer).
+- *Line shaft and power take-off* (449): no reputable source explains the go-kart jackshaft in depth; the minibike detail comes from a GoPowerSports bracket listing. One printing tip cites Prusa material guidance that was not re-opened.
+- *Bevel splitter and counter-rotating drive* (450): whether it can be driven backwards is [uncertain].
+- *Several motors driving one load* (451): copies of the PLA softening point (about 60 °C) without a citation are [uncertain].
+
+### Blocked or unreadable (items 443-452; nothing cited from them)
+glassparts.ie, crlaurence.com, Google Patents (503; patents read through WebFetch), Brighton Toy
+Museum, Grassroots Motorsports, Endless-sphere (anti-bot page), CycleKarts GB, Thingiverse,
+ratrodbikes, the legislation.gov.uk text on vehicle brakes (a scan with no text). Skyjems pages
+were not used (AI-generated images and text).
+
+## Update pass on researched entries (Phase 5, 2026-10-22)
+Collected from the update agents' hand-back reports. Plan and per-entry list: `update-pass-2026-10-22.md`
+(the notes additions from section 4 of the seven Phase 5 gap searches, and cross-links from existing
+entries to the new items 410-452). All 116 changed files validate.
+
+### Conflicting figures and content points
+- *Syringe hydraulics* (300): **correction:** `degrees_of_freedom` said several outputs on one line "all move together"; they do only when each meets the same resistance (Power & Motion, *Flow divider circuits*), and the entry now says how to keep cylinders in step.
+- *Contact adhesive* (224): **correction:** "the solvents in solvent types dissolve polystyrene" was too broad: ketone-solvent types do, but polystyrene-safe solvent contact glues exist (UHU por data sheet); the [uncertain] EVA-seam failure is now sourced (Costumary; cosplayadvice.com).
+- *Tab-and-slot joint* (239): **correction:** the [uncertain] box-flap example is now the sourced folding-carton tuck flap and locking tab (Wikipedia *Folding carton*).
+- *Living hinge* (49): only a reader comment on Flite Test supports foam cut partly through as a hinge; which foams it suits, and that it stiffens and tires so tape or CA hinges are used for anything lasting, are marked [uncertain].
+- *Tab-and-slot joint* (239): "cut the slots so the flutes run across the joint" is marked [uncertain]: no opened source tests slotted card (Makedo covers overlapped panels and folds only).
+- *Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason.
+- *Housing and rebate joints* (299): that the foam-board rabbet keeps the outer paper over the foam edge is marked [uncertain] (a sketch in the Core77 thread only).
+- *Silicone and MS-polymer adhesive sealants* (227): that aquarium (acetoxy) silicone is wrong for mirrors is marked [uncertain]: it is inferred from the makers' warnings about the silver coating, not tested in an opened source. Mirror-adhesive beads: Bostik says 20-40 cm apart, Soudal 10-20 cm; both are given.
+- *Magnet joint* (111): K&J gives no single maximum for "N grade": a thin N42 disc reaches its limit near 80 °C, and the limit depends on the magnet's shape; the entry's 80 °C figure is from Wikipedia.
+- *Staples for wood and fabric* (373): Talas calls Monel staples stainless; Monel is not stainless steel, so the text says "rust-resistant Monel staples". The entry keeps its name (renaming would change its page address); "desk stapler" and the other stapler kinds are aliases.
+
+### Left out (not in the opened source)
+- *Spur gear pair and gear train* (267): "kinetic toys" as an example of one gear driving a ring of gears (the Firgelli page does not mention them).
+- *Glued joint design* (270): that the bevelled EVA seam hides the seam line, and its 45° angle (Costumary says only that the bevel makes a glue channel; foodandcosplay's 45° is for folded edges).
+- *Tongue-and-groove joint* (273): acrylic doors (Bohle covers glass only) and lifting a pane in through a deeper top channel.
+- *Elastic band springs* (282): "over dowels or skewers" for wing hold-downs.
+- *Air or hydraulic cylinder* (301): that air cylinders are harder to keep in step because air compresses.
+- *Two-part epoxy* (138): a pool of fast epoxy getting hot enough to soften foam (not in the Swaylocks thread; the entry already notes that a big batch heats itself).
+- *Belt drives* (100): "a crossed belt suits flat and round belts" (Wikipedia gives only the twist needed for V and timing belts).
+- *Shock-corded sectional pole* (152): an aluminium kite ferrule with a centre stop (the kiteplans pages mention brass ferrules and where to put them).
+- *PVA wood glue* (223): PVA curing "not at all" between foam faces (the opened forum thread says slow to dry), and "XPS terrain".
+- *Contact adhesive* (224): spray mount being repositionable, and the outdoors and overspray advice (not in the 3M data sheet).
+
+### Cross-links skipped
+- *Quick-release pin* (40) and *Living hinge* (49): no link to *Loose-leaf bindings*; *Cable through a hinge* (338): none to *Slot-in model hinge*; *Tripod and stand screw mount* (393): none to *Panel standoff*; *Brazed joint* (405): none to *Copper-foil joint*. None would help a reader of that entry; the link the other way is kept where it exists.
+
+### Sources and links
+- *Sprag clutch* (10): Wikipedia *Freewheel* does not cover two inputs; the two-motor point is cited from Wikipedia *Sprag clutch*.
+- *Contact adhesive* (224): the xposeddesigns.com page is about hook-and-loop on ABS cosplay armour, glued with contact cement or epoxy, not webbing on foam; the text says so.
+- *Whippletree* (91): IHPVA says a cable splitter "does not provide balance"; "copies distance" comes from the *Cable splitter* entry. "Summing linkage" is kept as an alias: Wikipedia says such linkages "summed" inputs and "add and subtract".
+- *Soldered metal joint* (404): the stained-glass club page (Stained Glass Crafters, Sun City West) says leftover "acids" attack mirror backing; it does not name flux.
+- *Epoxy putty* (232): the r/polymerclay thread was read through the arctic-shift copy (as in earlier runs) and says "2 part epoxy clay" (Apoxie Sculpt, Magic Sculpt).
+- *Cam and follower* (84): the UT Austin wiki page was read through its REST API; it says the offset cams "mimic rolling water".
+- *Spur gear pair and gear train* (267): the KHK PDF was read with pypdf; the image of the planet-spacing formula was lost, and the text around it confirms the even-spacing condition. *Score-and-fold hinge* (410): the Warwick lesson PDF was also read with pypdf.
+- Several pages were read with curl through the proxy after WebFetch was blocked or hit its limit (HTTP 200, text checked): Swaylocks, CLC, Fold N Fly, Epoxyworks, West System, Duckworks, Bohle, Alliance Rubber, Model Aviation, Core77, 4over4. Costumary later returned 503 and is cited from the one successful read.
+
+### Blocked or unreadable (nothing cited from them)
+- spikeybits.com pinning page (403; the Starship Modeler thread is cited instead), rmweb.co.uk (403), the Model Airplane News page on foam hinges (paywalled).

@@ -6,6 +6,8 @@
 
 *adhesives & bonding.* A runny or gel glue that sets in seconds by reacting with moisture; strong on tight-fitting plastics, metal and wood but brittle and weak in peel
 
+*Also covers:* Also covers gluing baked polymer clay (flexible gel superglue on clean, uncoated surfaces).
+
 ### What it is
 
 - **plain_name**: A runny or jelly-like 'instant' glue that grabs in seconds when two close-fitting parts are pressed together, because the moisture on their surfaces makes it harden; very strong when you pull or slide the parts, but brittle, so it can crack if you peel, bend or knock the joint
@@ -78,7 +80,7 @@
 - **when_not_to_use**: Avoid it for loose-fitting or gappy joints and large areas: use two-part epoxy, which fills gaps and gives more working time. Avoid it for joints that will be peeled, bent, twisted or knocked: use rubber-toughened CA, epoxy or a flexible adhesive (Loctite design guide; Prusa). Don't use it on polyethylene or polypropylene without a primer (Loctite design guide), on expanded polystyrene foam unless it's foam-safe CA, or on clear parts where frosting would show (use odourless CA or UV-curing glue) (Prusa). Avoid it where parts get hot (e.g. near an extruder), stay wet or are outdoors in freezing weather; use epoxy, high-temperature or water-resistant grades, or screws (Prusa; Wikipedia). For ABS or ASA, solvent welding with acetone fuses the plastic itself (Prusa). If you may need to take it apart, use screws, magnets or threaded inserts (Prusa).
 - **environment_limits**: Heat: ordinary CA reportedly keeps about 50% of its strength at 80 °C and only about 20% at 100 °C (Prusa); industrial grades are rated around 100 °C long term (3M CA100), and heat-resistant grades up to 120-250 °C (Permabond; Prusa). Heating cured CA breaks it down into irritating gases (Wikipedia). Cold: CA 'becomes brittle when frozen, so it's not suitable for outdoor use in temperate/arctic climates' (Prusa). Water: traditional CA has 'weak' resistance to moisture and heat (Wikipedia), but water-resistant grades keep 75% of their strength after 1,000 hours in 60 °C water (Permabond 712). Chemicals: poor solvent resistance, and acetone dissolves it (Loctite design guide; Wikipedia). Glass bonds lose strength over time (Loctite). Unused glue thickens and goes off within months, faster once opened (Prusa; Wikipedia).
 - **safety_notes**: It bonds skin in seconds: don't pull stuck skin apart; soak with warm soapy water, vegetable oil or acetone, and the glue comes away by itself within a few days (Wikipedia). If it gets in an eye, rinse with lukewarm water for 15 minutes and get medical help; nail-glue bottles have been mistaken for eye drops (Wikipedia). The fumes irritate eyes and nose, so ventilate; about 5% of people become sensitised to them after repeated exposure, with flu-like symptoms, and rarely asthma (Wikipedia; Prusa). Cotton, wool, leather and similar fibres react with CA in a fast, hot reaction that can cause burns or smoke, so never wear cotton gloves, and wipe nozzles with a non-cotton cloth (Wikipedia; 3M CA100 data sheet; Prusa). Accelerators make the reaction, and the heat, faster (Prusa). Heating cured CA, e.g. burning out a clogged metal nozzle, gives off irritating fumes (Wikipedia; Prusa).
-- **common_failures**: The joint snaps when knocked, bent or peeled because cured CA is hard and brittle; design the joint for shear, or use rubber-toughened CA or epoxy (Loctite design guide; Prusa). Weak or slow bonds in gappy joints or thick blobs; improve the fit or switch to gel CA or epoxy (Wikipedia; Loctite). Parts that simply pop off polyethylene, polypropylene or acetal because nothing wets the surface; use a primer or another joining method (Loctite design guide). White frosting around the joint from fumes in still air (Prusa; Loctite). Cracking or crazing of acrylic, polycarbonate, ABS or clear styrene near uncured glue, especially where the plastic is under stress; use as little glue as possible and cure it quickly (Loctite design guide; Prusa). Weak bonds from old, thickened or cheap glue, or from repositioning after it has grabbed (Prusa). Thin glue wicking along layer lines and fingerprints and marking the print (Prusa). Accelerator heat slightly warping thin PLA parts (Prusa). Bonds on glass, or in wet or hot places, failing over time (Loctite; Wikipedia).
+- **common_failures**: The joint snaps when knocked, bent or peeled because cured CA is hard and brittle; design the joint for shear, or use rubber-toughened CA or epoxy (Loctite design guide; Prusa). Weak or slow bonds in gappy joints or thick blobs; improve the fit or switch to gel CA or epoxy (Wikipedia; Loctite). Parts that simply pop off polyethylene, polypropylene or acetal because nothing wets the surface; use a primer or another joining method (Loctite design guide). White frosting around the joint from fumes in still air (Prusa; Loctite). Cracking or crazing of acrylic, polycarbonate, ABS or clear styrene near uncured glue, especially where the plastic is under stress; use as little glue as possible and cure it quickly (Loctite design guide; Prusa). Weak bonds from old, thickened or cheap glue, or from repositioning after it has grabbed (Prusa). Thin glue wicking along layer lines and fingerprints and marking the print (Prusa). Accelerator heat slightly warping thin PLA parts (Prusa). Bonds on glass, or in wet or hot places, failing over time (Loctite; Wikipedia). On polymer clay, ordinary thin CA is brittle and 'notorious for popping right off of polymer' under stress: use a flexible gel CA, clean both faces with alcohol or acetone first, and don't glue onto paint, sealer or mica powder, because the glue then holds only the surface coating (Blue Bottle Tree).
 - **related**: 
   - Two-part epoxy: slower to set but fills gaps, handles knocks and peel better, bonds metal, wood and glass very well; usually weaker than CA on smooth plastics
   - Solvent welding (solvent cement): softens and fuses the plastic itself, e.g. acetone on ABS or ASA; doesn't work on PETG or PLA with hobby solvents (Prusa)
@@ -89,6 +91,10 @@
   - Structural methacrylate (MMA) and polyurethane construction adhesives: scored highest on PETG in Cosel's long-term test (Hackaday)
   - Heat staking and plastic welding with a soldering iron: join printed parts by melting them together, no glue needed
   - Screws, threaded inserts and magnets: when the parts must come apart again (Prusa)
+  - Pinned glue joint: CA is the usual glue for pinning metal and resin miniatures, the pin taking the knocks
+  - Slot-in model hinge: CA hinges are set by wicking thin CA into the hinge's porous covering
+  - Liquid-clay bond: bakes polymer clay to itself; gel CA is the choice for baked clay that can't be baked again
+  - Baked-in findings: embedding metal in the clay before baking holds better than gluing it on afterwards; gel CA locks screw eyes and gems into baked clay
 
 ### Pictures, videos and models
 
@@ -116,6 +122,7 @@
   - https://commons.wikimedia.org/wiki/File:Cyanacrylat_polymerisation.svg
   - https://commons.wikimedia.org/wiki/File:Super_glue.jpg
   - https://www.youtube.com/watch?v=VZqf5rOJNCE
+  - https://thebluebottletree.com/best-glue-for-polymer-clay/
 
 ### Finder tags
 
@@ -136,6 +143,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, clay or putty, fabric, leather or cord
 
 ### Other info
 
@@ -145,7 +195,7 @@
 
 *adhesives & bonding.* A resin and hardener mixed together that set into a strong, gap-filling solid; slow or fast types, for metal, wood, most plastics and composites
 
-*Also covers:* Also covers J-B Weld (brand), the epoxy makers often suggest instead of welding.
+*Also covers:* Also covers J-B Weld (brand), the epoxy makers often suggest instead of welding. Also covers epoxy on polystyrene foam, filler mixes by job, and slow epoxy for model hinge points and hole fills.
 
 ### What it is
 
@@ -189,7 +239,7 @@
 - **adjustable**: no, once it gels; before that, parts can be moved and lined up during the working time, from about 3-5 minutes for fast types to an hour or more for slow ones (Loctite EA E-00CL: working life 3.5 min; Epoxyworks: 105/205 working time 60-70 min in a thin film).
 - **play_and_precision**: not applicable (nothing moves). It tolerates poor fit because it fills gaps, but a thin bond line is strongest: 'Maximum shear strength is obtained with a 0.1 to 0.2 mm bond line' (Loctite EA E-00CL); bigger gaps should be bridged with epoxy thickened by a filler (West System).
 - **access_needed**: not applicable: epoxy is applied to the joint faces before assembly, or packed into a hole or pocket from one side.
-- **materials**: Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia). *(⚑ parts need confirming)*
+- **materials**: Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Safe on polystyrene foam (EPS and XPS) because it contains no solvent, unlike polyester and vinylester resins, whose styrene melts them (Swaylocks forum thread 'Resin and foam compatibility'). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia). *(⚑ parts need confirming)*
 - **maker_difficulty**: easy to moderate: widely sold and forgiving of gaps, but you must measure and mix accurately, work within the pot life, protect your skin and keep parts still while it cures (Epoxyworks; West System).
 
 ### Making it
@@ -213,6 +263,7 @@
   - Design joints for shear and compression, avoid peel and cleavage, and widen rather than lengthen overlaps (Loctite 'Design Guide for Bonding Plastics', vol. 6, pp. 77-79).
   - Full strength takes time: 24 hours at 25 °C for high strength with a fast epoxy (Loctite EA E-00CL), and 1-4 days to working strength for 105/205 (West System 105/205 data sheet).
   - Heat limits: room-temperature-cured epoxies soften at fairly low temperatures, e.g. heat deflection temperature 118 °F (48 °C) and ultimate Tg 142 °F (61 °C) for 105/205 (West System), and a glass transition temperature of just 20 °C for a fast epoxy cured at 25 °C (Loctite EA E-00CL). Curing with heat raises it (Loctite design guide), and in general epoxy adhesive strength degrades above 177 °C (Wikipedia 'Epoxy').
+  - Thicken it to suit the job: to 'peanut butter' with wood flour for fillets that mustn't sag (CLC Boats), or to 'mayonnaise' with 406 or 404 filler to fill a hole round a fastener (Cruising World). For hole fills in warm weather use a slow hardener, because 'fast-cure will exotherm, creating bubbles and a poor seal' (Practical Sailor).
 
 ### When to use it
 
@@ -225,7 +276,7 @@
 - **when_not_to_use**: Don't use it when you need a bond in seconds (use CA) or when parts must come apart again (use screws, threaded inserts or magnets), because cured epoxy won't dissolve (Prusa). On smooth plastics like ABS, PET and nylon, CA is often stronger in shear (Loctite design guide; Prusa). It bonds poorly to polyethylene and polypropylene (Loctite design guide): use a polyolefin primer with CA, a special polyolefin adhesive, or mechanical fastening. For flexible joints, use a flexible adhesive (polyurethane or silicone) rather than a rigid epoxy. Avoid ordinary room-temperature epoxy in hot places such as on an extruder or in a car in the sun (West System heat deflection temperature 48 °C), and don't leave it uncoated in sunlight (Wikipedia).
 - **environment_limits**: Heat: room-temperature-cured epoxies soften at modest temperatures: heat deflection temperature 48 °C and ultimate Tg 61 °C for WEST SYSTEM 105/205, and a Tg of only 20 °C for a fast 5-minute type (Loctite EA E-00CL); heat-cured and special high-temperature epoxies do better, and epoxy adhesives in general degrade above 177 °C (Loctite design guide; Wikipedia). Cold: cure slows sharply, with minimum working temperatures of about 4-18 °C depending on hardener (West System). Water: marine epoxies are moisture-resistant (West System), but a fast epoxy lost most of its strength in hot, humid air (10% left after 500 hours of condensing humidity at 49 °C) (Loctite EA E-00CL). Sunlight: epoxy deteriorates in UV light and needs paint or varnish over it outdoors (Wikipedia). Chemicals: generally good resistance; a fast epoxy kept its strength in motor oil, petrol, acetone and isopropanol (Loctite EA E-00CL). Old epoxy may look fine but never cure fully (Prusa).
 - **safety_notes**: Skin: liquid resin and hardener irritate skin and eyes, and repeated contact can cause allergic sensitisation; fewer than 10% of users react when overexposed and fewer than 2% develop allergic dermatitis, but once sensitised even tiny amounts can trigger reactions (West System; Wikipedia). Wear gloves and don't clean skin with solvents (Loctite EA E-00CL). Breathing: ventilate; epoxy is a main cause of occupational asthma among plastics users (Wikipedia), and you should never sand epoxy that is not fully cured, because the reactive dust can cause severe respiratory irritation and allergies (West System). Heat: a large mixed batch can overheat, smoke, melt its container or even catch fire, so mix small amounts and spread them out (Wikipedia; Epoxyworks). Disposal: let leftovers cure solid before throwing them away (Wikipedia).
-- **common_failures**: Soft, sticky or never-curing epoxy from the wrong ratio, poor mixing or working too cold; scrape it off and redo it, never pile fresh epoxy on uncured epoxy (West System 'Epoxy Problem Solver'; Epoxyworks). A weak, 'starved' joint from clamping so hard that all the glue squeezes out (West System). Bonds peeling off smooth, dirty or low-energy surfaces (PE, PP, nylon) because the surface wasn't sanded and cleaned, or the plastic can't be glued (Loctite design guide; Epoxyworks). Parts moved before the epoxy cured (Loctite EA E-00CL). The mix going hard in the cup before you've finished, because a big batch heats itself (Epoxyworks). A waxy film (amine blush) on some cured epoxies, a normal by-product in some conditions; wash it off with water before sanding or adding more epoxy (West System). Fast epoxy joints softening in warm places or losing strength in damp ones (Loctite EA E-00CL). Old stock that no longer cures properly (Prusa).
+- **common_failures**: Soft, sticky or never-curing epoxy from the wrong ratio, poor mixing or working too cold; scrape it off and redo it, never pile fresh epoxy on uncured epoxy (West System 'Epoxy Problem Solver'; Epoxyworks). A weak, 'starved' joint from clamping so hard that all the glue squeezes out (West System). Bonds peeling off smooth, dirty or low-energy surfaces (PE, PP, nylon) because the surface wasn't sanded and cleaned, or the plastic can't be glued (Loctite design guide; Epoxyworks). Parts moved before the epoxy cured (Loctite EA E-00CL). The mix going hard in the cup before you've finished, because a big batch heats itself (Epoxyworks). A waxy film (amine blush) on some cured epoxies, a normal by-product in some conditions; wash it off with water before sanding or adding more epoxy (West System). Fast epoxy joints softening in warm places or losing strength in damp ones (Loctite EA E-00CL). Old stock that no longer cures properly (Prusa). Misaligned hinges on model aircraft from using 5-minute epoxy or CA, which set before you can check the line-up, or from gluing both surfaces at once: use slow epoxy and glue the hinges into one surface first, then the other once it has cured (Airfield Models).
 - **related**: 
   - Cyanoacrylate (superglue): sets in seconds with no mixing and is often stronger on smooth plastics, but is brittle and needs tight-fitting parts
   - Structural methacrylate (MMA) adhesives: two-part, fast, strong on plastics; scored highest in a long-term PETG test (Hackaday)
@@ -236,6 +287,11 @@
   - Hot-melt adhesive: fast and gap-filling but weak and heat-sensitive
   - Polyester resin: cheaper laminating resin; epoxy sticks to it, but polyester gelcoat doesn't stick to epoxy (Wikipedia)
   - Heat-set threaded inserts and screws: mechanical alternatives for fixing hardware into prints that can be undone
+  - Liquid-clay bond: bakes polymer clay to itself; epoxy is a cold alternative for baked clay, but can turn brittle with age
+  - Bonded tube joint: tubes glued into or over sockets, sleeves or lugs, usually with epoxy
+  - Fillet-and-tape joint: thickened epoxy fillets and resin-soaked glass tape welding plywood panels into one shell
+  - Potted insert: an epoxy plug set into the soft core of a sandwich panel so a bolt can grip and clamp
+  - Bonding fastener: a threaded stud or nut on a perforated base plate, usually glued on with epoxy
 
 ### Pictures, videos and models
 
@@ -272,6 +328,11 @@
   - https://en.wikipedia.org/wiki/J-B_Weld
   - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
   - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200
+  - https://swaylocks.com/t/resin-and-foam-compatibility/38848 (forum.swaylocks.com redirects here; WebFetch got 403, read with curl)
+  - https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/05.htm
+  - https://clcboats.com/blogs/boatbuilding-tips/fillets (WebFetch returned only menus; read with curl)
+  - https://www.cruisingworld.com/?p=40890
+  - https://www.practical-sailor.com/boat-maintenance/a-solid-connection
 
 ### Finder tags
 
@@ -284,7 +345,7 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: strongest, fills gaps
-- **bonds_well**: PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"*
+- **bonds_well**: PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"*
 - **bonds_poorly**: slippery plastics (PE or PP), silicone ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"*
 - **tools**: press or vice
 - **load_max**: heavy
@@ -292,6 +353,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, clay or putty, carbon fibre or composites, glass or mirror
 
 ### Other info
 
@@ -394,6 +498,7 @@
   - Structural acrylic and low-surface-energy plastic adhesives: the glue route for polyethylene and polypropylene, which solvents can't weld
   - Glued joint design (butt, lap and scarf joints): a bigger overlapping area makes a solvent weld stronger, just as with glues
   - Heat-fused plastic pipe: how polyethylene and polypropylene (PP-R) pipe, which solvent cement can't weld, is joined instead: pipe and fitting are melted on a hot tool (socket or butt fusion) or by a heating wire built into the fitting (electrofusion) (Wikipedia 'Electrofusion'; Wikipedia 'Piping and plumbing fitting'; NIBCO PP-R socket fusion instructions)
+  - Liquid-clay bond: joins polymer clay to itself with a liquid of the same plastic cured by baking, rather than by dissolving the surfaces
 
 ### Pictures, videos and models
 
@@ -458,6 +563,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: plastic or film
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: melt
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 
@@ -548,6 +696,8 @@
   - Hot-melt adhesive (glue gun): also sets in seconds, but by cooling; gap-filling but weak and softens with heat
   - Dual-cure adhesives: light-curing adhesives with a second moisture, heat or anaerobic cure so shadowed areas harden too (GA Lindberg)
   - Silicone and MS-polymer adhesive sealants: UV-curing silicones exist (Henkel), but the usual ones cure from air moisture and stay flexible
+  - Baked-in findings: metal findings baked into polymer clay; UV resin poured over earring posts is an alternative that can't be baked again
+  - Glass fusing: joins glass to glass by melting it in a kiln into one piece, where UV glue joins it cold with a glue line
 
 ### Pictures, videos and models
 
@@ -605,6 +755,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, clay or putty, glass or mirror
 
 ### Other info
 
@@ -614,7 +807,7 @@
 
 *adhesives & bonding.* A plastic stick melted in a glue gun that sticks as it cools; quick and gap-filling but weak and softens with heat
 
-*Also covers:* Also covers PLA glue sticks in a high-temperature glue gun, and a dab of hot glue to stop screw-terminal wires working loose.
+*Also covers:* Also covers PLA glue sticks in a high-temperature glue gun, and a dab of hot glue to stop screw-terminal wires working loose. Also covers hot glue in foam-board folds and creases, foam-safe hot melts for polystyrene, and avoiding it on EVA foam that will be heat-formed.
 
 ### What it is
 
@@ -694,8 +887,8 @@
   - The glued spines of paperback books (Wikipedia)
   - Wires and components held in place inside electronic gadgets (Wikipedia)
   - Craft projects, artificial flower arrangements and foam radio-controlled model aircraft (Wikipedia)
-- **when_to_use**: Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday). A small dab of hot glue also stops a wire working out of a screw terminal, 'without being too difficult to remove later' (SparkFun 'Connector Basics').
-- **when_not_to_use**: Avoid it for load-bearing or structural joints (use epoxy, screws or a structural adhesive), for anything that gets warm, such as car interiors, sunny windows or near motors and lamps (use epoxy, polyamide or PUR hot melt), for parts under a constant load, where it creeps (Wikipedia; Raise3D), and in the cold, where it can let go (thisTOthat). It grips smooth metal and glass poorly unless they are preheated (Henkel p. 8; Glu-Stix; use epoxy or superglue instead), can melt thin plastic and foam (thisTOthat; use a low-temperature gun or another glue), and leaves thick, stringy joints that are hard to make neat (thisTOthat; Raise3D; for neat joints use superglue or solvent welding).
+- **when_to_use**: Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday). A small dab of hot glue also stops a wire working out of a screw terminal, 'without being too difficult to remove later' (SparkFun 'Connector Basics'). On foam board, run a bead inside a bevelled or overlap fold before folding it up and hold it at the right angle for a few seconds for 'a very sturdy joint' (Fold N Fly); spread into the foam of a score-and-fold crease and left to cool, it makes 'a rubber-like hinge' that stops the paper tearing (Flite Test). On polystyrene foam (EPS and XPS) use low-temperature, foam-safe hot melts, because standard-temperature glue may melt the foam (gluegun.com).
+- **when_not_to_use**: Avoid it for load-bearing or structural joints (use epoxy, screws or a structural adhesive), for anything that gets warm, such as car interiors, sunny windows or near motors and lamps (use epoxy, polyamide or PUR hot melt), for parts under a constant load, where it creeps (Wikipedia; Raise3D), and in the cold, where it can let go (thisTOthat). It grips smooth metal and glass poorly unless they are preheated (Henkel p. 8; Glu-Stix; use epoxy or superglue instead), can melt thin plastic and foam (thisTOthat; use a low-temperature gun or another glue), and leaves thick, stringy joints that are hard to make neat (thisTOthat; Raise3D; for neat joints use superglue or solvent welding). Don't use it on EVA foam armour that will be heat-formed afterwards: it 'will start to melt when you use a heatgun' (cosplayadvice.com).
 - **environment_limits**: Heat: craft EVA glue is limited to below about 60-80 °C and loses strength well before it melts, so hot glue softens in a hot car (Wikipedia; Raise3D). Polyamide sticks work up to about 70 °C under load, and cured reactive PUR hot melt to about 150 °C (Wikipedia). Cold: thisTOthat warns hot glue 'does not withstand cold temperatures'. Creep: EVA hot glue slowly gives way under a constant load (Wikipedia). Weather and chemicals: cheap craft sticks resist weathering and some chemicals less well than specialised hot melts (Wikipedia), and isopropyl alcohol loosens the bond (Make:). Polyamide sticks absorb moisture from the air, which can make them foam and form voids when melted (Wikipedia).
 - **safety_notes**: Burns: the glue coming out of the nozzle is hot enough to burn and even blister skin (Wikipedia), and a high-temperature gun at about 380 °F (193 °C) can cause severe burns, so keep children away or give them low-temperature guns (Glu-Stix). Keep a bowl of cold water handy for burns, keep the gun upright, and purge the drip that builds up at the nozzle onto scrap card before gluing (thisTOthat). Hot melts often give off no fumes unless they are overheated (Wikipedia 'List of glues'), so don't leave a gun heating for long periods. The hot nozzle can also scorch work surfaces; use a stand or silicone mat (Surebonder).
 - **common_failures**: The glue skins over before the parts meet, giving a weak joint: apply small amounts, press at once and use a fully heated gun (Raise3D; Surebonder; thisTOthat). It pops off smooth metal or glass because the cold surface chills it: clean, roughen and preheat the parts (Glu-Stix; Henkel p. 8). It melts or warps thin plastic, foam or PLA: use a low-temperature gun or less glue (thisTOthat; Surebonder). Stringy 'spider webs' and lumpy beads (thisTOthat). The joint sags or slides over time under a constant load, or lets go in heat or cold (Wikipedia; thisTOthat). The gun jams or the glue flows unevenly when the stick is the wrong diameter (Surebonder). Glue sticks firmly inside a printed mould when no release agent is used (Hackaday 2024).
@@ -712,6 +905,7 @@
   - Melted plastic weld: melts the parts' own plastic, plus filler, into the seam with a soldering iron, 3D pen or hot-air gun; a glue gun fed with PLA sticks sits halfway between hot glue and plastic welding (Hackaday 2018)
   - Heat-shrink tubing: adhesive-lined (dual-wall) heat-shrink has a layer of thermoplastic glue inside, so shrinking it over a wire joint seals it much like a hot-glue over-mould (Wikipedia 'Heat-shrink tubing')
   - Screw terminal: a dab of hot glue on a screw terminal keeps its wire from working loose and can still be picked off later (SparkFun 'Connector Basics')
+  - Glue stick and starch paste: gentle water-based paper glues; hot glue is fast and gap-filling on card but lumpy on paper, and its 'glue sticks' are a different thing
 
 ### Pictures, videos and models
 
@@ -752,6 +946,10 @@
   - https://hackaday.com/2018/02/05/3d-printering-printing-sticks-for-a-pla-hot-glue-gun/
   - https://learn.sparkfun.com/tutorials/connector-basics/all
   - https://en.wikipedia.org/wiki/Heat-shrink_tubing
+  - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php (WebFetch hit a verification page; read with curl)
+  - https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build
+  - https://cosplayadvice.com/using-eva-foam-for-cosplay/
+  - https://www.gluegun.com/blogs/tips-tutorials/adhesives-for-polystyrene
 
 ### Finder tags
 
@@ -772,6 +970,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, paper or card, foam, fabric, leather or cord
 
 ### Other info
 
@@ -879,6 +1120,11 @@
   - Silicone and MS-polymer adhesive sealants: flexible, gap-filling bond and seal that needs curing time
   - Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape any bonded joint so it is loaded in shear rather than peel
   - Gel 'nano tape': a clear acrylic gel tape without a foam core, used the same way for light items
+  - Adhesive tape joint and tape hinge: thin sticky tape for quick joints and bendable hinges, with no foam layer
+  - Glue stick and starch paste: paper glues; foam tape pads are used instead to lift card layers off the page
+  - Bonding fastener: a glue-on threaded stud or nut that gives a strong mounting point with no hole; foam tape is the quick, removable way to stick light mounts
+  - Panel standoff: holds a drilled sign or glass panel off the wall on metal posts; foam tape holds light signs with no holes but can't be taken apart
+  - Glass and mirror edge clips and clamps: hold a mirror or glass sheet by its edges with no glue; foam tape sticks light mirrors and panels on instead
 
 ### Pictures, videos and models
 
@@ -935,6 +1181,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: tape or pads
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, glass or mirror
 
 ### Other info
 
@@ -944,7 +1233,7 @@
 
 *adhesives & bonding.* A water-based glue that dries by soaking into porous materials like wood, paper and cork; strong on wood, with water-resistant grades
 
-*Also covers:* Also covers fabric and tacky glues (many are acrylic, not PVA) and anti-fray seam sealant.
+*Also covers:* Also covers fabric and tacky glues (many are acrylic, not PVA) and anti-fray seam sealant. Also covers PVA on foam board and polystyrene foam, and its slow drying between foam faces.
 
 ### What it is
 
@@ -985,7 +1274,7 @@
 - **adjustable**: no once set. While wet, parts can be slid into line within the open assembly time (about 3-10 minutes, depending on grade), and white glue gives more slip than yellow (Titebond; Wikipedia 'Wood glue').
 - **play_and_precision**: not applicable (nothing moves). It needs close-fitting, flat joints: PVA is a poor gap filler, and a 'gap-filling puddle will shrink as it dries' (Rockler; Woodcraft). The standard EN 205 test joint uses a 0.1 mm glue line (IVK leaflet).
 - **access_needed**: not applicable: glue is spread on the joint faces before the parts are put together and clamped
-- **materials**: Bonds well: wood (softwood and hardwood), plywood, hardboard, particleboard and MDF, veneer, paper, card, cork, leather, cloth and 'most other porous materials' (Titebond Original; FPL Table 10-1; thisTOthat). Also plastic laminates to wood in industry (FPL Table 10-1). Poor or no bond: non-porous materials such as metal, glass and most plastics, including 3D prints in PLA, PETG and ABS (Prusa: PVA/wood glues are 'probably not strong enough for most plastics'); painted, stained or sealed wood, where the bond is only as strong as the paint (Titebond FAQ); oily or tannin-rich woods such as teak and ipe unless freshly planed or wiped with acetone (Titebond FAQ); wood wetter than about 16% moisture, where it may not dry at all (Titebond FAQ); old cured PVA (Wikipedia 'Wood glue'). Acidic grades (pH 2.5-3.0) can corrode metal (Titebond II and III).
+- **materials**: Bonds well: wood (softwood and hardwood), plywood, hardboard, particleboard and MDF, veneer, paper, card, cork, leather, cloth and 'most other porous materials' (Titebond Original; FPL Table 10-1; thisTOthat). Also plastic laminates to wood in industry (FPL Table 10-1). Foam board and polystyrene foam too: PVA is 'foam-safe', while solvent glue (UHU-type) melts polystyrene foam (Studio Matrx model-making lesson). Between two foam faces it is slow to dry, because it needs air to dry; forum advice is to use it on small areas only, or use epoxy, which 'doesn't require air to dry' and won't melt the foam (Model Boat Mayhem forum, 'glueing polystyrene', 2008). Poor or no bond: non-porous materials such as metal, glass and most plastics, including 3D prints in PLA, PETG and ABS (Prusa: PVA/wood glues are 'probably not strong enough for most plastics'); painted, stained or sealed wood, where the bond is only as strong as the paint (Titebond FAQ); oily or tannin-rich woods such as teak and ipe unless freshly planed or wiped with acetone (Titebond FAQ); wood wetter than about 16% moisture, where it may not dry at all (Titebond FAQ); old cured PVA (Wikipedia 'Wood glue'). Acidic grades (pH 2.5-3.0) can corrode metal (Titebond II and III).
 - **maker_difficulty**: easy: no mixing, water cleanup and cheap. The skills are spreading an even film, working within the open time, and clamping evenly (FPL Wood Handbook ch.10; Titebond).
 
 ### Making it
@@ -1037,6 +1326,8 @@
   - Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape a joint so the glue is loaded in shear on side grain
   - Liquid seam sealant (anti-fray liquid, e.g. Fray Check (brand)): a colourless liquid dabbed on buttonholes, seams and cut edges that stops fabric fraying by reinforcing the fibres (Prym Fray Check product description); it seals an edge rather than joining two parts
   - Iron-on fusible web: a dry sheet or tape of heat-activated glue ironed between two layers of fabric to bond them, an alternative to liquid fabric glue for hems and patches
+  - Glue stick and starch paste (wheat-starch paste, methyl cellulose): milder, water-based paper glues that cockle thin paper less and can often be undone with water; bookbinders mix methyl cellulose 50/50 with PVA for more working time
+  - Score-and-slip join: how wet or leather-hard pottery and air-dry clay is joined with slip; PVA is used instead once air-dry clay has already dried
 
 ### Pictures, videos and models
 
@@ -1079,6 +1370,8 @@
   - https://aleenes.com/blogs/glossary/polyvinyl-acetate-glue
   - https://aleenes.com/a/faq
   - https://www.coolcrafting.co.uk/product/prym-fray-check/
+  - https://www.studiomatrx.org/students/model-making/cutting-and-finishing
+  - https://www.modelboatmayhem.co.uk/forum/index.php/topic,12818.0.html
 
 ### Finder tags
 
@@ -1091,7 +1384,7 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: strongest
-- **bonds_well**: wood, paper or card, fabric or leather
+- **bonds_well**: wood, paper or card, fabric or leather, foam
 - **bonds_poorly**: PLA, PETG, ABS or ASA, metal, glass or ceramic
 - **tools**: press or vice
 - **load_max**: heavy
@@ -1099,6 +1392,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: wood, paper or card, foam, clay or putty, fabric, leather or cord
 
 ### Other info
 
@@ -1107,6 +1443,8 @@
 ## 224 Contact adhesive (contact cement)
 
 *adhesives & bonding.* A rubbery glue spread on both surfaces, left to dry until tacky, then pressed together to bond instantly; good for sheets, rubber, fabric and leather
+
+*Also covers:* Also covers spray mount for paper and card, polystyrene-safe solvent contact glue, and EVA foam seams.
 
 ### What it is
 
@@ -1144,7 +1482,7 @@
 - **adjustable**: no: parts cannot be shifted once the glue films touch (DAP; 3M). Position them first on dry spacers, then pull the spacers out one at a time (DAP; Rockler).
 - **play_and_precision**: not applicable (nothing moves). Alignment must be right first time, so pre-fit all parts and use spacers or slip sheets to position large pieces (DAP; 3M). It copes with rough or porous surfaces better than thin wood glues because a thick glossy film is built up on each face ⚑ [uncertain: inferred from coating advice], but it is not a gap filler. *(⚑ parts need confirming)*
 - **access_needed**: not applicable: both faces are coated before assembly
-- **materials**: Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam (the solvents in solvent types dissolve it), copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Slippery plastics such as polyethylene, polypropylene and silicone ⚑ [uncertain: not tested in an opened source; generally poor for most glues]. *(⚑ parts need confirming)*
+- **materials**: Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam with ordinary solvent types, whose ketone solvents (acetone, MEK in DAP's) dissolve it (DAP); polystyrene-safe solvent types exist, such as UHU por (brand), a synthetic-rubber contact adhesive whose aliphatic solvents are chosen so 'the structure of the polystyrene foam is not attacked' (UHU por data sheet), so the rule is to check the solvent, not to avoid every solvent glue; copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Slippery plastics such as polyethylene, polypropylene and silicone ⚑ [uncertain: not tested in an opened source; generally poor for most glues]. *(⚑ parts need confirming)*
 - **maker_difficulty**: easy to moderate: no mixing and no clamps, but you must wait for the right dryness, get the alignment right first time, press hard everywhere, and handle flammable fumes safely (thisTOthat; DAP; 3M; Rockler).
 
 ### Making it
@@ -1169,6 +1507,9 @@
   - You can trim straight after bonding, but it reaches full strength in about 7 days; keep bonded work out of direct sun or above 150 °F (66 °C) for 72 hours (DAP).
   - Don't roll over a laminate edge with the J-roller, which can snap it (This Old House).
   - Don't thin water-based contact adhesive (3M).
+  - Spray adhesive (3M Super 77): spraying one surface (the less porous one) gives an open time of only 10-15 seconds and suits less demanding jobs; spraying both surfaces gives 1-30 minutes and a permanent bond; work at 16-27 °C (3M Super 77 data sheet).
+  - Polystyrene-safe solvent contact glue (UHU por): coat both surfaces, about 150-250 g/m², and join 5-20 minutes later, when it passes the finger test (touch-dry) (UHU por data sheet).
+  - EVA foam seams: cut both edges at 45 degrees (a bevel), which on 10 mm foam gives a natural glue channel; coat both surfaces (one side gives 'maybe 30%' of the strength), wait 3-5 minutes until tacky, and let it cure at least 30 minutes before stressing the joint (Costumary). Heat-form curves before gluing, because foam glued flat into a curve keeps springing back and pulls the seams apart over time (Costumary).
 
 ### When to use it
 
@@ -1177,11 +1518,11 @@
   - The soles of shoes glued to the uppers, and shoe repairs (Wikipedia 'Impact glue'; Prusa)
   - EVA foam cosplay armour and props glued at the seams (Lumin's Workshop; CosplayShop video)
   - Cork boards, rubber mats and foam upholstery glued to boards ⚑ [uncertain: examples from the material lists in DAP and 3M, not named as products] *(⚑ parts need confirming)*
-- **when_to_use**: Use contact adhesive when you need to bond large flat areas that are hard to clamp, such as laminate, veneer, cork, foam or fabric onto board (thisTOthat: 'ideal when it is awkward to clamp, or when you have large surface area'; FPL); when you want an instant bond with no waiting in clamps, so the work can be trimmed straight away (DAP; 3M); and for flexible or dissimilar materials, such as leather, rubber, EVA foam, fabric and shoe soles, where a rigid glue would crack (Wikipedia; Lumin's Workshop). Choose a water-based type for foams, indoor work and less fire risk, and a solvent type for faster drying and wider material range, following each can's list (3M; DAP).
-- **when_not_to_use**: Not for load-bearing or structural joints, or anything that will carry a constant load, because it creeps and is much weaker than wood glue or epoxy (FPL Table 10-1; DAP): use PVA for wood joints and epoxy or structural adhesives elsewhere. Not where you need to slide parts into position after contact: use PVA, epoxy or double-sided tape with a liner. Not on polystyrene foam with a solvent type (use a water-based contact adhesive or foam-safe glue) (DAP; 3M). Not for rigid plastic-to-plastic joints such as 3D prints: use CA, epoxy or solvent welding (Prusa). Not for small, tight-fitting joinery such as dowels or mortise and tenon, where the parts would grab before they are home ⚑ [uncertain: reasoning]. Not near sparks or flames, or in small unventilated rooms, with a solvent type: use a non-flammable water-based type (FPL; Rockler; 3M). Not for permanently wet or hot places, such as behind a stove or outdoors in full sun, without checking the rating (FPL; DAP). *(⚑ parts need confirming)*
+- **when_to_use**: Use contact adhesive when you need to bond large flat areas that are hard to clamp, such as laminate, veneer, cork, foam or fabric onto board (thisTOthat: 'ideal when it is awkward to clamp, or when you have large surface area'; FPL); when you want an instant bond with no waiting in clamps, so the work can be trimmed straight away (DAP; 3M); and for flexible or dissimilar materials, such as leather, rubber, EVA foam, fabric and shoe soles, where a rigid glue would crack (Wikipedia; Lumin's Workshop). Choose a water-based type for foams, indoor work and less fire risk, and a solvent type for faster drying and wider material range, following each can's list (3M; DAP). Spray adhesive (spray mount) is the spray form used for mounting paper, card, fabric and foam: 3M Super 77 gives 'temporary and permanent lightweight bonds' on papers, cardboard, fabrics and foams; spray one surface for lighter jobs, or both surfaces for a permanent bond (3M Super 77 data sheet). For EVA foam armour it gives 'the strongest foam bonds' if you wait for it to go tacky (Costumary), and solvent-based contact cement is also used to glue the hook side of hook-and-loop patches inside ABS cosplay armour for flexible attachment points (xposeddesigns).
+- **when_not_to_use**: Not for load-bearing or structural joints, or anything that will carry a constant load, because it creeps and is much weaker than wood glue or epoxy (FPL Table 10-1; DAP): use PVA for wood joints and epoxy or structural adhesives elsewhere. Not where you need to slide parts into position after contact: use PVA, epoxy or double-sided tape with a liner. Not on polystyrene foam with an ordinary solvent type (use a water-based contact adhesive, a polystyrene-safe solvent type such as UHU por (brand), or another foam-safe glue) (DAP; 3M; UHU por data sheet). Not for rigid plastic-to-plastic joints such as 3D prints: use CA, epoxy or solvent welding (Prusa). Not for small, tight-fitting joinery such as dowels or mortise and tenon, where the parts would grab before they are home ⚑ [uncertain: reasoning]. Not near sparks or flames, or in small unventilated rooms, with a solvent type: use a non-flammable water-based type (FPL; Rockler; 3M). Not for permanently wet or hot places, such as behind a stove or outdoors in full sun, without checking the rating (FPL; DAP). *(⚑ parts need confirming)*
 - **environment_limits**: Heat: it softens as it warms; DAP rates its solvent cement for service from -40 °F to 150 °F (-40 to 66 °C), and 3M's water-based Fastbond 30-NF drops from about 480 psi overlap shear at 23 °C to 60 psi at 82 °C (180 °F) (DAP; 3M). Creep: bonds 'creep under static load' (FPL Table 10-1), and 3M's laminate static-shear results fall with time at 82 °C. Water: solvent neoprene types claim resistance to water and weather, while FPL rates elastomeric contact adhesives as having low resistance to water and damp atmospheres (DAP; FPL). Cold: apply above 65 °F (18 °C); cured 3M film is stronger in shear at -34 °C but its peel strength drops to about 8.8 N/cm (DAP; 3M). Sunlight: keep new bonds out of direct sun for 72 hours (DAP); long-term UV ageing ⚑ [uncertain: no data found]. Solvents: cleaning a bonded joint with solvent weakens it (3M). Shelf life about 12 months for DAP's solvent cement (DAP). *(⚑ parts need confirming)*
-- **safety_notes**: Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acetate, petroleum spirits and methyl ethyl ketone with a flash point of -10 °C (14 °F), and the FPL warns that in small, unventilated spaces the solvent vapour can build up and explode if ignited. Work with doors or windows open, or wear a vapour respirator, and keep away from sparks, flames and pilot lights (Rockler; 3M; Wikipedia 'Impact glue'). The solvents are generally toxic if breathed; follow the label and SDS (FPL). Neoprene glue is abused as an inhalant, which can cause brain damage or death, and in the UK it is illegal to sell it to people likely to use it that way, so store it away from children (Wikipedia 'Impact glue'). Don't clean skin with solvents; use soap and warm water (DAP). Water-based types are non-flammable when wet and low-emitting (3M). Parts grab instantly, so keep fingers out from between large coated sheets while positioning ⚑ [uncertain: general advice]. *(⚑ parts need confirming)*
-- **common_failures**: 1) Bonding too soon, while the film is still wet: 'the most common mistake', leading to weak bonds, bubbles and blisters; wait until touch-dry (thisTOthat). 2) Surfaces won't grab: glue left too long, dust on it, or too little glue; apply another coat (3M; thisTOthat). 3) Dull, starved patches on porous materials: not enough glue; apply two coats (3M; DAP). 4) Blisters or bubbles appear later: not enough rolling pressure, or air trapped; roll hard from the centre out (DAP; Rockler). 5) Sheet lands in the wrong place and can't be moved: use dowels or slip sheets (DAP; 3M). 6) Foam or plastic melts or distorts: solvent attack; use a water-based type and test first (DAP). 7) Edges lift or laminate creeps near heat or in sun, or under constant load (FPL; DAP). 8) Cracked laminate edge from rolling over the edge (This Old House). 9) Poor bond in a cold room: below 65 °F (DAP; 3M). 10) Seams on EVA foam pop open when heat-shaped after gluing ⚑ [uncertain: reported in cosplay guides seen only in search results]. *(⚑ parts need confirming)*
+- **safety_notes**: Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acetate, petroleum spirits and methyl ethyl ketone with a flash point of -10 °C (14 °F), and the FPL warns that in small, unventilated spaces the solvent vapour can build up and explode if ignited. Work with doors or windows open, or wear a vapour respirator, and keep away from sparks, flames and pilot lights (Rockler; 3M; Wikipedia 'Impact glue'). The solvents are generally toxic if breathed; follow the label and SDS (FPL). Neoprene glue is abused as an inhalant, which can cause brain damage or death, and in the UK it is illegal to sell it to people likely to use it that way, so store it away from children (Wikipedia 'Impact glue'). Don't clean skin with solvents; use soap and warm water (DAP). Water-based types are non-flammable when wet and low-emitting (3M). Parts grab instantly, so keep fingers out from between large coated sheets while positioning ⚑ [uncertain: general advice]. Spray adhesive: both the solvent and the propellant are flammable, and 3M Super 77 contains 534 g/L of volatile organic compounds (3M Super 77 data sheet). UHU por is highly flammable too (flash point about -5 °C; UHU por data sheet). For EVA foam work indoors, Costumary advises good ventilation and a half-face respirator with organic vapour cartridges, not a dust mask. *(⚑ parts need confirming)*
+- **common_failures**: 1) Bonding too soon, while the film is still wet: 'the most common mistake', leading to weak bonds, bubbles and blisters; wait until touch-dry (thisTOthat). 2) Surfaces won't grab: glue left too long, dust on it, or too little glue; apply another coat (3M; thisTOthat). 3) Dull, starved patches on porous materials: not enough glue; apply two coats (3M; DAP). 4) Blisters or bubbles appear later: not enough rolling pressure, or air trapped; roll hard from the centre out (DAP; Rockler). 5) Sheet lands in the wrong place and can't be moved: use dowels or slip sheets (DAP; 3M). 6) Foam or plastic melts or distorts: solvent attack; use a water-based type and test first (DAP). 7) Edges lift or laminate creeps near heat or in sun, or under constant load (FPL; DAP). 8) Cracked laminate edge from rolling over the edge (This Old House). 9) Poor bond in a cold room: below 65 °F (DAP; 3M). 10) Seams on EVA foam pull apart over time when flat pieces are glued into a curve or stretched while joining: heat-form the curve first, then glue (Costumary). A hot-glue backup seam is a poor idea if the piece will be heat-formed later, because hot glue 'will start to melt when you use a heatgun' (cosplayadvice.com).
 - **related**: 
   - Rubber cement: a similar rubber-in-solvent glue used for paper crafts; peels off cleanly when used on one side, and can act as a contact adhesive when put on both
   - Elastomeric solvent glue (flexible craft glue): also rubbery and flexible but applied wet to one side and positioned before it sets
@@ -1191,6 +1532,7 @@
   - Hot-melt adhesive (glue gun): also fast, but a thick, heat-sensitive bead rather than a thin film
   - Polyurethane glue: a moisture-curing glue that also bonds foam and many materials, but foams and needs clamping
   - Silicone and MS-polymer adhesive sealants: flexible and waterproof, for joints that must also seal
+  - Glue stick and starch paste: the mild water-based glues for paper and card, often undone with water; for paper and card, contact adhesive is mostly met as spray mount or rubber cement
 
 ### Pictures, videos and models
 
@@ -1224,6 +1566,11 @@
   - https://www.youtube.com/watch?v=iPHEUvkJPGE
   - https://www.youtube.com/watch?v=Oqh01j7ZG_s
   - https://api.printables.com/graphql/ (models 321669, 1130696, 1065435, 236948)
+  - https://cdn.shopify.com/s/files/1/0264/4272/7498/files/3M_Super_77_Adhesive_Technical_Data_Sheet.pdf
+  - https://static.rapidonline.com/pdf/64-1845t_v1.pdf
+  - https://www.costumary.com/blog/eva-foam-clean-builds
+  - https://cosplayadvice.com/using-eva-foam-for-cosplay/
+  - https://www.xposeddesigns.com/blog/how-to-attach-cosplay-armor-to-a-bodysuit-without-the-straps-showing
 
 ### Finder tags
 
@@ -1244,10 +1591,53 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, fabric, leather or cord
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, everyday_examples, making_tips_3d_printing, materials, play_and_precision, processes, removability, safety_notes, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, everyday_examples, making_tips_3d_printing, materials, play_and_precision, processes, removability, safety_notes, when_not_to_use
 
 ## 225 Polyurethane glue (foaming moisture-cure glue)
 
@@ -1392,6 +1782,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, carbon fibre or composites, glass or mirror
 
 ### Other info
 
@@ -1534,6 +1967,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, glass or mirror
 
 ### Other info
 
@@ -1542,6 +2018,8 @@
 ## 227 Silicone and MS-polymer adhesive sealants
 
 *adhesives & bonding.* Rubbery glues that cure from moisture in the air into a flexible, waterproof bond that also seals gaps
+
+*Also covers:* Also covers mirror adhesive and aquarium silicone.
 
 ### What it is
 
@@ -1603,6 +2081,8 @@
   - Hybrid bonding bead: 2-10 mm wide for bonding; sealing joints 5-30 mm wide and at least 5 mm deep (Soudal Fix ALL High Tack data sheet).
   - Temperature range: general-purpose silicone about -60 to +180 °C, with short peaks to 205 °C (Dow 732 data sheet); MS/hybrid about -40 to +90 °C (Soudal data sheet).
   - A properly designed and installed silicone building joint typically lasts about 20 years (Dow Corning Americas Technical Manual, p. 68).
+  - Mirrors: use a mirror adhesive, because the adhesive must hold the mirror without damaging the protective coating over the silver (Bostik); Soudal's is a neutral-cure (alkoxy), solvent-free type that 'does not react with the silver backing', and Bostik's hybrid (MS) mirror adhesive is 'compatible with most common silver backing coatings'. Check the back coating for scratches first ('Do not bond a damaged mirror'), apply vertical beads, and add double-sided mirror tape 'for an initial tack and to create the necessary ventilation behind the mirror' (Soudal Trade Mirror Adhesive). Bead spacing differs between makers: 10-20 cm apart (Soudal) or ideally 20-40 cm apart (Bostik); follow the label of the product you use.
+  - Glass aquariums (Den Braven Aqua-Silicone, an acetoxy silicone): leave a 1-2 mm joint of sealant between the panes and between sides and bottom, finish inside corners with a triangular fillet of 3-5 mm depending on the water level, let it cure fully (up to 1 week) before moving or filling, and rinse several times; it is 'Not suitable for aquaria larger than 1000 litres and/or higher than 60cm', or for PE, PP, PC or PMMA (acrylic); glass thickness is chosen to DIN 32622 (Aqua-Silicone data sheet).
 
 ### When to use it
 
@@ -1612,7 +2092,7 @@
   - Window glazing and glass building facades held by structural silicone (Wikipedia 'Silicone'; Wikipedia 'Sealant')
   - RTV 'gasket maker' squeezed onto car engine flanges instead of a cut gasket (Loctite design guide: oxime silicones in automotive gasketing)
 - **when_to_use**: Use it when a joint has to be waterproof and flexible at the same time: sealing seams, lids and cable holes in enclosures, bonding glass, mirrors, tiles or panels where parts expand and contract differently, and damping vibration or rattles (Wikipedia 'Sealant'; Loctite design guide; Soudal data sheet). Choose silicone for heat (up to about 180 °C), strong sunlight, wet areas and glass (Dow data sheet; Wikipedia 'Silicone'). Choose MS/hybrid polymer when you need a stronger, faster-grabbing bond, want to paint over it, are gluing to damp or porous building materials, or want to avoid isocyanates and vinegar smell (Soudal data sheet; Wikipedia 'Silyl modified polymers').
-- **when_not_to_use**: Don't use it where the joint must be stiff or carry high loads: use epoxy, CA or screws (Loctite design guide: low cohesive strength). Don't use it on PE, PP or PTFE (Dow data sheet; Soudal data sheet), or silicone on acrylic (Wikipedia 'Silicone'). Don't use plain silicone where it will be painted (use MS polymer or acrylic caulk) (Soudal data sheet; Sashco). Avoid acetoxy silicone on copper, brass, bare steel or electronics, especially in closed boxes; use neutral cure (Dow data sheet; Loctite design guide). Avoid very thick or fully enclosed beads that air can't reach (Dow Corning technical manual; Loctite design guide), gas-tight or vacuum seals (Wikipedia 'Silicone'), and, for the MS sealant tested, continuous underwater use, aquariums and glazing (Soudal data sheet). For reusable, pressure-proof seals on printed parts, use an O-ring (Prusa watertight printing, part 2).
+- **when_not_to_use**: Don't use it where the joint must be stiff or carry high loads: use epoxy, CA or screws (Loctite design guide: low cohesive strength). Don't use it on PE, PP or PTFE (Dow data sheet; Soudal data sheet), or silicone on acrylic (Wikipedia 'Silicone'). Don't use plain silicone where it will be painted (use MS polymer or acrylic caulk) (Soudal data sheet; Sashco). Avoid acetoxy silicone on copper, brass, bare steel or electronics, especially in closed boxes; use neutral cure (Dow data sheet; Loctite design guide). Avoid very thick or fully enclosed beads that air can't reach (Dow Corning technical manual; Loctite design guide), gas-tight or vacuum seals (Wikipedia 'Silicone'), and, for the MS sealant tested, continuous underwater use, aquariums and glazing (Soudal data sheet). For reusable, pressure-proof seals on printed parts, use an O-ring (Prusa watertight printing, part 2). For mirrors, use a mirror adhesive (neutral-cure or hybrid, solvent-free) rather than general-purpose or aquarium silicone, which is acetoxy (Soudal; Bostik; Aqua-Silicone data sheet) ⚑ [uncertain: no opened source tests acetoxy silicone on a mirror backing; the advice follows from the makers' warnings about the silver coating]. Aquarium silicone does not suit acrylic (PMMA) or polycarbonate tanks either (Aqua-Silicone data sheet). *(⚑ parts need confirming)*
 - **environment_limits**: Heat and cold: general-purpose silicone stays flexible from -60 °C to +180 °C, with short peaks to 205 °C, or to 230 °C for the black grade (Dow data sheet); MS/hybrid about -40 °C to +90 °C (Soudal data sheet). Sunlight: silicone has 'extreme UV resistance' and is used on roofs for decades (Wikipedia 'Silicone'); MS polymers have good UV resistance but can discolour after long exposure (Soudal data sheet; Wikipedia 'Silyl modified polymers'). Water: silicone is water-, mould- and mildew-resistant (Wikipedia 'Caulk'); the MS sealant tested resists salt water but is not for continuous immersion (Soudal data sheet). Chemicals: silicones are swelled by non-polar solvents (Loctite design guide); MS polymer resists water, aliphatic solvents, alcohols and dilute acids but not aromatic solvents, concentrated acids or chlorinated solvents (Soudal data sheet). Curing needs humidity; cold and dry air slow it (Dow data sheet). Silicone rubber lets gases through, so it is not gas-tight (Wikipedia 'Silicone'). Soap residue and dirt on bathroom joints encourage mould (Soudal data sheet). Lifetime: about 20 years for a good silicone building joint (Dow Corning technical manual).
 - **safety_notes**: Acetoxy silicones give off acetic acid (vinegar) while curing, which irritates eyes and lungs, so ventilate; it can also corrode metals and electronics (Wikipedia 'Silicone'; Dow data sheet). Oxime-cure silicones give off methyl ethyl ketoxime (MEKO) (Loctite design guide), which the EU has classified as a presumed carcinogen ⚑ [uncertain]: reported in search results, not verified on an opened page. MS polymers give off small amounts of methanol as they cure (Wikipedia 'Silyl modified polymers' reaction), but contain no isocyanates, unlike polyurethane sealants (Wikipedia 'Silyl modified polymers'; Soudal data sheet). Keep uncured sealant off skin and out of eyes, and read the label and safety data sheet (Soudal data sheet: 'Dangerous. Respect the precautions for use'). Not all silicones are safe for fish or food: use aquarium-safe or food-contact grades where needed (Wikipedia 'Silicone'; Dow data sheet: FDA 177.2600 compliance). *(⚑ parts need confirming)*
 - **common_failures**: The bead peels off because the surface was dirty, greasy or damp, or was PE, PP, PTFE or old silicone residue; clean with isopropyl alcohol, remove old silicone completely, and use a primer where the maker recommends one (Dow data sheet; Sashco; Soudal data sheet). The middle of a thick or enclosed bead stays soft because air moisture can't reach it; keep beads shallow and open to air (Loctite design guide; Dow Corning technical manual). The bead tears when the joint moves, because it stuck to the bottom of the joint as well as the sides (three-sided adhesion), or the joint was too narrow or too deep (Dow Corning technical manual). Lumpy or wrinkled finish from tooling after the skin had formed; smooth within 5-10 minutes and pull masking tape while wet (GE Sealants; Dow Corning technical manual). Green corrosion or failed electronics under acetoxy silicone in a closed box (Dow data sheet). Paint beading up or peeling on silicone (Sashco). Black mould on bathroom joints from soap and dirt (Soudal data sheet). Discolouration and loss of grip next to EPDM, neoprene or butyl rubber (Soudal data sheet). Using it as a structural glue and finding the joint too weak or springy (Loctite design guide).
@@ -1626,6 +2106,9 @@
   - Double-sided foam tape: an instant, flexible, clean bond for mounting, but not a gap-filling seal
   - Silicone mouldable glue (e.g. Sugru, brand): silicone rubber you shape by hand like clay, which hardens at room temperature and sticks to glass and aluminium (Wikipedia 'Silicone')
   - Melted plastic weld: for a watertight printed tank or box, makers suggest welding the printed seams first (e.g. with a soldering iron) and then sealing the whole thing, warning that 'silicone on its own might not be enough' (r/3Dprinting thread read through the Arctic Shift archive)
+  - Glass and mirror edge clips and clamps: hold a mirror or glass sheet by its edges with clips or padded clamps instead of gluing it on
+  - Copper-foil joint (Tiffany method): joins pieces of stained glass with soldered copper foil instead of glue; silicone is used for clear glass-to-glass seams such as aquariums
+  - Glazing in a rebated frame (glazier's points, putty, glazing bead): holds a pane in a frame rebate; silicone is the modern bedding in place of putty
 
 ### Pictures, videos and models
 
@@ -1665,6 +2148,9 @@
   - https://api.printables.com/graphql/
   - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
   - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
+  - https://www.soudal.co.uk/diy/products/trade-range/adhesive/trade-mirror-adhesive
+  - https://www.bostik.com/global/en/knowledge-list/knowledge/mirror-bonding-adhesive
+  - https://www.bostik.com/assets/bostik/TDS_Aqua%20Silicone_en_ZA.pdf
 
 ### Finder tags
 
@@ -1685,14 +2171,59 @@
 - **adjustable**: partly
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: metal, plastic, fabric or a gap
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, glass or mirror
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, materials, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, materials, reuse_cycles, safety_notes, when_not_to_use
 
 ## 228 Elastomeric solvent glue (flexible craft glue)
 
 *adhesives & bonding.* Thick, clear, rubbery solvent-based glues that stay flexible, for bonding dissimilar materials, fabric, shoes and jewellery
+
+*Also covers:* Also covers why E6000 is a poor choice on polymer clay.
 
 ### What it is
 
@@ -1734,7 +2265,7 @@
 - **adjustable**: Only while wet: parts can be slid into position for a few minutes (the Loctite flexible adhesive 'can be repositioned while the adhesive is still wet'), but once two tacky coated faces are pressed together the bond is immediate and 'difficult to reposition' (E6000 Craft data sheet; Henkel data sheet). After curing, no.
 - **play_and_precision**: not applicable (it does not locate parts). The thick glue fills small gaps and uneven surfaces, but the rubbery layer lets parts shift slightly under load, so it is not for precise alignment; use a jig, tape or locating pins.
 - **access_needed**: not applicable: glue goes on the joint faces before assembly, or is run along a seam or crack from one side
-- **materials**: Goop and Shoe Goo are a styrene-butadiene synthetic rubber in toluene and petroleum naphtha (safety data sheets); current US E6000 Craft also uses toluene and petroleum distillates, but the sheets opened here don't name its rubber ⚑ [uncertain]. Older and Canadian formulas used perchloroethylene, and E6000 Premium uses n-propyl acetate (2013 E6000 SDS; 2016 and 2025 E6000 Craft data sheets; thisTOthat; E6000 Premium data sheet). Note the conflict: thisTOthat calls Household Goop 'silicone-based', but the manufacturer's safety data sheet lists styrene-butadiene rubber and no silicone. Bonds well: wood, metal, glass, fibreglass, ceramics, masonry and concrete, leather, rubber, vinyl, PVC, neoprene, fabric and many plastics (E6000 Craft and Industrial data sheets); gems, beads, polymer clay and jewellery metals (E6000 Premium Jewelry & Bead). E6000 Premium claims to bond most 3D-printing plastics, ABS, polycarbonate, acrylic and polystyrene. Makers report good results on PLA (Blue Paper Tech) and on flexible TPU prints (Snapmaker), but no manufacturer test on PLA, PETG or TPU was found ⚑ [uncertain]. Poor or not recommended: polyethylene (PE), polypropylene (PP), polystyrene and Styrofoam (for standard E6000), paper, and finished surfaces that the solvent may damage (E6000 Craft and Industrial data sheets). Not for anything in contact with food, drinking water or animals (E6000 Craft data sheet). *(⚑ parts need confirming)*
+- **materials**: Goop and Shoe Goo are a styrene-butadiene synthetic rubber in toluene and petroleum naphtha (safety data sheets); current US E6000 Craft also uses toluene and petroleum distillates, but the sheets opened here don't name its rubber ⚑ [uncertain]. Older and Canadian formulas used perchloroethylene, and E6000 Premium uses n-propyl acetate (2013 E6000 SDS; 2016 and 2025 E6000 Craft data sheets; thisTOthat; E6000 Premium data sheet). Note the conflict: thisTOthat calls Household Goop 'silicone-based', but the manufacturer's safety data sheet lists styrene-butadiene rubber and no silicone. Bonds well: wood, metal, glass, fibreglass, ceramics, masonry and concrete, leather, rubber, vinyl, PVC, neoprene, fabric and many plastics (E6000 Craft and Industrial data sheets); gems, beads, polymer clay and jewellery metals (E6000 Premium Jewelry & Bead). E6000 Premium claims to bond most 3D-printing plastics, ABS, polycarbonate, acrylic and polystyrene. Makers report good results on PLA (Blue Paper Tech) and on flexible TPU prints (Snapmaker), but no manufacturer test on PLA, PETG or TPU was found ⚑ [uncertain]. Poor or not recommended: polyethylene (PE), polypropylene (PP), polystyrene and Styrofoam (for standard E6000), paper, and finished surfaces that the solvent may damage (E6000 Craft and Industrial data sheets). Not for anything in contact with food, drinking water or animals (E6000 Craft data sheet). A polymer clay specialist disagrees: E6000 'often does not properly set on polymer clay or becomes brittle with age', and the bond 'will degrade with heat', so it cannot be baked (The Blue Bottle Tree). *(⚑ parts need confirming)*
 - **maker_difficulty**: easy: squeeze, press and wait. The main difficulties are the long cure (a full day or more), keeping squeeze-out off visible surfaces, and working with strong solvent fumes
 
 ### Making it
@@ -1766,7 +2297,7 @@
   - Patching snowboard boots, waders and rubber boots (Wikimedia Commons photo; Shoe Goo data sheet)
   - Household fixes such as a loose towel rail or a broken teacup (Amazing Goop data sheet)
 - **when_to_use**: Use it when the joint must bend, stretch or take knocks and vibration, or when you are joining two different materials: fabric, leather, rubber, vinyl and TPU prints to themselves or to wood, metal, glass or rigid plastic (E6000 Craft and Industrial data sheets). It is good for jewellery and craft work (clear, gap-filling, washer and dryer safe), for shoe and outdoor-gear repairs where it also waterproofs and seals, and for small parts that a brittle glue would pop off when flexed (Shoe Goo and Amazing Goop data sheets; Snapmaker).
-- **when_not_to_use**: Avoid it for rigid, load-bearing plastic or metal joints: use two-part epoxy, CA or a structural adhesive (Snapmaker). Avoid it on PE, PP, polystyrene foam and paper (E6000 Craft data sheet): use a low-surface-energy adhesive or mechanical fixing. Don't use it where you need handling strength quickly: CA sets in seconds. Don't use it for food, drinking-water or pet items (E6000 Craft data sheet), for parts exposed to fuel or strong solvents that dissolve it (petrol, toluene), in constant sunlight without paint or a UV grade (E6000 Industrial and Goop data sheets), or near heat above about 66-82 °C (data sheets). If the fumes are a problem, choose a solvent-free or water-based flexible adhesive such as an MS-polymer or silicone adhesive sealant (e.g. E6000 Plus is solvent-free; E6000 Plus data sheet). For large flat areas (laminates, foam sheets) a brush-on contact cement is usually easier (thisTOthat; Wikipedia 'Adhesive').
+- **when_not_to_use**: Avoid it for rigid, load-bearing plastic or metal joints: use two-part epoxy, CA or a structural adhesive (Snapmaker). Avoid it on PE, PP, polystyrene foam and paper (E6000 Craft data sheet): use a low-surface-energy adhesive or mechanical fixing. Don't use it where you need handling strength quickly: CA sets in seconds. Don't use it for food, drinking-water or pet items (E6000 Craft data sheet), for parts exposed to fuel or strong solvents that dissolve it (petrol, toluene), in constant sunlight without paint or a UV grade (E6000 Industrial and Goop data sheets), or near heat above about 66-82 °C (data sheets). If the fumes are a problem, choose a solvent-free or water-based flexible adhesive such as an MS-polymer or silicone adhesive sealant (e.g. E6000 Plus is solvent-free; E6000 Plus data sheet). For large flat areas (laminates, foam sheets) a brush-on contact cement is usually easier (thisTOthat; Wikipedia 'Adhesive'). On polymer clay, don't rely on it for earring posts or anything that will be baked again: The Blue Bottle Tree says 'Do not use E6000' for earring posts and that 'you cannot bake E6000'; bake metal findings into the clay, or join clay to clay with liquid clay and bake (see Liquid-clay bond).
 - **environment_limits**: Heat: E6000 and Amazing Goop withstand -40 to 82 °C (-40 to 180 °F) intermittently, Shoe Goo -40 to 66 °C (E6000 Craft, Goop and Shoe Goo data sheets); the Loctite flexible polyurethane type is 'not for applications over 140 °F (60 °C)' (Henkel data sheet). Cold: stays flexible and 'does not become brittle in cold weather' (E6000 Craft data sheet). Water: waterproof after full cure, can be submerged in fresh and salt water, and survives washing machines and tumble dryers but not dry cleaning (E6000 Industrial and Amazing Goop data sheets). Sunlight: no UV resistance; paint over it or use a UV grade (Goop and Shoe Goo data sheets; E6000 Industrial). Chemicals: excellent resistance to water, dilute acids and bases, antifreeze and motor oil; thin films immersed for two weeks gained under 2% weight and lost under 10% strength, but it is dissolved by petrol, toluene, cyclohexane, perchloroethylene and propyl acetate (Shoe Goo and E6000 Craft data sheets). Creep: as a soft rubber it can slowly give under a constant load ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: The solvents are the main hazard. US Goop and Shoe Goo contain 25-50% toluene plus petroleum naphtha: highly flammable liquid and vapour (flash point about 0-4 °C for Goop), harmful if swallowed, eye and skin irritant, may cause drowsiness or dizziness, suspected of damaging the unborn child, and may damage organs with prolonged or repeated exposure (Goop and Shoe Goo safety data sheets; E6000 Craft data sheet California Prop 65 warning). Older and Canadian formulas used perchloroethylene (tetrachloroethylene), a suspected carcinogen (2013 E6000 SDS; thisTOthat), so read the label of the tube you have. Work with good ventilation, away from flames and sparks, keep it away from children, and never deliberately inhale it (Henkel label: misuse by inhaling 'may be harmful or fatal'). Wear gloves (nitrile recommended for the Loctite version; Henkel data sheet). It can damage painted or finished surfaces and some plastics before it dries (E6000 Craft data sheet). Don't use it on items for food, drinking water or animals (E6000 Craft data sheet).
 - **common_failures**: Loading the joint too early: it only sets in 20-45 minutes and needs 24-72 hours to reach full strength, longer for thick beads (data sheets; thisTOthat). Parts that simply peel off PE, PP or polystyrene, or off greasy, dusty or glossy surfaces; roughen and clean first (E6000 Craft data sheet). Moving the parts after two tacky faces have touched: the bond grabs at once and repositioning weakens it (E6000 Craft data sheet). Joints that sag or creep because the glue is soft rubber, when a rigid glue was needed (Snapmaker) ⚑ [uncertain]. Sunlight breaking down unpainted glue outdoors (Goop and Shoe Goo data sheets). Solvent damage: crazed or melted polystyrene, foam or painted finishes, and printed applicators that go soft or brittle (E6000 Craft data sheet; Printables 1101848 and 1133417). Glue smeared on visible faces; wipe wet glue with acetone or citrus cleaner, cut away cured glue (E6000 Craft data sheet). A cap glued shut; smear petroleum jelly on the tube threads (E6000 Craft data sheet). *(⚑ parts need confirming)*
@@ -1780,6 +2311,7 @@
   - Solvent welding (solvent cement): fuses plastics such as ABS, PVC or acrylic into one piece; rigid
   - Polyurethane flexible solvent adhesives, e.g. vinyl and inflatable repair glues: thinner liquids for vinyl, PVC and fabric patches (Henkel data sheet)
   - Sewing, rivets and snap fasteners: mechanical alternatives for fabric and leather that don't need solvent
+  - Liquid-clay bond (bakeable clay glue): the usual way to join polymer clay to itself, by brushing on liquid clay and baking; E6000 often fails to set on polymer clay and can't be baked
 
 ### Pictures, videos and models
 
@@ -1819,6 +2351,8 @@
   - https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg
   - https://www.youtube.com/watch?v=hsmqOMNsekg
   - https://www.youtube.com/watch?v=R_r53OCHYKU
+  - https://thebluebottletree.com/best-glue-for-polymer-clay/
+  - https://thebluebottletree.com/securing-polymer-clay-earring-post-backs-whats-the-best-way/
 
 ### Finder tags
 
@@ -1839,6 +2373,49 @@
 - **adjustable**: partly
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, clay or putty, carbon fibre or composites, glass or mirror, fabric, leather or cord
 
 ### Other info
 
@@ -1984,6 +2561,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 
@@ -2076,7 +2696,8 @@
   - Magnets: removable mounting on steel surfaces
   - Screws and wall plugs (anchors): for heavy or permanent loads
   - Contact adhesive and other glues: permanent bonds
-  - Gel 'nano tape': reusable, washable acrylic gel tape for very light items ⚑ [uncertain] *(⚑ parts need confirming)*
+  - Gel 'nano tape': reusable, washable acrylic gel tape for very light items ⚑ [uncertain]
+  - Adhesive tape joint and tape hinge (pressure-sensitive tape): ordinary tapes grip under finger pressure the same way, but are not made to stretch off cleanly; a strip across a gap also makes a light hinge *(⚑ parts need confirming)*
 
 ### Pictures, videos and models
 
@@ -2127,6 +2748,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: tape or pads
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
 
 ### Other info
 
@@ -2221,6 +2885,7 @@
   - Contact adhesive (contact cement): a modern way to lay veneer without a press, but not reversible (Fine Woodworking #129 compares it unfavourably for veneering)
   - Hot-melt adhesive (glue gun): also sets by cooling, but is a soft plastic that fills gaps and is weak in wood joints
   - Polyurethane glue: water-resistant and gap-filling (foams), for outdoor wood; not reversible (Woodcraft)
+  - Paper glue stick and starch or cellulose paste: mild water-based glues for paper and card that are often reversible with water, as hide glue is with heat and moisture
 
 ### Pictures, videos and models
 
@@ -2274,6 +2939,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: wood, paper or card, fabric, leather or cord
 
 ### Other info
 
@@ -2282,6 +2990,8 @@
 ## 232 Epoxy putty (kneadable two-part putty)
 
 *adhesives & bonding.* Two doughs kneaded together that set hard in place, for filling gaps, repairing and building up shapes that can then be drilled and tapped
+
+*Also covers:* Also covers epoxy putty as the no-bake sculpting material over 3D prints, as armature reinforcement, and as a filler that locks pins in oversized holes.
 
 ### What it is
 
@@ -2355,7 +3065,7 @@
   - Miniature and wargaming figures sculpted or converted with 'green stuff' (Wikipedia)
   - A chipped porcelain figure or pottery restored with Milliput and painted to match (Milliput data sheet; Wikipedia)
   - A stripped screw hole on a drawer pull filled and re-drilled; J-B Weld lists this among its home repair guides (J-B Weld)
-- **when_to_use**: Use it when you need to fill, rebuild or plug rather than just glue a thin line: filling holes, cracks and gaps; rebuilding a broken corner or missing piece; patching a leak in a pipe, tank or boat; restoring worn metal or rotten wood; and making a solid spot that can then be drilled and tapped for a screw (Loctite EA 3463; Loctite Repair Putty; J-B Weld; Milliput on Wikipedia). Its modelling-clay consistency lets it be shaped and formed before it cures (Loctite Repair Putty), and underwater-rated types handle damp or wet repairs (Loctite Repair Putty; Loctite EA 3463). For 3D prints it fills seams and gaps between glued parts, repairs broken prints and adds sculpted detail (Tinkerine video; Wikipedia).
+- **when_to_use**: Use it when you need to fill, rebuild or plug rather than just glue a thin line: filling holes, cracks and gaps; rebuilding a broken corner or missing piece; patching a leak in a pipe, tank or boat; restoring worn metal or rotten wood; and making a solid spot that can then be drilled and tapped for a screw (Loctite EA 3463; Loctite Repair Putty; J-B Weld; Milliput on Wikipedia). Its modelling-clay consistency lets it be shaped and formed before it cures (Loctite Repair Putty), and underwater-rated types handle damp or wet repairs (Loctite Repair Putty; Loctite EA 3463). For 3D prints it fills seams and gaps between glued parts, repairs broken prints and adds sculpted detail (Tinkerine video; Wikipedia). For sculpting over a 3D print it is the no-bake choice: baking a PLA print under polymer clay "will not end well", and makers suggest "a 2 part epoxy clay for this purpose" such as Apoxie Sculpt or Magic Sculpt (r/polymerclay thread, read through the Arctic Shift archive). Sculptors also press a thin layer over a finished wire armature to reinforce it, let it cure for 24 hours, then build clay over it (Make: 'How to Sculpt a Fantasy Owl': "Any 2-part epoxy putty will work"), and modellers pack it into an oversized pin hole to lock a pin in place (pinning; Starship Modeler forum: "stuff the surrounding hole and the joint surface with apoxy putty to lock the pin down").
 - **when_not_to_use**: For thin, close-fitting glue joints use liquid epoxy or CA, which flow into a thin bond line; the putty's own lap-shear strength is modest (3.8 MPa for Loctite EA 3463 on steel; Henkel). Don't use it for structural or load-bearing joints, parts that flex or move, or large or deep holes (Loctite Repair Putty). Avoid it on polyethylene, polypropylene, non-stick (PTFE) surfaces, nylon and flexible materials; use a low-surface-energy adhesive, plastic welding (see Melted plastic weld) or mechanical fasteners there (Loctite Repair Putty). Avoid it for hot parts beyond its rating (e.g. above 70 °C for load-bearing Loctite Repair Putty bonds) and in pure-oxygen systems (Henkel). If the parts must come apart later, use screws, threaded inserts or a removable joint. For a smooth cosmetic finish over large areas of a print, spray filler or body filler sands more easily (Prusa post-processing guide).
 - **environment_limits**: Heat: it will not melt once cured (Wikipedia), but it softens and weakens: Loctite Repair Putty is rated to 121 °C for fills and 70 °C for load-bearing bonds, Loctite EA 3463 has a glass transition temperature of 54 °C, and J-B Weld SteelStik claims 177 °C (350 °F) (Henkel; J-B Weld). Cold: Loctite Repair Putty is rated down to -27 °C, and the uncured putty is not damaged by freezing (Henkel). Water: waterproof and resistant to most common solvents once cured, and some grades cure under water, but bonds made on wet surfaces are weaker (Loctite Repair Putty; Loctite EA 3463). Oil: J-B Weld lists SteelStik as water and oil resistant. Flexing and vibration: very little stretch (0.3% elongation for EA 3463), so it cracks if the part bends or moves (Henkel). Long-term creep and UV behaviour were not found in the sources opened ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: Uncured epoxy can cause allergic skin reactions and irritate eyes, skin and airways: wear impervious (e.g. nitrile) gloves and wash hands after use (Loctite Repair Putty; Milliput instructions). Don't lick fingers or tools to smooth it, a habit among sculptors that the Milliput data sheet calls 'inadvisable on health grounds'; use water or a lubricant instead. Don't breathe the dust when sanding cured putty (Loctite Repair Putty). Loctite's label carries a California Proposition 65 cancer warning and 'may cause allergic skin reaction'. The mixing reaction gives off heat (Wikipedia), so a large lump can get warm ⚑ [uncertain]. Keep out of reach of children, and don't use steel-filled putty in pure-oxygen or chlorine systems (Henkel; Milliput). *(⚑ parts need confirming)*
@@ -2369,6 +3079,10 @@
   - Structural acrylic and low-surface-energy plastic adhesives: for PE and PP, which epoxy putty cannot bond (Loctite Repair Putty limitation)
   - Silicone and MS-polymer sealants: flexible, waterproof gap-fillers where the joint moves; epoxy putty is rigid
   - Melted plastic weld: for a watertight printed tank, makers suggest welding the seams first (e.g. with a soldering iron) and then sealing, using 'glue and sealer' rather than one product alone (r/3Dprinting thread read through the Arctic Shift archive)
+  - Pinned glue joint (pinning): a wire or rod pin glued into holes in both parts; epoxy putty can be packed round the pin in an oversized hole to lock it (Starship Modeler forum)
+  - Liquid-clay bond (bakeable clay glue): joins polymer clay parts by baking them again; epoxy putty sets at room temperature with no bake
+  - Score-and-slip join (scratch and slip): joins soft water-based clay parts as they dry; epoxy putty sets by chemical reaction instead and does not shrink
+  - Sculpture armature (wire and foil armature): the wire skeleton that clay or putty is built over; a thin layer of epoxy putty can reinforce it (Make: owl project)
 
 ### Pictures, videos and models
 
@@ -2400,6 +3114,9 @@
   - https://api.printables.com/graphql/
   - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
   - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
+  - https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1loknv6
+  - https://makezine.com/projects/how-to-sculpt-a-fantasy-owl
+  - https://mail.starshipmodeler.net/talk/viewtopic.php?p=983361
 
 ### Finder tags
 
@@ -2420,6 +3137,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: metal, plastic, fabric or a gap
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, clay or putty, carbon fibre or composites, glass or mirror
 
 ### Other info
 
@@ -2428,6 +3188,8 @@
 ## 270 Glued joint design (butt, lap and scarf joints; peel vs shear)
 
 *adhesives & bonding.* How the shape of a glued joint decides its strength, since most glues are strong in shear and weak when peeled or pulled straight apart
+
+*Also covers:* Also covers bevelled seams in EVA foam, 12:1 scarf repairs in fibreglass and cored laminates, and plywood butt blocks.
 
 ### What it is
 
@@ -2469,7 +3231,7 @@
 - **adjustable**: no: position is fixed once the glue sets; only during the glue's working time (seconds for superglue, minutes to hours for epoxy and wood glue) can the parts be moved (Prusa)
 - **play_and_precision**: None once cured. Accuracy depends on how the parts are located while the glue cures: plain butt, scarf and lap joints have no self-alignment, stepped laps and scarfs are better, and tongue-and-groove is best (Loctite manual joint suitability table); pegs or alignment pins help printed parts line up (Prusa; Printpool). The glue line must be even and the faces parallel, or the load goes off-axis and turns into cleavage (Loctite manual).
 - **access_needed**: not applicable: glue goes on the mating faces before the parts are put together; clamping usually needs access to both sides of the joint
-- **materials**: Applies to any glue and material. Wood: long grain to long grain (edge-grain joints) bonds almost as strong as the wood, end grain soaks up glue and bonds poorly (Wood Handbook). Plastics and 3D prints (PLA, PETG, ABS/ASA, resin): usually stiffer glues (epoxy, superglue) on rigid parts; plastics are more flexible than metals, so flexible adhesives are generally recommended and joints should be designed against peel (Loctite manual 5.1.6; Henkel). Metals and composites: joggle, tapered, double-lap, strap and scarf joints (3M; Loctite manual). Hard-to-bond plastics such as PE, PP and silicone need special adhesives regardless of joint shape (see the adhesive entries).
+- **materials**: Applies to any glue and material. EVA foam (cosplay armour): the edges are cut at a bevel (an angle) before gluing with contact cement, so the pieces meet in a curve instead of a hard corner; on 10 mm foam the bevel 'creates a natural glue channel that strengthens the joint' (Costumary). Wood: long grain to long grain (edge-grain joints) bonds almost as strong as the wood, end grain soaks up glue and bonds poorly (Wood Handbook). Plastics and 3D prints (PLA, PETG, ABS/ASA, resin): usually stiffer glues (epoxy, superglue) on rigid parts; plastics are more flexible than metals, so flexible adhesives are generally recommended and joints should be designed against peel (Loctite manual 5.1.6; Henkel). Metals and composites: joggle, tapered, double-lap, strap and scarf joints (3M; Loctite manual). Hard-to-bond plastics such as PE, PP and silicone need special adhesives regardless of joint shape (see the adhesive entries).
 - **maker_difficulty**: easy for lap, stepped-lap and pegged joints (easy to model in CAD or cut with hand tools); moderate for scarf joints, which need a long, accurate, flat taper (1 in 8 to 1 in 12 in wood) and a jig or careful planing
 
 ### Making it
@@ -2494,6 +3256,7 @@
   - A single lap joint bends under load; reduce the end stress peaks with tapered (bevelled) ends, a joggle that brings the loads into line, a double lap or a double strap; use a scarf or stepped lap to make the stress even (Sika sections 2.3-2.4; 3M bulletin; Loctite manual 5.1.3.11-5.1.3.13, https://www.loctitex.com/en/manuals/bonding/5.1.3.11-joggle-lap-joint/). For thin plastic parts the double strap is one of the most effective joints, with straps of similar material and thickness (Loctite manual 5.1.6, https://www.loctitex.com/en/manuals/bonding/5.1.6-joints-with-plastic-and-elastomeric-substrates/).
   - Avoid butt joints on rods and tubes; use a sleeve, socket or overlapping (slip) joint that adds bonded area and bending strength (Loctite manual 5.1.5, https://www.loctitex.com/en/manuals/bonding/5.1.5-cylindrical-substrates/; 3M bulletin).
   - The standard lap-shear test mostly fails by peel at the ends of the overlap, and above a minimum overlap its length makes no difference to the breaking force (Steven Abbott, Practical Adhesion Science, https://www.stevenabbott.co.uk/practical-adhesion/g-rlap.php).
+  - Repairing a fibreglass or other laminate (scarf repair): grind the edge of the damaged area to a long slant of at least 12:1 (scarf length to laminate thickness), give the repair a rounded outline with no sharp corners, where stress concentrates, and build the patch up to the same thickness as the original laminate so it is just as stiff and doesn't crack round the edge; on a cored (sandwich) panel the 12:1 slope applies to both skins (Epoxyworks 'Common errors in fiberglass laminate repair'; West System 'Determining laminate thickness').
 
 ### When to use it
 
@@ -2502,6 +3265,7 @@
   - finger-jointed and scarf-jointed timber and plywood, made by gluing long slanted ends together (Wood Handbook)
   - car windscreens and body parts, which are bonded to the car body with adhesives (Wikipedia 'Adhesive bonding')
   - a large 3D print split into pieces and glued back together, ideally with pegs and overlapping joints (Prusa; Printpool)
+  - plywood boat panels joined end to end with a glued plywood butt block (a strap joint) on one side and glass cloth on the other, as in stitch-and-glue boats (Duckworks stitch-and-glue skiff)
 - **when_to_use**: Whenever you glue parts that must carry load: splitting a 3D print that is too big for the printer, lengthening a board or strip, repairing a broken part, joining thin sheets, or bonding different materials that can't be screwed or welded. Choose a lap, double lap or strap joint for thin parts; a scarf or finger joint to lengthen wood, plywood or composite with an almost invisible glue line; tongue and groove or stepped laps when the parts must also locate themselves; and sockets or sleeves for rods and tubes. Glue spreads the load over the whole area without drilling holes, and can seal and damp at the same time (Wikipedia 'Adhesive bonding'; Loctite manual).
 - **when_not_to_use**: Don't design a glued joint that will be peeled, levered open, or bent across a butt joint: redesign it into a lap, sleeve or strap, or add a mechanical fastener (Sika; Loctite manual). Don't glue when you need to take it apart again: use screws, snap fits or interlocking joints instead (Printpool). Don't rely on glue alone where failure would be dangerous (overhead loads, anything that holds people) or where it will get hot: glue strength drops with heat and ageing (Sika) and some glues creep (Wikipedia 'Adhesive bonding'); combine glue with rivets, screws or clinching (hybrid joining). Don't glue end grain to end grain in wood and expect strength; use a scarf, finger joint, dowel, mortise and tenon or biscuit (Wood Handbook). Hard-to-glue plastics (PE, PP, silicone) need a special adhesive or a mechanical joint.
 - **environment_limits**: Heat: adhesive strength and stiffness change with temperature; in Sika's example an epoxy kept only 58% of its room-temperature strength at 70 °C, and service temperatures from -20 °C to 80 °C can shift strength well away from datasheet values (Sika). Water and ageing: temperature, humidity, chemicals, radiation and mechanical stress all age bonds (Wikipedia 'Adhesive bonding'); in Sika's test three months under water kept 94% of the strength. Wood movement: wood swells far more across the grain than along it, so end-to-edge-grain joints build up large internal stresses as moisture changes and should be protected from changes in moisture content (Wood Handbook). Fatigue: repeated loading greatly lowers the usable strength (Sika: to 39% for two million cycles). Creep: some adhesives slowly creep under constant load (Wikipedia 'Adhesive bonding'). Differential expansion between different materials stresses the glue line; flexible adhesives cope better (Wikipedia 'Adhesive bonding'; Loctite manual).
@@ -2516,6 +3280,12 @@
   - Solvent welding (solvent cement): melts plastic faces together; the same shear-not-peel rules apply
   - Double-sided foam tape: a pressure-sensitive adhesive that is very sensitive to peel; the same design rules apply
   - Clinching and rivets: mechanical joints often combined with glue in hybrid joints to stop peel at the edges
+  - Glued tab joint: the paper-and-card lap joint, a folded flap glued behind the next part
+  - Glue stick and starch paste: mild water-based glues for paper and card joints
+  - V-groove fold: a one-piece mitred corner, grooved and folded and then glued, instead of two bevelled pieces
+  - Score-and-slip join: soft clay joined with slip, so the clay itself grows together instead of a glue line
+  - Bonded tube joint: sockets, sleeves and lugs that apply the 'no butt joints on tubes' rule to glued tubes
+  - Fillet-and-tape joint: panels joined edge to edge by an epoxy fillet and glass tape, the strap idea applied to boat and box seams
 
 ### Pictures, videos and models
 
@@ -2564,6 +3334,10 @@
   - https://www.youtube.com/watch?v=n0LNrwTk9MQ (verified via YouTube oEmbed)
   - https://www.youtube.com/watch?v=3_9HR64bVus (verified via YouTube oEmbed)
   - https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)
+  - https://www.costumary.com/blog/eva-foam-clean-builds
+  - https://www.epoxyworks.com/common-errors-in-fiberglass-laminate-repair/
+  - https://www.westsystem.com/determining-laminate-thickness/
+  - https://duckworksmagazine.com/05/articles/s-and-g/index.htm
 
 ### Finder tags
 
@@ -2576,7 +3350,7 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: strongest
-- **bonds_well**: wood
+- **bonds_well**: wood, foam
 - **bonds_poorly**: PLA, PETG, ABS or ASA, slippery plastics (PE or PP), silicone, metal
 - **tools**: press or vice, power tools, hand tools
 - **load_max**: heavy
@@ -2584,6 +3358,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, clay or putty, carbon fibre or composites
 
 ### Other info
 
@@ -2741,6 +3558,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
@@ -2897,8 +3757,1622 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, wood, paper or card, fabric, leather or cord
 
 ### Other info
 
 - ⚑ **Fields with parts that need confirming:** adjustable, load, making_tips_3d_printing, removability
+
+## 411 Glued tab joint (glue tab, glue flap, construction tab; edge gluing with a backing strip)
+
+*adhesives & bonding.* A narrow flap left on the edge of a paper or card part is folded and glued under or behind the next part, the standard way to join papercraft models, card boxes and cardboard tubes
+
+*Also covers:* Also covers tab width and angled tab ends, gluing the face rather than the tab, tabless edge gluing with a hidden backing strip, flange tabs for joining cardboard tubes and round parts, which glues suit tabs (glue stick, PVA, tacky glue, double-sided tape), and unfolding software that adds tabs automatically. A tab is a small lap joint, so see Glued joint design. Safety: craft knife and solvent glues.
+
+### What it is
+
+- **plain_name**: A narrow flap left along the edge of a paper or card part that is folded over and glued behind the next part, which is how paper models, card boxes and cardboard tubes are stuck together
+- **term**: Glued tab joint (glue tab, glue flap)
+- **aliases**: 
+  - glue tab, tab (papercraft; Tabgen Inkscape extension README; Gedelgo, DeviantArt)
+  - glue flap, flap (the word used by Pepakura users and by the PolyZamboni Blender add-on, which places 'glue flaps' on cut edges)
+  - construction tab (Wikipedia 'Paper model', describing tabs added by unfolding software)
+  - sticking tab (Export Paper Model add-on for Blender documentation)
+  - manufacturer's joint (the glued flap that closes the side seam of a corrugated box; Wikipedia 'Corrugated box design')
+  - edge gluing, butt-gluing or tabless gluing with an internal strip or backing strip (Zealot Models forum 'Tabs or no tabs?')
+  - internal tab, separate tab (a strip glued behind both edges instead of a tab on one part; Zealot Models forum)
+  - flange, flange method (tabs cut around the end of a cardboard tube and folded out; Makedo 'Connections and joints')
+  - glue margin ⚑ [uncertain: term used in some kit instructions, no source opened] *(⚑ parts need confirming)*
+- **family**: adhesives & bonding
+- **other_families**: interlocking joints & joinery
+- **one_liner**: A strip of extra paper or card left on one part's edge is folded on a scored line and glued under or behind the matching edge of the next part, making a small glued overlap (lap joint) that holds papercraft, card boxes and cardboard tubes together.
+- **complexity**: A few parts: the two paper or card parts (the tab is part of one of them), the glue (or double-sided tape), and a scored fold line at the base of the tab. The tabless version replaces the tab with a separate backing strip glued behind both edges.
+- **how_it_works**: The tab overlaps the back of the next part, so the glue film sits between two flat faces; loads along the seam slide those faces past each other (shear), which glue resists well over the whole tab, whereas a seam that springs open peels the tab off from one end, which glue resists badly (see Glued joint design). The tab is folded on a scored line so it sits at the right angle and the two outer faces meet edge to edge. Water-based glues such as PVA or tacky glue soak into the paper fibres and grab within seconds when the parts are pressed together (PlanetJune; Wikipedia 'Paper model'). In the tabless method the two outer edges are butted together and a hidden strip glued behind both of them carries the joint, avoiding the visible step a tab makes (Zealot Models forum). For tubes and round parts, a ring of short tabs (flanges) is cut around the end, folded outwards and glued or fixed to the flat panel (Makedo).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins paper and card parts into boxes, models and tubes
+  - glue or bond: the tab is the gluing surface
+  - line parts up exactly: numbered tabs and printed positioning lines show where each part goes (PlanetJune; Canon Creative Park)
+- **motion**: none
+- **degrees_of_freedom**: 0: once the glue has set, the two parts cannot move relative to each other.
+- **special_behaviour**: none: it simply holds. (It does help locate parts: the tab and its numbered mark show where the next part goes, but it does not self-align on its own.)
+- **holding_principle**: material bond (glue, solvent or melting): glue between the tab and the next part; double-sided tape works the same way with a pressure-sensitive adhesive
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: once glued, the paper usually tears before the tab comes away ⚑ [uncertain: no test found]. Cardboard flanges fixed with plastic cardboard screws instead of glue can be undone (Makedo). *(⚑ parts need confirming)*
+- **reuse_cycles**: once
+- **tools_needed**: Scissors or a craft knife and cutting mat to cut the parts (Canon Creative Park), a ruler and blunt point to score the tab's fold line (Canon), glue (PVA, tacky glue, wood glue or a glue stick) or double-sided tape, a toothpick or needle to spread small amounts of glue, tweezers to press small tabs, and paper scraps under the part to keep glue off the table (Canon Creative Park; Gedelgo, DeviantArt). Hot-glue gun for cardboard (Adafruit).
+- **seal**: none: paper seams are not sealed against water or air.
+- **load**: Light. The joint is strongest when loaded along the seam (shear) and weakest when the seam is pried open so the tab peels from one end (see Glued joint design). In practice the paper or card itself usually fails first ⚑ [uncertain]. Heavier cardboard joints use folded flanges, brackets and ribs, often across the flutes, for strength (Makedo). *(⚑ parts need confirming)*
+- **adjustable**: No, once the glue has set. Slow white glues give a few seconds to slide a part into place before they grab (PlanetJune: hold for a few seconds until the glue 'grabs'); misplaced creases can be nudged with a fingernail during assembly (Gedelgo, DeviantArt).
+- **play_and_precision**: No play once set. Accuracy depends on careful cutting and scoring, and small errors add up across many parts (tolerance stack-up), so build outwards from the middle (Gedelgo, DeviantArt). A tab leaves a small visible step the thickness of the paper at the seam; a tabless butt joint is flush but can leave a gap if the edges do not quite meet (Zealot Models forum).
+- **access_needed**: both sides: you press the tab against the back of the next part from inside and outside; the last tab of a closed model must be pressed from one side only (blind), which is why papercrafters plan the final seam where it is hidden or leave the model open (Gedelgo, DeviantArt)
+- **materials**: Made in and suits: paper, card stock and paperboard (Wikipedia 'Paper model'; Canon), and corrugated cardboard and cardboard tubes (Makedo; Adafruit). Glues that suit tabs: white PVA craft glue and tacky glue (Wikipedia 'Paper model'; PlanetJune; Gedelgo), wood glue for small parts and glue stick for large flat areas (Canon Creative Park; but PlanetJune finds glue stick too weak for tabs), double-sided tape for flat surfaces (Zealot Models; Fold 'N Fly), and hot glue or white glue for cardboard (Adafruit). Not suited: ordinary superglue on foam board (it melts the foam; Fold 'N Fly). Not used for wood, metal, plastics or 3D prints, which use lap joints and other glued joint shapes instead.
+- **maker_difficulty**: easy: the tabs are drawn on the printed or drawn pattern; the skill is in neat cutting, scoring and using little glue. Tabless edge gluing is harder and suits experienced modellers (Zealot Models forum).
+
+### Making it
+
+- **processes**: 
+  - hand cut with scissors or a craft knife from printed or drawn patterns (Canon Creative Park; PlanetJune)
+  - cutting plotter or laser cutter: tab outlines and dashed score lines can be generated automatically (Tabgen Inkscape extension README)
+  - unfolding software that turns a 3D model into flat printable parts with tabs: Pepakura Designer (commercial), Export Paper Model for Blender, PolyZamboni for Blender (Wikipedia 'Paper model'; Blender Extensions pages)
+  - industrial: folding cartons and corrugated boxes are die-cut, scored, folded and glued on a glued side flap (Wikipedia 'Folding carton'; 'Corrugated box design')
+  - 3D print (FDM) and resin: not applicable; printed parts use lap joints and other glued joint shapes
+- **print_in_place**: no: a paper and card joint; it is not 3D printed.
+- **making_tips_3d_printing**: not applicable: glue tabs are a paper and card joint. For gluing 3D-printed parts see Glued joint design (lap and scarf joints) and the split-part joints for large prints.
+- **off_the_shelf_parts**: White PVA craft glue and tacky glue, e.g. Aleene's Original Tacky Glue (brand; used by PlanetJune and Gedelgo), wood glue, glue sticks, double-sided tape and double-sided tissue tape, glue pens or a fine needle or toothpick for spreading, tweezers, cutting mat and craft knife. Software: Pepakura Designer (Tama Software, commercial), Export Paper Model add-on (included with Blender, GPL-3.0-or-later), PolyZamboni add-on for Blender (GPL-3.0-or-later), Tabgen extension for Inkscape. For cardboard flanges, plastic cardboard screws such as Makedo Scru (brand) can replace glue (Makedo).
+- **rules_of_thumb**: 
+  - Put the glue on the place where the tab will land, not on the tab itself, for better sticking and a cleaner finish (Canon Creative Park 'How to Make Paper Crafts'). Others spread glue thinly on the tab instead (Gedelgo, DeviantArt; PlanetJune); both work if the glue is thin.
+  - Use very little glue: too much moisture makes the paper buckle, slows drying and lets parts slip out of place (Gedelgo, DeviantArt); apply white glue 'sparingly to each tab' (PlanetJune).
+  - Choose the glue by the size of the area: glue stick for large areas, wood glue spread thinly with a toothpick for small parts, then pinch with tweezers (Canon Creative Park). PlanetJune warns that a glue stick does not grab tabs tightly enough and recommends tacky white glue instead.
+  - Glue tabs one at a time in their numbered order, holding each for a few seconds until the glue grabs (PlanetJune).
+  - Point tabs away from the main viewing direction: the edge over a tab shows as a step, more visible with thicker card (Gedelgo, DeviantArt; Zealot Models forum figure 'a').
+  - Build from the most important part outwards, starting near the middle so errors split both ways, and plan the last seam where it is hidden; never finish on a pointed or intricate part (Gedelgo, DeviantArt).
+  - Score the tab fold before folding; a folded tab at a corner otherwise leaves a gap because the card curves at the fold (Zealot Models forum; Canon Creative Park).
+  - Tabless practice piece: make a tube from a 2 cm wide strip by gluing its ends edge to edge with a strip over the seam inside, glue tiny strips about 1 cm long and 2 mm wide around the inside of the rim with half of each sticking out, bend them inwards and glue on a 5 cm end disc (Zealot Models forum, member 'Rhaven'). For flush corners, sand both edges to 45 degrees and glue edge to edge (Zealot Models forum).
+  - Flange method for tubes and round parts: cut flanges around the end, fold them out and test whether 2, 3 or 4 fixings work best; fold across the flutes where possible for strength (Makedo 'Connections and joints').
+  - A tab is a small lap joint: keep it loaded along the seam (shear) and avoid shapes that pry it open from one end (peel); a longer tab along the edge helps more than a deeper one (see Glued joint design, which cites the Henkel LOCTITE design guide).
+  - Tab size: tab-generator software lets you set the tab angle at its ends and the tab height (how far it sticks out) (Tabgen README). A forum answer says Pepakura's default flap width is 5 mm ⚑ [uncertain: forum page blocked, not read]. Angle the tab ends so tabs meeting at a corner do not overlap ⚑ [uncertain: common practice, no source opened]. *(⚑ parts need confirming)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - Printable paper models and papercraft kits, such as Canon Creative Park models (Canon Creative Park; Wikipedia 'Paper model')
+  - Cereal and other folding-carton boxes, which are printed, cut, folded and glued along a flap (Wikipedia 'Folding carton')
+  - Corrugated shipping boxes, whose side seam (the manufacturer's joint) is usually a glued flap (Wikipedia 'Corrugated box design')
+  - Cardboard tube towers and pillars in cardboard building kits, joined to panels with folded flanges (Makedo)
+- **when_to_use**: Use glue tabs to join paper and card parts that must stay together permanently: papercraft and card models, architectural and game-terrain models, gift and storage boxes, costume and cosplay parts made with unfolding software, and cardboard prototypes. Tabs make assembly easy for beginners because they show where each part goes. Use flange tabs to join cardboard tubes and round parts to flat panels. Use the tabless backing-strip method when a smooth, step-free surface matters more than speed.
+- **when_not_to_use**: Avoid glue tabs when the joint must come apart again (use tab-and-slot joints, folding box closures, split-pin paper fasteners or cardboard screws instead), when the model must survive water or outdoor use, or when a hinge is needed (use a score-and-fold or tape hinge). For heavy cardboard furniture, glued tabs alone are weak; add folded brackets, ribs or mechanical fasteners (Makedo). Do not use tabs on 3D prints, wood or plastics; use a proper lap joint.
+- **environment_limits**: Water-based glues (PVA, tacky glue, glue stick) and paper soften in damp; paper models are sometimes sealed with varnish to last longer (Wikipedia 'Paper model'). Hot glue on cardboard softens again with heat (see Hot-melt adhesive). Paper glued with too much water-based glue cockles and buckles as it dries (Gedelgo, DeviantArt). Long-term ageing figures for craft glues in paper were not found ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Craft knives: cut on a mat against a metal ruler, keep your fingers out of the blade's path and cut away from yourself (Adafruit; Canon: 'Avoid cutting your fingers'). Solvent glues and especially spray adhesives give off harmful fumes, so use them only with good ventilation and read the label (Fold 'N Fly). Hot-glue guns burn (Fold 'N Fly). Keep small parts and glue away from young children ⚑ [uncertain: general advice]. *(⚑ parts need confirming)*
+- **common_failures**: Tabs popping up or seams opening: too little or too weak glue (a glue stick on a tab may not grab; PlanetJune), or glue not held long enough to grab; use tacky white glue and hold each tab for a few seconds. Buckled, cockled paper and parts sliding out of place: too much wet glue (Gedelgo, DeviantArt). Visible steps and coloured gaps at seams: tabs on the viewed side, or tabless edges that did not quite meet; colour the white edges with a pen and point tab steps away from view (Zealot Models forum; Canon Creative Park). Gaps at folded corners: unscored tab folds (Zealot). Misfits that grow across the model: tolerance stack-up; build from the middle out (Gedelgo). The final tab cannot be pressed shut: plan the last seam in a hidden, flat area (Gedelgo).
+- **related**: 
+  - Glued joint design (butt, lap and scarf joints; peel vs shear): a tab is a small lap joint, so the same rules apply
+  - Score-and-fold hinge: every tab is folded on a scored line first
+  - Glue stick and starch paste: the mild paper glues often used on tabs
+  - PVA wood glue and Hot-melt adhesive: white glue for papercraft and hot glue for cardboard
+  - Adhesive tape joint and tape hinge: double-sided tape or tissue tape can replace glue on tabs and seams, and single-sided tape is the quick no-drying alternative
+  - Tab-and-slot joint: a tab pushed through a slot that holds without glue and can be taken apart
+  - Folding box closures: tuck flaps and lock bottoms that hold boxes shut without glue
+  - Cardboard screws and rivets: hold cardboard flanges and overlaps with removable plastic fasteners instead of glue
+  - Bent or twisted tab through a slot: the sheet-metal relative, held by bending rather than glue
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Tutorial: Cut & Fold Paper Models (PlanetJune)](https://www.planetjune.com/blog/paper-models/): Photos of cutting, scoring, mountain and valley folding and gluing numbered tabs on printable animal paper models, with a legend of the line markings *(licence: link only)*
+  - [Tabs or no tabs? (Zealot Models forum)](https://www.zealotmodels.com/threads/tabs-or-no-tabs.173794/): Forum discussion of tabbed versus tabless (edge-glued) seams, with a member's diagram of tab steps, internal tabs and corner joints, and a step-by-step tabless tube exercise *(licence: link only)*
+  - [Connections and Joints: How to use Flanges, Tabs and Patches (Makedo Resource Hub)](https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches): Photos of tabs added to cardboard designs and the flange method for joining cardboard tubes and circles to panels *(licence: link only (copyright Makedo))*
+  - [Blank RSC.svg (Wikimedia Commons, by Life of Riley)](https://commons.wikimedia.org/wiki/File:Blank_RSC.svg): Flat blank of a regular slotted cardboard box with score lines, slots and the manufacturer's joint flap that is glued to close the side seam *(licence: Public domain)*
+  - [Paper VALMETRO.JPG (Wikimedia Commons, by Haridas Mederos Ocando)](https://commons.wikimedia.org/wiki/File:Paper_VALMETRO.JPG): A printable sheet of unfolded parts for a paper model of a Valencia (Venezuela) metro train, used on Wikipedia 'Paper model' ⚑ [uncertain: glue tabs not checked at full size] *(licence: CC BY-SA 2.5)* *(⚑ parts need confirming)*
+- **make_it_yourself**: 
+  - [Export Paper Model (Blender add-on by Adam Dominec)](https://extensions.blender.org/add-ons/export-paper-model/): Exports a flat printable net of a 3D mesh as PDF or SVG, with markers showing which parts stick together and labelled sticking tabs; it ships with Blender *(licence: GNU GPL v3.0 or later)*
+  - [PolyZamboni (Blender add-on)](https://extensions.blender.org/add-ons/polyzamboni/): Interactive paper-model unfolding in Blender: mark cuts, then 'Recompute Flaps' places glue flaps on every cut edge while trying to avoid overlaps; flaps can be added, removed or flipped by hand *(licence: GNU GPL v3.0 or later)*
+  - [Tabgen 3D Papercraft Extension for Inkscape (README)](https://inkscape.org/fr/gallery/item/27672/readme.txt): An Inkscape extension that adds tabs with dashed score lines to any straight-sided outline, with settings for tab angle, tab height and placement inside or outside *(licence: ⚑ [uncertain: licence not stated in the README])*
+  - [Parametric Cardboard Box Template Maker (basquepunk, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1233463-parametric-cardboard-box-template-maker): An OpenSCAD box-template generator exporting SVG or DXF outlines with bending lines, with a choice of 'simple' or 'no-glue' box. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))* *(⚑ parts need confirming)*
+- **diagram_idea**: Two papercraft panels meeting at a corner, shown three ways side by side: (1) a folded tab on one panel glued behind the other, with an arrow showing the small visible step; (2) the tabless version with both edges butted and a hidden strip glued behind; (3) a cardboard tube with a ring of folded-out flanges glued to a flat base.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Paper_model
+  - https://en.wikipedia.org/wiki/Folding_carton
+  - https://en.wikipedia.org/wiki/Corrugated_box_design
+  - https://creativepark.canon/event/howtomake/en/index.html
+  - https://www.zealotmodels.com/threads/tabs-or-no-tabs.173794/
+  - https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches
+  - https://www.planetjune.com/blog/paper-models/
+  - https://www.deviantart.com/gedelgo/journal/Stuff-You-Might-Want-to-Know-About-Papercraft-528533435
+  - https://inkscape.org/fr/gallery/item/27672/readme.txt
+  - https://extensions.blender.org/add-ons/export-paper-model/
+  - https://extensions.blender.org/add-ons/polyzamboni/
+  - https://raw.githubusercontent.com/addam/export-paper-model-from-blender/master/README.md
+  - http://addam.github.io/Export-Paper-Model-from-Blender
+  - https://tamasoft.co.jp/pepakura-en
+  - https://learn.adafruit.com/cardboard-fundamentals?view=all
+  - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php
+  - https://commons.wikimedia.org/wiki/File:Blank_RSC.svg
+  - https://commons.wikimedia.org/wiki/File:Paper_VALMETRO.JPG
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**: fast ⚑ *needs confirming (best guess): not on the glue lists in the finder tree; traits read from the text*
+- **bonds_well**: wood, paper or card
+- **bonds_poorly**: metal, foam
+- **tools**: glue gun, sewing or leather tools, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: permanent ⚑ *needs confirming (source uncertain): `removability` is marked [uncertain] here: "…manent: once glued, the paper usually tears before the tab comes away [uncertain: no test found].…"*
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: paper or card
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, links, load, make_it_yourself, off_the_shelf_parts, removability, rules_of_thumb, safety_notes
+
+## 412 Adhesive tape joint and tape hinge (pressure-sensitive tape; masking, packing, gummed paper and double-sided tissue tape)
+
+*adhesives & bonding.* A strip of sticky tape across or between two parts holds them together at once with no drying time, and a strip across a gap makes a quick bendy hinge, as on parcels, cardboard models and book repairs
+
+*Also covers:* Also covers choosing a tape (masking and drafting tape for temporary holds, transparent office tape, box-sealing and filament tape, water-activated gummed paper tape that soaks into cardboard, double-sided tissue tape and adhesive transfer tape for hidden joints, duct and gaffer tape), tape hinges on one side, both sides or woven (incl. the hinges on the moving flaps of foam model planes: clear packing tape, fibre-reinforced tape, soft medical tape of the Blenderm type and gapless hinge tape), quick taped seams on foam-board and cardboard prototypes, and why tape creeps, dries out and lets go with heat, sun and age. Thick foam tape is Double-sided foam tape and copper tape is Conductive tape. Safety: none special beyond residue on surfaces.
+
+### What it is
+
+- **plain_name**: A strip of sticky tape pressed across or between two parts so they hold together straight away, or laid across a gap so the parts can bend like a hinge, as on parcels, cardboard models, torn pages and the moving flaps of foam model planes
+- **term**: Adhesive tape joint and tape hinge (pressure-sensitive adhesive tape, PSA tape)
+- **aliases**: 
+  - sticky tape, self-stick tape, adhesive tape (Wikipedia 'Pressure-sensitive tape')
+  - Sellotape, Scotch tape, Durex tape (brands used as everyday names; Wikipedia 'Pressure-sensitive tape')
+  - transparent office tape, clear tape, invisible tape (matte clear tape) (Wikipedia 'Pressure-sensitive tape')
+  - masking tape, painter's tape; drafting tape (lower tack) (Wikipedia 'Masking tape')
+  - box-sealing tape, packing tape, parcel tape (UK), shipping tape (Wikipedia 'Box-sealing tape')
+  - filament tape, strapping tape, fibre tape (Wikipedia 'Filament tape'; Fold 'N Fly)
+  - gummed paper tape, water-activated tape, gummed tape (Wikipedia 'Corrugated box design'; 'Pressure-sensitive tape')
+  - double-sided tape, double-sided tissue tape, adhesive transfer tape (Wikipedia 'Double-sided tape'; 'Pressure-sensitive tape')
+  - duct tape, duck tape; gaffer tape, gaff tape, gaffa tape, spike tape (Wikipedia 'Duct tape'; 'Gaffer tape')
+  - hinge tape, gapless hinge tape, tape hinge (model aircraft; Model Aviation FAQ 2010/02; Flite Test)
+  - tape weave hinge (Flite Test)
+  - Blenderm (3M, brand): a soft medical tape used as hinge tape on very light model planes (Model Aviation FAQ 2010/02)
+  - taped seam, taped joint ⚑ [uncertain: informal names] *(⚑ parts need confirming)*
+- **family**: adhesives & bonding
+- **other_families**: hinges & pivots
+- **one_liner**: A strip of tape whose adhesive grips under finger pressure (or, for gummed paper tape, when wetted) holds two parts together at once with no drying time, and a strip bridging a gap between two parts makes a quick, light, bendable hinge.
+- **complexity**: A few parts: the two parts and the tape. The tape is a backing (plastic film, paper, cloth or foil) coated with pressure-sensitive adhesive, sometimes with embedded glass-fibre filaments for strength, and with a release liner on double-sided tape; adhesive transfer tape is adhesive alone on a liner (Wikipedia 'Pressure-sensitive tape'). Gummed paper tape is paper with a dry starch adhesive that is activated by water (iTape 'The Science Behind Water-Activated Tape'). A tape hinge is usually two strips, one on each face, or a 'woven' pair.
+- **how_it_works**: Pressure-sensitive adhesive is soft enough to flow into the surface (wet it) when pressed, yet firm enough to resist flowing when the joint is loaded, so it grips at once without solvent, water or heat; how well it sticks depends on how hard it is pressed and on the surface's smoothness, cleanliness and temperature (Wikipedia 'Pressure-sensitive adhesive'). A strip across a seam carries the load through its backing; it holds best when pulled along the surface and worst when an edge or corner is lifted and peeled, so corners start lifting first (Wikipedia 'Pressure-sensitive adhesive'). A strip across a narrow gap leaves a short free length of backing that bends like a hinge; taping both faces holds the hinge line in place (Flite Test 'RC Plane Hinge Types'). Gummed paper tape works differently: water reactivates a starch glue that soaks into the cardboard's fibres and dries into a permanent bond that cannot be peeled off without tearing the box (iTape; Wikipedia 'Corrugated box design').
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: closes boxes, holds cardboard and foam-board prototypes and repairs torn paper at once, with no drying time
+  - glue or bond: the adhesive layer is the bond; double-sided and transfer tapes make hidden flat joints
+  - let it move (turn, slide or bend): a strip across a gap makes a light, bendable tape hinge for flaps, covers and model-plane control surfaces
+  - seal it, or pass cables or fluid through: a continuous strip over a box seam, or an 'H-seal', keeps dust and dirt out (Wikipedia 'Box-sealing tape')
+- **motion**: none for a taped seam; flex for a tape hinge, which bends through the full movement of the flap, limited by the gap and the bevelled edges (Model Aviation FAQ 2010/02)
+- **degrees_of_freedom**: 0 for a taped seam. 1 for a tape hinge (folding about the gap); a hinge with too wide a gap also lets the flap flutter sideways ('flapping or vibration'; Model Aviation FAQ 2010/02).
+- **special_behaviour**: 
+  - quick-release: low-tack masking tape, drafting tape and gaffer tape are made to peel off later without damaging the surface or leaving much residue (Wikipedia 'Masking tape'; 'Gaffer tape'); other tapes may leave residue or tear paper
+  - none otherwise: tape holds, or bends as a hinge; it does not lock, click or limit force
+- **holding_principle**: material bond (glue, solvent or melting): a pressure-sensitive adhesive that grips under pressure, or for gummed tape a water-activated starch glue that dries into the fibres
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: semi-permanent (can be undone but may damage parts): it depends on the tape. Masking, drafting and gaffer tape are meant to come off cleanly (within a limited time for masking tape; Wikipedia 'Masking tape'; 'Gaffer tape'); box tape and duct tape usually come off but can tear paper or leave residue (Wikipedia 'Duct tape'); gummed paper tape is permanent and tears the carton if removed (iTape).
+- **reuse_cycles**: once: tape is used once; the parts can usually be re-taped with new tape
+- **tools_needed**: none beyond scissors or a knife; a hand-held tape gun or desk dispenser makes long strips easier (Wikipedia 'Box-sealing tape'); a water dispenser to wet gummed paper tape (iTape); for model-plane hinges, scrap 1/16 in (1.6 mm) balsa spacers to set the gap and painter's tape to hold the parts while taping (Model Aviation FAQ 2010/02)
+- **seal**: dust-resistant: a continuous strip over a seam, or an 'H-seal' with cross strips over the box ends, helps keep contaminants out (Wikipedia 'Box-sealing tape'). Duct tape resists water and was first used to seal ammunition cases (Wikipedia 'Duct tape'), but taped seams are not reliably watertight long term ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **load**: Light to medium. Strong when pulled along the tape: filament tape reaches up to about 600 lb per inch of width (100 N/mm) in tension (Wikipedia 'Filament tape'). The adhesive resists sliding (shear) well but is weak in peel, so tape fails from a lifted edge or corner (Wikipedia 'Pressure-sensitive adhesive'). Holding under a steady load drops as the tape warms (Wikipedia 'Pressure-sensitive adhesive'). On paper and thin card, the paper usually tears before good tape lets go ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: Partly: removable tapes (masking, drafting) can be lifted and repositioned; other tapes cannot be moved once pressed down without damage. The gap of a tape hinge is set when it is taped, using spacers (Model Aviation FAQ 2010/02). Some permanent adhesives grow stronger over hours or days after application (Wikipedia 'Pressure-sensitive adhesive').
+- **play_and_precision**: Taped seam: no play, but the backing stretches a little and the adhesive slowly creeps under steady load, so taped parts can drift out of line over time ⚑ [uncertain: no figure found]. Tape hinge: precision depends on the gap: too little causes binding and limits travel, too much causes flapping or vibration (Model Aviation FAQ 2010/02). A woven tape hinge has no gap on either side, but its pivot line shifts slightly depending on which way the flap moves (Flite Test 'Tape weave hinges' and comments). *(⚑ parts need confirming)*
+- **access_needed**: one side only (blind) for a single strip over a seam or a one-piece gapless hinge; both sides for the usual two-strip hinge (top and underside) or a woven hinge (Flite Test; Model Aviation FAQ 2010/02)
+- **materials**: Tape sticks best to clean, dry, smooth surfaces; surface smoothness, surface energy and cleanliness all affect the bond (Wikipedia 'Pressure-sensitive adhesive'). Suits: paper and card (office tape, masking and drafting tape), corrugated cardboard (box-sealing tape, filament tape, gummed paper tape), foam board and foam model planes (clear packing tape and fibre tape; Fold 'N Fly; Flite Test), balsa (Flite Test 'Tape weave hinges' comments), painted walls and car body panels for masking (Wikipedia 'Masking tape'), wood and veneer as a temporary hinge in mitre folds (Woodweb). Gummed paper tape needs a fibrous surface such as cardboard to soak into (iTape). Poor: dusty, oily, damp, rough or very low-energy surfaces such as polyethylene and polypropylene film ⚑ [uncertain: surface energy named in Wikipedia but no plastic list opened]; fragile or valuable paper and documents (tape stains and damages them; Manitoba Museum; JAIC 1984); anything to be painted, since duct tape won't take paint (Cool Tools). *(⚑ parts need confirming)*
+- **maker_difficulty**: easy: no drying, no tools, instantly strong enough for prototypes; the skill is choosing the right tape and pressing it down firmly.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: rolls of tape applied by hand or with a dispenser (Wikipedia 'Box-sealing tape')
+  - used with any making method for prototypes and quick fixes: cardboard and foam-board builds, papercraft, woodworking mitre folds (Woodweb)
+  - 3D print (FDM): not for the tape itself; printers can make tape dispensers and bevel cutters for hinge lines
+- **print_in_place**: no: tape is a bought material applied after making the parts.
+- **making_tips_3d_printing**: not applicable to the joint itself, but a printer makes useful helpers: a 45-degree bevel cutter for 6 mm foam, so control-surface edges can be bevelled before taping a hinge (Printables '6mm foam bevel cutter 45°'; Model Aviation recommends bevelled edges for top hinging), and wall- or magnet-mounted masking-tape dispensers (Printables '24 mm masking tape dispenser with magnetic mount'). Tape is also handy for holding printed parts while glue sets ⚑ [uncertain: general practice, no source opened]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search names: 'masking tape', 'painter's tape', 'drafting tape', 'transparent office tape', 'archival tape', 'box-sealing tape' or 'packing tape' (BOPP or polyester backing, 36, 48 or 72 mm wide), 'filament tape' or 'strapping tape', 'water-activated tape' or 'gummed paper tape' (plain or fibre-reinforced), 'double-sided tape', 'double-sided tissue tape', 'adhesive transfer tape', 'duct tape', 'gaffer tape', 'spike tape' (Wikipedia 'Pressure-sensitive tape'; 'Corrugated box design'; 'Box-sealing tape'). For model planes: 'hinge tape', 'gapless hinge tape', soft medical tape of the Blenderm type (3M, brand; sold by Du-Bro as Electric Flyer Hinge Tape) (Model Aviation FAQ 2010/02). Dispensers: hand-held tape gun, desk dispenser, water-activated tape dispenser.
+- **rules_of_thumb**: 
+  - Box closure: a single centre-seam strip should run 50-75 mm (2-3 in) down onto the end panels; add cross strips over the ends (an 'H-seal' or six-strip closure) when the tape is weak or the box needs reinforcing (Wikipedia 'Box-sealing tape'). Filament-tape L-clips likewise extend 50-75 mm onto the panels (Wikipedia 'Filament tape').
+  - Packing tape is commonly 48-50 mm wide (also 36 and 72 mm) and about 40 um thick for low strength, 45 um normal and 50 um or more for extra strength (Wikipedia 'Box-sealing tape').
+  - Filament tape: usually 12-24 mm wide, with grades up to about 600 lb per inch of width (100 N/mm) in tension (Wikipedia 'Filament tape'); on foam board it is strongest with its fibres running across the cut edge (Fold 'N Fly).
+  - Press tape down firmly, since the bond depends on pressure, and round the corners of a tape strip or label, because pointed corners start to lift first (Wikipedia 'Pressure-sensitive adhesive').
+  - To remove tape with least damage, pull it off slowly at a low angle; heat or a solvent softens residue, and freeze spray makes many adhesives glassy so they release (Wikipedia 'Pressure-sensitive adhesive').
+  - Two-strip tape hinge: tape the top with the flap fully down, then tape the underside with the flap fully up (Flite Test 'RC Plane Hinge Types').
+  - Hinge gap: set it with scrap 1/16 in (1.6 mm) balsa spacers and press the tape down thoroughly; too little gap binds, too much flaps or vibrates; bevel the edges for top hinging (Model Aviation FAQ 2010/02).
+  - Pick hinge tape by model weight: soft Blenderm-type tape for micro and indoor models under 8 oz (about 225 g); a gapless hinge tape for 8-48 oz (about 225 g-1.4 kg); very few tapes resist fuel, so tape hinges suit electric models and gliders (Model Aviation FAQ 2010/02). Flite Test limits tape hinges to electric foam planes.
+  - Woven tape hinge: cut a strip in half and stick the two halves together so they overlap in the middle by about the foam thickness (about 1/4 in), then stick one free end down on each part, keeping the overlap over the gap (in a woven hinge the two ends usually go on opposite faces ⚑ [uncertain: not stated in the text]), giving a hinge with no bevel and no gap (Flite Test 'Tape weave hinges').
+  - Masking-tape adhesives: rubber-based grip hardest but tolerate the least heat; acrylic works from below freezing to about 150 °C; silicone tapes tolerate intermittent use up to about 260 °C (Wikipedia 'Masking tape', partly unsourced there).
+  - Mitre folds in wood: cut 45-degree V-grooves, lay the pieces face up edge to edge, tape across the face with heavy packing tape, flip, glue and fold; with brittle materials cut right through and slightly into the tape (Woodweb 'Miterfolds for clean corner joints'). *(⚑ parts need confirming)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - A cardboard parcel closed with brown or clear packing tape (Wikipedia 'Box-sealing tape')
+  - A torn page or a sealed envelope fixed with clear office tape (Wikipedia 'Pressure-sensitive tape')
+  - Masking tape holding paper to a drawing board or marking off a wall for painting (Wikipedia 'Masking tape')
+  - The moving flaps on foam radio-controlled planes, hinged with clear packing tape (Flite Test 'RC Plane Hinge Types')
+- **when_to_use**: Use tape when you need a joint right now with no drying or clamping: closing boxes, mocking up cardboard and foam-board prototypes, holding parts while glue sets, temporary holds that must come off cleanly (masking, drafting or gaffer tape), hidden flat joints in paper and card (double-sided or tissue tape), strong closures and bundles (filament tape), permanent tamper-evident box seals (gummed paper tape), and light hinges for card covers, flaps and the control surfaces of electric foam model planes. It is also a quick reinforcement: packing tape over foam-board seams, or over skewer holes that tear out (Fold 'N Fly; Flite Test 'FT Old Fogey' comments).
+- **when_not_to_use**: Avoid tape for anything that must last for years, stay outdoors, carry steady weight or survive heat (use glue, glued tabs, screws or rivets). For durable cardboard builds, Make: advises avoiding tape, especially duct tape, and Cool Tools notes that tape is clumsy, unpeels outdoors and won't take paint, so use hot glue, starch paste, box rivets or cardboard screws instead. Never use ordinary tape to repair valuable documents, books or art: it stains and damages them; conservators use Japanese tissue with wheat-starch paste instead (Manitoba Museum; JAIC 1984). For model planes with fuel engines use pinned or slot-in hinges (Model Aviation FAQ 2010/02). Thick foam tape is a separate entry (Double-sided foam tape), as is copper tape (Conductive tape).
+- **environment_limits**: Pressure-sensitive adhesives lose tack in the cold and hold less under load when hot (Wikipedia 'Pressure-sensitive adhesive'). Rubber-based tapes such as masking and older clear tape age by oxidation: first little change, then the adhesive turns sticky, oily and yellow and soaks into paper, and finally it hardens, discolours and lets go, with the backing falling off; acrylic tapes discolour much less but slowly flow (cold flow) into porous paper (JAIC 1984, 'Pressure-sensitive tape and techniques for its removal from paper'). Ordinary duct tape fails on hot heating ducts, and tests at Lawrence Berkeley National Laboratory found it becomes brittle, fails and can fall off (Wikipedia 'Duct tape'). Masking tape is meant for temporary use at room temperature and to come off cleanly only within a limited time (Wikipedia 'Masking tape'; 'Pressure-sensitive tape'). Tape unpeels outdoors in weather (Cool Tools), and hinge tape loses adhesion over time, so check model hinges often (Flite Test). Sunlight speeds ageing ⚑ [uncertain: no UV figure found on an opened page]. *(⚑ parts need confirming)*
+- **safety_notes**: None special for the tape itself; the main risks are to the work: residue on surfaces, and stains and damage on paper that are often permanent (Manitoba Museum). Removing old tape residue from paper can need solvents, which should only be used with fume extraction (Connecting to Collections Care 'Book Repair' handout). A tape hinge on a flying model that loses grip can cause loss of control, so inspect hinges often (Flite Test). Blenderm-type medical tape is mentioned here only as a hinge material for models, not for any use on people.
+- **common_failures**: Lifting at the corners or edges: corners not rounded, tape not pressed down, or a dusty, damp or oily surface (Wikipedia 'Pressure-sensitive adhesive'). Sliding or creeping apart under steady load or in warmth (Wikipedia 'Pressure-sensitive adhesive'). Drying out, yellowing and falling off with age (JAIC 1984; Manitoba Museum). Tearing paper or pulling up veneer when removed: use a less aggressive tape, or peel slowly at a low angle (Woodweb; Wikipedia 'Pressure-sensitive adhesive'). Tape hinges that bind, flutter or let go: wrong gap, unbevelled edges, too stiff a tape for a light model, or old tape; re-tape with the right spacers and check often (Model Aviation FAQ 2010/02; Flite Test). Duct-taped cardboard looking lumpy and refusing paint (Cool Tools).
+- **related**: 
+  - Double-sided foam tape: thick foam tape for mounting and gap filling, a separate entry
+  - Conductive tape: copper or conductive fabric tape that also carries current, a separate entry
+  - Stretch-release adhesive strips: tape-like pads that come off cleanly when stretched
+  - Glued tab joint: the permanent glued alternative for papercraft and boxes
+  - Glue stick and starch paste: the reversible paper glue that conservators use with Japanese tissue instead of tape
+  - Score-and-fold hinge: the fold in the card itself, which tape can reinforce
+  - Slot-in model hinge (CA hinge, hinge points): the stronger, longer-lasting hinge for model-plane control surfaces, especially fuel-powered ones
+  - V-groove fold: a mitre fold in foam board or wood where packing tape on the face can act as the hinge while the glue sets
+  - Living hinge and Knuckle hinge: one-piece printed or moulded hinges and pin hinges for parts that must last
+  - Heat-shrink tubing: the entry that covers electrical tape for insulating wires
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Filament tape - 01.jpg (Wikimedia Commons, by Phliar)](https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg): Filament (strapping) tape used to mend part of a model airplane; used on Wikipedia 'Filament tape' *(licence: CC BY-SA 2.5)*
+  - [Tape weave hinges (Flite Test)](https://flitetest.com/articles/tape-weave-hinges): Step-by-step photos and video of making a woven tape hinge on foam board, with the non-sticky side coloured to show the overlap *(licence: link only)*
+  - [RC Plane Hinge Types (Flite Test)](https://www.flitetest.com/articles/RC_Plane_Hinge_Types): Explains pin, iron-on and clear-packing-tape hinges for model planes, including the top-and-bottom taping method *(licence: link only)*
+  - [Tape is evil (Manitoba Museum conservation blog)](https://manitobamuseum.ca/tape-is-evil/): Photos of yellow tape stains, failed tape and pages stuck together by old tape in a scrapbook, and its repair with Japanese paper and wheat-starch paste *(licence: link only)*
+  - [Foam Board Tools & Techniques (Fold 'N Fly)](https://www.foldnfly.com/lounge/foam-core-tools-techniques.php): Photos of foam-board folds and joints, with clear packing tape and fibre tape used to seal and reinforce seams *(licence: link only)*
+- **make_it_yourself**: 
+  - [6mm foam bevel cutter 45° (Andries Muylaert, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/309041-6mm-foam-bevel-cutter-45deg): A printed blade holder for cutting 45-degree bevels in 6 mm foam, useful for bevelling control-surface edges before taping a hinge. Read through the Printables public API. *(licence: GNU GPL v2.0)*
+  - [24 mm masking tape dispenser with magnetic mount (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/29505-24-mm-masking-tape-dispenser-with-magnetic-mount): A printable dispenser for 24 mm masking tape that mounts magnetically, e.g. on a printer frame. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+- **diagram_idea**: Three side views of two flat panels with a small gap: (1) a single strip of tape across the top as a seam, with an arrow showing it peeling from the corner; (2) a two-strip hinge, top strip applied with the flap down and bottom strip with the flap up; (3) a woven hinge, two half-strips overlapping in the gap and stuck to opposite faces, with the flap swinging both ways.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Pressure-sensitive_tape
+  - https://en.wikipedia.org/wiki/Pressure-sensitive_adhesive
+  - https://en.wikipedia.org/wiki/Double-sided_tape
+  - https://en.wikipedia.org/wiki/Masking_tape
+  - https://en.wikipedia.org/wiki/Duct_tape
+  - https://en.wikipedia.org/wiki/Gaffer_tape
+  - https://en.wikipedia.org/wiki/Box-sealing_tape
+  - https://en.wikipedia.org/wiki/Filament_tape
+  - https://en.wikipedia.org/wiki/Corrugated_box_design
+  - https://blog.itape.com/blog/the-science-behind-water-activated-tape
+  - https://www.flitetest.com/articles/RC_Plane_Hinge_Types
+  - https://flitetest.com/articles/tape-weave-hinges
+  - https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build
+  - https://library.modelaviation.com/article/frequently-asked-questions-201002
+  - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php
+  - https://woodweb.com/knowledge_base/Miterfolds_for_clean_corner_joints.html
+  - https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/
+  - https://kk.org/cooltools/?p=1518
+  - https://cool.culturalheritage.org/jaic/articles/jaic23-02-003_2.html
+  - https://manitobamuseum.ca/tape-is-evil/
+  - https://connectingtocollections.org/wp-content/uploads/2019/08/Book-Repair_handout-1-1.pdf
+  - https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: lid, door or cover
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
+- **bonds_well**: wood, paper or card, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film [uncertain: surface energy named in Wiki…"*
+- **bonds_poorly**: slippery plastics (PE or PP) ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film [uncertain: surface energy named in Wiki…"*
+- **tools**: none, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: partly
+- **removability**: semi-permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: wood, paper or card, foam
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, load, making_tips_3d_printing, materials, play_and_precision, rules_of_thumb, seal
+
+## 415 Glue stick and starch paste (paper glue stick, wheat-starch paste, methyl cellulose, wallpaper paste)
+
+*adhesives & bonding.* Mild water-based glues for paper and card, either a solid stick rubbed on like a lipstick or a cooked flour or starch paste brushed on, which grip the paper fibres and can often be loosened again with water
+
+*Also covers:* Also covers permanent, washable and colour-change glue sticks, why wet glue makes paper cockle and how to press it flat, wheat-starch paste and methyl cellulose in bookbinding and paper repair (reversible), papier-mâché strips to strengthen cardboard joints, and wallpaper paste. Rubber cement is mentioned under Contact adhesive. Safety: none special; cooked paste goes mouldy, so make it fresh
+
+### What it is
+
+- **plain_name**: Gentle, water-based glues for paper and card: either a solid glue in a twist-up tube that you rub on like a lipstick, or a smooth paste cooked from flour or starch (or mixed from a powder) and brushed on, which soak into the paper fibres and can often be softened again with water
+- **term**: Paper glue stick and starch or cellulose paste (wheat-starch paste, flour paste, methyl cellulose, wallpaper paste)
+- **aliases**: 
+  - glue stick; solid glue stick; stick glue; school glue stick (Wikipedia 'Glue stick'; Canon Creative Park)
+  - brand names beginners search for (brands): Pritt Stick, often used in the UK for any glue stick; UHU stic; Elmer's; Scotch; Bostik (Wikipedia 'Glue stick')
+  - permanent, washable, acid-free and coloured ('disappearing purple', 'goes on purple dries clear') glue sticks (Wikipedia 'Glue stick'; Elmer's Disappearing Purple listing at Wegmans)
+  - wheatpaste; flour and water paste; flour paste; paste (Wikipedia 'Wheatpaste')
+  - wheat starch paste; starch paste; rice starch paste: the refined, reversible paste used in book and paper conservation (Wikipedia 'Wheatpaste'; CCI Notes 11/4; Indiana University Libraries Book Repair Manual)
+  - methyl cellulose; methylcellulose; MC paste (Wikipedia 'Methyl cellulose'; Conservation Resources)
+  - PVA mixture: a 50/50 mix of PVA and methyl cellulose used by bookbinders (Indiana University Libraries Book Repair Manual)
+  - wallpaper paste; wallpaper adhesive (Wikipedia 'Wallpaper paste')
+  - papier-mache paste (Wikipedia 'Papier-mache'; Make:)
+  - not the hot-melt 'glue sticks' that go in a glue gun (see Hot-melt adhesive) (Wikipedia 'Glue stick')
+- **family**: adhesives & bonding
+- **one_liner**: Mild water-based glues for paper and card, either a solid stick rubbed on from a twist-up tube or a cooked starch, flour or cellulose paste brushed on, which soak into the paper fibres and harden as the water leaves, giving clean, non-toxic paper joints that are often reversible with water.
+- **complexity**: Single piece: a one-part glue. A glue stick is a solid soap-thickened glue in a twist-up or push-up tube (Wikipedia 'Glue stick'). A paste is made from a powder (wheat starch, flour, cornstarch or methyl cellulose, or wallpaper-paste flakes) and water, cooked or soaked, then applied with a brush (CCI Notes 11/4; Wikipedia 'Wallpaper paste').
+- **how_it_works**: Both kinds are mostly water with a sticky natural or synthetic polymer dissolved or dispersed in it: Pritt Stick is 'Starch ether, polysaccharides, soap and water' (Henkel Pritt Stick TDS), other sticks use PVA, PVP or acrylic polymer (Wikipedia 'Glue stick'), and pastes use cooked starch or methyl cellulose (Wikipedia 'Wheatpaste'; 'Methyl cellulose'). Spread on paper, the wet glue soaks into the fibres; as the water soaks away and evaporates, the polymer dries into a film that locks the fibres of both sheets together ⚑ [uncertain: general adhesive science, stated in our words]. Because the dried film is still water-soluble or water-swellable, starch paste and methyl cellulose can later be softened and undone with water, which is why conservators use them (University of Virginia Library: 'the adhesion is reversible'; Conservation Resources: methyl cellulose 'is fully reversible with water'). The water also makes the paper fibres swell, mostly across the grain, so wet-glued paper can ripple (cockle) or warp unless it is kept flat while it dries (OAB 'grain direction'; Brighton 'Grain Direction'). *(⚑ parts need confirming)*
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: joins paper to paper, paper to card and card to card in crafts, papercraft models, scrapbooks, bookbinding, paper repair, papier-mache and wallpapering (Wikipedia 'Glue stick'; 'Wheatpaste'; 'Wallpaper paste'; Canon Creative Park)
+- **motion**: none
+- **degrees_of_freedom**: 0: the glued sheets are fixed together once dry
+- **special_behaviour**: 
+  - none: none of the listed behaviours. Its own useful traits: starch paste and methyl cellulose stay reversible with water for many years, which is why they are used in conservation (University of Virginia Library; Conservation Resources); some glue sticks go on coloured and dry clear so you can see where you have glued (Wegmans/Elmer's); and wet paste or a fresh glue stick bond can be slid into line before it sets (Henkel Pritt Stick TDS; Wikipedia 'Wallpaper paste')
+- **holding_principle**: material bond (glue, solvent or melting): the dried glue film grips the fibres of both surfaces
+- **input_output**: not applicable
+- **power**: passive (no power needed): it sets at room temperature as the water leaves. Starch pastes must be cooked first (CCI Notes 11/4), but that is preparation, not curing
+- **removability**: Depends on the glue. Wheat starch paste and methyl cellulose: semi-permanent (can be undone but may damage parts); they are made to be undone later with water, 'even after a long period of time, without damage to the original library item' (University of Virginia Library). Flour paste: harder to undo, because 'Over time the gluten in a flour paste cross-links, making it very difficult to release' (Wikipedia 'Wheatpaste'). Glue stick: permanent in practice once dry; parts can be moved only 'within a short period of time after bonding' (Henkel Pritt Stick TDS), and peeling a dried joint usually tears the paper ⚑ [uncertain]. Washable glue sticks wash out of clothes and off hands (Henkel: 'Washable at 20 C'; Wegmans/Elmer's). *(⚑ parts need confirming)*
+- **reuse_cycles**: once: the glue is used up in the joint; to redo it, soften (paste) or tear (glue stick) the joint and apply fresh glue
+- **tools_needed**: Glue stick: none; slip a scrap of paper under the edges so the glue doesn't get on the table (Canon Creative Park). Paste: a pan or double boiler or a microwave to cook it, a spoon or whisk, a sieve to remove lumps, a clean lidded jar, and a brush (CCI Notes 11/4; Indiana University Libraries Book Repair Manual). To dry work flat: blotting paper or felt, a non-stick polyester web such as Reemay or Hollytex, and boards with weights or a press (AIC Conservation Wiki 'BPG Drying and Flattening'; Indiana University Libraries Book Repair Manual).
+- **seal**: none: the glues are water-soluble and do not seal; methyl cellulose paste is 'not waterproof' (Wikipedia 'Papier-mache')
+- **load**: light: strong enough that a good paper-to-paper joint usually holds better than the paper itself, but nothing structural ⚑ [uncertain: no strength tests found]. CCI says cooked wheat starch paste gives 'a strong, reliable bond' for paper; Indiana University calls methyl cellulose on its own 'a weak adhesive'; Wikipedia says glue sticks 'are not as strong as some liquid-based variants'. Weak in peel and under damp conditions; best used over large flat areas in shear ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: Only while wet. Pritt Stick has an open time of up to 210 seconds and sets in 60-90 seconds, and 'Correction of the bonding parts is possible within a short period of time after bonding' (Henkel Pritt Stick TDS). Wallpaper paste is made to bond slowly, which 'gives the wallpaper hanger time to line up the wallpaper' (Wikipedia 'Wallpaper paste'). Methyl cellulose 'dries fairly quickly', so bookbinders add a little PVA when they need more time (Conservation Resources), and the 50/50 PVA mixture 'sets a bit more slowly than PVA, allowing for an extended working time' (Indiana University).
+- **play_and_precision**: not applicable (nothing moves). Wet paste lets paper stretch, so parts that were lined up while wet can shrink out of line as they dry, especially if their grain directions differ (Brighton 'Grain Direction': layers that stretch and shrink 'in opposite directions' warp).
+- **access_needed**: not applicable: glue is spread on the surfaces before they are pressed together
+- **materials**: Bonds well: paper, card, cardboard and paperboard, photos, felt, cork and 'lightweight craft materials' (Henkel Pritt Stick TDS); paper, fabric and artwork (Wegmans/Elmer's); paper-to-paper repairs, Japanese tissue and book cloth in bookbinding (Indiana University); fabric or paper sizing with methyl cellulose (Conservation Resources). Corrugated cardboard is itself made by joining the fluted layer to the liners 'with a starch based adhesive' (Wikipedia 'Corrugated fiberboard'). Wheatpaste posters stick well to 'concrete and metal' walls but it 'does not adhere well to wood or plastic' (Wikipedia 'Wheatpaste'). Ordinary glue sticks are made for paper and card; a special 'PowerPritt' stick was sold for wood, glass and some plastics (Wikipedia 'Glue stick'). Poor choice for 3D prints (PLA, PETG, ABS), metal, glass, rubber, foam and other non-absorbent materials, since the glue needs to soak into fibres ⚑ [uncertain: inferred from the makers' material lists]. On 3D-printer beds a glue stick is used the other way round, as a release layer that stops PETG sticking too hard (Prusa). *(⚑ parts need confirming)*
+- **maker_difficulty**: easy: glue sticks are used by children at school and need no tools; paste needs only a few minutes of cooking and a sieve (CCI Notes 11/4). The skills are using little enough water to stop cockling and drying the work flat.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: glue sticks, wallpaper-paste flakes, ready-mixed paste, wheat-starch and methyl-cellulose powders (Wikipedia 'Glue stick'; 'Wallpaper paste'; Conservation Resources)
+  - home-made: cook wheat starch, cornstarch or flour with water (CCI Notes 11/4; Make: 'Working with Cardboard')
+  - paper, card and cardboard work: papercraft models, card making, scrapbooking, bookbinding, papier-mache, wallpapering (Canon Creative Park; Wikipedia 'Wheatpaste'; 'Papier-mache')
+  - laser cut: for gluing laser- or plotter-cut card parts ⚑ [uncertain: no page opened]
+  - 3D print (FDM): not for joining prints; only as a thin release or adhesion layer on the print bed (Prusa) *(⚑ parts need confirming)*
+- **print_in_place**: no: it is a glue, not a printed part
+- **making_tips_3d_printing**: Not used to join 3D-printed parts; use a glue made for plastics (see related). Its 3D-printing use is on the print bed: Prusa recommends 'adding PVA glue as a separation layer' on a smooth PEI sheet when printing PETG, because PETG can bond so strongly to clean smooth PEI that removing the print damages the sheet. 'PVA (paper) glue' is usually sold as sticks; 'only a thin layer of glue is enough', spread only under the print, and applied to a cold sheet because 'the PVA glue melts at relatively low temperatures'; marks left in the glue layer 'disappear with the glue after washing' (Prusa 'Print surface preparation'). Some glue sticks are not PVA (Pritt is starch ether, Henkel TDS), so results vary by brand ⚑ [uncertain]. Glue sticks are also handy for sticking paper templates onto parts as cutting or drilling guides ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Glue sticks in permanent, washable, acid-free and colour-change types and in sizes from about 8 g to 43 g (Wikipedia 'Glue stick'; Henkel Pritt Stick TDS https://datasheets.tdx.henkel.com/PRITT-Glue-Stick-en_GB.pdf). Wheat starch and methyl cellulose powders from conservation and bookbinding suppliers (Conservation Resources methyl cellulose: https://www.conservationresources.com/?p=4022). Wallpaper paste as flakes 'based on modified starch, methylcellulose, or clay' to mix with water, or ready-mixed in tubs (Wikipedia 'Wallpaper paste'); some contain a fungicide (Solvite listing at Dunelm). Ready-made 'PVA mixture' or reversible PVA for bookbinding.
+- **rules_of_thumb**: 
+  - Wheat starch paste for paper (CCI Notes 11/4): 30 g of wheat starch to 300 mL of distilled water; mix the starch with 50 mL of the water, add it to the other 250 mL once boiling in a double boiler, then 'continue heating and stirring for another five to ten minutes'. Thin with water and force through a sieve to remove lumps.
+  - Keep paste only a few days: at least 3 days at room temperature or at least 7 days in a fridge, and throw it away 'as soon as it separates or sours' (CCI Notes 11/4); 'a few days without refrigeration, or up to about a week in the fridge', and covering it with water helps (Indiana University Libraries Book Repair Manual).
+  - Methyl cellulose for papier-mache: 'one part powder to 16 parts hot water'; it is 'naturally mold free' but 'not waterproof' (Wikipedia 'Papier-mache').
+  - Cornstarch papier-mache paste for cardboard: dissolve 1 cup of cornstarch in 2 cups of cold water, stir it slowly into half a gallon of boiling water, then stir while it cools, about 45 minutes, until cloudy and milky (Make: 'Working with Cardboard', Bread & Puppet recipe). Flour paste for papier-mache is mixed 'to the consistency of heavy cream' (Wikipedia 'Papier-mache').
+  - Glue stick: rub it on 'two or three times', join the parts, and keep the cap on so it doesn't dry out (Henkel Pritt Stick TDS). Use a glue stick for large areas and a little white (wood) glue on a toothpick for small parts, and put the glue on the place where the tab goes rather than on the tab (Canon Creative Park).
+  - To stop cockling and warping, line up the grain of every layer the same way (in a book, parallel to the spine) so they expand and shrink together (OAB 'grain direction'; Brighton 'Grain Direction'), use as little water as you can ⚑ [uncertain], and dry flat between blotters with a non-stick polyester web, 'placed in a press or under weights', changing the damp blotters for dry ones (AIC Conservation Wiki 'BPG Drying and Flattening').
+  - Wallpaper paste: paste the paper and let it soak so it expands before hanging; for non-woven papers that don't expand, paste the wall instead (Wikipedia 'Wallpaper paste').
+  - Let papier-mache dry right through before painting, or 'mold will form and the product will rot from the inside out' (Wikipedia 'Papier-mache'). *(⚑ parts need confirming)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - A school glue stick for sticking worksheets into exercise books and making cards (Wikipedia 'Glue stick')
+  - Papier-mache masks, bowls and pinatas made with flour or starch paste (Wikipedia 'Papier-mache'; 'Wheatpaste')
+  - Wallpaper hung with paste mixed from flakes (Wikipedia 'Wallpaper paste')
+  - Street posters pasted onto walls with wheatpaste, and the starch glue inside every corrugated cardboard box (Wikipedia 'Wheatpaste'; 'Corrugated fiberboard')
+- **when_to_use**: For paper and card crafts, papercraft models and scrapbooks, where you want a clean, non-toxic glue that grips quickly and is safe for children (glue stick: Henkel TDS conforms to EN 71 toy safety; Elmer's conforms to ASTM D 4236). For gluing large flat areas of paper, where a glue stick puts on less water than liquid glue ⚑ [uncertain] (Canon Creative Park recommends glue sticks for large areas). For bookbinding, paper mending and mounting where the joint should be reversible later: wheat starch paste and methyl cellulose (Indiana University; University of Virginia Library). For papier-mache, including covering cardboard joints with pasted paper strips to strengthen them (Make: 'A cooked starch-based papier-mache ... can add strength'). For wallpaper. *(⚑ parts need confirming)*
+- **when_not_to_use**: For anything that carries load, gets wet or lives outdoors: use PVA, hot glue, or a waterproof glue instead. For plastics, metal, glass, rubber and 3D prints, which these glues don't soak into (use a glue matched to the material). For small, quick structural card joints such as glued tabs on models, where white (PVA) glue grips better (Canon Creative Park). For thin papers you don't want to ripple, where a wet paste can cockle the sheet: use a glue stick, spray adhesive or double-sided tissue tape instead ⚑ [uncertain]. For permanent bookbinding joints between boards, bookbinders use PVA rather than paste (Indiana University: 'PVA is used for all such joints'). *(⚑ parts need confirming)*
+- **environment_limits**: Water and damp undo or weaken the bond, since the glues stay water-soluble (Wikipedia 'Methyl cellulose': 'a mild glue which can be washed away with water'; 'Papier-mache': methyl cellulose 'is not waterproof'). Damp also lets starch and flour paste go mouldy; methyl cellulose is 'not subject to deterioration from microbes or enzymes' (Conservation Resources). Paper itself cockles as humidity changes (Interior Angle 'Paper Cockling'). Flour paste becomes harder to release with age as its gluten cross-links (Wikipedia 'Wheatpaste'). Store glue sticks between 5 and 50 C with the cap on; shelf life 36 months (Henkel Pritt Stick TDS). Once set, methyl cellulose 'is unaffected by temperature extremes' (Conservation Resources). Glue-stick joints may lift at the edges with age or heat ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Nothing special for glue sticks and starch pastes: glue sticks for children are tested to toy safety rules (Henkel Pritt Stick TDS: 'UKCA/CE conformance according to EN 71 Safety of Toys') or labelled non-toxic to ASTM D 4236 (Wegmans/Elmer's), and methyl cellulose is 'non-toxic, and not an allergen' (Wikipedia). Cooked paste goes off: make small batches fresh, keep them cool and covered, and throw paste away 'as soon as it separates or sours' (CCI Notes 11/4). Some wallpaper pastes contain a fungicide and say 'Keep away from children and animals' and 'Wash hands thoroughly after use' (Solvite listing at Dunelm), so use flour, starch or plain methyl cellulose paste for children's papier-mache. Take care with boiling water and hot paste when cooking it (Make: recipe uses boiling water).
+- **common_failures**: Paper ripples or the work curls as it dries (cockling, warping): use less water, match grain directions, and dry flat between blotters under weight (OAB; Brighton; AIC Conservation Wiki). Edges lift because too little glue was used or the glue stick had dried out: apply two or three strokes right to the edges and keep the cap on (Henkel Pritt Stick TDS). Lumpy paste: sieve it (CCI Notes 11/4). Paste or papier-mache goes mouldy or smells: make it fresh, add a preservative such as oil of cloves or salt, or use methyl cellulose, and let work dry fully before painting (Wikipedia 'Papier-mache'; CCI). A flour-paste repair can't be undone later: use refined wheat starch paste instead (Wikipedia 'Wheatpaste'). Wheatpaste won't stick to wood or plastic (Wikipedia 'Wheatpaste'). Joints fail when wet.
+- **related**: 
+  - PVA wood glue (white and yellow glue): white school glue is stronger and more water-resistant for paper, card and wood, but wetter, so it cockles thin paper more; mixed 50/50 with methyl cellulose by bookbinders
+  - Hide glue (animal glue): the traditional hot glue for wood and bookbinding, also reversible with heat and water
+  - Contact adhesive (contact cement): includes rubber cement and spray adhesive for mounting paper without water, so no cockling
+  - Hot-melt adhesive (glue gun): fast, thick and gap-filling for cardboard, but lumpy on paper and a burn risk; its 'glue sticks' are a different thing
+  - Adhesive tape joint and tape hinge: double-sided tissue tape and transfer tape join paper with no water at all
+  - Glued tab joint: the papercraft joint these glues are most often used for
+  - Glued joint design: why paper joints should be overlapped in shear rather than pulled apart in peel
+  - Double-sided foam tape: thick sticky pads for lifting card layers (3D card toppers)
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Pritt Sticks.JPG (Wikimedia Commons, by Elarkon)](https://commons.wikimedia.org/wiki/File:Pritt_Sticks.JPG): A selection of twist-up glue sticks (Pritt Stick international and UK versions and Power Pritt) *(licence: CC BY-SA 3.0 (also GFDL 1.2 or later))*
+  - [Wallpaper paste flakes.JPG (Wikimedia Commons, by Sealman)](https://commons.wikimedia.org/wiki/File:Wallpaper_paste_flakes.JPG): Modified-starch wallpaper-paste flakes that are mixed with water to make paste *(licence: CC BY-SA 3.0)*
+  - [Papier mache.jpg (Wikimedia Commons, by Larry D. Moore)](https://commons.wikimedia.org/wiki/File:Papier_mache.jpg): A papier-mache pig in progress, made with pasted paper strips over a form *(licence: CC BY 4.0)*
+  - [The Tools of Preservation Services: Adhesives (University of Virginia Library exhibit)](https://explore.lib.virginia.edu/exhibits/show/preservation-services/adhesives): Photo of wheat starch paste being applied by hand to Japanese tissue to repair a torn book page, with an explanation of reversible conservation adhesives *(licence: link only)*
+  - [Grain Direction (University of Brighton Visual Communication Technical Resource)](https://blogs.brighton.ac.uk/viscommtech/bookarts/worksheets-for-bookbinders/grain-direction): Photos of the roll test and hang-over test for finding paper grain, and why wet glue makes layers warp *(licence: link only)*
+- **make_it_yourself**: 
+  - [Wheat Starch Paste - Canadian Conservation Institute (CCI) Notes 11/4](https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/wheat-starch-paste.html): Step-by-step recipe for conservation-grade wheat starch paste (30 g starch to 300 mL distilled water, cooked in a double boiler), with storage and thinning advice *(licence: Government of Canada (link only))*
+  - [Working with Cardboard: Tips to Cut, Fold, Mold, and Papier-Mache (Make:)](https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/): A cooked cornstarch papier-mache paste recipe for strengthening cardboard builds with pasted cardboard scraps *(licence: link only)*
+- **diagram_idea**: A side view of two sheets with a thin layer of paste between them: arrows show water soaking into the fibres and evaporating, the fibres swelling sideways across the grain, and two outcomes, one sheet rippled (cockled) after drying freely and one flat after drying between blotters under a weight; a small inset shows a glue stick being rubbed on and a brush loading paste.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Glue_stick
+  - https://en.wikipedia.org/wiki/Wheatpaste
+  - https://en.wikipedia.org/wiki/Methyl_cellulose
+  - https://en.wikipedia.org/wiki/Wallpaper_paste
+  - https://en.wikipedia.org/wiki/Papier-m%C3%A2ch%C3%A9
+  - https://en.wikipedia.org/wiki/Corrugated_fiberboard
+  - https://datasheets.tdx.henkel.com/PRITT-Glue-Stick-en_GB.pdf
+  - https://www.wegmans.com/shop/product/656417-School-Glue-Sticks-Disappearing-Purple-Washable
+  - https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/wheat-starch-paste.html
+  - https://iu.pressbooks.pub/iulibrariesbookrepairmanual/?p=55
+  - https://www.conservationresources.com/?p=4022
+  - https://explore.lib.virginia.edu/exhibits/show/preservation-services/adhesives
+  - https://blogs.brighton.ac.uk/viscommtech/bookarts/worksheets-for-bookbinders/grain-direction
+  - https://oab.lib.utah.edu/?p=1774
+  - https://www.conservation-wiki.com/wiki/BPG_Drying_and_Flattening
+  - https://interiorangle.co.uk/paper-cockling/
+  - https://creativepark.canon/event/howtomake/en/index.html
+  - https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/
+  - https://help.prusa3d.com/article/print-surface-preparation_686951
+  - https://www.dunelm.com/product/solvite-paste-the-wall-wallpaper-paste-1000249386
+  - https://commons.wikimedia.org/wiki/File:Pritt_Sticks.JPG
+  - https://commons.wikimedia.org/wiki/File:Wallpaper_paste_flakes.JPG
+  - https://commons.wikimedia.org/wiki/File:Papier_mache.jpg
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
+- **bonds_well**: paper or card, metal, fabric or leather, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…her non-absorbent materials, since the glue needs to soak into fibres [uncertain: inferred from the makers' ma…"*
+- **bonds_poorly**: PLA, PETG, ABS or ASA, wood, glass or ceramic, rubber, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…her non-absorbent materials, since the glue needs to soak into fibres [uncertain: inferred from the makers' ma…"*
+- **tools**: press or vice
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: partly
+- **removability**: semi-permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: paper or card, fabric, leather or cord
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** environment_limits, how_it_works, load, making_tips_3d_printing, materials, processes, removability, rules_of_thumb, when_not_to_use, when_to_use
+
+## 425 Pinned glue joint (pinning; wire, rod, toothpick or skewer pins)
+
+*adhesives & bonding.* A short pin glued or pushed into matching holes in both parts, so a small glued joint (an arm on a miniature, a broken figure, a resin print, a polymer clay head, foam or foam-board parts) has a hidden pin across it and does not slide or snap off when handled
+
+*Also covers:* Also covers brass rod, paper-clip and garden-wire pins; toothpick and bamboo-skewer pins in foam and foam board; toothpick and wire pins pushed into raw clay before baking; temporary pins (dressmaker's pins, T-pins) holding foam-board parts while glue sets; marking the second hole with a dab of paint or Blu Tack; oversize holes filled with epoxy or epoxy putty; two pins to stop a part spinning; pinning miniatures to their bases; spreading the load in foam with tape, card or a thin plywood washer. Wooden dowels in furniture are Dowel and biscuit joints. Safety: drill with a pin vice (hand drill), not by holding the part under a power drill; clip wire with eye protection; cut skewer ends flush.
+
+### What it is
+
+- **plain_name**: A short bit of wire, rod, toothpick or skewer hidden inside a glued joint, poking into a hole in each part like a little bone, so a small glued-on arm, head or wall doesn't snap or slide off when it is handled
+- **term**: Pinned glue joint (pinning; pinned butt joint)
+- **aliases**: 
+  - pinning (miniature and model-kit term; Wikipedia 'Pinning (modelling)')
+  - pinned joint / wire pin and glue
+  - brass-rod pin, paper-clip pin, garden-wire pin
+  - toothpick pin, toothpick joint (foam board; foldnfly 'Toothpick joints')
+  - skewer pin, BBQ or bamboo skewer through foam (Flite Test)
+  - neck pin or toothpick neck (polymer clay figures)
+  - base pin (pinning a miniature to its base)
+  - dowelling a broken figure (repair wording) ⚑ [uncertain]
+  - pinning a hinge (model-aircraft term for a toothpick or straight pin pushed through a flat hinge; see Slot-in model hinge) *(⚑ parts need confirming)*
+- **family**: adhesives & bonding
+- **other_families**: interlocking joints & joinery, locating & alignment, everyday fasteners & fixings
+- **one_liner**: Drill (or poke) a matching hole into each of the two faces to be joined, push a short pin into both, and glue it all together, so the joint is held by the glue and also by a hidden pin that stops it sliding or snapping off.
+- **complexity**: A few parts: the two parts being joined, one or two pins (brass rod, paper-clip steel, garden wire, carbon rod, a round toothpick or a bamboo skewer) and the glue or filler (superglue, epoxy, epoxy putty, hot glue or, for raw clay, the clay itself). Temporary pins (dressmaker's pins, T-pins) are only used to hold parts while glue sets.
+- **how_it_works**: A plain glued butt joint between two small faces is held only by a thin layer of glue, which is brittle (especially superglue on metal) and breaks with a knock or a sideways bend. A pin that goes into both parts carries that sideways (shear) and bending load itself, so the glue only has to stop the pin pulling out; the long glued surface along the pin is much bigger than the joint face (Bolter and Chainsword: 'the strength of the bond is in the surface area'). Tabletop Gaming calls the wire 'a support beam of sorts'. One round pin still lets a part turn on it, so two pins, or one pin plus a shaped joint face, stop it spinning (Bolter and Chainsword). In soft foam a toothpick or skewer pushed through several layers does the same job, and in raw polymer clay a wire or toothpick is pushed in before baking so the part sits on it.
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: it is a way of making a small glued joint much stronger
+  - join and hold: the pin holds the parts together against knocks and sideways loads
+  - line parts up exactly: matching holes put a part back in the same place, and pins pushed into a cork or base hold a miniature while it is painted (Bolter and Chainsword)
+  - let it move (turn, slide or bend): only the unglued toothpick version in foam board, which foldnfly says can make 'joints that can freely pivot or swivel'
+- **motion**: none (glued); a single unglued toothpick or skewer pin in foam can act as a pivot (rotate)
+- **degrees_of_freedom**: 0 once glued. A single round pin before gluing leaves 2 (turning around the pin and sliding along it); a second pin, or a shaped joint face, removes the turning (Bolter and Chainsword)
+- **special_behaviour**: 
+  - self-aligning or self-centring: once the holes are matched, the pin puts the part back in exactly the same place every time you dry-fit it
+  - none of the others: it has no lock, release, click or spring action
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): superglue, epoxy or epoxy putty glues the pin into both holes and the faces together
+  - shape (the parts interlock; form-fit): the pin sitting in both holes stops the parts sliding sideways or snapping off even if the face glue lets go
+  - friction or clamping (force-fit): toothpicks and skewers pushed tightly into foam, and temporary dressmaker's pins or T-pins, hold by friction only
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent once glued (the pin can only be got out by cutting or drilling it out); temporary pins in foam board and dry-fitted pins in a painting cork are removable
+- **reuse_cycles**: once for glued pins; many times for temporary pins and unglued push-in pins in foam (but foam holes wear bigger each time; Flite Test comments)
+- **tools_needed**: a pin vice (hand drill) with small drill bits (1.0 mm is the common hobby size; Tabletop Gaming), side cutters to clip wire, a file to roughen the pin, superglue or slow epoxy, epoxy putty for gaps, paint or Blu Tack to mark the second hole; for foam just a toothpick or skewer, a knife and hot glue or foam-safe glue; safety glasses when clipping wire (CCOHS)
+- **seal**: none
+- **load**: light: for miniatures, models, figures, props and foam models handled by hand, not for anything structural. Strong against sideways knocks and bending across the joint (the pin carries them) and against twisting when two pins are used; weakest in straight pull-out, which only the glue along the pin resists. In soft foam the weak point is the foam around the pin, which crushes and tears (Flite Test comments). No published strength figures were found ⚑ [uncertain] *(⚑ parts need confirming)*
+- **adjustable**: no once glued; the pin can be bent slightly to fine-tune the pose before the second side is glued (Spikey Bits; Bolter and Chainsword)
+- **play_and_precision**: small: the hole is drilled 0.25 to 0.5 mm larger than the pin to leave room for glue and for small misalignment (Bolter and Chainsword), and the glue or epoxy putty fills the slop; Starship Modeler forum members deliberately drill one hole oversize so the two holes need not line up exactly. Locating accuracy depends on how well the second hole is marked
+- **access_needed**: both sides (the two faces being joined must be reachable to drill before assembly); one side only when the joint is glued first and then drilled through from the most reachable side and pinned (Starship Modeler forum)
+- **materials**: Pins: brass rod (won't rust, easy to cut and file; Bolter and Chainsword), steel paper clips (harder on cutters, can rust over time; Bolter and Chainsword), garden wire (Tabletop Gaming), carbon-fibre rod (Starship Modeler), round toothpicks, bamboo BBQ skewers. Parts it suits: metal (pewter) and plastic miniatures, resin kits and resin 3D prints, FDM prints, baked or raw polymer clay, air-dry clay, foam board, Depron and EPO foam planes, balsa. Glue: superglue (cyanoacrylate) for metal, plastic and resin; slow epoxy or epoxy putty for larger or loose-fitting parts; hot glue or foam-safe glue in foam, because ordinary superglue can melt foam (foldnfly). Not suited to: wood furniture (use dowel joints), parts too thin to hold a hole, or anything that must come apart again
+- **maker_difficulty**: easy to moderate: easy in foam (push a toothpick in) and in raw clay; moderate in metal, resin and small plastic parts, where the hard part is marking and drilling the second hole in line with the first (Tabletop Gaming; Starship Modeler: 'The marking & drilling of holes is about the toughest part')
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: brass rod, piano wire or carbon rod as pin stock; pin vice and micro drill bits
+  - 3D print (resin): pinning large or heavy resin-printed parts and broken resin figures (Starship Modeler forum covers resin kit parts)
+  - 3D print (FDM): drill into printed parts, or design pin holes into the cut faces (see Split-part joints for large prints)
+  - woodwork: balsa model parts and hinge pinning with toothpicks (Airfield Models)
+  - hand work in foam board, EPO and Depron foam and polymer clay (no machine needed)
+- **print_in_place**: no: the pin is a separate part pushed or glued in after printing; designed-in holes can be printed so that only the pin is added ⚑ [uncertain] *(⚑ parts need confirming)*
+- **making_tips_3d_printing**: 1) For prints you design yourself, put the pin holes into the CAD model on both faces so they line up exactly; this is the 'pegs and holes' or 'loose pin' method covered in Split-part joints for large prints (item 62). 2) Small printed holes usually come out undersize, so print them slightly small and open them to size with a drill bit in a pin vice afterwards ⚑ [uncertain]. 3) For already-printed or broken parts, drill with a pin vice, not a power drill: the part can't be held safely under a power drill (CCOHS) and a fast drill wanders and breaks through thin walls (Airfield Models, about balsa). 4) Resin prints are brittle: use a pin of 1 mm or less in small parts, drill slowly, and back the bit out often to clear the swarf (Bolter and Chainsword recommends ground, not rolled, bits for small holes). 5) Hollow resin prints have thin walls, so pin where the wall is solid or fill the cavity with epoxy putty first, the way Bolter and Chainsword fills bases with Milliput before drilling. 6) Make holes 0.25 to 0.5 mm larger than the pin and glue with superglue for a snug fit or slow epoxy or epoxy putty for a loose one (Bolter and Chainsword; Starship Modeler). 7) Roughen the pin with a file for extra grip (Bolter and Chainsword). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Brass rod (common hobby sizes 0.020 in / 0.51 mm and 0.032 in / 0.81 mm; Bolter and Chainsword), 'pinning rod' or 'pinning wire' sold for miniatures, piano wire, carbon-fibre rod, round toothpicks, bamboo BBQ skewers, dressmaker's pins and T-pins (temporary), pin vice (pin vise) hand drill with collets, ground HSS or cobalt micro drill bits (0.7 mm and 1.0 mm are the most used; Bolter and Chainsword), side cutters, superglue (cyanoacrylate), slow-setting two-part epoxy, epoxy putty (e.g. Milliput or 'green stuff', brands), Blu Tack (brand) for marking holes, silicone fuel tubing to pad T-pins (Model Airplane News)
+- **rules_of_thumb**: 
+  - Drill the hole 0.25 to 0.5 mm larger than the pin to leave room for glue; e.g. 0.8 mm brass rod in a 1.0 mm hole (Bolter and Chainsword forum)
+  - 1.0 mm is the standard bit that most hobby drills come with and suits garden wire pins in metal miniatures (Tabletop Gaming)
+  - Each hole should be at least half the length of the pin deep, i.e. the pin is fully buried (Starship Modeler forum); about 1/4 in (6 mm) deep is fine for typical resin model parts (Starship Modeler forum)
+  - Up to a point, longer pins are stronger; about 20 mm of pin for a trooper on its base, trimmed to 5 to 10 mm showing below the feet when fitted (Bolter and Chainsword forum)
+  - Use two pins (or two thin pins in one slightly larger hole) to stop a part with one small contact point loosening or spinning (Bolter and Chainsword forum)
+  - Dry-fit and cut the pin to length before any glue goes on; cut it too long rather than too short (Tabletop Gaming)
+  - For a pinned hinge in balsa: drill 3/32 in (2.4 mm) through surface and hinge, push in a round toothpick, trim flush, add a drop of thin CA (Airfield Models)
+  - In foam, spread the load where a pin goes through a wall that is pulled on: glue a popsicle stick or an old gift card with a hole in it over the skewer hole, or back it with packing tape (Flite Test Old Fogey comments); a thin plywood washer does the same ⚑ [uncertain] *(⚑ parts need confirming)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - a metal or resin tabletop miniature whose arm, weapon or wings are pinned on, and the miniature pinned to its base
+  - a polymer clay figure whose head sits on a toothpick or wire through the neck
+  - a foam-board model plane or school model held together with toothpicks and hot glue, or with skewers poking through the fuselage for the rubber-band wing hold-down
+  - a broken ornament or figurine repaired with a hidden pin
+- **when_to_use**: When a small glued joint has little contact area and will be knocked or handled: heavy metal miniatures used for gaming (Wikipedia), conversions where parts were not designed to fit together (Wikipedia), big or heavy resin parts (Starship Modeler), attaching a figure firmly to its base (Bolter and Chainsword), polymer clay heads, hearts and limbs that would otherwise just sit on top (a toothpick or wire pushed in before baking; The-Leaky-Cauldron.org and Tiny Pandora clay tutorials), and foam-board or foam-plane parts where glue alone tears the soft foam (foldnfly; Flite Test). Also as a quick way to hold foam-board walls square while glue sets, using pins (Studio Matrx: 'glue and hold with clamps/pins').
+- **when_not_to_use**: Display models that are rarely handled often don't need it (Wikipedia). Not for parts too thin to hold a hole without breaking through. Not for wooden furniture and boxes: use Dowel and biscuit joints. Not when the part must come apart again: use a magnet joint or an unglued locating pin. Not for loads that matter (shelves, anything that could fall on someone): use proper fasteners. Not for steel pins that must be pressed in hard: see Drive-in fixing pins.
+- **environment_limits**: Limits are those of the glue: superglue is brittle and 'not recommended on parts that will flex or twist under load' (Motion RC), so pinned superglue joints still crack if bent; hot glue in foam softens in heat (see Hot-melt adhesive). Steel paper-clip pins can rust after a long time (Bolter and Chainsword); brass does not. In polymer clay, wood (toothpicks, skewers) holds moisture that can expand in the oven and crack the piece, so Sculpey's blog advises drying wooden parts in the oven first; metal does not have this problem (Sculpey blog). Foam holes wear larger with use and after hard landings (Flite Test comments).
+- **safety_notes**: Drill small parts with a hand pin vice, not by holding the part under a power drill: CCOHS says 'Never drill with one hand while holding the material with the other' and to clamp small stock so it can't spin. Wear safety glasses when clipping wire, because cut ends fly (CCOHS: eye protection 'whenever there is a potential hazard from flying particles, pieces of wire'), and don't cut hardened wire (e.g. piano wire) with ordinary cutters (CCOHS). Superglue bonds skin. Cut skewer and toothpick ends flush or cap them so no sharp point sticks out. Temporary dressmaker's pins and T-pins are sharp: count them out and back in. Keep cut wire offcuts away from children and pets.
+- **common_failures**: 1) Holes don't line up, so the part sits crooked: mark the second hole by touching a blob of paint on the pin end (Tabletop Gaming), a ring of thick paint around the first hole (Spikey Bits), Blu Tack (Wikipedia) or a sharpened pin tip (Starship Modeler), or drill one hole oversize and fill it with epoxy putty (Starship Modeler). 2) Superglue grabs before the pin is fully in: dry-fit first and push it home quickly (Tabletop Gaming). 3) Drill breaks or wanders: use ground (not rolled) bits and a pin vice, and drill straight (Bolter and Chainsword; Spikey Bits). 4) Drilling right through a thin part: mark the depth and stop early (Spikey Bits). 5) Glue squeezed out of the hole stops the parts closing flush: lightly countersink the hole edge (Bolter and Chainsword). 6) Pin pulls out of a smooth hole: roughen the pin with a file (Bolter and Chainsword). 7) Part spins on a single pin: add a second pin (Bolter and Chainsword). 8) Skewer or toothpick holes in foam tear out: spread the load with tape, card or a popsicle stick (Flite Test comments). 9) Toothpick in raw clay leaves a weak, crumbly joint or cracks: bake the body first, then add the head on the baked pin and smooth it in (Ann's Clay How To page), or use wire instead.
+- **related**: 
+  - Dowel and biscuit joints: wooden pegs or biscuits in sized holes in woodwork; pinning is the same idea scaled down for models, using wire and glue
+  - Locating pins and hole-and-slot: precise pins for exact, repeatable location in machines, usually without glue
+  - Split-part joints for large prints: pegs, dowels and puzzle joints designed into the cut faces of a 3D print
+  - Drive-in fixing pins (roll pin, spring pin, dowel pin): steel pins held by a press or spring fit, not glue
+  - Epoxy putty: the filler used to fill gaps and oversize holes around pins
+  - Cyanoacrylate (superglue): the usual glue for pinning metal and resin miniatures
+  - Wire and foil armature: a full wire skeleton inside a clay figure, rather than a short pin across one joint
+  - Magnet joint: lets a pinned-on part come off again (swappable weapons on miniatures)
+  - Slot-in model hinge: 'pinning a hinge' with a toothpick through the hinge leaf is the same trick
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Hobby tips: how to pin metal miniatures (Tabletop Gaming, 2019)](https://tabletopgaming.co.uk/features/hobby-tips-how-to-pin-metal-miniatures): Step-by-step photos of drilling a 1.0 mm hole in a metal miniature's arm and body, dry-fitting garden wire, cutting it to length and gluing *(licence: link only)*
+  - [This is How To Pin Metal Miniatures (the right way) (Spikey Bits, with Next Level Painting video)](https://spikeybits.com/this-is-how-to-pin-metal-miniatures-the-right-way/): Embedded video and text: drilling, marking the second hole with a ring of thick paint, paper-clip or brass pins *(licence: link only (embedded YouTube video))*
+  - [Foam Core Tools & Techniques (Fold 'N Fly)](https://www.foldnfly.com/lounge/foam-core-tools-techniques.php): Photo labelled 'Toothpick joints': toothpicks poked through several layers of foam board, plus glue and folding techniques *(licence: link only)*
+  - [FT Old Fogey Scratch Build (Flite Test)](https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build): Build photos and video of a foam-board plane with BBQ skewers through the fuselage as rubber-band anchors; comments on skewer holes tearing out and fixes *(licence: link only)*
+  - [Hinges for Model Aircraft, section 'Pinning Hinges' (Airfield Models)](https://airfieldmodels.com/information_source/model_aircraft_hardware/hinges.htm): Photos and text on pinning a glued flat hinge with a round toothpick through a 3/32 in hole *(licence: link only)*
+- **make_it_yourself**: 
+  - [Pin Vise (mdkendall, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/133502-pin-vise): A printable pin vice whose jaws grip tools with a 1/8 in shank, for drilling small holes by hand; read through the Printables public API *(licence: CC BY-SA)*
+  - [Pin Vise (David Gunter, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/543282-pin-vise): A printable pin vice for 2 to 3 mm drills and taps, printed in PLA+ upright with no supports; read through the Printables public API *(licence: CC0 (Public Domain))*
+- **diagram_idea**: A cut-away of a miniature's arm and shoulder pulled slightly apart, showing a wire pin glued into a hole in each face, with arrows showing that a sideways knock is carried by the pin, and a second view of a toothpick pushed through two layers of foam board.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Pinning_(modelling)
+  - https://tabletopgaming.co.uk/features/hobby-tips-how-to-pin-metal-miniatures
+  - https://spikeybits.com/this-is-how-to-pin-metal-miniatures-the-right-way/
+  - https://bolterandchainsword.com/topic/344681-some-very-noobish-questions-priming-and-assembling-related/
+  - https://mail.starshipmodeler.net/talk/viewtopic.php?p=983361
+  - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php
+  - https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build
+  - https://www.studiomatrx.org/students/model-making/cutting-and-finishing
+  - https://membership.modelairplanenews.com/members/soft-hold-downs
+  - https://airfieldmodels.com/information_source/model_aircraft_hardware/hinges.htm
+  - https://www.motionrc.com/blogs/motion-rc-blog/benchcraft-accessories
+  - https://www.oocities.org/Athens/Olympus/3457/clay_howto.htm
+  - https://www.the-leaky-cauldron.org/?p=11233
+  - https://cdn.shopify.com/s/files/1/1174/5346/files/CthulhuTutorial2019.pdf?41
+  - https://blog.sculpey.com/creating-armature-that-supports-your-sculpts
+  - https://ccohs.ca/oshanswers/safety_haz/hand_tools/pliers.html
+  - https://ccohs.ca/oshanswers/safety_haz/power_tools/drills.html
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
+- **bonds_well**: metal
+- **bonds_poorly**: wood, paper or card, foam
+- **tools**: drill and tap, press or vice, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, clay or putty
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, load, making_tips_3d_printing, print_in_place, rules_of_thumb
+
+## 428 Liquid-clay bond (bakeable clay glue, bake-in-stages join)
+
+*adhesives & bonding.* A thin coat of liquid polymer clay brushed between two pieces of polymer clay, raw or already baked, which fuses them into one when the piece is baked again; used to add small details and to build a sculpture in several bakes
+
+*Also covers:* Also covers raw-to-raw, raw-to-baked and baked-to-baked joins, a raw-clay bridge between baked parts, thick bakeable pastes, and gel superglue for baked parts that cannot be baked again. Brand of clay changes the result. Safety: bake at the packet temperature with ventilation; burnt polymer clay gives off hydrogen chloride; do not use for food items.
+
+### What it is
+
+- **plain_name**: Brushing a thin coat of runny oven-bake clay between two pieces of polymer clay (soft or already baked) so that, when the piece goes back in the oven, the two pieces fuse into one
+- **term**: Liquid-clay bond (bakeable bond with liquid polymer clay; bake-in-stages join)
+- **aliases**: 
+  - liquid clay as glue / liquid polymer clay (Wikipedia 'Polymer clay': 'can be used as an adhesive to combine pieces')
+  - bakeable glue, bakeable bond, baked bond, bonding agent (Blue Bottle Tree)
+  - vinyl plastisol (the material's proper name; Blue Bottle Tree)
+  - oven-bake clay adhesive
+  - Sculpey Bake and Bond / Bake 'n Bond / Sculpey Oven-Bake Clay Adhesive / Oven Bond Adhesive (brand; the same product renamed)
+  - Translucent Liquid Sculpey (TLS), Clear Liquid Sculpey (CLS) (brand)
+  - FIMO liquid oven-bake liquid gel (brand)
+  - Kato Liquid Polyclay, Kato PolyPaste (brand)
+  - Cernit Glue, Lucy Clay Glassymer Glue and Gel, PVClay Gel (brand)
+  - Genesis Thick Medium (brand; heat-set paint medium, no longer made)
+  - raw clay bridge (a thin snake of soft clay between two baked parts)
+  - baking in stages, partial baking, rebaking (sculptors' wording) ⚑ [uncertain] *(⚑ parts need confirming)*
+- **family**: adhesives & bonding
+- **other_families**: welding, brazing & soldering
+- **one_liner**: A thin layer of liquid polymer clay (the same PVC-and-plasticiser material as the clay, without the fillers) is brushed onto the joint between two polymer clay parts, and baking the piece again cures it so the parts become one solid piece.
+- **complexity**: A few parts: the two polymer clay parts (raw, baked, or one of each), the bonding layer (a liquid clay, a thick bakeable paste or gel, or a thin snake of raw clay used as a bridge between baked parts), and an oven. Sometimes a temporary support (card, foil or a prop) to hold the parts together until baked.
+- **how_it_works**: Polymer clay is a PVC resin powder in a liquid plasticiser (a plastisol); baking at about 129 to 135 °C makes the resin take up the plasticiser and set solid (Wikipedia 'Polymer clay'). Liquid clay and the 'bakeable glues' are the same plastisol 'without the binders that turn polymer clay into a putty', so they are not real glues at all (Blue Bottle Tree). Brushed into a joint, the liquid wets both surfaces, even baked ones, and when the piece is baked again it cures together with them into one continuous plastic. Nothing holds until it is baked, so the parts have to be supported in place until then; one Sculpey designer leaves a raw-to-baked joint resting overnight first 'so that the plasticizer in all the layers could leach into each other' (Sculpey blog, Oven Bake Clay Adhesive).
+
+### Finder attributes
+
+- **job**: glue or bond: it fuses polymer clay parts into one piece in the oven, join and hold: adds small details (salt on a clay cracker, feet on a tray) and assembles a sculpture built in several bakes
+- **motion**: none
+- **degrees_of_freedom**: 0: once baked the two parts are one rigid (or slightly bendy) piece
+- **special_behaviour**: none: it has no lock, release, click or spring action; its only trick is that it stays wet and movable until it is baked
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the liquid clay cures in the oven together with the clay on both sides, much like a weld in plastic
+  - shape (the parts interlock; form-fit): only in the raw-clay-bridge and wrap-around versions, where soft clay pressed over or between parts also grips them by shape
+- **input_output**: not applicable
+- **power**: passive (no power needed) in use; it needs an oven (heat) once to cure the joint
+- **removability**: permanent: once baked the joint can only be broken or cut apart
+- **reuse_cycles**: once
+- **tools_needed**: a small brush, needle tool or toothpick to apply the liquid clay; rubbing alcohol to wipe oils off baked clay before bonding (Blue Bottle Tree); a home or toaster oven with a separate oven thermometer (Sculpey FAQ); card, foil or a prop to hold parts in place until baked; gel superglue instead for baked parts that cannot be baked again
+- **seal**: none (it is not meant as a seal), although a cured joint is waterproof: Sculpey's blog calls clay bonded to cork with it 'completely waterproof'
+- **load**: light: for jewellery, figures, miniatures and decorations. Blue Bottle Tree's hand test found joints made with a bonding agent 'strong and nearly impossible to break', while some brands' plain raw-to-raw joints could be flicked off with a finger. No published strength figures found ⚑ [uncertain]. The cured joint stays slightly flexible, so it copes with knocks better than brittle glues; FIMO liquid is 'Extremely flexible after hardening' (STAEDTLER), and thin liquid clays can cure rubbery (Blue Bottle Tree) *(⚑ parts need confirming)*
+- **adjustable**: yes, until it is baked: the parts can be slid into position while the liquid clay is still runny (Sculpey blog); no once baked
+- **play_and_precision**: not applicable
+- **access_needed**: both sides (the two joining faces must be coated before they are pressed together)
+- **materials**: Joins PVC polymer clay to itself in every combination: raw to raw, raw to baked and baked to baked (Blue Bottle Tree; Sculpey blog). The brand matters: in Blue Bottle Tree's test Fimo Professional bonded well to itself even without liquid clay, Cernit bonded well raw to raw, and Premo, Souffle and Kato bonded poorly unless a bonding agent was used. Sculpey's oven-bake clay adhesive also bonds raw clay to porous things that can go in the oven: wood, cork, cardboard, papier-mâché and heavy paper (Sculpey blog), and bare wood should be baked first at 135 °C for 20 minutes to drive out moisture and sap (Sculpey FAQ). Does not work: smooth metal, glass and other non-porous surfaces ('Clay cannot be bonded to metal or other non-porous surfaces', Sculpey FAQ; wrap or embed instead, see Baked-in findings); air-dry clay, pottery clay or epoxy putty (different materials, see Score-and-slip join and Epoxy putty); anything that cannot take about 130 °C, such as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints ⚑ [uncertain] *(⚑ parts need confirming)*
+- **maker_difficulty**: easy: brush, press and bake; the skill is in supporting the parts until baked and in baking fully at the right temperature
+
+### Making it
+
+- **processes**: hand work in polymer clay (sculpting, jewellery, miniatures) with a home or toaster oven, off-the-shelf part: liquid polymer clay or bakeable paste from a craft shop
+- **print_in_place**: no: this is a bond between oven-bake clay parts, not a printed joint
+- **making_tips_3d_printing**: not applicable as a printed joint. Where a maker combines prints and polymer clay: printed cutters and texture tools for clay are common, but a PLA print should not be baked with the clay, because PLA softens far below polymer clay baking temperatures ⚑ [uncertain]; bake the clay parts on their own and glue them to the print afterwards with gel superglue or epoxy (see Cyanoacrylate and Two-part epoxy). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Liquid polymer clay (translucent, clear or coloured; e.g. Translucent Liquid Sculpey, Clear Liquid Sculpey, FIMO liquid, Kato Liquid Polyclay, PVClay Gel, brands), thick bakeable pastes (Sculpey Oven-Bake Clay Adhesive, formerly Bake and Bond; Kato PolyPaste, brands), Cernit Glue and Lucy Clay Glassymer (brands), an oven thermometer, a soft brush or needle tool, rubbing alcohol, gel superglue (e.g. Loctite Gel Control, Gorilla Glue Gel Superglue, Zap-a-Gap, brands) for parts that cannot be rebaked
+- **rules_of_thumb**: 
+  - Polymer clay cures at 129 to 135 °C (265 to 275 °F), held for 15 minutes per 6.4 mm (1/4 in) of thickness (Wikipedia 'Polymer clay'); always follow the packet for the brand you use
+  - Sculpey lists most of its clays at 275 °F for 15 or 30 minutes per 1/4 in, Liquid Sculpey at 275 to 300 °F (135 to 149 °C) for 15 to 30 minutes and Clear Liquid Sculpey at 300 °F (149 °C); turn the oven fan (convection) off when baking liquids (Sculpey FAQ)
+  - FIMO liquid: 130 °C for 20 minutes (STAEDTLER product page)
+  - When mixing brands or products, bake at the highest temperature and for the longest time any of them needs (Sculpey FAQ)
+  - Sculpey Bake and Bond 'doesn't cure fully at the regular temps. You have to heat it quite a bit hotter. Check the label' (Blue Bottle Tree, earring posts)
+  - Use a separate oven thermometer: oven dials are often wrong (Sculpey FAQ); do not heat polymer clay above 175 °C (350 °F) (Premo safety data sheet, Potterycrafts, March 2022)
+  - Raw to baked: let the joint rest overnight before baking so the plasticiser can soak across (Sculpey blog, Oven Bake Clay Adhesive); on wood or cardboard let the adhesive soak in for at least 30 minutes until it turns cloudy (same source)
+  - Baked to baked: rub on a 'seriously thin' layer and put a thin snake of raw clay between the parts as a bridge (Blue Bottle Tree, describing Genesis Thick Medium, no longer made)
+  - Wipe baked clay with alcohol to remove oils before bonding; any glue sticks only to paint, sealer or mica powder if those are on the surface, so bond bare clay (Blue Bottle Tree)
+  - Stir liquid clays well before use (Blue Bottle Tree)
+
+### When to use it
+
+- **everyday_examples**: 
+  - tiny 'salt' crystals or sprinkles fixed onto a miniature clay cracker or pastry (Sculpey blog)
+  - clay feet added to an already-baked clay trinket tray (Sculpey blog)
+  - a polymer clay figure sculpted in stages: head baked first, then the body added and baked again
+  - polymer clay mosaics or coasters on wood or cork bases (Sculpey blog)
+- **when_to_use**: When both parts are polymer clay and the whole piece can go back in the oven: adding small details that would otherwise fall off (Sculpey blog), joining delicate raw parts that would squash if pressed hard (Sculpey blog: 'just a drop of the liquid can be placed at the joint'), adding new raw clay to a piece that is already baked, repairing a broken baked piece, and building a big or fiddly sculpture in several bakes so finished parts are not squashed while you work on the rest. Also for covering wood, cork, cardboard or paper with polymer clay (Sculpey blog). Blue Bottle Tree recommends it whenever a strong bond is needed, especially with Premo, Souffle or Kato.
+- **when_not_to_use**: When the piece cannot be baked again (it has glued-on parts, resin, a magnet or plastic decorations): use a gel superglue instead (Blue Bottle Tree), or a two-part epoxy, which 'can become brittle with age and pop off' (Blue Bottle Tree). For metal findings (bails, posts, pins): embed them in the clay instead, because liquid clay does not bond to bare metal (Sculpey FAQ; see Baked-in findings). For air-dry or pottery clay: use the Score-and-slip join. For epoxy putty: it sets by itself without baking (see Epoxy putty). For anything that will hold food or drink: polymer clay is not recommended for food items (Wikipedia 'Polymer clay').
+- **environment_limits**: Once cured it behaves like the clay itself: polymer clay is 'strong, durable, and waterproof', and properly baked unsealed clay buttons survive the washing machine and tumble dryer (Blue Bottle Tree, buttons). It stays a little flexible. Underbaking leaves the clay and the joint weak (Blue Bottle Tree). Heat limits are those of the clay; the safety data sheet says not to heat it above 175 °C (Premo SDS). Plasticisers stay in the cured clay and can leach out (Wikipedia 'Polymer clay').
+- **safety_notes**: Heat joining: the hazards are the oven, not the liquid. Bake at the temperature on the packet with a separate oven thermometer and good ventilation, such as the cooker-hood fan or an open window (Sculpey FAQ). If clay is overheated or burnt it blackens and can give off hydrogen chloride (hydrochloric acid) vapour, plus carbon monoxide and carbon dioxide; turn off the oven, open the nearest window and get fresh air (Premo safety data sheet; Wikipedia 'Polymer clay'). Sculpey says overheated clay gives off fumes that are 'not acutely toxic' but irritate eyes, nose and mouth (Sculpey FAQ). Never use a microwave, and baking should be done by an adult (Sculpey FAQ). Keep clay off surfaces also used for food unless there is a barrier such as parchment or foil (Sculpey FAQ). Do not use for items that hold or serve food or drink, because plasticisers (some phthalates are endocrine disruptors) remain in the cured clay (Wikipedia 'Polymer clay'). If a joint is repaired with superglue and then rebaked, the breakdown is 'really minor' but the glue weakens; don't bake resin, not even UV resin, which is highly allergenic (Blue Bottle Tree, earring posts). Wash hands after handling clay (Premo safety data sheet).
+- **common_failures**: 1) Parts slide or drop off before the bake, because liquid clay is runny: use a thicker paste (Bake and Bond, PolyPaste) that 'stays put', or prop the parts up (Blue Bottle Tree). 2) Raw-to-baked or baked-to-baked joints pull apart after baking: wipe the baked surface with alcohol first, use a better bonding agent (Fimo Liquid gave the strongest joints in Blue Bottle Tree's test), add a raw clay bridge, or let the joint rest before baking (Sculpey blog). 3) Some brands bond poorly even raw to raw (Premo, Souffle and Kato in Blue Bottle Tree's test): add liquid clay to every joint. 4) Joint stays weak or peels: Bake and Bond was not baked hot enough (Blue Bottle Tree), or the whole piece was underbaked; check the temperature with an oven thermometer. 5) Bonding agent put on paint, sealer or mica powder holds only to that coating (Blue Bottle Tree). 6) Ripples in liquid clay from the oven fan (Sculpey FAQ). 7) Thin liquid clays cure rubbery, which feels wrong on an earring back (Blue Bottle Tree). 8) Darkened or bubbling (burnt) clay from an oven that runs hot; white, translucent and light clays discolour most easily, so bake on card stock or parchment and check with a thermometer (Sculpey blog, 6 things to avoid). 9) Underbaked clay is 'softer and more fragile', and brittleness can also come from baking too long (same source).
+- **related**: 
+  - Score-and-slip join: the same idea for water-based pottery and air-dry clay, using the clay thinned with water instead of liquid plastic, and drying instead of baking
+  - Baked-in findings: how metal loops, pins and posts are held in polymer clay by shape, often with a dip of liquid clay
+  - Melted plastic weld: joining plastic to itself by melting it, with a soldering iron or hot air instead of an oven
+  - Solvent welding: joining plastic to itself by dissolving its surface rather than curing a liquid of the same plastic
+  - Cyanoacrylate (superglue): gel superglue is the choice for baked polymer clay that cannot be rebaked
+  - Two-part epoxy: an alternative cold glue for baked clay, which can turn brittle with age
+  - Elastomeric solvent glue (flexible craft glue): often recommended for clay, but Blue Bottle Tree finds it often does not set properly on polymer clay
+  - Epoxy putty: a two-part modelling putty that sets without baking
+  - Pinned glue joint: a wire or toothpick across the joint to stop a clay head or limb snapping off
+  - Wire and foil armature: the skeleton that thin clay parts are built over
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Bonding Polymer Clay to Itself – Testing Bakeable Bonds (The Blue Bottle Tree, Ginger Davis Allman)](https://thebluebottletree.com/bonding-polymer-clay-to-itself-testing-bakeable-bonds/): Photos of test tiles in five clay brands with circles bonded raw-to-raw, raw-to-baked and baked-to-baked using ten bakeable glues, and the results *(licence: link only)*
+  - [How to Effectively Use Oven Bake Clay Adhesive (Sculpey blog, Amy Koranek, 2022)](https://blog.sculpey.com/how-to-effectively-use-oven-bake-clay-adhesive): Photos of raw-to-raw, raw-to-baked and clay-to-wood, cork, cardboard and paper bonds with Sculpey's bakeable adhesive *(licence: link only)*
+  - [The Diversity of Liquid Polymer Clay (Sculpey blog, Whitney Gallina)](https://www.sculpey.com/blogs/blog/the-diversity-of-liquid-polymer-clay): Photos of liquid clay used to fix tiny details (salt on a clay cracker) and eye pins, compared with score and slip for air-dry clay *(licence: link only)*
+  - [What's the Best Glue for Polymer Clay? (The Blue Bottle Tree)](https://thebluebottletree.com/best-glue-for-polymer-clay/): Guide with photos comparing baked bonds (liquid clay, Bake and Bond, PolyPaste) with superglue, epoxy, PVA and E6000 on polymer clay *(licence: link only)*
+- **diagram_idea**: Three side-by-side sketches of two clay pieces with a thin coloured layer of liquid clay between them, labelled raw-to-raw, raw-to-baked and baked-to-baked (with a thin raw clay snake as a bridge), then an arrow into an oven showing them coming out as one piece.
+- **sources**: 
+  - https://thebluebottletree.com/bonding-polymer-clay-to-itself-testing-bakeable-bonds/
+  - https://thebluebottletree.com/best-glue-for-polymer-clay/
+  - https://thebluebottletree.com/polymer-clay-needs-flexible-glue/
+  - https://thebluebottletree.com/securing-polymer-clay-earring-post-backs-whats-the-best-way/
+  - https://thebluebottletree.com/make-polymer-clay-buttons/
+  - https://thebluebottletree.com/can-you-bake-crystals-in-clay/
+  - https://www.sculpey.com/blogs/blog/the-diversity-of-liquid-polymer-clay
+  - https://blog.sculpey.com/how-to-effectively-use-oven-bake-clay-adhesive
+  - https://www.sculpey.com/pages/faqs-1
+  - https://en.wikipedia.org/wiki/Polymer_clay
+  - https://www.staedtler.com/uk/en/products/fimo-modelling-clay-accessories/fimo-accessoires/surface-treatment/fimo-liquid-8050-oven-bake-liquid-gel-m8050/
+  - https://potterycrafts.co.uk/cdn/shop/files/Premo_Sculpey_Polymer_Clay_747a26ae-3aa8-4d8e-a413-1cfe01b669f7.pdf
+  - https://www.sculpey.com/blogs/blog/6-things-to-avoid-when-baking-polymer-clay
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**: fills gaps ⚑ *needs confirming (best guess): not on the glue lists in the finder tree; traits read from the text*
+- **bonds_well**: PVC ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints [uncertain]…"*
+- **bonds_poorly**: PLA, wood, paper or card, metal, glass or ceramic ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints [uncertain]…"*
+- **tools**: sewing or leather tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: wood, paper or card, clay or putty
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, load, making_tips_3d_printing, materials
+
+## 429 Score-and-slip join (scratch and slip, luting)
+
+*adhesives & bonding.* Scratching criss-cross lines into both clay surfaces and brushing on slip (the same clay thinned with water to a thick cream), then pressing and blending the seam, so two pieces of soft or leather-hard pottery clay or air-dry clay grow into one; how handles, spouts and modelled details are attached
+
+*Also covers:* Also covers vinegar or 'magic water' (sodium silicate) instead of slip, reinforcing the seam with a thin coil, matching the dryness of both parts, and PVA glue for already-dry air-dry clay. Safety: dry slowly and evenly, or the join cracks; vinegar dissolves slip-cast pieces; clay dust from sanding dry clay should not be breathed. Firing ceramics is out of scope (parked).
+
+### What it is
+
+- **plain_name**: Scratching criss-cross lines into both pieces of soft clay, painting on a creamy mix of the same clay and water, then pressing them together and smoothing over the seam so they grow into one piece
+- **term**: Score-and-slip join (scratch and slip; luting)
+- **aliases**: 
+  - score and slip / slip and score
+  - scratch and slip (Wikipedia 'Slip (ceramics)')
+  - luting: joining two pieces of dry or leather-hard clay with a slip (Wikipedia 'Glossary of pottery terms')
+  - a lute (the joint itself; Wikipedia 'Leather-hard')
+  - slip as 'the glue of clay' (Lillian Gray)
+  - joining slip, joining clay
+  - magic water (a sodium silicate and soda ash solution used instead of slip)
+  - magic mud, paper clay slip (slip with paper fibre added; Lakeside Pottery)
+  - vinegar join (white vinegar instead of slip; AMACO)
+  - sprigging (fixing moulded relief decoration on with slip; Wikipedia 'Slip (ceramics)')
+- **family**: adhesives & bonding
+- **one_liner**: Two pieces of soft or part-dried water-based clay are scratched (scored) where they meet, coated with slip (the same clay mixed with water to a thick cream), pressed together and blended, so that as they dry the clay knits into one piece; this is how handles, spouts, ears and other details are attached.
+- **complexity**: A few parts: the two clay pieces, the slip (or vinegar, or magic water), a scoring tool (needle tool, fork, serrated rib, toothbrush or taped toothpicks), a brush, and optionally a thin coil of clay pressed round the seam as a reinforcing fillet.
+- **how_it_works**: Damp clay sticks to damp clay, but two smooth, firm surfaces pressed together only touch at a few points and pull apart as they dry and shrink. Scoring both surfaces with criss-cross lines roughens them so they key together, and the slip, a thick clay-and-water paste, fills the scratches so the clay particles of both pieces meet and mingle (Wikipedia 'Slip (ceramics)'). Pressing and blending the seam, and often rolling a thin coil into the corner, makes a smooth, solid join. The join only stays whole if both parts are at about the same dampness and the piece dries slowly and evenly, because clay shrinks as it dries and parts that shrink at different rates pull apart (Wikipedia 'Leather-hard'; TeachKidsArt). Vinegar or magic water can replace slip: vinegar 'breaks down the clay a bit, and makes it sticky' (AMACO), and magic water is a deflocculant that lets clay particles pack tightly while staying fluid (Potclays).
+
+### Finder attributes
+
+- **job**: glue or bond: the clay itself is the 'glue', so the parts become one material, join and hold: handles, spouts, knobs, feet, ears, noses and other modelled details on pottery and clay models
+- **motion**: none
+- **degrees_of_freedom**: 0: once dry (and fired, for pottery) the joined parts are one rigid piece
+- **special_behaviour**: none: no lock, release or spring action; it only works while the clay is still damp enough to be blended
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the clay particles of both pieces merge through the slip, so the join becomes the same material as the parts
+  - shape (the parts interlock; form-fit): the scored grooves key into each other and a pressed-in coil wraps the seam
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent once dry: it can only be undone while still soft, or by breaking it
+- **reuse_cycles**: once
+- **tools_needed**: a scoring tool (needle tool, fork, serrated rib, wire brush, stiff toothbrush, or a few toothpicks taped side by side; TeachKidsArt, Pottery Supplies Online, Ceramics Monthly), a small brush for the slip, a lidded pot of slip made from the same clay, a small dowel or skewer to seal and smooth the seam (Ceramics Monthly), plastic sheet to slow drying; optionally a spray bottle of vinegar and water or ready-made magic water; PVA glue for already-dry air-dry clay
+- **seal**: none
+- **load**: light: for pottery handles, spouts and modelled details, which carry only the weight of the piece and its contents. A well-made join is as strong as the clay around it; Wikipedia says lutes 'increase the overall strength of the pot', but no strength figures were found ⚑ [uncertain]. Weak points are a crack along the seam from uneven drying and a handle levered off by a knock *(⚑ parts need confirming)*
+- **adjustable**: yes, while the clay is still soft (it can be pressed into a new position or pulled off and rejoined); no once dry
+- **play_and_precision**: not applicable
+- **access_needed**: both sides (both meeting faces are scored and slipped before joining; a hand inside a pot supports the wall while the handle is pressed on)
+- **materials**: Suits water-based clays while they are still soft or leather-hard: pottery clay of every kind (earthenware, stoneware, porcelain) and paper clay, before firing, and air-dry clay (Art Shed, Lillian Gray, Sculpey blog). The slip must be made from the same clay as the parts, or 'different drying and shrinking rates can cause problems' (TeachKidsArt). Paper clay can even be joined dry to dry or dry to soft (Wikipedia 'Paper clay'). Not for polymer clay, which is oil-based and joined with liquid clay instead (Sculpey blog; see Liquid-clay bond), not for epoxy putty, and not for fired ceramics (out of scope here; use a ceramic repair glue). Already-dry air-dry clay is glued with PVA instead (Art Shed). Vinegar should not be used on slip-cast pieces, which it starts to dissolve (AMACO)
+- **maker_difficulty**: easy: needs only a pin and some slip, and is taught to schoolchildren; the skill is in matching the dampness of the two parts and drying slowly
+
+### Making it
+
+- **processes**: hand building and wheel-thrown pottery (before firing), air-dry clay modelling, off-the-shelf part: ready-made magic water or a bought scoring tool
+- **print_in_place**: no: this is a join between soft clay parts, not a printed joint
+- **making_tips_3d_printing**: not applicable as a printed joint. A 3D printer can make the tools: printable pottery scoring tools and pottery tool sets exist (see make_it_yourself). Ceramic 3D printers that extrude clay paste would join added parts the same way, but this was not researched ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Pottery or air-dry clay, ready-made slip or casting slip, scoring tool (sold as a 'scoring tool', 'scratch tool' or 'clay scorer'; also serrated ribs and needle tools), slip brush, magic water (sold ready-made or mixed from liquid sodium silicate and soda ash), white vinegar, paper clay, PVA glue, handle maker (a loop tool for cutting handle strips; Ceramics Monthly)
+- **rules_of_thumb**: 
+  - Join at the leather-hard stage, about 15% moisture, which is the easiest time to add handles and other extensions (Wikipedia 'Leather-hard')
+  - Make the slip from the same clay as the pieces (TeachKidsArt); 'the efficacy will vary with different clay types' for magic water too (Potclays)
+  - Slip consistency: 'thick but still pourable' (TeachKidsArt); for air-dry clay 'like the texture of toothpaste' (Lillian Gray)
+  - Score both surfaces with criss-crossing lines before slipping (Wikipedia 'Slip (ceramics)'; TeachKidsArt; Pottery Supplies Online)
+  - Vinegar instead of slip: white vinegar and water 'about equal parts' in a spray bottle (AMACO); one potter scores and slips twice with neat vinegar on a toothbrush (Ceramics Monthly, 'Foolproof Handles', 2021)
+  - Magic water: 1 gallon of water, 3 tablespoons of liquid sodium silicate and 1 1/2 teaspoons of soda ash (Lakeside Pottery); Potclays suggests starting at 1 litre of water, 1 g soda ash and 2.5 g sodium silicate, used 'quite watery' because concentrated sodium silicate can form a glaze
+  - After pressing the parts together, seal the edges with a small dowel, then roll a thin coil into the joint and smooth it in (Ceramics Monthly, 'Foolproof Handles')
+  - Air-dry clay takes 24 to 48 hours to dry depending on thickness; turn it over after 24 hours so it dries evenly (Art Shed)
+
+### When to use it
+
+- **everyday_examples**: 
+  - the handle on a handmade mug
+  - the spout and lid knob of a teapot
+  - ears, nose and lips added to a school clay mask or animal (Lillian Gray)
+  - raised moulded decoration on Jasperware (sprigging; Wikipedia 'Slip (ceramics)')
+- **when_to_use**: Whenever two pieces of water-based clay (pottery clay, paper clay or air-dry clay) are joined while still soft or leather-hard: handles, spouts, knobs, feet, slab boxes, coil pots, and modelled details on sculptures and masks. Vinegar or magic water are handy when several clay bodies are in use and the right slip isn't mixed (AMACO), or when joining parts at slightly different dampness (Lakeside Pottery). Paper clay slip ('magic mud') is for more extreme cases, such as joining wet clay to drier clay or repairing bone-dry pieces (Lakeside Pottery).
+- **when_not_to_use**: Not for polymer clay: use the Liquid-clay bond. Not for pieces that are already fully dry and not paper clay: for air-dry clay use PVA glue (Art Shed); for dry pottery clay try paper clay slip, which can repair bone-dry pieces (Lakeside Pottery), or remake the piece. Not for fired ceramics or tiles (kiln firing and fired-ceramic repair are out of scope here). Do not use vinegar on slip-cast pieces (AMACO). Not for anything that must come apart again.
+- **environment_limits**: Unfired pottery clay and air-dry clay soften again in water: 'As air dry clay is a water-based clay, it needs to be waterproofed to survive the elements', with acrylic gloss medium, PVA or paint, and even then 'This wont make the clay food safe' (Art Shed). Air-dry clay should not be dried in the sun, with a hairdryer or by baking, 'as this will cause cracks' (Art Shed); Sculpey's FAQ, by contrast, allows air-dry clay in the oven at a low 200 °F, warning that it tends to crack if left in too long or too hot. The two sources disagree. Fast or uneven drying cracks the join.
+- **safety_notes**: Dry the piece slowly and evenly, or the join cracks: keep it under plastic, and remember a thin handle dries faster than a thick body (Wikipedia 'Leather-hard'; Lakeside Pottery; Diamond Core Tools). Vinegar dissolves slip-cast pieces (AMACO). Clay dust contains crystalline silica, which can cause silicosis and lung cancer if breathed over time: sanding dry pieces 'should be avoided, as a wet sponge can be used instead'; if you must, do it at the end of the day, wear an approved mask (e.g. P100) and mop and sponge surfaces afterwards; dust is easily stirred up again, even by wet mopping, and vacuuming with an ordinary vacuum 'can be extremely hazardous' (Ceramics Monthly, 'Techno File: Studio Dust'). Wikipedia also warns that slip is a fine silica-based material that could be hazardous if inhaled ('Leather-hard'). Magic water contains soda ash, which forms an alkaline solution (Pottery Supplies Online), so keep it out of eyes and off skin; gloves are sensible ⚑ [uncertain]. Air-dry clay pieces sealed with paint or PVA are still not food safe (Art Shed). Firing is out of scope; note that a piece that is not completely dry can burst in a kiln (Wikipedia 'Paper clay'). *(⚑ parts need confirming)*
+- **common_failures**: 1) The join cracks or the part falls off while drying: the two parts were at different dampness or dried at different rates (Wikipedia 'Leather-hard' describes a handle drying before the body and cracking; Lakeside Pottery blames uneven shrinkage between wet and leather-hard parts); match their dampness, use magic water or paper clay slip for wet-to-drier joins (Lakeside Pottery), and dry slowly under plastic. 2) Skipping the slip and using only water gives 'attachment malfunctions' (TeachKidsArt). 3) Slip made from a different clay shrinks differently and cracks (TeachKidsArt). 4) Slip too runny makes 'one mushy mess' (Lillian Gray). 5) Only one side scored: score both. 6) A hairline crack round the seam: seal the edge with a dowel and add a thin coil (Ceramics Monthly). 7) Air-dry clay cracks from drying in the sun or with a hairdryer (Art Shed). 8) Details glued to dry air-dry clay soak up the PVA: use more glue (Art Shed). 9) Magic water used too strong can leave a glaze-like layer, so use it 'quite watery' (Potclays).
+- **related**: 
+  - Liquid-clay bond: the polymer clay equivalent, using liquid PVC clay and a bake instead of slip and drying
+  - PVA wood glue: used to glue pieces onto air-dry clay that is already dry
+  - Epoxy putty: a two-part putty that is sculpted and joined to itself without water or baking
+  - Glued joint design: the general rules (more contact area, avoid peeling loads) behind why handles are blended with a coil
+  - Wire and foil armature: the inner support used for air-dry clay figures, which must come out of clay that will be kiln-fired
+  - Pinned glue joint: a toothpick or wire pin across a clay joint for extra strength in models that will not be fired
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Tips and Tools: Foolproof Handles (Ceramics Monthly, Tania Rustage, October 2021)](https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-article/tips-and-tools-foolproof-handles): Numbered photos of making a mug handle, scoring and slipping with vinegar, sealing the joint with a dowel and blending a thin coil round it *(licence: link only (free complimentary article; Ceramic Arts Network))*
+  - [Don't Slip! Joining Clay Without Slip (AMACO)](https://amaco.com/resources/tutorials/dont-slip-joining-clay-without-slip): Video and text on joining clay with a vinegar and water spray instead of slip, with the slip-cast warning *(licence: link only)*
+  - [How to Make the Perfect Clay Slip (TeachKidsArt)](https://www.teachkidsart.net/how-to-make-the-perfect-clay-slip/): Step-by-step photos of making slip in an old blender, storing it, and a home-made toothpick scoring tool *(licence: link only)*
+  - [Air-dry clay mask tutorial (Lillian Gray)](https://lilliangray.co.za/air-dry-clay-african-mask): Photos of scratching both surfaces and adding slip to attach a nose and lips to an air-dry clay mask, and slow drying *(licence: link only)*
+  - [Slip (ceramics) (Wikipedia)](https://en.wikipedia.org/wiki/Slip_(ceramics)): Definition of slip and of 'scratch and slip' joining, with photos of slipware *(licence: text CC BY-SA 4.0; images per file)*
+- **make_it_yourself**: 
+  - [Pottery Scoring Tool (A3D Printing Farm, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/509567-pottery-scoring-tool): A simple printable pottery scoring tool; found and read through the Printables public API *(licence: CC BY-NC)*
+  - [Pottery Tool Collection (MabelLeaves, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1161644-pottery-tool-collection): A set of printable pottery tools, mainly for wheel throwing; found and read through the Printables public API *(licence: CC BY-SA)*
+- **diagram_idea**: Three steps of a mug handle join: the handle end and mug wall each scratched with a criss-cross pattern, slip brushed on, then pressed together with a thin coil rolled into the corner, with a small inset showing two pieces drying at different rates and cracking apart.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Slip_(ceramics)
+  - https://en.wikipedia.org/wiki/Glossary_of_pottery_terms
+  - https://en.wikipedia.org/wiki/Leather-hard
+  - https://en.wikipedia.org/wiki/Paper_clay
+  - https://amaco.com/resources/tutorials/dont-slip-joining-clay-without-slip
+  - https://www.teachkidsart.net/how-to-make-the-perfect-clay-slip/
+  - https://www.artshedonline.com.au/blog/art-shed-blog/sculpting-and-modelling/14-air-dry-clay-techniques
+  - https://lilliangray.co.za/air-dry-clay-african-mask
+  - https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-article/tips-and-tools-foolproof-handles
+  - https://ceramicartsnetwork.org/ceramics-monthly/ceramics-monthly-article/Techno-File-Studio-Dust
+  - https://diamondcoretools.com/blogs/resources/5-tips-for-making-functional-pottery-handles
+  - https://potclays.co.uk/what-is-magic-water
+  - https://lakesidepottery.com/HTML%20Text/Tips/pottery-magic-mud-magic-water-paper-clay.htm
+  - https://www.potterysuppliesonline.com.au/pottery-magic-water-what-is-it/
+  - https://www.sculpey.com/blogs/blog/the-diversity-of-liquid-polymer-clay
+  - https://www.sculpey.com/pages/faqs-1
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
+- **bonds_well**: paper or card, glass or ceramic, fabric or leather, stone or concrete
+- **bonds_poorly**: 
+- **tools**: sewing or leather tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: clay or putty
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** load, making_tips_3d_printing, safety_notes
+
+## 433 Bonded tube joint (lugged, sleeved or fibre-wrapped tube joint; carbon tube connector, bonded end fitting)
+
+*adhesives & bonding.* Tube ends are glued into or over a socket, sleeve or lug, or wrapped with resin-soaked fibre, so tubes join without drilling holes, as in carbon bike frames, drone booms, camera rigs and bamboo bikes
+
+*Also covers:* Also covers bond gap and bond length, sanding and cleaning, internal joiners (ferrule tubing), bonded threaded end plugs and quick-release end fittings, printed and metal lugs, tube-to-tube wrapped joints and hemp-wrapped bamboo joints. Safety: carbon touching bare aluminium corrodes it (isolate with anodising, glue or a glass layer); carbon dust; epoxy skin allergy; never ride a home-made frame without testing.
+
+### What it is
+
+- **plain_name**: Joining tubes by gluing their ends into (or over) a fitted socket, sleeve or corner piece, or by wrapping the joint in glue-soaked fibre, so you never have to drill holes through the tubes
+- **term**: Bonded tube joint (adhesively bonded tube connector: lugged, sleeved, ferrule or fibre-wrapped joint)
+- **aliases**: 
+  - lugged tube joint, bonded lug, lug (bicycle frames: tubes glued into lugs, 'analogous to a lugged steel frame'; Wikipedia 'Bicycle frame')
+  - carbon fiber tube connector, modular tube connector (DragonPlate)
+  - bonded insert, bonded end fitting, bonded end plug, threaded end adapter, quick-release tube connector (DragonPlate)
+  - ferrule, ferrule tubing, internal joiner, tube splice (a smaller tube glued inside two tube ends; Clearwater Composites)
+  - sleeve joint, overlap joint, socket joint
+  - tube-to-tube construction, wrapped joint, carbon-wrapped junction (Condor Leggero; road.cc)
+  - hemp lug, fibre-wound lug, hemp-wrapped bamboo joint (Calfee; road.cc)
+  - 3D-printed lug (colorFabb XT-CF20 bike)
+  - gusset plate (riveted and bonded, for square tube; DragonPlate)
+- **family**: adhesives & bonding
+- **other_families**: interlocking joints & joinery, print-in-place & 3D-printing joints
+- **one_liner**: Tubes are joined by gluing each tube end into or over a close-fitting socket, sleeve, plug or lug, or by binding the joint with resin-soaked fibre, so the load passes through a long glued overlap instead of through holes drilled in the tube wall.
+- **complexity**: A few parts. The tubes; a connector (a metal, composite or 3D-printed lug or corner block with sockets, an internal ferrule tube, a threaded end plug or quick-release end fitting, or a plate gusset) or, for wrapped joints, strips of carbon or glass cloth or hemp fibre; the adhesive or laminating resin (usually two-part epoxy; colorFabb used polyurethane); and a jig or fixture to hold alignment while it cures (Clearwater Composites; DragonPlate; road.cc).
+- **how_it_works**: One part slides inside or over the other with a small, even gap (the bond gap) that is filled with adhesive, so the joint is a long glued overlap all round the tube (Clearwater Composites). Pulling or pushing along the tube, and twisting it, loads the glue in shear, the direction adhesive is strongest, which is why a long overlap is used instead of drilled bolts or pins that 'compromise the tube wall' (DragonPlate; Materials 2021 bond-gap study). Wrapped joints skip the connector: mitred tubes are tacked together in a jig and then bound with resin-soaked carbon strips or hemp fibre that is built up into a lug shape and cured (Condor Leggero and Calfee bamboo, road.cc). Strength depends as much on preparation as on the glue: sand off the glossy surface, clean with solvent, fill the gap fully, and hold the parts still until fully cured (Clearwater Composites).
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: the tubes are held by adhesive in a long overlap
+  - join and hold: makes permanent frames, booms and trusses from separate tubes
+  - lock, and release by hand: bonded threaded or quick-release end fittings let tube sections be taken apart (DragonPlate)
+- **motion**: none (rigid joint); DragonPlate's grooved quick-release fitting lets a bonded end fitting turn, and its 'adjustable angle joints' are set and then fixed
+- **degrees_of_freedom**: 0: a bonded tube joint is rigid once cured. Quick-release end fittings come apart along the tube axis but are rigid when assembled (DragonPlate).
+- **special_behaviour**: 
+  - quick-release: bonded quick-release end fittings let long trusses be broken into shorter sections for carrying (DragonPlate)
+  - self-aligning or self-centring: a close-fitting socket or ferrule centres the tubes; glass beads mixed into the glue keep the gap even all round (Materials 2021 bond-gap study)
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the adhesive or laminating resin holds the joint
+  - shape (the parts interlock; form-fit): a lug or socket wraps round the tube, and DragonPlate's connectors have ridges and slots that strengthen the bond; plate gussets are also riveted (DragonPlate)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent for glued and wrapped joints; tool-free quick release at bonded quick-release end fittings, or removable at threaded end adapters (DragonPlate)
+- **reuse_cycles**: once for the glued joint itself; many times for the quick-release or threaded fittings bonded into the tube ends (DragonPlate)
+- **tools_needed**: Fine saw or cut-off tool for the tubes; 120-180 grit sandpaper, drum sander, rotary tool or flex hone; acetone or isopropyl alcohol; masking tape; two-part epoxy with mixing stick or dispenser; gloves, safety glasses and ventilation; a jig, fixture or clamps for alignment; an oven if the adhesive needs heat curing (Clearwater Composites; road.cc Condor).
+- **seal**: none (the glue line may happen to keep water out of the tube end, but the joint is not designed as a seal) ⚑ [uncertain] *(⚑ parts need confirming)*
+- **load**: medium to heavy: strongest in pull, push and twist along the tube, which shear the glue. Example: 3M DP420 has an estimated shear strength of about 2,200 psi on aluminium and steel (Clearwater Composites); motorsport carbon-tube and aluminium-insert joints with a 30 mm bond met design loads of 8 and 12 kN, and one adhesive reached 35 kN when the gap was properly filled (Materials 2021 bond-gap study). Weakest in peel and in bending that prises the end of the overlap open ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: no once cured; angles and lengths are set in the jig before the glue cures. Threaded or quick-release end fittings let sections be swapped (DragonPlate).
+- **play_and_precision**: none once cured; precision depends on the jig and on an even bond gap. Glass beads in the glue gave more consistent strength than relying on the parts' own shape to set the gap (Materials 2021 bond-gap study). Quick-release fittings may have small play ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **access_needed**: end of a tube or shaft: the connector, ferrule or plug goes into or over the open tube end; wrapped joints need room all round the junction
+- **materials**: Tubes: roll-wrapped or pultruded carbon fibre, fibreglass, aluminium, titanium, steel and bamboo (DragonPlate; colorFabb lugs 'connect standard tubing in carbon, titanium, aluminum or bamboo', 3D Printing Industry; road.cc Calfee). Connectors: anodised aluminium (DragonPlate), moulded carbon, 3D-printed carbon-filled polymer such as XT-CF20 (colorFabb), stainless or titanium printed lugs, wrapped carbon cloth or hemp fibre. Adhesives: two-part epoxies such as 3M Scotch-Weld DP420 and 2216 (brands; Clearwater, DragonPlate), polyurethane adhesive (colorFabb). Poor matches: bare aluminium touching carbon (galvanic corrosion; Clearwater), HDPE and other low-surface-energy plastics, which need special adhesives (Clearwater), and the glossy outer skin of bamboo, which 'doesn't stick to epoxy well' unless sanded (Instructables 'Bamboo and Hemp Road Bike').
+- **maker_difficulty**: moderate: gluing a bought connector into a tube is easy, but getting the bond gap, preparation, alignment and cure right takes care; a load-bearing frame such as a bicycle is hard, because a hidden bad joint can fail without warning
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: modular aluminium tube connectors, ferrules, threaded end adapters and quick-release fittings (DragonPlate)
+  - 3D print (FDM): printed lugs and corner connectors with sockets for the tubes (colorFabb XT-CF20 bike; Printables 'Carbon fiber tube corner connector/bracket')
+  - CNC: turned or milled aluminium inserts and lugs (Materials 2021 study)
+  - composite lay-up: wrapping joints with carbon or glass cloth or hemp fibre and resin (road.cc Condor and Calfee)
+  - woodwork: mitring and jigs for bamboo frames (aesdes bamboo bicycle)
+- **print_in_place**: no: the printed lug or connector is printed on its own and the tubes are glued into it.
+- **making_tips_3d_printing**: 1) Size the socket for a glue gap, not a press fit: Clearwater recommends about 0.005-0.010 in (0.13-0.25 mm) per side for most two-part epoxies, so a socket for a 16 mm tube would be roughly 16.25-16.5 mm across (Clearwater Composites); the Printables 'Carbon fiber tube corner connector/bracket' instead uses a 16.1 mm socket for 16 mm tube (only 0.05 mm per side), 30 mm long, with a 21 mm outside diameter. Print a short test socket, since printers vary ⚑ [uncertain]. 2) Make the socket long: for internal joiners, a bond length of at least 2-3 times the inside diameter, and 3 in by default for tubes under 1 in (Clearwater). 3) Material: colorFabb printed its bike lugs in XT-CF20 carbon-filled filament on a 0.8 mm nozzle and checked the design with FEM analysis and riding (colorFabb). 4) Use the print's freedom of shape: colorFabb built channels into the lugs so polyurethane glue 'distributes itself to the right places' (colorFabb). 5) Sand the inside of the printed socket and the outside of the tube to remove gloss, and clean with solvent before gluing (Clearwater) ⚑ [uncertain] (Clearwater's advice is for carbon tubes; it is applied here to printed sockets). 6) Print sockets so the layers wrap round the tube (socket axis vertical), so the hoop strength doesn't depend on layer adhesion ⚑ [uncertain]. 7) PLA creeps and softens with heat, so for loaded joints in warm places prefer a tougher, more heat-resistant filament ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search for: 'carbon fiber tube connectors' / 'modular tube connectors' (blocks, cubes, links, clevis connectors; DragonPlate (brand)), 'pultruded tube connectors', 'threaded end adapter' and 'quick release tube connector', 'ferrule tubing' or 'tube splice' sized to fit inside your tube, 'carbon tube end plug', 'plate gusset kit' (square tube), 'bond line controller glass beads' (Materials 2021 study, citing Rock West Composites (brand)), structural epoxies such as '3M Scotch-Weld DP420' and '2216' (brands; Clearwater, DragonPlate), and 'carbon fibre braided sleeve' or 'hemp twine' for wrapped joints. Clamp-on and slip-on framing fittings are the no-glue alternative (McMaster-Carr links on the UWRT wiki).
+- **rules_of_thumb**: 
+  - Bond gap about 0.005-0.010 in (0.13-0.25 mm) per side for most two-part epoxies; check the adhesive's data sheet (Clearwater Composites; repeated on the UWRT wiki). Other sources agree: 0.2 mm was used and recommended by a glass-bead maker for epoxies (Materials 2021 study), and a university solar-car team started at 0.008 in (0.203 mm) (UT Austin Longhorn Racing Solar wiki).
+  - Bond length for ferrule tubing: at least 2-3 times the inside diameter; 3 in by default for tubes under 1 in diameter (Clearwater Composites).
+  - Preparation: abrade with 120-180 grit until all gloss is gone, wipe with acetone or isopropyl alcohol, wear gloves so skin oils don't spoil the bond; a water-bead test shows whether sanding is enough (Clearwater Composites). The Materials 2021 study sanded from 240 to 400 grit; the UT Austin team used about 300 grit and acetone.
+  - Apply adhesive to both surfaces for 100% coverage and look for squeeze-out; fixture the parts so they can't shift, and don't handle them until fully cured, which can take days at room temperature (Clearwater Composites).
+  - Most standard two-part epoxies are limited to below about 250 °F (about 120 °C) in service (Clearwater Composites).
+  - Don't drill and pin or bolt carbon tubes; it 'compromises the tube wall and weakens the tube' (DragonPlate). Square tubes are joined with plate gussets that are riveted (DragonPlate).
+  - Mixing glass beads the size of the bond gap into the epoxy gave more consistent joint strength than controlling the gap with the parts' shape (Materials 2021 study).
+  - Isolate carbon from bare aluminium: anodising, the epoxy layer itself, or a glass-fibre layer stops galvanic corrosion (Clearwater Composites).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Carbon bicycle frames made of tubes glued into lugs, or tubes wrapped at the joints (Wikipedia 'Bicycle frame'; Condor Leggero, road.cc)
+  - Bamboo bicycles with hemp-wrapped joints (Calfee, road.cc)
+  - Camera booms, lighting rigs and drone arms made from carbon tubes with glued-in end fittings (DragonPlate)
+  - Tent and kite poles with a short joining sleeve (ferrule) glued into one tube end ⚑ [uncertain] *(⚑ parts need confirming)*
+- **when_to_use**: Use a bonded tube joint for light, stiff frames of carbon, fibreglass, aluminium or bamboo tube where drilling would weaken the tube or crush it: camera rigs and booms, drone frames, robot chassis, model and kite structures, trusses that break down into sections (with bonded quick-release fittings), and bicycle or vehicle frames built in a jig. It spreads the load over a long overlap and can join different materials, such as carbon tube to aluminium end fittings.
+- **when_not_to_use**: Avoid it when the joint must be taken apart (use clamp-on tube fittings, bonded threaded end fittings or push-fit sockets); when you can't prepare and clean the surfaces or control the gap; when the joint will get hotter than the adhesive's service limit (about 120 °C for most epoxies; Clearwater); for low-surface-energy plastics such as HDPE without a special adhesive (Clearwater); and for anything that carries a person unless the joint design is proven and the finished part is tested. For a quick, light, non-structural join of solid rods, push-fit rod fittings are simpler.
+- **environment_limits**: Most standard two-part epoxies are limited to below about 250 °F (about 120 °C); also consider chemicals and weather when choosing an adhesive (Clearwater Composites). Carbon and aluminium expand differently with heat, which can delaminate a metal-to-carbon bond; DragonPlate uses ridged and slotted connectors to resist this. Carbon touching bare aluminium causes galvanic corrosion, especially in wet conditions (Clearwater) ⚑ [uncertain] (the wet-conditions point is not on the page). Bamboo can crack as it dries out in a dry climate (aesdes bamboo bicycle). Bonded joints can crack from crashes, overtightening or poor installation (Wikipedia 'Bicycle frame'). *(⚑ parts need confirming)*
+- **safety_notes**: Galvanic corrosion: carbon touching bare aluminium corrodes the aluminium; isolate it with anodising, the epoxy layer or a glass-fibre layer (Clearwater Composites). Carbon dust: sanding and cutting composites makes dust; capture it at the source with extraction, wear a suitable dust mask, goggles, coveralls and gloves, consider wet sanding, and note that carbon dust conducts electricity and can short electrical equipment (Gurit composite dust guidance). Epoxy allergy: uncured epoxy resins and hardeners can sensitise the skin, after which even small contact causes dermatitis; epoxies are the most frequent cause of work-related allergic skin disease; cured epoxy no longer sensitises; wear chemical-resistant gloves (DGUV IFA; Composites Australia). Ventilate and wear safety glasses and gloves while bonding (Clearwater). Never ride a home-made bicycle frame, or trust any frame that carries a person, until it has been properly tested: hidden bonding faults and cracks in adhesive at joints can let it fail without warning (Wikipedia 'Bicycle frame'; one builder's underbuilt bamboo bottom-bracket joint cracked, reported in search results) ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **common_failures**: Joint pulls apart cleanly with bare-looking surfaces: poor preparation (gloss or release agent left on, oily fingers) or the wrong adhesive (Clearwater). Weak or uneven strength: glue gap too thick, too thin or off-centre, or the glue ran out of the gap; control the gap with glass beads or a stepped insert (Materials 2021 study). Misaligned frame: parts shifted while curing; use a jig or fixture (Clearwater; road.cc Condor). Corrosion at a carbon-to-aluminium joint: no isolation layer (Clearwater). Cracked tube where a bolt or pin went through: drilled instead of bonded (DragonPlate). Wrapped bamboo joints cracking or letting go: cracked bamboo, the shiny bamboo skin left unsanded, or too little wrap at highly loaded joints such as the bottom bracket (Instructables 'Bamboo and Hemp Road Bike'; aesdes).
+- **related**: 
+  - Glued joint design (butt, lap and scarf joints; peel vs shear): the general rules for glued overlaps; a bonded tube joint is a lap joint wrapped round a tube
+  - Two-part epoxy: the usual adhesive for these joints
+  - Clamp-on tube fittings (slip-on structural fittings): join tubes with set screws and no glue, but set screws can crush carbon
+  - Internal tube anchors (star nut, expansion plug): grip inside a tube by friction or barbs, not glue
+  - Push-fit rod and spar fittings (kite fittings): friction-fit sockets for small solid rods, meant to be pulled apart
+  - Shock-corded sectional pole: tube sections joined by ferrule sockets held together by elastic cord, not glue
+  - Fillet-and-tape joint (glass-tape tabbing): the same wrapped-fibre idea used for flat panels
+  - Brazed joint: lugged steel frames are brazed into lugs instead of glued (Wikipedia 'Bicycle frame')
+  - Split-part joints for large prints: other ways of joining printed parts
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Video: making the Condor Leggero carbon frame (road.cc)](https://road.cc/content/news/96466-video-making-condor-leggero-carbon-frame): Video and photos of mitred carbon tubes held in a jig, bonded and wrapped with carbon strips at the junctions, then oven-cured *(licence: link only)*
+  - [XT-CF20 bike project release (colorFabb)](https://colorfabb.com/xt-cf20-bike-project-release): Photos of a bicycle made from standard tubes glued into nine 3D-printed carbon-filled lugs *(licence: link only)*
+  - [How to Connect Carbon Fiber Tubes (DragonPlate)](https://dragonplate.com/how-to-connect-carbon-fiber-tubes): Pictures of bonded aluminium modular connectors, moulded pultruded-tube connectors, quick-release end fittings and riveted plate gussets *(licence: link only)*
+  - [Bamboo bike frame Bamboosero (Noah Scalin, Wikimedia Commons; Handmade Bicycle Show 2010)](https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg): Photo of a bamboo bicycle frame with fibre-wrapped joints *(licence: CC BY-SA 2.0)*
+  - [How to Bond Carbon Fiber Tubes (Clearwater Composites)](https://www.clearwatercomposites.com/resources/how-to-guides/bond-carbon-fiber-tubes/): Step-by-step guide to bond gap, bond length, sanding, cleaning, gluing and fixturing carbon tubes *(licence: link only)*
+- **make_it_yourself**: 
+  - [Carbon fiber tube corner connector/bracket (SpaceCadet, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/157670-carbon-fiber-tube-corner-connectorbracket): A printable corner bracket for 16 mm carbon tube from a camera rig: 16.1 mm socket, 21 mm outside, 30 mm long, with 1/4-20 tappable holes. Read through the Printables public API. *(licence: CC BY)*
+  - [XT-CF20 bike - 3D printed bicycle (colorFabb, GrabCAD) (linked from colorFabb's release; page returned 200 but its content loads by script and could not be read)](https://grabcad.com/library/xt-cf20-bike-3d-printed-bicycle-1): CAD files for the nine printed lugs of colorFabb's bike *(licence: ⚑ [uncertain])*
+  - [Remix villamany F450 type Drone Arm - carbon fiber tube reinforced (N7 Cat, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/340743-remix-villamany-f450-type-drone-arm-carbon-fiber-t): A printed drone arm with a 6 mm OD, 4 mm ID pultruded carbon tube inserted for stiffness. Read through the Printables public API. *(licence: CC BY-NC-SA)* *(⚑ parts need confirming)*
+- **diagram_idea**: Three side-by-side cut-aways of joining two tubes: a ferrule glued inside both ends, a lug glued over both ends, and a mitred joint wrapped with fibre, each with the thin glue gap drawn and the bond length marked as 2-3 times the tube's inside diameter.
+- **sources**: 
+  - https://www.clearwatercomposites.com/resources/how-to-guides/bond-carbon-fiber-tubes/
+  - https://uwaterloo.atlassian.net/wiki/spaces/UWRT/pages/33964069714/Connecting+CF+Tubes
+  - https://dragonplate.com/how-to-connect-carbon-fiber-tubes
+  - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8071265/
+  - https://cloud.wikis.utexas.edu/wiki/spaces/LHRSOLAR/pages/220234798
+  - https://en.wikipedia.org/wiki/Bicycle_frame
+  - https://road.cc/content/news/96466-video-making-condor-leggero-carbon-frame
+  - https://road.cc/content/news/10980-just-calfee-bamboo-road-bike
+  - https://3dprintingindustry.com/news/home-3d-print-bike-colorfabbs-composite-filament-51938/
+  - https://colorfabb.com/xt-cf20-bike-project-release
+  - https://www.aesdes.org/2016/04/20/from-fists-and-steel-to-jungle-bicycle-part-1/
+  - https://www.instructables.com/Bamboo-and-Hemp-Road-Bike/
+  - https://www.instructables.com/Bamboo-Bicycle-Frame/
+  - https://www.gurit.com/wp-content/uploads/2026/08/Composite-Dust-Guidance.pdf
+  - https://www.dguv.de/ifa/Praxishilfen/hazardous-substances/epoxidharze/index.jsp
+  - https://www.compositesaustralia.com.au/for-industry/health-and-safety/epoxy-resins/
+  - https://commons.wikimedia.org/wiki/Category:Bamboo_bicycles
+  - https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg
+  - https://grabcad.com/library/xt-cf20-bike-3d-printed-bicycle-1
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: tube, rod or extrusion
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**: strongest ⚑ *needs confirming (best guess): not on the glue lists in the finder tree; traits read from the text*
+- **bonds_well**: metal, glass or ceramic, fabric or leather
+- **bonds_poorly**: slippery plastics (PE or PP)
+- **tools**: power tools, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal, carbon fibre or composites
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, load, make_it_yourself, making_tips_3d_printing, play_and_precision, safety_notes, seal
+
+## 434 Fillet-and-tape joint (stitch-and-glue seam, glass-tape tabbing, tack-and-tape)
+
+*adhesives & bonding.* Two panels are held edge to edge, often with wire stitches or cable ties, then a cove of thickened epoxy is run into the corner and resin-wet glass tape is laid over it, joining plywood boats, kayaks, bulkheads and fibreglass parts without frames or screws
+
+*Also covers:* Also covers stitching with copper wire or cable ties, tack fillets, fillet tools and fillers, taping both sides, tabbing bulkheads and stringers into fibreglass hulls, foam fillets against hard spots, taped butt joints in plywood, and wrapping printed or foam parts into a composite shell. Safety: epoxy skin allergy, sanding dust from glass and cured epoxy, heat from large batches.
+
+### What it is
+
+- **plain_name**: Two panels held edge to edge (often with twists of wire or cable ties), then a rounded bead of thick glue-paste smoothed into the inside corner and a strip of glass-fibre cloth soaked in resin laid over it, so the seam becomes one solid piece with no frames, nails or screws, as in home-built plywood boats and kayaks
+- **term**: Fillet-and-tape joint (stitch-and-glue seam; glass-tape tabbing)
+- **aliases**: 
+  - stitch and glue, stitch-and-glue construction (Wikipedia 'Stitch and glue')
+  - tack and tape, stitch and tape (Wikipedia 'Stitch and glue'; John Welsford 'How Stitch & Tape Seams')
+  - taped seam, fillet and tape, epoxy fillet joint (CLC Boats 'Fillets'; JW Boat Designs)
+  - tabbing, glass tabbing, tabbing in a bulkhead or stringer (fibreglass boat building; Epoxyworks 'Common errors in fiberglass laminate repair'; boatdesign.net thread)
+  - secondary bonding ⚑ [uncertain: common composites term for bonding to an already-cured laminate; not defined on an opened page]
+  - taped butt joint, 'hybrid' plywood joint, 'save a butt' (Epoxyworks 'Joining Plywood'; boatdesign.net forum term seen in search results)
+  - tack fillets (small dabs that tack a part in place before the full fillet; Duckworks 'Quick and Dirty Stitch and Glue')
+  - Instant Boats method (Phil Bolger and Harold 'Dynamite' Payson designs; Wikipedia 'Stitch and glue') *(⚑ parts need confirming)*
+- **family**: adhesives & bonding
+- **other_families**: interlocking joints & joinery
+- **one_liner**: A seam made by pulling two panels together with temporary stitches, filling the inside corner with a smooth cove of thickened epoxy (the fillet) and laying resin-soaked glass tape across it, so the panels are welded into one stiff shell without frames or fasteners.
+- **complexity**: A few parts, made in place: the two panels (plywood, fibreglass laminate or a bulkhead), temporary stitches (copper or steel wire, cable ties, or tape and staples), thickened epoxy for the fillet (epoxy plus a filler such as wood flour or colloidal silica), glass-fibre tape or cloth, and unthickened epoxy to wet it out. Tools: a rounded fillet spreader, brushes, mixing pots and gloves (CLC Boats 'Fillets'; Wikipedia 'Stitch and glue').
+- **how_it_works**: The stitches are only clamps: they hold the panels in the right shape until the epoxy sets, then they are snipped off, pulled out or left buried (Wikipedia 'Stitch and glue'). The fillet fills the sharp inside corner with a curved ramp of glue, which gives a large glue area and lets load spread gradually into each panel instead of at a hard edge, so there is no stress concentration (a 'hard spot') where one panel meets the other (boatdesign.net thread 'Proper way to tab bulkheads'). The glass tape laid over the wet fillet and onto both panels then carries the load across the seam like a bandage, making a small composite joint; taping the outside as well makes a double-sided joint (Duckworks 'Quick and Dirty Stitch and Glue'; Wikipedia 'Stitch and glue'). Tabbing a bulkhead or stringer into a fibreglass hull is the same joint: a fillet, then layers of glass that step out in width onto both parts (Epoxyworks 'Common errors in fiberglass laminate repair').
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins panels at an angle (chines, keels, bulkheads, stringers) or edge to edge (taped butt joints) into one rigid shell
+  - glue or bond: the fillet and glass tape are glued (epoxy) joints; the stitches only hold the shape while they cure
+  - seal it, or pass cables or fluid through: a filled and taped seam is part of a waterproof hull when the whole surface is sealed (Wikipedia 'Stitch and glue'; boatdesign.net notes the fillet also seals the joint against moisture)
+- **motion**: none
+- **degrees_of_freedom**: 0: once cured the seam is rigid and the panels cannot move relative to each other.
+- **special_behaviour**: 
+  - self-aligning or self-centring: the panel shapes themselves set the hull form; stitching the edges together pulls the flat panels into the right curve without moulds or frames (Wikipedia 'Stitch and glue')
+  - none otherwise: it is a permanent glued and laminated seam
+- **holding_principle**: material bond (glue, solvent or melting): epoxy glues the fillet and the resin-soaked glass tape to both panels
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: the seam can only be undone by cutting or grinding it out; stuck wire stitches can be freed by heating them with a heavy soldering iron or blowtorch so the epoxy lets go (JW Boat Designs 'How Stitch & Tape Seams')
+- **reuse_cycles**: once
+- **tools_needed**: Drill for stitch holes; pliers and wire or cable ties; mixing pots, stir sticks and gloves; a fillet spreader (a plastic body-filler squeegee with a 1 in radius cut in one end, or a 1/2 in radius stick for small fillets; CLC Boats 'Fillets'), brushes or a 'brush on a stick' for long kayak seams (Guillemot Kayaks 'Precision Seam Taping'); scissors for glass tape; sanding block, coarse abrasive and a dust mask for finishing (JW Boat Designs; WEST SYSTEM 'General Epoxy Safety Guidelines').
+- **seal**: watertight: the epoxy fillet fills the gap and the glass tape over it is saturated with resin, so a well-made seam keeps water out; taping the outside too, and sealing plywood end grain with epoxy, keeps water from wicking into the wood (Wikipedia 'Stitch and glue'; boatdesign.net thread). Masking tape along the outside of an open seam stops resin draining out and leaving a 'starved seam' while taping the inside (Guillemot Kayaks).
+- **load**: Medium to heavy for its weight. Strong in tension and bending across the seam when glass is on both faces; small boats' cloth-taped seams are strong enough that the plywood next to the seam usually fails first (boatdesign.net thread: cloth 'is more then strong enough to reach the peel strength of the surrounding wood'). Wikipedia claims 'something close to 8-10 times the strength of fastenings and timber framing' ⚑ [uncertain: unsourced on Wikipedia, ⚑ needs confirming]. Weakest in peel: a single thin layer of tape, or tape with dry (unwetted) patches, can lift from the edge; bigger, more heavily loaded boats need heavier double-bias (±45°) tape, where every fibre crosses the seam (boatdesign.net thread; Fiberglass Supply 'Stitch and Glue Boatbuilding Materials Guide'). *(⚑ parts need confirming)*
+- **adjustable**: Only before the epoxy sets: copper wire stitches can be twisted tighter or looser to adjust the fit (Wikipedia 'Stitch and glue'); once tack fillets or the full fillet cure, the shape is fixed.
+- **play_and_precision**: No play once cured. Accuracy depends on the cut panel shapes and on the stitching; the method tolerates small gaps along the seam, which the fillet fills (JW Boat Designs: the seam can be open on the outside as long as it is a close fit on the inside edge).
+- **access_needed**: both sides: you need to reach the inside corner to lay the fillet and tape, and the outside to snip or pull stitches, fill and (usually) tape it too (Duckworks; Wikipedia 'Stitch and glue'). Tabbing a bulkhead needs access to both faces of the bulkhead where it meets the hull.
+- **materials**: Suits: marine and other plywood panels (the classic use), solid wood, fibreglass (GRP) laminates and hulls, plywood bulkheads into GRP hulls, and composite sandwich panels (Wikipedia 'Stitch and glue'; boatdesign.net thread). Epoxy is strongly recommended for wood ('nothing sticks as well to wood as epoxy', Fiberglass Supply); polyester resin is the traditional production-boat choice for GRP but bonds poorly to already-cured laminate (Practical Sailor 'Bulletproof Sailboat Deck Hardware': the secondary bond is about 4-6 times weaker for polyester and 2-4 times weaker for vinylester). Fabrics: plain glass tape or cloth for small boats; knitted double-bias tape for larger ones; mat-backed tapes waste resin in epoxy (Fiberglass Supply; boatdesign.net thread). Foam and 3D prints: glass and epoxy can wrap a foam or printed shape (see making tips), but polyester resin dissolves polystyrene foam ⚑ [uncertain: forum consensus in search results; no authoritative page opened] and a PLA print's plastic can peel away from the epoxy-glass skin (3DPrint.com 'strengthening 3D parts'). Poor: polyethylene and polypropylene (epoxy does not stick) ⚑ [uncertain: not stated on a page opened for this entry; see the Two-part epoxy entry]. *(⚑ parts need confirming)*
+- **maker_difficulty**: moderate: no special tools and very forgiving ('messy but very easy, sort of like making mud pies', CLC Boats), but it needs careful epoxy handling, working fast before the mix goes off, and a lot of sanding to finish neatly.
+
+### Making it
+
+- **processes**: 
+  - woodwork (plywood panels cut with a saw or CNC, then stitched)
+  - off-the-shelf part (glass tape, epoxy, fillers, kits)
+  - 3D print (FDM) for fillet tools and for printed cores wrapped in glass or carbon
+  - laser cut or CNC for panel kits ⚑ [uncertain: kits are machine-cut but no opened page says how] *(⚑ parts need confirming)*
+- **print_in_place**: no: it is a wet lay-up joint made by hand; only the tools (fillet spreaders) or a printed core are printed
+- **making_tips_3d_printing**: Print your own fillet tools: a flat card of PLA or PETG with radiused ends (parametric models exist, e.g. 1-15 mm or 15-25 mm radii; Printables 565974 and 138672) is easy to replace when epoxy builds up on it. For wrapping a printed part in a composite shell, one maker printed a hollow shell with 1 mm walls, filled it with fibreglass and epoxy, and found the printed plastic later peeled off, leaving an epoxy-glass part, so allow for the shell not staying bonded (3DPrint.com 'strengthening 3D parts'). Another maker wets both sides of the carbon cloth with epoxy, lays it on the PLA part, does one side at a time and leaves each side 24 hours before trimming (hackaday.io project log 'How we made our materials more resistant on a low budget'). Lightly sanding the print first and testing a small sample is wise, since bond strength to PLA, PETG and ABS varies ⚑ [uncertain: forum advice only, no test data opened]. Treat a printed core as a former (a shape to build on), not a load-bearing part of the joint. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: 
+  - fibreglass tape (woven glass tape, e.g. 3 in wide, 9 oz with woven 'selvedge' edges, as supplied in a CLC kayak kit; Guillemot Kayaks)
+  - double-bias (±45°) knitted glass tape, e.g. 12 oz without mat ('DB120') or 17 oz with mat ('DB1708') (Fiberglass Supply)
+  - 6 oz glass cloth (styles 7533 plain weave or 3733 flat weave) for sheathing over the taped seams (Fiberglass Supply)
+  - laminating epoxy resin and hardener; pre-mixed filleting compound (e.g. System Three SilverTip EZ Fillet (brand)) (Fiberglass Supply)
+  - fillers: wood flour, colloidal silica (Cab-O-Sil (brand)), filleting blend (WEST SYSTEM 405 (brand)), low-density fairing filler (WEST SYSTEM 410 Microlight (brand)) (CLC Boats; Fiberglass Supply; JW Boat Designs)
+  - copper wire, soft steel wire or plastic cable ties for stitching (Wikipedia 'Stitch and glue'; JW Boat Designs)
+  - plastic body-filler spreaders (squeegees) to cut into fillet tools (CLC Boats)
+  - precut triangular or trapezoid foam fillets for under bulkhead edges (boatdesign.net thread)
+- **rules_of_thumb**: 
+  - Fillet size: cut a 1 in (25 mm) radius into a spreader for the main seams and a 1/2 in (13 mm) radius for bulkheads (CLC Boats 'Fillets'); about 30 mm (1 1/4 in) radius for 1/4-3/8 in plywood, a little bigger for 1/2 in and up (JW Boat Designs 'How Stitch & Tape Seams').
+  - Stitch spacing: tie at close intervals, about 15 times the plywood thickness, so the edges stay put while you work (JW Boat Designs).
+  - Fillet mix: thicken epoxy with wood flour to 'peanut butter consistency' so it doesn't sag; a little colloidal silica makes it smoother (CLC Boats).
+  - Tape onto the wet fillet ('wet on wet'): brush unthickened epoxy out to the tape line, lay the tape, wet it out; do a couple of metres at a time on hot days so the fillet doesn't cure first (CLC Boats; JW Boat Designs).
+  - Multiple tapes: stagger the tape edges so they don't build up in one place (JW Boat Designs); when tabbing stringers and frames, taper the layers to give a gradual thickness change, and fillet inside corners (Epoxyworks 'Common errors in fiberglass laminate repair').
+  - Hiding tape edges: after a day or two, knock off the ragged edges, then spread a wide, shallow fillet of low-density filler: about 60 mm wide for one layer of 6 oz tape, about 100 mm for two layers or one layer of 10 oz (JW Boat Designs).
+  - Fabric choice: plain cloth is enough on small taped-seam boats; heavily loaded bulkheads need double-bias (biax) tape, because in woven cloth only half the fibres cross the joint and the woven fibres must straighten before they take load (boatdesign.net thread).
+  - Hard spots: on a solid (uncored) laminate, leave a small gap or put a tapered foam filler under a bulkhead edge so it doesn't press a hard line into the hull; if in doubt, make fillets bigger (boatdesign.net thread; forum opinion, not a standard).
+  - Taped plywood butt joint ('hybrid' joint): edge-glue the panels, make a shallow bevel along the joint on both faces, then add one or two layers of glass (biaxial is a good choice) on each side; for comparison a wooden butt block should be at least 16 times the plywood thickness wide, and a scarf about 8:1 (Epoxyworks 'Joining Plywood').
+
+### When to use it
+
+- **everyday_examples**: 
+  - home-built plywood kayaks, canoes and dinghies (e.g. the Mirror dinghy, whose kit used copper wire stitches; Wikipedia 'Stitch and glue')
+  - bulkheads, seat fronts and stringers glassed into the hull of a fibreglass yacht or motorboat (boatdesign.net thread)
+  - plywood 'Instant Boats' and one-sheet boats built at home (Wikipedia 'Stitch and glue')
+- **when_to_use**: When you want to join thin panels at an angle or edge to edge into a light, stiff, watertight shell with no frames or fasteners: plywood boats, kayaks, boxes, fairings, and adding or repairing bulkheads and stringers in a fibreglass hull. Good when the panels themselves can define the shape, when the joint must be sealed, and when you can reach both sides of the seam. Also a way to join plywood sheets end to end (taped butt) when you can't cut a scarf.
+- **when_not_to_use**: Not for anything that must come apart (use screws, bolts or the Glued joint design entry's mechanical options). Not where you can't reach the inside corner. Not for thick solid timber joints where ordinary woodworking joints and glue are simpler (Butt and lap wood joints; Glued joint design). Not on polyethylene or polypropylene. Avoid polyester resin over polystyrene foam. For joining tubes, use a Bonded tube joint; for adding a threaded mounting point to a panel, use a Bonding fastener or Potted insert instead of tabbing on a block.
+- **environment_limits**: Water: cured epoxy and glass are waterproof, but exposed plywood end grain wicks water and must be sealed with epoxy (boatdesign.net thread). Sunlight: epoxy is damaged by UV and needs paint or varnish over it; some resin systems add UV inhibitors (Fiberglass Supply mentions WEST SYSTEM 105/207 'with UV inhibitors') ⚑ [uncertain: no figure]. Heat: epoxy softens as it warms; check the resin's data sheet for its heat limit ⚑ [uncertain: no figure on an opened page]. Cold: cure slows; full cure can take over two weeks at room temperature (WEST SYSTEM 'General Epoxy Safety Guidelines'). Hard landings or flexing: a stiff fillet edge on a solid laminate can crack the hull along a 'hard spot' (boatdesign.net thread). *(⚑ parts need confirming)*
+- **safety_notes**: Epoxy skin allergy (sensitisation): fewer than 10% of users react, less than 2% become allergic, but once sensitised even tiny amounts can trigger worse reactions, so always wear gloves, eye protection and long sleeves, and never clean epoxy off skin with solvent (WEST SYSTEM 'Health effects from overexposure to epoxy'; 'General Epoxy Safety Guidelines'). Sanding dust: never breathe dust from partly cured epoxy, which is still reactive; use ventilation and at least an N95 dust mask (WEST SYSTEM). Glass-fibre dust from sanding and cutting causes itchy rashes and eye and throat irritation: wear long sleeves, gloves, goggles and a mask, wash with soap and water afterwards, and wash work clothes separately (Illinois Department of Public Health 'Fiberglass' fact sheet). Heat from large batches: a pot of mixed epoxy can get hot enough to ignite nearby materials and give off fumes that ordinary respirators don't stop, so mix small batches and move a hot pot outside, away from people and anything that burns (Epoxyworks 'Health and safety'). Hardener on sawdust can self-heat: don't put hardener in a bin with sawdust (WEST SYSTEM). Never use a home-built boat without testing it near shore with buoyancy aids ⚑ [uncertain: general advice, no source opened]. *(⚑ parts need confirming)*
+- **common_failures**: 
+  - Starved seam (too little resin, dry white patches in the tape): resin drains through an open seam or is soaked up by the wood; tape the outside of the seam and saturate the tape well (Guillemot Kayaks).
+  - Sagging or runny fillet: the mix is too thin; thicken to peanut-butter consistency (CLC Boats).
+  - Lumpy fillet and endless sanding: scrape up the squeeze-out with the flat of the tool as you go, and don't go back to touch up a fillet that has started to stiffen (CLC Boats).
+  - Tape lifting or not bonding: laid on after the fillet cured, or on a contaminated surface; lay tape wet on wet (CLC Boats; JW Boat Designs).
+  - Visible tape edges and dips in the plywood from sanding them: feather with a wide low-density filler fillet rather than sanding into the plywood (JW Boat Designs).
+  - Hard spot or crack where a bulkhead meets a solid hull: add a foam fillet, a gap, or a bigger fillet, and taper the tabbing layers (boatdesign.net thread; Epoxyworks).
+  - Tabbing too light for the load (e.g. a single layer of roving in production boats): scale the glass to the load and use directional (biax) fabrics for structural bulkheads (boatdesign.net thread).
+  - Wire stitches stuck in cured epoxy: heat with a soldering iron or blowtorch to release, or use plastic ties that can be planed off (JW Boat Designs).
+- **related**: 
+  - Glued joint design (butt, lap and scarf joints): explains overlap, scarf and peel-vs-shear rules for glued joints in general; scarfing is stronger and smoother than a taped butt for joining plywood (Epoxyworks 'Joining Plywood')
+  - Butt and lap wood joints: wooden joints held with screws, pocket holes or glue; no glass tape or fillet
+  - Two-part epoxy: the glue used for the fillet and to wet out the tape
+  - Bonded tube joint: the same idea of glued or fibre-wrapped overlaps, but for tubes (carbon, bamboo) instead of panels
+  - Potted insert: how to make a hard point in a cored panel that you will later tab or bolt to
+  - Bonding fastener: a glued-on threaded stud, sometimes laminated in with a square of glass over it
+  - Sewn seams and hand stitches: in historic 'sewn boats' the stitches were the permanent joint; in stitch and glue they are only temporary clamps (Wikipedia 'Stitch and glue')
+  - Adhesive tape joint and tape hinge: pressure-sensitive tape across a seam, a much weaker, quick version for cardboard and foam board
+
+### Pictures, videos and models
+
+- **links**: 
+  - [StitchAndGlue.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:StitchAndGlue.svg): Cross-section diagram of a stitch-and-glue joint: two plywood panels, wire stitch, epoxy fillet and glass tape (used in Wikipedia 'Stitch and glue') *(licence: CC BY-SA 3.0 or GFDL 1.2+ (choice of licence))*
+  - [Canoe_stitch_and_glue.jpg (Wikimedia Commons, by Kevin Saff)](https://commons.wikimedia.org/wiki/File:Canoe_stitch_and_glue.jpg): Photo of a plywood canoe being built by stitch and glue, with the stitches along the seams *(licence: CC BY-SA 2.0)*
+  - [Fillets (Chesapeake Light Craft boatbuilding tips)](https://clcboats.com/blogs/boatbuilding-tips/fillets): Photos of a fillet being spread with a radiused tool, examples of filleting tools, and an overhead view of a cleaned-up fillet *(licence: link only)*
+  - [Quick and Dirty Stitch and Glue (Steve Lewis, Duckworks Magazine)](https://duckworksmagazine.com/05/articles/s-and-g/index.htm): Step-by-step photos of a 10 ft skiff: stitching panels with wire ties, filleting and taping seams, tack fillets on seats, taping the outside *(licence: link only)*
+  - [Precision Seam Taping - Petrel Play SG - E21 (Guillemot Kayaks)](https://guillemot-kayaks.com/stitch-and-glue/recreational-kayak-sea-kayak/stitch-and-glue-petrel-play/precision-seam-taping): Video and transcript of running pre-wetted glass tape down the inside seam of a kit kayak with a 'brush on a stick' *(licence: link only)*
+- **make_it_yourself**: 
+  - [Epoxy Fillet Tool (Parametric) (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/565974-epoxy-fillet-tool-parametric): A 50 x 50 mm printable fillet spreader for composite work in three thicknesses, with 1, 5, 10 and 15 mm radii and an Onshape model to change them. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Fillet tool epoxy (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/138672-fillet-tool-epoxy): Printable epoxy fillet tools in 25 mm and 15 mm radii. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Woodworking Corner fillet tool (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/840633-woodworking-corner-fillet-tool): Parametric Fusion model of a corner fillet tool, supplied in 30 mm and 15 mm radius versions; change the 'CornerRadius' parameter for other sizes. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+- **diagram_idea**: A three-step cross-section of two plywood panels meeting at a V: (1) stitched with a wire twist, (2) a curved fillet of thick epoxy filling the inside corner, (3) glass tape laid over the fillet and onto both panels, with arrows showing load flowing smoothly round the curve instead of through a sharp corner.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Stitch_and_glue
+  - https://commons.wikimedia.org/wiki/File:StitchAndGlue.svg
+  - https://commons.wikimedia.org/wiki/File:Canoe_stitch_and_glue.jpg
+  - https://clcboats.com/blogs/boatbuilding-tips/fillets
+  - https://duckworksmagazine.com/05/articles/s-and-g/index.htm
+  - https://jwboatdesigns.co.nz/how-stitch-tape-seams/
+  - https://duckworksmagazine.com/03/r/columns/welsford/019/john.htm
+  - https://www.epoxyworks.com/common-errors-in-fiberglass-laminate-repair/
+  - https://www.epoxyworks.com/joining-plywood-3/
+  - https://www.boatdesign.net/goto/post?id=549947
+  - https://fiberglasssupply.com/stitch-and-glue-boatbuilding-materials-guide/
+  - https://guillemot-kayaks.com/stitch-and-glue/recreational-kayak-sea-kayak/stitch-and-glue-petrel-play/precision-seam-taping
+  - https://www.practical-sailor.com/boat-maintenance/a-solid-connection
+  - https://3dprint.com/108318/strengthening-3d-parts/
+  - https://hackaday.io/project/176681/log/190592
+  - https://www.westsystem.com/safety/health-effects-from-overexposure-to-epoxy/
+  - https://www.westsystem.com/safety/preventing-overexposure/
+  - https://www.epoxyworks.com/?p=9878
+  - https://idph.illinois.gov/envhealth/factsheets/fiberglass.htm
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
+- **bonds_well**: wood, glass or ceramic ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam [uncertain: forum consensus in search re…"*
+- **bonds_poorly**: PLA, slippery plastics (PE or PP), fabric or leather, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam [uncertain: forum consensus in search re…"*
+- **tools**: drill and tap, sewing or leather tools, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: partly
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: wood, carbon fibre or composites
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, load, making_tips_3d_printing, materials, processes, safety_notes
 

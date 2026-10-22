@@ -98,6 +98,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: ['fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -236,7 +238,7 @@ pictures:
     sewn on one side.
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, spline, repeatability--accuracy, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, spline, chamfer--fillet, repeatability--accuracy, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
@@ -352,6 +354,8 @@ Sharp tools: needles, awls, pricking irons struck with a mallet, knives and rota
 - Bead-in-groove fabric edge (keder, boltrope, screen [spline](../glossary.md#spline)): a sewn-in or welded bead that slides into a track
 - Printing onto fabric (fabric embedded in a 3D print): joins plastic to fabric without sewing
 - Rope-end finishing (whipping, heat-sealing, back splice, aglet): melting or hemming the end of a strap or tape to stop fraying
+- Sewn book bindings (pamphlet stitch, Coptic stitch, Japanese stab binding): hand sewing for paper, where the thread is both fastener and hinge
+- Fillet-and-tape joint (stitch-and-glue seam): a boatbuilding seam where twists of wire or cable ties only hold the plywood panels until an epoxy [fillet](../glossary.md#chamfer--fillet) and glass tape make the real joint
 
 ## Make it yourself
 

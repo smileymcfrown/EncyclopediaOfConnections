@@ -94,6 +94,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -216,7 +218,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [backlash, self-locking, axial--radial, torque, pitch, crank, tolerance, interference-fit, form-fit--force-fit--material-bond,
-  taper, collet, kinematic-coupling, creep, perimeters, infill]
+  taper, collet, kinematic-coupling, creep, perimeters, infill, flux]
 ---
 
 <div class="eoc-pictures">
@@ -247,7 +249,7 @@ A few parts: a male cone (taper shank, arbor, lathe centre, syringe tip, glass s
 
 ## When to use it
 
-Use a taper fit when a tool or part must be swapped often yet sit exactly on centre every time with no play: drill chucks, lathe centres and tool holders on metalworking machines. Use Luer fittings to join syringes, dispensing needles, small tubes, filters and stopcocks for glue, flux, lubricant, lab or hobby fluid work, and ground-glass joints for lab glassware. A taper is also good whenever the load pushes the parts together along the axis, because that only makes it grip harder.
+Use a taper fit when a tool or part must be swapped often yet sit exactly on centre every time with no play: drill chucks, lathe centres and tool holders on metalworking machines. Use Luer fittings to join syringes, dispensing needles, small tubes, filters and stopcocks for glue, [flux](../glossary.md#flux), lubricant, lab or hobby fluid work, and ground-glass joints for lab glassware. A taper is also good whenever the load pushes the parts together along the axis, because that only makes it grip harder.
 
 ## When not to use it
 
@@ -331,6 +333,7 @@ If a Morse taper slips under heavy torque, the tang can snap and the tool spins 
 - Quick couplers for tubes and hoses (push-to-connect): latch tubes in place for fluid connections that must not pull apart
 - Bayonet mount (push-and-twist lock) and ordinary screw joint: ways to add positive retention, like the Luer lock's thread
 - [Kinematic coupling](../glossary.md#kinematic-coupling) (balls in V-grooves): exact repeatable location without friction locking
+- Wire-bail closure (flip-top bottle, clamp-lid jar): seals a bottle by snapping a stopper onto a rubber ring over centre, where a cork or ground-glass stopper seals by a taper push fit
 
 ## Make it yourself
 

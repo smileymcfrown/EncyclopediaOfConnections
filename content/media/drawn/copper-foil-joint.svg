@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cross-section through a copper foil joint between two pieces of glass: sticky copper foil is wrapped round each glass edge with a small lip on both faces, the foil is fluxed and given a thin coat of solder, and then a rounded solder bead fills the gap between the pieces and wraps over the foil on both faces, locking the two pieces together.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M322,190 C340,150 460,150 478,190 L478,272 C460,312 340,312 322,272 Z" fill="#b5b5b5"/>
+<rect x="296" y="189" width="92" height="5" fill="#b5b5b5" stroke="none"/><rect x="412" y="189" width="92" height="5" fill="#b5b5b5" stroke="none"/>
+<rect x="296" y="268" width="92" height="5" fill="#b5b5b5" stroke="none"/><rect x="412" y="268" width="92" height="5" fill="#b5b5b5" stroke="none"/>
+<rect x="40" y="200" width="342" height="62" fill="#d6efed"/><rect x="418" y="200" width="342" height="62" fill="#d6efed"/>
+<path d="M296,194 L388,194 L388,268 L296,268 L296,262 L382,262 L382,200 L296,200 Z" fill="#e8a777"/>
+<path d="M504,194 L412,194 L412,268 L504,268 L504,262 L418,262 L418,200 L504,200 Z" fill="#e8a777"/>
+</g>
+<g stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.9"><line x1="90" y1="214" x2="120" y2="214"/><line x1="680" y1="214" x2="710" y2="214"/></g>
+<g stroke-linejoin="round" stroke-linecap="round">
+<circle cx="110" cy="350" r="52" fill="#d6efed" stroke="#222" stroke-width="3"/>
+<g fill="none" stroke="#222" stroke-width="9" stroke-linecap="butt"><path d="M110,298 L110,402"/><path d="M110,340 L158,328"/><path d="M110,368 L67,380"/></g>
+<g fill="none" stroke="#b5b5b5" stroke-width="4" stroke-linecap="butt"><path d="M110,298 L110,402"/><path d="M110,340 L158,328"/><path d="M110,368 L67,380"/></g>
+<circle cx="110" cy="350" r="52" fill="none" stroke="#b5b5b5" stroke-width="4"/><circle cx="110" cy="350" r="55" fill="none" stroke="#222" stroke-width="2"/>
+<line x1="44" y1="354" x2="176" y2="354" stroke="#d1495b" stroke-width="2.5" stroke-dasharray="7 5"/>
+</g>
+<text x="186" y="348" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">suncatcher from the front:</text><text x="186" y="370" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">cut along the dashes</text>
+<g stroke="#222" stroke-width="1.5">
+<line x1="400" y1="112" x2="400" y2="164"/>
+<line x1="210" y1="160" x2="292" y2="191"/>
+<line x1="610" y1="150" x2="500" y2="196"/>
+<line x1="590" y1="334" x2="402" y2="246"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">
+<text x="400" y="38" font-size="21" font-weight="bold">Copper foil joint, cut through</text>
+<text x="400" y="80">rounded solder bead wraps</text><text x="400" y="103">over both faces</text>
+<text x="160" y="236">glass</text><text x="640" y="236">glass</text>
+<text x="160" y="132">thin coat of solder</text><text x="160" y="153">(tinning)</text>
+<text x="660" y="118">copper foil tape wrapped</text><text x="660" y="141">round each edge</text>
+<text x="640" y="352">solder fills the gap</text>
+</g>
+<text x="400" y="430" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">Glass can't take solder, so the foil gives each edge a metal skin · flux first, so the solder sticks</text>
+</svg>

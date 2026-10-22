@@ -75,7 +75,8 @@
       "Sliding lid in sheet material (Boxes.py defaults): lid gap = (1 + 0.1) x material thickness; lid made narrower by 0.05 x thickness on each side 'to prevent the lid from jamming'; rails 1.5 x thickness wide (wider rails are more stable but make the opening smaller) (Boxes.py 'SlidingLidBox').",
       "Sliding lid in wood: use quarter-sawn or rift-sawn stock and mill it to thickness in stages ('double and even triple-milling') so the lid stays flat and slides without binding (Michael Cullen, Fine Woodworking #255).",
       "Loose tongues: grooves about one-third of the thickness (e.g. the nearest standard plywood thickness); if the tongue is solid wood, run its grain diagonally or across its width for strength (DT Online 'Widening Joint').",
-      "Stopped grooves (grooves that stop short of the ends) should be cut with a router or spindle moulder, not a table saw (DT Online, citing HSE WIS16)."
+      "Stopped grooves (grooves that stop short of the ends) should be cut with a router or spindle moulder, not a table saw (DT Online, citing HSE WIS16).",
+      "Sliding glass cabinet doors run in a double track: the panes ride on nylon rollers in the bottom track, their top edges are held in the matching top track, and the two doors usually overlap by 26 mm. One such track is for 6 mm glass up to 1.5 m high: cut the glass 22 mm shorter than the opening height, keep each door no taller than 1.5 times its width, and have the glass edges polished 'for safety reasons' (Bohle double top track BO634024P)."
     ]
   },
   "guidance": {
@@ -83,7 +84,8 @@
       "Wooden floorboards and parquet blocks, which lock together edge to edge (Wikipedia 'Tongue and groove', 'Wood flooring')",
       "Tongue-and-groove wall panelling, V-groove wainscot and the back panels of bookcases (Woodworker's Journal; DT Online 'Matched Boarding')",
       "A wooden pencil box with a sliding top (Fine Woodworking: the author's childhood pencil box inspired his design)",
-      "Printed or wooden boxes for board-game pieces with a slide-out lid (Printables 'Parametric Sliding Lid Box')"
+      "Printed or wooden boxes for board-game pieces with a slide-out lid (Printables 'Parametric Sliding Lid Box')",
+      "Sliding glass doors on a display cabinet, running on rollers in a double bottom track with their top edges in a double top track (Bohle)"
     ],
     "when_to_use": "Use tongue and groove to join many boards edge to edge into a flat surface that must stay flush but still move with the seasons: floors, wall and ceiling panelling, cladding, cabinet backs and web frames (Wikipedia; Woodcraft). Use it in edge glue-ups when you want the boards to line up by themselves as you clamp (Popular Woodworking; USDA). Use a groove to capture a floating panel or a drawer or box bottom (Wikipedia 'Frame and panel', 'Groove (joinery)'). Use grooves and a sliding lid for simple boxes that open without hinges or latches, such as pencil boxes and game-piece boxes, in wood, 3D prints or laser-cut sheet (Fine Woodworking; Printables; Boxes.py). Use a loose tongue (spline) when both edges are grooved, e.g. in plywood (Wikipedia; DT Online).",
     "when_not_to_use": "Don't add a tongue and groove for strength in an edge glue-up; a well-glued plain edge is as strong (USDA Wood Handbook ch. 10), so use dowels or biscuits only if you need alignment. Don't use it for end-grain or corner joints that carry load; use a mortise and tenon, finger or dovetail joint (The Wood Whisperer calls tongue and groove the mortise and tenon's 'little brother'). Avoid gluing wide solid-wood tongue-and-groove panels into frames or across their width; let them float (Wikipedia). For exterior cladding of sheds, shiplap is commonly used instead (DT Online). For a lid that must seal out water or dust, use a gasketed or snap-fit lid; for a lid opened often with one hand, a hinge is easier [uncertain].",
@@ -99,7 +101,10 @@
       "Finger joint (box joint): how the corners of sliding-lid boxes are often joined (Boxes.py; Popular Woodworking's Japanese sliding-lid box)",
       "Snap-lock sheet joint and cantilever snap fit: locking versions, like 'click' floors whose tongues snap into modified grooves (Wikipedia 'Wood flooring')",
       "Oldham coupling: uses tongue-and-groove slots at right angles to join slightly misaligned shafts",
-      "Drawer slide (telescopic ball-bearing slide): the hardware alternative for sliding parts"
+      "Drawer slide (telescopic ball-bearing slide): the hardware alternative for sliding parts",
+      "Jigsaw puzzle-edge joint: a press-together wavy edge that locks flat panels (such as foam floor mats) against pulling apart, where tongue and groove only keeps them flush",
+      "Glazing in a rebated frame: holds a fixed pane of glass or acrylic in a stepped rebate with points, putty or beads, rather than in a groove",
+      "Glass door hinge: the hinged alternative to sliding glass cabinet doors in a track"
     ]
   },
   "media": {
@@ -198,7 +203,8 @@
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "https://www.osha.gov/etools/machine-guarding/saws/table",
       "https://www.youtube.com/watch?v=7NulJL7R4Ok",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.bohle.com/uk-EN/Top-Side-track-Double-Nylonslide-6-mm/BO634024P"
     ]
   },
   "uncertain": [

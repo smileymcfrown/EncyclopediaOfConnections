@@ -91,6 +91,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass
+      or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -101,7 +104,10 @@ needs_confirming:
     reason: '`materials` is marked [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found
       [uncertain]. Grades exist for metal repa…"'
 confirmed: []
-open_points: []
+open_points:
+- kind: sources
+  note: '*Epoxy putty* (232): the r/polymerclay thread was read through the arctic-shift copy (as in earlier runs) and says
+    "2 part epoxy clay" (Apoxie Sculpt, Magic Sculpt).'
 uncertain_fields: [holding_principle, materials, processes, making_tips_3d_printing, environment_limits, safety_notes]
 diagram_idea: 'Three panels: two coloured sticks cut and kneaded into one even colour; the dough pressed into a chipped corner
   of a part and smoothed with a wet finger; then the hardened patch sanded flush with a hole drilled and tapped through it
@@ -157,6 +163,9 @@ sources:
 - https://api.printables.com/graphql/
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
+- https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1loknv6
+- https://makezine.com/projects/how-to-sculpt-a-fantasy-owl
+- https://mail.starshipmodeler.net/talk/viewtopic.php?p=983361
 research: research/connection-types/results/Epoxy_putty_kneadable_twopart_putty.json
 image:
   file: epoxy-putty.webp
@@ -221,7 +230,7 @@ Single piece once mixed: two doughs (resin and hardener), usually sold as two ba
 
 ## When to use it
 
-Use it when you need to fill, rebuild or plug rather than just glue a thin line: filling holes, cracks and gaps; rebuilding a broken corner or missing piece; patching a leak in a pipe, tank or boat; restoring worn metal or rotten wood; and making a solid spot that can then be drilled and tapped for a screw (Loctite EA 3463; Loctite Repair Putty; J-B Weld; Milliput on Wikipedia). Its modelling-clay consistency lets it be shaped and formed before it [cures](../glossary.md#cure) (Loctite Repair Putty), and underwater-rated types handle damp or wet repairs (Loctite Repair Putty; Loctite EA 3463). For 3D prints it fills seams and gaps between glued parts, repairs broken prints and adds sculpted detail (Tinkerine video; Wikipedia).
+Use it when you need to fill, rebuild or plug rather than just glue a thin line: filling holes, cracks and gaps; rebuilding a broken corner or missing piece; patching a leak in a pipe, tank or boat; restoring worn metal or rotten wood; and making a solid spot that can then be drilled and tapped for a screw (Loctite EA 3463; Loctite Repair Putty; J-B Weld; Milliput on Wikipedia). Its modelling-clay consistency lets it be shaped and formed before it [cures](../glossary.md#cure) (Loctite Repair Putty), and underwater-rated types handle damp or wet repairs (Loctite Repair Putty; Loctite EA 3463). For 3D prints it fills seams and gaps between glued parts, repairs broken prints and adds sculpted detail (Tinkerine video; Wikipedia). For sculpting over a 3D print it is the no-bake choice: baking a PLA print under polymer clay "will not end well", and makers suggest "a 2 part epoxy clay for this purpose" such as Apoxie Sculpt or Magic Sculpt (r/polymerclay thread, read through the Arctic Shift archive). Sculptors also press a thin layer over a finished wire armature to reinforce it, let it cure for 24 hours, then build clay over it (Make: 'How to Sculpt a Fantasy Owl': "Any 2-part epoxy putty will work"), and modellers pack it into an oversized pin hole to lock a pin in place (pinning; Starship Modeler forum: "stuff the surrounding hole and the joint surface with apoxy putty to lock the pin down").
 
 ## When not to use it
 
@@ -302,6 +311,10 @@ Uncured epoxy can cause allergic skin reactions and irritate eyes, skin and airw
 - Structural acrylic and low-surface-energy plastic adhesives: for PE and PP, which epoxy putty cannot bond (Loctite Repair Putty limitation)
 - Silicone and MS-polymer sealants: flexible, waterproof gap-fillers where the joint moves; epoxy putty is rigid
 - Melted plastic weld: for a watertight printed tank, makers suggest welding the seams first (e.g. with a soldering iron) and then sealing, using 'glue and sealer' rather than one product alone (r/3Dprinting thread read through the Arctic Shift archive)
+- Pinned glue joint (pinning): a wire or rod pin glued into holes in both parts; epoxy putty can be packed round the pin in an oversized hole to lock it (Starship Modeler forum)
+- Liquid-clay bond (bakeable clay glue): joins polymer clay parts by baking them again; epoxy putty sets at room temperature with no bake
+- Score-and-slip join (scratch and slip): joins soft water-based clay parts as they dry; epoxy putty sets by chemical reaction instead and does not shrink
+- Sculpture armature (wire and foil armature): the wire skeleton that clay or putty is built over; a thin layer of epoxy putty can reinforce it (Make: owl project)
 
 ## Make it yourself
 
@@ -343,3 +356,6 @@ Uncured epoxy can cause allergic skin reactions and irritate eyes, skin and airw
 - <https://api.printables.com/graphql/>
 - <https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1>
 - <https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200>
+- <https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1loknv6>
+- <https://makezine.com/projects/how-to-sculpt-a-fantasy-owl>
+- <https://mail.starshipmodeler.net/talk/viewtopic.php?p=983361>

@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal, carbon fibre or composites]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -292,6 +294,8 @@ The nozzle and bed stay hot during the pause (Prusa), so use tweezers and keep f
 - Turntable bearing (lazy-Susan bearing, slewing ring): printed versions often trap airsoft BBs with this technique
 - Plain pivot and rolling bearing: the ordinary way to fit a bought bearing into a housing
 - Printed screw thread: no metal part at all, but weaker for small sizes
+- Baked-in findings (embedded findings in polymer clay): the same trap-it-while-soft idea in clay, with eye pins, posts and bails pushed in before baking
+- Potted insert (sandwich-panel insert): a bolt hard point made by filling a hole in a soft-cored panel with epoxy, with or without a metal insert, after the panel is made
 
 ## Make it yourself
 

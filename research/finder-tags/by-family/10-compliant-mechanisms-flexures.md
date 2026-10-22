@@ -1,6 +1,6 @@
 # compliant mechanisms & flexures: Bends instead of hinging
 
-11 entries. ⚑ = needs confirming: 18 best guesses and 4 values from text marked [uncertain]
+12 entries. ⚑ = needs confirming: 19 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -17,6 +17,7 @@ are welcome. Back to the [index](README.md).
 | 176 | Mechanical metamaterial mechanism | lid, door or cover ⚑ | none | – | steady turning ⚑ | – ⚑ | – ⚑ | – | – | none, power tools, hand tools | light | 3D print (FDM) | no | permanent |
 | 177 | Tape-spring hinge | lid, door or cover ⚑ | none | – | – | – | – | – ⚑ | – | hand tools ⚑ | light | off-the-shelf part | no | removable |
 | 178 | Origami mechanisms | boards or sheet ⚑ | none | – | straight push or pull ⚑ | – ⚑ | – ⚑ | – | – | none, hand tools | light | 3D print (FDM) | partly | permanent |
+| 410 | Score-and-fold hinge | lid, door or cover ⚑ | none | – | – | – | – | – | – | sewing or leather tools, hand tools | light | by hand (tied or wrapped) | no | permanent |
 
 ## Best guesses
 
@@ -40,6 +41,7 @@ The script was unsure of these values.
 - ⚑ **178 Origami mechanisms**, `motion_in` = straight push or pull: could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
 - ⚑ **178 Origami mechanisms**, `motion_out` = –: could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
 - ⚑ **178 Origami mechanisms**, `shaft_layout` = –: could not read both sides of `input_output`: "Mostly used as a joint rather than a transmission. Kresling tube: push or pull along the a..."
+- ⚑ **410 Score-and-fold hinge**, `connects` = lid, door or cover: worked out from its name, but joining parts is not one of its two main jobs
 
 ## From research text marked [uncertain]
 

@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: ['pushes, pulls or flow shared out']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -186,6 +188,9 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hydraulic_disc_brake_diagram.gif
 - https://commons.wikimedia.org/wiki/File:Master_cylinder_diagram.svg
 - https://en.wikipedia.org/wiki/Micromanipulator
+- https://www.powermotiontech.com/technologies/other-technologies/article/21883443/book-2-chapter-11-flow-divider-circuits
+- https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21885035/synchronizing-circuits
+- https://www.hawe.com/fluid-lexicon/detail/open-loop-synchronisation-control/
 research: research/connection-types/results/Syringe_hydraulics_hydraulic_lever_Pascals_principle.json
 image:
   file: drawn/anim/syringe-hydraulics.svg
@@ -271,7 +276,7 @@ Not for long strokes from a small input: volume in equals volume out, so you'd n
   - let it move (turn, slide or bend): carries a push or pull along a bendy tube to a part somewhere else, like a Bowden cable but with much less friction round bends (Disney Research)
   - lock, and release by hand: in a hydraulic jack or press, check valves trap the oil so the load stays up until you open the release valve (Wikipedia 'Jack (device)'; Potter USA)
 - **Movement:** slide: each plunger or piston slides in a straight line in its cylinder; what it pushes can swing, e.g. the Exploratorium arm pivots on a bolt as the syringe extends (Exploratorium). Stroke is limited by the syringe length; a jack gets a long lift from many short pump strokes (Wikipedia 'Jack (device)')
-- **Directions it can move (degrees of freedom):** 1 per liquid line: each sealed tube links one input movement to one output movement (several outputs on one line, such as a car's brake calipers, all move together). A robot arm needs one line (or one pair of lines) per joint (Disney Research: N water lines plus 1 shared air line for N joints)
+- **Directions it can move (degrees of freedom):** 1 per liquid line: each sealed tube links one input movement to one output movement (several outputs can share one line, such as a car's brake calipers, but they only move together when each meets the same resistance, as calipers do when they all stop on the disc; see the rule of thumb on keeping cylinders in step). A robot arm needs one line (or one pair of lines) per joint (Disney Research: N water lines plus 1 shared air line for N joints)
 - **Special behaviour:**
   - motion conversion: changes force and distance by the ratio of piston areas and sends the push round corners and along any route the tube takes; for example a master piston half the diameter of the slave piston moves 4 times as far with a quarter of the force (Wikipedia 'Hydraulic brake')
   - hand-release only (jacks and presses): check valves stop the oil flowing back, so the ram holds its load until a person opens the release valve (Wikipedia 'Jack (device)'; Potter USA)
@@ -321,10 +326,11 @@ Syringes from 1 mL to 60 mL with catheter tips, Luer-slip or Luer-lock tips (Exp
 - Rolling-diaphragm cylinders are low-pressure parts, typically limited to 10 bar (off-the-shelf up to 17 bar), with a stroke of only about one bore diameter, and they need positive pressure at all times or the diaphragm folds and jams (Disney Research 2014)
 - Bottle jacks: open the release valve only about a quarter turn; store and carry them upright, because laying them down lets air in and 'air-locks' them; purge air by opening the release valve and pumping about 20 times (Potter USA)
 - Bike brakes: never put DOT fluid in a mineral-oil brake or the other way round, and never share bleed kits between them (Park Tool)
+- Several cylinders on one line don't stay in step by themselves: with a tee splitting the flow, 'if the resistance in all the branches is not identical, flow can vary greatly in each path', so the cylinder with the lighter load or less drag moves first or 'runs away' (Power & Motion 'Flow divider circuits'). To keep them together, tie them mechanically, for example a rack on each piston rod with the pinions fixed to one shaft (a chain and sprockets works only if they must keep in step in one direction), or use a flow divider (Power & Motion 'Synchronizing circuits'; HAWE fluid lexicon 'Open loop synchronisation control').
 
 ## Common failures
 
-1) Spongy, weak or jerky movement from air bubbles: refill under water and push the bubbles out (Exploratorium; Science Buddies; Park Tool). 2) Tube pops off the syringe tip when pushed hard: refill and refit it, then seal with plumber's putty or tape (Science Buddies), or use Luer-lock syringes. 3) Plunger pulled right out of the barrel: add a stop screw (Exploratorium). 4) Slow leaks past plunger seals, so the two ends drift out of step (Disney Research 2014). 5) Arm tips over under load: add weight to the base (Exploratorium). 6) Linkage jams at a dead point when the syringe is fully in (Printables 1037944). 7) Jack won't lift or won't build pressure: low oil, or air trapped after it was laid on its side; jack [creeps](../glossary.md#creep) or leaks oil when the release valve is opened too far (Potter USA). 8) Brakes: soft lever from air or the wrong fluid swelling the seals, pistons that won't retract and a scraping disc (Wikipedia 'Bicycle brake'); fade from boiling fluid on long descents (Wikipedia).
+1) Spongy, weak or jerky movement from air bubbles: refill under water and push the bubbles out (Exploratorium; Science Buddies; Park Tool). 2) Tube pops off the syringe tip when pushed hard: refill and refit it, then seal with plumber's putty or tape (Science Buddies), or use Luer-lock syringes. 3) Plunger pulled right out of the barrel: add a stop screw (Exploratorium). 4) Slow leaks past plunger seals, so the two ends drift out of step (Disney Research 2014). 5) Arm tips over under load: add weight to the base (Exploratorium). 6) Linkage jams at a dead point when the syringe is fully in (Printables 1037944). 7) Jack won't lift or won't build pressure: low oil, or air trapped after it was laid on its side; jack [creeps](../glossary.md#creep) or leaks oil when the release valve is opened too far (Potter USA). 8) Brakes: soft lever from air or the wrong fluid swelling the seals, pistons that won't retract and a scraping disc (Wikipedia 'Bicycle brake'); fade from boiling fluid on long descents (Wikipedia). 9) Two output syringes or cylinders on one line drift apart or move one after the other, because the lighter-loaded one takes the flow first: tie them together mechanically or give each its own line (Power & Motion).
 
 ## Safety
 
@@ -342,6 +348,7 @@ Syringes from 1 mL to 60 mL with catheter tips, Luer-slip or Luer-lock tips (Exp
 - Bellows and inflatable actuators: push with a flexible chamber and no sliding seal, like the rolling diaphragm
 - Capstan cable drive (tendon drive): the low-friction cable alternative for robot arms (Disney Research 2014)
 - Taper fit (Luer taper), Hose barb and Quick couplers: the fittings that join syringes and tubes
+- Cable splitter: the cable version of one input driving two outputs; it pulls both cables the same distance but does not balance their force
 
 ## Make it yourself
 
@@ -400,3 +407,6 @@ Syringes from 1 mL to 60 mL with catheter tips, Luer-slip or Luer-lock tips (Exp
 - <https://commons.wikimedia.org/wiki/File:Hydraulic_disc_brake_diagram.gif>
 - <https://commons.wikimedia.org/wiki/File:Master_cylinder_diagram.svg>
 - <https://en.wikipedia.org/wiki/Micromanipulator>
+- <https://www.powermotiontech.com/technologies/other-technologies/article/21883443/book-2-chapter-11-flow-divider-circuits>
+- <https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21885035/synchronizing-circuits>
+- <https://www.hawe.com/fluid-lexicon/detail/open-loop-synchronisation-control/>

@@ -70,7 +70,8 @@
       "Setting preload by feel is accurate to about +/-35%, with a torque wrench about +/-25%, and by measuring bolt stretch about +/-3-5% (Industrial Fasteners Institute table in NASA RP-1228, Table VII).",
       "Choose a bolt length so the threaded part does not sit in the shear plane between the parts; add washers to adjust (NASA RP-1228).",
       "Helical spring (split) lock washers are flat by the time the bolt is tight and give no locking; use preload, prevailing-torque nuts or threadlocker instead (NASA RP-1228; Bolt Science says spring lock washers can even aid self-loosening).",
-      "3D prints: wall around a threaded hole at least equal to the screw diameter (Hubs); even 1 Nm on an M3 screw gives more than 1500 N of clamping force, plenty for most printed assemblies (CNC Kitchen)."
+      "3D prints: wall around a threaded hole at least equal to the screw diameter (Hubs); even 1 Nm on an M3 screw gives more than 1500 N of clamping force, plenty for most printed assemblies (CNC Kitchen).",
+      "Drilling carbon-fibre plate: clamp it to a backing of wood or rigid foam to stop blow-out and splintering, put masking tape over the hole position, and run the drill fast (3,000-5,000 rpm) with a slow feed; a sharp HSS bit lasts only \"5-10 holes before it is completely dull\", so use solid carbide or diamond bits for more, which are brittle and need a drill press (Elevated Materials). Bolting through a soft, hollow or cored panel needs a compression limiter or a potted insert so the clamp force doesn't crush it (see those entries)."
     ]
   },
   "guidance": {
@@ -84,7 +85,7 @@
     "when_to_use": "Use it whenever parts must be strong, easy to make and able to come apart again for repair, adjustment or transport: frames, brackets, enclosures, robot and 3D-printer parts, jigs and prototypes. Parts are cheap and standard, the clamping force can be set with a torque tool, positions can be adjusted before tightening, and the joint can be undone and redone many times (Wikipedia 'Bolted joint'). It is the baseline to compare every other connection against. Use a carriage bolt through wood or a square-holed metal strap when you can only turn the nut: the square neck stops the bolt turning, and because its smooth domed head can't be gripped from outside, it is used in locks and hinges that must only be undone from one side (Wikipedia 'Carriage bolt').",
     "when_not_to_use": "Avoid it when you can't reach both sides and have no threaded hole (use a blind rivet, rivet nut or well nut instead); when you need tool-free, very fast assembly (use a snap fit, cam lock or quick-release pin); when parts must line up exactly every time (add dowel pins); when heavy vibration is expected without proper preload or locking (use locknuts, threadlocker or rivets) (Bolt Science); when the joint must seal without extra parts (add a gasket); or in thin, soft material that crushes under the head (use large washers, inserts or glue) (Hubs; filamentspecs). For permanent, cheap mass production, rivets, welding, clinching or snap fits are faster.",
     "environment_limits": "Vibration and small sideways slips are the main cause of loosening; keep the preload high enough to stop the joint slipping (Bolt Science). Differences in temperature or between clamped materials also cause slip and loosening (Bolt Science). Corrosion, especially steel against aluminium or in damp conditions, and 'embedding' (the surfaces settling) lose preload over time (Wikipedia 'Bolted joint'). Plastic clamped parts creep: 3% loss for PLA and 11.5% for PETG in one week at room temperature in one test, more after UV ageing for PETG (Amza et al. 2021); PLA softens above about 60 °C (Prusa).",
-    "safety_notes": "Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. Cut bolt ends can be sharp [uncertain].",
+    "safety_notes": "Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. Cut bolt ends can be sharp [uncertain]. Carbon-fibre dust from drilling \"is an irritant and can cause major itching\" on skin and breathing problems if inhaled: wear long sleeves, gloves, a dust mask or respirator and eye protection, with good ventilation (Elevated Materials).",
     "common_failures": "Loosening under vibration because the joint slips sideways; fix by tightening properly (enough preload), and use prevailing-torque locknuts or threadlocker rather than split spring washers (Bolt Science; NASA RP-1228). Stripped threads from too short an engagement or soft material; use a longer thread, a nut or an insert (Nord-Lock; Wikipedia 'Bolted joint'). Fatigue cracking of the bolt from under-tightening (Wikipedia 'Bolted joint'). Crushed or cracked plastic or wood under the head; use washers and less torque (CNC Kitchen; filamentspecs). Preload loss over time from creep and embedding; re-check torque (Wikipedia 'Bolted joint'; Amza et al. 2021). Holes out of line so the screw won't go in; use clearance holes of the right size (ISO 273).",
     "related": [
       "Self-tapping screw into plastic (thread-forming screw): no nut or tapped hole needed, but the plastic thread wears out after a few uses",
@@ -98,7 +99,9 @@
       "Printed screw thread: threads printed into the part; fine for big coarse threads only",
       "Aluminium-extrusion connectors: bolts into nuts that slide in the slots of aluminium bars, so parts can be moved anywhere along a frame instead of only to drilled holes",
       "Wood screw: a pointed, coarse-threaded screw that cuts its own thread in wood, so no nut or tapped hole is needed",
-      "Threaded rod and studs: a rod threaded along its length, used with nuts as a long bolt, tie rod or adjustable spacer"
+      "Threaded rod and studs: a rod threaded along its length, used with nuts as a long bolt, tie rod or adjustable spacer",
+      "Compression limiter (crush tube): a metal sleeve in the bolt hole of a soft or hollow part, so the clamp force goes through the sleeve instead of crushing the part",
+      "Panel standoff (sign standoff): a decorative two-part screw fitting that holds a drilled sign, glass or acrylic panel a set distance off the wall"
     ]
   },
   "media": {
@@ -182,7 +185,8 @@
       "https://commons.wikimedia.org/wiki/File:Bolt-in-shear.svg",
       "https://api.printables.com/graphql/",
       "https://en.wikipedia.org/wiki/Carriage_bolt",
-      "https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html"
+      "https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html",
+      "https://elevatedmaterials.com/drilling-carbon-fiber"
     ]
   },
   "uncertain": [

@@ -1,18 +1,18 @@
 # adhesives & bonding: Glues (types, by material and use)
 
-19 entries. ⚑ = needs confirming: 0 best guesses and 29 values from text marked [uncertain]
+27 entries. ⚑ = needs confirming: 8 best guesses and 38 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
 | # | Entry | Connects | Power | If power is lost | Motion in | Motion out | Shafts | If overloaded | Clicks | Tools | Load | Usually made by | Adjust | Take apart | Glue traits | Bonds well | Bonds poorly |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 137 | Cyanoacrylate | any solid parts | none | – | – | – | – | – | – | press or vice | medium | off-the-shelf part | no | semi-permanent | strongest, fast | PLA, PETG, ABS or ASA, nylon, TPU or flexible prints, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, rubber, fabric or leather | slippery plastics (PE or PP), foam |
-| 138 | Two-part epoxy | any solid parts | none | – | – | – | – | – | – | press or vice | heavy | off-the-shelf part | no | permanent | strongest, fills gaps | PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, stone or concrete ⚑ | slippery plastics (PE or PP), silicone ⚑ |
+| 138 | Two-part epoxy | any solid parts | none | – | – | – | – | – | – | press or vice | heavy | off-the-shelf part | no | permanent | strongest, fills gaps | PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam, stone or concrete ⚑ | slippery plastics (PE or PP), silicone ⚑ |
 | 139 | Solvent welding | any solid parts | none | – | – | – | – | – | – | press or vice, power tools, hand tools | heavy | off-the-shelf part | no | permanent | strongest | PLA, PETG, ABS or ASA, acrylic or polycarbonate, PVC, foam ⚑ | resin prints, slippery plastics (PE or PP), wood, metal, glass or ceramic ⚑ |
 | 140 | UV-curing adhesive | any solid parts | none | – | – | – | – | – | – | press or vice | medium | off-the-shelf part | no | permanent | strongest, fast | PLA, PETG, ABS or ASA, resin prints, slippery plastics (PE or PP), silicone, acrylic or polycarbonate, metal, glass or ceramic ⚑ | – ⚑ |
 | 141 | Hot-melt adhesive | any solid parts | none | – | – | – | – | – | – | glue gun, heat gun | light | off-the-shelf part | no | semi-permanent | stays flexible, fills gaps, fast, can be undone | PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, metal, glass or ceramic, rubber, fabric or leather, foam ⚑ | – ⚑ |
 | 142 | Double-sided foam tape | wall, rail, desk or grid | none | – | – | – | – | – | – | heat gun, hand tools | medium | off-the-shelf part | no | semi-permanent | stays flexible | PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, metal, glass or ceramic, rubber, foam ⚑ | PLA, silicone, wood, stone or concrete ⚑ |
-| 223 | PVA wood glue | any solid parts | none | – | – | – | – | – | – | press or vice | heavy | off-the-shelf part | no | semi-permanent | strongest | wood, paper or card, fabric or leather | PLA, PETG, ABS or ASA, metal, glass or ceramic |
+| 223 | PVA wood glue | any solid parts | none | – | – | – | – | – | – | press or vice | heavy | off-the-shelf part | no | semi-permanent | strongest | wood, paper or card, fabric or leather, foam | PLA, PETG, ABS or ASA, metal, glass or ceramic |
 | 224 | Contact adhesive | any solid parts | none | – | – | – | – | – | – | power tools | medium | off-the-shelf part | no | semi-permanent | stays flexible, fast | TPU or flexible prints, wood, paper or card, metal, rubber, fabric or leather, foam ⚑ | slippery plastics (PE or PP), silicone ⚑ |
 | 225 | Polyurethane glue | any solid parts | none | – | – | – | – | – | – | press or vice, hand tools | heavy | off-the-shelf part | no | permanent | strongest, fills gaps | PETG, PVC, wood, metal, glass or ceramic, foam, stone or concrete ⚑ | slippery plastics (PE or PP), rubber ⚑ |
 | 226 | Structural acrylic and low-surface-energy plastic adhesives | any solid parts | none | – | – | – | – | – | – | welding or brazing torch, press or vice | heavy | off-the-shelf part | no | permanent | strongest | PETG, ABS or ASA, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, rubber, foam, stone or concrete | nylon, silicone |
@@ -22,21 +22,36 @@ are welcome. Back to the [index](README.md).
 | 230 | Stretch-release adhesive strips | wall, rail, desk or grid | none | – | – | – | – | – | – | none | light | off-the-shelf part | no | removable | can be undone | ABS or ASA, slippery plastics (PE or PP), silicone, acrylic or polycarbonate, wood, metal, glass or ceramic, rubber, foam, stone or concrete ⚑ | PLA, PETG, paper or card ⚑ |
 | 231 | Hide glue | any solid parts | none | – | – | – | – | – | – | heat gun, press or vice, hand tools | heavy | off-the-shelf part | no | semi-permanent | can be undone | wood, paper or card, glass or ceramic, fabric or leather ⚑ | PLA, PETG, ABS or ASA ⚑ |
 | 232 | Epoxy putty | any solid parts | none | – | – | – | – | – | – | drill and tap, hand tools | medium | off-the-shelf part | no | permanent | strongest, fills gaps | PVC, wood, metal, glass or ceramic, stone or concrete ⚑ | PLA, PETG, ABS or ASA, nylon, TPU or flexible prints, slippery plastics (PE or PP) ⚑ |
-| 270 | Glued joint design | any solid parts | none | – | – | – | – | – | – | press or vice, power tools, hand tools | heavy | off-the-shelf part | no | permanent | strongest | wood | PLA, PETG, ABS or ASA, slippery plastics (PE or PP), silicone, metal |
+| 270 | Glued joint design | any solid parts | none | – | – | – | – | – | – | press or vice, power tools, hand tools | heavy | off-the-shelf part | no | permanent | strongest | wood, foam | PLA, PETG, ABS or ASA, slippery plastics (PE or PP), silicone, metal |
 | 297 | Hand-mouldable thermoplastic | any solid parts | none | – | – | – | – | – | – | heat gun, drill and tap, hand tools | medium | off-the-shelf part | yes | removable | fills gaps, can be undone | PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam ⚑ | PLA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic ⚑ |
 | 391 | Iron-on fusible web | any solid parts | none | – | – | – | – | – | – | sewing or leather tools, hand tools | light | off-the-shelf part | no | permanent | stays flexible | nylon, wood, paper or card, rubber, fabric or leather, foam | PLA, PETG, silicone, metal |
+| 411 | Glued tab joint | boards or sheet | none | – | – | – | – | – | – | glue gun, sewing or leather tools, hand tools | light | off-the-shelf part | no | permanent ⚑ | fast ⚑ | wood, paper or card | metal, foam |
+| 412 | Adhesive tape joint and tape hinge | lid, door or cover | none | – | – | – | – | – | – | none, hand tools | medium | off-the-shelf part | partly | semi-permanent | – ⚑ | wood, paper or card, foam ⚑ | slippery plastics (PE or PP) ⚑ |
+| 415 | Glue stick and starch paste | any solid parts | none | – | – | – | – | – | – | press or vice | light | off-the-shelf part | partly | semi-permanent | – ⚑ | paper or card, metal, fabric or leather, stone or concrete ⚑ | PLA, PETG, ABS or ASA, wood, glass or ceramic, rubber, foam ⚑ |
+| 425 | Pinned glue joint | any solid parts | none | – | – | – | – | – | – | drill and tap, press or vice, hand tools | light | off-the-shelf part | no | permanent | – ⚑ | metal | wood, paper or card, foam |
+| 428 | Liquid-clay bond | any solid parts | none | – | – | – | – | – | – | sewing or leather tools | light | off-the-shelf part | yes | permanent | fills gaps ⚑ | PVC ⚑ | PLA, wood, paper or card, metal, glass or ceramic ⚑ |
+| 429 | Score-and-slip join | any solid parts | none | – | – | – | – | – | – | sewing or leather tools | light | off-the-shelf part | yes | permanent | – ⚑ | paper or card, glass or ceramic, fabric or leather, stone or concrete | – |
+| 433 | Bonded tube joint | tube, rod or extrusion | none | – | – | – | – | – | – | power tools, hand tools | heavy | off-the-shelf part | no | permanent | strongest ⚑ | metal, glass or ceramic, fabric or leather | slippery plastics (PE or PP) |
+| 434 | Fillet-and-tape joint | any solid parts | none | – | – | – | – | – | – | drill and tap, sewing or leather tools, hand tools | heavy | off-the-shelf part | partly | permanent | – ⚑ | wood, glass or ceramic ⚑ | PLA, slippery plastics (PE or PP), fabric or leather, foam ⚑ |
 
 ## Best guesses
 
 The script was unsure of these values.
 
-None.
+- ⚑ **411 Glued tab joint**, `glue_traits` = fast: not on the glue lists in the finder tree; traits read from the text
+- ⚑ **412 Adhesive tape joint and tape hinge**, `glue_traits` = –: no glue traits found
+- ⚑ **415 Glue stick and starch paste**, `glue_traits` = –: no glue traits found
+- ⚑ **425 Pinned glue joint**, `glue_traits` = –: no glue traits found
+- ⚑ **428 Liquid-clay bond**, `glue_traits` = fills gaps: not on the glue lists in the finder tree; traits read from the text
+- ⚑ **429 Score-and-slip join**, `glue_traits` = –: no glue traits found
+- ⚑ **433 Bonded tube joint**, `glue_traits` = strongest: not on the glue lists in the finder tree; traits read from the text
+- ⚑ **434 Fillet-and-tape joint**, `glue_traits` = –: no glue traits found
 
 ## From research text marked [uncertain]
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **138 Two-part epoxy**, `bonds_well` = PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, stone or concrete: `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"
+- ⚑ **138 Two-part epoxy**, `bonds_well` = PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam, stone or concrete: `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"
 - ⚑ **138 Two-part epoxy**, `bonds_poorly` = slippery plastics (PE or PP), silicone: `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"
 - ⚑ **139 Solvent welding**, `bonds_well` = PLA, PETG, ABS or ASA, acrylic or polycarbonate, PVC, foam: `materials` is marked [uncertain] here: "…'just fine', but a reader reports it did not bond PLA+, so test first [uncertain]. PETG is 'inert to all chemi…"
 - ⚑ **139 Solvent welding**, `bonds_poorly` = resin prints, slippery plastics (PE or PP), wood, metal, glass or ceramic: `materials` is marked [uncertain] here: "…'just fine', but a reader reports it did not bond PLA+, so test first [uncertain]. PETG is 'inert to all chemi…"
@@ -65,3 +80,12 @@ These values are probably right, but the research run could not confirm the fact
 - ⚑ **232 Epoxy putty**, `bonds_poorly` = PLA, PETG, ABS or ASA, nylon, TPU or flexible prints, slippery plastics (PE or PP): `materials` is marked [uncertain] here: "…nts are poor candidates; no maker test data on PLA or PETG were found [uncertain]. Grades exist for metal repa…"
 - ⚑ **297 Hand-mouldable thermoplastic**, `bonds_well` = PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam: `materials` is marked [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond [uncertain]. To fix cooled PCL to materi…"
 - ⚑ **297 Hand-mouldable thermoplastic**, `bonds_poorly` = PLA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic: `materials` is marked [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond [uncertain]. To fix cooled PCL to materi…"
+- ⚑ **411 Glued tab joint**, `removability` = permanent: `removability` is marked [uncertain] here: "…manent: once glued, the paper usually tears before the tab comes away [uncertain: no test found].…"
+- ⚑ **412 Adhesive tape joint and tape hinge**, `bonds_well` = wood, paper or card, foam: `materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film [uncertain: surface energy named in Wiki…"
+- ⚑ **412 Adhesive tape joint and tape hinge**, `bonds_poorly` = slippery plastics (PE or PP): `materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film [uncertain: surface energy named in Wiki…"
+- ⚑ **415 Glue stick and starch paste**, `bonds_well` = paper or card, metal, fabric or leather, stone or concrete: `materials` is marked [uncertain] here: "…her non-absorbent materials, since the glue needs to soak into fibres [uncertain: inferred from the makers' ma…"
+- ⚑ **415 Glue stick and starch paste**, `bonds_poorly` = PLA, PETG, ABS or ASA, wood, glass or ceramic, rubber, foam: `materials` is marked [uncertain] here: "…her non-absorbent materials, since the glue needs to soak into fibres [uncertain: inferred from the makers' ma…"
+- ⚑ **428 Liquid-clay bond**, `bonds_well` = PVC: `materials` is marked [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints [uncertain]…"
+- ⚑ **428 Liquid-clay bond**, `bonds_poorly` = PLA, wood, paper or card, metal, glass or ceramic: `materials` is marked [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints [uncertain]…"
+- ⚑ **434 Fillet-and-tape joint**, `bonds_well` = wood, glass or ceramic: `materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam [uncertain: forum consensus in search re…"
+- ⚑ **434 Fillet-and-tape joint**, `bonds_poorly` = PLA, slippery plastics (PE or PP), fabric or leather, foam: `materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam [uncertain: forum consensus in search re…"

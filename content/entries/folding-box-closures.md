@@ -1,0 +1,373 @@
+---
+title: Folding box closures
+description: 'The cut-and-folded flaps on the ends of a card or cardboard box that close it without tape or glue: a tuck flap
+  slides in behind the front panel and is held by friction or by small slits that catch, while a lock bottom is closed by
+  interleaving shaped flaps (snap-lock or 1-2-3 bottom) or springs into place by itself from pre-glued flaps (crash-lock or
+  auto bottom).'
+num: 416
+term: 'Folding carton closures: tuck end (friction tuck or slit-lock tuck), snap-lock (1-2-3) bottom and crash-lock (auto-lock)
+  bottom'
+plain_name: 'The folded flaps that close a card or cardboard box without tape: a tongue-shaped flap that slides inside the
+  box and stays put by rubbing or by catching in a small slit, and bottom flaps that hook into each other (or are pre-glued)
+  so the base locks square when you open the box out'
+aliases:
+- tuck flap, tuck end, tuck top, end tuck, tuck-in flap, locking tab or tongue (Wikipedia 'Folding carton'; Pack.ly)
+- straight tuck end (STE), reverse tuck end (RTE), French reverse tuck (FRT), French straight tuck (FST), tube with tuck end
+  closures (RRD; Diamond Packaging; JohnsByrne)
+- friction tuck or friction-fit tuck versus slit lock, slit-lock tuck, safety lock (Diamond Packaging; JohnsByrne; Pack.ly)
+- dust flaps, inner flaps, side flaps (Pack.ly; Templatemaker.nl 'Card Box')
+- snap-lock bottom, 1-2-3 bottom, 123 bottom, snap bottom, lock bottom, Houghland bottom, tuck top snap-lock bottom (TTSLB),
+  automatic closing (non-glued) box (Sttark; Diamond Packaging; Pakfactory; RRD; Die Cut Templates)
+- crash-lock bottom, crash bottom, auto-lock bottom, auto bottom, automatic bottom, auto-erecting carton, tuck top auto bottom
+  (TTAB), 'Tuck To Back Crash Lock Base' (Sttark; Diamond Packaging; RRD; Boxshot ECMA A60.20.00.03)
+- manufacturer's joint (the glued, taped or stitched side seam), glue flap (Wikipedia 'Corrugated box design'; Pack.ly)
+- tuck box, deck box, card box, 'tuckelope' (a thin envelope with a tuck flap) (Tuckboxer; Templatemaker.nl)
+- tuck-top mailer, hinged-lid box, front-lock mailer, roll end tuck top (RETT), FEFCO 0427 (Packaging Warehouse; JohnsByrne;
+  RRD)
+- 'box-style codes to search with: FEFCO codes for corrugated boxes (e.g. 0201 regular slotted container, 0427 hinged-lid
+  mailer) and ECMA codes for paperboard cartons (A20 family tuck-end cartons, A55 snap-lock bottom, A60 crash-lock bottom)
+  (Wikipedia ''Corrugated box design''; Die Cut Templates; Boxshot)'
+- dieline, net, box template (Templatemaker.nl; Pack.ly)
+family: interlocking joints & joinery
+other_families: [snap & clip fits, 'locks, latches & catches']
+finder:
+  job: [join and hold, 'lock, and release by hand']
+  motion: none
+  special_behaviour: [quick-release, self-aligning or self-centring]
+  holding_principle: [shape, friction or clamping, material bond]
+  reuse_cycles: a few times
+  seal: dust-resistant
+  access_needed: one side only
+  print_in_place: 'no'
+  maker_difficulty: easy
+  processes: [off-the-shelf part, 3D print (FDM), laser cut]
+  connects: [boards or sheet]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [not applicable]
+  motion_out: [not applicable]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [power tools, hand tools]
+  load_max: light
+  usual_process: laser cut
+  adjustable: 'no'
+  removability: removable
+  power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: ['paper, card or foam board']
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: [not applicable]
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [paper or card]
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Folding box closures* (416): strength: a snap-lock product at most 250 g (Die Cut Templates) and 1-2-3 bottoms not
+    for heavy products (Pack.ly); crash-lock strongest (Sttark) versus snap-lock stronger than auto bottom (Packmage). Straight
+    tuck uses less paper (Sttark) versus reverse tuck nests better (RRD, Diamond Packaging). ECMA codes differ between sources,
+    so only the code families are named.'
+uncertain_fields: [materials, reuse_cycles, load, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
+diagram_idea: A flat tuck-end box blank that folds up step by step into a box (dust flaps in, closure panel over, tongue tucked
+  inside), with a close-up comparing a friction tuck to a slit lock catching the dust flap, and a second strip showing the
+  four snap-lock bottom flaps closing in order 1-2-3.
+links:
+- url: https://commons.wikimedia.org/wiki/File:Reverse_Tuck_Carton.jpg
+  title: Reverse Tuck Carton.jpg (Wikimedia Commons, by R L Sheehan)
+  shows: A typical flat blank (dieline) for a reverse tuck end folding carton, with tuck flaps, dust flaps and glue flap
+  license: Free Art License (FAL)
+- url: https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg
+  title: Carton and tape seal partially open.jpg (Wikimedia Commons, by Rlsheehan)
+  shows: A partly opened carton showing the tuck flap and its locking tab (tongue)
+  license: CC BY-SA 4.0
+- url: https://commons.wikimedia.org/wiki/File:Card_tuck_box_for_Spirit_Island.jpg
+  title: Card tuck box for Spirit Island.jpg (Wikimedia Commons, by Ben)
+  shows: A home-made tuck box for a deck of sleeved game cards
+  license: CC BY-SA 3.0
+- url: https://commons.wikimedia.org/wiki/File:Umzugskarton.jpg
+  title: Umzugskarton.jpg (Wikimedia Commons, by HornM201)
+  shows: A corrugated moving box closed with interlocking slotted flaps instead of tape
+  license: CC BY-SA 3.0
+- url: https://www.pack.ly/en/blog/post/dieline-1-2-3-bottom-box-auto-bottom-box
+  title: 'Dieline: 1-2-3 bottom boxes and Auto bottom boxes (Packly blog)'
+  shows: Labelled dielines of a snap-lock (1-2-3) bottom and an auto (crash-lock) bottom, with the folding order and glue
+    areas
+  license: link only (© Packly)
+make_it_yourself:
+- url: https://www.templatemaker.nl/en/cardbox/
+  title: Card Box (Templatemaker.nl)
+  what_it_is: Free generator for a tuck-end card box with settings for tuck flap, dust flap, thumb hole, glue flap and material
+    thickness; exports PDF, SVG, DXF, Cricut, SignCut and LightBurn files and plotter page sizes
+  license: Templates free for personal, classroom and commercial packaging use, but the files may not be shared or sold (©
+    Templatemaker.nl)
+- url: https://www.semicolon.com/tuckboxer/
+  title: Tuckboxer (Semicolon Software)
+  what_it_is: Paid macOS app that makes printable, decorated tuck boxes sized to a deck of cards or tiles, and 'tuckelope'
+    envelopes with a tuck flap for thin decks
+  license: commercial software (US $4.99)
+- url: https://www.boxshot.com/dielines/ecma/a60.20.00.03/
+  title: ECMA A60.20.00.03 dieline editor (Boxshot)
+  what_it_is: Online dieline for a tuck top with crash-lock (automatic 2-point glued) bottom, with choice of slit or frictional
+    tuck; downloads need a login
+  license: link only (© Appsforlife Ltd)
+- url: https://www.printables.com/model/1385974-laser-cut-scored-folding-box-template
+  title: Laser-Cut, Scored, Folding Box Template (Make it Reality, Printables) (URL from Printables API, page not opened)
+  what_it_is: Resizable SVG template for a cut-and-scored interlocking box from thin corrugated cardboard on a 10 W laser,
+    with notes on scoring at lower power
+  license: Creative Commons Attribution
+- url: https://www.printables.com/model/1123522-scoring-board
+  title: Scoring board (regei, Printables) (URL from Printables API, page not opened)
+  what_it_is: Printable scoring board with grooves every 0.5 mm for scoring fold lines in paper and card stock
+  license: Creative Commons Attribution-ShareAlike
+sources:
+- https://en.wikipedia.org/wiki/Folding_carton
+- https://en.wikipedia.org/wiki/Corrugated_box_design
+- https://sttark.helpscoutdocs.com/article/201-folding-carton-styles
+- https://www.diamondpackaging.com/blog/42/folding-cartons-101-a-beginners-guide-to-7-essential-styles/
+- https://pakfactory.com/blog/a-guide-to-different-types-of-folding-carton-box-styles
+- https://www.johnsbyrne.com/blog/folding-carton-packaging-style-guide/
+- https://www.rrd.com/docs/locations/ocpc/Box-Styles.pdf
+- https://www.pack.ly/en/blog/post/dieline-tuck-end-box
+- https://www.pack.ly/en/blog/post/dieline-1-2-3-bottom-box-auto-bottom-box
+- https://www.packmage.com/about/article/456-B_Closure_structures_commonly_used_in_box_design
+- https://www.diecuttemplates.com/dielines/21544/snap-lock-boxes-becf-195
+- https://www.boxshot.com/dielines/ecma/a60.20.00.03/
+- https://www.boxshot.com/dielines/ecma/a20.20.03.03/
+- https://www.labelprint24.com/en/products/folding-box-with-straight-tuck-end-208
+- https://www.packaging-warehouse.com/en/category/fefco-0427-hinged-lid-box-78.php
+- https://www.semicolon.com/tuckboxer/
+- https://www.templatemaker.nl/en/
+- https://www.templatemaker.nl/en/cardbox/
+- https://docs.lightburnsoftware.com/2.1/Resources/ResourceList/
+- https://commons.wikimedia.org/wiki/File:Reverse_Tuck_Carton.jpg
+- https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg
+- https://commons.wikimedia.org/wiki/File:Card_tuck_box_for_Spirit_Island.jpg
+- https://commons.wikimedia.org/wiki/File:Umzugskarton.jpg
+- https://api.printables.com/graphql/ (models 1385974, 1123522, 1719617, 9906, 998724, 1530618; no Printables pages opened)
+research: research/connection-types/results/Folding_box_closures_tuck_flap_slit_lock_snaplock_123_bottom_crashlock_bottom.json
+image:
+  file: drawn/folding-box-closures.svg
+  alt: 'Folding box closures. Left: the top of a card tuck-end box being closed: the two small dust flaps are folded in first,
+    then the closure panel swings over from the back and its rounded tuck flap slides down inside the front wall. Top right:
+    two tuck flaps compared, a plain friction tuck held only by a tight fit and a slit lock with small cuts at each end of
+    its fold that catch the edges of the dust flaps. Bottom right: the whole box as one flat die-cut blank, front, back and
+    two sides in a row with a glue flap at one end and the flaps at top and bottom, glued once down the side seam.'
+  drawn: true
+pictures:
+- file: drawn/folding-box-closures.svg
+  alt: 'Folding box closures. Left: the top of a card tuck-end box being closed: the two small dust flaps are folded in first,
+    then the closure panel swings over from the back and its rounded tuck flap slides down inside the front wall. Top right:
+    two tuck flaps compared, a plain friction tuck held only by a tight fit and a slit lock with small cuts at each end of
+    its fold that catch the edges of the dust flaps. Bottom right: the whole box as one flat die-cut blank, front, back and
+    two sides in a row with a glue flap at one end and the flaps at top and bottom, glued once down the side seam.'
+  drawn: true
+- file: render/folding-box-closures.webp
+  alt: 'Render of folding box closures: a green printed card carton stands with its top open, the two small dust flaps folded
+    in and the closure panel swung up, with the rounded tuck flap on its edge ready to slide down inside the front wall.'
+  kind: render
+  render: true
+  drawn: true
+glossary: [living-hinge, cantilever, form-fit--force-fit--material-bond, infill, flute]
+---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/folding-box-closures.svg" alt="Folding box closures. Left: the top of a card tuck-end box being closed: the two small dust flaps are folded in first, then the closure panel swings over from the back and its rounded tuck flap slides down inside the front wall. Top right: two tuck flaps compared, a plain friction tuck held only by "><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/folding-box-closures.webp" alt="Render of folding box closures: a green printed card carton stands with its top open, the two small dust flaps folded in and the closure panel swung up, with the rounded tuck flap on its edge ready to slide down inside the front wall." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+</div>
+
+The cut-and-folded flaps on the ends of a card or cardboard box that close it without tape or glue: a tuck flap slides in behind the front panel and is held by friction or by small slits that catch, while a lock bottom is closed by interleaving shaped flaps (snap-lock or 1-2-3 bottom) or springs into place by itself from pre-glued flaps (crash-lock or auto bottom).
+
+**In plain words:** The folded flaps that close a card or cardboard box without tape: a tongue-shaped flap that slides inside the box and stays put by rubbing or by catching in a small slit, and bottom flaps that hook into each other (or are pre-glued) so the base locks square when you open the box out. **Proper term:** Folding carton closures: tuck end (friction tuck or slit-lock tuck), snap-lock (1-2-3) bottom and crash-lock (auto-lock) bottom.
+
+**Also called:** tuck flap, tuck end, tuck top, end tuck, tuck-in flap, locking tab or tongue (Wikipedia 'Folding carton'; Pack.ly); straight tuck end (STE), reverse tuck end (RTE), French reverse tuck (FRT), French straight tuck (FST), tube with tuck end closures (RRD; Diamond Packaging; JohnsByrne); friction tuck or friction-fit tuck versus slit lock, slit-lock tuck, safety lock (Diamond Packaging; JohnsByrne; Pack.ly); dust flaps, inner flaps, side flaps (Pack.ly; Templatemaker.nl 'Card Box'); snap-lock bottom, 1-2-3 bottom, 123 bottom, snap bottom, lock bottom, Houghland bottom, tuck top snap-lock bottom (TTSLB), automatic closing (non-glued) box (Sttark; Diamond Packaging; Pakfactory; RRD; Die Cut Templates); crash-lock bottom, crash bottom, auto-lock bottom, auto bottom, automatic bottom, auto-erecting carton, tuck top auto bottom (TTAB), 'Tuck To Back Crash Lock Base' (Sttark; Diamond Packaging; RRD; Boxshot ECMA A60.20.00.03); manufacturer's joint (the glued, taped or stitched side seam), glue flap (Wikipedia 'Corrugated box design'; Pack.ly); tuck box, deck box, card box, 'tuckelope' (a thin envelope with a tuck flap) (Tuckboxer; Templatemaker.nl); tuck-top mailer, hinged-lid box, front-lock mailer, roll end tuck top (RETT), FEFCO 0427 (Packaging Warehouse; JohnsByrne; RRD); box-style codes to search with: FEFCO codes for corrugated boxes (e.g. 0201 regular slotted container, 0427 hinged-lid mailer) and ECMA codes for paperboard cartons (A20 family tuck-end cartons, A55 snap-lock bottom, A60 crash-lock bottom) (Wikipedia 'Corrugated box design'; Die Cut Templates; Boxshot); dieline, net, box template (Templatemaker.nl; Pack.ly).
+
+## How it works
+
+The box is a tube made from one flat blank, glued once along a side seam (the manufacturer's joint), and it is shipped and stored flat until it is opened out (Wikipedia 'Folding carton'; Wikipedia 'Corrugated box design'). At a tuck end, the two small dust flaps fold in first, then the closure panel folds over and its tongue (tuck flap) slides down inside the opposite wall; in a friction tuck only the tight fit holds it, while in a slit lock small cuts where the tongue meets its panel catch on the edges of the dust flaps so it does not pop open (Diamond Packaging; JohnsByrne; Pack.ly). A snap-lock or 1-2-3 bottom has four shaped flaps that are folded in a set order and pushed into each other so they lock as a floor in 'three steps' (Sttark; Pack.ly). A crash-lock or auto bottom has extra flaps glued together at two points while the box is flat, so when the tube is squared up the bottom swings into place and locks by itself (Diamond Packaging; Pack.ly).
+
+## Parts
+
+Single piece: one die-cut and scored blank (the dieline) with a front, back and two side panels, a glue flap that makes the side seam, and at each end a tuck flap on a closure panel plus two dust flaps; a lock bottom replaces one end with four shaped bottom flaps (snap-lock) or with flaps glued at two points (crash-lock) (Pack.ly 'Dieline: tuck end box' and 'Dieline: 1-2-3 bottom box and Auto bottom box').
+
+## Everyday examples
+
+- A cereal box or toothpaste carton with a tuck flap at each end (Wikipedia 'Folding carton')
+- A playing-card deck box (tuck box) (Tuckboxer; Templatemaker.nl)
+- A candle, wine or cosmetics box whose bottom pops into place when you open it (crash-lock) (Sttark; Diamond Packaging)
+- A cardboard mailer box whose lid tucks into slots at the front (FEFCO 0427) (Packaging Warehouse)
+
+## When to use it
+
+Use tuck ends to close a card or thin cardboard box that must be opened and closed again by hand without tape: card-deck and game-piece boxes, gift boxes, kit and product boxes, school and craft projects (Tuckboxer; Templatemaker.nl). Add slit locks when the lid must not pop open, and keep a plain friction tuck where it should open easily (Diamond Packaging; Pack.ly). Use a snap-lock (1-2-3) bottom when you want a stronger floor with no glue beyond the side seam, and a crash-lock bottom when boxes are put together by hand in numbers and must set up fast (JohnsByrne; Diamond Packaging). Use a tuck-top mailer when the box is posted and should be reclosable (Packaging Warehouse). Boxes ship and store flat (Wikipedia 'Folding carton').
+
+## When not to use it
+
+Not for heavy, sharp or loose contents that push on the lid: tuck lids can be pushed open; use a taped or glued closure (see Adhesive tape joint, Glued tab joint) or a full-overlap corrugated box (Wikipedia 'Corrugated box design'). Not for powders or anything that must be sealed: use glued seal ends (Diamond Packaging). Not for rigid sheet (plywood, acrylic, printed plastic) that won't crease: use a [living hinge](../glossary.md#living-hinge), snap-lock sheet joint, tab-and-slot or finger joint instead. Not for tamper-evident packaging on its own: add a seal label or tear strip (Wikipedia 'Folding carton'). Never use a home-made carton to carry anything dangerous.
+
+## Details
+
+- **What it does (jobs):**
+  - join and hold: holds the ends of a card or cardboard box shut, and the glued side seam holds the tube together (Wikipedia 'Corrugated box design'; Pack.ly)
+  - lock, and release by hand: a tuck lid is opened and closed again by hand; slit locks and mailer lid tabs make it 'reclosable' but less likely to open by accident (Diamond Packaging; Packaging Warehouse 'FEFCO 0427')
+- **Movement:** none once closed; the closure flaps themselves turn about their scored folds (flex) as you open and close them, up to about 180° for a lid panel.
+- **Directions it can move (degrees of freedom):** 0 when closed; each flap is a 1-degree-of-freedom fold hinge (it can only swing about its crease) while you open or close it.
+- **Special behaviour:**
+  - quick-release: a tuck lid opens and recloses by hand with no tools (Diamond Packaging)
+  - self-aligning or self-centring: a crash-lock bottom forms itself and squares the box when the flat tube is opened, through 'a slight rotation' set by its two glue points (Pack.ly; Diamond Packaging)
+  - none (for the plain friction tuck): it just stays where it is pushed, held by a snug fit
+- **How it holds:**
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): slit locks catch on the dust flaps, snap-lock bottom flaps hook into each other, and mailer lid tabs go into slots (Diamond Packaging; Sttark; Packaging Warehouse)
+  - friction or clamping (force-fit): a friction tuck is 'held by friction' or 'tension' between the tongue and the wall it slides behind (JohnsByrne; Diamond Packaging)
+  - material bond (glue, solvent or melting): only for the side seam (manufacturer's joint) and the pre-glued flaps of a crash-lock bottom (Wikipedia 'Corrugated box design'; Pack.ly)
+- **Input and output:** not applicable
+- **Power:** passive (no power needed)
+- **Load:** Light. Paperboard folding cartons are 'generally limited to holding a few pounds or kilograms' because board is at most about 0.81 mm thick (Wikipedia 'Folding carton'). Tuck ends are for 'light- to medium-weight' items (Sttark; RRD); a snap-lock or crash-lock bottom is used for heavier items such as candles and bottles (Sttark; Diamond Packaging; Pakfactory). Figures disagree, side by side: Die Cut Templates says a snap-lock box product 'should be light (maximum 250 gr.)'; Pack.ly says the 1-2-3 bottom 'is not recommended for products with excessive weight'; Sttark calls the crash-lock bottom 'the strongest of all box types'; Packmage says the snap-lock bottom is stronger than the auto bottom. Corrugated hinged-lid mailers (FEFCO 0427) are rated by one maker at about 7 kg in 1.5 mm microflute and about 14 kg in 3 mm fine [flute](../glossary.md#flute), with the weight spread evenly (Packaging Warehouse). Weak points: a tuck lid pops open if the contents push on it, and a bottom carrying weight is in bending; the flaps resist pull along the panels well but tear at slit corners ⚑ [uncertain].
+- **Play and precision:** Small play: board thickness must be allowed for in the template, so one side panel is made slightly narrower ('thickness compensation') and the top and bottom panels carry an offset so the flaps overlap the walls; get this wrong and the tuck is loose or won't close (Pack.ly 'Dieline: tuck end box'). It does not locate parts precisely.
+- **Taking it apart:** removable: tuck ends and mailer lids open and close by hand; a snap-lock bottom can be unfolded again; the glued side seam is permanent (Diamond Packaging; Sttark; Wikipedia 'Corrugated box design').
+- **How often it can be reused:** a few times to many times: a tuck lid on stiff board can be opened and closed many times, but the creases and the slit corners soften and tear with use, so a friction tuck gets looser over time ⚑ [uncertain: no cycle figure found].
+- **Sealing:** dust-resistant: dust flaps that tuck under the closure panel keep out dust and help the lid sit square (Pack.ly; Templatemaker.nl lists 'Dust Flap' as a parameter); it is not watertight. Sift-proof cartons for powders use glued 'seal end' flaps instead of tucks (Diamond Packaging).
+- **Adjustable:** no: the box size is fixed by the template; the tuck can only be made tighter or looser by changing the template (e.g. tuck flap size or board thickness setting) before cutting (Templatemaker.nl 'Card Box').
+- **Access needed:** one side only (blind): you close the lid from outside the box; a snap-lock bottom is folded from outside with a hand inside to push the last flap home.
+- **Materials:** Paperboard (folding boxboard, solid bleached sulfate, clay-coated kraft or news back, kraft, bending chip) for cartons (RRD box styles; Wikipedia 'Folding carton'); E-flute or micro-flute corrugated board for some cartons and mailers, and thicker corrugated board for shipping boxes (Wikipedia 'Folding carton'; Packaging Warehouse). Card stock, cereal-box board and thin corrugated card work for home-made boxes (Templatemaker.nl; Printables 'Laser-Cut, Scored, Folding Box Template'). The same flap patterns work in thin polypropylene sheet ⚑ [uncertain: no source opened]. Not suited to thick, stiff sheet that can't be creased (plywood, acrylic): use finger joints or tab-and-slot there.
+- **Heat, cold, water and wear:** Damp and humidity: paperboard and corrugated board lose strength when damp; boxes stored at high humidity need 'extra strength and moisture resistance' (Wikipedia 'Corrugated box design'), so creases go soft and tucks loosen in damp places. Heat and sunlight fade print but are not the main limit ⚑ [uncertain]. Repeated opening wears the creases and slit corners, and the friction tuck gets looser ⚑ [uncertain].
+
+## Making it
+
+- **Ways to make or get it:**
+  - laser cut: cut and score card or thin corrugated board in one job, scoring at lower power or higher speed (LightBurn resource list; Printables 'Laser-Cut, Scored, Folding Box Template')
+  - cutting plotter (vinyl or craft cutter such as Cricut or Silhouette, brands): Templatemaker.nl exports Cricut, SignCut, SVG and DXF files and 12 x 12 inch plotter page sizes
+  - hand cutting: print a PDF template, score with a bone folder or stylus, cut with a craft knife (Templatemaker.nl; Tuckboxer)
+  - off-the-shelf part: printed cartons and mailers ordered by style code (ECMA, FEFCO) from packaging makers
+  - 3D print (FDM): not for the box itself; for scoring boards, creasing tools and bone folders (Printables)
+- **Printing it in one piece (print in place):** no: the closure is folded from card or cardboard; printing is only useful for scoring and folding tools.
+- **Tools:** To make: a printed or downloaded template, a craft knife and steel ruler or a cutting plotter or laser cutter, a scoring tool (bone folder, embossing stylus or a printed scoring board) and glue or double-sided tape for the side seam (Templatemaker.nl; LightBurn resource list; Printables scoring boards). To use: none.
+- **Difficulty:** easy for tuck boxes: print or plot a template, score, cut, fold and glue one seam (Templatemaker.nl; Tuckboxer); moderate for snap-lock and crash-lock bottoms, because the flap shapes and board-thickness allowances have to be right (Pack.ly).
+
+### 3D printing tips
+
+The box itself is not 3D printed, but printed tools help: 1) A scoring board with grooves every 0.5 mm, used with a blunt point such as a small crochet hook, makes neat fold lines in card; it was printed 'with brim and bed hotter than normally to prevent lifting' (Printables 1123522, CC BY-SA). 2) Thin scoring boards (about 200 x 200 mm, 2 mm plate) with parallel and angled grooves print fast (Printables 1719617, CC BY-NC). 3) A flat-bottomed printed bone folder (PLA, 0.1 mm layers, 5% [infill](../glossary.md#infill)) works for creasing (Printables 9906, CC BY). 4) A printed creasing wheel for cardboard exists (Printables 998724 and its remix 1530618). For printed boxes that must close with a tuck-like flap, use a living hinge or snap fit instead of copying the card shape ⚑ [uncertain].
+
+### Buying one (off-the-shelf parts)
+
+Printed or plain folding cartons in standard styles: straight tuck end (STE), reverse tuck end (RTE), French reverse tuck (FRT), tuck top snap-lock bottom (TTSLB, 1-2-3 bottom), tuck top auto bottom (TTAB, crash-lock), seal end, sleeve, roll end tuck top (RETT) (RRD; Diamond Packaging; Pakfactory). Corrugated boxes by FEFCO code, e.g. 0201 regular slotted container and 0427 hinged-lid (tuck-top) mailer (Wikipedia 'Corrugated box design'; Packaging Warehouse). Dieline libraries and generators: Templatemaker.nl, Die Cut Templates, Boxshot, Pacdora (Templatemaker.nl; Die Cut Templates; Boxshot). Tools: bone folder, scoring board, embossing stylus, craft knife, double-sided tape or PVA for the glue flap.
+
+## Rules of thumb
+
+- Allow for board thickness in the template: the side panel opposite the glue flap is made slightly smaller ('thickness compensation'), and the top and bottom panels get an offset so the flaps can overlap the walls and inner flaps (Pack.ly 'Dieline: tuck end box'). Generators ask for it: Templatemaker.nl's Card Box uses 'Material Thickness' only for the tuck flap geometry.
+- Friction tuck or slit lock: a friction tuck 'offers a cleaner appearance but is less secure than a slit lock closure'; Diamond Packaging always puts a slit lock on the bottom of a straight tuck carton; cosmetics boxes often use a slit lock on the bottom and a plain tuck on top so the customer can open it easily ('open/close') (Diamond Packaging; Pack.ly).
+- Straight or reverse tuck: straight tuck closures both tuck to the back, which keeps the front clean; reverse tucks close to opposite sides and 'nest' better on the sheet, so they use less board; but Sttark says the straight tuck takes less paper. The two sources disagree; for one-off home boxes it hardly matters (RRD; Diamond Packaging; Sttark).
+- Snap-lock bottom: add an extra central flap when the box is more than twice as wide as it is deep (Pack.ly 'Dieline: 1-2-3 bottom box and Auto bottom box').
+- Crash-lock bottom: it needs two glue points, flaps offset by the board thickness, and relief cut-outs where cut lines meet creases so the board doesn't tear (Pack.ly).
+- Tuck box size for a card deck: the flat template is a little more than twice the deck's width plus thickness wide, and the deck height plus about three times its thickness tall; boxes can be as small as 11 mm but 15 mm or more is easier to fold (Tuckboxer FAQ).
+- Board for cartons: folding cartons are limited to about 0.81 mm (0.032 in) thick board by cutting machinery (Wikipedia 'Folding carton').
+- Cutting and scoring by laser: score fold lines at lower power or higher speed than the cuts, or use perforated fold lines (LightBurn resource list on Templatemaker.nl).
+- Pick by weight: tuck ends for light to medium items; snap-lock or crash-lock bottom for heavier items; glued seal ends for powders and machine filling (Sttark; RRD; Diamond Packaging).
+
+## Common failures
+
+The tuck flap won't stay shut or springs open: the tuck is too short or the board-thickness allowance is wrong; add slit locks or make the tuck longer (Diamond Packaging; Pack.ly). The tuck won't go in, or the box bulges: thickness not allowed for, or the flaps fold the wrong way (Pack.ly). Cracked or lumpy folds: the board was not scored, or was folded against the grain; score every fold (see Score-and-fold hinge). Torn slit corners or crease ends: missing relief cuts where cuts meet creases (Pack.ly). A snap-lock bottom that falls open under weight: product too heavy for that style or flaps folded in the wrong order (Die Cut Templates; Pack.ly). A crash-lock bottom that won't form: the two glue points are misplaced or glued too far (Pack.ly) ⚑ [uncertain].
+
+## Safety
+
+None special for the closure (as noted in the outline). Cutting templates by hand uses sharp craft knives: cut away from the hand holding the ruler (see Score-and-fold hinge). Laser cutting card is a fire risk: never leave a laser cutter running unattended ⚑ [uncertain: no laser safety page opened for this entry].
+
+## Related
+
+- Score-and-fold hinge (scored crease): the fold lines every flap turns on; how to score and fold card cleanly
+- Glued tab joint (glue flap): the glue flap that makes the box's side seam (manufacturer's joint)
+- Snap-lock sheet joint (barbed or spring finger): barbed tabs that click through slots, as in 'tab-lock' boxes; holds harder than a friction tuck
+- Tab-and-slot joint (self-fixturing sheet joint): plain tabs in slots, as in a mailer lid's tabs going into front slots
+- Bent or twisted tab through a slot (lanced tab): a tab bent over after going through a slot, the sheet-metal relative
+- Adhesive tape joint and tape hinge: taping the flaps instead of tucking them; stronger and tamper-evident but not reclosable
+- Staples for wood and fabric: big box staples that close corrugated shipping boxes (Wikipedia 'Corrugated box design')
+- Origami mechanisms: folded structures without cuts or glue; tuck flaps are a cut-and-fold cousin
+- Living hinge and [Cantilever](../glossary.md#cantilever) snap fit: the plastic equivalents for a printed or moulded box lid
+
+## Make it yourself
+
+- [Card Box (Templatemaker.nl)](https://www.templatemaker.nl/en/cardbox/): Free generator for a tuck-end card box with settings for tuck flap, dust flap, thumb hole, glue flap and material thickness; exports PDF, SVG, DXF, Cricut, SignCut and LightBurn files and plotter page sizes *(licence: Templates free for personal, classroom and commercial packaging use, but the files may not be shared or sold (© Templatemaker.nl))*
+- [Tuckboxer (Semicolon Software)](https://www.semicolon.com/tuckboxer/): Paid macOS app that makes printable, decorated tuck boxes sized to a deck of cards or tiles, and 'tuckelope' envelopes with a tuck flap for thin decks *(licence: commercial software (US $4.99))*
+- [ECMA A60.20.00.03 dieline editor (Boxshot)](https://www.boxshot.com/dielines/ecma/a60.20.00.03/): Online dieline for a tuck top with crash-lock (automatic 2-point glued) bottom, with choice of slit or frictional tuck; downloads need a login *(licence: link only (© Appsforlife Ltd))*
+- [Laser-Cut, Scored, Folding Box Template (Make it Reality, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1385974-laser-cut-scored-folding-box-template): Resizable SVG template for a cut-and-scored interlocking box from thin corrugated cardboard on a 10 W laser, with notes on scoring at lower power *(licence: Creative Commons Attribution)*
+- [Scoring board (regei, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1123522-scoring-board): Printable scoring board with grooves every 0.5 mm for scoring fold lines in paper and card stock *(licence: Creative Commons Attribution-ShareAlike)*
+
+## Pictures, videos and models
+
+- [Reverse Tuck Carton.jpg (Wikimedia Commons, by R L Sheehan)](https://commons.wikimedia.org/wiki/File:Reverse_Tuck_Carton.jpg): A typical flat blank (dieline) for a reverse tuck end folding carton, with tuck flaps, dust flaps and glue flap *(licence: Free Art License (FAL))*
+- [Carton and tape seal partially open.jpg (Wikimedia Commons, by Rlsheehan)](https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg): A partly opened carton showing the tuck flap and its locking tab (tongue) *(licence: CC BY-SA 4.0)*
+- [Card tuck box for Spirit Island.jpg (Wikimedia Commons, by Ben)](https://commons.wikimedia.org/wiki/File:Card_tuck_box_for_Spirit_Island.jpg): A home-made tuck box for a deck of sleeved game cards *(licence: CC BY-SA 3.0)*
+- [Umzugskarton.jpg (Wikimedia Commons, by HornM201)](https://commons.wikimedia.org/wiki/File:Umzugskarton.jpg): A corrugated moving box closed with interlocking slotted flaps instead of tape *(licence: CC BY-SA 3.0)*
+- [Dieline: 1-2-3 bottom boxes and Auto bottom boxes (Packly blog)](https://www.pack.ly/en/blog/post/dieline-1-2-3-bottom-box-auto-bottom-box): Labelled dielines of a snap-lock (1-2-3) bottom and an auto (crash-lock) bottom, with the folding order and glue areas *(licence: link only (© Packly))*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ Research note: *Folding box closures* (416): strength: a snap-lock product at most 250 g (Die Cut Templates) and 1-2-3 bottoms not for heavy products (Pack.ly); crash-lock strongest (Sttark) versus snap-lock stronger than auto bottom (Packmage). Straight tuck uses less paper (Sttark) versus reverse tuck nests better (RRD, Diamond Packaging). ECMA codes differ between sources, so only the code families are named.
+
+## Sources
+
+- <https://en.wikipedia.org/wiki/Folding_carton>
+- <https://en.wikipedia.org/wiki/Corrugated_box_design>
+- <https://sttark.helpscoutdocs.com/article/201-folding-carton-styles>
+- <https://www.diamondpackaging.com/blog/42/folding-cartons-101-a-beginners-guide-to-7-essential-styles/>
+- <https://pakfactory.com/blog/a-guide-to-different-types-of-folding-carton-box-styles>
+- <https://www.johnsbyrne.com/blog/folding-carton-packaging-style-guide/>
+- <https://www.rrd.com/docs/locations/ocpc/Box-Styles.pdf>
+- <https://www.pack.ly/en/blog/post/dieline-tuck-end-box>
+- <https://www.pack.ly/en/blog/post/dieline-1-2-3-bottom-box-auto-bottom-box>
+- <https://www.packmage.com/about/article/456-B_Closure_structures_commonly_used_in_box_design>
+- <https://www.diecuttemplates.com/dielines/21544/snap-lock-boxes-becf-195>
+- <https://www.boxshot.com/dielines/ecma/a60.20.00.03/>
+- <https://www.boxshot.com/dielines/ecma/a20.20.03.03/>
+- <https://www.labelprint24.com/en/products/folding-box-with-straight-tuck-end-208>
+- <https://www.packaging-warehouse.com/en/category/fefco-0427-hinged-lid-box-78.php>
+- <https://www.semicolon.com/tuckboxer/>
+- <https://www.templatemaker.nl/en/>
+- <https://www.templatemaker.nl/en/cardbox/>
+- <https://docs.lightburnsoftware.com/2.1/Resources/ResourceList/>
+- <https://commons.wikimedia.org/wiki/File:Reverse_Tuck_Carton.jpg>
+- <https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg>
+- <https://commons.wikimedia.org/wiki/File:Card_tuck_box_for_Spirit_Island.jpg>
+- <https://commons.wikimedia.org/wiki/File:Umzugskarton.jpg>
+- <https://api.printables.com/graphql/ (models 1385974, 1123522, 1719617, 9906, 998724, 1530618; no Printables pages opened)>

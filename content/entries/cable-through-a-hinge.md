@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [hold together]
   turns: [part of a turn]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -102,6 +104,8 @@ open_points:
 - kind: sources
   note: '*Cable through a hinge*: using the BOSL2 `knuckle_hinge` module with an enlarged pin hole for a metal tube is the
     agent''s own suggestion, and the entry says so; no printable hinge with cable routing was found.'
+- kind: scope
+  note: '*Cable through a hinge* (338): none to *Slot-in model hinge*;'
 uncertain_fields: [materials, processes, print_in_place, making_tips_3d_printing, environment_limits, safety_notes]
 diagram_idea: 'Three sketches of the same box lid: (1) wires running through a hollow hinge pin, drawn twisting along the
   axis between a clamp on each side; (2) a slack service loop beside the hinge with a clamp on each leaf, shown with the lid
@@ -321,6 +325,7 @@ Wire flexed again and again breaks inside its insulation: 'breaking of a conduct
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover, wires (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ Research note: *Cable through a hinge* (338): none to *Slot-in model hinge*;
 
 ## Sources
 

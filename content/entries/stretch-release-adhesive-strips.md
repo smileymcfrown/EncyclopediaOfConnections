@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -296,6 +298,7 @@ The main hazard is the object falling: 3M warns not to hang items over beds, not
 - Screws and wall plugs (anchors): for heavy or permanent loads
 - Contact adhesive and other glues: permanent bonds
 - Gel 'nano tape': reusable, washable acrylic gel tape for very light items ⚑ [uncertain]
+- Adhesive tape joint and tape hinge (pressure-sensitive tape): ordinary tapes grip under finger pressure the same way, but are not made to stretch off cleanly; a strip across a gap also makes a light hinge
 
 ## Make it yourself
 

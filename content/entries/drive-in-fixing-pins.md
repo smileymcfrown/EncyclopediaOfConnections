@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -314,6 +316,8 @@ EYE PROTECTION: wear safety glasses when driving or punching out pins; OSHA says
 - Temporary sheet fastener (Cleco-type spring pin): a reusable spring-loaded pin that holds sheets while drilling and riveting
 - Plain pivot and rolling bearing (pin in hole, shoulder bolt): when the pin is meant to let a part turn
 - Wedge dowel (click-in grooved dowel) and wooden dowels: the woodworking relatives
+- Pinned glue joint (pinning): a wire, rod or toothpick pin glued into matching holes in models and repairs, held by the glue rather than by a press or spring fit
+- Shelf pins and shelf supports: small pegs pushed in by hand so a loose shelf can be moved to another row of holes, rather than pins fixed for good
 
 ## Make it yourself
 

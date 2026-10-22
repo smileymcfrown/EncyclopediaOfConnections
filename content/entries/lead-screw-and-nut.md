@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -320,6 +322,7 @@ A back-drivable (steep-lead or low-friction) screw can let a raised load, printe
 - Belt drive (timing belt): fast, long, cheap linear motion with lower force and no self-locking
 - Differential screw: two threads of slightly different pitch for extremely fine adjustment
 - Roller screw: threaded rollers instead of balls, for very high loads
+- Linked lead screws (Z sync belt, screw jack system): two or more lead screws tied together by a belt, chain or shafts and turned by one motor, so a bed or gantry lifts level
 
 ## Make it yourself
 

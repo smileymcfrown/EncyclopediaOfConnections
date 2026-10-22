@@ -84,6 +84,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -304,6 +306,7 @@ Pressing can crack the outer part suddenly and send fragments flying, especially
 - Dowel and biscuit joints: the woodworking version, usually with glue
 - Annular snap fit: a ring-shaped bump that clicks into a groove, so it holds by shape rather than by squeeze
 - Drive-in fixing pins: a dowel, grooved, knurled or spring pin tapped into a hole drilled through the parts; a spring (roll or coiled) pin grips by its own springiness, so it accepts looser hole sizes than a solid pin pressed in
+- Push-fit rod and spar fittings (kite fittings): a rod held in a socket by a snug push fit that is meant to pull out again by hand; the light, removable cousin of a press fit
 
 ## Make it yourself
 

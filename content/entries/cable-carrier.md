@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [wires]
   turns: [part of a turn]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   usual_process:
     kind: best guess

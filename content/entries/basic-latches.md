@@ -96,6 +96,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   clicks:
     kind: best guess
@@ -196,6 +198,8 @@ sources:
 - https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://api.printables.com/graphql/
+- https://www.lionpic.co.uk/turn-button-frame-fasteners/
+- https://en.wiktionary.org/wiki/button
 research: research/connection-types/results/Basic_latches_spring_latch_slide_bolt_hook_and_eye.json
 image:
   file: basic-latches.webp
@@ -349,6 +353,7 @@ Lids that latch themselves can trap children: CPSC has reports of 34 deaths sinc
 - Tool-free fasteners (hitch pin and R-clip): a pin pushed through holes and clipped, used as a simple removable bolt
 - Eye bolts, screw eyes and hooks: the screw eyes and screw hooks a hook-and-eye latch is made from, used on their own as fixed anchor points for ropes and hanging things
 - Sew-on part: how small hooks, eyes and other hardware are sewn onto fabric, as with the garment hook and eye
+- Glazing in a rebated frame: picture frames use turn buttons, flat pieces of metal or wood that turn on one screw over the backing board, the simplest latch, so the back can be taken out and put back (LION Picture Framing; Wiktionary 'button')
 
 ## Make it yourself
 
@@ -406,3 +411,5 @@ Lids that latch themselves can trap children: CPSC has reports of 34 deaths sinc
 - <https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/>
 - <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
 - <https://api.printables.com/graphql/>
+- <https://www.lionpic.co.uk/turn-button-frame-fasteners/>
+- <https://en.wiktionary.org/wiki/button>

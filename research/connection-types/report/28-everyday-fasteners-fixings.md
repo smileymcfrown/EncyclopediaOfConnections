@@ -151,6 +151,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -255,6 +298,8 @@
   - Temporary sheet fastener (Cleco-type spring pin): a reusable spring-loaded pin that holds sheets while drilling and riveting
   - Plain pivot and rolling bearing (pin in hole, shoulder bolt): when the pin is meant to let a part turn
   - Wedge dowel (click-in grooved dowel) and wooden dowels: the woodworking relatives
+  - Pinned glue joint (pinning): a wire, rod or toothpick pin glued into matching holes in models and repairs, held by the glue rather than by a press or spring fit
+  - Shelf pins and shelf supports: small pegs pushed in by hand so a loose shelf can be moved to another row of holes, rather than pins fixed for good
 
 ### Pictures, videos and models
 
@@ -316,6 +361,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft
+- **printable**: yes, no
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -424,6 +512,7 @@
   - Stretch-release adhesive strips and double-sided foam tape: no-drill alternatives for light items on smooth walls
   - Two-part epoxy and epoxy putty: related resins; chemical anchors are a purpose-made version for holes in masonry
   - Heat-set threaded insert: the way to put a strong thread into a 3D print, not a wall
+  - Panel standoff (sign standoff): a decorative barrel-and-cap fixing that holds a drilled sign or glass panel off the wall; its barrel is screwed to the wall through a wall plug
 
 ### Pictures, videos and models
 
@@ -489,6 +578,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: screws, anchors or hooks
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -591,6 +723,7 @@
   - Eye bolts, screw eyes and hooks: toggles are sold with hooks and eyes for ceiling hooks and lamps
   - Stretch-release adhesive strips and double-sided foam tape: no-hole alternatives for light items
   - Compliant mechanisms & flexures: printed anchors such as Ptarmigan's use flexure hinges to open behind the board
+  - Potted insert (sandwich-panel insert, hard point): a plug of epoxy set into the soft core of a cored panel so a screw has something solid to grip; the glue-in answer to thin skins over a soft core
 
 ### Pictures, videos and models
 
@@ -661,6 +794,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: screws, anchors or hooks
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -769,6 +945,7 @@
   - Slotted adjustment with a jacking screw: slotted holes for adjustable positions
   - Clamp-on tube fittings: the equivalent for joining tubes
   - Welded metal joint: joining steel parts permanently without a separate bracket
+  - Shelf pins and shelf supports: pegs in rows of holes inside a cabinet, for loose shelves that can be moved, instead of fixed brackets
 
 ### Pictures, videos and models
 
@@ -825,6 +1002,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -932,6 +1152,8 @@
   - Wall plug (expansion anchor for solid walls): the way to fix into brick or concrete without masonry nails
   - Blind rivet (pop rivet): a permanent fastener whose tail is spread on the far side, like a clinched nail, for sheet metal
   - Clinching (press joining without rivets): a different meaning of 'clinching', where sheet metal is pressed into itself
+  - Split-pin paper fastener (brass paper fastener, paper brad): not a nail despite the name 'brad'; a round-head pin whose two legs are spread behind paper or card
+  - Glazing in a rebated frame (glazier's points, glazing bead): panel pins hold the glazing beads that trap the glass in a frame
 
 ### Pictures, videos and models
 
@@ -984,6 +1206,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1094,6 +1359,7 @@
   - Eye bolts, screw eyes and hooks: use rated eye bolts, not bent threaded rod, for hanging and lifting
   - Tripod and stand screw mount: a short 1/4-20 stud is the camera-mount version
   - Aluminium-extrusion connectors (T-slot nuts and brackets): the stiffer modern alternative to threaded-rod printer frames
+  - Bonding fastener (glue-on stud): a stud on a perforated base glued onto a surface, giving a threaded post with no hole through the part; a home-made version is threaded rod epoxied into a G10 block
 
 ### Pictures, videos and models
 
@@ -1152,6 +1418,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: parts clamped together
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1261,6 +1570,7 @@
   - Hang-on mounts (keyhole slot, French cleat): hang a picture, shelf or tool holder on a slot or cleat instead of a screw eye and wire
   - Wire-rope terminations: how to make the loop in a wire rope that goes onto the eye
   - Swivel hoist ring: a rated lifting point that turns and pivots to face the pull, for angled lifts (ASME B30.26 via Hanford ch. 2-26) (not a separate entry)
+  - Baked-in findings (eye pins and screw eyes in polymer clay): small screw eyes set into baked clay charms in an undersized pilot hole with a drop of glue
 
 ### Pictures, videos and models
 
@@ -1319,6 +1629,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: screws, anchors or hooks
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, clay or putty, fabric, leather or cord
 
 ### Other info
 
@@ -1328,7 +1681,7 @@
 
 *everyday fasteners & fixings.* A U-shaped wire fastener driven by a staple gun or hammer tacker, whose crown bridges what it holds, which suits fixing fabric, mesh, film or cables flat onto wood
 
-*Also covers:* Also covers upholstery and hog-ring uses and insulated cable staples. Safety: staple guns fire like nail guns; never fix mains cable with plain staples.
+*Also covers:* Also covers upholstery and hog-ring uses and insulated cable staples. Safety: staple guns fire like nail guns; never fix mains cable with plain staples. Also covers desk (paper) stapling (the anvil's permanent and temporary settings; flat-clinch, saddle and long-reach staplers; rust-resistant Monel staples for archival work; staplers for cardboard).
 
 ### What it is
 
@@ -1337,6 +1690,7 @@
 - **aliases**: 
   - staple, wire staple, construction staple, tacker staple, staple-gun staple (Wikipedia 'Staple (fastener)', 'Staple gun')
   - tacking: driving straight-leg staples into a solid base with no anvil, as opposed to 'stapling' paper with bent legs (Wikipedia 'Staple (fastener)')
+  - desk stapler, office stapler, paper stapler; flat-clinch stapler; saddle stapler (booklet stapler); long-reach stapler (Wikipedia 'Stapler'); saddle stitching or saddle-stitching (stapling through the fold of a booklet) (Wikipedia 'Bookbinding')
   - staple gun, trigger tacker, hand tacker, forward-action staple gun; electric, cordless and pneumatic staplers (Wikipedia 'Staple gun'; Wikimedia Commons 'Tool-heavy-stapler.jpg')
   - hammer tacker, hammer stapler, slap stapler, slapper (Wikipedia 'Hammer tacker')
   - narrow-crown staples (crown about 1/4 to 3/8 in, 6.35-9.52 mm) for trim, cabinetry and upholstery; medium and wide-crown staples for sheathing and roofing (aftfasteners.com 'Narrow crown staples')
@@ -1350,7 +1704,7 @@
 - **other_families**: cord, strap, webbing & textile hardware, interlocking joints & joinery
 - **one_liner**: A U-shaped wire fastener driven straight into wood (or a similar soft base) by a staple gun or hammer tacker, whose flat top (crown) bridges over whatever it holds, which makes it the quick way to fix fabric, leather, mesh, plastic film, insulation and low-voltage cables flat onto wood.
 - **complexity**: Single piece: a staple has a flat or arched top (crown) joining two pointed legs, and is supplied glued into strips that load into the tool's magazine (Wikipedia 'Staple (fastener)', labelled diagram). The tool (staple gun, hammer tacker or powered stapler) is separate. Variants add a plastic saddle (insulated cable staples) or are closed with pliers (hog rings).
-- **how_it_works**: The tool drives the staple's two legs into the wood in one fast blow; a hand staple gun stores energy in a spring and releases it as 'a sharp and powerful blow', because with no anvil behind the work the staple must be fully in 'before the workpiece has time to move' (Wikipedia 'Staple gun'), while a hammer tacker uses the momentum of a swing (Wikipedia 'Hammer tacker'). The legs hold like two thin nails, gripped by the wood fibres, so their withdrawal resistance grows with their size and how deep they go (USDA Wood Handbook ch. 8). The crown presses the material flat between the legs: it 'can bridge a piece and fasten it without puncturing, with a leg on either side', which is how cables are fixed, and it gives more bearing area than a nail head on thin materials (Wikipedia 'Staple (fastener)'). Outward-clinch staples have a V-shaped crown and bevelled points so the legs curl outwards inside soft material, and hog rings are squeezed into a closed ring round wire or fabric (Wikipedia 'Staple (fastener)'; aftfasteners.com).
+- **how_it_works**: The tool drives the staple's two legs into the wood in one fast blow; a hand staple gun stores energy in a spring and releases it as 'a sharp and powerful blow', because with no anvil behind the work the staple must be fully in 'before the workpiece has time to move' (Wikipedia 'Staple gun'), while a hammer tacker uses the momentum of a swing (Wikipedia 'Hammer tacker'). The legs hold like two thin nails, gripped by the wood fibres, so their withdrawal resistance grows with their size and how deep they go (USDA Wood Handbook ch. 8). The crown presses the material flat between the legs: it 'can bridge a piece and fasten it without puncturing, with a leg on either side', which is how cables are fixed, and it gives more bearing area than a nail head on thin materials (Wikipedia 'Staple (fastener)'). Outward-clinch staples have a V-shaped crown and bevelled points so the legs curl outwards inside soft material, and hog rings are squeezed into a closed ring round wire or fabric (Wikipedia 'Staple (fastener)'; aftfasteners.com). A desk stapler for paper works the other way: it pushes the legs right through the stack onto a grooved metal plate (anvil) behind it, which bends them over; on the usual 'permanent' setting the legs fold inwards towards the middle of the crown, and on the 'temporary' setting they fold outwards, nearly straight, so the staple is easy to pull out (Wikipedia 'Stapler').
 
 ### Finder attributes
 
@@ -1370,8 +1724,8 @@
 - **load**: Light. Each leg resists pull-out like a small nail: the Wood Handbook uses its nail equation p = 54.12 G^2.5 D L (N, mm) for one staple leg, though 'no verification tests have been done'; for a leg about 1 mm thick going 10 mm into wood of specific gravity 0.5 that gives roughly 95 N (about 10 kgf) per leg, under 200 N per staple, as a short-term breaking value (calculated here; safe loads are far lower) ⚑ [uncertain]. Sideways (shear) strength varies with leg diameter to the 3/2 power, so each leg must be about two-thirds the diameter of a nail to match it (USDA Wood Handbook ch. 8). Staples 'generally have lower holding power compared to nails or screws' (Wikipedia 'Staple (fastener)'). Weak points: pulling straight out, thin fabric tearing out round the crown, and staples driven parallel to the grain splitting the wood ⚑ [uncertain]. Strongest when the load slides along the surface (shear), as when taut fabric is pulled across a frame. *(⚑ parts need confirming)*
 - **adjustable**: no: to move or re-tension fabric, pull the staples and re-staple (upholsterers start in the middle of each side and work outwards so tension can be evened out) (The Bulletin; FOX 2 Detroit).
 - **play_and_precision**: not applicable: staples hold flexible material in place; they do not locate parts accurately.
-- **access_needed**: one side only (blind): staple guns and hammer tackers have no anvil and drive into a solid base from the front (Wikipedia 'Staple gun'); hog rings need the pliers to reach round both sides of the wire or fabric (aftfasteners.com).
-- **materials**: Staples: zinc-plated (galvanised) steel wire, with stainless steel and coated staples for damp or corrosive places (Wikipedia 'Staple (fastener)'; USDA Wood Handbook ch. 8 on staple coatings); insulated cable staples have a plastic saddle (Wikimedia Commons 'U_Shape_Insulated_Staple_01.JPG'). Base material: softwood, plywood and similar; staple guns are sold for 'wood, plastic, or masonry' (Wikipedia 'Staple gun') but hand guns struggle in hardwood ⚑ [uncertain]. Holds: fabric and upholstery, leather and vinyl, insulation, house wrap, roofing felt, carpet and underlay, plastic film, insect screen, wire mesh and netting, card and thin board, and low-voltage cables (Wikipedia 'Staple gun', 'Hammer tacker'). Not for: 3D-printed plastic or brittle acrylic as the base (it cracks; see making tips), hard metals, or holding loads people rely on. *(⚑ parts need confirming)*
+- **access_needed**: one side only (blind): staple guns and hammer tackers have no anvil and drive into a solid base from the front (Wikipedia 'Staple gun'); hog rings need the pliers to reach round both sides of the wire or fabric (aftfasteners.com). A desk stapler is the exception: the stack has to go into its jaws so the anvil is behind the paper, which is why booklets need a long-reach or saddle stapler (Wikipedia 'Stapler').
+- **materials**: Staples: zinc-plated (galvanised) steel wire, with stainless steel and coated staples for damp or corrosive places (Wikipedia 'Staple (fastener)'; USDA Wood Handbook ch. 8 on staple coatings); insulated cable staples have a plastic saddle (Wikimedia Commons 'U_Shape_Insulated_Staple_01.JPG'). Base material: softwood, plywood and similar; staple guns are sold for 'wood, plastic, or masonry' (Wikipedia 'Staple gun') but hand guns struggle in hardwood ⚑ [uncertain]. Holds: fabric and upholstery, leather and vinyl, insulation, house wrap, roofing felt, carpet and underlay, plastic film, insect screen, wire mesh and netting, card and thin board, and low-voltage cables; a desk stapler joins a stack of paper or thin card to itself (Wikipedia 'Staple gun', 'Hammer tacker'). Not for: 3D-printed plastic or brittle acrylic as the base (it cracks; see making tips), hard metals, or holding loads people rely on. *(⚑ parts need confirming)*
 - **maker_difficulty**: easy: buy a hand staple gun and the matching staples; the skill is choosing leg length, keeping fabric taut and keeping fingers out of the way.
 
 ### Making it
@@ -1383,7 +1737,7 @@
   - laser cut: plywood frames and panels that fabric or mesh is stapled onto ⚑ [uncertain] *(⚑ parts need confirming)*
 - **print_in_place**: no: staples are bought wire parts; only clips and frames that are stapled are printed.
 - **making_tips_3d_printing**: 1) Don't staple into printed plastic as if it were wood: there are no fibres to grip the legs and the blow can crack the part ⚑ [uncertain]. To fix fabric to a printed frame, glue or screw in a wooden strip to staple into, or clamp the fabric with a printed bar and screws instead ⚑ [uncertain]. 2) To fix a printed clip, hanger or cable holder to wood with a staple gun, give it a thin flat tab with a groove the width of the staple crown, so the staple passes through the plastic and both legs go into the wood; makers print such clips so the gun lines up every time (Printables 'Cable Clips for Makita Staple Gun', 'Staple-Mount Cable Hanger'). 3) Use a tough material for stapled parts: one maker reports that ABS works, nylon, HIPS and ASA should, but 'PLA and PETG probably will not, because they tend to shatter' when stapled (Printables 'Cable clip for mounting with a staple gun', TheParrotGuy). 4) Keep the staple well away from the edges of the printed tab so the legs don't split it out ⚑ [uncertain]. 5) A printed wire guide on the gun's nose holds a cable centred so the staple straddles it instead of piercing it (Printables 'Stanley Staple Gun Helper/Wire Holder'); never do this on mains cable (see safety_notes). 6) Printable staple removers and staple-gun holders are popular workshop aids (see make_it_yourself). *(⚑ parts need confirming)*
-- **off_the_shelf_parts**: Hand staple gun (trigger tacker, forward-action or heavy-duty), long-nose staple gun for recessed corners, cable staple gun with wire guide, electric, cordless and pneumatic staplers, upholstery stapler, hammer tacker (Wikipedia 'Staple gun', 'Hammer tacker'); staples in the gun's own type and leg lengths (typically 6, 8, 10, 12 and 14 mm for staple guns: Wikipedia 'Staple gun'), narrow, medium and wide-crown staples, outward-clinch staples, stainless or galvanised staples, insulated cable staples and nail-in plastic cable clips, fence staples, hog rings with straight or angled hog ring pliers, staple and tack removers (Wikipedia 'Staple (fastener)'; aftfasteners.com). Search supplier catalogues by staple type and the gun model rather than by size.
+- **off_the_shelf_parts**: Hand staple gun (trigger tacker, forward-action or heavy-duty), long-nose staple gun for recessed corners, cable staple gun with wire guide, electric, cordless and pneumatic staplers, upholstery stapler, hammer tacker (Wikipedia 'Staple gun', 'Hammer tacker'); staples in the gun's own type and leg lengths (typically 6, 8, 10, 12 and 14 mm for staple guns: Wikipedia 'Staple gun'), narrow, medium and wide-crown staples, outward-clinch staples, stainless or galvanised staples, insulated cable staples and nail-in plastic cable clips, fence staples, hog rings with straight or angled hog ring pliers, staple and tack removers (Wikipedia 'Staple (fastener)'; aftfasteners.com). Search supplier catalogues by staple type and the gun model rather than by size. For paper: desk (office) staplers, flat-clinch staplers, saddle (booklet) staplers and long-reach staplers (Wikipedia 'Stapler'); handheld 'sword-point' staplers (Bostitch and Rapid 31, brands) for hard-to-reach joints in cardboard (Make:); rust-resistant Monel staples for zines and archival paperwork (Talas).
 - **rules_of_thumb**: 
   - Staples behave like small nails: withdrawal of each leg varies almost directly with its circumference and depth, the nail equation p = 54.12 G^2.5 D L (N, mm) has been used for one leg, and each leg must be about two-thirds the diameter of a nail to give the same sideways load; neither has been verified by tests for staples (USDA Wood Handbook 2021, ch. 8, pp. 8-9 to 8-10).
   - Corrosion, sustained loads and durability matter as much as the first-day strength when judging a stapled joint (USDA Wood Handbook ch. 8, p. 8-10); in moist, preservative-treated wood use stainless or suitably coated fasteners (USDA Wood Handbook 'Corrosion and Staining').
@@ -1392,6 +1746,7 @@
   - Fence wire: 'loose staple every wire' so it can move under the staple and the strainer post, not the stapled post, takes the impact (Bekaert).
   - Cables: some staple guns have wire guides and some take rounded staples so the staple straddles a small cable without piercing it (Wikipedia 'Staple gun'); flat cables must not be stapled on edge (Baltimore City Code 334.30, an adoption of the US National Electrical Code).
   - Hammer tackers suit sheet materials: 'typically the shallower the staple, the better hold its grip on the surface' (Wikipedia 'Hammer tacker').
+  - Paper: set the desk stapler's anvil to 'permanent' (legs folded in) for papers that stay together and 'temporary' (legs folded out) for papers that will be separated; flat-clinch staplers press the legs flat against the paper, so the stack lies flatter and has no sharp ends (Wikipedia 'Stapler'). For booklets, staple through the fold of the nested sheets (saddle-stitching), as most magazines are (Wikipedia 'Bookbinding'). For work meant to last, ordinary staples 'can tear paper, corrode, and leave rust stains', so use rust-resistant Monel staples or sew the binding instead (Talas).
 
 ### When to use it
 
@@ -1399,8 +1754,8 @@
   - The fabric on the underside of a dining-chair seat (The Bulletin; FOX 2 Detroit)
   - Insulation, house wrap and carpet underlay fixed with a hammer tacker (Wikipedia 'Hammer tacker')
   - Phone, alarm or TV cable fixed along a skirting board with arched or insulated staples (Wikipedia 'Staple (fastener)', 'Staple gun')
-  - Wire fencing stapled to wooden posts, and the big staples that close corrugated cardboard boxes (Bekaert; Wikipedia 'Staple (fastener)')
-- **when_to_use**: Use staples whenever a thin, flexible material must be fixed flat onto wood quickly: re-covering seats and cushions, stretching canvas or insect screen over a frame, fixing chicken wire or netting to a wooden frame, holding plastic sheet, insulation, roofing felt or carpet, closing crates and boxes, and running low-voltage cables (alarm, phone, speaker, LED strip leads) along woodwork. The crown spreads the hold over a wider area than a nail head, bridges two pieces butted together, and straddles a cable without piercing it (Wikipedia 'Staple (fastener)'), and a staple gun works one-handed from the front (Wikipedia 'Staple gun').
+  - Wire fencing stapled to wooden posts, and the big staples that close corrugated cardboard boxes (Bekaert; Wikipedia 'Staple (fastener)'); at a desk, the staple in the corner of a stack of papers or through the fold of a magazine (Wikipedia 'Stapler', 'Bookbinding')
+- **when_to_use**: Use staples whenever a thin, flexible material must be fixed flat onto wood quickly: re-covering seats and cushions, stretching canvas or insect screen over a frame, fixing chicken wire or netting to a wooden frame, holding plastic sheet, insulation, roofing felt or carpet, closing crates and boxes, and running low-voltage cables (alarm, phone, speaker, LED strip leads) along woodwork. The crown spreads the hold over a wider area than a nail head, bridges two pieces butted together, and straddles a cable without piercing it (Wikipedia 'Staple (fastener)'), and a staple gun works one-handed from the front (Wikipedia 'Staple gun'). At a desk, staple a stack of papers together, or a booklet through its fold (saddle-stitching), with a desk, saddle or long-reach stapler (Wikipedia 'Stapler'; Wikipedia 'Bookbinding'); sword-point hand staplers reach awkward joints in cardboard builds (Make:).
 - **when_not_to_use**: Not for carrying real loads or joining solid wood structurally: staples hold less than nails or screws (Wikipedia 'Staple (fastener)'); use Wood screws, Nails or Metal brackets. Not where the part must come apart again and again: use screws, Hook-and-loop fastener or snaps. Not into 3D-printed plastic, acrylic or other brittle materials (use screws, inserts or glue). Not for mains cable with ordinary staples, and not with a tool its maker says is unsuitable for electrical cables (Toolstation PCT162 manual): mains cable is fixed only with fittings designed for that cable, following local wiring rules (Baltimore City Code 334.30; UK Approved Document P). For fabric that must be sewn to fabric, use stitching (see Load-bearing stitch patterns); for strap ends, use rivets or sewing.
 - **environment_limits**: Plain steel staples rust outdoors and in damp places and can stain wood; use galvanised or stainless staples there (Wikipedia 'Staple (fastener)'; USDA Wood Handbook 'Corrosion and Staining'). Wood that goes through wetting and drying cycles loses much of its grip on driven fasteners: nail withdrawal can fall to 25% of its first value (USDA Wood Handbook, for nails, which staples resemble). Sunlight degrades the fabric and plastic held by the staple more than the staple itself ⚑ [uncertain]. Fence wire expands and contracts with temperature, so it is loose-stapled (Bekaert). *(⚑ parts need confirming)*
 - **safety_notes**: Staple guns and powered staplers fire like nail guns: always assume the tool is loaded, never point it at yourself or anyone nearby, only fire with the nose pressed firmly on the work (otherwise 'the fastener may be deflected away from your target'), and always wear eye protection (Toolstation PCT162 tacker and power-tool safety warnings); keep your other hand clear of the nose and of the back of thin material ⚑ [uncertain]. Unplug or disconnect a powered stapler before clearing a jam, and take care when clearing any jam because 'the fastener may be forcefully discharged' (Toolstation PCT162). Never fix mains cable with plain staples: a staple can pierce or crush the insulation and cause 'electric shock and fire hazards'; use only fasteners designed for electrical cable installations, make sure cables are not live, and check the insulation afterwards (Toolstation PCT162). Mains wiring work must follow local law (e.g. US electrical codes as adopted locally, such as Baltimore City Code 334.30; Building Regulations Part P in England), so this entry gives no wiring steps. Staple points that stick through fabric near an edge can cut people (FOX 2 Detroit); hog ring and staple points are sharp (aftfasteners.com). *(⚑ parts need confirming)*
@@ -1415,6 +1770,9 @@
   - Linear ratchet (cable-tie ratchet): cable ties and cable-tie mounts as an alternative way to hold cables
   - Push-in plastic rivet (fir-tree clip): pushes into a hole to hold trim panels and fabric-covered boards
   - Hog ring (C-ring): a squeezed wire ring for upholstery, car seats and mesh (a variant in this entry, not a separate one)
+  - Split-pin paper fastener (brass paper fastener): legs spread by hand behind paper or card, so the sheets can still turn and the fastener can be taken out
+  - Folding box closures (tuck flap, lock bottom): close a card box with folded flaps instead of staples or tape
+  - Sewn book bindings (pamphlet stitch): the sewn alternative to stapling a booklet through the fold, with no metal to rust
 
 ### Pictures, videos and models
 
@@ -1450,6 +1808,10 @@
   - https://commons.wikimedia.org/wiki/File:HMT53_57.JPG
   - https://commons.wikimedia.org/wiki/File:U_Shape_Insulated_Staple_01.JPG
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Stapler
+  - https://en.wikipedia.org/wiki/Bookbinding
+  - https://blog.talasonline.com/post/elevate-your-zines-pamphlet-stitch-alternative-binding-techniques
+  - https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/
 
 ### Finder tags
 
@@ -1467,8 +1829,1747 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: a fitted part
+- **knot_use**: not applicable
+- **cord_part**: fix to fabric or an edge ⚑ *needs confirming (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it*
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, fabric, leather or cord
 
 ### Other info
 
 - ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, processes, reuse_cycles, safety_notes, seal, tools_needed
+
+## 414 Cardboard screws and rivets (cardboard construction screw, box rivet, zip-tie rivet)
+
+*everyday fasteners & fixings.* Reusable plastic screws or click-together plastic rivets made for corrugated cardboard, which join box panels without tape or glue and can make swinging joints, as in cardboard forts, playhouses, costumes and classroom builds
+
+*Also covers:* Also covers punching the hole, how many layers each length grips, making hinges and pivots with a smooth-shank rivet, zip-tie rivets, brass paper fasteners and nuts and bolts as alternatives, 3D-printed compatible screws, hinges and brackets, and safe cutting tools for children. Brand names (Makedo, Mr. McGroovy's) as search terms only. Safety: punching holes towards the hand; small parts are a choking risk for under-3s.
+
+### What it is
+
+- **plain_name**: Chunky plastic screws, or plastic studs that click together from both sides, made for joining pieces of cardboard box without tape or glue, which can be undone and used again, and can also make doors and flaps that swing
+- **term**: Cardboard construction fasteners: plastic cardboard screws and snap-together box rivets (with zip-tie rivets as a home-made version)
+- **aliases**: 
+  - cardboard screw; cardboard construction screw; plastic cardboard connector (Adafruit 'Cardboard fundamentals'; Printables model titles)
+  - Makedo Scru and Scru+ (brand): the best-known plastic cardboard screws, part of the Makedo cardboard construction system (Makedo FAQ; V&A object record)
+  - box rivet; cardboard rivet; plastic pop rivet for cardboard (Cool Tools; TinkerLab; Adafruit 'Plastic Pop Rivets for Cardboard Crafts')
+  - Mr. McGroovy's Box Rivets (brand): click-together plastic rivets for large boxes (Cool Tools; TinkerLab; Make:)
+  - zip-tie rivet; cable-tie rivet: one cable tie pushed through the board with a second slipped onto its tail (Adafruit 'Cardboard fundamentals')
+  - cardboard hinge, spin hinge, roto ring: plastic add-ons fixed with cardboard screws to make swinging and turning joints (Makedo Spin-Hinge and 3D printables pages; Printables)
+- **family**: everyday fasteners & fixings
+- **other_families**: snap & clip fits, hinges & pivots
+- **one_liner**: Reusable plastic fasteners made for corrugated cardboard: a coarse-threaded plastic screw driven into a punched hole from one side, or a pair of plastic rivet halves pressed together through the hole from both sides, which clamp box panels together without tape or glue and can be taken out and reused, with smooth-shank rivets and plastic hinges for swinging joints.
+- **complexity**: Single piece or a few parts. Cardboard screw: one plastic screw with a hexagonal head, plus a plastic driver that has a pointed punch on the end of its handle (V&A record: 'a saw, a screwdriver, two sizes of screws, and a multipurpose mini tool for punching holes and screwing screws'). Box rivet: two identical halves with ridged prongs ('One shape does both sides', Cool Tools). Zip-tie rivet: two cable ties (Adafruit). Optional add-ons: plastic hinges, turning rings and angle brackets fixed with the same screws (Makedo).
+- **how_it_works**: A hole is punched through all the layers first (Makedo 'Using the Makedo tools'). A cardboard screw is then turned in from the front with its driver: its coarse thread bites into the soft board and pulls the layers together, and 'the friction between the layers maintains a firm connection', so no nut or access to the back is needed and it comes out again by turning it the other way (Makedo 'Using the Makedo tools'). A box rivet is two plastic halves pushed into the hole from opposite sides 'with the prongs at a 90-degree angle from one another'; when pressed together 'the ridged prongs click securely and hold the two layers of cardboard together' (TinkerLab), and the ratchet 'clinches them close, yet enables them to be reused' (Cool Tools). Because a rivet has a smooth shaft, a loosely clinched one also works as a pivot for joints that swing (Adafruit; Cool Tools).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins overlapping panels, corners, brackets and patches in cardboard builds (Makedo 'Connections and joints'; TinkerLab)
+  - let it move (turn, slide or bend): smooth-shank rivets, zip-tie rivets and plastic hinge and turning-ring add-ons make doors, flaps, wheels and swinging joints (Adafruit; Cool Tools; Makedo Spin-Hinge page; Printables 'Zip tie cardboard connector')
+- **motion**: none for a tightened screw or rivet (it clamps the panels rigidly); rotate when a rivet or zip-tie rivet is used as a pivot, or with a plastic hinge add-on, which Makedo gives a range of 0 to 270 degrees (Makedo 3D printables page)
+- **degrees_of_freedom**: 0 when used as a clamp; 1 (turning about the fastener) when used as a pivot or with a hinge add-on
+- **special_behaviour**: none: no locking or clever behaviour beyond being reusable. A box rivet's ratchet prongs click shut (a simple snap fit) but can be taken apart again (Cool Tools; TinkerLab)
+- **holding_principle**: 
+  - friction or clamping (force-fit): the screw thread squeezes the layers together and 'the friction between the layers maintains a firm connection' (Makedo 'Using the Makedo tools')
+  - shape (the parts interlock; form-fit): the screw thread is buried in the board, and the rivet halves' ridged prongs interlock like a ratchet (TinkerLab; Cool Tools)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: unscrew the screw ('Twist to the left to remove the Scru and separate the cardboard pieces', Makedo 'Using the Makedo tools'), which leaves the cardboard 'clean and ready to be reused or recycled'. Box rivets also come apart for reuse (Cool Tools; Make: 'easy tear down'). Zip-tie rivets are cut off and are single-use ⚑ [uncertain: cable ties as normally sold do not release]. *(⚑ parts need confirming)*
+- **reuse_cycles**: many times: Makedo says its screws 'can be reused over and over (and over) again' and its tools are 'endlessly re-usable' (Makedo tools guide and FAQ); box rivets are reusable (Cool Tools). Each new hole in the cardboard is a fresh grip, while an old hole gets looser ⚑ [uncertain]. Zip-tie rivets: once. *(⚑ parts need confirming)*
+- **tools_needed**: Something to punch the hole: the spike on the end of the Makedo Scru-Driver or Mini-Tool handle (Makedo), a nail punch or drill (TinkerLab), an awl, bamboo skewer or single hole punch (Adafruit). A matching plastic driver to turn the screws: Makedo screws 'can only be used with the Makedo Scru-Driver, Mini-Tool or 3d-printed Scru-Bit' and metal tools such as socket wrenches 'will result in irreversible damage' (Makedo tools guide). A 3D-printed Scru-Bit can go in a cordless electric screwdriver 'on a low torque setting', not a power drill (Makedo 3D printables page). Box rivets need no tool to fit, but often two people or long arms to squeeze both sides (Cool Tools). Zip-tie rivets need scissors or cutters to trim the tails (Adafruit).
+- **seal**: none
+- **load**: light to medium: enough for forts, playhouses, mazes, costumes and props. Makedo: 'It's amazing how much just one or two Scrus can hold!'; a child-built riveted playhouse was 'still standing solid' after a week in child care, including being moved by small children (TinkerLab). The cardboard, not the fastener, is usually the weak part: it crushes, tears around the hole or folds next to the joint ⚑ [uncertain: no load tests found]. Strongest in shear between overlapped panels and weakest when panels are levered apart (peel), which bends the board around the fastener ⚑ [uncertain]. Not for anything that carries a person's weight ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: yes, by undoing and refitting: 'If something doesn't look right, it's easy to undo the Scru connectors and reposition your cardboard, then reattach' (Makedo 'Connections and joints'). The angle of a joint can be set with printed angle brackets for set angles from 90 to 270 degrees (Printables 'Cardboard angle brackets compatible with Makedo').
+- **play_and_precision**: Screw joints: no play once tight, but not precise, since the punched holes and soft board allow a few millimetres of placement error ⚑ [uncertain]. Rivet or zip-tie pivots and hinge add-ons: noticeable play, fine for doors, flaps and wheels in play structures ⚑ [uncertain]. Tolerates holes that don't line up exactly and uneven board thickness (Cool Tools: on thin cardboard box rivets 'aren't as prettily snug, but still will hold fine'). *(⚑ parts need confirming)*
+- **access_needed**: Cardboard screw: one side only (blind); it threads into the layers without a nut (Makedo 'Using the Makedo tools'), except that joints of more than 5 layers are screwed from both sides. Box rivets and zip-tie rivets: both sides, since a half or a second tie goes on from the back (TinkerLab; Cool Tools; Adafruit).
+- **materials**: Fasteners are moulded plastic: Makedo's are 'made in China using both RPP (recycled polypropylene) and virgin plastic' (Makedo FAQ; V&A: 'Injection-moulded plastic'); Mr. McGroovy's rivets are a tough plastic ('Kevlar-like', Cool Tools). Made for corrugated cardboard: Makedo is 'specifically designed to be used with standard corrugated cardboard' but 'can work well on all other kinds of cardboard too' (Makedo FAQ); box rivets 'are really made for the double wall corrugated cardboard of the kind you find in large appliance boxes' and also hold on thinner board (Cool Tools). Printed add-ons join fabric, LEGO parts and micro:bit boards to cardboard (Makedo 3D printables page). Not meant for wood, plywood, metal or rigid plastic sheet, which are too hard for the plastic thread to bite into ⚑ [uncertain]; paper and thin card tear ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **maker_difficulty**: easy: designed for children; 'Children aged 4+ can make with the assistance of an adult' and 6+ independently (Makedo FAQ), and a 9-year-old built a playhouse with box rivets after one demonstration (TinkerLab). Screws and add-ons can also be 3D printed at home.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: Makedo screws and kits, box rivets, plastic pop rivets and cable ties (Makedo; Cool Tools; Adafruit)
+  - 3D print (FDM): many free printable cardboard screws, drivers, hinges, angle and step brackets and turning rings (Makedo 3D printables page; Printables)
+  - laser cut: laser-cut cardboard panels can be joined with these fasteners ⚑ [uncertain: no page opened] *(⚑ parts need confirming)*
+- **print_in_place**: no: screws, hinges and brackets print as separate parts and are assembled with screws. The printable hinge is one part that is fixed with 2-3 Makedo screws (Makedo 3D printables page) ⚑ [uncertain whether its two leaves are printed already linked]. *(⚑ parts need confirming)*
+- **making_tips_3d_printing**: Many free printable cardboard screws exist, most made to fit Makedo drivers and accessories. Print them upright with no supports; one classroom design printed at 0.2 mm layers with no supports and fitted 36 screws on a 220 x 220 mm bed, but notes that deeper threads 'would require supports' (Printables 'Cardboard construction screws for the classroom'). Settings that worked: 100% infill ('PLA is plenty strong for its intended use', Printables 'Cardboard screw jumbo'); 15% to 100% infill with a brim if bed adhesion is poor (Printables 'Redesigned Makedo style cardboard screw', redesigned with a stronger shank after children kept breaking them); 0.3 mm layers and 20% infill in PLA, about 12 minutes per screw or 120 screws in about 19.5 hours (Printables 'Knurled cardboard screw Makedo compatible'); 25% infill at 0.12 mm layers 'for maximum strength' (Printables 'Cardboard screw compatible with Makedo'). Design the thread so it doesn't sag on the bed, size the head to fit the driver, and add knurling for grip (Printables 'Knurled cardboard screw'). That design also has an 'anti-suffocation hole' through the head, an idea borrowed from pen caps ⚑ [uncertain: it does not make the screw safe for small children]. Printed hinges and brackets: about 0.3 mm layers, 25% infill, no supports (Printables 'Cardboard hinge compatible Makedo'); hinge holes may need adjusting to fit the screws you have (same page). Use the longer screw (Scru+) to attach printed add-ons (Pimoroni Scru+ listing). A printed Scru-Bit lets a cordless screwdriver drive the screws, on low torque (Makedo). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Plastic cardboard screws and drivers (Makedo Scru, Scru+, Scru-Driver, Mini-Tool, Safe-Saw, Fold-Roller; brand, sold as kits and refill packs: Makedo FAQ; Pimoroni listing https://shop.pimoroni.com/en-au/products/makedo-scru-120). Plastic box rivets / cardboard rivets (Mr. McGroovy's, brand; Cool Tools). Plastic pop rivets for cardboard crafts (Adafruit listing, no longer stocked). Cable ties (zip ties) for zip-tie rivets (Adafruit). Plastic hinge and turning-ring add-ons (Makedo Spin-Hinge, Roto-Ring). Alternatives: brass paper fasteners (Adafruit), push-in plastic rivets, or small nuts and bolts with large washers ⚑ [uncertain: no page opened]. *(⚑ parts need confirming)*
+- **rules_of_thumb**: 
+  - Punch a hole first, through all the layers, with a smooth firm push, not a stab; for tough surfaces tilt the punch side to side, and for many layers separate them and punch one or two at a time (Makedo 'Using the Makedo tools').
+  - Layers per length: the short Makedo Scru joins 'up to 3x layers' and the long Scru+ 'up to 5x layers' of corrugated cardboard (Makedo 'Using the Makedo tools'; Makedo FAQ). Other Makedo pages say the Scru+ handles 'four to six layers' (Pimoroni listing) or 'up to six layers' (Makedo FAQ, Invent kit list), and Adafruit says the short ones suit 'two or three layers' and the long one 'the thick, 5-ply cardboard from heavy-duty shipping boxes'. For more than 5 layers, 'Punch a hole from both sides and attach an additional Scru+ from behind', offsetting the screws (Makedo).
+  - Don't over-tighten: 'Once the Scru stops turning, that will be enough' (Makedo 'Using the Makedo tools').
+  - Fit box-rivet halves with their prongs at 90 degrees to each other, then press together until they click (TinkerLab).
+  - Overlap panels, and put the flutes of the two layers in different directions for a stronger joint; fold brackets and ribs across (perpendicular to) the flutes (Makedo 'Connections and joints'). Where edges don't overlap, bridge them with a cardboard patch fastened on both sides (TinkerLab; Makedo).
+  - Plan where the fasteners go and use as few as needed; one or two screws often hold (Makedo 'Connections and joints'). Fit the hard-to-reach rivets first and the ones near the edge last (TinkerLab).
+  - For a hinged door, fix the hinge to the fixed (non-moving) panel first, with two screws per hinge half (Makedo Spin-Hinge page).
+  - Know your board: common flutes are A (about 4.8 mm thick), B (3.2 mm), C (4.0 mm), E (1.6 mm) and F (0.8 mm), and Wikipedia says C flute is the most common in boxes (Wikipedia 'Corrugated fiberboard'), while Adafruit says A flute is (Adafruit 'Cardboard fundamentals').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Classroom and home cardboard-box forts, playhouses and castles, including a castle 'with a working drawbridge' (V&A object record; TinkerLab)
+  - Cardboard costumes such as helmets, shields, masks and wings (V&A; Makedo FAQ project list)
+  - Large cardboard mazes at events, taken apart afterwards with a powered driver (Makedo 3D printables page)
+  - Cardboard robots and models with wheels and swinging doors (Makedo Spin-Hinge and Roto-Ring; Printables)
+- **when_to_use**: For big, quick cardboard builds by children or groups: forts, playhouses, costumes, mazes, stage sets and classroom design challenges, where you want strong joints without waiting for glue, without hot-glue burns, and with the option of taking it apart and reusing both fasteners and cardboard (Makedo FAQ; Cool Tools; TinkerLab). For prototypes you expect to change, since screws can be undone and moved (Makedo). For doors, flaps, drawbridges and wheels, using rivets as pivots or plastic hinge and turning-ring add-ons (Adafruit; Makedo). Instead of duct tape, which Cool Tools calls 'clumsy, expensive', 'will unpeel outdoors in weather' and 'won't take paint' (Make: also says 'avoid tape if you can - especially duct tape').
+- **when_not_to_use**: For paper or thin card, where a split-pin paper fastener or glue is neater. For small, precise models, where glued tabs or tab-and-slot joints look cleaner and fit better (Make: notes 'Enlarged slot and tab systems' for easy assembly and disassembly). For wood, plywood, metal or rigid plastic: use real screws, bolts, rivets or glue. For anything that must hold a person's weight, get wet or stay outdoors ⚑ [uncertain]. For permanent display pieces where you want no visible fasteners: use glue (hot glue or PVA, Adafruit) instead. Where children under 3 will be playing with loose parts (Makedo FAQ). *(⚑ parts need confirming)*
+- **environment_limits**: The plastic fasteners are not harmed by water or normal temperatures, but cardboard is: corrugated board's compression strength falls as its moisture content rises (Wikipedia 'Corrugated fiberboard': moisture above about 9.5% 'will reduce the compression strength'), so builds sag and joints loosen in damp or rain. Cardboard creeps and softens under long-term load, so heavy joints work loose over time ⚑ [uncertain]. Polypropylene fasteners become brittle after long sun exposure ⚑ [uncertain: general plastics knowledge]. Printed PLA screws can soften in a hot car ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Punching holes: punch away from yourself and never into a hand held behind the board; TinkerLab began with 'a quick safety review for the punch (to avoid punching directly into one's hand)'. Support the board on a table, a block or a helper's flat panel rather than your palm ⚑ [uncertain: Makedo says to 'support the cardboard from behind' without saying how]. Makedo also says to keep tools moving 'never towards the face of an active maker'. Small parts: screws and rivet halves are a choking hazard for under-3s; Makedo says 'Children 3 years or younger are not advised to have unsupervised access to Makedo' (Makedo FAQ), and the US small-parts rule covers products for children under 3 because of 'choking, aspiration, or ingestion' hazards (CPSC). Home-printed screws are not safety-tested toys; keep them away from small children even if they have an 'anti-suffocation hole' ⚑ [uncertain]. Cutting: Makedo's Safe-Saw has 'no sharp edges', tears rather than cuts, is tested to toy standards for ages 3+ and recommended for ages 5+ (Makedo tools guide); a box cutter should be used by an adult (TinkerLab: 'a box cutter for the adult is useful'). *(⚑ parts need confirming)*
+- **common_failures**: Screw spins without tightening because the hole is too big or reused too often, or the board is too thin: move to fresh board, add a layer or patch, or use the shorter screw ⚑ [uncertain]. Screw won't reach through too many layers: use the longer Scru+ or screw from both sides (Makedo). Driver or screw head damaged by metal tools or a power drill: use only the plastic driver or a printed bit in a cordless screwdriver on low torque (Makedo). Printed screws snap at the shank: print stronger designs with more infill (Printables 'Redesigned Makedo style cardboard screw'). Board bends or creases when punching: support it from behind (Makedo 'Connections and joints'). Box rivets loose on thin board (Cool Tools). Joint folds next to the fastener: add an L-bracket, folded rib or patch with flutes crossing (Makedo 'Connections and joints'). Tape used as a stop-gap fails where rivets don't (TinkerLab). *(⚑ parts need confirming)*
+- **related**: 
+  - Split-pin paper fastener: the brass pin with folding legs for paper and card; cheaper and smaller, but weaker and less reusable in cardboard
+  - Push-in plastic rivet (fir-tree clip, push rivet): a one-piece plastic rivet pushed into a hole in a car panel or enclosure; holds by springy fins rather than a thread or two clicking halves
+  - Linear ratchet (cable-tie ratchet): the cable tie itself, used here as a zip-tie rivet
+  - Self-tapping screw into plastic: a metal screw that cuts or forms its own thread in plastic, for rigid parts
+  - Tab-and-slot joint and Cross-halving slot joint: fastener-free cardboard joints made by cutting slots
+  - Hot-melt adhesive, PVA wood glue, Glued tab joint and Adhesive tape joint: permanent glued or taped cardboard joints
+  - Plain pivot and rolling bearing: the general pin-in-hole pivot for harder materials
+  - Score-and-fold hinge: a hinge made by creasing the cardboard itself, with no parts
+  - Blind rivet (pop rivet) and Leather and textile rivets: metal rivets for sheet metal and leather, set with tools and permanent
+  - Chicago screw: a metal two-part screw post, a stronger reusable pivot through card or leather
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Connections and Joints: How to use Flanges, Tabs and Patches (Makedo Resource Hub)](https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches): Photos of overlapped joints, L-brackets, tabs, flanges on tubes, patches and folded ribs fixed with cardboard screws *(licence: link only (Makedo copyright))*
+  - [How to use the Spin-Hinge (Makedo Resource Hub)](https://hub.make.do/at-home/maker-tips/how-to-use-the-spin-hinge): Step photos and a video of fitting plastic hinges to a cardboard door with cardboard screws *(licence: link only (Makedo copyright))*
+  - [How to Build with Box Rivets (TinkerLab)](https://tinkerlab.com/build-box-rivets/): Photos of a child punching holes and pressing box rivets together to build a cardboard playhouse *(licence: link only)*
+  - [Cardboard Fundamentals (Adafruit Learning System)](https://learn.adafruit.com/cardboard-fundamentals?view=all): Photos of cardboard types, hole-punching tools and joining methods: paper fasteners, plastic rivets, cardboard screws and zip-tie rivets *(licence: link only)*
+  - [Corrugated Cardboard.JPG (Wikimedia Commons, by Richard Wheeler (Zephyris))](https://commons.wikimedia.org/wiki/File:Corrugated_Cardboard.JPG): Close-up of corrugated fibreboard showing the fluted middle layer between two liners *(licence: CC BY-SA 3.0 (also GFDL 1.2 or later))*
+- **make_it_yourself**: 
+  - [3D Printable add-ons for the Makedo cardboard construction system (Makedo Resource Hub)](https://hub.make.do/at-home/objects/3d-printables): Free STL files for a free-swinging hinge (0-270 degrees), a Scru-Bit for a cordless screwdriver, a fabric connector, a step bracket, a LEGO adapter and a micro:bit mount, all fixed with cardboard screws (files hosted on Thingiverse) *(licence: free download; licence shown on Thingiverse ⚑ [uncertain])*
+  - [Cardboard construction screws for the classroom (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/257606-cardboard-construction-screws-for-the-classroom): Printable cardboard screws and a handle; 0.2 mm layers, no supports for the screws, 36 per 220 x 220 mm bed. Read through the Printables public API. *(licence: GNU GPL v2.0)*
+  - [Redesigned Makedo style cardboard screw (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1162368-redesigned-makedo-style-cardboard-screw): A stronger-shank cardboard screw redesigned after children broke weaker ones; no supports. Read through the Printables public API. *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Cardboard hinge compatible Makedo (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/752677-cardboard-hinge-compatible-makedo): A printable hinge for cardboard doors fixed with Makedo-style screws, with adjusted screw holes (Thingiverse re-upload). Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Cardboard angle brackets compatible with Makedo (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/749862-cardboard-angle-brackets-compatible-with-makedo): Brackets that hold cardboard at set angles (90/270, 105/255, 120/240, 135/225, 165/195 and 180 degrees), each fixed with two screws; original by Makedo. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Zip tie cardboard connector (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/10184-zip-tie-cardboard-connector): A two-part printed connector for 'easy rotations joints on cardboard creations'. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Makedo Roto-ring (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1581939-makedo-roto-ring): A printable turning ring for wheels and other rotating parts on cardboard, used with cardboard screws. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))* *(⚑ parts need confirming)*
+- **diagram_idea**: Two cut-away views through two overlapped sheets of corrugated cardboard: on the left a plastic screw turned in from the front, its coarse thread biting into the flutes and squeezing the layers (no access to the back); on the right two identical rivet halves pushed in from both sides with prongs at 90 degrees, clicking together; a small inset shows a loose rivet acting as the pivot of a swinging cardboard door.
+- **sources**: 
+  - https://make.do/pages/faqs
+  - https://www.make.do/pages/using-the-makedo-tools
+  - https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches
+  - https://hub.make.do/at-home/maker-tips/how-to-use-the-spin-hinge
+  - https://hub.make.do/at-home/objects/3d-printables
+  - https://shop.pimoroni.com/en-au/products/makedo-scru-120
+  - https://collections.vam.ac.uk/item/O1584581/makedo-explore-cardboard-construction-system-construction-toy-paul-justin
+  - https://api.vam.ac.uk/v2/museumobject/O1584581
+  - https://kk.org/cooltools/?p=1518
+  - https://tinkerlab.com/build-box-rivets/
+  - https://learn.adafruit.com/cardboard-fundamentals?view=all
+  - https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/
+  - https://en.wikipedia.org/wiki/Corrugated_fiberboard
+  - https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Small-Parts-for-Toys-and-Childrens-Products
+  - https://commons.wikimedia.org/wiki/File:Corrugated_Cardboard.JPG
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, sewing or leather tools, power tools, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, paper or card
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, print_in_place, processes, removability, reuse_cycles, safety_notes, when_not_to_use
+
+## 430 Baked-in findings (embedded hardware in clay: eye pins, screw eyes, earring posts, bails)
+
+*everyday fasteners & fixings.* Metal loops, pins, posts or bails set into soft polymer clay (with a bent end, a dip of liquid clay, or a second layer of clay pressed over a flat pad) so the baked clay holds them by shape rather than glue; how charms, pendants, earrings and clay buttons get their fittings
+
+*Also covers:* Also covers screw eyes twisted into a pilot hole in baked clay and locked with a drop of glue, hooked wire set into a drilled hole and filled with clay paste, gems pressed in raw then glued back into their seat, and magnets (glue them on after baking, or use high-temperature grades). Safety: standard neodymium magnets lose strength above about 80 °C and polymer clay cures at about 130 °C; don't bake resin or superglue; air bubbles round hardware can crack the piece.
+
+### What it is
+
+- **plain_name**: Setting a little metal loop, pin, earring post or hanger into soft polymer clay before it is baked (with a bent end, a dab of liquid clay, or a second layer of clay pressed over its flat base) so the hardened clay grips it and it can't pull out
+- **term**: Baked-in findings (embedded jewellery findings in polymer clay)
+- **aliases**: 
+  - embedding findings / embedded hardware
+  - embedding earring posts, embedded post backs (Blue Bottle Tree)
+  - baked-in eye pin, baked-in bail
+  - eye pin, head pin, screw eye, screw eye pin (the findings; Beads and Beading)
+  - glue-on bail, pendant bail, earring post with pad, post back, pin back, barrette back, button back or shank (findings named by Blue Bottle Tree)
+  - physical bond (as opposed to an adhesive bond; Blue Bottle Tree)
+  - post embedder (tools sold for embedding earring posts) ⚑ [uncertain]
+  - gem seat, setting crystals in clay (Blue Bottle Tree) *(⚑ parts need confirming)*
+- **family**: everyday fasteners & fixings
+- **other_families**: print-in-place & 3D-printing joints, cord, strap, webbing & textile hardware
+- **one_liner**: Metal fittings for hanging or wearing a clay piece (eye pins, screw eyes, bails, earring posts, button shanks, pin backs) are trapped inside polymer clay before or between bakes, so the baked clay holds them by shape, because glue on its own does not hold metal to polymer clay reliably.
+- **complexity**: A few parts: the polymer clay piece, the metal finding (eye pin, head pin, screw eye, bail, earring post with a flat pad, button back, pin back or wire), and usually something to lock it in: a bent or hooked end, a dip of liquid clay, a second layer of clay pressed over the pad, a paste of clay and liquid clay in a drilled hole, or a drop of glue on a screw eye.
+- **how_it_works**: Glue holds poorly between rigid metal and slightly flexible polymer clay; Blue Bottle Tree says 'Glue will not be reliable for this bond over time', and Sculpey says clay 'cannot be bonded to metal or other non-porous surfaces' and should be wrapped round it instead (Sculpey FAQ). So the finding is shaped so the clay can lock round it: a straight eye pin pushed into raw clay soon falls out, but one with a bent end, or one dipped in liquid clay first, stays in (Beads and Beading; Sculpey blog). A flat-padded post, bail or button back is laid on baked or raw clay and covered with a second layer of clay, so the pad is sandwiched inside the piece; after baking 'The only way for them to come off would be to destroy the earring' (Blue Bottle Tree). For baked pieces, a hooked wire is set in a drilled hole filled with clay paste and baked again (Polymer Clay Journey), or a screw eye is twisted into an undersized pilot hole and locked with a drop of superglue (Beads and Beading).
+
+### Finder attributes
+
+- **job**: join and hold: fixes hanging loops, earring posts, pin backs and button shanks to clay jewellery, charms and buttons
+- **motion**: none (the finding is fixed); the loop it provides lets a jump ring, cord or ear wire swing freely
+- **degrees_of_freedom**: 0 between finding and clay; whatever hangs from the loop can swing and turn
+- **special_behaviour**: none: no lock, release or spring action; it is a permanent fitting
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the clay surrounds a bent end, hook, flat pad or screw thread, so the finding cannot pull out without breaking the clay
+  - material bond (glue, solvent or melting): a dip of liquid clay, or a paste of clay and liquid clay, cures round the finding; a drop of superglue locks a screw eye
+  - friction or clamping (force-fit): a screw eye's thread biting into an undersized pilot hole in baked clay
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: an embedded finding comes out only by breaking the clay; a screw eye set with glue is semi-permanent
+- **reuse_cycles**: once
+- **tools_needed**: round-nose and flat-nose pliers and wire cutters to bend and trim pins and wire; a pin vice or small drill for pilot holes and holes in baked clay (Beads and Beading; Polymer Clay Journey); liquid polymer clay; a pasta machine or roller for the covering layer and small circle cutters (Blue Bottle Tree, buttons); an oven with an oven thermometer (Sculpey FAQ); gel superglue for screw eyes and gems; card stock to prop a post level while baking (Polymer Clay Journey)
+- **seal**: none
+- **load**: light: jewellery, charms, buttons and decorations. Strongest when the finding is covered by clay (a sandwiched pad or a hooked end), which holds until the clay itself breaks (Blue Bottle Tree, earring posts); weakest for a straight pin pushed into raw clay, which works loose with the twisting a charm gets (Beads and Beading). A screw eye resists twisting better than an eye pin: 'they don't get bent open with all the twisting that a charm does on a bracelet' (Beads and Beading). No strength figures found ⚑ [uncertain] *(⚑ parts need confirming)*
+- **adjustable**: no once baked; a wire post can be cut to length and sanded after baking (Polymer Clay Journey)
+- **play_and_precision**: not applicable
+- **access_needed**: one side only (blind): the finding goes in from the edge or back of the piece and nothing needs to reach through
+- **materials**: Clay: polymer clay (PVC, oven-baked) is the main material; the same trap-it-while-soft idea is used with epoxy putty and air-dry clay ⚑ [uncertain]. Findings: metal ones of any common jewellery metal (plated base metal, sterling silver wire, e.g. 21 gauge; Polymer Clay Journey), because metal takes the baking heat; glass crystals and stones can also be baked in, but plastic 'crystals' melt and amber, opals, pearls and some soft stones should never be baked (Blue Bottle Tree, crystals). Magnets: standard neodymium magnets are damaged by the bake, so glue them on afterwards or use a high-temperature grade (see rules_of_thumb). Wood and stone bases hold moisture and should be dried in the oven first (Sculpey blog, armature). Resin and superglue should not be baked (Blue Bottle Tree, earring posts) *(⚑ parts need confirming)*
+- **maker_difficulty**: easy to moderate: bending an eye pin or covering a post pad is easy; drilling straight pilot holes and getting a second clay layer on without air bubbles takes practice
+
+### Making it
+
+- **processes**: hand work in polymer clay with a home oven, off-the-shelf part: jewellery findings (eye pins, screw eyes, bails, earring posts, button backs, pin backs)
+- **print_in_place**: no for clay; the same idea in 3D printing is pausing a print to drop in a nut or magnet and printing over it (see Mid-print embedding)
+- **making_tips_3d_printing**: Not applicable to the clay itself, but the same principle carries over to prints: hardware trapped by material laid over it holds by shape, which is why makers pause a print to embed nuts, magnets and wire loops (see Mid-print embedding). For printed jewellery, design a hole or slot for a post or loop and glue it, or print a pocket and trap the finding with a later layer ⚑ [uncertain]. Printed clay cutters are widely shared for making earring blanks to embed posts in (see make_it_yourself). A PLA print should not be baked with polymer clay ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Eye pins, head pins, screw eyes (screw eye pins, about 5/16 in long with a 1/8 in loop are typical charm sizes; Beads and Beading), glue-on bails, pendant bails, earring posts with flat pads ('post backs') and earnuts, ear wires, jump rings, button backs or shanks (e.g. 10 mm; Blue Bottle Tree, buttons), pin backs and barrette backs, sterling or plated wire for custom posts (21 gauge; Polymer Clay Journey), point-backed crystals, rivolis and Hotfix crystals (Blue Bottle Tree, crystals), liquid polymer clay, gel superglue, high-temperature neodymium magnets (SH or AH grade; K&J Magnetics) or ferrite magnets
+- **rules_of_thumb**: 
+  - Bend the end of an eye pin before pushing it into unbaked clay, or it will fall out (Beads and Beading); or dip the end in liquid clay, 'preferably translucent', before inserting (Sculpey blog, liquid clay)
+  - Screw eyes: drill a pilot hole smaller than the outside diameter of the threads; 'If the hole is too big, the screw will just fall out'; lock it with a drop of superglue (Beads and Beading, 2016); drilling the pilot hole first stops the charm cracking (Beads and Beading, 2008)
+  - Wire post in a baked piece: drill a hole about 1/8 to 3/16 in deep, large enough that the wire need not be forced (a tight fit can crack the clay while baking), bend a small hook on the wire end so it can't pull out, fill the hole with a paste of clay and liquid clay, prop it level with card stock and bake again (Polymer Clay Journey, 2022)
+  - Earring posts, bails and button backs: cover the pad with a second layer of clay and blend it in; this needs two bakes and is 'the only sure way' (Blue Bottle Tree, earring posts). For buttons: a 4-playing-card-thick sheet under the button back, a 1 to 2-card-thick top layer with a 3/16 in (4 mm) hole for the shank, press out air, and bake at least 45 minutes (Blue Bottle Tree, buttons)
+  - A puddle of bakeable paste over a post must extend past the metal pad onto the clay, or it does nothing (Blue Bottle Tree, earring posts)
+  - Crystals: push point-backed crystals into raw clay, bake, pop them out and glue them back into their perfectly shaped seat with a dab of gel superglue (Blue Bottle Tree, crystals)
+  - Magnets: polymer clay cures at about 129 to 135 °C (Wikipedia 'Polymer clay'), but a standard N42 disc magnet 1/2 in x 1/8 in has a maximum operating temperature of 80 °C and kept only about 60% of its strength after 100 °C, while a magnet as tall as it is wide showed no loss until over 140 °C; high-temperature grades are rated N42SH 150 °C and N35AH 220 °C (K&J Magnetics). supermagnete says magnets glued on before baking 'will be demagnetised', expects about 20% loss even at a 100 °C bake, and glues them on after baking. The two figures differ because loss depends on the magnet's shape and grade
+
+### When to use it
+
+- **everyday_examples**: 
+  - polymer clay stud earrings with the post hidden under a layer of clay on the back
+  - a clay charm on a bracelet or phone strap hanging from a screw eye or eye pin
+  - handmade clay buttons with a metal shank on the back (Blue Bottle Tree)
+  - clay fridge magnets with a magnet glued into the back after baking (supermagnete)
+- **when_to_use**: Whenever metal has to be attached to polymer clay for wear: earrings, pendants, charms, brooches and hair clips, buttons, ornaments and fridge magnets. Embedding is the most durable choice when the piece must last for years or be sold, because 'all the other methods can fail' (Blue Bottle Tree, earring posts). Use a screw eye when a piece is too big to drill through or the wrong shape for a bail, and when the charm will twist a lot (Beads and Beading). Set gems and crystals the same way, then glue them back into their seat.
+- **when_not_to_use**: When the finding can't take the heat: standard neodymium magnets (glue them on after baking, use a high-temperature grade, or use the Magnet joint), plastic parts and plastic 'crystals' (they melt), amber, opals and pearls (Blue Bottle Tree, crystals). When the piece is already finished and can't be rebaked: use gel superglue on a textured, alcohol-wiped surface and accept it may fail in a few years (Blue Bottle Tree), or UV resin over the post (which works but needs a respirator). Not for hardware that must come off again. For screw eyes in wood see Eye bolts, screw eyes and hooks; for nuts and magnets in prints see Mid-print embedding.
+- **environment_limits**: Properly baked polymer clay is strong, durable and waterproof and survives washing machines (Blue Bottle Tree, buttons), so an embedded finding lasts as long as the clay. Glued findings tend to fail over time: rigid glues go brittle and let go when the clay flexes or is dropped (Blue Bottle Tree, flexible glue). Magnets lose strength permanently above their maximum operating temperature (80 °C for standard N grades, depending on shape; K&J Magnetics). Underbaked clay lets posts pull out (Blue Bottle Tree, earring posts).
+- **safety_notes**: Bake at the packet temperature with an oven thermometer and ventilation; burnt polymer clay can release hydrogen chloride (Wikipedia 'Polymer clay'; Sculpey FAQ). Don't bake superglue (it weakens, with 'really minor' toxic breakdown) and don't bake resin, 'not even UV resin'; resin is highly allergenic, so wear a respirator when using it (Blue Bottle Tree, earring posts). Air bubbles trapped round hardware or between clay layers expand in the oven and 'will probably crack or puff' the piece (Sculpey blog, armature); press covering layers down to remove air bubbles (Blue Bottle Tree, buttons), working from the middle outward (Sculpey blog, armature). Too tight a hole or a forced wire can crack the clay during baking (Polymer Clay Journey). Neodymium magnets lose strength above about 80 °C while polymer clay cures at about 130 °C (K&J Magnetics; supermagnete). Small magnets and small findings are a swallowing hazard for young children (see Magnet joint). Wear eye protection when clipping wire, since cut ends fly ⚑ [uncertain]. Polymer clay jewellery is not for food use (Wikipedia 'Polymer clay'). *(⚑ parts need confirming)*
+- **common_failures**: 1) Eye pin pops out of a charm: bend or hook the end, dip it in liquid clay, or use a screw eye (Sculpey blog; Beads and Beading). 2) Glued post or bail falls off after months: glue to polymer clay often fails, especially rigid glues; embed instead (Blue Bottle Tree). 3) Screw eye falls out: the pilot hole was too big (Beads and Beading). 4) Clay cracks round the finding: the hole was too small or the wire was forced (Polymer Clay Journey), no pilot hole was drilled for a screw eye (Beads and Beading), or air was trapped (Sculpey blog). 5) Post pulls the clay off with it: the clay was underbaked (Blue Bottle Tree). 6) Bakeable paste puddled only on the metal pad does nothing (Blue Bottle Tree). 7) Wire post sags while baking: prop it with card stock (Polymer Clay Journey). 8) Magnet weak after baking: it was baked in; glue it on afterwards (supermagnete). 9) Crystals fall out of a worn piece: pop them out after baking and glue them back (Blue Bottle Tree, crystals).
+- **related**: 
+  - Mid-print embedding (captive nuts, magnets and bearings): the same trap-it-while-soft idea in 3D printing
+  - Eye bolts, screw eyes and hooks: screw eyes and hooks in wood and walls
+  - Magnet joint: magnets in pockets, glued in after baking for clay pieces
+  - Liquid-clay bond: the liquid clay used to dip pins and to make clay paste for filling holes
+  - Cyanoacrylate (superglue): gel superglue locks screw eyes and gems into baked clay
+  - UV-curing adhesive (incl. resin used as glue): UV resin poured over earring posts, an alternative that cannot be rebaked
+  - Sew-on part (sewing holes, loops and slots on a rigid part): clay buttons with holes instead of a shank
+  - Wire and foil armature: a larger wire skeleton baked inside a clay figure
+  - Pinned glue joint: a wire or toothpick across a clay joint rather than a fitting for hanging
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Securing Polymer Clay Earring Post Backs – What's the best way? (The Blue Bottle Tree)](https://thebluebottletree.com/securing-polymer-clay-earring-post-backs-whats-the-best-way/): Photos and an embedded video comparing glued, resin-covered, Bake-and-Bond and embedded earring posts *(licence: link only (embedded YouTube video))*
+  - [Embedding metal posts in polymer clay hoop earrings (Polymer Clay Journey, Phyllis Cahill, 2022)](https://polymerclayjourney.com/2022/03/07/embedding-metal-posts-in-polymer-clay-hoop-earrings/): Step-by-step photos of drilling a baked hoop, setting a hooked wire post in clay paste, propping it and baking again *(licence: link only)*
+  - [Screw Eye Findings For Polymer Clay Pendants (Beads and Beading, 2016)](https://www.beadsandbeading.com/blog/?p=20255): Photos of screw eyes being set into pilot holes in polymer clay charms and locked with glue *(licence: link only)*
+  - [How to Make Polymer Clay Buttons (The Blue Bottle Tree)](https://thebluebottletree.com/make-polymer-clay-buttons/): Photos of shank-backed buttons made by covering metal button backs with a second, holed layer of clay *(licence: link only)*
+  - [Temperature and Neodymium Magnets (K&J Magnetics)](https://kjmagnetics.com/blog/temperature-and-neodymium-magnets): BH-curve diagrams explaining why magnets lose strength when heated and how shape and grade change the safe temperature *(licence: link only)*
+- **make_it_yourself**: 
+  - [Elegant Shapes Polymer Earring Clay Cutter (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/833092-elegant-shapes-polymer-earring-clay-cutter): Printable cutters for polymer clay earring blanks, into which posts or eye pins can then be embedded; found through the Printables public API *(licence: CC BY-NC)*
+- **diagram_idea**: Cut-away views of four fittings in clay: a straight eye pin sliding out next to a bent one held fast, an earring post's flat pad sandwiched between two clay layers, a screw eye in an undersized pilot hole with a glue drop, and a hooked wire in a drilled hole packed with clay paste.
+- **sources**: 
+  - https://thebluebottletree.com/best-glue-for-polymer-clay/
+  - https://thebluebottletree.com/securing-polymer-clay-earring-post-backs-whats-the-best-way/
+  - https://thebluebottletree.com/polymer-clay-needs-flexible-glue/
+  - https://thebluebottletree.com/make-polymer-clay-buttons/
+  - https://thebluebottletree.com/can-you-bake-crystals-in-clay/
+  - https://www.sculpey.com/blogs/blog/the-diversity-of-liquid-polymer-clay
+  - https://blog.sculpey.com/creating-armature-that-supports-your-sculpts
+  - https://www.sculpey.com/pages/faqs-1
+  - https://www.beadsandbeading.com/blog/?p=20255
+  - https://www.beadsandbeading.com/blog/charm-jewelry-findings-for-hanging-miniature-polymer-clay-sculptures/285/
+  - https://polymerclayjourney.com/2022/03/07/embedding-metal-posts-in-polymer-clay-hoop-earrings/
+  - https://www.supermagnete.se/eng/Magnet-applications/Magnets-made-of-oven-hardening-modelling-clay
+  - https://kjmagnetics.com/blog/temperature-and-neodymium-magnets
+  - https://en.wikipedia.org/wiki/Polymer_clay
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, press or vice, hand tools
+- **load_max**: light
+- **usual_process**: by hand (tied or wrapped)
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: clay or putty
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, load, making_tips_3d_printing, materials, safety_notes
+
+## 432 Wire and foil armature (sculpture armature, foil core)
+
+*everyday fasteners & fixings.* A bendable wire skeleton, fixed into a base and bulked out with crumpled foil, that clay is pressed over, so thin limbs, heads and tails stay attached and a figure can stand; used for polymer clay, air-dry clay and epoxy putty figures
+
+*Also covers:* Also covers twisted double wire, epoxy-putty-reinforced armatures, toothpick neck pins, wooden or metal bases, and foil, polystyrene or paper bulking. Safety: wood and stone hold moisture and should be pre-dried before baking; trapped air between foil and clay cracks or puffs in the oven; a PLA print is not a bakeable armature (it softens far below polymer clay temperatures); metal armatures must be removed from clay that will be kiln-fired.
+
+### What it is
+
+- **plain_name**: A bendable wire skeleton, stuck into a base and padded out with scrunched-up foil, that you press clay over so thin legs, tails and necks don't droop or snap off and the figure can stand up
+- **term**: Sculpture armature (wire and foil armature; foil core)
+- **aliases**: 
+  - armature, sculpting armature, wire armature
+  - foil armature, foil core, aluminium foil armature (polymer clay)
+  - bulking, bulking out (Art Shed / Mont Marte)
+  - armature wire, craft wire (aluminium wire sold for armatures)
+  - doll armature, body armature (art dolls; Sculpey blog)
+  - skeleton (stop-motion and animation term; Wikipedia 'Armature (sculpture)')
+- **family**: everyday fasteners & fixings
+- **other_families**: locating & alignment
+- **one_liner**: A skeleton of bent, often twisted wire, anchored in a base and bulked out with foil, tape or other filler, that clay or putty is built up over so the finished figure has a strong core that holds its shape, keeps thin parts attached and stands up.
+- **complexity**: A few parts. Wire skeleton (aluminium armature wire, often two strands twisted together; wire coat hangers for art-doll bodies); a base (wood block or a plaster-filled form) that the wire is pushed or set into; bulking material (crumpled aluminium foil, polystyrene, paper or cotton strips); tape to hold the foil in place (masking tape, hockey tape); optional epoxy putty to stiffen the wire; optional wooden dowels for a weight-bearing leg; toothpicks as short neck pins (Make: owl; Sculpey blog; Mont Marte fox; Art Shed).
+- **how_it_works**: The wire is bent into a stick-figure of the pose, with its lower end pushed into a hole drilled in a wooden base or set in plaster, so the figure is fixed upright and its proportions are set before any clay goes on (Make: owl; Mont Marte fox). Twisting two wires together makes the skeleton stiffer, and a thin coat of epoxy putty, allowed to cure, stops the wire bending while clay is pressed on (Make: owl; Sculpey squirrel project). Crumpled foil, taped on, fills out the body so the clay layer is thin and even, which saves clay, keeps the figure light and helps it bake or dry evenly (Sculpey blog; Art Shed). The clay grips the rough foil and tape and wraps right round the wire, so limbs and heads are held mechanically by the wire running through them rather than by the clay alone. The armature usually stays inside for good, except in clay that will be fired in a kiln, where it must come out (Wikipedia 'Armature (sculpture)').
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: the wire runs through thin parts such as limbs, necks and tails so they stay attached to the body and to the base
+  - line parts up exactly: the skeleton sets the figure's proportions and pose before sculpting starts (Make: owl; Sculpey 'Importance of Armature')
+- **motion**: none once the clay has hardened; while sculpting the wire can be bent to adjust the pose, and joints left free of epoxy putty can still be posed (Sculpey squirrel project); art-doll body armatures made of coat-hanger wire can be re-posed after assembly (Sculpey 'Creating Doll Armatures')
+- **degrees_of_freedom**: 0 in the finished sculpture (it is a rigid core). Before the clay sets, the wire can be bent anywhere, so it is effectively a bendable frame.
+- **special_behaviour**: none: it is a passive support structure; its only trick is that soft wire bends to any pose and then stays put
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): clay wraps all the way round the wire and foil, and the wire end is trapped in a hole in the base or set in plaster
+  - friction or clamping (force-fit): the wire is a snug push fit in a drilled base hole (Make: owl)
+  - material bond (glue, solvent or melting): epoxy putty bonds to the wire, and tape holds the foil (Make: owl; Sculpey blog)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: the armature stays inside the finished piece. For clay that will be kiln-fired it must be removed while the clay is still soft, so armatures for firing are usually paper or wood (Wikipedia 'Armature (sculpture)').
+- **reuse_cycles**: once
+- **tools_needed**: Wire cutters and pliers (to twist and bend wire), a drill for the base hole, tape, and optionally gloves for epoxy putty; plaster and a mould or canvas form for a plaster base (Make: owl; Mont Marte fox).
+- **seal**: none
+- **load**: light: carries the figure's own weight and protects thin parts from bending and snapping. Strongest along the wire; weak where clay is thin over the wire or where a limb has no wire. Heavier or one-legged poses need thicker or doubled wire, epoxy putty reinforcement or a wooden dowel in the weight-bearing leg (Make: owl; Sculpey 'Importance of Armature').
+- **adjustable**: yes, before the clay hardens: the wire can be re-bent to change the pose. No once the piece is baked or dry.
+- **play_and_precision**: not applicable
+- **access_needed**: not applicable
+- **materials**: Wire: aluminium armature or craft wire (light, easy to bend, holds its shape; Sculpey uses 1.5, 2 and 3 mm; Make: owl uses 9 and 14 gauge), steel tie-wire (Mont Marte fox), coat-hanger wire (Sculpey doll armatures); garden and galvanised steel wire works but is hard to bend (Sculpey 'Importance of Armature'). Base: wood (Make: owl; Wikipedia), plaster (Mont Marte fox). Bulking: aluminium foil, polystyrene, paper, cotton strips, aluminium mesh for wings (Art Shed; Sculpey). Suits: polymer clay, air-dry clay, epoxy putty and wax (Wikipedia; Art Shed). Doesn't suit: clay to be kiln-fired with metal still inside (Wikipedia); 3D-printed PLA cores under polymer clay that will be baked (PLA's glass transition is 60-65 °C, far below the 130 °C bake; Wikipedia 'Polylactic acid'; Sculpey).
+- **maker_difficulty**: easy: needs only wire, pliers, foil, tape and a base; the skill is getting the proportions and the pose right before adding clay
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: armature wire, foil, tape, epoxy putty, wooden plinths
+  - woodwork: drilling the base and cutting dowels
+  - hand modelling in polymer clay, air-dry clay or epoxy putty over the armature
+  - casting: plaster poured round the wire to make a base (Mont Marte fox)
+- **print_in_place**: no: an armature is bent from wire by hand. A 3D-printed core is not a bakeable armature for polymer clay, because PLA softens far below the baking temperature (Wikipedia 'Polylactic acid'; Sculpey).
+- **making_tips_3d_printing**: not applicable for a bakeable armature: a PLA print is not a substitute for a wire armature under polymer clay, because PLA's glass transition is about 60-65 °C (Wikipedia 'Polylactic acid') and polymer clay is baked at 275 °F (130 °C) (Sculpey). A printed part could serve as a non-baked base or stand for an air-dry clay or epoxy putty figure ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search for: 'armature wire' or 'aluminium craft wire' (1.5-3 mm, or 9-14 gauge), 'epoxy sculpting putty' / 'two-part epoxy clay' (e.g. Apoxie Sculpt (brand), Milliput (brand), 'green stuff'), 'aluminium foil', 'masking tape' or 'hockey tape', 'polystyrene balls and eggs' (bulking), 'wooden plinth' or 'wood base', 'plaster of Paris', 'wooden dowel', 'aluminium mesh' (wings) (Make: owl; Sculpey blogs; Art Shed; Mont Marte fox).
+- **rules_of_thumb**: 
+  - Twist two lengths of wire together for the main support, and drill the base hole just large enough for the twisted wire (Make: owl; Mont Marte fox: twisting tie-wire 'effectively double[s] its thickness').
+  - Fold one long wire in half and twist it to make neck, arms, torso, legs and tail in one piece; the Sculpey squirrel starts with about 3.5 ft of 14 gauge aluminium wire (Sculpey squirrel project).
+  - Coat the wire thinly with epoxy putty and let it cure 24 hours before adding clay; leave joints bare if you still want to pose them (Make: owl; Sculpey squirrel project).
+  - Aluminium foil expands less than 2% in the oven, so it won't crack polymer clay; press the clay on from the centre outwards to push out air, because trapped air expands and cracks or puffs the clay (Sculpey 'Creating Armature That Supports Your Sculpts'; Mont Marte fox: 'Ensure there's no air between the clay and the armature').
+  - Bulk out with foil so the clay is thin and even: polymer clay cures best when not too thick (Sculpey 'Importance of Armature'); bake Super Sculpey at 275 °F (130 °C) for 15 minutes per 1/4 in (6 mm) of thickness (Sculpey product page).
+  - Pre-dry wood and stone bases before baking on them: Sculpey's blogger bakes them at 150-200 degrees for a couple of hours or overnight (the page gives no unit; as a US page this is presumably °F, about 65-95 °C) (Sculpey 'Creating Armature That Supports Your Sculpts').
+  - For a small figure, a toothpick pushed into the neck of a baked body can carry a separately made head (oocities polymer clay how-to); small parts without wire must be propped up while baking or they droop (same source).
+  - Air-dry clay over a foil, polystyrene or wire core dries more evenly and cracks less; don't speed drying with sun, a hairdryer or an oven (Art Shed).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Polymer clay animal and fantasy figures on a wooden base (Make: owl; Mont Marte fox)
+  - Stop-motion puppets built on an armature, such as the Gromit model (Wikimedia Commons 'Armature for Gromit'; Wikipedia)
+  - Large statues with an inner frame, such as the Statue of Liberty, whose armature was designed by Gustave Eiffel (Wikipedia 'Armature (sculpture)')
+- **when_to_use**: Use a wire and foil armature for any clay, putty or wax figure larger than a few centimetres, and whenever it has thin limbs, a tail, a long neck, a dynamic pose or must stand on one or two legs: without one, soft polymer clay droops and cracks in the oven (Sculpey 'Importance of Armature'). It also sets the proportions before you sculpt, saves clay and weight, and fixes the figure to a base.
+- **when_not_to_use**: Skip it for very small, compact pieces (Sculpey 'Importance of Armature'). Don't leave metal inside clay that will be fired in a kiln; use a removable paper or wood armature or hollow the piece (Wikipedia). Don't use a PLA print as a bakeable core (Wikipedia 'Polylactic acid'). For a figure that must stay posable after it is finished, use an elastic-strung ball-jointed body or a posable segmented armature instead. To join two separately made hard parts, use a pinned glue joint.
+- **environment_limits**: Polymer clay softens when warm, so a weak armature lets the figure droop or collapse during baking (Sculpey 'Importance of Armature'). Wood and stone hold moisture that expands in the oven and can crack the clay, and wood can warp, crack or distort when heated (Sculpey blog). Air-dry clay over an armature is water-based and needs sealing against damp (Art Shed). Metal armatures expand in kiln heat and can burst fired clay (Wikipedia). Steel wire can rust inside damp air-dry clay ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Wood and stone bases should be pre-dried before baking, or trapped moisture can crack the piece (Sculpey blog); trapped air between foil and clay cracks or puffs in the oven (Sculpey blog). Wear gloves when mixing epoxy putty and read the label precautions (Make: owl). A PLA print is not a bakeable armature: it softens at about 60-65 °C, far below polymer clay's 130 °C bake (Wikipedia 'Polylactic acid'; Sculpey). Metal armatures must be removed from clay that will be kiln-fired, or the piece can burst (Wikipedia). Cut wire ends are sharp; polymer clay baking should be done by an adult, and Sculpey says not to exceed the stated temperature or time (Sculpey squirrel project).
+- **common_failures**: Figure collapses or limbs droop in the oven: armature too flimsy or missing (Sculpey 'Importance of Armature'); use thicker or twisted wire, epoxy putty or a dowel. Cracks or bulges after baking: air trapped between foil and clay (Sculpey blog), or moisture in a wood or stone base (Sculpey blog). Clay cracks over thick sections or cures unevenly: not enough bulking, so the clay is too thick (Sculpey blogs). Air-dry clay cracks: dried too fast (Art Shed). Head or limb snaps off at a thin neck or ankle: no wire through that part; run wire or a toothpick pin through it. Wire pokes through the surface: clay too thin over the wire.
+- **related**: 
+  - Pinned glue joint (wire, rod, toothpick or skewer pins): joins already-hardened parts with a short pin; an armature runs through the whole figure from the start
+  - Epoxy putty (kneadable two-part putty): used to stiffen wire armatures and as a sculpting material over them
+  - Baked-in findings (embedded hardware in clay): small wire loops and pins baked into clay to attach things, not to support a figure
+  - Elastic-strung ball joint: makes a figure that stays posable after it is finished, instead of a fixed pose
+  - Posable segmented arm (ball chain): a ready-made posable skeleton of snap-together balls
+  - Liquid-clay bond and Score-and-slip join: ways of joining clay to clay; an armature supports the clay rather than joining it
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Armature for a figure holding a lyre (from Edouard Lanteri, Modelling, 1904; Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Armature-sculpture.png): Classic drawing of a sculptor's wire and pipe armature for a standing figure, fixed to a base board *(licence: public domain (PD-1923))*
+  - [Armature for Gromit (Geni, Wikimedia Commons, 2016)](https://commons.wikimedia.org/wiki/File:Armature_for_Gromit.JPG): Photo of the metal armature inside a stop-motion Gromit puppet *(licence: GFDL 1.2+ or CC BY-SA 4.0/3.0/2.5/2.0/1.0 (choice of licence))*
+  - [How to Sculpt a Fantasy Owl (Make:)](https://makezine.com/projects/how-to-sculpt-a-fantasy-owl): Photos of a twisted aluminium wire armature pushed into a drilled wood base, reinforced with epoxy putty, then covered with polymer clay *(licence: link only)*
+  - [Creating Armature That Supports Your Sculpts (Maria Saracino, Sculpey blog, 2019)](https://blog.sculpey.com/creating-armature-that-supports-your-sculpts): Photo of a foil armature for a portrait bust, plus advice on air bubbles and pre-drying wood and stone *(licence: link only)*
+  - [Polymer clay fox tutorial: sculpting (Mont Marte)](https://www.montmarte.com.au/blogs/projects-how-to/how-to-sculpt-a-fox): Step photos of a doubled tie-wire armature set in a plaster base, packed out with taped foil and covered in clay *(licence: link only)*
+- **make_it_yourself**: 
+  - [Sculpey Medium Blend: How to Sculpt a Fantasy Gatherer Squirrel (Sculpey)](https://www.sculpey.com/how-to/sculpey-medium-blend-how-to-sculpt-a-fantasy-gatherer-squirrel): Step-by-step project: one folded and twisted 14 gauge aluminium wire makes the whole skeleton, stiffened with epoxy putty on a wood base, then covered in polymer clay *(licence: link only)*
+  - [Creating Doll Armatures (Maria Saracino, Sculpey blog)](https://blog.sculpey.com/creating-doll-armatures): A printable template and steps for a 12 in posable art-doll body armature from coat-hanger wire, cotton strips and hockey tape *(licence: link only)*
+  - [The Importance of Armature in Sculpting (Sculpey blog)](https://www.sculpey.com/blogs/blog/the-importance-of-armature-in-sculpting): Beginner guide to choosing armature wire (1.5, 2 and 3 mm aluminium), foil, tape, dowels and aluminium mesh *(licence: link only)*
+- **diagram_idea**: A cut-away of a small clay animal on a wooden base, showing the twisted wire running from a hole in the base up through the legs, body, neck and tail, the crumpled foil padding round the body, and the thin even layer of clay on top.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Armature_(sculpture)
+  - https://en.wikipedia.org/wiki/Polylactic_acid
+  - https://blog.sculpey.com/creating-armature-that-supports-your-sculpts
+  - https://blog.sculpey.com/creating-doll-armatures
+  - https://www.sculpey.com/blogs/blog/the-importance-of-armature-in-sculpting
+  - https://www.sculpey.com/how-to/sculpey-medium-blend-how-to-sculpt-a-fantasy-gatherer-squirrel
+  - https://www.sculpey.com/products/polymer-clay/super-sculpey
+  - https://makezine.com/projects/how-to-sculpt-a-fantasy-owl
+  - https://www.montmarte.com.au/blogs/projects-how-to/how-to-sculpt-a-fox
+  - https://www.artshedonline.com.au/blog/art-shed-blog/sculpting-and-modelling/14-air-dry-clay-techniques
+  - https://www.oocities.org/Athens/Olympus/3457/clay_howto.htm
+  - https://commons.wikimedia.org/wiki/Category:Armatures_(sculpture)
+  - https://commons.wikimedia.org/wiki/File:Armature-sculpture.png
+  - https://commons.wikimedia.org/wiki/File:Armature_for_Gromit.JPG
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: wood, metal, clay or putty
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing
+
+## 435 Potted insert (sandwich-panel insert, hard point, overdrill-fill-redrill)
+
+*everyday fasteners & fixings.* The hole in a honeycomb, foam or balsa-cored panel is opened up, the soft core round it is dug out and filled with epoxy round a threaded insert or bolt, so a screw can grip and the core isn't crushed or soaked, as on boat decks, solar-car floors and RC panels
+
+*Also covers:* Also covers factory flanged inserts, through-thickness and blind potting, the boat 'overdrill, fill and redrill' method, solid hard points laid in during building, and sizing the bracket foot at least as wide as the potting. Safety: water in a cored deck rots balsa; epoxy skin allergy; fast epoxy can overheat in a large fill.
+
+### What it is
+
+- **plain_name**: A way to put a solid, screw-holding spot into a light panel that has a soft or hollow filling between two thin skins: you open the hole up, scrape the soft filling out around it, fill the space with epoxy (often around a metal threaded insert), and drill or screw into that solid plug, so the bolt can't crush the panel and water can't get into the filling
+- **term**: Potted insert (sandwich-panel insert; hard point)
+- **aliases**: 
+  - sandwich panel insert, honeycomb insert, panel insert (Shur-Lok 'Sandwich Panel Inserts'; Abbott Aerospace AA-SB-001 12.2.6)
+  - potted-in insert, potting an insert (Abbott Aerospace AA-SB-001 12.2.6)
+  - hard point, hardpoint (Kitplanes 'Tough Spot'; CMU Buggy 'Hard Point Manufacturing Documentation'; Model Aviation 'Installing a One-Piece Bolt-on Wing')
+  - overdrill, fill and redrill; drill oversize, fill with epoxy and redrill (Practical Sailor 'A Solid Connection'; The Yacht Rigger)
+  - reefing and backfilling a cored deck (Cruising World, Steve D'Antonio)
+  - core-carve method (Practical Sailor)
+  - epoxy plug, epoxy ring (Practical Sailor; Cruising World)
+  - flox hard point (homebuilt aircraft; Kitplanes)
+  - through insert, blind insert, floating insert; spacer (Shur-Lok)
+  - hardware pad, high-density core insert (laid in during building; Cruising World)
+- **family**: everyday fasteners & fixings
+- **other_families**: adhesives & bonding, seals & pass-throughs
+- **one_liner**: A local plug of hard epoxy (with or without a metal insert) set into the soft core of a sandwich or cored panel where a bolt or screw goes, so the fastener has something solid to grip and clamp against and the core around it stays sealed.
+- **complexity**: A few parts: the sandwich panel (two thin skins of fibreglass, carbon, plywood or aluminium with a core of honeycomb, foam, balsa or plywood), the potting compound (epoxy thickened with a filler such as colloidal silica, flox or chopped fibre, or a structural adhesive), and either a factory insert (a metal or plastic threaded bush with a flange and two small potting holes) or simply the fastener drilled through the cured plug. Often a backing plate, washer or cover patch of glass cloth too (Abbott Aerospace; Shur-Lok; Kitplanes; Practical Sailor).
+- **how_it_works**: Cored panels are stiff and light because a thick, soft core holds two thin skins apart, but that core crushes when a bolt is tightened, and the thin skins tear or go egg-shaped under a screw (Kitplanes 'Tough Spot'). Potting replaces the core round the hole with a hard plug that is glued to both skins, so the bolt clamps against solid material and loads are passed into the skins over a wider area; Cruising World notes a 1/4 in bolt can press more than 500 lb on the core. In the factory version, the hole is drilled through one or both skins, the core is dug out round it, the insert is put in and potting compound is injected, locking the insert to the panel in all six directions (Abbott Aerospace 12.2.6). On boats the same plug also seals the core: water that gets past the sealant reaches only epoxy, not the balsa or foam (The Yacht Rigger; Practical Sailor).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: gives a bolt, screw or threaded insert a solid place to grip in a soft-cored panel
+  - glue or bond: the plug and insert are held by epoxy or structural adhesive bonded to the skins and remaining core
+  - seal it, or pass cables or fluid through: seals the core round a hole so water can't soak into it (Practical Sailor; The Yacht Rigger)
+- **motion**: none
+- **degrees_of_freedom**: 0: the cured potting locks the insert to the panel 'in all six degrees of freedom' (Abbott Aerospace 12.2.6).
+- **special_behaviour**: none: it is a fixed reinforcement for a fastener; a 'floating' factory insert lets its nut move a little to take up screw misalignment (Shur-Lok)
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the potting compound is glued to the skins and core
+  - shape (the parts interlock; form-fit): the cured plug is wider than the hole in the skin, and an insert's flange sits against the skin, so it cannot pull straight out (Abbott Aerospace 12.2.6) ⚑ [uncertain: the 'wider than the hole' locking is inferred from the figures] *(⚑ parts need confirming)*
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent for the potting itself (the plug is part of the panel); the bolt or screw that goes into it stays removable
+- **reuse_cycles**: once for the potting; the fastener in it can be undone many times. A plug drilled for a self-tapping screw wears with repeated use; glass strips mixed in help for screw holes (Practical Sailor) ⚑ [uncertain: no cycle figure] *(⚑ parts need confirming)*
+- **tools_needed**: Drill and bits (pilot, oversize and final size) or a hole saw (Kitplanes: about 1 in is typical); a core-removal tool such as a bent nail, hooked Allen key or bent roofing nail in a drill, or a Dremel-type cutter (Cruising World; Practical Sailor; Kitplanes); masking tape for the underside; epoxy, filler, mixing pots and a syringe for filling (Cruising World); countersink to chamfer the hole for sealant (Cruising World; The Yacht Rigger); gloves and eye protection.
+- **seal**: watertight: the epoxy plug isolates the core so water that gets past the bedding sealant can only reach epoxy, and the hole is then chamfered and bedded with sealant (Cruising World; The Yacht Rigger). An unsealed hole lets water wick sideways through foam or plywood core well beyond the hole (The Yacht Rigger).
+- **load**: Medium to heavy, depending on plug size and panel. Strongest in compression (bolt clamp) and in-plane shear, because the plug spreads load into the skins; pull-out (tension) strength depends on the core's shear strength just outside the potting, which is usually the weak point (Abbott Aerospace 12.2.6 method). Bigger plugs carry more, because load capacity rises with circumference (Kitplanes). One team's test: a 1 in factory insert with a 5/16 in through-bolt in a 1/2 in carbon sandwich panel held 30 kN (6,744 lbf) static (CMU Buggy; a single club test, not a design value). An epoxy plug with no backing plate can crack with age and be pushed out of position (Practical Sailor).
+- **adjustable**: no: the position is fixed once the plug cures; drill the pilot hole with the part jigged in place first (Kitplanes).
+- **play_and_precision**: No play once cured. Position accuracy depends on drilling: the final hole is drilled through the centre of the cured plug, or the factory insert is held flush while it cures. In thin carbon skins, a flush insert flange must have no chamfer or it undercuts the skin under side load (Abbott Aerospace 12.2.6).
+- **access_needed**: one side only (blind) for the boat 'core-carve' method and for blind factory inserts, worked from the top with the underside taped; both sides for the through-the-thickness version (tape the bottom, bolt through) (Practical Sailor; The Yacht Rigger; Shur-Lok).
+- **materials**: Suits any sandwich or cored panel: fibreglass or carbon skins over balsa, PVC or polyurethane foam, Nomex or aluminium honeycomb, or plywood core (boat decks and cabin tops, aircraft and solar-car floors, buggy and RC panels) (Cruising World; Abbott Aerospace; CMU Buggy). Potting: epoxy thickened with colloidal silica or a high-density filler (Cruising World), flox (cotton fibre) and epoxy (Kitplanes), toughened epoxy such as G-Flex (Practical Sailor), or a toughened structural adhesive (CMU Buggy). Avoid hollow glass-bubble (microballoon) fillers, which still compress under a bolt (Kitplanes reader comment) ⚑ [uncertain: reader comment]. Polyester and vinylester bond poorly to already-cured skins (Practical Sailor). Not needed in solid laminate or solid wood, where you can drill and bolt directly (The Yacht Rigger). Foam-board models: a dowel or plywood hard point epoxied through the foam does the same job (Model Aviation). *(⚑ parts need confirming)*
+- **maker_difficulty**: moderate: only hand tools, but you must dig out the core without damaging the opposite skin, fill without trapping air, and wait for a full cure before drilling and tightening.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (factory sandwich-panel inserts, epoxy and fillers)
+  - woodwork or general workshop drilling (hand drill, hole saw, core-removal hook)
+  - laying in solid wood, plywood or high-density foam hard points while building the panel
+- **print_in_place**: no: the plug is cast in epoxy inside the panel; printed parts can only be the jig or a spool-shaped insert
+- **making_tips_3d_printing**: A 3D print is itself a kind of cored panel (thin walls round sparse infill), but in a print it is simpler to design the hole boss solid (extra perimeters or a solid modifier region) or use a heat-set or press-fit insert than to pot one afterwards ⚑ [uncertain: general slicer practice, no source opened for this entry]. Printing is useful for jigs that hold a factory insert flush and square while the potting cures, or for a printed spool-shaped insert for a foam-board model; keep printed inserts away from heat, as a large epoxy fill can get hot ⚑ [uncertain: no tested example found]. Printables searches for 'potting insert' and 'sandwich panel insert' found no relevant models. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: 
+  - sandwich panel inserts: threaded or non-threaded, through or blind, locking or non-locking, and floating versions (Shur-Lok (brand) 'Sandwich Panel Inserts')
+  - panel spacers (one-piece, or plug and sleeve) for floor panels, often with epoxy under the flange (Shur-Lok)
+  - potting compounds and structural adhesives (e.g. Loctite EA E-60HP (brand), used by CMU Buggy)
+  - epoxy fillers: colloidal silica (WEST SYSTEM 406 (brand)), high-density filler (WEST SYSTEM 404 (brand)), cotton flox (Cruising World; Kitplanes)
+  - toughened epoxy (WEST SYSTEM G-Flex (brand)) (Practical Sailor; Kitplanes reader comment)
+  - backing plates, large washers and marine bedding sealant (Practical Sailor; Cruising World)
+  - nutplates riveted to the hard point (homebuilt aircraft; Kitplanes)
+- **rules_of_thumb**: 
+  - Boat deck, top skin only: redrill the top skin about half again as big as the fastener hole (1/4 in -> 3/8 in), reef out the core about 1/2 in round the hole, tape the underside, fill with epoxy thickened 'to the consistency of mayonnaise', then redrill slightly oversize (5/16 in for a 1/4 in fastener) and chamfer for sealant (Cruising World, Steve D'Antonio).
+  - Boat deck, through both skins: drill an oversize hole through the whole deck, e.g. 5/8 or 3/4 in for a 5/16 in bolt, tape the bottom, inject thickened epoxy, cure 24 hours, then drill the bolt hole through the centre (The Yacht Rigger). The two sources' oversize ratios differ (1.5x vs 2-2.4x); both aim to seal the core and stop crushing.
+  - Use slow hardener: the core insulates the hole, so fast epoxy in warm weather or sun can boil and leave a foamy plug; Practical Sailor found fast 105/205 OK only below about 70 °F and out of the sun (Practical Sailor).
+  - For screw holes, push in strips of 6 oz glass cloth (about 3/4 x 2 in, 2-4 strips in small holes) after injecting half the epoxy, to stop cracking; don't use mat, roving or biax (Practical Sailor).
+  - Back the plug: an unbacked epoxy plug can become brittle, crack and be pushed out, so use a backing plate (Practical Sailor).
+  - Aircraft hard point: a 1 in hole saw through the inner skin is typical; larger circumference carries more load; cover with glass patches about three times the hole diameter, laid on the wet flox (Kitplanes 'Tough Spot').
+  - Factory insert: drill the skin to the insert's diameter, clear the core well beyond it, fill completely, push the insert in with a twist, inject through one potting hole until it comes out of the other, cure 24 hours (CMU Buggy).
+  - Design: the foot of the bracket bolted to a potted insert must be at least as wide as the potting, and the insert flange must stay flush and parallel to the skin (Abbott Aerospace 12.2.6, from ECSS-E-HB-32-22A).
+
+### When to use it
+
+- **everyday_examples**: 
+  - cleats, solar-panel brackets and antenna bases on a cored fibreglass boat deck (The Yacht Rigger; Cruising World)
+  - luggage bins, galleys and floor panels in airliners, made of honeycomb sandwich with potted inserts (Shur-Lok)
+  - steering, axle and harness mounts in a carbon-sandwich racing buggy chassis (CMU Buggy)
+  - wooden dowel hard points where nylon bolts hold a model aircraft's wing on (Model Aviation)
+- **when_to_use**: Whenever you need to bolt or screw something to a cored or sandwich panel: honeycomb, foam or balsa between thin skins. Use it for every through-bolted fitting on a cored boat deck, even lightly loaded ones, because any hole lets water reach the core (The Yacht Rigger). Lay solid hard points in during building if you know where the hardware goes (Cruising World). Use factory flanged inserts for repeated, accurate attachment points in honeycomb panels.
+- **when_not_to_use**: Not needed in solid fibreglass, solid wood or solid plastic: drill, countersink and seal instead (The Yacht Rigger), or use a heat-set, press-fit or screw-in insert. Where drilling must be avoided or the back can't be reached, a Bonding fastener (glue-on stud) avoids the hole entirely (Practical Sailor 'Glue-on Fasteners'). For a soft-core panel where you only need to stop the bolt crushing it, a Compression limiter (metal sleeve) is a simpler alternative. For rotten or soaked core, repair or replace the core first (Practical Sailor).
+- **environment_limits**: Water: the main reason for potting; once water gets into a cored deck, balsa rots and freeze-thaw cycles can turn foam core to mush and cause delamination (Practical Sailor). Moisture during the job: epoxy has limited tolerance for damp core; dry the core first (Practical Sailor). Ageing: rigid epoxy plugs can become brittle and crack over time; toughened epoxies crack less (Practical Sailor). Heat: as for epoxy generally ⚑ [uncertain: no figure on an opened page]. Cold: cure is much slower; one guide says allow a full 24 hours at normal room temperature and longer in the cold (The Yacht Rigger). *(⚑ parts need confirming)*
+- **safety_notes**: Epoxy skin allergy: some people become sensitised, with symptoms 'from skin irritation to full-on shock' (Practical Sailor); wear gloves and eye protection, and never clean epoxy off skin with solvent (WEST SYSTEM 'Health effects from overexposure to epoxy'; 'General Epoxy Safety Guidelines'). Overheating: fast epoxy in an insulated hole or a large fill can exotherm and boil; a hot pot of epoxy can ignite nearby materials and give off fumes, so mix small batches (Practical Sailor; Epoxyworks 'Health and safety'; The Yacht Rigger). Dust: wear eye protection when reefing out core (Cruising World) and don't breathe sanding dust from partly cured epoxy (WEST SYSTEM). Water in a cored deck rots balsa and can lead to soft, unsafe decks (Practical Sailor). Hard points that hold people (harness, lifeline or rigging fittings) must be designed and tested for the load; CMU Buggy tested theirs before using them for driver harnesses.
+- **common_failures**: 
+  - Crushed core and loose fitting: bolt tightened straight onto foam or balsa without a plug; pot the hole so the bolt bears on epoxy (Cruising World; The Yacht Rigger).
+  - Soft, rotten deck spreading from the hole: hole sealed only with bedding compound, which eventually fails; seal the core with an epoxy plug (The Yacht Rigger).
+  - Foamy, bubbly or weak plug: fast hardener exotherming in heat or sun; use slow hardener or a toughened low-exotherm epoxy (Practical Sailor).
+  - Voids and air pockets: fill slowly with a syringe or brush, and inject until it comes out of the second potting hole (Cruising World; CMU Buggy).
+  - Damaged opposite skin: digging or hole-sawing too deep; stop at the core (Kitplanes).
+  - Plug cracking or pushing out over time: no backing plate; add one, or add glass strips to the plug (Practical Sailor).
+  - Fastener tightened before full cure, still bearing on soft material (The Yacht Rigger).
+  - Insert flange chamfered or proud in a thin carbon skin, which undercuts the skin under side load (Abbott Aerospace).
+- **related**: 
+  - Heat-set threaded insert, Press-fit and expanding inserts, Screw-in threaded insert: all need solid material round them to grip; a potted insert makes that solid material inside a soft core
+  - Blind threaded fixings (rivet nut, well nut): squeeze against a thin sheet from one side; a rivet nut would crush a soft core
+  - Bonding fastener (glue-on stud): glued to the surface with no hole at all, so the core is never opened
+  - Compression limiter (crush tube, bolt sleeve): a metal sleeve that takes the bolt's clamp load; an epoxy plug does the same job and also seals
+  - Fillet-and-tape joint: glassing a bulkhead or frame into a panel; a potted hard point is often the mounting spot inside such a structure
+  - Two-part epoxy: the potting compound; filler choice and slow hardener matter here
+  - Hollow-wall anchors (toggle, molly): the equivalent for plasterboard, which also has thin skins but no glue-in plug
+  - Mid-print embedding (captive nuts, magnets and bearings): the 3D-printing way to place a threaded part inside a part while it is being made
+
+### Pictures, videos and models
+
+- **links**: 
+  - [12.2.6 Potted Inserts in Cored Laminates (Abbott Aerospace, AA-SB-001)](https://www.abbottaerospace.com/aa-sb-001/12-joints/12-2-mechanically-fastened-joints/12-2-6-potted-inserts-in-cored-laminates/): Diagrams (from ESA/ECSS handbooks) of a typical potted insert, its four loading modes, three potting configurations, potting geometry in honeycomb, and the bracket-foot and flange design rules *(licence: link only)*
+  - [Core Concerns: Reefing and Backfilling (Steve D'Antonio, Cruising World)](https://www.cruisingworld.com/?p=40890): Illustrated four-step sequence: drill, redrill the top skin larger, dig out the core with a pick, fill with epoxy, redrill *(licence: link only)*
+  - [Tough Spot: how to install a hardpoint in a cored composite panel (Kitplanes)](https://www.kitplanes.com/tough-spot/): Photos: hole saw through the inner skin, prying off the skin, removing core, filling with flox and epoxy, cover patches and peel ply *(licence: link only)*
+  - [Bulletproof Sailboat Deck Hardware (Practical Sailor)](https://www.practical-sailor.com/boat-maintenance/a-solid-connection): Photos of sectioned balsa and foam core with epoxy plugs, core-removal tools (bent nail, roofing nail, Dremel cutter), and a table of core-filler strengths *(licence: link only)*
+  - [CompositeSandwich.svg (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:CompositeSandwich.svg): Diagram of a sandwich panel: two face sheets and a honeycomb core (the panel type a potted insert goes into) *(licence: CC0 1.0 (public domain dedication))*
+- **make_it_yourself**: 
+  - [AA-SM-140 Composites - Potted Insert Strength - Key Parameters (spreadsheet linked from Abbott Aerospace 12.2.6)](https://www.abbottaerospace.com/aa-sb-001/12-joints/12-2-mechanically-fastened-joints/12-2-6-potted-inserts-in-cored-laminates/): A spreadsheet linked from the Abbott Aerospace page that works out effective potting radius and the key numbers for estimating potted-insert strength in honeycomb or foam core (spreadsheet itself not downloaded) *(licence: link only ⚑ [uncertain: licence not checked])*
+  - [Hard Point Manufacturing Documentation (CMU Buggy, PDF)](https://cmubuggy.org/news/wp-content/uploads/2025/06/Hard-Point-Manufacturing-Documentation.pdf): A two-page club how-to for potting factory inserts into a carbon sandwich panel: materials list, step-by-step process and a load-test result *(licence: link only)* *(⚑ parts need confirming)*
+- **diagram_idea**: A cut-away of a sandwich panel (two thin skins, honeycomb or balsa core) showing, left, a bolt crushing the bare core, and right, the core dug out round the hole and filled with a mushroom-shaped epoxy plug round a flanged insert, with the bracket foot wider than the plug.
+- **sources**: 
+  - https://www.abbottaerospace.com/aa-sb-001/12-joints/12-2-mechanically-fastened-joints/12-2-6-potted-inserts-in-cored-laminates/
+  - https://www.cruisingworld.com/?p=40890
+  - https://theyachtrigger.com/blogs/the-on-deck-channel/how-to-drill-through-fiberglass-decks-without-damaging-the-core
+  - https://www.practical-sailor.com/boat-maintenance/a-solid-connection
+  - https://www.kitplanes.com/tough-spot/
+  - https://cmubuggy.org/news/wp-content/uploads/2025/06/Hard-Point-Manufacturing-Documentation.pdf
+  - https://www.shur-lok.com/products/sandwich-panel-inserts.html
+  - https://library.modelaviation.com/article/installing-one-piece-bolt-wing
+  - https://www.practical-sailor.com/issues/37_79/features/Glue-on-Fasteners_12235-1.html
+  - https://en.wikipedia.org/wiki/Sandwich-structured_composite
+  - https://commons.wikimedia.org/wiki/File:CompositeSandwich.svg
+  - https://www.westsystem.com/safety/health-effects-from-overexposure-to-epoxy/
+  - https://www.westsystem.com/safety/preventing-overexposure/
+  - https://www.epoxyworks.com/?p=9878
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: 3D-printed part, boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, power tools, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: yes
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: foam, carbon fibre or composites
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** environment_limits, holding_principle, make_it_yourself, making_tips_3d_printing, materials, reuse_cycles
+
+## 436 Bonding fastener (glue-on stud, bonded-base stud or nut, perforated-base fastener)
+
+*everyday fasteners & fixings.* A stud, nut or threaded collar on a wide perforated base plate that is glued onto a surface or laminated into it, giving a thread to bolt onto without a hole through the part, as on fibreglass boats, carbon panels and camper walls
+
+*Also covers:* Also covers surface bonding versus embedding in the lay-up, bonding to the back face so the stud passes through, home-made versions (threaded rod in a glued block of G10), choice of adhesive (epoxy, methacrylate) and holding it still while it cures. Safety: only as strong as the surface it is glued to; don't hang people or overhead loads on it without the maker's ratings.
+
+### What it is
+
+- **plain_name**: A bolt, nut or threaded socket fixed to a wide, thin metal or plastic plate full of holes, which you glue onto a surface (or bury in fibreglass as it is made) so you get a screw thread to bolt things onto without drilling a hole through the part
+- **term**: Bonding fastener (adhesive-bonded stud, nut or collar; glue-on stud)
+- **aliases**: 
+  - glue-on stud, glue-on fastener (Practical Sailor 'Glue-on Fasteners')
+  - adhesive-bonded fastener, adhesively bonded stud (Click Bond FAQ; Carr Lane 'Adhesively Bonded Fasteners' flyer)
+  - bonded stud, bonded nut, bonded nutplate; rivetless nutplate (Click Bond FAQ; Kitplanes 'ClickBond Fasteners Streamline Construction')
+  - embedding fastener, surface-bonding fastener, perforated-head fastener (Easy Composites; bigHead TDS)
+  - threaded collar fastener, blind or sighted threaded collar (Easy Composites)
+  - bigHead (brand; 'their name being synonymous with ... big head fasteners', Easy Composites)
+  - Weld Mount (brand), Click Bond (brand), Sea-Lect glue-on studs (brand) (Practical Sailor; Carr Lane; Kitplanes)
+  - adhesive screw, glue-on mounting adapter, tesa Power.Kit (brand) for bathroom fittings (tesa)
+- **family**: everyday fasteners & fixings
+- **other_families**: adhesives & bonding
+- **one_liner**: A threaded stud, nut or collar welded to a broad perforated base plate that is glued to a surface or laminated into a composite, giving a strong threaded mounting point with no hole drilled through the part.
+- **complexity**: A few parts: the fastener itself (a threaded stud or a threaded collar or nut, welded to a thin, wide, perforated base plate called the head), the adhesive or laminating resin, and often a holding fixture (rubber plug, tape or clamp) used while it cures (Easy Composites; Click Bond FAQ; Carr Lane). Home-made versions are a bolt or threaded rod epoxied into a block of G10 fibreglass sheet (Practical Sailor).
+- **how_it_works**: Instead of putting a hole through the part, the load is passed into it through a wide area of glue: the base plate is many times wider than the thread, so a pull on the stud is spread over the whole bonded area instead of a small hole (Easy Composites: laminates 'are vulnerable to point-loading'; a bonding fastener spreads the load 'over a wider area'). The holes in the base let adhesive or resin flow through and set on both sides, locking the plate in like a rivet head (Easy Composites). It can be surface-bonded after the part is made, or embedded (co-processed) as the fibreglass or plastic part is laid up or moulded (Bossard; bigHead guidance). For the most strength, the plate is glued to the back face with the stud poking through a small hole, so the nut clamps the panel against the plate (Easy Composites).
+
+### Finder attributes
+
+- **job**: join and hold: adds a threaded point to bolt equipment, brackets, covers or panels onto, glue or bond: the base plate is held on by adhesive (surface bonding) or by the laminate's resin (embedding)
+- **motion**: none
+- **degrees_of_freedom**: 0: once cured the stud is fixed to the surface. Floating nutplate versions let the nut slide a little to line up with the bolt (Carr Lane).
+- **special_behaviour**: none: a fixed threaded mounting point; floating nutplates are self-aligning for bolt misalignment (Carr Lane)
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): adhesive or laminating resin bonds the base plate to the surface
+  - shape (the parts interlock; form-fit): adhesive that flows through the perforations and sets locks the plate mechanically as well (Easy Composites)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent for the bonded base (practically: removing an epoxied stud 'will tear out a chunk of the bulkhead', Practical Sailor; some acrylic-bonded studs can be peeled off after heating to about 350 °F, with care not to overheat a composite, Kitplanes); the nut or screw on the thread stays removable. tesa Power.Kit adapters are made to be twisted off with pliers and the adhesive scraped away (tesa).
+- **reuse_cycles**: once for the bond; the nut or bolt on it many times
+- **tools_needed**: Abrasive (sandpaper or Scotch-Brite) and solvent for surface preparation; the adhesive (two-part epoxy, a methacrylate in a cartridge gun with mixing nozzle, or a supplied one-part adhesive); tape, clamps or the maker's fixture to hold it still while it cures; a spanner for the nut (Carr Lane; Practical Sailor; Click Bond FAQ; tesa).
+- **seal**: watertight at the mounting point: there is no hole through the skin, so nothing can leak in, which is the reason for using it on cored boat hulls (Practical Sailor). The 'through' version (stud passing through a hole) needs the hole sealed like any other.
+- **load**: Light to medium (heavy only for industrial products used to their ratings). Strong in shear and tension when bonded to a sound surface; weak in peel, so side loads that lever the plate up are worst ⚑ [uncertain: general adhesive rule, see Glued joint design entry]. Maker's figures: Weld Mount-type 2 in base studs (5/16 and 3/8 in) about 1,200 lb tensile and 1,500 lb shear, smaller 1 1/4 in base studs 500 lb tensile and 650 lb shear (Carr Lane flyer); a bigHead M5 stud on a 20 mm head is limited to 5.6 kN at the weld and 6.1 Nm tightening torque (bigHead SM1-B20 TDS). These ratings are for the fastener; the real limit is usually the surface it is glued to: paint, gelcoat or a weak skin fails first (tesa: coated, painted or sealed surfaces reduce load capacity). Practical Sailor doesn't recommend glue-on studs 'for rigging loads or equipment subject to high impact'. *(⚑ parts need confirming)*
+- **adjustable**: Only while wet: with the equipment held in position and the studs hanging from its mounting holes, the studs can be glued in place for perfect alignment (Practical Sailor 'Alignment Tip'). Once cured, position is fixed.
+- **play_and_precision**: No play once cured. Placement accuracy depends on holding it still while the adhesive sets: plain bonded bases 'tend to slide around as though on skates' without tape or clamps (Practical Sailor); high-viscosity 'no-slide' adhesives or the maker's fixtures prevent this (Carr Lane; Click Bond FAQ). Clearance holes in the part bolted on should be smaller than the fastener's shoulder (ideally 80-90% of its diameter) so the clamp load bears on the shoulder (bigHead guidance).
+- **access_needed**: one side only (blind): it is glued to one face with no need to reach the back, which is its main advantage (Practical Sailor: when 'the other side is either inaccessible or exposed'). The strongest 'through' version needs the back face (Easy Composites).
+- **materials**: Fastener: usually 304 or 316 stainless steel (Carr Lane; Easy Composites). Suits: fibreglass (GRP) and carbon laminates, metals (aluminium, stainless, galvanised steel), engineering plastics and composites (Easy Composites; Carr Lane); tile, stone, glass, concrete, metal, wood and many plastics for household adapter kits (tesa). Embedding needs material about 3 mm thick or more round the head (bigHead SM1-B20 TDS). Adhesives: methacrylate (MMA) structural adhesives (Easy Composites VM100, Weld Mount AT-8040), two-part epoxy thickened to mayonnaise consistency (Practical Sailor), or the maker's own adhesive. Poor: polyethylene (PE), polypropylene (PP) and PTFE, loose or painted plaster, wallpaper, fabrics, and painted or sealed coatings (tesa); gelcoat or paint that could peel off the laminate ⚑ [uncertain: forum advice seen in search results to grind to bare fibreglass, page not opened]. *(⚑ parts need confirming)*
+- **maker_difficulty**: easy: glue it on and wait; the skill is in surface preparation, choosing the adhesive, and holding it still while it cures.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (bonding studs, nuts and collars; adhesive kits)
+  - woodwork or composites lay-up (embedding in fibreglass, or a home-made G10 block with threaded rod)
+  - 3D print (FDM) for home-made bases or covers holding a glued-in nut
+- **print_in_place**: no: the threaded metal part is bought; a printed base with a captive nut can be printed with a pause to drop the nut in, but it is then glued on as a separate part
+- **making_tips_3d_printing**: A printed base can stand in for the metal plate on light loads: one maker prints a phone-to-tripod adapter with a 1/4-20 nut glued into the base, then sticks it on with 3M tape (Printables 531033). Make the base wide and flat, give the nut a hex pocket so it can't spin, and treat the print's own layer strength and the glue's grip on PLA or PETG as the weak links ⚑ [uncertain: no test data found]. For a stronger result glue a metal bonding stud to the part instead, using an adhesive that suits both materials. Printed covers can hide glue-on studs (Printables 55589, made for tesa Power.Kit adapters; printed upside down in PETG). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: 
+  - perforated-head threaded studs, blind and sighted threaded collars (bigHead (brand), e.g. stud on a 20 mm round head, M4-M10) (Easy Composites; bigHead SM1-B20 TDS)
+  - adhesively bonded studs, floating nut plates and lanyard (cable-tie) mounts (Weld Mount (brand), sold by Carr Lane) (Carr Lane flyer)
+  - adhesive-bonded nutplates, studs, standoffs and mounts with installation fixtures (Click Bond (brand)) (Click Bond FAQ)
+  - glue-on studs 1/4-20 for marine use (Sea-Lect (brand)) (Practical Sailor)
+  - structural adhesives: methacrylate (e.g. Easy Composites VM100, Weld Mount AT-8040 no-slide), two-part epoxy with colloidal silica or other thickener (Easy Composites; Carr Lane; Practical Sailor)
+  - household drill-free adapter kits with one-part SMP adhesive (tesa Power.Kit (brand)) (tesa)
+  - G10 / FR4 fibreglass sheet offcuts and stainless threaded rod for home-made bonded studs (Practical Sailor)
+- **rules_of_thumb**: 
+  - Prepare the surface: clean off grease, sand or scuff, and solvent-wipe both the base and the surface (Carr Lane step 1; Practical Sailor; Click Bond FAQ). Degrease threaded rod before bonding it, because thread-cutting oil remains (Practical Sailor).
+  - Epoxy method: thicken epoxy to mayonnaise consistency (stiffer on vertical surfaces) and press the stud into the mound until adhesive comes out round the edge and through all the holes; on vertical faces hold it with tape or a 4 in square of glass cloth laminated over it (Practical Sailor).
+  - Methacrylate method: a large drop in the centre of the base, push down to squeeze it out, turn slowly clockwise while pushing until it won't turn; handling strength in about 12 minutes, functional cure in 45 minutes, 75% of final strength in 45 minutes (Carr Lane / Weld Mount flyer).
+  - Hold it still and under light pressure while it cures: that sets the right glue-line thickness and position (Click Bond FAQ).
+  - Strongest arrangement: bond the plate to the back face with the stud through a small hole, so the nut clamps the panel (Easy Composites); keep the clearance hole smaller than the stud's shoulder (80-90% of shoulder diameter) and avoid gaps between the parts, or tightening pulls the fastener off (bigHead 'Fastening and assembly guidance').
+  - Don't over-tighten: follow the maker's maximum torque (e.g. 6.1 Nm for an M5 bigHead SM1-B20 stud) (bigHead SM1-B20 TDS).
+  - Household adapters: the surface must be flat with gaps under the adapter no more than 1 mm; cure 12 hours at about 23 °C and 50% humidity before loading (tesa).
+
+### When to use it
+
+- **everyday_examples**: 
+  - drill-free shower baskets and towel rails glued to bathroom tiles with screw adapters (tesa Power.Kit)
+  - electrical boxes, pumps and solar-panel mounts glued to the inside of a fibreglass boat hull or hard top (Practical Sailor)
+  - cowling and fairing nutplates glued inside homebuilt aircraft (Kitplanes)
+  - threaded studs bonded to the back of carbon-fibre car body panels so no fixing shows on the outside (bigHead guidance)
+- **when_to_use**: When you need a threaded mounting point but drilling is bad or impossible: on fibreglass and carbon laminates (drilling cuts fibres and they can't be tapped), on cored hulls and decks where a hole would let water into the core, where you can't reach the back to fit a nut, where a hole would show on the visible face, and on tiles or glass you don't want to drill (Easy Composites; Practical Sailor; tesa). Also a quick way to add many small mounting points for cables, conduit and light equipment.
+- **when_not_to_use**: Not for loads that hold people, rigging, lifting or overhead loads unless the maker rates it for that use; Practical Sailor doesn't recommend glue-on studs for rigging loads or equipment subject to high impact. Not on surfaces that may peel (paint, wallpaper, loose plaster, flaky gelcoat) or on PE, PP or PTFE (tesa). Not where it is permanently wet or submerged, for household adhesive kits (tesa). For high loads, through-bolt with a backing plate, and in a cored panel use a Potted insert. In solid wood or a thick print, a Heat-set or Screw-in threaded insert is simpler.
+- **environment_limits**: Temperature: depends on the adhesive; a household SMP adhesive is rated -40 to +100 °C once cured and must be applied between +5 and +40 °C (tesa); an acrylic-bonded aircraft fastener softens enough to peel off at about 350 °F (Kitplanes). Water: tesa's kit is moisture-resistant but not for permanent immersion, running water or steam rooms (tesa); epoxy- or methacrylate-bonded marine studs are used inside boats (Practical Sailor). Creep: if the parts clamped by the nut are plastic or polymer composite, they can creep and the clamp loosens over time, so test the assembly (bigHead guidance). UV and long-term ageing ⚑ [uncertain: no figure found]. *(⚑ parts need confirming)*
+- **safety_notes**: Only as strong as the surface it is glued to: a strong stud on paint, a sealed or water-repellent coating, or a thin skin can pull the surface off with it (tesa: coated, painted or sealed surfaces reduce load capacity, and the insulating layer on hydrophobic tiles cannot be removed chemically). Don't hang people, harnesses, rigging, or heavy overhead items from a glued-on stud unless the maker's ratings and a proof test say it can take it (Practical Sailor; bigHead TDS disclaimers: always test). Epoxy skin allergy: wear gloves and avoid skin contact (WEST SYSTEM 'Health effects from overexposure to epoxy'). Methacrylate adhesives have a strong smell and are often flammable; ventilate and read the safety data sheet ⚑ [uncertain: not stated on an opened page]. tesa warns its cured adhesive can give hazardous dust if sanded or scraped ⚑ [uncertain: seen in a search summary, not on the opened page]. *(⚑ parts need confirming)*
+- **common_failures**: 
+  - Stud pulls off with paint, gelcoat or a surface coating attached: bonded to a weak coating; bond to a sound, clean, scuffed substrate (tesa; Carr Lane).
+  - Stud slides out of position before cure: thin epoxy with no holes to grip; use thicker mix, perforated bases, a no-slide adhesive, or tape and clamps (Practical Sailor; Carr Lane).
+  - Bond fails while tightening the nut: gap between the parts or clearance hole bigger than the shoulder, so the nut pulls the head off; fit a washer, close the gap, or use a smaller hole (bigHead 'Fastening and assembly guidance').
+  - Weak bond from contamination: oil on threaded rod or a dirty base; degrease and solvent-wipe (Practical Sailor).
+  - Loaded too soon: wait for the adhesive's cure time (e.g. 12 hours for tesa's kit; 45 minutes functional for a fast methacrylate) (tesa; Carr Lane).
+  - Over-tightened: twisting the welded head off; keep to the maker's torque (bigHead SM1-B20 TDS).
+- **related**: 
+  - Potted insert (sandwich-panel insert, hard point): makes a threaded point inside a cored panel by drilling and filling; a bonding fastener avoids the hole
+  - Self-clinching fastener (press-in nut or stud): pressed permanently into sheet metal, needs a punched hole
+  - Blind threaded fixings (rivet nut, well nut): need a hole but only one-side access
+  - Double-sided foam tape (acrylic foam PSA): a quick, removable way to stick light mounts without threads or glue mixing
+  - Structural acrylic and LSE adhesives: the methacrylate glues often used to bond these fasteners
+  - Two-part epoxy: the common home choice for gluing on studs
+  - Threaded rod and studs: the home-made version uses threaded rod bonded into a G10 block (Practical Sailor)
+  - Fillet-and-tape joint: laminating a square of glass over a stud on a vertical face uses the same wet lay-up
+
+### Pictures, videos and models
+
+- **links**: 
+  - [bigHead Threaded Stud Round Base; M5, M6, M8, M10 (Easy Composites)](https://www.easycomposites.co.uk/bighead-threaded-stud-fastener): Photos of a stainless stud welded to a perforated round base, with an explanation of embedding versus surface bonding and links to the datasheet and assembly guide *(licence: link only)*
+  - [bigHead Core range fastening and assembly guidance (PDF, bigHead via Easy Composites)](https://media.easycomposites.co.uk/datasheets/bigHead_Core_range_fastening_and_assembly_guidance.pdf): Diagrams of bonded and embedded installations, correct and incorrect clearance holes and gaps, and how tightening can pull a fastener off *(licence: link only)*
+  - [Adhesively Bonded Fasteners flyer (Carr Lane, Weld Mount system, PDF)](https://www.carrlane.com/Portals/0/PDFs/Print%20Fliers/CLM-Adhesive%20Bonded%20Fastener%20Flyer-v3-PM-0.125-BLEED.pdf): Seven-step photo sequence of bonding a stud with a cartridge adhesive, and tables of stud, nut plate and lanyard mount sizes with strengths *(licence: link only)*
+  - [FAQ | How do adhesive-bonded fasteners work? (Click Bond)](https://www.clickbond.com/frequently-asked-questions-detail/how-does-it-work-/): Picture and explanation of the surface prep, bond, fixture, cure and fixture-removal steps *(licence: link only)*
+  - [Glue-on Fasteners (Practical Sailor)](https://www.practical-sailor.com/issues/37_79/features/Glue-on-Fasteners_12235-1.html): Photos of marine glue-on studs, home-made G10 studs for a solar-panel mount, and alignment tips *(licence: link only)*
+- **make_it_yourself**: 
+  - [iPhone Tripod Mount using 3M tape and 1/4-20 nut glued in (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/531033-iphone-tripod-mount-using-3m-tape-and-14-20-nut-gl): A printed base with a 1/4-20 nut glued in, stuck to the back of a phone with 3M tape: a light-duty home-made bonded-base nut. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Ikea Fintorp cover and spacer for installation using tesa Power.Kit (glue on studs) (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/55589-ikea-fintorp-cover-and-spacer-for-installation-usi): Customisable FreeCAD covers and spacers that hide glue-on stud adapters and support a kitchen rail against the wall; printed upside down in PETG. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+- **diagram_idea**: Side-by-side cross-sections of a panel: (1) a stud on a perforated plate glued to the front face, with glue pushed through the holes like mushroom heads; (2) the plate glued to the back face with the stud through a small hole and a nut clamping a bracket; (3) the plate buried between glass layers of a laminate, with arrows showing load spreading over the plate's whole area.
+- **sources**: 
+  - https://www.easycomposites.co.uk/bighead-threaded-stud-fastener
+  - https://media.easycomposites.co.uk/datasheets/bigHead_Core_range_fastening_and_assembly_guidance.pdf
+  - https://media.easycomposites.co.uk/datasheets/bigHead_Threaded%20Stud%20Round%20-M5%20Only-%20SM1_B20_TDS.pdf
+  - https://www.bossard.com/ch-de/produktloesungen/produktanwendungen/bighead
+  - https://www.practical-sailor.com/issues/37_79/features/Glue-on-Fasteners_12235-1.html
+  - https://www.carrlane.com/Portals/0/PDFs/Print%20Fliers/CLM-Adhesive%20Bonded%20Fastener%20Flyer-v3-PM-0.125-BLEED.pdf
+  - https://www.clickbond.com/frequently-asked-questions-detail/how-does-it-work-/
+  - https://www.clickbond.com/frequently-asked-questions-detail/why-click-bond-/
+  - https://www.kitplanes.com/?p=51696
+  - https://www.tesa.com/sk-sk/spotrebitel/kupelnove-doplnky/technologia-power-kit
+  - https://www.westsystem.com/safety/health-effects-from-overexposure-to-epoxy/
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
+- **bonds_well**: wood, metal, glass or ceramic, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate [uncertain: forum advice seen in search…"*
+- **bonds_poorly**: slippery plastics (PE or PP), paper or card, fabric or leather ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate [uncertain: forum advice seen in search…"*
+- **tools**: press or vice, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: partly
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** environment_limits, load, making_tips_3d_printing, materials, safety_notes
+
+## 438 Compression limiter (crush tube, bolt sleeve, compression sleeve)
+
+*everyday fasteners & fixings.* A short metal tube fitted in a bolt hole through plastic, a print, a composite plate or a cored panel, so the bolt clamps on the tube instead of the soft material and the joint stays tight instead of crushing or creeping loose
+
+*Also covers:* Also covers sizing the tube a little shorter than the part, split-seam, moulded-in and pressed-in types, home-made tube or brass-tube versions in prints, epoxy rings in cored panels and wide washers. Safety: a crushed or crept joint loosens without warning, so check bolts on anything that carries people.
+
+### What it is
+
+- **plain_name**: A short metal tube that sits in the bolt hole of a plastic, printed or soft part, so when you tighten the bolt it squeezes the metal tube instead of crushing the soft part, and the bolt stays tight
+- **term**: Compression limiter (crush tube, bolt sleeve, compression sleeve)
+- **aliases**: 
+  - compression limiter, CL (SPIROL; Bulten)
+  - anti-creep ring (EFC International: 'Compression Limiters, also known as Anti-Creep Rings')
+  - crush tube (motorsport and chassis fabrication, for a tube inside a hollow box section; HP Academy)
+  - bolt sleeve, compression sleeve, metal sleeve, spacer tube (general workshop usage; EFC 'Bolt Sleeve Assemblies')
+  - split-seam compression limiter, solid / machined / knurled / headed / oval / moulded-in compression limiter (SPIROL; Bulten)
+  - compression limiter assembly (CLA), captive bolt assembly (a limiter with its bolt held in it; Bulten)
+  - PressLoc (brand) compression limiters and bolt sleeve assemblies (EFC International)
+  - spacer for thin box tube (FRC robotics usage) ⚑ [uncertain: product page could not be opened]
+  - reefing and backfilling / epoxy ring (boat-deck method that does the same job in a cored panel; Cruising World) *(⚑ parts need confirming)*
+- **family**: everyday fasteners & fixings
+- **other_families**: adjusters, levellers & spacers, print-in-place & 3D-printing joints
+- **one_liner**: A compression limiter is a short, stiff metal tube fitted in a bolt hole through a soft or hollow part (plastic, a 3D print, rubber, wood, a composite or cored panel, a box-section tube), sized so the bolt's clamping force is carried by the tube instead of the soft material, which stops it crushing, cracking or slowly creeping until the bolt goes loose.
+- **complexity**: Single piece (a plain, knurled, headed, oval or split-seam metal tube) used with an ordinary bolt, washer and nut; a 'compression limiter assembly' is a few parts (limiter plus captive bolt) supplied as one unit (Bulten). In a cored panel the 'tube' is a ring of cured epoxy filling the hole round the bolt (Cruising World).
+- **how_it_works**: A bolt clamps by stretching slightly, and that stretch only stays if everything it squeezes stays the same thickness. Plastic and other soft materials slowly squash and flow under a constant squeeze (creep and stress relaxation), so the bolt loses its pull and the joint works loose (SPIROL: 'plastic always exhibits stress and strain relaxation under even modest loads'). A metal tube in the hole, made 'slightly shorter than the thickness of the plastic host', lets the plastic be gripped a little until the bolt head or washer lands on the tube; after that the tube carries the extra clamping load and the plastic is only lightly squeezed, so the bolt stays tight (SPIROL). The same idea stops a bolt crushing a hollow box section (a crush tube inside the rail; HP Academy) or the soft core of a sandwich panel (an epoxy ring round the bolt; Cruising World).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: it is part of a bolted joint through a soft part and keeps that joint tight
+  - line parts up exactly: a tight-fitting limiter also locates the part on its bolt; oval limiters give extra clearance in one direction only to allow for tolerances (SPIROL; Bulten)
+- **motion**: none
+- **degrees_of_freedom**: 0: the bolt clamps the parts together through the tube
+- **special_behaviour**: 
+  - none of the listed clever behaviours: it is a passive load path. Its one trick is that it sets a hard stop for how far a bolt can squeeze a soft part, a little like a torque limiter for clamping thickness rather than for torque
+- **holding_principle**: 
+  - friction or clamping (force-fit): the bolt clamps the parts, and the limiter keeps that clamp from fading
+  - shape (the parts interlock; form-fit): moulded-in limiters have radial grooves, and pressed-in ones have knurls, that lock them into the plastic (SPIROL; Bulten)
+  - spring force (a spring or springy part presses it in place): split-seam limiters hold in their hole by their own spring tension (SPIROL)
+  - material bond (glue, solvent or melting): home-made sleeves in prints and epoxy rings in cored panels are glued or cast in place (Cruising World)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: the bolt undoes normally; pressed-in, moulded-in, welded or glued limiters stay in the part (semi-permanent), while a loose crush tube may move if the bolt is taken out (HP Academy)
+- **reuse_cycles**: many times: the metal tube does not wear when the bolt is undone and re-tightened, as long as it has not been crushed by over-tightening
+- **tools_needed**: none extra beyond the bolt's spanner or driver. To fit: an arbor press, vice or a bolt and washers to press knurled or split limiters in; epoxy for glued sleeves; a saw and file or linisher to cut home-made tube square; a drill to open the hole; a welder for welded-in crush tubes in steel rails (HP Academy). Factories use press machines or mould the limiter in (SPIROL).
+- **seal**: none on its own: it sets the squeeze on a gasket if one is used (see the Gasket entry), and in cored boat decks the epoxy ring also seals the core against water (Cruising World)
+- **load**: Medium to heavy in clamping (compression along the bolt): standard limiters are rated for bolts up to ISO class 8.8, heavy-wall and machined ones up to class 10.9 (SPIROL), so the bolt is usually the weak link, not the limiter. It adds nothing in shear or pull-out of the plastic part itself: the plastic around the tube still takes the sideways and twisting loads, and a short limiter can be pushed out if not knurled or held (Bulten).
+- **adjustable**: no: the limiter's length fixes the final clamped thickness; to change it, change the limiter or add a washer
+- **play_and_precision**: Small: the bolt has clearance in the tube to allow for hole misalignment (SPIROL: at least 1 mm round the bolt for split-seam CL220, 0.5 mm for the slim CL200; oval types allow 2.25 mm extra on one axis). Once clamped the joint is rigid and repeatable because the clamp stops on the metal.
+- **access_needed**: both sides: a through-bolt needs access to the bolt head and nut, unless the bolt goes into a threaded insert or tapped hole on the far side
+- **materials**: Limiter: steel (high-carbon spring steel for split-seam types, low-carbon steel for moulded-in, zinc plated), aluminium 2024 (about 1/3 the weight of brass), brass (chosen where it must be more 'noble' than aluminium on the galvanic scale) (SPIROL); Bulten lists steel, brass and aluminium. Home-made: steel or aluminium tube, brass hobby tube, or a cured epoxy ring. Host (what it protects): thermoplastics and thermosets, 3D prints, plastic, wood and rubber parts (Vogelsang via Design World), composite and cored sandwich panels (Cruising World), hollow steel or aluminium box sections (HP Academy). Not needed where the part itself is a stiff metal or solid laminate that won't creep under the bolt.
+- **maker_difficulty**: easy: cut a metal tube square to just under the part's thickness and press or glue it into the hole; buy standard limiters if you need precise lengths
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (split-seam, solid, knurled, headed, oval and moulded-in compression limiters)
+  - 3D print (FDM) or 3D print (resin): print the part with a hole sized for a metal tube, then press or glue the tube in (the tube itself should be metal)
+  - CNC: machine a part's bolt bosses to take a pressed-in limiter
+  - sheet metal: crush tubes welded into box sections (HP Academy)
+  - composite lay-up: overdrill, fill with thickened epoxy and redrill to make an epoxy ring in a cored panel (Cruising World)
+- **print_in_place**: partly: the printed part can be designed with a hole or a pause-and-drop pocket for the tube, but the limiter must be an added metal tube; a printed tube would creep just like the part it is meant to protect
+- **making_tips_3d_printing**: Use a metal tube, not a printed one: limiters are metal 'because plastic always exhibits stress and strain relaxation under even modest loads' (SPIROL), and printed parts 'deform over a few days' under constant bolt pressure ('plastics will creep under continuous compression, and the opposing force on the bolt will drop. Metal standoffs would be better', Langmuir Systems forum). Length: make the tube no longer than the printed part's thickness, ideally a little shorter, so the bolt head or washer seats on both the print and the tube (SPIROL; Bulten); measure the real printed thickness, because prints are rarely exactly the CAD size. Hole: size it for a light press fit or a glue fit to the tube's outside diameter; test with a short coupon first, since FDM holes usually print undersize ⚑ [uncertain: no opened source gives a printed-hole allowance for limiters]. Wall round the hole: at least half the bolt diameter (e.g. 3 mm for M6) (Bulten). Fitting: press in with a vice or a bolt and washers, or glue with epoxy; a knurled tube grips better in plastic (Bulten). Material of the print: PLA 'deforms over time under load'; PETG or nylon hold better (Printables 954045 designer notes). Add a washer under the bolt head so the load spreads over both tube and print. Hollow prints or sparse infill crush easily round a bolt: use solid walls or many perimeters there ⚑ [uncertain: general FDM practice]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search 'compression limiter' (split seam, solid, knurled, headed, oval, moulded-in; e.g. SPIROL Series CL200, CL220, CL6000, CL8000 (brand)), 'anti-creep ring', 'PressLoc compression limiter' (brand, EFC International), 'compression limiter assembly' or 'captive bolt assembly' (Bulten), 'bolt sleeve', 'spacer tube', 'crush tube', 'spacer for thin box tube' (FRC robotics). Home-made: 'brass tube' or 'aluminium tube' hobby stock cut to length; 'thickened epoxy' (e.g. West System 404 or 406 filler (brand)) for cored panels. See the supplier catalogues (SPIROL and Bulten design guides) for sizes rather than copying tables.
+- **rules_of_thumb**: 
+  - Length: the limiter should be 'slightly shorter than the thickness of the plastic host' (SPIROL); 'the minimum plastic thickness equals the maximum compression limiter length' (Bulten).
+  - The bolt head or washer 'should always seat against both the plastic host and the Compression Limiter under load', which stops loss of clamp from plastic creep (SPIROL).
+  - The limiter's proof load should be at least the bolt's, so the limiter never yields before the bolt (SPIROL).
+  - Tighten to a bolt load of 25% to 75% of the bolt's proof load; actual load from a given torque can vary by about plus or minus 25% (SPIROL).
+  - Allowing 3-5% compression of an engineering thermoplastic is a safe, conservative limit; most plastics tolerate 5-7% (SPIROL).
+  - Plastic boss wall round the limiter: at least 50% of the bolt diameter, e.g. 3.0 mm for M6 (Bulten).
+  - Moulded holes for pressed-in limiters: about 1 degree inclusive taper, larger at the insertion side; for long limiters an interference fit may only be needed over part of the length (Bulten). Example of the press fit: Bulten's standard M6 limiter is 9.20 mm outside diameter for a 9.00-9.10 mm hole.
+  - Crush tube in a hollow rail: cut it square and to the inside height; too long and it won't fit, too short and the rail still crushes; tack or fully weld it so it can't move when the bolt is out (HP Academy).
+  - Cored deck (epoxy ring): redrill the top skin about half again as large (1/4 in to 3/8 in), dig out the core about 1/2 in round the hole, fill with epoxy thickened to mayonnaise consistency, then redrill; 'the epoxy ring prevents the fastener from crushing the core. A 1/4-inch fastener can exert more than 500 pounds of pressure on the core' (Cruising World).
+
+### When to use it
+
+- **everyday_examples**: 
+  - the metal sleeves moulded into the bolt holes of plastic car engine covers, intake manifolds and bumpers ⚑ [uncertain: no opened source names these parts]
+  - the metal tube inside a rubber anti-vibration grommet or bobbin on a mounted panel or radiator ⚑ [uncertain]
+  - a spacer tube through a hollow box-section chassis rail or robot frame tube (HP Academy; FRC spacer for thin box tube)
+  - an epoxy-filled bolt hole under a deck fitting on a fibreglass boat (Cruising World) *(⚑ parts need confirming)*
+- **when_to_use**: Whenever a bolt or screw clamps through something that will squash, creep or crack under constant squeeze: 3D-printed brackets and mounts, plastic housings, wood that will shrink, rubber or foam-backed parts, composite or cored sandwich panels, and hollow box-section tube. Use it for any joint that must stay tight for a long time, gets warm, vibrates, or carries a safety-relevant load, and when you want to tighten the bolt properly without guessing how hard the part can take.
+- **when_not_to_use**: Not needed in solid metal parts or thick, hard laminates. Not a fix for a hole that is too close to an edge or a wall that is too thin, which will still split sideways. Not suitable where the part must flex or float on the bolt (use a shoulder bolt or a rubber isolation mount with its own limiter). Where the bolt goes into the soft part rather than through it, use a threaded insert (heat-set, press-fit or potted insert). Where you just need a set gap between two hard parts, use a spacer or standoff instead.
+- **environment_limits**: The metal limiter itself is unaffected by heat and cold in hobby use; the point is that the plastic round it creeps faster when warm, so limiters matter most in hot places (engine bays, sunny windows, near heaters) ⚑ [uncertain: no opened source gives temperatures]. Corrosion: SPIROL's formed limiters are zinc plated with a sealer (144 hours to white corrosion and 384 hours to red corrosion in salt spray) or ArmorGalv-coated for 1000+ hours (CL220); aluminium and brass need no coating (SPIROL). Galvanic corrosion: choose brass where an aluminium limiter would sit against a more noble metal (SPIROL). Vibration: a limiter keeps bolt tension, which helps resist loosening, but still use thread-locking hardware where it shakes. *(⚑ parts need confirming)*
+- **safety_notes**: A crushed or crept joint loosens without warning: plastic parts 'are destroyed during fastening' without limiters, and tightening 'causes compression, which can lead to cracking and creep' (Vogelsang via Design World; EFC International). On anything that carries people (seats, bike or scooter parts, climbing or play structures), re-check bolts after the first days of use and regularly after that, and don't rely on printed parts alone. Over-tightening to the bolt's proof load will break the bolt (SPIROL). When cutting and welding crush tubes, wear eye protection (Cruising World and HP Academy demonstrations use drills, grinders and welders).
+- **common_failures**: 1) Limiter too long: the bolt clamps only on the tube and the soft part rattles loose (Bulten: minimum plastic thickness equals maximum limiter length). 2) Limiter too short or missing: the part still crushes and creeps, and the bolt loosens (SPIROL; HP Academy). 3) Limiter pushed out of the part when the bolt is undone, or never fully seated: use knurled or headed limiters or glue them in (Bulten). 4) Boss wall too thin: the plastic splits as the limiter is pressed in (Bulten: wall at least half the bolt diameter). 5) Mating part too soft: the limiter digs into an aluminium or plastic part on the other side; use a headed limiter or a washer to spread the load (SPIROL; Bulten). 6) Tube end cut at an angle: only part of it bears and the rail or part still deforms (HP Academy). 7) Printed tube used as a limiter: it creeps too (Langmuir Systems forum).
+- **related**: 
+  - Shims, spacers and standoffs: also set a distance with a tube, but between two hard parts; a compression limiter protects a soft part that is clamped
+  - Panel standoff (sign standoff): a decorative threaded barrel that holds a sheet off a wall
+  - Heat-set threaded insert and press-fit inserts: give a strong metal thread inside a plastic part; a limiter has no thread and takes clamping load through the part
+  - Potted insert (sandwich-panel insert, hard point): the cored-panel version, an insert set in epoxy so the core is not crushed
+  - Elastomer isolation mount (rubber bobbin mount, isolator grommet): a rubber mount, often with a metal sleeve in its centre doing the limiter's job
+  - Gasket: a compression limiter can set how hard a gasket is squeezed under a screw
+  - Ordinary screw joint (bolt and nut): the joint the limiter protects
+  - Thread-locking hardware: stops a bolt turning loose; a limiter stops it losing tension through creep
+  - Shoulder bolt ⚑ [uncertain: no opened source; mentioned as the one-piece alternative]: a bolt with a plain shoulder that sets the clamp length itself *(⚑ parts need confirming)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Compression Limiters design guide (SPIROL UK, PDF)](https://uk.spirol.com/assets/files/cmpl-compression-limiter-design-guide-uk.pdf): Drawings of split-seam, oval, moulded-in, knurled and headed limiters, how a limiter sits in a plastic boss under a bolt, and the design rules for length and loading *(licence: link only)*
+  - [Compression Limiters & Captive Bolt Assemblies design guide (Bulten, PDF)](https://www.bulten.com/media/luvfra41/compression-limiters-bulten.pdf): Pictures of solid, headed, knurled, oval, split and captive-bolt limiters, with hole design, length and boss wall rules *(licence: link only)*
+  - [Motorsport Fabrication Fundamentals: Crush Tubes (HP Academy, video lesson)](https://hpacademy.com/courses/motorsport-fabrication-fundamentals/skills-tubes): Video demonstration of a bolt crushing a box-section chassis rail, then crush tubes fitted loose and welded in so the rail doesn't deform *(licence: link only)*
+  - [Core Concerns: Reefing and Backfilling (Cruising World)](https://www.cruisingworld.com/?p=40890): How to dig out a cored deck round a bolt hole and fill it with epoxy so the bolt can't crush the core *(licence: link only)*
+- **diagram_idea**: Two cross-sections side by side of a bolt through a printed bracket: on the left without a limiter, the bolt head sinks into the squashed plastic with arrows showing it relaxing over time; on the right a metal tube a hair shorter than the part takes the clamp, with the washer landing on both tube and plastic.
+- **sources**: 
+  - https://uk.spirol.com/assets/files/cmpl-compression-limiter-design-guide-uk.pdf
+  - https://www.bulten.com/media/luvfra41/compression-limiters-bulten.pdf
+  - https://efc-intl.com/category/metal-compression-limiters
+  - https://fastenerengineering.com/compression-limiters-that-protect-plastic-wood-and-rubber-parts/
+  - https://hpacademy.com/courses/motorsport-fabrication-fundamentals/skills-tubes
+  - https://www.cruisingworld.com/?p=40890
+  - https://forum.langmuirsystems.com/t/economical-rail-covers/32141
+  - https://api.printables.com/graphql/ (model 954045 'Sign standoff' designer notes on PLA deforming under load; searches 'compression limiter', 'crush tube', 'bolt sleeve' found no limiter test models)
+
+### Finder tags
+
+- **connects**: boards or sheet, tube, rod or extrusion
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, welding or brazing torch, drill and tap, press or vice, hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: yes
+- **sheet_material**: plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, everyday_examples, making_tips_3d_printing, related
+
+## 439 Panel standoff (sign standoff, glass standoff, stand-off mount, edge-grip standoff)
+
+*everyday fasteners & fixings.* A metal barrel screwed to the wall, with a cap screwed into its front that clamps a drilled sheet of acrylic, glass or metal, so the sheet floats a set distance off the wall, as on lobby signs, glass name plates and laser-cut acrylic signs
+
+*Also covers:* Also covers barrel length and cap size, through-grip and edge-grip standoffs, female-female standoffs, mirror screws with domed caps, clear vinyl washers against glass, and printed standoffs. Hole size comes from the maker's table; keep holes at least 1 in (25 mm) from the edge. Safety: toughened (tempered) glass can't be drilled after toughening, so its holes are made before; never let metal touch glass directly; heavy panels need fixings into studs or proper wall anchors.
+
+### What it is
+
+- **plain_name**: A shiny metal post screwed to the wall with a cap screwed into its front, which pinches a drilled sheet of acrylic, glass or metal so the sign floats a little way off the wall
+- **term**: Panel standoff (sign standoff, standoff screw, stand-off mount)
+- **aliases**: 
+  - standoff, standoff screw, sign standoff, standoff mount (4over4)
+  - stand-off, sign stand-off, wall mount (Sign Trade Supplies)
+  - glass standoff, standoff cap assembly (CRL 'Standoff Cap Assembly')
+  - through-grip standoff, edge-grip standoff (4over4)
+  - male-female, male-male and female-female standoffs (4over4)
+  - barrel and cap (the two visible parts; 4over4)
+  - mirror screw with domed cap, mirror cap, dome screw cover (a face-fixing screw with a cap, no barrel; LION; vxb)
+  - glass-mount standoff (adhesive-pad or clamp style for glass walls; 4over4)
+  - printed sign standoff (Printables)
+- **family**: everyday fasteners & fixings
+- **other_families**: adjusters, levellers & spacers
+- **one_liner**: A panel standoff is a two-part decorative fixing, a threaded barrel fixed to the wall and a cap screwed into its front, that clamps a drilled sheet of acrylic, glass, aluminium composite or metal between them so the panel is held a set distance off the wall with no frame or glue.
+- **complexity**: A few parts per fixing: wall screw (and wall anchor), barrel (the spacer that sets the gap), cap with a threaded stud that passes through the panel hole, and for glass a clear vinyl washer (4over4; CRL). Edge-grip standoffs replace the cap with a clamp that grips the panel edge (4over4). A mirror screw is two parts: a screw with a tapped head and a domed cap wound into it, plus a plastic washer (LION; vxb).
+- **how_it_works**: The barrel is screwed to the wall (through a wall plug or into a stud) and its length sets the gap behind the panel; the panel's drilled hole goes over the cap's threaded stud and the cap is screwed into the front of the barrel, so the panel is sandwiched between the barrel's end and the cap (4over4: 'The barrel anchors to the wall and sets how far the panel floats, and the cap clamps the sign panel in place'). Edge-grip standoffs clamp the panel's edge instead, so the face needs no holes; through-grip ones pass through a hole and hold heavier panels more securely (4over4). Unlike a plain spacer (an unthreaded sleeve a bolt passes through), a standoff is threaded, so it fastens as well as spaces (4over4). Mirror screws do the same job with no gap: the screw goes through the drilled mirror into the wall and a domed cap winds into the screw head to hide it (LION).
+
+### Finder attributes
+
+- **job**: join and hold: fixes a sheet panel to a wall, post or other panel, line parts up exactly: sets the panel a fixed, even distance off the wall
+- **motion**: none
+- **degrees_of_freedom**: 0: the panel is clamped between barrel and cap at every fixing point
+- **special_behaviour**: 
+  - quick-release ⚑ [uncertain: no opened source says caps are meant to be taken off often]: the cap unscrews by hand, so the panel can be swapped without taking the barrels off the wall ('a panel can be swapped without tearing out a frame', 4over4)
+  - none of the other listed behaviours *(⚑ parts need confirming)*
+- **holding_principle**: 
+  - friction or clamping (force-fit): the cap squeezes the panel against the barrel
+  - shape (the parts interlock; form-fit): the cap's stud passes through the panel hole, so the panel can't slide off even if the clamp is light; the barrel and cap hold by their screw threads
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: the cap unscrews by hand (no tools for most caps) and the barrels unscrew from the wall; the wall holes remain (4over4)
+- **reuse_cycles**: many times: the metal hardware lasts; the panel's holes may wear or crack if over-tightened repeatedly
+- **tools_needed**: drill, level, screwdriver and wall anchors to fit the barrels; a drill bit for plastics (acrylic) or the glass supplier to make holes in glass; caps are usually hand-tightened ('You do not need special tools beyond a drill and a level', 4over4). Some barrels have flats or a hex for a spanner (4over4).
+- **seal**: none; outdoors, seal the wall anchor holes with silicone to keep water out (4over4)
+- **load**: Light to medium: for signs and glass name plates, not for anything that hangs heavy loads or people. The wall fixing is usually the limit: 'four standoffs in plain drywall anchors are good for a lightweight acrylic panel under about 10 pounds'; into studs, masonry or toggle bolts they carry far more (4over4). Adhesive glass-mount standoffs hold lighter panels, 'under about five pounds' (4over4). The panel is weakest at its holes (cracking from the edge or from over-tightening).
+- **adjustable**: no once fitted: the gap is set by the barrel length (change barrels to change it); slots or oversized panel holes allow small sideways adjustment and expansion (ACRYLITE)
+- **play_and_precision**: Small: the panel hole is drilled slightly larger than the stud (e.g. a 9 mm hole for a 7.5 mm thread; Sign Trade Supplies), so the panel can shift a little before the cap is tight; acrylic needs extra clearance for expansion (ACRYLITE: hole at least 2 times the bolt diameter). Even small tilts show on a floating sign, so level the barrels carefully ('Even an eighth of an inch of tilt shows', 4over4).
+- **access_needed**: one side only (blind): everything is fitted from the front, the barrel screws to the wall and the cap screws in from the face of the panel
+- **materials**: Hardware: stainless steel (most common, and best outdoors), brushed or anodised aluminium, brass, chrome-plated steel, nylon or plastic (4over4; Sign Trade Supplies). Panels it suits: acrylic (PMMA, the usual choice), aluminium composite panel (Dibond (brand)), PVC foam board, metal sheet, and glass with holes made before toughening (4over4; Wikipedia 'Tempered glass'). Most hardware takes panels from about 1/8 to 1/2 in (3-12 mm) thick (4over4; Sign Trade Supplies). Not suited to thin flexible sheet that sags between fixings, or toughened glass that has not been drilled by the maker.
+- **maker_difficulty**: easy: buy the hardware and drill the panel; moderate for glass (holes must be specified to the glass maker before toughening, and a soft washer must keep metal off the glass)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part (sign standoffs, glass standoff cap assemblies, mirror screws)
+  - laser cut (acrylic or wood panels with the holes cut in)
+  - CNC (routed or drilled panels)
+  - 3D print (FDM): printed screw-on standoffs and hidden standoffs for light signs (Printables)
+- **print_in_place**: no: barrel and cap print as separate parts that screw or press together; one printed design uses bicycle spokes as the pins through the sign (Printables 1658818)
+- **making_tips_3d_printing**: Printed standoffs suit light indoor signs only. Material: one designer prints in PETG at 0.2 mm layers with a 0.4 mm nozzle and warns 'Avoid PLA since it deforms over time under load'; nylon 'would be ideal'; tune for strong layer bonding (Printables 954045). Use metal for the part that carries the sign: one design uses old bicycle spokes as the pins, 'so you don't have to worry about whether the filament is going to be strong enough', with files for 1/8 and 1/4 in signs and 9 mm holes (Printables 1658818). A hidden two-part design screws the base to the wall with #8 flat-head screws (with anchors as needed) and fixes the top part to the sign with #6 screws or glue, then presses the sign on (Printables 954045). Threads: print barrel and cap standing upright so the threads are round, and use a coarse thread; printed fine threads strip ⚑ [uncertain: general FDM practice, no opened source]. A parametric Fusion 360 sign-plus-standoff exists for customising (Printables 1300840). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search 'sign standoff' or 'stand-off wall mount' (barrel diameter x length, e.g. 13 x 13 mm to 25 x 25 mm or 1/2 to 1 in barrels; Sign Trade Supplies; 4over4), 'glass standoff' or 'standoff cap assembly' with 'clear vinyl washer' (CRL), 'edge grip standoff', 'female-female standoff', 'mirror screws' with 'mirror caps' or 'dome screw covers' and 'mirror washers' (LION; vxb), plus wall anchors suited to the wall (plasterboard toggles, masonry plugs). Follow the hardware maker's table for hole size and panel thickness instead of copying sizes.
+- **rules_of_thumb**: 
+  - Hole size comes from the hardware maker's table, e.g. 13 x 13 mm stand-off with 7.5 mm thread: panel hole 9 mm, max panel 6 mm; 19 x 19 mm or 25 x 25 mm with 9 mm thread: panel hole 11 mm, max panel 10-12 mm (Sign Trade Supplies). 4over4 instead says holes should sit about 1/16 in wider than the barrel diameter; follow the table for the hardware you bought.
+  - Edge distance, figures that disagree: 4over4 says keep every hole at least 1 in (25 mm) from every edge ('Acrylic cracks when holes sit less than one inch from the edge'); ACRYLITE says hole centre at least 1.5 times the hole diameter from the edge; Cut My says at least twice the sheet thickness (and drills its own holes at least 20 mm from the edge). The 1 in rule is the safest for signs.
+  - Acrylic expands with heat and moisture: make bolt holes at least 2 times the bolt diameter, and use a rubber grommet to stop cracks at the hole (ACRYLITE); outdoors 'leave a hair of room rather than over tightening' (4over4).
+  - Glass (architectural toughened glass): hole rim to nearest edge at least 6 mm (1/4 in) or 2 times the glass thickness, whichever is greater; between holes 10 mm or 2 times the thickness; at least 6.5 times the thickness from a corner tip; hole diameter at least the glass thickness plus 1/16 in, never under 1/4 in (6 mm) (Viracon).
+  - Toughened (tempered) glass: 'Polishing the edges or drilling holes in the glass is carried out before the tempering process starts'; cutting or grinding after tempering makes it shatter (Wikipedia 'Tempered glass').
+  - Barrel length is the gap: 1/2 to 2 in; the most common lobby pairing is a 1 in barrel under a 1-1/4 in cap; use 3/4 in barrels for menu boards up to about 18 x 24 in, and shorter barrels outdoors to cut wind load (4over4).
+  - Four corner standoffs for a rectangle; for panels over 36 in add one every 18-24 in along the long edge to stop bowing (4over4).
+  - Tighten caps 'hand tight plus a quarter turn'; over-tightening acrylic 'causes stress fractures that spread over time' (4over4).
+  - Wall fixings: plasterboard anchors for light acrylic under about 10 lb; heavier panels into studs or with toggle bolts; masonry anchors for brick and concrete (4over4).
+  - Keep text and graphics about 2 in clear of each hole, because the cap covers about 1/2 in round it (4over4).
+
+### When to use it
+
+- **everyday_examples**: 
+  - the clear acrylic logo sign behind a reception desk, held off the wall by four shiny posts (4over4)
+  - a glass or acrylic door name plate or room number plaque
+  - a bathroom mirror or splashback held by screws with chrome dome caps (RealHomes; LION)
+  - laser-cut acrylic house numbers or menu boards in cafes (4over4)
+- **when_to_use**: When you want a sheet panel (acrylic, glass, aluminium composite, metal, plywood) to look like it floats off the wall with visible, tidy hardware, can be swapped later without a frame, and is light enough for a few fixings into the wall. Good for laser-cut and printed acrylic signs, name plates, wall art, glass splashbacks and display panels, and for holding a panel clear of an uneven or wet wall.
+- **when_not_to_use**: Not for heavy panels on weak walls (use fixings into studs or masonry, a French cleat, or a framed mount). Not for undrilled toughened glass: use edge-grip standoffs, mirror clips or glass clamps instead. Not where you don't want holes through the panel face: use edge-grip standoffs, rail or cable systems, or double-sided tape for very light signs. Not for holding a circuit board inside a case: that is a PCB standoff (see Shims, spacers and standoffs). Not for outdoor signs in strong wind on long barrels: use short barrels and more fixings (4over4).
+- **environment_limits**: Outdoors use stainless hardware, seal anchor holes with silicone, allow room for acrylic to expand in heat and use short barrels against wind (4over4). Acrylic's thermal and moisture movement means tight holes crack (ACRYLITE). Ammonia cleaners cloud acrylic (4over4). Printed standoffs creep under load, PLA worst (Printables 954045). Glass and metal hardware are unaffected by normal indoor temperatures.
+- **safety_notes**: Toughened (tempered) glass can't be cut, ground or drilled after toughening, so its holes must be ordered from the glass maker before it is toughened; drilling it later makes it shatter (Wikipedia 'Tempered glass'). Never let metal touch glass directly: fit the clear vinyl washer that protects 'the glass edges around the drilled hole against chipping and scratching' (CRL), and the plastic washer under mirror screws (vxb). Heavy panels need fixings into studs, masonry anchors or toggle bolts; plain plasterboard plugs only suit light panels (4over4). Glass panels and big mirrors are heavy and sharp-edged: lift and hold them with a helper while the caps go on ⚑ [uncertain: no opened source states this for standoffs]. Check for hidden pipes and cables before drilling the wall ⚑ [uncertain: general practice]. *(⚑ parts need confirming)*
+- **common_failures**: 1) Acrylic cracks at a hole drilled too close to the edge ('the number one cause of ruined panels', 4over4): keep at least 1 in from edges. 2) Stress cracks round holes from over-tightened caps (4over4) or from holes too tight for expansion (ACRYLITE): hand tight plus a quarter turn, oversize holes, use grommets. 3) Wall anchors pull out or plasterboard anchors used in plaster: match the anchor to the wall (4over4). 4) Sign visibly tilted or barrels out of line: mark holes using the panel as a template and use a level (4over4). 5) Large panel bows between corners: add fixings every 18-24 in (4over4). 6) Glass chips or cracks at a metal-to-glass contact: always use the vinyl washer (CRL). 7) Mixed hardware finishes look unfinished: buy from one batch (4over4).
+- **related**: 
+  - Shims, spacers and standoffs: covers plain spacers and threaded PCB standoffs that hold circuit boards; panel standoffs are the decorative sign-mounting version
+  - Compression limiter (crush tube): a hidden metal sleeve that stops a bolt crushing a soft part; no gap or cap
+  - Wall plug (expansion anchor) and hollow-wall anchors (toggle, plasterboard anchor): what the barrel screws into
+  - Ordinary screw joint (bolt and nut): face-fixing a panel directly, with no gap
+  - Double-sided foam tape (acrylic foam tape): holds light signs with no holes, but can't be taken apart
+  - Elastomer isolation mount or grommet: the rubber grommet ACRYLITE recommends in acrylic holes
+  - Mirror clips and glass clamps (edge clips): hold undrilled glass or mirror by the edge instead of through a hole
+  - Tripod and stand screw mount: another standard threaded mount for small panels and cameras
+
+### Pictures, videos and models
+
+- **links**: 
+  - [What Is a Standoff Screw? Standoff Signage Hardware and Mounting Explained (4OVER4.COM)](https://www.4over4.com/guide/what-is-a-standoff-screw-how-standoff-signage-works): Photos and a size table of standoff barrels and caps on acrylic signs, through-grip versus edge-grip, spacers versus standoffs, installation steps and common mistakes *(licence: link only)*
+  - [Aluminium Sign Stand Offs - Wall Mounts (Sign Trade Supplies)](https://signtradesupplies.co.uk/products/aluminium-sign-stand-offs-wall-mounts): Product photos of aluminium stand-offs with a table of barrel sizes, thread diameters, maximum panel thickness and panel hole *(licence: link only)*
+  - [CRL 1-1/4 in Diameter Small Hole Clear Washer (C.R. Laurence)](https://crlaurence.com.au/crlapps/crlmobinew/details.aspx?p=SW114S): The clear vinyl washer that sits between a standoff cap and drilled glass *(licence: link only)*
+  - [Holes (Viracon glass fabrication guidelines)](https://www.viracon.com/holes/): Diagrams and tables for hole size, edge distance, hole spacing and corner distance in toughened glass *(licence: link only)*
+- **make_it_yourself**: 
+  - [Sign standoff (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/85831-sign-standoff): Screw-on printed standoff: screw the base to the wall and clamp the panel with the top part *(licence: CC BY)*
+  - [Sign standoff, hidden (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/954045-sign-standoff): Hidden two-part standoff: top part screwed or glued to the sign, base screwed to the wall, sign pressed on; designer recommends PETG or nylon, not PLA *(licence: CC BY-NC-SA)*
+  - [Wall/Door Sign Standoffs (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1658818-wall-door-sign-standoffs): Printed standoffs that use old bicycle spokes as the pins, for 1/8 and 1/4 in signs with 9 mm holes; design file included *(licence: CC BY-NC)*
+  - [Sign with standoff - parametric (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1300840-sign-with-standoff-parametric): Parametric Fusion 360 sign and standoff, printed separately and glued with alignment holes *(licence: Open Community License v1)*
+- **diagram_idea**: An exploded side view of one standoff: wall, plug and screw, barrel (with the gap it sets marked), the drilled panel with a clear washer each side for glass, and the cap screwing into the barrel, beside a small front view showing four corner holes kept at least 1 in from the edges.
+- **sources**: 
+  - https://www.4over4.com/guide/what-is-a-standoff-screw-how-standoff-signage-works
+  - https://signtradesupplies.co.uk/products/aluminium-sign-stand-offs-wall-mounts
+  - https://crlaurence.com.au/crlapps/crlmobinew/details.aspx?p=SW114S
+  - https://en.wikipedia.org/wiki/Tempered_glass
+  - https://www.acrylite.co/resources/knowledge-base/article/how-far-in-should-I-drill-a-hole-from-the-edge-of-acrylic-sheet
+  - https://www.viracon.com/holes/
+  - https://cutmy.co.uk/guides/how-to-drill-holes-into-acrylic
+  - https://www.realhomes.com/advice/how-to-hang-a-mirror
+  - https://www.lionpic.co.uk/mirror-screws/
+  - https://vxb.com/products/100-dome-screw-covers-black-m4-mirror-and-glass-fa
+  - https://api.printables.com/graphql/ (search 'sign standoff'; details of models 85831, 954045, 1658818, 1300840)
+
+### Finder tags
+
+- **connects**: boards or sheet, wall, rail, desk or grid
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: plastic sheet, glass or mirror
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: screws, anchors or hooks
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, safety_notes, special_behaviour
+
+## 442 Glazing in a rebated frame (glazier's points, glazing putty, glazing bead, picture-frame turn buttons)
+
+*everyday fasteners & fixings.* A pane of glass, mirror or acrylic sits in a stepped recess (rebate) in a frame and is held by small metal points pushed into the wood, a bead of putty, a pinned strip of wood (glazing bead) or turn buttons that swivel over the backing, as in picture frames and old wooden windows
+
+*Also covers:* Also covers push-in and diamond points, flexible framing points and point drivers, bedding and face putty (linseed oil and synthetic), glazing beads and tape, and printed turn buttons and clips for printed frames. Safety: old window putty and paint may contain lead (don't dry-sand); cut glass edges; old glass may be brittle.
+
+### What it is
+
+- **plain_name**: A sheet of glass, mirror or clear plastic dropped into a stepped ledge cut round the inside of a frame and held there by little metal points pushed into the wood, a bead of putty, a thin strip of wood pinned over its edge, or small swivelling tabs on the back, as in picture frames and old wooden windows
+- **term**: Rebate glazing (glazing in a rebated frame, with glazier's points, glazing putty, glazing beads or turn buttons)
+- **aliases**: 
+  - rebate or rabbet (US) glazing; the glass is 'fixed into a rabbet (rebate) in the frame' (Wikipedia 'Glazing (window)')
+  - glazier's points, glazing points, push points, push-in points, diamond points, triangular points (Profile Products; American Precision Museum; Reflect Window & Door)
+  - framing points, framer's points, flexible points or Flexipoints, rigid points, Multipoints (LION Picture Framing), point driver, point gun
+  - glazing putty, window putty, linseed oil putty, glazing compound (e.g. DAP '33' (brand)), bedding or back putty and face putty (NPS Preservation Brief 9; DAP)
+  - glazing bead, glass bead, glazing stop, glass stop (Quantum Profile Systems; Wikipedia 'Tempered glass' mentions 'glass stops')
+  - turn button, turnbutton, frame turn button, backing clip (LION Picture Framing; Printables 376332)
+  - spring clips (the metal-sash equivalent of glazier's points, DAP)
+  - glazing tape, frame sealing tape (LION 'Seal the back of a frame') ⚑ [uncertain: glazing tape for windows not separately sourced] *(⚑ parts need confirming)*
+- **family**: everyday fasteners & fixings
+- **other_families**: seals & pass-throughs, interlocking joints & joinery
+- **one_liner**: A pane of glass, mirror or acrylic rests against a stepped recess (rebate) round the inside of a frame and is trapped there from behind by metal points pushed into the wood, a bead of putty, a pinned strip of wood (glazing bead) or turn buttons screwed to the back, which also hold any backing board in place.
+- **complexity**: A few parts: a frame with a rebate, the pane, and the retainers. Window: bedding (back) putty, the pane, glazier's points every so often, and bevelled face putty, later painted (NPS Preservation Brief 9). Bead-glazed window or door: a wooden or composite glazing bead pinned or clipped over the glass, often with sealant or glazing tape (Quantum Profile Systems). Picture frame: glazing, mount and artwork, backing board, then push-in or driven points, flexible points or turn buttons, and often sealing tape over the gap (LION Picture Framing).
+- **how_it_works**: The rebate gives the pane a lip to rest against on the front side, so it can't fall forwards, and the retainers stop it falling backwards. Glazier's points are small flat metal triangles or diamonds pushed sideways into the wood of the rebate so that part sticks out over the glass; DAP says 'Points/clips are necessary to hold the glass in place. The glazing compound should not be expected to perform this function.' In a window, a bed of putty laid in the rebate cushions and seals the glass, and face putty bevelled over the points sheds rain (NPS; DAP). In a picture frame the points press the backing board, so the whole 'glazing/art/backing package' is clamped against the rebate lip (LION). A turn button is a flat plate on one screw that swivels over the backing board and swings back to let it out, 'ideal for when artwork needs to be removed and replaced' (LION).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds a pane, mirror or panel and its backing in a frame
+  - seal it, or pass cables or fluid through: bedding and face putty (or sealant and beads) keep wind and rain out of a window (NPS; DAP); sealing tape keeps dust out of a picture frame (LION)
+  - lock, and release by hand: turn buttons and flexible points let the back be opened again without tools (LION)
+- **motion**: none (turn buttons swivel through about 90 degrees only to open or close the back)
+- **degrees_of_freedom**: 0: the rebate lip, the frame sides and the points, putty or bead trap the pane in every direction
+- **special_behaviour**: quick-release: turn buttons and flexible points can be swung or bent out of the way by hand to change a picture (LION), none, for putty and rigid points, which are meant to stay
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the rebate lip on one face and the points, bead or turn buttons on the other trap the pane
+  - friction or clamping (force-fit): points and turn buttons press the backing and glazing against the rebate; points grip in the wood by friction
+  - material bond (glue, solvent or melting): putty and glazing compound stick to glass and to primed wood and seal the edge, but don't carry the pane on their own (DAP)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable for picture frames with flexible points or turn buttons; semi-permanent for windows, where hardened putty has to be cut or scraped out (DAP) or softened with heat (NPS) and the points pulled before the pane comes out
+- **reuse_cycles**: many times for turn buttons and flexible points (they are made to be bent up and down; LION); a few times for push-in points; once for putty, which is replaced when reglazing
+- **tools_needed**: putty knife or a wide flat screwdriver for push-in points (Profile Products); a point driver or point gun for framing points (LION); glazing knife and putty knife for putty; hammer and pin punch for glazing beads; screwdriver for turn buttons; glass cutter; heat gun or soldering iron to soften old putty (NPS; DAP how-to)
+- **seal**: watertight for a properly puttied and painted window: the paint should overlap slightly onto the glass 'to complete a weathertight seal' (NPS); dust-resistant for a picture frame sealed with tape (LION); none for a plain frame with points only
+- **load**: light: the frame and rebate carry the pane's weight; points only stop it falling out backwards. DAP limits its putty to panes no more than 48 in (1.22 m) in any direction and asks for setting blocks under panes over 24 in wide. LION recommends rigid points rather than flexible ones for mirrors and for frames over 700 x 900 mm. Weak against the pane being pushed from the front side of a picture frame if points are few or bent ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: no: the pane's position is set by the rebate; turn buttons and flexible points can be loosened to re-fit the contents
+- **play_and_precision**: small: the pane is cut a little smaller than the rebate so it fits and can expand; DAP calls for at least 1/8 in (3 mm) of bedding putty round the glass and no frame-to-glass contact, and setting blocks under large panes
+- **access_needed**: one side only (blind): everything is fitted from the back of a picture frame or from the putty side of a window sash; the rebate faces that side
+- **materials**: Frames: wood (where points and pins can be pushed in) is the classic; metal sashes use spring clips instead of points (DAP); printed or plastic frames use clips, turn buttons or screws instead of points. Panes: float glass, mirror, picture-framing acrylic (lighter than glass, absorbs UV and won't shatter; LION 'Glaze a frame'), polycarbonate, and backing boards. Putty: traditional linseed oil and whiting putty, historically sometimes with white lead, and synthetic polybutene putties with butyl rubber (Wikipedia 'Putty'). Don't use DAP '33' on plastic panes, leaded or stained glass, or insulated glass units with an organic seal (DAP TDS). Linseed putty should go on primed or oiled wood so the wood doesn't draw out its oil (NPS).
+- **maker_difficulty**: easy for picture frames (push in points or screw on turn buttons); moderate for windows, where neat putty work and lead-safe removal of old putty take care
+
+### Making it
+
+- **processes**: 
+  - woodwork: cut the rebate with a router or table saw (see Housing and rebate joints), then glaze
+  - off-the-shelf part: glazier's points, framing points, turn buttons, glazing beads, putty and glazing compound
+  - 3D print (FDM): printed picture frames, turn buttons and backing clips (Printables 376332, 1075535, 586248)
+  - laser cut or CNC: layered frames with a rebate made from stacked sheets, and acrylic panes ⚑ [uncertain] *(⚑ parts need confirming)*
+- **print_in_place**: no: printed frames and turn buttons are separate parts; turn buttons need a screw (Printables 376332: a #6 screw)
+- **making_tips_3d_printing**: 1) Print the frame face down so the rebate is a simple step with no overhang, and make the rebate depth equal to the total stack of glazing + mount + backing, plus about 0.5-1 mm ⚑ [uncertain]. 2) Make the rebate opening 1-2 mm bigger than the pane in each direction so slightly oversized glass or acrylic still drops in and the plastic can expand ⚑ [uncertain]. 3) You can't push metal points into a print, so use printed turn buttons screwed into the back (Printables 376332, for a #6 screw), printed clips such as the DIN A4 clip-frame clip (Printables 1075535, ABS or PLA, any infill), or a two-part frame where an inner frame is pushed into the outer one and holds by friction (Printables 586248, with a 1 mm groove for the photo). 4) For screws into printed frames, give each screw a solid boss (more perimeters) or a heat-set insert ⚑ [uncertain]. 5) Large printed frames are often made from separate sides joined by printed corners (Printables 766879, OpenSCAD source included). 6) Use acrylic rather than glass in printed frames for children's rooms or posting, as it is lighter and won't shatter (LION). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search for: 'glazier's points' or 'glazing points' (push, diamond or triangle points) and a 'glazier point driver' or 'PushMate' ⚑ [uncertain: brand name seen only in search results], 'framing points' ('flexible points', 'rigid points', 'Flexipoints', 'framer's point driver' or 'point gun'), 'turn buttons' or 'turnbuttons' (picture frame), 'glazing putty' or 'linseed oil putty' or 'window glazing compound', 'glazing bead' or 'glass stop' moulding, 'panel pins' or 'glazing sprigs' ⚑ [uncertain], 'setting blocks', 'frame sealing tape' or 'framing tape', 'spring clips' for metal sash. Catalogue examples: LION Picture Framing turn buttons https://www.lionpic.co.uk/turn-button-frame-fasteners/ and push-in points https://profileproducts.com.au/products/glaziers-points-push-in-points-pk50 *(⚑ parts need confirming)*
+- **rules_of_thumb**: 
+  - Points hold the glass; putty only seals it: 'Points/clips are necessary to hold the glass in place. The glazing compound should not be expected to perform this function' (DAP '33' technical bulletin).
+  - Window point spacing: points at the quarter points of each side, no more than 18 in (457 mm) apart for exterior-glazed sash and no more than 12 in (305 mm) apart for interior-glazed sash (DAP). Reflect Window & Door's simpler guide: two glazing points on each side of the pane.
+  - Picture frame point spacing: about one point every 20 cm along each side (Profile Products push-in points).
+  - Bedding: at least 1/8 in (3 mm) of back bedding all round, no metal or wood frame touching the glass, setting blocks at the quarter points of the bottom rail for panes over 24 in wide, and at least 1/4 in of glass-to-compound contact for clear glass (DAP).
+  - DAP '33' limits: panes up to 48 in in any direction; apply at 40-90 °F; service range -20 to 160 °F (DAP TDS).
+  - Sequence for reglazing: bed of putty round the rabbet, press the pane in, push in the glazing points, then bevel a final seal of putty round the glass (NPS Preservation Brief 9, fig. 4d). Prime the wood first: glazing compound should only go on wood brushed with linseed oil and primed (NPS).
+  - Paint over putty: NPS says paint when a skin has formed, 'usually in 2 or 3 days'; DAP says its '33' must reach a firm set first, 'as little as 7 days ... but more likely 2-3 weeks' (no fingerprint when lightly touched). The figures differ by product; follow the label. Let the paint lap slightly onto the glass to seal (NPS; DAP).
+  - Smooth face putty to an angle that sheds water, with rounded corners and no gaps (DAP).
+  - Picture frames: flexible points let the back be removed; rigid points are stronger and preferred for mirrors and frames over 700 x 900 mm (LION Picture Framing).
+  - Points in a picture frame are driven almost flat to the backing board (LION: angled noseplate drives points 'almost flat').
+
+### When to use it
+
+- **everyday_examples**: 
+  - The back of a shop-bought picture frame, with metal tabs that bend up or turn to let the backing board out (LION; Profile Products)
+  - An old wooden sash window with a bevel of putty round each pane (NPS Preservation Brief 9)
+  - A glazed wooden cabinet or door where a thin strip of moulding is pinned over the glass (Quantum Profile Systems)
+  - A wall mirror in a wooden frame held in by points (LION)
+- **when_to_use**: Use rebate glazing whenever a pane sits inside a frame: picture and poster frames, shadow boxes, glazed cabinet doors, printed or laser-cut frames for acrylic, and traditional wooden windows. It is cheap, needs no drilling of the glass, lets the frame carry the weight, and lets the pane be replaced. Use turn buttons or flexible points when the contents will be changed, rigid points for mirrors and big frames (LION), putty for traditional windows that must shed rain (NPS), and glazing beads for a neat, easily replaced finish on doors and modern timber windows (Quantum Profile Systems).
+- **when_not_to_use**: Don't use putty on plastic panes, insulated double-glazed units or leaded and stained glass (DAP), or on panes bigger than its limit (DAP: 48 in); use the window maker's beads, gaskets and sealant instead. Don't rely on putty alone to hold glass (DAP). In printed or plastic frames, use clips, turn buttons or screws, since metal points won't grip. For frameless sheets on a wall, use Glass and mirror edge clips and clamps or a Panel standoff. For leaded panels, the panel goes into the rebate, but the joints inside it are a Lead came joint.
+- **environment_limits**: Linseed putty takes days to weeks to skin and set, and stays soft for weeks: DAP warns the sash 'should be operated carefully for approximately three weeks'. DAP '33' should be applied only between 40 and 90 °F and is rated for -20 to 160 °F service (DAP TDS). Unpainted putty dries, cracks and lets water in, and old putty 'dries and becomes brittle over time' (Reflect Window & Door; NPS). Wooden frames swell and shrink with damp, which can loosen points or crack a tightly fitted pane ⚑ [uncertain]. Picture frames: sealing tape over the back keeps out dust and moisture (LION). Acrylic glazing scratches more easily than glass ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: LEAD: old window putty and paint may contain lead; putty was historically sometimes made with white lead (Wikipedia 'Putty'), and homes built before 1978 may have lead paint. US EPA lead-safe practice bans open-flame burning and power tools without HEPA dust control on lead paint (EPA Region 1 RRP fact sheet), so don't dry-sand or burn off old putty and paint; scrape or soften it carefully, keep dust down and clean up thoroughly. HEAT: when using a heat gun to soften putty, keep it moving, wear leather gloves and eye protection, and shield the glass so it doesn't crack (DAP how-to). GLASS: cut glass and broken panes are sharp; wear gloves and safety glasses when removing broken glass (Reflect Window & Door). Old glass can be thin and brittle, so soak old putty off the glass in linseed oil rather than prying, to lower the risk of breaking it (NPS). Nicks on glass edges from fasteners driven at an angle can later grow into cracks (Wikipedia 'Tempered glass'). Mineral spirits for cleaning putty off tools must not be used on skin (DAP TDS).
+- **common_failures**: Pane rattles or falls out: too few points, or points not pushed in far enough; putty was expected to hold the glass (DAP). Putty cracks, shrinks or falls out: painted too early or not at all, wood not primed so it drew the oil out, or applied too cold (NPS; DAP). Glass cracks: frame touching the glass with no bedding, no setting blocks on a large pane, or points driven at an angle that nicked the edge (DAP; Wikipedia 'Tempered glass'). Picture frame back pops out: flexible points used on a heavy mirror or large frame (LION). Dust or insects inside a picture frame: back not sealed with tape (LION). Printed frames: points split the plastic; use turn buttons or clips instead ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **related**: 
+  - Housing and rebate joints (dado, rabbet): how to cut the rebate itself
+  - Glass and mirror edge clips and clamps: hold a frameless sheet on a wall instead of in a frame
+  - Panel standoff: holds a drilled sheet off a wall
+  - Lead came joint: H-section lead strips that hold the pieces inside a leaded panel, itself then glazed into a frame
+  - Copper-foil joint: how small stained-glass panels are made before framing
+  - Silicone and MS-polymer adhesive sealants: modern sealant bedding instead of putty
+  - Gasket: rubber glazing gaskets in metal and plastic window frames ⚑ [uncertain]
+  - Basic latches (spring latch, slide bolt): the turn button is a very simple swivelling catch
+  - Nails, brads and tacks: panel pins hold glazing beads; framers sometimes use brads instead of points ⚑ [uncertain]
+  - Tongue-and-groove joint (sliding-lid grooves): a pane sliding in a groove instead of sitting in a rebate *(⚑ parts need confirming)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Preservation Brief 9: The Repair of Historic Wooden Windows (US National Park Service), figure 4d](https://www.nps.gov/orgs/1739/upload/preservation-brief-09-wood-windows.pdf): Photos of removing putty and of reglazing: bed of putty, pane pressed in, glazing points inserted, bevelled face putty *(licence: US government work, public domain (NPS); photo credits shown in the brief)*
+  - [Hacking knife chopping glazing putty (Wikimedia Commons, Andy Dingley)](https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg): A glazier's hacking knife scraping out old putty from a window rebate during reglazing *(licence: CC BY-SA 3.0)*
+  - [Fix the Back Into the Frame (LION Picture Framing product guide)](https://www.lionpic.co.uk/lion-product-guide/fix-the-back-into-the-frame/): Point drivers, flexible and rigid framing points and how they hold the glazing, art and backing in the rebate *(licence: link only)*
+  - [How to install glazing points (YouTube, stevenofpa; title checked through YouTube oEmbed)](https://www.youtube.com/watch?v=rCz0T9FBDIA): Short video of pushing glazier's points in to hold a pane *(licence: link only (standard YouTube licence))*
+  - [How to Re-glaze an Historic Window (YouTube, Indow; title checked through YouTube oEmbed)](https://www.youtube.com/watch?v=iiMb0eYOlhc): Video of reglazing a historic wooden window with putty *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Picture Frame Turn Button (Backing Clip) (AverageYo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/376332-picture-frame-turn-button-backing-clip): Printed turn button that holds the backing onto a picture frame, for a #6 screw *(licence: CC BY (Printables listing))*
+  - [Picture Frame DIN A4 Clip (softbugs, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1075535-picture-frame-din-a4-clip): Replacement clip for a frameless clip frame that holds the glass or acrylic front and the backing board together *(licence: CC BY (Printables listing))*
+  - [Parametric Picture Frame (Jürgen Weigert, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/586248-parametric-picture-frame): FreeCAD two-part frame: the photo sits in a 1 mm groove and an inner frame pushes in and holds by friction *(licence: CC BY-NC-SA (Printables listing))*
+  - [Parametric Picture Frame (Steve DeGroof, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/766879-parametric-picture-frame): OpenSCAD frame printed as sides plus pop-in corners and a hanger *(licence: CC BY-SA (Printables listing))*
+- **diagram_idea**: Cross-section through one side of a frame: the stepped rebate with the glass resting against the front lip, then mount and backing board, held by a glazier's point pushed into the rebate wall; beside it the same section for a window with bedding putty under the glass and a bevelled face putty over the point, and a back view of a turn button swivelling over the backing board.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Glazing_(window)
+  - https://en.wikipedia.org/wiki/Putty
+  - https://en.wikipedia.org/wiki/Tempered_glass
+  - https://www.nps.gov/orgs/1739/upload/preservation-brief-09-wood-windows.pdf
+  - https://alex.dap.com/media/3835/33-window-glazing-tds_5-9-19.pdf
+  - https://legacy.dap.com/resources-support/how-to-s-tips/window-door-siding/how-to-glaze-windows/
+  - https://profileproducts.com.au/products/glaziers-points-push-in-points-pk50
+  - https://www.lionpic.co.uk/turn-button-frame-fasteners/
+  - https://www.lionpic.co.uk/lion-product-guide/fix-the-back-into-the-frame/
+  - https://www.lionpic.co.uk/lion-product-guide/glaze-a-frame/
+  - https://www.lionpic.co.uk/lion-product-guide/seal-the-back-of-a-frame/
+  - https://www.lionpic.co.uk/lion-product-guide/create-a-space-between-the-glass-and-mount/
+  - https://quantumprofilesystems.com/qwood/blog-post/glazing-timber-windows/
+  - https://www.reflectwindow.com/blogs/news/reglazing-wood-windows-a-simple-how-to
+  - https://americanprecision.org/learning-resources/glaziers-points/
+  - https://www.epa.gov/system/files/documents/2022-03/lead-rrp-ct-code-officials.pdf
+  - https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg
+  - https://api.printables.com/graphql/ (models 376332, 1075535, 586248, 766879)
+  - https://www.youtube.com/watch?v=rCz0T9FBDIA
+  - https://www.youtube.com/watch?v=iiMb0eYOlhc
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: soldering iron, heat gun, hand tools
+- **load_max**: light
+- **usual_process**: woodwork
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: glass or mirror
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: plastic, fabric or a gap
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, load, making_tips_3d_printing, off_the_shelf_parts, processes, related
+
+## 447 Shelf pins and shelf supports (shelf pegs, spoon pins, glass shelf supports)
+
+*everyday fasteners & fixings.* Small pegs pushed into a row of holes inside a cupboard or bookcase so a loose shelf rests on them and can be moved up or down; glass shelves use versions with a rubber pad or ring so the glass cannot slip
+
+*Also covers:* Also covers shelf-pin hole jigs and the 32 mm system, plain, spoon and sleeved pins, locking pins that stop a shelf tipping, glass-shelf supports with rubber rings, keyhole and hidden (floating-shelf) supports as mentions, and printed shelf pins for wood, glass and printed shelves. Safety: glass shelves need supports made for glass and a load limit.
+
+### What it is
+
+- **plain_name**: Little pegs you push into a row of holes inside a cupboard or bookcase so a loose shelf can sit on them, and be moved up or down by moving the pegs; glass shelves sit on versions with a rubber pad so the glass can't slide
+- **term**: Shelf pins and shelf supports (adjustable shelf supports; shelf pegs; 32 mm system holes)
+- **aliases**: 
+  - shelf pin, shelf peg, shelf support peg, shelf stud, shelf support pin, shelf holder, shelf clip, cabinet shelf clip (Woodcraft; Printables model titles)
+  - pin support: a plain cylindrical peg (Woodcraft)
+  - L-shaped support, bracket-style shelf support (Woodcraft)
+  - paddle support or flat spoon-style support, spoon pin, spoon shelf pin (Woodcraft)
+  - sleeve and pin, shelf pin sleeve, brass pin sleeve (Woodcraft; Rockler)
+  - locking shelf support, shelf lock support, shelf locking clip: a plastic support with a bendable flap that clicks over the shelf (Hunker; Rockler)
+  - glass shelf support, glass shelf pin with rubber ring or transparent pad (Hranipex/Riex JC42); two-part glass shelf support with tightening element (Häfele)
+  - pilaster and clip (shelf standard, track): a metal strip with slots that clips hook into (Woodcraft)
+  - 32 mm system, System 32, line boring, system holes, 'Lochreihe' (German, hole row) (Wikipedia '32 mm cabinetmaking system'; Printables 813556)
+  - shelf pin jig, shelf pin drilling jig, hole-row template (Kreg; Printables)
+  - Kreg Shelf Pin Jig (brand) (Kreg manual)
+- **family**: everyday fasteners & fixings
+- **other_families**: adjusters, levellers & spacers
+- **one_liner**: Shelf pins are small pegs pushed into matching rows of holes drilled in the inside faces of a cabinet, usually 5 mm or 1/4 in holes spaced 32 mm apart, so a loose shelf rests on four of them and can be moved to another height in seconds; glass shelves use supports with a rubber ring or pad, or a locking clamp, so the glass can't slide or tip.
+- **complexity**: A few parts: the rows of drilled holes in the two cabinet sides, four pins (or supports) per shelf, and the loose shelf. Variants add a metal sleeve pressed into each hole, a rubber ring or clear plastic pad for glass, or a two-part support with a locking element. Drilling the holes needs a drill, a shelf pin jig or template and a drill bit with a stop collar.
+- **how_it_works**: Each pin fits snugly in a hole and sticks out of the cabinet side; the shelf rests on top of four pins, so its weight pushes straight down and the pins carry it in shear, like little cantilever beams (Woodcraft). Rows of evenly spaced holes, usually 32 mm apart and 37 mm from the front edge in the European system, let you move the pins and shelf in small steps (Wikipedia '32 mm cabinetmaking system'). Flat spoon, paddle and L-shaped supports spread the load over a larger area than a round pin; sleeves line the hole so it does not wear oval (Woodcraft). Locking supports have a flap or a pressed-in element that catches the top of the shelf, so the shelf can't tip or be lifted out by accident (Hunker; Häfele).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: a loose shelf rests on four pins in the cabinet sides
+  - lock, and release by hand: locking supports have a flap or locking element that stops the shelf tipping or lifting until you press it to release (Hunker; Häfele)
+- **motion**: none: the shelf stays put; it can be lifted off and moved to another row of holes, in steps of the hole spacing (usually 32 mm)
+- **degrees_of_freedom**: 0 once loaded: gravity holds the shelf down on the pins and the cabinet sides stop it moving sideways; a plain shelf can still be lifted straight up, which a locking support prevents.
+- **special_behaviour**: 
+  - quick-release: lift the shelf off and pull the pins out by hand to move it; no tools needed (Woodcraft)
+  - none for plain pins; locking supports add a 'hand-release only' catch: a bendable flap or locking element holds the shelf down until you press it (Hunker; Häfele)
+- **holding_principle**: shape (the parts interlock; form-fit): the pins sit in holes and the shelf rests on them under gravity; friction (force-fit) keeps a pin from falling out of its hole, ribbed pins grip harder (Hranipex); spring force (a springy part presses it in place) in locking supports with a bendable flap (Hunker)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: tool-free quick release: lift the shelf and pull the pins out; screw-fixed glass supports need a screwdriver (Häfele)
+- **reuse_cycles**: many times: pins can be moved again and again, but plain holes in chipboard or softwood gradually wear oversize, which sleeves prevent (Woodcraft)
+- **tools_needed**: To fit and move: none (a rubber mallet helps with tight pins, Woodcraft). To make the holes: a drill, a brad-point or jig drill bit of the hole size with a stop collar so the bit can't go through the cabinet side, a shelf pin jig or template, a clamp and a spacer board to set the same start height on both sides (Kreg manual; Woodsmith). Screw-fixed glass supports: a screwdriver (Häfele).
+- **seal**: none
+- **load**: Light to medium, mostly downward. Each pin carries its quarter of the shelf load as a short cantilever in shear; the shelf usually sags long before good pins fail. Woodcraft rates plain pins 'light to moderate', paddle and sleeved pins 'moderate to high', L-shaped supports 'high' and all-plastic supports 'light'. A pair of Sugatsune glass shelf supports is rated 20-25 kg (44-55 lb) at the centre of a tempered glass shelf up to 500 mm between supports and 300 mm deep (Sugatsune data sheet 2881/2885). Weak against lifting and tipping: a plain shelf lifts off if pushed up at the front or if a heavy load sits on the overhanging edge; use locking supports where that matters (Häfele; Hunker). In soft chipboard the hole edges can crush and the pin tilts down under heavy loads ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: yes: move all four pins to other holes to change the shelf height, in steps of the hole spacing (32 mm in the European system, Wikipedia); the shelf can also be turned over to hide sag (Sagulator page tips) ⚑ [uncertain] *(⚑ parts need confirming)*
+- **play_and_precision**: Small play: pins fit snugly but a worn or oversize hole lets the pin tilt and the shelf wobble; fix with slightly larger pins or plastic sleeves (Woodcraft). The shelf only sits level if all four holes are at exactly the same height, so drill every row from the same reference end of the jig or with the same spacer board; even a little error makes shelves 'tilt or wobble' (Kreg manual; Woodsmith).
+- **access_needed**: one side only (blind): pins push into blind holes in the inside face of each cabinet side; screw-fixed glass supports are also fixed from inside (Häfele)
+- **materials**: Pins and supports: brass, nickel-plated steel or stainless steel, zinc alloy, or plastic (often clear for glass), with rubber rings, rubber or plastic pads for glass (Woodcraft; Hranipex; Häfele). Cabinet sides: plywood, solid wood, MDF, chipboard and melamine board all take drilled holes; 3D-printed cabinet sides can have the holes printed in. Shelves: wood, plywood, MDF, chipboard, glass (tempered recommended, Sugatsune), acrylic and printed shelves. Glass and acrylic shelves need supports with a soft pad or ring, never bare metal (Hranipex; Woodcraft). Printed pins: PETG, ASA, ABS or nylon resist creep better than PLA (Printables 1611854).
+- **maker_difficulty**: easy: push-in pins need no tools; drilling neat, level hole rows is easy with a jig and a stop collar, and both pins and jigs can be 3D printed
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: metal and plastic shelf pins, sleeves, glass shelf supports and locking supports
+  - woodwork: drill hole rows with a shelf pin jig, a template or a line-boring machine (Kreg manual; Wikipedia)
+  - CNC: hole rows can be drilled by a CNC router when the panels are cut, as in 32 mm system furniture (Wikipedia '32 mm cabinetmaking system')
+  - 3D print (FDM): replacement pins, L-shaped heavy-duty pins, glass shelf supports and drilling jigs (Printables 1611854, 346020, 1209889, 808582)
+  - laser cut: a flat hole-row template can be laser cut from plywood or acrylic ⚑ [uncertain] *(⚑ parts need confirming)*
+- **print_in_place**: no: pins are printed as single parts and pushed into holes; drilling jigs are single parts (some take ball bearings as drill bushings, Printables 813556)
+- **making_tips_3d_printing**: Orientation matters most: print pins lying flat on their side, not standing up, so the filament runs along the peg and the layers can't snap off in shear; the designer of an L-shaped 5 mm pin recommends 4-6 walls (which makes a 5 mm peg effectively solid), 0.16-0.20 mm layers, and nylon, ASA, ABS or PETG to prevent creep under continuous load (Printables 1611854). Simple PLA pegs 'can take a good bit of weight', but print them stronger (thicker layers, 75% or more infill) or buy metal if the load is critical; if a 5 mm printed pin is too tight, shave it with a die or use a 4 mm version (Printables 346020). L-shaped or flat-topped designs spread the load over more of the shelf and hole than a round peg (Printables 1611854; Woodcraft). For glass shelves print a support with a wide flat top and add a rubber or silicone pad ⚑ [uncertain]. Jigs: a parametric jig lets you set pin diameter, hole spacing, material thickness and edge distance, includes a depth-stop jig and an 'insertTolerance' setting so the pin is 'a bit hard while still possible to remove by hand' (Printables 808582); a 32 mm / 5 mm jig uses four 625 ball bearings as hard drill guides so the bit doesn't wear the plastic (Printables 813556). In a printed cabinet, print the 5 mm hole rows in and check them with a test pin first. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search terms: '5 mm shelf pin', '1/4 inch shelf pin' (Woodcraft: most pins fit 1/4 in or 5 mm holes), 'spoon shelf pin', 'paddle shelf support', 'L-shaped shelf support', 'shelf support with sleeve' or 'brass shelf pin sleeve', 'locking shelf support' or 'shelf lock clip', 'glass shelf support pin with rubber ring' or 'transparent pad' (e.g. Riex JC42, Hranipex), 'screw-fixing glass shelf support' (Häfele 282.13.701 for 6/8/10 mm glass, 282.13.702 for 8/10/12 mm), 'M4 sleeve for 5 mm hole', 'shelf pin jig' or 'shelf pin drilling jig' (e.g. Kreg KMA3232 for 1/4 in or 5 mm holes at 32 mm), '5 mm brad point bit with stop collar', 'shelf standard and clips' or 'pilaster and bracket'. Check the catalogue page for the hole diameter and the glass thickness range before buying; links: https://www.hranipex.com/en/product/riex-jc42-glass-shelf-support-pin-transparent-pad-fwf002552, https://files.hafele.co.uk/CatalogFiles/www/23T7-146.pdf.
+- **rules_of_thumb**: 
+  - 32 mm system: holes 5 mm in diameter, 12-14 mm deep, 32 mm apart in a row, first row 37 mm from the front edge; shelf pins 15-16 mm long with a flange of about 7 mm (Wikipedia, https://en.wikipedia.org/wiki/32_mm_cabinetmaking_system). The Kreg jig's guide holes are 37 mm from the sides of the jig with 32 mm between holes (Kreg manual, https://cdn-content.kregtool.com/root/shared/manuals/KMA3232_Global.pdf).
+  - Hole size: 'Most shelf pins fit into 1/4" or 5 mm holes; however, you should always double-check your shelving unit' (Woodcraft, https://www.woodcraft.com/blog_entries/all-about-shelf-support).
+  - Drilling: set the stop collar first so the bit can't go through the cabinet side, clamp the jig ('It is dangerous to hold the workpiece in place by hand'), bring the drill up to speed before the bit touches the wood to avoid tear-out, and 'Use the same reference end of the jig while drilling all shelf pin holes' (Kreg manual, https://cdn-content.kregtool.com/root/shared/manuals/KMA3232_Global.pdf); register the jig on a spacer board so both cabinet sides start at the same height (Woodsmith, https://www.woodsmith.com/article/fast-foolproof-kreg-shelf-pin-jig/).
+  - Shelf sag (often the real limit): aim for 0.02 in per foot (1.7 mm per m) of sag or less, because the eye notices about 1/32 in per foot and wood shelves sag about 50% more over time; a fully loaded bookshelf weighs 20-40 lb per running foot (9-18 kg per 305 mm) (Sagulator, https://www.woodbin.com/calcs/sagulator/).
+  - Glass shelves on end supports carry very little over long spans: a chart from Wood magazine (March 2004), as quoted on WOODWEB, gives 5 lb for 1/4 in annealed glass at a 36 in span, 18 lb for 3/8 in and 33 lb for 1/2 in; a 1/2 in shelf carries 345 lb at 12 in span but 81 lb at 24 in. Add a centre support or a frame for long spans (WOODWEB, https://woodweb.com/knowledge_base/Bearing_Capacity_of_Glass_Shelves.html). These are second-hand figures for annealed glass only.
+  - Glass shelf supports from a hardware maker: 20-25 kg (44-55 lb) per pair at the centre of the glass, with no more than 500 mm between supports and glass no deeper than 300 mm, 6-10 mm glass, 'Tempered Glass Recommended' (Sugatsune 2881/2885 data sheet, https://www.sugatsune.com/content/site-assets/501_PDF/2881_2885.pdf).
+  - Glass shelf pins with a rubber ring fit standard 5 mm holes and the ring 'prevents the glass shelf from slipping'; a ribbed pin version grips better in wooden panels (Hranipex Riex JC42, https://www.hranipex.com/en/product/riex-jc42-glass-shelf-support-pin-transparent-pad-fwf002552). Two-part locking glass supports suit 6/8/10 mm or 8/10/12 mm glass and stop the shelf tipping or being lifted out (Häfele, https://files.hafele.co.uk/CatalogFiles/www/23T7-146.pdf).
+
+### When to use it
+
+- **everyday_examples**: 
+  - the rows of small holes and pegs inside flat-pack bookcases, wardrobes and kitchen wall cupboards (Wikipedia notes IKEA uses elements of the 32 mm system)
+  - glass shelves in a display cabinet or curio cabinet resting on pins with clear rubber pads (Hranipex; WOODWEB)
+  - glass shelves in a fridge resting on moulded supports (Printables 626862 'Refrigerator Glass Shelf Support Pin' and 617318)
+  - library and office shelving with rows of 5 mm holes (Wikimedia Commons, 2017 UEF Joensuu library photo)
+- **when_to_use**: Whenever a shelf inside a cabinet, bookcase or display case should be movable without tools: bookcases, kitchen and bathroom cupboards, wardrobes, display cabinets, tool cabinets and printed storage units. Drilling rows at 32 mm lets the same holes also take hinge plates and drawer slides (Kreg manual; Wikipedia). Choose plain pins for light loads, spoon, paddle, sleeved or L-shaped supports for heavier books and tools, rubber-ring or padded supports for glass and acrylic, and locking supports where a shelf could be knocked upwards or tipped, e.g. in a cupboard that is moved, or a shelf people lean on (Woodcraft; Häfele; Hunker).
+- **when_not_to_use**: On an open wall with no cabinet sides: use brackets, a French cleat or keyhole hangers (see Hang-on mounts) or a hidden floating-shelf support (steel rods drilled into the back edge of the shelf). For very heavy or long shelves, add a centre support, a fixed shelf glued or screwed into a groove, metal brackets, or a pilaster track (Woodcraft; WOODWEB). Where the shelf adds stiffness to the cabinet (stops it racking), at least one shelf should be fixed, not on pins ⚑ [uncertain]. Glass shelves on plain metal pins: use supports made for glass, with a pad or ring (Hranipex). Shelves that must not lift out in a moving vehicle, caravan or boat: use locking supports or screws (Häfele). *(⚑ parts need confirming)*
+- **environment_limits**: Moisture swells chipboard and MDF round the holes so pins loosen or the edges crumble ⚑ [uncertain]. Wood shelves sag about 50% more over time than when first loaded (Sagulator). Printed PLA pins creep under a constant load, so use PETG, ASA, ABS or nylon (Printables 1611854). Rubber rings and pads can harden or perish with age and sunlight and then let glass slide ⚑ [uncertain]. Vibration can shuffle a plain shelf forward off its pins; locking supports prevent this (Häfele). *(⚑ parts need confirming)*
+- **safety_notes**: GLASS SHELVES: use supports made for glass, with a rubber ring or pad so the glass can't slip off and isn't touching bare metal (Hranipex), and stay inside the load limit for the glass thickness and span: thin annealed glass over a long span carries only a few kilograms (WOODWEB), and makers rate their glass supports per pair for a set maximum span and depth and recommend tempered glass (Sugatsune). A falling glass shelf breaks into sharp pieces and can bring everything below it down. Do not lean on, stand on or let children climb shelves; tall bookcases must be fixed to the wall against tipping over ⚑ [uncertain]. DRILLING: clamp the jig and the work, keep hands clear of the bit and the clamp, and remember the bit can be hot after repeated holes (Kreg manual). Wood dust from drilling and sanding is a health hazard; use a dust mask or extraction (Kreg manual). *(⚑ parts need confirming)*
+- **common_failures**: (1) Shelf wobbles or rocks: a pin not pushed fully home or holes too large; use slightly larger pins or plastic sleeves (Woodcraft). (2) Shelf tilts: the four holes are not at the same height because the jig was registered from different ends or edges on the two sides; always use the same reference end and a spacer board (Kreg manual; Woodsmith). (3) Shelf sags: too long, too thin or too heavily loaded; add more pins, a centre support or a stiffer shelf with an edging strip (Woodcraft; Sagulator). (4) Holes drilled right through the cabinet side: no stop collar or it slipped (Kreg manual; Woodsmith). (5) Tear-out round holes: dull bit, jig not clamped, or bit started while touching the wood (Kreg manual). (6) Pins too tight to move: lubricate the holes or sand the pin (Woodcraft); printed pins can be shaved with a die (Printables 346020). (7) Printed pins snap off at a layer line because they were printed standing up (Printables 1611854). (8) A glass shelf slides forward or off: plain pins with no pad, or perished rubber; use proper glass supports or locking supports (Hranipex; Häfele). (9) A shelf tips up when a heavy item sits on the front edge: use locking supports (Häfele; Hunker).
+- **related**: 
+  - Glass and mirror edge clips and clamps (glass shelf bracket): grip a glass shelf by its edge from a wall, where there are no cabinet sides to drill
+  - Hang-on mounts (keyhole slot, French cleat): hang a whole shelf or cabinet on a wall
+  - Metal brackets and plates (angle bracket): fixed support under a shelf on a wall
+  - Locating pins and hole-and-slot: pins that line up parts exactly rather than carry a loose shelf
+  - Drive-in fixing pins (dowel pin): pins glued or driven in permanently
+  - Knock-down cam-lock and cross-dowel connectors: the other fittings that use the 32 mm system holes in flat-pack furniture
+  - Dowel and biscuit joints, and housed (dado) shelves: fixed shelves glued into the sides, stronger and stiffer but not adjustable
+  - Aluminium-extrusion connectors (T-slot nuts and brackets): adjustable shelves on slotted aluminium frames instead of wooden cabinet sides
+  - Panel standoff: holds a glass or acrylic sheet off a wall on bolts through drilled holes
+
+### Pictures, videos and models
+
+- **links**: 
+  - [2017 UEF Joensuu library 06 shelf.jpg (Wikimedia Commons, by Westbahnhof from a photo by Nemo bis)](https://commons.wikimedia.org/wiki/File:2017_UEF_Joensuu_library_06_shelf.jpg): An empty frameless library shelf unit with rows of holes matching the 32 mm cabinetmaking system *(licence: CC BY-SA 3.0 (reuse with credit))*
+  - [Two stainless steel shelf supports 2017.jpg (Wikimedia Commons, by Fructibus)](https://commons.wikimedia.org/wiki/File:Two_stainless_steel_shelf_supports_2017.jpg): Photo of two stainless steel shelf supports (the file page does not say which style) *(licence: CC0 1.0 (public domain dedication))*
+  - [Häfele Ixconnect screw-fixing shelf supports for glass (catalogue page, PDF)](https://files.hafele.co.uk/CatalogFiles/www/23T7-146.pdf): Drawings of a two-part glass shelf support and how the tightening element is pressed in to stop the glass tipping or lifting *(licence: link only (copyright Häfele U.K. Ltd))*
+  - [Fast & Foolproof Kreg Shelf Pin Jig (Woodsmith)](https://www.woodsmith.com/article/fast-foolproof-kreg-shelf-pin-jig/): Step-by-step photos of setting the stop collar, registering the jig on a spacer board and drilling 32 mm hole rows *(licence: link only)*
+  - [The Ultimate Guide to Shelf Pins: Types, Tips and Installation (Woodcraft)](https://www.woodcraft.com/blog_entries/all-about-shelf-support): The main shelf pin types (L-shaped, small bracket, pin, paddle, all-plastic, sleeve and pin, pilaster) with load ratings *(licence: link only)*
+- **make_it_yourself**: 
+  - [Heavy Duty 5mm Shelf Pin / Peg (L-Shape Support Bracket) metric (Printables 1611854; URL from Printables API, page not opened)](https://www.printables.com/model/1611854-heavy-duty-5mm-shelf-pin-peg-l-shape-support-brack): Printable L-shaped 5 mm shelf pin in several metric sizes, with print-orientation and material advice for shear strength and creep *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Shelf Support Pegs (4 & 5mm pins) (Printables 346020; URL from Printables API, page not opened)](https://www.printables.com/model/346020-shelf-support-pegs-4-5mm-pins): Quick replacement shelf pegs in 4 and 5 mm, printed without supports *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Glass shelf support (Printables 1209889; URL from Printables API, page not opened)](https://www.printables.com/model/1209889-glass-shelf-support): A printable support for a glass shelf inside a cabinet *(licence: CC BY (Creative Commons Attribution))*
+  - [Parametric Shelf Pin Jig (Printables 808582; URL from Printables API, page not opened)](https://www.printables.com/model/808582-parametric-shelf-pin-jig): Fully parametric (Onshape) drilling jig, pins and depth-stop jig: set pin diameter, number of holes, material thickness, edge distance and fit tolerance *(licence: CC BY (Creative Commons Attribution))*
+  - [Shelf Pin Jig 5mm - Lochreihenschablone 32mm / 5mm (Printables 813556; URL from Printables API, page not opened)](https://www.printables.com/model/813556-shelf-pin-jig-5mm-lochreihenschablone-32mm-5mm): A 32 mm-spacing, 5 mm hole-row drilling jig that uses four 625 ball bearings as drill guides *(licence: CC BY-NC (Creative Commons Attribution-NonCommercial))*
+  - [Shelf Pin Drilling Jig (Printables 292441; URL from Printables API, page not opened)](https://www.printables.com/model/292441-shelf-pin-drilling-jig): Drilling jig for 1/4 in and 5 mm shelf pins and for 7/32 in and 9/32 in pin sleeves, with the Fusion 360 file *(licence: CC BY-ND (Creative Commons Attribution-NoDerivatives))*
+- **diagram_idea**: A cut-away cabinet side showing a vertical row of 5 mm holes 32 mm apart and 37 mm from the front edge, with four pins carrying a shelf; beside it close-ups of a plain pin, a spoon pin, a sleeved pin, a glass support with a rubber ring under a glass edge, and a locking support whose flap clicks over the top of the shelf, with arrows showing the shelf load pushing straight down.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/32_mm_cabinetmaking_system
+  - https://www.woodcraft.com/blog_entries/all-about-shelf-support
+  - https://rockler.com/hardware/cabinet-hardware/shelving/shelf-pins-and-supports
+  - https://www.hranipex.com/en/product/riex-jc42-glass-shelf-support-pin-transparent-pad-fwf002552
+  - https://files.hafele.co.uk/CatalogFiles/www/14CFC15.PDF
+  - https://files.hafele.co.uk/CatalogFiles/www/23T7-146.pdf
+  - https://www.hunker.com/13402822/how-to-remove-cabinet-shelves-held-with-plastic-shelf-lock-supports
+  - https://cdn-content.kregtool.com/root/shared/manuals/KMA3232_Global.pdf
+  - https://www.woodsmith.com/article/fast-foolproof-kreg-shelf-pin-jig/
+  - https://www.woodbin.com/calcs/sagulator/
+  - https://woodweb.com/knowledge_base/Bearing_Capacity_of_Glass_Shelves.html
+  - https://www.sugatsune.com/content/site-assets/501_PDF/2881_2885.pdf
+  - https://commons.wikimedia.org/wiki/File:2017_UEF_Joensuu_library_06_shelf.jpg
+  - https://commons.wikimedia.org/wiki/File:Two_stainless_steel_shelf_supports_2017.jpg
+  - https://commons.wikimedia.org/wiki/Category:Shelf_supports
+  - https://commons.wikimedia.org/wiki/Category:System_32
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: tool-free quick release
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: set and hold
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** adjustable, environment_limits, load, making_tips_3d_printing, processes, safety_notes, when_not_to_use
 

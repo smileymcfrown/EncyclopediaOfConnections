@@ -42,7 +42,7 @@
     "adjustable": "no once set. While wet, parts can be slid into line within the open assembly time (about 3-10 minutes, depending on grade), and white glue gives more slip than yellow (Titebond; Wikipedia 'Wood glue').",
     "play_and_precision": "not applicable (nothing moves). It needs close-fitting, flat joints: PVA is a poor gap filler, and a 'gap-filling puddle will shrink as it dries' (Rockler; Woodcraft). The standard EN 205 test joint uses a 0.1 mm glue line (IVK leaflet).",
     "access_needed": "not applicable: glue is spread on the joint faces before the parts are put together and clamped",
-    "materials": "Bonds well: wood (softwood and hardwood), plywood, hardboard, particleboard and MDF, veneer, paper, card, cork, leather, cloth and 'most other porous materials' (Titebond Original; FPL Table 10-1; thisTOthat). Also plastic laminates to wood in industry (FPL Table 10-1). Poor or no bond: non-porous materials such as metal, glass and most plastics, including 3D prints in PLA, PETG and ABS (Prusa: PVA/wood glues are 'probably not strong enough for most plastics'); painted, stained or sealed wood, where the bond is only as strong as the paint (Titebond FAQ); oily or tannin-rich woods such as teak and ipe unless freshly planed or wiped with acetone (Titebond FAQ); wood wetter than about 16% moisture, where it may not dry at all (Titebond FAQ); old cured PVA (Wikipedia 'Wood glue'). Acidic grades (pH 2.5-3.0) can corrode metal (Titebond II and III).",
+    "materials": "Bonds well: wood (softwood and hardwood), plywood, hardboard, particleboard and MDF, veneer, paper, card, cork, leather, cloth and 'most other porous materials' (Titebond Original; FPL Table 10-1; thisTOthat). Also plastic laminates to wood in industry (FPL Table 10-1). Foam board and polystyrene foam too: PVA is 'foam-safe', while solvent glue (UHU-type) melts polystyrene foam (Studio Matrx model-making lesson). Between two foam faces it is slow to dry, because it needs air to dry; forum advice is to use it on small areas only, or use epoxy, which 'doesn't require air to dry' and won't melt the foam (Model Boat Mayhem forum, 'glueing polystyrene', 2008). Poor or no bond: non-porous materials such as metal, glass and most plastics, including 3D prints in PLA, PETG and ABS (Prusa: PVA/wood glues are 'probably not strong enough for most plastics'); painted, stained or sealed wood, where the bond is only as strong as the paint (Titebond FAQ); oily or tannin-rich woods such as teak and ipe unless freshly planed or wiped with acetone (Titebond FAQ); wood wetter than about 16% moisture, where it may not dry at all (Titebond FAQ); old cured PVA (Wikipedia 'Wood glue'). Acidic grades (pH 2.5-3.0) can corrode metal (Titebond II and III).",
     "maker_difficulty": "easy: no mixing, water cleanup and cheap. The skills are spreading an even film, working within the open time, and clamping evenly (FPL Wood Handbook ch.10; Titebond)."
   },
   "making": {
@@ -94,7 +94,9 @@
       "Dowel and biscuit joints, and Butt and lap wood joints: the joinery that PVA is usually used with",
       "Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape a joint so the glue is loaded in shear on side grain",
       "Liquid seam sealant (anti-fray liquid, e.g. Fray Check (brand)): a colourless liquid dabbed on buttonholes, seams and cut edges that stops fabric fraying by reinforcing the fibres (Prym Fray Check product description); it seals an edge rather than joining two parts",
-      "Iron-on fusible web: a dry sheet or tape of heat-activated glue ironed between two layers of fabric to bond them, an alternative to liquid fabric glue for hems and patches"
+      "Iron-on fusible web: a dry sheet or tape of heat-activated glue ironed between two layers of fabric to bond them, an alternative to liquid fabric glue for hems and patches",
+      "Glue stick and starch paste (wheat-starch paste, methyl cellulose): milder, water-based paper glues that cockle thin paper less and can often be undone with water; bookbinders mix methyl cellulose 50/50 with PVA for more working time",
+      "Score-and-slip join: how wet or leather-hard pottery and air-dry clay is joined with slip; PVA is used instead once air-dry clay has already dried"
     ]
   },
   "media": {
@@ -183,7 +185,9 @@
       "https://aleenes.com/blogs/glossary/tacky-glue",
       "https://aleenes.com/blogs/glossary/polyvinyl-acetate-glue",
       "https://aleenes.com/a/faq",
-      "https://www.coolcrafting.co.uk/product/prym-fray-check/"
+      "https://www.coolcrafting.co.uk/product/prym-fray-check/",
+      "https://www.studiomatrx.org/students/model-making/cutting-and-finishing",
+      "https://www.modelboatmayhem.co.uk/forum/index.php/topic,12818.0.html"
     ]
   },
   "uncertain": [

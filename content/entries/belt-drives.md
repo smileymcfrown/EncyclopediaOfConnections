@@ -88,12 +88,17 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [same way, opposite ways, different speeds]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Belt drives* (100): "a crossed belt suits flat and round belts" (Wikipedia gives only the twist needed for V and
+    timing belts).'
 uncertain_fields: [special_behaviour, processes, environment_limits, related, make_it_yourself]
 diagram_idea: Three side-by-side cut-away pulleys showing a toothed belt locked into grooves, a V-belt wedged into its groove
   and a round belt sitting in a V-groove, above an animation of a small pulley driving one three times bigger (with rev counters
@@ -182,6 +187,7 @@ sources:
 - https://www.printables.com/model/333720-gt2-pulley-the-big-collection-updated
 - https://www.printables.com/model/46639-tension-meter-for-the-gt2-belts-of-i3-mk3s-or-prus
 - https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Serpentine_belt
 research: research/connection-types/results/Belt_drives_timing_round_and_Vbelt.json
 image:
   file: belt-drives.webp
@@ -330,6 +336,8 @@ GT2 (2GT) timing belt, 2 mm [pitch](../glossary.md#pitch), 6 mm or 9 mm wide, op
 - V-belt minimum pulley diameters: SPZ 67 mm, SPA 100 mm, SPB 160 mm, SPC 224 mm; groove angles 34 or 38 degrees depending on pulley size; capacity falls to 0.82 of rated at 120 degrees of wrap (RoyMech 'Vee belts').
 - Round belts run in a pulley with a 60-degree V-groove and are for relatively low torque only (Wikipedia 'Belt (mechanical)').
 - Timing belts need only enough tension to keep the belt in contact with the pulley; friction belts need more (Wikipedia). Prusa's rule of thumb for printer GT2 belts: plucked, they should sound like a low bass note (Prusa Knowledge Base).
+- One belt driving several pulleys (a serpentine belt): pulleys driven by the smooth back of the belt turn the opposite way to those inside the loop, and if that one belt breaks or comes off, everything it drives stops at once (Wikipedia 'Serpentine belt').
+- Crossing a belt reverses the driven pulley; V-belts and timing belts can only be run crossed if the belt has a twist between each pulley (Wikipedia 'Belt (mechanical)').
 
 ## Common failures
 
@@ -347,6 +355,8 @@ The point where the belt runs onto a pulley is an in-running nip point that can 
 - Rope drive: a historic form of round-belt drive using ropes on grooved pulleys (Wikimedia Commons 'Rope drives')
 - Friction wheel drive: two wheels pressed together, with no belt; simpler but slips more easily ⚑ [uncertain]
 - Rack and pinion or lead screw: other ways to turn rotation into straight-line motion, stiffer than an open-ended belt
+- Linked lead screws: a closed timing-belt loop round a pulley on each lead screw keeps every corner of a bed or gantry in step
+- Line shaft and power take-off: many belt drives taken off one long driving shaft, each to its own machine
 
 ## Make it yourself
 
@@ -371,6 +381,7 @@ The point where the belt runs onto a pulley is an in-running nip point that can 
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, crossed, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
+- ⚑ Research note: *Belt drives* (100): "a crossed belt suits flat and round belts" (Wikipedia gives only the twist needed for V and timing belts).
 
 ## Sources
 
@@ -406,3 +417,4 @@ The point where the belt runs onto a pulley is an in-running nip point that can 
 - <https://www.printables.com/model/333720-gt2-pulley-the-big-collection-updated>
 - <https://www.printables.com/model/46639-tension-meter-for-the-gt2-belts-of-i3-mk3s-or-prus>
 - <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Serpentine_belt>

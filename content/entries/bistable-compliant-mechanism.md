@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -220,7 +222,7 @@ pictures:
   drawn: false
 glossary: [misalignment, backlash, over-centre, bistable, detent, ratchet, linkage, actuator, flexure, compliant-mechanism,
   living-hinge, cantilever, damping, form-fit--force-fit--material-bond, repeatability--accuracy, creep, fatigue, brittle--ductile,
-  stress-concentration]
+  stress-concentration, annealing]
 ---
 
 <div class="eoc-pictures">
@@ -302,7 +304,7 @@ Avoid it for heavy loads or where it must hold against forces larger than its sn
 
 ### 3D printing tips
 
-Choose a tough, springy plastic: Cableclips are tested in PETG, ASA and ABS, and PLA is not recommended because it is not elastic enough (Printables 328519); PLA flexures can wear out in tens of cycles, whereas a pinned-hinge version of the same switch passed 110,000 cycles in PLA (Gamma4D, Printables 488317). BYU notes that the fatigue and flex properties of your filament decide how many cycles a printed bistable switch lasts (Printables 581016). Orient the part so the flexing beams lie flat on the bed with layers running along their length, so bending does not pull layers apart; Hubs advises building the hinge so its width, not its length, is stacked layer by layer, and making FDM flexures 0.4 to 0.6 mm thick with at least two layers (Hubs). Print orientation of the springy parts is critical and a wrong orientation won't work (Hackaday, snap action mechanism). Use the slicer settings the designer gives, because wall count and line width set the flexure thickness (Cableclips). Give pre-curved snap beams a curve height well over 2.3 times their thickness and stop them twisting, e.g. with two beams joined at the middle (see rules of thumb). Round the corners where flexures meet thick parts, since flexure roots concentrate stress and fail by fatigue (Wikipedia, Compliant mechanism). Plastic springs creep under constant strain (Hackaday, 3D-printed springs), so a printed bistable part may snap more weakly after being stored in its bent state for a long time ⚑ [uncertain]. Hubs suggests annealing living hinges in boiling water and flexing them while warm to extend life (Hubs).
+Choose a tough, springy plastic: Cableclips are tested in PETG, ASA and ABS, and PLA is not recommended because it is not elastic enough (Printables 328519); PLA flexures can wear out in tens of cycles, whereas a pinned-hinge version of the same switch passed 110,000 cycles in PLA (Gamma4D, Printables 488317). BYU notes that the fatigue and flex properties of your filament decide how many cycles a printed bistable switch lasts (Printables 581016). Orient the part so the flexing beams lie flat on the bed with layers running along their length, so bending does not pull layers apart; Hubs advises building the hinge so its width, not its length, is stacked layer by layer, and making FDM flexures 0.4 to 0.6 mm thick with at least two layers (Hubs). Print orientation of the springy parts is critical and a wrong orientation won't work (Hackaday, snap action mechanism). Use the slicer settings the designer gives, because wall count and line width set the flexure thickness (Cableclips). Give pre-curved snap beams a curve height well over 2.3 times their thickness and stop them twisting, e.g. with two beams joined at the middle (see rules of thumb). Round the corners where flexures meet thick parts, since flexure roots concentrate stress and fail by fatigue (Wikipedia, Compliant mechanism). Plastic springs creep under constant strain (Hackaday, 3D-printed springs), so a printed bistable part may snap more weakly after being stored in its bent state for a long time ⚑ [uncertain]. Hubs suggests [annealing](../glossary.md#annealing) living hinges in boiling water and flexing them while warm to extend life (Hubs).
 
 ### Buying one (off-the-shelf parts)
 

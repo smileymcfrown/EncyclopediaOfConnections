@@ -85,9 +85,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty]
 needs_confirming: {}
 confirmed: []
-open_points: []
+open_points:
+- kind: content
+  note: '*Magnet joint* (111): K&J gives no single maximum for "N grade": a thin N42 disc reaches its limit near 80 °C, and
+    the limit depends on the magnet''s shape; the entry''s 80 °C figure is from Wikipedia.'
 uncertain_fields: [processes, play_and_precision, environment_limits, related]
 diagram_idea: Two printed blocks with magnet pockets, shown first apart with N and S labels and arrows pulling them together,
   then closed with a big arrow showing the strong straight pull, a small arrow showing the weak sideways (shear) grip, and
@@ -167,6 +172,10 @@ sources:
 - https://api.printables.com/graphql/
 - https://en.wikipedia.org/wiki/Programmable_magnet
 - 'https://patents.google.com/patent/US7843297B2/en (read via WebFetch: Google Patents blocked direct download)'
+- https://en.wikipedia.org/wiki/Polymer_clay
+- https://www.kjmagnetics.com/blog/temperature-and-neodymium-magnets
+- https://www.supermagnete.se/eng/Magnet-applications/Magnets-made-of-oven-hardening-modelling-clay
+- https://thearmypainter.com/blogs/explore/how-to-use-magnets-on-your-miniature
 research: research/connection-types/results/Magnet_joint_embedded_magnets_magnetic_catch.json
 image:
   file: drawn/magnet-joint.svg
@@ -185,7 +194,7 @@ pictures:
   render: true
   drawn: true
 glossary: [misalignment, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, holding-force, captive-nut,
-  keying, kinematic-coupling, creep, brittle--ductile, peel-vs-shear]
+  keying, kinematic-coupling, creep, brittle--ductile, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
@@ -213,6 +222,7 @@ A few parts: two magnets (or one magnet and a steel washer, plate or ball), the 
 - Magnetic catches that hold cupboard and cabinet doors shut (Wikimedia Commons 'Magnetic Catch parts')
 - Magnetic laptop chargers (MagSafe, brand) and magnetic plugs on deep fryers, which pull out safely if the cable is tugged (Wikipedia 'MagSafe')
 - Boxes and cases with magnetic lids, e.g. 3D-printed magnetic boxes (Printables)
+- Tabletop miniatures with swappable arms, heads and weapons, held by small magnets superglued into blind holes drilled with a pin vice (Army Painter)
 
 ## When to use it
 
@@ -249,7 +259,7 @@ Avoid it where the joint takes large sideways, peeling or twisting loads, since 
 - **Adjustable:** not in itself, but the [holding force](../glossary.md#holding-force) can be tuned by changing the gap (a thicker plastic skin, tape or a shim weakens it), the magnet size or grade, or the steel thickness (K&J 'How much will a magnet hold?'; K&J 'Steel thickness')
 - **Access needed:** one side only (blind): the parts just meet face to face, and hidden magnets can work through a thin plastic skin or panel (at reduced force)
 - **Materials:** Magnets: sintered neodymium-iron-boron (NdFeB) discs or cylinders, grades N35 to N52, usually with nickel-copper-nickel plating; ferrite (ceramic) magnets are much weaker (Rapid Elevation; K&J safety page). Counterparts: ordinary low-carbon steel works best; ferritic 430 stainless steel works (about 82-99 % of the pull on plain steel) but 304 and 316 stainless steels are not magnetic (K&J 'Is stainless steel magnetic?'). Housings: 3D-printed PLA, PETG or ASA, wood, or plastic catch housings. Glues: epoxy, superglue, polyurethane glue and similar bond to magnets; polypropylene and polyethylene are almost impossible to glue (K&J 'Sticky business')
-- **Heat, cold, water and wear:** Heat: standard N-grade neodymium magnets are rated to about 80 °C and lose strength above that; letter grades reach about 230 °C and all lose their magnetism near 320 °C (Wikipedia 'Neodymium magnet'; K&J safety page). The plastic around them usually fails first: PLA softens at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a press-fit magnet in PLA can loosen in a hot car. Water: plated neodymium magnets are not waterproof and corrode outdoors or when wet, losing strength (K&J safety page); badly corroded sintered magnets can crumble to powder (Wikipedia). Over time they lose less than 1 % in 10 years if not overheated (K&J FAQ), but press fits can loosen through [creep](../glossary.md#creep) (Slant 3D via Hackaday). Vibration and shocks can slide the parts apart because sideways grip is only friction ⚑ [uncertain].
+- **Heat, cold, water and wear:** Heat: standard N-grade neodymium magnets are rated to about 80 °C and lose strength above that; letter grades reach about 230 °C and all lose their magnetism near 320 °C (Wikipedia 'Neodymium magnet'; K&J safety page). The plastic around them usually fails first: PLA softens at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a press-fit magnet in PLA can loosen in a hot car. Water: plated neodymium magnets are not waterproof and corrode outdoors or when wet, losing strength (K&J safety page); badly corroded sintered magnets can crumble to powder (Wikipedia). Over time they lose less than 1 % in 10 years if not overheated (K&J FAQ), but press fits can loosen through [creep](../glossary.md#creep) (Slant 3D via Hackaday). Vibration and shocks can slide the parts apart because sideways grip is only friction ⚑ [uncertain]. Polymer clay: don't bake magnets into it. The clay [cures](../glossary.md#cure) at 129-135 °C (Wikipedia 'Polymer clay'), well above the roughly 80 °C at which a standard thin N42 disc magnet starts to lose strength for good (K&J 'Temperature and neodymium magnets'); supermagnete says magnets are demagnetised in the oven and to expect about 20% loss even at 100 °C. Bake the clay first and glue the magnet into a pocket afterwards (supermagnete), or use a high-temperature grade such as N42SH, rated to 150 °C (K&J; the real limit also depends on the magnet's shape).
 
 ## Making it
 
@@ -302,6 +312,10 @@ Keep neodymium magnets away from children: if two or more small magnets are swal
 - Magnetic coupling and magnetic gear: magnets that pass turning force through a gap instead of holding parts together
 - Magnetic connector: a magnetic plug that also carries current through spring contacts (MagSafe-style chargers, magnetic pogo connectors); this entry only holds parts together
 - Keying: makes parts fit only the right way round or only with the right partner; coded magnet patterns do the same job magnetically (Wikipedia 'Programmable magnet')
+- Pinned glue joint: fixes a part on for good with a hidden pin and glue; on miniatures a magnet is used instead when the part must swap
+- Baked-in findings: metal loops and posts baked into polymer clay; magnets can't be baked in, so they are glued into a pocket after baking
+- Elastic-strung ball joint: strung doll joints; some dolls use magnets for removable head caps, face plates and hands
+- Glass door hinge: hinges for glass cupboard doors, which are often held shut by a magnetic catch
 
 ## Make it yourself
 
@@ -325,6 +339,7 @@ Keep neodymium magnets away from children: if two or more small magnets are swal
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ Research note: *Magnet joint* (111): K&J gives no single maximum for "N grade": a thin N42 disc reaches its limit near 80 °C, and the limit depends on the magnet's shape; the entry's 80 °C figure is from Wikipedia.
 
 ## Sources
 
@@ -347,3 +362,7 @@ Keep neodymium magnets away from children: if two or more small magnets are swal
 - <https://api.printables.com/graphql/>
 - <https://en.wikipedia.org/wiki/Programmable_magnet>
 - <https://patents.google.com/patent/US7843297B2/en (read via WebFetch: Google Patents blocked direct download)>
+- <https://en.wikipedia.org/wiki/Polymer_clay>
+- <https://www.kjmagnetics.com/blog/temperature-and-neodymium-magnets>
+- <https://www.supermagnete.se/eng/Magnet-applications/Magnets-made-of-oven-hardening-modelling-clay>
+- <https://thearmypainter.com/blogs/explore/how-to-use-magnets-on-your-miniature>

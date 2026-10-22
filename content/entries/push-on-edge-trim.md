@@ -90,6 +90,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, glass
+      or mirror]
 needs_confirming:
   usual_process:
     kind: best guess
@@ -310,6 +313,8 @@ Edge trim is itself a safety part: it covers exposed sharp edges (PAR Group). Cu
 - Clamp-on accessory mount for bars, poles and edges: a screw-tightened clamp for edges that must carry load
 - Silicone and MS-polymer adhesive sealants: glue-on alternative for sealing or protecting an edge
 - Double-sided foam tape: stick-on alternative for light trims and bumpers
+- Glass and mirror edge clips and clamps: lips, J-channel or padded screw clamps that hold a glass or acrylic sheet by its edge, rather than just covering the edge
+- Lead came joint (leaded glass): grooved H- and U-shaped lead strips that grip the edges of glass pieces and are soldered together, like a metal U-channel edging
 
 ## Make it yourself
 

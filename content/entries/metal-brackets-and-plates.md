@@ -101,6 +101,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -225,7 +227,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [deflection, clearance, form-fit--force-fit--material-bond, creep, brittle--ductile, layer-lines, perimeters, infill,
-  warping--shrinkage, end-grain, peel-vs-shear]
+  warping--shrinkage, end-grain, peel-vs-shear, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -317,7 +319,7 @@ Angle brackets and corner braces (light and heavy-duty, with or without a stiffe
 - Only bend products that are designed to be bent, and bend them once; field-bent steel may crack at the bend, and cracked steel 'will not carry load and must be replaced'; don't weld connectors unless the maker allows it (Simpson Strong-Tie General Notes, rule 4 and notes i and r).
 - Cut joists to length: no more than a 1/8 in (3 mm) gap between joist end and header in a hanger, unless noted (Simpson Strong-Tie General Notes, rule 5).
 - If nails split the wood, pre-bore holes no bigger than 0.75 of the nail diameter; a fastener that splits the wood won't take the design load (Simpson Strong-Tie General Notes, note j).
-- Hanger and fastener should be the same metal type, or galvanic corrosion speeds up (USDA Wood Handbook ch. 8, p. 8-5); use hot-dip galvanised nails with heavily galvanised connectors and stainless nails with stainless connectors (Simpson Strong-Tie SE blog).
+- Hanger and fastener should be the same metal type, or [galvanic corrosion](../glossary.md#galvanic-corrosion) speeds up (USDA Wood Handbook ch. 8, p. 8-5); use hot-dip galvanised nails with heavily galvanised connectors and stainless nails with stainless connectors (Simpson Strong-Tie SE blog).
 - Joist-hanger design loads come from tests (ASTM D7147): the lower of the average load at 3.2 mm deformation and the average ultimate load divided by 3; truss-plate design values are the lower of the load at 0.38 mm slip divided by 1.6 and the ultimate load divided by 3 (USDA Wood Handbook ch. 8, pp. 8-25 to 8-26).
 - Face-mount hangers pass load to the header only through the sideways (lateral) loading of their nails or screws; top-mount hangers also bear on top of the header (USDA Wood Handbook ch. 8, p. 8-26).
 - Solid wood tops need slotted (shrinkage) brackets so the wood can move with humidity (DT Online).
@@ -344,6 +346,7 @@ Connectors only reach their rated load with the fastener type, size and number t
 - Slotted adjustment with a jacking screw: slotted holes for adjustable positions
 - Clamp-on tube fittings: the equivalent for joining tubes
 - Welded metal joint: joining steel parts permanently without a separate bracket
+- Shelf pins and shelf supports: pegs in rows of holes inside a cabinet, for loose shelves that can be moved, instead of fixed brackets
 
 ## Make it yourself
 

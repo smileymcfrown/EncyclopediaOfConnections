@@ -24,8 +24,9 @@ answer has:
 
 **`finder.json`** has one record per entry: `num`, `page` (the file name in `content/entries/`,
 which is also the page address), `title`, `description` (the one-line summary for the card),
-`family`, `other_families`, `finder` (the fixed values, for the tick-box panel), and
-`needs_confirming` (which of those values need confirming).
+`family`, `other_families`, `finder` (the fixed values, for the tick-box panel and the "Made of" row:
+`made_of` is the one hand-set field it carries, R37), and `needs_confirming` (which of those values
+need confirming). `export_finder.py` stops if an entry has no `made_of` material.
 
 *Decision for review (D16-D17 in `PROJECT.md`):* the tree is saved with each answer's entries
 already worked out, rather than as rules the browser would run. The rules then live in one place

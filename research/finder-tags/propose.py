@@ -461,6 +461,13 @@ def propose(i, it):
     v, n = power_source(pw, name, family, d); put('power_source', v, n, 'power', pw_text if pw != 'passive' else first_sentence(pw_text))
     v, n = power_loss(pw, d); put('power_loss', v, n, 'power', pw_text if pw != 'passive' else None)
     mi, mo, sl, n, used = motions(d)
+    if family == 'pop-up & movable paper mechanisms' and mi != ['not applicable']:
+        # R37: a pop-up is worked by opening the page (a part turn, not steady turning), and "step" in its
+        # text names a step fold, not stepping motion
+        swap = {'steady turning': 'back-and-forth turning', 'steps': 'straight push or pull'}
+        mi, mo = [list(dict.fromkeys(swap.get(x, x) for x in v)) for v in (mi, mo)]
+        sl = ['not applicable']
+        n = (n + '; ' if n else '') + 'pop-up: opening the page read as a part turn, not steady turning'
     for k, val in (('motion_in', mi), ('motion_out', mo), ('shaft_layout', sl)):
         put(k, val, n, 'input_output', used)
     if rx(r'belt drive|chain and sprocket|capstan cable|flexible drive shaft', name) and 'far apart' not in sl:
