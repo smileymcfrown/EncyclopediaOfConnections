@@ -514,3 +514,48 @@ glassparts.ie, crlaurence.com, Google Patents (503; patents read through WebFetc
 Museum, Grassroots Motorsports, Endless-sphere (anti-bot page), CycleKarts GB, Thingiverse,
 ratrodbikes, the legislation.gov.uk text on vehicle brakes (a scan with no text). Skyjems pages
 were not used (AI-generated images and text).
+
+## Update pass on researched entries (Phase 5, 2026-10-22)
+Collected from the update agents' hand-back reports. Plan and per-entry list: `update-pass-2026-10-22.md`
+(the notes additions from section 4 of the seven Phase 5 gap searches, and cross-links from existing
+entries to the new items 410-452). All 116 changed files validate.
+
+### Conflicting figures and content points
+- *Syringe hydraulics* (300): **correction:** `degrees_of_freedom` said several outputs on one line "all move together"; they do only when each meets the same resistance (Power & Motion, *Flow divider circuits*), and the entry now says how to keep cylinders in step.
+- *Contact adhesive* (224): **correction:** "the solvents in solvent types dissolve polystyrene" was too broad: ketone-solvent types do, but polystyrene-safe solvent contact glues exist (UHU por data sheet); the [uncertain] EVA-seam failure is now sourced (Costumary; cosplayadvice.com).
+- *Tab-and-slot joint* (239): **correction:** the [uncertain] box-flap example is now the sourced folding-carton tuck flap and locking tab (Wikipedia *Folding carton*).
+- *Living hinge* (49): only a reader comment on Flite Test supports foam cut partly through as a hinge; which foams it suits, and that it stiffens and tires so tape or CA hinges are used for anything lasting, are marked [uncertain].
+- *Tab-and-slot joint* (239): "cut the slots so the flutes run across the joint" is marked [uncertain]: no opened source tests slotted card (Makedo covers overlapped panels and folds only).
+- *Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason.
+- *Housing and rebate joints* (299): that the foam-board rabbet keeps the outer paper over the foam edge is marked [uncertain] (a sketch in the Core77 thread only).
+- *Silicone and MS-polymer adhesive sealants* (227): that aquarium (acetoxy) silicone is wrong for mirrors is marked [uncertain]: it is inferred from the makers' warnings about the silver coating, not tested in an opened source. Mirror-adhesive beads: Bostik says 20-40 cm apart, Soudal 10-20 cm; both are given.
+- *Magnet joint* (111): K&J gives no single maximum for "N grade": a thin N42 disc reaches its limit near 80 °C, and the limit depends on the magnet's shape; the entry's 80 °C figure is from Wikipedia.
+- *Staples for wood and fabric* (373): Talas calls Monel staples stainless; Monel is not stainless steel, so the text says "rust-resistant Monel staples". The entry keeps its name (renaming would change its page address); "desk stapler" and the other stapler kinds are aliases.
+
+### Left out (not in the opened source)
+- *Spur gear pair and gear train* (267): "kinetic toys" as an example of one gear driving a ring of gears (the Firgelli page does not mention them).
+- *Glued joint design* (270): that the bevelled EVA seam hides the seam line, and its 45° angle (Costumary says only that the bevel makes a glue channel; foodandcosplay's 45° is for folded edges).
+- *Tongue-and-groove joint* (273): acrylic doors (Bohle covers glass only) and lifting a pane in through a deeper top channel.
+- *Elastic band springs* (282): "over dowels or skewers" for wing hold-downs.
+- *Air or hydraulic cylinder* (301): that air cylinders are harder to keep in step because air compresses.
+- *Two-part epoxy* (138): a pool of fast epoxy getting hot enough to soften foam (not in the Swaylocks thread; the entry already notes that a big batch heats itself).
+- *Belt drives* (100): "a crossed belt suits flat and round belts" (Wikipedia gives only the twist needed for V and timing belts).
+- *Shock-corded sectional pole* (152): an aluminium kite ferrule with a centre stop (the kiteplans pages mention brass ferrules and where to put them).
+- *PVA wood glue* (223): PVA curing "not at all" between foam faces (the opened forum thread says slow to dry), and "XPS terrain".
+- *Contact adhesive* (224): spray mount being repositionable, and the outdoors and overspray advice (not in the 3M data sheet).
+
+### Cross-links skipped
+- *Quick-release pin* (40) and *Living hinge* (49): no link to *Loose-leaf bindings*; *Cable through a hinge* (338): none to *Slot-in model hinge*; *Tripod and stand screw mount* (393): none to *Panel standoff*; *Brazed joint* (405): none to *Copper-foil joint*. None would help a reader of that entry; the link the other way is kept where it exists.
+
+### Sources and links
+- *Sprag clutch* (10): Wikipedia *Freewheel* does not cover two inputs; the two-motor point is cited from Wikipedia *Sprag clutch*.
+- *Contact adhesive* (224): the xposeddesigns.com page is about hook-and-loop on ABS cosplay armour, glued with contact cement or epoxy, not webbing on foam; the text says so.
+- *Whippletree* (91): IHPVA says a cable splitter "does not provide balance"; "copies distance" comes from the *Cable splitter* entry. "Summing linkage" is kept as an alias: Wikipedia says such linkages "summed" inputs and "add and subtract".
+- *Soldered metal joint* (404): the stained-glass club page (Stained Glass Crafters, Sun City West) says leftover "acids" attack mirror backing; it does not name flux.
+- *Epoxy putty* (232): the r/polymerclay thread was read through the arctic-shift copy (as in earlier runs) and says "2 part epoxy clay" (Apoxie Sculpt, Magic Sculpt).
+- *Cam and follower* (84): the UT Austin wiki page was read through its REST API; it says the offset cams "mimic rolling water".
+- *Spur gear pair and gear train* (267): the KHK PDF was read with pypdf; the image of the planet-spacing formula was lost, and the text around it confirms the even-spacing condition. *Score-and-fold hinge* (410): the Warwick lesson PDF was also read with pypdf.
+- Several pages were read with curl through the proxy after WebFetch was blocked or hit its limit (HTTP 200, text checked): Swaylocks, CLC, Fold N Fly, Epoxyworks, West System, Duckworks, Bohle, Alliance Rubber, Model Aviation, Core77, 4over4. Costumary later returned 503 and is cited from the one successful read.
+
+### Blocked or unreadable (nothing cited from them)
+- spikeybits.com pinning page (403; the Starship Modeler thread is cited instead), rmweb.co.uk (403), the Model Airplane News page on foam hinges (paywalled).

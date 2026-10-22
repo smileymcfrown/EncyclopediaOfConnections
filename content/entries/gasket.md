@@ -342,6 +342,9 @@ Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it give
 - Double-sided foam tape (acrylic foam pressure-sensitive adhesive): bonds a panel on with a foam layer that may also act as a light seal ⚑ [uncertain]
 - Parallel pipe thread with a sealing washer: a straight-threaded pipe or hose joint in which a small ring gasket (washer, bonded seal or O-ring) squeezed against a flat face does the sealing
 - Bead-in-groove fabric edge: the same groove idea used to hold and tension a fabric edge (keder, bolt rope, screen [spline](../glossary.md#spline)) instead of sealing a lid
+- Compression limiter: a metal sleeve in the bolt hole that stops the bolt crushing a soft part, and can set how hard a gasket under the screw is squeezed
+- Glazing in a rebated frame: holds a pane in a frame with points, putty or beads; well-painted putty gives the weathertight seal
+- Wire-bail closure: a wire over-centre lever that squeezes a rubber ring gasket between stopper and bottle or jar mouth
 
 ## Make it yourself
 

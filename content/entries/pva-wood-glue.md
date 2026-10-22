@@ -45,7 +45,7 @@ finder:
   overload_response: not applicable
   clicks: not applicable
   glue_traits: [strongest]
-  bonds_well: [wood, paper or card, fabric or leather]
+  bonds_well: [wood, paper or card, fabric or leather, foam]
   bonds_poorly: [PLA, PETG, ABS or ASA, metal, glass or ceramic]
   tools: [press or vice]
   load_max: heavy
@@ -102,6 +102,9 @@ open_points:
 - kind: content
   note: '*PVA wood glue* (223): Aleene''s says fabric glues are acrylic-based, not PVA, so ''fabric glue'' is an alias with
     that caveat.'
+- kind: scope
+  note: '*PVA wood glue* (223): PVA curing "not at all" between foam faces (the opened forum thread says slow to dry), and
+    "XPS terrain".'
 uncertain_fields: [aliases, job, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes]
 diagram_idea: 'A magnified cross-section of a clamped glue line between two boards: blue water droplets leaving the glue downward
   into the wood and upward into the air, glue fingers reaching into the open wood cells, and a second panel contrasting a
@@ -178,6 +181,8 @@ sources:
 - https://aleenes.com/blogs/glossary/polyvinyl-acetate-glue
 - https://aleenes.com/a/faq
 - https://www.coolcrafting.co.uk/product/prym-fray-check/
+- https://www.studiomatrx.org/students/model-making/cutting-and-finishing
+- https://www.modelboatmayhem.co.uk/forum/index.php/topic,12818.0.html
 research: research/connection-types/results/PVA_wood_glue_white_and_yellow_glue.json
 image:
   file: drawn/pva-wood-glue.svg
@@ -211,7 +216,8 @@ pictures:
   alt: Two strips of wood glued together and held tight with clamps on a workbench while the glue sets.
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, open-time, peel-vs-shear, scarf-joint]
+glossary: [form-fit--force-fit--material-bond, creep, brittle--ductile, end-grain, cure, pot-life--working-time, open-time,
+  peel-vs-shear, leather-hard, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -269,7 +275,7 @@ Not for gaps or poorly fitting joints: use epoxy or polyurethane glue (Rockler; 
 - **Sealing:** none: it is not a sealant, and ordinary white and yellow glues are 'not intended for exterior use or where moisture is likely' (Titebond Original and White). Water-resistant grades resist water but are still 'not for continuous submersion or for use below the waterline' (Titebond II and III).
 - **Adjustable:** no once set. While wet, parts can be slid into line within the open assembly time (about 3-10 minutes, depending on grade), and white glue gives more slip than yellow (Titebond; Wikipedia 'Wood glue').
 - **Access needed:** not applicable: glue is spread on the joint faces before the parts are put together and clamped
-- **Materials:** Bonds well: wood (softwood and hardwood), plywood, hardboard, particleboard and MDF, veneer, paper, card, cork, leather, cloth and 'most other porous materials' (Titebond Original; FPL Table 10-1; thisTOthat). Also plastic laminates to wood in industry (FPL Table 10-1). Poor or no bond: non-porous materials such as metal, glass and most plastics, including 3D prints in PLA, PETG and ABS (Prusa: PVA/wood glues are 'probably not strong enough for most plastics'); painted, stained or sealed wood, where the bond is only as strong as the paint (Titebond FAQ); oily or tannin-rich woods such as teak and ipe unless freshly planed or wiped with acetone (Titebond FAQ); wood wetter than about 16% moisture, where it may not dry at all (Titebond FAQ); old cured PVA (Wikipedia 'Wood glue'). Acidic grades (pH 2.5-3.0) can corrode metal (Titebond II and III).
+- **Materials:** Bonds well: wood (softwood and hardwood), plywood, hardboard, particleboard and MDF, veneer, paper, card, cork, leather, cloth and 'most other porous materials' (Titebond Original; FPL Table 10-1; thisTOthat). Also plastic laminates to wood in industry (FPL Table 10-1). Foam board and polystyrene foam too: PVA is 'foam-safe', while solvent glue (UHU-type) melts polystyrene foam (Studio Matrx model-making lesson). Between two foam faces it is slow to dry, because it needs air to dry; forum advice is to use it on small areas only, or use epoxy, which 'doesn't require air to dry' and won't melt the foam (Model Boat Mayhem forum, 'glueing polystyrene', 2008). Poor or no bond: non-porous materials such as metal, glass and most plastics, including 3D prints in PLA, PETG and ABS (Prusa: PVA/wood glues are 'probably not strong enough for most plastics'); painted, stained or sealed wood, where the bond is only as strong as the paint (Titebond FAQ); oily or tannin-rich woods such as teak and ipe unless freshly planed or wiped with acetone (Titebond FAQ); wood wetter than about 16% moisture, where it may not dry at all (Titebond FAQ); old cured PVA (Wikipedia 'Wood glue'). Acidic grades (pH 2.5-3.0) can corrode metal (Titebond II and III).
 - **Heat, cold, water and wear:** Heat: PVA is a thermoplastic that softens as it warms (its glass transition is about 30-45 °C, Wikipedia 'Polyvinyl acetate'); after a night at 150 °F (66 °C) Titebond's ASTM D905 strengths fall from 3,550-4,000 psi to 1,600-1,750 psi for white, yellow and Type II glue and to 800 psi for Type I, with almost no wood failure (Titebond product pages), so avoid hot cars, radiators and sunny dark surfaces for loaded joints. Water: ordinary white and yellow glues are for dry interiors only; cross-linked grades resist water but none is for continuous submersion, and uncross-linked PVA 'often fail[s] after exposure to wet-dry cycling' (FPL; Titebond). Creep: joints slowly yield under constant load, worse with heat and moisture (FPL Table 10-1; Wikipedia). Cold: apply above the chalk temperature (about 45-55 °F / 7-13 °C depending on grade); cold makes no significant difference to cured joints (FPL; Titebond). Freezing: keep the liquid from freezing; Titebond says freezing may only thicken it and it is freeze-thaw stable, while thisTOthat warns freezing ruins PVA, so check the bottle. Storage: about 2 years, below 75 °F (24 °C) (Titebond). UV: ⚑ [uncertain: no data found; glue lines are normally shielded by wood and finish].
 
 ## Making it
@@ -328,6 +334,8 @@ Low hazard: water-based, with no harmful fumes, and meets ASTM D4236 for arts an
 - Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape a joint so the glue is loaded in shear on side grain
 - Liquid seam sealant (anti-fray liquid, e.g. Fray Check (brand)): a colourless liquid dabbed on buttonholes, seams and cut edges that stops fabric fraying by reinforcing the fibres (Prym Fray Check product description); it seals an edge rather than joining two parts
 - Iron-on fusible web: a dry sheet or tape of heat-activated glue ironed between two layers of fabric to bond them, an alternative to liquid fabric glue for hems and patches
+- Glue stick and starch paste (wheat-starch paste, methyl cellulose): milder, water-based paper glues that cockle thin paper less and can often be undone with water; bookbinders mix methyl cellulose 50/50 with PVA for more [working time](../glossary.md#pot-life--working-time)
+- Score-and-slip join: how wet or [leather-hard](../glossary.md#leather-hard) pottery and air-dry clay is joined with slip; PVA is used instead once air-dry clay has already dried
 
 ## Make it yourself
 
@@ -350,6 +358,7 @@ Low hazard: water-based, with no harmful fumes, and meets ASTM D4236 for arts an
 
 - ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Research note: *PVA wood glue* (223): Aleene's says fabric glues are acrylic-based, not PVA, so 'fabric glue' is an alias with that caveat.
+- ⚑ Research note: *PVA wood glue* (223): PVA curing "not at all" between foam faces (the opened forum thread says slow to dry), and "XPS terrain".
 
 ## Sources
 
@@ -379,3 +388,5 @@ Low hazard: water-based, with no harmful fumes, and meets ASTM D4236 for arts an
 - <https://aleenes.com/blogs/glossary/polyvinyl-acetate-glue>
 - <https://aleenes.com/a/faq>
 - <https://www.coolcrafting.co.uk/product/prym-fray-check/>
+- <https://www.studiomatrx.org/students/model-making/cutting-and-finishing>
+- <https://www.modelboatmayhem.co.uk/forum/index.php/topic,12818.0.html>

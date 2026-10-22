@@ -92,8 +92,11 @@ finder:
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
 needs_confirming: {}
 confirmed: []
-open_points: []
-uncertain_fields: [reuse_cycles, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes]
+open_points:
+- kind: content
+  note: '*Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason.'
+uncertain_fields: [reuse_cycles, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes,
+  rules_of_thumb]
 diagram_idea: Two rectangular boards drawn apart, one with a slot cut down from its top edge to the middle and the other with
   a slot cut up from its bottom edge to the middle, arrows showing one lowered onto the other; beside it the assembled plus-shaped
   cross with flush top and bottom, and a small top view of a 3 by 3 egg-crate grid made from the same joint.
@@ -174,6 +177,8 @@ sources:
 - https://api.printables.com/graphql/
 - https://en.wikipedia.org/wiki/Medium-density_fibreboard
 - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
+- https://en.wikipedia.org/wiki/Corrugated_fiberboard
+- https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches
 research: research/connection-types/results/Crosshalving_slot_joint_eggcrate_joint.json
 image:
   file: cross-halving-slot-joint.webp
@@ -206,8 +211,8 @@ pictures:
   kind: render
   render: true
   drawn: true
-glossary: [clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, creep, elephants-foot,
-  kerf]
+glossary: [stiffness, clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, creep, elephants-foot,
+  kerf, flute]
 ---
 
 <div class="eoc-pictures">
@@ -302,6 +307,7 @@ None needed. Optional: wood glue for permanent joints. Parametric generators and
 - FDM slot clearance about 0.5 mm as a start (Hubs, interlocking joints), tightened to about 0.3 mm in one maker's slot-together print (Printables Weight Rack).
 - A springy finger cut beside the slot (springFit 'cross joint') keeps the joint tight across kerfs of 0.12 to 0.20 mm; do not put it right at the edge of the part, which weakens it against twisting (springFit, UIST 2019).
 - Slits concentrate stress; FlatFitFab estimates stress at a slit with a concentration factor 'rarely above five' (FlatFitFab, UIST 2014).
+- Corrugated card is much stiffer one way than the other: its properties are "highly directional", and edge crush strength and bending [stiffness](../glossary.md#stiffness) depend on which way the [flutes](../glossary.md#flute) run (Wikipedia 'Corrugated fiberboard'). Makedo finds overlapped panels stronger "when the cardboard flutes are in different directions" and folds "across (perpendicular to) the flutes for strong, structural corners" (Makedo connections and joints guide). Where you can, cut the slots so the flutes run across the joint ⚑ [uncertain: advice from the gap search; no test of slotted card joints found].
 
 ## Common failures
 
@@ -341,7 +347,8 @@ None known for the joint itself. Cutting deep slots uses table saws, routers or 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 9 sentences on this page marked [uncertain].
+- ⚑ 10 sentences on this page marked [uncertain].
+- ⚑ Research note: *Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason.
 
 ## Sources
 
@@ -375,3 +382,5 @@ None known for the joint itself. Cutting deep slots uses table saws, routers or 
 - <https://api.printables.com/graphql/>
 - <https://en.wikipedia.org/wiki/Medium-density_fibreboard>
 - <https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)>
+- <https://en.wikipedia.org/wiki/Corrugated_fiberboard>
+- <https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches>

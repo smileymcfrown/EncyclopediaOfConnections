@@ -320,6 +320,7 @@ BURNS: soldering-iron and welder tips, molten plastic and red-hot staples cause 
 - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): mechanical ways to join printed sections, which welding can reinforce
 - Heat-set threaded insert: uses the same soldering iron to melt a metal insert into a print
 - Welded metal joint (fusion welding): the metal equivalent
+- Liquid-clay bond: polymer clay parts fused with liquid clay in the oven, the clay version of joining a material to itself
 
 ## Make it yourself
 

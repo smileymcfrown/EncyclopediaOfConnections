@@ -97,7 +97,9 @@ needs_confirming:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Elastic band springs* (282): "over dowels or skewers" for wing hold-downs.'
 uncertain_fields: [making_tips_3d_printing]
 diagram_idea: 'A printed finger with two strings: a non-stretchy cord on the palm side that bends it when pulled, and a rubber
   band on the back side (shown relaxed and stretched) that pulls it straight again, with a small force-versus-stretch graph
@@ -197,6 +199,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:RubberBand.jpg
 - https://commons.wikimedia.org/wiki/File:Ozone_cracks_in_tube1.jpg
 - https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
+- https://www.rubberband.com/blog/diy-pop-up-cube-using-rubber-bands/
+- https://library.modelaviation.com/article/frequently-asked-questions-201304
 research: research/connection-types/results/Elastic_band_and_elastic_cord_springs_elastomer_springs.json
 image:
   file: drawn/anim/elastic-band-and-elastic-cord-springs.svg
@@ -266,6 +270,8 @@ Single piece: a closed loop (rubber band, O-ring, hair tie) or a length of cord 
 - bungee cords with hooks holding luggage on a roof rack (Wikipedia 'Bungee cord')
 - a slingshot (catapult) powered by latex tubing or flat bands (Wikipedia 'Slingshot')
 - the elastic in braces on teeth (orthodontic elastics), and the thick elastic that holds ball-jointed dolls together (Wikipedia)
+- a pop-up cube: a folded card cube held flat against a stretched rubber band, which jumps into shape when it slides out of a card or letter; the band's flat length should be slightly more than one side of the cube (Alliance Rubber 'DIY Pop-Up Cube Using Rubber Bands')
+- the wing of a model plane held onto the fuselage by several rubber bands (Model Aviation FAQ, April 2013)
 
 ## When to use it
 
@@ -327,6 +333,7 @@ Rubber bands, sized by number in the US (e.g. #33 = 3-1/2 x 1/8 in, #64 = 3-1/2 
 - Rope-style safety margin for cord: working loads are usually 1/10 to 1/4 of the average breaking strength, and knots can reduce strength by up to 50% (Knot & Rope Supply, https://www.knotandrope.com/products/1-8-shock-cord-1000-spool).
 - Lifetime: ordinary rubber bands perished in weeks to months whether used or not; Viton O-rings (30 mm inside diameter, 2 mm thick, about 75 Shore A, able to stretch at least 150%) lasted about 30,000 cycles over several months (Collins et al. 2020, https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7249832/fullTextXML; OpenFlexure troubleshooting, https://build.openflexure.org/openflexure-microscope/master/troubleshooting.html).
 - Temperature ranges by rubber type: natural rubber about -55 to +82 degC, EPDM -50 to +150 degC, nitrile and neoprene -40 to +135 degC, silicone -100 to +315 degC (Pooley, https://www.pooleyinc.com/wp-content/uploads/Common-Properties-of-Rubber-Elastomers.pdf).
+- Rubber-band wing hold-down on model planes: use several separate bands (one columnist uses three each side, six in all), because 'One rubber band failure out of six will not crash your airplane'; a band can stretch roughly three times its own length; never use a loop of strip rubber left over from a rubber motor, which unravels after one break; throw the bands away after every flying session, because fuel residue and sunlight (UV) quickly weaken them (Model Aviation FAQ, April 2013).
 
 ## Common failures
 
@@ -347,6 +354,8 @@ Snap-back: a band or bungee cord that slips or breaks can lash back and cause se
 - Series-elastic coupling: puts a deliberate spring (sometimes elastic) between a motor and its load to measure and soften force
 - Pneumatic artificial muscle (McKibben muscle): a rubber tube inside a braid that pulls when pumped up with air
 - Stopper knots and cord-end anchors: a knot behind a hole or a printed cord-end anchor to tie off elastic cord, as at the palm end of printed hands
+- Spring-powered paper pop-up: a folded card cube or box held flat against a rubber band, so it jumps into shape when released
+- Elastic-strung ball joint: elastic cord run through a chain of ball-and-socket joints to hold a doll or figure together so it keeps a pose
 
 ## Make it yourself
 
@@ -371,6 +380,7 @@ Snap-back: a band or bungee cord that slips or breaks can lash back and cause se
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `connects` = strap, cord or fabric (best guess): worked out from its name, but joining parts is not one of its two main jobs
+- ⚑ Research note: *Elastic band springs* (282): "over dowels or skewers" for wing hold-downs.
 
 ## Sources
 
@@ -407,3 +417,5 @@ Snap-back: a band or bungee cord that slips or breaks can lash back and cause se
 - <https://commons.wikimedia.org/wiki/File:RubberBand.jpg>
 - <https://commons.wikimedia.org/wiki/File:Ozone_cracks_in_tube1.jpg>
 - <https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg>
+- <https://www.rubberband.com/blog/diy-pop-up-cube-using-rubber-bands/>
+- <https://library.modelaviation.com/article/frequently-asked-questions-201304>

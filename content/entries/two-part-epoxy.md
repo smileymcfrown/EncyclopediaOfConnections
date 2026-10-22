@@ -42,8 +42,8 @@ finder:
   overload_response: not applicable
   clicks: not applicable
   glue_traits: [strongest, fills gaps]
-  bonds_well: [PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, stone
-      or concrete]
+  bonds_well: [PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam,
+    stone or concrete]
   bonds_poorly: [slippery plastics (PE or PP), silicone]
   tools: [press or vice]
   load_max: heavy
@@ -105,7 +105,10 @@ needs_confirming:
     reason: '`materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL)
       [uncertain for silicone and PTFE]. Polye…"'
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Two-part epoxy* (138): a pool of fast epoxy getting hot enough to soften foam (not in the Swaylocks thread; the
+    entry already notes that a big batch heats itself).'
 uncertain_fields: [holding_principle, materials, making_tips_3d_printing]
 diagram_idea: Two blobs (resin and hardener) being stirred together into one, then a timeline bar showing liquid (working
   time), gel and solid stages, and below it a joint with a slightly uneven gap completely filled by the epoxy, with a callout
@@ -175,6 +178,12 @@ sources:
 - https://en.wikipedia.org/wiki/J-B_Weld
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200
+- https://swaylocks.com/t/resin-and-foam-compatibility/38848 (forum.swaylocks.com redirects here; WebFetch got 403, read with
+  curl)
+- https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/05.htm
+- https://clcboats.com/blogs/boatbuilding-tips/fillets (WebFetch returned only menus; read with curl)
+- https://www.cruisingworld.com/?p=40890
+- https://www.practical-sailor.com/boat-maintenance/a-solid-connection
 research: research/connection-types/results/Twopart_epoxy.json
 image:
   file: two-part-epoxy.webp
@@ -219,7 +228,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [deflection, form-fit--force-fit--material-bond, chamfer--fillet, undercut, creep, brittle--ductile, cure, pot-life--working-time,
-  primer, peel-vs-shear]
+  primer, peel-vs-shear, sandwich-panel]
 ---
 
 <div class="eoc-pictures">
@@ -279,7 +288,7 @@ Don't use it when you need a bond in seconds (use CA) or when parts must come ap
 - **Sealing:** watertight: a joint or pocket completely filled with epoxy keeps water out, and epoxy is used for potting electronics (Loctite EA E-00CL) and for boat building and repair (Wikipedia). Moisture resistance varies a lot: marine epoxies form 'a high-strength, moisture-resistant solid' (West System 105/205), while a fast 5-minute type kept only 35% of its strength after 1,000 hours in water (Loctite EA E-00CL).
 - **Adjustable:** no, once it gels; before that, parts can be moved and lined up during the working time, from about 3-5 minutes for fast types to an hour or more for slow ones (Loctite EA E-00CL: working life 3.5 min; Epoxyworks: 105/205 working time 60-70 min in a thin film).
 - **Access needed:** not applicable: epoxy is applied to the joint faces before assembly, or packed into a hole or pocket from one side.
-- **Materials:** Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia).
+- **Materials:** Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Safe on polystyrene foam (EPS and XPS) because it contains no solvent, unlike polyester and vinylester resins, whose styrene melts them (Swaylocks forum thread 'Resin and foam compatibility'). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia).
 - **Heat, cold, water and wear:** Heat: room-temperature-cured epoxies soften at modest temperatures: heat deflection temperature 48 °C and ultimate Tg 61 °C for WEST SYSTEM 105/205, and a Tg of only 20 °C for a fast 5-minute type (Loctite EA E-00CL); heat-cured and special high-temperature epoxies do better, and epoxy adhesives in general degrade above 177 °C (Loctite design guide; Wikipedia). Cold: cure slows sharply, with minimum working temperatures of about 4-18 °C depending on hardener (West System). Water: marine epoxies are moisture-resistant (West System), but a fast epoxy lost most of its strength in hot, humid air (10% left after 500 hours of condensing humidity at 49 °C) (Loctite EA E-00CL). Sunlight: epoxy deteriorates in UV light and needs paint or varnish over it outdoors (Wikipedia). Chemicals: generally good resistance; a fast epoxy kept its strength in motor oil, petrol, acetone and isopropanol (Loctite EA E-00CL). Old epoxy may look fine but never cure fully (Prusa).
 
 ## Making it
@@ -313,10 +322,11 @@ Search for 'two-part epoxy adhesive' in '5-minute' (fast), '30-minute' and 'slow
 - Design joints for shear and compression, avoid peel and cleavage, and widen rather than lengthen overlaps (Loctite 'Design Guide for Bonding Plastics', vol. 6, pp. 77-79).
 - Full strength takes time: 24 hours at 25 °C for high strength with a fast epoxy (Loctite EA E-00CL), and 1-4 days to working strength for 105/205 (West System 105/205 data sheet).
 - Heat limits: room-temperature-cured epoxies soften at fairly low temperatures, e.g. heat deflection temperature 118 °F (48 °C) and ultimate Tg 142 °F (61 °C) for 105/205 (West System), and a glass transition temperature of just 20 °C for a fast epoxy cured at 25 °C (Loctite EA E-00CL). Curing with heat raises it (Loctite design guide), and in general epoxy adhesive strength degrades above 177 °C (Wikipedia 'Epoxy').
+- Thicken it to suit the job: to 'peanut butter' with wood flour for fillets that mustn't sag (CLC Boats), or to 'mayonnaise' with 406 or 404 filler to fill a hole round a fastener (Cruising World). For hole fills in warm weather use a slow hardener, because 'fast-cure will exotherm, creating bubbles and a poor seal' (Practical Sailor).
 
 ## Common failures
 
-Soft, sticky or never-curing epoxy from the wrong ratio, poor mixing or working too cold; scrape it off and redo it, never pile fresh epoxy on uncured epoxy (West System 'Epoxy Problem Solver'; Epoxyworks). A weak, 'starved' joint from clamping so hard that all the glue squeezes out (West System). Bonds peeling off smooth, dirty or low-energy surfaces (PE, PP, nylon) because the surface wasn't sanded and cleaned, or the plastic can't be glued (Loctite design guide; Epoxyworks). Parts moved before the epoxy cured (Loctite EA E-00CL). The mix going hard in the cup before you've finished, because a big batch heats itself (Epoxyworks). A waxy film (amine blush) on some cured epoxies, a normal by-product in some conditions; wash it off with water before sanding or adding more epoxy (West System). Fast epoxy joints softening in warm places or losing strength in damp ones (Loctite EA E-00CL). Old stock that no longer cures properly (Prusa).
+Soft, sticky or never-curing epoxy from the wrong ratio, poor mixing or working too cold; scrape it off and redo it, never pile fresh epoxy on uncured epoxy (West System 'Epoxy Problem Solver'; Epoxyworks). A weak, 'starved' joint from clamping so hard that all the glue squeezes out (West System). Bonds peeling off smooth, dirty or low-energy surfaces (PE, PP, nylon) because the surface wasn't sanded and cleaned, or the plastic can't be glued (Loctite design guide; Epoxyworks). Parts moved before the epoxy cured (Loctite EA E-00CL). The mix going hard in the cup before you've finished, because a big batch heats itself (Epoxyworks). A waxy film (amine blush) on some cured epoxies, a normal by-product in some conditions; wash it off with water before sanding or adding more epoxy (West System). Fast epoxy joints softening in warm places or losing strength in damp ones (Loctite EA E-00CL). Old stock that no longer cures properly (Prusa). Misaligned hinges on model aircraft from using 5-minute epoxy or CA, which set before you can check the line-up, or from gluing both surfaces at once: use slow epoxy and glue the hinges into one surface first, then the other once it has cured (Airfield Models).
 
 ## Safety
 
@@ -333,6 +343,11 @@ Skin: liquid resin and hardener irritate skin and eyes, and repeated contact can
 - Hot-melt adhesive: fast and gap-filling but weak and heat-sensitive
 - Polyester resin: cheaper laminating resin; epoxy sticks to it, but polyester gelcoat doesn't stick to epoxy (Wikipedia)
 - Heat-set threaded inserts and screws: mechanical alternatives for fixing hardware into prints that can be undone
+- Liquid-clay bond: bakes polymer clay to itself; epoxy is a cold alternative for baked clay, but can turn brittle with age
+- Bonded tube joint: tubes glued into or over sockets, sleeves or lugs, usually with epoxy
+- Fillet-and-tape joint: thickened epoxy fillets and resin-soaked glass tape welding plywood panels into one shell
+- Potted insert: an epoxy plug set into the soft core of a [sandwich panel](../glossary.md#sandwich-panel) so a bolt can grip and clamp
+- Bonding fastener: a threaded stud or nut on a perforated base plate, usually glued on with epoxy
 
 ## Make it yourself
 
@@ -354,8 +369,9 @@ Skin: liquid resin and hardener irritate skin and eyes, and repeated contact can
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polye…"
+- ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polye…"
 - ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), silicone (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polye…"
+- ⚑ Research note: *Two-part epoxy* (138): a pool of fast epoxy getting hot enough to soften foam (not in the Swaylocks thread; the entry already notes that a big batch heats itself).
 
 ## Sources
 
@@ -379,3 +395,8 @@ Skin: liquid resin and hardener irritate skin and eyes, and repeated contact can
 - <https://en.wikipedia.org/wiki/J-B_Weld>
 - <https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1kcikdx>
 - <https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1kcikdx&limit=200>
+- <https://swaylocks.com/t/resin-and-foam-compatibility/38848 (forum.swaylocks.com redirects here; WebFetch got 403, read with curl)>
+- <https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/05.htm>
+- <https://clcboats.com/blogs/boatbuilding-tips/fillets (WebFetch returned only menus; read with curl)>
+- <https://www.cruisingworld.com/?p=40890>
+- <https://www.practical-sailor.com/boat-maintenance/a-solid-connection>

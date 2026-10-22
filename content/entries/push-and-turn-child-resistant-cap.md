@@ -304,6 +304,7 @@ It slows children down; it does not make a container safe. Many poisonings happe
 - Bayonet mount (push-and-twist lock): also push-and-turn, but with pins in L-shaped slots instead of a screw thread and a slip clutch
 - Tamper-evident breakaway bridge: often added to caps to show they have been opened, but does not stop opening
 - Face ratchet: the one-way teeth on the cap's top are a small face ratchet
+- Wire-bail closure (swing-top stopper, clip-top jar): another resealable bottle and jar closure, opened by flipping a wire lever instead of turning a cap; not child-resistant
 
 ## Make it yourself
 

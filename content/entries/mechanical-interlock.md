@@ -322,6 +322,7 @@ Never bypass or defeat an interlock (taping switches, wedging lids, printing 'by
 - [Ratchet](../glossary.md#ratchet) and [pawl](../glossary.md#pawl): a pawl that drops into notches, but to allow motion one way rather than to link two parts
 - Geneva drive: its locking arc stops the output turning between steps, a built-in interlock inside a stepping mechanism
 - Ball [detent](../glossary.md#detent) (spring plunger): a ball in a groove that only holds position; an interlock ball wedges a second part instead
+- Jigsaw puzzle-edge joint: panels locked side by side by matching knobs and sockets; a shape lock for joining parts, not for stopping actions happening in the wrong order
 
 ## Make it yourself
 

@@ -307,6 +307,8 @@ Few hazards. Keep fingers out from between heavy parts as they are lowered onto 
 - Elastic averaging (many-feature alignment): many slightly springy features share the locating job instead of two rigid pins
 - Indexing plunger (pull-knob index pin) and quick-release (ball-lock) pin: pins that can be pulled out by hand to lock or release a position
 - Drive-in fixing pins: roll pins, coiled spring pins, dowel pins and taper pins driven through both parts to fix them permanently, rather than letting them lift off
+- Pinned glue joint (pinning): a hidden pin glued into both parts, mainly to strengthen models and figures rather than to locate parts precisely and repeatably
+- Shelf pins and shelf supports: loose pegs in rows of drilled holes that a shelf rests on and can be moved between; they carry the shelf rather than locate it exactly
 
 ## Make it yourself
 

@@ -217,7 +217,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [axial--radial, torque, damping, clearance, tolerance, form-fit--force-fit--material-bond, spline, heat-set-insert,
-  captive-nut, creep, brittle--ductile, perimeters, infill, peel-vs-shear, o-ring, galvanic-corrosion]
+  captive-nut, creep, brittle--ductile, perimeters, infill, peel-vs-shear, o-ring, sandwich-panel, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -338,6 +338,8 @@ Drilling sheet metal leaves sharp burrs and swarf: wear eye protection and debur
 - Gasket and [O-ring](../glossary.md#o-ring) seal entries: for sealing without a thread; a well nut is effectively a gasket and a nut in one
 - Hollow-wall anchors: toggles, molly bolts and self-drilling plasterboard anchors use the same blind idea in plasterboard walls; Wikipedia compares the well nut to a molly bolt
 - Wall plug: a plastic sleeve that swells in a drilled hole in brick or concrete as a screw goes in; for solid walls, where a rivet nut or well nut has no hollow space behind to bulge into
+- Potted insert (sandwich-panel insert, hard point): for cored or [sandwich panels](../glossary.md#sandwich-panel), whose soft core crushes when a bolt is tightened; the core round the hole is replaced with a plug of hard epoxy that holds the thread or insert
+- Bonding fastener (glue-on stud): a threaded stud or nut on a wide perforated base glued to the surface, so no hole is needed at all
 
 ## Make it yourself
 

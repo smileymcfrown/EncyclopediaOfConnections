@@ -159,6 +159,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: silent
+- **clicks_do**: not applicable
+- **holds_for**: a load
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card
 
 ### Other info
 
@@ -254,6 +297,8 @@
   - Spur gear train: cheaper and simpler, but the output is offset from the input and fewer teeth share the load (gm0)
   - Worm drive: high ratio in one step at a right angle, and often self-locking, but much less efficient (TEA)
   - Gear bearing: a print-in-place planetary set used as a rotating bearing rather than as a reducer
+  - Bevel splitter and counter-rotating drive: makes two shafts on one line turn opposite ways; in-line contra-rotating propeller hubs use planetary gearing to do it
+  - Several motors driving one load: joins two or more motors to one output, while a planetary set shares one motor's load between several planets
 
 ### Pictures, videos and models
 
@@ -311,6 +356,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: changes speed or splits
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: same way, different speeds
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -462,6 +550,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -613,6 +744,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -770,6 +944,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -779,7 +996,7 @@
 
 *gear trains, gearboxes & transmissions.* A gear set that lets two output shafts turn at different speeds while sharing the drive, as between the wheels of a car
 
-*Also covers:* Also covers the ball differential used in RC cars and limited-slip types
+*Also covers:* Also covers the ball differential used in RC cars and limited-slip types. Also covers locked versus free outputs, with the four-wheel-drive transfer case as the everyday example.
 
 ### What it is
 
@@ -859,6 +1076,7 @@
   - RC cars and LEGO Technic vehicles (the grey or black differential gear case in the axle)
   - Robot arm wrists where two motors share one joint (e.g. Dan Royer's 3D-printed 5+ axis arm on Hackaday.io)
   - Historic machines: mechanical analogue computers and clocks, and Mars rover suspensions (Wikipedia 'Differential')
+  - Four-wheel-drive vehicles: the transfer case splits the drive between front and rear axles, and because 'the front and rear tires never turn at the same speed', full-time road four-wheel drive needs a centre differential; a part-time case locks the two shafts together and suffers driveline wind-up on dry pavement (Wikipedia 'Transfer case')
 - **when_to_use**: Use a differential when one motor must drive two wheels on the same axle of a robot or vehicle that has to turn corners without scrubbing its tyres or fighting itself. Also use one to combine two motors into one joint that can move two ways (a pan/roll or pitch/roll robot wrist: both motors turning the same way gives one motion, opposite ways the other), to add or subtract two rotations mechanically, or as a teaching model. Choose a ball diff or a limited-slip type if you want some grip kept on both sides and an adjustable 'feel' (RC racing).
 - **when_not_to_use**: Skip it if each wheel has its own motor (skid-steer or differential-drive robots): the controller already sets each wheel's speed ⚑ [uncertain] (wording; standard practice). Go-karts and trams simply use a solid axle and accept some wheel slip (Wikipedia 'Differential'). If both wheels must always drive on loose, slippery or uneven ground (rock crawlers, off-road robots), an open differential will spin the wheel with the least grip; use a locker, spool or limited-slip differential instead (Wikipedia 'Limited-slip differential'; Sariel's LEGO LSD). For a single output shaft use a spur, belt or planetary gearbox, and if the output must hold position under load use a worm drive or a brake, because a differential holds nothing by itself. *(⚑ parts need confirming)*
 - **environment_limits**: Printed PLA parts soften and deform above about 60 C (Prusa), so keep printed differentials away from hot motors and hot cars. RC diff oil and grease pick up dirt if the case is open; gear diffs need their oil checked every few months or every few race days (RCGuided). Viscous limited-slip differentials can suffer the 'hump' effect, where heat makes the fluid expand and lock the sides harder (Wikipedia 'Limited-slip differential'). Soft balls in a ball diff flat-spot over time, making it gritty (Wikipedia 'Ball differential'). Plastic miter and bevel gears change size with temperature and humidity (KHK miter catalogue on MC901 nylon gears).
@@ -873,6 +1091,9 @@
   - Planetary gear set: a three-shaft gear train like the differential, but used for speed reduction
   - Bevel gears (incl. mitre gears): the parts most differentials are built from
   - Differential screw and differential pulley (hoist): use the 'difference' idea for fine movement or lifting force, not for sharing drive between two outputs
+  - Line shaft and power take-off: one shaft driving many machines at fixed speeds; it can't let two outputs turn at different speeds as a differential does
+  - Bevel splitter and counter-rotating drive: the same kind of bevel gears with no cage, so the two outputs always turn at equal speeds in opposite directions
+  - Several motors driving one load: a differential can add two motors' motions into one output, or mix them into two (e.g. a robot wrist)
 
 ### Pictures, videos and models
 
@@ -930,6 +1151,7 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://www.mcmaster.com/products/bevel-gears/
   - https://www.mcmaster.com/products/miter-gears/
+  - https://en.wikipedia.org/wiki/Transfer_case
 
 ### Finder tags
 
@@ -947,6 +1169,49 @@
 - **adjustable**: no ⚑ *needs confirming (source uncertain): `adjustable` is marked [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled [uncertain]).…"*
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: changes speed or splits
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: different speeds, combines inputs
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1040,6 +1305,8 @@
   - Crossed helical (screw) gears: for shafts that cross without meeting; quiet but light loads only, 70-95% efficient (KHK)
   - Differential: a cage of bevel gears that splits one drive between two outputs
   - Universal joint: passes rotation at 1:1 between shafts at a smaller, changeable angle
+  - Linked lead screws: right-angle bevel gearboxes and shafts tie several screw jacks together so they lift in step
+  - Bevel splitter and counter-rotating drive: one bevel gear driving two facing ones, so one input turns two outputs on one line in opposite directions
 
 ### Pictures, videos and models
 
@@ -1107,6 +1374,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: opposite ways
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card
 
 ### Other info
 
@@ -1279,6 +1589,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: changes speed or splits
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1287,6 +1640,8 @@
 ## 100 Belt drives (timing, round and V-belt)
 
 *gear trains, gearboxes & transmissions.* A loop of belt around two pulleys that passes rotation between shafts; toothed timing belts don't slip, round and V-belts can
+
+*Also covers:* Also covers one belt driving many pulleys (a pulley on the back of the belt turns the opposite way; one break stops everything) and twisting V and timing belts.
 
 ### What it is
 
@@ -1364,6 +1719,8 @@
   - V-belt minimum pulley diameters: SPZ 67 mm, SPA 100 mm, SPB 160 mm, SPC 224 mm; groove angles 34 or 38 degrees depending on pulley size; capacity falls to 0.82 of rated at 120 degrees of wrap (RoyMech 'Vee belts').
   - Round belts run in a pulley with a 60-degree V-groove and are for relatively low torque only (Wikipedia 'Belt (mechanical)').
   - Timing belts need only enough tension to keep the belt in contact with the pulley; friction belts need more (Wikipedia). Prusa's rule of thumb for printer GT2 belts: plucked, they should sound like a low bass note (Prusa Knowledge Base).
+  - One belt driving several pulleys (a serpentine belt): pulleys driven by the smooth back of the belt turn the opposite way to those inside the loop, and if that one belt breaks or comes off, everything it drives stops at once (Wikipedia 'Serpentine belt').
+  - Crossing a belt reverses the driven pulley; V-belts and timing belts can only be run crossed if the belt has a twist between each pulley (Wikipedia 'Belt (mechanical)').
 
 ### When to use it
 
@@ -1383,7 +1740,9 @@
   - Capstan cable drive: a cable wrapped around a small drum and anchored to a big one; zero backlash but only a limited range of rotation
   - Rope drive: a historic form of round-belt drive using ropes on grooved pulleys (Wikimedia Commons 'Rope drives')
   - Friction wheel drive: two wheels pressed together, with no belt; simpler but slips more easily ⚑ [uncertain]
-  - Rack and pinion or lead screw: other ways to turn rotation into straight-line motion, stiffer than an open-ended belt *(⚑ parts need confirming)*
+  - Rack and pinion or lead screw: other ways to turn rotation into straight-line motion, stiffer than an open-ended belt
+  - Linked lead screws: a closed timing-belt loop round a pulley on each lead screw keeps every corner of a bed or gantry in step
+  - Line shaft and power take-off: many belt drives taken off one long driving shaft, each to its own machine *(⚑ parts need confirming)*
 
 ### Pictures, videos and models
 
@@ -1434,6 +1793,7 @@
   - https://www.printables.com/model/333720-gt2-pulley-the-big-collection-updated
   - https://www.printables.com/model/46639-tension-meter-for-the-gt2-belts-of-i3-mk3s-or-prus
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Serpentine_belt
 
 ### Finder tags
 
@@ -1442,7 +1802,7 @@
 - **power_loss**: not applicable
 - **motion_in**: steady turning
 - **motion_out**: steady turning, straight push or pull
-- **shaft_layout**: parallel, crossed
+- **shaft_layout**: parallel, crossed, far apart ⚑ *needs confirming (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts*
 - **overload_response**: slips and keeps going
 - **clicks**: not applicable
 - **tools**: soldering iron, welding or brazing torch, hand tools
@@ -1451,6 +1811,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: long travel or pulling
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: same way, opposite ways, different speeds
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1582,7 +1985,7 @@
 - **power_loss**: not applicable
 - **motion_in**: back-and-forth turning
 - **motion_out**: back-and-forth turning
-- **shaft_layout**: parallel
+- **shaft_layout**: parallel, far apart ⚑ *needs confirming (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts*
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **tools**: crimper, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope ends [uncertain]…"*
@@ -1591,6 +1994,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1681,6 +2127,8 @@
   - Capstan cable drive and tendon drives over pulleys: open cables running over free-turning pulleys, with much less friction than a sleeve
   - Hydraulic line (hydraulic brakes): carries force through fluid, with less friction over long routes
   - Belt drive: carries continuous rotation around pulleys rather than a short pull
+  - Pull-tab and slider mechanism: the paper version in pop-up books, a card strip pulled along a slot to move a picture at a distance
+  - Cable splitter: a junction that joins one Bowden cable to two (one lever, two brakes) or two to one
 
 ### Pictures, videos and models
 
@@ -1732,6 +2180,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: cables, pulleys or liquid
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: pushes, pulls or flow shared out
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1831,6 +2322,7 @@
   - Herringbone and helical gears: helical gears can be shifted along their axis to adjust backlash (KHK)
   - Worm drive: a duplex-lead worm is shifted along its axis to adjust backlash (KHK)
   - Friction drive: no teeth and no backlash, but it can slip
+  - Several motors driving one load (electrical preload): a second motor holds back against the first to take out gear play, instead of a spring between two gear halves
 
 ### Pictures, videos and models
 
@@ -1884,6 +2376,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: combines inputs
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -1986,6 +2521,8 @@
   - Cable carrier (drag chain): looks like a chain but only carries cables and hoses; it passes on no power
   - Rigid chain actuator (push chain): a chain whose links lock into a column so it can push as well as pull
   - Shaft drive: a spinning shaft with bevel gears, used on some bicycles and touring motorcycles instead of a chain (Wikipedia 'Chain drive')
+  - Linked lead screws (Z sync belt): a closed chain or belt round several screws keeps them turning exactly together
+  - Line shaft and power take-off: one driven shaft with a sprocket or pulley for each machine, so one motor drives many
 
 ### Pictures, videos and models
 
@@ -2043,7 +2580,7 @@
 - **power_loss**: not applicable
 - **motion_in**: steady turning
 - **motion_out**: steady turning, straight push or pull
-- **shaft_layout**: parallel
+- **shaft_layout**: parallel, far apart ⚑ *needs confirming (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts*
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **tools**: hand tools
@@ -2052,6 +2589,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: long travel or pulling
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: same way
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2202,6 +2782,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2361,6 +2984,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: long travel or pulling
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2529,6 +3195,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: long travel or pulling
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord
 
 ### Other info
 
@@ -2697,6 +3406,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a load
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: cables, pulleys or liquid
+- **tightens**: strap, cord or rope
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord
 
 ### Other info
 
@@ -2705,6 +3457,8 @@
 ## 267 Spur gear pair and gear train (simple, compound, idler)
 
 *gear trains, gearboxes & transmissions.* Straight-toothed gears on parallel shafts, alone or in chains, as the baseline way to change speed and turning force
+
+*Also covers:* Also covers one central gear driving a ring of gears (all outer gears turn the same way, opposite to the centre) and the tooth-count rule for evenly spaced planets.
 
 ### What it is
 
@@ -2775,6 +3529,7 @@
   - Use tooth counts with no common factor (a hunting set, e.g. 15 and 31) to spread wear (EngineerDog; Wikipedia 'Gear train').
   - Printed gear settings from one test series: horizontal expansion about -0.15 mm, infill at least 35%, 5 or more walls (HowToMechatronics; test your own printer).
   - Plastic gears grow with heat and moisture: KHK's example uses MC Nylon's expansion coefficient of 9 x 10^-5 per C, so a 1010 mm nylon rack lengthens about 1.8 mm for a 20 C rise (about 0.09 mm per 100 mm per 10 C); nylon also swells as it absorbs water, so allow extra backlash (KHK 'Design of plastic gears').
+  - One central gear driving a ring of gears round it (as in a multi-spindle drilling head, which drills several holes at once): each outer gear makes one outside mesh with the centre gear, so all the outer gears turn the same way as each other and the opposite way to the centre (Firgelli 'Multiple drilling machine'). If an outer ring gear (internal gear) also meshes with them, it is a planetary gear set; with the carrier held still (the 'star' type) it 'becomes an ordinary gear train', and the planets can only be spaced evenly if (sun teeth + ring teeth) / number of planets is a whole number (KHK Gear Technical Reference, section 17.1, Condition No. 2).
 
 ### When to use it
 
@@ -2783,6 +3538,7 @@
   - A hobby servo or small gearmotor: a tiny fast motor driving a train of reduction gears (Wikipedia 'Servo (radio control)')
   - A car's manual gearbox, where a reverse idler gear is slid in to make the car go backwards (Wikipedia 'Gear train')
   - Construction and school gear kits such as Meccano, K'Nex or Engino gear sets (brands), used to build and feel gear trains (DT Online buyers' guide)
+  - A multi-spindle drilling head, where one central driver gear turns several equal spindle gears so a set of holes is drilled in one go (Firgelli 'Multiple drilling machine')
 - **when_to_use**: Use spur gears whenever you need a fixed, exact speed or torque change between parallel shafts: slowing a small motor down for a robot arm, winch, turntable or clock, speeding up a hand crank, keeping two shafts exactly in step, or reversing direction with an idler. They are the simplest, cheapest and most efficient gears (about 98-99.5% per mesh, KHK), easy to design with free generators, easy to print, and create no end thrust, so plain bearings or simple ball bearings are enough. Chain several stages (compound train) for big ratios in a small space.
 - **when_not_to_use**: Avoid spur gears for fast, quiet drives: they are noisy at high speed (Wikipedia 'Gear'); use helical or herringbone gears. For large reductions in one compact step use a planetary, worm, cycloidal or strain-wave gearbox; for a drive that must hold a load when the motor stops use a worm drive or add a brake; for shafts far apart use a belt or chain instead of a long chain of idlers (Wikipedia 'Gear train'); for zero backlash use anti-backlash gears or a strain-wave drive; for shafts at an angle use bevel or worm gears; if an overload must not break teeth, add a slip clutch.
 - **environment_limits**: Heat: printed PLA gears soften above 60 C; PETG is fine below 80 C (Prusa); ABS softens around 105 C (EngineerDog). Plastic gears in general lose strength as temperature rises, expand much more than steel with heat, change size when they absorb moisture (especially nylon), and become brittle at about -30 to -50 C (KHK 'Design of plastic gears'). Lubrication: metal gears need grease or oil; lack of lubrication causes wear and pitting (KHK 'Damage to gears'); dust in open gears speeds up wear. Plastic gears under constant load may creep and lose tooth shape over time ⚑ [uncertain]. *(⚑ parts need confirming)*
@@ -2802,6 +3558,9 @@
   - Lantern gear (pin gear): a simple pin-and-disc gear that is easy to make from dowels
   - Differential (bevel gear differential): lets two outputs turn at different speeds
   - Shaft-to-hub joints (key, set screw, D-flat, clamp hub): how each gear is fixed to its shaft
+  - Line shaft and power take-off: one long driven shaft that feeds several machines through its own belts, chains or gears, instead of a train of meshing gears
+  - Bevel splitter and counter-rotating drive: one bevel gear between two facing bevels turns two outputs on one line in opposite directions
+  - Several motors driving one load: two or more motors geared to one shared gear or shaft so their power adds up
 
 ### Pictures, videos and models
 
@@ -2849,6 +3608,8 @@
   - https://help.prusa3d.com/article/petg_2059
   - https://www.youtube.com/watch?v=JTdSBcmtmsk
   - https://api.printables.com/graphql/
+  - https://www.firgelliauto.com/blogs/mechanisms/multiple-drilling-machine
+  - https://khkgears.us/media/izojpong/gear_guide1.pdf
 
 ### Finder tags
 
@@ -2866,8 +3627,849 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: changes speed or splits
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: same way, opposite ways, different speeds
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card
 
 ### Other info
 
 - ⚑ **Fields with parts that need confirming:** environment_limits, processes, tools_needed
+
+## 449 Line shaft and power take-off (lineshaft, jackshaft, countershaft, PTO)
+
+*gear trains, gearboxes & transmissions.* One long driven shaft with several pulleys, sprockets or gears along it that each take power off to a different machine or part, as in old workshops, lapidary benches, toy steam-engine workshops and tractor power take-offs
+
+*Also covers:* Also covers fast and loose pulleys for stopping one machine, stepped pulleys for speed, a clutch on each take-off, twisting a belt to make one output turn the other way, the jackshaft as a middle shaft that changes the ratio (go-karts, minibikes), and the splined PTO shaft. Safety: spinning shafts, belts, set screws and PTO shafts catch hair and loose clothing and cause deaths and amputations; guard every exposed part.
+
+### What it is
+
+- **plain_name**: One long spinning shaft, turned by a single motor or engine, with several pulleys, sprockets or gears along it, each sending power by its own belt or chain to a different machine or part
+- **term**: Line shaft (lineshaft) with countershafts and jackshafts; power take-off (PTO)
+- **aliases**: 
+  - lineshaft / line shafting / overhead shafting
+  - millwork / millworks (the whole system of shafts, belts, pulleys and gears in an old mill; Wikipedia 'Line shaft')
+  - countershaft (a short shaft driven from the line shaft, placed at or near the machine it drives; Wikipedia 'Jackshaft')
+  - jackshaft / jack shaft (any intermediate shaft between a driving shaft and a driven shaft; on go-karts and minibikes the middle shaft that carries two sprockets)
+  - lay shaft / layshaft (used loosely by kart builders for the same middle shaft) ⚑ [uncertain]
+  - power take-off / power takeoff / PTO, PTO shaft, PTO drive shaft (tractors and trucks)
+  - live PTO (LPTO), split-shaft PTO, sandwich PTO (truck and tractor variants; Wikipedia 'Power take-off')
+  - accessory drive (aircraft and engine version of a PTO)
+  - fast and loose pulleys / tight and loose pulleys (a fixed pulley beside a free-spinning one, for stopping one machine)
+  - stepped pulleys / cone pulleys / speed pulleys (for choosing a speed)
+  - group drive (several machines from one motor) versus unit drive (one motor per machine)
+  - toy steam engine line shaft, model workshop line shaft (e.g. Mamod (brand), Wilesco (brand) accessories)
+  - Zapfwelle (German for PTO); Transmissionswelle (German for line shaft) *(⚑ parts need confirming)*
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: clutches & couplings
+- **one_liner**: A single driven shaft that runs past several machines and carries a pulley, sprocket or gear for each one, so one motor or engine can power many things, each with its own speed, its own direction and its own way to start and stop it; the tractor PTO is the same idea as a splined stub shaft that a machine plugs into.
+- **complexity**: A small assembly: the main shaft (often in sections joined by flange couplings), bearings in hangers or pillow blocks along it, a drive pulley or sprocket that takes power in, one take-off pulley, sprocket or gear per machine, belts or chains, and for each take-off some way of stopping it (a loose pulley and belt shifter, a clutch or a dog clutch). Optional extras: stepped pulleys for speed, a crossed or twisted belt for reverse, belt tensioners, and guards over every moving part. A PTO is a splined stub shaft on the tractor or truck, plus a telescoping drive shaft with universal joints, a quick-release yoke and a plastic guard tube.
+- **how_it_works**: A motor, engine or water wheel turns the main shaft at a steady speed. Each pulley or sprocket fixed to the shaft turns with it and drives its own belt or chain down to one machine, so every take-off gets power at once; the size of the two pulleys on each belt sets that machine's speed (a 40 inch pulley at 100 rpm turns a 20 inch pulley at 200 rpm; Wikipedia 'Line shaft'). To stop one machine without stopping the others, its belt is pushed sideways from the fixed (fast) pulley onto a free-spinning (loose) pulley beside it, or a clutch on the take-off is opened. A jackshaft (countershaft) is a short middle shaft with two pulleys or sprockets: it takes the drive from one shaft and passes it on, so the two speed changes multiply together and the drive can be moved sideways, round a corner or to a more convenient place; a PTO is a splined shaft end on a tractor that a machine's drive shaft slides onto.
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: each take-off can have its own pulley or sprocket ratio, stepped pulleys give a choice of speeds, and a jackshaft adds a second reduction stage (go-karts, minibikes)
+  - lock, and release by hand: each take-off can be started and stopped on its own by shifting its belt onto a loose pulley or by a clutch lever, while the main shaft keeps running
+- **motion**: rotate: continuous rotation in, continuous rotation out at every take-off (unlimited range); each output can turn the same way as the shaft (open belt, chain) or the opposite way (crossed or twisted flat or round belt, or a pulley driven by the back of a belt)
+- **degrees_of_freedom**: 1 for the whole drive while all take-offs are engaged (turning the main shaft fixes every output's position through its ratio, apart from belt slip); each take-off that is disengaged by a loose pulley or clutch becomes free to stop on its own
+- **special_behaviour**: 
+  - quick-release: a tractor PTO drive shaft has a quick-release yoke with a spring-loaded plunger that slides onto the splined PTO stub (HSE AIS40)
+  - fail-safe or breakaway: HSE says any protection needed in a PTO drive line (torque limiters, freewheels or clutches) goes at the machine end of the PTO drive shaft; on a belt-driven line shaft a flat or V-belt slips if one machine jams (Wikipedia 'Belt (mechanical)': belt drives 'help protect machinery from overload and jam')
+  - none of the other listed behaviours: the line shaft itself just shares out rotation
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): pulleys, sprockets and gears are fixed to the shaft by keys, set screws or clamps (shape and friction), and belts pass power on by friction, chains and timing belts by interlocking teeth
+- **input_output**: Continuous rotation -> continuous rotation at several outputs. Ratio per take-off = driven pulley (or sprocket teeth) / driving pulley; with a jackshaft the two stages multiply: overall ratio = (z2/z1) x (z4/z3) (KHK Gear Technical Reference, two-stage gear train). Efficiency: belt drives 90-98%, usually 95% (Wikipedia 'Belt (mechanical)'); whole historic factory line-shaft systems lost 'typically 25% and often much higher', less with rolling bearings and good lubrication (Wikipedia 'Line shaft'). Shafts: parallel (open or crossed belts, chains, spur gears); a jackshaft or bevel gears can turn the drive round a corner. Tractor PTO standard speeds: 540 rpm (6 straight splines, 1 3/8 in), 1000 rpm (21 or 20 involute splines) and 1300 rpm (ISO 500; Wikipedia 'Power take-off'). Back-drivable: yes; nothing in a line shaft stops a heavy machine (a flywheel, a mower) driving the shaft on as it coasts down, which is why freewheels are fitted at the machine end of some PTO shafts (HSE AIS40).
+- **power**: passive (no power needed for the mechanism itself; it passes on power from a motor, engine or water wheel). If the motor stops, every take-off stops; if the one belt or the main shaft breaks, everything on it stops at once (Wikipedia 'Serpentine belt' says the same of a single belt driving several engine accessories).
+- **removability**: removable: pulleys, sprockets and couplings come off the shaft by undoing set screws, keys, clamp hubs or taper bushes; a PTO drive shaft is tool-free quick release at the tractor end (spring-loaded yoke)
+- **reuse_cycles**: many times: belts, chains and pulleys can be changed or moved again and again; set screws that dig into the shaft leave burrs that make later changes harder (Game Manual 0, shaft retention)
+- **tools_needed**: Hex keys or spanners for set screws, clamp collars and pillow-block bolts; a straight edge or string line for lining up pulleys; a chain breaker for roller chain (Game Manual 0 recommends one over master links); grease gun for bearings and PTO universal joints (HSE AIS40). A tractor PTO shaft clicks on by hand.
+- **seal**: none: the shaft and belts are open to the air; bearings may be sealed ball bearings or grease-lubricated plain bearings, and toy steam-engine line shafts run dry or with a drop of oil
+- **load**: Light to heavy depending on scale: toy and model line shafts with spring or rubber belts carry a few watts; lapidary and hobby benches run several V-belts off one shaft; historic mills drove hundreds of machines (Queen Street Mill: 600 looms from one 500 hp steam engine; Wikipedia 'Line shaft'); a Type 4 tractor PTO is rated up to about 450 kW (Wikipedia 'Power take-off'). Weak in bending: every belt pulls the shaft sideways, so it needs a bearing near each heavy pulley; the shaft must be held against sliding endwise (OSHA 1910.219(c)(1)). Twist (torque) adds up along the shaft, so the section nearest the drive carries the most.
+- **adjustable**: Yes: each take-off's speed is changed by moving the belt to another step on stepped pulleys or by swapping pulleys or sprockets; belt and chain tension is set by moving a motor plate, bearing or jackshaft bracket or by a tensioner (GoPowerSports sells weld-on slotted jackshaft brackets 'to fine tune and easily change the gear ratio' on minibikes, with adjustment for chain alignment and tension); pulleys can be slid along the shaft and re-clamped to line up with each machine.
+- **play_and_precision**: Belts: no backlash, but flat and V-belts slip and stretch, so the speed ratio is not exactly constant (Wikipedia 'Belt (mechanical)'); timing belts and chains keep exact ratios with small backlash. Alignment matters: 'The shafts had to be kept aligned or the stress would overheat the bearings and could break the shaft', and alignment was 'critical and problematic for long shafts' (Wikipedia 'Line shaft'). Belts tolerate some misalignment between shafts (Wikipedia 'Belt (mechanical)': 'high tolerance for misalignment'); chains need sprockets lined up in one plane (Game Manual 0: broken chain is usually due to a faulty master link or sprockets not aligned).
+- **access_needed**: end of a tube or shaft: pulleys, sprockets and bearings slide on from a free end of the shaft (or split pulleys and split collars clamp on in the middle); a PTO drive shaft slides onto the end of the splined stub
+- **materials**: Shafts: cold-rolled or bright steel bar, often with keyways or D-flats; historic mills used rigid steel sections bolted together at flanges (Wikipedia 'Line shaft'). Pulleys: cast iron, steel, aluminium, wood (historic), printed plastic for light duty; belts: leather or rubberised cotton duck (historic), rubber V-belts, polyurethane round belts, steel spring belts on toy steam engines (Wikipedia 'Belt (mechanical)'); toy line shafts use 5/32 inch Meccano-standard steel shafts (Mamod SC2, rolywilliams.com). Suits metal frames, wooden benches and plywood bases (bearings bolted on); printed PLA, PETG or nylon pulleys suit toy and light hobby drives, not engine-powered ones. Not suited to soft foam, card or clay structures, which cannot hold bearings in line against belt pull.
+- **maker_difficulty**: moderate: the parts are cheap and off the shelf (shaft, pillow blocks, pulleys, V-belts or chain), but the shaft, bearings and every pulley must be lined up, tensions set and every moving part guarded; a toy or model version from a construction set is easy
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: steel shafting, pillow-block or flange bearings, V-belt pulleys (sheaves), step pulleys, sprockets, roller chain, shaft collars, jackshaft kits and brackets for go-karts and minibikes, PTO drive shafts with guards
+  - woodwork: bench frames and shaft mountings for lapidary and hobby workshops; historic pulleys were also wooden
+  - 3D print (FDM): toy and demonstration line shafts, pulleys for round belts and timing belts, belt guards
+  - CNC: turning pulleys and machining keyways and flats on the shaft
+  - sheet metal: belt and chain guards, motor plates, weld-on jackshaft brackets
+- **print_in_place**: no: the shaft, bearings, pulleys and belts are separate parts; printed models (e.g. Marcos Cerro's 507 Mechanical Movements series on Printables) print the pulleys and frame as separate pieces and use bought belts
+- **making_tips_3d_printing**: 1) Use a metal shaft: buy steel rod or bright bar and use ball bearings in printed or bought housings; a printed shaft bends and twists under several belt pulls ⚑ [uncertain] (general practice, not a tested figure). 2) Hold every pulley to the shaft positively: a D-flat with a set screw, a clamp hub or a key; Game Manual 0 notes set-screw collars raise a burr on the shaft that makes later adjustment hard, and recommends clamping collars for higher loads. 3) Stop the shaft sliding endwise with a collar or retaining ring against each bearing's inner race, with a shim so it only touches the inner race (Game Manual 0, shaft retention); OSHA 1910.219(c)(1) also requires each line of shafting to be secured against endwise movement. 4) Clearance: start at about 0.3 mm for parts that must turn freely and adjust by test print; Prusa printers hold about 0.2 mm accuracy (Prusa knowledge base, 'Modeling with 3D printing in mind'). 5) Print pulleys flat on the bed with the axis vertical so the groove or teeth are formed by the perimeters ⚑ [uncertain] (common practice). 6) Belt wrap: give each belt or chain at least 90 degrees of contact on a pulley, ideally 180 degrees or more, and set tension so a push moves it slightly without much resistance (Game Manual 0, belt and chain pages); Game Manual 0 also says timing pulleys can be 3D printed for most robot situations. 7) For a toy steam-engine or demo line shaft, round polyurethane or spring belts are forgiving of centre distance (Wikipedia 'Belt (mechanical)' on spring belts) but slip more. 8) Keep a jackshaft's sprockets or pulleys close to its bearings so belt pull does not bend the shaft ⚑ [uncertain] (general practice). 9) Print a full guard (belt cover) at the same time; printed parts near a motor should not be PLA if the motor runs hot (PLA softens around 60 C) ⚑ [uncertain] (figure from Prusa material guidance, not re-checked in this session). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Precision or cold-rolled steel shafting (keyed or with D-flat); pillow-block bearings (plummer blocks), flange bearings, hanger bearings; V-belt pulleys (sheaves), step pulleys (cone pulleys), round-belt pulleys, timing-belt pulleys, taper-lock bushes; roller chain (#25, #35, #40, #420) and plate sprockets (Type B hub sprockets with keyway and set screw); jackshaft kits (5/8 inch or 3/4 inch shaft, 1 3/8 inch OD bearings, keys, lock collars and lock nuts; GoPowerSports listing); shaft collars (set-screw and clamping); flange and jaw couplings for joining shaft sections; belt tensioners and idler pulleys; centrifugal clutches and torque converters for karts; PTO drive shafts with universal joints, guard tubes, cone guards, shear-bolt or friction torque limiters and overrunning (freewheel) couplers; split-shaft and transmission-mounted PTO units for trucks. Toy and model: Mamod (brand), Wilesco (brand) line shafts and workshop models; Meccano (brand) 5/32 inch axles and pulleys. Search McMaster-Carr 'pillow block bearings', 'V-belt pulleys', 'roller chain sprockets'.
+- **rules_of_thumb**: 
+  - Speed ratio per belt = driven pulley diameter / driving pulley diameter; 'a 40 inch pulley at 100 rpm would turn a 20 inch pulley at 200 rpm' (Wikipedia 'Line shaft').
+  - Through a jackshaft (two stages in series) the ratios multiply: i = (z2/z1) x (z4/z3); an idler with no second gear on its shaft does not change the ratio (KHK Gear Technical Reference, sections 2.2 and 2.1).
+  - Expect losses: belt drives 90-98% (usually 95%) each (Wikipedia 'Belt (mechanical)'); whole historic line-shaft systems lost typically 25% or more (Wikipedia 'Line shaft').
+  - Reverse one output with a crossed belt (flat or round belts only); line-shaft practice twisted belts 180 degrees per leg (Wikipedia 'Line shaft'); crossed drives are 'not appropriate for timing and standard V-belts unless there is a twist between each pulley' (Wikipedia 'Belt (mechanical)').
+  - A pulley driven by the back (smooth side) of a belt turns the opposite way to the others; keep back-side drives for light loads or a large wrap angle (Wikipedia 'Serpentine belt').
+  - Fast and loose pulleys: three pulleys side by side with the middle one fast and the outer two loose, fed by one open and one crossed belt, let the driven shaft be stopped or reversed without stopping the driver (507 Mechanical Movements no. 2).
+  - Belt and chain wrap: at least 90 degrees of contact, ideally 180 degrees or more (Game Manual 0).
+  - Guarding (US workplace rule, a good guide at home): guard all exposed shafting, pulleys and belts 7 ft (2.1 m) or less from the floor; remove, make flush or cover all projecting keys and set screws on revolving parts; shaft ends must not project more than half the shaft diameter unless capped; fill or cover unused keyways (OSHA 29 CFR 1910.219 (c), (d), (h)).
+  - Tractor PTO speeds: 540 rpm with 6 splines, 1000 rpm with 21 splines; never use an adaptor to run a 1000 rpm machine from a 540 rpm shaft or vice versa (HSE AIS40); all four ISO 500 types turn clockwise seen from behind the tractor (Wikipedia 'Power take-off').
+  - PTO guards: the tractor PTO shield and the machine's input guard must overlap the drive-shaft guard by at least 50 mm, and the guard tubes should be no more than 25 mm shorter than the shaft halves (HSE AIS40).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A tractor's rear PTO stub turning a mower, baler or wood chipper through a guarded telescopic shaft (Wikipedia 'Power take-off')
+  - The engine accessory belt in a car, one belt from the crankshaft turning the alternator, water pump and other pulleys (Wikipedia 'Serpentine belt')
+  - Toy steam-engine workshops: a Mamod (brand) engine belted to a small line shaft that drives a model grinder, power hammer and polishing machine (mikes-steam-engines.co.uk; rolywilliams.com)
+  - Lapidary benches running saws, grinders and polishers off one shaft, and Amish woodshops running every machine from one engine with a clutch per machine (SawdustZone forum)
+- **when_to_use**: Use a line shaft when one motor or engine should power several machines or several parts of one machine, especially when they don't all need to run at once: a model or toy workshop driven by one steam engine, a lapidary or polishing bench with several wheels, a workshop or demonstration with one big motor or a water wheel, or a kinetic sculpture or automaton with many moving parts at different speeds. It lets each output have its own speed (pulley sizes or stepped pulleys) and its own direction (open or crossed belt), and a loose pulley or clutch lets you stop one output while the rest keep running. Use a jackshaft when one belt or chain stage cannot give a big enough reduction, when the drive has to be moved sideways or round an obstacle, or to make the final ratio easy to change by swapping one sprocket (go-karts, minibikes, e-bikes). Use a PTO-style splined stub when a machine must be plugged onto a power source and unplugged again.
+- **when_not_to_use**: Don't use one line shaft when the machines need very different speeds that must be changed often, or when they are far apart; small cheap motors now make one motor per machine (unit drive) simpler, quieter, safer and more efficient (Wikipedia 'Line shaft' lists higher losses, noise, danger, downtime and difficulty changing speed). For outputs that must stay exactly in step (several lead screws, a printer's Z axis) use a closed timing belt or chain loop or linked lead screws instead of friction belts, which slip. For two outputs turning opposite ways on one line, use a bevel splitter (T-gearbox). If you need outputs that share torque but turn at different speeds (wheels on a turning vehicle), use a differential instead of locking them to one shaft. Don't build an open line shaft where children, pets or people with long hair or loose clothing can reach it; enclose it fully or use separate motors.
+- **environment_limits**: Belt drives work from about -35 to 85 C (Wikipedia 'Belt (mechanical)'); leather and rubber belts dry out and need conditioning, and oil or water on a flat or V-belt makes it slip. Long shafts expand and contract with temperature and settle with the building, which upsets alignment (Wikipedia 'Line shaft'). Bearings and shafts rust if not kept oiled; OSHA asks for shafting to be kept 'free from rust and excess oil or grease' and inspected at intervals of no more than 60 days (OSHA 1910.219(p)). Vibration loosens set screws, so use thread-locker, keys or clamp collars. Spinning belts and shafts can build up static charge; OSHA warns to consider static sparks near explosive dusts or flammable vapours (1910.219(p)(2)(ii)). Dust from belts circulates in the air (Wikipedia 'Line shaft'); grit and water from lapidary wheels must be kept out of bearings and motors.
+- **safety_notes**: Spinning shafts, belts, pulleys, chains, set screws and PTO shafts catch hair, loose clothing, cords and gloves and wind them in: this causes amputations and deaths. HSE AIS40 describes a stockman whose trouser leg caught in a partly unguarded PTO shaft and whose leg was severed, and a worker killed when his coat caught in a partly exposed PTO drive shaft; Wikipedia 'Power take-off' cites the National Safety Council figure that 6% of US tractor-related deaths in 1997 involved the PTO. Line shafts were more dangerous than one motor per machine, and old photos show machinists with long hair wearing hats against entanglement (Wikipedia 'Line shaft'). Guard every exposed part: enclose shafts, belts and pulleys within reach (OSHA 1910.219 requires guards on shafting, pulleys and belts 7 ft or less from the floor), make set screws and keys flush or covered, cap shaft ends, and put a guard over each in-running nip where a belt or chain meets a pulley or sprocket. Tie back long hair and wear close-fitting clothing; never clear a blockage while it is running: switch off, wait for everything to stop, and use a tool (HSE AIS40). Broken or badly fitting guards can be as dangerous as no guard (HSE AIS40). A machine on a loose pulley can creep back onto the fast pulley and start by itself unless the belt shifter holds it (OSHA 1910.219(l)(1)); stop the main drive before working on any take-off. Don't run a machine faster than it was designed for, e.g. through a PTO speed adaptor: it can disintegrate (HSE AIS40). On karts and minibikes, guard the chain and jackshaft sprockets from legs and clothing. Mains-powered motors must be wired and earthed to local law.
+- **common_failures**: 1) Belts slip and squeal under load or when oily: re-tension, clean or dress the belt, or use a V, ribbed or timing belt (Wikipedia 'Belt (mechanical)'). 2) Bearings overheat or the shaft breaks because the shaft line is out of alignment: line up every bearing with a straight edge or string and keep checking (Wikipedia 'Line shaft'). 3) Pulleys or sprockets slip round the shaft or walk along it as set screws loosen: use a flat or key under each set screw, thread-locker, or clamp hubs (Game Manual 0). 4) Chains jump teeth or fall off from poor wrap or tension, or snap at a master link or because sprockets are not aligned (Game Manual 0). 5) A belt works off a pulley: use crowned pulleys for flat belts and flanges or guides where needed (Wikipedia 'Belt (mechanical)'; OSHA 1910.219(d)(2)). 6) The whole system stops when one belt breaks or one machine seizes, if one belt drives several things (Wikipedia 'Serpentine belt'). 7) Machines start unexpectedly when a belt creeps from the loose to the fast pulley: fit a belt shifter that locks (OSHA 1910.219(l)(1)). 8) The shaft whips or vibrates if the bearings are too far apart for its weight and the pulleys on it; the spacing 'depended on the weight of the shaft and the number of pulleys' (Wikipedia 'Line shaft'). 9) Wrong overall ratio on a kart because the two jackshaft stages were added instead of multiplied: multiply them (KHK).
+- **related**: 
+  - Belt drives (timing, round and V-belt): one belt between two pulleys; a line shaft is many belt drives sharing one driving shaft
+  - Chain and sprocket drive: the usual link to and from a go-kart or minibike jackshaft
+  - Spur gear pair and gear train: gears instead of belts; a central gear driving a ring of gears is the gear version of one shaft driving several
+  - Bevel splitter and counter-rotating drive: one input, two outputs on one line turning opposite ways
+  - Linked lead screws: one motor driving several screws in exact step (needs a toothed belt or chain, not friction belts)
+  - Several motors driving one load: the reverse case, many inputs to one output
+  - Dog clutch, friction clutch and centrifugal clutch: ways to start and stop one take-off without stopping the shaft (the loose pulley is the belt version)
+  - Universal joint and spline shaft (sliding spline): the parts that make up a PTO drive shaft so it can bend and telescope
+  - Shaft-to-hub joints (key, set screw, D-flat, clamp hub): how each pulley is fixed to the line shaft
+  - Differential: splits one drive between two outputs that may turn at different speeds, which a line shaft cannot do
+  - Flexible drive shaft: takes power off a motor to a hand tool along a bendable cable instead of a belt
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Lineshaft drive to lathe, with stepped pulleys for variable speed (Carpentry and Joinery, 1925), Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Lineshaft_drive_to_lathe,_with_stepped_pulleys_for_variable_speed_(Carpentry_and_Joinery,_1925).jpg): Drawing of an overhead countershaft with a fast pulley, a loose pulley for stopping the machine and stepped pulleys giving three speeds *(licence: Public domain)*
+  - [Line shaft machine shop in France, 1919 (Olive Edis, IWM Q8116), Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg): Photo of a workshop full of belts from an overhead line shaft; machinists wear hats against hair entanglement *(licence: Public domain)*
+  - [Jackshaft with two belt pulleys (Jet Lowe), Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Jackshaft_two_belt_pulleys.png): A two-pulley jackshaft redirecting belt power from horizontal to vertical *(licence: Public domain)*
+  - [Tractor PTO shaft with protective guard (Jesster79), Wikimedia Commons](https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg): A PTO drive shaft from a tractor to a machine, enclosed in a plastic guard tube to prevent entanglement *(licence: CC BY-SA 3.0)*
+  - [507 Mechanical Movements no. 2: pulleys and crossed belt](https://507movements.com/mm_002.html): Animated crossed belt reversing direction, and the fast-and-loose pulley arrangement with an open and a crossed belt for reversing without stopping the driver *(licence: Book public domain; website animation link only)*
+- **make_it_yourself**: 
+  - [No. 2 Pulleys and crossed belt (507 Mechanical Movements) by Marcos Cerro (URL from Printables API, page not opened)](https://www.printables.com/model/1340513-no-2-pulleys-and-crossed-belt-507-mechanical-movem): Printable demonstration of a crossed belt and fast-and-loose pulleys; no supports or extra parts needed except the belts *(licence: CC BY-NC)*
+  - [No. 8 Variable speed stepped pulleys (507 Mechanical Movements) by Marcos Cerro (URL from Printables API, page not opened)](https://www.printables.com/model/1348693-no-8-variable-speed-stepped-pulleys-507-mechanical): Printable pair of stepped (speed) pulleys as used on lathes driven from a countershaft *(licence: CC BY-NC)*
+  - [No. 7 Pulley transmission (507 Mechanical Movements) by Marcos Cerro (URL from Printables API, page not opened)](https://www.printables.com/model/1344878-no-7-pulley-transmission-507-mechanical-movements): Printable model of a belt shifted across loose and fast pulleys to engage, disengage and reverse a shaft through bevel gears *(licence: CC BY-NC)*
+  - [PTO shaft by Radek S. (URL from Printables API, page not opened)](https://www.printables.com/model/355826-pto-shaft): Printable educational model of a PTO (propeller) drive shaft, PLA, glued *(licence: CC BY)*
+- **diagram_idea**: A side view of one horizontal shaft along the top driven by a motor at one end, with three belts dropping to three machines: one open belt (same direction), one crossed belt (opposite direction) and one on a pair of fast and loose pulleys with the belt shown on the loose pulley (stopped), with speed ratios labelled and guards drawn as dashed boxes.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Line_shaft
+  - https://en.wikipedia.org/wiki/Jackshaft
+  - https://en.wikipedia.org/wiki/Power_take-off
+  - https://en.wikipedia.org/wiki/Belt_(mechanical)
+  - https://en.wikipedia.org/wiki/Serpentine_belt
+  - https://www.hse.gov.uk/pubns/ais40.pdf
+  - https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.219
+  - https://khkgears.us/media/izojpong/gear_guide1.pdf
+  - https://507movements.com/mm_002.html
+  - https://507movements.com/mm_007.html
+  - https://507movements.com/mm_008.html
+  - https://rolywilliams.com/Mamod%20SC2.html
+  - https://www.mikes-steam-engines.co.uk/accessories.htm
+  - https://www.sawdustzone.org/forum/discussions/around-the-coffee-pot/34806-a-one-motor-shop
+  - https://www.gopowersports.com/adjustable-jackshaft-brackets-weld-on/
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/chain.html
+  - https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/belt.html
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://commons.wikimedia.org/wiki/File:Lineshaft_drive_to_lathe,_with_stepped_pulleys_for_variable_speed_(Carpentry_and_Joinery,_1925).jpg
+  - https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg
+  - https://commons.wikimedia.org/wiki/File:Jackshaft_two_belt_pulleys.png
+  - https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: shaft ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: parallel, crossed
+- **overload_response**: slips and keeps going
+- **clicks**: not applicable
+- **tools**: hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: changes speed or splits
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: same way, different speeds
+- **made_of**: 3D prints, wood, metal
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, making_tips_3d_printing
+
+## 450 Bevel splitter and counter-rotating drive (T-gearbox, three-way bevel gearbox, contra-rotating coaxial shafts)
+
+*gear trains, gearboxes & transmissions.* One bevel gear driving two facing bevel gears, so a single input turns two outputs on one line in opposite directions; with one output shaft running inside the other it spins two propellers, rotors or discs against each other on the same axis
+
+*Also covers:* Also covers T-type bevel gearboxes with one input and two outputs (a through shaft turns both ends together), reversing an output by flipping the gearbox or by sliding a dog clutch onto the other bevel, planetary contra-rotating hubs, kinetic sculptures with counter-rotating discs, and two-motor coaxial RC helicopters as the electric alternative. Safety: two sets of blades or propellers turning against each other; guard them.
+
+### What it is
+
+- **plain_name**: One cone-shaped gear squeezed between two others that face each other, so turning one shaft makes two shafts on the same line spin in opposite directions; put one output shaft inside the other and you get two propellers, blades or discs spinning against each other on one axis
+- **term**: Bevel splitter (three-way bevel gearbox, T-type bevel gearbox) and contra-rotating coaxial drive
+- **aliases**: 
+  - T-gearbox / T-type bevel gearbox / T-shaped bevel gearbox (one input, two outputs; ZIMM)
+  - three-way bevel gearbox / 3-way right-angle gearbox / bevel gear splitter
+  - counter-rotating gearbox / counterrotation gearbox (e.g. 'Rotary cutter with counterrotation gearbox', US patent 5450714)
+  - contra-rotating drive / coaxial contra-rotating shafts / coaxial counter-rotating drive
+  - contra-rotating propellers (CRP), coaxial rotors (helicopters) (Wikipedia)
+  - bevel reverser / reversing bevel gears with a double clutch (507 Mechanical Movements no. 53)
+  - concentric shafts / nested shafts / shaft in a tube (inner shaft and outer tube or barrel)
+  - contra-rotating hub (single-shaft input with planetary gearing; Hackaday.io project 6711)
+  - coax copter / coaxial RC helicopter (two motors, the electric alternative)
+  - Kegelradgetriebe mit zwei Abtrieben (German, bevel gearbox with two outputs) ⚑ [uncertain] *(⚑ parts need confirming)*
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: motion conversion
+- **one_liner**: A driving bevel gear meshes with two bevel gears that face each other across it, so one input turns two outputs on one line in opposite directions; nesting one output shaft inside the other turns two rotors on the same axis against each other, and a dog clutch that picks one of the two gears turns the same set into a forward-and-reverse switch.
+- **complexity**: A small assembly: an input shaft with a bevel pinion; two facing output bevel gears (normally identical, so the two outputs turn at the same speed); either two separate output shafts on one line, one through shaft with the two gears loose on it and a sliding dog clutch between them, or an inner shaft running through an outer tube; bearings for every shaft, thrust bearings or washers to stop the gears pushing apart, and a housing that holds all three gears so their cone tips meet at one point. A bought T-type bevel gearbox puts the pinion and gears in a sealed housing with one input and two outputs.
+- **how_it_works**: Each pair of bevel gears that mesh turns in opposite senses (KHK Gear Technical Reference), so when the input pinion turns, the gear on one side of it is pushed round one way and the gear on the opposite side is pushed round the other way: 'the gears on the horizontal shaft are loose, and are driven in opposite directions by the third gear' (507 Mechanical Movements no. 53). If the two facing gears are on separate stub shafts, you get two outputs on one line spinning opposite ways; if one gear drives a solid inner shaft and the other drives a tube around it, 'the upper driven gear and lower driven gear ... rotate in opposite directions along the same axis' (US 5450714), giving coaxial counter-rotation. If instead the two gears sit loose on one shaft and a dog clutch slides on a key between them, locking one gear or the other to the shaft makes it turn one way or the other (507 no. 53). A T-type gearbox with one gear fixed on a through output shaft drives both ends of that shaft together, and turning such a gearbox round 180 degrees reverses its output (ZIMM).
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: passes rotation round a right angle into two outputs, with a speed change set by the tooth counts (bought T-gearboxes come in about 1:1 to 3:1; ZIMM)
+  - change the kind of motion: one rotation in, two equal and opposite rotations out on one line or on one axis; with a dog clutch, one direction in and a chosen direction out (forward, reverse or neutral)
+- **motion**: rotate: continuous rotation in, continuous rotation out at two outputs that turn in opposite directions (or, in a T-gearbox with a through shaft, both ends of one shaft turning together); unlimited range. The 507 no. 74 variant with a part-toothed (mutilated) input gear gives intermittent rotation in opposite directions
+- **degrees_of_freedom**: 1: the input and both outputs are geared together, so turning any one fixes the other two (unlike a differential, which looks similar but lets the two outputs turn at different speeds, giving 2); with a dog clutch in neutral the output shaft is free
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): one rotation becomes two equal and opposite rotations, on one line or on one axis (coaxial contra-rotation)
+  - none of the other listed behaviours; a dog clutch added between the two gears makes it a shiftable reverser (507 Mechanical Movements no. 53), and a part-toothed input gives stop-and-go motion (507 no. 74)
+- **holding_principle**: not a holding joint (it moves or passes on motion): interlocking teeth pass the drive from the input gear to both outputs; gears are fixed to their shafts by keys, pins, set screws or clamp hubs
+- **input_output**: Continuous rotation -> two continuous rotations in opposite directions (two outputs on one line, or nested on one axis). Ratio from input to each output = output gear teeth / input pinion teeth; with two identical output gears both outputs turn at the same speed. Bought T-type bevel gearboxes: one input shaft and two output shafts (ZIMM ZK 'T type'), ratios 1:1 to 3:1 (ZIMM). Efficiency per bevel mesh about 98-99% (KHK Gear Technical Reference, intersecting-axis gears 98.0-99.0%); the input pinion takes part in two meshes, so total loss is roughly that of one mesh per output. Shafts: intersecting (input at 90 degrees to the two outputs, outputs in line). Back-drivable: yes, bevel gears are efficient and can be driven from either output, and an output can drive the other output backwards through the input ⚑ [uncertain] (follows from the high efficiency, not stated by a source). Planetary contra-rotating hubs take a single in-line input shaft instead (Hackaday.io 6711; Wikipedia 'Contra-rotating propellers': power is 'transferred ... via a planetary gear or spur gear transmission'). *(⚑ parts need confirming)*
+- **power**: passive (no power needed). The electric alternative, two motors on concentric shafts each driving one rotor, needs power; if one motor stops, the torques no longer cancel and the craft spins (ArduPilot CoaxCopter steers by speeding one motor up and slowing the other down).
+- **removability**: removable: gears come off their shafts by undoing keys, pins, set screws or clamp hubs; bought gearboxes bolt in and couple to shafts with ordinary couplings
+- **reuse_cycles**: many times: the limit is tooth and bearing wear, not taking it apart
+- **tools_needed**: Hex keys or screwdrivers for set screws and housing bolts; shims or thrust washers to set the gear positions and backlash; grease. A bought T-gearbox needs only couplings and mounting bolts.
+- **seal**: none for an open gear set; bought bevel gearboxes are sealed housings with shaft seals and O-rings that keep oil in (ZIMM)
+- **load**: Light to medium for hobby builds (toys, kinetic sculptures, RC contra-rotating hubs); heavy in industry (bought T-gearboxes, rotary cutter gearboxes, aircraft contra-rotating propeller gearboxes up to 15,000 shaft hp for the NK-12; Wikipedia 'Contra-rotating propellers'). Weak points: the input pinion carries the load of both outputs; bevel gears push apart along their shafts (thrust), and in a nested drive the inner shaft's thrust must be taken by a bearing against the tube or housing; long nested shafts can whip. Strong in twist; the outputs' twisting reactions cancel each other on the frame, which is why contra-rotation is used (Wikipedia 'Contra-rotating propellers': the torque 'effectively cancels out').
+- **adjustable**: Yes, when assembling: backlash and tooth contact are set by shimming each bevel gear along its shaft; with a dog clutch, direction (forward, reverse, neutral) can be changed in use, ideally when stopped or slow because dog clutches engage with a shock (Wikipedia 'Dog clutch'). A T-gearbox's output direction can be reversed by mounting it the other way round (ZIMM: '180 degree rotation to change the direction of rotation').
+- **play_and_precision**: Small backlash in each of the two meshes; between the two outputs the play adds up (backlash accumulates through gear stages; KHK). Little tolerance for misalignment: the cone tips (apexes) of all three gears must meet at one point (BOSL2 docs: 'The apexes of the pitch cones must coincide'), and the two output gears must sit at the same distance from the input. In spiral bevel meshes the thrust can pull gears together, and any axial play in the bearings can leave the mesh with no backlash (KHK, spiral bevel forces). Nested shafts need a close, straight fit with bearings or bushings at both ends of the tube.
+- **access_needed**: end of a tube or shaft: gears, bearings and the outer tube slide on from shaft ends; a bought gearbox couples to shaft ends
+- **materials**: Gears: steel, sintered metal, nylon or acetal (bought); PLA, PETG or nylon for printed light-duty sets. Shafts: steel rod, with a steel, brass or aluminium tube as the outer shaft, or printed tubes for toys (the Mcchat kinetic sculpture prints its nested axles). Housings: aluminium or cast iron (ZIMM uses EN-GJL-250 cast iron or EN AW-6082 aluminium), printed or plywood frames for models. Suits metal, wood and rigid plastic frames that can hold three shafts accurately; poor in card, foam or clay frames, which cannot hold the cone tips together.
+- **maker_difficulty**: moderate: printed or bought bevel gears are easy to get, but three gears must meet at one point and a nested drive needs a straight inner shaft running in a tube with bearings; buying a T-type gearbox makes the one-input-two-output version easy
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: T-type bevel gearboxes (one input, two outputs), mitre and bevel gears, metal tube and rod for nested shafts, contra-rotating gearboxes for ultralight aircraft and RC models
+  - 3D print (FDM): bevel gears, housings, nested axles and discs for kinetic sculptures and toys
+  - CNC: turning the inner shaft and outer tube, boring the housing
+  - woodwork: frames for toys and sculptures; historic mill gearing used wooden bevel wheels
+- **print_in_place**: no: the gears, shafts and housing are printed and assembled separately (e.g. the Mcchat kinetic sculpture is assembled from printed gears, axles, spacers and two M3 screws)
+- **making_tips_3d_printing**: 1) Generate the gears as a matched pair: BOSL2 bevel_gear() needs both tooth counts and the shaft angle, because bevel gears only work in designed pairs, and meshing gears 'must be of opposite handedness'; for a splitter make the two output gears the same part and the input its mate. 2) Place all three so their cone tips meet at one point (BOSL2: 'The apexes of the pitch cones must coincide'); model the whole three-gear set in CAD before printing. 3) Choose tooth counts with no common factor between input and outputs for even wear (BOSL2). 4) Straight or zerol (spiral angle 0) teeth are easiest to print; spiral bevels run quieter but their thrust direction changes with direction of rotation (KHK). 5) Give every gear a shoulder, collar or thrust washer: bevel gears push along their shafts (KHK), and in a nested drive the inner and outer gears push in opposite directions. 6) Nested shafts: run a steel rod inside a tube or a printed sleeve with at least two bearings or bushings far apart, and leave about 0.3 mm clearance between printed parts that must turn freely (Prusa knowledge base); the Mcchat model pushes the long contra-rotating axle through the hole in the short axle gear and checks that 'both output shafts ... are rotating in opposite directions' before screwing the back on. 7) Key the discs or propellers to their shafts (the Mcchat model uses output shafts with keyways). 8) Print gears flat on their back face with teeth up, at least 35% infill and several walls ⚑ [uncertain] (common practice for printed gears). 9) Balance anything spinning fast (discs, propellers) and keep printed propellers for low speeds ⚑ [uncertain] (general practice). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: T-type bevel gearbox (right-angle gearbox with two output shafts, also sold as 3-way or T-shaped gearbox; solid or hollow output shaft versions; ZIMM KSZ-H, KST, ZK series as examples of the type); mitre gears and bevel gear pairs (straight, spiral; set-screw or keyed bores); dog clutch (claw clutch) and shift fork, or a splined or keyed sliding sleeve; precision steel rod with matching tube (telescoping tube sizes), flanged ball bearings and needle bearings for nested shafts; thrust washers and thrust bearings; shaft collars; contra-rotating gearboxes for ultralight aircraft engines (e.g. Coax-P (brand), per Wikipedia) and RC aircraft; coaxial counter-rotating motor pairs and coaxial helicopter kits for the electric version.
+- **rules_of_thumb**: 
+  - Every external bevel or spur mesh reverses direction (KHK Gear Technical Reference p. 7), so the two gears facing each other across one pinion always turn opposite ways (507 Mechanical Movements no. 53).
+  - Speed of each output = input speed x (input teeth / output teeth); make the two output gears identical for equal and opposite speeds (KHK, speed ratio i = z2/z1).
+  - Bevel gears must be designed in mated pairs at the chosen shaft angle, with the same tooth size and pressure angle (almost always 20 degrees) and opposite handedness; their cone tips must coincide (BOSL2 gears.scad documentation).
+  - Efficiency of intersecting-axis (bevel) gears: 98.0-99.0% per mesh (KHK Gear Technical Reference, table 1.1).
+  - T-type bevel gearbox = one input shaft, two output shafts; L type = one input, one output to the left or right; hollow output shafts save space (ZIMM ZK types). Turning a symmetrical bevel gearbox round 180 degrees reverses its output (ZIMM).
+  - A dog clutch sliding on a key (feather) between two loose bevel gears selects forward or reverse (507 no. 53); dog clutches never slip but engage with a shock, so they are 'best used when sudden starting action is acceptable and the inertia of the system is small' (Wikipedia 'Dog clutch').
+  - Contra-rotating propellers cancel each other's torque and showed efficiency gains of about 8% (tractor) to 16% (pusher), but can be up to 30 dB louder in some directions; more spacing between the two propellers, fewer blades or a smaller rear propeller reduce the noise (Wikipedia 'Contra-rotating propellers').
+  - Coaxial rotors on concentric shafts turning opposite ways remove the need for a tail rotor; yaw is steered by making one rotor's torque larger than the other's (Wikipedia 'Coaxial-rotor aircraft'); a two-motor coax copter does this by speeding one motor up and slowing the other (ArduPilot docs).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A hand-cranked egg beater: one drive wheel with gear faces on both sides turns two pinions, so the two beaters 'rotate in opposite directions' (US patent 4193697)
+  - Coaxial toy and RC helicopters with two rotors on one mast turning opposite ways (Wikipedia 'Coaxial-rotor aircraft')
+  - Rotary mowers and cutters with two counter-rotating blades on one axis (US patent 5450714) and the Dyson CR01 washing machine's contra-rotating drums (Wikipedia 'Contra-rotating')
+  - Kinetic sculptures with two patterned discs spinning against each other from one hand crank (Printables 'Kinetic sculpture contra rotating discs')
+- **when_to_use**: Use a bevel splitter when one motor or crank must turn two things in opposite directions: two outputs on one line (a pair of rollers, a toy with two arms spinning opposite ways, a mechanism that needs mirror-image motion on both sides), or two rotors on one axis whose twisting forces should cancel (contra-rotating propellers, coaxial helicopter rotors, counter-rotating cutting blades, kinetic sculptures with moire discs). Use a T-type bevel gearbox to tee a long drive shaft off to two sides, e.g. driving screw jacks or lead screws at several points from one motor. Use the two loose bevel gears with a dog clutch between them when you need a simple forward, neutral and reverse switch on a shaft driven one way only.
+- **when_not_to_use**: If the two outputs must be free to turn at different speeds (wheels on a turning vehicle, two outputs that meet different loads), use a differential, which uses the same gears but leaves the outputs free. If the two outputs should turn the same way, use a through shaft in a T-gearbox, a line shaft, or a belt or chain. For two counter-rotating rotors in a light electric model, two motors on concentric shafts are simpler than a gearbox (ArduPilot CoaxCopter), though they need a controller that balances them. For an in-line input (engine shaft pointing along the propeller axis), a planetary contra-rotating hub is more compact (Hackaday.io 6711). For heavy loads at high speed, buy a gearbox rather than printing one.
+- **environment_limits**: PLA gears soften with heat (about 60 C) and creep under constant load ⚑ [uncertain] (general printing guidance, not re-checked in this session); nylon gears change size with humidity. Fast-spinning printed discs or propellers can crack and fly apart ⚑ [uncertain] (general experience). Open gears pick up dust; sealed bought gearboxes keep oil in and dirt out (ZIMM). Vibration loosens set screws, letting gears walk apart along their shafts; fix them with keys, pins or thread-locker. Contra-rotating propellers are noisier than single ones (Wikipedia 'Contra-rotating propellers'). *(⚑ parts need confirming)*
+- **safety_notes**: Two sets of blades, propellers or discs turning against each other cut and pinch: the gap between them is a scissor, and anything caught is pulled in from both sides; guard them with a cage or shroud, and keep hands, hair and loose clothing away. Never put hands under a running counter-rotating cutter (the patent's rotary cutter shreds vegetation). Gear meshes are in-running nips; OSHA 1910.219(f) requires gears to be guarded by a complete enclosure or a guard extending above the mesh point, and the same is good practice at home. Printed propellers or discs can break at speed and throw pieces; run them slowly at first and stand out of their plane. RC coaxial helicopters and coax copters can spin hard if one motor fails or is wired the wrong way; test with the rotors off. Dog clutches engage with a jolt (Wikipedia 'Dog clutch'); shift them stopped or slow.
+- **common_failures**: 1) Gears skip or click because they push apart under load: stiffen the frame, add thrust washers or collars, and mount gears close to bearings (KHK). 2) Noisy, rough running from cone tips that do not meet at one point or output gears at different distances from the input: model the set together and shim each gear (BOSL2; KHK). 3) Gears that were not designed as mated pairs, or spiral gears of the wrong hand, do not mesh (BOSL2). 4) The inner shaft binds in the tube because it is bent, too tight or unsupported at one end: use a straight steel rod and two well-spaced bearings or bushings ⚑ [uncertain] (general practice). 5) The two outputs creep apart in angle under load because of backlash in both meshes (KHK: backlash adds up through stages); preload or choose better gears if the phase matters. 6) Set screws loosen and gears or discs slip on their shafts: use keyed shafts (as in the Mcchat model), D-flats or pins. 7) Dog clutch teeth chip if shifted at speed (Wikipedia 'Dog clutch'). 8) Contra-rotating propellers that are too close together are noisy (Wikipedia 'Contra-rotating propellers'). *(⚑ parts need confirming)*
+- **related**: 
+  - Bevel gears (incl. mitre and crown gears): a single bevel pair turning a corner; this entry uses three bevel gears
+  - Differential (bevel gear differential): the same gears in a cage, but the outputs are free to turn at different speeds
+  - Planetary gear set: the basis of in-line contra-rotating propeller hubs and gearboxes
+  - Dog clutch (claw clutch): slides between the two loose bevel gears to choose forward or reverse
+  - Line shaft and power take-off: one shaft driving several outputs, usually all the same way
+  - Linked lead screws: T-type bevel gearboxes along one shaft drive several screw jacks in step
+  - Spur gear pair and gear train: a central gear driving gears on each side also gives outputs turning opposite to it, but on parallel shafts
+  - Intermittent gear (mutilated gear): with a part-toothed input the splitter gives stop-and-go opposite motions (507 no. 74)
+  - Several motors driving one load: two motors on concentric shafts are the electric alternative for coaxial rotors
+
+### Pictures, videos and models
+
+- **links**: 
+  - [507 Mechanical Movements no. 53: bevel gears with double clutch](https://507movements.com/mm_053.html): Animated vertical shaft driving two loose bevel gears in opposite directions, with a sliding double clutch choosing which one drives the horizontal shaft *(licence: Book public domain; website animation link only)*
+  - [507 Mechanical Movements no. 7: pulley transmission with bevel gears on nested shafts](https://507movements.com/mm_007.html): A belt shifted onto pulleys fast on a hollow shaft or on the shaft inside it, driving two bevel gears to run an upright shaft either way *(licence: Book public domain; website animation link only)*
+  - [507 Mechanical Movements no. 74: mutilated bevel gear](https://507movements.com/mm_074.html): A part-toothed bevel gear giving intermittent rotation in opposite directions to two bevel gears *(licence: Book public domain; website animation link only)*
+  - [Ka-32-coaxial.gif (FOX 52), Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Ka-32-coaxial.gif): A Kamov Ka-32 helicopter with coaxial contra-rotating rotors (used in Wikipedia 'Contra-rotating') *(licence: CC BY-SA 4.0)*
+  - [Single-feed contra-rotating propeller hub (Hackaday.io project 6711)](https://hackaday.io/project/6711-single-feed-contra-rotating-propeller-hub): Pictures and a SolidWorks animation of an RC-size hub that splits one shaft into two contra-rotating propellers with modified planetary gearing *(licence: link only)*
+- **make_it_yourself**: 
+  - [Kinetic sculpture contra rotating discs by Mcchat (URL from Printables API, page not opened)](https://www.printables.com/model/120260-kinetic-sculpture-contra-rotating-discs): Hand-cranked printable sculpture: spur gears drive an angled (bevel) gear that turns a short outer axle and a long inner axle in opposite directions, each carrying a patterned disc; needs two 3x10 mm screws *(licence: CC BY)*
+  - [No. 7 Pulley transmission (507 Mechanical Movements) by Marcos Cerro (URL from Printables API, page not opened)](https://www.printables.com/model/1344878-no-7-pulley-transmission-507-mechanical-movements): Printable model of 507 no. 7: a hollow shaft and an inner shaft each carrying a bevel gear, so shifting the belt engages, disengages or reverses the upright shaft *(licence: CC BY-NC)*
+  - [BOSL2 gears.scad (OpenSCAD library source): bevel_gear()](https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad): Parametric generator for matched straight, zerol and spiral bevel gears at any shaft angle; use it to make the input pinion and two identical output gears *(licence: BSD 2-Clause)*
+- **diagram_idea**: A side view of one small bevel gear on a vertical input shaft meshing with two larger bevel gears facing each other on a horizontal line, with curved arrows showing the two outputs turning opposite ways, and an inset showing the coaxial version where the left gear drives a solid inner rod running through a tube driven by the right gear, ending in two propellers.
+- **sources**: 
+  - https://507movements.com/mm_053.html
+  - https://507movements.com/mm_007.html
+  - https://507movements.com/mm_074.html
+  - https://patents.google.com/patent/US5450714
+  - https://patents.google.com/patent/US4193697
+  - https://zimm.com/wiki/what-is-a-bevel-gearbox-and-where-is-it-used/
+  - https://zimm.com/zk-bevel-gearboxes-types-and-versions/
+  - https://hackaday.io/project/6711-single-feed-contra-rotating-propeller-hub
+  - https://en.wikipedia.org/wiki/Contra-rotating_propellers
+  - https://en.wikipedia.org/wiki/Contra-rotating
+  - https://en.wikipedia.org/wiki/Coaxial-rotor_aircraft
+  - https://en.wikipedia.org/wiki/Dog_clutch
+  - https://ardupilot.org/copter/docs/singlecopter-and-coaxcopter.html
+  - https://khkgears.us/media/izojpong/gear_guide1.pdf
+  - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/gears.scad
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.219
+  - https://commons.wikimedia.org/wiki/File:Ka-32-coaxial.gif
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: shaft ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: steady turning
+- **motion_out**: steady turning
+- **shaft_layout**: at an angle, in line
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: changes speed or splits
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: opposite ways
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, input_output, making_tips_3d_printing
+
+## 451 Several motors driving one load (dual-motor drive, ganged motors, dual-motor gantry)
+
+*gear trains, gearboxes & transmissions.* Two or more motors geared to the same gear, shaft or axis so they add their power, share the load or hold each other against play, as in two-motor robot drive gearboxes, CNC gantries driven at both ends and 3D printers with two Z motors
+
+*Also covers:* Also covers gearing motors so their speed-torque curves match and they share the load, two steppers on one driver versus one driver each, auto-squaring a gantry with two endstops, electrical preload (two pinions on one rack pulling against each other to remove backlash), and one-way clutches that let either a motor or a hand crank drive. Safety: motors fighting each other or out of step can twist a frame, snap a shaft or tear a machine apart; turn the power off before swapping a motor's plug.
+
+### What it is
+
+- **plain_name**: Two or more motors working on the same job, either geared to one shared gear or shaft so their strength adds up, or one at each end of a long moving beam so it stays square, or set to pull slightly against each other so there is no wobble
+- **term**: Multi-motor drive (dual-motor drive, ganged motors, load sharing; dual-drive gantry; electrical preload)
+- **aliases**: 
+  - dual-motor drive / twin-motor drive / two-motor gearbox / multi-motor gearbox (e.g. FRC '2-CIM' and three-motor gearboxes)
+  - ganged motors / motors in tandem / load sharing / torque summing
+  - dual-drive gantry / gantry driven at both ends / dual Y or dual X axis (MPCNC, LowRider CNC)
+  - dual Z / dual Z motors / dual lead screw Z axis with two steppers (3D printers)
+  - auto-squaring / dual endstops / Z stepper auto-alignment (Marlin G34) / z_tilt (Klipper)
+  - electrical preload / electronic preload / master-slave drive / dual pinion drive (two pinions on one rack; Motion Control Tips)
+  - torque bias / anti-backlash dual motor (industry terms for motors held against each other) ⚑ [uncertain]
+  - redundant drive / either-input drive (with freewheels or one-way clutches)
+  - coax copter / coaxial twin motors (two motors on one axis, turning opposite ways) *(⚑ parts need confirming)*
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: powered & active connectors
+- **one_liner**: Several motors are joined to one output, through a shared gear, the same shaft, both ends of one axis or one rack, so they add their power, keep a long axis square, back each other up, or pull against each other to take out play.
+- **complexity**: A small assembly: two or more motors (often identical) with pinions or pulleys, a shared gear, shaft, belt, rack or lead screws, a frame that holds every motor in the right place, and the electronics that make them agree: one driver with motors wired together, or a driver per motor plus firmware, encoders or endstops that keep them in step. Optional: one-way clutches (freewheels or sprag clutches) so either input can drive without dragging the other, and a controller that sets a small opposing torque for electrical preload.
+- **how_it_works**: When two motors turn the same gear or shaft, each pushes on it and their turning forces add, so the output gets roughly the sum of their torque at a shared speed; for them to share fairly, each must be geared so that its speed-versus-torque curve lies on top of the other's (Chief Delphi). When the motors drive separate places on one rigid part, such as both ends of a CNC gantry or two lead screws under a printer bed, they must move exactly together, either by being wired to one driver or by having a driver each and firmware that homes each end to its own switch and squares the axis (V1 Engineering 'Dual endstops'; Marlin G34; Klipper z_tilt). In electrical preload, two motors drive pinions on the same rack, one moving the load and the other gently holding back against the opposite tooth faces so the gear play is always taken up (Motion Control Tips, ATLANTA zero-backlash rack and pinion). With a one-way clutch on each input, whichever input turns faster drives and the other is left behind, as in a helicopter whose rotor can keep turning when an engine stops (Wikipedia 'Freewheel').
+
+### Finder attributes
+
+- **job**: 
+  - change speed or turning force: adds the torque and power of several motors at one output (two-motor robot gearboxes, dual Y motors on a printer)
+  - line parts up exactly: two motors at the two ends of a gantry or bed, each homed to its own switch, square or level the axis automatically; two pinions preloaded against each other remove backlash
+  - stop it moving back (one-way): one-way clutches on each input let either a motor or a hand crank drive without dragging the other
+- **motion**: rotate (motors into a shared gear or shaft) or slide (a gantry, bed or rack carriage moved by motors at two places); range as for the driven axis
+- **degrees_of_freedom**: 1 when the motors are geared rigidly to one output; 2 or more when each motor drives its own end of a gantry or its own lead screw, because then the ends can get out of step and the frame twists unless the electronics keep them together
+- **special_behaviour**: 
+  - self-aligning or self-centring: with a driver and an endstop for each motor, the firmware homes each end separately and squares the gantry or levels the bed every time it homes (V1 Engineering auto-squaring; Marlin G34 'Align multiple Z stepper motors'; Klipper z_tilt)
+  - one-way (moves freely one way, locks the other): freewheels or sprag clutches let either of two inputs drive the output without the idle one being dragged round (Wikipedia 'Freewheel')
+  - tensioning (takes up slack and holds): in electrical preload the second motor keeps pressing its pinion against the opposite tooth faces of the rack, so the backlash is always taken up (Motion Control Tips)
+- **holding_principle**: 
+  - powered hold: the motors hold the output only while energised (stepper holding torque or servo control)
+  - not a holding joint (it moves or passes on motion): gears, belts and racks pass the motors' torque to the load
+- **input_output**: Several rotary inputs -> one rotation (shared gear or shaft) or one straight-line motion (gantry, rack, lead screws). Torque adds; the output speed is set by the gearing and is the same for every motor that is rigidly geared to it. To share the load in proportion to each motor's power, choose ratios so their speed-torque curves superimpose (Chief Delphi, 'designing a three motor gearbox' #17). Efficiency is that of the gear, belt or screw stages used; each extra gearbox, shaft or bearing adds small losses and backlash (ZIMM screw-jack wiki). Shafts: parallel motor shafts into a spur gear, or motors at both ends of a gantry, on two lead screws, or two pinions on one rack. Back-drivable: depends on the drive (belts, spur gears and racks yes; lead screws often not); a motor driven backwards by the other acts as a brake or generator.
+- **power**: powered (needs electricity for every motor and driver). If power is lost: stepper and DC motors stop holding and the load can fall or coast unless the drive is self-locking or braked; if only one motor or one driver fails, the other may drag the axis out of square or drive into the stalled one. Auto-squaring setups re-square the axis at the next homing (V1 Engineering).
+- **removability**: removable: motors bolt to mounts and couple to shafts, pulleys or pinions with set screws, clamp hubs or keys; plugs and cables come apart (power off first)
+- **reuse_cycles**: many times
+- **tools_needed**: Hex keys and screwdrivers for motor mounts and pulleys; a multimeter to check stepper coil pairs (Duet3D shows a test by shorting wire pairs) and wiring; a computer to set firmware (Marlin, Klipper) for separate drivers and endstops; a square or tape measure for checking diagonals when calibrating auto-squaring (V1 Engineering)
+- **seal**: none (the motors may be sealed or not; the arrangement seals nothing)
+- **load**: Light to heavy: small robots and toy trains use two hobby gear motors to climb slopes (Printables 'Dual motor Duplo train'); FRC robots gear two or three motors into one gearbox; CNC gantries and printers use two steppers on one axis; industrial gantries use dual pinion drives on one rack (Motion Control Tips). The shared gear, pinion or shaft must carry the summed torque, and the frame must resist the twist when the two motors do not agree. Weak against motors fighting each other: a reversed or out-of-step motor loads the gears and frame with both motors' full torque.
+- **adjustable**: Yes: endstop offsets are trimmed per motor in firmware (M666 on V1 machines; G34/M422 in Marlin; z_positions in Klipper z_tilt) to square or level the axis; driver current is set per motor; gear ratios are chosen to balance load sharing; preload torque in electrically preloaded drives is set in the controller (Motion Control Tips).
+- **play_and_precision**: Two independent motors can start up to four full steps apart at power-up and drift further if one stalls (EEVblog dual-Z thread), so the axis is only square or level if it is homed with an endstop per motor or tied by a belt. With auto-squaring, 'repeatability on the order of your endstops resolution, even after powering off' (V1 Engineering). Electrical preload removes rack-and-pinion backlash entirely and keeps positioning accurate when the direction changes (Motion Control Tips). Misalignment between motors driving one gear is taken up by the gear mesh; motors at each end of a gantry need the gantry and rails parallel.
+- **access_needed**: not applicable: motors are mounted to a frame and coupled to shaft ends
+- **materials**: Steel or aluminium frames for CNC gantries and printers; printed PLA, PETG or nylon motor mounts and gear plates for light robots and printers; metal pinions and racks for heavy drives. Motors: brushed DC gear motors, steppers, servos. Suits rigid frames (metal, plywood, printed plastic) that will not twist when the motors disagree; poor in flexible card or foam structures.
+- **maker_difficulty**: moderate: the mechanics are simple, but the motors must be wired to turn the right way, matched in gearing, and kept in step by wiring, a belt or firmware; electrical preload needs an industrial controller and is hard at home
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: gear motors, stepper motors, multi-motor gearboxes for robots, dual-Z upgrade kits for 3D printers, controller boards with spare stepper drivers, Y-splitter cables, endstop switches, sprag clutches and one-way bearings
+  - 3D print (FDM): motor mounts, gear plates, endstop brackets, pulleys and printed gears for light robots and printers
+  - CNC: aluminium gearbox plates and gantry end plates
+  - laser cut: acrylic or plywood motor plates
+- **print_in_place**: no: motors, gears and frame are separate parts
+- **making_tips_3d_printing**: 1) Mount both motors on one stiff printed plate or frame so their pinions keep the same mesh with the shared gear; any flex lets one motor's pinion jump teeth ⚑ [uncertain] (general practice). 2) Check every motor's direction on its own before joining them, and fix a reversed one in wiring or software before running under load (Chief Delphi 'A curious situation': one CIM motor turned out to be wired backwards internally, and a team reported a backwards motor 'ended up destroying a toughbox'). 3) Brushed motors often run a little faster one way than the other; mounting two motors so that one runs clockwise and the other anticlockwise evens out the gearbox speed in both directions (MIT 6.270 motor-mount handout). 4) For two steppers on one axis, use 1.2-2.0 A motors in series on one driver, or low-current motors (1.0 A or below) in parallel (Duet3D docs); better, give each motor its own driver and endstop so the firmware can square or level the axis (V1 Engineering; Marlin G34; Klipper z_tilt). 5) Before first power-up of a dual-lead-screw axis, level the gantry, line up and mark the couplings, power up with one coupling loose, jog 1 mm and back, then tighten it so the motors start in step (EEVblog dual-Z thread). 6) Make the first moves small (1 mm), because 'if driving your steppers the wrong way you can rip your machine apart' (V1 Engineering). 7) Print endstop brackets with slots so each switch can be set close to square, then trim the rest in firmware (V1 Engineering suggests moving blocks if the offset exceeds 2 mm). 8) Use 0.3 mm clearance for printed parts that must move freely (Prusa knowledge base). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Brushed DC gear motors (e.g. TT gear motors, CIM and 775-size motors), NEMA 17 and NEMA 23 stepper motors (long-shaft versions for pulleys), servo motors; two-motor or three-motor robot gearboxes (FRC 'ball shifter', 'toughbox' style) and dual-motor gearbox kits (e.g. Pololu (brand) dual motor gearbox); dual-Z upgrade kits (second stepper, lead screw, Y-splitter cable) and Z sync belt kits; controller boards with a spare stepper driver (5-driver boards for auto-squaring); endstop switches; GT2 timing belts and pulleys; racks with dual pinion drives and electronically preloaded master-slave drive systems (industrial); one-way bearings (roller clutches), sprag clutches and freewheels for motor-or-hand-crank drives.
+- **rules_of_thumb**: 
+  - To make motors share the load in proportion to their power, gear them so their speed-torque curves superimpose (Chief Delphi, 'designing a three motor gearbox' #17).
+  - Two steppers on one driver: for 1.2-2.0 A motors connect them in series; for motors rated 1.0 A or below connect them in parallel (Duet3D documentation, 'Connecting multiple motors on an axis').
+  - Two independently powered steppers can start up to four steps apart at power-up; 'Any overload, excessive acceleration or binding will cause loss of sync, resulting in a Z axis jam and excessive stress on the mechanism' (EEVblog dual-Z thread).
+  - One motor plus a closed belt cannot lose sync between screws: 'The belt version simply and absolutely prevents this' (Whadda forum K8200 dual leadscrew thread).
+  - Auto-squaring needs independently wired steppers (a 5-driver board on V1 machines) and an endstop per motor; trim offsets with M666 and check squareness by measuring the diagonals of a large rectangle (V1 Engineering 'Dual endstops').
+  - Marlin G34 aligns multiple Z stepper motors by probing one point per stepper; Klipper's z_tilt adjusts multiple independent Z steppers to correct tilt, and an extra stepper_z1 with its own endstop homes to that endstop (Marlin docs; Klipper Config Reference).
+  - Electrical preload: two motor and reducer assemblies drive two pinions on the same rack, one driving and one preloaded against the opposite tooth flanks; the mechanical one-motor version is a split, spring-loaded pinion (Motion Control Tips, ATLANTA).
+  - Planetary gearboxes use two or more planets 'to balance the load evenly', and load division between them is one of their design problems (KHK Gear Technical Reference §17.1): load sharing between parallel paths is never automatic.
+  - Flip a stepper's direction only with the power completely off (V1 Engineering).
+
+### When to use it
+
+- **everyday_examples**: 
+  - 3D printers with two Z motors lifting the gantry or bed on two lead screws (EEVblog and Whadda threads; Marlin G34)
+  - Hobby CNC routers like the MPCNC and LowRider, with a motor at each end of the gantry (V1 Engineering)
+  - Competition robots with two or three motors in each drive gearbox (Chief Delphi)
+  - Twin-engine helicopters, where freewheels let the rotor keep turning if one engine stops (Wikipedia 'Freewheel')
+- **when_to_use**: Use several motors on one load when one motor is not strong enough and a bigger one is too costly, heavy or hard to fit (robot drive gearboxes, a toy train that must climb a slope, a printer axis that needs higher acceleration, like the dual-Y-motor Sovol mod on Printables); when a long gantry would twist if driven from one end, so a motor at each end drives it evenly (MPCNC, LowRider); when a bed or gantry on two or more lead screws should be levelled automatically by the printer (independent Z motors with Marlin G34 or Klipper z_tilt); when backlash must be removed from a long rack-and-pinion axis (electrical preload); and when either a motor or a hand crank, or either of two motors, should be able to drive the same output (freewheels or sprag clutches on each input).
+- **when_not_to_use**: If the outputs only need to stay in step and one motor is strong enough, use one motor and a closed toothed belt, chain or shaft to link them (linked lead screws), which 'simply and absolutely' cannot lose sync (Whadda). If the two motors should make two different motions that are added together, use a differential instead. To remove backlash with one motor, use a split anti-backlash (scissor) gear or a spring-loaded split pinion. Don't put two motors on one rigid gear train if you can't be sure they turn the same way and at matched speeds; a single bigger motor is simpler. Don't use two independent steppers on one rigid axis without either a sync belt or an endstop per motor, because they can start several steps apart (EEVblog).
+- **environment_limits**: Motors and drivers heat up; a motor that is working against the other (out of sync, reversed or binding) draws more current and overheats ⚑ [uncertain] (general experience). Printed motor mounts near hot motors should not be PLA, which softens around 60 C ⚑ [uncertain] (not re-checked in this session). Vibration loosens pulley and pinion set screws, letting one motor slip on its shaft and drop out of step. Endstop offsets change when you move endstops, retension belts or change the spoil board, so re-check them (V1 Engineering). *(⚑ parts need confirming)*
+- **safety_notes**: Motors fighting each other or out of step can twist a frame, snap a shaft, strip gears or tear a machine apart: V1 Engineering warns that 'if driving your steppers the wrong way you can rip your machine apart' and to 'completely power off your board before flipping the plug over'; a team reported that a motor wired backwards 'ended up destroying a toughbox' (Chief Delphi). Never unplug or swap a stepper or motor plug with the power on. Test new wiring with small moves and a hand on the power switch. Two motors make more force than one, so pinch points at gears, belts and gantries are more dangerous; keep hands clear and guard them. If power fails, a vertical axis can drop unless it is self-locking or braked. A Z axis that loses sync can jam and put 'excessive stress on the mechanism' (EEVblog). Mains-powered supplies and motor drivers must be wired to local law.
+- **common_failures**: 1) Bed or gantry not level or square after each power-up, because two motors on one driver started in different step positions: tie them with a belt, or use a driver and endstop per motor with auto-squaring (EEVblog; V1 Engineering). 2) One motor wired or programmed backwards so the motors fight: test each alone first and invert in wiring or software (Chief Delphi 'A curious situation'). 3) One motor does most of the work because the ratios or motors don't match: gear them so their speed-torque curves superimpose (Chief Delphi #17). 4) Skipped steps or loss of sync from overload, high acceleration or binding (EEVblog). 5) Where a sync belt is added as well, a belt that is too tight or misaligned can jam the axis instead ⚑ [uncertain] (maker reports, not checked on a page opened for this entry). 6) Endstop offsets drift after mechanical changes (V1 Engineering). 7) Too little current for two steppers on one driver: choose series or parallel wiring to suit the motor current, and raise the driver current if needed (Duet3D; EEVblog). 8) In two-motor gearboxes, uneven speed in the two directions from motors that favour one direction: mount them facing opposite ways (MIT 6.270 handout). *(⚑ parts need confirming)*
+- **related**: 
+  - Linked lead screws (Z sync belt): one motor keeps several screws in step mechanically instead of several motors
+  - Differential: adds two motors' motions so they can make two different outputs (e.g. a robot wrist)
+  - Anti-backlash gear (split scissor gear): the one-motor, spring-loaded way to remove the play that electrical preload removes with two motors
+  - Sprag clutch and roller clutch (one-way bearing): let either of two inputs (motor or hand crank) drive without dragging the other
+  - Planetary gear set: several planets share one load inside one gearbox
+  - Spur gear pair and gear train: the usual way two motor pinions meet one shared gear
+  - Rack and pinion: two pinions on one rack for a dual-drive gantry or electrical preload
+  - Whippletree: shares one pull between several points mechanically, the passive cousin of load sharing
+  - Bevel splitter and counter-rotating drive: the one-motor alternative to two motors on coaxial rotors
+  - Line shaft and power take-off: the reverse case, one motor driving many outputs
+
+### Pictures, videos and models
+
+- **links**: 
+  - [V1 Engineering: Auto Square, Dual EndStops](https://docs.v1e.com/electronics/dual-endstops/): How the MPCNC and LowRider gantries, powered independently at each end, are auto-squared with an endstop per motor, with a video of the first auto-squaring test and the calibration steps *(licence: CC BY-SA (V1 Engineering docs footer))*
+  - [Zero-Backlash Rack & Pinion Drive Systems from ATLANTA Drive Systems (Motion Control Tips)](https://www.motioncontroltips.com/zero-backlash-rack-pinion-drive-systems-from-atlanta-drive-systems/): Explains split-pinion mechanical preload versus two-motor electrical preload on one rack *(licence: link only)*
+  - [Marlin G34: Z Steppers Auto-Alignment](https://marlinfw.org/docs/gcode/G034-zsaa.html): Firmware command that aligns multiple Z stepper motors by probing one point per stepper, with lock and unlock options for each motor *(licence: MIT (Marlin documentation))*
+  - [EEVblog forum: Ender 3 Max with Creality's dual Z motor upgrade won't home consistently](https://www.eevblog.com/forum/3d-printing/ender-3-max-with-crealitys-dual-z-motor-upgrade-wont-home-consistently/msg3939151/): A real case of two parallel-wired Z steppers losing sync, with the start-up procedure and the belt and separate-driver alternatives *(licence: link only)*
+- **make_it_yourself**: 
+  - [LSD Sovol SV06 Plus dual motor Y-axis upgrade by TreoWayne (URL from Printables API, page not opened)](https://www.printables.com/model/1324307-lsd-sovol-sv06-plus-dual-motor-y-axis-upgrade): Printed mounts for adding a second Y stepper to one belt axis; the author reports the recommended acceleration from Klipper resonance testing rising from 3500 to 8800 mm/s^2 together with frame stiffening *(licence: GPL-3.0)*
+  - [LowRider CNC V2 X and dual Y endstops and Z probe by Tailslide (URL from Printables API, page not opened)](https://www.printables.com/model/133406-lowrider-cnc-v2-x-and-dual-y-endstops-and-z-probe): Printable endstop mounts so each of the LowRider's two Y motors homes to its own switch for auto-squaring *(licence: CC BY)*
+  - [Ender 5 Plus dual Z endstop by MakerIggs (URL from Printables API, page not opened)](https://www.printables.com/model/137273-ender-5-plus-dual-z-endstop): Printed brackets for a second Z endstop so two Z motors can be homed and levelled separately *(licence: CC BY-NC-SA)*
+  - [Dual motor Duplo train by slayernine (URL from Printables API, page not opened)](https://www.printables.com/model/564691-dual-motor-duplo-train): A printed toy locomotive driven by two TT gear motors for more pulling power on slopes *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Three small panels: (1) two motor pinions meshing with one large gear, arrows showing both pushing the same way; (2) a CNC gantry seen from above with a motor and an endstop at each end, one end lagging and then both squared after homing; (3) two pinions on one rack, one pushing the load and the other gently holding back against the opposite tooth faces.
+- **sources**: 
+  - https://www.chiefdelphi.com/t/designing-a-three-motor-gearbox/129620/17
+  - https://www.chiefdelphi.com/t/a-curious-situation/111035
+  - https://ocw.mit.edu/courses/6-270-autonomous-robot-design-competition-january-iap-2005/9958f49654a99c8565dc35abeeff278f_2_motormount.pdf
+  - https://www.motioncontroltips.com/zero-backlash-rack-pinion-drive-systems-from-atlanta-drive-systems/
+  - https://docs.v1e.com/electronics/dual-endstops/
+  - https://www.eevblog.com/forum/3d-printing/ender-3-max-with-crealitys-dual-z-motor-upgrade-wont-home-consistently/msg3939151/
+  - https://forum.whadda.com/t/k8200-dual-leadscrew-z-axis-upgrade/12184
+  - https://docs.duet3d.com/User_manual/Connecting_hardware/Motors_connecting
+  - https://marlinfw.org/docs/gcode/G034-zsaa.html
+  - https://www.klipper3d.org/Config_Reference.html
+  - https://arctic-shift.photon-reddit.com/api/comments/search?link_id=1bpuytx&limit=30
+  - https://en.wikipedia.org/wiki/Freewheel
+  - https://khkgears.us/media/izojpong/gear_guide1.pdf
+  - https://zimm.com/wiki/how-are-multiple-screw-jacks-mechanically-synchronised/
+  - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: electricity
+- **power_loss**: not applicable ⚑ *needs confirming (best guess): `power` mentions losing power, but none of the three outcomes*
+- **motion_in**: steady turning
+- **motion_out**: steady turning, straight push or pull
+- **shaft_layout**: parallel
+- **overload_response**: not applicable
+- **clicks**: silent
+- **tools**: hand tools
+- **load_max**: heavy
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: combines inputs
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, making_tips_3d_printing
+
+## 452 Cable splitter (cable doubler, one-into-two cable junction, dual-control brake splitter)
+
+*gear trains, gearboxes & transmissions.* A small block or lever plate that joins one control cable to two, or two to one, so one lever works two brakes, one throttle opens two carburettors, or either of two levers works the same brake
+
+*Also covers:* Also covers motorcycle throttle and oil-pump junction boxes, tandem and trike brake splitters, home-made two-cable brake-lever plates, two-lever dual-control splitters, and setting each cable's slack with barrel adjusters. A splitter moves every cable the same distance but does not even out their pull (compare Whippletree). Safety: if the lever, splitter or shared cable fails, every brake on it fails; some trike race rules require two separate brake systems; a binding junction can hold a throttle open.
+
+### What it is
+
+- **plain_name**: A small block, tube or plate where one control cable meets two others, so pulling one lever pulls two cables the same distance (one lever, two brakes; one twistgrip, two carburettors and an oil pump), or so either of two levers can pull the same cable
+- **term**: Cable splitter (cable doubler, cable junction box; one-into-two splitter or two-into-one dual-control splitter)
+- **aliases**: 
+  - cable doubler, 1:2 (one lever for two brakes) and 2:1 (two levers for one brake) (Problem Solvers (brand), via SJS Cycles and Tree Fort Bikes)
+  - tandem brake splitter (IHPVA trike-building pages)
+  - double control cable splitter / DoubleControl (Jtek (brand)); brake / gear cable splitter
+  - throttle junction box, choke junction box, 2-1 or 3-1 junction box (vintage British motorcycles; Amal (brand))
+  - split-cable junction, junction sleeve, junction tube, throttle / oil-pump splitter (two-stroke motorcycles with an oil-injection pump)
+  - 1 into 2 throttle cable, one-into-two cable, Y-cable
+  - two into one brake handles / two-into-one brake lever (trikes); dual-cable lever, double cable pull lever, twin cable pull brake lever
+  - upper gyro cable / detangler upper cable that divides into two (BMX)
+  - synchronizing device for wire-activated mechanisms (rocking-beam junction, Yamaha patent US4197763A)
+  - not the same as a 'Bowden splitter' or 'Y filament splitter' on 3D printers, which merges two filament tubes into one and passes filament, not pull
+- **family**: gear trains, gearboxes & transmissions
+- **other_families**: motion conversion
+- **one_liner**: A cable splitter is a small junction where one control cable is joined to two (so one lever pulls both the same distance) or two cables are joined to one (so either lever can pull the output), letting one hand work two brakes, one twistgrip open two carburettors and an oil pump, or a second lever work the same brake.
+- **complexity**: A few parts. One-into-two junction: a tube or box, a slider (called the 'piston' on Yamaha two-strokes) that holds the end fitting (nipple) of the input wire and both output wires, end caps that the outer cable sleeves (housings) seat into, and usually barrel adjusters on each output. Two-into-one dual-control splitter: a tube with an output slider and two input pieces that can each pull it without pushing the other, sometimes with small springs (Problem Solvers' doubler 'has its own sprung system'; the Jtek one 'relies on the spring tension in the brakes', SJS Cycles). Lever-plate version: a small metal plate bolted to a normal brake lever that holds two cable ends (IHPVA), or a ready-made dual-cable lever (e.g. Dia-Compe Tech77W (brand)).
+- **how_it_works**: In the one-into-two kind, the input wire and both output wires are fixed to the same slider, so when the lever pulls the slider every output wire moves exactly the same distance; the outer sleeves push against the two ends of the box, which carries the reaction. Because the outputs are tied together, it copies distance, not force: the brake or carburettor whose cable goes tight first takes the pull, so each cable's slack has to be set with its barrel adjuster ('It does not provide balance between the brakes but you can adjust that easily with the cable barrels', IHPVA). In the two-into-one kind, each input can pull the shared output slider but goes slack when the other lever is used, so the output follows whichever lever is pulled further and the levers 'operate totally independent of each other' (Jtek, SJS Cycles). Neither kind can push: the return springs in the brakes, carburettor slides or oil pump pull everything back when the lever is let go.
+
+### Finder attributes
+
+- **job**: 
+  - change the kind of motion: one pull becomes two (or three) equal pulls, or either of two pulls becomes one, a one-to-many or many-to-one junction for control cables
+  - change speed or turning force: the hand's pull is shared between the cables, so each brake gets only part of it ('either way will reduce the hand power available for each brake', Cycling UK forum)
+  - join and hold: it joins the cable ends and holds the outer sleeves so the pull is passed on
+- **motion**: slide: the slider moves in a straight line inside the tube, over a short stroke set by the brake or throttle (the Jtek S allows up to 12 mm of cable travel and the Jtek L 27 mm, SJS Cycles); a lever-plate version turns with the brake lever
+- **degrees_of_freedom**: 1 for a one-into-two junction: the single slider moves along the tube and all the wires move with it. 2 for a two-into-one dual-control splitter: each input can move on its own, and the output follows whichever is pulled further (the other just goes slack).
+- **special_behaviour**: 
+  - motion conversion (e.g. rotary to linear): it turns one pull into several equal pulls, or picks whichever of two pulls is larger (an 'either lever' combiner)
+  - none of the locking or balancing behaviours: it does not even out the force between its outputs (compare the whippletree) and it does not lock or hold; the far-end return springs bring it back. A rocking-beam version that equalises the two wires first and then locks was patented by Yamaha (US4197763A) but is not the common type
+- **holding_principle**: 
+  - not a holding joint (it moves or passes on motion): it passes a pull from the lever to the brakes or carburettors
+  - shape (the parts interlock; form-fit): the cable-end nipples sit in slots in the slider and the sleeve ends (ferrules) seat in the end caps
+  - friction or clamping (force-fit): some wire ends are held by a small set screw or pinch bolt instead of a nipple (IHPVA's frame-mounted version uses 'a cable clamp nut and bolt')
+- **input_output**: One-into-two: one pull -> two (or three) pulls of the same length, a 1:1 travel ratio; the force is shared according to which output resists most, not evenly. Two-into-one: either of two pulls -> one pull, the output following the input that is pulled further. Travel is limited by the junction (Jtek S: 'Maximum cable travel 12mm' for short-pull road brakes; Jtek L: 27 mm on its product page, though an SJS staff answer gives 26 mm) ⚑ [uncertain: no figure found for efficiency; friction in the junction and extra cable bends lower it, and a hung-up junction can stop it returning]. Arrangement: not shafts; cables come in and out along the line of the tube. Back-drivable: a one-into-two junction is, since pulling one output wire drags the slider and the other outputs; a two-into-one splitter only pulls its output, and it 'can't be used in reverse' as a one-into-two (SJS Cycles). *(⚑ parts need confirming)*
+- **power**: passive (no power needed): moved by a hand lever, twistgrip or pedal and returned by the springs at the brakes, carburettor slides or oil pump
+- **removability**: removable: the wires unhook from the slider and the sleeves pull out of the end caps (on a Yamaha junction 'you simply pop the cap off the top of the splitter' and lift the 'piston' out, Yamaha-enduros forum); bolted lever plates unbolt
+- **reuse_cycles**: many times: nothing is deformed when it is taken apart, though a wire clamped by a set screw frays and may need a new end
+- **tools_needed**: Cable and housing cutters, a small hex key (2 mm for set-screw types) or spanner for clamp bolts, light grease or cable lube, and zip ties to secure the junction; a spanner and drill if you make a lever plate (IHPVA)
+- **seal**: none: the slider tube is open at the cable holes; vintage junctions are greased inside, and some owners glue the outer sleeves into the box (Access Norton forum)
+- **load**: Light to medium: it carries the pull of a hand brake or throttle, strong along the line of pull and in pull only (it cannot push). The outer sleeves push hard on the end caps, so plastic boxes can crack ('I've managed to destroy 4 plastic ones', Classic British Spares review) and cables can pull out of the splitter (Laverda forum). No rated load figure was found ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: yes: the slack in each output cable is set with barrel (inline) adjusters at the brakes, carburettor tops or oil pump, which is how the brakes are balanced ('adjust that easily with the cable barrels at the hubs', IHPVA) and twin carburettors are synchronised; old tandem brakes had eccentric levers for the same job (Slowtwitch forum). The split itself is always 1:1 in travel.
+- **play_and_precision**: Small play if the junction is in good order, but all the outputs move together only when every cable has the same slack, so it needs careful setting up; cables of slightly different length and the different thermal expansion of two long cables upset carburettor synchronisation (Laverda forum). A junction that sits loose can move when the handlebars turn and change the throttle opening (Access Norton forum). It tolerates bends in the cables but each bend adds friction.
+- **access_needed**: not applicable: it sits in the cable run (inline, at a cable stop, on a brake calliper or at the lever) and is reached wherever the cables run
+- **materials**: Usually machined aluminium, hard anodised with a slippery PTFE (Teflon) finish (Problem Solvers via Tree Fort Bikes), chrome-plated or stainless steel with a brass slider, or plastic (Amal-type junction boxes, Classic British Spares; the plastic junction tube on a Yamaha GT80), and steel or aluminium plate for home-made lever plates (IHPVA). It works with steel inner wires in plastic-lined sleeves. A 3D-printed junction in PLA or PETG suits only light jobs such as models, puppets and animatronics; it is not suited to brakes or engine throttles.
+- **maker_difficulty**: moderate: a junction is simple in shape, but it must slide with very little friction, hold the sleeve ends firmly and suit the cable travel of the brakes, and brake or throttle use is safety-critical, so for vehicles buy a ready-made splitter or dual-cable lever; a light-duty one for a model or animatronic is easy to print
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: cable doublers and splitters for bicycles, throttle and choke junction boxes, dual-cable brake levers, one-into-two throttle cables
+  - CNC: machined aluminium splitter tubes and sliders (Problem Solvers)
+  - sheet metal: a home-made two-cable plate bolted to a brake lever (IHPVA)
+  - 3D print (FDM): light-duty junctions for models, puppets and animatronics only
+- **print_in_place**: no: the body and slider are printed separately and the steel wires, sleeve end caps and any clamp screws are added
+- **making_tips_3d_printing**: For light jobs only (models, puppets, animatronics); never for brakes or engine throttles. 1) Make it a straight tube with a free-sliding block inside, and give the block a slot or hole for each wire end; fix wires with a small set screw or a crimped stop, as bicycle splitters do (IHPVA's 'cable clamp nut and bolt'). 2) Print the tube standing up so the bore is round and smooth, and test-fit the slider; a sliding fit needs some clearance and a sanded or reamed bore ⚑ [uncertain: no source gives a clearance figure for this part]. 3) Line the bore or the cable holes with PTFE tube and seat each outer sleeve in a pocket with a ferrule, so the sleeve does not dig into the plastic. 4) Keep the junction close to the outputs and the outputs short (the motorcycle forums agree short carb-side cables help, Access Norton; Laverda forum). 5) Fit a return spring at every output: the junction can only pull. 6) For a two-into-one version, let each input pull the slider through a slot (lost motion), so it can go slack while the other input is used. 7) PLA softens and deforms above about 60 C and degrades in UV; PETG is usable below about 80 C (Prusa Knowledge Base). 8) Typical failures: the slider jams if it is too tight or the cables pull at an angle, and the end caps crack under the sleeve load (plastic junction boxes break, Classic British Spares review). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Bicycle cable doubler or cable splitter, 1:2 and 2:1 versions (e.g. Problem Solvers Cable Doubler (brand), Jtek DoubleControl S for short-pull road brakes and L for long-pull V and mechanical disc brakes (brand)); dual-cable (twin cable pull) brake levers (e.g. Dia-Compe Tech77W (brand)); tandem double brake levers; throttle and choke junction boxes, 2-1 and 3-1 (e.g. Amal (brand)); one-into-two throttle cables with junction tube for two-stroke throttle and oil pump; BMX detangler (gyro) upper cables; inline barrel adjusters and cable stops; road (short-pull) and V-brake (long-pull) inner wires and lined brake housing; ferrules (end caps); pinch-bolt cable anchors; twin-pull twistgrips (the alternative to a junction box); remote hydraulic master cylinders that let a cable lever work hydraulic brakes (Hope V-twin (brand), mentioned on the Cycling UK forum).
+- **rules_of_thumb**: 
+  - Only put brakes that need the same cable pull on one splitter: a dual lever working a rim brake and a hub brake will not engage the hub brake, 'because hub brakes generally require more cable pull than rim brakes' (Sheldon Brown, Tandem Brakes).
+  - Match the splitter to the brake type: V-brakes need levers with longer cable travel than older brakes, and mechanical disc brakes for flat bars use the same long pull (Wikipedia, Bicycle brake). The Jtek S allows 12 mm of cable travel for road (short-pull) brakes only; the Jtek L allows 27 mm for V and mechanical disc brakes (SJS Cycles product pages; an SJS staff answer gives 26 mm for the L).
+  - Balance one-into-two brakes with the barrel adjusters at the brakes: the splitter itself 'does not provide balance' (IHPVA, quoting a tandem rider).
+  - On a two-into-one splitter, give the main lever the straight run of cable and put the extra (auxiliary) lever through the splitter (Jtek L, SJS Cycles); a two-into-one splitter cannot be used in reverse as one-into-two (SJS staff answer).
+  - Twin carburettors: put the split close to the carburettors and keep the carb-side cables short; tie the junction box to the frame so only the single cable moves when the bars turn, and leave a little slack with the bars turned (Access Norton forum, citing Norton's John Hudson; Laverda forum). Owners disagree: some prefer a twin-pull twistgrip with inline adjusters instead (Access Norton; Laverda forum).
+  - Check a throttle junction by opening the throttle and letting go: 'you should only hear one click when both slides hit bottom' (Access Norton forum); the throttle should move freely, snap closed and not rev when the bars are turned (MSF T-CLOCS checklist, Utah Driver License Division).
+  - Leave only a little slack at the carburettor tops: 'Too much can cause the cables to hang up in the junction box' (Access Norton forum).
+  - Front-to-rear brake split on a trike or tandem: one experienced forum member gives about 80:20 front:rear for a moderate (about 0.5 g) stop, and another says the more slippery the road, the closer to 50:50 it needs to be (Cycling UK forum) ⚑ [uncertain: forum advice]. *(⚑ parts need confirming)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - A BMX detangler (gyro): the cable from the rear brake lever divides into two so the rotor plate is pulled evenly on both sides, then merges back into one (Wikipedia, Detangler)
+  - The throttle cable on an old two-stroke motorcycle, which splits in a junction tube under the tank to the carburettor and the oil pump (Yamaha-enduros forum)
+  - The throttle junction box on a vintage British twin with two carburettors (Amal-type junction box, Classic British Spares)
+  - A tandem or trike where one lever works two brakes (IHPVA; Sheldon Brown)
+- **when_to_use**: Use a one-into-two splitter when one lever, pedal or twistgrip has to pull two or three cables exactly the same distance: two carburettors or a carburettor and an oil pump on one twistgrip, two front brakes on a trike, two brakes for a rider who can use only one hand (Cycling UK and Slowtwitch forums), or two sides of a BMX detangler. Use a two-into-one (dual-control) splitter when either of two levers should work the same brake or gear, such as a second brake lever on aero or time-trial bars, a stoker or instructor's control, or adapted cycles (SJS Cycles; Tree Fort Bikes). It is small (the Jtek S weighs 12 g, SJS Cycles), cheap and uses standard cables.
+- **when_not_to_use**: Don't use it when the outputs need different amounts of cable pull (a rim brake and a hub brake, or road and V-brakes) (Sheldon Brown); when the force must be shared evenly between outputs whose slack differs, use a whippletree (equaliser bar) instead; for brakes, hydraulics avoid cable friction ('Hydraulic brake lines are frictionless', Sheldon Brown), and one master cylinder feeding two cylinders shares pressure rather than travel (see Syringe hydraulics). Don't use a single-lever splitter as the only braking system on a road vehicle or in competitions that require two independent brake systems (IHPVA); keep a separate, independent brake (Sheldon Brown: 'Have two brakes'). For twin carburettors, a twin-pull twistgrip with inline adjusters or a cross-shaft linkage are alternatives (Access Norton; Laverda forum). For robots, a servo per output or a rigid linkage is often simpler.
+- **environment_limits**: Water and dirt make the slider stick, and an unused junction can seize ('My throttle will not turn after years of disuse', Yamaha-enduros forum); keep it lubricated, but not packed full of grease, because 'the return springs may not be able to squeeze the grease out of the way' (same thread). Two long cables expand differently with temperature, which can upset carburettor synchronisation (Laverda forum). Vibration and steering movement can make a loose junction shift or let cables jump out (Laverda forum; Access Norton forum). Printed junctions: PLA softens above about 60 C and degrades in sunlight; PETG is usable below about 80 C (Prusa Knowledge Base).
+- **safety_notes**: Single point of failure: if the lever, the splitter or the shared cable fails, every brake on it fails at once, so keep a second, independent brake (Sheldon Brown: 'Have two brakes, so you can still stop when a cable fails'); a dual lever that works both rim brakes also leaves 'no way to operate the front brake independently' (Sheldon Brown). Some trike race (pedal prix) rules 'require two separate braking systems' (IHPVA); road rules in some countries also require independent brakes, so check your local law ⚑ [uncertain: only forum statements were found for UK law]. A splitter shares one hand's pull, so each brake gets less force. A sticking or binding junction can hold a throttle open or raise the revs when the bars turn ('Revs are sticking @ 2K'; 'If a cable hangs-up as you brake for a corner...', Access Norton forum): check that the throttle snaps closed before riding (MSF T-CLOCS). On two-strokes, an oil-pump cable out of step with the throttle can give 'an excessive supply or shortage of the lubricating oil' (Yamaha patent US4197763A), which can damage the engine. Never use a home-made or 3D-printed splitter on a vehicle's brakes or throttle. *(⚑ parts need confirming)*
+- **common_failures**: 1) Binding or seizing in the junction, so the throttle sticks or will not turn: clean, lightly lubricate and free the cables (Yamaha-enduros forum). 2) Unequal slack, so one brake or carburettor works before the other: set each barrel adjuster (IHPVA) and resynchronise; one owner's cable 'would come half out and get cocked' until the clearance was reset and the slides resynchronised (Access Norton forum). 3) Cables jumping out of or hanging up on the edge of the splitter, often after the tank is refitted: reseat everything and route the cables carefully (Laverda forum). 4) Wrong carb-to-junction cables fitted, so the slides cannot close and the idle rises (Access Norton forum). 5) A splitter that cannot supply the cable travel the brakes need (a short-pull splitter on V-brakes) (SJS Cycles). 6) Cracked plastic junction boxes (Classic British Spares review). 7) Cables crossed over inside a twin's junction box (Yamaha-enduros forum).
+- **related**: 
+  - Bowden cable (push-pull cable): the cable a splitter is fitted into; on its own it links one lever to one output
+  - Whippletree (load-equalising lever): shares one pull equally between outputs and lets their travel differ, while a splitter moves every output the same distance and does not even out the force (IHPVA: it 'does not provide balance')
+  - Syringe hydraulics (hydraulic lever): one master cylinder feeding two cylinders shares pressure rather than distance; a car's brake callipers work this way
+  - Rocking-beam synchronising junction (Yamaha US4197763A): a splitter whose slider carries a small whippletree that evens out the two wires and then locks
+  - Linked (combined) brakes: a pivoting plate shared by two levers so either lever works both brakes, with springs to make one brake act first (US4773510A)
+  - Dual-cable brake lever and lever plate: the splitting done at the lever instead of in the cable run (IHPVA; Dia-Compe Tech77W)
+  - Twin-pull twistgrip: two separate cables from one twistgrip, the main alternative to a throttle junction box (Access Norton forum)
+  - Bell crank (angle lever) and push-pull rods: a rigid way to drive several outputs from one lever, as in a cross-shaft carburettor linkage (Laverda forum)
+  - Linked lead screws and line shaft: the rotating-shaft versions of one-input, many-output drives
+  - Bowden (filament) splitter on 3D printers: a Y-junction for filament tubes; same name, different job
+
+### Pictures, videos and models
+
+- **links**: 
+  - [2 into 1 Brake Handles (IHPVA trike-building pages)](https://ihpva.org/Projects/tstrike/building/2into1.htm): A home-made two-cable plate on a normal brake lever (with links to photos and a drawing), plus mailing-list notes on tandem brake splitters, balancing with barrel adjusters, and race rules requiring two braking systems *(licence: link only)*
+  - [Detangler.JPG (Wikimedia Commons; Andrew Dressel)](https://commons.wikimedia.org/wiki/File:Detangler.JPG): Photo of a BMX detangler, where the rear brake cable divides into two to pull the rotor plate evenly *(licence: CC BY-SA 3.0 or GFDL 1.2+)*
+  - [Jtek Double Control Brake Cable Splitter (SJS Cycles)](https://www.sjscycles.co.uk/cables/jtek-doublecontrol-s/): Product photos of a small two-into-one (dual-control) splitter, with its 12 mm travel limit and mounting options *(licence: link only)*
+  - [US4197763A Synchronizing device for wire-activated mechanisms (Yamaha Motor, 1980; Google Patents)](https://patents.google.com/patent/US4197763A/en): Patent drawings of a throttle-cable junction whose slider carries a rocking beam to synchronise the carburettor and oil-pump wires *(licence: link only (US patent text and drawings are generally public domain))*
+  - [Amal Choke / Throttle Junction Box (Classic British Spares)](https://www.classicbritishspares.com/products/amal-throttle-choke-junction-box): Photos of 2-1 and 3-1 throttle and choke junction boxes in chrome, stainless and plastic for twin- and triple-carburettor motorcycles *(licence: link only)*
+- **make_it_yourself**: 
+  - [2 into 1 Brake Handles (IHPVA)](https://ihpva.org/Projects/tstrike/building/2into1.htm): A home-made build: a small metal plate bolted through the old cable hole of a standard brake lever to take two cables (about an hour to make), and a frame-mounted version using cable-stop braze-ons and a cable clamp nut and bolt *(licence: link only)*
+  - [Rotax engine throttle splitter (MakerWorld; seen in search results, page blocked (403), not opened)](https://makerworld.com/models/3140208): A printable mechanical splitter said to drive two carburettors from one cable, with a clear cover to watch the slider; for study only, not for a real engine throttle *(licence: ⚑ [uncertain] not checked)* *(⚑ parts need confirming)*
+- **diagram_idea**: Two side-by-side cut-away tubes: on the left, one input wire and two output wires all fixed to one slider, with arrows showing every wire moving the same distance and a note 'same travel, force not evened out'; on the right, two input wires that can each pull the output slider through a slot, one pulled and one slack, labelled 'either lever works it'.
+- **sources**: 
+  - https://ihpva.org/Projects/tstrike/building/2into1.htm
+  - https://www.sjscycles.co.uk/cables/problem-solvers-cable-doubler-12/
+  - https://www.sjscycles.co.uk/cables/jtek-doublecontrol-s/
+  - https://www.sjscycles.co.uk/cables/jtek-doublecontrol-l/
+  - https://www.bike-components.de/en/Jtek-Engineering/Double-Control-L-Brake-Gear-Cable-Splitter-p56496/
+  - https://www.treefortbikes.com/Problem-Solvers-Cable-Doubler-12-One-Lever-for-Two
+  - https://www.ison-distribution.com/english/product.php?part=BLDC7WLK
+  - https://www.yamaha-enduros.com/index.php/forums/general-discussion/7778-how-does-the-split-cable-junction-work
+  - https://www.yamaha-enduros.com/index.php/forum/maintenance/19924-throttle-cable
+  - https://www.classicbritishspares.com/products/amal-throttle-choke-junction-box
+  - https://laverdaforum.com/threads/750-dual-throttle-cable-conversion.107062/
+  - https://laverdaforum.com/threads/750-dual-throttle-cable-conversion.107062/page-2
+  - https://www.accessnorton.com/NortonCommando/throttle-cable-junction-q.40282/
+  - https://www.accessnorton.com/NortonCommando/throttles-up-when-i-turn-bars.35111/#post-577950
+  - https://forum.cyclinguk.org/viewtopic.php?p=1463216
+  - https://forum.slowtwitch.com/t/brake-cable-splitter/296856
+  - https://www.sheldonbrown.com/tandem-brakes.html
+  - https://www.sheldonbrown.com/cables.html
+  - https://en.wikipedia.org/wiki/Bicycle_brake
+  - https://en.wikipedia.org/wiki/Detangler
+  - https://commons.wikimedia.org/wiki/File:Detangler.JPG
+  - https://patents.google.com/patent/US4197763A/en
+  - https://patents.google.com/patent/US4773510
+  - https://dld.utah.gov/?p=8943
+  - https://help.prusa3d.com/article/pla_2062
+  - https://help.prusa3d.com/article/petg_2059
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: not applicable
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: straight push or pull
+- **motion_out**: straight push or pull
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: cables, pulleys or liquid
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: pushes, pulls or flow shared out
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** input_output, load, make_it_yourself, making_tips_3d_printing, rules_of_thumb, safety_notes
 

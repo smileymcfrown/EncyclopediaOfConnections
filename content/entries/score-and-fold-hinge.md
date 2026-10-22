@@ -99,6 +99,8 @@ open_points:
   note: '*Score-and-fold hinge* (410): the gap search''s ⚑ on which way to fold is settled by Briar Press and GCA Cards (score
     on the outside of the fold, so the bead ends up inside); the Holmen page that first gave the rule stayed blocked. The
     CITO creasing-channel rule is industrial, a guide only.'
+- kind: sources
+  note: '*Score-and-fold hinge* (410): the Warwick lesson PDF was also read with pypdf.'
 uncertain_fields: [aliases, reuse_cycles, making_tips_3d_printing, off_the_shelf_parts, environment_limits]
 diagram_idea: 'A three-step side view of a sheet of card: (1) a bone folder pressing a groove into the top face along a ruler,
   (2) the sheet folded so the raised ridge on the back ends up inside the fold, with a small inset showing the wrong way (cracked
@@ -183,6 +185,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Blank_RSC.svg
 - https://commons.wikimedia.org/wiki/File:Origami_symbol_valley_fold.svg
 - https://api.printables.com/graphql/
+- https://warwick.ac.uk/fac/sci/wmg/about/outreach/resources/paperengineering/paper_engineering_pop-up_book_l3.pdf
+- https://popuplady.com/about-pop-ups/glossary-of-pop-up-terms/
 research: research/connection-types/results/Scoreandfold_hinge_scored_crease_creasing_card_hinge.json
 image:
   file: drawn/anim/score-and-fold-hinge.svg
@@ -246,7 +250,7 @@ Single piece: the sheet itself, with a dented or part-cut line where it should b
 
 ## When to use it
 
-Use it whenever paper, card, cardboard or foam board must fold in a precise place: greeting cards, envelopes, booklet covers, gift and storage boxes, papercraft and architectural models, cardboard prototypes and furniture, foam-board model planes, and pop-up cards. It costs nothing, needs no extra parts and keeps the part in one piece, so folded boxes and models line up accurately. Use it as a hinge for lids, flaps and covers that are opened now and then, and use folded ribs and folded brackets to stiffen cardboard builds.
+Use it whenever paper, card, cardboard or foam board must fold in a precise place: greeting cards, envelopes, booklet covers, gift and storage boxes, papercraft and architectural models, cardboard prototypes and furniture, foam-board model planes, and pop-up cards. It costs nothing, needs no extra parts and keeps the part in one piece, so folded boxes and models line up accurately. Use it as a hinge for lids, flaps and covers that are opened now and then, and use folded ribs and folded brackets to stiffen cardboard builds. In pop-up and children's books the scored fold is the hinge of a lift-the-flap, a piece of paper fixed to the page at one edge so lifting it shows what is underneath (popuplady glossary); Warwick's paper-engineering lesson gives three ways to make one: cut a door on three sides of the top card and score the fourth, with the hidden picture glued behind; glue on a folded piece of card; or push a folded piece half through a slot so one half becomes the flap (WMG Warwick, lesson 3). The same fold works harlequinade (turn-up) flaps, pictures folded up or down over each other to change the scene, and the gatefold, a page edge folded back that opens out to make the page bigger (popuplady glossary).
 
 ## When not to use it
 
@@ -383,3 +387,5 @@ Half-cutting uses sharp blades: use a metal ruler and press it down firmly, keep
 - <https://commons.wikimedia.org/wiki/File:Blank_RSC.svg>
 - <https://commons.wikimedia.org/wiki/File:Origami_symbol_valley_fold.svg>
 - <https://api.printables.com/graphql/>
+- <https://warwick.ac.uk/fac/sci/wmg/about/outreach/resources/paperengineering/paper_engineering_pop-up_book_l3.pdf>
+- <https://popuplady.com/about-pop-ups/glossary-of-pop-up-terms/>

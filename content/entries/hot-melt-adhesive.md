@@ -178,6 +178,10 @@ sources:
 - https://hackaday.com/2018/02/05/3d-printering-printing-sticks-for-a-pla-hot-glue-gun/
 - https://learn.sparkfun.com/tutorials/connector-basics/all
 - https://en.wikipedia.org/wiki/Heat-shrink_tubing
+- https://www.foldnfly.com/lounge/foam-core-tools-techniques.php (WebFetch hit a verification page; read with curl)
+- https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build
+- https://cosplayadvice.com/using-eva-foam-for-cosplay/
+- https://www.gluegun.com/blogs/tips-tutorials/adhesives-for-polystyrene
 research: research/connection-types/results/Hotmelt_adhesive_glue_gun.json
 image:
   file: hot-melt-adhesive.webp
@@ -253,11 +257,11 @@ A few parts: (1) the glue stick, most often a blend of ethylene-vinyl acetate (E
 
 ## When to use it
 
-Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday). A small dab of hot glue also stops a wire working out of a screw terminal, 'without being too difficult to remove later' (SparkFun 'Connector Basics').
+Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday). A small dab of hot glue also stops a wire working out of a screw terminal, 'without being too difficult to remove later' (SparkFun 'Connector Basics'). On foam board, run a bead inside a bevelled or overlap fold before folding it up and hold it at the right angle for a few seconds for 'a very sturdy joint' (Fold N Fly); spread into the foam of a score-and-fold crease and left to cool, it makes 'a rubber-like hinge' that stops the paper tearing (Flite Test). On polystyrene foam (EPS and XPS) use low-temperature, foam-safe hot melts, because standard-temperature glue may melt the foam (gluegun.com).
 
 ## When not to use it
 
-Avoid it for load-bearing or structural joints (use epoxy, screws or a structural adhesive), for anything that gets warm, such as car interiors, sunny windows or near motors and lamps (use epoxy, polyamide or PUR hot melt), for parts under a constant load, where it creeps (Wikipedia; Raise3D), and in the cold, where it can let go (thisTOthat). It grips smooth metal and glass poorly unless they are preheated (Henkel p. 8; Glu-Stix; use epoxy or superglue instead), can melt thin plastic and foam (thisTOthat; use a low-temperature gun or another glue), and leaves thick, stringy joints that are hard to make neat (thisTOthat; Raise3D; for neat joints use superglue or solvent welding).
+Avoid it for load-bearing or structural joints (use epoxy, screws or a structural adhesive), for anything that gets warm, such as car interiors, sunny windows or near motors and lamps (use epoxy, polyamide or PUR hot melt), for parts under a constant load, where it creeps (Wikipedia; Raise3D), and in the cold, where it can let go (thisTOthat). It grips smooth metal and glass poorly unless they are preheated (Henkel p. 8; Glu-Stix; use epoxy or superglue instead), can melt thin plastic and foam (thisTOthat; use a low-temperature gun or another glue), and leaves thick, stringy joints that are hard to make neat (thisTOthat; Raise3D; for neat joints use superglue or solvent welding). Don't use it on EVA foam armour that will be heat-formed afterwards: it 'will start to melt when you use a heatgun' (cosplayadvice.com).
 
 ## Details
 
@@ -339,6 +343,7 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 - Melted plastic weld: melts the parts' own plastic, plus filler, into the seam with a soldering iron, 3D pen or hot-air gun; a glue gun fed with PLA sticks sits halfway between hot glue and plastic welding (Hackaday 2018)
 - Heat-shrink tubing: adhesive-lined (dual-wall) heat-shrink has a layer of thermoplastic glue inside, so shrinking it over a wire joint seals it much like a hot-glue over-mould (Wikipedia 'Heat-shrink tubing')
 - Screw terminal: a dab of hot glue on a screw terminal keeps its wire from working loose and can still be picked off later (SparkFun 'Connector Basics')
+- Glue stick and starch paste: gentle water-based paper glues; hot glue is fast and gap-filling on card but lumpy on paper, and its 'glue sticks' are a different thing
 
 ## Make it yourself
 
@@ -389,3 +394,7 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 - <https://hackaday.com/2018/02/05/3d-printering-printing-sticks-for-a-pla-hot-glue-gun/>
 - <https://learn.sparkfun.com/tutorials/connector-basics/all>
 - <https://en.wikipedia.org/wiki/Heat-shrink_tubing>
+- <https://www.foldnfly.com/lounge/foam-core-tools-techniques.php (WebFetch hit a verification page; read with curl)>
+- <https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build>
+- <https://cosplayadvice.com/using-eva-foam-for-cosplay/>
+- <https://www.gluegun.com/blogs/tips-tutorials/adhesives-for-polystyrene>

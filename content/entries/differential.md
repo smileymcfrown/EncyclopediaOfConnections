@@ -200,6 +200,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://www.mcmaster.com/products/bevel-gears/
 - https://www.mcmaster.com/products/miter-gears/
+- https://en.wikipedia.org/wiki/Transfer_case
 research: research/connection-types/results/Differential_bevel_gear_differential.json
 image:
   file: drawn/anim/differential.svg
@@ -255,7 +256,7 @@ pictures:
   kind: cross-section
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, clearance, form-fit--force-fit--material-bond,
-  infill, print-in-place, o-ring]
+  infill, print-in-place, o-ring, counter-rotating]
 ---
 
 <div class="eoc-pictures">
@@ -285,6 +286,7 @@ A small assembly that acts as one unit. Bevel type: an input gear (the ring gear
 - RC cars and LEGO Technic vehicles (the grey or black differential gear case in the axle)
 - Robot arm wrists where two motors share one joint (e.g. Dan Royer's 3D-printed 5+ axis arm on Hackaday.io)
 - Historic machines: mechanical analogue computers and clocks, and Mars rover suspensions (Wikipedia 'Differential')
+- Four-wheel-drive vehicles: the transfer case splits the drive between front and rear axles, and because 'the front and rear tires never turn at the same speed', full-time road four-wheel drive needs a centre differential; a part-time case locks the two shafts together and suffers driveline wind-up on dry pavement (Wikipedia 'Transfer case')
 
 ## When to use it
 
@@ -368,6 +370,9 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 - Planetary gear set: a three-shaft gear train like the differential, but used for speed reduction
 - Bevel gears (incl. mitre gears): the parts most differentials are built from
 - Differential screw and differential pulley (hoist): use the 'difference' idea for fine movement or lifting force, not for sharing drive between two outputs
+- Line shaft and power take-off: one shaft driving many machines at fixed speeds; it can't let two outputs turn at different speeds as a differential does
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: the same kind of bevel gears with no cage, so the two outputs always turn at equal speeds in opposite directions
+- Several motors driving one load: a differential can add two motors' motions into one output, or mix them into two (e.g. a robot wrist)
 
 ## Make it yourself
 
@@ -434,3 +439,4 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://www.mcmaster.com/products/bevel-gears/>
 - <https://www.mcmaster.com/products/miter-gears/>
+- <https://en.wikipedia.org/wiki/Transfer_case>

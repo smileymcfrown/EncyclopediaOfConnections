@@ -331,6 +331,7 @@ Pinch points between the arms, rods and frame when the linkage moves, especially
 - Slider-crank and Scotch yoke: turn continuous rotation into straight-line motion, whereas a bellcrank only rocks through a limited angle
 - Bevel gears or a rack and pinion: change direction for continuous or large rotations, with more parts and some backlash
 - Rod end and ball link: the joints usually used at each arm of a bellcrank to allow small misalignments
+- Cable splitter (cable doubler): joins one control cable to two, or two to one, in a small box instead of with a lever
 
 ## Make it yourself
 

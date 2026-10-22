@@ -486,17 +486,17 @@ flowchart LR
   a181(["Can be undone later · 5"])
   q177 --> a181
   class a181 leaf
-  a182["Rubber, fabric, leather or foam · 14"]
+  a182["Rubber, fabric, leather or foam · 16"]
   q162 --> a182
   q183{"What matters most?"}
   a182 --> q183
-  a184(["Strongest bond · 6"])
+  a184(["Strongest bond · 8"])
   q183 --> a184
   class a184 leaf
   a185(["Stays flexible, or seals too · 5"])
   q183 --> a185
   class a185 leaf
-  a186(["Fills gaps, or builds up a shape · 3"])
+  a186(["Fills gaps, or builds up a shape · 4"])
   q183 --> a186
   class a186 leaf
   a187(["Can be undone later · 4"])

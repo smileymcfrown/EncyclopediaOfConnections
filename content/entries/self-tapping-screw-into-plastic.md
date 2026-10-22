@@ -312,6 +312,7 @@ Pointed screw tips can stick out of the far side and scratch or cut ⚑ [uncerta
 - Heat staking (melted plastic rivet): a plastic post melted over, permanent
 - Blind threaded fixings (rivet nut, well nut): give a reusable thread in thin sheet or panels
 - Wood screw: the pointed, coarse-threaded screw for wood, technically self-tapping too; a type A sheet-metal screw holds slightly better in wood (Wood Handbook)
+- Cardboard construction screws and box rivets: coarse plastic screws driven into punched holes in corrugated cardboard, reusable, for the softest sheet of all
 
 ## Make it yourself
 

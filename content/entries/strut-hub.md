@@ -316,6 +316,7 @@ Don't climb on, hang things from or load printed or plastic hubs: one hub maker 
 - Ball-and-socket joint (lockable ball head): the ball connectors in some dome hubs work like a ball joint locked by a screw
 - Split-part joints for large prints: other ways to build something bigger than the print bed
 - Mortise and tenon / Dowel and biscuit joints: traditional two-member timber joints with no separate hub
+- Push-fit rod and spar fittings: small tee, cross and angled connectors that thin rods push into, for kites and light frames where only two to four members meet
 
 ## Make it yourself
 

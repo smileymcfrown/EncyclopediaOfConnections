@@ -164,6 +164,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://en.wikipedia.org/wiki/Carriage_bolt
 - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
+- https://elevatedmaterials.com/drilling-carbon-fiber
 research: research/connection-types/results/Ordinary_screw_joint_bolt_and_nut_machine_screw.json
 image:
   file: ordinary-screw-joint.webp
@@ -295,6 +296,7 @@ Hex bolts, socket-head cap screws (SHCS), button-head and countersunk (flat-head
 - Choose a bolt length so the threaded part does not sit in the shear plane between the parts; add washers to adjust (NASA RP-1228).
 - Helical spring (split) lock washers are flat by the time the bolt is tight and give no locking; use preload, prevailing-torque nuts or threadlocker instead (NASA RP-1228; Bolt Science says spring lock washers can even aid self-loosening).
 - 3D prints: wall around a threaded hole at least equal to the screw diameter (Hubs); even 1 Nm on an M3 screw gives more than 1500 N of clamping force, plenty for most printed assemblies (CNC Kitchen).
+- Drilling carbon-fibre plate: clamp it to a backing of wood or rigid foam to stop blow-out and splintering, put masking tape over the hole position, and run the drill fast (3,000-5,000 rpm) with a slow feed; a sharp HSS bit lasts only "5-10 holes before it is completely dull", so use solid carbide or diamond bits for more, which are brittle and need a drill press (Elevated Materials). Bolting through a soft, hollow or cored panel needs a compression limiter or a potted insert so the clamp force doesn't crush it (see those entries).
 
 ## Common failures
 
@@ -302,7 +304,7 @@ Loosening under vibration because the joint slips sideways; fix by tightening pr
 
 ## Safety
 
-Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. Cut bolt ends can be sharp ⚑ [uncertain].
+Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. Cut bolt ends can be sharp ⚑ [uncertain]. Carbon-fibre dust from drilling "is an irritant and can cause major itching" on skin and breathing problems if inhaled: wear long sleeves, gloves, a dust mask or respirator and eye protection, with good ventilation (Elevated Materials).
 
 ## Related
 
@@ -318,6 +320,8 @@ Over-tightening can strip threads or stretch a bolt past its limit so it loses c
 - Aluminium-extrusion connectors: bolts into nuts that slide in the slots of aluminium bars, so parts can be moved anywhere along a frame instead of only to drilled holes
 - Wood screw: a pointed, coarse-threaded screw that cuts its own thread in wood, so no nut or tapped hole is needed
 - Threaded rod and studs: a rod threaded along its length, used with nuts as a long bolt, tie rod or adjustable spacer
+- Compression limiter (crush tube): a metal sleeve in the bolt hole of a soft or hollow part, so the clamp force goes through the sleeve instead of crushing the part
+- Panel standoff (sign standoff): a decorative two-part screw fitting that holds a drilled sign, glass or acrylic panel a set distance off the wall
 
 ## Make it yourself
 
@@ -369,3 +373,4 @@ Over-tightening can strip threads or stretch a bolt past its limit so it loses c
 - <https://api.printables.com/graphql/>
 - <https://en.wikipedia.org/wiki/Carriage_bolt>
 - <https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html>
+- <https://elevatedmaterials.com/drilling-carbon-fiber>

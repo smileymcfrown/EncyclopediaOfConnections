@@ -106,8 +106,12 @@ needs_confirming:
     reason: '`materials` is marked [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests
       [uncertain]; test first.…"'
 confirmed: []
-open_points: []
-uncertain_fields: [materials, making_tips_3d_printing, safety_notes, reuse_cycles]
+open_points:
+- kind: content
+  note: '*Silicone and MS-polymer adhesive sealants* (227): that aquarium (acetoxy) silicone is wrong for mirrors is marked
+    [uncertain]: it is inferred from the makers'' warnings about the silver coating, not tested in an opened source. Mirror-adhesive
+    beads: Bostik says 20-40 cm apart, Soudal 10-20 cm; both are given.'
+uncertain_fields: [materials, making_tips_3d_printing, safety_notes, reuse_cycles, when_not_to_use]
 diagram_idea: 'A cut-away of a sealant joint between two parts: a curved hourglass-shaped bead twice as wide as it is deep
   sitting on a round foam backer rod, arrows showing moisture entering from the air and the cured skin growing inward about
   3 mm a day, with a second small sketch showing the joint stretching as the parts move apart.'
@@ -182,6 +186,9 @@ sources:
 - https://api.printables.com/graphql/
 - https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1
 - https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200
+- https://www.soudal.co.uk/diy/products/trade-range/adhesive/trade-mirror-adhesive
+- https://www.bostik.com/global/en/knowledge-list/knowledge/mirror-bonding-adhesive
+- https://www.bostik.com/assets/bostik/TDS_Aqua%20Silicone_en_ZA.pdf
 research: research/connection-types/results/Silicone_and_MSpolymer_adhesive_sealants.json
 image:
   file: silicone-and-ms-polymer-adhesive-sealants.webp
@@ -215,7 +222,7 @@ pictures:
   alt: A 310 ml cartridge of MS-polymer adhesive sealant with a plastic nozzle screwed on.
   kind: photo
   drawn: false
-glossary: [stiffness, damping, form-fit--force-fit--material-bond, cure, primer, peel-vs-shear, o-ring]
+glossary: [stiffness, damping, form-fit--force-fit--material-bond, chamfer--fillet, cure, primer, peel-vs-shear, o-ring]
 ---
 
 <div class="eoc-pictures">
@@ -250,7 +257,7 @@ Use it when a joint has to be waterproof and flexible at the same time: sealing 
 
 ## When not to use it
 
-Don't use it where the joint must be stiff or carry high loads: use epoxy, CA or screws (Loctite design guide: low cohesive strength). Don't use it on PE, PP or PTFE (Dow data sheet; Soudal data sheet), or silicone on acrylic (Wikipedia 'Silicone'). Don't use plain silicone where it will be painted (use MS polymer or acrylic caulk) (Soudal data sheet; Sashco). Avoid acetoxy silicone on copper, brass, bare steel or electronics, especially in closed boxes; use neutral cure (Dow data sheet; Loctite design guide). Avoid very thick or fully enclosed beads that air can't reach (Dow Corning technical manual; Loctite design guide), gas-tight or vacuum seals (Wikipedia 'Silicone'), and, for the MS sealant tested, continuous underwater use, aquariums and glazing (Soudal data sheet). For reusable, pressure-proof seals on printed parts, use an [O-ring](../glossary.md#o-ring) (Prusa watertight printing, part 2).
+Don't use it where the joint must be stiff or carry high loads: use epoxy, CA or screws (Loctite design guide: low cohesive strength). Don't use it on PE, PP or PTFE (Dow data sheet; Soudal data sheet), or silicone on acrylic (Wikipedia 'Silicone'). Don't use plain silicone where it will be painted (use MS polymer or acrylic caulk) (Soudal data sheet; Sashco). Avoid acetoxy silicone on copper, brass, bare steel or electronics, especially in closed boxes; use neutral cure (Dow data sheet; Loctite design guide). Avoid very thick or fully enclosed beads that air can't reach (Dow Corning technical manual; Loctite design guide), gas-tight or vacuum seals (Wikipedia 'Silicone'), and, for the MS sealant tested, continuous underwater use, aquariums and glazing (Soudal data sheet). For reusable, pressure-proof seals on printed parts, use an [O-ring](../glossary.md#o-ring) (Prusa watertight printing, part 2). For mirrors, use a mirror adhesive (neutral-cure or hybrid, solvent-free) rather than general-purpose or aquarium silicone, which is acetoxy (Soudal; Bostik; Aqua-Silicone data sheet) ⚑ [uncertain: no opened source tests acetoxy silicone on a mirror backing; the advice follows from the makers' warnings about the silver coating]. Aquarium silicone does not suit acrylic (PMMA) or polycarbonate tanks either (Aqua-Silicone data sheet).
 
 ## Details
 
@@ -304,6 +311,8 @@ Search for 'RTV silicone sealant' or 'silicone adhesive sealant' (acetoxy / gene
 - Hybrid bonding bead: 2-10 mm wide for bonding; sealing joints 5-30 mm wide and at least 5 mm deep (Soudal Fix ALL High Tack data sheet).
 - Temperature range: general-purpose silicone about -60 to +180 °C, with short peaks to 205 °C (Dow 732 data sheet); MS/hybrid about -40 to +90 °C (Soudal data sheet).
 - A properly designed and installed silicone building joint typically lasts about 20 years (Dow Corning Americas Technical Manual, p. 68).
+- Mirrors: use a mirror adhesive, because the adhesive must hold the mirror without damaging the protective coating over the silver (Bostik); Soudal's is a neutral-cure (alkoxy), solvent-free type that 'does not react with the silver backing', and Bostik's hybrid (MS) mirror adhesive is 'compatible with most common silver backing coatings'. Check the back coating for scratches first ('Do not bond a damaged mirror'), apply vertical beads, and add double-sided mirror tape 'for an initial tack and to create the necessary ventilation behind the mirror' (Soudal Trade Mirror Adhesive). Bead spacing differs between makers: 10-20 cm apart (Soudal) or ideally 20-40 cm apart (Bostik); follow the label of the product you use.
+- Glass aquariums (Den Braven Aqua-Silicone, an acetoxy silicone): leave a 1-2 mm joint of sealant between the panes and between sides and bottom, finish inside corners with a triangular [fillet](../glossary.md#chamfer--fillet) of 3-5 mm depending on the water level, let it cure fully (up to 1 week) before moving or filling, and rinse several times; it is 'Not suitable for aquaria larger than 1000 litres and/or higher than 60cm', or for PE, PP, PC or PMMA (acrylic); glass thickness is chosen to DIN 32622 (Aqua-Silicone data sheet).
 
 ## Common failures
 
@@ -324,6 +333,9 @@ Acetoxy silicones give off acetic acid (vinegar) while curing, which irritates e
 - Double-sided foam tape: an instant, flexible, clean bond for mounting, but not a gap-filling seal
 - Silicone mouldable glue (e.g. Sugru, brand): silicone rubber you shape by hand like clay, which hardens at room temperature and sticks to glass and aluminium (Wikipedia 'Silicone')
 - Melted plastic weld: for a watertight printed tank or box, makers suggest welding the printed seams first (e.g. with a soldering iron) and then sealing the whole thing, warning that 'silicone on its own might not be enough' (r/3Dprinting thread read through the Arctic Shift archive)
+- Glass and mirror edge clips and clamps: hold a mirror or glass sheet by its edges with clips or padded clamps instead of gluing it on
+- Copper-foil joint (Tiffany method): joins pieces of stained glass with soldered copper foil instead of glue; silicone is used for clear glass-to-glass seams such as aquariums
+- Glazing in a rebated frame (glazier's points, putty, glazing bead): holds a pane in a frame rebate; silicone is the modern bedding in place of putty
 
 ## Make it yourself
 
@@ -345,9 +357,10 @@ Acetoxy silicones give off acetic acid (vinegar) while curing, which irritates e
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PETG, ABS or ASA, nylon, silicone, acrylic or polycarbonate, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests ⚑ [uncertain]; test first.…"
 - ⚑ Finder value `bonds_poorly` = PLA, slippery plastics (PE or PP), PVC, wood, rubber (source uncertain): `materials` is marked ⚑ [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests ⚑ [uncertain]; test first.…"
+- ⚑ Research note: *Silicone and MS-polymer adhesive sealants* (227): that aquarium (acetoxy) silicone is wrong for mirrors is marked [uncertain]: it is inferred from the makers' warnings about the silver coating, not tested in an opened source. Mirror-adhesive beads: Bostik says 20-40 cm apart, Soudal 10-20 cm; both are given.
 
 ## Sources
 
@@ -373,3 +386,6 @@ Acetoxy silicones give off acetic acid (vinegar) while curing, which irritates e
 - <https://api.printables.com/graphql/>
 - <https://arctic-shift.photon-reddit.com/api/posts/ids?ids=1g4byc1>
 - <https://arctic-shift.photon-reddit.com/api/comments/tree?link_id=t3_1g4byc1&limit=200>
+- <https://www.soudal.co.uk/diy/products/trade-range/adhesive/trade-mirror-adhesive>
+- <https://www.bostik.com/global/en/knowledge-list/knowledge/mirror-bonding-adhesive>
+- <https://www.bostik.com/assets/bostik/TDS_Aqua%20Silicone_en_ZA.pdf>

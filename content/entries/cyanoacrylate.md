@@ -153,6 +153,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Cyanacrylat_polymerisation.svg
 - https://commons.wikimedia.org/wiki/File:Super_glue.jpg
 - https://www.youtube.com/watch?v=VZqf5rOJNCE
+- https://thebluebottletree.com/best-glue-for-polymer-clay/
 research: research/connection-types/results/Cyanoacrylate_superglue.json
 image:
   file: cyanoacrylate.webp
@@ -282,7 +283,7 @@ Search for 'cyanoacrylate adhesive', 'CA glue' or 'instant adhesive' in thin (lo
 
 ## Common failures
 
-The joint snaps when knocked, bent or peeled because cured CA is hard and brittle; design the joint for shear, or use rubber-toughened CA or epoxy (Loctite design guide; Prusa). Weak or slow bonds in gappy joints or thick blobs; improve the fit or switch to gel CA or epoxy (Wikipedia; Loctite). Parts that simply pop off polyethylene, polypropylene or acetal because nothing wets the surface; use a primer or another joining method (Loctite design guide). White frosting around the joint from fumes in still air (Prusa; Loctite). Cracking or crazing of acrylic, polycarbonate, ABS or clear styrene near uncured glue, especially where the plastic is under stress; use as little glue as possible and cure it quickly (Loctite design guide; Prusa). Weak bonds from old, thickened or cheap glue, or from repositioning after it has grabbed (Prusa). Thin glue wicking along layer lines and fingerprints and marking the print (Prusa). Accelerator heat slightly [warping](../glossary.md#warping--shrinkage) thin PLA parts (Prusa). Bonds on glass, or in wet or hot places, failing over time (Loctite; Wikipedia).
+The joint snaps when knocked, bent or peeled because cured CA is hard and brittle; design the joint for shear, or use rubber-toughened CA or epoxy (Loctite design guide; Prusa). Weak or slow bonds in gappy joints or thick blobs; improve the fit or switch to gel CA or epoxy (Wikipedia; Loctite). Parts that simply pop off polyethylene, polypropylene or acetal because nothing wets the surface; use a primer or another joining method (Loctite design guide). White frosting around the joint from fumes in still air (Prusa; Loctite). Cracking or crazing of acrylic, polycarbonate, ABS or clear styrene near uncured glue, especially where the plastic is under stress; use as little glue as possible and cure it quickly (Loctite design guide; Prusa). Weak bonds from old, thickened or cheap glue, or from repositioning after it has grabbed (Prusa). Thin glue wicking along layer lines and fingerprints and marking the print (Prusa). Accelerator heat slightly [warping](../glossary.md#warping--shrinkage) thin PLA parts (Prusa). Bonds on glass, or in wet or hot places, failing over time (Loctite; Wikipedia). On polymer clay, ordinary thin CA is brittle and 'notorious for popping right off of polymer' under stress: use a flexible gel CA, clean both faces with alcohol or acetone first, and don't glue onto paint, sealer or mica powder, because the glue then holds only the surface coating (Blue Bottle Tree).
 
 ## Safety
 
@@ -299,6 +300,10 @@ It bonds skin in seconds: don't pull stuck skin apart; soak with warm soapy wate
 - Structural methacrylate (MMA) and polyurethane construction adhesives: scored highest on PETG in Cosel's long-term test (Hackaday)
 - Heat staking and plastic welding with a soldering iron: join printed parts by melting them together, no glue needed
 - Screws, threaded inserts and magnets: when the parts must come apart again (Prusa)
+- Pinned glue joint: CA is the usual glue for pinning metal and resin miniatures, the pin taking the knocks
+- Slot-in model hinge: CA hinges are set by wicking thin CA into the hinge's porous covering
+- Liquid-clay bond: bakes polymer clay to itself; gel CA is the choice for baked clay that can't be baked again
+- Baked-in findings: embedding metal in the clay before baking holds better than gluing it on afterwards; gel CA locks screw eyes and gems into baked clay
 
 ## Make it yourself
 
@@ -334,3 +339,4 @@ It bonds skin in seconds: don't pull stuck skin apart; soak with warm soapy wate
 - <https://commons.wikimedia.org/wiki/File:Cyanacrylat_polymerisation.svg>
 - <https://commons.wikimedia.org/wiki/File:Super_glue.jpg>
 - <https://www.youtube.com/watch?v=VZqf5rOJNCE>
+- <https://thebluebottletree.com/best-glue-for-polymer-clay/>

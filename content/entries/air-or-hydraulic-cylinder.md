@@ -103,7 +103,9 @@ needs_confirming:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Air or hydraulic cylinder* (301): that air cylinders are harder to keep in step because air compresses.'
 uncertain_fields: [special_behaviour, environment_limits]
 diagram_idea: 'A cutaway cylinder drawn twice side by side: single-acting (one port, blue air pushing the piston out, a coiled
   spring pushing it back when the air escapes) and double-acting (two ports, air in one end and out the other, arrows reversing),
@@ -194,6 +196,9 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Doppelwirkender_Zylinder_Funktionsprinziep.gif
 - https://commons.wikimedia.org/wiki/File:Pneumatic_cylinder_(animation).gif
 - https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg
+- https://www.powermotiontech.com/technologies/other-technologies/article/21883443/book-2-chapter-11-flow-divider-circuits
+- https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21885035/synchronizing-circuits
+- https://www.hawe.com/fluid-lexicon/detail/open-loop-synchronisation-control/
 research: research/connection-types/results/Air_or_hydraulic_cylinder_pneumatic_cylinder_hydraulic_ram.json
 image:
   file: air-or-hydraulic-cylinder.webp
@@ -340,6 +345,7 @@ ISO 6432 round mini cylinders (8-25 mm bore), ISO 15552 profile cylinders (32-32
 - Mount the valve as close to the cylinder as practical, for quicker response and less wasted air (Tameson)
 - A double-acting cylinder that has been emptied (e.g. after an emergency stop) can shoot out when air first returns, so fit a soft-start valve where that could hurt someone (HSE HSG39 para 120)
 - Feed moving cylinders with loops of plastic tubing that absorb the movement (HSE HSG39 para 108), through the pivot of a swinging cylinder, or through a hollow fixed piston rod so the hoses stay still (Thang)
+- Two cylinders fed through a tee from one valve do not move in step: the flow splits unevenly unless both meet the same resistance, so the lighter-loaded one moves first. To keep them together, tie the rods mechanically (a rack on each rod, with the pinions on one shared shaft) or use a flow divider (Power & Motion 'Flow divider circuits' and 'Synchronizing circuits'; HAWE fluid lexicon 'Open loop synchronisation control'; these sources are about hydraulics).
 
 ## Common failures
 
@@ -390,6 +396,7 @@ ISO 6432 round mini cylinders (8-25 mm bore), ISO 15552 profile cylinders (32-32
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, keeps its last state
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
+- ⚑ Research note: *Air or hydraulic cylinder* (301): that air cylinders are harder to keep in step because air compresses.
 
 ## Sources
 
@@ -429,3 +436,6 @@ ISO 6432 round mini cylinders (8-25 mm bore), ISO 15552 profile cylinders (32-32
 - <https://commons.wikimedia.org/wiki/File:Doppelwirkender_Zylinder_Funktionsprinziep.gif>
 - <https://commons.wikimedia.org/wiki/File:Pneumatic_cylinder_(animation).gif>
 - <https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg>
+- <https://www.powermotiontech.com/technologies/other-technologies/article/21883443/book-2-chapter-11-flow-divider-circuits>
+- <https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21885035/synchronizing-circuits>
+- <https://www.hawe.com/fluid-lexicon/detail/open-loop-synchronisation-control/>

@@ -228,7 +228,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, gear-ratio, pitch, crank, clearance, tolerance, set-screw,
-  taper, captive-nut, repeatability--accuracy, infill, print-in-place, overhang--bridging]
+  taper, captive-nut, repeatability--accuracy, infill, print-in-place, overhang--bridging, counter-rotating]
 ---
 
 <div class="eoc-pictures">
@@ -338,6 +338,8 @@ The point where the teeth meet is an in-running nip that can trap fingers, hair 
 - Crossed helical (screw) gears: for shafts that cross without meeting; quiet but light loads only, 70-95% efficient (KHK)
 - Differential: a cage of bevel gears that splits one drive between two outputs
 - Universal joint: passes rotation at 1:1 between shafts at a smaller, changeable angle
+- Linked lead screws: right-angle bevel gearboxes and shafts tie several screw jacks together so they lift in step
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: one bevel gear driving two facing ones, so one input turns two outputs on one line in opposite directions
 
 ## Make it yourself
 

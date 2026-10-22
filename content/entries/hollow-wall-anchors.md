@@ -325,6 +325,7 @@ Check for hidden cables and pipes before drilling: 'A common error is accidental
 - Eye bolts, screw eyes and hooks: toggles are sold with hooks and eyes for ceiling hooks and lamps
 - Stretch-release adhesive strips and double-sided foam tape: no-hole alternatives for light items
 - [Compliant mechanisms](../glossary.md#compliant-mechanism) & flexures: printed anchors such as Ptarmigan's use flexure hinges to open behind the board
+- Potted insert (sandwich-panel insert, hard point): a plug of epoxy set into the soft core of a cored panel so a screw has something solid to grip; the glue-in answer to thin skins over a soft core
 
 ## Make it yourself
 

@@ -11,6 +11,8 @@ aliases:
 - staple, wire staple, construction staple, tacker staple, staple-gun staple (Wikipedia 'Staple (fastener)', 'Staple gun')
 - 'tacking: driving straight-leg staples into a solid base with no anvil, as opposed to ''stapling'' paper with bent legs
   (Wikipedia ''Staple (fastener)'')'
+- desk stapler, office stapler, paper stapler; flat-clinch stapler; saddle stapler (booklet stapler); long-reach stapler (Wikipedia
+  'Stapler'); saddle stitching or saddle-stitching (stapling through the fold of a booklet) (Wikipedia 'Bookbinding')
 - staple gun, trigger tacker, hand tacker, forward-action staple gun; electric, cordless and pneumatic staplers (Wikipedia
   'Staple gun'; Wikimedia Commons 'Tool-heavy-stapler.jpg')
 - hammer tacker, hammer stapler, slap stapler, slapper (Wikipedia 'Hammer tacker')
@@ -103,7 +105,11 @@ needs_confirming:
     kind: best guess
     reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 confirmed: []
-open_points: []
+open_points:
+- kind: content
+  note: '*Staples for wood and fabric* (373): Talas calls Monel staples stainless; Monel is not stainless steel, so the text
+    says "rust-resistant Monel staples". The entry keeps its name (renaming would change its page address); "desk stapler"
+    and the other stapler kinds are aliases.'
 uncertain_fields: [reuse_cycles, tools_needed, seal, load, materials, processes, making_tips_3d_printing, environment_limits,
   common_failures, safety_notes]
 diagram_idea: 'A cut-away of fabric folded over the edge of a wooden seat board, with a staple''s crown pressing the fabric
@@ -170,6 +176,10 @@ sources:
 - https://commons.wikimedia.org/wiki/File:HMT53_57.JPG
 - https://commons.wikimedia.org/wiki/File:U_Shape_Insulated_Staple_01.JPG
 - https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Stapler
+- https://en.wikipedia.org/wiki/Bookbinding
+- https://blog.talasonline.com/post/elevate-your-zines-pamphlet-stitch-alternative-binding-techniques
+- https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/
 research: research/connection-types/results/Staples_for_wood_and_fabric_staple_gun_hammer_tacker_cable_staple.json
 image:
   file: staples-for-wood-and-fabric.webp
@@ -226,11 +236,11 @@ A U-shaped wire fastener driven straight into wood (or a similar soft base) by a
 
 **In plain words:** A small U-shaped wire clip fired from a staple gun (or slapped in with a hammer tacker): its two legs go into the wood while the flat top bridges over fabric, mesh, plastic sheet or a cable and pins it down. **Proper term:** Staple (driven wire staple, tacking staple), fired by a staple gun (tacker) or hammer tacker.
 
-**Also called:** staple, wire staple, construction staple, tacker staple, staple-gun staple (Wikipedia 'Staple (fastener)', 'Staple gun'); tacking: driving straight-leg staples into a solid base with no anvil, as opposed to 'stapling' paper with bent legs (Wikipedia 'Staple (fastener)'); staple gun, trigger tacker, hand tacker, forward-action staple gun; electric, cordless and pneumatic staplers (Wikipedia 'Staple gun'; Wikimedia Commons 'Tool-heavy-stapler.jpg'); hammer tacker, hammer stapler, slap stapler, slapper (Wikipedia 'Hammer tacker'); narrow-crown staples (crown about 1/4 to 3/8 in, 6.35-9.52 mm) for trim, cabinetry and upholstery; medium and wide-crown staples for sheathing and roofing (aftfasteners.com 'Narrow crown staples'); upholstery staples and outward-clinch (blind) staples, whose legs curl outwards inside foam (Wikipedia 'Staple (fastener)'); insulated cable staple, cable staple, arched or rounded staple, cable clip (Wikipedia 'Staple (fastener)', 'Staple gun'); fence staple (U-shaped staple hammered over fence wire) (Bekaert 'How to properly staple high tensile wire'); hog ring, C-ring: a sharp-ended C- or D-shaped wire ring squeezed shut with hog ring pliers, used for upholstery, car seats and wire mesh (aftfasteners.com 'Hog rings'); T50 (Arrow, brand) is a widely sold staple-gun staple type that many beginners search for; staples are matched to the gun, and 'staples from one manufacturer may or may not fit another manufacturer's unit' (Wikipedia 'Staple (fastener)'); standard: ASTM F1667 'Driven Fasteners: Nails, Spikes, and Staples' in the US (Wikipedia 'Staple (fastener)').
+**Also called:** staple, wire staple, construction staple, tacker staple, staple-gun staple (Wikipedia 'Staple (fastener)', 'Staple gun'); tacking: driving straight-leg staples into a solid base with no anvil, as opposed to 'stapling' paper with bent legs (Wikipedia 'Staple (fastener)'); desk stapler, office stapler, paper stapler; flat-clinch stapler; saddle stapler (booklet stapler); long-reach stapler (Wikipedia 'Stapler'); saddle stitching or saddle-stitching (stapling through the fold of a booklet) (Wikipedia 'Bookbinding'); staple gun, trigger tacker, hand tacker, forward-action staple gun; electric, cordless and pneumatic staplers (Wikipedia 'Staple gun'; Wikimedia Commons 'Tool-heavy-stapler.jpg'); hammer tacker, hammer stapler, slap stapler, slapper (Wikipedia 'Hammer tacker'); narrow-crown staples (crown about 1/4 to 3/8 in, 6.35-9.52 mm) for trim, cabinetry and upholstery; medium and wide-crown staples for sheathing and roofing (aftfasteners.com 'Narrow crown staples'); upholstery staples and outward-clinch (blind) staples, whose legs curl outwards inside foam (Wikipedia 'Staple (fastener)'); insulated cable staple, cable staple, arched or rounded staple, cable clip (Wikipedia 'Staple (fastener)', 'Staple gun'); fence staple (U-shaped staple hammered over fence wire) (Bekaert 'How to properly staple high tensile wire'); hog ring, C-ring: a sharp-ended C- or D-shaped wire ring squeezed shut with hog ring pliers, used for upholstery, car seats and wire mesh (aftfasteners.com 'Hog rings'); T50 (Arrow, brand) is a widely sold staple-gun staple type that many beginners search for; staples are matched to the gun, and 'staples from one manufacturer may or may not fit another manufacturer's unit' (Wikipedia 'Staple (fastener)'); standard: ASTM F1667 'Driven Fasteners: Nails, Spikes, and Staples' in the US (Wikipedia 'Staple (fastener)').
 
 ## How it works
 
-The tool drives the staple's two legs into the wood in one fast blow; a hand staple gun stores energy in a spring and releases it as 'a sharp and powerful blow', because with no anvil behind the work the staple must be fully in 'before the workpiece has time to move' (Wikipedia 'Staple gun'), while a hammer tacker uses the momentum of a swing (Wikipedia 'Hammer tacker'). The legs hold like two thin nails, gripped by the wood fibres, so their withdrawal resistance grows with their size and how deep they go (USDA Wood Handbook ch. 8). The crown presses the material flat between the legs: it 'can bridge a piece and fasten it without puncturing, with a leg on either side', which is how cables are fixed, and it gives more bearing area than a nail head on thin materials (Wikipedia 'Staple (fastener)'). Outward-clinch staples have a V-shaped crown and bevelled points so the legs curl outwards inside soft material, and hog rings are squeezed into a closed ring round wire or fabric (Wikipedia 'Staple (fastener)'; aftfasteners.com).
+The tool drives the staple's two legs into the wood in one fast blow; a hand staple gun stores energy in a spring and releases it as 'a sharp and powerful blow', because with no anvil behind the work the staple must be fully in 'before the workpiece has time to move' (Wikipedia 'Staple gun'), while a hammer tacker uses the momentum of a swing (Wikipedia 'Hammer tacker'). The legs hold like two thin nails, gripped by the wood fibres, so their withdrawal resistance grows with their size and how deep they go (USDA Wood Handbook ch. 8). The crown presses the material flat between the legs: it 'can bridge a piece and fasten it without puncturing, with a leg on either side', which is how cables are fixed, and it gives more bearing area than a nail head on thin materials (Wikipedia 'Staple (fastener)'). Outward-clinch staples have a V-shaped crown and bevelled points so the legs curl outwards inside soft material, and hog rings are squeezed into a closed ring round wire or fabric (Wikipedia 'Staple (fastener)'; aftfasteners.com). A desk stapler for paper works the other way: it pushes the legs right through the stack onto a grooved metal plate (anvil) behind it, which bends them over; on the usual 'permanent' setting the legs fold inwards towards the middle of the crown, and on the 'temporary' setting they fold outwards, nearly straight, so the staple is easy to pull out (Wikipedia 'Stapler').
 
 ## Parts
 
@@ -241,11 +251,11 @@ Single piece: a staple has a flat or arched top (crown) joining two pointed legs
 - The fabric on the underside of a dining-chair seat (The Bulletin; FOX 2 Detroit)
 - Insulation, house wrap and carpet underlay fixed with a hammer tacker (Wikipedia 'Hammer tacker')
 - Phone, alarm or TV cable fixed along a skirting board with arched or insulated staples (Wikipedia 'Staple (fastener)', 'Staple gun')
-- Wire fencing stapled to wooden posts, and the big staples that close corrugated cardboard boxes (Bekaert; Wikipedia 'Staple (fastener)')
+- Wire fencing stapled to wooden posts, and the big staples that close corrugated cardboard boxes (Bekaert; Wikipedia 'Staple (fastener)'); at a desk, the staple in the corner of a stack of papers or through the fold of a magazine (Wikipedia 'Stapler', 'Bookbinding')
 
 ## When to use it
 
-Use staples whenever a thin, flexible material must be fixed flat onto wood quickly: re-covering seats and cushions, stretching canvas or insect screen over a frame, fixing chicken wire or netting to a wooden frame, holding plastic sheet, insulation, roofing felt or carpet, closing crates and boxes, and running low-voltage cables (alarm, phone, speaker, LED strip leads) along woodwork. The crown spreads the hold over a wider area than a nail head, bridges two pieces butted together, and straddles a cable without piercing it (Wikipedia 'Staple (fastener)'), and a staple gun works one-handed from the front (Wikipedia 'Staple gun').
+Use staples whenever a thin, flexible material must be fixed flat onto wood quickly: re-covering seats and cushions, stretching canvas or insect screen over a frame, fixing chicken wire or netting to a wooden frame, holding plastic sheet, insulation, roofing felt or carpet, closing crates and boxes, and running low-voltage cables (alarm, phone, speaker, LED strip leads) along woodwork. The crown spreads the hold over a wider area than a nail head, bridges two pieces butted together, and straddles a cable without piercing it (Wikipedia 'Staple (fastener)'), and a staple gun works one-handed from the front (Wikipedia 'Staple gun'). At a desk, staple a stack of papers together, or a booklet through its fold (saddle-stitching), with a desk, saddle or long-reach stapler (Wikipedia 'Stapler'; Wikipedia 'Bookbinding'); sword-point hand staplers reach awkward joints in cardboard builds (Make:).
 
 ## When not to use it
 
@@ -270,8 +280,8 @@ Not for carrying real loads or joining solid wood structurally: staples hold les
 - **How often it can be reused:** once: a removed staple is bent and thrown away; the material can be re-stapled in fresh places a few times before the wood or fabric edge is shredded ⚑ [uncertain].
 - **Sealing:** none: staples leave holes; seal or tape over them if the sheet must be weatherproof (e.g. house wrap is taped later) ⚑ [uncertain].
 - **Adjustable:** no: to move or re-tension fabric, pull the staples and re-staple (upholsterers start in the middle of each side and work outwards so tension can be evened out) (The Bulletin; FOX 2 Detroit).
-- **Access needed:** one side only (blind): staple guns and hammer tackers have no anvil and drive into a solid base from the front (Wikipedia 'Staple gun'); hog rings need the pliers to reach round both sides of the wire or fabric (aftfasteners.com).
-- **Materials:** Staples: zinc-plated (galvanised) steel wire, with stainless steel and coated staples for damp or corrosive places (Wikipedia 'Staple (fastener)'; USDA Wood Handbook ch. 8 on staple coatings); insulated cable staples have a plastic saddle (Wikimedia Commons 'U_Shape_Insulated_Staple_01.JPG'). Base material: softwood, plywood and similar; staple guns are sold for 'wood, plastic, or masonry' (Wikipedia 'Staple gun') but hand guns struggle in hardwood ⚑ [uncertain]. Holds: fabric and upholstery, leather and vinyl, insulation, house wrap, roofing felt, carpet and underlay, plastic film, insect screen, wire mesh and netting, card and thin board, and low-voltage cables (Wikipedia 'Staple gun', 'Hammer tacker'). Not for: 3D-printed plastic or brittle acrylic as the base (it cracks; see making tips), hard metals, or holding loads people rely on.
+- **Access needed:** one side only (blind): staple guns and hammer tackers have no anvil and drive into a solid base from the front (Wikipedia 'Staple gun'); hog rings need the pliers to reach round both sides of the wire or fabric (aftfasteners.com). A desk stapler is the exception: the stack has to go into its jaws so the anvil is behind the paper, which is why booklets need a long-reach or saddle stapler (Wikipedia 'Stapler').
+- **Materials:** Staples: zinc-plated (galvanised) steel wire, with stainless steel and coated staples for damp or corrosive places (Wikipedia 'Staple (fastener)'; USDA Wood Handbook ch. 8 on staple coatings); insulated cable staples have a plastic saddle (Wikimedia Commons 'U_Shape_Insulated_Staple_01.JPG'). Base material: softwood, plywood and similar; staple guns are sold for 'wood, plastic, or masonry' (Wikipedia 'Staple gun') but hand guns struggle in hardwood ⚑ [uncertain]. Holds: fabric and upholstery, leather and vinyl, insulation, house wrap, roofing felt, carpet and underlay, plastic film, insect screen, wire mesh and netting, card and thin board, and low-voltage cables; a desk stapler joins a stack of paper or thin card to itself (Wikipedia 'Staple gun', 'Hammer tacker'). Not for: 3D-printed plastic or brittle acrylic as the base (it cracks; see making tips), hard metals, or holding loads people rely on.
 - **Heat, cold, water and wear:** Plain steel staples rust outdoors and in damp places and can stain wood; use galvanised or stainless staples there (Wikipedia 'Staple (fastener)'; USDA Wood Handbook 'Corrosion and Staining'). Wood that goes through wetting and drying cycles loses much of its grip on driven fasteners: nail withdrawal can fall to 25% of its first value (USDA Wood Handbook, for nails, which staples resemble). Sunlight degrades the fabric and plastic held by the staple more than the staple itself ⚑ [uncertain]. Fence wire expands and contracts with temperature, so it is loose-stapled (Bekaert).
 
 ## Making it
@@ -291,7 +301,7 @@ Not for carrying real loads or joining solid wood structurally: staples hold les
 
 ### Buying one (off-the-shelf parts)
 
-Hand staple gun (trigger tacker, forward-action or heavy-duty), long-nose staple gun for recessed corners, cable staple gun with wire guide, electric, cordless and pneumatic staplers, upholstery stapler, hammer tacker (Wikipedia 'Staple gun', 'Hammer tacker'); staples in the gun's own type and leg lengths (typically 6, 8, 10, 12 and 14 mm for staple guns: Wikipedia 'Staple gun'), narrow, medium and wide-crown staples, outward-clinch staples, stainless or galvanised staples, insulated cable staples and nail-in plastic cable clips, fence staples, hog rings with straight or angled hog ring pliers, staple and tack removers (Wikipedia 'Staple (fastener)'; aftfasteners.com). Search supplier catalogues by staple type and the gun model rather than by size.
+Hand staple gun (trigger tacker, forward-action or heavy-duty), long-nose staple gun for recessed corners, cable staple gun with wire guide, electric, cordless and pneumatic staplers, upholstery stapler, hammer tacker (Wikipedia 'Staple gun', 'Hammer tacker'); staples in the gun's own type and leg lengths (typically 6, 8, 10, 12 and 14 mm for staple guns: Wikipedia 'Staple gun'), narrow, medium and wide-crown staples, outward-clinch staples, stainless or galvanised staples, insulated cable staples and nail-in plastic cable clips, fence staples, hog rings with straight or angled hog ring pliers, staple and tack removers (Wikipedia 'Staple (fastener)'; aftfasteners.com). Search supplier catalogues by staple type and the gun model rather than by size. For paper: desk (office) staplers, flat-clinch staplers, saddle (booklet) staplers and long-reach staplers (Wikipedia 'Stapler'); handheld 'sword-point' staplers (Bostitch and Rapid 31, brands) for hard-to-reach joints in cardboard (Make:); rust-resistant Monel staples for zines and archival paperwork (Talas).
 
 ## Rules of thumb
 
@@ -302,6 +312,7 @@ Hand staple gun (trigger tacker, forward-action or heavy-duty), long-nose staple
 - Fence wire: 'loose staple every wire' so it can move under the staple and the strainer post, not the stapled post, takes the impact (Bekaert).
 - Cables: some staple guns have wire guides and some take rounded staples so the staple straddles a small cable without piercing it (Wikipedia 'Staple gun'); flat cables must not be stapled on edge (Baltimore City Code 334.30, an adoption of the US National Electrical Code).
 - Hammer tackers suit sheet materials: 'typically the shallower the staple, the better hold its grip on the surface' (Wikipedia 'Hammer tacker').
+- Paper: set the desk stapler's anvil to 'permanent' (legs folded in) for papers that stay together and 'temporary' (legs folded out) for papers that will be separated; flat-clinch staplers press the legs flat against the paper, so the stack lies flatter and has no sharp ends (Wikipedia 'Stapler'). For booklets, staple through the fold of the nested sheets (saddle-stitching), as most magazines are (Wikipedia 'Bookbinding'). For work meant to last, ordinary staples 'can tear paper, corrode, and leave rust stains', so use rust-resistant Monel staples or sew the binding instead (Talas).
 
 ## Common failures
 
@@ -322,6 +333,9 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 - Linear [ratchet](../glossary.md#ratchet) (cable-tie ratchet): cable ties and cable-tie mounts as an alternative way to hold cables
 - Push-in plastic rivet (fir-tree clip): pushes into a hole to hold trim panels and fabric-covered boards
 - Hog ring (C-ring): a squeezed wire ring for upholstery, car seats and mesh (a variant in this entry, not a separate one)
+- Split-pin paper fastener (brass paper fastener): legs spread by hand behind paper or card, so the sheets can still turn and the fastener can be taken out
+- Folding box closures (tuck flap, lock bottom): close a card box with folded flaps instead of staples or tape
+- Sewn book bindings (pamphlet stitch): the sewn alternative to stapling a booklet through the fold, with no metal to rust
 
 ## Make it yourself
 
@@ -345,6 +359,7 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples ⚑ [uncertain]; safety glasses (Toolstation…"
 - ⚑ Finder value `cord_part` = fix to fabric or an edge (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
+- ⚑ Research note: *Staples for wood and fabric* (373): Talas calls Monel staples stainless; Monel is not stainless steel, so the text says "rust-resistant Monel staples". The entry keeps its name (renaming would change its page address); "desk stapler" and the other stapler kinds are aliases.
 
 ## Sources
 
@@ -367,3 +382,7 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 - <https://commons.wikimedia.org/wiki/File:HMT53_57.JPG>
 - <https://commons.wikimedia.org/wiki/File:U_Shape_Insulated_Staple_01.JPG>
 - <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Stapler>
+- <https://en.wikipedia.org/wiki/Bookbinding>
+- <https://blog.talasonline.com/post/elevate-your-zines-pamphlet-stitch-alternative-binding-techniques>
+- <https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/>

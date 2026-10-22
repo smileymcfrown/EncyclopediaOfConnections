@@ -99,9 +99,15 @@ needs_confirming:
     reason: '`materials` is marked [uncertain] here: "…). Slippery plastics such as polyethylene, polypropylene and silicone
       [uncertain: not tested in an opened sour…"'
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Contact adhesive* (224): spray mount being repositionable, and the outdoors and overspray advice (not in the 3M
+    data sheet).'
+- kind: sources
+  note: '*Contact adhesive* (224): the xposeddesigns.com page is about hook-and-loop on ABS cosplay armour, glued with contact
+    cement or epoxy, not webbing on foam; the text says so.'
 uncertain_fields: [aliases, removability, play_and_precision, materials, processes, making_tips_3d_printing, everyday_examples,
-  when_not_to_use, environment_limits, safety_notes, common_failures]
+  when_not_to_use, environment_limits, safety_notes]
 diagram_idea: 'Three panels: (1) both surfaces brushed with glue and solvent wisps rising off them, (2) a finger touching
   the now-dry tacky film with a tick, and a sheet resting on dowels above the board, (3) the dowels pulled out from the centre
   while a J-roller presses the sheet down, with a close-up showing the two glue films merged into one.'
@@ -168,6 +174,11 @@ sources:
 - https://www.youtube.com/watch?v=iPHEUvkJPGE
 - https://www.youtube.com/watch?v=Oqh01j7ZG_s
 - https://api.printables.com/graphql/ (models 321669, 1130696, 1065435, 236948)
+- https://cdn.shopify.com/s/files/1/0264/4272/7498/files/3M_Super_77_Adhesive_Technical_Data_Sheet.pdf
+- https://static.rapidonline.com/pdf/64-1845t_v1.pdf
+- https://www.costumary.com/blog/eva-foam-clean-builds
+- https://cosplayadvice.com/using-eva-foam-for-cosplay/
+- https://www.xposeddesigns.com/blog/how-to-attach-cosplay-armor-to-a-bodysuit-without-the-straps-showing
 research: research/connection-types/results/Contact_adhesive_contact_cement.json
 image:
   file: contact-adhesive.webp
@@ -201,7 +212,7 @@ pictures:
   alt: A yellow tube of Butapren contact adhesive with a black cap.
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, creep, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, creep, cure, open-time, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
@@ -232,11 +243,11 @@ Single piece (a one-part liquid, gel or spray); used with a brush or roller, and
 
 ## When to use it
 
-Use contact adhesive when you need to bond large flat areas that are hard to clamp, such as laminate, veneer, cork, foam or fabric onto board (thisTOthat: 'ideal when it is awkward to clamp, or when you have large surface area'; FPL); when you want an instant bond with no waiting in clamps, so the work can be trimmed straight away (DAP; 3M); and for flexible or dissimilar materials, such as leather, rubber, EVA foam, fabric and shoe soles, where a rigid glue would crack (Wikipedia; Lumin's Workshop). Choose a water-based type for foams, indoor work and less fire risk, and a solvent type for faster drying and wider material range, following each can's list (3M; DAP).
+Use contact adhesive when you need to bond large flat areas that are hard to clamp, such as laminate, veneer, cork, foam or fabric onto board (thisTOthat: 'ideal when it is awkward to clamp, or when you have large surface area'; FPL); when you want an instant bond with no waiting in clamps, so the work can be trimmed straight away (DAP; 3M); and for flexible or dissimilar materials, such as leather, rubber, EVA foam, fabric and shoe soles, where a rigid glue would crack (Wikipedia; Lumin's Workshop). Choose a water-based type for foams, indoor work and less fire risk, and a solvent type for faster drying and wider material range, following each can's list (3M; DAP). Spray adhesive (spray mount) is the spray form used for mounting paper, card, fabric and foam: 3M Super 77 gives 'temporary and permanent lightweight bonds' on papers, cardboard, fabrics and foams; spray one surface for lighter jobs, or both surfaces for a permanent bond (3M Super 77 data sheet). For EVA foam armour it gives 'the strongest foam bonds' if you wait for it to go tacky (Costumary), and solvent-based contact cement is also used to glue the hook side of hook-and-loop patches inside ABS cosplay armour for flexible attachment points (xposeddesigns).
 
 ## When not to use it
 
-Not for load-bearing or structural joints, or anything that will carry a constant load, because it [creeps](../glossary.md#creep) and is much weaker than wood glue or epoxy (FPL Table 10-1; DAP): use PVA for wood joints and epoxy or structural adhesives elsewhere. Not where you need to slide parts into position after contact: use PVA, epoxy or double-sided tape with a liner. Not on polystyrene foam with a solvent type (use a water-based contact adhesive or foam-safe glue) (DAP; 3M). Not for rigid plastic-to-plastic joints such as 3D prints: use CA, epoxy or solvent welding (Prusa). Not for small, tight-fitting joinery such as dowels or mortise and tenon, where the parts would grab before they are home ⚑ [uncertain: reasoning]. Not near sparks or flames, or in small unventilated rooms, with a solvent type: use a non-flammable water-based type (FPL; Rockler; 3M). Not for permanently wet or hot places, such as behind a stove or outdoors in full sun, without checking the rating (FPL; DAP).
+Not for load-bearing or structural joints, or anything that will carry a constant load, because it [creeps](../glossary.md#creep) and is much weaker than wood glue or epoxy (FPL Table 10-1; DAP): use PVA for wood joints and epoxy or structural adhesives elsewhere. Not where you need to slide parts into position after contact: use PVA, epoxy or double-sided tape with a liner. Not on polystyrene foam with an ordinary solvent type (use a water-based contact adhesive, a polystyrene-safe solvent type such as UHU por (brand), or another foam-safe glue) (DAP; 3M; UHU por data sheet). Not for rigid plastic-to-plastic joints such as 3D prints: use CA, epoxy or solvent welding (Prusa). Not for small, tight-fitting joinery such as dowels or mortise and tenon, where the parts would grab before they are home ⚑ [uncertain: reasoning]. Not near sparks or flames, or in small unventilated rooms, with a solvent type: use a non-flammable water-based type (FPL; Rockler; 3M). Not for permanently wet or hot places, such as behind a stove or outdoors in full sun, without checking the rating (FPL; DAP).
 
 ## Details
 
@@ -258,7 +269,7 @@ Not for load-bearing or structural joints, or anything that will carry a constan
 - **Sealing:** none: it is not a sealant. Solvent neoprene types claim resistance to heat, water and weather once cured (DAP), and 3M's water-based Fastbond 30 is approved to the ANSI/HPMA Type II water-resistance test, but the FPL rates elastomeric contact adhesives as having 'low resistance to water and damp atmospheres' (FPL Table 10-1; 3M).
 - **Adjustable:** no: parts cannot be shifted once the glue films touch (DAP; 3M). Position them first on dry spacers, then pull the spacers out one at a time (DAP; Rockler).
 - **Access needed:** not applicable: both faces are coated before assembly
-- **Materials:** Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam (the solvents in solvent types dissolve it), copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Slippery plastics such as polyethylene, polypropylene and silicone ⚑ [uncertain: not tested in an opened source; generally poor for most glues].
+- **Materials:** Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam with ordinary solvent types, whose ketone solvents (acetone, MEK in DAP's) dissolve it (DAP); polystyrene-safe solvent types exist, such as UHU por (brand), a synthetic-rubber contact adhesive whose aliphatic solvents are chosen so 'the structure of the polystyrene foam is not attacked' (UHU por data sheet), so the rule is to check the solvent, not to avoid every solvent glue; copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Slippery plastics such as polyethylene, polypropylene and silicone ⚑ [uncertain: not tested in an opened source; generally poor for most glues].
 - **Heat, cold, water and wear:** Heat: it softens as it warms; DAP rates its solvent cement for service from -40 °F to 150 °F (-40 to 66 °C), and 3M's water-based Fastbond 30-NF drops from about 480 psi overlap shear at 23 °C to 60 psi at 82 °C (180 °F) (DAP; 3M). Creep: bonds 'creep under static load' (FPL Table 10-1), and 3M's laminate static-shear results fall with time at 82 °C. Water: solvent neoprene types claim resistance to water and weather, while FPL rates elastomeric contact adhesives as having low resistance to water and damp atmospheres (DAP; FPL). Cold: apply above 65 °F (18 °C); cured 3M film is stronger in shear at -34 °C but its peel strength drops to about 8.8 N/cm (DAP; 3M). Sunlight: keep new bonds out of direct sun for 72 hours (DAP); long-term UV ageing ⚑ [uncertain: no data found]. Solvents: cleaning a bonded joint with solvent weakens it (3M). Shelf life about 12 months for DAP's solvent cement (DAP).
 
 ## Making it
@@ -293,14 +304,17 @@ Search for: 'contact cement', 'contact adhesive', 'neoprene contact adhesive', '
 - You can trim straight after bonding, but it reaches full strength in about 7 days; keep bonded work out of direct sun or above 150 °F (66 °C) for 72 hours (DAP).
 - Don't roll over a laminate edge with the J-roller, which can snap it (This Old House).
 - Don't thin water-based contact adhesive (3M).
+- Spray adhesive (3M Super 77): spraying one surface (the less porous one) gives an [open time](../glossary.md#open-time) of only 10-15 seconds and suits less demanding jobs; spraying both surfaces gives 1-30 minutes and a permanent bond; work at 16-27 °C (3M Super 77 data sheet).
+- Polystyrene-safe solvent contact glue (UHU por): coat both surfaces, about 150-250 g/m², and join 5-20 minutes later, when it passes the finger test (touch-dry) (UHU por data sheet).
+- EVA foam seams: cut both edges at 45 degrees (a bevel), which on 10 mm foam gives a natural glue channel; coat both surfaces (one side gives 'maybe 30%' of the strength), wait 3-5 minutes until tacky, and let it [cure](../glossary.md#cure) at least 30 minutes before stressing the joint (Costumary). Heat-form curves before gluing, because foam glued flat into a curve keeps springing back and pulls the seams apart over time (Costumary).
 
 ## Common failures
 
-1) Bonding too soon, while the film is still wet: 'the most common mistake', leading to weak bonds, bubbles and blisters; wait until touch-dry (thisTOthat). 2) Surfaces won't grab: glue left too long, dust on it, or too little glue; apply another coat (3M; thisTOthat). 3) Dull, starved patches on porous materials: not enough glue; apply two coats (3M; DAP). 4) Blisters or bubbles appear later: not enough rolling pressure, or air trapped; roll hard from the centre out (DAP; Rockler). 5) Sheet lands in the wrong place and can't be moved: use dowels or slip sheets (DAP; 3M). 6) Foam or plastic melts or distorts: solvent attack; use a water-based type and test first (DAP). 7) Edges lift or laminate creeps near heat or in sun, or under constant load (FPL; DAP). 8) Cracked laminate edge from rolling over the edge (This Old House). 9) Poor bond in a cold room: below 65 °F (DAP; 3M). 10) Seams on EVA foam pop open when heat-shaped after gluing ⚑ [uncertain: reported in cosplay guides seen only in search results].
+1) Bonding too soon, while the film is still wet: 'the most common mistake', leading to weak bonds, bubbles and blisters; wait until touch-dry (thisTOthat). 2) Surfaces won't grab: glue left too long, dust on it, or too little glue; apply another coat (3M; thisTOthat). 3) Dull, starved patches on porous materials: not enough glue; apply two coats (3M; DAP). 4) Blisters or bubbles appear later: not enough rolling pressure, or air trapped; roll hard from the centre out (DAP; Rockler). 5) Sheet lands in the wrong place and can't be moved: use dowels or slip sheets (DAP; 3M). 6) Foam or plastic melts or distorts: solvent attack; use a water-based type and test first (DAP). 7) Edges lift or laminate creeps near heat or in sun, or under constant load (FPL; DAP). 8) Cracked laminate edge from rolling over the edge (This Old House). 9) Poor bond in a cold room: below 65 °F (DAP; 3M). 10) Seams on EVA foam pull apart over time when flat pieces are glued into a curve or stretched while joining: heat-form the curve first, then glue (Costumary). A hot-glue backup seam is a poor idea if the piece will be heat-formed later, because hot glue 'will start to melt when you use a heatgun' (cosplayadvice.com).
 
 ## Safety
 
-Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acetate, petroleum spirits and methyl ethyl ketone with a flash point of -10 °C (14 °F), and the FPL warns that in small, unventilated spaces the solvent vapour can build up and explode if ignited. Work with doors or windows open, or wear a vapour respirator, and keep away from sparks, flames and pilot lights (Rockler; 3M; Wikipedia 'Impact glue'). The solvents are generally toxic if breathed; follow the label and SDS (FPL). Neoprene glue is abused as an inhalant, which can cause brain damage or death, and in the UK it is illegal to sell it to people likely to use it that way, so store it away from children (Wikipedia 'Impact glue'). Don't clean skin with solvents; use soap and warm water (DAP). Water-based types are non-flammable when wet and low-emitting (3M). Parts grab instantly, so keep fingers out from between large coated sheets while positioning ⚑ [uncertain: general advice].
+Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acetate, petroleum spirits and methyl ethyl ketone with a flash point of -10 °C (14 °F), and the FPL warns that in small, unventilated spaces the solvent vapour can build up and explode if ignited. Work with doors or windows open, or wear a vapour respirator, and keep away from sparks, flames and pilot lights (Rockler; 3M; Wikipedia 'Impact glue'). The solvents are generally toxic if breathed; follow the label and SDS (FPL). Neoprene glue is abused as an inhalant, which can cause brain damage or death, and in the UK it is illegal to sell it to people likely to use it that way, so store it away from children (Wikipedia 'Impact glue'). Don't clean skin with solvents; use soap and warm water (DAP). Water-based types are non-flammable when wet and low-emitting (3M). Parts grab instantly, so keep fingers out from between large coated sheets while positioning ⚑ [uncertain: general advice]. Spray adhesive: both the solvent and the propellant are flammable, and 3M Super 77 contains 534 g/L of volatile organic compounds (3M Super 77 data sheet). UHU por is highly flammable too (flash point about -5 °C; UHU por data sheet). For EVA foam work indoors, Costumary advises good ventilation and a half-face respirator with organic vapour cartridges, not a dust mask.
 
 ## Related
 
@@ -312,6 +326,7 @@ Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acet
 - Hot-melt adhesive (glue gun): also fast, but a thick, heat-sensitive bead rather than a thin film
 - Polyurethane glue: a moisture-curing glue that also bonds foam and many materials, but foams and needs clamping
 - Silicone and MS-polymer adhesive sealants: flexible and waterproof, for joints that must also seal
+- Glue stick and starch paste: the mild water-based glues for paper and card, often undone with water; for paper and card, contact adhesive is mostly met as spray mount or rubber cement
 
 ## Make it yourself
 
@@ -332,9 +347,10 @@ Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acet
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 15 sentences on this page marked [uncertain].
+- ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = TPU or flexible prints, wood, paper or card, metal, rubber, fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…). Slippery plastics such as polyethylene, polypropylene and silicone ⚑ [uncertain: not tested in an opened sour…"
 - ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), silicone (source uncertain): `materials` is marked ⚑ [uncertain] here: "…). Slippery plastics such as polyethylene, polypropylene and silicone ⚑ [uncertain: not tested in an opened sour…"
+- ⚑ Research note: *Contact adhesive* (224): spray mount being repositionable, and the outdoors and overspray advice (not in the 3M data sheet).
 
 ## Sources
 
@@ -355,3 +371,8 @@ Solvent contact cements are highly flammable: DAP's contains acetone, ethyl acet
 - <https://www.youtube.com/watch?v=iPHEUvkJPGE>
 - <https://www.youtube.com/watch?v=Oqh01j7ZG_s>
 - <https://api.printables.com/graphql/ (models 321669, 1130696, 1065435, 236948)>
+- <https://cdn.shopify.com/s/files/1/0264/4272/7498/files/3M_Super_77_Adhesive_Technical_Data_Sheet.pdf>
+- <https://static.rapidonline.com/pdf/64-1845t_v1.pdf>
+- <https://www.costumary.com/blog/eva-foam-clean-builds>
+- <https://cosplayadvice.com/using-eva-foam-for-cosplay/>
+- <https://www.xposeddesigns.com/blog/how-to-attach-cosplay-armor-to-a-bodysuit-without-the-straps-showing>

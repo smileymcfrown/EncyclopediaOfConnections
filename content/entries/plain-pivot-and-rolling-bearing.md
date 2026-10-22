@@ -349,6 +349,10 @@ Pivoting levers and arms make scissor-like pinch points ⚑ [uncertain]. Spinnin
 - Rod end and ball link, Ball-and-socket joint: pivots that also allow tilt
 - Castor: a wheel turning on an axle in a bracket, with a second, swivel bearing on top so the wheel trails behind and steers itself
 - Ball caster: a large ball carried on small bearing balls, so it rolls in every direction instead of turning about one axis
+- Split-pin paper fastener (brass paper fastener): the standard beginner pivot in paper and card, a brass pin with its legs spread behind
+- Cardboard construction screws and box rivets: smooth-shank rivets and plastic hinges give swinging pivot joints in cardboard
+- Volvelle (paper wheel chart): paper discs turning on one shared centre pivot
+- Glass door hinge: includes pivot hinges that clamp a glass door's top and bottom corners onto pins turning in the cabinet
 
 ## Make it yourself
 

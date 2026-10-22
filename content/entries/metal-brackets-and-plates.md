@@ -346,6 +346,7 @@ Connectors only reach their rated load with the fastener type, size and number t
 - Slotted adjustment with a jacking screw: slotted holes for adjustable positions
 - Clamp-on tube fittings: the equivalent for joining tubes
 - Welded metal joint: joining steel parts permanently without a separate bracket
+- Shelf pins and shelf supports: pegs in rows of holes inside a cabinet, for loose shelves that can be moved, instead of fixed brackets
 
 ## Make it yourself
 

@@ -93,7 +93,10 @@ needs_confirming:
     kind: best guess
     reason: the text uses both clicking and silent words
 confirmed: []
-open_points: []
+open_points:
+- kind: sources
+  note: '*Sprag clutch* (10): Wikipedia *Freewheel* does not cover two inputs; the two-motor point is cited from Wikipedia
+    *Sprag clutch*.'
 uncertain_fields: []
 diagram_idea: 'A cut-away ring showing three enlarged figure-eight sprags between two rings, drawn twice side by side: on
   the left the inner ring turns the free way and the sprags lean over and slide (green arrow), on the right it turns the other
@@ -224,7 +227,7 @@ A small assembly that acts as one unit. Parts: inner ring (inner race), outer ri
 
 ## When to use it
 
-Use a sprag clutch when you need a one-way drive or anti-reverse lock that grips instantly at any angle, makes no noise, and carries a lot of [torque](../glossary.md#torque) in a small space: backstops on hoists, conveyors and pumps; letting a second motor or a hand [crank](../glossary.md#crank) drive a machine without being dragged round by the main motor (overrunning); starter drives; and fine, stepless indexing from a rocking crank. It is also the best choice when a ratchet's steps would be too coarse or its clicking too loud. For hobby projects, buy a ready-made unit (such as a one-way-locking ball bearing) when a printed roller clutch is too weak.
+Use a sprag clutch when you need a one-way drive or anti-reverse lock that grips instantly at any angle, makes no noise, and carries a lot of [torque](../glossary.md#torque) in a small space: backstops on hoists, conveyors and pumps; letting a second motor or a hand [crank](../glossary.md#crank) drive a machine without being dragged round by the main motor (overrunning), so either of two inputs can drive and the idle one is not dragged round (Wikipedia 'Sprag clutch': when two or more motors drive the same machine, the overrunning clutch lets the secondary drive stay still while the main drive runs; Wikipedia 'Freewheel': in a helicopter it lets the rotor keep turning when the engine stops); starter drives; and fine, stepless indexing from a rocking crank. It is also the best choice when a ratchet's steps would be too coarse or its clicking too loud. For hobby projects, buy a ready-made unit (such as a one-way-locking ball bearing) when a printed roller clutch is too weak.
 
 ## When not to use it
 

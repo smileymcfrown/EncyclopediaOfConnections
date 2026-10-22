@@ -333,6 +333,7 @@ If a Morse taper slips under heavy torque, the tang can snap and the tool spins 
 - Quick couplers for tubes and hoses (push-to-connect): latch tubes in place for fluid connections that must not pull apart
 - Bayonet mount (push-and-twist lock) and ordinary screw joint: ways to add positive retention, like the Luer lock's thread
 - [Kinematic coupling](../glossary.md#kinematic-coupling) (balls in V-grooves): exact repeatable location without friction locking
+- Wire-bail closure (flip-top bottle, clamp-lid jar): seals a bottle by snapping a stopper onto a rubber ring over centre, where a cork or ground-glass stopper seals by a taper push fit
 
 ## Make it yourself
 

@@ -340,6 +340,9 @@ The gap on the hinge side of a door closes like scissors as the door shuts, a pi
 - Clevis joint (fork-and-pin joint): the same fork-tongue-pin idea used as a single strong pivot
 - Plain pivot and rolling bearing: the general pin-in-hole or ball-bearing way to make parts turn
 - Lid and flap stays: added to a hinged lid to hold it open
+- Loose-leaf bindings (ring binder, spiral, comb, wire and disc binding): punched pages turn on rings or a coil, a hinge for paper
+- Slot-in model hinge (CA hinge, pinned hinge point): small hinges pushed into slits or holes along a model plane's wing and flap and glued in, giving a hidden pivot
+- Glass door hinge: holds a glass or acrylic door by clamping it or through a drilled hole, since you can't screw into glass
 
 ## Make it yourself
 

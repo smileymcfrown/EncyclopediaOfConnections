@@ -325,6 +325,7 @@ Check for hidden cables and pipes before drilling: 'A common error is accidental
 - Stretch-release adhesive strips and double-sided foam tape: no-drill alternatives for light items on smooth walls
 - Two-part epoxy and epoxy putty: related resins; chemical anchors are a purpose-made version for holes in masonry
 - Heat-set threaded insert: the way to put a strong thread into a 3D print, not a wall
+- Panel standoff (sign standoff): a decorative barrel-and-cap fixing that holds a drilled sign or glass panel off the wall; its barrel is screwed to the wall through a wall plug
 
 ## Make it yourself
 

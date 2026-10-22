@@ -181,6 +181,7 @@ sources:
 - https://www.youtube.com/watch?v=wmHhg8WvFT4
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
+- https://www.hardwaresource.com/products/blum-glass-door-hinge
 research: research/connection-types/results/Clipon_concealed_hinge_cup_hinge.json
 image:
   file: clip-on-concealed-hinge.webp
@@ -295,7 +296,7 @@ Avoid them on thin doors or lids that can't take a 13 mm deep, 35 mm hole (use a
 - **Sealing:** none
 - **Adjustable:** yes: side adjustment (front screw, about ±2 mm), height adjustment (cam on the mounting plate, about ±2 mm) and depth adjustment (rear cam screw, +3 mm/-2 mm) on Blum CLIP top (Blum H002). Blum's depth cam gives 5 mm of travel in 1¾ turns without loosening a fixing screw, and its side screw gives 4 mm with a stop so it can't be screwed out (Blum spec sheet). Face-frame cup hinges often adjust only sideways and up/down (Woodcraft).
 - **Access needed:** one side only (blind): the cup and the mounting plate both screw on from the inside of the door and cabinet, and nothing goes through to the front face
-- **Materials:** Commercial hinges: steel (usually nickel-plated) arms and plates, with metal or plastic cups; aluminium and glass-door versions exist (Blum lists aluminium-frame and glass-door hinges) ⚑ [uncertain] (on exact metals). They fit wood, plywood, MDF and particleboard doors; in MDF and particleboard use versions with pre-fitted plastic dowels or inserts, because ordinary screws hold poorly there (Woodcraft; Blum spec sheet). 26 mm cup versions exist for glass doors and small doors (German Wikipedia 'Scharnier').
+- **Materials:** Commercial hinges: steel (usually nickel-plated) arms and plates, with metal or plastic cups; aluminium and glass-door versions exist (Blum lists aluminium-frame and glass-door hinges) ⚑ [uncertain] (on exact metals). They fit wood, plywood, MDF and particleboard doors; in MDF and particleboard use versions with pre-fitted plastic dowels or inserts, because ordinary screws hold poorly there (Woodcraft; Blum spec sheet). 26 mm cup versions exist for glass doors and small doors (German Wikipedia 'Scharnier'). The glass-door version (e.g. Blum's) needs a 26 mm hole bored in the glass for each hinge, takes glass 4.5-7 mm thick, and is held on by a cover cap screwed to the hinge from the other face; every part that touches the glass is plastic (HardwareSource). See Glass door hinge.
 - **Heat, cold, water and wear:** Designed for indoor use (Blum spec sheet). Soft-close dampers slow down in the cold and speed up in the heat; Blum quotes 65-85 °F (about 18-29 °C) for best action, with no damage outside that range (Blum spec sheet). Screws in MDF and particleboard lose grip as the board swells in damp conditions or is re-screwed ⚑ [uncertain] (for humidity; Woodcraft for re-screwing). Printed mounts or doors in PLA soften at warm temperatures and [creep](../glossary.md#creep) under the door's constant weight; use PETG or ASA if printing parts that carry a door ⚑ [uncertain].
 
 ## Making it
@@ -350,6 +351,7 @@ Pinch point between door and cabinet edge as the spring pulls the door shut; kee
 - Virtual-pivot linkage (remote centre of motion): the idea behind the cup hinge's moving pivot, where the door turns about a point with no pin
 - Lift-off hinges and knock-down fittings: other ways to make doors or panels removable, but with tools or with visible hardware
 - Print-in-place hinge: a printed alternative for small printed boxes and lids
+- Glass door hinge (clamp-on, drilled cup and pivot hinges for glass): the glass-door versions, including a cup hinge that passes through a 26 mm hole in the glass and is held by a plastic cover cap
 
 ## Make it yourself
 
@@ -394,3 +396,4 @@ Pinch point between door and cabinet edge as the spring pulls the door shut; kee
 - <https://www.youtube.com/watch?v=wmHhg8WvFT4>
 - <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
 - <https://api.printables.com/graphql/>
+- <https://www.hardwaresource.com/products/blum-glass-door-hinge>

@@ -348,6 +348,7 @@ Never trust a home-made knot, crimp or printed anchor to hold a person. 'Handle 
 - Cable gland and strain relief: the electrical version of anchoring a cable where it enters a part
 - Elastic band and elastic cord springs, and shock-corded sectional poles: elastic cord anchored by knots behind holes
 - Eyelets and grommets: reinforce a hole in fabric or sheet so a knot or cord doesn't tear through
+- Push-fit rod and spar fittings: kite nocks and end caps on rod ends, whose slots catch a line or bungee that is tied off with a stopper knot
 
 ## Make it yourself
 

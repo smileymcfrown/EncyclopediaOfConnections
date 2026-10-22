@@ -309,6 +309,8 @@ If a frame will hold people (railings, guardrails, climbing or gym rigs) or over
 - Ordinary screw joint (bolt and nut): drilling through tubes and bolting them gives a positive joint but weakens the tube and can't be slid
 - Clamp-on accessory mount for bars, poles and edges: split bar clamps, U-bolts, pipe clamps and camera-rod clamps that grip a tube from outside to fix one accessory to it; the better choice on thin-wall tube
 - Strut hub: joins three or more straight struts at fixed compound angles in one node, for domes and space frames rather than right-angle pipe frames
+- Bonded tube joint (lugged or sleeved tube joint): tubes glued into sockets or sleeves instead of locked with set screws; the usual choice for carbon tube, which set screws can crush
+- Push-fit rod and spar fittings (kite fittings): small tee, cross and ferrule sockets held by a snug fit, for light rod frames such as kites
 
 ## Make it yourself
 

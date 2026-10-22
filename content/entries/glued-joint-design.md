@@ -43,7 +43,7 @@ finder:
   overload_response: not applicable
   clicks: not applicable
   glue_traits: [strongest]
-  bonds_well: [wood]
+  bonds_well: [wood, foam]
   bonds_poorly: [PLA, PETG, ABS or ASA, slippery plastics (PE or PP), silicone, metal]
   tools: [press or vice, power tools, hand tools]
   load_max: heavy
@@ -97,7 +97,10 @@ finder:
       or composites]
 needs_confirming: {}
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Glued joint design* (270): that the bevelled EVA seam hides the seam line, and its 45° angle (Costumary says only
+    that the bevel makes a glue channel; foodandcosplay''s 45° is for folded edges).'
 uncertain_fields: [making_tips_3d_printing]
 diagram_idea: 'Four small side-view panels of the same glued strip being loaded: shear (arrows along the joint, glue stress
   shown evenly spread with small peaks at the ends), tension across a butt joint, cleavage (rigid parts levered open at one
@@ -182,6 +185,10 @@ sources:
 - https://www.youtube.com/watch?v=n0LNrwTk9MQ (verified via YouTube oEmbed)
 - https://www.youtube.com/watch?v=3_9HR64bVus (verified via YouTube oEmbed)
 - https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)
+- https://www.costumary.com/blog/eva-foam-clean-builds
+- https://www.epoxyworks.com/common-errors-in-fiberglass-laminate-repair/
+- https://www.westsystem.com/determining-laminate-thickness/
+- https://duckworksmagazine.com/05/articles/s-and-g/index.htm
 research: research/connection-types/results/Glued_joint_design_butt_lap_and_scarf_joints_peel_vs_shear.json
 image:
   file: drawn/glued-joint-design.svg
@@ -205,8 +212,8 @@ pictures:
   alt: A guitar headstock glued onto the neck with a long sloping scarf joint, held under clamps while the glue sets.
   kind: how-it-works
   drawn: false
-glossary: [stiffness, clearance, form-fit--force-fit--material-bond, spline, taper, repeatability--accuracy, creep, fatigue,
-  stress-concentration, end-grain, cure, pot-life--working-time, primer, peel-vs-shear, scarf-joint]
+glossary: [stiffness, clearance, form-fit--force-fit--material-bond, spline, taper, chamfer--fillet, repeatability--accuracy,
+  creep, fatigue, stress-concentration, end-grain, cure, pot-life--working-time, primer, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -234,6 +241,7 @@ A few parts: the two pieces being joined, a layer of glue, and sometimes an extr
 - finger-jointed and scarf-jointed timber and plywood, made by gluing long slanted ends together (Wood Handbook)
 - car windscreens and body parts, which are bonded to the car body with adhesives (Wikipedia 'Adhesive bonding')
 - a large 3D print split into pieces and glued back together, ideally with pegs and overlapping joints (Prusa; Printpool)
+- plywood boat panels joined end to end with a glued plywood butt block (a strap joint) on one side and glass cloth on the other, as in stitch-and-glue boats (Duckworks stitch-and-glue skiff)
 
 ## When to use it
 
@@ -263,7 +271,7 @@ Don't design a glued joint that will be peeled, levered open, or bent across a b
 - **Sealing:** none by design; a continuous, gap-free glue line with a water-resistant glue can also seal the joint (sealing is listed as a side benefit of bonding in Wikipedia 'Adhesive bonding'), but spot-glued joints do not seal
 - **Adjustable:** no: position is fixed once the glue sets; only during the glue's [working time](../glossary.md#pot-life--working-time) (seconds for superglue, minutes to hours for epoxy and wood glue) can the parts be moved (Prusa)
 - **Access needed:** not applicable: glue goes on the mating faces before the parts are put together; clamping usually needs access to both sides of the joint
-- **Materials:** Applies to any glue and material. Wood: long grain to long grain (edge-grain joints) bonds almost as strong as the wood, end grain soaks up glue and bonds poorly (Wood Handbook). Plastics and 3D prints (PLA, PETG, ABS/ASA, resin): usually stiffer glues (epoxy, superglue) on rigid parts; plastics are more flexible than metals, so flexible adhesives are generally recommended and joints should be designed against peel (Loctite manual 5.1.6; Henkel). Metals and composites: joggle, tapered, double-lap, strap and scarf joints (3M; Loctite manual). Hard-to-bond plastics such as PE, PP and silicone need special adhesives regardless of joint shape (see the adhesive entries).
+- **Materials:** Applies to any glue and material. EVA foam (cosplay armour): the edges are cut at a bevel (an angle) before gluing with contact cement, so the pieces meet in a curve instead of a hard corner; on 10 mm foam the bevel 'creates a natural glue channel that strengthens the joint' (Costumary). Wood: long grain to long grain (edge-grain joints) bonds almost as strong as the wood, end grain soaks up glue and bonds poorly (Wood Handbook). Plastics and 3D prints (PLA, PETG, ABS/ASA, resin): usually stiffer glues (epoxy, superglue) on rigid parts; plastics are more flexible than metals, so flexible adhesives are generally recommended and joints should be designed against peel (Loctite manual 5.1.6; Henkel). Metals and composites: joggle, tapered, double-lap, strap and scarf joints (3M; Loctite manual). Hard-to-bond plastics such as PE, PP and silicone need special adhesives regardless of joint shape (see the adhesive entries).
 - **Heat, cold, water and wear:** Heat: adhesive strength and [stiffness](../glossary.md#stiffness) change with temperature; in Sika's example an epoxy kept only 58% of its room-temperature strength at 70 °C, and service temperatures from -20 °C to 80 °C can shift strength well away from datasheet values (Sika). Water and ageing: temperature, humidity, chemicals, radiation and mechanical stress all age bonds (Wikipedia 'Adhesive bonding'); in Sika's test three months under water kept 94% of the strength. Wood movement: wood swells far more across the grain than along it, so end-to-edge-grain joints build up large internal stresses as moisture changes and should be protected from changes in moisture content (Wood Handbook). [Fatigue](../glossary.md#fatigue): repeated loading greatly lowers the usable strength (Sika: to 39% for two million cycles). Creep: some adhesives slowly creep under constant load (Wikipedia 'Adhesive bonding'). Differential expansion between different materials stresses the glue line; flexible adhesives cope better (Wikipedia 'Adhesive bonding'; Loctite manual).
 
 ## Making it
@@ -298,6 +306,7 @@ Adhesives (two-part epoxy, cyanoacrylate with activator and debonder, PVA wood g
 - A single lap joint bends under load; reduce the end stress peaks with tapered (bevelled) ends, a joggle that brings the loads into line, a double lap or a double strap; use a scarf or stepped lap to make the stress even (Sika sections 2.3-2.4; 3M bulletin; Loctite manual 5.1.3.11-5.1.3.13, https://www.loctitex.com/en/manuals/bonding/5.1.3.11-joggle-lap-joint/). For thin plastic parts the double strap is one of the most effective joints, with straps of similar material and thickness (Loctite manual 5.1.6, https://www.loctitex.com/en/manuals/bonding/5.1.6-joints-with-plastic-and-elastomeric-substrates/).
 - Avoid butt joints on rods and tubes; use a sleeve, socket or overlapping (slip) joint that adds bonded area and bending strength (Loctite manual 5.1.5, https://www.loctitex.com/en/manuals/bonding/5.1.5-cylindrical-substrates/; 3M bulletin).
 - The standard lap-shear test mostly fails by peel at the ends of the overlap, and above a minimum overlap its length makes no difference to the breaking force (Steven Abbott, Practical Adhesion Science, https://www.stevenabbott.co.uk/practical-adhesion/g-rlap.php).
+- Repairing a fibreglass or other laminate (scarf repair): grind the edge of the damaged area to a long slant of at least 12:1 (scarf length to laminate thickness), give the repair a rounded outline with no sharp corners, where stress concentrates, and build the patch up to the same thickness as the original laminate so it is just as stiff and doesn't crack round the edge; on a cored (sandwich) panel the 12:1 slope applies to both skins (Epoxyworks 'Common errors in fiberglass laminate repair'; West System 'Determining laminate thickness').
 
 ## Common failures
 
@@ -317,6 +326,12 @@ Glue and solvent fumes: some adhesives, cleaning solvents and [primers](../gloss
 - Solvent welding (solvent cement): melts plastic faces together; the same shear-not-peel rules apply
 - Double-sided foam tape: a pressure-sensitive adhesive that is very sensitive to peel; the same design rules apply
 - Clinching and rivets: mechanical joints often combined with glue in hybrid joints to stop peel at the edges
+- Glued tab joint: the paper-and-card lap joint, a folded flap glued behind the next part
+- Glue stick and starch paste: mild water-based glues for paper and card joints
+- V-groove fold: a one-piece mitred corner, grooved and folded and then glued, instead of two bevelled pieces
+- Score-and-slip join: soft clay joined with slip, so the clay itself grows together instead of a glue line
+- Bonded tube joint: sockets, sleeves and lugs that apply the 'no butt joints on tubes' rule to glued tubes
+- Fillet-and-tape joint: panels joined edge to edge by an epoxy [fillet](../glossary.md#chamfer--fillet) and glass tape, the strap idea applied to boat and box seams
 
 ## Make it yourself
 
@@ -338,6 +353,7 @@ Glue and solvent fumes: some adhesives, cleaning solvents and [primers](../gloss
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
+- ⚑ Research note: *Glued joint design* (270): that the bevelled EVA seam hides the seam line, and its 45° angle (Costumary says only that the bevel makes a glue channel; foodandcosplay's 45° is for folded edges).
 
 ## Sources
 
@@ -373,3 +389,7 @@ Glue and solvent fumes: some adhesives, cleaning solvents and [primers](../gloss
 - <https://www.youtube.com/watch?v=n0LNrwTk9MQ (verified via YouTube oEmbed)>
 - <https://www.youtube.com/watch?v=3_9HR64bVus (verified via YouTube oEmbed)>
 - <https://api.printables.com/graphql/ (Printables models 236948, 327466, 30133, 32037 and 1352973 read via the public API)>
+- <https://www.costumary.com/blog/eva-foam-clean-builds>
+- <https://www.epoxyworks.com/common-errors-in-fiberglass-laminate-repair/>
+- <https://www.westsystem.com/determining-laminate-thickness/>
+- <https://duckworksmagazine.com/05/articles/s-and-g/index.htm>

@@ -102,6 +102,9 @@ open_points:
     *Cam and follower*. In the update pass, *Aluminium-extrusion connectors* (113) and *Spring-steel push-on fasteners* (173)
     gained a Commons photo of their new variant (strut-channel spring nut, CC BY-SA 4.0; cage nut, CC BY-SA 3.0); one weaker
     link in each was moved to `sources` only, to stay at five.'
+- kind: sources
+  note: '*Cam and follower* (84): the UT Austin wiki page was read through its REST API; it says the offset cams "mimic rolling
+    water".'
 uncertain_fields: [motion, input_output, power, adjustable, play_and_precision, processes, making_tips_3d_printing, off_the_shelf_parts,
   safety_notes, make_it_yourself]
 diagram_idea: Side-by-side sketches of the three types (a plate cam pushing a follower up at right angles to its shaft, a
@@ -217,6 +220,8 @@ sources:
 - https://www.mikesreelrepair.com/blog/the-levelwind-system-in-baitcasting-reels-a-detailed-technical-examination/
 - https://sketchfab.com/3d-models/level-wind-mechanism-baitcasting-fishing-reel-0d4a3f6123eb409a9ce6391ddcd72048
 - https://help.prusa3d.com/article/pla_2062
+- https://cloud.wikis.utexas.edu/wiki/spaces/RMD/pages/51063223/Introduction+Background+-+WG (read through the wiki's REST
+  API, https://cloud.wikis.utexas.edu/wiki/rest/api/content/51063223?expand=body.view)
 research: research/connection-types/results/Cam_and_follower_plate_barrel_and_face_cams.json
 image:
   file: cam-and-follower.webp
@@ -296,7 +301,7 @@ A few parts: the cam (a shaped disc, a drum with a groove or ridge, or a disc wi
 
 ## When to use it
 
-Use a cam when one steady rotation must produce a specific back-and-forth pattern: lift, wait, drop; several motions timed together from one shaft (a camshaft); a sudden drop or strike once per turn (snail cam); an even to-and-fro traverse (heart cam or barrel cam for winding line or wire evenly); or a lever that locks something by turning (cam lock). Cams are ideal for automata, toys, timers, pumps, stamping and sorting mechanisms, and anywhere a cheap cam can replace an extra motor or [actuator](../glossary.md#actuator) (Hackaday on Teaching Tech's guide).
+Use a cam when one steady rotation must produce a specific back-and-forth pattern: lift, wait, drop; several motions timed together from one shaft (a camshaft); a sudden drop or strike once per turn (snail cam); an even to-and-fro traverse (heart cam or barrel cam for winding line or wire evenly); or a lever that locks something by turning (cam lock). Cams are ideal for automata, toys, timers, pumps, stamping and sorting mechanisms, and anywhere a cheap cam can replace an extra motor or [actuator](../glossary.md#actuator) (Hackaday on Teaching Tech's guide). Several identical cams on one shaft, each turned a little further round than the last (a phased camshaft), lift a row of followers one after another so they ripple like rolling water, as in wave machines and automata; one student wave generator used a 20° step between cams (UT Austin Robot Mechanism Design wiki, 'Lady Bird Lake Wave Generator').
 
 ## When not to use it
 
@@ -452,3 +457,4 @@ The gap between a turning cam and its follower is a pinch point, and snail cams 
 - <https://www.mikesreelrepair.com/blog/the-levelwind-system-in-baitcasting-reels-a-detailed-technical-examination/>
 - <https://sketchfab.com/3d-models/level-wind-mechanism-baitcasting-fishing-reel-0d4a3f6123eb409a9ce6391ddcd72048>
 - <https://help.prusa3d.com/article/pla_2062>
+- <https://cloud.wikis.utexas.edu/wiki/spaces/RMD/pages/51063223/Introduction+Background+-+WG (read through the wiki's REST API, https://cloud.wikis.utexas.edu/wiki/rest/api/content/51063223?expand=body.view)>

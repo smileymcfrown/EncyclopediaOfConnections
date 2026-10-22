@@ -294,6 +294,7 @@ When trimming rivet posts with cutters, 'Place your hand over the pliers to stop
 - Heat staking (melted plastic rivet): a rivet formed from a printed plastic post
 - Push-in plastic rivet (fir-tree clip, push rivet): a tool-free plastic rivet for panels
 - Basic strap and garment closures (prong buckle, button, toggle and loop): buckles that are often fixed to the strap with rivets
+- Split-pin paper fastener (brass paper fastener): the paper and card cousin of the split rivet; its legs are spread by hand, so it can pivot and be taken out
 
 ## Make it yourself
 

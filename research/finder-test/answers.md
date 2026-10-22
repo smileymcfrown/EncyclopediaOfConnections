@@ -220,7 +220,7 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 | Slippery plastics (polyethylene, polypropylene, silicone) | 7 | a polypropylene storage box, a polyethylene bottle, a silicone mat |  |
 | Wood, paper or card | 14 | a wooden frame, a cardboard model |  |
 | Metal or glass | 16 | a glass shelf bracket, a magnet onto steel |  |
-| Rubber, fabric, leather or foam | 14 | a shoe sole, foam padding in a case, a leather patch |  |
+| Rubber, fabric, leather or foam | 16 | a shoe sole, foam padding in a case, a leather patch |  |
 | Two different materials (e.g. a print onto wood) | 22 | a PLA part glued to a wooden base, a rubber foot glued to a metal leg | On the next screen, tick every material. Only glues listed as bonding well to all of them stay on the list. |
 
 ##### What matters most?
@@ -258,9 +258,9 @@ without a line-by-line review (R25). Corrections are welcome (`research/needs-co
 
 | Answer | Entries | Example | Explanation |
 |---|---|---|---|
-| Strongest bond | 6 | a leather strap repair, rubber feet on a tool |  |
+| Strongest bond | 8 | a leather strap repair, rubber feet on a tool |  |
 | Stays flexible, or seals too | 5 | a shoe sole that flexes, a foam seal, a fabric patch that bends |  |
-| Fills gaps, or builds up a shape | 3 | rebuilding a worn shoe heel, moulding a custom grip |  |
+| Fills gaps, or builds up a shape | 4 | rebuilding a worn shoe heel, moulding a custom grip |  |
 | Can be undone later | 4 | a temporary foam insert, a removable patch |  |
 
 #### Where can you reach?

@@ -530,3 +530,16 @@ File: `results/Brazed_joint_brazing_silver_soldering_hard_soldering.json`
 ### 410 Score-and-fold hinge (scored crease, creasing, card hinge)
 File: `results/Scoreandfold_hinge_scored_crease_creasing_card_hinge.json`
 - (scope-search-2026-10-22-pop-ups.md, section 4) Check that lift-the-flap is covered (Warwick lesson 3: a door cut on three sides, a folded piece glued on, or a folded piece slotted through) and harlequinade (turn-up) flaps and the gatefold (popuplady glossary); add what is missing.
+
+## Outcome (2026-10-22)
+
+All six groups are done, and all 116 changed files validate. 36 entries gained sourced content,
+and each of those now has a matching "Also covers" sentence in its `outline.yaml` notes; the rest
+got cross-links only. Three entries were left unchanged because their only cross-link would not
+help a reader (40, 338, 393). What the agents corrected, left out, marked [uncertain] or found in
+conflict is in `review-notes.md`, section "Update pass on researched entries (Phase 5,
+2026-10-22)". Main corrections:
+- *Syringe hydraulics* (300): outputs on one line move together only when each meets the same
+  resistance; how to keep cylinders in step.
+- *Contact adhesive* (224): polystyrene-safe solvent contact glues exist.
+- *Tab-and-slot joint* (239): a sourced folding-carton example replaces an [uncertain] one.

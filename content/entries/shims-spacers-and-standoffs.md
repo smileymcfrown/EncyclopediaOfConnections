@@ -167,6 +167,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Three_types_of_standoffs.jpg
 - https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png
 - https://api.printables.com/graphql/
+- https://www.4over4.com/guide/what-is-a-standoff-screw-how-standoff-signage-works
 research: research/connection-types/results/Shims_spacers_and_standoffs_packing_spacer_washer.json
 image:
   file: shims-spacers-and-standoffs.webp
@@ -237,7 +238,7 @@ Whenever something is slightly too low, too loose, not level or out of line and 
 
 ## When not to use it
 
-When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge ([Self-locking](../glossary.md#self-locking) wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, [kinematic coupling](../glossary.md#kinematic-coupling), exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block.
+When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge ([Self-locking](../glossary.md#self-locking) wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, [kinematic coupling](../glossary.md#kinematic-coupling), exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block. For a sign or glass panel held off a wall with a decorative cap on the front, use a panel standoff (sign standoff), a different part from a circuit-board standoff (4over4).
 
 ## Details
 
@@ -314,6 +315,8 @@ Thin metal shims and cut shim stock have sharp edges and corners: handle with gl
 - Gasket (flat, cord-in-groove or cast-in-place): looks like a washer or shim but is made to seal
 - Heat-set threaded insert: gives a 3D-printed part metal threads for standoff screws
 - Exact-constraint mounting (3-2-1 locating) and Locating pins and hole-and-slot: locate parts exactly by design rather than by shimming
+- Compression limiter (crush tube): a metal sleeve in a bolt hole that takes the clamping force so a soft or printed part isn't crushed; it protects the part rather than setting a gap
+- Panel standoff (sign standoff): a threaded barrel and screw-on cap that clamp a drilled acrylic, glass or metal sign a set distance off a wall; 'A spacer and a standoff are not the same part, and the difference is the thread' (4over4)
 
 ## Make it yourself
 
@@ -357,3 +360,4 @@ Thin metal shims and cut shim stock have sharp edges and corners: handle with gl
 - <https://commons.wikimedia.org/wiki/File:Three_types_of_standoffs.jpg>
 - <https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png>
 - <https://api.printables.com/graphql/>
+- <https://www.4over4.com/guide/what-is-a-standoff-screw-how-standoff-signage-works>

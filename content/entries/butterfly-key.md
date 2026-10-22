@@ -301,6 +301,7 @@ Cutting small keys is risky: the table-saw method is 'expert-level (a.k.a. dange
 - Tab-and-slot joint: sheet parts held by tabs through slots, for joints at an angle rather than edge to edge
 - Dowel and biscuit joints: hidden alignment pieces in edge joints, with no visible key
 - Mortise and tenon with a separate loose tenon: another separate insert joining two parts
+- Jigsaw puzzle-edge joint (puzzle joint): knobs and sockets cut along the panel edges themselves lock two panels side by side, with no separate key
 
 ## Make it yourself
 

@@ -311,6 +311,10 @@ A flat screwdriver 'can slip more easily on smooth metal surfaces', scratching t
 - Knock-down cam-lock and cross-dowel connectors: furniture fasteners in the same family as sex bolts and barrel nuts
 - Blind threaded fixings (rivet nut, well nut): a thread fitted from one side only
 - Binding post and banana plug: an electrical connector that shares the name 'binding post'
+- Split-pin paper fastener (brass paper fastener): the cheap, tool-free pivot for paper and card; a Chicago screw is the stronger, reusable upgrade
+- Cardboard screws and rivets: plastic screws and snap-together rivets made for corrugated cardboard, reusable like a Chicago screw
+- Sewn book bindings: sewing binds pages for good, while screw-post binding lets you undo it to add pages
+- Loose-leaf bindings (ring binder, comb, wire and disc binding): other punch-and-bind systems for loose sheets, whose pages turn more freely than on a screw post
 
 ## Make it yourself
 

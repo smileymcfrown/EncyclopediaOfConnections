@@ -88,9 +88,12 @@ finder:
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam]
 needs_confirming: {}
 confirmed: []
-open_points: []
-uncertain_fields: [reuse_cycles, adjustable, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes,
-  make_it_yourself]
+open_points:
+- kind: content
+  note: '*Tab-and-slot joint* (239): "cut the slots so the flutes run across the joint" is marked [uncertain]: no opened source
+    tests slotted card (Makedo covers overlapped panels and folds only).'
+uncertain_fields: [reuse_cycles, adjustable, making_tips_3d_printing, environment_limits, safety_notes, make_it_yourself,
+  rules_of_thumb]
 diagram_idea: 'An exploded view of two plywood panels meeting in a T, one with three rectangular tabs on its edge and the
   other with three matching slots, then the assembled joint, with callouts for clearance per side, tab length equal to sheet
   thickness, rounded or dog-bone slot corners, and small insets showing the ways to lock it: glue, a key through the tab,
@@ -159,6 +162,9 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youtube.com/watch?v=53Q4ct6bQeY
 - https://www.youtube.com/watch?v=DHcrX_ZnByA
+- https://en.wikipedia.org/wiki/Corrugated_fiberboard
+- https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches
+- https://en.wikipedia.org/wiki/Folding_carton
 research: research/connection-types/results/Tabandslot_joint_selffixturing_sheet_joint.json
 image:
   file: tab-and-slot-joint.webp
@@ -184,8 +190,8 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
-glossary: [misalignment, clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet, repeatability--accuracy,
-  fatigue, brittle--ductile, stress-concentration, elephants-foot, warping--shrinkage, kerf]
+glossary: [misalignment, stiffness, clearance, tolerance, form-fit--force-fit--material-bond, captive-nut, chamfer--fillet,
+  repeatability--accuracy, fatigue, brittle--ductile, stress-concentration, elephants-foot, warping--shrinkage, kerf, flute]
 ---
 
 <div class="eoc-pictures">
@@ -211,7 +217,7 @@ A few features rather than parts: one or more tabs (tongues) on the edge of one 
 - Laser-cut acrylic or plywood project boxes, where the side walls' tabs poke through slots in the top and bottom (Wikimedia Commons 'ADBO - Project Box for Arduino (laser cut)')
 - Flat-pack sheet-metal kits and brackets that slot together before welding, such as weld-it-yourself kits (SendCutSend) and a slot-together steel desk (Mentored Engineer)
 - A laser-cut kitchen utensil holder and structural steel frames with interlocking tabs (Engineers Rule)
-- Cardboard boxes and packaging whose flaps tuck into slots ⚑ [uncertain]
+- Card cartons closed by a tuck flap and locking tab (tongue) (Wikipedia 'Folding carton'); see Folding box closures for tuck, slit-lock and lock-bottom boxes
 
 ## When to use it
 
@@ -278,6 +284,7 @@ Usually none: the joint is cut into the parts. Helpers: square nuts and machine 
 - Laser [kerf](../glossary.md#kerf) is nominally about 0.007 inch; for a press fit, tab = slot + 2 x kerf + 2 x overlap, with an overlap of about 0.001-0.002 inch for stiff acrylic and 0.002-0.004 inch for MDF; always measure your sheet and test-cut (UPenn MEAM.Design 'Laser Cutting - Notes on Press Fits').
 - In Boxes.py the 'burn' setting is half the laser cut width; bigger values give a tighter fit; wood can be cut oversized to press-fit without glue, brittle acrylic undersized to leave room for glue; adjust in steps of about 0.01 mm (Boxes.py user manual).
 - Run slots parallel to the direction of stress; in one FEA example turning the slot across the load doubled the peak stress (about 5 ksi to over 10 ksi); give slot corners a radius of at least 1/8 of the slot width and lengthen the slot by twice that radius so the tab still seats; a full-radius slot is strongest but least accurate, a dog-bone slot most accurate but with the biggest [stress concentration](../glossary.md#stress-concentration) (Mentored Engineer 'Proper Tab and Slot Design').
+- Corrugated card is much stiffer one way than the other: its properties are "highly directional", and edge crush strength and bending [stiffness](../glossary.md#stiffness) depend on which way the [flutes](../glossary.md#flute) run (Wikipedia 'Corrugated fiberboard'). Makedo finds overlapped panels stronger "when the cardboard flutes are in different directions" and folds "across (perpendicular to) the flutes for strong, structural corners" (Makedo connections and joints guide). Where you can, cut the tabs and slots so the flutes run across the joint ⚑ [uncertain: advice from the gap search; no test of slotted card joints found].
 
 ## Common failures
 
@@ -298,6 +305,8 @@ Laser-cut and plasma-cut metal edges and burrs are sharp; round the outsides of 
 - Crush ribs and spring-fit features: small ribs or nodes that make a press fit forgiving
 - Locating pins and hole-and-slot: locate parts precisely with pins instead of tabs
 - Clinching and blind rivets: other ways to join sheet metal without welding
+- Glued tab joint (glue tab, glue flap): the papercraft tab, folded on a score and glued behind the next part's edge instead of pushed through a slot
+- Folding box closures (tuck flap, slit lock, snap-lock and crash-lock bottoms): card box flaps and tabs that tuck or lock into place, covered in full there
 
 ## Make it yourself
 
@@ -318,6 +327,7 @@ Laser-cut and plasma-cut metal edges and burrs are sharp; round the outsides of 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 13 sentences on this page marked [uncertain].
+- ⚑ Research note: *Tab-and-slot joint* (239): "cut the slots so the flutes run across the joint" is marked [uncertain]: no opened source tests slotted card (Makedo covers overlapped panels and folds only).
 
 ## Sources
 
@@ -342,3 +352,6 @@ Laser-cut and plasma-cut metal edges and burrs are sharp; round the outsides of 
 - <https://api.printables.com/graphql/>
 - <https://www.youtube.com/watch?v=53Q4ct6bQeY>
 - <https://www.youtube.com/watch?v=DHcrX_ZnByA>
+- <https://en.wikipedia.org/wiki/Corrugated_fiberboard>
+- <https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches>
+- <https://en.wikipedia.org/wiki/Folding_carton>

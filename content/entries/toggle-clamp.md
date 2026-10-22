@@ -364,6 +364,7 @@ Pinch points: keep fingers out of the linkage and from under the spindle while c
 - Locking pliers: a hand-held squeeze-action toggle clamp with a screw to set the jaw opening
 - Screw clamp (F-clamp, C-clamp): slower, but adapts to any thickness and gives more adjustable force
 - Magnetic or vacuum hold-downs: hold flat parts without any arm over the top ⚑ [uncertain]
+- Wire-bail closure (swing-top bottle, clip-top jar): the same toggle action in bent wire, fixed to a bottle or jar to seal its lid rather than hold work
 
 ## Make it yourself
 

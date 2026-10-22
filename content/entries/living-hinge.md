@@ -91,8 +91,13 @@ needs_confirming:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
 confirmed: []
-open_points: []
-uncertain_fields: [aliases, special_behaviour, seal, play_and_precision, off_the_shelf_parts]
+open_points:
+- kind: content
+  note: '*Living hinge* (49): only a reader comment on Flite Test supports foam cut partly through as a hinge; which foams
+    it suits, and that it stiffens and tires so tape or CA hinges are used for anything lasting, are marked [uncertain].'
+- kind: scope
+  note: '*Quick-release pin* (40) and *Living hinge* (49): no link to *Loose-leaf bindings*;'
+uncertain_fields: [aliases, special_behaviour, seal, play_and_precision, off_the_shelf_parts, processes]
 diagram_idea: 'A cut-away side view of a box and lid joined by a thin web: frame 1 flat as printed or moulded, with arrows
   showing the plastic''s lines running across the thin section; frame 2 folded to 90 degrees with the outer surface stretched
   (tension) and the inner surface squashed; frame 3 closed at 180 degrees, with an inset showing the wrong way to print it
@@ -169,6 +174,7 @@ sources:
 - https://www.printables.com/model/569143-flexlinks-cross-axis-flexural-pivot
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
+- https://www.flitetest.com/articles/RC_Plane_Hinge_Types
 research: research/connection-types/results/Living_hinge.json
 image:
   file: drawn/anim/living-hinge.svg
@@ -216,8 +222,8 @@ pictures:
   alt: A clear plastic cassette case opened flat, its two halves joined by a thin moulded plastic hinge.
   kind: photo
   drawn: false
-glossary: [misalignment, over-centre, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever, creep,
-  fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear, annealing]
+glossary: [misalignment, over-centre, bistable, linkage, stiffness, flexure, compliant-mechanism, living-hinge, cantilever,
+  creep, fatigue, brittle--ductile, print-in-place, kerf, peel-vs-shear, annealing]
 ---
 
 <div class="eoc-pictures">
@@ -288,6 +294,7 @@ Avoid it when the hinge must carry a real load (use a pin, knuckle or piano hing
   - 3D print (resin): material jetting with simulated polypropylene works (Hubs); standard SLA resins are brittle under repeated bending (Hubs snap-fit guide). Powder-bed nylon (SLS, MJF) gives the best printed hinges (Protolabs)
   - laser cut: polypropylene sheet can be cut into hinged parts (BYU FlexLinks are cut from PP sheet); plywood and acrylic need a kerf-bend cut pattern instead (Wikipedia; separate entry)
   - other: stamping, blow moulding, extrusion and machining of PP (MIT guide), thermoforming (Wikipedia) and urethane casting (Fictiv)
+  - other: on scratch-built foam model planes, foam cut partly through along the hinge line is used as a crude living hinge ('foam cut partially through makes a great hinge on a scratch build!', a reader comment on Flite Test 'RC Plane Hinge Types'); tape hinges or glued-in CA hinges are used for anything that must last (see 'Slot-in model hinge') ⚑ [uncertain: no opened source says that cut foam stiffens and tires with use, that tape or CA hinges are preferred for lasting hinges, or which foams (EPO, Depron, foam board) it suits]
 - **Printing it in one piece (print in place):** yes: the hinge prints as part of the box in one go, usually lying flat so the hinge is the first two thin layers and the box folds up afterwards (Printables 'Book box with living hinge'; BOSL2 living_hinge_mask), or standing up so the hinge axis is vertical (Hubs). No added parts are needed.
 - **Tools:** none: it is made as part of the moulded or printed part. Warmth helps when first flexing a printed hinge: boiling water (Hubs), a warm print bed (Prusa forum) or taking the print off the bed while still warm (BYU CMR origami flasher)
 - **Difficulty:** easy to moderate: a printed hinge is just a thin section and prints in one piece, but making it last more than a few dozen folds needs a bendy material (PP, nylon, TPU or PETG), the right print orientation and a few test prints; a hinge that lasts for years in daily use really needs injection-moulded polypropylene
@@ -329,6 +336,11 @@ None known for the hinge itself. Take care with boiling water or a hot print bed
 - [Cantilever](../glossary.md#cantilever) snap fit: often moulded next to a living hinge to hold the lid shut
 - Piano hinge (continuous hinge): a metal or plastic pin hinge for heavy or frequent use
 - Geared hinge: two toothed edges roll on each other; strong, printable, and not limited by material [fatigue](../glossary.md#fatigue)
+- Score-and-fold hinge (scored crease): the paper, card and foam-board version, where a pressed or half-cut line lets the sheet itself fold as a hinge
+- Parallel-fold pop-up: creases in card act as the hinges of a paper parallelogram [linkage](../glossary.md#linkage) that stands up when the card is opened
+- V-fold pop-up (angle fold): creases meeting at one point on the centre fold swing a card piece up at an angle as the card opens
+- V-groove fold (mitre fold): a groove cut almost through foam board, EVA foam or plywood leaves a thin face that folds once into a corner and is then glued
+- Slot-in model hinge (CA hinge, hinge point): separate small hinges glued into slits in a model plane's wing and flap, the usual hinge for control surfaces in foam or balsa
 
 ## Make it yourself
 
@@ -349,8 +361,10 @@ None known for the hinge itself. Take care with boiling water or a hot print bed
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ Research note: *Living hinge* (49): only a reader comment on Flite Test supports foam cut partly through as a hinge; which foams it suits, and that it stiffens and tires so tape or CA hinges are used for anything lasting, are marked [uncertain].
+- ⚑ Research note: *Quick-release pin* (40) and *Living hinge* (49): no link to *Loose-leaf bindings*;
 
 ## Sources
 
@@ -380,3 +394,4 @@ None known for the hinge itself. Take care with boiling water or a hot print bed
 - <https://www.printables.com/model/569143-flexlinks-cross-axis-flexural-pivot>
 - <https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad>
 - <https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE>
+- <https://www.flitetest.com/articles/RC_Plane_Hinge_Types>

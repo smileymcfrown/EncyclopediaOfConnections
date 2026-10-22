@@ -316,6 +316,11 @@ Low hazard in itself. Isopropyl alcohol, primers and adhesive removers are flamm
 - Silicone and MS-polymer adhesive sealants: flexible, gap-filling bond and seal that needs curing time
 - Glued joint design (butt, lap and [scarf joints](../glossary.md#scarf-joint); peel vs shear): how to shape any bonded joint so it is loaded in shear rather than peel
 - Gel 'nano tape': a clear acrylic gel tape without a foam core, used the same way for light items
+- Adhesive tape joint and tape hinge: thin sticky tape for quick joints and bendable hinges, with no foam layer
+- Glue stick and starch paste: paper glues; foam tape pads are used instead to lift card layers off the page
+- Bonding fastener: a glue-on threaded stud or nut that gives a strong mounting point with no hole; foam tape is the quick, removable way to stick light mounts
+- Panel standoff: holds a drilled sign or glass panel off the wall on metal posts; foam tape holds light signs with no holes but can't be taken apart
+- Glass and mirror edge clips and clamps: hold a mirror or glass sheet by its edges with no glue; foam tape sticks light mirrors and panels on instead
 
 ## Make it yourself
 

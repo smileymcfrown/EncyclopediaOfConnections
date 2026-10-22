@@ -302,6 +302,7 @@ Low hazard. Clips and centre pins are small enough to be a choking hazard for yo
 - Quarter-turn fastener: a stud that locks a panel with a quarter turn; made for panels opened again and again
 - Heat staking: a plastic post melted into a rivet head; permanent
 - Cable tie mounts and edge clips: similar push-in stems used to route cables
+- Cardboard screws and rivets (box rivets): reusable plastic rivet halves pressed together from both sides through punched holes in corrugated cardboard
 
 ## Make it yourself
 

@@ -338,6 +338,7 @@ Freshly cut extrusion has sharp burrs: deburr the ends and wear gloves and eye p
 - Knock-down furniture fittings (cam locks, cross dowels): hidden bolt-together joints for panels and wood rather than metal bars
 - V-slot wheels and linear rails: use the same extrusion grooves as a track for moving carriages
 - Threaded rod and studs: long bolts, tie rods and hangers; strut channel frames can be hung from threaded rod
+- Shelf pins and shelf supports: pegs in rows of holes in cabinet sides for movable shelves; on slotted aluminium frames, brackets in the slots do the same job
 
 ## Make it yourself
 

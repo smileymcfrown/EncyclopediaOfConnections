@@ -348,6 +348,7 @@ Cut tails leave sharp edges that can cut hands and cables; cut flush or use a te
 - Hook-and-loop strap (Velcro (brand)): reusable, adjustable anywhere, much weaker
 - Hose clamp: the band clamp that holds a hose on a barb; a worm-drive clamp tightens smoothly with a screw and can be loosened, where a cable tie is a one-use, light-duty stand-in
 - Rope grab (ascender): a toothed cam that slides up a rope one way and grips the other
+- Cardboard screws and rivets (zip-tie rivet): a cable tie pulled tight through punched holes is a cheap home-made rivet or pivot for cardboard
 
 ## Make it yourself
 

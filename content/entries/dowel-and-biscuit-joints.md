@@ -335,6 +335,7 @@ A biscuit joiner is a small spring-loaded circular saw: keep hands clear of the 
 - Tongue-and-groove joint, including the loose tongue (spline): a continuous version of a biscuit along the whole edge
 - Locating pins and hole-and-slot: the precision-engineering use of pins to position parts exactly
 - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): the 3D-printing cousin of dowelling
+- Pinned glue joint: improvised wire, toothpick or skewer pins glued across a joint in models, miniatures, foam and clay, a small-scale cousin of the dowel
 
 ## Make it yourself
 

@@ -327,6 +327,8 @@ Heat-gun burns: a heat gun blows air at about 100-550 °C, much hotter than a ha
 - Silicone and MS-polymer adhesive sealants: for sealing gaps and potting, where a tube can't be slid on
 - Linear [ratchet](../glossary.md#ratchet) (cable-tie ratchet): cable ties bundle wires and can be removed; heat-shrink bundles more neatly but permanently
 - Rope-end finishing (whipping, heat-sealing, aglet): heat-shrink can also cap a cord end
+- Adhesive tape joint and tape hinge: ordinary pressure-sensitive tapes for holding parts together and making hinges, rather than insulating a joint
+- Push-fit rod and spar fittings: kite fittings, stoppers and nocks that heat-shrink is used to hold on spars
 
 ## Make it yourself
 

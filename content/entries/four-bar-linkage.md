@@ -197,6 +197,7 @@ sources:
 - https://www.mcmaster.com/products/shoulder-bolts/
 - https://www.mcmaster.com/products/sleeve-bearings/
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
+- https://en.wikipedia.org/wiki/Pop-up_book
 research: research/connection-types/results/Fourbar_linkage_incl_parallelogram_linkage.json
 image:
   file: four-bar-linkage.webp
@@ -259,6 +260,7 @@ A few parts: a fixed base (ground link) with two pivots; an input link (crank or
 - Balanced-arm desk lamps, whose parallelogram keeps the lamp head pointing the same way, and ironing boards that stay level as you change the height (Wikipedia 'Balanced-arm lamp'; reSolve Maths)
 - Oil-well pumpjacks, bicycle rear suspensions, door closers, folding chairs and treadle sewing machines (Wikipedia 'Four-bar linkage')
 - Locking pliers, and your own knee joint (Hackaday)
+- Parallel-fold pop-up cards and books, where each paper step or box is a parallelogram whose hinges are creases, so it stands up as the card opens (Wikipedia 'Pop-up book' captions its diagram of the basic principle 'the parallelogram'); see Parallel-fold pop-up
 
 ## When to use it
 
@@ -347,6 +349,8 @@ Scissor-like closing gaps between links are pinch points, especially in motor- o
 - Bell crank (angle lever): a single L-shaped lever often used as one link of a linkage
 - Oldham coupling: like a parallel link coupling, passes rotation between offset parallel shafts, but by sliding rather than pivots
 - Multi-turn rotation limiter: its stacked-ring stops use the same lost-motion idea, each ring turning idly until it picks up the next
+- Parallel-fold pop-up: a paper parallelogram linkage, with creases as the pivots and the card's centre fold as the input
+- V-fold pop-up: a paper linkage whose creases all meet at one point, so the piece swings up at a slant instead of rising square
 
 ## Make it yourself
 
@@ -416,3 +420,4 @@ Scissor-like closing gaps between links are pinch points, especially in motor- o
 - <https://www.mcmaster.com/products/shoulder-bolts/>
 - <https://www.mcmaster.com/products/sleeve-bearings/>
 - <https://cs448m.github.io/lectures/machines/doc/2.pdf>
+- <https://en.wikipedia.org/wiki/Pop-up_book>

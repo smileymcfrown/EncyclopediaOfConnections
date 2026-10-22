@@ -364,6 +364,7 @@ A locked ball head or mount can let go suddenly if the knob is loosened with a h
 - Magnet joint: a steel ball held in a seat by a magnet, which lets go instead of breaking
 - Levelling foot: the swivel pad under a levelling foot is a small ball-and-socket joint that lets the pad lie flat on an uneven floor
 - Locking adjustment screws: opposing screws that set a tilt or height and then lock it, as the four set screws of a pyramid alignment adaptor do
+- Elastic-strung ball joint (ball-jointed doll stringing): a chain of ball-and-socket joints held closed by an elastic cord running through them, as in ball-jointed dolls
 
 ## Make it yourself
 

@@ -88,7 +88,10 @@ finder:
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Shock-corded sectional pole* (152): an aluminium kite ferrule with a centre stop (the kiteplans pages mention brass
+    ferrules and where to put them).'
 uncertain_fields: [play_and_precision, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
 diagram_idea: Cutaway of three pole sections with an elastic cord running through them, shown first folded side by side with
   the cord stretched round the bends and then snapped into a straight line, with an arrow at each joint showing the cord pulling
@@ -155,6 +158,9 @@ sources:
 - https://dubiose.dev/mini-projects/tent-pole-bungee-cap/
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
+- https://www.kiteplans.org/planos/eddyvar/plan3.html
+- https://www.kiteplans.org/planos/gargoyle/plan2.html
+- https://www.kiteplans.org/planos/bdub/bdubfaq.htm
 research: research/connection-types/results/Shockcorded_sectional_pole.json
 image:
   file: drawn/shock-corded-sectional-pole.svg
@@ -265,6 +271,7 @@ Shock cord (elastic cord, bungee cord) in 1/8 in (3 mm) or 3/32 in; replacement 
 - Keep the sections in their original order while restringing (Kelty; Hilleberg), and tie a peg or clamp to the stretched cord so it can't shoot back into the pole (Hilleberg; NEMO).
 - Repair a cracked section with a repair sleeve slid over the damage, centred and taped at both ends, then replace the section later (Hilleberg pole repair sheet).
 - Scale: a replacement ferrule for 8.5 mm aluminium poles is listed as about 3 in (76 mm) long (Tent Pole Technologies), i.e. roughly 4-5 tube diameters of overlap on each side of the joint (arithmetic from the listing).
+- Kite spars that split for carrying use the same ferrule joint without a cord: put the ferrule 'as far down the spine as possible, to lower the center of gravity' (kiteplans.org Eddy Variant and Gargoyle plans); a stunt kite's leading-edge ferrules go just below the lower spreader connector and are brass, 'a bit heavier than the spar material', because their weight helps the balance (kiteplans.org BDub FAQ). See Push-fit rod and spar fittings.
 
 ## Common failures
 
@@ -284,6 +291,9 @@ Elastic cords that snap or slip free can whip back and cause serious eye injurie
 - Guy-line slider (friction line tensioner): tensions a tent's cords rather than holding its poles together
 - Stopper knots and cord-end anchors: the knot trapped under an end tip or plug that anchors the shock cord at each end of the pole
 - Wire-rope terminations: crimped stops and sleeves that anchor a steel cable end the way a knot anchors the shock cord, for poles or masts linked by non-stretch cable
+- Push-fit rod and spar fittings: the same ferrule joint without a cord, as on kite spars split for carrying, plus tee, cross and end fittings for solid rods
+- Elastic-strung ball joint: the same stretched elastic running through hollow parts, but holding ball-and-socket joints closed in a posable doll or figure
+- Bonded tube joint: how a ferrule, sleeve or plug is glued permanently onto a tube end, as on the sections of a shock-corded pole
 
 ## Make it yourself
 
@@ -305,6 +315,7 @@ Elastic cords that snap or slip free can whip back and cause serious eye injurie
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ Research note: *Shock-corded sectional pole* (152): an aluminium kite ferrule with a centre stop (the kiteplans pages mention brass ferrules and where to put them).
 
 ## Sources
 
@@ -326,3 +337,6 @@ Elastic cords that snap or slip free can whip back and cause serious eye injurie
 - <https://dubiose.dev/mini-projects/tent-pole-bungee-cap/>
 - <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
 - <https://api.printables.com/graphql/>
+- <https://www.kiteplans.org/planos/eddyvar/plan3.html>
+- <https://www.kiteplans.org/planos/gargoyle/plan2.html>
+- <https://www.kiteplans.org/planos/bdub/bdubfaq.htm>

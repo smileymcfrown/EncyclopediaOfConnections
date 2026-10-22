@@ -335,6 +335,7 @@ Splicing a load-bearing post means temporarily supporting the building: Big Sand
 - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): the 3D-printing equivalents for joining printed pieces
 - Plain scarf joint and keyed-hook scarf ('trait de jupiter'): Western splices that usually rely on bolts, plates or glue to stay closed (Wikipedia 'Scarf joint')
 - Knock-down cam-lock and cross-dowel connectors: undoable joints using metal hardware instead of shaped wood
+- Jigsaw puzzle-edge joint (puzzle joint): a flat cousin, where knobs and sockets cut in sheet lock panels edge to edge with no glue or fasteners
 
 ## Make it yourself
 

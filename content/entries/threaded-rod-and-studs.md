@@ -369,6 +369,7 @@ Plain zinc-plated hardware-store rod is usually a low-strength grade, and unmark
 - Eye bolts, screw eyes and hooks: use rated eye bolts, not bent threaded rod, for hanging and lifting
 - Tripod and stand screw mount: a short 1/4-20 stud is the camera-mount version
 - Aluminium-extrusion connectors (T-slot nuts and brackets): the stiffer modern alternative to threaded-rod printer frames
+- Bonding fastener (glue-on stud): a stud on a perforated base glued onto a surface, giving a threaded post with no hole through the part; a home-made version is threaded rod epoxied into a G10 block
 
 ## Make it yourself
 

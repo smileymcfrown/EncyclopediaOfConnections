@@ -330,6 +330,9 @@ Few hazards: keep fingers clear of the hammer, punch and press, and work on a so
 - Push-on edge trim (U-channel edging, grommet edging): protects a long cut edge instead of a round hole
 - Rope splices: the rope grommet, a ring laid up from one strand of rope
 - Hook-and-loop fastener: an area fastener that needs no hole at all
+- Split-pin paper fastener (brass paper fastener): a cheap, tool-free, removable pivot for card; an eyelet makes a neater, longer-lasting one
+- Sewn book bindings: eyelets reinforce the holes in covers for ribbon or cord bindings
+- Volvelle (paper wheel chart): turning paper discs whose shared pivot is often a metal eyelet or grommet
 
 ## Make it yourself
 

@@ -104,6 +104,9 @@ open_points:
 - kind: content
   note: '*Brazed joint*: the joint gap differs at the wide end (Wikipedia 0.03-0.08 mm; Lucas-Milhaupt 0.001-0.005 in), both
     recorded; no real printable brazing models exist, so `make_it_yourself` has only a rod-case divider and a torch stand.'
+- kind: scope
+  note: '*Brazed joint* (405): none to *Copper-foil joint*. None would help a reader of that entry; the link the other way
+    is kept where it exists.'
 uncertain_fields: []
 diagram_idea: A sliced view of a tube slipped into a socket with the 0.03-0.08 mm gap exaggerated, a torch heating the socket
   to dull red, the filler rod touched at the mouth of the joint and arrows showing it drawn right through by capillary action
@@ -314,6 +317,7 @@ CADMIUM: older silver solders contained 16-25% cadmium; heated above 320 °C it 
 - Blind rivet (pop rivet) and Ordinary screw joint: cold, removable or one-sided alternatives for joining different metals
 - Two-part epoxy and Epoxy putty: cold 'metal repair' alternatives for parts that can't be heated; much weaker
 - Heat staking, Melted plastic weld: the plastic equivalents of heat joining
+- Bonded tube joint (lugged, sleeved or fibre-wrapped tube joint): tubes glued into lugs or sleeves instead of brazed, as on carbon and bamboo bike frames, for tubes that can't take the heat
 
 ## Make it yourself
 
@@ -333,6 +337,7 @@ CADMIUM: older silver solders contained 16-25% cadmium; heated above 320 °C it 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ Research note: *Brazed joint*: the joint gap differs at the wide end (Wikipedia 0.03-0.08 mm; Lucas-Milhaupt 0.001-0.005 in), both recorded; no real printable brazing models exist, so `make_it_yourself` has only a rod-case divider and a torch stand.
+- ⚑ Research note: *Brazed joint* (405): none to *Copper-foil joint*. None would help a reader of that entry; the link the other way is kept where it exists.
 
 ## Sources
 

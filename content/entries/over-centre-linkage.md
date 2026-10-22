@@ -367,6 +367,7 @@ Pinch and crush points: the force near straight is huge (about 29 times the inpu
 - Spring toggle (snap-action switch): an over-centre spring that flips a lever quickly to either end, as in light switches (Sclater p.107; Thang 'Spring toggle mechanism 5')
 - Ratchet and [pawl](../glossary.md#pawl): holds at many positions in one direction instead of at one locked end point
 - Worm drive or lead screw: also resists being driven back, but by friction in a screw thread rather than by geometry
+- Wire-bail closure (swing-top bottle, clip-top jar): a small over-centre linkage made of bent wire that snaps a stopper or lid down onto a rubber seal
 
 ## Make it yourself
 

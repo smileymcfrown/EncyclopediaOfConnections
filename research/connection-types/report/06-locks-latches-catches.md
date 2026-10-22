@@ -95,6 +95,7 @@
   - Push-to-close cam latch: latches automatically when a door is pushed shut, but opens with a handle or button rather than a second push (Southco)
   - Compliant one-piece latch: a printed springy latch released by bending a handle
   - Push-push locking bolt (indexing plunger): an industrial pin that extends and retracts with alternate pushes using a heart curve (GN 514)
+  - Glass door hinge (clamp-on or drilled glass hinge): push-to-open (magnetic touch) latches are among the fittings sold for the glass cabinet doors these hinges carry
 
 ### Pictures, videos and models
 
@@ -151,6 +152,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: no
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -312,6 +356,49 @@
 - **adjustable**: partly
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a person to open
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: straight push or pull, wind up and let go
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
@@ -461,6 +548,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: no
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 
@@ -617,6 +747,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: yes
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a person to open
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
 
 ### Other info
 
@@ -704,6 +877,7 @@
   - Bayonet mount (push-and-twist lock): also push-and-turn, but with pins in L-shaped slots instead of a screw thread and a slip clutch
   - Tamper-evident breakaway bridge: often added to caps to show they have been opened, but does not stop opening
   - Face ratchet: the one-way teeth on the cap's top are a small face ratchet
+  - Wire-bail closure (swing-top stopper, clip-top jar): another resealable bottle and jar closure, opened by flipping a wire lever instead of turning a cap; not child-resistant
 
 ### Pictures, videos and models
 
@@ -759,6 +933,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: clicks
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, glass or mirror
 
 ### Other info
 
@@ -904,6 +1121,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: twist
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a person to open
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1004,6 +1264,7 @@
   - Ratchet and pawl: a pawl that drops into notches, but to allow motion one way rather than to link two parts
   - Geneva drive: its locking arc stops the output turning between steps, a built-in interlock inside a stepping mechanism
   - Ball detent (spring plunger): a ball in a groove that only holds position; an interlock ball wedges a second part instead
+  - Jigsaw puzzle-edge joint: panels locked side by side by matching knobs and sockets; a shape lock for joining parts, not for stopping actions happening in the wrong order
 
 ### Pictures, videos and models
 
@@ -1058,6 +1319,49 @@
 - **adjustable**: partly
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: yes
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: lock or hold
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1219,6 +1523,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: yes
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a person to open
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
@@ -1370,6 +1717,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: yes
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a person to open
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1517,6 +1907,49 @@
 - **adjustable**: partly ⚑ *needs confirming (source uncertain): `adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers) [uncertain: adjustment procedure not des…"*
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: no
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a person to open
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1674,6 +2107,49 @@
 - **adjustable**: partly
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: swings on a hinge, catch or lever
+- **locks_out**: no
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: hold a set position
+- **holds_for**: a load
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
@@ -1821,6 +2297,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: twist
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1830,7 +2349,7 @@
 
 *locks, latches & catches.* The everyday door latch with a sloped spring bolt, a sliding bolt, and a hook in an eye; the latch baseline
 
-*Also covers:* Also covers the sewn garment hook and eye.
+*Also covers:* Also covers the sewn garment hook and eye. Also covers the picture-frame turn button as the simplest swivelling latch.
 
 ### What it is
 
@@ -1935,6 +2454,7 @@
   - Tool-free fasteners (hitch pin and R-clip): a pin pushed through holes and clipped, used as a simple removable bolt
   - Eye bolts, screw eyes and hooks: the screw eyes and screw hooks a hook-and-eye latch is made from, used on their own as fixed anchor points for ropes and hanging things
   - Sew-on part: how small hooks, eyes and other hardware are sewn onto fabric, as with the garment hook and eye
+  - Glazing in a rebated frame: picture frames use turn buttons, flat pieces of metal or wood that turn on one screw over the backing board, the simplest latch, so the back can be taken out and put back (LION Picture Framing; Wiktionary 'button')
 
 ### Pictures, videos and models
 
@@ -1983,6 +2503,8 @@
   - https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://api.printables.com/graphql/
+  - https://www.lionpic.co.uk/turn-button-frame-fasteners/
+  - https://en.wiktionary.org/wiki/button
 
 ### Finder tags
 
@@ -2000,6 +2522,49 @@
 - **adjustable**: partly
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: no
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2168,6 +2733,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: twist
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2334,6 +2942,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: no
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a person to open
+- **over_centre_use**: clamp or latch
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 

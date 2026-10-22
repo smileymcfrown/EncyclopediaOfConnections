@@ -224,7 +224,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, spline, heat-set-insert, captive-nut, pilot-hole, counterbore--countersink,
-  repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear, scarf-joint]
+  chamfer--fillet, repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -344,6 +344,8 @@ Table saws (used for cutting ends square and for dado-cut half laps) can kick wo
 - Wood screw: the usual fastener for screwed butt and lap joints, with advice on pilot and clearance holes
 - Nails, brads and tacks: the quick fastener for nailed butt joints, including toe-nailing and clinching
 - Metal brackets and plates: angle brackets, mending plates and joist hangers that reinforce a butt joint or carry its load
+- V-groove fold: a one-piece corner made by grooving and folding a sheet (plywood trays, foam board), instead of butting two separate pieces
+- Fillet-and-tape joint: plywood panels joined edge to edge with an epoxy [fillet](../glossary.md#chamfer--fillet) and glass tape instead of screws or nails, as in stitch-and-glue boats
 
 ## Make it yourself
 

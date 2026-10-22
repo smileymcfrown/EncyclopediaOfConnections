@@ -351,6 +351,7 @@ Stored energy: large springs, especially garage door torsion springs, are extrem
 - Magnetic detent: magnet click stops; repelling magnets can also be used as a spring (magnetic spring), which works across an air gap but whose force rises steeply only at the end of travel (K&J Magnetics)
 - Battery holder and battery contacts: a coil (often conical) spring presses on one end of a cell as its contact
 - Pogo pin: a spring-loaded contact pin, where a tiny compression spring inside a tube pushes a contact pin out against a pad
+- Spring-powered paper pop-up: a rubber band or a folded paper strip, not a wire coil, stores the energy that makes a flat card cube or figure jump into shape
 
 ## Make it yourself
 

@@ -304,6 +304,7 @@ Acrylic clips that are over-bent can snap suddenly and leave sharp edges ⚑ [un
 - Crush ribs and spring-fit features (compliant press fit): springy ribs or fingers that press parts snugly but have no hook, so they rely on friction
 - Mortise and tenon (incl. wedged, drawbored and tusk tenons): a key or wedge through the protruding tab locks it instead of a barb; SendCutSend notes a flexible key can itself be designed to snap in
 - Spring-steel push-on fasteners (push nut, speed nut, U-nut): a separate springy metal clip that does the same job on studs and panels
+- Folding box closures (tuck flap, slit lock, snap-lock and crash-lock bottoms): the full treatment of tab-lock and tuck-top card boxes
 
 ## Make it yourself
 

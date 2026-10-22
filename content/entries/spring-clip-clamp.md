@@ -23,6 +23,7 @@ aliases:
 - springless clothespin / one-piece peg / dolly peg (one-piece version whose own springy prongs grip, Wikipedia; Printables
   33109)
 - clip-on holder / clip-on lamp / clamp lamp / clip-on phone holder
+- 'paper clip, Gem clip (the simplest spring clip: one bent wire with no pivot; Wikipedia ''Paper clip'')'
 family: clamping, magnetic & friction connections
 other_families: [springs & energy storage, quick-release & tool-free]
 finder:
@@ -179,6 +180,7 @@ sources:
 - https://commons.wikimedia.org/wiki/Category:Spring_clamps
 - 'https://api.printables.com/graphql/ (Printables API: models 617245, 1707408, 1096058, 33109, 559737, 904305, 659163, 982731,
   9024; titles of 586755 and 466832 from search results)'
+- https://en.wikipedia.org/wiki/Paper_clip
 research: research/connection-types/results/Spring_clip_clamp_clothespeg_clip_spring_clamp_clipon_holder.json
 image:
   file: drawn/anim/spring-clip-clamp.svg
@@ -241,11 +243,11 @@ Two jaws joined by a pivot and closed by a spring (usually a coiled wire [torsio
 
 **In plain words:** A clip with two jaws that pivot like scissors and are pushed shut by a spring: you pinch the handles to open it, put it over the edge, and let go so it grips, like a clothes peg, a workshop spring clamp or a clip-on lamp or phone holder. **Proper term:** Spring clamp (spring clip, spring-loaded pivoted jaw clamp; clothes peg).
 
-**Also called:** clothes peg (UK) / clothespin or clothes pin (US) (Wikipedia 'Clothespin'); spring clothespin / sprung wooden clothes peg; pinch clamp (This Old House); spring clamp, spring cramp (UK woodworking; listed with temporary clamps in Wikipedia 'Clamp (tool)'); plastic spring clamp, e.g. Clippix (Bessey, brand); needle-nose spring clamp; [ratchet](../glossary.md#ratchet) spring clamp (Bessey XCR, a ratchet-locking cousin); muslin clamp / backdrop clamp / photo spring clip (photography studio names seen in Woodsmith's spring clamp review); chip clip / bag clip (kitchen use; Printables model titles); C47 / CP47 / 'bullet' (film-set slang for a wooden spring clothes peg, Wikipedia 'Clothespin'); crocodile clip / alligator clip (spring-jaw clip for temporary electrical connections, Wikipedia 'Crocodile clip'); rubber-band clamp / rubber band spring clamp (printed clamp that uses rubber bands as the spring, Printables 617245); springless clothespin / one-piece peg / dolly peg (one-piece version whose own springy prongs grip, Wikipedia; Printables 33109); clip-on holder / clip-on lamp / clamp lamp / clip-on phone holder.
+**Also called:** clothes peg (UK) / clothespin or clothes pin (US) (Wikipedia 'Clothespin'); spring clothespin / sprung wooden clothes peg; pinch clamp (This Old House); spring clamp, spring cramp (UK woodworking; listed with temporary clamps in Wikipedia 'Clamp (tool)'); plastic spring clamp, e.g. Clippix (Bessey, brand); needle-nose spring clamp; [ratchet](../glossary.md#ratchet) spring clamp (Bessey XCR, a ratchet-locking cousin); muslin clamp / backdrop clamp / photo spring clip (photography studio names seen in Woodsmith's spring clamp review); chip clip / bag clip (kitchen use; Printables model titles); C47 / CP47 / 'bullet' (film-set slang for a wooden spring clothes peg, Wikipedia 'Clothespin'); crocodile clip / alligator clip (spring-jaw clip for temporary electrical connections, Wikipedia 'Crocodile clip'); rubber-band clamp / rubber band spring clamp (printed clamp that uses rubber bands as the spring, Printables 617245); springless clothespin / one-piece peg / dolly peg (one-piece version whose own springy prongs grip, Wikipedia; Printables 33109); clip-on holder / clip-on lamp / clamp lamp / clip-on phone holder; paper clip, Gem clip (the simplest spring clip: one bent wire with no pivot; Wikipedia 'Paper clip').
 
 ## How it works
 
-Each half is a lever with the pivot between the handle and the jaw. The spring pushes the handles apart, which pulls the jaws together, so the clip grips on its own; squeezing the handles harder than the spring opens the jaws ('By a lever action, when the two prongs are pinched at the top of the peg, the prongs open up, and when released, the spring draws the two prongs shut', Wikipedia 'Clothespin'). In the classic wooden peg one coiled wire is both the spring and the pivot the two halves rock on (Wikipedia). A coiled (torsion) spring pushes back harder the further it is twisted (Wikipedia 'Torsion spring'), and the grip at the jaws is the spring's turning force divided by the distance from the pivot (lever arithmetic), so it is greatest close to the pivot. The jaws hold by friction, helped by teeth on crocodile clips and toothed pegs; the clamping force is small (up to about 100-150 N for metal workshop spring clamps, Bessey).
+Each half is a lever with the pivot between the handle and the jaw. The spring pushes the handles apart, which pulls the jaws together, so the clip grips on its own; squeezing the handles harder than the spring opens the jaws ('By a lever action, when the two prongs are pinched at the top of the peg, the prongs open up, and when released, the spring draws the two prongs shut', Wikipedia 'Clothespin'). In the classic wooden peg one coiled wire is both the spring and the pivot the two halves rock on (Wikipedia). A coiled (torsion) spring pushes back harder the further it is twisted (Wikipedia 'Torsion spring'), and the grip at the jaws is the spring's turning force divided by the distance from the pivot (lever arithmetic), so it is greatest close to the pivot. The jaws hold by friction, helped by teeth on crocodile clips and toothed pegs; the clamping force is small (up to about 100-150 N for metal workshop spring clamps, Bessey). The wire paper clip (Gem type, one and a half loops of wire) is the simplest spring clip of all, with no pivot: pushing sheets between its tongues forces them apart and twists the bends of the wire, and it holds by 'torsion and elasticity in the wire, and friction between wire and paper' (Wikipedia 'Paper clip').
 
 ## Parts
 
@@ -305,7 +307,7 @@ Spring material: print anything that has to spring back in PETG, not PLA; one de
 
 ### Buying one (off-the-shelf parts)
 
-Search terms: 'spring clamp' (metal with PVC tips, or plastic), 'nylon spring clamp', 'heavy duty spring clamp', 'needle nose spring clamp', 'ratchet spring clamp' (e.g. Bessey XM, XC Clippix, XCL, XCR, brand), 'muslin clamp' or 'backdrop clamp', 'clothes pegs' (wooden spring, plastic, stainless steel), 'crocodile clip' or 'alligator clip' (electrical), 'binder clip' or 'foldback clip' (spring-steel, no pivot), 'clip-on lamp' or 'clamp lamp', 'clip-on phone holder', 'spring clamp tips' or 'spring clamp pads' (replacement jaw pads), and 'torsion spring' for replacement springs (see the Coil spring entry). For sizes and forces, link to a maker's sheet such as Bessey's: https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en.
+Search terms: 'spring clamp' (metal with PVC tips, or plastic), 'nylon spring clamp', 'heavy duty spring clamp', 'needle nose spring clamp', 'ratchet spring clamp' (e.g. Bessey XM, XC Clippix, XCL, XCR, brand), 'muslin clamp' or 'backdrop clamp', 'clothes pegs' (wooden spring, plastic, stainless steel), 'crocodile clip' or 'alligator clip' (electrical), 'binder clip' or 'foldback clip' (spring-steel, no pivot), 'paper clip' or 'Gem clip' (bent wire, no pivot), 'clip-on lamp' or 'clamp lamp', 'clip-on phone holder', 'spring clamp tips' or 'spring clamp pads' (replacement jaw pads), and 'torsion spring' for replacement springs (see the Coil spring entry). For sizes and forces, link to a maker's sheet such as Bessey's: https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en.
 
 ## Rules of thumb
 
@@ -339,6 +341,8 @@ Pinch points: strong metal clamps snap shut hard on fingers and skin ⚑ [uncert
 - Printed leaf spring and [Compliant mechanisms](../glossary.md#compliant-mechanism) & [flexures](../glossary.md#flexure): the principle behind one-piece springless pegs
 - Temporary sheet fastener (Cleco-type spring pin): holds drilled sheets together while they are fixed
 - Hose clamp (spring hose clamp): a spring-steel band that squeezes a hose onto a fitting
+- Loose-leaf bindings (ring binder, disc binding): keep many punched sheets together for good, where a clip only holds a stack for a while
+- Glass and mirror edge clips and clamps (glass bed clip): include the binder and spring clips that hold a glass printer bed by its edge
 
 ## Make it yourself
 
@@ -387,3 +391,4 @@ Pinch points: strong metal clamps snap shut hard on fingers and skin ⚑ [uncert
 - <https://commons.wikimedia.org/wiki/File:Clamps.jpg>
 - <https://commons.wikimedia.org/wiki/Category:Spring_clamps>
 - <https://api.printables.com/graphql/ (Printables API: models 617245, 1707408, 1096058, 33109, 559737, 904305, 659163, 982731, 9024; titles of 586755 and 466832 from search results)>
+- <https://en.wikipedia.org/wiki/Paper_clip>

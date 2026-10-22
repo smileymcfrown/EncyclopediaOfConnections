@@ -317,6 +317,8 @@ Laser cutting kerf patterns means very long cut paths packed close together in f
 - Steam bending and bent lamination: the traditional ways to make strong curved wood parts without cuts (Rockler's 'Bending Wood' series, parts II and III) ⚑ [uncertain]
 - Piano hinge (continuous hinge): a pin hinge for doors and lids that open often and carry load
 - Tape-spring hinge (measuring-tape fold): a curved strip that folds and snaps straight again
+- Score-and-fold hinge (scored crease): a single pressed or half-cut line that makes card or foam board fold in one place, instead of a pattern of cuts that lets the sheet curve
+- V-groove fold (mitre fold): a V groove cut almost through the back of a sheet so it folds to a crisp corner rather than a smooth curve
 
 ## Make it yourself
 

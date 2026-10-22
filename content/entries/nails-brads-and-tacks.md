@@ -332,6 +332,8 @@ Wear safety glasses or goggles when hammering, strike squarely, avoid glancing b
 - Wall plug (expansion anchor for solid walls): the way to fix into brick or concrete without masonry nails
 - Blind rivet (pop rivet): a permanent fastener whose tail is spread on the far side, like a clinched nail, for sheet metal
 - Clinching (press joining without rivets): a different meaning of 'clinching', where sheet metal is pressed into itself
+- Split-pin paper fastener (brass paper fastener, paper brad): not a nail despite the name 'brad'; a round-head pin whose two legs are spread behind paper or card
+- Glazing in a rebated frame (glazier's points, glazing bead): panel pins hold the glazing beads that trap the glass in a frame
 
 ## Make it yourself
 

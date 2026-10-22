@@ -215,7 +215,7 @@ pictures:
   kind: cross-section
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, crank, actuator, clearance, tolerance, form-fit--force-fit--material-bond,
-  heat-set-insert, repeatability--accuracy, lubrication, infill, print-in-place]
+  heat-set-insert, repeatability--accuracy, lubrication, infill, print-in-place, counter-rotating]
 ---
 
 <div class="eoc-pictures">
@@ -325,6 +325,8 @@ Meshing gears are in-running nip points that can catch fingers, hair and clothin
 - Spur gear train: cheaper and simpler, but the output is offset from the input and fewer teeth share the load (gm0)
 - Worm drive: high ratio in one step at a right angle, and often self-locking, but much less efficient (TEA)
 - Gear bearing: a print-in-place planetary set used as a rotating bearing rather than as a reducer
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: makes two shafts on one line turn opposite ways; in-line contra-rotating propeller hubs use planetary gearing to do it
+- Several motors driving one load: joins two or more motors to one output, while a planetary set shares one motor's load between several planets
 
 ## Make it yourself
 

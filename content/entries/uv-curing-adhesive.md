@@ -311,6 +311,8 @@ UV light is harmful to eyes and skin, so wear UV-blocking glasses and keep the b
 - Hot-melt adhesive (glue gun): also sets in seconds, but by cooling; gap-filling but weak and softens with heat
 - Dual-cure adhesives: light-curing adhesives with a second moisture, heat or anaerobic cure so shadowed areas harden too (GA Lindberg)
 - Silicone and MS-polymer adhesive sealants: UV-curing silicones exist (Henkel), but the usual ones cure from air moisture and stay flexible
+- Baked-in findings: metal findings baked into polymer clay; UV resin poured over earring posts is an alternative that can't be baked again
+- Glass fusing: joins glass to glass by melting it in a kiln into one piece, where UV glue joins it cold with a glue line
 
 ## Make it yourself
 

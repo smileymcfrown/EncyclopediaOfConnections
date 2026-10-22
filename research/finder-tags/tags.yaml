@@ -9047,7 +9047,7 @@
     clicks: not applicable
     glue_traits: [strongest, fills gaps]
     bonds_well: [PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or
-        ceramic, stone or concrete]
+        ceramic, foam, stone or concrete]
     bonds_poorly: [slippery plastics (PE or PP), silicone]
     tools: [press or vice]
     load_max: heavy
@@ -14719,7 +14719,7 @@
     overload_response: not applicable
     clicks: not applicable
     glue_traits: [strongest]
-    bonds_well: [wood, paper or card, fabric or leather]
+    bonds_well: [wood, paper or card, fabric or leather, foam]
     bonds_poorly: [PLA, PETG, ABS or ASA, metal, glass or ceramic]
     tools: [press or vice]
     load_max: heavy
@@ -17867,7 +17867,7 @@
     overload_response: not applicable
     clicks: not applicable
     glue_traits: [strongest]
-    bonds_well: [wood]
+    bonds_well: [wood, foam]
     bonds_poorly: [PLA, PETG, ABS or ASA, slippery plastics (PE or PP), silicone, metal]
     tools: [press or vice, power tools, hand tools]
     load_max: heavy

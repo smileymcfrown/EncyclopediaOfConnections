@@ -58,6 +58,7 @@ items:
   - name: Sprag clutch
     category: one-way & ratchet
     description: A ring of tilted wedges (sprags) between two rings that jam instantly when turned one way and slide freely the other way, with no clicking
+    notes: Also covers using one-way clutches so that either of two motors (or a motor and a hand crank) can drive one machine without dragging the idle one round.
   # 11
   - name: Roller clutch (one-way bearing)
     category: one-way & ratchet
@@ -224,6 +225,7 @@ items:
   - name: Living hinge
     category: compliant mechanisms & flexures
     description: A thin, flexible strip of the same material joining two parts so they fold, like the lid of a ketchup bottle or a tic-tac box
+    notes: Also covers foam cut partly through along the hinge line as a rough hinge on scratch-built foam model planes.
   # 50
   - name: Flexure hinge (notch, leaf-spring and cross-axis pivots)
     category: compliant mechanisms & flexures
@@ -369,6 +371,7 @@ items:
   - name: Cam and follower (plate, barrel and face cams)
     category: motion conversion
     description: A shaped wheel or drum turns and pushes a follower up and down or side to side in a planned pattern
+    notes: Also covers phased camshafts (a row of identical cams, each turned a little further round, giving a rolling wave in wave machines and automata).
   # 85
   - name: Scotch yoke
     category: motion conversion
@@ -381,7 +384,7 @@ items:
   - name: Four-bar linkage (incl. parallelogram linkage)
     category: motion conversion
     description: Four bars joined in a loop by pivots, which turns one motion into another shaped motion; the basic building block of most linkages
-    notes: Also covers the pantograph (a parallelogram linkage that copies motion at a larger or smaller scale). Also covers lost motion (deliberate free play before the driven part is picked up).
+    notes: Also covers the pantograph (a parallelogram linkage that copies motion at a larger or smaller scale). Also covers lost motion (deliberate free play before the driven part is picked up). Also covers the parallel-fold pop-up card as a paper parallelogram linkage whose hinges are creases.
   # 88
   - name: Rack and pinion
     category: motion conversion
@@ -398,6 +401,7 @@ items:
   - name: Whippletree (load-equalising lever)
     category: motion conversion
     description: A floating bar pulled at its middle that shares the pull equally between its two ends, and can be stacked to share it among many, as in wiper blades and robot hands
+    notes: Also covers its use as a linkage adder (summing linkage) in mechanical analogue computers, and how it differs from a cable splitter.
   # 92
   - name: Twisted-string actuator
     category: motion conversion
@@ -422,7 +426,7 @@ items:
   - name: Differential (bevel gear differential)
     category: gear trains, gearboxes & transmissions
     description: A gear set that lets two output shafts turn at different speeds while sharing the drive, as between the wheels of a car
-    notes: Also covers the ball differential used in RC cars and limited-slip types
+    notes: Also covers the ball differential used in RC cars and limited-slip types. Also covers locked versus free outputs, with the four-wheel-drive transfer case as the everyday example.
   # 98
   - name: Bevel gears (incl. mitre and crown gears)
     category: gear trains, gearboxes & transmissions
@@ -435,6 +439,7 @@ items:
   - name: Belt drives (timing, round and V-belt)
     category: gear trains, gearboxes & transmissions
     description: A loop of belt around two pulleys that passes rotation between shafts; toothed timing belts don't slip, round and V-belts can
+    notes: Also covers one belt driving many pulleys (a pulley on the back of the belt turns the opposite way; one break stops everything) and twisting V and timing belts.
   # 101
   - name: Capstan cable drive (tendon drive)
     category: gear trains, gearboxes & transmissions
@@ -482,7 +487,7 @@ items:
   - name: Magnet joint (embedded magnets, magnetic catch)
     category: clamping, magnetic & friction connections
     description: Pairs of magnets, or a magnet and a steel plate, set into parts so they snap together, align themselves and pull apart by hand
-    notes: Also covers programmable (coded) magnet arrays that only mate with a matching pattern.
+    notes: Also covers programmable (coded) magnet arrays that only mate with a matching pattern. Also covers why magnets must not be baked into polymer clay (glue them in afterwards, or use a high-temperature grade), and swappable-part magnets in tabletop miniatures.
   # 112
   - name: Switchable permanent magnet (rotary magnetic base)
     category: clamping, magnetic & friction connections
@@ -600,11 +605,12 @@ items:
   - name: Cyanoacrylate (superglue)
     category: adhesives & bonding
     description: A runny or gel glue that sets in seconds by reacting with moisture; strong on tight-fitting plastics, metal and wood but brittle and weak in peel
+    notes: Also covers gluing baked polymer clay (flexible gel superglue on clean, uncoated surfaces).
   # 138
   - name: Two-part epoxy
     category: adhesives & bonding
     description: A resin and hardener mixed together that set into a strong, gap-filling solid; slow or fast types, for metal, wood, most plastics and composites
-    notes: Also covers J-B Weld (brand), the epoxy makers often suggest instead of welding.
+    notes: Also covers J-B Weld (brand), the epoxy makers often suggest instead of welding. Also covers epoxy on polystyrene foam, filler mixes by job, and slow epoxy for model hinge points and hole fills.
   # 139
   - name: Solvent welding (solvent cement)
     category: adhesives & bonding
@@ -618,7 +624,7 @@ items:
   - name: Hot-melt adhesive (glue gun)
     category: adhesives & bonding
     description: A plastic stick melted in a glue gun that sticks as it cools; quick and gap-filling but weak and softens with heat
-    notes: Also covers PLA glue sticks in a high-temperature glue gun, and a dab of hot glue to stop screw-terminal wires working loose.
+    notes: Also covers PLA glue sticks in a high-temperature glue gun, and a dab of hot glue to stop screw-terminal wires working loose. Also covers hot glue in foam-board folds and creases, foam-safe hot melts for polystyrene, and avoiding it on EVA foam that will be heat-formed.
   # 142
   - name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
     category: adhesives & bonding
@@ -666,6 +672,7 @@ items:
   - name: Shock-corded sectional pole
     category: tensioning, reels & take-up
     description: Tube sections with elastic cord running through them that pulls each joint home, so a tent pole or wand almost assembles itself
+    notes: Also covers kite spars split for carrying, which use the same ferrule joint without a cord.
   # 153
   - name: Ratchet tie-down strap (ratchet buckle)
     category: cord, strap, webbing & textile hardware
@@ -775,7 +782,7 @@ items:
   - name: Origami mechanisms (waterbomb, Kresling, thick-panel origami)
     category: compliant mechanisms & flexures
     description: Fold patterns used as joints so flat sheets or panels fold up, expand or twist in a planned way
-    notes: Also covers kirigami (a slit sheet that pops into 3D when stretched, and kirigami grippers).
+    notes: Also covers kirigami (a slit sheet that pops into 3D when stretched, and kirigami grippers). Also covers how paper pop-ups and origamic architecture differ from origami.
   # 179
   - name: Press-fit and expanding inserts (tap-in insert)
     category: print-in-place & 3D-printing joints
@@ -789,6 +796,7 @@ items:
   - name: Clip-on concealed hinge (cup hinge)
     category: hinges & pivots
     description: A hidden cabinet hinge that sits in a round pocket in the door and clips on and off its mounting plate without tools, with adjusting screws
+    notes: Also covers the drilled glass-door cup hinge with a cover cap.
   # 182
   - name: Invisible barrel hinge (Soss-type)
     category: hinges & pivots
@@ -957,6 +965,7 @@ items:
   - name: Internal tube anchors (star nut, expansion plug)
     category: clamping, magnetic & friction connections
     description: Parts pushed into the end of a tube that grip the inside with barbs, a squeezed rubber plug or a wedge, giving a thread or a clamp point
+    notes: Also covers threaded quick-release end adapters glued into carbon tube ends.
   # 222
   - name: Blind threaded fixings (rivet nut, well nut)
     category: clamping, magnetic & friction connections
@@ -965,11 +974,12 @@ items:
   - name: PVA wood glue (white and yellow glue)
     category: adhesives & bonding
     description: A water-based glue that dries by soaking into porous materials like wood, paper and cork; strong on wood, with water-resistant grades
-    notes: Also covers fabric and tacky glues (many are acrylic, not PVA) and anti-fray seam sealant.
+    notes: Also covers fabric and tacky glues (many are acrylic, not PVA) and anti-fray seam sealant. Also covers PVA on foam board and polystyrene foam, and its slow drying between foam faces.
   # 224
   - name: Contact adhesive (contact cement)
     category: adhesives & bonding
     description: A rubbery glue spread on both surfaces, left to dry until tacky, then pressed together to bond instantly; good for sheets, rubber, fabric and leather
+    notes: Also covers spray mount for paper and card, polystyrene-safe solvent contact glue, and EVA foam seams.
   # 225
   - name: Polyurethane glue (foaming moisture-cure glue)
     category: adhesives & bonding
@@ -982,10 +992,12 @@ items:
   - name: Silicone and MS-polymer adhesive sealants
     category: adhesives & bonding
     description: Rubbery glues that cure from moisture in the air into a flexible, waterproof bond that also seals gaps
+    notes: Also covers mirror adhesive and aquarium silicone.
   # 228
   - name: Elastomeric solvent glue (flexible craft glue)
     category: adhesives & bonding
     description: Thick, clear, rubbery solvent-based glues that stay flexible, for bonding dissimilar materials, fabric, shoes and jewellery
+    notes: Also covers why E6000 is a poor choice on polymer clay.
   # 229
   - name: Anaerobic adhesive (threadlocker, retaining compound)
     category: adhesives & bonding
@@ -1002,6 +1014,7 @@ items:
   - name: Epoxy putty (kneadable two-part putty)
     category: adhesives & bonding
     description: Two doughs kneaded together that set hard in place, for filling gaps, repairing and building up shapes that can then be drilled and tapped
+    notes: Also covers epoxy putty as the no-bake sculpting material over 3D prints, as armature reinforcement, and as a filler that locks pins in oversized holes.
   # 233
   - name: Elastic averaging (many-feature alignment)
     category: locating & alignment
@@ -1032,6 +1045,7 @@ items:
   - name: Tab-and-slot joint (self-fixturing sheet joint)
     category: interlocking joints & joinery
     description: Tabs on one flat part fit through slots in another so the parts hold each other in place, for laser-cut, CNC and sheet-metal assemblies
+    notes: Also covers how the flute direction of corrugated card affects tab-and-slot joints.
   # ---- joinery for wood, sheet and panels (lowest priority by making method) ----
   # 240
   - name: T-slot joint (captive nut and bolt joint)
@@ -1047,6 +1061,7 @@ items:
   - name: Cross-halving slot joint (egg-crate joint)
     category: interlocking joints & joinery
     description: Two flat parts each slotted halfway so they slide together into a cross, used for grids, dividers and slot-together furniture
+    notes: Also covers how the flute direction of corrugated card affects slotted cardboard joints.
   # ---- joinery for wood, sheet and panels (lowest priority by making method) ----
   # 243
   - name: Finger joint (box joint)
@@ -1123,7 +1138,7 @@ items:
   - name: Ordinary screw joint (bolt and nut, machine screw)
     category: clamping, magnetic & friction connections
     description: A bolt through the parts into a nut or tapped thread, clamping them together; the baseline everything else is compared with
-    notes: Also covers washers by job, the carriage (coach) bolt, and robot-kit hole grids.
+    notes: Also covers washers by job, the carriage (coach) bolt, and robot-kit hole grids. Also covers drilling carbon-fibre plate for bolts, and carbon dust safety.
   # 258
   - name: Self-tapping screw into plastic (thread-forming screw)
     category: print-in-place & 3D-printing joints
@@ -1145,7 +1160,7 @@ items:
   - name: Basic latches (spring latch, slide bolt, hook and eye)
     category: locks, latches & catches
     description: The everyday door latch with a sloped spring bolt, a sliding bolt, and a hook in an eye; the latch baseline
-    notes: Also covers the sewn garment hook and eye.
+    notes: Also covers the sewn garment hook and eye. Also covers the picture-frame turn button as the simplest swivelling latch.
   # 263
   - name: Knuckle hinge (butt hinge)
     category: hinges & pivots
@@ -1168,6 +1183,7 @@ items:
   - name: Spur gear pair and gear train (simple, compound, idler)
     category: gear trains, gearboxes & transmissions
     description: Straight-toothed gears on parallel shafts, alone or in chains, as the baseline way to change speed and turning force
+    notes: Also covers one central gear driving a ring of gears (all outer gears turn the same way, opposite to the centre) and the tooth-count rule for evenly spaced planets.
   # 268
   - name: Coil spring (compression, extension, torsion)
     category: springs & energy storage
@@ -1182,6 +1198,7 @@ items:
   - name: Glued joint design (butt, lap and scarf joints; peel vs shear)
     category: adhesives & bonding
     description: How the shape of a glued joint decides its strength, since most glues are strong in shear and weak when peeled or pulled straight apart
+    notes: Also covers bevelled seams in EVA foam, 12:1 scarf repairs in fibreglass and cored laminates, and plywood butt blocks.
   # 271
   - name: Butt and lap wood joints (screwed, pocket-hole, half-lap)
     category: interlocking joints & joinery
@@ -1195,6 +1212,7 @@ items:
   - name: Tongue-and-groove joint (incl. sliding-lid grooves)
     category: interlocking joints & joinery
     description: A ridge on one edge fitting a groove in the other, joining boards edge to edge or letting a lid slide into a box
+    notes: Also covers sliding glass cabinet doors in a double track.
   # 274
   - name: Blind rivet (pop rivet)
     category: interlocking joints & joinery
@@ -1241,6 +1259,7 @@ items:
   - name: Elastic band and elastic cord springs (elastomer springs)
     category: springs & energy storage
     description: Rubber bands, elastic cord or rubber tubing used as stretchy springs, for example to pull a printed finger straight again; they stretch much further than steel springs but creep and perish
+    notes: Also covers the rubber-band pop-up cube and rubber-band wing hold-downs on model planes.
   # 283
   - name: Soft pneumatic bending actuator (air-powered soft finger)
     category: hydraulics, pneumatics & vacuum
@@ -1317,6 +1336,7 @@ items:
   - name: Housing and rebate joints (dado, rabbet)
     category: interlocking joints & joinery
     description: A groove cut across a board (housing or dado) or a step cut along its edge (rebate or rabbet) that another board fits into, as in bookshelves and cabinet backs
+    notes: Also covers rebates in foam board, cut by knife or a foam-board rabbet cutter.
 
   # ==================== ADDED 2026-09-30: new family 'hydraulics, pneumatics & vacuum' ====================
   # 24 types from a web search for the new family (fluid-power-search-2026-09-29.md), in priority
@@ -1326,12 +1346,12 @@ items:
   - name: Syringe hydraulics (hydraulic lever, Pascal's principle)
     category: hydraulics, pneumatics & vacuum
     description: Two syringes or cylinders joined by a water-filled tube, so pushing one plunger pushes the other; a small one driving a big one trades distance for force, as in school hydraulic arms, car jacks and bike brakes
-    notes: Baseline entry for the family. Also covers master and slave cylinders (brakes), the hydraulic jack and press, water versus air (air feels spongy) and rolling-diaphragm hydrostatic transmissions for robot arms. Also covers hydraulic motion reduction for fine positioning (the micromanipulator principle). Also list gear trains, gearboxes & transmissions in other_families
+    notes: Baseline entry for the family. Also covers master and slave cylinders (brakes), the hydraulic jack and press, water versus air (air feels spongy) and rolling-diaphragm hydrostatic transmissions for robot arms. Also covers hydraulic motion reduction for fine positioning (the micromanipulator principle). Also list gear trains, gearboxes & transmissions in other_families. Also covers why several cylinders on one line don't stay in step, and how to keep them in step (a mechanical rack-and-pinion tie, or a flow divider).
   # 301
   - name: Air or hydraulic cylinder (pneumatic cylinder, hydraulic ram)
     category: hydraulics, pneumatics & vacuum
     description: A piston in a tube that pushes a rod out when air or oil is let in behind it; a single-acting cylinder returns by a spring or gravity, a double-acting one is driven both ways
-    notes: "Baseline entry for the family. Also covers telescopic, rodless and cable cylinders, the air gripper, feeding air to a moving cylinder, and printed cylinders. Safety: crush points, trapped air moving a stopped cylinder, hydraulic oil injection injuries. Also list sliding, telescoping & linear motion and powered & active connectors in other_families"
+    notes: 'Baseline entry for the family. Also covers telescopic, rodless and cable cylinders, the air gripper, feeding air to a moving cylinder, and printed cylinders. Safety: crush points, trapped air moving a stopped cylinder, hydraulic oil injection injuries. Also list sliding, telescoping & linear motion and powered & active connectors in other_families. Also covers keeping two cylinders fed through a tee in step.'
   # 302
   - name: Switching valve (directional control valve, solenoid valve)
     category: hydraulics, pneumatics & vacuum
@@ -1466,7 +1486,7 @@ items:
   - name: Shims, spacers and standoffs (packing, spacer washer)
     category: adjusters, levellers & spacers
     description: Thin packing pieces, washers or tubes put between parts to fill a gap, set a height or spacing, or lift a circuit board clear of a surface; the simplest way to adjust a fit
-    notes: "Baseline entry for the family. Also covers shim stock and peel shims, spacer washers, threaded standoffs for circuit boards and panels, and printed spacers. Tapered shims and folding wedges stay in Self-locking wedge. Also list locating & alignment in other_families"
+    notes: Baseline entry for the family. Also covers shim stock and peel shims, spacer washers, threaded standoffs for circuit boards and panels, and printed spacers. Tapered shims and folding wedges stay in Self-locking wedge. Also list locating & alignment in other_families. Also covers the difference between decorative sign standoffs and circuit-board standoffs.
   # 328
   - name: Welded metal joint (fusion welding; stick, MIG, TIG and gas welding)
     category: welding, brazing & soldering
@@ -1698,7 +1718,7 @@ items:
   - name: Staples for wood and fabric (staple gun, hammer tacker, cable staple)
     category: everyday fasteners & fixings
     description: A U-shaped wire fastener driven by a staple gun or hammer tacker, whose crown bridges what it holds, which suits fixing fabric, mesh, film or cables flat onto wood
-    notes: "Also covers upholstery and hog-ring uses and insulated cable staples. Safety: staple guns fire like nail guns; never fix mains cable with plain staples. Also list cord, strap, webbing & textile hardware in other_families"
+    notes: 'Also covers upholstery and hog-ring uses and insulated cable staples. Safety: staple guns fire like nail guns; never fix mains cable with plain staples. Also list cord, strap, webbing & textile hardware in other_families. Also covers desk (paper) stapling (the anvil''s permanent and temporary settings; flat-clinch, saddle and long-reach staplers; rust-resistant Monel staples for archival work; staplers for cardboard).'
   # 374
   - name: Shackle and quick link (D-shackle, bow shackle, maillon)
     category: cord, strap, webbing & textile hardware
@@ -1823,7 +1843,7 @@ items:
   - name: Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder)
     category: clamping, magnetic & friction connections
     description: Two jaws on a pivot, squeezed shut by a spring; you pinch the handles to open it and let go to clamp, as in clothes pegs, spring clamps and clip-on phone or lamp holders
-    notes: Also covers printed spring clamps and clips that use a rubber band as the spring. Also list springs & energy storage in other_families
+    notes: Also covers printed spring clamps and clips that use a rubber band as the spring. Also list springs & energy storage in other_families. Also covers the wire paper clip, the simplest spring clip.
   # 399
   - name: In-line swivel (rope swivel, chain swivel, ball-bearing swivel)
     category: cord, strap, webbing & textile hardware
@@ -1853,7 +1873,7 @@ items:
   - name: Soldered metal joint (soft soldering of metal parts, sweat-soldered copper pipe)
     category: welding, brazing & soldering
     description: Metal parts are joined by melting a low-melting tin alloy (solder) into a tight gap with a soldering iron or a small gas torch, as in copper water pipes, tin toys, stained glass and brass models
-    notes: "Also covers which metals solder easily, fluxes, copper-pipe capillary fittings (end-feed and solder-ring), lead-free solder for drinking water, and low-melting solders. Wire joints are Soldered wire joint. Safety: flux fumes can cause asthma, lead, and torch fires. Also list seals & pass-throughs and electrical connections in other_families"
+    notes: 'Also covers which metals solder easily, fluxes, copper-pipe capillary fittings (end-feed and solder-ring), lead-free solder for drinking water, and low-melting solders. Wire joints are Soldered wire joint. Safety: flux fumes can cause asthma, lead, and torch fires. Also list seals & pass-throughs and electrical connections in other_families. Also covers soldering stained glass (tin foiled seams before beading, don''t heat lead came, wash the piece at once).'
   # 405
   - name: Brazed joint (brazing, silver soldering, hard soldering)
     category: welding, brazing & soldering
@@ -1888,7 +1908,7 @@ items:
   - name: Score-and-fold hinge (scored crease, creasing, card hinge)
     category: compliant mechanisms & flexures
     description: A line pressed or lightly cut into paper or card so that it folds cleanly and accurately there, the fold itself then acting as the hinge, as in greeting cards, book covers, card boxes and papercraft models
-    notes: "Also covers scoring tools (bone folder, empty ballpoint pen, scoring board, rolling creaser), finding and folding with the paper grain, folding corrugated card across or along the flutes, half-cut (kiss-cut) scores for thick board, the cardboard rebate corner (peel away one liner and the flutes), mountain and valley folds, and folded ribs that stiffen cardboard. Fold patterns are Origami mechanisms, pop-up folds have their own entries. Safety: craft-knife cuts when half-cutting; cut away from the hand holding the ruler. Also list hinges & pivots and interlocking joints & joinery in other_families"
+    notes: 'Also covers scoring tools (bone folder, empty ballpoint pen, scoring board, rolling creaser), finding and folding with the paper grain, folding corrugated card across or along the flutes, half-cut (kiss-cut) scores for thick board, the cardboard rebate corner (peel away one liner and the flutes), mountain and valley folds, and folded ribs that stiffen cardboard. Fold patterns are Origami mechanisms, pop-up folds have their own entries. Safety: craft-knife cuts when half-cutting; cut away from the hand holding the ruler. Also list hinges & pivots and interlocking joints & joinery in other_families. Also covers lift-the-flap, harlequinade (turn-up) flaps and gatefolds in pop-up and children''s books.'
   # 411
   - name: Glued tab joint (glue tab, glue flap, construction tab; edge gluing with a backing strip)
     category: adhesives & bonding

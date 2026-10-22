@@ -212,7 +212,7 @@ pictures:
   drawn: false
 glossary: [misalignment, backlash, axial--radial, detent, ratchet, freewheel, sprag, torque, crank, linkage, actuator, deflection,
   clearance, tolerance, form-fit--force-fit--material-bond, spline, circlip, chamfer--fillet, undercut, layer-lines, elephants-foot,
-  peel-vs-shear]
+  peel-vs-shear, counter-rotating]
 ---
 
 <div class="eoc-pictures">
@@ -330,6 +330,7 @@ Engaging a dog clutch connects the drive instantly, so machinery can start movin
 - Centrifugal clutch: engages automatically as speed rises
 - Spline shaft (sliding spline) and hex shaft: the shaft the sliding half of a dog clutch runs on
 - Half nut (split nut): another positive, lever-operated engagement, used to connect a lathe carriage to its leadscrew
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: a dog clutch sliding between two loose bevel gears that turn opposite ways picks forward or reverse
 
 ## Make it yourself
 
