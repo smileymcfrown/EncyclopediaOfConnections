@@ -7,7 +7,7 @@ Writes, under site/ (all ignored by git, as they are made from content/):
 - src/content/docs/families/<family>.md: one page per family, listing its entries;
 - src/content/docs/glossary.md and needs-confirming.md (every ⚑ item, by family);
 - public/data/finder.json and finder-tree.json: the finder's data (tools/export_finder.py);
-- src/sidebar.json: the sidebar (start pages, then the 31 families).
+- src/sidebar.json: the sidebar (start pages, then the 32 families).
 
 SITE_BASE (default /EncyclopediaOfConnections) is the site's address under its host, as in
 site/astro.config.mjs.

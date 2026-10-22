@@ -5,7 +5,7 @@ All the ways to connect things. This is a beginner-friendly reference for hobbyi
 move, lock and adjust parts, and has a guided finder that turns plain questions into a
 shortlist of options. Each option has its proper name, so you can learn more.
 
-**Status: Beta, being built.** There are 409 connection types in 31 families. Each has a page in
+**Status: Beta, being built.** There are 452 connection types in 32 families. Each has a page in
 [`content/entries/`](content/entries/), and the finder is tested in
 [`research/finder-test/`](research/finder-test/). Anything nobody has confirmed yet is marked
 **⚑ needs confirming**. Corrections are welcome: see
