@@ -345,6 +345,12 @@ turns:
   meaning: 'For things that turn: less than a full turn (swings or rocks) or full turns (spins).'
   options: [part of a turn, full turns, not applicable]
 
+drive_split:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder questions "Which way does the power go?" and "How should the outputs move?" (under: Change a movement > Drive several things from one, or combine several into one). R36: one input driving several outputs, or several inputs combined into one.'
+  options: [same way, opposite ways, different speeds, 'pushes, pulls or flow shared out', combines inputs, not applicable]
+
 made_of:
   kind: list
   set_by: hand

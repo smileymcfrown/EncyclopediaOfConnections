@@ -29,6 +29,7 @@ POWER = {'electric': 'electricity', 'air': 'compressed air', 'liquid': 'liquid',
 def P(t): return TG('power_source', POWER[t])
 TURNING = ('steady turning', 'back-and-forth turning'); STRAIGHT = ('straight push or pull', 'back-and-forth straight')
 def MV(ins, outs): return AND(TG('motion_in', *ins), TG('motion_out', *outs))
+DRIVE_OUT = ('same way', 'opposite ways', 'different speeds', 'pushes, pulls or flow shared out')   # R36
 SHAFT = {'parallel': 'parallel', 'angle': 'at an angle', 'inline': 'in line', 'crossed': 'crossed', 'far': 'far apart'}
 def SH(*t): return TG('shaft_layout', *[SHAFT[x] for x in t])
 
@@ -219,7 +220,7 @@ TREE=Q('What do you need it to do?',
          A('Stop it or hold it still (brakes)', TG('slows_by', 'brake')),
          A('Cushion or smooth it (dampers)', TG('slows_by', 'damper')),
          A('Keep a steady speed or level', TG('slows_by', 'steady speed or level')))))),
- A('Change a movement (speed, force or kind of motion)', OR(J('change speed or turning force','change the kind of motion'), F('motion conversion','gear trains, gearboxes & transmissions')),
+ A('Change a movement (speed, force or kind of motion)', OR(J('change speed or turning force','change the kind of motion'), F('motion conversion','gear trains, gearboxes & transmissions'), TG('drive_split', *DRIVE_OUT, 'combines inputs')),
    Q('What change do you need?',
      A('Faster, slower or stronger turning', OR(J('change speed or turning force',k=1), F('gear trains, gearboxes & transmissions')), Q('How are the input and output shafts arranged?',
          A('Side by side (parallel)', SH('parallel')),
@@ -234,7 +235,14 @@ TREE=Q('What do you need it to do?',
      A('A push or pull moved, multiplied or redirected', OR(MV(STRAIGHT, STRAIGHT), MV(('back-and-forth turning',), STRAIGHT)), Q('How?',
          A('Levers and linkages', TG('push_by', 'levers and linkages')),
          A('Cables, ropes, pulleys or liquid in tubes', TG('push_by', 'cables, pulleys or liquid')))),
-     A('Make movement from air, liquid, suction or heat', TG('motion_in', 'pressure', 'heat')))),
+     A('Make movement from air, liquid, suction or heat', TG('motion_in', 'pressure', 'heat')),
+     A('Drive several things from one, or combine several into one', TG('drive_split', *DRIVE_OUT, 'combines inputs'), Q('Which way does the power go?',
+         A('One input drives several outputs', TG('drive_split', *DRIVE_OUT), Q('How should the outputs move?',
+             A('All turn the same way, in step', TG('drive_split', 'same way')),
+             A('Some turn the opposite way, or two turn opposite ways on one axis', TG('drive_split', 'opposite ways')),
+             A('At different speeds, or free to turn at different speeds', TG('drive_split', 'different speeds')),
+             A('Pushes, pulls or flow shared out (cams, cables, levers, air or liquid)', TG('drive_split', 'pushes, pulls or flow shared out')))),
+         A('Several inputs combine into one (add movements, or share a load)', TG('drive_split', 'combines inputs')))))),
  A('Tighten something, or take up slack', OR(J('tighten and hold tension'), F('tensioning, reels & take-up')),
    Q('What are you tightening?',
      A('A strap, lace, cord or rope', TG('tightens', 'strap, cord or rope'), Q('How should it hold?',

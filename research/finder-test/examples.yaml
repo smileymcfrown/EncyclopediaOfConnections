@@ -852,6 +852,45 @@
   - Make movement from air, liquid, suction or heat
   example: an air cylinder on a machine, a soft robot finger, a hydraulic jack
 - path:
+  - Change a movement (speed, force or kind of motion)
+  - Drive several things from one, or combine several into one
+  example: one motor turning both lead screws of a 3D printer, two propellers turning opposite ways, two motors on one robot arm
+  explain: One shaft, lever or pump moving several things at once, or several motors or levers working one thing. The guide page "Driving several things from one" has the rules for which way each output turns.
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Drive several things from one, or combine several into one
+  - One input drives several outputs
+  example: a belt turning three pulleys, a camshaft lifting several valves, one brake lever working two brakes
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Drive several things from one, or combine several into one
+  - One input drives several outputs
+  - All turn the same way, in step
+  example: two lead screws linked by one toothed belt, a line shaft driving several machines
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Drive several things from one, or combine several into one
+  - One input drives several outputs
+  - Some turn the opposite way, or two turn opposite ways on one axis
+  example: two meshing gears, a crossed belt, counter-rotating propellers on a coaxial drone
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Drive several things from one, or combine several into one
+  - One input drives several outputs
+  - At different speeds, or free to turn at different speeds
+  example: a car differential letting the wheels turn at different speeds on a bend, stepped pulleys on a lathe
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Drive several things from one, or combine several into one
+  - One input drives several outputs
+  - Pushes, pulls or flow shared out (cams, cables, levers, air or liquid)
+  example: a camshaft in an automaton, a cable splitter for two brakes, one syringe working several cylinders
+- path:
+  - Change a movement (speed, force or kind of motion)
+  - Drive several things from one, or combine several into one
+  - Several inputs combine into one (add movements, or share a load)
+  example: two motors driving one gantry, a differential adding two motions, a hand crank or a motor driving the same shaft
+- path:
   - Tighten something, or take up slack
   example: tightening a strap, tensioning a belt, a guy line
 - path:
