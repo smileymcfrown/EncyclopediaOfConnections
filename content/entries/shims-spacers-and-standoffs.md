@@ -91,7 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites]
 needs_confirming:
   connects:
     kind: best guess

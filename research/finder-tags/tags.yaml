@@ -445,7 +445,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming: {}
   confirmed: []
 - num: 8
@@ -507,7 +507,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming:
     usual_process:
       kind: best guess
@@ -1020,7 +1020,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming: {}
   confirmed: []
 - num: 17
@@ -2278,7 +2278,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming:
     clicks:
       kind: best guess
@@ -3173,7 +3173,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts']
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', foam]
   needs_confirming:
     usual_process:
       kind: best guess
@@ -4207,7 +4207,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [part of a turn]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, clay or putty, glass or mirror]
   needs_confirming: {}
   confirmed: []
 - num: 66
@@ -5565,7 +5565,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming: {}
   confirmed: []
 - num: 87
@@ -5627,7 +5627,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [part of a turn]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming: {}
   confirmed: []
 - num: 88
@@ -5689,7 +5689,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
   needs_confirming:
     usual_process:
       kind: best guess
@@ -6335,7 +6335,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming: {}
   confirmed: []
 - num: 99
@@ -6659,7 +6659,7 @@
     powered_does: [lock or hold]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, wood, metal]
+    made_of: [3D prints, wood, metal, glass or mirror]
   needs_confirming:
     connects:
       kind: best guess
@@ -7182,7 +7182,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty]
   needs_confirming: {}
   confirmed: []
 - num: 112
@@ -8089,8 +8089,13 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
-  needs_confirming: {}
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam, 'fabric, leather or cord']
+  needs_confirming:
+    made_of:
+      kind: best guess
+      reason: 'still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): Same harness
+        use (search results described straps and buckles glued to foam armour with contact cement, but that Instructables
+        page would not render, so ).'
   confirmed: []
 - num: 126
   name: Cord lock (spring toggle)
@@ -8479,9 +8484,14 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather
-        or cord']
-  needs_confirming: {}
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror,
+      'fabric, leather or cord']
+  needs_confirming:
+    made_of:
+      kind: best guess
+      reason: 'still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md):
+        Rubber seals on glass jar lids and flip-tops (Wikipedia "Flip-top": "fitted with a rubber gasket").  The
+        JSON itself has no glass quote.'
   confirmed: []
 - num: 132
   name: Labyrinth seal (baffle seal)
@@ -8882,7 +8892,8 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty, 'fabric, leather
+        or cord']
   needs_confirming: {}
   confirmed: []
 - num: 138
@@ -8948,8 +8959,8 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites,
-      glass or mirror]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty, carbon fibre
+        or composites, glass or mirror]
   needs_confirming:
     bonds_well:
       kind: source uncertain
@@ -9096,7 +9107,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, clay or putty, glass or mirror]
   needs_confirming:
     bonds_well:
       kind: source uncertain
@@ -9245,7 +9256,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror]
   needs_confirming:
     bonds_well:
       kind: source uncertain
@@ -10229,7 +10240,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror, 'fabric, leather
         or cord']
   needs_confirming: {}
   confirmed: []
@@ -11190,9 +11201,13 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric,
-        leather or cord']
-  needs_confirming: {}
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites,
+      'fabric, leather or cord']
+  needs_confirming:
+    made_of:
+      kind: best guess
+      reason: 'still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com:
+        "Heavy-duty snaps through drilled holes in the armor" (rigid armour; same use on foam ).'
   confirmed: []
 - num: 173
   name: Spring-steel push-on fasteners (push nut, speed nut, U-nut)
@@ -11536,7 +11551,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, metal]
+    made_of: [3D prints, metal, carbon fibre or composites]
   needs_confirming:
     connects:
       kind: best guess
@@ -14333,7 +14348,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
   needs_confirming: {}
   confirmed: []
 - num: 221
@@ -14531,7 +14546,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [wood, paper or card, 'fabric, leather or cord']
+    made_of: [wood, paper or card, foam, clay or putty, 'fabric, leather or cord']
   needs_confirming: {}
   confirmed: []
 - num: 224
@@ -14811,7 +14826,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror]
   needs_confirming:
     bonds_well:
       kind: source uncertain
@@ -15647,7 +15662,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam]
   needs_confirming: {}
   confirmed: []
 - num: 240
@@ -15962,7 +15977,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
   needs_confirming: {}
   confirmed: []
 - num: 245
@@ -16972,7 +16987,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
   needs_confirming:
     connects:
       kind: best guess
@@ -17235,11 +17250,16 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [part of a turn, full turns]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming:
     connects:
       kind: best guess
       reason: joins parts, but no specific kind of part found; set to any solid parts
+    made_of:
+      kind: best guess
+      reason: 'still unsure: added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): Adafruit:
+        rivets "can be used for rotating pivot points and joints" in cardboard; skewer axles in card automata are
+        pin-in-hole pivots  (no page opened for skewers)'
   confirmed: []
 - num: 265
   name: Linear guides (bushings on rods, wheels or carriages on rails)
@@ -17424,7 +17444,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [full turns]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming:
     tools:
       kind: source uncertain
@@ -17555,11 +17575,15 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
   needs_confirming:
     clicks:
       kind: best guess
       reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+    made_of:
+      kind: best guess
+      reason: 'still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com:
+        harness with "nylon webbing, adjustable buckles, and D-rings" carrying the armour.'
   confirmed: []
 - num: 270
   name: Glued joint design (butt, lap and scarf joints; peel vs shear)
@@ -17623,7 +17647,8 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty,
+      carbon fibre or composites]
   needs_confirming: {}
   confirmed: []
 - num: 271
@@ -17685,7 +17710,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
   needs_confirming: {}
   confirmed: []
 - num: 272
@@ -17809,7 +17834,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
   needs_confirming:
     tools:
       kind: source uncertain
@@ -18402,7 +18427,8 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty,
+      'fabric, leather or cord']
   needs_confirming:
     connects:
       kind: best guess
@@ -19526,7 +19552,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, glass or mirror]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam, glass or mirror]
   needs_confirming: {}
   confirmed: []
 - num: 300
@@ -19588,7 +19614,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming: {}
   confirmed: []
 - num: 301
@@ -21417,7 +21443,7 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites]
   needs_confirming:
     connects:
       kind: best guess
@@ -24380,7 +24406,8 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, 'fabric, leather or
+        cord']
   needs_confirming: {}
   confirmed: []
 - num: 373
@@ -25539,8 +25566,8 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or
-        cord']
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather
+        or cord']
   needs_confirming: {}
   confirmed: []
 - num: 391
@@ -26062,9 +26089,14 @@
     powered_does: [not applicable]
     also_under: [not applicable]
     turns: [not applicable]
-    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or
-        cord']
-  needs_confirming: {}
+    made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, glass or mirror, 'fabric,
+        leather or cord']
+  needs_confirming:
+    made_of:
+      kind: best guess
+      reason: 'still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md):
+        Binder clips (''binder clip'' or ''foldback clip'') are the usual way to hold a 3D-printer glass bed.  That
+        use is not stated in the JSON: Printables ''glass bed clip'' results show it.'
   confirmed: []
 - num: 399
   name: In-line swivel (rope swivel, chain swivel, ball-bearing swivel)

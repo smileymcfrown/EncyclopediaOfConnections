@@ -85,7 +85,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty]
 needs_confirming: {}
 confirmed: []
 open_points: []

@@ -92,8 +92,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror, 'fabric,
+      leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: 'still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Rubber seals
+      on glass jar lids and flip-tops (Wikipedia "Flip-top": "fitted with a rubber gasket").  The JSON itself has no glass
+      quote.'
 confirmed: []
 open_points:
 - kind: content
@@ -356,6 +362,7 @@ Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it give
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, glass or mirror, fabric, leather or cord (best guess): still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Rubber seals on glass jar lids and flip-tops (Wikipedia "Flip-top": "fitted with a rubber gasket").  The JSON itself has no glass quote.
 - ⚑ Research note: *Gasket* (131): EPDM-backed roofing washers left out (not on the Wikipedia page).
 
 ## Sources

@@ -86,8 +86,13 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
-needs_confirming: {}
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam, 'fabric, leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: 'still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): Same harness use (search
+      results described straps and buckles glued to foam armour with contact cement, but that Instructables page would not
+      render, so ).'
 confirmed: []
 open_points: []
 uncertain_fields: [off_the_shelf_parts, environment_limits, safety_notes, related, make_it_yourself]
@@ -352,6 +357,7 @@ A plastic buckle can break suddenly under a shock load; one patent gives the exa
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, foam, fabric, leather or cord (best guess): still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): Same harness use (search results described straps and buckles glued to foam armour with contact cement, but that Instructables page would not render, so ).
 
 ## Sources
 

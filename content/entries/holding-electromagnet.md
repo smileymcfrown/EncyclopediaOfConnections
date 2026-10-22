@@ -88,7 +88,7 @@ finder:
   powered_does: [lock or hold]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, wood, metal]
+  made_of: [3D prints, wood, metal, glass or mirror]
 needs_confirming:
   connects:
     kind: best guess
