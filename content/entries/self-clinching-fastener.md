@@ -92,10 +92,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits, safety_notes]
@@ -305,7 +302,6 @@ Installation needs several tonnes of force (e.g. 11-16 kN for an M3 nut in steel
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

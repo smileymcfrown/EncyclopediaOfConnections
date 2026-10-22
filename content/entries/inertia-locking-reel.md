@@ -100,9 +100,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "To fit: spanner or socket for the anchor bolts [uncertain: specific
       bolt types vary]. T…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, play_and_precision, materials, processes, print_in_place, making_tips_3d_printing, off_the_shelf_parts,
@@ -326,7 +323,6 @@ Life-safety device: never modify, bypass or 3D print one for real use. The rewin
 - ⚑ 16 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "To fit: spanner or socket for the anchor bolts ⚑ [uncertain: specific bolt types vary]. T…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

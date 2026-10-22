@@ -90,11 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -390,7 +387,6 @@ A locked ball head or mount can let go suddenly if the knob is loosened with a h
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Ball-and-socket joint* (65): the pyramid alignment adaptor's tilt differs by size: ±5° for Blatchford's child-size mini adaptor (938373) and ±7° for its full-size one (938050), both recorded. Its exact geometry ('an inverted four-sided pyramid' pressed by four set screws) is only in patents that couldn't be read, so the entry says 'a pyramid-shaped boss in a socket with four set screws'.
 
 ## Sources

@@ -94,9 +94,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -354,7 +351,6 @@ A swivel can be the weakest link in a line: Wikipedia says 'the biggest concern 
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `made_of` = 3D prints, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *In-line swivel*: fishing-swivel strengths from Talk Sea Fishing and British Sea Fishing recorded side by side; Crosby G-402 swivels 'are not intended to rotate under load' (quoted by a retailer, Defender) and its 5/8 in figures (5,200 lb working load, 26,000 lb break) come from a seller (Fastenersplus); the hardware-store swivel data sheet read (Koelner T-OOK) gives no load rating. The alias 'box swivel' has no opened source ([uncertain]); the Seabreeze article the scope search used returned 403, so fishing guides were used instead.
 
 ## Sources

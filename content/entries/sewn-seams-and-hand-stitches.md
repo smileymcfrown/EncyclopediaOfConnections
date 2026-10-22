@@ -98,11 +98,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: ['fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -379,7 +376,6 @@ Sharp tools: needles, awls, pricking irons struck with a mallet, knives and rota
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 2 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Sewn seams*: the FAA *Parachute Rigger Handbook* gives 5-cord nylon thread as 40 lb in its table (p. 3-14) and 45 lb in its text (p. 5-19); French seam allowances differ between Wikipedia and Ripstop by the Roll; sources differ on sealing a seam inside or outside (Extremtextil, Six Moon Designs, Gear Aid). Tandy writes a thread-end trim of '1/8" (1 mm)', though 1/8 in is about 3 mm.
 
 ## Sources

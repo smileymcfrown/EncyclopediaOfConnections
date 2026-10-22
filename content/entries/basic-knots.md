@@ -93,15 +93,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  made_of: [3D prints, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: cord, string or rope"; knots family, so set to by hand (tied or
       wrapped)'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -353,7 +350,6 @@ Knots are not for climbing, lifting or holding people without training and rated
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: cord, string or rope"; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Basic knots*: knot strength recorded side by side (Wikipedia *Knot* 40-80% kept; *Rope splicing* a 20-40% loss; Animated Knots 'no more than 50%'; Petrulis & Petrulyte 2012: square knot 37-49% in flax yarn, 43-47% in cited rope tests; Wikipedia's overhand infobox 50%, unsourced). The reef knot has two ABOK numbers (#1204 and #1402); both are in `aliases`.
 
 ## Sources

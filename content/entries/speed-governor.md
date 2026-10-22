@@ -99,9 +99,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, making_tips_3d_printing, environment_limits, safety_notes, make_it_yourself]
@@ -362,7 +359,6 @@ The main hazard is the spring or weight that drives it: if a governor fails or i
 - ⚑ Finder value `motion_in` = steady turning (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `motion_out` = pressure, heat (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

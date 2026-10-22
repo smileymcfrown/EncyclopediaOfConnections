@@ -93,7 +93,8 @@ finder:
   powered_does: [grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites,
+    'fabric, leather or cord']
 needs_confirming:
   power_source:
     kind: best guess
@@ -104,9 +105,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [power, making_tips_3d_printing, environment_limits, safety_notes, related]
@@ -356,7 +354,6 @@ Vacuum sources: shop vacuum or wet-dry vacuum, vacuum motors (as used in central
 - ⚑ Finder value `power_source` = electricity, compressed air, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (source uncertain): `power` is marked ⚑ [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice ⚑ [uncertain]…"
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

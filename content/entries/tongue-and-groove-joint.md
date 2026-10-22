@@ -100,9 +100,6 @@ needs_confirming:
     reason: 'carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding
       lid opens by sliding, which none of the three answers covers; ''catch or lever'' is wrong, but dropping it would lose
       sliding-lid boxes from the lid shortlist'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [removability, reuse_cycles, tools_needed, seal, processes, making_tips_3d_printing, when_not_to_use]
@@ -376,7 +373,6 @@ Tongue-and-groove router bits are large and heavy: use a powerful, variable-spee
 - ⚑ Finder value `reuse_cycles` = effectively unlimited (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…unlimited for a sliding lid, until the grooves wear or the wood warps ⚑ [uncertain];…"
 - ⚑ Finder value `tools` = press or vice, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…s for glued panels; nails for floors, possibly with a flooring nailer ⚑ [uncertain].…"
 - ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding lid opens by sliding, which none of the three answers covers; 'catch or lever' is wrong, but dropping it would lose sliding-lid boxes from the lid shortlist
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

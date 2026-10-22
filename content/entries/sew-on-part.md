@@ -88,9 +88,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "3d print (fdm): the usual case; holes, l"; knots family, so set to sewing or leatherwork'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, common_failures]
@@ -344,7 +341,6 @@ Never trust a sewn-on part or home-sewn joint to hold a person (climbing, harnes
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = sewing or leatherwork (best guess): first-listed process was "3d print (fdm): the usual case; holes, l"; knots family, so set to sewing or leatherwork
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

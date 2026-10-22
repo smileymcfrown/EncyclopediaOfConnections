@@ -109,9 +109,6 @@ needs_confirming:
   plugs_in:
     kind: best guess
     reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -363,7 +360,6 @@ MAINS: this entry gives no mains wiring steps, and mains use must follow local l
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…y times for lever types, which are made to be opened and closed again ⚑ [uncertain:…"
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Finder value `plugs_in` = no (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Spring-clamp wire connector*: no pull-out figure and no rated number of lever open/close cycles could be found ([uncertain]).
 
 ## Sources

@@ -84,7 +84,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, metal, carbon fibre or composites, glass or mirror]
+  made_of: [3D prints, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -96,9 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws
       [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, special_behaviour, reuse_cycles, tools_needed, materials, processes, print_in_place, making_tips_3d_printing,
@@ -333,7 +330,6 @@ Cut tape-measure steel has very sharp edges; cover them with tough tape (Naked S
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, metal, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

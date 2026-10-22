@@ -91,9 +91,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [processes, links]
@@ -374,7 +371,6 @@ The point where the chain runs onto a sprocket is an in-running nip point that c
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -106,9 +106,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -368,7 +365,6 @@ VOLTAGE: 'Even so-called isolated binding posts are typically not sufficiently i
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Binding post and banana plug*: Wikipedia's claim that EU amplifiers ship with plastic plugs in their banana sockets is 'citation needed' there, so it is marked [uncertain].
 
 ## Sources

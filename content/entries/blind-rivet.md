@@ -99,10 +99,7 @@ finder:
   turns: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, 'fabric,
       leather or cord']
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, environment_limits, safety_notes, common_failures]
@@ -378,7 +375,6 @@ Wear safety glasses when setting rivets: 'Safety glasses should be worn at all t
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

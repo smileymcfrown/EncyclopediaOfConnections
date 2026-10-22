@@ -104,9 +104,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: []
@@ -377,7 +374,6 @@ Air-receiver (compressor tank) safety valves, fixed or adjustable; small adjusta
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `made_of` = 3D prints, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

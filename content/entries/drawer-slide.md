@@ -93,15 +93,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   adjustable:
     kind: source uncertain
     reason: '`adjustable` is marked [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments
       [uncertain]), and travel, detent force a…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -379,7 +376,6 @@ Pinch points between the moving members and at the drawer front. Loaded, fully e
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `adjustable` = no (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force a…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

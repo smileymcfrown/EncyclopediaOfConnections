@@ -104,9 +104,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`processes` is marked [uncertain] here: "…: rings, discs, nut carriers and gears are simple flat or round parts
       [uncertain: no tested printable model of…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -339,7 +336,6 @@ The stop takes the whole motor torque and the turret's momentum at once; a weak 
 - ⚑ Finder value `print_in_place` = no (source uncertain): `print_in_place` is marked ⚑ [uncertain] here: "no ⚑ [uncertain]:…"
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…r for clock and watch stop work; none for push-together printed rings ⚑ [uncertain]…"
 - ⚑ Finder value `usual_process` = 3D print (FDM) (source uncertain): `processes` is marked ⚑ [uncertain] here: "…: rings, discs, nut carriers and gears are simple flat or round parts ⚑ [uncertain: no tested printable model of…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Multi-turn rotation limiter*: what clock stop work is for. Wikipedia says it keeps the mainspring in the flat middle of its torque curve; Vintage Watch Straps calls that a myth (it stops over-winding). The entry gives only the over-winding reason; decide whether to mention both.
 
 ## Sources

@@ -96,9 +96,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -322,7 +319,6 @@ Miniature diaphragm vacuum pump or hand vacuum pump; [venturi](../glossary.md#ve
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, paper or card, foam, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Vacuum-driven artificial muscle*: two `safety_notes` points (keep fingers clear; it drops its load if the vacuum is lost) are the agent's reasoning from the mechanism, not from a source, and are not marked. The entry has only 12 sources.
 
 ## Sources

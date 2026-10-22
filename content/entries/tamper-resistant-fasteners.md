@@ -108,9 +108,6 @@ needs_confirming:
   load_max:
     kind: source uncertain
     reason: '`load` is marked [uncertain] here: "…ame size and material, because the special shape is only in the drive [uncertain…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -372,7 +369,6 @@ Button and coin cells are a serious swallowing hazard for children; in the USA p
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = heavy (source uncertain): `load` is marked ⚑ [uncertain] here: "…ame size and material, because the special shape is only in the drive ⚑ [uncertain…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Tamper-resistant fasteners*: Wikipedia *Torx* says a small flat screwdriver can turn a pin-in Torx between its lobes; *List of screw drives* says the pin prevents this. Both recorded. No source compares a security screw's strength with a plain screw's ([uncertain]).
 
 ## Sources

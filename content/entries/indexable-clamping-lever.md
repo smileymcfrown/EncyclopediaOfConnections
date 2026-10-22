@@ -85,15 +85,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket)
       [uncertain: varies by model]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, input_output, tools_needed, load, play_and_precision, processes, making_tips_3d_printing, rules_of_thumb,
@@ -327,7 +324,6 @@ Pinch point: the spring snaps the lever back down when you let go, and a swingin
 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket) ⚑ [uncertain: varies by model]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

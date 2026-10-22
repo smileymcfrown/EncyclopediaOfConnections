@@ -83,7 +83,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   shaft_layout:
     kind: best guess
@@ -92,9 +92,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope
       ends [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, making_tips_3d_printing, everyday_examples, when_not_to_use, environment_limits, safety_notes,
@@ -312,7 +309,6 @@ The pre-tensioned cable stores energy and can whip if it or an anchor breaks, so
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
 - ⚑ Finder value `tools` = crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope ends ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

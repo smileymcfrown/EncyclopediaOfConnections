@@ -84,14 +84,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  made_of: [3D prints, metal]
 needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -344,7 +341,6 @@ A bare spinning core can catch hair, clothing or skin; keep it in its casing, wh
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = at an angle, in line, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

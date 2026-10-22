@@ -107,9 +107,6 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: 'several overload behaviours named: clicks or pops out and resets, slips and keeps going'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, environment_limits, common_failures]
@@ -385,7 +382,6 @@ Generally low risk, but: 1) Over-inflation: a pump that keeps going can burst wh
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
 - ⚑ Finder value `overload_response` = slips and keeps going (best guess): several overload behaviours named: clicks or pops out and resets, slips and keeps going
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

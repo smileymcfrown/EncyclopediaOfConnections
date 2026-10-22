@@ -89,7 +89,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, glass or mirror]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -99,9 +99,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…bles models), but no manufacturer data for printed surfaces was found
       [uncertain].…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [load, materials, making_tips_3d_printing, environment_limits, related]
@@ -323,7 +320,6 @@ The main hazard is the object falling: 3M warns not to hang items over beds, not
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = ABS or ASA, slippery plastics (PE or PP), silicone, acrylic or polycarbonate, wood, metal, glass or ceramic, rubber, foam, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…bles models), but no manufacturer data for printed surfaces was found ⚑ [uncertain].…"
 - ⚑ Finder value `bonds_poorly` = PLA, PETG, paper or card (source uncertain): `materials` is marked ⚑ [uncertain] here: "…bles models), but no manufacturer data for printed surfaces was found ⚑ [uncertain].…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, carbon fibre or composites, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

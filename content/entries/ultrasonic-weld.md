@@ -99,11 +99,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam, 'fabric, leather or cord']
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -345,7 +342,6 @@ HORN AND PRESS: 'operators must never place hands or arms near the welding tip w
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, foam, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Ultrasonic weld*: horn amplitude differs (Herrmann 5-50 µm; DuPont 50-150 µm), both recorded; energy-director height from three sources (Dukane 0.25-0.75 mm; Branson 0.25-0.5 mm; DuPont 0.4 mm for 1.5-3 mm walls). Cheap 28 or 35 kHz handheld welders were seen only in search results (listings returned 403), so `off_the_shelf_parts` is [uncertain]; no peel-strength figures found. The DuPont design guide was read from a distributor copy (distrupol.com).
 
 ## Sources

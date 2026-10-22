@@ -88,7 +88,7 @@ finder:
   powered_does: [lock or hold]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -96,9 +96,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: lets go, stays locked'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, environment_limits, safety_notes]
@@ -353,7 +350,6 @@ Doors that people walk through: a maglock must release for exit; the Life Safety
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, stays locked
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

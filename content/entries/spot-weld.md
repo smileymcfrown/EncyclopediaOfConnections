@@ -91,15 +91,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, metal]
+  made_of: [metal]
 needs_confirming:
   electrical_band:
     kind: source uncertain
     reason: '`load` is marked [uncertain] here: "Electrical: up to about 30 A per nickel strip [uncertain: depends on strip
       width and t…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -355,7 +352,6 @@ SPARKS AND FIRE: 'it is common for a spray of molten metal droplets (sparks) to 
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = up to about 30 A (source uncertain): `load` is marked ⚑ [uncertain] here: "Electrical: up to about 30 A per nickel strip ⚑ [uncertain: depends on strip width and t…"
-- ⚑ Finder value `made_of` = 3D prints, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Spot weld*: galvanised steel advice differs (Miller: don't weld it unless the coating is removed and you wear an air-supplied respirator; TWI: general ventilation is usually enough), both recorded; the 'up to about 30 A per strip' rating and 'use pure nickel, not nickel-plated steel' (one Hackaday reader) are [uncertain]; 7 fields are marked.
 
 ## Sources

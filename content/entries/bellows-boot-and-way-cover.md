@@ -88,7 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   tools:
     kind: source uncertain
@@ -97,9 +97,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -361,7 +358,6 @@ Low risk in itself; a bellows usually improves safety by covering pinch points b
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…tted with the driveshaft removed and secured with special boot clamps ⚑ [uncertain: not checked in an opened sou…"
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Bellows boot*: `other_families` lists compliant mechanisms & flexures (the agent's choice, not asked for in the outline notes). Likewise *Bellows and inflatable actuators* adds springs & energy storage.
 
 ## Sources

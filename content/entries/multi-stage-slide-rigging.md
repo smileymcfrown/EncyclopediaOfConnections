@@ -86,7 +86,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, metal, carbon fibre or composites]
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   motion_in:
     kind: best guess
@@ -101,9 +101,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying
       [uncertain]. A clamp, vice or arbor pres…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes, links,
@@ -352,7 +349,6 @@ The sliding stages and pulleys form pinch and shear points that move quickly (in
 - ⚑ Finder value `motion_out` = straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor pres…"
-- ⚑ Finder value `made_of` = 3D prints, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

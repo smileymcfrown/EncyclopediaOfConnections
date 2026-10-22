@@ -98,15 +98,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  made_of: [3D prints, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: rope or cord, tied b"; knots family, so set to by hand (tied or
       wrapped)'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -373,7 +370,6 @@ A home-made knot must never hold a person: for anything that holds a person, use
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: rope or cord, tied b"; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Fixed loop knots*: Šimon et al. 2020 (*Acta Physica Polonica A*) give the force that opens a bowline when its loop is pulled apart from inside as about 1.95 kN, against about 10.8 kN for the left-hand bowline.
 
 ## Sources

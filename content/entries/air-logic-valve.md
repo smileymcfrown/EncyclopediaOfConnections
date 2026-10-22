@@ -96,7 +96,7 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   power_source:
     kind: best guess
@@ -107,9 +107,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -389,7 +386,6 @@ Shuttle valve (OR valve); two-pressure valve (AND valve, dual-pressure valve); N
 - ⚑ Finder value `power_source` = electricity, compressed air, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, paper or card (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

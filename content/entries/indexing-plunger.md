@@ -92,10 +92,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, play_and_precision, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes,
@@ -337,7 +334,6 @@ Pulling the pin releases whatever it was holding: a seat, table or arm can drop 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 11 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -94,14 +94,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, metal]
+  made_of: ['plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -341,7 +338,6 @@ Burns: the heat gun and the splice get hot; TE warns 'allow tool and the assembl
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `made_of` = 3D prints, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Solder sleeve*: sellers' operating ratings for Sn42Bi58 sleeves disagree (Markertek 125 °C, Quick Cable 110 °C); both recorded. TE's CWT series uses a cadmium-bearing solder (Sn50Pb32Cd18), worth a safety line when publishing. Reports of sleeves that looked good but had not bonded (an iATN teardown, a Hobby-Machinist thread) are labelled as forum and technician reports. No one publishes a current rating for the sleeve itself; its 'up to about 30 A' band, like that of *Standard plug-and-socket connector*, is the agent's judgement, explained in the text.
 
 ## Sources

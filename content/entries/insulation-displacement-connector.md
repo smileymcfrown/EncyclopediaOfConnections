@@ -90,7 +90,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, metal, 'fabric, leather or cord']
+  made_of: ['plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   load_max:
     kind: best guess
@@ -98,9 +98,6 @@ needs_confirming:
   plugs_in:
     kind: best guess
     reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -350,7 +347,6 @@ Cheap fold-over taps cut into or chew through the wire and fail, and Hackaday wa
 
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Finder value `plugs_in` = yes (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
-- ⚑ Finder value `made_of` = 3D prints, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Insulation-displacement connector*: Wikipedia shows certified 230 V Australian outlets with IDC terminals, against the outline's 'signal only'; the entry keeps 'up to about 3 A, extra-low voltage only' and names the certified mains exception in `safety_notes`. Punch-down tools: Wikipedia says a screwdriver springs the blades apart; a DigiKey forum post says one 'can work in a pinch'. *Standard plug-and-socket connector* also lists seals & pass-throughs in `other_families` (sealed panel connectors pass through walls); the outline asked only for quick-release & tool-free.
 
 ## Sources

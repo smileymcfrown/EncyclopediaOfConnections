@@ -102,7 +102,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   overload_response:
     kind: best guess
@@ -111,9 +111,6 @@ needs_confirming:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: rope, cord, paracord"; knots family, so set to by hand (tied or
       wrapped)'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -381,7 +378,6 @@ Friction hitches can let go suddenly: in slippery cord, under a jerk, or if the 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `overload_response` = slips and keeps going (best guess): several overload behaviours named: clicks or pops out and resets, slips and keeps going
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: rope, cord, paracord"; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Tensioning and adjustable hitches*: recorded side by side: trucker's hitch gain (3:1 in theory, about 1.6:1 in practice, 2:1 when lifting a hanging weight); Prusik slip and break loads (5.3-9.5 kN quoted in the literature against measured averages of 14.1-14.8 kN on new rope and 10.9-11.2 kN on old rope, McCullar's USFA study); Practical Sailor 2009 (the rolling hitch slipped on every material but one, the icicle hitch held on all).
 
 ## Sources

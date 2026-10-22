@@ -92,14 +92,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -378,7 +375,6 @@ Pinch point: fingers can be trapped between the lever and the base, or between t
 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

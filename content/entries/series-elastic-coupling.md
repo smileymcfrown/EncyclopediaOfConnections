@@ -89,7 +89,7 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [part of a turn]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  made_of: [3D prints, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -104,9 +104,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…d known weights or a torque gauge to calibrate the spring''s stiffness
       [uncertain: general practice]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -352,7 +349,6 @@ A loaded spring stores energy: a joint can spring back if a part slips or is rel
 - ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…arbox holds with springy give, a back-drivable one lets the joint sag ⚑ [uncertain]…"
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
 - ⚑ Finder value `tools` = soldering iron, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…d known weights or a torque gauge to calibrate the spring's stiffness ⚑ [uncertain: general practice]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Series-elastic coupling*: the OpenSEA paper's spring table doesn't add up (0.015 N·m/° × ±20° = 0.3 N·m, not the ±3 N·m it states). The entry quotes ±3 N·m in `load` only; check it.
 
 ## Sources

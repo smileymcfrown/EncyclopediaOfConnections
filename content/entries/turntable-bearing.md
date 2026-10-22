@@ -90,9 +90,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, everyday_examples, environment_limits, safety_notes]
@@ -342,7 +339,6 @@ Pinch and crush points between the turning top and the base, especially on motor
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -94,9 +94,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound on set screws
       [uncertain]. Printed versions need nuts,…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes, common_failures,
@@ -347,7 +344,6 @@ It spins with the shafts, and the set screws or clamp screw sticking out of it c
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = soldering iron, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound on set screws ⚑ [uncertain]. Printed versions need nuts,…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -99,9 +99,6 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, special_behaviour, input_output, play_and_precision, materials, making_tips_3d_printing, when_not_to_use,
@@ -346,7 +343,6 @@ Single-vane and double-vane rotary actuators; single-rack and double-rack (rack-
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

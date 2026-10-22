@@ -102,9 +102,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…rs for fabric, and a hose clamp or cable ties to grip the sleeve
       ends [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, maker_difficulty, processes, making_tips_3d_printing, environment_limits]
@@ -353,7 +350,6 @@ Explosive dusts: ground the valve and surrounding equipment to prevent static sp
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…rs for fabric, and a hose clamp or cable ties to grip the sleeve ends ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -94,8 +94,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror, 'fabric,
-      leather or cord']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or cord']
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -105,9 +104,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond
       [uncertain].…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials]
@@ -364,7 +360,6 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, metal, glass or ceramic, rubber, fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond ⚑ [uncertain].…"
 - ⚑ Finder value `bonds_poorly` =  (source uncertain): `materials` is marked ⚑ [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond ⚑ [uncertain].…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, glass or mirror, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

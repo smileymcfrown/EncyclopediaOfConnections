@@ -94,9 +94,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`removability` is marked [uncertain] here: "…to stay in, but can come out: helical inserts with an extraction
       tool [uncertain], adhesive-locked E-Z LOK ins…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -326,7 +323,6 @@ Brittle resin prints can crack or burst when a thread is forced into them, throw
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `removability` = semi-permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…to stay in, but can come out: helical inserts with an extraction tool ⚑ [uncertain], adhesive-locked E-Z LOK ins…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Screw-in threaded insert*: helical insert lengths (1d, 1.5d, 2d) are left out because Böllhoff's HELICOIL PDFs were blocked. CNC Kitchen found a helical insert in PETG held no better than a plain screw (120 kg against 118 kg); worth a note in the published entry.
 
 ## Sources

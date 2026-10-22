@@ -97,9 +97,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`adjustable` is marked [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled
       [uncertain]).…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, power, seal, load, adjustable, processes, print_in_place, making_tips_3d_printing, when_not_to_use,
@@ -394,7 +391,6 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 
 - ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `adjustable` = no (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled ⚑ [uncertain]).…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

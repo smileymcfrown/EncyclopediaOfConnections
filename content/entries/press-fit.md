@@ -84,11 +84,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [access_needed, processes, making_tips_3d_printing, rules_of_thumb, safety_notes, common_failures]
@@ -329,7 +326,6 @@ Pressing can crack the outer part suddenly and send fragments flying, especially
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 8 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

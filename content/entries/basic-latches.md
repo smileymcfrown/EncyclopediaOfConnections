@@ -101,9 +101,6 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -377,7 +374,6 @@ Lids that latch themselves can trap children: CPSC has reports of 34 deaths sinc
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

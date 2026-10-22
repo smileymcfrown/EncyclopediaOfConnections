@@ -97,10 +97,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -333,7 +330,6 @@ CADMIUM: older silver solders contained 16-25% cadmium; heated above 320 °C it 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ Finder value `made_of` = metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Brazed joint*: the joint gap differs at the wide end (Wikipedia 0.03-0.08 mm; Lucas-Milhaupt 0.001-0.005 in), both recorded; no real printable brazing models exist, so `make_it_yourself` has only a rod-case divider and a torch stand.
 
 ## Sources

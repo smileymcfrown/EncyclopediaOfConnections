@@ -86,7 +86,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   motion_in:
     kind: best guess
@@ -97,9 +97,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -363,7 +360,6 @@ A heavy lid or flap can crush fingers while you fit or remove its damper: suppor
 - ⚑ Finder value `motion_in` = steady turning, straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `motion_out` = steady turning (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = at an angle, in line (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Dampers* (214): the maker uses of crush absorbers (drone and robot bumpers, egg-drop padding) are written as advice with no source found; check them.
 
 ## Sources

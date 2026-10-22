@@ -90,9 +90,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…rm tools to make lanced tabs (Wilson Tool) and machines to twist
       them [uncertain].…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, adjustable, play_and_precision, materials, making_tips_3d_printing, off_the_shelf_parts,
@@ -303,7 +300,6 @@ Cut sheet-metal edges, burrs and tab tips can be sharp; round the outsides of ta
 
 - ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…rm tools to make lanced tabs (Wilson Tool) and machines to twist them ⚑ [uncertain].…"
-- ⚑ Finder value `made_of` = plastic sheet, tube or moulded parts, metal, paper or card (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

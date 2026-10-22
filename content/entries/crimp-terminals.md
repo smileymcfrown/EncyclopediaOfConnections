@@ -94,10 +94,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -342,7 +339,6 @@ Fire from poor joints: a loose or badly crimped terminal becomes a high-resistan
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Crimp terminals*: the wire-size colour code differs (Wikipedia *Crimp* and the Grote catalogue: red 22-18 AWG; Wikipedia *FASTON*: red 22-16 AWG; Wikipedia *Electrical connector* gives the metric DIN 46245 code with yellow as 'over 4 to 6 mm²', which looks garbled). Toothed washers under earth terminals: a Hammond ground kit uses an internal lock washer, but GM TechLink says never to use star washers on vehicle grounds. Both sides are recorded.
 
 ## Sources

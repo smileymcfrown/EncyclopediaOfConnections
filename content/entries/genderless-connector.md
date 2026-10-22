@@ -104,9 +104,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to
       wire [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -378,7 +375,6 @@ Pressurised hoses: a quarter-turn coupling that is not fully engaged can come ap
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
 - ⚑ Finder value `tools` = none, soldering iron, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to wire ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 
 ## Sources

@@ -95,10 +95,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -352,7 +349,6 @@ Pressure: always release the pressure before undoing a pipe joint; a jet of flui
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 8 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Tapered pipe thread*: recorded side by side: where tape starts (Swagelok: at the first thread, never overhanging; Boshart: the first wrap covers the thread end; LOCTITE: leave the first thread free); wraps (Swagelok 2-3, Boshart 3-5); tightness (Swagelok: no standard torque or turns; Boshart: 1.5-3 turns past hand-tight for metal up to 1 in, hand-tight plus 1-2 for PVC); PTFE tape on PVC (Boshart: no; Wikipedia *Pipe dope*: tape or an ASTM F2331 compound); tape plus paste (Wikipedia: can overload threads; Boshart: recommends it); PTFE breakdown (288 °C in *Thread seal tape*, 300-450 °C in *Polymer fume fever*). 7 fields are marked [uncertain].
 
 ## Sources

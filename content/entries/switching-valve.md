@@ -102,9 +102,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: []
@@ -376,7 +373,6 @@ For automatic one-way flow, use a [check valve](../glossary.md#check-valve), whi
 
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, keeps its last state
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

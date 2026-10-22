@@ -91,11 +91,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -344,7 +341,6 @@ Bursting: rotation energy can be stored 'until the rotor shatters', when the hoo
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Flywheel*: 6 fields are marked [uncertain].
 
 ## Sources

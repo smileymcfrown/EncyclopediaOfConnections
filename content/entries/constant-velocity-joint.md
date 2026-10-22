@@ -90,14 +90,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
-  made_of: [3D prints, metal]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, load, processes, environment_limits, safety_notes]
@@ -385,7 +382,6 @@ Spinning drive shafts and joints can catch clothing, hair or cords; keep them gu
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `made_of` = 3D prints, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -99,9 +99,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits]
@@ -343,7 +340,6 @@ Speed controllers (one-way flow control valves) with a threaded port and a push-
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

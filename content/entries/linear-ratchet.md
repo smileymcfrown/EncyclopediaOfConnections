@@ -93,9 +93,6 @@ needs_confirming:
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -373,7 +370,6 @@ Cut tails leave sharp edges that can cut hands and cables; cut flush or use a te
 
 - ⚑ 20 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Linear ratchet*: tie-down ratchet straps wind webbing on a spool with a rotary ratchet, so they are not linear ratchets; most quick-grip bar clamps have no teeth and use a tilting binding plate (see *Binding-plate lock*). The entry explains this; the outline description should be updated to match.
 - ⚑ Research note: *Linear ratchet* (8): Wikipedia marks the 2% carbon-black figure for UV-resistant ties 'citation needed' (now noted); the haemostat-style printed clamps are worded neutrally because the Printables descriptions don't say they ratchet. Wikipedia *Cable tie*'s opening names a brand that looks like vandalism; not used. *Shock-corded sectional pole* (152) and *Ratchet tie-down strap* (153) link to *Wire-rope terminations* as weak fits, with reasons that say when they apply.
 

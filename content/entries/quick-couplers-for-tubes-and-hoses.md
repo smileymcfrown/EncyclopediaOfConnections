@@ -102,10 +102,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -371,7 +368,6 @@ Always release the pressure before disconnecting (John Guest via US Plastic; SMC
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Quick couplers* (166): the RCT thumb-latch rating (-40 to +80 °C, 6.9 bar per line) is for one twin-tube product and is labelled so; the CPC alias comes from a vendor page (Fresh Water Systems), not Colder Products' own site.
 
 ## Sources

@@ -101,9 +101,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, making_tips_3d_printing, common_failures]
@@ -353,7 +350,6 @@ LOOSE MEANS HOT: a loose or poorly made terminal heats up and can start a fire, 
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

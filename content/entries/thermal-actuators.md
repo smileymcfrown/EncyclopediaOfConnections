@@ -85,15 +85,12 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  made_of: [3D prints, metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…a spanner'', underfloor heating supplier); snips to cut bimetal
       strip [uncertain]; for electric versions, wiri…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [tools_needed, making_tips_3d_printing, when_not_to_use, safety_notes]
@@ -362,7 +359,6 @@ Some appliance wax motors run directly on mains voltage (the one in electronicsN
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a spanner', underfloor heating supplier); snips to cut bimetal strip ⚑ [uncertain]; for electric versions, wiri…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

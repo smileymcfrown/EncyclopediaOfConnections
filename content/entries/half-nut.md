@@ -86,10 +86,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [3D prints, wood, metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [off_the_shelf_parts, rules_of_thumb, safety_notes, common_failures, make_it_yourself]
@@ -319,7 +316,6 @@ A half nut that is only partly engaged can slip suddenly under load, so the jaw 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

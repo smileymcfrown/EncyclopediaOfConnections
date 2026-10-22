@@ -96,9 +96,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain
       whether every model holds aga…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, power, make_it_yourself]
@@ -337,7 +334,6 @@ Crushing and trapping: fingers or hands can be caught between a closing window s
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds aga…"
 - ⚑ Finder value `power_loss` = keeps its last state (source uncertain): `power` is marked ⚑ [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds aga…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

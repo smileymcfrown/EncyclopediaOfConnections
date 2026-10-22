@@ -89,15 +89,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, wood, metal]
+  made_of: [3D prints, wood]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…a bandsaw with jigs (woodgears.ca); a CNC router needs special setups
       [uncertain]. Glue and clamps.…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, tools_needed, seal, processes, making_tips_3d_printing, everyday_examples, when_not_to_use,
@@ -368,7 +365,6 @@ Sharp chisels and saws cause most hand-tool injuries; keep both hands behind the
 
 - ⚑ 19 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, press or vice, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a bandsaw with jigs (woodgears.ca); a CNC router needs special setups ⚑ [uncertain]. Glue and clamps.…"
-- ⚑ Finder value `made_of` = 3D prints, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

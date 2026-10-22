@@ -85,7 +85,7 @@ finder:
   powered_does: [not applicable]
   also_under: [control]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', foam]
 needs_confirming:
   connects:
     kind: best guess
@@ -102,9 +102,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch);
       squeezing handles -> c..."'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, maker_difficulty, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -353,7 +350,6 @@ None known for small demos. Do not use a printed plastic latch or combination lo
 - ⚑ Finder value `motion_in` = steady turning (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Depends on the design: handle rotation -> latch slide (door latch); squeezing handles -> c..."
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, foam (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

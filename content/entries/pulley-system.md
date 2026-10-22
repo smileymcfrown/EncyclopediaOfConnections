@@ -92,15 +92,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or
-      cord']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
 needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -387,7 +383,6 @@ Never stand or walk under a suspended load, and never lift people with a hoist (
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Pulley system* (206): low-friction ring efficiency (Practical Sailor: 80-83% with Dyneema, 50-60% with polyester double braid, against 95-97% for ball-bearing blocks) recorded beside Petzl (50-98%) and CMC (about 50% for a carabiner).
 
 ## Sources

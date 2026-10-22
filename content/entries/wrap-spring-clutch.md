@@ -97,11 +97,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -336,7 +333,6 @@ Engagement takes only a few milliseconds, so a machine driven through a single-r
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Wrap-spring clutch*: the roller-blind chain clutch is really a two-way anti-back-drive clutch; linked from *Bidirectional anti-back-drive clutch*.
 
 ## Sources

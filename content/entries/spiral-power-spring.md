@@ -91,7 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   motion_in:
     kind: best guess
@@ -102,9 +102,6 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: both sides turn, but no shaft layout named
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [adjustable, processes, making_tips_3d_printing, rules_of_thumb, environment_limits, safety_notes, related]
@@ -351,7 +348,6 @@ A wound spiral spring stores a lot of energy and can release suddenly, 'causing 
 - ⚑ Finder value `motion_in` = steady turning (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `motion_out` = steady turning, straight push or pull (best guess): both sides turn, but no shaft layout named
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

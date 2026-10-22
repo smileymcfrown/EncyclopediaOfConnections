@@ -89,9 +89,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: keeps its last state, stays locked, lets go'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, seal, processes, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes]
@@ -337,7 +334,6 @@ It fails locked: if the battery dies or the electronics fail, the lid stays shut
 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = keeps its last state (best guess): versions differ: keeps its last state, stays locked, lets go
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -91,10 +91,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -312,7 +309,6 @@ SAFETY-CRITICAL SYSTEMS: brake, gas and refrigerant lines must follow their rule
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `made_of` = metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Flare fitting*: some SAE 45° and JIC/AN 37° sizes share threads, so threads that screw together don't prove the parts match (the entry warns). Copper-nickel brake pipe being easier to flare rests on shop and forum claims ([uncertain]). **Cross-link for the update pass:** *Compression fitting* (210) could cite the DVSA MOT manual rule that ferrule-type compression joints aren't suitable for brake-pipe repairs.
 
 ## Sources

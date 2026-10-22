@@ -93,10 +93,7 @@ finder:
   turns: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, carbon fibre or composites, 'fabric,
       leather or cord']
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -354,7 +351,6 @@ Few hazards: keep fingers clear of the hammer, punch and press, and work on a so
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, paper or card, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Eyelets and grommets*: naming differs (Wikipedia: a small grommet is an eyelet; some leather and sewing suppliers: an eyelet is one piece, a grommet two pieces with a washer), and the same trade number means different holes (a #1 takes a 9/32 in hole plain and 3/8 in rolled-rim per Trivantage; Sailrite's #1 spur die set has a 5/16 in cutter); the Trivantage guide was read only through WebFetch, asked twice with matching answers. No pull-out figures for grommets or keder edges were found (`load` is [uncertain] in both).
 
 ## Sources

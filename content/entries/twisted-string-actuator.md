@@ -84,7 +84,7 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -98,9 +98,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…or hub and mounts; a lighter or heat sealer for synthetic string
       ends [uncertain]; grease (Tan and Collins mas…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, input_output, power, tools_needed, processes, environment_limits, safety_notes, common_failures]
@@ -338,7 +335,6 @@ The strings carry a large tension from a small motor: a string that snaps can dr
 - ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…n back unless the motor's gearbox friction or a brake holds the twist ⚑ [uncertain].…"
 - ⚑ Finder value `power_loss` = lets go (source uncertain): `power` is marked ⚑ [uncertain] here: "…n back unless the motor's gearbox friction or a brake holds the twist ⚑ [uncertain].…"
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…or hub and mounts; a lighter or heat sealer for synthetic string ends ⚑ [uncertain]; grease (Tan and Collins mas…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

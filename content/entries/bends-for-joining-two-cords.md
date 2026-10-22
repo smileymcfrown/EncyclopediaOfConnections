@@ -99,15 +99,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', carbon fibre or composites, 'fabric, leather or cord']
+  made_of: ['fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
     reason: 'first-listed process was "off-the-shelf part: cord, rope, webbing "; knots family, so set to by hand (tied or
       wrapped)'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, making_tips_3d_printing]
@@ -340,7 +337,6 @@ A home-made bend must never hold a person: for anything that holds a person, use
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = by hand (tied or wrapped) (best guess): first-listed process was "off-the-shelf part: cord, rope, webbing "; knots family, so set to by hand (tied or wrapped)
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

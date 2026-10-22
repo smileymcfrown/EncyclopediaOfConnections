@@ -92,9 +92,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [load, play_and_precision, making_tips_3d_printing, safety_notes, common_failures]
@@ -338,7 +335,6 @@ Small strong magnets can be swallowed: if two or more (or a magnet and a piece o
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `made_of` = 3D prints, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

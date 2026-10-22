@@ -88,7 +88,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -97,9 +97,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike
       [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -338,7 +335,6 @@ The door or drawer pops open by spring force when bumped, which can surprise peo
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `tools` = none, drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, paper or card (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

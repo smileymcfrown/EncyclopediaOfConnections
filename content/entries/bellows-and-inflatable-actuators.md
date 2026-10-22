@@ -89,7 +89,7 @@ finder:
   powered_does: [move or push something, grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   power_source:
     kind: best guess
@@ -97,9 +97,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: 'versions differ: lets go, keeps its last state'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [input_output, load, safety_notes]
@@ -366,7 +363,6 @@ Over-inflation bursts it: Firestone warns never to inflate an air spring when it
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (best guess): versions differ: lets go, keeps its last state
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

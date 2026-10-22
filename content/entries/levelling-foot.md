@@ -94,7 +94,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -111,9 +111,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the
       foot moves in or out by on..."'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -367,7 +364,6 @@ A levelling foot is not an anti-tip device: the US CPSC's Anchor It! campaign sa
 - ⚑ Finder value `motion_in` = steady turning (best guess): could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the foot moves in or out by on..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the foot moves in or out by on..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "An adjuster, not a drive: turning the stud (or the base) -> the foot moves in or out by on..."
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Levelling foot*: load ratings differ widely between makers (Superior Glide 80 kg per M8 furniture foot; Keystone 75-250 kg per M10 tilting foot; Ganter calls its static load 'a guide value' needing a safety factor), and tilt ranges differ (about 20° Carr Lane and Keystone; 9° Superior Glide), all recorded.
 
 ## Sources

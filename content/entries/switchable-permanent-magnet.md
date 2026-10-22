@@ -86,14 +86,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
     reason: '`reuse_cycles` is marked [uncertain] here: "effectively unlimited [uncertain:…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, adjustable, make_it_yourself]
@@ -354,7 +351,6 @@ Pinch hazard: switched on while loose it can jump onto steel and trap fingers, s
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = effectively unlimited (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "effectively unlimited ⚑ [uncertain:…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

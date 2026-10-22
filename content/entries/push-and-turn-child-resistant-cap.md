@@ -86,7 +86,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', foam, glass or mirror]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', glass or mirror]
 needs_confirming:
   connects:
     kind: best guess
@@ -103,9 +103,6 @@ needs_confirming:
     kind: best guess
     reason: 'no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close
       drives ..."'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [motion, reuse_cycles, seal, processes, print_in_place, making_tips_3d_printing, environment_limits, links]
@@ -329,7 +326,6 @@ It slows children down; it does not make a container safe. Many poisonings happe
 - ⚑ Finder value `motion_in` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): no "in -> out" form in `input_output`: "Works like a push-engaged one-way clutch: turning the outer cap to close drives ..."
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, foam, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

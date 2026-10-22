@@ -94,9 +94,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes
       [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, power, tools_needed, materials, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
@@ -345,7 +342,6 @@ Discs, drums and pads get hot enough to burn after hard use (Wikipedia, Brake). 
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

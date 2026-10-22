@@ -91,7 +91,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  made_of: [3D prints, wood, metal, glass or mirror]
 needs_confirming:
   connects:
     kind: best guess
@@ -99,9 +99,6 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, load, play_and_precision, materials, processes, making_tips_3d_printing, environment_limits,
@@ -377,7 +374,6 @@ Pinch point between door and cabinet edge as the spring pulls the door shut; kee
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

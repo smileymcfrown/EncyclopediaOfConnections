@@ -98,9 +98,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -325,7 +322,6 @@ Wire flexed again and again breaks inside its insulation: 'breaking of a conduct
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover, wires (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

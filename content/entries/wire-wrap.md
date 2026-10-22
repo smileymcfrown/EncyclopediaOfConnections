@@ -91,14 +91,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, metal]
+  made_of: [metal]
 needs_confirming:
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -363,7 +360,6 @@ LOW VOLTAGE ONLY: wire wrap is a prototyping and signal-wiring method with very 
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
-- ⚑ Finder value `made_of` = 3D prints, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Wire wrap*: recorded side by side: turns (standards 7 plus ½ or ¾ insulated for 30 AWG; Hackaday writers 3-6); strip force (MIL-STD-1130C 2.0 lb, about 8.9 N; ECSS-Q-ST-70-30C 20 N); re-using unwrapped wire (MIL forbids; Nuts and Volts re-uses it); adding solder (SparkFun and Nuts and Volts suggest it; ECSS forbids it). One Kynar wire data sheet says both '300 V' and 'no voltage rated'.
 
 ## Sources

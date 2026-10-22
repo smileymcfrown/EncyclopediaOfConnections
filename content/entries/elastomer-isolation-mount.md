@@ -96,9 +96,6 @@ needs_confirming:
     kind: best guess
     reason: 'carried over from the old rule on entry names (R33); checked against the entry text and still unsure: it fixes
       a motor, fan or pump to a machine frame or floor; the entry never mentions walls, and none of the places fits well'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [processes]
@@ -358,7 +355,6 @@ If the rubber tears or perishes, a plain mount lets go: use fail-safe (captive) 
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `mounts_on` = wall or ceiling (best guess): carried over from the old rule on entry names (R33); checked against the entry text and still unsure: it fixes a motor, fan or pump to a machine frame or floor; the entry never mentions walls, and none of the places fits well
-- ⚑ Finder value `made_of` = 3D prints, wood, metal, foam (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

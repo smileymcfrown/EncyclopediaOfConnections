@@ -97,9 +97,6 @@ needs_confirming:
   power_source:
     kind: best guess
     reason: '`power` names several power sources, and not all may apply'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -349,7 +346,6 @@ Noise: air ejectors are loud (about 71-72 dB(A) for a small one with a silencer;
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = compressed air, liquid, suction (best guess): `power` names several power sources, and not all may apply
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Venturi vacuum generator*: throat and diffuser proportions come from one maker's model description and are marked [uncertain]; a "300 mbar" figure is labelled as a maker's claim.
 
 ## Sources

@@ -103,9 +103,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -362,7 +359,6 @@ Falling lids are a real hazard: the US CPSC knows of children killed or brain-da
 
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -97,9 +97,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ning rings (osamutake''s printed models are held with retaining
       rings) [uncertain: tool not named]; for wooden…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [holding_principle, input_output, tools_needed, play_and_precision, materials, processes, print_in_place,
@@ -344,7 +341,6 @@ In motor-driven builds the meshing teeth and locking arcs are pinch points ⚑ [
 - ⚑ Finder value `print_in_place` = no (source uncertain): `print_in_place` is marked ⚑ [uncertain] here: "no ⚑ [uncertain]:…"
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
 - ⚑ Finder value `tools` = drill and tap, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ning rings (osamutake's printed models are held with retaining rings) ⚑ [uncertain: tool not named]; for wooden…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

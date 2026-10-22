@@ -104,9 +104,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests
       [uncertain]; test first.…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials, making_tips_3d_printing, safety_notes, reuse_cycles]
@@ -350,7 +347,6 @@ Acetoxy silicones give off acetic acid (vinegar) while curing, which irritates e
 - ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PETG, ABS or ASA, nylon, silicone, acrylic or polycarbonate, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests ⚑ [uncertain]; test first.…"
 - ⚑ Finder value `bonds_poorly` = PLA, slippery plastics (PE or PP), PVC, wood, rubber (source uncertain): `materials` is marked ⚑ [uncertain] here: "…t). 3D-printing plastics such as PLA and PETG were not in these tests ⚑ [uncertain]; test first.…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

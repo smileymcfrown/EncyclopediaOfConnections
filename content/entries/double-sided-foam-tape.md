@@ -98,7 +98,7 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -108,9 +108,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well
       [uncertain]. Silicone rubber and silicon…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes, common_failures]
@@ -340,7 +337,6 @@ Low hazard in itself. Isopropyl alcohol, primers and adhesive removers are flamm
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `bonds_well` = PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, metal, glass or ceramic, rubber, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicon…"
 - ⚑ Finder value `bonds_poorly` = PLA, silicone, wood, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicon…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

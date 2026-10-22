@@ -101,9 +101,6 @@ needs_confirming:
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [environment_limits, safety_notes]
@@ -371,7 +368,6 @@ Lever-handle brass ball valves (full bore or reduced bore; BSP or NPT threads, m
 
 - ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -95,9 +95,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted
       [uncertain].…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [materials, removability, reuse_cycles, adjustable, making_tips_3d_printing, safety_notes, common_failures]
@@ -345,7 +342,6 @@ Fluororubber (FKM, Viton (brand)) and PTFE seals give off dangerous fumes above 
 - ⚑ 10 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `removability` = semi-permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain].…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

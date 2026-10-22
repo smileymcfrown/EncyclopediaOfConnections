@@ -89,9 +89,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: joins parts, but no specific kind of part found; set to any solid parts
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -321,7 +318,6 @@ Self-resetting types re-engage as soon as the load drops, so switch off and lock
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Ball-detent torque limiter* quotes Firgelli's detent formula (release force = spring force × tan(α/2 + φ)). The *Ball detent* entry found this conflicts with S&W Manufacturing's formula (side force = end force / tan(half the countersink angle)), which matches the physics. Re-check and replace with the S&W form.
 
 ## Sources

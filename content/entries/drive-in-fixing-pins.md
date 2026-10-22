@@ -88,11 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -339,7 +336,6 @@ EYE PROTECTION: wear safety glasses when driving or punching out pins; OSHA says
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Drive-in fixing pins*: pin diameter (SPIROL at most 1/3 of the shaft; Bharatskills about 1/6); punches (Wikipedia: never a standard punch on a roll pin; SPIROL: ball-end punches suit slotted, not coiled pins); printed holes (Creative3DP undersize, Forerunner 3D 'a bit big'); lead-ins (Forerunner chamfers, SPIROL no countersinks). Drift bolts are not covered (the Wood Handbook PDF didn't load).
 
 ## Sources

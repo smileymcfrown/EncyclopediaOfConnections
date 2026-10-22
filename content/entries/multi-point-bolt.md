@@ -109,9 +109,6 @@ needs_confirming:
     kind: best guess
     reason: 'could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone:
       rotation -> two opp..."'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -390,7 +387,6 @@ Pinch points: where a pinion meshes with a rack is an in-running nip point that 
 - ⚑ Finder value `motion_in` = steady turning (best guess): could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone: rotation -> two opp..."
 - ⚑ Finder value `motion_out` = not applicable (best guess): could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone: rotation -> two opp..."
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): could not read both sides of `input_output`: "Handle or key rotation -> two or more bolt movements at once. Crémone: rotation -> two opp..."
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Multi-point bolt*: the agent added motion conversion and over-centre, toggle & cam clamps to `other_families` (the over-centre one rests on Wikipedia's 'zero-torque' lock-rod cams); keep or drop when reviewing. Google Patents and Justia were blocked, so container lock rods rest on Wikipedia *Lockrod*; the Chubb safe-boltwork patent GB2094390A was read through WebFetch.
 
 ## Sources

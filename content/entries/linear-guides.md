@@ -94,10 +94,7 @@ finder:
   also_under: [not applicable]
   turns: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [off_the_shelf_parts]
@@ -355,7 +352,6 @@ Moving carriages and gantries create pinch and crush points at the ends of trave
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -88,14 +88,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [special_behaviour, processes, environment_limits, related, make_it_yourself]
@@ -375,7 +372,6 @@ The point where the belt runs onto a pulley is an in-running nip point that can 
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, crossed, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

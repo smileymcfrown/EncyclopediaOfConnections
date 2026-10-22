@@ -85,15 +85,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  made_of: [3D prints]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…tuck may need a firm twist or flexing back and forth to break it
       free [uncertain]. A screwdriver is needed onl…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, reuse_cycles, tools_needed, load, play_and_precision, making_tips_3d_printing, environment_limits,
@@ -359,7 +356,6 @@ None known beyond ordinary pinch points between the leaves when closing. Breakin
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…tuck may need a firm twist or flexing back and forth to break it free ⚑ [uncertain]. A screwdriver is needed onl…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

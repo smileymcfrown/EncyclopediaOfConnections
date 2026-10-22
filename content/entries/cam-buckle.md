@@ -90,9 +90,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, load, play_and_precision, processes, print_in_place, making_tips_3d_printing, when_not_to_use,
@@ -325,7 +322,6 @@ Never use a cam strap to lift or hold a person, or as a rescue or anchor line (R
 
 - ⚑ 16 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = strap, cord or fabric (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

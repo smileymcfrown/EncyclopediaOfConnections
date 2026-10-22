@@ -97,14 +97,11 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [wood, metal, glass or mirror]
+  made_of: [metal, glass or mirror]
 needs_confirming:
   electrical_band:
     kind: best guess
     reason: tagged electrical, but `load` does not start with the fixed electrical lead-in
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -352,7 +349,6 @@ FLUX FUMES: rosin-based flux fume 'is a top cause of occupational asthma'; use f
 
 - ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
-- ⚑ Finder value `made_of` = wood, metal, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Soldered metal joint*: the US lead-solder ban for drinking water is dated 1974 by Wikipedia and to the 1986 amendment by the Copper Development Association, both recorded; the trade name 'killed spirits' has no opened source ([uncertain]). copper.org, blocked during the scope search, opened this time (*Copper Tube Handbook*, 2026 PDF).
 
 ## Sources

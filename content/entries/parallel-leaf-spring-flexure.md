@@ -88,9 +88,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…sitioning Device''); a hex key or screwdriver for clamped metal
       blades [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [complexity, removability, tools_needed, materials, processes, off_the_shelf_parts]
@@ -332,7 +329,6 @@ None known for small printed stages. Printed blades pushed past their limit can 
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

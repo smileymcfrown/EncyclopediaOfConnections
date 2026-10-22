@@ -90,7 +90,7 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, glass or mirror]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -103,9 +103,6 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: content
@@ -383,7 +380,6 @@ Stepper motors: NEMA 17 or NEMA 11 (PLOS ONE), 28BYJ-48 geared stepper with driv
 - ⚑ Finder value `power_source` = electricity, liquid (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
 - ⚑ Finder value `power_loss` = keeps its last state (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, paper or card, glass or mirror (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law example).
 
 ## Sources

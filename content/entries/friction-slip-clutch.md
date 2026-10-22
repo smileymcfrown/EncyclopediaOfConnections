@@ -98,9 +98,6 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -353,7 +350,6 @@ It limits torque but does not make a machine finger-safe: the set torque can sti
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Friction slip clutch*: a motorcycle "slipper clutch" is a back-torque limiter, not the same as the RC-car slipper clutch. The entry says so.
 
 ## Sources

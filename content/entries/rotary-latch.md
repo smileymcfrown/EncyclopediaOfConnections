@@ -95,9 +95,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers)
       [uncertain: adjustment procedure not des…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -328,7 +325,6 @@ Fingers can be trapped between a closing door and the striker, and the claw snap
 
 - ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `adjustable` = partly (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers) ⚑ [uncertain: adjustment procedure not des…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

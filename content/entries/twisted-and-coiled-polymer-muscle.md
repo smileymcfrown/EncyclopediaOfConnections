@@ -85,14 +85,11 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  made_of: [3D prints, 'fabric, leather or cord']
 needs_confirming:
   power_source:
     kind: best guess
     reason: '`power` names several power sources, and not all may apply'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points:
 - kind: sources
@@ -339,7 +336,6 @@ Hot parts: a working muscle is hot enough to burn skin, and a bare muscle on a w
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity, compressed air, liquid, heat (best guess): `power` names several power sources, and not all may apply
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Twisted-and-coiled polymer muscle*: fluorocarbon line (WriterOfMinds: not known to work; a Hackaday commenter: coils better); marked [uncertain].
 
 ## Sources

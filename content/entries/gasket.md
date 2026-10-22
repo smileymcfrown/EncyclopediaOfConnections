@@ -92,11 +92,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, wood, metal, paper or card, foam, 'fabric, leather or cord']
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -359,7 +356,6 @@ Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it give
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, wood, metal, paper or card, foam, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Gasket* (131): EPDM-backed roofing washers left out (not on the Wikipedia page).
 
 ## Sources

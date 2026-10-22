@@ -88,11 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
-needs_confirming:
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -320,7 +317,6 @@ Never home-sew climbing slings, harnesses, safety tethers, tow straps or lifting
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites, fabric, leather or cord (best guess): proposed from the words in the research text (R37); not yet checked
 - ⚑ Research note: *Load-bearing stitch patterns*: test results recorded side by side (FAA *Parachute Rigger Handbook* p. 2-25: W-W stronger than box-X; Fire Engineering 1984: double W slightly stronger, box-X adequate and better for sideways loads; Sailrite 2019: 'no clear winning stitch pattern'; Practical Sailor: hand stitching levels off at 69%, more rows 83%, sandwiched insert 100%, commercial bar tacks about 90%). Stitches per inch also differ (4-7 Fire Engineering, 8-12 Sailrite, 7-11 FAA). Sailrite shows sewn loops for towing and lifting dinghies despite its own disclaimer.
 
 ## Sources

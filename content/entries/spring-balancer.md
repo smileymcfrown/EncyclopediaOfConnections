@@ -94,9 +94,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs
       [uncertain]; garage-door torsion springs…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [motion, tools_needed, adjustable, play_and_precision, processes, off_the_shelf_parts, safety_notes, common_failures,
@@ -330,7 +327,6 @@ Stored spring energy: balance springs are always under tension, and large ones (
 
 - ⚑ 12 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs ⚑ [uncertain]; garage-door torsion springs…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 

@@ -86,15 +86,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   tools:
     kind: source uncertain
     reason: '`tools_needed` is marked [uncertain] here: "…ewed or clamped strips; shears or a grinder to cut spring-steel
       strip [uncertain]…"'
-  made_of:
-    kind: best guess
-    reason: proposed from the words in the research text (R37); not yet checked
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, degrees_of_freedom, reuse_cycles, tools_needed, adjustable, off_the_shelf_parts, environment_limits,
@@ -338,7 +335,6 @@ Low risk for small printed springs, but a spring bent past its limit can snap su
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = none, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ewed or clamped strips; shears or a grinder to cut spring-steel strip ⚑ [uncertain]…"
-- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites (best guess): proposed from the words in the research text (R37); not yet checked
 
 ## Sources
 
