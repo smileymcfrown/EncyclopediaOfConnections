@@ -1,0 +1,141 @@
+locating-pins-and-hole-and-slot:
+  photos: []
+  note: Both candidates are a hole tolerance gauge (a design tool), not locating pins with a hole and slot.
+magnet-joint:
+  photos: []
+  note: Turned down all; a render (#1), magnet press-fit testers (#2) and a Gridfinity magnet-pressing jig (#3-#6) are tools
+    for fitting magnets, and
+magnetic-assisted-buckle:
+  photos:
+  - candidate: 2
+    kind: how-it-works
+    alt: The two halves of a blue 3D-printed strap buckle laid apart, showing the round magnet set in the open frame and the
+      square plug that drops into it, beside a strap slider.
+  - candidate: 1
+    kind: photo
+    alt: A blue 3D-printed magnetic buckle clipped shut on a black elastic strap, with a strap slider beside it.
+  note: Square plug seats inside the frame so the shape takes the strap's pull while the magnet pulls it in; slight doubt
+    whether the maker intended a separate catch.
+magnetic-detent:
+  photos:
+  - candidate: 1
+    kind: how-it-works
+    alt: The two halves of a 3D-printed rotary knob laid open, the rotor with a ring of twelve embedded magnets beside the
+      housing that holds the matching magnets.
+  - candidate: 2
+    kind: photo
+    alt: The assembled black 3D-printed magnetic detent knob, a flat disc with a ball bearing at its centre.
+  note: '#3 is a Tinkercad render, turned down.'
+mechanical-metamaterial-mechanism:
+  photos:
+  - candidate: 2
+    kind: how-it-works
+    alt: Several 3D-printed one-piece pliers on a wooden table, two of them with the grid of small shearing cells that forms
+      the hinge clearly visible at the joint.
+  - candidate: 1
+    kind: photo
+    alt: A blue 3D-printed pair of one-piece metamaterial pliers lying on a wooden table.
+  note: '#3 and #5 are renders and #4 (mini pliers beside a coin) is a fair alternative; the auxetic sheets (#6-#9) are a
+    metamaterial but not a mechanism, and #6, #8, #9 are renders.'
+mid-print-embedding:
+  photos:
+  - candidate: 4
+    kind: how-it-works
+    alt: A half-finished 3D-printed test block, with a hex nut sitting in its pocket at the paused layer, ready to be printed
+      over.
+  - candidate: 2
+    kind: photo
+    alt: A small finished 3D-printed block with a bolt screwed into the nut sealed inside it.
+  note: Turned down
+multi-material-interlock:
+  photos: []
+  note: '#1 is a slicer screenshot; the TPU/PLA hybrid boxes (#2-#4) show a co-printed hinge but no interlocking beams can
+    be seen, and it is unclear the model uses them.'
+multi-stage-slide-rigging:
+  photos:
+  - candidate: 4
+    kind: how-it-works
+    alt: A string-driven linear slide on a robot frame, extended across a cutting mat, with the motor-driven reel and printed
+      red pulley blocks on the sliding stages.
+  - candidate: 5
+    kind: photo
+    alt: Close-up of a red 3D-printed pulley insert on the end of an aluminium slide stage, with the string running over its
+      two pulleys.
+  note: '#1 is a render, #2 and #7 have large title text; #3, #6 and #8 are usable alternatives.'
+ortho-planar-spring:
+  photos:
+  - candidate: 1
+    kind: photo
+    alt: A grey 3D-printed ortho-planar spring held in the fingers, its centre platform carried by thin curved legs cut into
+      the flat top face.
+  note: '#2-#4 are renders and #5 is a CAD cut-away.'
+panel-standoff:
+  photos: []
+  note: Both candidates are renders.
+parallel-fold-pop-up:
+  photos: []
+  note: The only candidate is a bone folder, a tool, not a pop-up.
+parallel-leaf-spring-flexure:
+  photos: []
+  note: All four candidates are renders.
+pinned-glue-joint:
+  photos: []
+  note: Every candidate is a pin vise (a drilling tool), and many are renders.
+printing-onto-fabric:
+  photos:
+  - candidate: 3
+    kind: how-it-works
+    alt: A sheet of pale green 3D-printed pyramid tiles fused onto open net fabric, curving over a hand as the bare net between
+      tiles bends.
+  - candidate: 1
+    kind: photo
+    alt: Panels of blue 3D-printed scale shapes printed onto black mesh fabric, laid flat on a table.
+  note: '#2 is a near-duplicate of #3.'
+pull-tab-and-slider-mechanism:
+  photos: []
+  note: The only candidate is a bone folder, a tool, not a pull-tab mechanism.
+push-fit-rod-and-spar-fittings:
+  photos:
+  - candidate: 5
+    kind: how-it-works
+    alt: A red 3D-printed kite end cap with a line nock, pushed onto the end of a black carbon rod.
+  - candidate: 2
+    kind: photo
+    alt: A white 3D-printed multi-way kite connector with round sockets for rods pointing in many directions.
+  note: '#3, #4 and #10 are renders; #11-#12 show only a distant kite in the sky; #6, #8, #9 are fair alternatives.'
+push-on-edge-trim:
+  photos:
+  - candidate: 1
+    kind: photo
+    alt: Two white 3D-printed U-channel edge trims, a straight length and a corner piece, lying on a printer.
+  note: '#3 is a little soft; #6 shows trim on a board printed with cartoon characters, #8-#9 grommet strip is too faint to
+    see, #10 is a render. | Claude: #3 turned down (too blurred to show the trim).'
+push-push-latch:
+  photos:
+  - candidate: 2
+    kind: how-it-works
+    alt: The inside of a white 3D-printed push-push latch, with the heart-shaped track at one end and the return spring along
+      the housing.
+  - candidate: 3
+    kind: photo
+    alt: An assembled black 3D-printed push latch with its plunger sticking out of the housing.
+  note: '#1 is a collage, #6 shows the heart cam but small and dark, #7 is spring packets.'
+quarter-turn-fastener:
+  photos:
+  - candidate: 2
+    kind: how-it-works
+    alt: Close-up of a 3D-printed quarter-turn fastener turned into the slot of an aluminium extrusion, its head clamping
+      a clear panel.
+  - candidate: 1
+    kind: photo
+    alt: Two white 3D-printed quarter-turn fasteners holding a clear panel against the aluminium frame of a printer enclosure.
+  note: '#3 is a render. The model is the 3030 stud already cited on the entry page.'
+quick-release-hooks:
+  photos:
+  - candidate: 2
+    kind: how-it-works
+    alt: A blue 3D-printed snap shackle with its hinged hook jaw swung open, showing the pivot pin and the spring-pin latch.
+  - candidate: 1
+    kind: photo
+    alt: The same blue 3D-printed snap shackle with its jaw closed and latched.
+  note: '#3 is a similar closed view; the carpet background is busy but the part is clear.'
