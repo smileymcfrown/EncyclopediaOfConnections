@@ -18,6 +18,7 @@ Needs Python 3, pyyaml and Pillow. Printables must be reachable (Thingiverse and
 scripted requests).
 """
 import io, json, os, re, sys, time, urllib.request
+from concurrent.futures import ThreadPoolExecutor
 import yaml
 from PIL import Image, ImageDraw, ImageFont
 
@@ -124,15 +125,17 @@ def main():
             name = ALLOWED[ab] + (f' {ver.group(1)}' if ver and ab != 'CC0' else '')
             for k, im in enumerate(r['images'][:PER_MODEL], 1):
                 url = MEDIA + im['filePath']
-                tn = f"{r['id']}-{k}.webp"
                 cs.append({'n': len(cs) + 1, 'id': f"{r['id']}-{k}", 'model': r['name'], 'url': url, 'license': name,
                            'license_url': lic_url[ab], 'author': r['user']['publicUsername'],
-                           'page': f"https://www.printables.com/model/{r['id']}-{r['slug']}",
-                           'thumb': tn if thumb(url, os.path.join(out, 'thumbs', tn)) else None})
-            time.sleep(0.5)
+                           'page': f"https://www.printables.com/model/{r['id']}-{r['slug']}", 'thumb': f"{r['id']}-{k}.webp"})
         if cs:
             cands[page] = {'title': it['name'], 'summary': d['identity'].get('one_liner', ''), 'candidates': cs}
         print(page, len(ids), 'models,', len(cs), 'photos', flush=True)
+    todo = [x for v in cands.values() for x in v['candidates']]
+    with ThreadPoolExecutor(8) as pool:       # thumbnails in parallel; ones already saved are skipped
+        for x, ok in zip(todo, pool.map(lambda x: thumb(x['url'], os.path.join(out, 'thumbs', x['thumb'])), todo)):
+            if not ok:
+                x['thumb'] = None
     json.dump(cands, open(os.path.join(out, 'candidates.json'), 'w'), ensure_ascii=False, indent=1)
     sheets(out, cands)
     n = sum(len(v['candidates']) for v in cands.values())
