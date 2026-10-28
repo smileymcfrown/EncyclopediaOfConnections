@@ -101,7 +101,9 @@
       "Cord lock (spring toggle): holds the drawstring that runs in a sewn casing",
       "Bead-in-groove fabric edge (keder, boltrope, screen spline): a sewn-in or welded bead that slides into a track",
       "Printing onto fabric (fabric embedded in a 3D print): joins plastic to fabric without sewing",
-      "Rope-end finishing (whipping, heat-sealing, back splice, aglet): melting or hemming the end of a strap or tape to stop fraying"
+      "Rope-end finishing (whipping, heat-sealing, back splice, aglet): melting or hemming the end of a strap or tape to stop fraying",
+      "Sewn book bindings (pamphlet stitch, Coptic stitch, Japanese stab binding): hand sewing for paper, where the thread is both fastener and hinge",
+      "Fillet-and-tape joint (stitch-and-glue seam): a boatbuilding seam where twists of wire or cable ties only hold the plywood panels until an epoxy fillet and glass tape make the real joint"
     ]
   },
   "media": {

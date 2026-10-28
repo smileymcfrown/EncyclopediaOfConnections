@@ -90,6 +90,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, glass
+      or mirror]
 needs_confirming:
   usual_process:
     kind: best guess
@@ -194,12 +197,24 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: push-on-edge-trim.webp
+  title: Trim for shelf or board edge parametric
+  author: ExtrudingThoughts
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1594528-trim-for-shelf-or-board-edge-parametric
+  site: Printables
+  alt: Two white 3D-printed U-channel edge trims, a straight length and a corner piece, lying on a printer.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [cantilever, form-fit--force-fit--material-bond, spline, creep, infill, warping--shrinkage, gland]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-on-edge-trim.svg" alt="A cut-away end view of U-shaped push-on edge trim gripping a sheet edge, with a metal clip inside the plastic and angled tongues pressing on both faces like barbs so it pushes on easily but resists pulling off; beside it, a hole in a panel lined with serrated grommet edging around a cable, and a tri"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/push-on-edge-trim.webp" alt="Render of push-on edge trim: a black U-shaped rubbery strip pushed onto the edge of an aluminium sheet, its cut end showing the metal clip moulded inside and the angled tongues gripping both faces of the sheet; the far end of the sheet edge is still bare." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/push-on-edge-trim.webp" alt="Render of push-on edge trim: a black U-shaped rubbery strip pushed onto the edge of an aluminium sheet, its cut end showing the metal clip moulded inside and the angled tongues gripping both faces of the sheet; the far end of the sheet edge is still bare." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-on-edge-trim.webp" alt="Two white 3D-printed U-channel edge trims, a straight length and a corner piece, lying on a printer." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/1594528-trim-for-shelf-or-board-edge-parametric">Trim for shelf or board edge parametric</a> by ExtrudingThoughts, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Push-on edge trim is a flexible U-shaped strip, usually PVC or rubber with a springy metal core, that is pressed onto a sheet or panel edge and grips it by spring force and barbed tongues, covering sharp edges, protecting cables in cut-outs (grommet edging) and, with a bulb attached, sealing doors and lids.
@@ -310,6 +325,8 @@ Edge trim is itself a safety part: it covers exposed sharp edges (PAR Group). Cu
 - Clamp-on accessory mount for bars, poles and edges: a screw-tightened clamp for edges that must carry load
 - Silicone and MS-polymer adhesive sealants: glue-on alternative for sealing or protecting an edge
 - Double-sided foam tape: stick-on alternative for light trims and bumpers
+- Glass and mirror edge clips and clamps: lips, J-channel or padded screw clamps that hold a glass or acrylic sheet by its edge, rather than just covering the edge
+- Lead came joint (leaded glass): grooved H- and U-shaped lead strips that grip the edges of glass pieces and are soldered together, like a metal U-channel edging
 
 ## Make it yourself
 

@@ -29,8 +29,18 @@
   "kind": "render",
   "note": ""
  },
+ "baked-in-findings": {
+  "alt": "Render of baked-in findings: a flat polymer-clay pendant with the top layer of clay cut away to show a gold eye pin baked inside, its end bent sideways so it cannot pull out and its loop sticking out of the top; beside it a clay stud earring lies face down, its post coming out of a second layer of clay pressed over the post's flat pad.",
+  "kind": "cross-section",
+  "note": ""
+ },
  "bent-or-twisted-tab-through-a-slot": {
   "alt": "Render of a bent-tab and twist-tab joint: a steel sheet stands on edge under a blue painted metal sheet, and three tabs on its top edge come up through slots in the blue sheet; the first is just pushed through, the second is twisted a quarter turn and the third is folded flat, so neither of those two can pull back out.",
+  "kind": "render",
+  "note": ""
+ },
+ "bevel-splitter-and-counter-rotating-drive": {
+  "alt": "Render of a bevel splitter: a brass bevel gear on an upright input shaft meshes with two larger solid steel bevel gears facing each other on one horizontal line, each fixed by its hub to its own output shaft in printed bearing blocks, so the two outputs turn in opposite directions.",
   "kind": "render",
   "note": ""
  },
@@ -49,8 +59,18 @@
   "kind": "render",
   "note": ""
  },
+ "bonding-fastener": {
+  "alt": "Render of a bonding fastener: a threaded steel stud welded to a thin, wide base plate full of holes, glued flat onto a carbon-fibre panel with no hole drilled, the glue squeezed up through the holes like little rivet heads; a second fastener lies beside it, tipped up to show its perforated plate.",
+  "kind": "render",
+  "note": ""
+ },
  "capstan-cable-drive": {
   "alt": "Render of a 3D-printed capstan cable drive: a thin rope wound four times round a small aluminium drum on a stepper motor runs along the rim of a large blue printed drum sector, with both rope ends clamped at the ends of the sector.",
+  "kind": "render",
+  "note": ""
+ },
+ "cardboard-screws-and-rivets": {
+  "alt": "Render of cardboard screws and rivets: two overlapping pieces of corrugated cardboard are held together by a chunky blue plastic screw and the round head of a white snap-together box rivet; in front lie a loose screw with its coarse thread and the two identical halves of a rivet with their ridged prongs.",
   "kind": "render",
   "note": ""
  },
@@ -77,6 +97,11 @@
  "compliant-one-piece-latch": {
   "alt": "Render of a 3D-printed box with a one-piece springy latch: a thin plastic beam printed as part of the lid hangs down the front, its hook clicked in under a small ridge on the box wall, with a tab at the bottom to lift and open it.",
   "kind": "render",
+  "note": ""
+ },
+ "compression-limiter": {
+  "alt": "Render of a compression limiter: a 3D-printed bracket bolted to a painted steel plate, cut away to show a brass tube pressed into the bolt hole, a hair shorter than the plastic, so the bolt's washer rests on the tube instead of crushing the plastic; a second tube stands beside it.",
+  "kind": "cross-section",
   "note": ""
  },
  "cross-halving-slot-joint": {
@@ -129,6 +154,11 @@
   "kind": "render",
   "note": ""
  },
+ "folding-box-closures": {
+  "alt": "Render of folding box closures: a green printed card carton stands with its top open, the two small dust flaps folded in and the closure panel swung up, with the rounded tuck flap on its edge ready to slide down inside the front wall.",
+  "kind": "render",
+  "note": ""
+ },
  "four-bar-linkage": {
   "alt": "Render of a four-bar linkage made from 3D-printed flat links: a short orange crank and a longer green rocker pivot on brass posts on a plywood base, joined across the top by a long blue coupler, with black screws as the four pivots.",
   "kind": "render",
@@ -141,6 +171,21 @@
  },
  "gearless-right-angle-drive": {
   "alt": "Render of a gearless right-angle drive (Hobson's joint): two printed drums on shafts set at a right angle, linked by a ring of six L-shaped steel rods whose legs slide in holes in the faces of both drums, with the shafts held in printed bearing blocks on an L-shaped base.",
+  "kind": "render",
+  "note": ""
+ },
+ "glass-and-mirror-edge-clips-and-clamps": {
+  "alt": "Render of glass and mirror edge clips and clamps: on a piece of painted wall, a mirror is held by four small white plastic clips that overlap its edges, two carrying it at the bottom and two over the top, and below it a glass shelf is gripped by two chrome clamps lined with black rubber pads, with no holes in the glass.",
+  "kind": "render",
+  "note": ""
+ },
+ "glass-door-hinge": {
+  "alt": "Render of a glass door hinge: a small wooden cabinet with a glass door standing part open, the door held only by two chrome clamps gripping its top and bottom corners, each turning on a pin in the cabinet top and base, with a small magnetic catch on the base for the other corner.",
+  "kind": "render",
+  "note": ""
+ },
+ "glued-tab-joint": {
+  "alt": "Render of glued tab joints in card: a small blue papercraft cube with its lid open shows narrow tabs folded in along the top edges and behind the corners, ready for the lid to be glued down onto them; beside it a brown card tube has its end cut into short tabs that are folded out flat and glued to a card base.",
   "kind": "render",
   "note": ""
  },
@@ -219,6 +264,11 @@
   "kind": "render",
   "note": ""
  },
+ "lead-came-joint": {
+  "alt": "Render of a lead came joint: a small leaded-glass panel of nine coloured and clear glass pieces held in grey H-shaped lead strips, with bright solder blobs only where the strips meet and dark cement along their edges; a short offcut of lead came lies in front, showing its H-shaped end.",
+  "kind": "render",
+  "note": ""
+ },
  "lever-cam-panel-connector": {
   "alt": "Render of a lever-cam panel connector: two wooden panels joined edge to edge, cut away round the joint to show the two lens-shaped plastic connector halves set in curved slots in each edge, and the metal lever swung across the joint, hooking them together.",
   "kind": "cross-section",
@@ -228,6 +278,16 @@
   "alt": "Render of a folding lid stay: a small wooden chest with its lid open, held up by a brass stay inside the right-hand wall, its two flat arms locked straight at a riveted elbow, one end screwed to the wall and the other to the underside of the lid.",
   "kind": "render",
   "note": ""
+ },
+ "linked-lead-screws": {
+  "alt": "Render of linked lead screws: two upright lead screws each carry a brass nut under an aluminium bed, and at their feet the same toothed pulley on each screw is wrapped by one closed black timing belt that also runs round the pulley of a single stepper motor, so both screws turn together.",
+  "kind": "render",
+  "note": ""
+ },
+ "liquid-clay-bond": {
+  "alt": "Render of a liquid-clay bond in polymer clay: a small clay mushroom with a quarter cut away shows a thin, glossy layer of liquid clay between its red cap and cream stem, with a little bead squeezed out round the joint; beside it a second stem has a wet coat of liquid clay brushed on top, ready for its cap, and the brush lies in front.",
+  "kind": "cross-section",
+  "note": "weak: the liquid-clay layer shows only as a thin pale band under the cap, even drawn thicker than real"
  },
  "load-bearing-stitch-patterns-for-straps-and-webbing": {
   "alt": "Render of two nylon webbing straps sewn round steel D-rings: each strap passes round the ring, folds back on itself and is sewn down, one with a box-X stitch (a rectangle with an X through it) and the other with three zigzag bar tacks.",
@@ -284,9 +344,24 @@
   "kind": "render",
   "note": ""
  },
+ "panel-standoff": {
+  "alt": "Render of panel standoffs: a glass panel held about an inch clear of a painted wall by four stainless steel standoffs, the glass pinched between each barrel and its domed cap; one cap is pulled out to show the threaded stud that passes through the drilled hole in the glass.",
+  "kind": "render",
+  "note": ""
+ },
+ "parallel-fold-pop-up": {
+  "alt": "Render of a parallel-fold pop-up: a pale yellow card opened to a right angle inside a blue cover has three strips cut from its centre fold and pushed through, so they stand out as box-shaped steps of different sizes, with the holes they came from showing the cover behind.",
+  "kind": "render",
+  "note": ""
+ },
  "parallel-leaf-spring-flexure": {
   "alt": "Render of a parallel leaf-spring flexure: a one-piece green 3D-printed part, a base block and a platform joined by two thin upright blades; the platform has been pushed a little to one side, the blades bend into matching S shapes and the platform stays level.",
   "kind": "render",
+  "note": ""
+ },
+ "pinned-glue-joint": {
+  "alt": "Render of a pinned glue joint: a grey plastic model figure cut in half shows a short brass pin set half into a drilled hole in its shoulder and half into a hole in its arm, both holes filled with glue around the pin; in front lies a spare arm with its pin already glued in and sticking out.",
+  "kind": "cross-section",
   "note": ""
  },
  "pneumatic-artificial-muscle": {
@@ -294,8 +369,23 @@
   "kind": "render",
   "note": ""
  },
+ "potted-insert": {
+  "alt": "Render of a potted insert: a piece of sandwich panel, two thin fibreglass skins over a balsa core, cut away to show a threaded metal insert set in a plug of hard epoxy that replaces the core round the hole and is glued to both skins; a bolt lies beside it.",
+  "kind": "cross-section",
+  "note": ""
+ },
  "printing-onto-fabric": {
   "alt": "Render of 3D printing onto fabric: a sheet of teal hexagonal plastic scales printed through black see-through tulle, with the end of the sheet curling up because the bare net between the scales bends like a hinge.",
+  "kind": "render",
+  "note": ""
+ },
+ "pull-tab-and-slider-mechanism": {
+  "alt": "Render of a pull-tab slider in a card book: on the right-hand page a cut-out card boat sits over a long slot, fixed to a green card strip that slides in a channel behind the page, and the strip's rounded tab sticks out of the edge of the page, pulled part way out.",
+  "kind": "render",
+  "note": ""
+ },
+ "push-fit-rod-and-spar-fittings": {
+  "alt": "Render of push-fit kite fittings: carbon rods pushed into a red moulded cross connector, one spar half pulled out a little from its socket; lower down the spine is joined by an aluminium ferrule glued onto one rod with the other rod partly pulled out, and the rod ends carry a slotted nock and end caps.",
   "kind": "render",
   "note": ""
  },
@@ -349,6 +439,11 @@
   "kind": "cross-section",
   "note": ""
  },
+ "several-motors-driving-one-load": {
+  "alt": "Render of several motors driving one load: two identical stepper motors bolted behind an upright clear acrylic plate each turn a small steel pinion, and both pinions mesh with one large printed gear between them that turns a winch drum wound with cord.",
+  "kind": "render",
+  "note": ""
+ },
  "shape-memory-alloy-wire-latch": {
   "alt": "Render of a shape-memory-alloy wire latch: a 3D-printed lid hinged on a post is held shut by a catch lever whose nib sits in a notch in the lid's lip, pushed in by a small spring, with a thin nitinol wire running from the post to the catch, ready to pull it free when current warms it.",
   "kind": "render",
@@ -363,6 +458,11 @@
   "alt": "Render of a shock-corded tent pole joint pulled apart: two aluminium pole sections lie end to end, the left one with a silver sleeve (ferrule) on its end, and the black elastic cord running inside them shows in the gap, ready to pull the right-hand tube back into the sleeve.",
   "kind": "render",
   "note": ""
+ },
+ "slot-in-model-hinge": {
+  "alt": "Render of slot-in model hinges: the back edge of a balsa model plane wing and its aileron joined by thin white flat hinges pushed half into a slit in each part and glued, with the aileron swung down so the hinges bend in the gap between the bevelled edges; the cut end shows one hinge buried in both slits, and a spare hinge lies in front.",
+  "kind": "cross-section",
+  "note": "weak: at page size the hinges show only as small white tabs in the gap; the slits they sit in are hard to see"
  },
  "snap-lock-sheet-joint": {
   "alt": "Render of a snap-lock sheet joint: a small laser-cut acrylic bridge, two blue side walls holding a white top; on each wall a tab and a thin springy finger poke up through a slot in the top, and the little barb on the finger hooks over the top face so it cannot lift off.",
@@ -386,6 +486,11 @@
  },
  "split-part-joints-for-large-prints": {
   "alt": "Render of split-part joints for a large print: a big round printed shape cut in two, the lower piece with two round pegs standing up from its flat cut face and the domed upper piece resting upside down beside it, showing the two matching holes the pegs fit into.",
+  "kind": "render",
+  "note": ""
+ },
+ "spring-powered-paper-pop-up": {
+  "alt": "Render of spring-powered paper pop-ups: a yellow card cube stands open with a rubber band stretched across its inside between two opposite corners; beside it a second cube is pressed flat, its band stretched between the folded ends, ready to snap it back into a cube; to one side a paper spring of two strips folded over each other holds up a card star.",
   "kind": "render",
   "note": ""
  },
@@ -441,6 +546,16 @@
  },
  "twisted-string-actuator": {
   "alt": "Render of a twisted-string actuator: a small gearmotor on a printed bracket turns a hub tied to two orange braided strings; the strings are twisted tightly round each other and pull a printed carriage along two steel guide rods towards the motor.",
+  "kind": "render",
+  "note": ""
+ },
+ "v-fold-pop-up": {
+  "alt": "Render of a V-fold pop-up: a white card opened out wide inside a green cover has a red card piece folded down its middle and glued to both pages at a slant, so that its middle crease stands up and leans towards the viewer, with all three creases meeting at one point on the centre fold.",
+  "kind": "render",
+  "note": ""
+ },
+ "v-groove-fold": {
+  "alt": "Render of a V-groove fold in foam board: a strip of board folded up into a neat right-angled corner, the two sloping cut faces of the groove glued together inside it and the uncut paper skin wrapping round the outside corner; in front lies a flat piece with a V-shaped groove cut almost through it, ready to fold.",
   "kind": "render",
   "note": ""
  },

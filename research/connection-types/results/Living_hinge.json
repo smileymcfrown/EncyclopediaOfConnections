@@ -53,7 +53,8 @@
       "3D print (FDM): fine for prototypes and boxes opened occasionally; best in PP, nylon, TPU or PETG (Hubs; BYU CMR)",
       "3D print (resin): material jetting with simulated polypropylene works (Hubs); standard SLA resins are brittle under repeated bending (Hubs snap-fit guide). Powder-bed nylon (SLS, MJF) gives the best printed hinges (Protolabs)",
       "laser cut: polypropylene sheet can be cut into hinged parts (BYU FlexLinks are cut from PP sheet); plywood and acrylic need a kerf-bend cut pattern instead (Wikipedia; separate entry)",
-      "other: stamping, blow moulding, extrusion and machining of PP (MIT guide), thermoforming (Wikipedia) and urethane casting (Fictiv)"
+      "other: stamping, blow moulding, extrusion and machining of PP (MIT guide), thermoforming (Wikipedia) and urethane casting (Fictiv)",
+      "other: on foam model planes the foam itself can be cut into a hinge, but only in flexible foam. In EPP (expanded polypropylene), control surfaces can be made 'by routing out material and leaving a thin hinge of the foam', but this 'doesn't work with semirigid foams such as Depron, XPS (extruded polystyrene), Readi-Board, and insulation foam': 'the thin foam left by cutting a shallow groove would break after being bent only a few times' (Park Pilot 'Foam airplane hinges'). On paper-faced foam board the hinge line can instead be scored through the foam, 'leaving paper intact on one side', so the flap bends on the paper; but 'the paper adhesive, however, won't last long', so tape is added on the bevelled side (Park Pilot). Moulded EPO (expanded polyolefin) foam planes often have a 'live' hinge of thin foam, which is 'convenient but not always very durable' (Model Aviation 'Repairing Foam Hinges'); a Flite Test reader comment also recommends foam cut partly through on scratch builds (Flite Test 'RC Plane Hinge Types'). For hinges that must last, 'taped hinges are most often used when building and repairing foam models', because glued-in pin, nylon and CA hinges 'often pull out of foam' (Park Pilot; see 'Adhesive tape joint and tape hinge' and 'Slot-in model hinge')"
     ],
     "print_in_place": "yes: the hinge prints as part of the box in one go, usually lying flat so the hinge is the first two thin layers and the box folds up afterwards (Printables 'Book box with living hinge'; BOSL2 living_hinge_mask), or standing up so the hinge axis is vertical (Hubs). No added parts are needed.",
     "making_tips_3d_printing": "1) Choose the material first: polypropylene (PP) flexes best but warps badly and only sticks to a PP build sheet or PP packing tape, so use a 5-10 mm brim and an enclosure if you can (Prusa knowledge base 'Polypropylene (PP)'); nylon, TPU or TPE are the other good choices (Hubs; MatterHackers), and PETG works (BYU CMR). PLA works only for hinges folded now and then, such as a box opened occasionally (Printables 'Book box with living hinge', printed in PLA at 0.2 mm layers). 2) Never let the fold line run along a layer boundary, because the layers will peel apart. Either print the part flat so the hinge is the bottom one or two layers with the extrusion lines running across the fold line (BYU's printed origami flasher uses two 0.1 mm bottom layers so every fold has two crossing layers of filament to bend on; a single 0.2 mm layer broke easily), or print it standing up so the hinge's width, not its length, is built up layer by layer, i.e. the hinge axis points up (Hubs). 3) Thickness: FDM hinges about 0.4-0.6 mm and at least two layers (Hubs); start at 0.5 mm (Fictiv). The 0.25-0.38 mm used in injection moulding is too thin for FDM (MatterHackers). SLS: 0.3-0.8 mm and at least 5 mm long (Hubs); Protolabs gives 0.02 in (0.5 mm) minimum for MJF and 0.03 in (0.76 mm) for SLS. 4) Make the hinge long enough to bend in a smooth curve rather than a sharp crease: for a 180-degree fold, hinge length L = pi x R, where R is the distance from the mating face to the hinge centre line (Protolabs; Fictiv); aim for a long curved outer surface and a short inner surface (Hubs). 5) Round every corner where the hinge meets the stiff parts, and add small shoulders so it bends in the middle (MIT guide; Fictiv). 6) Leave a small gap under the fold so the two halves don't collide when folded (BOSL2 living_hinge_mask adds a hinge gap). 7) Train the hinge while warm: take the print off the bed while still warm and fold it (BYU CMR), or dip it in boiling water, work it back and forth and let it cool in the closed position (Hubs); one maker heated a PLA hinge on a 75 °C bed for about 30 seconds and flexed it as it cooled (Prusa forum). 8) Split very long hinges into sections; moulding guides split hinges over about 6 in (150 mm) (MIT guide; Fictiv). 9) Print a test piece first to find the best thickness for your printer and filament (Printables 'Living Hinge Design Test'). 10) Expect a limited life: tens to hundreds of folds (Fictiv), about 25 folds for one FDM example (Hubs), so use a printed pin hinge for anything opened many times a day.",
@@ -89,7 +90,12 @@
       "Bistable compliant mechanism: a living hinge plus a springy link that snaps open or shut and stays there",
       "Cantilever snap fit: often moulded next to a living hinge to hold the lid shut",
       "Piano hinge (continuous hinge): a metal or plastic pin hinge for heavy or frequent use",
-      "Geared hinge: two toothed edges roll on each other; strong, printable, and not limited by material fatigue"
+      "Geared hinge: two toothed edges roll on each other; strong, printable, and not limited by material fatigue",
+      "Score-and-fold hinge (scored crease): the paper, card and foam-board version, where a pressed or half-cut line lets the sheet itself fold as a hinge",
+      "Parallel-fold pop-up: creases in card act as the hinges of a paper parallelogram linkage that stands up when the card is opened",
+      "V-fold pop-up (angle fold): creases meeting at one point on the centre fold swing a card piece up at an angle as the card opens",
+      "V-groove fold (mitre fold): a groove cut almost through foam board, EVA foam or plywood leaves a thin face that folds once into a corner and is then glued",
+      "Slot-in model hinge (CA hinge, hinge point): separate small hinges glued into slits in a model plane's wing and flap, the usual hinge for control surfaces in foam or balsa"
     ]
   },
   "media": {
@@ -178,7 +184,10 @@
       "https://www.printables.com/model/18192-tpupp-little-box-with-living-hinge-flex",
       "https://www.printables.com/model/569143-flexlinks-cross-axis-flexural-pivot",
       "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad",
-      "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE"
+      "https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE",
+      "https://www.flitetest.com/articles/RC_Plane_Hinge_Types",
+      "https://www.theparkpilot.org/foam-airplane-hinges",
+      "https://www.modelaviation.com/Repairing-Foam-Hinges"
     ]
   },
   "uncertain": [

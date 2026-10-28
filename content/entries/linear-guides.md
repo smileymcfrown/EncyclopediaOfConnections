@@ -93,6 +93,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -329,6 +331,7 @@ Moving carriages and gantries create pinch and crush points at the ends of trave
 - Aluminium-extrusion connectors (T-slot nuts and brackets): the same V-slot and T-slot bars used as the frame
 - Multi-stage slide rigging: string or belt systems that extend several linear slides at once
 - Plain pivot and rolling bearing: the rotating counterpart of a linear guide
+- Linked lead screws (Z sync belt): several lead screws tied together and turned by one motor so a bed or gantry lifts level; they are weak against side loads, which need linear guides
 
 ## Make it yourself
 

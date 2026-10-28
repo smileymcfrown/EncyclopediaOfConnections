@@ -143,6 +143,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: metal
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 
@@ -247,6 +290,7 @@
   - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): mechanical ways to join printed sections, which welding can reinforce
   - Heat-set threaded insert: uses the same soldering iron to melt a metal insert into a print
   - Welded metal joint (fusion welding): the metal equivalent
+  - Liquid-clay bond: polymer clay parts fused with liquid clay in the oven, the clay version of joining a material to itself
 
 ### Pictures, videos and models
 
@@ -300,6 +344,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: plastic or film
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 
@@ -444,6 +531,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: plastic or film
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 
@@ -593,6 +723,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: sew or lace
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: plastic or film
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: plastic, fabric or a gap
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, fabric, leather or cord
 
 ### Other info
 
@@ -602,7 +775,7 @@
 
 *welding, brazing & soldering.* Metal parts are joined by melting a low-melting tin alloy (solder) into a tight gap with a soldering iron or a small gas torch, as in copper water pipes, tin toys, stained glass and brass models
 
-*Also covers:* Also covers which metals solder easily, fluxes, copper-pipe capillary fittings (end-feed and solder-ring), lead-free solder for drinking water, and low-melting solders. Wire joints are Soldered wire joint. Safety: flux fumes can cause asthma, lead, and torch fires.
+*Also covers:* Also covers which metals solder easily, fluxes, copper-pipe capillary fittings (end-feed and solder-ring), lead-free solder for drinking water, and low-melting solders. Wire joints are Soldered wire joint. Safety: flux fumes can cause asthma, lead, and torch fires. Also covers soldering stained glass (tin foiled seams before beading, don't heat lead came, wash the piece at once).
 
 ### What it is
 
@@ -618,7 +791,7 @@
   - soldering copper (a heavy copper-headed iron heated in a flame, used on sheet metal) (Wikipedia 'Soldering')
   - electric pipe-soldering tool or resistance soldering tongs, e.g. Antex Pipemaster (brand) (Wikipedia 'Soldering'; CDA Copper Tube Handbook)
   - low-melt solder (e.g. 70 °C solder for white-metal model kits); fusible alloys such as Wood's metal, Field's metal and Rose metal (Wikipedia 'Fusible alloy'; GardenRails forum)
-  - came glasswork and the copper-foil (Tiffany) method in stained glass (Wikipedia 'Came glasswork')
+  - came glasswork and the copper-foil (Tiffany) method in stained glass (Wikipedia 'Came glasswork'); see the Copper-foil joint and Lead came joint entries
   - not the same as silver soldering or hard soldering, which are kinds of brazing (see Brazed joint)
 - **family**: welding, brazing & soldering
 - **other_families**: seals & pass-throughs, electrical connections
@@ -670,6 +843,7 @@
   - Pipe repairs: the pipe must be dry, and 'Any pressure which is formed by heating of the tubing must have an outlet' (Wikipedia 'Soldering'); open valves part-way before heating them and heat mainly the tube (CDA p. 40).
   - Iron size: a 25 W iron won't heat large connectors, copper roof flashing or big lead came, while 100 W may be too much for circuit boards; temperature-controlled irons hold their temperature better (Wikipedia 'Soldering'). Don't run the iron hotter than needed: solder fume levels 'can triple between 250-400 °C' (HSE INDG249, https://www.hse.gov.uk/pubns/indg249.pdf).
   - White-metal model kits: use low-melt solder (about 70 °C) with a temperature-controlled iron set to about 150-170 °C, and a higher-melting 100 °C solder for the main build before adding details (GardenRails forum, https://www.gardenrails.org/viewtopic.php?p=138605). Bismuth-containing solders can form a phase that melts at only 95 °C with lead and tin, so joints can come apart or crack (Wikipedia, https://en.wikipedia.org/wiki/Solder).
+  - Stained glass: on copper-foiled seams, first tin both sides with 50/50 solder to stop solder dripping through, then run a raised bead with 60/40 or 63/37, which melts lower, straight after tinning before the metal oxidises; on lead came, load the iron tip with 60/40 and touch the joint quickly, because lead melts at nearly the same temperature as solder, so don't heat the lead; let every joint cool undisturbed, since vibration while it cools weakens the seam; wash the piece at once with warm water, baking soda and liquid detergent so leftover acid doesn't attack the silver backing of mirror glass (Stained Glass Crafters club, Sun City West, https://stainedglass.scwclubs.com/specialities-and-techniques/).
 
 ### When to use it
 
@@ -682,7 +856,7 @@
 - **when_not_to_use**: For load-bearing or structural joints (brackets, frames, shafts, hooks): soft solder is 'unsuitable for mechanical load-bearing applications' (Wikipedia 'Soldering'); use brazing, welding, bolts or rivets, or add a folded seam or screws and let the solder only seal (NBS Circular 492). For parts running above about 120 °C or carrying steam: braze instead (CDA). For wet pipes that can't be drained, or places where a flame is dangerous: use push-fit, press or compression fittings or flared joints (CDA). For hidden joints in walls that later need to come apart: use unions or accessible mechanical fittings. For stainless steel or aluminium, soldering is possible only with special fluxes and solders, so riveting, brazing or welding is often easier. For plastics use plastic welding; for wires see Soldered wire joint. Never use lead solder on drinking-water pipes.
 - **environment_limits**: Heat: lead-tin solder weakens and creeps as it gets hot and should not be used above about 177 °C, less under constant load (NBS Circular 492); copper systems running continuously above 121 °C should be brazed (CDA). Vibration: a loose-fitting joint with a thick solder layer can crack under stress or vibration (CDA). Corrosion: flux residue left inside or outside a joint keeps corroding and can eat right through the tube wall (CDA); soldered aluminium joints suffer 'rapid galvanic corrosion' in moist or marine air unless protected, e.g. by a moisture-proof lacquer or paint over the joint (NBS Circular 492). Cold: tin on its own can suffer 'tin pest' at low temperatures; lead and antimony in the solder prevent it (Wikipedia 'Solder'). Low-melt bismuth solders can fail at only about 95 °C if they mix with lead-tin solder (Wikipedia 'Solder').
 - **safety_notes**: FLUX FUMES: rosin-based flux fume 'is a top cause of occupational asthma'; use fume extraction, keep your head out of the plume, don't overheat the iron, and consider rosin-free fluxes (HSE solderer page; HSE INDG248, INDG249). Acid plumbing and sheet-metal fluxes contain hydrochloric acid, zinc chloride or ammonium chloride, which are harmful: use gloves, goggles and ventilation (Wikipedia 'Flux (metallurgy)'), and 'Do not apply with fingers' because flux carried to the eyes, mouth or cuts can harm you (CDA). Molten flux sticks to skin and can burn worse than a drop of solder (Wikipedia 'Flux (metallurgy)'). LEAD: lead solder and lead came are poisonous if swallowed; never eat, drink or smoke while working, wash your hands with soap and water afterwards (alcohol hand sanitiser does not remove lead), and keep children away; stained-glass work also exposes you to acid-flux fumes (Illinois Department of Public Health 'Lead Safety for Hobbyists'). Use lead-free solder wherever children may touch the work, outdoors, and always on drinking-water pipes, where lead solder is illegal (Wikipedia 'Soldering'; APHC; WaterSafe). Avoid cadmium-bearing solders: heating cadmium gives cadmium oxide fume, which damages lungs and kidneys (HSE EIS31). TORCH FIRES AND BURNS: an open flame in a building is a fire hazard (Wikipedia 'Piping and plumbing fitting'); put a heat mat behind pipes, don't heat pipes touching timber or other combustibles close enough to ignite them by conduction, keep an extinguisher ready, and keep a fire watch for at least half an hour afterwards to catch smouldering fires (OSHA 29 CFR 1910.252, the US hot-work rule for welding, cutting and brazing). Never heat a closed pipe or vessel: trapped water turns to steam and must have an outlet (Wikipedia 'Soldering'). Soldering irons reach several hundred degrees: use a stand and unplug it when finished.
-- **common_failures**: (1) Dirty or oxidised metal: solder balls up and won't flow; clean to bright metal and flux straight away (CDA; Wikipedia 'Soldering'). (2) Overheating: burnt flux, discoloured copper, and solder that won't enter the joint (CDA; Wikipedia 'Soldering'). (3) Too little heat: a cold, grainy joint sitting on the surface (Soldered wire joint entry covers cold joints). (4) Voids where flux was trapped because the flame was in the wrong place, so the solder sealed the mouth of the cup first; aim the flame at the back of the fitting cup and feed solder opposite it (Wikipedia 'Soldering'). (5) Water in the pipe stops it getting hot enough (Wikipedia 'Soldering'; CDA). (6) The parts moved while the solder was pasty, cracking the joint (Wikipedia 'Solder'). (7) Loose fit or excess solder film: weaker joint that cracks under vibration (CDA; NBS Circular 492). (8) Flux corrosion pinholes from too much aggressive flux left in the pipe; use only a thin coat and flush the system (CDA). (9) Burrs left inside a cut tube causing erosion-corrosion from turbulent flow; ream every cut end (CDA). (10) Brittle joints from antimony solder on galvanised metal, or bismuth solder mixed with lead-tin (Wikipedia 'Solder'). (11) A soft-soldered part asked to carry load creeps or peels apart over time; redesign as a lap, folded or bolted joint, or braze it (NBS Circular 492).
+- **common_failures**: (1) Dirty or oxidised metal: solder balls up and won't flow; clean to bright metal and flux straight away (CDA; Wikipedia 'Soldering'). (2) Overheating: burnt flux, discoloured copper, and solder that won't enter the joint (CDA; Wikipedia 'Soldering'). (3) Too little heat: a cold, grainy joint sitting on the surface (Soldered wire joint entry covers cold joints). (4) Voids where flux was trapped because the flame was in the wrong place, so the solder sealed the mouth of the cup first; aim the flame at the back of the fitting cup and feed solder opposite it (Wikipedia 'Soldering'). (5) Water in the pipe stops it getting hot enough (Wikipedia 'Soldering'; CDA). (6) The parts moved while the solder was pasty, cracking the joint (Wikipedia 'Solder'). (7) Loose fit or excess solder film: weaker joint that cracks under vibration (CDA; NBS Circular 492). (8) Flux corrosion pinholes from too much aggressive flux left in the pipe; use only a thin coat and flush the system (CDA). (9) Burrs left inside a cut tube causing erosion-corrosion from turbulent flow; ream every cut end (CDA). (10) Brittle joints from antimony solder on galvanised metal, or bismuth solder mixed with lead-tin (Wikipedia 'Solder'). (11) A soft-soldered part asked to carry load creeps or peels apart over time; redesign as a lap, folded or bolted joint, or braze it (NBS Circular 492). (12) Stained glass: solder drips through copper-foiled seams (tin both sides with 50/50 first), lead came melts under the iron (don't heat the lead), seams weaken when moved while cooling, and leftover acid eats the silver backing of mirror glass if the piece isn't washed at once (Stained Glass Crafters club, Sun City West).
 - **related**: 
   - Brazed joint (brazing, silver soldering, hard soldering): the same capillary idea with a filler that melts above 450 °C at red heat; much stronger and good to higher temperatures, but needs a hotter torch
   - Welded metal joint (fusion welding): melts the parts themselves; strongest, but much more heat, distortion and equipment
@@ -694,6 +868,8 @@
   - Burn-wire and fusible-link release: uses a deliberately weak low-melting solder joint as a heat-triggered release
   - Two-part epoxy and Epoxy putty: cold-bonding alternatives for metal repairs that can't be heated, but not for drinking-water pressure pipes
   - Blind rivet and Clinching: cold mechanical joints for sheet metal that carry more load than solder
+  - Copper-foil joint (Tiffany method): stained glass whose edges are wrapped in copper tape and soft-soldered along every seam
+  - Lead came joint (leaded glass): stained glass held in grooved lead strips that are soldered only where they cross
 
 ### Pictures, videos and models
 
@@ -738,6 +914,7 @@
   - https://commons.wikimedia.org/wiki/File:L%C3%B6tbrenner_in_der_Anwendung.jpg
   - https://commons.wikimedia.org/wiki/Category:Solder_fittings
   - https://api.printables.com/graphql/
+  - https://stainedglass.scwclubs.com/specialities-and-techniques/
 
 ### Finder tags
 
@@ -756,6 +933,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: metal
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: fused or brazed
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal, glass or mirror
 
 ### Other info
 
@@ -853,6 +1073,7 @@
   - Blind rivet (pop rivet) and Ordinary screw joint: cold, removable or one-sided alternatives for joining different metals
   - Two-part epoxy and Epoxy putty: cold 'metal repair' alternatives for parts that can't be heated; much weaker
   - Heat staking, Melted plastic weld: the plastic equivalents of heat joining
+  - Bonded tube joint (lugged, sleeved or fibre-wrapped tube joint): tubes glued into lugs or sleeves instead of brazed, as on carbon and bamboo bike frames, for tubes that can't take the heat
 
 ### Pictures, videos and models
 
@@ -904,6 +1125,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: metal
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint, join hoses or pipes
+- **seal_material**: metal
+- **hose_join**: fused or brazed
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ## 406 Spot weld (resistance spot welding)
 
@@ -1056,6 +1320,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: metal
+- **wire_use**: touching or turning contacts
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 
@@ -1197,6 +1504,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: plastic or film
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: fused or brazed
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts
 
 ## 409 Ultrasonic weld (ultrasonic plastic welding, energy director)
 
@@ -1349,8 +1699,608 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: plastic or film
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, fabric, leather or cord
 
 ### Other info
 
 - ⚑ **Fields with parts that need confirming:** environment_limits, load, off_the_shelf_parts
+
+## 441 Copper-foil joint (Tiffany method, foiled and soldered glass)
+
+*welding, brazing & soldering.* Each piece of glass has its edge wrapped in sticky copper tape that is pressed flat, and the pieces are joined by running a bead of solder along the copper seams, as in Tiffany lamps, suncatchers and small glass boxes
+
+*Also covers:* Also covers foiling and burnishing, tinning then beading, adding hanging loops and jump rings to glass pendants, 3D shapes held in printed angle jigs, and printed foilers. Safety: lead in 60/40 and 50/50 solder (wash hands, no food in the workspace, keep children away; lead-free solder exists); flux fumes; cut glass edges; wash the piece after soldering.
+
+### What it is
+
+- **plain_name**: Wrapping the edge of each piece of glass in sticky copper tape and then melting solder along the copper where the pieces meet, so the glass pieces are held together by little metal seams, as in Tiffany lamps and suncatchers
+- **term**: Copper-foil joint (copper foil method, Tiffany method, foiled and soldered stained glass)
+- **aliases**: 
+  - copper foiling, foiling (the wrapping step)
+  - Tiffany method, Tiffany technique, Tiffany-style (after the Tiffany lamps; Tiffany (brand) used only as a style name)
+  - foiled glass, foil-and-solder stained glass, copper foil construction (Everything Stained Glass)
+  - tinning (a thin coat of solder on the foil) and beading or a beaded seam (a raised rounded bead of solder) (SCW Stained Glass Club; Everything Stained Glass)
+  - tinning copper foil (Fire Mountain Gems, for glass jewellery and slides)
+  - 'Joining Glass Mosaics' (title of Sanford Bray's 1886 patent; Wikipedia 'Came glasswork')
+  - copper foil glasswork, an alternative to came glasswork (Wikipedia)
+- **family**: welding, brazing & soldering
+- **other_families**: adhesives & bonding
+- **one_liner**: Each glass piece's edge is wrapped in adhesive copper tape and pressed flat (burnished), the copper is brushed with flux, and solder is run along every seam where two foiled edges meet, so the pieces become one rigid panel or 3D shape held together by a continuous metal network.
+- **complexity**: A few materials made into one unit: cut glass pieces, adhesive-backed copper foil tape (plain, black-backed or silver-backed), flux, solder (usually 60/40 or 63/37 tin-lead, or a lead-free alloy), and optionally hanging loops or jump rings, reinforcing wire or a zinc or lead came border; often a patina to colour the solder. Tools: glass cutter and grinder, burnisher (fid) or a foiler, flux brush, soldering iron of 80-100 W class with stand, and a heat-resistant work board with pins or a jig.
+- **how_it_works**: Glass can't be soldered, so the copper foil gives every edge a metal skin: the tape's glue only holds it in place until soldering (Everything Stained Glass: the glue 'is only there to hold the foil in place before and during soldering'). Flux cleans the copper so molten solder wets it (Fire Mountain Gems: 'Solder will not stay on the foil if it isn't fluxed properly'). The solder flows into the narrow gap between neighbouring foiled pieces and over the foil on both faces, and as it cools it locks the pieces together; a rounded bead that wraps round the edge holds better than a flat tinned coat because 'the solder clings to the sides of the glass rather than just being held by the copper foil glue' (Everything Stained Glass). Because every seam is soldered along its full length and the foil bends round tight curves, it suits small intricate pieces and 3D forms such as 'cylinders, cones, and globe-shaped shades' (Wikipedia 'Came glasswork').
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: joins glass to glass (and to wire loops, jump rings and brass parts) permanently
+  - glue or bond: the solder acts as a metal glue along every seam, though it is a metallurgical bond to the copper, not to the glass
+- **motion**: none
+- **degrees_of_freedom**: 0: the soldered network makes the panel or shape a single rigid piece
+- **special_behaviour**: none
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): solder melts onto and bonds with the copper foil, and the foil's adhesive holds it to the glass until then
+  - shape (the parts interlock; form-fit): a beaded seam wraps over both faces of each piece, so the glass is also trapped between two lips of solder (Everything Stained Glass)
+- **input_output**: not applicable
+- **power**: passive (no power needed once made); making it needs a soldering iron
+- **removability**: permanent: pieces can only be separated by melting the solder out with the iron, which usually means re-foiling the piece; repairs are possible but slow
+- **reuse_cycles**: once
+- **tools_needed**: soldering iron for stained glass (about 80-100 W, ideally temperature-controlled; most electrical irons are too small, Bullseye Glass) with stand and tip cleaner, flux and brush, solder, burnisher or fid (or a foiler), scissors or knife, glass cutter, grinder or carborundum stone, pins or a jig, gloves, safety glasses and fume extraction
+- **seal**: loose to watertight ⚑ [uncertain]: a well-soldered seam on both faces has no gaps, but foiled panels are not made to be weatherproof windows; outdoor panels usually go behind other glazing or are framed in came and puttied *(⚑ parts need confirming)*
+- **load**: light: good for suncatchers, lamp shades, small boxes, terrariums and panels; strength comes from the solder, so large flat panels sag or bend and need reinforcement (a Reddit stained-glass worker reinforces 'anything over 24 by 24' in, about 60 x 60 cm, depending on the design). Thin foil makes larger projects and lamps noticeably weaker (Downeast Stained Glass). Strong in the plane of the panel, weak against bending and twisting, and joints crack if dropped or knocked.
+- **adjustable**: no: once soldered, the shape is fixed (seams can be reheated to correct small faults)
+- **play_and_precision**: not applicable: there is no play, but the gaps between pieces should be small and even because solder fills the gaps; pieces are ground to fit the pattern so they sit close together (Everything Stained Glass) ⚑ [uncertain: no gap figure found] *(⚑ parts need confirming)*
+- **access_needed**: both sides: both faces of a flat panel are soldered, and 3D shapes are soldered inside and out where reachable
+- **materials**: Joins any glass (art glass, mirror, bevels, glass jewels and slides) and any material that can take the iron's heat, Fire Mountain Gems says 'up to 1000 degrees Fahrenheit', e.g. glass, stone slices, shells ⚑ [uncertain] and copper, brass or tinned wire for loops and frames. Solder also bonds to brass, copper and lead came. It can't join bare glass (the foil is essential), plastic, acrylic or 3D-printed parts (they melt), or aluminium. Don't put copper foil on steel reinforcement: 'Electrolysis will deteriorate the copper in short time and cause failure. Always use lead on steel or copper on brass' (Downeast Stained Glass). Very hot solders (under 60% tin) can crack hand-made glass from heat (AA Glass Studio). *(⚑ parts need confirming)*
+- **maker_difficulty**: moderate: no expensive machines, but neat foiling and smooth beads take practice, and the lead, flux and hot-iron hazards need care
+
+### Making it
+
+- **processes**: 
+  - soldering (by hand with a soldering iron)
+  - glass cutting and grinding to prepare the pieces
+  - 3D print (FDM): jigs that hold pieces at set angles, foilers that centre the tape, and pattern templates, not the joint itself (Printables 764711, 868753)
+  - off-the-shelf part: copper foil tape, flux, solder, jump rings, and pre-cut glass bevels and jewels
+- **print_in_place**: no: the joint itself can't be printed; printed parts are jigs and tools only
+- **making_tips_3d_printing**: The joint is not printed, but printed tools help. 1) Angle jigs: a printed jig holds glass pieces at the set angle for 3D shapes (Printables 764711 has 5- and 6-sided succulent jigs at 10, 20, 30 and 40 degrees plus regular polyhedra, and a tilting base so the joint being soldered lies flat and the solder doesn't run down it). 2) Keep the iron off the plastic: the iron runs at about 360-410 °C (Everything Stained Glass; Hakko settings at Warm Glass), far above PLA's softening point, so touch-solder (tack) the pieces at a few points, then lift the piece out of the jig to finish the seams ⚑ [uncertain]. 3) Foilers: a printed foiler with guide wheels sized to the tape width (e.g. 5 mm) feeds and centres the foil on the glass edge (Printables 868753: press-fit wheel, printed threads, spacer for thin rolls, optional bench clamp flap for 16-17 mm benches). 4) Print jigs in PETG or ASA rather than PLA if they sit near the hot work ⚑ [uncertain]. 5) Never solder over or onto a printed part, and never use printed parts as part of the finished seam. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search for: 'copper foil tape stained glass' (widths 3/16 in, 7/32 in, 1/4 in; thickness 1.0, 1.25 or 1.5 mil; plain copper, black-backed or silver-backed), 'stained glass flux' (liquid or gel), '60/40 solder' or '63/37 solder' (solid wire, no rosin or acid core), 'lead-free stained glass solder', 'stained glass soldering iron' (temperature-controlled), 'fid' or 'burnisher', 'foiler' (hand or bench foiling machine), 'jump rings' or 'hanging loops', 'tinned copper wire' or 'brass wire' for loops and reinforcement, 'reinforcing strip' or 'restrip' ⚑ [uncertain], 'zinc came' or 'U-came' for borders, 'patina' (black or copper), 'finishing compound' or 'stained glass wax' ⚑ [uncertain], 'Morton board' or 'layout board' and 'pushpins'. *(⚑ parts need confirming)*
+- **rules_of_thumb**: 
+  - Foil width: 7/32 in is the most common, leaving a lip usually less than 1/16 in over each face; 3/16 in for bevels, jewels and thin glass; 1/4 in for heavily textured glass, reinforcement areas and doubled glass (Downeast Stained Glass). Aim for an overlap of 1/32-1/16 in on each face; 3/16-1/4 in foil works for most pieces (Everything Stained Glass).
+  - Foil thickness: 1.25 mil is the standard and least recommended; 1 mil tears too easily; 1.5 mil is most robust but harder round inside curves (Everything Stained Glass, author's reply). Foil comes in about 1-1.5 mil (Downeast Stained Glass).
+  - Keep the foil centred on the edge: if it is uneven, copper shows through from the other side (Fire Mountain Gems). Start foiling away from the outside edge of an edge piece so the tape's join isn't on the perimeter (Everything Stained Glass).
+  - Flux all the foil before soldering, or the solder won't stay on (Fire Mountain Gems).
+  - Tin then bead: tin both sides with 50/50 solder first to stop drip-through, then bead with 60/40 or 63/37, which melts at a lower temperature (SCW Stained Glass Club). Solder the bead right after tinning, before the metal oxidises (SCW).
+  - Solder melting points: 63/37 is eutectic at 183 °C; 60/40 melts over 183-190 °C (AA Glass Studio; Wikipedia 'Solder' gives 188 °C for 60/40). Most lead-free replacements melt 50-200 °C higher (Wikipedia 'Solder').
+  - Iron temperature for beading: normally 360-410 °C (680-770 °F); 360 °C is a good start for beginners; go hotter only for embedding wire or brass, lower for lead came (Everything Stained Glass, Hakko FX-601). Hakko settings listed by Warm Glass: lead came 360 °C, copper foiling 410 °C.
+  - Let every soldered seam cool undisturbed: vibration while cooling forms large crystals that weaken the joint (SCW Stained Glass Club).
+  - Wash the piece straight after finishing with warm water, baking soda and detergent to stop white corrosion and to protect the silver backing of mirror glass (SCW Stained Glass Club); Fire Mountain Gems also washes with warm water and soap.
+  - Joining two pieces at right angles: set them to form a V and fill it with solder; it uses more solder but makes a much better joint (Everything Stained Glass, author's reply).
+  - Don't over-work a seam: soldering too slowly or going over it repeatedly melts the foil glue and lifts the foil (Everything Stained Glass).
+  - Never put copper foil against steel reinforcement; use lead on steel or copper on brass (Downeast Stained Glass).
+
+### When to use it
+
+- **everyday_examples**: 
+  - Tiffany-style table lamps with leafy or floral glass shades (Wikipedia 'Came glasswork')
+  - Stained-glass suncatchers and ornaments hanging in a window
+  - Small glass jewellery boxes, terrariums and 3D glass succulents (Printables 764711)
+  - Glass or stone pendants with a silver-coloured soldered rim and a soldered jump ring (Fire Mountain Gems)
+- **when_to_use**: Use copper foil for small, detailed stained-glass work: suncatchers, lamp shades, panels with many small or curved pieces, 3D shapes (boxes, terrariums, polyhedra), mirror mosaics, and for adding a metal rim and a hanging loop to a glass or stone pendant. Copper foil 'is an easy, versatile alternative to came and is particularly useful for small projects', and it can make 'cylinders, cones, and globe-shaped shades' that lead came can't (Wikipedia 'Came glasswork'). It needs only a soldering iron, not a kiln.
+- **when_not_to_use**: For large windows and panels that must take wind and weather, use lead came (Lead came joint) or add reinforcement and a strong border; a stained-glass worker reinforces anything over about 24 x 24 in (Reddit r/StainedGlass). To join glass to glass invisibly, use a clear glue (UV-curing adhesive, Two-part epoxy, or Silicone and MS-polymer adhesive sealants for aquariums). To melt compatible glass into one piece, use Glass fusing. For plastic or printed 'stained glass' effects, use clear filament or acrylic with glue, not solder. Don't use leaded solder on anything children will handle or mouth, or near food; use lead-free solder (Soldered metal joint entry; Illinois DPH).
+- **environment_limits**: Copper oxidises: store opened foil sealed and solder it before it tarnishes (SCW; Everything Stained Glass). Leftover flux turns into a white corrosive film over time, so wash pieces straight away (SCW). Solder softens far below glass temperatures, but well above room conditions; tin-lead solder melts at about 183-190 °C (AA Glass Studio), so ordinary heat and sunlight are fine. Large panels sag over time, especially in heat ⚑ [uncertain]. Water and outdoor weather can corrode the seams; copper next to steel corrodes by electrolysis (Downeast Stained Glass). Uneven heating, such as a hot lamp bulb against one piece, can crack glass ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: LEAD: 60/40, 63/37 and 50/50 solder contain lead. 'Soldering lead creates a poisonous vapor that is easily inhaled', and you are also exposed by handling leaded solder (Illinois Department of Public Health 'Lead Safety for Hobbyists'). Never eat, drink or smoke in the work area, keep children (and women who may be pregnant) away from it, wash hands with soap and water after work because 'Alcohol-based hand sanitizers do not remove lead', and clean with a HEPA vacuum or damp wipes rather than sweeping (Illinois DPH). Lead-free solders exist but need more heat (Wikipedia 'Solder'). FUMES AND BURNS: use a fume extractor and good ventilation (Bullseye Glass); acid fluxes can damage the lungs (Illinois DPH), and rosin-core solder gives toxic fumes and shouldn't be used (AA Glass Studio; Bullseye). The iron tip is at about 360-410 °C: use a stand, a heat-resistant board, heat-resistant gloves, closed shoes and long trousers (Bullseye; Everything Stained Glass); molten solder can drip through a seam. GLASS: cut and ground edges are sharp and foil edges can cut fingers; take the sharp edge off with a stone and wear safety glasses (Everything Stained Glass). Glass grinder dust harms the lungs (Illinois DPH). PATINA: black patinas can contain selenium dioxide and nitric acid; one is classed 'H300 Fatal if swallowed' and 'H318 Causes serious eye damage', so wear gloves and goggles and follow the label (Novacan black patina SDS on NextSDS).
+- **common_failures**: Solder won't stick or balls up: flux missing, foil dirty or oxidised, or iron too cool (Fire Mountain Gems; SCW). Solder drips through the seam: iron too hot or too slow; tin first with 50/50, then bead (SCW; Everything Stained Glass). Foil lifts off the glass: seam reworked too slowly so the glue melted, foil overlap too narrow, or ground edges not cleaned of dust before foiling (Everything Stained Glass). Lumpy edges: skipped tinning (Everything Stained Glass). Weak or crystalline seams: the piece was moved while cooling (SCW). Panel bends or seams crack: too large without reinforcement, or foil too thin (Reddit r/StainedGlass; Downeast Stained Glass). Glass cracks from heat: high-melting solder or lingering on one spot (AA Glass Studio). White film or corroded mirror backing: flux not washed off (SCW). Copper shows from the front: foil not centred (Fire Mountain Gems).
+- **related**: 
+  - Lead came joint (leaded glass): glass sits in H-shaped lead strips soldered only where they cross; better for large windows
+  - Soldered metal joint (soft soldering): the general soldering technique behind this entry, covering fluxes, alloys and irons
+  - Glass fusing (kiln fusing): joins compatible glass by melting it together in a kiln, with no metal
+  - UV-curing adhesive and Two-part epoxy: clear glue for glass-to-glass and glass-to-metal joints
+  - Silicone and MS-polymer adhesive sealants: for aquarium glass seams
+  - Glazing in a rebated frame: how a finished panel is held in a wooden or printed frame
+  - Brazed joint (silver soldering): a hotter, stronger metal joint, unsuitable for glass because the heat would crack it ⚑ [uncertain] *(⚑ parts need confirming)*
+
+### Pictures, videos and models
+
+- **links**: 
+  - [CopperFoil glasswork wrapped before soldering (Wikimedia Commons, Rickjpelleg)](https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_wrapped_before_soldering.jpg): Glass pieces with their edges wrapped in copper foil, laid out ready for soldering *(licence: GFDL 1.2+ / CC BY-SA 3.0 / CC BY 2.5 (choose one))*
+  - [CopperFoil glasswork soldering (Wikimedia Commons, Rickjpelleg)](https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_soldering.jpg): Soldering the seams of a copper-foiled piece *(licence: GFDL 1.2+ / CC BY-SA 3.0 / CC BY 2.5 (choose one))*
+  - [Lead came and Copper foil Glasswork Flowchart (Wikimedia Commons, Rickjpelleg)](https://commons.wikimedia.org/wiki/File:Lead_came_and_Copper_foil_Glasswork_Flowchart.png): Flowchart of the shared first steps and the different later steps of lead came and copper foil work *(licence: GFDL 1.2+ / CC BY-SA 3.0 / CC BY 2.5 (choose one))*
+  - [Solder Stained Glass Beaded Edges (Everything Stained Glass)](https://everythingstainedglass.com/how-to-do-stained-glass): Diagram comparing tinned and beaded edges, step photos and an embedded video *(licence: link only)*
+  - [No More Lumpy Soldered Edges - Stained Glass (YouTube, Everything Stained Glass; title checked through YouTube oEmbed)](https://www.youtube.com/watch?v=YVWeAVjsRBw): Video of tinning and beading a foiled edge *(licence: link only (standard YouTube licence))*
+- **make_it_yourself**: 
+  - [Stained Glass Foiler (Carlos, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/868753-stained-glass-foiler): Printed foiler with press-fit guide wheels in different tape widths and printed threads; no hardware needed *(licence: CC BY-NC-SA (Printables listing))*
+  - [Stained Glass Angle Jig (zimboptoo, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/764711-stained-glass-angle-jig): Modular jigs for 3D stained glass (succulents at 10-40 degrees and regular polyhedra) on a tilting base that keeps the joint flat while soldering *(licence: CC BY-NC-SA (Printables listing))*
+  - [Stained glass spinner jig (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/831695-stained-glass-spinner-jig): Jig for building stained-glass spinners *(licence: CC BY-NC-SA (Printables listing))*
+  - [Stained glass foiler, bench mounted (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/777541-stained-glass-foiler): Bench-mounted foiler for stained glass *(licence: CC BY (Printables listing))*
+- **diagram_idea**: Cross-section through two pieces of glass side by side: copper foil wrapped round each edge with a small lip on both faces, a thin tinned layer, then a rounded solder bead bridging the gap and wrapping over both faces, with labels for foil, flux, tinning and bead.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Came_glasswork
+  - https://en.wikipedia.org/wiki/Solder
+  - https://www.firemountaingems.com/learn/C51L-project-tutorial.html
+  - https://stainedglass.scwclubs.com/specialities-and-techniques/
+  - https://dph.illinois.gov/content/dam/soi/en/web/idph/files/publications/lead-safety-hobbyists-041516.pdf
+  - https://downeaststainedglass.com/stainedglasstips/copperfoil.html
+  - https://everythingstainedglass.com/copper-foil-stained-glass
+  - https://everythingstainedglass.com/?p=159
+  - https://everythingstainedglass.com/how-to-do-stained-glass
+  - https://www.warm-glass.co.uk/products/hakko-fx601-soldering-iron-temperature-control
+  - https://aaglassstudio.com/stained-glass-how-to-solder-for-perfect-seams/
+  - https://videos.bullseyeglass.com/videos/how-to-solder-copper-foil-for-stained-glass/
+  - https://nextsds.com/sds/en/281331501279771/novacan-black-patina-for-lead-solder
+  - https://arctic-shift.photon-reddit.com/api/comments/search?link_id=mr4owi&limit=20 (Reddit r/StainedGlass thread 'Lead came vs copper foil strengths', https://www.reddit.com/r/StainedGlass/comments/mr4owi/lead_came_vs_copper_foil_strengths/)
+  - https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_wrapped_before_soldering.jpg
+  - https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_soldering.jpg
+  - https://commons.wikimedia.org/wiki/File:Lead_came_and_Copper_foil_Glasswork_Flowchart.png
+  - https://api.printables.com/graphql/ (models 868753, 764711, 831695, 777541)
+  - https://www.youtube.com/watch?v=YVWeAVjsRBw
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: soldering iron, power tools, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process "soldering (by hand with a soldering iron)" not recognised; defaulted*
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: glass
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, related, seal
+
+## 445 Lead came joint (leaded glass, came glasswork, zinc and brass came)
+
+*welding, brazing & soldering.* Pieces of glass are slotted into H-shaped strips of soft lead (came), the strips are soldered only where they meet, and a putty-like cement is brushed under the strips to stiffen and waterproof the panel, as in leaded windows and cabinet doors
+
+*Also covers:* Also covers H and U came, flat and round profiles, stretching lead came, zinc borders, brass-capped and reinforced came, steel reinforcing bars, cementing, and allowing for the came's heart when cutting glass. Safety: lead dust and fumes (wash hands and face, change clothes, no eating in the workspace, keep children away), acid fluxes, cut glass.
+
+### What it is
+
+- **plain_name**: Leaded glass: each piece of glass slides into the grooves of soft H-shaped lead strips, the strips are soldered together only where they meet, and a black putty is brushed under the strips so the whole panel goes stiff and keeps rain out, as in old leaded windows and glass cabinet doors
+- **term**: Lead came joint (came glasswork, leaded glass or leadlight; zinc, brass and copper came)
+- **aliases**: 
+  - came glasswork, leaded glass, lead light, leadlight, leadlighting, stained glass (when the glass is coloured or painted) (Wikipedia 'Came glasswork')
+  - lead came, came, calms, leads, leading, leading up (Wikipedia 'Came glasswork'; Everything Stained Glass)
+  - H came, U came (U-channel, border came), C came, flat came, round (domed) came, Colonial came, high-heart or wide-heart lead, steel-cored lead, reinforced came (Everything Stained Glass; Wikipedia 'Came glasswork')
+  - zinc came, brass came, copper came, brass-capped lead, restoration lead (Wikipedia 'Came glasswork')
+  - leaded light cement, glazing cement, black cement, leaded-light putty, puttying (Everything Stained Glass; Wikipedia 'Came glasswork')
+  - saddle bar, flat rebar, re-bar, Re-Strip, Strong Line, Flex-Bar (brands) reinforcing (Everything Stained Glass 'How to Reinforce Stained Glass Panels')
+- **family**: welding, brazing & soldering
+- **other_families**: interlocking joints & joinery, seals & pass-throughs
+- **one_liner**: A lead came joint holds pieces of glass in the channels of grooved metal strips (came), joins the strips by soldering only where they cross, and fills the gaps under the strips with an oily cement that sets to stiffen the panel and make it waterproof.
+- **complexity**: A small assembly that acts as one unit: cut glass pieces, H-section lead came between the pieces, U- or flat-section came (lead or zinc) round the edge, solder at every joint where came meets came, leaded-light cement under the came flanges, and for bigger panels reinforcing strips or bars (Wikipedia 'Came glasswork'; Fine Woodworking; Everything Stained Glass).
+- **how_it_works**: Came is a metal strip with a central web (the heart) and two flat flanges (leaves), making channels on each side; a glass edge slides into each channel, so the glass is held by the shape of the came, not by glue (Everything Stained Glass 'Stained glass lead came'). The panel is built up piece by piece on a full-size pattern, then 'The joints where the came meet are soldered to bind the sections' (Wikipedia 'Came glasswork'), with a quick touch of the iron because lead melts at nearly the same temperature as solder (Stained Glass Club SCW). Finally a putty-like cement of linseed oil and whiting is brushed under the flanges on both faces, where it hardens, making the panel firm and waterproof (Wikipedia 'Came glasswork'; Everything Stained Glass 'Cementing Lead Came'). Zinc or rigid came round the edge, stretched lead, and steel strips or bars add stiffness so the soft lead doesn't sag (Wikipedia 'Came glasswork'; Fine Woodworking).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds many cut pieces of glass together as one flat panel (Wikipedia 'Came glasswork')
+  - glue or bond: the came strips are bonded to each other by soldering at each crossing (Wikipedia 'Came glasswork')
+  - seal it, or pass cables or fluid through: cement brushed under the came makes the panel waterproof for windows and doors (Wikipedia 'Came glasswork'; Everything Stained Glass 'Cementing Lead Came')
+- **motion**: none
+- **degrees_of_freedom**: 0: once soldered and cemented the pieces can't move; before cementing the panel is 'a bit delicate and easily harmed', which is why it is cemented and, if large, reinforced (Everything Stained Glass 'Cementing Lead Came').
+- **special_behaviour**: none
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the glass sits in the channels of the H-shaped came (Everything Stained Glass 'Stained glass lead came'; Wikipedia 'Came glasswork')
+  - material bond (glue, solder or melting): the came strips are soldered together where they meet (Wikipedia 'Came glasswork')
+  - friction or clamping (force-fit): the cement sets under the flanges and the flanges are pressed down onto the glass, locking the pieces tight (Everything Stained Glass 'Cementing Lead Came')
+- **input_output**: not applicable
+- **power**: passive (no power needed); a soldering iron is needed only to make it
+- **removability**: semi-permanent: a broken piece can be replaced by cutting or opening the came round it, and old panels are taken apart for restoration, but this disturbs the cement and lead (Everything Stained Glass lesson 'Fixing a broken stained glass window'; Illinois DPH, 'dismantling of old stained glass pieces for restoration') ⚑ [uncertain: repair steps not read in detail]. *(⚑ parts need confirming)*
+- **reuse_cycles**: once: a panel is made to last; old lead can be re-soldered after thorough cleaning, but used came is hard to get clean enough to take solder (Everything Stained Glass 'Stained Glass Lead Soldering').
+- **tools_needed**: Glass cutter and breaking pliers (grozier pliers), a lead knife, a lead vice or stretcher, horseshoe nails or pins to hold the pieces while leading up, a soldering iron (for lead about 360 °C, or a Weller tip marked 7 = 700 °F), solder (50/50 or 60/40), flux (or tallow), wire brush, scrubbing brushes, a fid or wooden stick for cement, whiting (Wikipedia 'Came glasswork' tool images; Everything Stained Glass 'Stained Glass Lead Soldering' and 'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a saw ⚑ [uncertain: mentioned only in a reader's question on Everything Stained Glass]. *(⚑ parts need confirming)*
+- **seal**: watertight: once cement or putty is worked under the came flanges on both faces it hardens and keeps out rain; uncemented panels are not waterproof (Wikipedia 'Came glasswork'; Everything Stained Glass 'Cementing Lead Came'). Old cement that crumbles and dissolves in water no longer seals, and needs re-cementing (Everything Stained Glass, reply to a reader).
+- **load**: Light: carries the weight of its own glass and wind on a window, set in a frame. Lead is soft, so large or moving panels sag or buckle unless reinforced; bevelled (thick) glass in lead came is 'much more likely to buckle or sag over time', so it is usually done in zinc (Wikipedia 'Came glasswork'). Strong in the plane of the panel once cemented, weak when bent or pushed sideways (Wikipedia 'Came glasswork' image 'Buckled lead came window').
+- **adjustable**: no
+- **play_and_precision**: not applicable
+- **access_needed**: both sides: solder every joint on one face, turn the panel over and solder the other, and cement both faces (Everything Stained Glass 'Stained Glass Lead Soldering' and 'Cementing Lead Came').
+- **materials**: Came: lead (soft, cheap, easy to bend, ages to dark blue-grey), zinc (light, strong, rigid, for straight lines, borders and heavy bevelled glass), brass and copper (golden or copper colour, mainly about 1890-1920), brass-capped lead, and reinforced came with a brass or steel strip in the heart (Wikipedia 'Came glasswork'; Everything Stained Glass). Joins: pieces of sheet glass, including thick, irregular, plated or fused glass in high-heart lead (Everything Stained Glass 'Stained glass lead came'). Solder joins lead, zinc, brass and copper came; it does not stick to glass, which is held only by the came's shape (Wikipedia 'Came glasswork'). Cement: boiled linseed oil, whiting, lamp black and white spirit (Wikipedia 'Came glasswork'; Everything Stained Glass). Not a way to join plastics: the iron would melt acrylic or 3D prints ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **maker_difficulty**: moderate: few special tools, and the soldering is 'FAR easier than soldering copper foil' because each joint is a small spot, but cutting glass to size, stretching lead, cementing and handling lead safely take practice (Everything Stained Glass 'Stained Glass Lead Soldering'; Fine Woodworking).
+
+### Making it
+
+- **processes**: 
+  - hand assembly: glass cutting, leading up on a pattern board, soldering with an iron, cementing and polishing (Fine Woodworking; Everything Stained Glass)
+  - off-the-shelf part: lead, zinc and brass came, solder, flux, leaded-light cement, reinforcing strip (Everything Stained Glass)
+  - woodwork: setting the finished panel into a rebate in a wooden door or window frame (Fine Woodworking; Everything Stained Glass 'How to Reinforce Stained Glass Panels')
+  - 3D print (FDM): jigs and look-alike 'leaded glass' inserts only, not the joint itself (Printables 1468163, 678895) ⚑ [uncertain: printed jigs are made for copper-foil work] *(⚑ parts need confirming)*
+- **print_in_place**: no: the joint is metal and soldered; it can't be printed.
+- **making_tips_3d_printing**: not applicable to the joint itself, because solder and a hot iron would melt printed plastic. Printing can help around it: angle jigs for laying out pieces (e.g. a 22.5° stained glass jig, Printables 1312183, GPL v3; a four-angle jig, Printables 1468163, BSD) ⚑ [uncertain: made for copper-foil work, use with came not tested], and a printed 'leaded glass' look-alike insert for a lantern where real glass isn't needed (Printables 678895, CC BY-NC-SA). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search terms: 'lead came' (H, U, flat, round, high heart, steel core), 'zinc came' (U-channel border), 'brass came', 'leaded light cement' or 'glazing cement', 'whiting', '50/50 solder' and '60/40 solder', 'stained glass flux' or 'tallow', 'lead knife', 'lead vice' or 'lead stretcher', 'horseshoe nails', 'saddle bar', 'Re-Strip', 'Strong Line', 'Flex-Bar' (brands) (Everything Stained Glass; Wikipedia 'Came glasswork'). Lead came comes in about 2 m (6 ft) lengths or on spools that must be unwound and stretched (Wikipedia 'Came glasswork'; Everything Stained Glass 'Stained glass lead came'). Choose came by its face width, heart height (glass thickness) and heart thickness from the supplier's profile table (Everything Stained Glass 'Stained glass lead came').
+- **rules_of_thumb**: 
+  - Allow for the heart: cut each piece of glass about 1/16 in (1.5 mm) inside the pattern line to make room for the 1/16 in thick rib inside the lead came, or the panel grows too large (Fine Woodworking).
+  - Edges: traditionally 1/2 in (12 mm) flat lead is used round the edge of a window, giving 3/16 in (5 mm) of leeway each side for fitting errors; a U-shaped zinc channel round the panel adds rigidity (Everything Stained Glass 'Stained glass lead came'; Fine Woodworking).
+  - Profiles: round (domed) lead is better for curves because flat lead puckers; high-heart lead takes thick, fused or uneven glass (Everything Stained Glass 'Stained glass lead came').
+  - Stretch soft lead before use to straighten it and make it stiffer, otherwise it stretches in the panel; pre-stretched and hard lead need little or none (Everything Stained Glass; Wikipedia 'Came glasswork'). The site author says stretching gives rigidity but not strength, while a reader who is an engineer says it work-hardens the lead; both agree not to overdo it.
+  - Solder: 50/50 is most used for lead came, 60/40 works if you work faster or turn the iron down (Everything Stained Glass); SCW club tips use 60/40 touched on quickly. An iron of about 360 °C (or a 700 °F Weller tip) suits lead; an 800 °F tip is too hot (Everything Stained Glass 'Stained Glass Lead Soldering').
+  - Don't heat the lead: 'Since lead melts at nearly the same temperature as solder, do not heat the lead'; touch the joint quickly, and let each joint cool undisturbed, because vibration while cooling weakens it (Stained Glass Club SCW).
+  - Cement: brush across the leads, not along them, sprinkle whiting to soak up the oil, clean it off before it hardens, and leave the panel about 2-3 days to set before polishing (Everything Stained Glass 'Cementing Lead Came').
+  - When to reinforce: a fixed panel with a perimeter over about 10 ft (some say 12 ft), or a moving door or window panel over about 8 ft, with reinforcement running right across the panel edge to edge about every 18 in (450 mm) (Everything Stained Glass 'How to Reinforce Stained Glass Panels'); one r/StainedGlass member reinforces anything over 24 x 24 in, depending on the design (Reddit r/StainedGlass). Sources differ, so treat these as starting points.
+  - Reinforce across a likely fold line, by the shortest distance edge to edge; use reinforced came, steel strip beside the heart, saddle bars tied with soldered copper wire, or flat bars soldered on the inside face (Everything Stained Glass 'How to Reinforce Stained Glass Panels'; Wikipedia 'Came glasswork').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Diamond-pane leaded windows in old houses and pubs (Wikipedia 'Came glasswork')
+  - Church stained glass windows (Wikipedia 'Came glasswork', Canterbury Cathedral images)
+  - Glass doors of an Arts and Crafts display cabinet or bookcase (Fine Woodworking)
+  - Front-door and transom panels with clear bevelled glass in Victorian houses (Wikipedia 'Came glasswork')
+- **when_to_use**: Use lead came for flat panels with strong lines, larger pieces of glass and weather exposure: windows, door and cabinet panels, transoms (Everything Stained Glass; Fine Woodworking). Lead is easier to bend round curves; zinc suits straight-line and large designs and heavy bevelled glass (Wikipedia 'Came glasswork'). Hobby came is also used just as a neat border round copper-foiled suncatchers, fixed with a dab of glue rather than putty (Everything Stained Glass, reply to a reader).
+- **when_not_to_use**: For small, intricate pieces, curved or 3D shapes (lampshades, boxes, suncatchers) use the Copper-foil joint instead: copper foil is 'particularly useful for small projects' and allows cylinders, cones and globes (Wikipedia 'Came glasswork'). To join glass to glass without metal lines, use Glass fusing or a UV-curing adhesive. To hold a single pane in a frame, use Glazing in a rebated frame. Avoid lead where children will handle the piece, or where food is involved; use zinc or brass came and lead-free solder, or a different method ⚑ [uncertain: lead-free substitute advice not on an opened came page]. *(⚑ parts need confirming)*
+- **environment_limits**: Soft lead sags and buckles over time in large, unreinforced or bevelled panels (Wikipedia 'Came glasswork'). Panels that are external, south-facing or that open and close need more reinforcing (Everything Stained Glass 'How to Reinforce Stained Glass Panels'). Old cement dries, crumbles and stops keeping water out (Everything Stained Glass, reply to a reader). Lead came oxidises in damp storage, forming a scale that stops flux and solder working; store it dry or with baking soda (Everything Stained Glass; Stained Glass Club SCW).
+- **safety_notes**: Lead: you are exposed 'when handling lead came or leaded solders and during dismantling of old stained glass pieces', and 'Soldering lead creates a poisonous vapor' (Illinois DPH). Wash hands after handling lead, because alcohol hand sanitisers 'do not remove lead from hands'; never eat, drink or smoke in the workspace; vacuum with a HEPA vacuum instead of sweeping; shower and wash your hair after heavy lead work; keep children and women of childbearing age away from the work area, since children absorb about 70% of lead they swallow against about 20% for adults (Illinois DPH). Wear gloves when handling lead came and ventilate the room when soldering (Everything Stained Glass). Fumes and burns: flux fumes and acid fluxes harm the lungs and skin, and a glass grinder makes harmful powdered glass (Illinois DPH; Wikipedia 'Came glasswork' note on flux). The soldering iron runs at about 360 °C, hot enough to burn skin and set paper or a pattern board alight; always rest it in a holder (Everything Stained Glass 'Stained Glass Lead Soldering' lists a holder) ⚑ [uncertain: fire risk inferred]. Cut glass edges cut hands. Taking apart old leaded panels exposes you to lead (Illinois DPH), so don't dry-scrape or sand old came, cement or putty ⚑ [uncertain: the no-sanding advice is from Illinois DPH's furniture section, applied here by analogy]. *(⚑ parts need confirming)*
+- **common_failures**: Panel too big: glass cut on the pattern line without allowing for the came's heart (Fine Woodworking). Gaps at joints: came not butted tightly; fill with a sliver of came and drop on solder (Everything Stained Glass 'Stained Glass Lead Soldering'). Solder won't take: oxidised or dirty lead, so wire-brush or scrape to bright metal and flux it (Everything Stained Glass; Stained Glass Club SCW). Melted came: iron too hot or held too long (Everything Stained Glass; Stained Glass Club SCW). Weak, crystalline joints: panel moved while the solder cooled (Stained Glass Club SCW). Missed joints: check every joint on both faces (Everything Stained Glass). Sagging or bulging panel: lead not stretched, no reinforcement, or heavy glass in lead (Wikipedia 'Came glasswork'). Leaks and rattles: no cement, or old cement crumbling (Everything Stained Glass 'Cementing Lead Came').
+- **related**: 
+  - Copper-foil joint (Tiffany method): each piece's edge is wrapped in copper tape and soldered along the whole seam; better for small, intricate and 3D work
+  - Soldered metal joint: the general soft-soldering technique used at each came joint
+  - Glazing in a rebated frame: how the finished panel, or a single pane, is held in its wooden frame
+  - Glass fusing: joins glass to glass by melting in a kiln, with no metal lines
+  - Housing and rebate joints: cutting the rebate in a door or window frame that the panel sits in
+  - Push-on edge trim (U-channel edging): a U-shaped edge strip that grips a sheet edge, like U came
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Lead came cross sections02.png (Wikimedia Commons, uploaded by Rickjpelleg)](https://commons.wikimedia.org/wiki/File:Lead_came_cross_sections02.png): Diagram of H- and U-shaped lead came cross sections with glass pieces in their channels *(licence: GFDL 1.2+, CC BY-SA 3.0 or CC BY 2.5 (choice))*
+  - [Lead came and Copper foil Glasswork Flowchart.png (Wikimedia Commons, uploaded by Rickjpelleg)](https://commons.wikimedia.org/wiki/File:Lead_came_and_Copper_foil_Glasswork_Flowchart.png): Flowchart of the shared first steps and the different later steps of lead came and copper-foil work *(licence: GFDL 1.2+, CC BY-SA 3.0 or CC BY 2.5 (choice))*
+  - [Buckled lead came window 01.jpg (Wikimedia Commons, by RickP / Rickjpelleg)](https://commons.wikimedia.org/wiki/File:Buckled_lead_came_window_01.jpg): Side view of a lead came window buckled for lack of reinforcement *(licence: GFDL 1.2+, CC BY-SA 3.0 or CC BY 2.5 (choice))*
+  - [Canterbury Cathedral 012 window showing leading and support.JPG (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_012_window_showing_leading_and_support.JPG): Close-up of lead cames with soldered joints, iron support rods and the copper wire ties *(licence: Public Domain Mark 1.0 (check US status on the file page))*
+  - [Stained glass lead came (Everything Stained Glass)](https://everythingstainedglass.com/stained-glass-lead): Labelled diagram of an H came (height, leaf, heart, heart thickness) and photos of profiles, stretching and storage *(licence: all rights reserved (link only))*
+- **make_it_yourself**: 
+  - [Stained Glass Jig 22.5° angle (ispont, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1312183-stained-glass-jig-225deg-angle): Printed angle jig to help lay out and solder pieces at set angles (made for stained glass work generally) *(licence: GNU General Public License v3.0)*
+  - [Stained Glass Jig (ABM, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1468163-stained-glass-jig): Printed jig with four angles for stained glass assembly *(licence: BSD License)*
+  - ["Leaded Glass" for Classic Lantern (Nikki, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/678895-leaded-glass-for-classic-lantern): A printed insert that imitates the look of leaded glass, for a printed lantern *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- **diagram_idea**: An exploded cross-section of two glass pieces sliding into each side of an H came, then a top view of a crossing where three came strips meet with a solder blob, and a final cross-section with dark cement packed under the flanges, labelled 'shape holds the glass, solder joins the came, cement seals'.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Came_glasswork
+  - https://finewoodworking.com/2010/02/11/leaded-glass-made-easy
+  - https://everythingstainedglass.com/making-stained-glass
+  - https://everythingstainedglass.com/stained-glass-lead
+  - https://everythingstainedglass.com/stained-glass-lead-soldering
+  - https://everythingstainedglass.com/how-to-stain-glass
+  - https://everythingstainedglass.com/reinforcing-glass-panels
+  - https://stainedglass.scwclubs.com/specialities-and-techniques/
+  - https://dph.Illinois.gov/content/dam/soi/en/web/idph/files/publications/lead-safety-hobbyists-041516.pdf
+  - https://www.reddit.com/r/StainedGlass/comments/mr4owi/lead_came_vs_copper_foil_strengths/ (read through https://arctic-shift.photon-reddit.com/api/comments/search?link_id=mr4owi&limit=20)
+  - https://commons.wikimedia.org/wiki/File:Lead_came_cross_sections02.png
+  - https://commons.wikimedia.org/wiki/File:Lead_came_and_Copper_foil_Glasswork_Flowchart.png
+  - https://commons.wikimedia.org/wiki/File:Buckled_lead_came_window_01.jpg
+  - https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_012_window_showing_leading_and_support.JPG
+  - https://api.printables.com/graphql/ (models 1312183, 1468163, 678895; no Printables pages opened)
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: soldering iron, press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a saw [uncertain: mentioned only in a reader's…"*
+- **load_max**: light
+- **usual_process**: by hand (tied or wrapped)
+- **adjustable**: no
+- **removability**: semi-permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: glass
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, materials, processes, removability, safety_notes, tools_needed, when_not_to_use
+
+## 446 Glass fusing (kiln fusing, tack fusing, full fusing)
+
+*welding, brazing & soldering.* Pieces of compatible glass are stacked and heated in a kiln to about 690-820 C until they stick together (tack fuse) or melt into one smooth piece (full fuse), then cooled slowly so they don't crack, as in fused glass pendants, coasters and dishes
+
+*Also covers:* Also covers glass compatibility (COE is not enough on its own), checking stress with two polarising filters, annealing and firing schedules, slumping as a second firing, fusing in wire loops and inclusions, and microwave kilns for small pieces. Lampworking and glassblowing are making processes, so they are left out. Safety: kiln heat and burns, glass that is not compatible can crack weeks later, and glass dust from grinding.
+
+### What it is
+
+- **plain_name**: Stacking pieces of glass that are made to go together and baking them in a very hot oven (a kiln) until they stick to each other or melt into one smooth piece, then letting them cool very slowly so they don't crack
+- **term**: Glass fusing (kiln fusing; tack fusing and full fusing; kilnformed glass)
+- **aliases**: 
+  - kiln fusing, kilnforming, kilnformed glass, warm glass (Bullseye; Wikipedia 'Glass fusing')
+  - tack fuse, tack fusing: a lower-temperature firing where the pieces stick but keep their own shape and texture; at the low end 'sintering' or 'fuse-to-stick', at the high end 'contour fuse' (Bullseye 'Tips for Tack Fusing')
+  - full fuse, full fusing: the pieces 'merge smoothly into one another' (Wikipedia 'Glass fusing')
+  - slumping, slumped glass: a second firing that sags a flat fused piece into or over a mould to make a dish or bowl (Wikipedia 'Glass fusing'; Bullseye)
+  - fusible glass, 'tested compatible' glass, 'COE 90' and 'COE 96' glass: the way fusing glass is sold; Bullseye itself does not rate its glass with COE numbers (Bullseye FAQ)
+  - microwave kiln, microwave glass fusing: a small ceramic-fibre box fired inside a microwave oven for small jewellery pieces (Ceramic Industry)
+  - fused glass jewellery, fused glass pendants, dichro (dichroic) pendants (Frit-Happens forum)
+  - Bullseye (brand), ThinFire (brand) shelf paper: brand names a beginner may meet in instructions (Bullseye FAQ)
+- **family**: welding, brazing & soldering
+- **other_families**: adhesives & bonding
+- **one_liner**: Glass fusing joins pieces of glass that are rated to work together by heating them in a kiln to roughly 690-820 °C, so that they stick together (tack fuse) or flow into one smooth piece (full fuse), and then cools them slowly through an annealing hold so that the finished piece has no built-in stress.
+- **complexity**: Single piece once made: the glass pieces become one piece of glass, sometimes with things trapped inside (inclusions) such as a fine silver wire loop, mica or decals. Making it needs a small set of equipment: a kiln with a programmable controller (or a microwave kiln for tiny pieces), a kiln shelf with shelf primer (kiln wash) or shelf paper, fusible glass sheet, frit, stringer or other accessory glass that is all tested compatible, a glass cutter and running or grozing pliers, and moulds for slumping.
+- **how_it_works**: Glass has no single melting point: as it is heated it softens gradually, so at a tack-fuse temperature the touching surfaces soften and stick while each piece keeps its shape, and a little hotter the pieces slump and flow into one another (Wikipedia 'Glass fusing'; Bullseye). Because hot glass behaves like a very thick liquid with surface tension, most fusing glass pulls itself to about 6 mm thick at full fuse unless dams or moulds hold it in (Bullseye FAQ '6-millimeter rule'). On the way down the piece is held at an annealing temperature so the inside and the surface reach the same temperature, then cooled slowly so no stress is frozen in (Wikipedia; Bullseye 'Writing Firing Schedules'). The pieces only stay joined if their glasses shrink by the same amount while cooling and behave alike when hot, which is why only glasses tested as compatible with each other can be fused; the stress from a mismatch can be seen between two polarising filters (Wikipedia; Bullseye FAQ).
+
+### Finder attributes
+
+- **job**: 
+  - glue or bond: glass is joined to glass by melting the surfaces together, with no glue
+  - join and hold: layers, small pieces, frit and wire or mica inclusions become one solid piece, e.g. a pendant with a fused-in wire loop
+- **motion**: none
+- **degrees_of_freedom**: 0: the pieces become one rigid piece of glass.
+- **special_behaviour**: none: a plain permanent joint. (A second, cooler firing can reshape the fused piece: slumping sags it into a mould to make a dish, Wikipedia 'Glass fusing'.)
+- **holding_principle**: material bond (glue, solvent or melting): the glass pieces soften and flow together into one continuous piece (Wikipedia 'Glass fusing')
+- **input_output**: not applicable
+- **power**: passive (no power needed) once made; making it needs an electric kiln (or a microwave kiln inside a microwave oven)
+- **removability**: permanent: the pieces become one piece of glass and can't be separated
+- **reuse_cycles**: once
+- **tools_needed**: A kiln with a programmable controller (Bullseye notes that top-fired fibre kilns may need even gentler schedules), or a microwave kiln and a microwave oven for small jewellery pieces (Ceramic Industry); a kiln shelf with shelf primer or shelf paper as a separator (Bullseye FAQ); glass cutter and pliers; optionally a glass grinder, moulds for slumping and dams; two sheets of polarising film to check for stress (Wikipedia). Protective kit: safety glasses with ANSI shade 1.7 lenses for looking into a hot kiln, heat-resistant gloves (non-asbestos Zetex or Kevlar), and a NIOSH-approved respirator when working with glass powder or fibre (Bullseye 'Safety in the Kiln-Glass Studio').
+- **seal**: watertight: a fully fused piece is one continuous piece of glass with no gap; a tack-fused piece is joined only where the pieces touched, so gaps between pieces can remain ⚑ [uncertain] *(⚑ parts need confirming)*
+- **load**: Light to medium: the joint is as strong as the glass itself only if the glasses are compatible and the piece is properly annealed; glass is brittle and fails by cracking under impact, bending or sudden temperature change, not by the joint pulling apart. Incompatible glass leaves stress that can 'develop stress and fracture over time' (Wikipedia 'Glass fusing'). Fused pieces suit pendants, coasters, tiles, dishes and panels, not anything that carries a load or must survive being dropped. No published strength figure for fused joints was found ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: no: once fired the shape is fixed; a further firing can add layers or slump the piece, but each refire needs care (Bullseye recommends a slow first heating segment when refiring pieces of uneven thickness)
+- **play_and_precision**: No play. The shape changes during firing: at full fuse glass tends to pull in or spread to about 6 mm thick, so a thin base shrinks inwards and thick stacks spread (Bullseye FAQ), and pieces can slide out of place when the glue holding them burns off (Frit-Happens forum). Plan for the edges to round over and sizes to change slightly; cut, grind or 'cold work' the piece afterwards if exact edges are needed.
+- **access_needed**: not applicable
+- **materials**: Joins glass to glass only, and only glasses that are tested compatible with each other, usually from one maker's fusible range (e.g. Bullseye glasses are factory tested with each other and not with other makers' glass; Bullseye FAQ). Matching COE (coefficient of expansion) numbers alone do not make glasses compatible (Wikipedia; Bullseye FAQ). Mixing glass from different makers, ordinary window (float) glass or bottle glass with art glass needs your own compatibility test first ⚑ [uncertain]. Small inclusions can be trapped between layers: fine (99.9%) silver wire of 0.7 or 1.0 mm for loops and bails, mica flakes and powder, decals, enamels and glass paints (Warm Glass UK 'Using Inclusions'; Frit-Happens forum). Silver reacts with some glasses, especially sulphur-bearing ones, and can give a golden halo (Warm Glass UK). Can't join glass to plastic, wood or most metals (the metal is only trapped, not bonded), and is not a repair method for broken drinking glasses or windows. *(⚑ parts need confirming)*
+- **maker_difficulty**: moderate: small tack- and full-fused pieces are easy to make in a class or with a small kiln, but you need a kiln with a controller, glass that is all tested compatible, and a properly written annealing schedule; thick or uneven pieces and slumping need more care (Bullseye)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: fusible sheet glass, frit, stringer and moulds; fired in a home glass kiln, a microwave kiln (small jewellery pieces only), or at a studio that offers kiln time and classes (Bullseye runs open studios and classes)
+  - 3D print (FDM): only for patterns and accessories away from the kiln, e.g. a printed master used to cast a plaster mould for microwave fusing (Printables 1830468)
+- **print_in_place**: no: fusing happens at about 690-820 °C, far beyond what any printed plastic survives
+- **making_tips_3d_printing**: not applicable: printed plastic can't go anywhere near a kiln. Printed parts are useful only at room temperature: masters for casting plaster moulds (e.g. Printables 1830468 'Designs for silicone mold making used in microwave glass fusing', which casts plaster moulds for microwave-fusing rings from bottle necks), cutting templates, display stands, and a holder for two polarising films for checking stress. Never put a printed part, or a mould that still contains plastic, into the kiln.
+- **off_the_shelf_parts**: Search terms: 'fusible glass' or 'tested compatible fusing glass' (buy all glass for one piece from one compatible range, e.g. Bullseye, or a 'COE 96' range from a single maker), 'frit', 'stringer', 'confetti', 'dichroic glass', 'glass fusing kiln' or 'jewellery kiln' with 'digital controller', 'microwave kiln', 'kiln shelf', 'shelf primer' or 'kiln wash', 'kiln shelf paper' (ThinFire, brand), 'fibre paper' and 'fibre blanket', 'slumping mould' (ceramic or stainless steel), 'kiln posts' and 'kiln dams', 'glass cutter', 'running pliers', 'grozing pliers', 'glass grinder', 'fine silver wire 0.7 mm' or '1.0 mm' (99.9% silver), 'mica powder' and 'inclusion pens', 'fusing glue', 'polarising film' or 'polariscope' for stress checks, 'ANSI shade 1.7 safety glasses', 'Zetex gloves' or 'Kevlar kiln gloves'.
+- **rules_of_thumb**: 
+  - Fusing temperatures: fusing is 'usually done roughly between 700 °C (1,292 °F) and 820 °C (1,510 °F)' (Wikipedia, https://en.wikipedia.org/wiki/Glass_fusing); tack fusing is 'approximately 1275-1450 °F / 690-788 °C' (Bullseye, https://www.bullseyeglass.com/wp-content/uploads/Tips_for_Tack_Fusing.pdf); Bullseye's example full-fuse schedule for 6 mm (2 x 3 mm) of sheet glass goes to 1490 °F / 810 °C with a 10-minute hold (Bullseye, https://www.bullseyeglass.com/wp-content/uploads/writing-firing-schedules-for-fusing-and-slumping.pdf). The figures differ because glass types differ: always use the glass maker's schedule.
+  - The 6 mm rule: at full-fuse temperature most Bullseye sheets 'naturally assume a thickness of about 6 millimeters unless constrained by dams or molds', so plates and tiles start with a base of two 3 mm layers; a thinner base shrinks or draws in (Bullseye FAQ, https://www.bullseyeglass.com/faq).
+  - Heating rates (Bullseye, https://www.bullseyeglass.com/wp-content/uploads/writing-firing-schedules-for-fusing-and-slumping.pdf): for projects under 11 mm thick, heat to 538-677 °C at 167-222 °C (300-400 °F) per hour for even, unfired layers, or 56-111 °C (100-200 °F) per hour for uneven thickness or reflective or insulating parts such as silver or fibre paper; once above 538 °C (1000 °F) the glass 'is no longer at risk of thermal shock' and about 333 °C (600 °F) per hour is fine. If roof elements are closer than 12.7 cm (5 in) to the work, reduce the first heating rates by 25%.
+  - Bubble squeeze: a hold at about 621-677 °C (1150-1250 °F) before the rapid heat lets air escape from between layers (Bullseye, https://www.bullseyeglass.com/wp-content/uploads/writing-firing-schedules-for-fusing-and-slumping.pdf).
+  - Annealing (Bullseye glass): cool as fast as possible from process temperature to 482 °C (900 °F), hold there, then cool slowly. For 6 mm: hold 1 hour, cool 150 °F (83 °C) per hour to 800 °F (427 °C), 270 °F (150 °C) per hour to 700 °F (371 °C), then 900 °F per hour to room temperature, about 3 hours in all; 12 mm takes about 5 hours and 25 mm about 14 hours (Bullseye 'Annealing Thick Slabs' chart in https://www.bullseyeglass.com/wp-content/uploads/writing-firing-schedules-for-fusing-and-slumping.pdf). Wikipedia gives a different general schedule: a soak at 516 °C (961 °F), then down to 371 °C and 260 °C, 10-12 hours in all (https://en.wikipedia.org/wiki/Glass_fusing).
+  - Uneven (tack-fused) pieces: add up the layers to find the thickest area, then anneal for at least twice that thickness (e.g. follow the 30 mm schedule for a 15 mm piece); top-fired fibre kilns may need 3 times; cool with the door and vents closed; 'Over-annealing is not harmful' (Bullseye, https://www.bullseyeglass.com/wp-content/uploads/Tips_for_Tack_Fusing.pdf and https://www.bullseyeglass.com/wp-content/uploads/writing-firing-schedules-for-fusing-and-slumping.pdf).
+  - Compatibility: 'Matching COEs does not ensure compatibility between glasses'; Bullseye tests each batch by firing to 1500 °F (816 °C) with a 15-minute anneal and checking for stress in polarised light, and tests only against its own glasses; 'the ONLY way' to know another maker's glass is compatible is your own test (Bullseye FAQ, https://www.bullseyeglass.com/faq). Stress shows up when the piece is placed 'between two polarizing filters' (Wikipedia, https://en.wikipedia.org/wiki/Glass_fusing).
+  - Slumping: a second, cooler firing; with Bullseye glass start watching the slump once the kiln is above 1100 °F / 593 °C, and only open the door for a few seconds (Bullseye, https://bullseyeglass.com/suggested-slumping-schedules).
+  - Microwave kilns: reach 1,650 °F (899 °C) in 5-10 minutes; keep the glass no larger than 1 x 1.5 in (25 x 38 mm) and no thicker than two layers of 1/8 in (3 mm) glass; let it cool at least 45 minutes without lifting the lid; fire only fusing-compatible glass (Ceramic Industry, https://ceramicindustry.com/articles/89661-ppp-glass-fusing-in-a-microwave-oven).
+  - Fused-in wire loops: fine (99.9%) silver wire of 0.7 or 1.0 mm both work between layers; fine silver tarnishes less than sterling (Warm Glass UK, https://www.warm-glass.co.uk/blogs/knowledge-base/inclusions). Sterling can turn black, and both become soft and can be brittle after firing (Frit-Happens forum, https://www.frit-happens.co.uk/forum/index.php?msg=290413).
+
+### When to use it
+
+- **everyday_examples**: 
+  - fused glass pendants and earrings with a wire loop fused in at the top (Frit-Happens forum)
+  - fused glass coasters, tiles and suncatchers sold at craft fairs
+  - slumped glass dishes, bowls and plates (Wikipedia 'Glass fusing'; Wikimedia Commons 'Pratos de vidro')
+- **when_to_use**: When you want to join pieces of glass to each other with no glue, no metal frame and nothing visible at the joint: jewellery, coasters, tiles, dishes, panels and glass art made from layered sheet, frit and stringer. Tack fusing keeps texture and raised pieces; full fusing gives a smooth, flat piece; slumping then turns a flat fused piece into a dish or bowl (Wikipedia; Bullseye). It is also the way to trap things inside glass, such as a fine silver wire loop for hanging a pendant, which is more secure than a glued-on bail (a glued bail 'pinged off' after six weeks, Frit-Happens forum). A microwave kiln is a cheap way to try small pieces (Ceramic Industry).
+- **when_not_to_use**: When the glasses are not known to be compatible: test first or use a cold method (UV-curing adhesive, copper foil and solder, or lead came) instead. To repair a broken window, drinking glass or toughened (tempered) glass: fusing reshapes the glass and toughened glass loses its temper ⚑ [uncertain]; use glass glue or replace it. To join glass to wood, metal or plastic: use glazing in a rebated frame, glass edge clips or clamps, or an adhesive. For anything that bears a load or must not break if dropped. When you have no kiln with a controller: annealing by guesswork leads to cracks; book kiln time at a studio instead. For food use, check the glass maker's food-safety notes: some coloured glasses contain more than 1.0% lead or 0.5% cadmium and Bullseye recommends capping them with clear glass for food-bearing pieces (Bullseye FAQ). *(⚑ parts need confirming)*
+- **environment_limits**: Glass itself is not harmed by water, sunlight or most chemicals, and takes ordinary household heat, but a fused piece cracks from sudden temperature changes (thermal shock), especially if poorly annealed: 'Properly annealed works are less prone to thermal shock in subsequent firings than ones that that were poorly annealed' (Bullseye). Incompatible or badly annealed pieces carry hidden stress that can crack them days or weeks later with no warning, since the stress areas 'will develop stress and fracture over time' (Wikipedia). Silver inclusions can tarnish and stain the glass, and sterling silver can turn black in the kiln (Warm Glass UK; Frit-Happens forum). Do not use fused pieces as hotplates or put them in ovens unless the maker says they are rated for it ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: BURNS AND KILN HEAT: kilns run at about 700-820 °C; wear protective clothing and heat-resistant gloves whenever opening a hot kiln, and always turn the power off before reaching into a hot kiln (Bullseye 'Safety in the Kiln-Glass Studio'). Hot glass looks the same as cold glass, so let it cool fully before touching it. Microwave kilns: wear heat-protective gloves to lift the kiln out, stay at arm's length when checking the glass, wear safety glasses, and keep the hot kiln away from children and pets (Ceramic Industry). EYES: looking into a hot kiln for long periods exposes the eyes to infrared light, and excessive exposure can cause cataracts; wear ANSI shade 1.7 lenses; didymium flameworking glasses do not protect against infrared (Bullseye). FUMES: full-fuse firings of glass on primed shelves give off no fumes, but firings with fibre paper, enamels, glazes and other materials can, so run the kiln in a ventilated area (Bullseye). DUST: airborne glass powder (frit, powder and grinding dust) is the 'more immediate safety concern': ventilate, wear a NIOSH-approved respirator and use a HEPA vacuum; cotton gloves protect skin from irritating dusts and fibres (Bullseye 'Product Use & Safety' and 'Safety in the Kiln-Glass Studio'). CUTS: 'Cuts are almost inevitable when handling glass', so keep a first-aid kit (Bullseye). DELAYED CRACKING: incompatible or badly annealed glass can crack or break apart long after firing (Wikipedia), so check pieces between polarising filters before selling or giving them, especially jewellery. FOOD SAFETY: some coloured glasses contain lead or cadmium; follow the glass maker's food-safety advice and have food-bearing pieces you sell tested (Bullseye FAQ).
+- **common_failures**: (1) Cracks a day or weeks later: glasses not compatible (often mixing makers, or trusting a matching COE number alone) or too short an annealing; check between two polarisers and use one tested-compatible range (Wikipedia; Bullseye FAQ). (2) Cracks during heating (thermal shock): heated too fast, especially thick, uneven or refired pieces, or elements close to the glass; use the slower first-segment rates (Bullseye). (3) Trapped bubbles between layers: add a bubble squeeze hold; mica flakes trap many bubbles, so use them sparingly (Bullseye; Warm Glass UK). (4) Piece shrank, thickened at the edges or spread unexpectedly: the 6 mm rule; use a two-layer base or dams (Bullseye FAQ). (5) Top pieces slid off during firing once the glue burned off (Frit-Happens forum). (6) Wire loop turned black, brittle or drooped, or the glass round silver went yellow or muddy: use fine silver, clean it with vinegar first, and avoid silver-reactive glasses (Warm Glass UK; Frit-Happens forum). (7) Glass stuck to the shelf: no separator or worn shelf primer (Bullseye FAQ mentions shelf separators). (8) Pre-programmed kiln schedules that don't suit the piece (Bullseye). (9) Microwave pieces cracking when the lid is lifted too soon (Ceramic Industry). (10) A greasy fingerprint can make glass break apart during the first heating in a microwave kiln (Ceramic Industry).
+- **related**: 
+  - Copper-foil joint (Tiffany method): joins glass pieces cold with copper tape and solder; works with any glass, no kiln, but leaves visible metal lines
+  - Lead came joint (leaded glass): pieces held in H-shaped lead, zinc or brass channels soldered at the joints; for windows and panels
+  - UV-curing adhesive: glues glass to glass cold and clear; no compatibility problem, but it is a glue line, not one piece of glass
+  - Melted plastic weld and Welded metal joint: the plastic and metal versions of joining by melting the parts themselves
+  - Brazed joint and Soldered metal joint: heat joints that use a filler metal and don't melt the parts
+  - Glazing in a rebated frame, and Glass and mirror edge clips and clamps: hold a sheet of glass mechanically instead of joining it
+  - Baked-in findings (embedded hardware in clay): the polymer-clay equivalent of fusing a wire loop into a pendant
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Glassfusing.jpg (Wikimedia Commons, by Tad Boniecki)](https://commons.wikimedia.org/wiki/File:Glassfusing.jpg): A fused glass plate made from many coloured pieces fused into one flat piece *(licence: Public domain (released by the author))*
+  - [Pratos de vidro.jpg (Wikimedia Commons, by Luis nunes alberto)](https://commons.wikimedia.org/wiki/File:Pratos_de_vidro.jpg): Fused and slumped glass plates, showing the second (slumping) firing into a dish shape *(licence: CC BY-SA 3.0 or GFDL 1.2 (reuse with credit))*
+  - [Fused Glass Sculpture.jpg (Wikimedia Commons, by studio g+h)](https://commons.wikimedia.org/wiki/File:Fused_Glass_Sculpture.jpg): A fused and kiln-formed glass sculpture; the lead image of the Wikipedia 'Glass fusing' article *(licence: CC BY-SA 4.0 (also 3.0, 2.5, 2.0, 1.0) or GFDL 1.2 (reuse with credit))*
+  - [Plastic Protractor Polarized 05375.jpg (Wikimedia Commons, by Nevit Dilmen)](https://commons.wikimedia.org/wiki/File:Plastic_Protractor_Polarized_05375.jpg): Coloured stress lines in a clear plastic protractor seen between crossed polarisers: the same check used to spot stress from incompatible glass or poor annealing in a fused piece *(licence: CC BY-SA 3.0 or GFDL 1.2 (reuse with credit))*
+  - [Writing Firing Schedules for Fusing & Slumping (Bullseye Glass Co., PDF)](https://www.bullseyeglass.com/wp-content/uploads/writing-firing-schedules-for-fusing-and-slumping.pdf): Illustrated flowchart and tables for writing an 8-stage fusing schedule, with the Annealing Thick Slabs chart *(licence: link only (copyright Bullseye Glass Co.))*
+- **make_it_yourself**: 
+  - [Designs for silicone mold making used in microwave glass fusing (Printables 1830468; URL from Printables API, page not opened)](https://www.printables.com/model/1830468-designs-for-silicone-mold-making-used-in-microwave): Printable master patterns for casting plaster moulds used to fuse rings from recycled bottle necks in a microwave kiln; the printed parts never go in the kiln *(licence: Creative Commons Public Domain)*
+- **diagram_idea**: Three side views of the same stack of two glass squares with a small piece on top and a wire loop between the layers: before firing, after a tack fuse (pieces stuck but still raised with sharp-ish edges) and after a full fuse (one smooth, rounded 6 mm slab with the loop trapped inside), with a simple temperature-time graph beneath showing heat-up, bubble-squeeze hold, process peak, fast drop to the annealing hold and slow cool.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Glass_fusing
+  - https://en.wikipedia.org/wiki/Photoelasticity
+  - https://www.bullseyeglass.com/wp-content/uploads/Tips_for_Tack_Fusing.pdf
+  - https://www.bullseyeglass.com/wp-content/uploads/writing-firing-schedules-for-fusing-and-slumping.pdf
+  - https://www.bullseyeglass.com/faq
+  - https://bullseyeglass.com/suggested-slumping-schedules
+  - https://www.bullseyeglass.com/safety-in-the-kiln-glass-studio/
+  - https://www.bullseyeglass.com/product-use-safety/
+  - https://ceramicindustry.com/articles/89661-ppp-glass-fusing-in-a-microwave-oven
+  - https://www.warm-glass.co.uk/blogs/knowledge-base/inclusions
+  - https://www.frit-happens.co.uk/forum/index.php?msg=290413
+  - https://commons.wikimedia.org/wiki/File:Glassfusing.jpg
+  - https://commons.wikimedia.org/wiki/File:Pratos_de_vidro.jpg
+  - https://commons.wikimedia.org/wiki/File:Fused_Glass_Sculpture.jpg
+  - https://commons.wikimedia.org/wiki/File:Plastic_Protractor_Polarized_05375.jpg
+  - https://commons.wikimedia.org/wiki/Category:Fused_glass
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: any solid parts
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: power tools, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: glass
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** environment_limits, load, materials, seal, when_not_to_use
 

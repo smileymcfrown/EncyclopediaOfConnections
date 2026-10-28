@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -195,6 +197,7 @@ sources:
 - https://www.mcmaster.com/products/shoulder-bolts/
 - https://www.mcmaster.com/products/sleeve-bearings/
 - https://cs448m.github.io/lectures/machines/doc/2.pdf
+- https://en.wikipedia.org/wiki/Pop-up_book
 research: research/connection-types/results/Fourbar_linkage_incl_parallelogram_linkage.json
 image:
   file: four-bar-linkage.webp
@@ -228,13 +231,39 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: four-bar-linkage-3abf36.webp
+  title: Pantograph 200mm, 250mm, 300mm
+  author: bce.gatien
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/898021-pantograph-200mm-250mm-300mm
+  site: Printables
+  alt: A 3D-printed pantograph (a parallelogram linkage of four pivoted bars) pinned to a cutting mat, with a pencil in it
+    copying a cartoon drawing at a new size.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: four-bar-linkage-b0e8ba.webp
+  title: Pantograph for scaling up using 608 bearings
+  author: vachaj11
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/15364-pantograph-for-scaling-up-using-608-bearings
+  site: Printables
+  alt: A 3D-printed pantograph made of dark bars joined by ball-bearing pivots, standing on its base on a sheet of paper with
+    a pencil at the far end.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [degrees-of-freedom, misalignment, backlash, stroke, over-centre, crank, linkage, actuator, clearance, tolerance,
   brittle--ductile, lubrication, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/four-bar-linkage.still.webp"><img src="../media/four-bar-linkage.webp" alt="An animation of a crank-rocker four-bar linkage, where one bar turns full circles while the opposite bar rocks back and forth."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Crank-Rocker_4-bar_Linkage.gif">Crank-Rocker 4-bar Linkage</a> by Arglin Kampling, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/four-bar-linkage.webp" alt="Render of a four-bar linkage made from 3D-printed flat links: a short orange crank and a longer green rocker pivot on brass posts on a plywood base, joined across the top by a long blue coupler, with black screws as the four pivots." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/four-bar-linkage.webp" alt="Render of a four-bar linkage made from 3D-printed flat links: a short orange crank and a longer green rocker pivot on brass posts on a plywood base, joined across the top by a long blue coupler, with black screws as the four pivots." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/four-bar-linkage-3abf36.webp" alt="A 3D-printed pantograph (a parallelogram linkage of four pivoted bars) pinned to a cutting mat, with a pencil in it copying a cartoon drawing at a new size." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/898021-pantograph-200mm-250mm-300mm">Pantograph 200mm, 250mm, 300mm</a> by bce.gatien, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/four-bar-linkage-b0e8ba.webp" alt="A 3D-printed pantograph made of dark bars joined by ball-bearing pivots, standing on its base on a sheet of paper with a pencil at the far end." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/15364-pantograph-for-scaling-up-using-608-bearings">Pantograph for scaling up using 608 bearings</a> by vachaj11, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Four bars joined by four pivots into a closed loop, one bar fixed, so that turning or swinging one bar moves the rest in a single set way: turning into swinging, swinging into turning, a part kept level (parallelogram), or a drawing traced at a new scale (pantograph).
@@ -257,6 +286,7 @@ A few parts: a fixed base (ground link) with two pivots; an input link (crank or
 - Balanced-arm desk lamps, whose parallelogram keeps the lamp head pointing the same way, and ironing boards that stay level as you change the height (Wikipedia 'Balanced-arm lamp'; reSolve Maths)
 - Oil-well pumpjacks, bicycle rear suspensions, door closers, folding chairs and treadle sewing machines (Wikipedia 'Four-bar linkage')
 - Locking pliers, and your own knee joint (Hackaday)
+- Parallel-fold pop-up cards and books, where each paper step or box is a parallelogram whose hinges are creases, so it stands up as the card opens (Wikipedia 'Pop-up book' captions its diagram of the basic principle 'the parallelogram'); see Parallel-fold pop-up
 
 ## When to use it
 
@@ -345,6 +375,8 @@ Scissor-like closing gaps between links are pinch points, especially in motor- o
 - Bell crank (angle lever): a single L-shaped lever often used as one link of a linkage
 - Oldham coupling: like a parallel link coupling, passes rotation between offset parallel shafts, but by sliding rather than pivots
 - Multi-turn rotation limiter: its stacked-ring stops use the same lost-motion idea, each ring turning idly until it picks up the next
+- Parallel-fold pop-up: a paper parallelogram linkage, with creases as the pivots and the card's centre fold as the input
+- V-fold pop-up: a paper linkage whose creases all meet at one point, so the piece swings up at a slant instead of rising square
 
 ## Make it yourself
 
@@ -414,3 +446,4 @@ Scissor-like closing gaps between links are pinch points, especially in motor- o
 - <https://www.mcmaster.com/products/shoulder-bolts/>
 - <https://www.mcmaster.com/products/sleeve-bearings/>
 - <https://cs448m.github.io/lectures/machines/doc/2.pdf>
+- <https://en.wikipedia.org/wiki/Pop-up_book>

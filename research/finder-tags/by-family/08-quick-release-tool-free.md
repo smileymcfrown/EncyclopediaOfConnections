@@ -1,6 +1,6 @@
 # quick-release & tool-free: Joins and comes apart without tools
 
-17 entries. ⚑ = needs confirming: 4 best guesses and 2 values from text marked [uncertain]
+18 entries. ⚑ = needs confirming: 5 best guesses and 2 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -23,6 +23,7 @@ are welcome. Back to the [index](README.md).
 | 261 | Tool-free fasteners | any solid parts ⚑ | none | – | – | – | – | – | – | none, hand tools | medium | off-the-shelf part | yes | tool-free quick release | – |
 | 286 | Genderless connector | wires | none | – | – | – | – | – | – | none, soldering iron, crimper, hand tools ⚑ | heavy | 3D print (FDM) | no | tool-free quick release | – ⚑ |
 | 393 | Tripod and stand screw mount | wall, rail, desk or grid | none | – | – | – | – | – | – | none, soldering iron, drill and tap, power tools, hand tools | medium | off-the-shelf part | yes | removable | – |
+| 437 | Push-fit rod and spar fittings | any solid parts ⚑ | none | – | – | – | – | – | – | none, drill and tap, hand tools | light | off-the-shelf part | partly | tool-free quick release | – |
 
 ## Best guesses
 
@@ -32,6 +33,7 @@ The script was unsure of these values.
 - ⚑ **167 DIN-rail clip**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ **261 Tool-free fasteners**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ **286 Genderless connector**, `electrical_band` = –: tagged electrical, but `load` does not start with the fixed electrical lead-in
+- ⚑ **437 Push-fit rod and spar fittings**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
 
 ## From research text marked [uncertain]
 

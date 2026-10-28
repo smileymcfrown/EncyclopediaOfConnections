@@ -86,6 +86,8 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -198,13 +200,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: rigid-chain-actuator-361345.webp
+  title: PCN145 - Fully Printable Push Chain
+  author: FH
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain
+  site: Printables
+  alt: A 3D-printed push chain with grey, red and gold links curled into a tight loop, showing that the links bend freely
+    in one direction only.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
   overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/rigid-chain-actuator.still.webp"><img src="../media/rigid-chain-actuator.webp" alt="A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar and pulling it back in."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif">Rigid Chain Actuator</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/rigid-chain-actuator.webp" alt="Render of a rigid chain actuator of the kind that opens windows: a slim aluminium box with a stainless steel chain sticking straight out of the middle of its side, its links locked into a stiff straight bar held out in the air, ending in a mounting bracket; a power cable leaves one end." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/rigid-chain-actuator.webp" alt="Render of a rigid chain actuator of the kind that opens windows: a slim aluminium box with a stainless steel chain sticking straight out of the middle of its side, its links locked into a stiff straight bar held out in the air, ending in a mounting bracket; a power cable leaves one end." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rigid-chain-actuator-361345.webp" alt="A 3D-printed push chain with grey, red and gold links curled into a tight loop, showing that the links bend freely in one direction only." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain">PCN145 - Fully Printable Push Chain</a> by FH, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A motor-driven sprocket feeds out a chain whose links can bend only one way, and as they leave the housing they lock into a stiff bar that can push and pull a load; running backwards draws the chain in, where it bends again and coils or folds into a small magazine.

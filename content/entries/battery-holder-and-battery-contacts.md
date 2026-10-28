@@ -87,6 +87,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   load_max:
     kind: best guess
@@ -210,7 +212,7 @@ pictures:
   alt: A 9 volt battery snap, a black clip with two press-stud contacts and red and black wires.
   kind: photo
   drawn: false
-glossary: [cantilever, torsion, tolerance, form-fit--force-fit--material-bond, keying, creep, print-in-place]
+glossary: [cantilever, torsion, tolerance, form-fit--force-fit--material-bond, keying, creep, print-in-place, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -267,7 +269,7 @@ For high currents (motors drawing tens of amps, e-bike and RC packs): spring con
 - **Sealing:** none for ordinary holders; special waterproof holders with a sealed lid exist (Adafruit sells a 'Waterproof 2xAA Battery Holder'). Holders for zinc-air cells must not be airtight, because the cells need air (Wikipedia 'Battery holder').
 - **Adjustable:** no; the spring contact takes up small differences in cell length automatically
 - **Access needed:** one side only (blind): cells go in from the open top, lid or door
-- **Materials:** Bodies: polypropylene or nylon rated for 80-100 °C; coin-cell holders that are soldered to circuit boards are made of high-temperature PBT, nylon or LCP (Wikipedia 'Battery holder'); printed holders in PETG or ASA. Contacts: nickel-plated spring steel or steel wire, matching the nickel-plated cells so that the two metals don't corrode each other (galvanic corrosion) (Wikipedia 'Battery holder'); phosphor bronze and beryllium copper are also used for contact springs ⚑ [uncertain: not confirmed for battery contacts on an opened page]. Printed plastic springs are not suitable as contacts that stay pressed, because plastic [creeps](../glossary.md#creep) (Thrinter).
+- **Materials:** Bodies: polypropylene or nylon rated for 80-100 °C; coin-cell holders that are soldered to circuit boards are made of high-temperature PBT, nylon or LCP (Wikipedia 'Battery holder'); printed holders in PETG or ASA. Contacts: nickel-plated spring steel or steel wire, matching the nickel-plated cells so that the two metals don't corrode each other ([galvanic corrosion](../glossary.md#galvanic-corrosion)) (Wikipedia 'Battery holder'); phosphor bronze and beryllium copper are also used for contact springs ⚑ [uncertain: not confirmed for battery contacts on an opened page]. Printed plastic springs are not suitable as contacts that stay pressed, because plastic [creeps](../glossary.md#creep) (Thrinter).
 - **Heat, cold, water and wear:** Bought holders are rated for about 80-100 °C (Wikipedia 'Battery holder'); a PLA printed holder starts to give at about 60 °C (CNC Kitchen), which a parked car can reach. Lithium-ion cells must not be charged below 0 °C (lithium plating makes them unsafe) (Wikipedia 'Lithium-ion battery'). Alkaline cells leak caustic potassium hydroxide when flat or old, which corrodes contacts; storing dry at room temperature and removing cells from stored devices reduces this (Wikipedia 'Alkaline battery'). Vibration can open a fixed contact for a moment (Wikipedia 'Battery holder'). Printed plastic springs creep and lose force over time (Thrinter). Steel contacts rust in damp air unless plated ⚑ [uncertain].
 
 ## Making it

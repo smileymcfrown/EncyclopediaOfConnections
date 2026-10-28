@@ -92,7 +92,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming: {}
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror, 'fabric,
+      leather or cord']
+needs_confirming:
+  made_of:
+    kind: best guess
+    reason: 'still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Rubber seals
+      on glass jar lids and flip-tops (Wikipedia "Flip-top": "fitted with a rubber gasket").  The JSON itself has no glass
+      quote.'
 confirmed: []
 open_points:
 - kind: content
@@ -334,6 +342,9 @@ Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it give
 - Double-sided foam tape (acrylic foam pressure-sensitive adhesive): bonds a panel on with a foam layer that may also act as a light seal ⚑ [uncertain]
 - Parallel pipe thread with a sealing washer: a straight-threaded pipe or hose joint in which a small ring gasket (washer, bonded seal or O-ring) squeezed against a flat face does the sealing
 - Bead-in-groove fabric edge: the same groove idea used to hold and tension a fabric edge (keder, bolt rope, screen [spline](../glossary.md#spline)) instead of sealing a lid
+- Compression limiter: a metal sleeve in the bolt hole that stops the bolt crushing a soft part, and can set how hard a gasket under the screw is squeezed
+- Glazing in a rebated frame: holds a pane in a frame with points, putty or beads; well-painted putty gives the weathertight seal
+- Wire-bail closure: a wire over-centre lever that squeezes a rubber ring gasket between stopper and bottle or jar mouth
 
 ## Make it yourself
 
@@ -355,6 +366,7 @@ Never laser-cut neoprene, PVC or other chlorine-containing gasket sheet: it give
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, glass or mirror, fabric, leather or cord (best guess): still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Rubber seals on glass jar lids and flip-tops (Wikipedia "Flip-top": "fitted with a rubber gasket").  The JSON itself has no glass quote.
 - ⚑ Research note: *Gasket* (131): EPDM-backed roofing washers left out (not on the Wikipedia page).
 
 ## Sources

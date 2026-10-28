@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -169,6 +171,18 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: ratchet-tooth-torque-limiter.webp
+  title: Torque Limiting Screw Driver
+  author: Oaklandishh
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/30226-torque-limiting-screw-driver
+  site: Printables
+  alt: A 3D-printed torque-limiting screwdriver handle split open, showing the white bit holder and the spring inside the
+    green handle shell.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, axial--radial, coaxial, detent, ratchet, pawl, freewheel, torque, fail-safe--fail-secure,
   preload, deflection, form-fit--force-fit--material-bond, circlip, fatigue, brittle--ductile, lubrication, perimeters, infill,
   peel-vs-shear, o-ring]
@@ -176,7 +190,8 @@ glossary: [misalignment, backlash, axial--radial, coaxial, detent, ratchet, pawl
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ratchet-tooth-torque-limiter.svg"><img src="../media/drawn/anim/ratchet-tooth-torque-limiter.svg" alt="Two rings of lopsided teeth, drawn unrolled flat and pressed together by springs, shown moving: turning to tighten, the gentle slopes push the top ring up until it clicks over a tooth, again and again; turning to undo, the steep faces meet and both rings turn together."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/ratchet-tooth-torque-limiter.webp" alt="Render of a ratchet-tooth torque limiter: a 3D-printed torque-limiting knob taken apart, with an orange driven part carrying a ring of lopsided sawtooth teeth round a threaded stud, the grey knob shell lying upside down beside it with the matching teeth inside, and the coil spring that presses them " loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/ratchet-tooth-torque-limiter.webp" alt="Render of a ratchet-tooth torque limiter: a 3D-printed torque-limiting knob taken apart, with an orange driven part carrying a ring of lopsided sawtooth teeth round a threaded stud, the grey knob shell lying upside down beside it with the matching teeth inside, and the coil spring that presses them " loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ratchet-tooth-torque-limiter.webp" alt="A 3D-printed torque-limiting screwdriver handle split open, showing the white bit holder and the spring inside the green handle shell." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/30226-torque-limiting-screw-driver">Torque Limiting Screw Driver</a> by Oaklandishh, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Two rings of sloped teeth, pressed together by a spring, pass on your turning effort until a set tightness is reached, then ride over each other with a click so the cap, knob or screw cannot be over-tightened.

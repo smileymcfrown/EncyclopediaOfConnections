@@ -6,7 +6,7 @@
 
 *clamping, magnetic & friction connections.* Pairs of magnets, or a magnet and a steel plate, set into parts so they snap together, align themselves and pull apart by hand
 
-*Also covers:* Also covers programmable (coded) magnet arrays that only mate with a matching pattern.
+*Also covers:* Also covers programmable (coded) magnet arrays that only mate with a matching pattern. Also covers why magnets must not be baked into polymer clay (glue them in afterwards, or use a high-temperature grade), and swappable-part magnets in tabletop miniatures.
 
 ### What it is
 
@@ -85,9 +85,10 @@
   - Magnetic catches that hold cupboard and cabinet doors shut (Wikimedia Commons 'Magnetic Catch parts')
   - Magnetic laptop chargers (MagSafe, brand) and magnetic plugs on deep fryers, which pull out safely if the cable is tugged (Wikipedia 'MagSafe')
   - Boxes and cases with magnetic lids, e.g. 3D-printed magnetic boxes (Printables)
+  - Tabletop miniatures with swappable arms, heads and weapons, held by small magnets superglued into blind holes drilled with a pin vice (Army Painter)
 - **when_to_use**: Use it for lids, doors, covers, access panels, detachable modules, tool holders, display pieces and cosplay parts that should close with a satisfying click, stay shut against light loads and come apart by hand many times with no wear (Rapid Elevation; K&J FAQ); when parts should find their own position as they close (K&J); where a connection should break away safely instead of breaking, such as a cable or a part that could snag (Wikipedia 'MagSafe'); and where you want a hidden fastening with no visible latch. Use a coded magnet pattern when a lid or module should only fit one way round or only with its own partner, a magnetic form of keying. The four jobs these patterns are designed for are 'align, attach, latch, and spring', and they 'may be constructed from discrete permanent magnets', so a simple one can be laid out from separate disc magnets in printed pockets, alternating north and south (Wikipedia 'Programmable magnet'). Wikipedia also says they give 'stronger shear resistance' than ordinary magnets, but its article is flagged as reading like a press release, so treat that as the makers' claim.
 - **when_not_to_use**: Avoid it where the joint takes large sideways, peeling or twisting loads, since magnets are weak in shear (15-25 % of pull, supermagnete): add a lip or pins, or use a snap fit, bayonet or screws instead. Don't rely on it for heavy or safety-critical loads, or where the parts must stay together in a crash or drop: use a mechanical latch, or a magnetic-assisted buckle where the magnet only guides and a catch carries the load. Avoid it in hot places above about 80 °C for standard magnets (Wikipedia), outdoors or underwater without corrosion protection (K&J), near pacemakers, and in anything small children could take apart (K&J safety page).
-- **environment_limits**: Heat: standard N-grade neodymium magnets are rated to about 80 °C and lose strength above that; letter grades reach about 230 °C and all lose their magnetism near 320 °C (Wikipedia 'Neodymium magnet'; K&J safety page). The plastic around them usually fails first: PLA softens at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a press-fit magnet in PLA can loosen in a hot car. Water: plated neodymium magnets are not waterproof and corrode outdoors or when wet, losing strength (K&J safety page); badly corroded sintered magnets can crumble to powder (Wikipedia). Over time they lose less than 1 % in 10 years if not overheated (K&J FAQ), but press fits can loosen through creep (Slant 3D via Hackaday). Vibration and shocks can slide the parts apart because sideways grip is only friction ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **environment_limits**: Heat: standard N-grade neodymium magnets are rated to about 80 °C and lose strength above that; letter grades reach about 230 °C and all lose their magnetism near 320 °C (Wikipedia 'Neodymium magnet'; K&J safety page). The plastic around them usually fails first: PLA softens at about 60 °C, PETG about 80 °C, ASA about 110 °C (CNC Kitchen), so a press-fit magnet in PLA can loosen in a hot car. Water: plated neodymium magnets are not waterproof and corrode outdoors or when wet, losing strength (K&J safety page); badly corroded sintered magnets can crumble to powder (Wikipedia). Over time they lose less than 1 % in 10 years if not overheated (K&J FAQ), but press fits can loosen through creep (Slant 3D via Hackaday). Vibration and shocks can slide the parts apart because sideways grip is only friction ⚑ [uncertain]. Polymer clay: don't bake magnets into it. The clay cures at 129-135 °C (Wikipedia 'Polymer clay'), well above the roughly 80 °C at which a standard thin N42 disc magnet starts to lose strength for good (K&J 'Temperature and neodymium magnets'); supermagnete says magnets are demagnetised in the oven and to expect about 20% loss even at 100 °C. Bake the clay first and glue the magnet into a pocket afterwards (supermagnete), or use a high-temperature grade such as N42SH, rated to 150 °C (K&J; the real limit also depends on the magnet's shape). *(⚑ parts need confirming)*
 - **safety_notes**: Keep neodymium magnets away from children: if two or more small magnets are swallowed they can pinch the intestine between them and need emergency surgery (K&J safety page; Wikipedia), so glue or seal magnets in well. Larger magnets can pinch skin painfully or, when big, break bones; magnets that slam together can chip or shatter and throw sharp pieces, so wear eye protection (K&J safety page; Wikipedia). Strong magnets can switch off or upset pacemakers and implanted defibrillators, and can damage bank cards and magnetic media (K&J safety page). People with a nickel allergy should avoid long contact with nickel-plated magnets. Don't drill or grind magnets: the dust is flammable (K&J safety page).
 - **common_failures**: Magnets repel instead of attract because one was fitted the wrong way round: mark poles and test each pair before gluing or sealing (Rapid Elevation). Magnets pull out of their pockets (the other magnet is stronger than the press fit or glue): size pockets carefully, use epoxy, a retaining lip or a sealed pocket (Rapid Elevation; Slant 3D via Hackaday). Weak hold because of too much plastic or paint between the magnets, or steel that is too thin (K&J). Parts slide apart sideways: add a lip, recess or pins, a rubber pad, or bigger magnets (K&J; supermagnete). Chipped or cracked magnets from slamming together: use a steel counterpart on one side (Slant 3D via Hackaday; K&J). Loss of strength from heat (hot glue, soldering iron, hot environments) or corrosion (K&J; Hackaday). Press-fit magnets loosen over time through creep (Slant 3D via Hackaday). A magnet dropped in during a print jumps to a steel nozzle or spoils a magnetic print bed (Hackaday).
 - **related**: 
@@ -100,7 +101,11 @@
   - Kinematic coupling: locates parts exactly with balls in grooves; magnets can supply the force that holds it together ⚑ [uncertain]
   - Magnetic coupling and magnetic gear: magnets that pass turning force through a gap instead of holding parts together
   - Magnetic connector: a magnetic plug that also carries current through spring contacts (MagSafe-style chargers, magnetic pogo connectors); this entry only holds parts together
-  - Keying: makes parts fit only the right way round or only with the right partner; coded magnet patterns do the same job magnetically (Wikipedia 'Programmable magnet') *(⚑ parts need confirming)*
+  - Keying: makes parts fit only the right way round or only with the right partner; coded magnet patterns do the same job magnetically (Wikipedia 'Programmable magnet')
+  - Pinned glue joint: fixes a part on for good with a hidden pin and glue; on miniatures a magnet is used instead when the part must swap
+  - Baked-in findings: metal loops and posts baked into polymer clay; magnets can't be baked in, so they are glued into a pocket after baking
+  - Elastic-strung ball joint: strung doll joints; some dolls use magnets for removable head caps, face plates and hands
+  - Glass door hinge: hinges for glass cupboard doors, which are often held shut by a magnetic catch *(⚑ parts need confirming)*
 
 ### Pictures, videos and models
 
@@ -138,6 +143,10 @@
   - https://api.printables.com/graphql/
   - https://en.wikipedia.org/wiki/Programmable_magnet
   - https://patents.google.com/patent/US7843297B2/en (read via WebFetch: Google Patents blocked direct download)
+  - https://en.wikipedia.org/wiki/Polymer_clay
+  - https://www.kjmagnetics.com/blog/temperature-and-neodymium-magnets
+  - https://www.supermagnete.se/eng/Magnet-applications/Magnets-made-of-oven-hardening-modelling-clay
+  - https://thearmypainter.com/blogs/explore/how-to-use-magnets-on-your-miniature
 
 ### Finder tags
 
@@ -155,6 +164,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever
+- **locks_out**: no
+- **mounts_on**: wall or ceiling
+- **wall_hold**: magnet or suction
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, clay or putty
 
 ### Other info
 
@@ -304,6 +356,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: magnet or suction
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
@@ -411,6 +506,7 @@
   - Knock-down furniture fittings (cam locks, cross dowels): hidden bolt-together joints for panels and wood rather than metal bars
   - V-slot wheels and linear rails: use the same extrusion grooves as a track for moving carriages
   - Threaded rod and studs: long bolts, tie rods and hangers; strut channel frames can be hung from threaded rod
+  - Shelf pins and shelf supports: pegs in rows of holes in cabinet sides for movable shelves; on slotted aluminium frames, brackets in the slots do the same job
 
 ### Pictures, videos and models
 
@@ -474,6 +570,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: rail, extrusion or grid
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: mount
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ## 216 Suction cup
 
@@ -566,6 +705,7 @@
   - Hang-on mounts (keyhole slot, French cleat): the usual way to hang things from screws in a wall when drilling is allowed
   - Self-sealing suction cup (research gripper): a cup with a built-in valve that only sucks when it touches an object (Wikipedia 'Self-sealing suction cup')
   - Quick-release plate (camera plate, dovetail clamp): can be added to a suction-cup mount so the camera or phone comes off without unsticking the cup
+  - Glass and mirror edge clips and clamps: hold the sheet of glass or mirror itself by its edge, where a suction cup hangs a light item on the glass
 
 ### Pictures, videos and models
 
@@ -622,6 +762,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: magnet or suction
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror
 
 ### Other info
 
@@ -727,6 +910,7 @@
   - Quick couplers for tubes and hoses (push-to-connect): latch tubes in place for fluid connections that must not pull apart
   - Bayonet mount (push-and-twist lock) and ordinary screw joint: ways to add positive retention, like the Luer lock's thread
   - Kinematic coupling (balls in V-grooves): exact repeatable location without friction locking
+  - Wire-bail closure (flip-top bottle, clamp-lid jar): seals a bottle by snapping a stopper onto a rubber ring over centre, where a cork or ground-glass stopper seals by a taper push fit
 
 ### Pictures, videos and models
 
@@ -784,6 +968,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft
+- **printable**: no
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror
 
 ### Other info
 
@@ -882,6 +1109,7 @@
   - Dowel and biscuit joints: the woodworking version, usually with glue
   - Annular snap fit: a ring-shaped bump that clicks into a groove, so it holds by shape rather than by squeeze
   - Drive-in fixing pins: a dowel, grooved, knurled or spring pin tapped into a hole drilled through the parts; a spring (roll or coiled) pin grips by its own springiness, so it accepts looser hole sizes than a solid pin pressed in
+  - Push-fit rod and spar fittings (kite fittings): a rod held in a socket by a snug push fit that is meant to pull out again by hand; the light, removable cousin of a press fit
 
 ### Pictures, videos and models
 
@@ -931,6 +1159,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: no
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft
+- **printable**: yes
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1100,6 +1371,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: part onto a shaft
+- **printable**: no
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: by hand
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1203,6 +1517,8 @@
   - Ordinary screw joint (bolt and nut): drilling through tubes and bolting them gives a positive joint but weakens the tube and can't be slid
   - Clamp-on accessory mount for bars, poles and edges: split bar clamps, U-bolts, pipe clamps and camera-rod clamps that grip a tube from outside to fix one accessory to it; the better choice on thin-wall tube
   - Strut hub: joins three or more straight struts at fixed compound angles in one node, for domes and space frames rather than right-angle pipe frames
+  - Bonded tube joint (lugged or sleeved tube joint): tubes glued into sockets or sleeves instead of locked with set screws; the usual choice for carbon tube, which set screws can crush
+  - Push-fit rod and spar fittings (kite fittings): small tee, cross and ferrule sockets held by a snug fit, for light rod frames such as kites
 
 ### Pictures, videos and models
 
@@ -1257,6 +1573,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites
 
 ### Other info
 
@@ -1265,6 +1624,8 @@
 ## 221 Internal tube anchors (star nut, expansion plug)
 
 *clamping, magnetic & friction connections.* Parts pushed into the end of a tube that grip the inside with barbs, a squeezed rubber plug or a wedge, giving a thread or a clamp point
+
+*Also covers:* Also covers threaded quick-release end adapters glued into carbon tube ends.
 
 ### What it is
 
@@ -1279,6 +1640,7 @@
   - expanding bar-end plug (bicycle handlebar end plug)
   - tube-connecting nut ('push inside tubes to join them with a threaded stud instead of welding', McMaster-Carr category name)
   - expanding tube plug; wedge expanding plug; tube end plug with thread
+  - bonded threaded end adapter; quick-release carbon tube connector (an aluminium adapter glued into a carbon tube end; DragonPlate)
 - **family**: clamping, magnetic & friction connections
 - **other_families**: seals & pass-throughs
 - **one_liner**: A part pushed or tapped into the open end of a tube that locks against the inside wall, by barbs biting in, ribs pressing out, or a sleeve swollen by a bolt, wedge or cone, so the tube gets a thread, a foot, a caster or a pull point without welding or drilling.
@@ -1341,7 +1703,7 @@
   - The wedge or cone expander that holds an older bicycle's quill handlebar stem (Wikipedia 'Stem (bicycle part)')
   - Screw-in levelling feet in square steel table and desk legs (Superior Glide), and expanding-stem casters in kitchen prep tables and carts (Caster Technology)
   - The expanding plug that closes the end of a bicycle handlebar (Rossero's printable bar-end plug is based on 'common expanding sleeve bar ends')
-- **when_to_use**: Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology).
+- **when_to_use**: Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology). For carbon tube, a glued-in version is common: an aluminium threaded adapter is epoxied into each tube end and quick-release male and female ends screw into the adapters, so long trusses can be built from sections up to eight feet long and taken apart again; DragonPlate advises against drilling carbon tube to pin or bolt it, because that weakens the wall (DragonPlate 'How to Connect Carbon Fiber Tubes'). See Bonded tube joint.
 - **when_not_to_use**: Avoid them for heavy pulling loads or safety-critical joints where the only thing holding is friction inside a tube: use a through-bolt, a welded or bonded insert, or a rivet nut (see 'Blind threaded fixings'). Never use a barbed star nut in carbon fibre or other brittle tubes (use an expansion plug) (Sheldon Brown). If you need to fix something to the side of a tube rather than its end, use a clamp-on fitting or a rivet nut. If the tube's inside size varies or is unknown, a barbed or ribbed insert may be loose or impossible to fit: use an expanding type. For joining two tubes at an angle, clamp-on tube fittings are usually stronger.
 - **environment_limits**: Steel star nuts and plated nuts can rust inside a wet tube; zinc-plated steel nuts resist corrosion better (Superior Glide). Rubber and thermoplastic expanding bushings rely on staying squeezed: they may relax or loosen with time, heat or vibration, so re-check them ⚑ [uncertain: no source gives figures]. Printed plugs: PLA softens above about 60 °C and degrades in sunlight (Prusa); use ASA for outdoor parts (ray of sunshine). Quill stem wedges can bind or seize inside the steerer over time (Wikipedia 'Stem (bicycle part)'). *(⚑ parts need confirming)*
 - **safety_notes**: On a bicycle, a missing or loose steerer anchor lets the headset come loose, and a star nut in a carbon steerer can crack it to the point of failure (Wikipedia 'Stem (bicycle part)'); remember the anchor only pre-loads the bearings, and the stem clamp bolts must be tightened to hold the fork (Wikipedia 'Headset (bicycle part)'). Hammering in a star nut calls for eye protection and a guide so the hammer doesn't glance off ⚑ [uncertain: general advice]. Don't rely on a friction-only plug to hold a person's weight in tension ⚑ [uncertain: general advice]. Cut tube ends are sharp: deburr before fitting. *(⚑ parts need confirming)*
@@ -1358,6 +1720,8 @@
   - Hose barb (barbed tube fitting): barbs that hold a soft hose from inside, and also seal
   - Castor: the wheel that an expanding caster stem or a threaded tube insert holds in the end of a tube leg
   - Levelling foot: the screw-in foot that a ribbed threaded insert gives a square or round tube leg a thread for
+  - Bonded tube joint (lugged or sleeved tube joint): glues a socket, sleeve or threaded end adapter into or over a tube end, the usual way to fix anything to carbon tube
+  - Push-fit rod and spar fittings (kite fittings): small sockets and ferrules held on a rod or thin tube by a snug fit, for light frames such as kites
 
 ### Pictures, videos and models
 
@@ -1389,6 +1753,7 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
   - https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png
+  - https://dragonplate.com/how-to-connect-carbon-fiber-tubes
 
 ### Finder tags
 
@@ -1406,6 +1771,49 @@
 - **adjustable**: yes
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: parts clamped together
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites
 
 ### Other info
 
@@ -1511,6 +1919,8 @@
   - Gasket and O-ring seal entries: for sealing without a thread; a well nut is effectively a gasket and a nut in one
   - Hollow-wall anchors: toggles, molly bolts and self-drilling plasterboard anchors use the same blind idea in plasterboard walls; Wikipedia compares the well nut to a molly bolt
   - Wall plug: a plastic sleeve that swells in a drilled hole in brick or concrete as a screw goes in; for solid walls, where a rivet nut or well nut has no hollow space behind to bulge into
+  - Potted insert (sandwich-panel insert, hard point): for cored or sandwich panels, whose soft core crushes when a bolt is tightened; the core round the hole is replaced with a plug of hard epoxy that holds the thread or insert
+  - Bonding fastener (glue-on stud): a threaded stud or nut on a wide perforated base glued to the surface, so no hole is needed at all
 
 ### Pictures, videos and models
 
@@ -1567,6 +1977,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: metal, plastic, fabric or a gap
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites, glass or mirror
 
 ### Other info
 
@@ -1576,7 +2029,7 @@
 
 *clamping, magnetic & friction connections.* A bolt through the parts into a nut or tapped thread, clamping them together; the baseline everything else is compared with
 
-*Also covers:* Also covers washers by job, the carriage (coach) bolt, and robot-kit hole grids.
+*Also covers:* Also covers washers by job, the carriage (coach) bolt, and robot-kit hole grids. Also covers drilling carbon-fibre plate for bolts, and carbon dust safety.
 
 ### What it is
 
@@ -1646,6 +2099,7 @@
   - Choose a bolt length so the threaded part does not sit in the shear plane between the parts; add washers to adjust (NASA RP-1228).
   - Helical spring (split) lock washers are flat by the time the bolt is tight and give no locking; use preload, prevailing-torque nuts or threadlocker instead (NASA RP-1228; Bolt Science says spring lock washers can even aid self-loosening).
   - 3D prints: wall around a threaded hole at least equal to the screw diameter (Hubs); even 1 Nm on an M3 screw gives more than 1500 N of clamping force, plenty for most printed assemblies (CNC Kitchen).
+  - Drilling carbon-fibre plate: clamp it to a backing of wood or rigid foam to stop blow-out and splintering, put masking tape over the hole position, and run the drill fast (3,000-5,000 rpm) with a slow feed; a sharp HSS bit lasts only "5-10 holes before it is completely dull", so use solid carbide or diamond bits for more, which are brittle and need a drill press (Elevated Materials). Bolting through a soft, hollow or cored panel needs a compression limiter or a potted insert so the clamp force doesn't crush it (see those entries).
 
 ### When to use it
 
@@ -1658,7 +2112,7 @@
 - **when_to_use**: Use it whenever parts must be strong, easy to make and able to come apart again for repair, adjustment or transport: frames, brackets, enclosures, robot and 3D-printer parts, jigs and prototypes. Parts are cheap and standard, the clamping force can be set with a torque tool, positions can be adjusted before tightening, and the joint can be undone and redone many times (Wikipedia 'Bolted joint'). It is the baseline to compare every other connection against. Use a carriage bolt through wood or a square-holed metal strap when you can only turn the nut: the square neck stops the bolt turning, and because its smooth domed head can't be gripped from outside, it is used in locks and hinges that must only be undone from one side (Wikipedia 'Carriage bolt').
 - **when_not_to_use**: Avoid it when you can't reach both sides and have no threaded hole (use a blind rivet, rivet nut or well nut instead); when you need tool-free, very fast assembly (use a snap fit, cam lock or quick-release pin); when parts must line up exactly every time (add dowel pins); when heavy vibration is expected without proper preload or locking (use locknuts, threadlocker or rivets) (Bolt Science); when the joint must seal without extra parts (add a gasket); or in thin, soft material that crushes under the head (use large washers, inserts or glue) (Hubs; filamentspecs). For permanent, cheap mass production, rivets, welding, clinching or snap fits are faster.
 - **environment_limits**: Vibration and small sideways slips are the main cause of loosening; keep the preload high enough to stop the joint slipping (Bolt Science). Differences in temperature or between clamped materials also cause slip and loosening (Bolt Science). Corrosion, especially steel against aluminium or in damp conditions, and 'embedding' (the surfaces settling) lose preload over time (Wikipedia 'Bolted joint'). Plastic clamped parts creep: 3% loss for PLA and 11.5% for PETG in one week at room temperature in one test, more after UV ageing for PETG (Amza et al. 2021); PLA softens above about 60 °C (Prusa).
-- **safety_notes**: Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. Cut bolt ends can be sharp ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Over-tightening can strip threads or stretch a bolt past its limit so it loses clamping force (Wikipedia 'Bolted joint'). Use bolts of the right strength grade for anything load-bearing or overhead, and beware of counterfeit fasteners with false grade markings (Wikipedia 'Screw'). A loosened bolt in a moving machine or vehicle can let parts fall off; check critical joints. Cut bolt ends can be sharp ⚑ [uncertain]. Carbon-fibre dust from drilling "is an irritant and can cause major itching" on skin and breathing problems if inhaled: wear long sleeves, gloves, a dust mask or respirator and eye protection, with good ventilation (Elevated Materials). *(⚑ parts need confirming)*
 - **common_failures**: Loosening under vibration because the joint slips sideways; fix by tightening properly (enough preload), and use prevailing-torque locknuts or threadlocker rather than split spring washers (Bolt Science; NASA RP-1228). Stripped threads from too short an engagement or soft material; use a longer thread, a nut or an insert (Nord-Lock; Wikipedia 'Bolted joint'). Fatigue cracking of the bolt from under-tightening (Wikipedia 'Bolted joint'). Crushed or cracked plastic or wood under the head; use washers and less torque (CNC Kitchen; filamentspecs). Preload loss over time from creep and embedding; re-check torque (Wikipedia 'Bolted joint'; Amza et al. 2021). Holes out of line so the screw won't go in; use clearance holes of the right size (ISO 273).
 - **related**: 
   - Self-tapping screw into plastic (thread-forming screw): no nut or tapped hole needed, but the plastic thread wears out after a few uses
@@ -1673,6 +2127,8 @@
   - Aluminium-extrusion connectors: bolts into nuts that slide in the slots of aluminium bars, so parts can be moved anywhere along a frame instead of only to drilled holes
   - Wood screw: a pointed, coarse-threaded screw that cuts its own thread in wood, so no nut or tapped hole is needed
   - Threaded rod and studs: a rod threaded along its length, used with nuts as a long bolt, tie rod or adjustable spacer
+  - Compression limiter (crush tube): a metal sleeve in the bolt hole of a soft or hollow part, so the clamp force goes through the sleeve instead of crushing the part
+  - Panel standoff (sign standoff): a decorative two-part screw fitting that holds a drilled sign, glass or acrylic panel a set distance off the wall
 
 ### Pictures, videos and models
 
@@ -1715,6 +2171,7 @@
   - https://api.printables.com/graphql/
   - https://en.wikipedia.org/wiki/Carriage_bolt
   - https://game-manual-0.readthedocs.io/en/latest/docs/hardware-basics/kit-and-hardware-guide/gobilda.html
+  - https://elevatedmaterials.com/drilling-carbon-fiber
 
 ### Finder tags
 
@@ -1732,6 +2189,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites
 
 ### Other info
 
@@ -1873,6 +2373,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: by hand
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2038,6 +2581,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: by hand, machine
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: grip or lift
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, paper or card
 
 ### Other info
 
@@ -2139,6 +2725,7 @@
   - Ball-and-socket joint (lockable ball head): the ball connectors in some dome hubs work like a ball joint locked by a screw
   - Split-part joints for large prints: other ways to build something bigger than the print bed
   - Mortise and tenon / Dowel and biscuit joints: traditional two-member timber joints with no separate hub
+  - Push-fit rod and spar fittings: small tee, cross and angled connectors that thin rods push into, for kites and light frames where only two to four members meet
 
 ### Pictures, videos and models
 
@@ -2193,6 +2780,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2350,6 +2980,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: pushed, clamped or clicked
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -2517,6 +3190,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: no
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: bar, pole or desk edge
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites
 
 ### Other info
 
@@ -2526,7 +3242,7 @@
 
 *clamping, magnetic & friction connections.* Two jaws on a pivot, squeezed shut by a spring; you pinch the handles to open it and let go to clamp, as in clothes pegs, spring clamps and clip-on phone or lamp holders
 
-*Also covers:* Also covers printed spring clamps and clips that use a rubber band as the spring.
+*Also covers:* Also covers printed spring clamps and clips that use a rubber band as the spring. Also covers the wire paper clip, the simplest spring clip.
 
 ### What it is
 
@@ -2545,11 +3261,12 @@
   - rubber-band clamp / rubber band spring clamp (printed clamp that uses rubber bands as the spring, Printables 617245)
   - springless clothespin / one-piece peg / dolly peg (one-piece version whose own springy prongs grip, Wikipedia; Printables 33109)
   - clip-on holder / clip-on lamp / clamp lamp / clip-on phone holder
+  - paper clip, Gem clip (the simplest spring clip: one bent wire with no pivot; Wikipedia 'Paper clip')
 - **family**: clamping, magnetic & friction connections
 - **other_families**: springs & energy storage, quick-release & tool-free
 - **one_liner**: Two jaws joined by a pivot and closed by a spring (usually a coiled wire torsion spring, sometimes rubber bands or a springy printed arm), so you squeeze the handles to open it and let go to clamp it onto cloth, paper, a board edge, a rod or a cable.
 - **complexity**: A few parts: two jaw-and-handle halves (wood, plastic or steel), a pivot (a pin or rivet, or the coil of the spring itself acting as the hinge), and a spring (a wire torsion spring, a trapped compression spring, rubber bands, or a springy part of the clip itself); often soft or swivelling jaw pads and grips on the handles. Examples: 'two wooden halves and one wire spring that is both spring and pivot' (Solon E. Moore's 1887 clothespin, Wikipedia 'Clothespin'); 'two printed halves, snap-on jaw pads, rubber bands' (Printables 617245).
-- **how_it_works**: Each half is a lever with the pivot between the handle and the jaw. The spring pushes the handles apart, which pulls the jaws together, so the clip grips on its own; squeezing the handles harder than the spring opens the jaws ('By a lever action, when the two prongs are pinched at the top of the peg, the prongs open up, and when released, the spring draws the two prongs shut', Wikipedia 'Clothespin'). In the classic wooden peg one coiled wire is both the spring and the pivot the two halves rock on (Wikipedia). A coiled (torsion) spring pushes back harder the further it is twisted (Wikipedia 'Torsion spring'), and the grip at the jaws is the spring's turning force divided by the distance from the pivot (lever arithmetic), so it is greatest close to the pivot. The jaws hold by friction, helped by teeth on crocodile clips and toothed pegs; the clamping force is small (up to about 100-150 N for metal workshop spring clamps, Bessey).
+- **how_it_works**: Each half is a lever with the pivot between the handle and the jaw. The spring pushes the handles apart, which pulls the jaws together, so the clip grips on its own; squeezing the handles harder than the spring opens the jaws ('By a lever action, when the two prongs are pinched at the top of the peg, the prongs open up, and when released, the spring draws the two prongs shut', Wikipedia 'Clothespin'). In the classic wooden peg one coiled wire is both the spring and the pivot the two halves rock on (Wikipedia). A coiled (torsion) spring pushes back harder the further it is twisted (Wikipedia 'Torsion spring'), and the grip at the jaws is the spring's turning force divided by the distance from the pivot (lever arithmetic), so it is greatest close to the pivot. The jaws hold by friction, helped by teeth on crocodile clips and toothed pegs; the clamping force is small (up to about 100-150 N for metal workshop spring clamps, Bessey). The wire paper clip (Gem type, one and a half loops of wire) is the simplest spring clip of all, with no pivot: pushing sheets between its tongues forces them apart and twists the bends of the wire, and it holds by 'torsion and elasticity in the wire, and friction between wire and paper' (Wikipedia 'Paper clip').
 
 ### Finder attributes
 
@@ -2583,7 +3300,7 @@
   - woodwork: the classic two-piece wooden peg with a wire spring, and wooden jaws for larger rubber-band or spring clamps
 - **print_in_place**: yes for one-piece and print-in-place pegs, whose spring is part of the print and which are ready to use straight off the printer (Printables 33109, 659163, 1096058; Printables 1707408 needs its centre snapped together once after printing); partly for rubber-band clamps (two printed halves plus added rubber bands, Printables 617245) and for printed clamps built around a metal spring and screws (Printables 559737)
 - **making_tips_3d_printing**: Spring material: print anything that has to spring back in PETG, not PLA; one designer found 'the spring from PLA doesnt really hold up that well but petg works great' (Printables 1096058), another says a PLA spring 'may wear out or crack sooner' (Printables 1707408), and Hackaday notes 'PLA makes for a very poor spring material'. Plastic held bent for a long time slowly loses force (stress relaxation: 'a clip or clamp loses holding force', filamentspecs), so don't store printed clips clamped shut on something thick, and use rubber bands or a metal spring where it must keep gripping for months. Orientation: print the halves lying flat so the bending runs along the layers; Printables 617245 'prints flat for much greater strength', and CNC Kitchen's hooks printed standing broke at only 46-55% of the load of flat ones. Settings seen on popular models: for rubber-band clamp halves, PLA at 0.2 mm layers, 3 perimeters and 15% infill (Printables 617245); for a print-in-place PETG peg, 3 perimeters and no supports (Printables 1707408); some one-piece pegs suggest 100% infill (Printables 904305). Rubber bands: add as many as you need for the force you want (Printables 617245, 982731); natural rubber bands crack quickly when kept stretched in air (ozone cracking), while EPDM and silicone O-rings resist ozone (Wikipedia 'Ozone cracking'), so O-rings make longer-lasting springs. Jaw gap: for springless pegs pick the gap to suit the thickness held; Printables 33109 comes in 1, 2, 3 and 4 mm gaps. Pivots between printed parts need at least 0.3 mm clearance to move freely (Prusa 'Modeling with 3D printing in mind'). Reusing a metal spring: Printables 559737 takes a spring with wire up to 2.5 mm thick, a coil about 10 mm high and 15 mm across and legs up to 50 mm long, prints its jaws flat with supports, and assembles the spring with locking pliers and a vice while wearing safety glasses. Heat: PLA starts to give at about 60 degC (CNC Kitchen), so a PLA clip on a lamp or left in a hot car will soften; PETG lasted to about 80 degC in the same test. Printed replacement tips and jaws for bought spring clamps are common (Printables 586755, 466832).
-- **off_the_shelf_parts**: Search terms: 'spring clamp' (metal with PVC tips, or plastic), 'nylon spring clamp', 'heavy duty spring clamp', 'needle nose spring clamp', 'ratchet spring clamp' (e.g. Bessey XM, XC Clippix, XCL, XCR, brand), 'muslin clamp' or 'backdrop clamp', 'clothes pegs' (wooden spring, plastic, stainless steel), 'crocodile clip' or 'alligator clip' (electrical), 'binder clip' or 'foldback clip' (spring-steel, no pivot), 'clip-on lamp' or 'clamp lamp', 'clip-on phone holder', 'spring clamp tips' or 'spring clamp pads' (replacement jaw pads), and 'torsion spring' for replacement springs (see the Coil spring entry). For sizes and forces, link to a maker's sheet such as Bessey's: https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en.
+- **off_the_shelf_parts**: Search terms: 'spring clamp' (metal with PVC tips, or plastic), 'nylon spring clamp', 'heavy duty spring clamp', 'needle nose spring clamp', 'ratchet spring clamp' (e.g. Bessey XM, XC Clippix, XCL, XCR, brand), 'muslin clamp' or 'backdrop clamp', 'clothes pegs' (wooden spring, plastic, stainless steel), 'crocodile clip' or 'alligator clip' (electrical), 'binder clip' or 'foldback clip' (spring-steel, no pivot), 'paper clip' or 'Gem clip' (bent wire, no pivot), 'clip-on lamp' or 'clamp lamp', 'clip-on phone holder', 'spring clamp tips' or 'spring clamp pads' (replacement jaw pads), and 'torsion spring' for replacement springs (see the Coil spring entry). For sizes and forces, link to a maker's sheet such as Bessey's: https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en.
 - **rules_of_thumb**: 
   - Expect light clamping force: metal spring clamps give up to about 100 N (25 mm opening), 120 N (50 mm) and 150 N (75 mm) (Bessey, https://bessey.de/getmedia/4aaf3598-88bf-4334-8867-07e665352c04/pr-bessey-xm-xv-xc-xcl-xcr__en); for big glue-ups use bar or screw clamps, which give 'immense, even pressure' (This Old House, https://www.thisoldhouse.com/house-one/clamp-guide).
   - A coiled torsion spring's turning force is proportional to how far it is twisted (Wikipedia 'Torsion spring', https://en.wikipedia.org/wiki/Torsion_spring), so a spring clamp grips a thick part harder than a thin one, and gripping close to the pivot gives more force than at the jaw tips (lever arithmetic; no clamp test opened).
@@ -2618,6 +3335,8 @@
   - Printed leaf spring and Compliant mechanisms & flexures: the principle behind one-piece springless pegs
   - Temporary sheet fastener (Cleco-type spring pin): holds drilled sheets together while they are fixed
   - Hose clamp (spring hose clamp): a spring-steel band that squeezes a hose onto a fitting
+  - Loose-leaf bindings (ring binder, disc binding): keep many punched sheets together for good, where a clip only holds a stack for a while
+  - Glass and mirror edge clips and clamps (glass bed clip): include the binder and spring clips that hold a glass printer bed by its edge
 
 ### Pictures, videos and models
 
@@ -2656,6 +3375,7 @@
   - https://commons.wikimedia.org/wiki/File:Clamps.jpg
   - https://commons.wikimedia.org/wiki/Category:Spring_clamps
   - https://api.printables.com/graphql/ (Printables API: models 617245, 1707408, 1096058, 33109, 559737, 904305, 659163, 982731, 9024; titles of 586755 and 466832 from search results)
+  - https://en.wikipedia.org/wiki/Paper_clip
 
 ### Finder tags
 
@@ -2673,8 +3393,254 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: bar, pole or desk edge
+- **wall_hold**: not applicable
+- **gripped_by**: by hand
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, glass or mirror, fabric, leather or cord ⚑ *needs confirming (best guess): still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Binder clips ('binder clip' or 'foldback clip') are the usual way to hold a 3D-printer glass bed.  That use is not stated in the JSON: Printables 'glass bed clip' results show it.*
 
 ### Other info
 
 - ⚑ **Fields with parts that need confirming:** environment_limits, safety_notes
+
+## 440 Glass and mirror edge clips and clamps (mirror clips, glass clamp, glass shelf bracket, glass bed clip)
+
+*clamping, magnetic & friction connections.* Small brackets that hold a sheet of glass, mirror or acrylic by its edge without drilling it, either with a lip the sheet sits behind (mirror clips) or with a screw clamp lined with rubber pads (glass shelf brackets, shower-panel clamps, 3D-printer glass bed clips)
+
+*Also covers:* Also covers fixed and sliding (spring) mirror clips, J-channel for gym mirrors, glass-to-wall and glass-to-glass clamps, display-cube connectors, printed bed clips and binder clips on glass beds. Two fixed clips below, sliding clips above, about 50 mm in from the corners. Match the clip to the sheet thickness. Safety: keep a gasket between metal and glass, tighten evenly and not too hard, and fix heavy mirrors into studs or with toggle anchors (plastic plugs only up to about 20 lb).
+
+### What it is
+
+- **plain_name**: Small brackets screwed to a wall or frame that hold a sheet of glass, mirror or acrylic by its edges, either with a hooked lip the sheet sits behind or with a little screw clamp lined with rubber, so you never have to drill the sheet itself
+- **term**: Glass and mirror edge clips and clamps (mirror clips; glass clamps; glass shelf brackets; glass bed clips)
+- **aliases**: 
+  - mirror clips, mirror holders, mirror brackets; fixed mirror clips (bottom) and sliding, spring or spring-loaded mirror clips (top) (Reflect Window & Door; RealHomes)
+  - offset mirror clips, plastic mirror clips, mirror clip set
+  - J-channel, J-bar, J-mold or mirror mounting channel (a continuous bottom and top channel for big gym and dance-studio mirrors; Reflect Window & Door; 4specs forum)
+  - glass clamp, shower glass clamp, cubicle glass clamp, wall-mount glass clamp, glass-to-wall clamp, glass-to-glass clamp (Rainco; S3i)
+  - glass shelf bracket, glass shelf clamp, glass shelf support, shelf bracket for glass, pelican clamp ⚑ [uncertain: trade nickname seen only in shop listings]
+  - glass connector, display connector, display-cube connector, two-way / three-way / four-way 90-degree glass connector (Reflect Window & Door)
+  - glass bed clip, glass bed clamp, build plate clamp, bed clip, print surface clip (3D printers; UltiMaker; filament2print; Printables)
+  - binder clip or foldback clip used on a 3D-printer glass bed
+  - acrylic panel clip, panel clip (printer enclosures, e.g. Voron panel clips on Printables)
+  - cabinet glass clip, glass retainer clip, glass/mirror clip *(⚑ parts need confirming)*
+- **family**: clamping, magnetic & friction connections
+- **other_families**: everyday fasteners & fixings, snap & clip fits
+- **one_liner**: Brackets fixed to a wall, cabinet or printer bed that hold a sheet of glass, mirror or acrylic by its edge, either by a lip the sheet sits behind (mirror clips, J-channel) or by a screw that squeezes the sheet between rubber or plastic pads (glass clamps, shelf brackets, display connectors, bed clips), so the sheet is held without drilling it.
+- **complexity**: A few parts. Lip type: two fixed bottom clips and two sliding or spring top clips, each with a screw, a wall plug or anchor and often a plastic washer or snap-on cover (Reflect; RealHomes); or a length of aluminium J-channel at the bottom and top. Clamp type: a metal body, a rubber or plastic gasket or pad that lines the jaws, one or two clamping screws (grub screws, often nylon-tipped) and wall screws (Rainco exploded view: clamp body, protective glass gasket, two wall screws, two clamp screws).
+- **how_it_works**: Lip-type clips hold the sheet by shape: the bottom clips carry its weight on a ledge and the top clips reach over the front face so it can't tip forward; spring or sliding top clips are pushed up to slip the mirror in and then drop down to trap it (Reflect; RealHomes). Clamp-type fittings hold by friction: a screw squeezes the glass between two pads, and the rubber or plastic lining spreads the force, grips the smooth surface and keeps metal from touching the glass (Rainco: 'Ensure there is no direct metal-to-glass contact'). Some heavy shower clamps add a pin through a hole drilled in the toughened glass at the factory, so they are not truly drill-free (S3i). On a 3D printer, clips at the edges press the glass plate down onto the heated bed; on some printers two fixed clips at the back act as a lip and two front clips open (UltiMaker).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds a mirror, glass shelf, glass panel, display-cube wall or printer bed plate in place
+  - lock, and release by hand: sliding or spring top mirror clips, front bed clips and binder clips let the sheet be lifted out and put back without tools (Reflect; UltiMaker)
+  - line parts up exactly: a bed clip or corner clamp keeps the glass plate in the same place on the heated bed so it doesn't shift during a print (filament2print; Hubs forum)
+- **motion**: none: the sheet is meant to stay still; sliding top mirror clips slide up a few millimetres in their screw slot only while fitting or removing the mirror (RealHomes)
+- **degrees_of_freedom**: 0 once fitted: the ledge and lips (or the clamp pads) stop the sheet moving in every direction; with lip-type clips the sheet can usually still slide sideways a little until the side clips or friction stop it
+- **special_behaviour**: 
+  - quick-release: spring-loaded top mirror clips let you push the mirror up and swing its bottom out without unscrewing anything (Reflect); UltiMaker's front glass-plate clamps open so the plate can slide out of the fixed back clamps (UltiMaker)
+  - none, for screw clamps and shelf brackets, which simply hold
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): lip-type mirror clips, J-channel and the fixed back clamps of a printer bed hold the sheet behind a lip and on a ledge
+  - friction or clamping (force-fit): screw glass clamps, shelf brackets and display connectors squeeze the glass between rubber pads or nylon-tipped set screws (Rainco; S3i; Reflect GC-106CH)
+  - spring force (a spring or springy part presses it in place): spring-loaded top mirror clips, sprung bed clips and binder clips (Reflect; Spring clip clamp entry)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: lip clips with spring tops and bed clips come off by hand; screw clamps and fixed clips need a screwdriver or hex key; the wall fixings stay
+- **reuse_cycles**: many times for bed clips, spring mirror clips and screw clamps (UltiMaker warns its back clamps 'could break off' if forced); the wall plugs and gaskets may need replacing when the fitting is moved ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: drill and bits, screwdriver, wall plugs or hollow-wall toggle anchors, spirit level, pipe-cable-and-stud detector (RealHomes); hex key for grub-screw clamps; none for binder clips and many printed bed clips
+- **seal**: none: clips only hold the sheet; a mirror fixed with clips leaves an air gap behind it
+- **load**: light to medium, set by the wall fixing more than by the clip: Reflect says 'Plastic wall anchors will hold a mirror up to 20 lbs' (about 9 kg) and heavier mirrors need toggle bolts with at least one set of clips on a stud. Strong when the sheet's weight sits down on a bottom clip or channel; clamp-only fittings rely on friction and can let the glass slip if under-tightened or if the pads are greasy ⚑ [uncertain]. Shower glass clamps are made for 8-12 mm toughened glass and S3i says to 'always combine glass clamps with a Stabilising Bar'. Weak against prying the sheet forward from one corner, and glass itself is weakest at its edges (Wikipedia 'Tempered glass'). *(⚑ parts need confirming)*
+- **adjustable**: yes, a little: sliding top mirror clips move up and down in a slot (RealHomes); clamp screws set the grip; some bed clamps can be 'tightened over time' (Printables 501068); otherwise positions are set by the screw holes
+- **play_and_precision**: small: lip clips leave a little play by design (Reflect: not 'so loose that the mirror can rattle'); screw clamps have none once tight; bed clips locate a plate well but it can creep if too few are used (Hubs forum: adding two more binder clips stopped the plate moving)
+- **access_needed**: one side only (blind): everything is fixed from the front face of the wall, cabinet or bed, and the sheet is fitted from the front
+- **materials**: Clips are made of chrome-plated or stainless steel, aluminium (J-channel, display connectors), zinc alloy, or clear and white plastic; clamp pads are rubber, silicone or plastic gaskets and set screws have nylon tips (Rainco; S3i; Reflect). They suit any flat, rigid sheet with smooth edges: float-glass mirrors, toughened (tempered) glass shelves and shower panels, glass build plates, and acrylic (PMMA), polycarbonate and other plastic panels; Reflect's display connectors also take wood or metal infill panels. Not suited to flexible or very thin sheets that bow out of the clips, to tiles or sheets with chipped edges, or to toughened glass needing a hole for a pinned clamp unless the hole was made before toughening (S3i; Wikipedia 'Tempered glass').
+- **maker_difficulty**: easy: buy or print the clips and screw them to the wall; the hard parts are finding a stud or using the right anchor, and matching the clip to the sheet thickness
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: mirror clips, J-channel, glass clamps, shelf brackets and display connectors are cheap hardware-shop items
+  - 3D print (FDM): mirror clips, cabinet glass clips, bed clips and corner clamps print well in PETG or ABS (Printables 8907, 711145, 501068)
+  - 3D print (resin): possible for small cabinet clips ⚑ [uncertain]
+  - CNC or laser cut: acrylic or wooden clips and bed corners ⚑ [uncertain]
+  - sheet metal: bent spring-steel bed and panel clips ⚑ [uncertain] *(⚑ parts need confirming)*
+- **print_in_place**: no: clips print as single parts and are screwed on; clamp-style bed clips need an added screw and nut (Printables 242020: M3 and M4 screws and nuts)
+- **making_tips_3d_printing**: 1) Set the slot height to the measured sheet thickness plus a small gap: the Printables mirror clip 8907 is a customiser where you choose mirror thickness and overhang (default 6 mm mirror, 8 mm overhang) in 0.5 mm steps, and Reflect warns that too tight won't fit and too loose rattles. Measure the actual sheet with calipers, as mirrors and glass vary. 2) Print lip clips on their side so the lip is made of continuous perimeters rather than stacked layers that can split off; the Printables offset mirror clip 1881558 'prints on its side with no supports, which also makes the lip strongest' ⚑ [uncertain: designer's claim]. 3) Use PETG or ABS rather than PLA near heat and in steamy bathrooms: designer Spas Makes wouldn't recommend PLA for his bed corner clamp (Printables 501068), and ArtieH's printed bed clamps held for about a dozen hour-long prints at 100 °C bed temperature and then failed, so he does not recommend them for 100 °C beds (Printables 242020). 4) Add a countersink for the screw so the head sits flush and can't touch the glass (8907 has an optional countersink for a #6 drywall screw); 2 shells and 20% infill worked for 8907, 10-15% infill for the flat cabinet clip 711145. 5) For bed clips, keep the clip as low and small as possible and keep the nozzle, probe and fan duct clear of it (Printables 242020; filament2print). 6) Don't overtighten printed clamps on glass: plastic creeps, but too much pressure can crack the glass, and too little lets the clamp 'fly away' when scraping prints (Printables 501068; Snapmaker forum). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search for: 'mirror clips' (fixed and 'spring mirror clips' or 'sliding mirror clips'), 'offset mirror clip', 'mirror screws with domed caps' (for drilled mirrors, see Panel standoff), 'mirror J-channel' or 'J-bar' (bottom and top), 'mirror mastic' (only together with mechanical support), 'glass shelf bracket' or 'glass shelf clamp' (state glass thickness, e.g. 6-10 mm), 'glass clamp' or 'shower glass clamp' (wall-to-glass, glass-to-glass, 90 or 180 degree), 'glass connector' or 'display cube connector' (2-, 3- and 4-way, e.g. for 5-6 mm glass), 'glass bed clip' or 'build plate clip', 'binder clip' (foldback clip), 'hollow-wall anchor' or 'toggle bolt'. Catalogue examples: Reflect Window & Door mirror clips and connectors https://www.reflectwindow.com/collections/showcase-plastic-glass-connectors-shelf-supports; S3i glass clamps https://s3i.co.uk/cubicle-glass-clamp-wall-mount-square-stainless-steel-4115.php
+- **rules_of_thumb**: 
+  - Mirror clips come in sets of four, two fixed clips at the bottom and two (often spring-loaded) at the top; a large mirror gets extra clips top and bottom or on the sides (Reflect Window & Door FAQ). RealHomes: 'For a large frameless mirror, use three at the top and bottom.'
+  - Position: RealHomes puts the clips 'About 50mm in from the corners'; Reflect says 'an inch or two in from the side edges' (about 25-50 mm), depending on size. The two figures overlap.
+  - Fit the bottom clips with plastic washers on the screw heads, and fix the top sliding clips with the screw at the base of the slot so they can slide down onto the mirror (RealHomes).
+  - Match the clip to the sheet thickness: too tight and the mirror won't fit, too loose and it rattles (Reflect).
+  - Wall fixings: plastic wall anchors hold a mirror up to about 20 lb (9 kg); heavier mirrors need toggle bolts and at least one set of clips on a stud; on brick or stone, drill the grout, not the brick (Reflect). Weigh the mirror (bathroom scales) and use a helper for heavy ones (RealHomes).
+  - Glass clamps: put the gasket inside the clamp, make sure there is no metal-to-glass contact, tighten both screws evenly and don't overtighten (Rainco shower glass clamp sheet, for 8-12 mm toughened glass, 13 mm opening).
+  - Shower and cubicle glass clamps: 8-12 mm glass, combined with a stabilising bar; some need 'a 16mm hole drilling at manufacture stage' (S3i).
+  - Display-cube connectors with nylon-tipped set screws suit 3/16-1/4 in (5-6 mm) glass without drilling (Reflect GC-106CH).
+  - Wall mirrors over a few kilograms: the bottom edge should sit on a mechanical support (bottom J-channel or clips); mirror mastic is not relied on alone (4specs forum, quoting MasterSpec: the National Glass Association recommends mechanical devices as well as mastic).
+  - 3D-printer beds: use four clips placed evenly and symmetrically, and check the clip opening (8 mm on filament2print's clip) fits the bed plus glass together (filament2print).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A frameless bathroom mirror held by four small chrome or clear plastic clips (Reflect; RealHomes)
+  - A glass shelf over a bathroom basin, held in two clamp brackets with rubber strips (S3i)
+  - Glass display cubes in shops joined at the corners by plastic or aluminium connectors (Reflect)
+  - A 3D printer's glass build plate held down by binder clips or bed clips (UltiMaker; Hubs forum)
+- **when_to_use**: Use edge clips when you want to hang or hold a sheet of glass, mirror or acrylic without drilling it: hanging a frameless mirror, putting up a glass shelf or splashback, holding a glass or acrylic panel in a cabinet or printer enclosure, building display cubes, or fixing a glass plate to a 3D-printer bed. They are cheap, quick, easy to undo, and let a broken sheet be replaced. Toughened glass can't be drilled after toughening (Wikipedia 'Tempered glass'), so edge clamps are often the only option for an existing toughened panel.
+- **when_not_to_use**: Avoid clips that can't be fixed to something solid: a heavy mirror on plasterboard with only plastic plugs (use toggle anchors, studs, a bottom J-channel or a French cleat on a framed mirror; see Hang-on mounts). Don't rely on clamp friction alone for heavy or tall panels where people could be hurt (shower screens need the maker's full system and a stabilising bar; S3i). For sheets that must not show any hardware, use mirror adhesive with mirror tape (see Silicone and MS-polymer adhesive sealants), or a drilled sheet with standoffs (see Panel standoff). On a 3D printer, consider a magnetic flexible sheet instead, since clips take up print area and can be hit by the nozzle ⚑ [uncertain]. Don't use edge clips on glass with chipped edges: replace the sheet. *(⚑ parts need confirming)*
+- **environment_limits**: Bathrooms: steam and water rust plain steel clips and screws, so use stainless or plastic ⚑ [uncertain]. Heat: printed clips in PLA soften near a heated bed; ArtieH's PETG/PLA clamps failed after about a dozen hour-long prints at 100 °C (Printables 242020). Glass and metal brackets expand by different amounts with temperature, so clamps should grip through rubber, not metal (Wikipedia 'Tempered glass': nicks plus expansion and contraction can grow into breaks). Plastic clips and rubber pads can creep or harden over years, loosening the grip; check clamp screws now and then ⚑ [uncertain]. Rubber pads lose grip if oily. *(⚑ parts need confirming)*
+- **safety_notes**: Glass is heavy and its edges are sharp: wear gloves, and get a helper for big mirrors (RealHomes). Check the wall with a pipe, cable and stud detector before drilling (RealHomes). Use fixings rated for the weight: plastic plugs only up to about 20 lb (9 kg), toggles or studs above that (Reflect). Never let metal touch the glass, and tighten clamp screws evenly and not too hard: a point load, nick or chip at the edge can make glass crack later, and toughened glass then shatters completely, often long after fitting (Rainco; Wikipedia 'Tempered glass'). Nickel sulfide inclusions can make toughened glass break without warning years later (Wikipedia 'Tempered glass'). Shower screens are safety glazing: follow the maker's instructions and local rules (Rainco lists AS/NZS standards and says plumber required). On a 3D printer, a nozzle hitting a binder clip can crack the glass plate or damage the nozzle ⚑ [uncertain: reported in forum posts seen only in search results], and binder clips can score a heater plate (Snapmaker forum); let the bed cool before taking the plate out (UltiMaker). *(⚑ parts need confirming)*
+- **common_failures**: Mirror falls because the wall fixing pulls out (plastic plugs overloaded, no stud) (Reflect). Mirror rattles or won't fit because the clips are the wrong thickness (Reflect). Glass cracks at a clamp because it was overtightened, unevenly tightened, or touched bare metal (Rainco). Glass shelf slides out of brackets because the pads are worn or not tight enough ⚑ [uncertain]. Toughened panels break later from edge chips made during fitting (Wikipedia 'Tempered glass'). On printers: the plate shifts mid-print with too few clips (Hubs forum), the head crashes into a clip ⚑ [uncertain], printed clips soften and lose grip at high bed temperatures (Printables 242020), or the fixed back clamps snap if the plate is lifted or prints are pried off with the plate still in the printer (UltiMaker). Fixes: weigh the sheet and pick the fixing to suit, match the clip to the thickness, use pads and even, moderate tightening, and take the plate out to remove prints. *(⚑ parts need confirming)*
+- **related**: 
+  - Panel standoff (sign standoff, glass standoff): goes through a drilled hole and clamps the sheet with a cap, instead of holding its edge
+  - Glass door hinge (clamp-on glass hinge): the same padded clamp idea, turned into a hinge for a glass door
+  - Glazing in a rebated frame (glazier's points, putty, turn buttons): holds the sheet inside a frame instead of clipping it to a wall
+  - Shelf pins and shelf supports: pegs in holes that a glass shelf rests on, often with a rubber ring to stop slipping
+  - Spring clip clamp (incl. binder clip): the spring clip that many makers use on glass printer beds
+  - Silicone and MS-polymer adhesive sealants: mirror adhesive and mirror tape bond a mirror to the wall with no visible clips
+  - Double-sided foam tape: light mirrors and panels stuck on with tape
+  - Hang-on mounts (keyhole slot, French cleat): for framed or heavy mirrors
+  - Wall plug and Hollow-wall anchors (toggle, molly): the wall fixings that decide how much a mirror clip can carry
+  - Clamp-on accessory mount (desk clamp, U-bolt): screw clamps for bars and edges in general
+  - Suction cup: holds a light item on glass without any fixings at all
+  - Push-on edge trim (U-channel edging): a rubber or plastic U strip that protects or grips a sheet edge
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Shower Glass Clamp product and installation sheet (Rainco)](https://rainco.com.au/cdn/shop/files/Shower_Glass_Clamp_-_Antique_Brass.pdf): Exploded view of a glass clamp (body, protective gasket, wall screws, clamp screws), dimensioned front and side views and four installation steps *(licence: link only (manufacturer document))*
+  - [FAQ - Choosing and Using Mirror Clips (Reflect Window & Door)](https://www.reflectwindow.com/blogs/news/faq-choosing-and-using-mirror-clips): Fixed bottom and spring top mirror clips, where to put them, wall anchors and a step-by-step fitting and removal method *(licence: link only)*
+  - [Two-Way 90° Glass Connector for 3/16-1/4 in glass (Reflect Window & Door)](https://www.reflectwindow.com/products/anodized-aluminum-two-way-90-degree-glass-connector): Photo of a display-cube corner connector with nylon-tipped set screws *(licence: link only (product page))*
+  - [How to Hang a Mirror with Mirror Clips (YouTube, How to Hacks; title checked through YouTube oEmbed)](https://www.youtube.com/watch?v=dmuHNFfNVzk): Video of fitting a frameless mirror with clips *(licence: link only (standard YouTube licence))*
+  - [UltiMaker 3 - Replace the build plate clamps (UltiMaker support)](https://support.ultimaker.com/articles/Knowledge/1667417606244): Photos of the fixed back and opening front clamps that hold a printer's glass build plate *(licence: link only)*
+- **make_it_yourself**: 
+  - [Mirror clip (Startrekfan2, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/8907-mirror-clip): Customisable mirror clip: choose mirror thickness and overhang in 0.5 mm steps, optional countersink for a #6 drywall screw; based on Matt Stultz's parametric mirror clip *(licence: CC BY-NC (Printables listing))*
+  - [Glass/Mirror clip (Patrik Kokinda, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/711145-glassmirror-clip): Flat screw-on clip that holds glass or a mirror in a cabinet or wardrobe; prints flat without supports, PETG preferred, PLA tested *(licence: CC BY-NC (Printables listing))*
+  - [Glass bed corner clamp (Spas Makes, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/501068-glass-bed-corner-clamp): Corner clamp with a tightening screw that holds a glass bed under 8 mm thick on an Ender 5 Pro while leaving more print area than clips *(licence: CC BY (Printables listing))*
+  - [Glass Bed Clamp (ArtieH, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/242020-glass-bed-clamp): Screw-and-knob bed clamp in 12, 15 and 18 mm jaw sizes; the designer reports failures at 100 °C bed temperature *(licence: CC BY (Printables listing))*
+  - [Mirror Clips - Offset Wall Clips for Frameless Mirrors, Glass and Panels (OpenSCAD, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1881558-mirror-clips-offset-wall-clips-for-frameless-mirro): OpenSCAD set of eight offset clips, glass thickness 2-12 mm set in the Customizer, printed on their side with no supports *(licence: CC BY-NC-SA (Printables listing))*
+- **diagram_idea**: Side view of a mirror on a wall: a fixed bottom clip carrying its weight on a ledge, a sliding top clip shown raised (dashed) and lowered over the front face, with a plastic washer and a wall anchor, next to a cut-away of a screw glass clamp with rubber pads either side of a glass shelf.
+- **sources**: 
+  - https://www.reflectwindow.com/blogs/news/faq-choosing-and-using-mirror-clips
+  - https://www.realhomes.com/advice/how-to-hang-a-mirror
+  - https://rainco.com.au/cdn/shop/files/Shower_Glass_Clamp_-_Antique_Brass.pdf
+  - https://s3i.co.uk/cubicle-glass-clamp-wall-mount-square-stainless-steel-4115.php
+  - https://www.s3i.co.uk/shelf-support-for-glass-rectangular.php
+  - https://www.reflectwindow.com/products/anodized-aluminum-two-way-90-degree-glass-connector
+  - https://www.reflectwindow.com/collections/showcase-plastic-glass-connectors-shelf-supports
+  - https://www.reflectwindow.com/products/satin-aluminum-mirror-mounting-j-bottom-channel-12-length
+  - https://www.reflectwindow.com/products/brushed-nickel-aluminum-mirror-mounting-j-top-channel-12-length
+  - https://forum.4specs.com/t/frameless-mirror-with-mastic-installation/3780
+  - https://en.wikipedia.org/wiki/Tempered_glass
+  - https://support.ultimaker.com/articles/Knowledge/1667411295939
+  - https://support.ultimaker.com/articles/Knowledge/1667417606244
+  - https://hubs.com/talk/t/raise3d-n2-plus-glass-bed-not-secure/10981
+  - https://forum.snapmaker.com/t/glass-bed-for-snapmaker/2471
+  - https://filament2print.com/gb/maintenance/941-clip-3d-printer-bed.html
+  - https://api.printables.com/graphql/ (models 8907, 711145, 501068, 242020, 1881558, 926695)
+  - https://www.youtube.com/watch?v=dmuHNFfNVzk
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, press or vice, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: glass or mirror, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling
+- **wall_hold**: screws, anchors or hooks
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, load, making_tips_3d_printing, processes, reuse_cycles, safety_notes, when_not_to_use
 

@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -222,7 +224,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [clearance, form-fit--force-fit--material-bond, spline, heat-set-insert, captive-nut, pilot-hole, counterbore--countersink,
-  repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear]
+  chamfer--fillet, repeatability--accuracy, creep, layer-lines, perimeters, end-grain, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -258,7 +260,7 @@ Use a screwed or nailed butt joint for quick, cheap, rough or temporary work: bu
 
 ## When not to use it
 
-Don't rely on screwed or pocket-screw butt joints for chairs or other furniture whose joints take repeated bending: they open up before they break (woodgears.ca); use mortise and tenon or dowel joints instead. Don't use a glued-only end-grain butt joint for anything load-bearing (USDA Wood Handbook ch. 10); reinforce it with dowels, biscuits, a [spline](../glossary.md#spline) or screws, or switch to a lap, finger or scarf joint. Avoid pocket holes in stock thinner than about 1/2 in. (Wikipedia; Kreg) and where both faces are visible (Wikipedia). For boxes and drawers seen from outside, finger or dovetail joints look better and hold better. For flat-pack furniture that must come apart often, use knock-down cam-lock or cross-dowel fittings rather than screws into particleboard edges.
+Don't rely on screwed or pocket-screw butt joints for chairs or other furniture whose joints take repeated bending: they open up before they break (woodgears.ca); use mortise and tenon or dowel joints instead. Don't use a glued-only end-grain butt joint for anything load-bearing (USDA Wood Handbook ch. 10); reinforce it with dowels, biscuits, a [spline](../glossary.md#spline) or screws, or switch to a lap, finger or [scarf joint](../glossary.md#scarf-joint). Avoid pocket holes in stock thinner than about 1/2 in. (Wikipedia; Kreg) and where both faces are visible (Wikipedia). For boxes and drawers seen from outside, finger or dovetail joints look better and hold better. For flat-pack furniture that must come apart often, use knock-down cam-lock or cross-dowel fittings rather than screws into particleboard edges.
 
 ## Details
 
@@ -342,6 +344,8 @@ Table saws (used for cutting ends square and for dado-cut half laps) can kick wo
 - Wood screw: the usual fastener for screwed butt and lap joints, with advice on pilot and clearance holes
 - Nails, brads and tacks: the quick fastener for nailed butt joints, including toe-nailing and clinching
 - Metal brackets and plates: angle brackets, mending plates and joist hangers that reinforce a butt joint or carry its load
+- V-groove fold: a one-piece corner made by grooving and folding a sheet (plywood trays, foam board), instead of butting two separate pieces
+- Fillet-and-tape joint: plywood panels joined edge to edge with an epoxy [fillet](../glossary.md#chamfer--fillet) and glass tape instead of screws or nails, as in stitch-and-glue boats
 
 ## Make it yourself
 

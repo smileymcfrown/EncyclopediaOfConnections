@@ -84,6 +84,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: ['plastic sheet, tube or moulded parts', metal, paper or card]
 needs_confirming:
   tools:
     kind: source uncertain
@@ -279,6 +281,8 @@ Cut sheet-metal edges, burrs and tab tips can be sharp; round the outsides of ta
 - Heat staking (melted plastic rivet): the plastic-part equivalent, where a post through a hole is melted over instead of bent
 - Ordinary screw joint (bolt and nut): the baseline, easy to undo and reuse many times
 - Spot weld: joins overlapping sheet metal at small points with electrode pressure and a short burst of current instead of a bent tab; a low-cost spot welder is also used to repair broken tin-toy tabs (Robothut video in links)
+- Glued tab joint (glue tab, glue flap): the paper and card tab, folded and glued behind the next part instead of passed through a slot and bent
+- Folding box closures (tuck flap, slit lock, lock bottoms): how card boxes use tabs and flaps tucked or locked through slits
 
 ## Make it yourself
 

@@ -84,6 +84,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal]
 needs_confirming:
   shaft_layout:
     kind: best guess
@@ -317,6 +319,7 @@ A bare spinning core can catch hair, clothing or skin; keep it in its casing, wh
 - Flexible beam coupling and jaw coupling: handle only small misalignment between nearly in-line shafts
 - Capstan cable drive (tendon drive): cables over pulleys that pull rather than spin
 - Remote motor with wires: often simpler today, as with electronic speedometer sensors replacing cables (Hackaday)
+- Line shaft and power take-off: one driven shaft feeding several machines through belts or chains; a flexible shaft can take power from one take-off to a hand tool
 
 ## Make it yourself
 

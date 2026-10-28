@@ -30,10 +30,13 @@ tags, also re-run the finder test (`../finder-test/README.md`) and the report
 
 | File | What it is |
 |------|------------|
-| `fields.yaml` | The 59 tag fields (18 proposed by the script, 41 finder answers set by hand, `set_by: hand`): for each, one value or a list (`kind`), what it means, and its fixed options (written as the finder will show them) |
+| `fields.yaml` | The 61 tag fields (18 proposed by the script, 43 set by hand, `set_by: hand`: the 42 finder answers and `made_of`): for each, one value or a list (`kind`), what it means, and its fixed options (written as the finder will show them) |
 | `propose.py` | Proposes a value for every field of every entry (except the hand-set ones, which it keeps as they are), and records each value that needs confirming, with the reason |
 | `tags.yaml` | One record per entry: `tags`, `needs_confirming` (field → kind and reason) and `confirmed` (fields a person has checked) |
 | `migrate_r33.py` | One-off (R33): carried the finder's old name rules over into the hand-set fields. It ran once and cannot be run again |
+| `propose_made_of.py` | One-off (R37): gave every entry a first `made_of` value from its research text, each marked needs confirming until checked. It only fills entries whose value is still "not applicable" |
+| `review-r37.yaml` | The record of the R37 check of `made_of`: every entry's value checked against its text by helper agents (ok, change or unsure, and why), then the materials the Phase 5 gap searches found evidence for |
+| `hand-r37.yaml` | The finder answers Claude set by hand for the new entries 410-452 (R37), and the few existing entries given the new sheet answer |
 | `review-r33.yaml` | The record of the R33 check of every carried-over value: ok, change (with the old and new value) or unsure, and why |
 | `by-family/` | One page per family: a table of every entry's tags with ⚑ on the values that need confirming, then the reasons. Start at `by-family/README.md` |
 
@@ -115,3 +118,35 @@ finder it is asked). An entry's value is its answer(s) to that question, or "not
 field in `tags.yaml` (options in `fields.yaml`), then run the finder test (`../finder-test/README.md`)
 to check every shortlist still has 3-10 entries and nothing is unreached. Change the tree only to
 change a question.
+
+## Made of (R37, 2026-10-22)
+
+`made_of` is the field behind the finder's **"Made of" row** under every shortlist (D45): the
+materials an entry suits, meaning a maker can use it to join, hold or move parts made of that
+material, or can make it from that material. Options: 3D prints; plastic sheet, tube or moulded
+parts; wood; metal; paper or card; foam; clay or putty; carbon fibre or composites; glass or mirror;
+fabric, leather or cord. It is set by hand, like the finder answers, so `propose.py` keeps it.
+
+- `propose_made_of.py` gave every entry a first value from the words in its research text (on
+  purpose generous), each marked needs confirming.
+- Seven helper agents checked every value against the entry's text (409 entries, then the 43 new
+  ones): 244 were right, 208 changed, none unsure. The common mistakes were word matches
+  ("Wood's metal", "white paper", carbon-filled filament, "glass-filled nylon") and materials the
+  text names as unsuitable. Checked values lose the mark.
+- The Phase 5 gap searches listed existing entries makers use with paper, foam, clay, composites
+  and glass, with evidence; those materials were added to 40 entries, 6 of them still marked
+  needs confirming because the evidence is indirect.
+
+Every record is in `review-r37.yaml`. It is a check, not a person's confirmation: corrections welcome.
+
+## One-to-many and many-to-one (R36, 2026-10-22)
+
+`drive_split` answers the finder's new questions under *Change a movement > Drive several things
+from one, or combine several into one*: one input driving outputs that turn the same way, the
+opposite way or at different speeds, or that share out a push, pull or flow; or several inputs
+combined into one. Values for existing entries come from the evidence in
+`../connection-types/scope-search-2026-10-22-drives.md` (section 3); the guide page *Driving several
+things from one* on the site explains the direction rules.
+
+R37 also added two sheet answers (`sheet_material`: paper, card or foam board; glass or mirror) and
+a glass answer for melting joints (`weld_material`: glass).

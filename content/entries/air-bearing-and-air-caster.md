@@ -87,6 +87,8 @@ finder:
   powered_does: [grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming:
   power_loss:
     kind: best guess
@@ -219,13 +221,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: air-bearing-and-air-caster-c7a377.webp
+  title: Hovercraft V2 - balloon powered
+  author: uhltimate
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
+  site: Printables
+  alt: A 3D-printed balloon hovercraft, an orange base with a blown-up balloon fitted on top, whose air escapes underneath
+    so the base floats on a thin cushion of air.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, axial--radial, fail-safe--fail-secure, stiffness, preload, flexure, damping, stick-slip,
   clearance, form-fit--force-fit--material-bond, repeatability--accuracy, creep, infill, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-bearing-and-air-caster.still.webp"><img src="../media/air-bearing-and-air-caster.webp" alt="An animated cut-away of an air caster under a load, its ring-shaped bags filling with air until the load lifts on a thin film of air above the floor."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Aircaster.gif">Aircaster</a> by Anynobody, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/air-bearing-and-air-caster.webp" alt="Render of an air bearing: a round aluminium air pad with a dark porous face sits on a speckled granite surface plate, fed by a blue air hose at its side and carrying its load through a steel ball on top; a second pad lies upside down beside it, showing the porous face the air comes out of." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/air-bearing-and-air-caster.webp" alt="Render of an air bearing: a round aluminium air pad with a dark porous face sits on a speckled granite surface plate, fed by a blue air hose at its side and carrying its load through a steel ball on top; a second pad lies upside down beside it, showing the porous face the air comes out of." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/air-bearing-and-air-caster-c7a377.webp" alt="A 3D-printed balloon hovercraft, an orange base with a blown-up balloon fitted on top, whose air escapes underneath so the base floats on a thin cushion of air." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/386417-hovercraft-v2-balloon-powered">Hovercraft V2 - balloon powered</a> by uhltimate, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A bearing with no contact: compressed air is fed through tiny holes or a porous face into a gap a few thousandths of a millimetre thick (air bearings) or under a flexible ring-shaped bag (air casters), and the pressure of the escaping air carries the load, so parts slide or turn with no [stick-slip](../glossary.md#stick-slip) and no wear, and tonnes can be pushed across a smooth floor by hand.

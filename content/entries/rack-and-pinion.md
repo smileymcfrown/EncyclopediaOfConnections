@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
 needs_confirming:
   usual_process:
     kind: best guess
@@ -327,6 +329,8 @@ The point where the pinion runs into the rack is an in-running nip point that ca
 - Intermittent (part-toothed) pinion between two racks: turns steady rotation into back-and-forth motion of the rack frame (507 Mechanical Movements no. 114)
 - Stroke doubler: a pinion running between a fixed rack and a moving rack moves the second rack twice as far as the pinion (507 Mechanical Movements no. 118)
 - Scotch yoke and slider-crank: turn continuous rotation into back-and-forth sliding with a fixed stroke, where a rack and pinion gives any travel
+- Linked lead screws: screws tied by a belt, chain or shafts to lift a bed or gantry level; two racks with pinions on one shaft do the same job for a gantry
+- Several motors driving one load: two motors with pinions on one rack, for a two-sided gantry or to pull against each other and take out backlash
 
 ## Make it yourself
 

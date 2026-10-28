@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: ['pushes, pulls or flow shared out']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   tools:
     kind: source uncertain
@@ -319,6 +321,8 @@ Never use compressionless shift housing for brakes: it can burst and cause a sud
 - Capstan cable drive and tendon drives over pulleys: open cables running over free-turning pulleys, with much less friction than a sleeve
 - Hydraulic line (hydraulic brakes): carries force through fluid, with less friction over long routes
 - Belt drive: carries continuous rotation around pulleys rather than a short pull
+- Pull-tab and slider mechanism: the paper version in pop-up books, a card strip pulled along a slot to move a picture at a distance
+- Cable splitter: a junction that joins one Bowden cable to two (one lever, two brakes) or two to one
 
 ## Make it yourself
 

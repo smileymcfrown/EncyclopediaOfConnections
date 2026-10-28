@@ -91,6 +91,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   tools:
     kind: source uncertain
@@ -197,12 +199,25 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: anti-twister-mechanism.webp
+  title: 4pi Spin-½ Symmetry Demonstrator Anti-Twister Mechanism
+  author: Elequant
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
+  site: Printables
+  alt: A 3D-printed anti-twister demonstrator, a black geared base turning a post with a cube on top while a dark ribbon loops
+    from the base up to the cube without twisting.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [backlash, idler, linkage, flexure, clearance, form-fit--force-fit--material-bond, fatigue, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/anti-twister-mechanism.svg"><img src="../media/drawn/anim/anti-twister-mechanism.svg" alt="Side view of an anti-twister, animated: a cable leaves a fixed base, loops out through a guide on a carrier arm and comes back in to a spinning platform on the same axis; while the platform makes two turns the carrier swings the loop round once, the same way, so the cable is only bent and never twis"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/anti-twister-mechanism.webp" alt="Render of an anti-twister demonstrator: a cable leaves a round fixed base beside a central shaft, loops out and up through a guide on a carrier arm half-way up, and comes back in under the middle of a spinning platform on top, so the platform can turn for ever without the cable twisting." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/anti-twister-mechanism.webp" alt="Render of an anti-twister demonstrator: a cable leaves a round fixed base beside a central shaft, loops out and up through a guide on a carrier arm half-way up, and comes back in under the middle of a spinning platform on top, so the platform can turn for ever without the cable twisting." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/anti-twister-mechanism.webp" alt="A 3D-printed anti-twister demonstrator, a black geared base turning a post with a cube on top while a dark ribbon loops from the base up to the cube without twisting." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec">4pi Spin-½ Symmetry Demonstrator Anti-Twister Mechanism</a> by Elequant, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 An anti-twister passes a continuous cable or tube from a fixed base to a part that keeps spinning, by swinging the cable's loop round the axis at exactly half the part's speed, so the cable only bends and never builds up twist, and no slip ring or rotating seal is needed.

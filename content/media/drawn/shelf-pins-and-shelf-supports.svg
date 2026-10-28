@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Shelf pins: on the left, the inside face of a cupboard side with two rows of small holes 32 mm apart, the front row 37 mm from the front edge, and a shelf resting on two pins whose weight pushes straight down; on the right, side cut-aways of four kinds of support: a plain pin, a flat spoon pin, a pin with a rubber ring under a glass shelf, and a support with a flap that locks over the top of the shelf.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="40" y="92" width="290" height="308" fill="#fde2c4"/>
+<circle cx="75" cy="112" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="142" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="172" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="202" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="232" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="262" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="322" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="352" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="382" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="112" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="142" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="172" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="202" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="232" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="262" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="322" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="352" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="295" cy="382" r="5" fill="#ffffff" stroke-width="2.5"/>
+<circle cx="75" cy="292" r="9" fill="#e8e8e8"/><circle cx="75" cy="292" r="3" fill="#222" stroke="none"/>
+<circle cx="295" cy="292" r="9" fill="#e8e8e8"/><circle cx="295" cy="292" r="3" fill="#222" stroke="none"/>
+<rect x="44" y="265" width="282" height="18" fill="#f6b26b"/>
+<rect x="430" y="70" width="22" height="100" fill="url(#hatch)"/><rect x="430" y="124" width="22" height="12" fill="#e8e8e8" stroke-width="2"/>
+<rect x="452" y="124" width="30" height="12" rx="3" fill="#e8e8e8"/><rect x="452" y="122" width="5" height="16" fill="#e8e8e8" stroke-width="2"/>
+<rect x="460" y="106" width="134" height="18" fill="#f6b26b"/>
+<rect x="615" y="70" width="22" height="100" fill="url(#hatch)"/><rect x="615" y="124" width="22" height="12" fill="#e8e8e8" stroke-width="2"/>
+<path d="M637,124 L681,124 Q687,124 687,128 L687,130 L649,130 L645,136 L637,136 Z" fill="#e8e8e8"/>
+<rect x="639" y="106" width="140" height="18" fill="#f6b26b"/>
+<rect x="430" y="230" width="22" height="100" fill="url(#hatch)"/><rect x="430" y="284" width="22" height="12" fill="#e8e8e8" stroke-width="2"/>
+<rect x="452" y="284" width="30" height="12" rx="3" fill="#e8e8e8"/>
+<rect x="460" y="280" width="16" height="20" rx="4" fill="#555555"/>
+<rect x="454" y="268" width="140" height="12" fill="#cfe3f5"/>
+<rect x="615" y="230" width="22" height="100" fill="url(#hatch)"/><rect x="615" y="284" width="22" height="12" fill="#e8e8e8" stroke-width="2"/>
+<rect x="645" y="266" width="134" height="18" fill="#f6b26b"/>
+<path d="M637,296 L637,259 L671,259 Q675,259 675,263 L671,266 L644,266 L644,284 L681,284 L681,290 L649,290 L649,296 Z" fill="#e8e8e8"/>
+</g>
+<g stroke="#555" stroke-width="2" fill="none"><path d="M40,78 H75 M40,72 V84 M75,72 V84"/><path d="M313,142 V172 M307,142 H319 M307,172 H319"/></g>
+<g stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><line x1="75" y1="217" x2="75" y2="260"/><line x1="295" y1="217" x2="295" y2="260"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="200" y="36" font-size="20" font-weight="bold">Inside a cupboard side</text>
+<text x="600" y="36" font-size="20" font-weight="bold">Kinds of support</text>
+<text x="42" y="66" text-anchor="start">37 mm from the front edge</text>
+<text x="277" y="163.0" text-anchor="end">32 mm</text>
+<text x="185" y="210">shelf weight</text>
+<text x="185" y="332">shelf on two pins</text>
+<text x="515" y="202">plain pin</text>
+<text x="700" y="202">spoon pin</text>
+<text x="515" y="362">glass on a rubber ring</text>
+<text x="700" y="362">flap locks the shelf</text>
+<text x="400" y="430" font-size="17">Holes in two rows on both sides: move the four pins to another set of holes to change the height</text>
+</g>
+</svg>

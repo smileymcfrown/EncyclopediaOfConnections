@@ -85,6 +85,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   print_in_place:
     kind: source uncertain
@@ -203,13 +205,27 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: intermittent-gear.webp
+  title: Educational Gear Examples 5 - Intermittent
+  author: osamutake
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1504642-educational-gear-examples-5-intermittent
+  site: Printables
+  alt: Four 3D-printed teaching tiles of orange gears on purple bases, showing part-toothed (intermittent) gear pairs and
+    an internal stop-go drive.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [backlash, self-locking, axial--radial, reciprocating, detent, ratchet, pawl, torque, gear-ratio, crank, clearance,
-  form-fit--force-fit--material-bond, circlip, repeatability--accuracy, print-in-place, elephants-foot, overhang--bridging]
+  form-fit--force-fit--material-bond, circlip, repeatability--accuracy, print-in-place, elephants-foot, overhang--bridging,
+  counter-rotating]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/intermittent-gear.svg"><img src="../media/drawn/anim/intermittent-gear.svg" alt="An intermittent gear pair at three moments: the driving gear&#x27;s few teeth turn the output gear, then hand over, then the driver&#x27;s smooth rim sits in a curved notch on the output gear and holds it still; each driver swings to and fro so you can see the output turn, stop at the hand-over, and stay lock"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/intermittent-gear.webp" alt="Render of an intermittent gear pair: a 3D-printed driving gear with only three teeth and a smooth rim, and an output gear with four curved notches in its rim, on steel pins in a printed base; the driver&#x27;s smooth rim sits in one notch, holding the output gear still until the teeth come round." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/intermittent-gear.webp" alt="Render of an intermittent gear pair: a 3D-printed driving gear with only three teeth and a smooth rim, and an output gear with four curved notches in its rim, on steel pins in a printed base; the driver&#x27;s smooth rim sits in one notch, holding the output gear still until the teeth come round." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/intermittent-gear.webp" alt="Four 3D-printed teaching tiles of orange gears on purple bases, showing part-toothed (intermittent) gear pairs and an internal stop-go drive." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1504642-educational-gear-examples-5-intermittent">Educational Gear Examples 5 - Intermittent</a> by osamutake, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A driving gear with teeth on only part of its rim turns its partner gear while those teeth pass, then a smooth arc on the toothless part slides against the partner and holds it still, so steady rotation becomes stop-go steps.
@@ -315,6 +331,7 @@ In motor-driven builds the meshing teeth and locking arcs are pinch points ⚑ [
 - Spur gear pair: the full-toothed version, which turns continuously
 - Rack and pinion: with a part-toothed pinion driving two racks in turn it gives back-and-forth straight motion (507 Mechanical Movements no. 114)
 - Escapement: releases a spring- or weight-driven wheel one tooth at a time
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive (three-way bevel gearbox): one bevel gear driving two facing bevel gears; with a part-toothed input it gives stop-and-go motions in opposite directions
 
 ## Make it yourself
 

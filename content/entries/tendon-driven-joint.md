@@ -87,6 +87,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   power_source:
     kind: source uncertain
@@ -216,7 +218,7 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
-glossary: [misalignment, backlash, torque, linkage, actuator, stiffness, flexure, hysteresis, creep, fatigue]
+glossary: [misalignment, backlash, torque, linkage, actuator, stiffness, flexure, hysteresis, creep, fatigue, annealing]
 ---
 
 <div class="eoc-pictures">
@@ -318,7 +320,7 @@ Braided UHMWPE fishing line (e.g. Dyneema, Spectra (brands)) of 100-200 pound te
 
 ## Safety
 
-Finger joints and the gap between fingers and palm are pinch points, and a servo-driven hand can squeeze hard; hobby servos pulling against friction-heavy tendons all day can overheat and burn out (InMoov forum note). A snapping tendon lets the finger spring open suddenly. e-NABLE devices are given 'as is' and its page warns they are not for commercial use; the Raptor Reloaded design is now recommended only for testing or research because its grip is weaker than later designs (Thingiverse 596966). Wire-rope ends are sharp, and annealing them with a torch (Thingiverse MK III) is a burn and fire risk. The spring-closed versus cable-closed comparison above is taken from prosthetic hooks only as a design idea for robot and hobby grippers; this entry is not guidance on making or fitting prostheses.
+Finger joints and the gap between fingers and palm are pinch points, and a servo-driven hand can squeeze hard; hobby servos pulling against friction-heavy tendons all day can overheat and burn out (InMoov forum note). A snapping tendon lets the finger spring open suddenly. e-NABLE devices are given 'as is' and its page warns they are not for commercial use; the Raptor Reloaded design is now recommended only for testing or research because its grip is weaker than later designs (Thingiverse 596966). Wire-rope ends are sharp, and [annealing](../glossary.md#annealing) them with a torch (Thingiverse MK III) is a burn and fire risk. The spring-closed versus cable-closed comparison above is taken from prosthetic hooks only as a design idea for robot and hobby grippers; this entry is not guidance on making or fitting prostheses.
 
 ## Related
 

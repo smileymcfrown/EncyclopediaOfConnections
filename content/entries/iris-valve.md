@@ -96,6 +96,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   tools:
     kind: source uncertain
@@ -209,13 +211,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: iris-valve.webp
+  title: Replacement Platypus Hose Clamp (Pinch Valve)
+  author: Ian Foulds
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1350975-replacement-platypus-hose-clamp-pinch-valve
+  site: Printables
+  alt: Two pinch clamps on a clear drinking tube, a 3D-printed white one open and the original black one closed, squeezing
+    the tube flat to stop the flow.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [misalignment, torque, actuator, solenoid, fail-safe--fail-secure, form-fit--force-fit--material-bond, perimeters,
   infill, gland, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/iris-valve.svg"><img src="../media/drawn/anim/iris-valve.svg" alt="Side view of an iris valve: a fabric sleeve is held between a fixed top ring and a bottom ring. In the animation the bottom ring turns a quarter turn, twisting the sleeve into a narrow waist, then a half turn so it twists shut and the grain above stops falling, then turns back to open."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/iris-valve.webp" alt="Render of an iris valve: a fabric sleeve held between a fixed top ring on three posts and a bottom ring with a lever; the bottom ring has been turned, twisting the sleeve into a narrow hourglass waist that has nearly closed." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/iris-valve.webp" alt="Render of an iris valve: a fabric sleeve held between a fixed top ring on three posts and a bottom ring with a lever; the bottom ring has been turned, twisting the sleeve into a narrow hourglass waist that has nearly closed." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/iris-valve.webp" alt="Two pinch clamps on a clear drinking tube, a 3D-printed white one open and the original black one closed, squeezing the tube flat to stop the flow." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1350975-replacement-platypus-hose-clamp-pinch-valve">Replacement Platypus Hose Clamp (Pinch Valve)</a> by Ian Foulds, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A fabric or rubber sleeve is clamped at each end to a ring, and turning one ring by about half a turn twists the sleeve shut towards the centre, so it can meter or stop powder, grain or pellets pouring from a hopper or bag; a pinch valve does a similar job by squeezing a soft tube flat from outside.

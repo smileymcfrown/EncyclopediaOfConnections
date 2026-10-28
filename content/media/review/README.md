@@ -68,10 +68,33 @@ Result: 33 photos on 22 pages (for example *universal joint*, *friction clutch*,
 set* (a cut-away), *syringe hydraulics* (a cut brake cylinder), *geneva drive*, *clip-on concealed
 hinge*). Most candidates for the rest matched only the name: towns, birds, ships, steaks.
 
-### ⚑ Still needs a real photo (94 pages)
+### R37: pictures for the 43 new pages (Phase 5)
 
-No copyable photo that really shows the item was found for these, in R32 or R34. Since R35 each shows a
+Each new page has a drawn diagram (animated for the 19 that move), checked frame by frame. *Find pictures*
+ran with `--only` the 43 pages, then `--wide` for the pages still without a photo. Helpers chose from contact
+sheets with the same brief as R32 and R34 (strict: it must show this item); Claude checked every pick by eye.
+`r37-normal.yaml`: 25 photos on 16 pages. `r37-wide.yaml`: 645 new candidates for 23 pages (three pages got
+none), nearly all name matches (railway signal boxes, crowd crushes, the village of Pin); 5 photos on 4 pages
+kept, 4 picks turned down (two stand-up valentines and a pull-tab card whose folds or slider cannot be seen, a
+box showing staples rather than a crease). Those four pages lost the render they had been given (D43). The 23
+new pages still without a photo show a render.
+
+### R39: Printables photos beside the renders
+
+The owner agreed to photos from 3D-model sites under CC0, CC BY or CC BY-SA, credited to the uploader, with
+checks, and to keep the renders. `tools/find_printables.py` took the Printables models linked in each render
+page's research (Thingiverse and MakerWorld refuse scripted requests), re-checked each licence through the
+Printables API and made contact sheets of 540 photos for 80 pages. Four helpers chose with a strict brief (real
+photos only; no CAD renders, tools for making the joint, or text images); Claude checked every pick by eye and
+turned 11 of 88 down: 77 photos on 49 pages. A second round searched Printables by entry name for the render pages
+still without a photo (`--search`; 312 candidates for 32 pages, mostly name matches): 8 more photos on 5 pages. In
+all 85 photos on 54 pages, shown after the render (`r39-printables.yaml`). Tools for
+making a joint (a bone folder, a pin vise, a tolerance gauge) were the commonest wrong candidate.
+
+### ⚑ Still needs a real photo (63 pages)
+
+No copyable photo that really shows the item was found for these, in R32, R34, R37 or R39. Since R35 each shows a
 render as a stand-in (listed in `../render/README.md`). A photo of your own (CC BY or CC BY-SA, on
 Wikimedia Commons) would still help:
 
-air-bearing-and-air-caster, air-logic-valve, aluminium-extrusion-connectors, annular-snap-fit, anti-backlash-gear, anti-twister-mechanism, bent-or-twisted-tab-through-a-slot, bidirectional-anti-back-drive-clutch, binding-plate-lock, bistable-compliant-mechanism, capstan-cable-drive, clamp-on-accessory-mount-for-bars-poles-and-edges, click-pen-mechanism, compliant-detent, compliant-gripper-and-force-amplifier, compliant-one-piece-latch, cross-halving-slot-joint, crush-ribs-and-spring-fit-features, detent-hinge, elastic-averaging, electro-permanent-magnet, exact-constraint-mounting, face-ratchet, fin-ray-gripper, flexible-beam-coupling, folded-seam, four-bar-linkage, friction-welded-plastic, gearless-right-angle-drive, granular-jamming-gripper, guy-line-slider, half-nut, heat-set-threaded-insert, heat-staking, housing-and-rebate-joints, indexing-plunger, intermittent-gear, invisible-barrel-hinge, iris-valve, jaw-coupling, keyless-locking-bush, kinematic-coupling, knife-edge-and-jewel-pivots, lamina-emergent-torsional-joint, lever-cam-panel-connector, lid-and-flap-stays, load-bearing-stitch-patterns-for-straps-and-webbing, locating-pins-and-hole-and-slot, magnet-joint, magnetic-assisted-buckle, magnetic-detent, mechanical-metamaterial-mechanism, mid-print-embedding, multi-material-interlock, multi-stage-slide-rigging, multi-turn-rotation-limiter, ortho-planar-spring, parallel-leaf-spring-flexure, pneumatic-artificial-muscle, printing-onto-fabric, push-on-edge-trim, push-push-latch, quarter-turn-fastener, quick-release-hooks, quick-release-pin, ratchet-tooth-torque-limiter, rigid-chain-actuator, rolling-contact-joint, rotary-latch, servo-or-motorised-latch, shape-memory-alloy-wire-latch, shear-pin-coupling, shock-corded-sectional-pole, snap-lock-sheet-joint, snap-pin, soft-pneumatic-bending-actuator, speed-control-valve, split-part-joints-for-large-prints, stretch-release-adhesive-strips, structural-acrylic-and-low-surface-energy-plastic-adhesives, t-slot-joint, tape-spring-hinge, telescoping-tube-twist-lock, threadless-ball-screw, tolerance-ring, torque-limiting-gear-with-flexing-spring-arms, torsional-snap-fit, twisted-and-coiled-polymer-muscle, twisted-string-actuator, vacuum-driven-artificial-muscle, virtual-pivot-linkage, wave-and-disc-springs, wedge-dowel, wrap-spring-clutch
+air-logic-valve, aluminium-extrusion-connectors, anti-backlash-gear, baked-in-findings, bent-or-twisted-tab-through-a-slot, bidirectional-anti-back-drive-clutch, binding-plate-lock, bonding-fastener, compression-limiter, cross-halving-slot-joint, crush-ribs-and-spring-fit-features, electro-permanent-magnet, exact-constraint-mounting, face-ratchet, folded-seam, friction-welded-plastic, gearless-right-angle-drive, glued-tab-joint, granular-jamming-gripper, housing-and-rebate-joints, indexing-plunger, jaw-coupling, keyless-locking-bush, kinematic-coupling, knife-edge-and-jewel-pivots, lead-came-joint, lever-cam-panel-connector, lid-and-flap-stays, liquid-clay-bond, load-bearing-stitch-patterns-for-straps-and-webbing, locating-pins-and-hole-and-slot, multi-material-interlock, multi-turn-rotation-limiter, panel-standoff, parallel-fold-pop-up, pinned-glue-joint, pneumatic-artificial-muscle, potted-insert, pull-tab-and-slider-mechanism, quick-release-pin, rotary-latch, several-motors-driving-one-load, shear-pin-coupling, shock-corded-sectional-pole, snap-lock-sheet-joint, soft-pneumatic-bending-actuator, speed-control-valve, split-part-joints-for-large-prints, spring-powered-paper-pop-up, structural-acrylic-and-low-surface-energy-plastic-adhesives, t-slot-joint, tape-spring-hinge, threadless-ball-screw, tolerance-ring, torque-limiting-gear-with-flexing-spring-arms, torsional-snap-fit, twisted-and-coiled-polymer-muscle, twisted-string-actuator, v-fold-pop-up, v-groove-fold, vacuum-driven-artificial-muscle, wedge-dowel, wrap-spring-clutch

@@ -6,6 +6,8 @@
 
 *interlocking joints & joinery.* Tabs on one flat part fit through slots in another so the parts hold each other in place, for laser-cut, CNC and sheet-metal assemblies
 
+*Also covers:* Also covers how the flute direction of corrugated card affects tab-and-slot joints.
+
 ### What it is
 
 - **plain_name**: Tongues cut on the edge of one flat piece that push through matching rectangular holes in another flat piece, so the pieces line themselves up and hold each other in place, like a laser-cut box or a flat-pack metal kit
@@ -72,6 +74,7 @@
   - Laser kerf is nominally about 0.007 inch; for a press fit, tab = slot + 2 x kerf + 2 x overlap, with an overlap of about 0.001-0.002 inch for stiff acrylic and 0.002-0.004 inch for MDF; always measure your sheet and test-cut (UPenn MEAM.Design 'Laser Cutting - Notes on Press Fits').
   - In Boxes.py the 'burn' setting is half the laser cut width; bigger values give a tighter fit; wood can be cut oversized to press-fit without glue, brittle acrylic undersized to leave room for glue; adjust in steps of about 0.01 mm (Boxes.py user manual).
   - Run slots parallel to the direction of stress; in one FEA example turning the slot across the load doubled the peak stress (about 5 ksi to over 10 ksi); give slot corners a radius of at least 1/8 of the slot width and lengthen the slot by twice that radius so the tab still seats; a full-radius slot is strongest but least accurate, a dog-bone slot most accurate but with the biggest stress concentration (Mentored Engineer 'Proper Tab and Slot Design').
+  - Corrugated card is much stiffer one way than the other: its properties are "highly directional", and edge crush strength and bending stiffness depend on which way the flutes run (Wikipedia 'Corrugated fiberboard'). Makedo finds overlapped panels stronger "when the cardboard flutes are in different directions" and folds "across (perpendicular to) the flutes for strong, structural corners" (Makedo connections and joints guide). Where you can, cut the tabs and slots so the flutes run across the joint ⚑ [uncertain: advice from the gap search; no test of slotted card joints found]. *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -79,7 +82,7 @@
   - Laser-cut acrylic or plywood project boxes, where the side walls' tabs poke through slots in the top and bottom (Wikimedia Commons 'ADBO - Project Box for Arduino (laser cut)')
   - Flat-pack sheet-metal kits and brackets that slot together before welding, such as weld-it-yourself kits (SendCutSend) and a slot-together steel desk (Mentored Engineer)
   - A laser-cut kitchen utensil holder and structural steel frames with interlocking tabs (Engineers Rule)
-  - Cardboard boxes and packaging whose flaps tuck into slots ⚑ [uncertain] *(⚑ parts need confirming)*
+  - Card cartons closed by a tuck flap and locking tab (tongue) (Wikipedia 'Folding carton'); see Folding box closures for tuck, slit-lock and lock-bottom boxes
 - **when_to_use**: Use tab-and-slot joints whenever flat parts are cut by laser, waterjet, plasma or CNC router and must meet at an angle: boxes, enclosures, brackets, frames, shelves, gussets and furniture. They make parts find their own position so you don't need to measure, clamp or build a jig; welders use them to hold parts square while tacking, especially non-magnetic metals (SendCutSend; Fictiv). Different-sized tabs stop parts being fitted the wrong way round (SendCutSend). For hobby boxes they can be press-fitted without glue in wood, or keyed or bolted when the item must come apart (Ponoko; SendCutSend).
 - **when_not_to_use**: Avoid plain tabs in thin, flexible sheet, which flexes too much to hold (use bent tabs, hooks or a snap-lock sheet joint instead) (SendCutSend). Don't rely on a friction fit where tolerances are tight or the part will be moved a lot; Ponoko recommends bolts (a T-slot joint) or clips instead. Don't put slots in highly stressed areas or across the direction of load (Mentored Engineer); for critical structures add bolts or rivets or machine from solid (SendCutSend). If the joint must seal, fill it with glue or sealant or use a gasketed joint. For corner joints along whole edges a finger (box) joint is usually neater; for two parts crossing in the middle use a cross-halving slot joint.
 - **environment_limits**: Wood and MDF swell and shrink with humidity, so press fits can loosen or bind, and MDF swells badly when wet ⚑ [uncertain]. Acrylic is brittle and can crack from sharp slot corners under stress (Ponoko). Vibration and repeated loads make square slot corners crack (SendCutSend). In welded steel, heat distorts thin parts and weld shrinkage pulls the joint, which tab spacing and clearance must allow for (Fictiv). Powder coating adds thickness that can make tabs too tight (SendCutSend). Printed plastic press fits relax and loosen over time ⚑ [uncertain]. *(⚑ parts need confirming)*
@@ -95,6 +98,8 @@
   - Crush ribs and spring-fit features: small ribs or nodes that make a press fit forgiving
   - Locating pins and hole-and-slot: locate parts precisely with pins instead of tabs
   - Clinching and blind rivets: other ways to join sheet metal without welding
+  - Glued tab joint (glue tab, glue flap): the papercraft tab, folded on a score and glued behind the next part's edge instead of pushed through a slot
+  - Folding box closures (tuck flap, slit lock, snap-lock and crash-lock bottoms): card box flaps and tabs that tuck or lock into place, covered in full there
 
 ### Pictures, videos and models
 
@@ -131,6 +136,9 @@
   - https://api.printables.com/graphql/
   - https://www.youtube.com/watch?v=53Q4ct6bQeY
   - https://www.youtube.com/watch?v=DHcrX_ZnByA
+  - https://en.wikipedia.org/wiki/Corrugated_fiberboard
+  - https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches
+  - https://en.wikipedia.org/wiki/Folding_carton
 
 ### Finder tags
 
@@ -148,10 +156,53 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, sheet metal, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** adjustable, environment_limits, make_it_yourself, making_tips_3d_printing, reuse_cycles, rules_of_thumb, safety_notes
 
 ## 240 T-slot joint (captive nut and bolt joint)
 
@@ -317,6 +368,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, sheet metal, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -416,6 +510,7 @@
   - Crush ribs and spring-fit features (compliant press fit): springy ribs or fingers that press parts snugly but have no hook, so they rely on friction
   - Mortise and tenon (incl. wedged, drawbored and tusk tenons): a key or wedge through the protruding tab locks it instead of a barb; SendCutSend notes a flexible key can itself be designed to snap in
   - Spring-steel push-on fasteners (push nut, speed nut, U-nut): a separate springy metal clip that does the same job on studs and panels
+  - Folding box closures (tuck flap, slit lock, snap-lock and crash-lock bottoms): the full treatment of tab-lock and tuck-top card boxes
 
 ### Pictures, videos and models
 
@@ -475,6 +570,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, fabric, leather or cord
 
 ### Other info
 
@@ -483,6 +621,8 @@
 ## 242 Cross-halving slot joint (egg-crate joint)
 
 *interlocking joints & joinery.* Two flat parts each slotted halfway so they slide together into a cross, used for grids, dividers and slot-together furniture
+
+*Also covers:* Also covers how the flute direction of corrugated card affects slotted cardboard joints.
 
 ### What it is
 
@@ -553,6 +693,7 @@
   - FDM slot clearance about 0.5 mm as a start (Hubs, interlocking joints), tightened to about 0.3 mm in one maker's slot-together print (Printables Weight Rack).
   - A springy finger cut beside the slot (springFit 'cross joint') keeps the joint tight across kerfs of 0.12 to 0.20 mm; do not put it right at the edge of the part, which weakens it against twisting (springFit, UIST 2019).
   - Slits concentrate stress; FlatFitFab estimates stress at a slit with a concentration factor 'rarely above five' (FlatFitFab, UIST 2014).
+  - Corrugated card is much stiffer one way than the other: its properties are "highly directional", and edge crush strength and bending stiffness depend on which way the flutes run (Wikipedia 'Corrugated fiberboard'). Makedo finds overlapped panels stronger "when the cardboard flutes are in different directions" and folds "across (perpendicular to) the flutes for strong, structural corners" (Makedo connections and joints guide). Where you can, cut the slots so the flutes run across the joint ⚑ [uncertain: advice from the gap search; no test of slotted card joints found]. *(⚑ parts need confirming)*
 
 ### When to use it
 
@@ -621,6 +762,8 @@
   - https://api.printables.com/graphql/
   - https://en.wikipedia.org/wiki/Medium-density_fibreboard
   - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
+  - https://en.wikipedia.org/wiki/Corrugated_fiberboard
+  - https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches
 
 ### Finder tags
 
@@ -638,10 +781,53 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, making_tips_3d_printing, processes, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, making_tips_3d_printing, processes, reuse_cycles, rules_of_thumb, safety_notes
 
 ## 243 Finger joint (box joint)
 
@@ -813,6 +999,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood
 
 ### Other info
 
@@ -910,7 +1139,9 @@
   - Mechanical metamaterial mechanism (shear-cell hinge arrays): cell patterns that combine many small hinges into a mechanism
   - Steam bending and bent lamination: the traditional ways to make strong curved wood parts without cuts (Rockler's 'Bending Wood' series, parts II and III) ⚑ [uncertain]
   - Piano hinge (continuous hinge): a pin hinge for doors and lids that open often and carry load
-  - Tape-spring hinge (measuring-tape fold): a curved strip that folds and snaps straight again *(⚑ parts need confirming)*
+  - Tape-spring hinge (measuring-tape fold): a curved strip that folds and snaps straight again
+  - Score-and-fold hinge (scored crease): a single pressed or half-cut line that makes card or foam board fold in one place, instead of a pattern of cuts that lets the sheet curve
+  - V-groove fold (mitre fold): a V groove cut almost through the back of a sheet so it folds to a crisp corner rather than a smooth curve *(⚑ parts need confirming)*
 
 ### Pictures, videos and models
 
@@ -971,6 +1202,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, plastic sheet, paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: swings on a hinge
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: folds like a hinge
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, foam
 
 ### Other info
 
@@ -1127,6 +1401,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood
 
 ### Other info
 
@@ -1280,6 +1597,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: carriage on a rail
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
@@ -1441,6 +1801,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood
 
 ### Other info
 
@@ -1532,6 +1935,7 @@
   - Tab-and-slot joint: sheet parts held by tabs through slots, for joints at an angle rather than edge to edge
   - Dowel and biscuit joints: hidden alignment pieces in edge joints, with no visible key
   - Mortise and tenon with a separate loose tenon: another separate insert joining two parts
+  - Jigsaw puzzle-edge joint (puzzle joint): knobs and sockets cut along the panel edges themselves lock two panels side by side, with no separate key
 
 ### Pictures, videos and models
 
@@ -1585,6 +1989,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood
 
 ### Other info
 
@@ -1682,6 +2129,7 @@
   - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): the 3D-printing equivalents for joining printed pieces
   - Plain scarf joint and keyed-hook scarf ('trait de jupiter'): Western splices that usually rely on bolts, plates or glue to stay closed (Wikipedia 'Scarf joint')
   - Knock-down cam-lock and cross-dowel connectors: undoable joints using metal hardware instead of shaped wood
+  - Jigsaw puzzle-edge joint (puzzle joint): a flat cousin, where knobs and sockets cut in sheet lock panels edge to edge with no glue or fasteners
 
 ### Pictures, videos and models
 
@@ -1749,6 +2197,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood
 
 ### Other info
 
@@ -1853,6 +2344,7 @@
   - Mortise and tenon with tusk wedge: the traditional wooden knock-down joint
   - Aluminium-extrusion connectors (T-slot nuts and brackets): the equivalent knock-down system for metal frames
   - Wood screw: covers the Confirmat screw, a fat, blunt cabinet screw driven into a stepped hole that joins board edges to faces with no separate nut or cam
+  - Shelf pins and shelf supports: pegs in the same 32 mm system rows of holes that carry loose shelves, while cam locks and cross dowels hold the fixed panels together
 
 ### Pictures, videos and models
 
@@ -1906,6 +2398,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2039,6 +2574,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: parts clamped together
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood
 
 ### Other info
 
@@ -2196,6 +2774,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: wood
 
 ### Other info
 
@@ -2352,6 +2973,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: metal
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 
@@ -2449,6 +3113,8 @@
   - Heat staking (melted plastic rivet): the plastic-part equivalent, where a post through a hole is melted over instead of bent
   - Ordinary screw joint (bolt and nut): the baseline, easy to undo and reuse many times
   - Spot weld: joins overlapping sheet metal at small points with electrode pressure and a short burst of current instead of a bent tab; a low-cost spot welder is also used to repair broken tin-toy tabs (Robothut video in links)
+  - Glued tab joint (glue tab, glue flap): the paper and card tab, folded and glued behind the next part instead of passed through a slot and bent
+  - Folding box closures (tuck flap, slit lock, lock bottoms): how card boxes use tabs and flaps tucked or locked through slits
 
 ### Pictures, videos and models
 
@@ -2496,6 +3162,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, metal, paper or card
 
 ### Other info
 
@@ -2639,6 +3348,49 @@
 - **adjustable**: no
 - **removability**: permanent ⚑ *needs confirming (source uncertain): `removability` is marked [uncertain] here: "…ay apart is to tear or drill out the button, which damages the sheets [uncertain: no source describes removal]…"*
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: metal
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 
@@ -2731,6 +3483,7 @@
   - Spring-steel push-on fasteners (push nut, speed nut, U-nut): clip onto sheet metal with no press, but hold far less
   - Captive nut pocket (nut trap): the 3D-printing way to hold a nut captive
   - Ordinary screw joint (bolt and nut): what the self-clinching nut or stud is used to make; a loose nut is simpler if both sides stay reachable
+  - Bonding fastener (glue-on stud): a stud or nut on a perforated base plate that is glued on or laminated into composites, giving a thread with no hole; self-clinching parts need a hole, a press and ductile sheet metal
 
 ### Pictures, videos and models
 
@@ -2775,6 +3528,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 
@@ -2885,6 +3681,8 @@
   - Wood screw: the usual fastener for screwed butt and lap joints, with advice on pilot and clearance holes
   - Nails, brads and tacks: the quick fastener for nailed butt joints, including toe-nailing and clinching
   - Metal brackets and plates: angle brackets, mending plates and joist hangers that reinforce a butt joint or carry its load
+  - V-groove fold: a one-piece corner made by grooving and folding a sheet (plywood trays, foam board), instead of butting two separate pieces
+  - Fillet-and-tape joint: plywood panels joined edge to edge with an epoxy fillet and glass tape instead of screws or nails, as in stitch-and-glue boats
 
 ### Pictures, videos and models
 
@@ -2948,6 +3746,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, foam
 
 ### Other info
 
@@ -3047,6 +3888,7 @@
   - Tongue-and-groove joint, including the loose tongue (spline): a continuous version of a biscuit along the whole edge
   - Locating pins and hole-and-slot: the precision-engineering use of pins to position parts exactly
   - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): the 3D-printing cousin of dowelling
+  - Pinned glue joint: improvised wire, toothpick or skewer pins glued across a joint in models, miniatures, foam and clay, a small-scale cousin of the dowel
 
 ### Pictures, videos and models
 
@@ -3109,6 +3951,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood
 
 ### Other info
 
@@ -3117,6 +4002,8 @@
 ## 273 Tongue-and-groove joint (incl. sliding-lid grooves)
 
 *interlocking joints & joinery.* A ridge on one edge fitting a groove in the other, joining boards edge to edge or letting a lid slide into a box
+
+*Also covers:* Also covers sliding glass cabinet doors in a double track.
 
 ### What it is
 
@@ -3190,6 +4077,7 @@
   - Sliding lid in wood: use quarter-sawn or rift-sawn stock and mill it to thickness in stages ('double and even triple-milling') so the lid stays flat and slides without binding (Michael Cullen, Fine Woodworking #255).
   - Loose tongues: grooves about one-third of the thickness (e.g. the nearest standard plywood thickness); if the tongue is solid wood, run its grain diagonally or across its width for strength (DT Online 'Widening Joint').
   - Stopped grooves (grooves that stop short of the ends) should be cut with a router or spindle moulder, not a table saw (DT Online, citing HSE WIS16).
+  - Sliding glass cabinet doors run in a double track: the panes ride on nylon rollers in the bottom track, their top edges are held in the matching top track, and the two doors usually overlap by 26 mm. One such track is for 6 mm glass up to 1.5 m high: cut the glass 22 mm shorter than the opening height, keep each door no taller than 1.5 times its width, and have the glass edges polished 'for safety reasons' (Bohle double top track BO634024P).
 
 ### When to use it
 
@@ -3198,6 +4086,7 @@
   - Tongue-and-groove wall panelling, V-groove wainscot and the back panels of bookcases (Woodworker's Journal; DT Online 'Matched Boarding')
   - A wooden pencil box with a sliding top (Fine Woodworking: the author's childhood pencil box inspired his design)
   - Printed or wooden boxes for board-game pieces with a slide-out lid (Printables 'Parametric Sliding Lid Box')
+  - Sliding glass doors on a display cabinet, running on rollers in a double bottom track with their top edges in a double top track (Bohle)
 - **when_to_use**: Use tongue and groove to join many boards edge to edge into a flat surface that must stay flush but still move with the seasons: floors, wall and ceiling panelling, cladding, cabinet backs and web frames (Wikipedia; Woodcraft). Use it in edge glue-ups when you want the boards to line up by themselves as you clamp (Popular Woodworking; USDA). Use a groove to capture a floating panel or a drawer or box bottom (Wikipedia 'Frame and panel', 'Groove (joinery)'). Use grooves and a sliding lid for simple boxes that open without hinges or latches, such as pencil boxes and game-piece boxes, in wood, 3D prints or laser-cut sheet (Fine Woodworking; Printables; Boxes.py). Use a loose tongue (spline) when both edges are grooved, e.g. in plywood (Wikipedia; DT Online).
 - **when_not_to_use**: Don't add a tongue and groove for strength in an edge glue-up; a well-glued plain edge is as strong (USDA Wood Handbook ch. 10), so use dowels or biscuits only if you need alignment. Don't use it for end-grain or corner joints that carry load; use a mortise and tenon, finger or dovetail joint (The Wood Whisperer calls tongue and groove the mortise and tenon's 'little brother'). Avoid gluing wide solid-wood tongue-and-groove panels into frames or across their width; let them float (Wikipedia). For exterior cladding of sheds, shiplap is commonly used instead (DT Online). For a lid that must seal out water or dust, use a gasketed or snap-fit lid; for a lid opened often with one hand, a hinge is easier ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **environment_limits**: Wood swells and shrinks across the grain with humidity (tangential shrinkage is about twice radial; USDA Wood Handbook ch. 4), so glued solid boards can split or pull their tongues off (Wikipedia), and a sliding lid made too snug can bind in damp weather; leave clearance and use quarter-sawn wood for lids (Fine Woodworking). Floating floors need an expansion gap at the room edges (Wikipedia 'Wood flooring'). A 3D-printed PLA box softens at about 60 °C and PETG at about 80 °C (CNC Kitchen).
@@ -3213,6 +4102,9 @@
   - Snap-lock sheet joint and cantilever snap fit: locking versions, like 'click' floors whose tongues snap into modified grooves (Wikipedia 'Wood flooring')
   - Oldham coupling: uses tongue-and-groove slots at right angles to join slightly misaligned shafts
   - Drawer slide (telescopic ball-bearing slide): the hardware alternative for sliding parts
+  - Jigsaw puzzle-edge joint: a press-together wavy edge that locks flat panels (such as foam floor mats) against pulling apart, where tongue and groove only keeps them flush
+  - Glazing in a rebated frame: holds a fixed pane of glass or acrylic in a stepped rebate with points, putty or beads, rather than in a groove
+  - Glass door hinge: the hinged alternative to sliding glass cabinet doors in a track
 
 ### Pictures, videos and models
 
@@ -3260,6 +4152,7 @@
   - https://www.osha.gov/etools/machine-guarding/saws/table
   - https://www.youtube.com/watch?v=7NulJL7R4Ok
   - https://api.printables.com/graphql/
+  - https://www.bohle.com/uk-EN/Top-Side-track-Double-Nylonslide-6-mm/BO634024P
 
 ### Finder tags
 
@@ -3277,6 +4170,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: catch or lever ⚑ *needs confirming (best guess): carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding lid opens by sliding, which none of the three answers covers; 'catch or lever' is wrong, but dropping it would lose sliding-lid boxes from the lid shortlist*
+- **locks_out**: no
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, foam
 
 ### Other info
 
@@ -3383,6 +4319,7 @@
   - Spring-steel push-on fasteners (push nut, speed nut, U-nut): clip-on nuts for thin panels, removable
   - Solid rivet and semi-tubular rivet (not separate entries): hammered or squeezed with access to both sides; solid rivets are stronger and used where they can be reached (Wikipedia 'Rivet'; FAA AC 43.13-1B)
   - Leather and textile rivets: double-cap, tubular and split rivets set through leather, webbing and fabric with access to both sides; metal-sheet rivets stay in this entry
+  - Cardboard screws and rivets: plastic snap-together rivets and coarse plastic screws for cardboard, pressed in by hand and reusable
 
 ### Pictures, videos and models
 
@@ -3445,6 +4382,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: sheet metal, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: metal
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, carbon fibre or composites, fabric, leather or cord
 
 ### Other info
 
@@ -3592,6 +4572,49 @@
 - **adjustable**: partly
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal, fabric, leather or cord
 
 ### Other info
 
@@ -3600,6 +4623,8 @@
 ## 299 Housing and rebate joints (dado, rabbet)
 
 *interlocking joints & joinery.* A groove cut across a board (housing or dado) or a step cut along its edge (rebate or rabbet) that another board fits into, as in bookshelves and cabinet backs
+
+*Also covers:* Also covers rebates in foam board, cut by knife or a foam-board rabbet cutter.
 
 ### What it is
 
@@ -3644,7 +4669,7 @@
 - **adjustable**: no once glued; the fit is adjusted while cutting, by making two passes, adding shims or using undersized bits (Rockler 'Getting Dadoes and Plywood Thickness to Match')
 - **play_and_precision**: small to none if cut correctly: 'a snug fit of mate to dado is essential for a strong joint', and 'Glue won't compensate for a rough, ill-sized dado' (Rockler). Sheet goods are the usual trap: '3/4 in' plywood often measures close to 1/32 in thin, and thickness may vary by up to 3/64 in, so a cut at the nominal size can be sloppy (Rockler). A rabbet-and-dado joint copes with uneven plywood, because the rabbet can be cut to fit a standard dado (Rockler).
 - **access_needed**: not applicable: the board is pushed into the channel or onto the step during assembly, and nothing needs to be reached from behind
-- **materials**: Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box').
+- **materials**: Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box'). Foam board can be rebated too: cut a rebate (rabbet) along the edge with a craft knife or a dedicated foam-board rabbet cutter (straight edges only) and hot-glue the next board into it; one maker found rabbet cutters 'work better than mitered edges', and another cut a 3/16 in rebate round a whole side panel (Core77 forum). The cut removes the foam and the inner paper but leaves the outer paper skin, which laps over and covers the foam edge of the joining board; a plain butt joint 'leaves the edge and foam core of the second panel exposed' (US patent 5,048,188 'Rabbet cutting tool').
 - **maker_difficulty**: easy to moderate: a rabbet is 'one of the first joinery cuts that new woodworkers try' (Rockler), and dados are straightforward with a router and a straight guide fence (Rockler). Hand-cut housings need careful marking, sawing and paring (DT Online), and stopped housings need an extra notch in the shelf (DT Online).
 
 ### Making it
@@ -3689,6 +4714,8 @@
   - Dowel and biscuit joints: alternative ways to fix shelves without cutting a full-width housing
   - Knock-down cam-lock and cross-dowel connectors: for flat-pack shelves that must come apart
   - Tab-and-slot joint: the sheet-material (laser-cut) version, with through-slots instead of blind housings
+  - Glazing in a rebated frame: what holds the glass, mirror or acrylic in a frame's rebate: glazier's points, putty, glazing beads or turn buttons
+  - Lead came joint: H-section lead strips whose grooves hold each piece of glass in a leaded panel
 
 ### Pictures, videos and models
 
@@ -3724,6 +4751,8 @@
   - https://www.youtube.com/watch?v=n3e6Ba6IfhM
   - https://www.youtube.com/watch?v=jcDizu5P3Ck
   - https://api.printables.com/graphql/
+  - https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942
+  - https://patents.google.com/patent/US5048188
 
 ### Finder tags
 
@@ -3741,6 +4770,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, foam, glass or mirror
 
 ### Other info
 
@@ -3895,8 +4967,626 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: a fitted part
+- **knot_use**: not applicable
+- **cord_part**: join or grip ends
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord
 
 ### Other info
 
 - ⚑ **Fields with parts that need confirming:** environment_limits, power, safety_notes
+
+## 416 Folding box closures (tuck flap, slit lock, snap-lock 1-2-3 bottom, crash-lock bottom)
+
+*interlocking joints & joinery.* The folded flaps that close a card or cardboard box without tape, where a tuck flap slides inside and is held by friction or a small slit, and lock bottoms interleave their flaps or use pre-glued flaps so the base snaps square as the box opens, as in cereal boxes, card-deck boxes and mailer boxes
+
+*Also covers:* Also covers straight and reverse tuck ends, dust flaps, friction tuck versus slit lock, tuck-top mailer boxes with locking ears, the glued side seam (manufacturer's joint), box-style codes (FEFCO, ECMA) as search terms, and making boxes from templates or a cutting plotter. Barbed lock tabs are in Snap-lock sheet joint. Safety: none special.
+
+### What it is
+
+- **plain_name**: The folded flaps that close a card or cardboard box without tape: a tongue-shaped flap that slides inside the box and stays put by rubbing or by catching in a small slit, and bottom flaps that hook into each other (or are pre-glued) so the base locks square when you open the box out
+- **term**: Folding carton closures: tuck end (friction tuck or slit-lock tuck), snap-lock (1-2-3) bottom and crash-lock (auto-lock) bottom
+- **aliases**: 
+  - tuck flap, tuck end, tuck top, end tuck, tuck-in flap, locking tab or tongue (Wikipedia 'Folding carton'; Pack.ly)
+  - straight tuck end (STE), reverse tuck end (RTE), French reverse tuck (FRT), French straight tuck (FST), tube with tuck end closures (RRD; Diamond Packaging; JohnsByrne)
+  - friction tuck or friction-fit tuck versus slit lock, slit-lock tuck, safety lock (Diamond Packaging; JohnsByrne; Pack.ly)
+  - dust flaps, inner flaps, side flaps (Pack.ly; Templatemaker.nl 'Card Box')
+  - snap-lock bottom, 1-2-3 bottom, 123 bottom, snap bottom, lock bottom, Houghland bottom, tuck top snap-lock bottom (TTSLB), automatic closing (non-glued) box (Sttark; Diamond Packaging; Pakfactory; RRD; Die Cut Templates)
+  - crash-lock bottom, crash bottom, auto-lock bottom, auto bottom, automatic bottom, auto-erecting carton, tuck top auto bottom (TTAB), 'Tuck To Back Crash Lock Base' (Sttark; Diamond Packaging; RRD; Boxshot ECMA A60.20.00.03)
+  - manufacturer's joint (the glued, taped or stitched side seam), glue flap (Wikipedia 'Corrugated box design'; Pack.ly)
+  - tuck box, deck box, card box, 'tuckelope' (a thin envelope with a tuck flap) (Tuckboxer; Templatemaker.nl)
+  - tuck-top mailer, hinged-lid box, front-lock mailer, roll end tuck top (RETT), FEFCO 0427 (Packaging Warehouse; JohnsByrne; RRD)
+  - box-style codes to search with: FEFCO codes for corrugated boxes (e.g. 0201 regular slotted container, 0427 hinged-lid mailer) and ECMA codes for paperboard cartons (A20 family tuck-end cartons, A55 snap-lock bottom, A60 crash-lock bottom) (Wikipedia 'Corrugated box design'; Die Cut Templates; Boxshot)
+  - dieline, net, box template (Templatemaker.nl; Pack.ly)
+- **family**: interlocking joints & joinery
+- **other_families**: snap & clip fits, locks, latches & catches
+- **one_liner**: The cut-and-folded flaps on the ends of a card or cardboard box that close it without tape or glue: a tuck flap slides in behind the front panel and is held by friction or by small slits that catch, while a lock bottom is closed by interleaving shaped flaps (snap-lock or 1-2-3 bottom) or springs into place by itself from pre-glued flaps (crash-lock or auto bottom).
+- **complexity**: Single piece: one die-cut and scored blank (the dieline) with a front, back and two side panels, a glue flap that makes the side seam, and at each end a tuck flap on a closure panel plus two dust flaps; a lock bottom replaces one end with four shaped bottom flaps (snap-lock) or with flaps glued at two points (crash-lock) (Pack.ly 'Dieline: tuck end box' and 'Dieline: 1-2-3 bottom box and Auto bottom box').
+- **how_it_works**: The box is a tube made from one flat blank, glued once along a side seam (the manufacturer's joint), and it is shipped and stored flat until it is opened out (Wikipedia 'Folding carton'; Wikipedia 'Corrugated box design'). At a tuck end, the two small dust flaps fold in first, then the closure panel folds over and its tongue (tuck flap) slides down inside the opposite wall; in a friction tuck only the tight fit holds it, while in a slit lock small cuts where the tongue meets its panel catch on the edges of the dust flaps so it does not pop open (Diamond Packaging; JohnsByrne; Pack.ly). A snap-lock or 1-2-3 bottom has four shaped flaps that are folded in a set order and pushed into each other so they lock as a floor in 'three steps' (Sttark; Pack.ly). A crash-lock or auto bottom has extra flaps glued together at two points while the box is flat, so when the tube is squared up the bottom swings into place and locks by itself (Diamond Packaging; Pack.ly).
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: holds the ends of a card or cardboard box shut, and the glued side seam holds the tube together (Wikipedia 'Corrugated box design'; Pack.ly)
+  - lock, and release by hand: a tuck lid is opened and closed again by hand; slit locks and mailer lid tabs make it 'reclosable' but less likely to open by accident (Diamond Packaging; Packaging Warehouse 'FEFCO 0427')
+- **motion**: none once closed; the closure flaps themselves turn about their scored folds (flex) as you open and close them, up to about 180° for a lid panel.
+- **degrees_of_freedom**: 0 when closed; each flap is a 1-degree-of-freedom fold hinge (it can only swing about its crease) while you open or close it.
+- **special_behaviour**: 
+  - quick-release: a tuck lid opens and recloses by hand with no tools (Diamond Packaging)
+  - self-aligning or self-centring: a crash-lock bottom forms itself and squares the box when the flat tube is opened, through 'a slight rotation' set by its two glue points (Pack.ly; Diamond Packaging)
+  - none (for the plain friction tuck): it just stays where it is pushed, held by a snug fit
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): slit locks catch on the dust flaps, snap-lock bottom flaps hook into each other, and mailer lid tabs go into slots (Diamond Packaging; Sttark; Packaging Warehouse)
+  - friction or clamping (force-fit): a friction tuck is 'held by friction' or 'tension' between the tongue and the wall it slides behind (JohnsByrne; Diamond Packaging)
+  - material bond (glue, solvent or melting): only for the side seam (manufacturer's joint) and the pre-glued flaps of a crash-lock bottom (Wikipedia 'Corrugated box design'; Pack.ly)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: tuck ends and mailer lids open and close by hand; a snap-lock bottom can be unfolded again; the glued side seam is permanent (Diamond Packaging; Sttark; Wikipedia 'Corrugated box design').
+- **reuse_cycles**: a few times to many times: a tuck lid on stiff board can be opened and closed many times, but the creases and the slit corners soften and tear with use, so a friction tuck gets looser over time ⚑ [uncertain: no cycle figure found]. *(⚑ parts need confirming)*
+- **tools_needed**: To make: a printed or downloaded template, a craft knife and steel ruler or a cutting plotter or laser cutter, a scoring tool (bone folder, embossing stylus or a printed scoring board) and glue or double-sided tape for the side seam (Templatemaker.nl; LightBurn resource list; Printables scoring boards). To use: none.
+- **seal**: dust-resistant: dust flaps that tuck under the closure panel keep out dust and help the lid sit square (Pack.ly; Templatemaker.nl lists 'Dust Flap' as a parameter); it is not watertight. Sift-proof cartons for powders use glued 'seal end' flaps instead of tucks (Diamond Packaging).
+- **load**: Light. Paperboard folding cartons are 'generally limited to holding a few pounds or kilograms' because board is at most about 0.81 mm thick (Wikipedia 'Folding carton'). Tuck ends are for 'light- to medium-weight' items (Sttark; RRD); a snap-lock or crash-lock bottom is used for heavier items such as candles and bottles (Sttark; Diamond Packaging; Pakfactory). Figures disagree, side by side: Die Cut Templates says a snap-lock box product 'should be light (maximum 250 gr.)'; Pack.ly says the 1-2-3 bottom 'is not recommended for products with excessive weight'; Sttark calls the crash-lock bottom 'the strongest of all box types'; Packmage says the snap-lock bottom is stronger than the auto bottom. Corrugated hinged-lid mailers (FEFCO 0427) are rated by one maker at about 7 kg in 1.5 mm microflute and about 14 kg in 3 mm fine flute, with the weight spread evenly (Packaging Warehouse). Weak points: a tuck lid pops open if the contents push on it, and a bottom carrying weight is in bending; the flaps resist pull along the panels well but tear at slit corners ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **adjustable**: no: the box size is fixed by the template; the tuck can only be made tighter or looser by changing the template (e.g. tuck flap size or board thickness setting) before cutting (Templatemaker.nl 'Card Box').
+- **play_and_precision**: Small play: board thickness must be allowed for in the template, so one side panel is made slightly narrower ('thickness compensation') and the top and bottom panels carry an offset so the flaps overlap the walls; get this wrong and the tuck is loose or won't close (Pack.ly 'Dieline: tuck end box'). It does not locate parts precisely.
+- **access_needed**: one side only (blind): you close the lid from outside the box; a snap-lock bottom is folded from outside with a hand inside to push the last flap home.
+- **materials**: Paperboard (folding boxboard, solid bleached sulfate, clay-coated kraft or news back, kraft, bending chip) for cartons (RRD box styles; Wikipedia 'Folding carton'); E-flute or micro-flute corrugated board for some cartons and mailers, and thicker corrugated board for shipping boxes (Wikipedia 'Folding carton'; Packaging Warehouse). Card stock, cereal-box board and thin corrugated card work for home-made boxes (Templatemaker.nl; Printables 'Laser-Cut, Scored, Folding Box Template'). The same flap patterns work in thin polypropylene sheet ⚑ [uncertain: no source opened]. Not suited to thick, stiff sheet that can't be creased (plywood, acrylic): use finger joints or tab-and-slot there. *(⚑ parts need confirming)*
+- **maker_difficulty**: easy for tuck boxes: print or plot a template, score, cut, fold and glue one seam (Templatemaker.nl; Tuckboxer); moderate for snap-lock and crash-lock bottoms, because the flap shapes and board-thickness allowances have to be right (Pack.ly).
+
+### Making it
+
+- **processes**: 
+  - laser cut: cut and score card or thin corrugated board in one job, scoring at lower power or higher speed (LightBurn resource list; Printables 'Laser-Cut, Scored, Folding Box Template')
+  - cutting plotter (vinyl or craft cutter such as Cricut or Silhouette, brands): Templatemaker.nl exports Cricut, SignCut, SVG and DXF files and 12 x 12 inch plotter page sizes
+  - hand cutting: print a PDF template, score with a bone folder or stylus, cut with a craft knife (Templatemaker.nl; Tuckboxer)
+  - off-the-shelf part: printed cartons and mailers ordered by style code (ECMA, FEFCO) from packaging makers
+  - 3D print (FDM): not for the box itself; for scoring boards, creasing tools and bone folders (Printables)
+- **print_in_place**: no: the closure is folded from card or cardboard; printing is only useful for scoring and folding tools.
+- **making_tips_3d_printing**: The box itself is not 3D printed, but printed tools help: 1) A scoring board with grooves every 0.5 mm, used with a blunt point such as a small crochet hook, makes neat fold lines in card; it was printed 'with brim and bed hotter than normally to prevent lifting' (Printables 1123522, CC BY-SA). 2) Thin scoring boards (about 200 x 200 mm, 2 mm plate) with parallel and angled grooves print fast (Printables 1719617, CC BY-NC). 3) A flat-bottomed printed bone folder (PLA, 0.1 mm layers, 5% infill) works for creasing (Printables 9906, CC BY). 4) A printed creasing wheel for cardboard exists (Printables 998724 and its remix 1530618). For printed boxes that must close with a tuck-like flap, use a living hinge or snap fit instead of copying the card shape ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Printed or plain folding cartons in standard styles: straight tuck end (STE), reverse tuck end (RTE), French reverse tuck (FRT), tuck top snap-lock bottom (TTSLB, 1-2-3 bottom), tuck top auto bottom (TTAB, crash-lock), seal end, sleeve, roll end tuck top (RETT) (RRD; Diamond Packaging; Pakfactory). Corrugated boxes by FEFCO code, e.g. 0201 regular slotted container and 0427 hinged-lid (tuck-top) mailer (Wikipedia 'Corrugated box design'; Packaging Warehouse). Dieline libraries and generators: Templatemaker.nl, Die Cut Templates, Boxshot, Pacdora (Templatemaker.nl; Die Cut Templates; Boxshot). Tools: bone folder, scoring board, embossing stylus, craft knife, double-sided tape or PVA for the glue flap.
+- **rules_of_thumb**: 
+  - Allow for board thickness in the template: the side panel opposite the glue flap is made slightly smaller ('thickness compensation'), and the top and bottom panels get an offset so the flaps can overlap the walls and inner flaps (Pack.ly 'Dieline: tuck end box'). Generators ask for it: Templatemaker.nl's Card Box uses 'Material Thickness' only for the tuck flap geometry.
+  - Friction tuck or slit lock: a friction tuck 'offers a cleaner appearance but is less secure than a slit lock closure'; Diamond Packaging always puts a slit lock on the bottom of a straight tuck carton; cosmetics boxes often use a slit lock on the bottom and a plain tuck on top so the customer can open it easily ('open/close') (Diamond Packaging; Pack.ly).
+  - Straight or reverse tuck: straight tuck closures both tuck to the back, which keeps the front clean; reverse tucks close to opposite sides and 'nest' better on the sheet, so they use less board; but Sttark says the straight tuck takes less paper. The two sources disagree; for one-off home boxes it hardly matters (RRD; Diamond Packaging; Sttark).
+  - Snap-lock bottom: add an extra central flap when the box is more than twice as wide as it is deep (Pack.ly 'Dieline: 1-2-3 bottom box and Auto bottom box').
+  - Crash-lock bottom: it needs two glue points, flaps offset by the board thickness, and relief cut-outs where cut lines meet creases so the board doesn't tear (Pack.ly).
+  - Tuck box size for a card deck: the flat template is a little more than twice the deck's width plus thickness wide, and the deck height plus about three times its thickness tall; boxes can be as small as 11 mm but 15 mm or more is easier to fold (Tuckboxer FAQ).
+  - Board for cartons: folding cartons are limited to about 0.81 mm (0.032 in) thick board by cutting machinery (Wikipedia 'Folding carton').
+  - Cutting and scoring by laser: score fold lines at lower power or higher speed than the cuts, or use perforated fold lines (LightBurn resource list on Templatemaker.nl).
+  - Pick by weight: tuck ends for light to medium items; snap-lock or crash-lock bottom for heavier items; glued seal ends for powders and machine filling (Sttark; RRD; Diamond Packaging).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A cereal box or toothpaste carton with a tuck flap at each end (Wikipedia 'Folding carton')
+  - A playing-card deck box (tuck box) (Tuckboxer; Templatemaker.nl)
+  - A candle, wine or cosmetics box whose bottom pops into place when you open it (crash-lock) (Sttark; Diamond Packaging)
+  - A cardboard mailer box whose lid tucks into slots at the front (FEFCO 0427) (Packaging Warehouse)
+- **when_to_use**: Use tuck ends to close a card or thin cardboard box that must be opened and closed again by hand without tape: card-deck and game-piece boxes, gift boxes, kit and product boxes, school and craft projects (Tuckboxer; Templatemaker.nl). Add slit locks when the lid must not pop open, and keep a plain friction tuck where it should open easily (Diamond Packaging; Pack.ly). Use a snap-lock (1-2-3) bottom when you want a stronger floor with no glue beyond the side seam, and a crash-lock bottom when boxes are put together by hand in numbers and must set up fast (JohnsByrne; Diamond Packaging). Use a tuck-top mailer when the box is posted and should be reclosable (Packaging Warehouse). Boxes ship and store flat (Wikipedia 'Folding carton').
+- **when_not_to_use**: Not for heavy, sharp or loose contents that push on the lid: tuck lids can be pushed open; use a taped or glued closure (see Adhesive tape joint, Glued tab joint) or a full-overlap corrugated box (Wikipedia 'Corrugated box design'). Not for powders or anything that must be sealed: use glued seal ends (Diamond Packaging). Not for rigid sheet (plywood, acrylic, printed plastic) that won't crease: use a living hinge, snap-lock sheet joint, tab-and-slot or finger joint instead. Not for tamper-evident packaging on its own: add a seal label or tear strip (Wikipedia 'Folding carton'). Never use a home-made carton to carry anything dangerous.
+- **environment_limits**: Damp and humidity: paperboard and corrugated board lose strength when damp; boxes stored at high humidity need 'extra strength and moisture resistance' (Wikipedia 'Corrugated box design'), so creases go soft and tucks loosen in damp places. Heat and sunlight fade print but are not the main limit ⚑ [uncertain]. Repeated opening wears the creases and slit corners, and the friction tuck gets looser ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: None special for the closure (as noted in the outline). Cutting templates by hand uses sharp craft knives: cut away from the hand holding the ruler (see Score-and-fold hinge). Laser cutting card is a fire risk: never leave a laser cutter running unattended ⚑ [uncertain: no laser safety page opened for this entry]. *(⚑ parts need confirming)*
+- **common_failures**: The tuck flap won't stay shut or springs open: the tuck is too short or the board-thickness allowance is wrong; add slit locks or make the tuck longer (Diamond Packaging; Pack.ly). The tuck won't go in, or the box bulges: thickness not allowed for, or the flaps fold the wrong way (Pack.ly). Cracked or lumpy folds: the board was not scored, or was folded against the grain; score every fold (see Score-and-fold hinge). Torn slit corners or crease ends: missing relief cuts where cuts meet creases (Pack.ly). A snap-lock bottom that falls open under weight: product too heavy for that style or flaps folded in the wrong order (Die Cut Templates; Pack.ly). A crash-lock bottom that won't form: the two glue points are misplaced or glued too far (Pack.ly) ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **related**: 
+  - Score-and-fold hinge (scored crease): the fold lines every flap turns on; how to score and fold card cleanly
+  - Glued tab joint (glue flap): the glue flap that makes the box's side seam (manufacturer's joint)
+  - Snap-lock sheet joint (barbed or spring finger): barbed tabs that click through slots, as in 'tab-lock' boxes; holds harder than a friction tuck
+  - Tab-and-slot joint (self-fixturing sheet joint): plain tabs in slots, as in a mailer lid's tabs going into front slots
+  - Bent or twisted tab through a slot (lanced tab): a tab bent over after going through a slot, the sheet-metal relative
+  - Adhesive tape joint and tape hinge: taping the flaps instead of tucking them; stronger and tamper-evident but not reclosable
+  - Staples for wood and fabric: big box staples that close corrugated shipping boxes (Wikipedia 'Corrugated box design')
+  - Origami mechanisms: folded structures without cuts or glue; tuck flaps are a cut-and-fold cousin
+  - Living hinge and Cantilever snap fit: the plastic equivalents for a printed or moulded box lid
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Reverse Tuck Carton.jpg (Wikimedia Commons, by R L Sheehan)](https://commons.wikimedia.org/wiki/File:Reverse_Tuck_Carton.jpg): A typical flat blank (dieline) for a reverse tuck end folding carton, with tuck flaps, dust flaps and glue flap *(licence: Free Art License (FAL))*
+  - [Carton and tape seal partially open.jpg (Wikimedia Commons, by Rlsheehan)](https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg): A partly opened carton showing the tuck flap and its locking tab (tongue) *(licence: CC BY-SA 4.0)*
+  - [Card tuck box for Spirit Island.jpg (Wikimedia Commons, by Ben)](https://commons.wikimedia.org/wiki/File:Card_tuck_box_for_Spirit_Island.jpg): A home-made tuck box for a deck of sleeved game cards *(licence: CC BY-SA 3.0)*
+  - [Umzugskarton.jpg (Wikimedia Commons, by HornM201)](https://commons.wikimedia.org/wiki/File:Umzugskarton.jpg): A corrugated moving box closed with interlocking slotted flaps instead of tape *(licence: CC BY-SA 3.0)*
+  - [Dieline: 1-2-3 bottom boxes and Auto bottom boxes (Packly blog)](https://www.pack.ly/en/blog/post/dieline-1-2-3-bottom-box-auto-bottom-box): Labelled dielines of a snap-lock (1-2-3) bottom and an auto (crash-lock) bottom, with the folding order and glue areas *(licence: link only (© Packly))*
+- **make_it_yourself**: 
+  - [Card Box (Templatemaker.nl)](https://www.templatemaker.nl/en/cardbox/): Free generator for a tuck-end card box with settings for tuck flap, dust flap, thumb hole, glue flap and material thickness; exports PDF, SVG, DXF, Cricut, SignCut and LightBurn files and plotter page sizes *(licence: Templates free for personal, classroom and commercial packaging use, but the files may not be shared or sold (© Templatemaker.nl))*
+  - [Tuckboxer (Semicolon Software)](https://www.semicolon.com/tuckboxer/): Paid macOS app that makes printable, decorated tuck boxes sized to a deck of cards or tiles, and 'tuckelope' envelopes with a tuck flap for thin decks *(licence: commercial software (US $4.99))*
+  - [ECMA A60.20.00.03 dieline editor (Boxshot)](https://www.boxshot.com/dielines/ecma/a60.20.00.03/): Online dieline for a tuck top with crash-lock (automatic 2-point glued) bottom, with choice of slit or frictional tuck; downloads need a login *(licence: link only (© Appsforlife Ltd))*
+  - [Laser-Cut, Scored, Folding Box Template (Make it Reality, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1385974-laser-cut-scored-folding-box-template): Resizable SVG template for a cut-and-scored interlocking box from thin corrugated cardboard on a 10 W laser, with notes on scoring at lower power *(licence: Creative Commons Attribution)*
+  - [Scoring board (regei, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1123522-scoring-board): Printable scoring board with grooves every 0.5 mm for scoring fold lines in paper and card stock *(licence: Creative Commons Attribution-ShareAlike)*
+- **diagram_idea**: A flat tuck-end box blank that folds up step by step into a box (dust flaps in, closure panel over, tongue tucked inside), with a close-up comparing a friction tuck to a slit lock catching the dust flap, and a second strip showing the four snap-lock bottom flaps closing in order 1-2-3.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Folding_carton
+  - https://en.wikipedia.org/wiki/Corrugated_box_design
+  - https://sttark.helpscoutdocs.com/article/201-folding-carton-styles
+  - https://www.diamondpackaging.com/blog/42/folding-cartons-101-a-beginners-guide-to-7-essential-styles/
+  - https://pakfactory.com/blog/a-guide-to-different-types-of-folding-carton-box-styles
+  - https://www.johnsbyrne.com/blog/folding-carton-packaging-style-guide/
+  - https://www.rrd.com/docs/locations/ocpc/Box-Styles.pdf
+  - https://www.pack.ly/en/blog/post/dieline-tuck-end-box
+  - https://www.pack.ly/en/blog/post/dieline-1-2-3-bottom-box-auto-bottom-box
+  - https://www.packmage.com/about/article/456-B_Closure_structures_commonly_used_in_box_design
+  - https://www.diecuttemplates.com/dielines/21544/snap-lock-boxes-becf-195
+  - https://www.boxshot.com/dielines/ecma/a60.20.00.03/
+  - https://www.boxshot.com/dielines/ecma/a20.20.03.03/
+  - https://www.labelprint24.com/en/products/folding-box-with-straight-tuck-end-208
+  - https://www.packaging-warehouse.com/en/category/fefco-0427-hinged-lid-box-78.php
+  - https://www.semicolon.com/tuckboxer/
+  - https://www.templatemaker.nl/en/
+  - https://www.templatemaker.nl/en/cardbox/
+  - https://docs.lightburnsoftware.com/2.1/Resources/ResourceList/
+  - https://commons.wikimedia.org/wiki/File:Reverse_Tuck_Carton.jpg
+  - https://commons.wikimedia.org/wiki/File:Carton_and_tape_seal_partially_open.jpg
+  - https://commons.wikimedia.org/wiki/File:Card_tuck_box_for_Spirit_Island.jpg
+  - https://commons.wikimedia.org/wiki/File:Umzugskarton.jpg
+  - https://api.printables.com/graphql/ (models 1385974, 1123522, 1719617, 9906, 998724, 1530618; no Printables pages opened)
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: power tools, hand tools
+- **load_max**: light
+- **usual_process**: laser cut
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: paper or card
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, reuse_cycles, safety_notes
+
+## 424 V-groove fold (mitre fold, fold-up corner, bevelled fold in foam board and EVA foam)
+
+*interlocking joints & joinery.* A V-shaped strip is cut out of the back of a sheet almost all the way through, so the thin face layer left behind bends like a hinge and the two cut faces close into a neat glued corner, as in foam-board model planes, EVA foam armour ridges, plywood trays and folded aluminium-composite signs
+
+*Also covers:* Also covers the square-groove ('overlap') fold in foam board, where a strip of foam one board-thickness wide is removed and the paper skin wraps the corner; Flite Test A- and B-style folds; routed-and-folded composite panels; and mitre folds in wood and veneer held with packing tape on the face while the glue sets. Partial-depth valley cuts for curves belong to kerf bending. Safety: sharp knives and router bits; use contact cement only with good ventilation.
+
+### What it is
+
+- **plain_name**: A V-shaped strip cut out of the back of a sheet, almost all the way through, so the thin face left behind bends like a hinge and the sheet folds up into a neat corner that is then glued
+- **term**: V-groove fold (mitre fold, 'miterfold'; routing-and-folding method)
+- **aliases**: 
+  - mitre fold, miterfold, miter fold (woodweb Knowledge Base 'Miterfolds for clean corner joints')
+  - V-groove and fold, V-grooving, routing and folding method (Alucobond, for aluminium composite panels; Vitracore G2 machining guidelines)
+  - fold-up corner, folded box from a grooved panel (Fine Woodworking plywood trays; Roy Underhill's hand method)
+  - beveled cut fold, bevelled fold (Fold 'N Fly, foam board)
+  - overlap fold, square-groove fold (Fold 'N Fly): two parallel cuts one board-thickness apart with the foam strip peeled out, so the paper skin wraps the corner
+  - A-style fold and B-style fold, also 'A fold', 'B fold' (Flite Test foam-board plane plans)
+  - folded edges (EVA foam armour; Food and Cosplay)
+  - rabbet or rebate fold in foam core (Core77 forum; a one-piece version of the rabbet joint)
+  - Auto V groover, Betterley (brands of V-grooving machines mentioned on woodweb)
+- **family**: interlocking joints & joinery
+- **other_families**: compliant mechanisms & flexures, adhesives & bonding
+- **one_liner**: Cutting a V-shaped (or square) groove almost through the back of a sheet leaves a thin uncut face that acts as a hinge, so the sheet can be folded until the two cut faces of the groove meet, giving a crisp, seamless corner that is then glued or fixed.
+- **complexity**: Single piece: one sheet with a groove cut in its back, plus glue (and, in wood, tape or a band clamp to hold it while the glue sets). The parts of the joint are the two bevelled (or square) groove walls, the thin uncut skin at the bottom of the groove that becomes the outside corner, and the glue line (Fold 'N Fly; Alucobond; Fine Woodworking).
+- **how_it_works**: The groove removes the material that would otherwise be crushed on the inside of the bend, and leaves only a thin outer layer, which bends easily because bending stiffness falls steeply with thickness. A 90° V-groove (two 45° bevels) closes up exactly when the sheet is folded to 90°, so the two cut faces meet face to face and make a glue joint, while the uncut outer skin wraps the corner without a visible seam (Fold 'N Fly: 'when you fold the foam board into a 90° angle, it will fit together perfectly and the remaining paper layer will make a perfect, clean corner'). The groove angle sets the fold angle: Alucobond uses a 90° V-groove for folds up to 90°, a 135° V-groove for folds up to 135°, and a rectangular groove for folds up to 150° (Alucobond). In a square-groove ('overlap') fold in foam board, a strip of foam one board-thickness wide is peeled out so the paper skin wraps round the end of the other side (Fold 'N Fly). If the groove is left unglued, the thin skin stays a hinge, which is how foam-board planes make their control-surface hinges (Model Aviation 'PAP-E': 'don't go through the last layer of paper, because it forms the hinge').
+
+### Finder attributes
+
+- **job**: 
+  - join and hold: makes a strong, square corner in one piece, without a separate joint, once the groove is glued
+  - glue or bond: the glued groove faces hold the angle (hot glue, contact cement, PVA, polyurethane glue or epoxy depending on material)
+  - let it move (turn, slide or bend): left unglued, the thin skin is a hinge, for example the control surfaces of foam-board planes (Model Aviation 'PAP-E') and the folds that shape a Flite Test fuselage before gluing
+- **motion**: flex: during assembly the thin skin bends through the fold angle, usually 90° (up to 90°, 135° or about 150° depending on the groove shape; Alucobond). none once glued. Left unglued as a hinge, it swings back and forth through the angle the groove allows ⚑ [uncertain for limits]. *(⚑ parts need confirming)*
+- **degrees_of_freedom**: 1 while folding (rotation about the line of the groove), 0 once glued. As an unglued hinge it has 1, plus some unwanted sideways give because the skin is thin and soft.
+- **special_behaviour**: 
+  - self-aligning or self-centring: the fold line is set by the groove, so the corner lands in the right place every time; Flite Test's 'B-style' fold 'will allow for a self-squaring assembly' (Flite Test, Fowl Flyer)
+  - none otherwise: once glued it is a rigid corner
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the groove faces are glued (hot glue in foam board, Fold 'N Fly; contact cement or glue in EVA, Food and Cosplay; PVA or other wood glue in plywood and veneer, woodweb and Fine Woodworking)
+  - shape (the parts interlock; form-fit): the uncut skin ties the two sides together, and in a square-groove fold one side rests on the other
+  - not a holding joint (it moves or passes on motion): when left unglued as a flexing hinge
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: the skin and glue line must be cut to separate it; aluminium composite folds are also permanent once bent ⚑ [uncertain] *(⚑ parts need confirming)*
+- **reuse_cycles**: once as a glued corner. As an unglued hinge in foam board, a moderate number of flexes before the paper skin tears; Flite Test spreads hot glue into the crease to 'create a rubber-like hinge and help keep your paper from tearing' ⚑ [uncertain: no cycle counts found]. Aluminium composite panels are folded once ⚑ [uncertain whether they can be refolded]. *(⚑ parts need confirming)*
+- **tools_needed**: Foam board and EVA foam: a sharp hobby knife or snap-off utility knife, a metal ruler and a cutting mat (Fold 'N Fly; Costumary), optionally a two-blade cutter for square grooves (Printables 'Foam Board Cutter - 3/16" Gap') or a rabbet cutter (Core77), and a glue gun or contact cement. Plywood and MDF: a router with a V-groove bit and fence (Fine Woodworking), or a table saw with the blade tilted to 45° (woodweb), plus glue, packing or blue tape and a band clamp. Aluminium composite: a router or CNC with a 90° V-groover with a 3 mm flat, or a panel saw with grooving accessories (Alucobond; Vitracore G2).
+- **seal**: none as a joint in foam or card, though a glued groove with a continuous outer skin has no gap at the corner; in aluminium composite the unbroken outer metal skin keeps rain off at the fold ⚑ [uncertain] *(⚑ parts need confirming)*
+- **load**: light to medium, depending on material. In foam board, a beveled or overlap fold with hot glue inside gives 'a very sturdy joint' (Fold 'N Fly). In plywood the glue joint is between end-grain bevels, which a Fine Woodworking reader questioned for strength ('100% end grain glue joints') ⚑ [uncertain]. It resists bending that closes the corner, but pulling it open puts the thin skin and glue line in peel, its weak direction ⚑ [uncertain]. Aluminium composite folds are used for fascia, wall cladding and column covers (Alucobond); if the groove cuts into the face skin, Vitracore suggests gluing an L angle down the back of the fold. *(⚑ parts need confirming)*
+- **adjustable**: no: the fold angle is set by the groove and fixed by the glue. A shallower or steeper groove gives a different angle (Alucobond).
+- **play_and_precision**: No play once glued. Accuracy depends on cutting the groove at a constant depth and on the line: Fold 'N Fly notes that with a score-and-fold or beveled fold the measured line is the inside or outside dimension, and the other side is about 5 mm (one board thickness) different; with the overlap fold either cut line can be the outer dimension. In plywood, keep using panels from the same sheet once the depth is set, because thickness varies (Fine Woodworking; woodweb). Woodweb's fabricators groove from the face down so the remaining skin is always the same.
+- **access_needed**: both sides: the groove is cut from the back and the fold is checked from the face; for veneered panels the face is taped before the groove is cut through from the back (woodweb)
+- **materials**: Suits sheets with a tough face layer or a tough, bendable core: paper-faced foam board (Fold 'N Fly; Flite Test; Core77), EVA foam, where the foam left at the bottom of the groove is the hinge (Food and Cosplay), plywood and MDF (Fine Woodworking), wood veneer, laminate and solid-surface tops (woodweb), and aluminium composite panels (Alucobond, Vitracore). Brittle materials and solid surface are cut right through and held by tape on the face instead (woodweb). Not suitable for fire-rated ALUCOBOND A2 (Alucobond). Glue choice depends on the material: foam board and polystyrene foams need foam-safe glues (hot glue, PVA, epoxy or foam-safe CA), because ordinary super glue and solvent glues melt polystyrene (Fold 'N Fly; Studio Matrx; Model Aviation 'PAP-E'); EVA foam is usually joined with contact cement (Costumary). Card and cardboard can also be folded this way ⚑ [uncertain: Fold 'N Fly says cardboard can substitute for foam board, but no source showed V-grooved card]. *(⚑ parts need confirming)*
+- **maker_difficulty**: moderate: easy in foam board and EVA with a sharp knife and a metal ruler, but the cut depth must be controlled so you don't cut through the skin (Fold 'N Fly's three-pass cutting method helps); in plywood it needs a router or table saw and test cuts to 'creep up to the perfect depth' (Fine Woodworking)
+
+### Making it
+
+- **processes**: 
+  - hand cut: foam board, EVA foam and card with a knife and metal ruler (Fold 'N Fly; Food and Cosplay)
+  - woodwork: router with a V-groove bit, or table saw with the blade at 45° (Fine Woodworking; woodweb)
+  - CNC: V-groovers and CNC routers for aluminium composite panels and production miterfolding (Alucobond; Vitracore; woodweb)
+  - 3D print (FDM): a flat print with V-shaped grooves and a thin skin of one or two layers can be folded up, like printed origami models ⚑ [uncertain for strength] *(⚑ parts need confirming)*
+- **print_in_place**: partly: a part can be printed flat with V-grooves leaving a thin flexible skin and folded up after printing, the same idea as printed 'origami' models with thin living-hinge layers (Printables 'Origami Valentine's Day Heart'), but folding and gluing are needed afterwards ⚑ [uncertain] *(⚑ parts need confirming)*
+- **making_tips_3d_printing**: 1) Print the part flat on the bed with the grooves facing up and the thin skin on the bed; the skin becomes the outside of the corner ⚑ [uncertain]. 2) Make the skin from a small number of layers: printed origami models from the same idea use a 0.2 mm hinge printed as two 0.1 mm layers that run in opposite directions, with the infill angle set so the filament runs across the fold line, and say 'PETG will likely yield more robust results, due to its greater flexibility' than PLA (Printables models 1190897 and 1473362). 3) Use a 90° V-groove for a 90° corner so the groove walls close flat for gluing, as in foam board (Fold 'N Fly) and composite panels (Alucobond). 4) Fold while the part is warm or right after printing, and bias the hinges gently before the first full fold (Printables model 1190897 links a video on how to 'bias the hinges') ⚑ [uncertain]. 5) Glue the closed groove with CA or epoxy if the corner must be rigid. 6) For a part that must fold many times, use a proper living hinge in polypropylene or PETG instead (see Living hinge). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Foam board (paper-faced polystyrene, usually about 5 mm thick, Fold 'N Fly; a builder's comment on Flite Test's Old Fogey article mentions a speed-build kit 'made out of waterproof foam board'); EVA foam sheet (2, 6 and 10 mm are common for cosplay; Costumary); V-groove router bits and 90° folding V-groove cutters for aluminium composite (Vitracore: '90 degree V-Groover with a 3mm flat'); foam-board rabbet cutters, e.g. Logan FoamWerks (brand) (Core77); two-blade foam-board cutters that use hobby knife blades; low-temperature glue guns (Fold 'N Fly); contact cement, e.g. Barge or DAP Weldwood (brands) (Costumary); clear packing tape and fibre-reinforced tape (Fold 'N Fly); blue painter's tape and a band clamp (Fine Woodworking).
+- **rules_of_thumb**: 
+  - Foam board score-and-fold depth: 'cut through the first layer of paper and some of the foam, but not into the bottom layer of paper'; after folding, the outside dimension is about 5 mm (one board thickness) more than the line measured (Fold 'N Fly).
+  - Foam board beveled fold: make a 45° cut on each side of the fold line without cutting into the bottom paper, so the two bevels close into a 90° corner; put a bead of hot glue in the joint and hold it at the right angle for a few seconds. The measured line is now the outside dimension, and the inside is about 5 mm less (Fold 'N Fly).
+  - Foam board overlap (square-groove) fold: two parallel cuts that leave the back paper intact, 'The distance between the two cuts should be the thickness of the foam board, usually 4-5mm'; peel the foam strip out, fold, and hot glue (Fold 'N Fly). A two-blade cutter for Flite Test plans holds two #11 blades 3/16 in apart and cuts 3/16 in deep, because 'their plans have you cut long straight edges exactly to this gap, so that the foam board will fold over perfectly' (Printables model 412271). A Core77 poster cuts 'two slits almost all the way through to the second sheet, 1/8" apart' and removes the foam.
+  - Cut foam board in several light passes: first the top paper, then the foam, then (for a through cut) the bottom paper; this teaches you how deep each cut is (Fold 'N Fly).
+  - Flite Test folds: the 'A-style' fold 'is designed to set the side walls on top of the bottom', while the 'B-style' fold 'simply folds up where the side wall is against the bottom' and gives a self-squaring fuselage; check the plans for which to use (Flite Test, Fowl Flyer Swappable). Spreading hot glue into the foam of a crease 'will create a rubber-like hinge and help keep your paper from tearing' (Flite Test, Old Fogey).
+  - Foam-board hinge left unglued: 'Make two parallel 3/8-inch cuts through the foam board, approximately 1/8-inch apart. Cut at an angle, but don't go through the last layer of paper, because it forms the hinge' (Model Aviation, 'PAP-E', 2000).
+  - EVA foam folded edge: draw the fold line on the underside, 'cut out a strip of the foam on either side at a 45 degree angle of the fold line', glue all the way down the gap, fold and hold until dry (Food and Cosplay, 2015). With contact cement, coat both surfaces, wait 3-5 minutes until tacky, then press; let it cure at least 30 minutes before stressing the joint; coating only one side gives 'maybe 30% of the bond strength' (Costumary).
+  - EVA curves are different: valley cuts halfway through the thickness, spaced 2-3 cm apart, bend the foam into a curve; 'Don't cut too deep or the foam will fold instead of curve' (Costumary). That belongs to kerf bending.
+  - Aluminium composite: rout a V-shaped or rectangular groove on the back, leaving 'a thin layer of the core material' on the inside of the outer skin; 90° V-groove for folds up to 90°, 135° V-groove up to 135°, rectangular groove up to 150° depending on panel thickness (Alucobond). 'Traditionally solid core ACP is grooved leaving approximately 0.3mm of core material remaining', using a 90° V-groover with a 3 mm flat; keep tools sharp, because blunt tooling raises heat and pressure and spoils the groove (Vitracore G2 Machining Guidelines v1.2).
+  - Plywood trays (Fine Woodworking): size the panel as the tray length and width plus the side height added to all four edges; set the router fence so the distance to the point of the V-bit equals the side height; creep up to the depth in several passes 'for easy folding without breaking'; cover the back of the grooves with blue tape before folding to avoid breakage; glue the grooves and hold with tape and a band clamp. Roy Underhill's hand method cuts the V 'just short of breaking through the opposite side'.
+  - Wood and veneer miterfold with tape (woodweb): cut 45° bevels with the face up on a table saw, put the edges together and tape the face with heavy packing tape, flip, glue, fold; don't use tape so aggressive that it pulls the face veneer off; for brittle materials cut right through 'and just slightly into the tape'.
+
+### When to use it
+
+- **everyday_examples**: 
+  - The square box fuselages of foam-board model planes, such as Flite Test scratch builds (Flite Test, Fowl Flyer and Old Fogey)
+  - Sharp ridges and folded edges on EVA foam cosplay armour without a visible seam (Food and Cosplay)
+  - Folded aluminium composite sign trays, fascia, wall cladding and column covers on shop fronts (Alucobond)
+  - Kitchen worktops and laminate tops with a seamless 'miterfolded' front edge and splashback, and small folded plywood trays (woodweb; Fine Woodworking)
+- **when_to_use**: Use a V-groove fold when you want a clean, seamless outside corner in sheet material and want the parts to line themselves up: the uncut skin keeps the sides in register while you glue, and the outside face (paper, veneer, laminate or metal) continues unbroken round the corner. It is the standard way to build boxes and fuselages from foam board (Fold 'N Fly; Flite Test), to make sharp folded edges in EVA foam armour (Food and Cosplay), to fold aluminium composite sign trays and cladding on site with a hand router (Alucobond), and to make quick folded plywood trays or veneered boxes with matched grain round the corners (Fine Woodworking; woodweb). It also saves cutting and aligning separate side pieces.
+- **when_not_to_use**: Avoid it for joints that must be taken apart: it is permanent once glued; use tab-and-slot, screws or hook-and-loop instead. Avoid it where the corner is pulled open or levered often, because the skin and glue line are weak in peel; add a glued strip, an L angle or a fillet inside (Vitracore suggests an L angle when the groove is cut too deep) ⚑ [uncertain]. For a hinge that flexes many times, use a tape hinge, a slot-in model hinge or a living hinge rather than a bare foam-board skin. For curves rather than a single sharp fold, use kerf bending (valley cuts) instead. For two separate pieces meeting at a corner, use a mitre, butt or rebate (rabbet) joint. Not for fire-rated ALUCOBOND A2 panels (Alucobond). *(⚑ parts need confirming)*
+- **environment_limits**: Hot glue softens in heat ('melts in heat', Costumary), so foam-board and EVA folds glued with it can let go in a hot car or in sun ⚑ [uncertain for temperatures]. Paper-faced foam board is weakened by damp, while plastic-faced and waterproof foam boards resist it (Fold 'N Fly mentions plastic coatings 'which can make it more durable and waterproof'). Solvent-based glues and paints melt polystyrene foam board (Fold 'N Fly; Studio Matrx). Aluminium composite folds are made for outdoor cladding (Alucobond). Wood and plywood corners move with humidity like any glued wood joint ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Sharp knives: use a sharp blade (blunt blades tear and need more force), keep the cap on when not cutting, cut on a mat, never on your lap, and keep fingers out of the path of a slipping blade; children should be supervised (Fold 'N Fly). Router bits and saws: V-grooving bits get very hot and dull fast (woodweb); follow the tool maker's guarding and push-stick advice and support the panel. Contact cement: use it only with good ventilation and, indoors, 'a proper half-face respirator with organic vapor cartridges', not a dust mask (Costumary); spray adhesives also give off harmful fumes (Fold 'N Fly). Hot glue: the nozzle and glue cause serious burns, and a gun left plugged in is a fire risk; low-temperature guns are kinder to foam (Fold 'N Fly). Heat guns used to shape EVA can burn the foam if held in one place (Food and Cosplay). Never use petrol or other solvents to lift foam-board paper, a suggestion seen on a forum (Core77).
+- **common_failures**: 1) Cutting through the skin, so the fold breaks apart: use several light passes (Fold 'N Fly), set the depth on scrap and creep up to it (Fine Woodworking), and tape the back of the groove before folding (Fine Woodworking); in brittle materials cut through on purpose and use tape as the hinge (woodweb). 2) Not cutting deep enough, so the fold won't close or the foam crushes and bulges at the inside corner: remove the full V or strip of foam (Fold 'N Fly). 3) A stair-stepped, rough corner from a plain score-and-fold: switch to a beveled or overlap fold (Fold 'N Fly). 4) The paper skin tearing at a repeatedly flexed foam-board hinge: spread hot glue into the crease or tape it (Flite Test, Old Fogey) ⚑ [uncertain for life]. 5) Glue melting the foam: use foam-safe glue, not ordinary super glue or solvent glue (Fold 'N Fly; Studio Matrx). 6) Weak EVA seam from pressing contact cement while still wet or coating only one side (Costumary). 7) Packing tape pulling veneer off when removed (woodweb). 8) Grooves of varying depth because the plywood thickness varies or the panel isn't flat (woodweb; Vitracore 'Groove on a flat even surface to ensure depth'). 9) Corners that are not square because the fold lines were measured to the wrong side; remember the board-thickness offset (Fold 'N Fly). *(⚑ parts need confirming)*
+- **related**: 
+  - Kerf bending: many partial cuts that bend a sheet into a curve, not one groove that folds it into a sharp corner (valley cuts in EVA belong there)
+  - Score-and-fold hinge (scored crease): a single cut or crease in card or foam board with no material removed; the V-groove fold removes a wedge so the corner closes neatly
+  - Living hinge: a moulded or printed thin web meant to flex many times; a V-groove skin is usually glued fixed
+  - Butt and lap wood joints (incl. mitre butt): join two separate pieces; a V-groove fold is a mitre joint made from one piece with the outer face left joined
+  - Housing and rebate (rabbet) joints: the two-piece version of the foam-board overlap fold (Core77 rabbet cutters)
+  - Glued joint design: covers the bevelled (mitred) seam between two separate EVA pieces
+  - Contact adhesive and hot-melt adhesive: the usual glues for EVA and foam-board folds
+  - Adhesive tape joint and tape hinge: tape across a seam or used as the hinge of a mitre fold in brittle materials
+  - Origami mechanisms (thick-panel origami): folding patterns in thick panels, where V-grooves or gaps make room for the panel thickness
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Foam Board Tools & Techniques (Fold 'N Fly)](https://www.foldnfly.com/lounge/foam-core-tools-techniques.php): Photos of score-and-fold, beveled-cut fold and overlap fold corners in foam board, plus cutting, gluing and taping techniques *(licence: link only (© foldnfly.com))*
+  - [Routing and Folding (Alucobond)](https://alucobond.com.sg/products/catalogue/processing-5/routing-and-folding-2/): Diagrams of 90° and 135° V-grooves and a rectangular groove in aluminium composite panel, and the fold angles each allows *(licence: link only)*
+  - [Easy-to-make plywood drawers and trays (Fine Woodworking)](https://www.finewoodworking.com/project-guides/boxes/easy-to-make-plywood-drawers-and-trays): Photos of routing V-grooves in a plywood panel with a V-groove bit and fence, and folding the sides up into a tray *(licence: link only)*
+  - [An Introduction to EVA Foam, part 2 (Food and Cosplay, 2015)](https://foodandcosplay.org/2015/07/03/an-introduction-to-eva-foam-part-2/): Photos of EVA armour pieces with folded edges made by cutting a 45° strip from the back and gluing the fold *(licence: link only)*
+  - [Fowl Flyer Swappable - Scratch Build (Flite Test)](https://www.flitetest.com/articles/Fowl_Flyer_Swappable_Scratch_Build): Build video and plans for a foam-board fuselage introducing the self-squaring 'B-style' fold beside the traditional 'A-style' fold *(licence: link only)*
+- **make_it_yourself**: 
+  - [Foam Board Cutter - 3/16" Gap (URL from Printables API, page not opened)](https://www.printables.com/model/412271-foam-board-cutter-316-gap): A 3D-printed holder for two #11 hobby blades 3/16 in apart that cuts 3/16 in deep, for the square-groove folds in Flite Test foam-board plans *(licence: CC BY-SA)*
+  - [Foam Board cutter (URL from Printables API, page not opened)](https://www.printables.com/model/306733-foam-board-cutter): A printed guide that holds a standard utility blade for straight, accurate cuts in 5 mm foam board; printed in PETG *(licence: CC BY-NC)*
+  - [Origami Valentine's Day Heart (URL from Printables API, page not opened)](https://www.printables.com/model/1190897-origami-valentines-day-heart): A flat print with thin two-layer hinge lines that folds up after printing; a way to try print-flat-then-fold hinges in PLA or PETG *(licence: CC BY-NC)*
+- **diagram_idea**: A cross-section sequence of a sheet: flat with a 90° V cut from the back leaving a thin skin; half folded with the skin bending; and folded to 90° with the two 45° faces meeting and a glue line, beside a second sequence for the foam-board overlap fold where a board-thickness strip is removed and the paper skin wraps the corner.
+- **sources**: 
+  - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php (score and fold, beveled cut folds, overlap fold, foam-safe glue, knife safety)
+  - https://foodandcosplay.org/2015/07/03/an-introduction-to-eva-foam-part-2/ (EVA folded edges; heat gun)
+  - https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942 (rabbet cutters, two slits 1/8 in apart, mitred cube)
+  - https://www.flitetest.com/articles/Fowl_Flyer_Swappable_Scratch_Build (A-style and B-style folds)
+  - https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build (hot glue in the crease as a rubber-like hinge; B and A folds; waterproof foam board comment)
+  - https://library.modelaviation.com/article/pap-e (foam-board hinge from angled cuts; foam-safe glues)
+  - https://alucobond.com.sg/products/catalogue/processing-5/routing-and-folding-2/ (routing-and-folding method, groove shapes and fold angles)
+  - https://blog.fv.com.au/hubfs/Fairview%202022/PDFs/Vitracore/Vitracore-G2-Machining-Guidelines-v1.2.pdf (ACP grooved leaving about 0.3 mm core; 90° V-groover with 3 mm flat)
+  - https://woodweb.com/knowledge_base/Miterfolds_for_clean_corner_joints.html (miterfolds in wood, veneer, laminate, solid surface, metal; tape method)
+  - https://www.finewoodworking.com/project-guides/boxes/easy-to-make-plywood-drawers-and-trays (V-grooved plywood trays)
+  - https://www.costumary.com/blog/eva-foam-clean-builds (EVA bevels, valley cuts, contact cement steps, respirator)
+  - https://www.studiomatrx.org/students/model-making/cutting-and-finishing (PVA foam-safe; solvent glue melts polystyrene foam; glue gun too hot for thin foam)
+  - https://api.printables.com/graphql/ (Printables API: models 412271, 306733, 193217, 148393, 1190897, 1473362)
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: glue gun, power tools, hand tools
+- **load_max**: medium
+- **usual_process**: by hand (tied or wrapped)
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: wood, plastic sheet, paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, paper or card, foam
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, motion, print_in_place, processes, removability, reuse_cycles, seal, when_not_to_use
+
+## 427 Jigsaw puzzle-edge joint (puzzle joint, interlocking tile edge)
+
+*interlocking joints & joinery.* Edges cut like jigsaw-puzzle pieces, so the shapes on one panel press into matching sockets on the next and lock them side by side with no glue, as on EVA foam floor and play mats
+
+*Also covers:* Also covers hidden snap-together tile edges and removable border strips. It resists pulling apart sideways but not lifting, so tiles separate on uneven floors or with heat and humidity changes. Overlaps the puzzle joints of split 3D prints (item 62).
+
+### What it is
+
+- **plain_name**: Edges cut like jigsaw-puzzle pieces, so the knobs on one sheet press down into matching holes on the next and the two lock side by side without glue, like foam play mats on a floor
+- **term**: Jigsaw puzzle-edge joint (puzzle joint, interlocking tile edge)
+- **aliases**: 
+  - puzzle joint / jigsaw joint
+  - puzzle mat, puzzle tile, interlocking foam mat or tile (flooring trade names; Greatmats)
+  - universal interlock (every edge of the tile has the same pattern, so tiles fit any way round; Greatmats)
+  - tab-and-blank edge: the knob is a 'tab' and the socket a 'blank' (Wikipedia, Jigsaw puzzle)
+  - hidden interlock / snap-together tile (the interlock sits under the surface; Greatmats)
+  - dovetail, T-shaped and triangular interlocks (other tooth shapes on PVC tiles; Greatmats)
+  - jigsaw-like suture (engineering research term for the same shape; Barthelat lab, McGill)
+  - rounded dovetail panel joint (Boxes.py 'JointPanel')
+- **family**: interlocking joints & joinery
+- **other_families**: snap & clip fits
+- **one_liner**: Two flat panels are cut along a matching wavy edge of rounded knobs and sockets, so pressing them together locks them side by side against being pulled apart, with no glue or fasteners.
+- **complexity**: Single piece per panel: the knobs (tabs) and sockets (blanks) are cut into the panel edges themselves. Floor-tile sets may add separate straight border strips that fill the sockets on the outside edges, and ramped edge strips (Greatmats; Printables).
+- **how_it_works**: Each knob is wider at its head than at its neck, so once it is pushed down into the matching socket the neck of the socket wraps round it and the two panels can't be pulled apart sideways in any direction in their own plane (shape lock, form-fit). The tiles are usually pushed together slightly tight, so friction and the springiness of foam or rubber keep the knob from lifting back out. Nothing stops a knob coming straight up out of its socket except that friction, so the joint is strong against sideways pulling but weak against lifting, peeling or bending at the seam, which is why tiles part on uneven floors (Greatmats). Engineering tests on 3D-printed jigsaw-shaped joints found that a larger locking angle and more friction make the tabs harder to pull out (Barthelat lab, reported by 3DPrint.com).
+
+### Finder attributes
+
+- **job**: join and hold: locks flat panels edge to edge with no glue, line parts up exactly: the knobs put each tile in the right place and keep the surface flush
+- **motion**: none
+- **degrees_of_freedom**: 0 in the plane of the panels (it can't slide or twist sideways); the one way out, lifting a knob straight up out of its socket, is held only by friction, and the seam can also bend a little like a hinge in foam tiles
+- **special_behaviour**: 
+  - self-aligning or self-centring: pressing the knobs into the sockets brings neighbouring tiles into line and flush
+  - quick-release: tiles come apart by hand by peeling at a seam (Greatmats), though they are not designed as a quick-release fixing
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): the knobs are wider than their necks, so they can't be pulled out sideways
+  - friction or clamping (force-fit): a snug fit and the springiness of foam or rubber hold the knob down in its socket
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: tiles pop out by pushing a finger in at the seam and peeling the tile out, or with a thin, narrow tool for dense or thick tiles (Greatmats); glued versions (e.g. a glued 3D-print or plywood puzzle seam) become permanent
+- **reuse_cycles**: many times: puzzle mats are meant to be taken up and put down again (Greatmats); the knobs of soft foam tiles stretch and loosen slowly with repeated use ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: none to assemble or take apart; a sharp utility knife and a straight edge to cut tiles to fit (Greatmats); a laser cutter, scroll saw, CNC router or 3D printer to make your own
+- **seal**: none: the seam is a cut line that lets water and dust through, although the tiles themselves may be waterproof (Greatmats)
+- **load**: light to medium: strong against pulling apart sideways (tension and shear in the plane of the tiles), which is all a floor of tiles needs to stay together under foot traffic; weak against lifting, peeling, bending or twisting the seam out of plane, so tiles can separate on uneven floors (Greatmats). Foam tiles do not stand up well to heavy furniture or moving chairs; rubber tiles take heavy gym weights (Greatmats). No strength figures found for floor tiles ⚑ [uncertain] *(⚑ parts need confirming)*
+- **adjustable**: no: the knob pattern fixes the position; tiles can be re-arranged or cut down, and with a 'universal' edge any tile fits any way round (Greatmats)
+- **play_and_precision**: small: a snug fit in foam and rubber; hand-cut wooden puzzles fit more loosely (Wikipedia, Jigsaw puzzle). It tolerates very little sideways offset (the knobs must match), but foam bends to follow small bumps in the floor before the seams start to open (Greatmats) ⚑ [uncertain] *(⚑ parts need confirming)*
+- **access_needed**: one side only (blind): tiles are pressed down from above; the edges must be reachable as each tile goes in
+- **materials**: Usually EVA foam (play, gym and martial-arts mats), carpet- or vinyl-topped foam, recycled rubber (gym and stable floors), PVC and polypropylene (garage and hidden-interlock tiles) (Greatmats); cardboard and wood (jigsaw puzzles; Wikipedia); laser-cut plywood, MDF and acrylic panels (Boxes.py JointPanel); 3D-printed PLA, PETG and TPU tiles (Printables). It suits flat sheets of even thickness that are springy enough to press together (foam, rubber, soft plastics) or cut precisely (laser, CNC). It works poorly in brittle sheets that crack at the narrow neck (e.g. thin acrylic) unless the fit is loose and glued ⚑ [uncertain] *(⚑ parts need confirming)*
+- **maker_difficulty**: easy to moderate: easy to use bought tiles; moderate to cut your own, because the knobs and sockets must match closely (use a laser cutter, CNC or 3D printer with test pieces; Boxes.py has a fit setting, and the ramp-strip designer says to print test pieces because every tooth profile is different)
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: EVA foam puzzle mats, rubber and PVC interlocking tiles, border strips
+  - laser cut: puzzle or rounded-dovetail edges to join sheets bigger than the laser bed (Boxes.py JointPanel)
+  - CNC: routed puzzle edges in plywood, MDF or foam ⚑ [uncertain]
+  - 3D print (FDM): interlocking tiles and edge ramps (Printables), and puzzle joints in split prints (see Split-part joints for large prints)
+  - woodwork: scroll-saw or fretsaw-cut jigsaw puzzles (Wikipedia)
+  - hand cutting of foam tiles with a utility knife (Greatmats) *(⚑ parts need confirming)*
+- **print_in_place**: no: each tile or panel is printed separately and pressed together afterwards
+- **making_tips_3d_printing**: 1) Print tiles flat, so the knob and its narrow neck lie in the layer plane and are not split between layers ⚑ [uncertain]. 2) Every tooth profile fits differently, so print small test pieces before committing to a full set (Printables, 'Interlocking Tile Transition Ramp Edge Strip'). 3) Give the joint a small clearance so it presses together by hand; for printed puzzle joints and a tunable fit, BOSL2's jigsaw and dovetail joiners have a slop setting (see Split-part joints for large prints, item 62, which covers puzzle joints in split prints). 4) For floor-style tiles that must flex and grip, print in TPU and set the softness with infill and walls (Printables, untested design); for edge ramps that will be walked on, use at least 6 top and bottom layers and up to 100% infill (Printables ramp strip). 5) The narrow neck of each knob is the weak point: keep it wide enough for at least several extrusion widths ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: EVA foam puzzle mats and play mats (2 x 2 ft tiles are common), martial-arts puzzle mats, interlocking rubber gym tiles, PVC hidden-interlock floor tiles, polypropylene snap-together garage tiles, interlocking carpet tiles, border strips and edge ramps (search 'interlocking foam mats' and 'interlocking floor tiles'; Greatmats catalogue)
+- **rules_of_thumb**: 
+  - Leave a 1/4 in (about 6 mm) gap between foam tiles and walls because foam flooring may expand with heat and humidity; cut edge tiles to leave that gap so the floor does not buckle (Greatmats installation guide)
+  - Lay tiles on a clean, hard, flat floor and start in a corner (Greatmats); uneven floors and big temperature and humidity swings make tiles separate (Greatmats buyers guide)
+  - To cut foam tiles, mark with a straight edge, score with several shallow passes until the tile folds, then finish from the other side with a sharp blade (Greatmats)
+  - Resistance to pull-out rises with the interlocking (locking) angle and the friction coefficient; tests found a higher locking angle with lower friction gave the best stiffness, energy absorption and strength (Barthelat lab, JMPS paper, as reported by 3DPrint.com)
+  - When a large laser-cut panel is split into pieces, cut each piece with its surrounding sheet so the burn (kerf) correction is right, and raise the burn value for a tighter fit (Boxes.py JointPanel)
+  - Print test pieces of the tooth profile before making a full set (Printables ramp strip)
+
+### When to use it
+
+- **everyday_examples**: EVA foam play mats and alphabet floor mats for children, gym, yoga and martial-arts puzzle mats; interlocking rubber gym floor tiles, jigsaw puzzles, PVC and plastic garage floor tiles that snap together
+- **when_to_use**: When many flat panels of the same thickness must be laid edge to edge quickly and taken up again: floor and play mats, workshop or exhibition floors, wall padding, modular game boards and terrain tiles, and big laser-cut or printed panels that are larger than the machine (Greatmats; Boxes.py). It needs no glue or tools and lines tiles up flush. EVA puzzle mats are also a cheap source of foam for cosplay costumes (Greatmats), where the puzzle edges are usually cut off.
+- **when_not_to_use**: When the joint will be lifted, bent or peeled (it only resists sideways pull): glue the seam, tape it underneath, or use a dovetail key, tongue-and-groove or a hidden snap-together tile instead. When the floor is not flat, or where heavy furniture, rolling chairs or high heels load foam tiles (Greatmats suggests rubber or snap-together tiles). When a seam must be watertight. For joining 3D-print pieces, see Split-part joints for large prints. For panels that must be taken apart often but held firmly, use clips or snap fits.
+- **environment_limits**: Foam tiles expand with heat and humidity, so leave a gap at walls or they buckle (Greatmats); widely varying temperature and humidity and an unlevel subfloor make interlocking tiles separate (Greatmats). Foam tiles dent and tear under heavy, concentrated loads (Greatmats). Wet areas need tiles that let water drain, such as perforated snap-together tiles (Greatmats). Soft foam knobs may slowly stretch and loosen with repeated assembly ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: EVA foam puzzle mats for children: in 2010 several EU countries found formamide (a substance toxic to reproduction) in foam toys such as puzzle mats, and the EU now limits formamide emissions from foam toy materials (Commission Directive (EU) 2015/2115), so buy children's mats that meet toy safety rules, air new mats out, and don't let small children chew them [the 'air out' and 'chew' advice is general caution, not from the directive]. Raised tile edges and corners lifting where tiles separate can be a trip hazard; finish open edges with border strips or ramps (Greatmats; Printables ramp strip) ⚑ [uncertain]. Utility knives used to cut tiles are sharp: use a straight edge and fresh blade (Greatmats). Vulcanised rubber tiles can smell strongly and need ventilation (Greatmats). *(⚑ parts need confirming)*
+- **common_failures**: 1) Tiles separate or seams open: level the floor, leave the expansion gap, and choose thicker, denser tiles (Greatmats). 2) Floor buckles: no gap left at the walls for expansion (Greatmats). 3) Knob necks tear in thin or low-density foam, or crack in brittle sheet: use thicker material or a wider neck ⚑ [uncertain]. 4) Home-made puzzle edges too tight (won't go together, or crack) or too loose (fall apart): cut or print test pieces and adjust the fit (Printables ramp strip; Boxes.py burn setting). 5) Seams lift at the edges of a floating floor: reattach the border strips (Greatmats). 6) Damaged tile: pop it out by the seam and press a new one in (Greatmats). *(⚑ parts need confirming)*
+- **related**: 
+  - Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins): the same puzzle edge on the cut faces of a 3D print, usually glued
+  - Dovetail joint and Sliding dovetail: wedge-shaped tails that lock in one sliding direction; a puzzle knob is a rounded dovetail pushed in from above
+  - Butterfly key (bowtie key): a separate double-dovetail piece let into both boards across a seam
+  - Tongue-and-groove joint: a lip along one edge into a groove in the next; stops lifting and keeps faces flush but does not lock against pulling apart
+  - Snap fits (cantilever snap fit): hidden snap-together floor tiles lock with springy hooks instead of puzzle knobs
+  - Japanese interlocking joints: many interlocking shapes in timber, usually in three dimensions
+  - Mechanical interlock: the general idea of joining by shape
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Jigsaw.svg (Amada44, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Jigsaw.svg): Simple drawing of a four-piece jigsaw puzzle showing the knobs (tabs) and sockets (blanks) *(licence: Public domain)*
+  - [Close up of Hand Cut Jigsaw Puzzle (Charles Hamm, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Close_up_of_Hand_Cut_Jigsaw_Puzzle.JPG): Close-up photo of hand-cut puzzle pieces locked together *(licence: CC BY 3.0)*
+  - [Puzzle Mat Buyers Guide (Greatmats)](https://www.greatmats.com/puzzle-mat-buyers-guide.php): Photos of EVA foam, rubber and carpet puzzle mats and their jigsaw edges; FAQ on why tiles separate, cutting tiles and other uses *(licence: link only)*
+  - [Foam Puzzle Mat Installation for 2x2 Mats with Universal Interlocks (Greatmats)](https://greatmats.com/foam-mats/puzzle-mat-installation-video-for-2x2-mats-with-universal-interlocks.php): Installation video and steps: expansion gap, removing and refitting border strips, cutting tiles *(licence: link only)*
+  - [McGill University Researchers Use 3D Printing to Develop Bio-Inspired Interlocking Sutures (3DPrint.com)](https://3dprint.com/167501/3d-print-interlocking-structures/): Figures of 3D-printed jigsaw-shaped interlocking tabs under tension test, showing how tabs pull out *(licence: link only)*
+- **make_it_yourself**: 
+  - [JointPanel (Boxes.py)](https://boxes.hackerspace-bamberg.de/JointPanel): Online generator that splits a panel larger than your laser cutter into pieces joined by dovetails with rounded corners (puzzle-style), with settings for tail size, angle, depth and burn (fit) *(licence: GPL-3.0 (Boxes.py software, per its LICENSE.txt on GitHub))*
+  - [Interlocking Tile Transition Ramp Edge Strip (madonius, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1834980-interlocking-tile-transition-ramp-edge-strip): Parametric OpenSCAD/BOSL2 ramp strip that clips into the puzzle edge of bought floor tiles; tooth profile and height are adjustable *(licence: CC BY-NC-SA)*
+  - [GridLink 5012 Jigsaw Tiles for Flat Panels, Boxes, Doors (GateIron, LLC, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1305626-gridlink-5012-jigsaw-tiles-for-flat-panels-boxes-d): Modular printed panels with visible jigsaw connectors for building boxes, panels and drawers *(licence: CC BY-NC-SA)*
+- **diagram_idea**: Two foam tiles seen from above with knobs and sockets, arrows showing they can't be pulled apart sideways, then a side view showing one tile lifting straight up and its knob slipping out of the socket.
+- **sources**: 
+  - https://www.greatmats.com/puzzle-mat-buyers-guide.php
+  - https://www.greatmats.com/interlocking-floor-mats/puzzle-vs-snap-together-interlocking-floor-tile.php
+  - https://greatmats.com/foam-mats/puzzle-mat-installation-video-for-2x2-mats-with-universal-interlocks.php
+  - https://www.greatmats.com/how-to-replace-foam-floor-tiles.php
+  - https://en.wikipedia.org/wiki/Jigsaw_puzzle
+  - https://commons.wikimedia.org/wiki/File:Jigsaw.svg
+  - https://commons.wikimedia.org/wiki/File:Close_up_of_Hand_Cut_Jigsaw_Puzzle.JPG
+  - https://3dprint.com/167501/3d-print-interlocking-structures/
+  - https://www.legislation.gov.uk/eudr/2015/2115/data.htm?view=plain
+  - https://boxes.hackerspace-bamberg.de/JointPanel
+  - https://api.printables.com/graphql/
+  - https://raw.githubusercontent.com/florianfesti/boxes/master/LICENSE.txt
+
+### Finder tags
+
+- **connects**: boards or sheet, lid, door or cover
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, power tools, hand tools
+- **load_max**: medium
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: paper, card or foam board, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, paper or card, foam
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, play_and_precision, processes, reuse_cycles, safety_notes
 

@@ -1,6 +1,6 @@
 # seals & pass-throughs: Seals out water and dust, or carries cables and fluid across a joint
 
-16 entries. ⚑ = needs confirming: 11 best guesses and 5 values from text marked [uncertain]
+16 entries. ⚑ = needs confirming: 12 best guesses and 5 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -27,6 +27,7 @@ are welcome. Back to the [index](README.md).
 
 The script was unsure of these values.
 
+- ⚑ **131 Gasket**, `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, glass or mirror, fabric, leather or cord: still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Rubber seals on glass jar lids and flip-tops (Wikipedia "Flip-top": "fitted with a rubber gasket").  The JSON itself has no glass quote.
 - ⚑ **132 Labyrinth seal**, `load_max` = medium: no light/medium/heavy band in `load`; defaulted to medium
 - ⚑ **133 Hose barb**, `clicks` = clicks: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
 - ⚑ **133 Hose barb**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes

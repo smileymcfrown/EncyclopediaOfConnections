@@ -85,6 +85,8 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal]
 needs_confirming:
   tools:
     kind: source uncertain

@@ -93,7 +93,8 @@
       "Ratchet and pawl: steps a toothed wheel from a back-and-forth input and can stop it turning backwards",
       "Spur gear pair: the full-toothed version, which turns continuously",
       "Rack and pinion: with a part-toothed pinion driving two racks in turn it gives back-and-forth straight motion (507 Mechanical Movements no. 114)",
-      "Escapement: releases a spring- or weight-driven wheel one tooth at a time"
+      "Escapement: releases a spring- or weight-driven wheel one tooth at a time",
+      "Bevel splitter and counter-rotating drive (three-way bevel gearbox): one bevel gear driving two facing bevel gears; with a part-toothed input it gives stop-and-go motions in opposite directions"
     ]
   },
   "media": {

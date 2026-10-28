@@ -92,6 +92,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   clicks:
     kind: best guess
@@ -196,13 +198,39 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: lamina-emergent-torsional-joint.webp
+  title: Christmas Ornament - Compliant LET Joints
+  author: BYU CMR
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/581030-christmas-ornament-compliant-let-joints
+  site: Printables
+  alt: A 3D-printed Christmas ornament hanging on a tree, its strips of slotted LET joints twisted up out of the flat to form
+    a globe around a small tree.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: lamina-emergent-torsional-joint-0c75ff.webp
+  title: Christmas Ornament - Compliant LET Joints
+  author: BYU CMR
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/581030-christmas-ornament-compliant-let-joints
+  site: Printables
+  alt: The same ornament lying flat on the 3D printer bed as printed, showing the long strips of slotted torsion joints before
+    they are bent up.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [backlash, detent, torque, stiffness, flexure, compliant-mechanism, living-hinge, deflection, torsion, clearance,
   creep, fatigue, brittle--ductile, infill, print-in-place, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/lamina-emergent-torsional-joint.svg"><img src="../media/drawn/anim/lamina-emergent-torsional-joint.svg" alt="A lamina emergent torsional joint: on the left, a flat sheet seen from above with slots cut so two panels are joined only by four thin torsion bars and two end pieces; on the right, an end view folded to 60 degrees with the end piece turned half that, and a spring diagram of two bars and an end piec"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/lamina-emergent-torsional-joint.webp" alt="Render of a lamina emergent torsional joint in laser-cut plywood: one sheet with long slots cut along the fold line, its right panel folded up at an angle while the thin strips left between the slots twist to let it bend." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/lamina-emergent-torsional-joint.webp" alt="Render of a lamina emergent torsional joint in laser-cut plywood: one sheet with long slots cut along the fold line, its right panel folded up at an angle while the thin strips left between the slots twist to let it bend." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lamina-emergent-torsional-joint.webp" alt="A 3D-printed Christmas ornament hanging on a tree, its strips of slotted LET joints twisted up out of the flat to form a globe around a small tree." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/581030-christmas-ornament-compliant-let-joints">Christmas Ornament - Compliant LET Joints</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/lamina-emergent-torsional-joint-0c75ff.webp" alt="The same ornament lying flat on the 3D printer bed as printed, showing the long strips of slotted torsion joints before they are bent up." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/581030-christmas-ornament-compliant-let-joints">Christmas Ornament - Compliant LET Joints</a> by BYU CMR, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A hinge made only by cutting slots in a flat sheet: the strips left between the slots twist like tiny [torsion](../glossary.md#torsion) springs, so one side of the sheet can rotate up out of the plane while the whole thing stays one piece and springs back toward flat.

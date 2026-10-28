@@ -83,6 +83,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
@@ -316,6 +318,7 @@ Never trust a sewn-on part or home-sewn joint to hold a person (climbing, harnes
 - Hot-melt adhesive (glue gun), contact adhesive and elastomeric flexible craft glue: the glue-on alternatives; faster, but they can peel, stiffen or soak through fabric
 - Lacing (cord through rows of holes or eyelets): cord through holes in both pieces, adjustable and removable
 - Leather and textile rivets: a permanent metal fixing through part and fabric instead of thread
+- Baked-in findings: metal loops, posts and bails set into polymer clay before baking, the clay-jewellery way to give a part something to hang or attach by
 
 ## Make it yourself
 

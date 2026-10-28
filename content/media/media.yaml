@@ -1,5 +1,18 @@
 # Pictures copied by tools/fetch_images.py, per page in the order shown (licence and author read
 # from each file's own page). Each entry page shows the credit line under its picture.
+adhesive-tape-joint-and-tape-hinge:
+- src: File:Filament tape - 01.jpg
+  file: adhesive-tape-joint-and-tape-hinge.webp
+  width: 339
+  height: 300
+  title: File:Filament tape - 01.jpg
+  author: Phliar
+  license: CC BY-SA 2.5
+  license_url: https://creativecommons.org/licenses/by-sa/2.5
+  source: https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg
+  site: Wikimedia Commons
+  alt: Strips of clear filament tape wrapped over the joint between two foam parts of a model aeroplane, holding them together.
+  kind: how-it-works
 air-bearing-and-air-caster:
 - src: File:Aircaster.gif
   file: air-bearing-and-air-caster.webp
@@ -16,6 +29,19 @@ air-bearing-and-air-caster:
   site: Wikimedia Commons
   still: air-bearing-and-air-caster.still.webp
   kind: animation
+- src: web:printables-386417-2
+  file: air-bearing-and-air-caster-c7a377.webp
+  width: 800
+  height: 533
+  title: Hovercraft V2 - balloon powered
+  author: uhltimate
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
+  site: Printables
+  alt: A 3D-printed balloon hovercraft, an orange base with a blown-up balloon fitted on top, whose air escapes underneath
+    so the base floats on a thin cushion of air.
+  kind: how-it-works
 air-logic-valve:
 - src: File:Shuttle valve action principle cross section.gif
   file: air-logic-valve.webp
@@ -149,6 +175,33 @@ anaerobic-adhesive:
   site: Wikimedia Commons
   alt: A small red bottle of Loctite 243 thread-locking liquid with a white nozzle cap.
   kind: photo
+annular-snap-fit:
+- src: web:printables-12804-1
+  file: annular-snap-fit.webp
+  width: 800
+  height: 600
+  title: Parametric Snap-on Lid
+  author: Chris
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/12804-parametric-snap-on-lid
+  site: Printables
+  alt: A 3D-printed grey lid snapped onto the round rim of a food can, held on by a ring-shaped snap fit.
+  kind: how-it-works
+anti-twister-mechanism:
+- src: web:printables-1128267-1
+  file: anti-twister-mechanism.webp
+  width: 800
+  height: 1067
+  title: 4pi Spin-½ Symmetry Demonstrator Anti-Twister Mechanism
+  author: Elequant
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
+  site: Printables
+  alt: A 3D-printed anti-twister demonstrator, a black geared base turning a post with a cube on top while a dark ribbon loops
+    from the base up to the cube without twisting.
+  kind: how-it-works
 automatic-siphon:
 - src: File:AutoSifon 110-50-20.jpg
   file: automatic-siphon.webp
@@ -742,6 +795,33 @@ bevel-gears:
   alt: A pair of big red-painted bevel gears on an old grain mill, one gear's teeth fitted with wooden inserts, meshing at
     a right angle.
   kind: photo
+bevel-splitter-and-counter-rotating-drive:
+- src: web:printables-120260-6
+  file: bevel-splitter-and-counter-rotating-drive.webp
+  width: 800
+  height: 600
+  title: 'Kinetic sculpture: contra rotating discs'
+  author: Mcchat
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/120260-kinetic-sculpture-contra-rotating-discs
+  site: Printables
+  alt: A 3D-printed gearbox in a bronze-coloured frame where one blue bevel gear drives two facing bevel gears, which turn
+    two shafts in opposite directions.
+  kind: how-it-works
+- src: web:printables-120260-2
+  file: bevel-splitter-and-counter-rotating-drive-eee6a9.webp
+  width: 800
+  height: 600
+  title: 'Kinetic sculpture: contra rotating discs'
+  author: Mcchat
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/120260-kinetic-sculpture-contra-rotating-discs
+  site: Printables
+  alt: A 3D-printed kinetic sculpture with blue and yellow discs on one axis that turn against each other, driven by a bevel
+    gearbox at the back.
+  kind: photo
 binding-knots-and-seizings:
 - src: File:Constrictor-ABOK-1249.jpg
   file: binding-knots-and-seizings.webp
@@ -819,6 +899,31 @@ binding-post-and-banana-plug:
     plug.
   kind: photo
 bistable-compliant-mechanism:
+- src: web:printables-604690-2
+  file: bistable-compliant-mechanism-8bb551.webp
+  width: 800
+  height: 600
+  title: Bistable Auxetic Structure (Parametric with OpenSCAD)
+  author: ahaque
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/604690-bistable-auxetic-structure-parametric-with-opensca
+  site: Printables
+  alt: Two photos side by side of the same 3D-printed bistable sheet, on the left snapped into a domed shape and on the right
+    lying flat.
+  kind: how-it-works
+- src: web:printables-488317-1
+  file: bistable-compliant-mechanism-9f7e80.webp
+  width: 768
+  height: 1024
+  title: Hinged Bistable switch
+  author: Gamma4D
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/488317-hinged-bistable-switch
+  site: Printables
+  alt: A grey 3D-printed one-piece bistable switch shaped like a lever, with a thin bending spring section inside it.
+  kind: photo
 - src: File:Bistable compliant switch mechanism.png
   file: bistable-compliant-mechanism.webp
   width: 800
@@ -908,6 +1013,19 @@ blind-threaded-fixings:
   source: https://commons.wikimedia.org/wiki/File:Blindnietmutter.jpg
   site: Wikimedia Commons
   alt: A stainless steel rivet nut seen from the side and from the end, a short ribbed tube with a flange and a threaded hole.
+  kind: photo
+bonded-tube-joint:
+- src: File:Bamboo bike frame Bamboosero.jpg
+  file: bonded-tube-joint.webp
+  width: 800
+  height: 533
+  title: File:Bamboo bike frame Bamboosero.jpg
+  author: Noah Scalin
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg
+  site: Wikimedia Commons
+  alt: A handmade bamboo bicycle frame whose tube joints are wrapped in resin-soaked fibre, held up at a bike show.
   kind: photo
 bowden-cable:
 - src: File:Bowden.jpg
@@ -1142,6 +1260,20 @@ cable-gland-and-strain-relief:
   site: Wikimedia Commons
   alt: Several thick cables entering the top of a metal box through black plastic cable glands.
   kind: how-it-works
+cable-splitter:
+- src: File:Detangler.JPG
+  file: cable-splitter.webp
+  width: 629
+  height: 870
+  title: File:Detangler.JPG
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Detangler.JPG
+  site: Wikimedia Commons
+  alt: Close-up of a BMX bike's detangler under the handlebars, where the brake cable splits to pull the rotating plate from
+    both sides.
+  kind: how-it-works
 cable-through-a-hinge:
 - src: openverse:454b0958-fb82-43e8-81b0-062fe355ae13
   file: cable-through-a-hinge.webp
@@ -1347,6 +1479,20 @@ capstan-and-windlass:
   site: Wikimedia Commons
   alt: A wooden windlass beside a Cornish cove, a horizontal drum turned by long bars, used to haul boats up the slipway.
   kind: photo
+capstan-cable-drive:
+- src: web:printables-470672-1
+  file: capstan-cable-drive.webp
+  width: 800
+  height: 430
+  title: Capstan gear for delta-robot
+  author: holgersindbaek
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/470672-capstan-gear-for-delta-robot
+  site: Printables
+  alt: Close-up of a delta-robot joint with a small black drum wrapped in several turns of cable between clear acrylic plates,
+    driven by a motor through a shaft coupling.
+  kind: how-it-works
 captive-nut-pocket:
 - src: openverse:20eba310-40d2-4ec1-a1f2-110d85ad42f9
   file: captive-nut-pocket.webp
@@ -1359,6 +1505,31 @@ captive-nut-pocket:
   source: https://www.flickr.com/photos/68272764@N05/8362079991
   site: Flickr via Openverse
   alt: Grey 3D-printed brackets whose flat base has a six-sided pocket at each end, shaped to hold a nut so it can't turn
+  kind: photo
+cardboard-screws-and-rivets:
+- src: web:printables-752677-5
+  file: cardboard-screws-and-rivets.webp
+  width: 800
+  height: 533
+  title: CardBoard Hinge compatible makedo
+  author: HuKru
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/752677-cardboard-hinge-compatible-makedo
+  site: Printables
+  alt: A green 3D-printed hinge fixed across two pieces of corrugated cardboard with round blue plastic cardboard screws.
+  kind: how-it-works
+- src: web:printables-10184-3
+  file: cardboard-screws-and-rivets-015f2f.webp
+  width: 800
+  height: 600
+  title: Zip tie cardboard connector
+  author: Zoid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/10184-zip-tie-cardboard-connector
+  site: Printables
+  alt: Four red 3D-printed round cardboard connectors with a slot through the middle for a zip tie, lying on a table.
   kind: photo
 castor:
 - src: File:Swivel caster.jpg
@@ -1616,6 +1787,30 @@ clamp-on-accessory-mount-for-bars-poles-and-edges:
   alt: A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light.
   site: Wikimedia Commons
   kind: photo
+- src: web:printables-1196715-7
+  file: clamp-on-accessory-mount-for-bars-poles-and-edges-94a3a4.webp
+  width: 800
+  height: 600
+  title: Parametric pipe clamp with quick release, fully adjustable in FreeCAD
+  author: Andreas Larsen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1196715-parametric-pipe-clamp-with-quick-release-fully-adj
+  site: Printables
+  alt: A turquoise 3D-printed clip clamped round the neck of a kitchen tap, holding a knitted dishcloth.
+  kind: how-it-works
+- src: web:printables-1196715-4
+  file: clamp-on-accessory-mount-for-bars-poles-and-edges-790fe5.webp
+  width: 800
+  height: 600
+  title: Parametric pipe clamp with quick release, fully adjustable in FreeCAD
+  author: Andreas Larsen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1196715-parametric-pipe-clamp-with-quick-release-fully-adj
+  site: Printables
+  alt: A pink 3D-printed hinged clamp closed round a steel pole.
+  kind: photo
 clamp-on-tube-fittings:
 - src: File:Basic kee klamp.jpg
   file: clamp-on-tube-fittings.webp
@@ -1655,6 +1850,33 @@ clevis-joint:
   alt: A drawing of a U-shaped clevis with a pin through both ears, held in by a split pin.
   site: Wikimedia Commons
   kind: diagram
+click-pen-mechanism:
+- src: web:printables-695673-2
+  file: click-pen-mechanism.webp
+  width: 800
+  height: 600
+  title: Ballpoint pen's click mechanism (Latch mechanism V3)
+  author: Adam
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3
+  site: Printables
+  alt: The parts of a 3D-printed click-pen mechanism laid out on a table, a grey slotted housing, a black push button, an
+    orange rotating cam with its spring, a base plate and screws.
+  kind: how-it-works
+- src: web:printables-695673-1
+  file: click-pen-mechanism-c26a32.webp
+  width: 749
+  height: 649
+  title: Ballpoint pen's click mechanism (Latch mechanism V3)
+  author: Adam
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3
+  site: Printables
+  alt: A large 3D-printed click-pen mechanism model, a grey housing with windows showing the orange rotating cam inside and
+    a black push button on top.
+  kind: photo
 clinching:
 - src: File:TOX Pressotechnik Clinching.gif
   file: clinching.webp
@@ -1850,7 +2072,60 @@ combination-lock:
   site: Flickr via Openverse
   alt: Close-up of the black numbered dial of a combination padlock, with the steel shackle behind it.
   kind: photo
+compliant-detent:
+- src: web:printables-274563-2
+  file: compliant-detent.webp
+  width: 759
+  height: 682
+  title: Print-in-place Rotary Fidget Detent Knob with detent strength options
+  author: Y Ibrahim
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/274563-print-in-place-rotary-fidget-detent-knob-with-dete
+  site: Printables
+  alt: A 3D-printed rotary detent knob seen from above, with an outer ring of notches and springy curved arms on the inner
+    hub that click into them.
+  kind: how-it-works
+- src: web:printables-274563-1
+  file: compliant-detent-05bf0c.webp
+  width: 800
+  height: 793
+  title: Print-in-place Rotary Fidget Detent Knob with detent strength options
+  author: Y Ibrahim
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/274563-print-in-place-rotary-fidget-detent-knob-with-dete
+  site: Printables
+  alt: Two 3D-printed print-in-place rotary detent knobs, one showing its notched ring and springy arms and the other with
+    a raised centre button.
+  kind: photo
 compliant-gripper-and-force-amplifier:
+- src: web:printables-473734-1
+  file: compliant-gripper-and-force-amplifier-beb63e.webp
+  width: 800
+  height: 600
+  title: Compliant pliers
+  author: Codeman3000
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/473734-compliant-pliers
+  site: Printables
+  alt: Two green 3D-printed one-piece compliant pliers, one open and one squeezed shut holding a memory card adapter in its
+    jaws.
+  kind: how-it-works
+- src: web:printables-499739-1
+  file: compliant-gripper-and-force-amplifier-ce79e8.webp
+  width: 800
+  height: 600
+  title: Compliant parallel Clamp
+  author: Jack
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/499739-compliant-parallel-clamp
+  site: Printables
+  alt: An orange 3D-printed one-piece compliant parallel clamp, a ring with flexing zigzag arms whose jaws grip a thin white
+    strip.
+  kind: photo
 - src: File:Compliant plier mechanism.png
   file: compliant-gripper-and-force-amplifier.webp
   width: 800
@@ -1863,6 +2138,32 @@ compliant-gripper-and-force-amplifier:
   alt: The outline of a one-piece compliant plier, long handle arms joined to short jaws by thin bending sections.
   site: Wikimedia Commons
   kind: diagram
+compliant-one-piece-latch:
+- src: web:printables-782128-2
+  file: compliant-one-piece-latch.webp
+  width: 800
+  height: 613
+  title: Latching Box, Parametric Print in Place
+  author: Windrose
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/782128-latching-box-parametric-print-in-place
+  site: Printables
+  alt: A blue 3D-printed print-in-place box closed and held shut by the latch on its front.
+  kind: how-it-works
+- src: web:printables-782128-1
+  file: compliant-one-piece-latch-484fc4.webp
+  width: 800
+  height: 669
+  title: Latching Box, Parametric Print in Place
+  author: Windrose
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/782128-latching-box-parametric-print-in-place
+  site: Printables
+  alt: A group of 3D-printed print-in-place boxes in several colours and sizes, each with a latch on the front, one open to
+    show the inside.
+  kind: photo
 compliant-ratchet-and-overrunning-clutch:
 - src: File:ZipTieCrossSection.JPG
   file: compliant-ratchet-and-overrunning-clutch.webp
@@ -2073,6 +2374,31 @@ contact-adhesive:
   site: Wikimedia Commons
   alt: A yellow tube of Butapren contact adhesive with a black cap.
   kind: photo
+copper-foil-joint:
+- src: File:CopperFoil glasswork soldering.jpg
+  file: copper-foil-joint.webp
+  width: 800
+  height: 600
+  title: File:CopperFoil glasswork soldering.jpg
+  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_soldering.jpg
+  site: Wikimedia Commons
+  alt: A soldering iron running solder along the copper-foiled seams of a glass butterfly laid out on a board.
+  kind: how-it-works
+- src: File:CopperFoil glasswork wrapped before soldering.jpg
+  file: copper-foil-joint-dc81f9.webp
+  width: 800
+  height: 600
+  title: File:CopperFoil glasswork wrapped before soldering.jpg
+  author: No machine-readable author provided. Rickjpelleg assumed (based on copyright claims).
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:CopperFoil_glasswork_wrapped_before_soldering.jpg
+  site: Wikimedia Commons
+  alt: Pieces of red and grey glass for a butterfly, each edge wrapped in copper foil and fitted together before soldering.
+  kind: how-it-works
 cord-lock:
 - src: File:Cord-lock.jpg
   file: cord-lock.webp
@@ -2288,6 +2614,19 @@ dampers:
   source: https://commons.wikimedia.org/wiki/File:Hinge_on_kitchen_cabinet_with_soft_closing_mechanism.jpg
   site: Wikimedia Commons
   alt: A kitchen cabinet door hinge with a small soft-close damper cylinder fitted beside it to slow the door as it shuts.
+  kind: how-it-works
+detent-hinge:
+- src: web:printables-180362-3
+  file: detent-hinge.webp
+  width: 800
+  height: 600
+  title: Clicking Hinge
+  author: BaGooN
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/180362-clicking-hinge
+  site: Printables
+  alt: A blue 3D-printed arm made of several clicking hinges standing up and holding a bent pose on its own.
   kind: how-it-works
 diaphragm-pump-and-squeeze-bulb:
 - src: File:Diaphragm pump animated.gif
@@ -2693,6 +3032,33 @@ eddy-current-brake:
   alt: A bullet-train wheel set with a large eddy-current disc brake fitted on the axle, its electromagnet unit beside the
     disc.
   kind: photo
+elastic-averaging:
+- src: web:printables-116754-3
+  file: elastic-averaging.webp
+  width: 800
+  height: 749
+  title: Lego compatible Bricks all sizes upto 50x50!
+  author: FLWE
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/116754-lego-compatible-bricks-all-sizes-upto-50x50
+  site: Printables
+  alt: 3D-printed LEGO-compatible bricks in red, yellow, white and beige stacked into one stepped block, held by many studs
+    at once.
+  kind: how-it-works
+- src: web:printables-116754-1
+  file: elastic-averaging-2f0a66.webp
+  width: 800
+  height: 588
+  title: Lego compatible Bricks all sizes upto 50x50!
+  author: FLWE
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/116754-lego-compatible-bricks-all-sizes-upto-50x50
+  site: Printables
+  alt: Four red 3D-printed LEGO-compatible bricks of different sizes on a dark surface, showing their studs and the tubes
+    underneath.
+  kind: photo
 elastic-band-and-elastic-cord-springs:
 - src: openverse:30ec9aac-f844-4a58-a14e-77da1ef12dfd
   file: elastic-band-and-elastic-cord-springs.webp
@@ -2717,6 +3083,19 @@ elastic-band-and-elastic-cord-springs:
   source: https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
   site: Wikimedia Commons
   alt: Several coloured bungee cords, stretchy elastic straps with a metal hook at each end, laid out beside a ruler.
+  kind: photo
+elastic-strung-ball-joint:
+- src: File:Elbow and wrist joint of male ball-jointed doll.jpg
+  file: elastic-strung-ball-joint.webp
+  width: 800
+  height: 1048
+  title: File:Elbow and wrist joint of male ball-jointed doll.jpg
+  author: Anna Frodesiak
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Elbow_and_wrist_joint_of_male_ball-jointed_doll.jpg
+  site: Wikimedia Commons
+  alt: The white resin arm of a ball-jointed doll, showing the round ball joints at the elbow and wrist.
   kind: photo
 elastomer-isolation-mount:
 - src: File:Schwingungsdämpfer Aufbau.jpg
@@ -3007,6 +3386,45 @@ eyelets-and-grommets:
   site: Wikimedia Commons
   alt: Large curtain grommets in round, square and hexagon shapes set into red fabric.
   kind: photo
+fillet-and-tape-joint:
+- src: File:Canoe stitch and glue.jpg
+  file: fillet-and-tape-joint.webp
+  width: 655
+  height: 729
+  title: File:Canoe stitch and glue.jpg
+  author: Kevin Saff
+  license: CC BY-SA 2.0
+  license_url: https://creativecommons.org/licenses/by-sa/2.0
+  source: https://commons.wikimedia.org/wiki/File:Canoe_stitch_and_glue.jpg
+  site: Wikimedia Commons
+  alt: A plywood canoe upside down on a deck, its panels pulled together along the seams with rows of wire stitches before
+    gluing.
+  kind: how-it-works
+fin-ray-gripper:
+- src: web:printables-621918-1
+  file: fin-ray-gripper.webp
+  width: 800
+  height: 600
+  title: Fin Ray Adaptive gripper for Gobilda pattern
+  author: SPIDERMONK
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/621918-fin-ray-adaptive-gripper-for-gobilda-pattern
+  site: Printables
+  alt: A robot gripper with two green 3D-printed fin-ray fingers bending inwards to wrap around a blue plastic cone.
+  kind: how-it-works
+- src: web:printables-621918-2
+  file: fin-ray-gripper-33446a.webp
+  width: 800
+  height: 600
+  title: Fin Ray Adaptive gripper for Gobilda pattern
+  author: SPIDERMONK
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/621918-fin-ray-adaptive-gripper-for-gobilda-pattern
+  site: Printables
+  alt: A green 3D-printed fin-ray finger, a long hollow triangle with cross ribs, lying on a blue mat.
+  kind: photo
 finger-joint:
 - src: File:Finger joint 20180321.jpg
   file: finger-joint.webp
@@ -3121,6 +3539,20 @@ flat-flexible-cable-and-latching-connector:
   alt: A length of flat flexible cable, a thin plastic strip with many fine copper conductors side by side, curving across
     a table.
   kind: photo
+flexible-beam-coupling:
+- src: web:printables-132287-1
+  file: flexible-beam-coupling.webp
+  width: 800
+  height: 600
+  title: Con-Helical Flexible Coupler
+  author: LoboCNC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/132287-con-helical-flexible-coupler
+  site: Printables
+  alt: Two blue 3D-printed slotted shaft couplings, one fitted on a motor shaft, with a small cut-away picture in the corner
+    showing the slots inside.
+  kind: how-it-works
 flexible-drive-shaft:
 - src: File:2008-05-06 1990 Geo Storm GSi speedometer cable.jpg
   file: flexible-drive-shaft.webp
@@ -3296,6 +3728,20 @@ folding-blade-lock:
   site: Wikimedia Commons
   alt: The handle of a frame-lock knife, where the split metal frame springs in behind the open blade.
   kind: photo
+folding-box-closures:
+- src: web:printables-1385974-1
+  file: folding-box-closures.webp
+  width: 800
+  height: 539
+  title: Laser-Cut, Scored, Folding Box Template
+  author: Make it Reality
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1385974-laser-cut-scored-folding-box-template
+  site: Printables
+  alt: A laser-cut, scored cardboard box with its lid partly open, showing the folded lid and tuck flap that close it without
+    tape or glue.
+  kind: how-it-works
 four-bar-linkage:
 - src: File:Crank-Rocker 4-bar Linkage.gif
   file: four-bar-linkage.webp
@@ -3312,6 +3758,32 @@ four-bar-linkage:
   site: Wikimedia Commons
   still: four-bar-linkage.still.webp
   kind: animation
+- src: web:printables-898021-1
+  file: four-bar-linkage-3abf36.webp
+  width: 800
+  height: 533
+  title: Pantograph 200mm, 250mm, 300mm
+  author: bce.gatien
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/898021-pantograph-200mm-250mm-300mm
+  site: Printables
+  alt: A 3D-printed pantograph (a parallelogram linkage of four pivoted bars) pinned to a cutting mat, with a pencil in it
+    copying a cartoon drawing at a new size.
+  kind: how-it-works
+- src: web:printables-15364-1
+  file: four-bar-linkage-b0e8ba.webp
+  width: 800
+  height: 600
+  title: Pantograph for scaling up using 608 bearings
+  author: vachaj11
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/15364-pantograph-for-scaling-up-using-608-bearings
+  site: Printables
+  alt: A 3D-printed pantograph made of dark bars joined by ball-bearing pivots, standing on its base on a sheet of paper with
+    a pencil at the far end.
+  kind: photo
 friction-brake:
 - src: openverse:381ba97a-8132-43f9-ae8c-aae968570e27
   file: friction-brake.webp
@@ -3696,6 +4168,109 @@ gimbal:
   site: Wikimedia Commons
   alt: A man holding a phone on a hand-held motorised gimbal, whose jointed arms keep the phone steady while his hand moves.
   kind: photo
+glass-and-mirror-edge-clips-and-clamps:
+- src: web:printables-501068-3
+  file: glass-and-mirror-edge-clips-and-clamps.webp
+  width: 800
+  height: 1067
+  title: Glass bed corner clamp
+  author: Spas Makes
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/501068-glass-bed-corner-clamp
+  site: Printables
+  alt: Side view of a 3D-printed blue corner clamp hooked over the edge of a 3D printer's glass bed, with a knurled thumb
+    screw underneath that squeezes it tight.
+  kind: how-it-works
+glass-door-hinge:
+- src: web:printables-41109-3
+  file: glass-door-hinge.webp
+  width: 800
+  height: 600
+  title: Two hinges to attach an acrylic glass door to a wooden frame
+  author: Metikumi
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo
+  site: Printables
+  alt: A 3D-printed clamp-on hinge on a wooden frame, its two plates screwed together to grip the edge of a clear acrylic
+    door without drilling through the frame.
+  kind: how-it-works
+- src: web:printables-41109-1
+  file: glass-door-hinge-2e7914.webp
+  width: 800
+  height: 600
+  title: Two hinges to attach an acrylic glass door to a wooden frame
+  author: Metikumi
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo
+  site: Printables
+  alt: Front view of a 3D-printed hinge screwed to a wooden frame, holding a clear acrylic door on a 3D printer enclosure.
+  kind: photo
+glass-fusing:
+- src: File:Fusing Lapeyre.JPG
+  file: glass-fusing.webp
+  width: 800
+  height: 599
+  title: File:Fusing Lapeyre.JPG
+  author: Kärjens Slædebjørg
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Fusing_Lapeyre.JPG
+  site: Wikimedia Commons
+  alt: Three clear glass panels with grapes, wheat and lavender made from coloured glass pieces fused onto them.
+  kind: photo
+- src: File:Glassfusing.jpg
+  file: glass-fusing-baf804.webp
+  width: 500
+  height: 415
+  title: File:Glassfusing.jpg
+  author: Tad Boniecki (Soler97 at en.wikipedia)
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Glassfusing.jpg
+  site: Wikimedia Commons
+  alt: A fused glass plate with coloured glass shapes and beads melted onto a textured base sheet.
+  kind: photo
+glazing-in-a-rebated-frame:
+- src: File:Hacking knife chopping glazing putty.jpg
+  file: glazing-in-a-rebated-frame.webp
+  width: 800
+  height: 531
+  title: File:Hacking knife chopping glazing putty.jpg
+  author: Andy Dingley
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Hacking_knife_chopping_glazing_putty.jpg
+  site: Wikimedia Commons
+  alt: A hacking knife chopping old putty out of the rebate round a pane of glass in a wooden window frame.
+  kind: how-it-works
+glue-stick-and-starch-paste:
+- src: File:Elmer's Office Glue Stick in action.JPG
+  file: glue-stick-and-starch-paste-ecf9fd.webp
+  width: 800
+  height: 533
+  title: File:Elmer's Office Glue Stick in action.JPG
+  author: Mk2010
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Elmer%27s_Office_Glue_Stick_in_action.JPG
+  site: Wikimedia Commons
+  alt: A glue stick being rubbed across a sheet of paper, leaving a thin wet film of glue.
+  kind: how-it-works
+- src: File:FABER-CASTELL glue stick.jpg
+  file: glue-stick-and-starch-paste-a77bb3.webp
+  width: 800
+  height: 1422
+  title: File:FABER-CASTELL glue stick.jpg
+  author: Nalinc3
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:FABER-CASTELL_glue_stick.jpg
+  site: Wikimedia Commons
+  alt: An open twist-up glue stick with its cap off and the solid stick of glue showing at the top.
+  kind: photo
 glued-joint-design:
 - src: openverse:396421ef-5ec6-4f77-930d-5503619225f5
   file: glued-joint-design.webp
@@ -3709,6 +4284,58 @@ glued-joint-design:
   site: Flickr via Openverse
   alt: A guitar headstock glued onto the neck with a long sloping scarf joint, held under clamps while the glue sets.
   kind: how-it-works
+guy-line-slider:
+- src: web:printables-197700-1
+  file: guy-line-slider.webp
+  width: 800
+  height: 388
+  title: Tent guyline/paracord tensioner
+  author: Vorpal
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/197700-tent-guylineparacord-tensioner
+  site: Printables
+  alt: A 3D-printed three-hole guy-line slider with orange cord threaded through it, the cord zig-zagging through the holes
+    to make an adjustable loop.
+  kind: how-it-works
+- src: web:printables-570465-2
+  file: guy-line-slider-29c663.webp
+  width: 800
+  height: 600
+  title: Guyline Tensioner
+  author: Owen Grubb
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/570465-guyline-tensioner
+  site: Printables
+  alt: A 3D-printed black guy-line tensioner gripping a taut orange guy line beside a tent.
+  kind: photo
+half-nut:
+- src: web:printables-195692-4
+  file: half-nut.webp
+  width: 800
+  height: 600
+  title: Quick-Adjust Half-Nut Vise
+  author: LoboCNC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/195692-quick-adjust-half-nut-vise
+  site: Printables
+  alt: Close-up of a 3D-printed quick-adjust vice, the lead screw lying in a half-thread cut into the jaw so it can be lifted
+    out to slide the jaw freely.
+  kind: how-it-works
+- src: web:printables-195692-1
+  file: half-nut-3160e5.webp
+  width: 800
+  height: 600
+  title: Quick-Adjust Half-Nut Vise
+  author: LoboCNC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/195692-quick-adjust-half-nut-vise
+  site: Printables
+  alt: A hand holding the 3D-printed quick-adjust half-nut vice by its lead screw, with the moving jaw on the screw.
+  kind: photo
 hand-mouldable-thermoplastic:
 - src: File:PCL beads.jpg
   file: hand-mouldable-thermoplastic.webp
@@ -3788,6 +4415,31 @@ heat-sealed-seam:
   alt: A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine.
   kind: how-it-works
 heat-set-threaded-insert:
+- src: web:printables-917511-3
+  file: heat-set-threaded-insert-9e3249.webp
+  width: 640
+  height: 480
+  title: Garbage Can Lid Hook w/ Heat-Set Threaded Insert
+  author: Timothy Prestero
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/917511-garbage-can-lid-hook-w-heat-set-threaded-insert
+  site: Printables
+  alt: A soldering iron pressing a brass threaded insert into the hole in a grey 3D-printed hook, with spare inserts on the
+    mat behind.
+  kind: how-it-works
+- src: web:printables-1548169-1
+  file: heat-set-threaded-insert-3022bc.webp
+  width: 800
+  height: 600
+  title: Heat Set Threaded Insert Hole Tester
+  author: broken_slinky
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1548169-heat-set-threaded-insert-hole-tester
+  site: Printables
+  alt: A black 3D-printed test block with a row of brass heat-set inserts melted into its holes beside empty holes.
+  kind: photo
 - src: File:Press-in Insert.png
   file: heat-set-threaded-insert.webp
   width: 116
@@ -3839,6 +4491,20 @@ heat-shrink-tubing:
   site: Wikimedia Commons
   alt: Ten lengths of heat-shrink tubing in different colours laid side by side.
   kind: photo
+heat-staking:
+- src: web:printables-833859-1
+  file: heat-staking.webp
+  width: 800
+  height: 1067
+  title: heat stake and ultrasonic welding test
+  author: winchcable22
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/833859-heat-stake-and-ultrasonic-welding-test
+  site: Printables
+  alt: A 3D-printed test piece where a plastic post has been pushed through a white plate and its tip melted into a flattened
+    head, holding the plate on a black base.
+  kind: how-it-works
 herringbone-and-helical-gears:
 - src: File:Anim engrenages helicoidaux.gif
   file: herringbone-and-helical-gears.webp
@@ -4359,6 +5025,20 @@ insulation-displacement-connector:
   alt: A black 10-way ribbon-cable connector with its cover lifted off, showing the row of sharp forked blades the cable is
     pressed onto.
   kind: how-it-works
+intermittent-gear:
+- src: web:printables-1504642-1
+  file: intermittent-gear.webp
+  width: 800
+  height: 692
+  title: Educational Gear Examples 5 - Intermittent
+  author: osamutake
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1504642-educational-gear-examples-5-intermittent
+  site: Printables
+  alt: Four 3D-printed teaching tiles of orange gears on purple bases, showing part-toothed (intermittent) gear pairs and
+    an internal stop-go drive.
+  kind: how-it-works
 internal-tube-anchors:
 - src: File:Quill stems.JPG
   file: internal-tube-anchors.webp
@@ -4428,6 +5108,19 @@ invisible-barrel-hinge:
   site: Wikimedia Commons
   still: invisible-barrel-hinge.still.webp
   kind: animation
+- src: web:printables-1341292-1
+  file: invisible-barrel-hinge-d91f69.webp
+  width: 800
+  height: 783
+  title: SOSS Hidden Hinge Mortise Router Template – All sizes!
+  author: Zdeněk
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1341292-soss-hidden-hinge-mortise-router-template-all-size
+  site: Printables
+  alt: A metal Soss-type invisible hinge sitting in a pocket routed in the edge of a wooden board, its folding links opened
+    up, with a 3D-printed router template behind.
+  kind: how-it-works
 iris-mechanism:
 - src: File:Iris Diaphragm.gif
   file: iris-mechanism.webp
@@ -4457,6 +5150,20 @@ iris-mechanism:
   kind: how-it-works
   animated: true
   still: iris-mechanism-901a78.still.webp
+iris-valve:
+- src: web:printables-1350975-2
+  file: iris-valve.webp
+  width: 800
+  height: 602
+  title: Replacement Platypus Hose Clamp (Pinch Valve)
+  author: Ian Foulds
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1350975-replacement-platypus-hose-clamp-pinch-valve
+  site: Printables
+  alt: Two pinch clamps on a clear drinking tube, a 3D-printed white one open and the original black one closed, squeezing
+    the tube flat to stop the flow.
+  kind: how-it-works
 iron-on-fusible-web:
 - src: File:HemRepairTape.jpg
   file: iron-on-fusible-web.webp
@@ -4521,6 +5228,19 @@ jaw-coupling:
   source: https://commons.wikimedia.org/wiki/File:JawConcept2.jpg
   alt: A rendered jaw coupling, two white hubs with their jaws interlocking through a red star-shaped rubber insert.
   site: Wikimedia Commons
+  kind: photo
+jigsaw-puzzle-edge-joint:
+- src: File:Close up of Hand Cut Jigsaw Puzzle.JPG
+  file: jigsaw-puzzle-edge-joint.webp
+  width: 800
+  height: 600
+  title: File:Close up of Hand Cut Jigsaw Puzzle.JPG
+  author: Charles Hamm
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Close_up_of_Hand_Cut_Jigsaw_Puzzle.JPG
+  site: Wikimedia Commons
+  alt: Close-up of thick hand-cut wooden jigsaw puzzle pieces, showing the rounded knobs and sockets that lock them together.
   kind: photo
 kerf-bending:
 - src: File:Living hinge (wood).jpg
@@ -4728,6 +5448,33 @@ ladder-lock-buckle:
   alt: A plastic tri-glide slide on a fabric strap, the strap woven over and under its middle bar.
   site: Wikimedia Commons
   kind: photo
+lamina-emergent-torsional-joint:
+- src: web:printables-581030-1
+  file: lamina-emergent-torsional-joint.webp
+  width: 628
+  height: 472
+  title: Christmas Ornament - Compliant LET Joints
+  author: BYU CMR
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/581030-christmas-ornament-compliant-let-joints
+  site: Printables
+  alt: A 3D-printed Christmas ornament hanging on a tree, its strips of slotted LET joints twisted up out of the flat to form
+    a globe around a small tree.
+  kind: how-it-works
+- src: web:printables-581030-2
+  file: lamina-emergent-torsional-joint-0c75ff.webp
+  width: 628
+  height: 472
+  title: Christmas Ornament - Compliant LET Joints
+  author: BYU CMR
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/581030-christmas-ornament-compliant-let-joints
+  site: Printables
+  alt: The same ornament lying flat on the 3D printer bed as printed, showing the long strips of slotted torsion joints before
+    they are bent up.
+  kind: photo
 lantern-gear:
 - src: File:Cage Gear.png
   file: lantern-gear.webp
@@ -4834,6 +5581,32 @@ lever-cam-panel-connector:
   site: Wikimedia Commons
   alt: The same see-through render with the cam lever turned closed, hooking the two halves and pulling the panels tight together.
   kind: how-it-works
+line-shaft-and-power-take-off:
+- src: File:Olive Edis; Iwm Photographer of the Women's Services in France 1919 Q8116.jpg
+  file: line-shaft-and-power-take-off.webp
+  width: 800
+  height: 594
+  title: File:Olive Edis; Iwm Photographer of the Women's Services in France 1919 Q8116.jpg
+  author: Olive Edis
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg
+  site: Wikimedia Commons
+  alt: A 1919 machine shop where overhead line shafts drive rows of lathes through long leather belts while women work the
+    machines.
+  kind: how-it-works
+- src: File:TractorPTOshaftMay04.jpg
+  file: line-shaft-and-power-take-off-663f28.webp
+  width: 480
+  height: 331
+  title: File:TractorPTOshaftMay04.jpg
+  author: Jesster79
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg
+  site: Wikimedia Commons
+  alt: A yellow-guarded drive shaft connected to the power take-off at the back of a farm tractor.
+  kind: photo
 linear-guides:
 - src: File:Linear-table animated.gif
   file: linear-guides.webp
@@ -4889,6 +5662,33 @@ linear-ratchet:
   site: Wikimedia Commons
   alt: A cable tie cut in half through its head, showing the little blue pawl hooked against the teeth of the yellow strap.
   kind: cross-section
+linked-lead-screws:
+- src: web:printables-1504880-2
+  file: linked-lead-screws.webp
+  width: 800
+  height: 600
+  title: Ender 5 Plus Z-sync belt tensioner
+  author: Jetlink
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1504880-ender-5-plus-z-sync-belt-tensioner
+  site: Printables
+  alt: A printer Z lead screw with a toothed pulley at its base and the closed sync belt running off it to the other screws,
+    past a 3D-printed tensioner.
+  kind: how-it-works
+- src: web:printables-229071-1
+  file: linked-lead-screws-3a82ac.webp
+  width: 800
+  height: 911
+  title: CR-10s Pro - CR-10 Max z-sync - various belt length possible
+  author: caesar_1111
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/229071-cr-10s-pro-cr-10-max-z-sync-various-belt-length-po
+  site: Printables
+  alt: The top of a 3D printer frame where one toothed belt runs over pulleys on top of the two Z lead screws, held taut by
+    orange 3D-printed tensioners.
+  kind: photo
 living-hinge:
 - src: File:Mint box polypropylene lid.JPG
   file: living-hinge.webp
@@ -4953,6 +5753,83 @@ locking-adjustment-screws:
     the ball bearing they pivot on.
   site: Wikimedia Commons
   kind: how-it-works
+loose-leaf-bindings:
+- src: File:Comb bind examples.JPG
+  file: loose-leaf-bindings.webp
+  width: 568
+  height: 426
+  title: File:Comb bind examples.JPG
+  author: Digitalgadget
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Comb_bind_examples.JPG
+  site: Wikimedia Commons
+  alt: A white plastic comb binding with its curled fingers passing through a row of rectangular punched holes along the edge
+    of the sheets.
+  kind: how-it-works
+- src: File:Ringmechanik 01 (fcm).jpg
+  file: loose-leaf-bindings-a0b770.webp
+  width: 800
+  height: 1114
+  title: File:Ringmechanik 01 (fcm).jpg
+  author: 'Photograph: Frank C. Müller, Frankfurt am Main'
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Ringmechanik_01_(fcm).jpg
+  site: Wikimedia Commons
+  alt: The metal ring mechanism of a lever-arch file, with its two rings open above the board.
+  kind: photo
+magnet-joint:
+- src: web:printables-1348108-1
+  file: magnet-joint.webp
+  width: 500
+  height: 394
+  title: Strong 9mm magnet snap joint for thread, wristband, knitting
+  author: '6'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1348108-strong-9mm-magnet-snap-joint-for-thread-wristband
+  site: Printables
+  alt: A round disc magnet pressed into a small black 3D-printed cup tied to a cord, one half of a magnetic clasp.
+  kind: how-it-works
+- src: web:printables-1348108-2
+  file: magnet-joint-11f3de.webp
+  width: 500
+  height: 375
+  title: Strong 9mm magnet snap joint for thread, wristband, knitting
+  author: '6'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1348108-strong-9mm-magnet-snap-joint-for-thread-wristband
+  site: Printables
+  alt: The two black 3D-printed halves of a magnetic cord clasp snapped together face to face by their embedded magnets.
+  kind: photo
+magnetic-assisted-buckle:
+- src: web:printables-624912-2
+  file: magnetic-assisted-buckle.webp
+  width: 800
+  height: 600
+  title: Simple Magnetic Buckle
+  author: alexberkowitz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/624912-simple-magnetic-buckle
+  site: Printables
+  alt: The two halves of a blue 3D-printed strap buckle laid apart, showing the round magnet set in the open frame and the
+    square plug that drops into it, beside a strap slider.
+  kind: how-it-works
+- src: web:printables-624912-1
+  file: magnetic-assisted-buckle-aa90ce.webp
+  width: 800
+  height: 600
+  title: Simple Magnetic Buckle
+  author: alexberkowitz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/624912-simple-magnetic-buckle
+  site: Printables
+  alt: A blue 3D-printed magnetic buckle clipped shut on a black elastic strap, with a strap slider beside it.
+  kind: photo
 magnetic-connector:
 - src: File:MagSafe1.jpg
   file: magnetic-connector.webp
@@ -4993,6 +5870,32 @@ magnetic-coupling-and-magnetic-gear:
     steel pole pieces between them.
   site: Wikimedia Commons
   kind: cross-section
+magnetic-detent:
+- src: web:printables-1786954-1
+  file: magnetic-detent.webp
+  width: 800
+  height: 415
+  title: Tactile Magnetic Rotary Encoder (Heavy Detents)
+  author: Axel Åkerström
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1786954-tactile-magnetic-rotary-encoder-heavy-detents
+  site: Printables
+  alt: The two halves of a 3D-printed rotary knob laid open, the rotor with a ring of twelve embedded magnets beside the housing
+    that holds the matching magnets.
+  kind: how-it-works
+- src: web:printables-1786954-2
+  file: magnetic-detent-92d951.webp
+  width: 800
+  height: 602
+  title: Tactile Magnetic Rotary Encoder (Heavy Detents)
+  author: Axel Åkerström
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1786954-tactile-magnetic-rotary-encoder-heavy-detents
+  site: Printables
+  alt: The assembled black 3D-printed magnetic detent knob, a flat disc with a ball bearing at its centre.
+  kind: photo
 mechanical-interlock:
 - src: File:Trapped key interlock switchgear door.JPG
   file: mechanical-interlock.webp
@@ -5032,6 +5935,32 @@ mechanical-interlock:
   site: Wikimedia Commons
   alt: A metal plate with a sliding linkage that locks a machine carriage whenever its handle is not in the normal position.
   kind: how-it-works
+mechanical-metamaterial-mechanism:
+- src: web:printables-282608-2
+  file: mechanical-metamaterial-mechanism.webp
+  width: 800
+  height: 600
+  title: HingePliers (a metamaterials experiment)
+  author: ProfHankD
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment
+  site: Printables
+  alt: Several 3D-printed one-piece pliers on a wooden table, two of them with the grid of small shearing cells that forms
+    the hinge clearly visible at the joint.
+  kind: how-it-works
+- src: web:printables-282608-1
+  file: mechanical-metamaterial-mechanism-ed0986.webp
+  width: 800
+  height: 600
+  title: HingePliers (a metamaterials experiment)
+  author: ProfHankD
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment
+  site: Printables
+  alt: A blue 3D-printed pair of one-piece metamaterial pliers lying on a wooden table.
+  kind: photo
 melted-plastic-weld:
 - src: openverse:145c184a-9ac5-44b1-9e38-ebd9db87e685
   file: melted-plastic-weld-03db29.webp
@@ -5094,6 +6023,32 @@ metal-brackets-and-plates:
   source: https://commons.wikimedia.org/wiki/File:Gray_metallic_shelf_bracket_-_20_x_12_cm_-_A.jpg
   site: Wikimedia Commons
   alt: A grey steel shelf bracket with a diagonal brace, lying on a wooden surface.
+  kind: photo
+mid-print-embedding:
+- src: web:printables-1325800-3
+  file: mid-print-embedding.webp
+  width: 800
+  height: 602
+  title: Vertically inserted M6 hex nut test piece (M601)
+  author: hmk
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1325800-vertically-inserted-m6-hex-nut-test-piece-m601
+  site: Printables
+  alt: A half-finished 3D-printed test block, with a hex nut sitting in its pocket at the paused layer, ready to be printed
+    over.
+  kind: how-it-works
+- src: web:printables-1325800-1
+  file: mid-print-embedding-537330.webp
+  width: 800
+  height: 602
+  title: Vertically inserted M6 hex nut test piece (M601)
+  author: hmk
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1325800-vertically-inserted-m6-hex-nut-test-piece-m601
+  site: Printables
+  alt: A small finished 3D-printed block with a bolt screwed into the nut sealed inside it.
   kind: photo
 modular-grid-mounting-systems:
 - src: File:Gridfinity drawer and bin.jpg
@@ -5196,6 +6151,33 @@ multi-point-bolt:
   site: Wikimedia Commons
   alt: An espagnolette on a pair of shutters, a long rod with a hook at each end that turns to lock the top and bottom at
     once.
+  kind: photo
+multi-stage-slide-rigging:
+- src: web:printables-1063158-3
+  file: multi-stage-slide-rigging.webp
+  width: 800
+  height: 600
+  title: 'Misumi Linear Slide Insert for SAR: (String Drive) FTC Robotics'
+  author: Brogan Pratt
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1063158-misumi-linear-slide-insert-for-sar-string-drive-ft
+  site: Printables
+  alt: A string-driven linear slide on a robot frame, extended across a cutting mat, with the motor-driven reel and printed
+    red pulley blocks on the sliding stages.
+  kind: how-it-works
+- src: web:printables-1063158-4
+  file: multi-stage-slide-rigging-a8ad52.webp
+  width: 800
+  height: 600
+  title: 'Misumi Linear Slide Insert for SAR: (String Drive) FTC Robotics'
+  author: Brogan Pratt
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1063158-misumi-linear-slide-insert-for-sar-string-drive-ft
+  site: Printables
+  alt: Close-up of a red 3D-printed pulley insert on the end of an aluminium slide stage, with the string running over its
+    two pulleys.
   kind: photo
 nails-brads-and-tacks:
 - src: File:Spijkers (Nails).jpg
@@ -5398,6 +6380,20 @@ origami-mechanisms:
   alt: A folded orange paper sheet with a repeating zigzag pattern of creases, the start of an origami magic ball that can
     collapse and expand.
   kind: photo
+ortho-planar-spring:
+- src: web:printables-37093-1
+  file: ortho-planar-spring.webp
+  width: 540
+  height: 542
+  title: Ortho-Planar Spring
+  author: Jens Willmer
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/37093-ortho-planar-spring
+  site: Printables
+  alt: A grey 3D-printed ortho-planar spring held in the fingers, its centre platform carried by thin curved legs cut into
+    the flat top face.
+  kind: photo
 over-centre-linkage:
 - src: File:Kniehebel.jpg
   file: over-centre-linkage.webp
@@ -5424,6 +6420,20 @@ over-centre-linkage:
   site: Wikimedia Commons
   alt: A pair of locking pliers, whose handles lock shut by pushing their linkage just past straight.
   kind: photo
+parallel-leaf-spring-flexure:
+- src: web:printables-1804748-1
+  file: parallel-leaf-spring-flexure.webp
+  width: 800
+  height: 487
+  title: Double parallelogram flexure
+  author: rsmith_nl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1804748-double-parallelogram-flexure
+  site: Printables
+  alt: A white 3D-printed flexure stage lying flat, with a moving centre platform joined to the outer frame by pairs of thin
+    parallel blades on each side, so you can see the blades that bend to let it slide.
+  kind: how-it-works
 parallel-pipe-thread-with-a-sealing-washer:
 - src: File:Brass hose bipp with standard and GHT threads.jpg
   file: parallel-pipe-thread-with-a-sealing-washer.webp
@@ -5895,6 +6905,32 @@ printed-screw-thread:
   site: Flickr via Openverse
   alt: Two 3D-printed plastic bolts with nuts screwed onto them, one held in a hand, showing the coarse printed threads.
   kind: photo
+printing-onto-fabric:
+- src: web:printables-134-2
+  file: printing-onto-fabric.webp
+  width: 800
+  height: 511
+  title: 3D Fabric Experimentation
+  author: Matt Harrison
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/134-3d-fabric-experimentation
+  site: Printables
+  alt: A sheet of pale green 3D-printed pyramid tiles fused onto open net fabric, curving over a hand as the bare net between
+    tiles bends.
+  kind: how-it-works
+- src: web:printables-1038289-1
+  file: printing-onto-fabric-7c0809.webp
+  width: 800
+  height: 600
+  title: Dragon scales ( print on fabric )
+  author: Antoine Jack
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/1038289-dragon-scales-print-on-fabric
+  site: Printables
+  alt: Panels of blue 3D-printed scale shapes printed onto black mesh fabric, laid flat on a table.
+  kind: photo
 pulley-system:
 - src: File:Tackles.png
   file: pulley-system.webp
@@ -5946,6 +6982,31 @@ push-and-turn-child-resistant-cap:
   site: Wikimedia Commons
   alt: A bottle of aspirin tablets with a white push-down-and-turn child-resistant cap, next to its box.
   kind: photo
+push-fit-rod-and-spar-fittings:
+- src: web:printables-488247-1
+  file: push-fit-rod-and-spar-fittings.webp
+  width: 715
+  height: 1024
+  title: Stunt Kite Connector and end cap
+  author: Wing-Art
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/488247-stunt-kite-connector-and-end-cap
+  site: Printables
+  alt: A red 3D-printed kite end cap with a line nock, pushed onto the end of a black carbon rod.
+  kind: how-it-works
+- src: web:printables-75831-2
+  file: push-fit-rod-and-spar-fittings-67b26a.webp
+  width: 800
+  height: 600
+  title: Connector for 3D-Star Kite
+  author: Tiggr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/75831-connector-for-3d-star-kite
+  site: Printables
+  alt: A white 3D-printed multi-way kite connector with round sockets for rods pointing in many directions.
+  kind: photo
 push-in-plastic-rivet:
 - src: File:RFID Rivet Tag.jpg
   file: push-in-plastic-rivet.webp
@@ -5958,6 +7019,45 @@ push-in-plastic-rivet:
   source: https://commons.wikimedia.org/wiki/File:RFID_Rivet_Tag.jpg
   site: Wikimedia Commons
   alt: Two black push-in plastic plugs, each with a round head and a ribbed shank whose fins grip inside a drilled hole
+  kind: photo
+push-on-edge-trim:
+- src: web:printables-1594528-1
+  file: push-on-edge-trim.webp
+  width: 800
+  height: 1067
+  title: Trim for shelf or board edge parametric
+  author: ExtrudingThoughts
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1594528-trim-for-shelf-or-board-edge-parametric
+  site: Printables
+  alt: Two white 3D-printed U-channel edge trims, a straight length and a corner piece, lying on a printer.
+  kind: photo
+push-push-latch:
+- src: web:printables-496329-2
+  file: push-push-latch.webp
+  width: 800
+  height: 552
+  title: Push-push Mechanism
+  author: Steve DeGroof
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/496329-push-push-mechanism
+  site: Printables
+  alt: The inside of a white 3D-printed push-push latch, with the heart-shaped track at one end and the return spring along
+    the housing.
+  kind: how-it-works
+- src: web:printables-273742-1
+  file: push-push-latch-651877.webp
+  width: 800
+  height: 667
+  title: Push Latch Mechanism
+  author: c_bot
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/273742-push-latch-mechanism
+  site: Printables
+  alt: An assembled black 3D-printed push latch with its plunger sticking out of the housing.
   kind: photo
 pva-wood-glue:
 - src: File:Using wood glue.JPG
@@ -5983,6 +7083,32 @@ pva-wood-glue:
   source: https://commons.wikimedia.org/wiki/File:Wood_glue_and_clamping_the_pieces_before_screwing_them_together.jpg
   site: Wikimedia Commons
   alt: Two strips of wood glued together and held tight with clamps on a workbench while the glue sets.
+  kind: photo
+quarter-turn-fastener:
+- src: web:printables-12418-2
+  file: quarter-turn-fastener.webp
+  width: 800
+  height: 829
+  title: 3030 Quarter Turn Fastener
+  author: John S
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/12418-3030-quarter-turn-fastener
+  site: Printables
+  alt: Close-up of a 3D-printed quarter-turn fastener turned into the slot of an aluminium extrusion, its head clamping a
+    clear panel.
+  kind: how-it-works
+- src: web:printables-12418-1
+  file: quarter-turn-fastener-bea474.webp
+  width: 800
+  height: 450
+  title: 3030 Quarter Turn Fastener
+  author: John S
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/12418-3030-quarter-turn-fastener
+  site: Printables
+  alt: Two white 3D-printed quarter-turn fasteners holding a clear panel against the aluminium frame of a printer enclosure.
   kind: photo
 quick-couplers-for-tubes-and-hoses:
 - src: File:Rtc-serie-171.08-gruppe.jpg
@@ -6026,6 +7152,30 @@ quick-release-hooks:
   site: Wikimedia Commons
   still: quick-release-hooks.still.webp
   kind: animation
+- src: web:printables-193865-2
+  file: quick-release-hooks-687fac.webp
+  width: 800
+  height: 600
+  title: Quick Release Snap Shackle
+  author: Doormat_1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/193865-quick-release-snap-shackle
+  site: Printables
+  alt: A blue 3D-printed snap shackle with its hinged hook jaw swung open, showing the pivot pin and the spring-pin latch.
+  kind: how-it-works
+- src: web:printables-193865-1
+  file: quick-release-hooks-19a5e2.webp
+  width: 800
+  height: 600
+  title: Quick Release Snap Shackle
+  author: Doormat_1
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/193865-quick-release-snap-shackle
+  site: Printables
+  alt: The same blue 3D-printed snap shackle with its jaw closed and latched.
+  kind: photo
 quick-release-pin:
 - src: File:Kugelsperrbolzen Funktionsprinzip.tif
   file: quick-release-pin.webp
@@ -6219,6 +7369,20 @@ ratchet-tie-down-strap:
   site: Wikimedia Commons
   alt: An orange ratchet strap pulled tight round logs on a railway wagon, the ratchet buckle locked closed.
   kind: photo
+ratchet-tooth-torque-limiter:
+- src: web:printables-30226-2
+  file: ratchet-tooth-torque-limiter.webp
+  width: 800
+  height: 973
+  title: Torque Limiting Screw Driver
+  author: Oaklandishh
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/30226-torque-limiting-screw-driver
+  site: Printables
+  alt: A 3D-printed torque-limiting screwdriver handle split open, showing the white bit holder and the spring inside the
+    green handle shell.
+  kind: photo
 ratcheting-reel-closure:
 - src: File:ThirtyTwo snowboard boot.jpg
   file: ratcheting-reel-closure.webp
@@ -6337,6 +7501,19 @@ rigid-chain-actuator:
   site: Wikimedia Commons
   still: rigid-chain-actuator.still.webp
   kind: animation
+- src: web:printables-1351303-1
+  file: rigid-chain-actuator-361345.webp
+  width: 800
+  height: 600
+  title: PCN145 - Fully Printable Push Chain
+  author: FH
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain
+  site: Printables
+  alt: A 3D-printed push chain with grey, red and gold links curled into a tight loop, showing that the links bend freely
+    in one direction only.
+  kind: how-it-works
 rod-end-and-ball-link:
 - src: File:Heim Joint.svg
   file: rod-end-and-ball-link.webp
@@ -6400,6 +7577,19 @@ roller-clutch:
   site: Wikimedia Commons
   alt: The parts of a roller clutch bearing beside a centimetre scale, a ring of rollers in a cage next to the smooth outer
     race.
+  kind: photo
+rolling-contact-joint:
+- src: web:printables-1039873-1
+  file: rolling-contact-joint.webp
+  width: 800
+  height: 600
+  title: Roll gelenk / rolling contact joints
+  author: Studi_Ha
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints
+  site: Printables
+  alt: A 3D-printed rolling-contact joint made of two translucent links whose rounded ends sit against each other.
   kind: photo
 rope-end-finishing:
 - src: File:Common-whipping.png
@@ -6607,6 +7797,33 @@ scissor-linkage:
   alt: An orange scissor lift table, its crossed steel arms pushed up by hydraulic cylinders to raise a blue platform.
   site: Wikimedia Commons
   kind: photo
+score-and-fold-hinge:
+- src: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  file: score-and-fold-hinge-fabd5c.webp
+  width: 800
+  height: 476
+  title: File:Urządzenie do ręcznego bigowania (przegniatania).jpg
+  author: TextPartner
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Urz%C4%85dzenie_do_r%C4%99cznego_bigowania_(przegniatania).jpg
+  site: Wikimedia Commons
+  alt: A hand creasing machine in use, with a sheet of card is held flat on its bed while the lever presses a crease line
+    across it, ready to fold.
+  kind: how-it-works
+score-and-slip-join:
+- src: openverse:38f0ba48-7a65-4f43-a492-ca0b2d02aeb3
+  file: score-and-slip-join.webp
+  width: 800
+  height: 534
+  title: scoring and slipping the flange
+  author: quinnums
+  license: CC BY 2.0
+  license_url: https://creativecommons.org/licenses/by/2.0/
+  source: https://www.flickr.com/photos/35034359904@N01/14245847
+  site: Flickr via Openverse
+  alt: A brush spreading slip onto the scored top edge of a soft clay ring before another part is pressed onto it.
+  kind: how-it-works
 scotch-yoke:
 - src: File:Yugo Escocés - Scotch yoke animation.gif
   file: scotch-yoke.webp
@@ -6895,6 +8112,20 @@ servo-horn-and-spline-hub:
   alt: A black six-armed plastic servo horn with a toothed (splined) hole in its centre and small holes along each arm.
   site: Wikimedia Commons
   kind: photo
+servo-or-motorised-latch:
+- src: web:printables-134411-1
+  file: servo-or-motorised-latch.webp
+  width: 800
+  height: 741
+  title: Servo Latch - Geocache Box Servo Latch
+  author: Plexi
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/134411-servo-latch-geocache-box-servo-latch
+  site: Printables
+  alt: A 3D-printed servo latch with a small hobby servo, its round cam and the sliding latch bar, beside the separate strike
+    plate it locks into.
+  kind: how-it-works
 sew-on-part:
 - src: File:Plastic & fabric buttons showing holes & shank.jpg
   file: sew-on-part.webp
@@ -6919,6 +8150,32 @@ sew-on-part:
   source: https://commons.wikimedia.org/wiki/File:Hook_and_eye_clasp.JPG
   site: Wikimedia Commons
   alt: A metal hook and eye clasp, each piece bent from wire with small loops for sewing it to fabric.
+  kind: photo
+sewn-book-bindings:
+- src: File:Coptic sewing.jpg
+  file: sewn-book-bindings.webp
+  width: 800
+  height: 839
+  title: File:Coptic sewing.jpg
+  author: Ratbasket
+  license: CC BY 3.0
+  license_url: https://creativecommons.org/licenses/by/3.0
+  source: https://commons.wikimedia.org/wiki/File:Coptic_sewing.jpg
+  site: Wikimedia Commons
+  alt: Close-up of the spine of a hand-made Coptic binding, showing the thread chain stitches linking each folded section
+    to the next and to the wooden covers.
+  kind: how-it-works
+- src: File:Coptic flat.jpg
+  file: sewn-book-bindings-f6eb74.webp
+  width: 800
+  height: 628
+  title: File:Coptic flat.jpg
+  author: Ratbasket at English Wikipedia
+  license: CC BY 2.5
+  license_url: https://creativecommons.org/licenses/by/2.5
+  source: https://commons.wikimedia.org/wiki/File:Coptic_flat.jpg
+  site: Wikimedia Commons
+  alt: A finished Coptic-bound book with wooden covers lying flat, its exposed sewn spine visible along one edge.
   kind: photo
 sewn-seams-and-hand-stitches:
 - src: File:Lockstitch - Anthony Atkielski.png
@@ -7023,6 +8280,47 @@ shaft-to-hub-joints-and-rigid-couplings:
   site: Wikimedia Commons
   alt: A potentiometer with its knob pushed onto the shaft, held by a small set screw in the side of the knob.
   kind: photo
+shape-memory-alloy-wire-latch:
+- src: web:printables-1740874-1
+  file: shape-memory-alloy-wire-latch.webp
+  width: 587
+  height: 606
+  title: '"Titanmuscle" Titanium Muscle Wire Latch Mount'
+  author: dvd604
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1740874-titanmuscle-titanium-muscle-wire-latch-mount
+  site: Printables
+  alt: A grey 3D-printed muscle-wire latch housing screwed to a wooden board, with its catch slot and the red and black power
+    wires coming out.
+  kind: photo
+shelf-pins-and-shelf-supports:
+- src: File:Sektion support shelf pins and Utrusta standard shelf pins.jpg
+  file: shelf-pins-and-shelf-supports.webp
+  width: 800
+  height: 600
+  title: File:Sektion support shelf pins and Utrusta standard shelf pins.jpg
+  author: Stilfehler
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Sektion_support_shelf_pins_and_Utrusta_standard_shelf_pins.jpg
+  site: Wikimedia Commons
+  alt: Several metal and plastic shelf pins of two types lying on a table, some with a plain sleeve and some with a threaded
+    or ribbed shank.
+  kind: photo
+- src: File:2017 UEF Joensuu library 06 shelf.jpg
+  file: shelf-pins-and-shelf-supports-608933.webp
+  width: 400
+  height: 613
+  title: File:2017 UEF Joensuu library 06 shelf.jpg
+  author: 'File:2017 UEF Joensuu library 06.jpg: Nemo bis derivate work: User:Westbahnhof'
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:2017_UEF_Joensuu_library_06_shelf.jpg
+  site: Wikimedia Commons
+  alt: Empty library shelving whose upright sides are drilled with evenly spaced rows of small holes, with shelves resting
+    at chosen heights.
+  kind: how-it-works
 shims-spacers-and-standoffs:
 - src: File:Metal shims.jpg
   file: shims-spacers-and-standoffs.webp
@@ -7222,6 +8520,32 @@ slip-ring-and-rotary-union:
   alt: A slip ring with labels, showing the metal rings on the turning part and the springy brushes that rub on them.
   site: Wikimedia Commons
   kind: photo
+slot-in-model-hinge:
+- src: web:printables-1335388-1
+  file: slot-in-model-hinge.webp
+  width: 800
+  height: 664
+  title: DTF Control Surface Hinge for R/C Airplanes
+  author: Uenbzsto
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes
+  site: Printables
+  alt: A green 3D-printed hinge strip pushed into slits along the edges of two foam-board panels, forming a hidden hinge line
+    for a model plane control surface.
+  kind: how-it-works
+- src: web:printables-1335388-2
+  file: slot-in-model-hinge-8af9b7.webp
+  width: 800
+  height: 626
+  title: DTF Control Surface Hinge for R/C Airplanes
+  author: Uenbzsto
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes
+  site: Printables
+  alt: Two foam-board strips joined by a green 3D-printed slot-in hinge, bent at the hinge line to show it pivoting.
+  kind: how-it-works
 slotted-adjustment-with-a-jacking-screw:
 - src: File:Tendeur courroie alternateur automobile.jpg
   file: slotted-adjustment-with-a-jacking-screw.webp
@@ -7249,6 +8573,20 @@ slotted-adjustment-with-a-jacking-screw:
   site: Wikimedia Commons
   alt: The back wheel of a single-speed mountain bike, its axle clamped in rear-facing slotted fork ends so it can be slid
     back to tighten the chain.
+  kind: photo
+snap-pin:
+- src: web:printables-305336-1
+  file: snap-pin.webp
+  width: 800
+  height: 600
+  title: Pegboard snap-fit pin
+  author: nexusz
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/305336-pegboard-snap-fit-pin
+  site: Printables
+  alt: Four red 3D-printed push-in pins lying on a wooden table, each with a round head and a pair of springy split legs that
+    squeeze together to pass through a pegboard hole.
   kind: photo
 solder-sleeve:
 - src: File:Geschrumpfter Lötverbinder auf Litzendraht.JPG
@@ -7472,6 +8810,31 @@ spline-shaft:
   source: https://commons.wikimedia.org/wiki/File:Cardan_joint_spline_shaft_01.jpg
   site: Wikimedia Commons
   alt: A rusty spline shaft on a farm trailer's drive shaft, with its lengthwise ridges clearly visible.
+  kind: photo
+split-pin-paper-fastener:
+- src: File:Attache parisienne.JPG
+  file: split-pin-paper-fastener.webp
+  width: 659
+  height: 432
+  title: File:Attache parisienne.JPG
+  author: Zyzomis
+  license: CC BY-SA 3.0
+  license_url: https://creativecommons.org/licenses/by-sa/3.0
+  source: https://commons.wikimedia.org/wiki/File:Attache_parisienne.JPG
+  site: Wikimedia Commons
+  alt: Close-up of a single brass paper fastener with a domed round head and two flat legs held together.
+  kind: photo
+- src: File:Musterklammer 2005-05-06.JPG
+  file: split-pin-paper-fastener-64e928.webp
+  width: 796
+  height: 924
+  title: File:Musterklammer 2005-05-06.JPG
+  author: No machine-readable author provided. Mws.richter assumed (based on copyright claims).
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Musterklammer_2005-05-06.JPG
+  site: Wikimedia Commons
+  alt: Several brass split-pin paper fasteners beside a millimetre ruler, one with its two legs spread apart.
   kind: photo
 spot-weld:
 - src: File:TON09525.jpg
@@ -7942,6 +9305,33 @@ strain-wave-gear:
   alt: Close-up of an assembled strain-wave gear from the front, showing the oval bearing inside the flexible toothed ring
     and the bolt holes round the outer ring.
   kind: photo
+stretch-release-adhesive-strips:
+- src: web:printables-1006631-4
+  file: stretch-release-adhesive-strips.webp
+  width: 768
+  height: 1024
+  title: Replacement Command Hook (Large, 5lb)
+  author: James Lovett
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1006631-replacement-command-hook-large-5lb
+  site: Printables
+  alt: An adhesive-strip mounting plate stuck to a wall with the strip's pull tab hanging below it, while a hand slides a
+    3D-printed hook onto it.
+  kind: how-it-works
+- src: web:printables-266346-1
+  file: stretch-release-adhesive-strips-187fe8.webp
+  width: 800
+  height: 600
+  title: Honeycomb 3M Command Strip Mount + Wall Double Hollow Insert
+  author: Spatula
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/266346-honeycomb-3m-command-strip-mount-wall-double-hollo
+  site: Printables
+  alt: A 3D-printed wall mount stuck on with an adhesive strip, its white pull tab showing at the bottom, holding a printed
+    honeycomb panel.
+  kind: photo
 structural-acrylic-and-low-surface-energy-plastic-adhesives:
 - src: File:Two-component adhesive cartridges.jpg
   file: structural-acrylic-and-low-surface-energy-plastic-adhesives.webp
@@ -8311,6 +9701,20 @@ telescoping-tube-lever-lock:
   alt: A bicycle seat-post quick-release clamp, a split collar round the frame tube with a curved lever that squeezes it shut.
   site: Wikimedia Commons
   kind: photo
+telescoping-tube-twist-lock:
+- src: web:printables-232086-2
+  file: telescoping-tube-twist-lock.webp
+  width: 800
+  height: 600
+  title: Adjustable twist lock tent pole
+  author: Flex
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/232086-adjustable-twist-lock-tent-pole
+  site: Printables
+  alt: The 3D-printed twist-lock plugs for a telescoping tent pole laid out on a table, one fitted into the end of an aluminium
+    tube.
+  kind: how-it-works
 temporary-sheet-fastener:
 - src: File:Cleco fastener extended.jpg
   file: temporary-sheet-fastener.webp
@@ -9084,6 +10488,61 @@ virtual-pivot-linkage:
   site: Wikimedia Commons
   still: virtual-pivot-linkage.still.webp
   kind: animation
+- src: web:printables-1176854-2
+  file: virtual-pivot-linkage-7eceaf.webp
+  width: 800
+  height: 600
+  title: Print in place concealed hinge mechanism + fidget toy
+  author: SigmaT4
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1176854-print-in-place-concealed-hinge-mechanism-fidget-to
+  site: Printables
+  alt: A red 3D-printed concealed-hinge linkage held in a hand, showing the crossed links that swing the door part about a
+    point outside the hinge.
+  kind: how-it-works
+- src: web:printables-1176854-3
+  file: virtual-pivot-linkage-8d7f86.webp
+  width: 388
+  height: 690
+  title: Print in place concealed hinge mechanism + fidget toy
+  author: SigmaT4
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1176854-print-in-place-concealed-hinge-mechanism-fidget-to
+  site: Printables
+  alt: Black 3D-printed concealed hinges fitted inside a white cabinet, linking the side panel to the door.
+  kind: photo
+  animated: true
+  still: virtual-pivot-linkage-8d7f86.still.webp
+volvelle:
+- src: File:Lyon 3e - Bibliothèque municipale de Lyon Part-Dieu - Dans les marges - Volvelle du thème astral de la naissance
+    d'Henri IV.jpg
+  file: volvelle.webp
+  width: 800
+  height: 600
+  title: File:Lyon 3e - Bibliothèque municipale de Lyon Part-Dieu - Dans les marges - Volvelle du thème astral de la naissance
+    d'Henri IV.jpg
+  author: Romainbehar
+  license: CC0
+  license_url: http://creativecommons.org/publicdomain/zero/1.0/deed.en
+  source: https://commons.wikimedia.org/wiki/File:Lyon_3e_-_Biblioth%C3%A8que_municipale_de_Lyon_Part-Dieu_-_Dans_les_marges_-_Volvelle_du_th%C3%A8me_astral_de_la_naissance_d%27Henri_IV.jpg
+  site: Wikimedia Commons
+  alt: A printed paper volvelle with stacked rotating discs, shown in a library exhibition beside a portrait of Henri IV.
+  kind: photo
+- src: File:Astronomicum Caesareum (1540).f18.jpg
+  file: volvelle-f975d3.webp
+  width: 800
+  height: 1200
+  title: File:Astronomicum Caesareum (1540).f18.jpg
+  author: Petrus Apianus
+  license: Public domain
+  license_url: ''
+  source: https://commons.wikimedia.org/wiki/File:Astronomicum_Caesareum_(1540).f18.jpg
+  site: Wikimedia Commons
+  alt: A hand-coloured page from Apianus' Astronomicum Caesareum (1540) with several stacked paper discs turning on one central
+    pivot.
+  kind: photo
 walking-linkage:
 - src: File:Strandbeest-Walking-Animation.gif
   file: walking-linkage.webp
@@ -9140,6 +10599,18 @@ wall-plug:
   site: Wikimedia Commons
   kind: photo
 wave-and-disc-springs:
+- src: web:printables-1069910-1
+  file: wave-and-disc-springs-7be67f.webp
+  width: 800
+  height: 639
+  title: Midair Rectangular Wave Spring (g-code hack)
+  author: Makefast Workshop
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/1069910-midair-rectangular-wave-spring-g-code-hack
+  site: Printables
+  alt: A yellow 3D-printed rectangular wave spring, its stacked wavy loops resting on a fingertip.
+  kind: photo
 - src: File:Washerstack.png
   file: wave-and-disc-springs.webp
   width: 800
@@ -9227,6 +10698,46 @@ whippletree:
   source: https://commons.wikimedia.org/wiki/File:Pferde-Schwengel.JPG
   site: Wikimedia Commons
   alt: An old wooden whippletree set hanging on a wall, a long bar with a shorter bar hooked to each end.
+  kind: photo
+wire-and-foil-armature:
+- src: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  file: wire-and-foil-armature-55ba3f.webp
+  width: 800
+  height: 968
+  title: File:Avard Fairbanks demonstrating statuette method with Pele, volcano goddess.jpg
+  author: Eugenefbanks, am the executor of the estate of Avard T. Fairbanks
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:Avard_Fairbanks_demonstrating_statuette_method_with_Pele,_volcano_goddess.jpg
+  site: Wikimedia Commons
+  alt: A sculptor pressing clay onto a bent-wire armature fixed upright in a wooden base; a finished small figure of the same
+    pose stands behind.
+  kind: how-it-works
+wire-bail-closure:
+- src: File:Bügelverschluss C.jpg
+  file: wire-bail-closure.webp
+  width: 800
+  height: 1155
+  title: File:Bügelverschluss C.jpg
+  author: IgorCalzone1
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0
+  source: https://commons.wikimedia.org/wiki/File:B%C3%BCgelverschluss_C.jpg
+  site: Wikimedia Commons
+  alt: A swing-top bottle stopper turned over, showing the white porcelain plug, its red rubber seal ring and the wire bail
+    loops on each side.
+  kind: how-it-works
+- src: File:French kilner.jpg
+  file: wire-bail-closure-a0c3ee.webp
+  width: 800
+  height: 419
+  title: File:French kilner.jpg
+  author: Roger Burton West
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:French_kilner.jpg
+  site: Wikimedia Commons
+  alt: Two glass storage jars with hinged glass lids held shut by wire bail clamps.
   kind: photo
 wire-end-ferrule:
 - src: File:Wire ferrules with and without insulation.jpg

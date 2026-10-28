@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   tools:
     kind: source uncertain
@@ -204,6 +206,18 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: flexible-beam-coupling.webp
+  title: Con-Helical Flexible Coupler
+  author: LoboCNC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/132287-con-helical-flexible-coupler
+  site: Printables
+  alt: Two blue 3D-printed slotted shaft couplings, one fitted on a motor shaft, with a small cut-away picture in the corner
+    showing the slots inside.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, axial--radial, torque, actuator, stiffness, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond,
   set-screw, heat-set-insert, captive-nut, creep, fatigue, brittle--ductile, lubrication, layer-lines, perimeters, infill,
   overhang--bridging]
@@ -211,7 +225,8 @@ glossary: [misalignment, backlash, axial--radial, torque, actuator, stiffness, f
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/flexible-beam-coupling.svg"><img src="../media/drawn/anim/flexible-beam-coupling.svg" alt="A side view of two slightly misaligned shafts joined by a one-piece tube with a spiral slot cut through it: the tube bends to follow the tilt and offset while twisting from one shaft passes straight through to the other, with an inset comparing one long spiral cut with two short spiral cuts. The ani"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/flexible-beam-coupling.webp" alt="Render of a flexible beam coupling: a short aluminium tube with a spiral slot cut through its middle and small grub screws at each end joins the shaft of a black stepper motor to a threaded leadscrew, as on a 3D printer." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/flexible-beam-coupling.webp" alt="Render of a flexible beam coupling: a short aluminium tube with a spiral slot cut through its middle and small grub screws at each end joins the shaft of a black stepper motor to a threaded leadscrew, as on a 3D printer." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/flexible-beam-coupling.webp" alt="Two blue 3D-printed slotted shaft couplings, one fitted on a motor shaft, with a small cut-away picture in the corner showing the slots inside." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/132287-con-helical-flexible-coupler">Con-Helical Flexible Coupler</a> by LoboCNC, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A one-piece tube with a spiral slot cut through its wall that joins two shafts end to end, bending slightly to cope with small errors in their line-up while turning them together with no play.

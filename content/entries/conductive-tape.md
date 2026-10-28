@@ -96,6 +96,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, glass or mirror, 'fabric, leather
+      or cord']
 needs_confirming:
   glue_traits:
     kind: best guess
@@ -326,6 +329,7 @@ CUTS: 'Copper tape can give you a nasty paper cut, please be careful!' (SparkFun
 - Flat flexible cable and latching connector (FFC with ZIF connector): the factory-made flat cable for many signals through hinges and into moving parts
 - Wire-to-board plug connectors (pin header and crimp housing): the plug-in way to connect wires to a board
 - Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop): how to route a conductor across a moving joint
+- Adhesive tape joint and tape hinge: ordinary non-conductive tapes for holding parts together and making hinges
 
 ## Make it yourself
 

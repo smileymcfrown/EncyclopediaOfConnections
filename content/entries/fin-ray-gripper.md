@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, paper or card]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -185,13 +187,37 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: fin-ray-gripper.webp
+  title: Fin Ray Adaptive gripper for Gobilda pattern
+  author: SPIDERMONK
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/621918-fin-ray-adaptive-gripper-for-gobilda-pattern
+  site: Printables
+  alt: A robot gripper with two green 3D-printed fin-ray fingers bending inwards to wrap around a blue plastic cone.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: fin-ray-gripper-33446a.webp
+  title: Fin Ray Adaptive gripper for Gobilda pattern
+  author: SPIDERMONK
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/621918-fin-ray-adaptive-gripper-for-gobilda-pattern
+  site: Printables
+  alt: A green 3D-printed fin-ray finger, a long hollow triangle with cross ribs, lying on a blue mat.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, self-locking, linkage, actuator, stiffness, flexure, living-hinge, tolerance, form-fit--force-fit--material-bond,
   brittle--ductile, infill, print-in-place, elephants-foot]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/fin-ray-gripper.svg"><img src="../media/drawn/anim/fin-ray-gripper.svg" alt="Two side views of a gripper finger pressed by a round object: on the left a plain flexible strip bends away from the push, and on the right a triangular fin-ray finger with cross ribs passes the push to its back wall so its tip curls toward the object and wraps around it; both objects move away and "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/fin-ray-gripper.webp" alt="Render of a fin-ray gripper holding a ball: two soft, printed, triangular fingers with a ladder of cross ribs inside stand on a gripper body, and each has curled its tip in around the ball instead of bending away from it." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/fin-ray-gripper.webp" alt="Render of a fin-ray gripper holding a ball: two soft, printed, triangular fingers with a ladder of cross ribs inside stand on a gripper body, and each has curled its tip in around the ball instead of bending away from it." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/fin-ray-gripper.webp" alt="A robot gripper with two green 3D-printed fin-ray fingers bending inwards to wrap around a blue plastic cone." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/621918-fin-ray-adaptive-gripper-for-gobilda-pattern">Fin Ray Adaptive gripper for Gobilda pattern</a> by SPIDERMONK, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/fin-ray-gripper-33446a.webp" alt="A green 3D-printed fin-ray finger, a long hollow triangle with cross ribs, lying on a blue mat." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/621918-fin-ray-adaptive-gripper-for-gobilda-pattern">Fin Ray Adaptive gripper for Gobilda pattern</a> by SPIDERMONK, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A flexible, hollow, triangular gripper finger with cross ribs that bends toward a pushing object and wraps around it, giving a gentle, self-adjusting grip with no sensors or joints.

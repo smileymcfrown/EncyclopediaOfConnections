@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
+  drive_split: [same way, opposite ways, different speeds]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
 needs_confirming:
   tools:
     kind: source uncertain
@@ -98,7 +100,13 @@ needs_confirming:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
 confirmed: []
-open_points: []
+open_points:
+- kind: scope
+  note: '*Spur gear pair and gear train* (267): "kinetic toys" as an example of one gear driving a ring of gears (the Firgelli
+    page does not mention them).'
+- kind: sources
+  note: '*Spur gear pair and gear train* (267): the KHK PDF was read with pypdf; the image of the planet-spacing formula was
+    lost, and the text around it confirms the even-spacing condition.'
 uncertain_fields: [tools_needed, processes, environment_limits]
 diagram_idea: 'Three panels: a small gear driving a big one with pitch circles drawn and arrows showing opposite rotation
   and ''slower but stronger''; the same pair with an idler in between showing same-direction output and unchanged ratio; and
@@ -181,6 +189,8 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://www.youtube.com/watch?v=JTdSBcmtmsk
 - https://api.printables.com/graphql/
+- https://www.firgelliauto.com/blogs/mechanisms/multiple-drilling-machine
+- https://khkgears.us/media/izojpong/gear_guide1.pdf
 research: research/connection-types/results/Spur_gear_pair_and_gear_train_simple_compound_idler.json
 image:
   file: spur-gear-pair-and-gear-train.webp
@@ -231,7 +241,7 @@ pictures:
   drawn: false
 glossary: [misalignment, backlash, self-locking, axial--radial, torque, pitch, idler, crank, cantilever, clearance, tolerance,
   form-fit--force-fit--material-bond, set-screw, circlip, undercut, repeatability--accuracy, creep, brittle--ductile, lubrication,
-  infill, print-in-place, elephants-foot]
+  infill, print-in-place, elephants-foot, counter-rotating]
 ---
 
 <div class="eoc-pictures">
@@ -260,6 +270,7 @@ A few parts per stage: two gears, each fixed to a shaft (or turning on an axle),
 - A hobby servo or small gearmotor: a tiny fast motor driving a train of reduction gears (Wikipedia 'Servo (radio control)')
 - A car's manual gearbox, where a reverse idler gear is slid in to make the car go backwards (Wikipedia 'Gear train')
 - Construction and school gear kits such as Meccano, K'Nex or Engino gear sets (brands), used to build and feel gear trains (DT Online buyers' guide)
+- A multi-spindle drilling head, where one central driver gear turns several equal spindle gears so a set of holes is drilled in one go (Firgelli 'Multiple drilling machine')
 
 ## When to use it
 
@@ -327,6 +338,7 @@ Spur gears (steel, stainless, brass, plastic; plain bore, set-screw hub or clamp
 - Use tooth counts with no common factor (a hunting set, e.g. 15 and 31) to spread wear (EngineerDog; Wikipedia 'Gear train').
 - Printed gear settings from one test series: horizontal expansion about -0.15 mm, infill at least 35%, 5 or more walls (HowToMechatronics; test your own printer).
 - Plastic gears grow with heat and moisture: KHK's example uses MC Nylon's expansion coefficient of 9 x 10^-5 per C, so a 1010 mm nylon rack lengthens about 1.8 mm for a 20 C rise (about 0.09 mm per 100 mm per 10 C); nylon also swells as it absorbs water, so allow extra backlash (KHK 'Design of plastic gears').
+- One central gear driving a ring of gears round it (as in a multi-spindle drilling head, which drills several holes at once): each outer gear makes one outside mesh with the centre gear, so all the outer gears turn the same way as each other and the opposite way to the centre (Firgelli 'Multiple drilling machine'). If an outer ring gear (internal gear) also meshes with them, it is a planetary gear set; with the carrier held still (the 'star' type) it 'becomes an ordinary gear train', and the planets can only be spaced evenly if (sun teeth + ring teeth) / number of planets is a whole number (KHK Gear Technical Reference, section 17.1, Condition No. 2).
 
 ## Common failures
 
@@ -351,6 +363,9 @@ Meshing gears create an in-running nip point that can catch fingers, hair and cl
 - Lantern gear (pin gear): a simple pin-and-disc gear that is easy to make from dowels
 - Differential (bevel gear differential): lets two outputs turn at different speeds
 - Shaft-to-hub joints (key, set screw, D-flat, clamp hub): how each gear is fixed to its shaft
+- Line shaft and power take-off: one long driven shaft that feeds several machines through its own belts, chains or gears, instead of a train of meshing gears
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: one bevel gear between two facing bevels turns two outputs on one line in opposite directions
+- Several motors driving one load: two or more motors geared to one shared gear or shaft so their power adds up
 
 ## Make it yourself
 
@@ -375,6 +390,7 @@ Meshing gears create an in-running nip point that can catch fingers, hair and cl
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…gears, EngineerDog); a feeler gauge or paper strip to check backlash ⚑ [uncertain]…"
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ Research note: *Spur gear pair and gear train* (267): "kinetic toys" as an example of one gear driving a ring of gears (the Firgelli page does not mention them).
 
 ## Sources
 
@@ -408,3 +424,5 @@ Meshing gears create an in-running nip point that can catch fingers, hair and cl
 - <https://help.prusa3d.com/article/petg_2059>
 - <https://www.youtube.com/watch?v=JTdSBcmtmsk>
 - <https://api.printables.com/graphql/>
+- <https://www.firgelliauto.com/blogs/mechanisms/multiple-drilling-machine>
+- <https://khkgears.us/media/izojpong/gear_guide1.pdf>

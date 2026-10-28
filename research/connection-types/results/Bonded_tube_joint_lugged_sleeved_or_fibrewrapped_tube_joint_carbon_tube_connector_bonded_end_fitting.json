@@ -1,0 +1,187 @@
+{
+  "identity": {
+    "plain_name": "Joining tubes by gluing their ends into (or over) a fitted socket, sleeve or corner piece, or by wrapping the joint in glue-soaked fibre, so you never have to drill holes through the tubes",
+    "term": "Bonded tube joint (adhesively bonded tube connector: lugged, sleeved, ferrule or fibre-wrapped joint)",
+    "aliases": [
+      "lugged tube joint, bonded lug, lug (bicycle frames: tubes glued into lugs, 'analogous to a lugged steel frame'; Wikipedia 'Bicycle frame')",
+      "carbon fiber tube connector, modular tube connector (DragonPlate)",
+      "bonded insert, bonded end fitting, bonded end plug, threaded end adapter, quick-release tube connector (DragonPlate)",
+      "ferrule, ferrule tubing, internal joiner, tube splice (a smaller tube glued inside two tube ends; Clearwater Composites)",
+      "sleeve joint, overlap joint, socket joint",
+      "tube-to-tube construction, wrapped joint, carbon-wrapped junction (Condor Leggero; road.cc)",
+      "hemp lug, fibre-wound lug, hemp-wrapped bamboo joint (Calfee; road.cc)",
+      "3D-printed lug (colorFabb XT-CF20 bike)",
+      "gusset plate (riveted and bonded, for square tube; DragonPlate)"
+    ],
+    "family": "adhesives & bonding",
+    "other_families": [
+      "interlocking joints & joinery",
+      "print-in-place & 3D-printing joints"
+    ],
+    "one_liner": "Tubes are joined by gluing each tube end into or over a close-fitting socket, sleeve, plug or lug, or by binding the joint with resin-soaked fibre, so the load passes through a long glued overlap instead of through holes drilled in the tube wall.",
+    "complexity": "A few parts. The tubes; a connector (a metal, composite or 3D-printed lug or corner block with sockets, an internal ferrule tube, a threaded end plug or quick-release end fitting, or a plate gusset) or, for wrapped joints, strips of carbon or glass cloth or hemp fibre; the adhesive or laminating resin (usually two-part epoxy; colorFabb used polyurethane); and a jig or fixture to hold alignment while it cures (Clearwater Composites; DragonPlate; road.cc).",
+    "how_it_works": "One part slides inside or over the other with a small, even gap (the bond gap) that is filled with adhesive, so the joint is a long glued overlap all round the tube (Clearwater Composites). Pulling or pushing along the tube, and twisting it, loads the glue in shear, the direction adhesive is strongest, which is why a long overlap is used instead of drilled bolts or pins that 'compromise the tube wall' (DragonPlate; Materials 2021 bond-gap study). Wrapped joints skip the connector: mitred tubes are tacked together in a jig and then bound with resin-soaked carbon strips or hemp fibre that is built up into a lug shape and cured (Condor Leggero and Calfee bamboo, road.cc). Strength depends as much on preparation as on the glue: sand off the glossy surface, clean with solvent, fill the gap fully, and hold the parts still until fully cured (Clearwater Composites)."
+  },
+  "finder_attributes": {
+    "job": [
+      "glue or bond: the tubes are held by adhesive in a long overlap",
+      "join and hold: makes permanent frames, booms and trusses from separate tubes",
+      "lock, and release by hand: bonded threaded or quick-release end fittings let tube sections be taken apart (DragonPlate)"
+    ],
+    "motion": "none (rigid joint); DragonPlate's grooved quick-release fitting lets a bonded end fitting turn, and its 'adjustable angle joints' are set and then fixed",
+    "degrees_of_freedom": "0: a bonded tube joint is rigid once cured. Quick-release end fittings come apart along the tube axis but are rigid when assembled (DragonPlate).",
+    "special_behaviour": [
+      "quick-release: bonded quick-release end fittings let long trusses be broken into shorter sections for carrying (DragonPlate)",
+      "self-aligning or self-centring: a close-fitting socket or ferrule centres the tubes; glass beads mixed into the glue keep the gap even all round (Materials 2021 bond-gap study)"
+    ],
+    "holding_principle": [
+      "material bond (glue, solvent or melting): the adhesive or laminating resin holds the joint",
+      "shape (the parts interlock; form-fit): a lug or socket wraps round the tube, and DragonPlate's connectors have ridges and slots that strengthen the bond; plate gussets are also riveted (DragonPlate)"
+    ],
+    "input_output": "not applicable",
+    "power": "passive (no power needed)",
+    "removability": "permanent for glued and wrapped joints; tool-free quick release at bonded quick-release end fittings, or removable at threaded end adapters (DragonPlate)",
+    "reuse_cycles": "once for the glued joint itself; many times for the quick-release or threaded fittings bonded into the tube ends (DragonPlate)",
+    "tools_needed": "Fine saw or cut-off tool for the tubes; 120-180 grit sandpaper, drum sander, rotary tool or flex hone; acetone or isopropyl alcohol; masking tape; two-part epoxy with mixing stick or dispenser; gloves, safety glasses and ventilation; a jig, fixture or clamps for alignment; an oven if the adhesive needs heat curing (Clearwater Composites; road.cc Condor).",
+    "seal": "none (the glue line may happen to keep water out of the tube end, but the joint is not designed as a seal) [uncertain]",
+    "load": "medium to heavy: strongest in pull, push and twist along the tube, which shear the glue. Example: 3M DP420 has an estimated shear strength of about 2,200 psi on aluminium and steel (Clearwater Composites); motorsport carbon-tube and aluminium-insert joints with a 30 mm bond met design loads of 8 and 12 kN, and one adhesive reached 35 kN when the gap was properly filled (Materials 2021 bond-gap study). Weakest in peel and in bending that prises the end of the overlap open [uncertain].",
+    "adjustable": "no once cured; angles and lengths are set in the jig before the glue cures. Threaded or quick-release end fittings let sections be swapped (DragonPlate).",
+    "play_and_precision": "none once cured; precision depends on the jig and on an even bond gap. Glass beads in the glue gave more consistent strength than relying on the parts' own shape to set the gap (Materials 2021 bond-gap study). Quick-release fittings may have small play [uncertain].",
+    "access_needed": "end of a tube or shaft: the connector, ferrule or plug goes into or over the open tube end; wrapped joints need room all round the junction",
+    "materials": "Tubes: roll-wrapped or pultruded carbon fibre, fibreglass, aluminium, titanium, steel and bamboo (DragonPlate; colorFabb lugs 'connect standard tubing in carbon, titanium, aluminum or bamboo', 3D Printing Industry; road.cc Calfee). Connectors: anodised aluminium (DragonPlate), moulded carbon, 3D-printed carbon-filled polymer such as XT-CF20 (colorFabb), stainless or titanium printed lugs, wrapped carbon cloth or hemp fibre. Adhesives: two-part epoxies such as 3M Scotch-Weld DP420 and 2216 (brands; Clearwater, DragonPlate), polyurethane adhesive (colorFabb). Poor matches: bare aluminium touching carbon (galvanic corrosion; Clearwater), HDPE and other low-surface-energy plastics, which need special adhesives (Clearwater), and the glossy outer skin of bamboo, which 'doesn't stick to epoxy well' unless sanded (Instructables 'Bamboo and Hemp Road Bike').",
+    "maker_difficulty": "moderate: gluing a bought connector into a tube is easy, but getting the bond gap, preparation, alignment and cure right takes care; a load-bearing frame such as a bicycle is hard, because a hidden bad joint can fail without warning"
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part: modular aluminium tube connectors, ferrules, threaded end adapters and quick-release fittings (DragonPlate)",
+      "3D print (FDM): printed lugs and corner connectors with sockets for the tubes (colorFabb XT-CF20 bike; Printables 'Carbon fiber tube corner connector/bracket')",
+      "CNC: turned or milled aluminium inserts and lugs (Materials 2021 study)",
+      "composite lay-up: wrapping joints with carbon or glass cloth or hemp fibre and resin (road.cc Condor and Calfee)",
+      "woodwork: mitring and jigs for bamboo frames (aesdes bamboo bicycle)"
+    ],
+    "print_in_place": "no: the printed lug or connector is printed on its own and the tubes are glued into it.",
+    "making_tips_3d_printing": "1) Size the socket for a glue gap, not a press fit: Clearwater recommends about 0.005-0.010 in (0.13-0.25 mm) per side for most two-part epoxies, so a socket for a 16 mm tube would be roughly 16.25-16.5 mm across (Clearwater Composites); the Printables 'Carbon fiber tube corner connector/bracket' instead uses a 16.1 mm socket for 16 mm tube (only 0.05 mm per side), 30 mm long, with a 21 mm outside diameter. Print a short test socket, since printers vary [uncertain]. 2) Make the socket long: for internal joiners, a bond length of at least 2-3 times the inside diameter, and 3 in by default for tubes under 1 in (Clearwater). 3) Material: colorFabb printed its bike lugs in XT-CF20 carbon-filled filament on a 0.8 mm nozzle and checked the design with FEM analysis and riding (colorFabb). 4) Use the print's freedom of shape: colorFabb built channels into the lugs so polyurethane glue 'distributes itself to the right places' (colorFabb). 5) Sand the inside of the printed socket and the outside of the tube to remove gloss, and clean with solvent before gluing (Clearwater) [uncertain] (Clearwater's advice is for carbon tubes; it is applied here to printed sockets). 6) Print sockets so the layers wrap round the tube (socket axis vertical), so the hoop strength doesn't depend on layer adhesion [uncertain]. 7) PLA creeps and softens with heat, so for loaded joints in warm places prefer a tougher, more heat-resistant filament [uncertain].",
+    "off_the_shelf_parts": "Search for: 'carbon fiber tube connectors' / 'modular tube connectors' (blocks, cubes, links, clevis connectors; DragonPlate (brand)), 'pultruded tube connectors', 'threaded end adapter' and 'quick release tube connector', 'ferrule tubing' or 'tube splice' sized to fit inside your tube, 'carbon tube end plug', 'plate gusset kit' (square tube), 'bond line controller glass beads' (Materials 2021 study, citing Rock West Composites (brand)), structural epoxies such as '3M Scotch-Weld DP420' and '2216' (brands; Clearwater, DragonPlate), and 'carbon fibre braided sleeve' or 'hemp twine' for wrapped joints. Clamp-on and slip-on framing fittings are the no-glue alternative (McMaster-Carr links on the UWRT wiki).",
+    "rules_of_thumb": [
+      "Bond gap about 0.005-0.010 in (0.13-0.25 mm) per side for most two-part epoxies; check the adhesive's data sheet (Clearwater Composites; repeated on the UWRT wiki). Other sources agree: 0.2 mm was used and recommended by a glass-bead maker for epoxies (Materials 2021 study), and a university solar-car team started at 0.008 in (0.203 mm) (UT Austin Longhorn Racing Solar wiki).",
+      "Bond length for ferrule tubing: at least 2-3 times the inside diameter; 3 in by default for tubes under 1 in diameter (Clearwater Composites).",
+      "Preparation: abrade with 120-180 grit until all gloss is gone, wipe with acetone or isopropyl alcohol, wear gloves so skin oils don't spoil the bond; a water-bead test shows whether sanding is enough (Clearwater Composites). The Materials 2021 study sanded from 240 to 400 grit; the UT Austin team used about 300 grit and acetone.",
+      "Apply adhesive to both surfaces for 100% coverage and look for squeeze-out; fixture the parts so they can't shift, and don't handle them until fully cured, which can take days at room temperature (Clearwater Composites).",
+      "Most standard two-part epoxies are limited to below about 250 °F (about 120 °C) in service (Clearwater Composites).",
+      "Don't drill and pin or bolt carbon tubes; it 'compromises the tube wall and weakens the tube' (DragonPlate). Square tubes are joined with plate gussets that are riveted (DragonPlate).",
+      "Mixing glass beads the size of the bond gap into the epoxy gave more consistent joint strength than controlling the gap with the parts' shape (Materials 2021 study).",
+      "Isolate carbon from bare aluminium: anodising, the epoxy layer itself, or a glass-fibre layer stops galvanic corrosion (Clearwater Composites)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "Carbon bicycle frames made of tubes glued into lugs, or tubes wrapped at the joints (Wikipedia 'Bicycle frame'; Condor Leggero, road.cc)",
+      "Bamboo bicycles with hemp-wrapped joints (Calfee, road.cc)",
+      "Camera booms, lighting rigs and drone arms made from carbon tubes with glued-in end fittings (DragonPlate)",
+      "Tent and kite poles with a short joining sleeve (ferrule) glued into one tube end [uncertain]"
+    ],
+    "when_to_use": "Use a bonded tube joint for light, stiff frames of carbon, fibreglass, aluminium or bamboo tube where drilling would weaken the tube or crush it: camera rigs and booms, drone frames, robot chassis, model and kite structures, trusses that break down into sections (with bonded quick-release fittings), and bicycle or vehicle frames built in a jig. It spreads the load over a long overlap and can join different materials, such as carbon tube to aluminium end fittings.",
+    "when_not_to_use": "Avoid it when the joint must be taken apart (use clamp-on tube fittings, bonded threaded end fittings or push-fit sockets); when you can't prepare and clean the surfaces or control the gap; when the joint will get hotter than the adhesive's service limit (about 120 °C for most epoxies; Clearwater); for low-surface-energy plastics such as HDPE without a special adhesive (Clearwater); and for anything that carries a person unless the joint design is proven and the finished part is tested. For a quick, light, non-structural join of solid rods, push-fit rod fittings are simpler.",
+    "environment_limits": "Most standard two-part epoxies are limited to below about 250 °F (about 120 °C); also consider chemicals and weather when choosing an adhesive (Clearwater Composites). Carbon and aluminium expand differently with heat, which can delaminate a metal-to-carbon bond; DragonPlate uses ridged and slotted connectors to resist this. Carbon touching bare aluminium causes galvanic corrosion, especially in wet conditions (Clearwater) [uncertain] (the wet-conditions point is not on the page). Bamboo can crack as it dries out in a dry climate (aesdes bamboo bicycle). Bonded joints can crack from crashes, overtightening or poor installation (Wikipedia 'Bicycle frame').",
+    "safety_notes": "Galvanic corrosion: carbon touching bare aluminium corrodes the aluminium; isolate it with anodising, the epoxy layer or a glass-fibre layer (Clearwater Composites). Carbon dust: sanding and cutting composites makes dust; capture it at the source with extraction, wear a suitable dust mask, goggles, coveralls and gloves, consider wet sanding, and note that carbon dust conducts electricity and can short electrical equipment (Gurit composite dust guidance). Epoxy allergy: uncured epoxy resins and hardeners can sensitise the skin, after which even small contact causes dermatitis; epoxies are the most frequent cause of work-related allergic skin disease; cured epoxy no longer sensitises; wear chemical-resistant gloves (DGUV IFA; Composites Australia). Ventilate and wear safety glasses and gloves while bonding (Clearwater). Never ride a home-made bicycle frame, or trust any frame that carries a person, until it has been properly tested: hidden bonding faults and cracks in adhesive at joints can let it fail without warning (Wikipedia 'Bicycle frame'; one builder's underbuilt bamboo bottom-bracket joint cracked, reported in search results) [uncertain].",
+    "common_failures": "Joint pulls apart cleanly with bare-looking surfaces: poor preparation (gloss or release agent left on, oily fingers) or the wrong adhesive (Clearwater). Weak or uneven strength: glue gap too thick, too thin or off-centre, or the glue ran out of the gap; control the gap with glass beads or a stepped insert (Materials 2021 study). Misaligned frame: parts shifted while curing; use a jig or fixture (Clearwater; road.cc Condor). Corrosion at a carbon-to-aluminium joint: no isolation layer (Clearwater). Cracked tube where a bolt or pin went through: drilled instead of bonded (DragonPlate). Wrapped bamboo joints cracking or letting go: cracked bamboo, the shiny bamboo skin left unsanded, or too little wrap at highly loaded joints such as the bottom bracket (Instructables 'Bamboo and Hemp Road Bike'; aesdes).",
+    "related": [
+      "Glued joint design (butt, lap and scarf joints; peel vs shear): the general rules for glued overlaps; a bonded tube joint is a lap joint wrapped round a tube",
+      "Two-part epoxy: the usual adhesive for these joints",
+      "Clamp-on tube fittings (slip-on structural fittings): join tubes with set screws and no glue, but set screws can crush carbon",
+      "Internal tube anchors (star nut, expansion plug): grip inside a tube by friction or barbs, not glue",
+      "Push-fit rod and spar fittings (kite fittings): friction-fit sockets for small solid rods, meant to be pulled apart",
+      "Shock-corded sectional pole: tube sections joined by ferrule sockets held together by elastic cord, not glue",
+      "Fillet-and-tape joint (glass-tape tabbing): the same wrapped-fibre idea used for flat panels",
+      "Brazed joint: lugged steel frames are brazed into lugs instead of glued (Wikipedia 'Bicycle frame')",
+      "Split-part joints for large prints: other ways of joining printed parts"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://road.cc/content/news/96466-video-making-condor-leggero-carbon-frame",
+        "title": "Video: making the Condor Leggero carbon frame (road.cc)",
+        "shows": "Video and photos of mitred carbon tubes held in a jig, bonded and wrapped with carbon strips at the junctions, then oven-cured",
+        "license": "link only"
+      },
+      {
+        "url": "https://colorfabb.com/xt-cf20-bike-project-release",
+        "title": "XT-CF20 bike project release (colorFabb)",
+        "shows": "Photos of a bicycle made from standard tubes glued into nine 3D-printed carbon-filled lugs",
+        "license": "link only"
+      },
+      {
+        "url": "https://dragonplate.com/how-to-connect-carbon-fiber-tubes",
+        "title": "How to Connect Carbon Fiber Tubes (DragonPlate)",
+        "shows": "Pictures of bonded aluminium modular connectors, moulded pultruded-tube connectors, quick-release end fittings and riveted plate gussets",
+        "license": "link only"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg",
+        "title": "Bamboo bike frame Bamboosero (Noah Scalin, Wikimedia Commons; Handmade Bicycle Show 2010)",
+        "shows": "Photo of a bamboo bicycle frame with fibre-wrapped joints",
+        "license": "CC BY-SA 2.0"
+      },
+      {
+        "url": "https://www.clearwatercomposites.com/resources/how-to-guides/bond-carbon-fiber-tubes/",
+        "title": "How to Bond Carbon Fiber Tubes (Clearwater Composites)",
+        "shows": "Step-by-step guide to bond gap, bond length, sanding, cleaning, gluing and fixturing carbon tubes",
+        "license": "link only"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/157670-carbon-fiber-tube-corner-connectorbracket",
+        "title": "Carbon fiber tube corner connector/bracket (SpaceCadet, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A printable corner bracket for 16 mm carbon tube from a camera rig: 16.1 mm socket, 21 mm outside, 30 mm long, with 1/4-20 tappable holes. Read through the Printables public API.",
+        "license": "CC BY"
+      },
+      {
+        "url": "https://grabcad.com/library/xt-cf20-bike-3d-printed-bicycle-1",
+        "title": "XT-CF20 bike - 3D printed bicycle (colorFabb, GrabCAD) (linked from colorFabb's release; page returned 200 but its content loads by script and could not be read)",
+        "what_it_is": "CAD files for the nine printed lugs of colorFabb's bike",
+        "license": "[uncertain]"
+      },
+      {
+        "url": "https://www.printables.com/model/340743-remix-villamany-f450-type-drone-arm-carbon-fiber-t",
+        "title": "Remix villamany F450 type Drone Arm - carbon fiber tube reinforced (N7 Cat, Printables) (URL from Printables API, page not opened)",
+        "what_it_is": "A printed drone arm with a 6 mm OD, 4 mm ID pultruded carbon tube inserted for stiffness. Read through the Printables public API.",
+        "license": "CC BY-NC-SA"
+      }
+    ],
+    "diagram_idea": "Three side-by-side cut-aways of joining two tubes: a ferrule glued inside both ends, a lug glued over both ends, and a mitred joint wrapped with fibre, each with the thin glue gap drawn and the bond length marked as 2-3 times the tube's inside diameter.",
+    "sources": [
+      "https://www.clearwatercomposites.com/resources/how-to-guides/bond-carbon-fiber-tubes/",
+      "https://uwaterloo.atlassian.net/wiki/spaces/UWRT/pages/33964069714/Connecting+CF+Tubes",
+      "https://dragonplate.com/how-to-connect-carbon-fiber-tubes",
+      "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8071265/",
+      "https://cloud.wikis.utexas.edu/wiki/spaces/LHRSOLAR/pages/220234798",
+      "https://en.wikipedia.org/wiki/Bicycle_frame",
+      "https://road.cc/content/news/96466-video-making-condor-leggero-carbon-frame",
+      "https://road.cc/content/news/10980-just-calfee-bamboo-road-bike",
+      "https://3dprintingindustry.com/news/home-3d-print-bike-colorfabbs-composite-filament-51938/",
+      "https://colorfabb.com/xt-cf20-bike-project-release",
+      "https://www.aesdes.org/2016/04/20/from-fists-and-steel-to-jungle-bicycle-part-1/",
+      "https://www.instructables.com/Bamboo-and-Hemp-Road-Bike/",
+      "https://www.instructables.com/Bamboo-Bicycle-Frame/",
+      "https://www.gurit.com/wp-content/uploads/2026/08/Composite-Dust-Guidance.pdf",
+      "https://www.dguv.de/ifa/Praxishilfen/hazardous-substances/epoxidharze/index.jsp",
+      "https://www.compositesaustralia.com.au/for-industry/health-and-safety/epoxy-resins/",
+      "https://commons.wikimedia.org/wiki/Category:Bamboo_bicycles",
+      "https://commons.wikimedia.org/wiki/File:Bamboo_bike_frame_Bamboosero.jpg",
+      "https://grabcad.com/library/xt-cf20-bike-3d-printed-bicycle-1",
+      "https://api.printables.com/graphql/"
+    ]
+  },
+  "uncertain": [
+    "seal",
+    "load",
+    "play_and_precision",
+    "making_tips_3d_printing",
+    "everyday_examples",
+    "environment_limits",
+    "safety_notes",
+    "make_it_yourself"
+  ]
+}

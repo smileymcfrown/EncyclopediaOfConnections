@@ -93,6 +93,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -220,7 +222,7 @@ pictures:
   alt: 'A soft shackle: a loop of grey braided Dyneema rope closed by a knot at one end.'
   kind: photo
   drawn: false
-glossary: [torque, form-fit--force-fit--material-bond, heat-set-insert]
+glossary: [torque, form-fit--force-fit--material-bond, heat-set-insert, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -282,7 +284,7 @@ Not for frequent clipping and unclipping: use a Spring-gate hook (carabiner), wh
 - **Adjustable:** no: it only joins and unjoins; it sets no position or tension (use a Turnbuckle for that).
 - **Access needed:** not applicable: it is closed in the open around the parts it joins; you only need to reach the link, its pin or sleeve, and both ends of a bolt-type pin.
 - **Materials:** Shackles: forged, quenched and tempered carbon steel with alloy pins, hot-dip galvanised or self-coloured (Crosby G-209); stainless steel for marine use, some stamped from flat strap (Wikipedia 'Shackle'). Quick links: steel (Petzl GO), zinc-plated steel and stainless steel (National Hardware) ⚑ [uncertain: other materials such as aluminium alloy are sold for light uses]. Soft shackles: high-strength fibre rope such as UHMWPE (Dyneema, brand), aramid or PBO (Wikipedia 'Shackle'). Joins: chain, wire-rope and fibre-rope eyes with or without thimbles, webbing and synthetic slings (which need a big enough bow to avoid pinching), eye bolts, pad eyes and other shackles (Crosby). Stainless threads can gall (seize) if overtightened or corroded (Wikipedia 'Shackle').
-- **Heat, cold, water and wear:** Rated steel shackles and links: -40°F to +400°F (-40°C to 204°C) (Crosby G-209; ASME B30.26 via Hanford ch. 2-26). Salt air corrodes threads and makes stainless threads gall; a coat of lanolin or heavy grease helps (Wikipedia 'Shackle'). Steel mousing wire on a stainless shackle can cause galvanic corrosion in wet, salty places (Wikipedia 'Shackle'). Quick links should be stored dry and their threads lightly oiled after contact with water; extreme temperatures, chemicals, cuts and abrasion affect performance (Péguet instructions). Vibration loosens screw pins and sleeves, so mouse long-term pins (Crosby). Soft shackles are weakened by heat, including friction heat, can be cut or burned, and 'deteriorate in some environments' (Wikipedia 'Shackle').
+- **Heat, cold, water and wear:** Rated steel shackles and links: -40°F to +400°F (-40°C to 204°C) (Crosby G-209; ASME B30.26 via Hanford ch. 2-26). Salt air corrodes threads and makes stainless threads gall; a coat of lanolin or heavy grease helps (Wikipedia 'Shackle'). Steel mousing wire on a stainless shackle can cause [galvanic corrosion](../glossary.md#galvanic-corrosion) in wet, salty places (Wikipedia 'Shackle'). Quick links should be stored dry and their threads lightly oiled after contact with water; extreme temperatures, chemicals, cuts and abrasion affect performance (Péguet instructions). Vibration loosens screw pins and sleeves, so mouse long-term pins (Crosby). Soft shackles are weakened by heat, including friction heat, can be cut or burned, and 'deteriorate in some environments' (Wikipedia 'Shackle').
 
 ## Making it
 

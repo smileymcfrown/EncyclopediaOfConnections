@@ -1,6 +1,6 @@
 # hinges & pivots: Unusual hinges and pivots
 
-19 entries. ⚑ = needs confirming: 12 best guesses and 2 values from text marked [uncertain]
+24 entries. ⚑ = needs confirming: 16 best guesses and 3 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -25,6 +25,11 @@ are welcome. Back to the [index](README.md).
 | 296 | Knife-edge and jewel pivots | – | none | – | – | – | – | – | – | none, drill and tap, hand tools | light | off-the-shelf part | yes | tool-free quick release |
 | 337 | Ball caster | – | none | – | – | – | – | – | – | drill and tap, hand tools | heavy | off-the-shelf part | no | removable |
 | 396 | Castor | – | none | – | – | – | – | – | – | drill and tap, hand tools | heavy | off-the-shelf part | no | removable |
+| 413 | Split-pin paper fastener | boards or sheet | none | – | – | – | – | – | – | none, sewing or leather tools, hand tools | light | off-the-shelf part | partly ⚑ | removable |
+| 418 | Loose-leaf bindings | any solid parts ⚑ | none | – | – | – | – | – | – | crimper, sewing or leather tools, hand tools | light | off-the-shelf part | partly | tool-free quick release |
+| 426 | Slot-in model hinge | lid, door or cover | none | – | – | – | – | – | – | drill and tap, press or vice, power tools, hand tools | light | off-the-shelf part | no | permanent |
+| 431 | Elastic-strung ball joint | any solid parts ⚑ | none | – | – | – | – | – ⚑ | – | press or vice, hand tools | light | 3D print (FDM) | yes | removable |
+| 443 | Glass door hinge | tube, rod or extrusion, lid, door or cover | none | – | – | – | – | – | – | drill and tap, hand tools | light | off-the-shelf part | yes | removable |
 
 ## Best guesses
 
@@ -42,6 +47,10 @@ The script was unsure of these values.
 - ⚑ **185 Lid and flap stays**, `connects` = lid, door or cover: worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ **263 Knuckle hinge**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ **264 Plain pivot and rolling bearing**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
+- ⚑ **264 Plain pivot and rolling bearing**, `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card: still unsure: added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): Adafruit: rivets "can be used for rotating pivot points and joints" in cardboard; skewer axles in card automata are pin-in-hole pivots  (no page opened for skewers)
+- ⚑ **418 Loose-leaf bindings**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
+- ⚑ **431 Elastic-strung ball joint**, `connects` = any solid parts: joins parts, but no specific kind of part found; set to any solid parts
+- ⚑ **431 Elastic-strung ball joint**, `overload_response` = –: listed as torque-limiting or breakaway, but no overload behaviour matched
 
 ## From research text marked [uncertain]
 
@@ -49,3 +58,4 @@ These values are probably right, but the research run could not confirm the fact
 
 - ⚑ **285 Multi-turn rotation limiter**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…r for clock and watch stop work; none for push-together printed rings [uncertain]…"
 - ⚑ **285 Multi-turn rotation limiter**, `usual_process` = 3D print (FDM): `processes` is marked [uncertain] here: "…: rings, discs, nut carriers and gears are simple flat or round parts [uncertain: no tested printable model of…"
+- ⚑ **413 Split-pin paper fastener**, `adjustable` = partly: `adjustable` is marked [uncertain] here: "…ns, and the legs can be lifted and re-pressed to loosen or tighten it [uncertain: maker practice, not from a s…"

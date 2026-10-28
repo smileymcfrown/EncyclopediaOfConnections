@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess

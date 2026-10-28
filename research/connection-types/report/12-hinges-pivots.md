@@ -130,6 +130,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: swings on a hinge
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: no
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -298,6 +341,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: yes
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: brake, damper
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -406,6 +492,7 @@
   - Magnet joint: a steel ball held in a seat by a magnet, which lets go instead of breaking
   - Levelling foot: the swivel pad under a levelling foot is a small ball-and-socket joint that lets the pad lie flat on an uneven floor
   - Locking adjustment screws: opposing screws that set a tilt or height and then lock it, as the four set screws of a pyramid alignment adaptor do
+  - Elastic-strung ball joint (ball-jointed doll stringing): a chain of ball-and-socket joints held closed by an elastic cord running through them, as in ball-jointed dolls
 
 ### Pictures, videos and models
 
@@ -479,6 +566,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: yes
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: swivel or tilt
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, clay or putty, glass or mirror
 
 ### Other info
 
@@ -582,6 +712,8 @@
   - Locking profile snake (contour gauge chain): links that go rigid when pressed together on tapered posts (LoboCNC, Printables)
   - Cable carrier (drag chain, energy chain): links that bend in one plane to guide moving cables; it doesn't hold a shape
   - Friction hinge: holds any angle about one axis only
+  - Elastic-strung ball joint (ball-jointed doll stringing): ball joints held together by an elastic cord inside, so parts can be unhooked and swapped
+  - Wire and foil armature (sculpture armature): a bendable wire skeleton that is posed once and covered in clay, rather than a chain of joints that keeps moving
 
 ### Pictures, videos and models
 
@@ -643,6 +775,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: swivel or tilt
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a load
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -809,6 +984,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: tripod or stand
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: no, yes
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -964,6 +1182,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: swivel or tilt
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1111,6 +1372,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1254,6 +1558,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: no
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: swivel or tilt
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1262,6 +1609,8 @@
 ## 181 Clip-on concealed hinge (cup hinge)
 
 *hinges & pivots.* A hidden cabinet hinge that sits in a round pocket in the door and clips on and off its mounting plate without tools, with adjusting screws
+
+*Also covers:* Also covers the drilled glass-door cup hinge with a cover cap.
 
 ### What it is
 
@@ -1313,7 +1662,7 @@
 - **adjustable**: yes: side adjustment (front screw, about ±2 mm), height adjustment (cam on the mounting plate, about ±2 mm) and depth adjustment (rear cam screw, +3 mm/-2 mm) on Blum CLIP top (Blum H002). Blum's depth cam gives 5 mm of travel in 1¾ turns without loosening a fixing screw, and its side screw gives 4 mm with a stop so it can't be screwed out (Blum spec sheet). Face-frame cup hinges often adjust only sideways and up/down (Woodcraft).
 - **play_and_precision**: small: once adjusted the door is held firmly (Blum's three-point contact between arm and plate), and because the adjustments live on the hinge and plate, a door that is unclipped and clipped back should return to the same place ⚑ [uncertain]. The adjusters absorb small drilling errors of about 2 mm (Blum H002), but the cup hole must still be bored square to the door, which is why jigs are used (Wikipedia 'Concealed hinge jig'). *(⚑ parts need confirming)*
 - **access_needed**: one side only (blind): the cup and the mounting plate both screw on from the inside of the door and cabinet, and nothing goes through to the front face
-- **materials**: Commercial hinges: steel (usually nickel-plated) arms and plates, with metal or plastic cups; aluminium and glass-door versions exist (Blum lists aluminium-frame and glass-door hinges) ⚑ [uncertain] (on exact metals). They fit wood, plywood, MDF and particleboard doors; in MDF and particleboard use versions with pre-fitted plastic dowels or inserts, because ordinary screws hold poorly there (Woodcraft; Blum spec sheet). 26 mm cup versions exist for glass doors and small doors (German Wikipedia 'Scharnier'). *(⚑ parts need confirming)*
+- **materials**: Commercial hinges: steel (usually nickel-plated) arms and plates, with metal or plastic cups; aluminium and glass-door versions exist (Blum lists aluminium-frame and glass-door hinges) ⚑ [uncertain] (on exact metals). They fit wood, plywood, MDF and particleboard doors; in MDF and particleboard use versions with pre-fitted plastic dowels or inserts, because ordinary screws hold poorly there (Woodcraft; Blum spec sheet). 26 mm cup versions exist for glass doors and small doors (German Wikipedia 'Scharnier'). The glass-door version (e.g. Blum's) needs a 26 mm hole bored in the glass for each hinge, takes glass 4.5-7 mm thick, and is held on by a cover cap screwed to the hinge from the other face; every part that touches the glass is plastic (HardwareSource). See Glass door hinge. *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: buy the hinge (you can't practically make one); fitting is easy with a jig, but the 35 mm cup hole must be drilled square, to the right depth and at the right distance from the edge, and you have to pick the right overlay type
 
 ### Making it
@@ -1361,6 +1710,7 @@
   - Virtual-pivot linkage (remote centre of motion): the idea behind the cup hinge's moving pivot, where the door turns about a point with no pin
   - Lift-off hinges and knock-down fittings: other ways to make doors or panels removable, but with tools or with visible hardware
   - Print-in-place hinge: a printed alternative for small printed boxes and lids
+  - Glass door hinge (clamp-on, drilled cup and pivot hinges for glass): the glass-door versions, including a cup hinge that passes through a 26 mm hole in the glass and is held by a plastic cover cap
 
 ### Pictures, videos and models
 
@@ -1395,6 +1745,7 @@
   - https://www.youtube.com/watch?v=wmHhg8WvFT4
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://api.printables.com/graphql/
+  - https://www.hardwaresource.com/products/blum-glass-door-hinge
 
 ### Finder tags
 
@@ -1412,6 +1763,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal, glass or mirror
 
 ### Other info
 
@@ -1561,6 +1955,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
@@ -1716,6 +2153,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: no
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: follows a set path
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1887,6 +2367,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: yes
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: twist back
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2052,6 +2575,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: swings on a hinge
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: flip between positions
+- **slows_by**: damper
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: hold together
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2154,6 +2720,9 @@
   - Clevis joint (fork-and-pin joint): the same fork-tongue-pin idea used as a single strong pivot
   - Plain pivot and rolling bearing: the general pin-in-hole or ball-bearing way to make parts turn
   - Lid and flap stays: added to a hinged lid to hold it open
+  - Loose-leaf bindings (ring binder, spiral, comb, wire and disc binding): punched pages turn on rings or a coil, a hinge for paper
+  - Slot-in model hinge (CA hinge, pinned hinge point): small hinges pushed into slits or holes along a model plane's wing and flap and glued in, giving a hidden pivot
+  - Glass door hinge: holds a glass or acrylic door by clamping it or through a drilled hole, since you can't screw into glass
 
 ### Pictures, videos and models
 
@@ -2211,6 +2780,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: swings on a hinge
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: no
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2320,6 +2932,10 @@
   - Rod end and ball link, Ball-and-socket joint: pivots that also allow tilt
   - Castor: a wheel turning on an axle in a bracket, with a second, swivel bearing on top so the wheel trails behind and steers itself
   - Ball caster: a large ball carried on small bearing balls, so it rolls in every direction instead of turning about one axis
+  - Split-pin paper fastener (brass paper fastener): the standard beginner pivot in paper and card, a brass pin with its legs spread behind
+  - Cardboard construction screws and box rivets: smooth-shank rivets and plastic hinges give swinging pivot joints in cardboard
+  - Volvelle (paper wheel chart): paper discs turning on one shared centre pivot
+  - Glass door hinge: includes pivot hinges that clamp a glass door's top and bottom corners onto pins turning in the cabinet
 
 ### Pictures, videos and models
 
@@ -2380,6 +2996,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn, full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card ⚑ *needs confirming (best guess): still unsure: added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): Adafruit: rivets "can be used for rotating pivot points and joints" in cardboard; skewer axles in card automata are pin-in-hole pivots  (no page opened for skewers)*
 
 ### Other info
 
@@ -2549,6 +3208,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: brake
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2695,6 +3397,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn, full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
 
 ### Other info
 
@@ -2833,6 +3578,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: swivel or tilt
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: spin
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
 
 ### Other info
 
@@ -2987,8 +3775,1005 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: spin
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
 - ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, safety_notes
+
+## 413 Split-pin paper fastener (brass fastener, paper brad, butterfly clip)
+
+*hinges & pivots.* A small brass pin with a round head and two flat legs is pushed through holes in paper or card and the legs are spread flat behind, holding the layers together while letting them turn, as in moving pictures, card puppets, toy clocks and card linkages
+
+*Also covers:* Also covers loose and fixed pivots in card linkages, making the hole first with a pencil point or awl, card spacers, scrapbook brads and screenplay binding, and 3D-printed click-together versions. Not the small nail also called a brad (see Nails, brads and tacks). Safety: sharp leg tips; make the hole first instead of forcing the pin, and keep small parts away from young children.
+
+### What it is
+
+- **plain_name**: A little brass pin with a round head and two flat legs that you push through holes in paper or card and then fold the legs flat behind, so the pieces stay together but can still turn, like the arms on a moving-picture card or the hands on a paper clock
+- **term**: Split-pin paper fastener (brass paper fastener, round-head paper fastener)
+- **aliases**: 
+  - brass fastener; butterfly clip; brad; paper fastener; split pin (Wikipedia 'Brass fastener')
+  - round-head fastener; brass-plated fastener; self-piercing fastener (ACCO and Officemate catalogue listings)
+  - paper brad, script brad, screenplay brad: the US film-industry name for the long solid-brass fasteners used to bind scripts (Writing-World; Between Borders)
+  - craft brad, scrapbook brad, mini brad: small decorative fasteners, often coloured or with flower-shaped heads, for scrapbooking and card making (Wikipedia 'Brass fastener'; Wikimedia Commons 'Flower crafting brads in pastel colors')
+  - paper split pin, pivot pin: the names used in UK primary-school Design and Technology for moving-picture and lever-and-linkage projects (Charles Darwin Primary; Denmead Junior; Lyppard Grange)
+  - Musterklammer, Musterbeutelklammer (German) (Wikimedia Commons 'Brass fasteners' category)
+  - not the small nail also called a brad (see Nails, brads and tacks), and not the steel split pin or cotter pin that locks a nut (see Thread-locking hardware)
+- **family**: hinges & pivots
+- **other_families**: everyday fasteners & fixings, motion conversion
+- **one_liner**: A soft brass or brass-plated pin with a round head and two flat legs that is pushed through a hole in stacked paper or card and has its legs spread and folded flat behind, holding the layers together while still letting them turn, which makes it the standard beginner pivot for moving pictures, card puppets, toy clocks and card linkages.
+- **complexity**: Single piece: one pressed-metal fastener with a round head and a split shank (two legs, usually of slightly different lengths). Often used with a small washer or card disc behind the legs, and a card spacer where a lever must sit level (Wikipedia 'Brass fastener'; Between Borders; Rob Ives). The design dates from the 1860s: George McGill's US patent of 1866 describes fasteners that 'have a round or flat head and two legs that are inserted through papers', and several rival paper fasteners were patented from 1859 on (Office Museum; Wikipedia 'Brass fastener').
+- **how_it_works**: You make a hole through all the layers, push the legs through from the front, then separate the two legs and bend them flat against the back, so the head on the front and the folded legs on the back trap the layers between them (Wikipedia 'Brass fastener'). Nothing glues or squeezes the layers hard, so a part held this way can still swing around the pin: it becomes a simple pin-in-hole pivot (Wikipedia: 'more commonly used in situations where rotation around the joint is desirable'). In card linkages a fastener that joins two moving card strips is called a loose pivot, and one that joins a strip to the backing card is a fixed pivot (Charles Darwin Primary; Arnold View; Lyppard Grange). The large round head stops the fastener pulling back through the hole (ACCO listing).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): its main use, as a pivot so card parts can swing or spin, e.g. levers, linkages, clock hands and puppet limbs (Wikipedia 'Brass fastener'; Rob Ives; Charles Darwin Primary)
+  - join and hold: holds a stack of sheets together, for example binding a screenplay with two fasteners in the top and bottom holes (Wikipedia 'Brass fastener'; Between Borders)
+- **motion**: rotate: the parts turn freely around the pin, a full 360 degrees if nothing else gets in the way (Wikipedia 'Brass fastener'; Printables 'Parametric OpenSCAD paper fasteners' lists toy clocks and pinwheels)
+- **degrees_of_freedom**: 1: the layers can turn about the pin. The loose hole also lets the parts rock and wobble a little, so in practice there is some extra play ⚑ [uncertain: from general experience, not a source] *(⚑ parts need confirming)*
+- **special_behaviour**: 
+  - none: it is a plain pivot with no clever behaviour of its own. Used in card levers and linkages it helps change one kind of motion into another (a push or pull on a card strip turns into a swing of the picture), but that comes from the linkage, not the fastener (Lyppard Grange: 'the input movement is where the user pushes or pulls a card strip. The output movement is where one or more parts of the picture move')
+- **holding_principle**: shape (the parts interlock; form-fit): the head on one side and the folded legs on the other trap the layers mechanically (Wikipedia 'Brass fastener')
+- **input_output**: not applicable: the fastener only makes a pivot. In a card lever or linkage the input is a push or pull on a card strip and the output is a moving part of the picture (Lyppard Grange)
+- **power**: passive (no power needed)
+- **removability**: removable: straighten the legs and pull the fastener out; the printed click-together versions can be unfastened and reused (Printables 'Fastener for paper / card stock'). Bending the legs back and forth many times weakens them ⚑ [uncertain] *(⚑ parts need confirming)*
+- **reuse_cycles**: a few times: the soft metal legs can be straightened and re-bent a few times, but they tire and the card hole wears larger ⚑ [uncertain: from general experience, no test found] *(⚑ parts need confirming)*
+- **tools_needed**: none for fitting it, apart from something to make the hole first: a pencil point pressed through onto a lump of Plasticine or Blu Tack, an awl, a bamboo skewer or a single hole punch (Lyppard Grange; Rob Ives; Adafruit 'Cardboard fundamentals'). A standard hole punch for stacks of paper (Wikipedia 'Brass fastener')
+- **seal**: none
+- **load**: light. It holds paper and card and lets light card parts turn. The weak points are the paper or card itself, which can tear out at the hole, and the legs, which can unfold if pulled hard; it is not meant to carry weight ⚑ [uncertain: no load tests found]. Brass-plated steel script brads are said to let a long script 'fall apart by page 60', so solid brass and longer fasteners are used for thick stacks (Writing-World) *(⚑ parts need confirming)*
+- **adjustable**: partly: how tightly the legs are pressed down sets how freely the joint turns, and the legs can be lifted and re-pressed to loosen or tighten it ⚑ [uncertain: maker practice, not from a source] *(⚑ parts need confirming)*
+- **play_and_precision**: noticeable play: the pin is thinner than the hole and the card is soft, so the parts wobble and the pivot point wanders a little. Fine for moving pictures and teaching linkages, not for anything that must line up exactly ⚑ [uncertain: general experience]. It tolerates some misalignment of the holes, since the flat legs can be pushed through slightly offset holes *(⚑ parts need confirming)*
+- **access_needed**: both sides: you push the pin in from the front and must reach the back to spread and fold the legs
+- **materials**: Usually made of soft brass, or of steel with a brass plating (Wikipedia 'Brass fastener'; ACCO listing 'Brass Plated'; Writing-World and Between Borders contrast solid brass with brass-plated steel or tin). Suits paper, card, thin cardboard and corrugated cardboard (Wikipedia: 'mobile paper and cardboard models'; Adafruit: 'Punch a couple of holes in your cardboard, push a paper fastener through, and fold out the legs'), and also fabric, felt or craft foam sheets in crafts ⚑ [uncertain]. Not for wood, metal or rigid plastic parts, except to hold paper or card to them through ready-made holes ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **maker_difficulty**: easy: no tools, sold everywhere, and used by 7- to 8-year-olds in UK Year 3 Design and Technology (Denmead Junior; Lyppard Grange). The only skill is making a clean hole in the right place first.
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: the usual choice; sold in many lengths in stationery and craft shops (ACCO listing)
+  - 3D print (FDM): click-together printed versions exist as a substitute (Printables 'Parametric OpenSCAD paper fasteners'; 'Fastener for paper / card stock'; 'Simple paper fastener')
+  - laser cut: card and paper parts for moving pictures and automata are often laser or plotter cut and then joined with paper fasteners ⚑ [uncertain: common practice, no page opened] *(⚑ parts need confirming)*
+- **print_in_place**: no: the printed versions are two separate parts (a pin and a cap or socket) that are printed apart and then pressed or clicked together through the paper (Printables 'Parametric OpenSCAD paper fasteners': 'They need a little bit of force to click together'; 'Fastener for paper / card stock': 'you need to print two to connect them together').
+- **making_tips_3d_printing**: Printed paper fasteners are two-part pegs that snap together through the hole. A parametric OpenSCAD model lets you set the gap between head and cap to match the thickness of the paper or card stack; if the parts are too tight, tap them together lightly with a hammer, squeeze them in a vice or clamp, or increase the clearance in the file (Printables 'Parametric OpenSCAD paper fasteners', CC BY-SA). One maker printed a shortened 'locking rivet' remix at a 0.1 mm layer height, with 'Complete individual objects' (sequential printing) turned on in PrusaSlicer, and found it 'can be unfastened, and is reusable' (Printables 'Fastener for paper / card stock', CC BY). A simple printed binding version 'fits standard hole punch size', prints at 15% infill with no supports and holds 25-30 sheets (Printables 'Simple paper fastener', CC BY-NC-SA). Small pins are easiest to print standing upright, but then the pin breaks easily along the layer lines if bent sideways ⚑ [uncertain: general FDM advice, not from these pages]. PLA is enough for paper crafts ⚑ [uncertain]. A printed version is thicker and blunter than a brass one, so it needs a bigger hole, but it has no sharp leg tips. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Brass paper fasteners (round-head paper fasteners, 'brads'), sold in lengths from short craft sizes to long binding sizes; solid-brass ones are stronger than brass-plated steel ones (Writing-World; Between Borders). Some have 'self-piercing points' and a 'larger round head' that 'prevents pulling through punched holes' (ACCO listing at Monk Office: https://commercial.monk.ca/office-products/clips-pins-rubber-bands/other-clips-fasteners/acc71710-brass-plated-fastener-1-100pk). Matching solid-brass script washers fit behind the legs (Between Borders: 'Acco #2 Solid Brass Washers'; Writing-World). Decorative scrapbook brads come in colours and shapes (Wikimedia Commons). Alternatives for a stronger or longer-lasting card pivot: eyelets, Chicago screws, plastic cardboard rivets, or a paper rivet made of split card tabs (see related).
+- **rules_of_thumb**: 
+  - Make the hole first. For thin card, press a pencil through the card onto a piece of Plasticine or Blu Tack (Lyppard Grange Year 3 DT plan); Rob Ives's lever templates say 'Make holes in the centres with the point of a pencil. Take care!' (Rob Ives 'Simple Levers'). For cardboard use an awl, bamboo skewer or single hole punch (Adafruit 'Cardboard fundamentals'). Only for 'a few sheets of paper' can the fastener's own sharp end make the hole (Wikipedia 'Brass fastener').
+  - Separate the legs at their tips: they are 'typically of two slightly different lengths to allow easy separation' (Wikipedia 'Brass fastener').
+  - Loose pivot versus fixed pivot: a fastener that joins card strips together is a loose pivot (both parts move); one that joins a card strip to the backing card is a fixed pivot (the strip swings about a point that stays put) (Charles Darwin Primary DT progression; Arnold View; Ashleigh Primary; Lyppard Grange).
+  - Use a guide or bridge (a short card strip taped over the lever) to keep levers and linkages in place and control their movement (Arnold View; Lyppard Grange: 'Guides/bridges can be made using strips of card fixed with masking tape').
+  - Glue a small card spacer where a lever arm must sit level with the other layers or clear a fastener head (Rob Ives 'Simple Levers': 'Glue on the spacer at the top of the lever arm') ⚑ [uncertain: the purpose is our reading of the instruction].
+  - For binding thick stacks, use solid brass rather than brass-plated fasteners, and add a washer behind the legs: US scripts use two #5 or #6 solid brass brads in the top and bottom holes of three-hole-punched paper, with brass washers (Writing-World; Between Borders). The two guides disagree on #5 versus #6.
+  - Choose a fastener long enough that each leg can fold flat across the back with some overlap, but not so long that the legs stick out past the edge of a small part ⚑ [uncertain: maker practice]. *(⚑ parts need confirming)*
+
+### When to use it
+
+- **everyday_examples**: 
+  - School moving-picture cards and lever-and-linkage cards, where a pulled strip makes an arm wave or a head nod (Denmead Junior; Lyppard Grange)
+  - Halloween card skeletons and shadow puppets with jointed arms and legs, and a paper clock with turning hands (Printables 'Parametric OpenSCAD paper fasteners')
+  - A paper model of the Sun, Earth and Moon that revolve (Printables 'Fastener for paper / card stock')
+  - A film script bound with two brass brads (Wikipedia 'Brass fastener'; Between Borders)
+- **when_to_use**: When you need paper or card parts to turn around a point and want it done in seconds without tools or glue: moving pictures, card puppets, toy clocks, volvelles and teaching models of levers and linkages (Wikipedia 'Brass fastener'; Rob Ives; school DT plans). When you want a joint you can undo, for example to try a linkage out before deciding where the pivots go. For quick connections in cardboard prototypes (Adafruit: 'Instant connection!'). For binding a stack of punched sheets so pages can be swapped (screenplays) (Between Borders).
+- **when_not_to_use**: When the joint carries real load or gets heavy use, since the card tears at the hole and the legs work loose: use a plastic cardboard rivet or a Makedo-type screw for cardboard builds (Adafruit says rivets 'have a smooth shaft' and 'can be used for rotating pivot points and joints'), an eyelet or a Chicago screw for a neater, longer-lasting pivot, or a proper pin, shoulder bolt or bearing in wood, metal or plastic (see Plain pivot). When the back can't be reached to fold the legs, use a one-side cardboard screw. Where young children could get hold of loose fasteners. When a pivot must be precise or play-free.
+- **environment_limits**: Indoor use only in practice: the paper or card is the weak part, and damp makes card soft so the hole stretches and the joint loosens (Wikipedia 'Corrugated fiberboard': moisture above about 9.5% 'will reduce the compression strength') ⚑ [uncertain: applied from corrugated board in general]. Brass-plated steel fasteners can rust in the damp where the plating is scratched ⚑ [uncertain]. Heat, sun and vibration are not an issue for the fastener itself. *(⚑ parts need confirming)*
+- **safety_notes**: Sharp leg tips: some fasteners are sold with 'self-piercing points' (ACCO listing), so fold the legs flat and press the tips down so they can't scratch, especially on puppets and toys that are handled. Make the hole first with a pencil or awl instead of forcing the pin through, which can bend the legs or stab the hand holding the card: work onto Plasticine, Blu Tack or a cutting mat, not onto your hand (Lyppard Grange; Rob Ives 'Take care!'). Small parts: loose fasteners are a choking, inhalation and swallowing hazard for children under 3, the age group the US small-parts rule protects (CPSC 'Small Parts for Toys and Children's Products'); keep boxes of them away from toddlers and supervise younger children (Ashleigh Primary: 'Pay close attention when using sharp tools').
+- **common_failures**: The card tears out at the hole or the hole wears oval with use: use thicker card, reinforce the hole with a card disc, washer or eyelet, or put the fastener further from the edge ⚑ [uncertain: maker practice]. The joint is too stiff to turn because the legs are pressed down too hard, or too floppy because they are loose: re-press the legs to suit ⚑ [uncertain]. Legs snap or open up on thick stacks with thin brass-plated fasteners: use solid brass and a washer (Writing-World; Between Borders). The fastener head pulls through a large punched hole: choose one with a bigger head (ACCO listing). The legs catch on other moving parts behind the card: trim or tape them, or add a spacer ⚑ [uncertain]. A linkage jams because a fixed pivot was used where a loose pivot was needed, or the other way round (school DT plans ask pupils to tell them apart). *(⚑ parts need confirming)*
+- **related**: 
+  - Volvelle (paper wheel): stacked turning paper discs, often held on a split-pin paper fastener; the volvelle entry covers string pivots, paper rivets and the wheel design
+  - Pull-tab and slider mechanism: paper levers and pull-strips, whose pivots are often paper fasteners
+  - Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing): the general pin-in-hole pivot for wood, metal and plastic parts
+  - Four-bar linkage and Bell crank: the card linkages that paper fasteners are used to build in school projects
+  - Cardboard screws and rivets: plastic screws and click-together rivets for corrugated cardboard, sturdier and reusable, with smooth-shank rivets for pivots
+  - Eyelets and grommets: a metal ring set into card or fabric; a neater, longer-lasting hole or pivot that needs a setting tool
+  - Chicago screw (binding screw): a two-part screw post for binding and pivots; reusable and stronger, but needs a screwdriver
+  - Leather and textile rivets: includes the split rivet, whose two legs are hammered flat over a washer in leather; permanent and not meant to pivot
+  - Thread-locking hardware (split pin): the steel split pin or cotter pin that locks a nut or clevis pin, a much stiffer relative
+  - Nails, brads and tacks: the small nail also called a brad, a different thing
+  - Snap pin and Push-in plastic rivet: plastic pins that click into holes without bending legs
+  - Staples for wood and fabric: staples are the permanent, non-turning way to join paper
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Musterklammer 2005-05-06.JPG (Wikimedia Commons, by Mws.richter / Stefan Richter)](https://commons.wikimedia.org/wiki/File:Musterklammer_2005-05-06.JPG): A scan of several brass fasteners, showing the round head and the two legs of different lengths (used on Wikipedia 'Brass fastener') *(licence: Public domain)*
+  - [Split Pins.jpg (Wikimedia Commons, by Richard Wheeler (Zephyris))](https://commons.wikimedia.org/wiki/File:Split_Pins.jpg): Photograph of brass split-pin paper fasteners *(licence: CC BY-SA 3.0 (also GFDL 1.2 or later))*
+  - [Flower crafting brads in pastel colors.jpg (Wikimedia Commons, by m01229 on Flickr)](https://commons.wikimedia.org/wiki/File:Flower_crafting_brads_in_pastel_colors.jpg): Decorative scrapbook brads with flower-shaped heads in pastel colours *(licence: CC BY 2.0)*
+  - [Simple Levers (Rob Ives)](https://www.robives.com/product/lever/): Step-by-step photos of a corrugated-card lever and a lever-and-linkage made with split pins and a glued spacer, with free templates *(licence: link only (templates free to download from the shop page))*
+  - [Category:Brass fasteners (Wikimedia Commons)](https://commons.wikimedia.org/wiki/Category:Brass_fasteners): Ten files of brass paper fasteners, including a German pronunciation recording, craft brads and old fasteners *(licence: per file (Commons licences))*
+- **make_it_yourself**: 
+  - [Parametric OpenSCAD paper fasteners (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/207538-parametric-openscad-paper-fasteners): A 3D-printed click-together alternative to brass paper fasteners; the OpenSCAD file sets the gap for the craft, e.g. a toy clock, skeleton, phonics fans, pinwheels and shadow puppets. Read through the Printables public API. *(licence: CC BY-SA (Creative Commons Attribution-ShareAlike))*
+  - [Fastener for paper / card stock (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/127476-fastener-for-paper-card-stock): A shortened locking-rivet remix printed in two parts to make a revolving Sun, Earth and Moon model; unfastens and is reusable. Read through the Printables public API. *(licence: CC BY (Creative Commons Attribution))*
+  - [Simple paper fastener (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/729803-simple-paper-fastener): A printed binding fastener that fits standard hole-punch holes and holds 25-30 sheets; 15% infill, no supports. Read through the Printables public API. *(licence: CC BY-NC-SA (Creative Commons Attribution-NonCommercial-ShareAlike))*
+  - [Simple Levers templates (Rob Ives)](https://www.robives.com/product/lever/): Free printable templates for a simple lever and a lever-and-linkage in corrugated and thin card, joined with split pins *(licence: free download; link only)*
+- **diagram_idea**: Three steps side by side: pushing the fastener through a pre-made hole in two card strips, spreading the two legs, and folding them flat behind; then a small moving-picture card showing one fixed pivot (strip to backing card) in red and one loose pivot (strip to strip) in blue, with arrows showing a pulled strip making an arm swing.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Brass_fastener
+  - https://www.officemuseum.com/stapler_gallery_miscellaneous.htm
+  - https://learn.adafruit.com/cardboard-fundamentals?view=all
+  - https://www.robives.com/product/lever/
+  - https://charlesdarwin.cheshire.sch.uk/serve_file/34912440
+  - https://denmead-jun.hants.sch.uk/_site/data/files/users/curric%20docs/knowledge-organisers/year-3/2AC9232B81A47A1BF604155FA4ED219E.pdf
+  - https://www.lyppardgrange.worcs.sch.uk/attachments/documents.asp?id=434
+  - https://www.arnoldview.notts.sch.uk/attachments/documents.asp?id=386
+  - https://ashleighprimary.com/wp-content/uploads/Yr-3-Autumn-2-Design-Technology-KO.pdf
+  - https://commercial.monk.ca/office-products/clips-pins-rubber-bands/other-clips-fasteners/acc71710-brass-plated-fastener-1-100pk
+  - https://writing-world.com/screen/film2.shtml
+  - https://betweenborders.com/wordsmithing/us-screenplay-presentation/
+  - https://www.cpsc.gov/Business--Manufacturing/Business-Education/Business-Guidance/Small-Parts-for-Toys-and-Childrens-Products
+  - https://en.wikipedia.org/wiki/Corrugated_fiberboard
+  - https://commons.wikimedia.org/wiki/File:Musterklammer_2005-05-06.JPG
+  - https://commons.wikimedia.org/wiki/File:Split_Pins.jpg
+  - https://commons.wikimedia.org/wiki/File:Flower_crafting_brads_in_pastel_colors.jpg
+  - https://commons.wikimedia.org/wiki/Category:Brass_fasteners
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: boards or sheet
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: none, sewing or leather tools, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: partly ⚑ *needs confirming (source uncertain): `adjustable` is marked [uncertain] here: "…ns, and the legs can be lifted and re-pressed to loosen or tighten it [uncertain: maker practice, not from a s…"*
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: paper, card or foam board
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn, full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, paper or card
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, degrees_of_freedom, environment_limits, load, making_tips_3d_printing, materials, play_and_precision, processes, removability, reuse_cycles, rules_of_thumb
+
+## 418 Loose-leaf bindings (ring binder, spiral coil, comb and wire binding, disc binding)
+
+*hinges & pivots.* Rings, wire or plastic coils, plastic combs or discs pass through a row of punched holes so the sheets turn like a hinge and, for most types, can be added or removed, as in ring binders, spiral notebooks and disc-bound planners
+
+*Also covers:* Also covers hole patterns and punches, lever-arch files, binder rings, how discs grip mushroom-shaped holes, which types let a book open flat or fold back on itself, and 3D-printed rings and discs. Screw posts are Chicago screw. Safety: punch and wire-closing tools pinch.
+
+### What it is
+
+- **plain_name**: Rings, a wire or plastic spiral, a curled plastic comb or a stack of little discs threaded through a row of punched holes along the edge of the pages, so the pages swing round them like a door on a hinge and, with most types, can be taken out or added
+- **term**: Loose-leaf and mechanical bindings (punch-and-bind): ring binder and lever arch file, spiral (coil) binding, plastic comb binding, wire (twin-loop, Wire-O) binding and disc binding
+- **aliases**: 
+  - ring binder, loose-leaf binder, looseleaf binder, file (UK), 3-ring binder, 2-ring and 4-ring binder, D-ring binder, lever arch file, Trio binder, multi-ring binder (Wikipedia 'Ring binder'; Wikipedia 'Hole punch')
+  - binder ring, split binder ring, hinged ring, loose-leaf ring (Printables 735504, 998514) ⚑ [uncertain: trade names not checked in a catalogue]
+  - spiral binding, coil binding, spiral coil, plastic coil, colour coil, Spiralastic (Wikipedia 'Coil binding'; MyBinding)
+  - comb binding, plastic comb binding, spiral comb binding, 19-ring binding, Cerlox or Surelox (brands) (Wikipedia 'Comb binding'; Wikipedia 'Bookbinding')
+  - wire binding, twin-loop, double-loop wire, double-O, ring wire, wire comb, Wire-O (brand), wiro, wirebind (Wikipedia 'Wire binding')
+  - disc binding, discbound, disc-bound notebook, mushroom punch; Atoma, Circa, Arc, Rollabind, TUL, Happy Planner (brands) (Wikipedia 'Disc-binding'; Wikipedia 'Loose leaf'; Printables 996453)
+  - punch and bind, mechanical binding (Wikipedia 'Bookbinding'; Mid-State Litho)
+  - VeloBind (brand): a permanent strip-and-pin bind (Wikipedia 'Bookbinding')
+  - hole patterns to search by: ISO 838 two-hole (80 mm), '888' four-hole, US three-hole (4 1/4 in), 4:1, 3:1 and 2:1 pitch (Wikipedia 'Hole punch'; Wikipedia 'Wire binding') *(⚑ parts need confirming)*
+- **family**: hinges & pivots
+- **other_families**: quick-release & tool-free, snap & clip fits
+- **one_liner**: Loose-leaf bindings hold punched sheets on rings, a helical coil, a curled plastic comb, a C-shaped wire closed into loops, or a stack of rimmed discs, so the pages pivot about the binding like a hinge and, for rings, combs and discs, can be opened, rearranged, added or removed.
+- **complexity**: A few parts: the punched sheets and covers, plus either a ring mechanism (rings, spring plate, often a lever), a single coil, comb or wire spine, or a set of separate discs; a matching hole punch, and for coil and wire a crimping tool or wire closer (Wikipedia 'Ring binder'; Wikipedia 'Coil binding'; Wikipedia 'Wire binding'; Wikipedia 'Disc-binding').
+- **how_it_works**: A row of holes is punched along the binding edge and a closed loop of some kind passes through every hole, so a sheet can't come off without the loop opening or the paper tearing, but it can swing freely about the loop (Wikipedia 'Bookbinding'). Ring binders use circular or D-shaped rings that open and close on a sprung or lever mechanism (Wikipedia 'Ring binder'). A coil is wound through the holes like a spring and its ends are cut and crimped so it can't wind out; a twin-loop wire starts C-shaped and is squeezed round by a wire closer; a plastic comb's curled fingers are spread open by the binding machine, put through rectangular holes and allowed to curl back (Wikipedia 'Coil binding'; Wikipedia 'Wire binding'; Wikipedia 'Comb binding'). Disc binding uses separate discs with a raised rim; the paper's mushroom-shaped slots snap over the rim, so a page can be peeled off and pressed back on anywhere (Wikipedia 'Disc-binding'; Lazada stationery guide).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): the pages pivot about the rings, coil, wire, comb or discs like a hinge (Wikipedia 'Coil binding'; Wikipedia 'Wire binding')
+  - join and hold: holds a stack of punched sheets and covers together as a book (Wikipedia 'Bookbinding')
+  - lock, and release by hand: ring and lever-arch mechanisms open and lock by hand, and disc-bound pages peel off and press back on, so pages can be added or removed (Wikipedia 'Ring binder'; Wikipedia 'Disc-binding')
+- **motion**: rotate: pages swing about the binding axis; coil, wire and disc bindings open flat and fold back 360°, comb binding lies flat but can't fold back 360°, and ring binders open flat in their covers (Wikipedia 'Coil binding'; Wikipedia 'Wire binding'; Wikipedia 'Comb binding'; Lazada stationery guide).
+- **degrees_of_freedom**: 1 for each page (turning about the binding axis), with a little extra sliding along the rings or coil where the holes are loose; coil bindings let pages 'walk' along the helix as they turn ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **special_behaviour**: 
+  - quick-release: ring binder and lever-arch rings open by hand, combs can be reopened with a comb opener, and disc-bound pages peel off and push back on without opening any latch (Wikipedia 'Ring binder'; MyBinding; Lazada stationery guide)
+  - over-centre: a ring-binder mechanism snaps open and shut, and a lever arch file has a lever that 'can be easily opened, closed and locked' (Wikipedia 'Ring binder') ⚑ [uncertain: no opened page explains the over-centre spring plate]
+  - none (for coil and wire): once crimped or closed they just hold the pages and let them turn *(⚑ parts need confirming)*
+- **holding_principle**: 
+  - shape (the parts interlock; form-fit): a closed ring, coil, wire loop or comb passes through every hole (Wikipedia 'Bookbinding')
+  - spring force (a spring or springy part presses it in place): the ring-binder mechanism's spring holds the rings shut, and the plastic comb's fingers spring back into their curl (Wikipedia 'Ring binder', image 'Three ring binder sprung clip mechanism'; Wikipedia 'Comb binding')
+  - friction or clamping (force-fit): disc-bound pages are held 'through friction and paper tension' where the mushroom slots grip the disc rims (Lazada stationery guide)
+- **input_output**: not applicable
+- **power**: passive (no power needed); electric punches, coil inserters and wire closers only help make it
+- **removability**: tool-free quick release for ring binders and disc binding (pages come out by hand); removable for comb binding (needs a comb opener); semi-permanent for coil (the coil has to be cut or un-crimped and a new one used) and for wire binding, which is 'permanent and tamper-resistant' (Wikipedia 'Comb binding'; MyBinding; Mid-State Litho).
+- **reuse_cycles**: many times for ring binders and discs (pages come out and go back again), though disc-bound paper wears at the punches after repeated removal (Lazada stationery guide); a few times for combs (they can be reopened, but the plastic 'can get brittle over time') (MyBinding); once for coil and wire (MyBinding: 'a new binding element does need to be used'; Mid-State Litho: wire spines 'cannot be reopened').
+- **tools_needed**: A hole punch for the pattern (ordinary 2-, 3- or 4-hole office punch for ring binders; a special rectangular-hole comb punch, round-hole coil punch, round or square-hole wire punch, or mushroom disc punch); coil crimping pliers for coil; a wire closer for wire; a comb spreader for comb (Wikipedia 'Hole punch'; Wikipedia 'Coil binding'; Wikipedia 'Wire binding'; MyBinding). Manual punches take about 10-20 sheets of 20 lb (75 g/m²) paper at a time (MyBinding).
+- **seal**: none
+- **load**: Light: holds the weight of the paper and normal page turning. Weak points are the paper at the holes, which tears under a sideways pull or repeated removal (disc and comb), and the binding element bending or crushing (wire can 'bend if stored poorly'; cheap plastic coils crush) (Mid-State Litho; Lazada stationery guide). Capacity figures, side by side: comb about 425 sheets on a 2 in spine (Wikipedia 'Comb binding'; Mid-State Litho), coil about 400 sheets or books up to 2 in thick (Mid-State Litho; Wikipedia 'Coil binding'), wire about 300 sheets (Mid-State Litho); ring binders come with rings of 0.5-2 in in North America (Wikipedia 'Ring binder').
+- **adjustable**: partly: ring and disc bindings accept more or fewer pages up to the ring or disc size, and a larger disc or ring can be swapped in; comb spines can be reopened and a bigger comb fitted; coil and wire are fixed once closed (Wikipedia 'Disc-binding'; MyBinding).
+- **play_and_precision**: Noticeable play: holes are larger than the ring or wire so pages turn freely (US punches use 1/4 to 5/16 in holes, 5/16 in 'allows for looser tolerances') (Wikipedia 'Hole punch'). Wire binding keeps front and back pages in 'perfect registration' (lined up), which matters for calendars (Mid-State Litho). Hole patterns must match the binding exactly: discs and pages are only interchangeable if 'the discs have the same profile and spacing' (Wikipedia 'Disc-binding').
+- **access_needed**: both sides: the ring, coil, comb or wire goes through the holes from one face to the other; for disc binding you press each page onto the discs from the edge.
+- **materials**: Rings and lever arches: steel mechanisms in board, vinyl or polypropylene covers (Wikipedia 'Ring binder'). Coil: PVC plastic or low-carbon steel (Wikipedia 'Coil binding'). Wire: metal, black, white, silver or gold (Mid-State Litho). Comb: plastic (Wikipedia 'Comb binding'). Discs: plastic or metal (search summary only) ⚑ [uncertain]. Pages: ordinary paper, card and plastic covers; disc binding needs stronger paper (Lazada suggests at least 100-120 gsm, because 70 gsm copy paper 'will tear easily at the mushroom punches') and comb punching suits tear-resistant text-weight paper (Paper Mill Store). 3D-printed rings, discs and covers in PLA, PETG or TPU (Printables 735504, 1613408, 1665899). *(⚑ parts need confirming)*
+- **maker_difficulty**: easy: buy a binder, rings or discs and punch the paper, or print rings and discs; coil, comb and wire binding need a dedicated punch and a crimper or wire closer, which are cheap for coil and comb but a bigger purchase for wire (MyBinding; Mid-State Litho).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: ring binders, binder rings, discs, coils, combs and wires with matching punches
+  - 3D print (FDM): binder rings, disc-binding discs, covers, punch guides and depth stops (Printables)
+  - laser cut: covers with punched hole patterns in card, polypropylene or thin plywood ⚑ [uncertain: no laser-cut binding page opened]
+  - hand punching: ordinary office punches for ring binders; special punches for comb, coil, wire and disc patterns (Wikipedia 'Hole punch') *(⚑ parts need confirming)*
+- **print_in_place**: partly: a split binder ring with a working hinge prints in place without supports, but its author says it is 'fiddly' and not as secure as metal rings (Printables 735504); discs print as one solid piece or as two parts that are assembled (Printables 1613408).
+- **making_tips_3d_printing**: 1) Print-in-place split binder ring (~24.5 mm diameter, ~3.6 mm thick): PLA, 0.12 mm layers, 100% infill, fan 100%, slow first layer; leave 2 empty layers between the lower and upper hinge parts so they don't fuse; let the parts cool completely before closing the hinge or it tears; about 7 of 8 close without breaking; press the hinge post with hot metal to make it tighter (Printables 735504, CC BY). 2) Simple printed binder rings come in 80, 60 and 40 mm ring lengths with 80 mm hole spacing to match ISO 838 two-hole paper, with an OpenSCAD file for other spacings (Printables 998514, CC BY-NC-SA). 3) Disc-binding discs: one Atoma-style disc has a 17.25 mm outer diameter, printed either as a two-part outer ring plus centre (smoothest, needs careful assembly) or as one solid piece with or without supports (Printables 1613408, CC BY-NC-SA); another design uses smaller discs for about 50-70 pages and covers printed at 0.16 mm layers (Printables 996453, CC BY-NC-SA). 4) Flexible covers: a TPU A5 disc-notebook cover works best 1.5-2.0 mm thick (Printables 1665899, CC BY). 5) Punch depth stops: printed stops that clip magnetically onto an 11-hole mushroom punch line the holes up with commercial disc notebooks; they need build-plate supports and a 9 x 4 mm magnet, glued in (Printables 1365220, CC BY-NC-SA). 6) A printed cover for spiral binding matched the US 4:1 pitch (Printables 603337, CC BY-NC-SA). 7) Check hole spacing against a real page before printing a whole set, because patterns differ by system and country (Wikipedia 'Hole punch').
+- **off_the_shelf_parts**: Ring binders (2-, 3- and 4-ring, O-ring and D-ring), lever arch files, ring-binder mechanisms, hinged binder rings (loose-leaf rings), punched pockets (sheet protectors) (Wikipedia 'Ring binder'; Wikipedia 'Hole punch'). Plastic or metal spiral coils (4:1, 3:1, 5:1 pitch) and coil crimping pliers; plastic binding combs (19-ring letter, 21- or 23-ring A4) and comb binding machines; twin-loop wire (3:1 and 2:1 pitch) and wire closers; disc-binding discs (e.g. 3/4, 1 and 1.5 in, or 10-25 mm) and mushroom punches (Wikipedia 'Bookbinding'; Wikipedia 'Comb binding'; Wikipedia 'Wire binding'; Wikipedia 'Loose leaf'). Search terms: 'binder ring', 'lever arch mechanism', 'coil binding pliers', 'binding comb', 'twin loop wire', 'discbound discs', 'mushroom hole punch'.
+- **rules_of_thumb**: 
+  - ISO 838 two-hole filing: holes 6 ± 0.5 mm diameter, centres 80 ± 0.5 mm apart and 12 ± 1 mm from the edge; the common four-hole '888' extension adds two holes another 80 mm out (Wikipedia 'Hole punch').
+  - US letter three-hole: centres 4 1/4 in apart, holes 1/4-5/16 in, about 1/2 in from the edge; half-letter three-hole 2 3/4 in apart (Wikipedia 'Hole punch'; Wikipedia 'Ring binder').
+  - Other ring patterns: Swedish 'triohålning' 21, 70, 21 mm apart, 10.5 mm from the edge; Dutch 23-ring at 12.7 mm (1/2 in) spacing; Japanese 30-ring A4 and 26-ring B5; Filofax six holes in two groups of three (Wikipedia 'Hole punch'; Wikipedia 'Ring binder').
+  - Coil pitch: 4:1 (four holes per inch) is the most common, with 3:1, 5:1 and 0.400 in patterns also used; cut and crimp the coil ends 'to prevent the coil from coming loose' (Wikipedia 'Bookbinding'; Wikipedia 'Coil binding').
+  - Wire pitch: 3:1 for small books up to 9/16 in diameter, 2:1 for thicker books from 5/8 to 1 1/4 in (Wikipedia 'Wire binding').
+  - Comb: rectangular holes at 9/16 in pitch; 19 rings on US letter; for A4, Wikipedia 'Comb binding' says 21 rings but Wikipedia 'Hole punch' says 23 holes, so check the punch before buying combs.
+  - Comb spine size by sheet count (20 lb paper): 3/16 in (4 mm) 16 sheets, 1/4 in (6 mm) 25, 3/8 in (10 mm) 55, 1/2 in (12 mm) 85, 3/4 in (20 mm) 150, 1 in (25 mm) 200, 2 in (51 mm) 425 (Wikipedia 'Comb binding').
+  - Which opens how: coil and wire open flat and fold back 360°; comb lies flat but 'cannot be opened 360 degrees'; disc-bound books fold back 360°; ring binders lie open flat (Wikipedia 'Comb binding'; Wikipedia 'Wire binding'; Lazada stationery guide).
+  - Which can be edited: rings and discs freely; comb with a comb opener; coil only with a new coil; wire not at all (MyBinding; Mid-State Litho).
+  - Disc binding moves single pages easily but moving many pages at once is 'substantially more difficult' than with a ring binder (Wikipedia 'Disc-binding'); use 100-120 gsm or heavier paper so the punches don't tear (Lazada stationery guide, a retailer guide).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A school ring binder or lever arch file (Wikipedia 'Ring binder')
+  - A spiral-bound notebook or atlas that folds back on itself (Wikipedia 'Coil binding'; Wikipedia 'Bookbinding')
+  - A comb- or wire-bound report, manual or wall calendar (Wikipedia 'Comb binding'; Mid-State Litho)
+  - A disc-bound planner whose pages can be moved around (Wikipedia 'Disc-binding')
+- **when_to_use**: Use a loose-leaf binding when the pages must turn freely and lie flat, and especially when pages must be added, removed or rearranged: ring binders and lever arch files for filing and course notes, disc binding for planners and notebooks you keep reorganising, comb binding for reports that may be edited (Wikipedia 'Ring binder'; Wikipedia 'Disc-binding'; MyBinding). Use coil or wire when a manual, recipe book, sketchbook or calendar must fold back on itself and stand up to heavy use: coil is the most durable for daily handling, wire looks the most polished and keeps pages lined up (Mid-State Litho). Printed binder rings and discs are handy for flash cards, swatch books and custom notebooks (Printables 735504, 1613408).
+- **when_not_to_use**: For a permanent book with a proper spine use a sewn binding (Sewn book bindings) or glued (perfect) binding. For a few loose sheets that must stay in order use a screw post (Chicago screw), a staple or a split-pin paper fastener. Avoid disc binding with thin paper or in humid places, where punches wear and pages fall out (Lazada stationery guide). Avoid comb binding for books that must fold back 360° (Wikipedia 'Comb binding'), and wire or coil for documents you'll need to edit (Mid-State Litho). Printed rings are 'not as secure as metal rings' (Printables 735504).
+- **environment_limits**: Humidity softens paper and reduces the grip of disc-bound pages (Lazada stationery guide). Plastic combs 'can get brittle over time' (MyBinding). Wire spines bend if stored badly and cheap plastic coils can crush (Mid-State Litho; Lazada stationery guide). Binding machines should not be used where condensation forms; one wire binder's manual gives a maximum ambient temperature of about 40 °C (GBC WireBind W25E manual). Printed PLA rings or discs left in a hot car may soften and deform ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **safety_notes**: Punches, wire closers and coil inserters pinch: 'Keep hair, fingers, jewelry and all loose clothing away from all moving parts' (Tamerica EZ-Wire34 manual); 'To avoid risk of injury DO NOT put your fingers into the wire binding channel', and never lift the machine by its punching handle (GBC WireBind W25E manual). Binding machines are 'not a toy', so don't let children operate them (Tamerica EZ-Wire34 manual). Ring-binder and lever-arch rings snap shut and can nip fingers ⚑ [uncertain]. Cut coil and wire ends can be sharp until crimped ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **common_failures**: Pages tear out at the holes, especially with thin paper, heavy use or disc binding (Lazada stationery guide; Paper Mill Store); use heavier paper, hole reinforcement rings or punched pockets (Wikipedia 'Ring binder'). Disc-bound pages slip off when the punched slots wear or paper is damp (Lazada stationery guide). Coil winds out of the holes when the ends are not crimped (Wikipedia 'Coil binding'). Wire spine bent out of round, so pages snag (Mid-State Litho). Comb fingers crack after the plastic ages (MyBinding). Holes that don't match the binding pattern or are too close to the edge: use the right punch and a depth stop (Wikipedia 'Hole punch'; Printables 1365220). Printed rings fuse at the hinge or snap when closed while still warm (Printables 735504).
+- **related**: 
+  - Chicago screw (binding screw, screw post): bolts a stack of punched sheets together; pages can be added by unscrewing, but they don't turn as freely
+  - Sewn book bindings (pamphlet stitch, Coptic, kettle stitch, Japanese stab binding): permanent thread bindings; Coptic also opens 360°
+  - Split-pin paper fastener (brass fastener): a single prong through a hole for a few sheets or a pivot
+  - Staples (desk stapler and saddle stapling): the quick permanent way to hold sheets
+  - Spring clip clamp (binder clip, bulldog clip): clamps loose sheets with no holes at all
+  - Knuckle hinge (butt hinge) and Print-in-place hinge: rigid pin hinges; a ring or coil is a pin hinge with many knuckles
+  - Living hinge: a printed one-piece hinge for a cover instead of punched pages on rings
+  - Quick-release pin (ball-lock pin) and Tool-free fasteners: other ways to make a removable pin through holes
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Ringmechanik 01 (fcm).jpg (Wikimedia Commons, by Frank C. Müller)](https://commons.wikimedia.org/wiki/File:Ringmechanik_01_(fcm).jpg): The two-ring lever arch mechanism of a file, with lever and rings *(licence: CC BY-SA 4.0)*
+  - [Comb bind examples.JPG (Wikimedia Commons, by Digitalgadget)](https://commons.wikimedia.org/wiki/File:Comb_bind_examples.JPG): Two comb-bound documents with small and large plastic comb spines *(licence: Public domain)*
+  - [Wire-o.jpg (Wikimedia Commons, by Monster4711)](https://commons.wikimedia.org/wiki/File:Wire-o.jpg): A twin-loop (Wire-O) wire binding through punched holes *(licence: CC BY-SA 3.0)*
+  - [Binder-based and discbound loose leaf systems.jpg (Wikimedia Commons, by Υω22)](https://commons.wikimedia.org/wiki/File:Binder-based_and_discbound_loose_leaf_systems.jpg): An A5 ring binder next to a letter-size disc-bound notebook, showing rings versus discs *(licence: CC BY-SA 4.0)*
+  - [Filingholes2.gif (Wikimedia Commons, by Hellahulla)](https://commons.wikimedia.org/wiki/File:Filingholes2.gif): Diagram of the ISO 838 two-hole filing pattern on different paper sizes *(licence: CC BY-SA 3.0)*
+- **make_it_yourself**: 
+  - [Split Binder Ring: Print in Place (Alex Gwyn, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/735504-split-binder-ring-print-in-place): A hinged split binder ring that prints in place without supports, with detailed slicer settings *(licence: Creative Commons Attribution)*
+  - [Paper binder ring (takara, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/998514-paper-binder-ring): Printable two-ring binder clip for 80 mm hole spacing in three ring sizes, with FreeCAD and OpenSCAD sources *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Discs for disc-bound notebooks (JR, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1613408-discs-for-disc-bound-notebooks): Atoma-style 17.25 mm discs as a two-part or one-piece print *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Refillable Disc System Notebook (vkobz, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/996453-refillable-disc-system-notebook-discboundcircatula): Fully printable disc-bound notebook (covers and discs) for common 8-disc refill paper *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+  - [Craftelier 11-hole disc binding punch depth stops A4/A5 (WD, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1365220-craftelier-11-hole-disc-binding-punch-depth-stops): Magnetic depth stops so punched sheets line up with commercial disc notebooks *(licence: Creative Commons Attribution-NonCommercial-ShareAlike)*
+- **diagram_idea**: One row of punched holes shown five times, each with a different binding through it (open ring, helical coil with crimped end, curled comb, closed twin-loop wire, rimmed disc gripping a mushroom slot), with a small icon under each showing whether it folds back 360° and whether pages can be removed.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Ring_binder
+  - https://en.wikipedia.org/wiki/Hole_punch
+  - https://en.wikipedia.org/wiki/Loose_leaf
+  - https://en.wikipedia.org/wiki/Disc-binding
+  - https://en.wikipedia.org/wiki/Comb_binding
+  - https://en.wikipedia.org/wiki/Coil_binding
+  - https://en.wikipedia.org/wiki/Wire_binding
+  - https://en.wikipedia.org/wiki/Bookbinding
+  - https://blog.midstatelitho.com/different-binding-elements-and-benefits/
+  - https://www.mybinding.com/blogs/binding/binding-machines-what-is-right-for-you
+  - https://stationery.lazada.com.ph/spiral-ring-or-disc-bound-organizer-notebooks-which-binding-fits-you-ph/
+  - https://blog.thepapermillstore.com/binding-methods-101-what-designers-need-to-know-about-paper-compatibility/
+  - https://media.mybinding.com/media/manuals/Tamerica-ez-wire34-manual.pdf
+  - https://justmore.dk/images/media/ProductsDocs/GBC%20WireBind%20W25E%20elektrisk%20wireindbindingsmaskine.pdf
+  - https://commons.wikimedia.org/wiki/File:Ringmechanik_01_(fcm).jpg
+  - https://commons.wikimedia.org/wiki/File:Comb_bind_examples.JPG
+  - https://commons.wikimedia.org/wiki/File:Wire-o.jpg
+  - https://commons.wikimedia.org/wiki/File:Binder-based_and_discbound_loose_leaf_systems.jpg
+  - https://commons.wikimedia.org/wiki/File:Filingholes2.gif
+  - https://api.printables.com/graphql/ (models 735504, 998514, 1613408, 996453, 1665899, 1365220, 603337, 784062; no Printables pages opened)
+
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: crimper, sewing or leather tools, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: partly
+- **removability**: tool-free quick release
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, paper or card
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** aliases, degrees_of_freedom, environment_limits, materials, processes, safety_notes, special_behaviour
+
+## 426 Slot-in model hinge (CA hinge, flat hinge, pinned hinge point)
+
+*hinges & pivots.* Small hinges pushed into slots or drilled holes along the edges of a model's wing and its moving flap and glued in, leaving a hidden pivot with no screws, as on the control surfaces of radio-controlled planes made of foam or balsa
+
+*Also covers:* Also covers fibrous flat 'CA hinges' wicked with thin superglue, moulded pinned hinges, round hinge points set in slow epoxy, and pegging a hinge with a toothpick. Use foam-safe glue on EPS and EPO foam, glue one side at a time, and keep glue out of the pivot (a smear of petroleum jelly on the pin). Safety: a hinge that pulls out in flight loses control of the model, so test each one by tugging.
+
+### What it is
+
+- **plain_name**: Little flat or round hinges pushed into slits or holes cut into the edge of a model plane's wing and its flap, then glued, so the flap swings with no screws and the hinge is hidden inside
+- **term**: Slot-in model hinge (flat hinge, CA hinge, pinned hinge, hinge point)
+- **aliases**: 
+  - CA hinge (cyanoacrylate hinge): a fibre- or paper-covered Mylar flat hinge glued with thin superglue (Airfield Models)
+  - flat hinge
+  - pinned hinge / pin hinge / pinned nylon hinge: a flat hinge with a real metal pin, 'much like door hinges' (Flite Test)
+  - hinge point / round hinge point / barbed hinge point: a round hinge set in drilled holes; 'Robart Hinge Point' (brand)
+  - poly hinge or polypropylene hinge (a one-piece flat hinge with a stamped flex line; also called 'live' hinge in model shops)
+  - Du-Bro pinned hinges, Hayes poly hinges (brands)
+  - control-surface hinge, aileron hinge, elevator hinge, rudder hinge
+  - pegged or pinned-in hinge (a hinge locked in with a toothpick through it)
+- **family**: hinges & pivots
+- **other_families**: adhesives & bonding
+- **one_liner**: Hinges for radio-controlled model planes that are pushed into matching slits or drilled holes along the edges of a wing (or tail) and its moving flap and glued in, giving a hidden, screw-free pivot along the hinge line.
+- **complexity**: A few parts: a row of 3 or more small hinges along each hinge line, each one either a flat leaf (CA hinge, poly hinge or pinned nylon hinge) or a round barbed 'hinge point' with a pin in the middle, plus the glue (thin CA, slow epoxy or a purpose-made hinge glue) and sometimes a toothpick or pin through each leaf to lock it in.
+- **how_it_works**: Each hinge has two halves, one buried in the fixed surface (wing, tailplane or fin) and one in the moving control surface (aileron, elevator or rudder), with the bend or pin exactly on the gap between them. A CA hinge is a strip of Mylar with thin cloth or paper laminated to each side; thin superglue soaks (wicks) into the porous covering and the surrounding wood and locks it in, and the Mylar itself bends as the hinge (Airfield Models). Pinned flat hinges and round hinge points turn on a real pin, so the line they turn about can be set into the surface like on a full-size plane (Airfield Models). Because many small hinges share the load along the hinge line, the surface stays on even if one weakens, and a toothpick or pin pushed through each leaf means the hinge 'will never pull out without taking other parts with it' (Airfield Models).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): it lets a control surface swing up and down or side to side
+  - join and hold: it also holds the moving surface onto the wing or tail
+  - glue or bond: each hinge is glued into its slot or hole
+- **motion**: rotate; typically up to about +/-45 to 50 degrees of flap swing, set by the hinge and the bevel cut on the edges (e.g. the printable DTF hinge allows 'more than 50 degrees in both directions') ⚑ [uncertain] *(⚑ parts need confirming)*
+- **degrees_of_freedom**: 1: the flap turns about the hinge line; CA and poly hinges also let the flap flex slightly up and down if the gap is wide (Airfield Models), which is unwanted
+- **special_behaviour**: none: it is a plain pivot with no lock, clicks or spring; stiff poly hinges add a little centring stiffness and CA hinges a little spring-back (Airfield Models; Stunt Hangar forum)
+- **holding_principle**: 
+  - material bond (glue, solvent or melting): the hinge leaf is glued into its slot or hole with thin CA, slow epoxy or a purpose-made hinge glue
+  - shape (the parts interlock; form-fit): the barbs on hinge points, the holes through pinned hinges and any toothpick peg through the leaf key the hinge mechanically into the glue and wood (Airfield Models; Flite Test)
+  - not a holding joint (it moves or passes on motion): the pin or bending strip itself is the pivot
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: permanent: CA bonds so hard to nylon hinges that 'the hinges cannot be removed without taking out wood with 'em' (Stunt Hangar forum); old hinge points have to be dug out with a knife (Airfield Models). Some builders use one long removable wire hinge pin so a surface can come off (Stunt Hangar forum)
+- **reuse_cycles**: once (glued in); the hinge itself flexes thousands of times in use
+- **tools_needed**: hobby knife or a hinge slotting tool set (forked slot cutter and clean-out pick) for flat hinges; a pin vice or drill press and a hinge drill guide for hinge points (Airfield Models); a 1/16 in drill for CA wicking holes (BSI); thin CA with a micro tip, slow epoxy or hinge glue; petroleum jelly or light oil for the pin; toothpicks; a small square or triangle to check alignment
+- **seal**: none: the hinge line leaks air unless it is sealed with a strip of tape or iron-on film along one side (Airfield Models)
+- **load**: light: carries the air loads on a model's control surfaces. Strong in the plane of the surface (pull-out and shear) when properly glued and pegged; weakest in pull-out if badly glued, and CA hinges can delaminate or break (Airfield Models). No published pull-out figures found ⚑ [uncertain] *(⚑ parts need confirming)*
+- **adjustable**: no: the hinge line is fixed once glued; throw is adjusted at the control horn and pushrod instead
+- **play_and_precision**: small for pinned hinges and hinge points ('slop-free', Gator RC on Du-Bro pinned hinges); noticeable flex for CA hinges, which need a wider gap that lets the surface move up and down (Airfield Models). The hinges must all sit on one straight centred line or the surface binds; hinges glued into both sides at once nearly always end up misaligned (Airfield Models)
+- **access_needed**: both sides: the edges of both the fixed and the moving surface must be open to cut slots or drill holes before the surfaces are joined; CA wicking holes are drilled from the face of the surface
+- **materials**: Hinges: Mylar with cloth or paper (CA hinges; Gator RC sells woven-paper ones 0.3 mm thick), polypropylene (poly hinges), nylon with a steel pin (pinned hinges), nylon or plastic hinge points with a metal pin. Surfaces it suits: balsa and light plywood (the classic use), foam (EPO, EPP, Depron, foam board) with foam-safe glue, and 3D-printed or LW-PLA surfaces with printed slots. Glue: thin CA wicks into balsa and CA hinges; ordinary CA can 'eat through' foam, so use foam-safe CA on foam (Motion RC; BSI says even its flexible CA 'can not be used on white foam' (EPS)); slow epoxy for hinge points, but epoxy does not stick to the plastic of hinge points and holds only by the barbs (Airfield Models); Foam-Tac (brand, a flexible contact glue) for EPO, EPP and Depron but not EPS according to Motion RC (Model Aviation's tester found it did not dissolve EPS or XPS)
+- **maker_difficulty**: moderate: the hinges are cheap and bought ready-made, but every slot or hole must be centred and in line, and the glue kept out of the pivot (Airfield Models: hinging 'must be done accurately' and is 'a skill')
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: CA hinges, poly hinges, pinned nylon hinges and hinge points are bought ready-made
+  - woodwork: slots cut with a hobby knife or forked slot cutter, holes drilled with a pin vice or drill press in balsa
+  - hand work in foam: slits cut with a hobby knife in EPO, Depron or foam board, glued with foam-safe glue
+  - 3D print (FDM): printed hinges with tabs that slot into foam board and a carbon-rod pin (DTF Control Surface Hinge, Printables)
+- **print_in_place**: partly: printable model-plane hinges such as the DTF Control Surface Hinge print as two identical leaves that need a 1 mm carbon rod added as the pin; the tabs then go into slots in the foam and are glued (Printables API)
+- **making_tips_3d_printing**: 1) A printed hinge with long flat tabs works like a pinned flat hinge: print two copies of the same leaf, turn one round 180 degrees, and use a metal or carbon rod as the pin (DTF Control Surface Hinge uses 1 mm pultruded carbon rod for 4.7 mm foam board) (Printables API). 2) Print the leaves flat so the layers run along the tab; tabs printed upright split between layers ⚑ [uncertain]. 3) Give the pin a clearance hole so it turns freely, and keep glue off the knuckles (same rule as bought hinges; Airfield Models). 4) For printed (LW-PLA or PLA) wings, design the slots into the print, centred on the hinge line, rather than cutting them later; check the slots line up before gluing (Model Airplane News CA Hinging Help). 5) Superglue fogs and grabs instantly; for printed parts, slow epoxy gives time to align (Airfield Models' reason for using slow epoxy). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: CA hinges (cloth-, fibre- or paper-covered Mylar, sold in sheets or pre-cut), pinned nylon hinges (e.g. Du-Bro small, medium and large, brand), polypropylene hinges (e.g. Hayes, brand), barbed hinge points (Robart, brand; '1/2A' small size), hinge slotter tool sets, hinge-point drill guides, thin and flexible CA (e.g. BSI Insta-Flex, brand), foam-safe CA and activator, slow-cure epoxy, purpose-made hinge glue (Zap/Pacer hinge glue, discontinued; Zap Canopy Glue as substitute, per Model Airplane News), Foam-Tac (Beacon, brand), hinge-gap sealing tape
+- **rules_of_thumb**: 
+  - Use at least 3 hinges per surface on a powered sport plane and often 4; 'Two hinges is not enough as if one fails, you will lose the entire surface in flight' (Model Airplane News, Gerry Yarrish)
+  - Insert a flat hinge to about its halfway point in each side, the typical installation depth (Model Airplane News CA Hinging Help); about 3/4 in deep slots for 1/2 in Du-Bro hinges (Model Airplane News, Gerry Yarrish)
+  - Drill a 1/16 in hole in the centre of each CA hinge slot so the thin CA saturates the hinge (BSI Insta-Flex product page; also Model Airplane News CA Hinging Help)
+  - Peg flat hinges: after the glue sets, drill 3/32 in through surface and hinge, push in a round toothpick, trim flush and add a drop of thin CA (Airfield Models); Flite Test describes the same pegging for pin hinges
+  - Glue the hinges into the control surface first and let the glue cure, then glue them into the fixed surface; gluing both in one go 'almost guarantees misaligned hinges' (Airfield Models)
+  - Use slow-drying epoxy for hinge points, not 5-minute epoxy or CA, and never thin it; put the glue in the hole, not on the hinge (Airfield Models)
+  - Hinge points need a hole of the right size, e.g. 3/32 in for Robart 1/2A hinge points; don't trust a hinge point cut down to 2 barbs (Airfield Models)
+  - First bevel the edges to be joined (Model Airplane News, How to Hinge Foamies); leave an even gap set with 1/16 in balsa spacers: too little binds, too much flaps (Model Aviation FAQ, about tape hinges)
+
+### When to use it
+
+- **everyday_examples**: 
+  - the ailerons, elevator and rudder of a balsa or foam radio-controlled model plane
+  - the flaps on a ready-to-fly (ARF) kit plane, where the hinges come pre-installed in slits
+  - rudders on model boats and moving flaps on models, using the same small hinges ⚑ [uncertain] *(⚑ parts need confirming)*
+- **when_to_use**: For control surfaces on balsa, plywood, foam and printed model planes where you want a neat, hidden, screw-free hinge line. Choose hinge points for thick balsa surfaces (Airfield Models' favourite: 'strong, reliable and very easy to use'), pinned flat hinges for thin or tapered surfaces and fun-fly planes with lots of power and vibration (Model Airplane News), and CA hinges where speed and very thin slots matter (Airfield Models: the slot can be made just by pushing in a hobby knife).
+- **when_not_to_use**: On very thin surfaces too thin for a flat hinge, use film, sewn or tape hinges instead (Airfield Models; see Tape hinge). On narrow, highly tapered surfaces hinge points may break through the skin (Airfield Models). On light foam electric models a tape hinge or the foam's own cut 'live' hinge is lighter and simpler (Flite Test; Model Aviation). Where the surface must come off for transport, use a removable long hinge pin or a screwed hinge (Stunt Hangar forum; see Knuckle hinge). Airfield Models advises against CA hinges altogether because of their failure record and flex.
+- **environment_limits**: Glue limits apply: ordinary CA attacks foam (Motion RC; foldnfly), CA is brittle on flexing joints (Motion RC), and tape hinges lose adhesion with age and are not fuel-proof (Flite Test; Model Aviation). Engine vibration loosens weak hinges, which is why pinned hinges are recommended for powerful fun-fly planes (Model Airplane News). Torn foam 'live' hinges stiffen and tear further; Foam-Tac stays flexible when cured, while epoxy or CA there gives 'a brittle and fragile hinge' (Model Aviation).
+- **safety_notes**: A hinge that pulls out in flight loses control of the model, which can then crash into people or property: use at least three hinges per surface (Model Airplane News), peg flat hinges (Airfield Models), and before flying pull firmly on each control surface to check every hinge holds ⚑ [uncertain: common pre-flight check, no opened source]. Thin CA bonds skin instantly and gives off irritating fumes; keep debonder or acetone nearby (Stunt Hangar forum). Hobby knives and slot cutters are sharp. Drill hinge holes with a pin vice for control; a power drill 'drills through balsa so fast that mistakes can be made in the blink of an eye' (Airfield Models). *(⚑ parts need confirming)*
+- **common_failures**: 1) Glue gets into the pivot and locks the hinge: put glue in the slot, not on the hinge, wipe any ooze away from the pin, and coat the pin area with petroleum jelly or light oil (Airfield Models; Stunt Hangar forum). 2) Misaligned or off-centre slots make the surface bind or sit offset: mark centre lines, sight down the hinge line (Model Airplane News CA Hinging Help), cut both slots together or align with dummy dowels or toothpicks (Airfield Models). 3) CA does not reach deep into the slot, so the hinge pulls out: use fresh thin CA and drill 1/16 in wicking holes (Model Airplane News; BSI). 4) Hinge moves before glue sets: tack it with medium CA, check the mark, then saturate (search result, not opened ⚑ [uncertain]). 5) Too much thin CA wicks into the hinge barrel and ruins it (Stunt Hangar forum). 6) Flutter from loose hinges and wide gaps: keep gaps tight and slots neat (Model Airplane News). 7) CA hinge laminate delaminates or the hinge breaks (Airfield Models). 8) Ordinary CA melts the foam around the slot: use foam-safe glue (Motion RC). *(⚑ parts need confirming)*
+- **related**: 
+  - Knuckle hinge (butt hinge): the same kind of pin hinge, but screwed or riveted to the faces of the parts instead of buried in slots
+  - Living hinge: a moulded or cut thin web that bends; foam planes often use the foam's own cut 'live' hinge
+  - Tape hinge and taped seam: clear or medical tape across the hinge line, lighter but loses grip over time
+  - Pinned glue joint (pinning): pegging a hinge with a toothpick is the same trick
+  - Cyanoacrylate (superglue) and Two-part epoxy: the glues used to set the hinges
+  - Plain pivot (pin in hole): the bare principle behind hinge points
+  - Cable through a hinge: for wires crossing a hinge line
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Hinges for Model Aircraft (Airfield Models, Paul K. Johnson)](https://airfieldmodels.com/information_source/model_aircraft_hardware/hinges.htm): Photo of a Robart hinge point, Du-Bro pinned hinge and Hayes poly hinge side by side; text on CA, pinned, poly and film hinges, sealing gaps and pinning hinges with toothpicks *(licence: link only)*
+  - [Aligning and Gluing Robart Hinge Points in any Control Surface (Airfield Models)](https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/05.htm): Step-by-step photos: dropping slow epoxy into hinge holes with a toothpick, pushing hinges in, checking them square with a triangle *(licence: link only)*
+  - [Tips for Installing Strong Hinges (Model Airplane News)](https://www.modelairplanenews.com/installing-hinges-made-easy-tips-from-gerrys-workshop/): Photos of cutting hinge slots with a forked slotter, cleaning them out, recessing the leading edge and fitting pinned hinges *(licence: link only)*
+  - [RC Plane Hinge Types (Flite Test, 2012)](https://www.flitetest.com/articles/RC_Plane_Hinge_Types): Pin, iron-on and tape hinges explained, including pegging a pin hinge with a toothpick; comments describe CA hinges slotted into foam or balsa *(licence: link only)*
+  - [Repairing Foam Hinges (Model Aviation)](https://www.modelaviation.com/Repairing-Foam-Hinges): Photos of a torn foam rudder hinge on an EPO plane repaired with flexible foam glue, and why hard glues make brittle hinges *(licence: link only)*
+- **make_it_yourself**: 
+  - [DTF Control Surface Hinge for R/C Airplanes (Uenbzsto, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes): Printable slot-in hinge for 4.7 mm foam-board planes in lengths from 100 to 500 mm, with tabs that go into the foam and a 1 mm carbon rod as the pin; more than 50 degrees each way; cutting template included *(licence: CC BY)*
+  - [Flaps and Alierons hinges for RC Planes (stecrev, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1771898-flaps-and-alierons-hinges-for-rc-planes): Printable hinge left hollow so a wire or fishing line can be pushed through as the pin *(licence: CC BY-NC-ND)*
+- **diagram_idea**: A cut-away of the trailing edge of a wing and the leading edge of an aileron, pulled apart, showing a flat hinge half in each slot with a toothpick peg through it and the pin centred on the bevelled gap, next to a round hinge point in drilled holes.
+- **sources**: 
+  - https://www.flitetest.com/articles/RC_Plane_Hinge_Types
+  - https://www.modelairplanenews.com/articles/how-to-hinge-foamies
+  - https://www.modelairplanenews.com/articles/ca-hinging-help
+  - https://www.modelairplanenews.com/installing-hinges-made-easy-tips-from-gerrys-workshop/
+  - https://airfieldmodels.com/information_source/model_aircraft_hardware/hinges.htm
+  - https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/02.htm
+  - https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/03.htm
+  - https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/04.htm
+  - https://airfieldmodels.com/information_source/how_to_articles_for_model_builders/construction/hinge_points/05.htm
+  - https://www.modelaviation.com/Repairing-Foam-Hinges
+  - https://library.modelaviation.com/article/frequently-asked-questions-201002
+  - https://www.motionrc.com/blogs/motion-rc-blog/benchcraft-accessories
+  - https://rcvisions.com/products/bsi-insta-flex%e2%84%a2-flexible-ca-3-8oz
+  - https://www.gator-rc.com/products/gator-rc-ca-hinges-white-paper-10-pcs-20x15x0-3mm
+  - https://www.gator-rc.com/products/dubro-small-pinned-nylon-hinges-pack-of-6-dub118
+  - https://stunthanger.com/smf/building-techniques/installing-hinges/
+  - https://stunthanger.com/smf/building-techniques/ca-hinge-installation
+  - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: lid, door or cover
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, press or vice, power tools, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: no
+- **removability**: permanent
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, foam
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** common_failures, everyday_examples, load, making_tips_3d_printing, motion, safety_notes
+
+## 431 Elastic-strung ball joint (ball-jointed doll stringing, strung doll joint)
+
+*hinges & pivots.* Hollow body parts with ball-and-socket ends threaded on a stretched elastic cord inside them, so the cord pulls every joint closed and friction holds the pose; used in ball-jointed dolls, printed and clay art dolls and posable figures
+
+*Also covers:* Also covers S-hooks at hands, feet and head, two-loop stringing (arms across the chest, an upside-down V from the neck to the feet), cord sizes by doll size, double joints, and swap-in hands held by a hook. Safety: an unhooked loop can snap back hard, so clamp it first; stringing too tight cracks thin wrists and ankles; elastic ages and needs replacing.
+
+### What it is
+
+- **plain_name**: Hollow doll or figure parts with round ball ends that sit in cups, all threaded on a stretchy cord hidden inside, so the cord pulls every joint shut and the rubbing of ball in cup holds whatever pose you bend it into
+- **term**: Elastic-strung ball joint (ball-jointed doll stringing; strung ball-and-socket joints)
+- **aliases**: 
+  - ball-jointed doll (BJD), Asian ball-jointed doll (ABJD)
+  - strung doll, strung body, elastic-strung doll
+  - doll stringing / restringing (the job of fitting or replacing the cord)
+  - classic restringing (vintage composition and hard-plastic dolls; Prilly Charmin)
+  - S-hook stringing
+  - double-jointed doll (bodies with an extra knee or elbow piece)
+  - Super Dollfie, Dollfie (brands; Wikipedia says these trademarks are sometimes wrongly used for all BJDs)
+- **family**: hinges & pivots
+- **other_families**: springs & energy storage, tensioning, reels & take-up, clamping, magnetic & friction connections
+- **one_liner**: A chain of hollow ball-and-socket joints held together by a stretched elastic cord running through them, so the cord keeps every joint pulled closed and friction lets the figure hold a pose, yet any part can be unhooked and swapped.
+- **complexity**: A small assembly that acts as one unit. Parts: hollow body pieces with a ball on one end and a cup (socket) on the other (head, neck, chest, pelvis, upper and lower arms and legs, hands, feet; extra knee or elbow pieces on double-jointed bodies); one or two loops of thick elastic cord; S-hooks (or wire hooks or a bar) at the hands, feet and inside the head; knots, sometimes a dab of glue on the knot; optional bead to keep the leg cords together (Prilly Charmin), magnets for a removable head cap or face plate, and friction add-ons such as suede linings or 'kips' discs (Afrodita review; BJD Collectasy).
+- **how_it_works**: Each body part is hollow, and the elastic cord is threaded through the hollow spaces so it runs through every joint (BJD Life). The cord is stretched when the doll is assembled, so it pulls each ball into its cup; the squeeze between ball and cup gives the friction that holds a pose. Most dolls use two loops: one goes across the chest and out through both arms to S-hooks at the hands, the other is an upside-down V from the neck down both legs to S-hooks at the feet, and the head is hooked onto the top of that leg loop (BJD Life). Tension is the whole adjustment: too loose and the doll can't sit or limbs flop; too tight and the joints grind, the doll 'snaps into a sitting position', and thin wrist and ankle pieces can crack (BJD Life). Because each hand, foot and head hangs on a hook, it can be unhooked and swapped for another (Wikipedia 'Ball-jointed doll'; BJD Life). Collectors Weekly notes that each segment is linked inside by elastic or, on some dolls, a metal spring.
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): every joint swivels and bends like a ball-and-socket joint
+  - join and hold: the cord keeps all the separate parts together as one figure
+  - tighten and hold tension: the stretched cord keeps every joint pulled closed, and its tension is set by where the knot is tied
+- **motion**: multiple: each joint can swivel and bend (rotate about any axis through the ball), limited by the cut of the cup; double-jointed knees and elbows add a second piece and pivot for a deeper bend and a more natural look (BJD Collectasy 'Embody' review; a Booth parts set converts single ball-jointed knees to double-jointed ones 'improving both the range of motion and appearance')
+- **degrees_of_freedom**: Up to 3 per joint (turning about three axes through the ball, no sliding), and the whole figure has many joints in a chain. In practice the cup shapes limit some joints to bending one way, like a hinge. The cord lets a joint pull apart a little under force, then snaps it back.
+- **special_behaviour**: 
+  - tensioning (takes up slack and holds): the stretched cord keeps pulling every joint closed, and it can be tightened or loosened by moving the knot (BJD Life; Dolk)
+  - self-aligning or self-centring: the cord pulls each ball back into its cup, so a limb that is knocked out of place pulls itself back in
+  - quick-release: hands, feet and heads hang on S-hooks or wire hooks and can be unhooked and swapped (Wikipedia 'Ball-jointed doll'; BJD Life)
+  - fail-safe or breakaway: a limb pulled hard comes partly out of its socket against the cord instead of snapping off ⚑ [uncertain] *(⚑ parts need confirming)*
+- **holding_principle**: 
+  - spring force (a spring or springy part presses it in place): the stretched elastic cord pulls each ball into its socket
+  - friction or clamping (force-fit): the pose is held only by friction between ball and cup, which the cord's pull creates; suede or hot-glue linings and silicone 'kips' discs add friction (Afrodita review; BJD Collectasy)
+  - shape (the parts interlock; form-fit): the cup shapes stop joints bending past their limits, and the hooks catch on the cord
+  - magnetic: some dolls hold the head cap, face plate or hands on with magnets instead of the cord (Printables 'Eve', 'The Fabled Hare'; BJD Collectasy on Pidgin dolls)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: parts come off by unhooking a hand, foot or head from the cord while holding the cord with a clamp; the whole doll can be taken apart and restrung (BJD Life)
+- **reuse_cycles**: many times for swapping hands and heads; the elastic itself is a wearing part that stretches out and must be replaced from time to time (BJD Life)
+- **tools_needed**: Elastic cord and scissors; needle-nose, flat-nose and round-nose pliers for hooks; surgical clamps (forceps or haemostats) to hold the stretched cord; a thin crochet hook or a stiff 'curling ribbon' or plastic string to pull the cord through the parts (BJD Life restringing guide and supplies page; Prilly Charmin).
+- **seal**: none
+- **load**: light: holds the figure's own weight in a pose. Strongest when the joints are pressed together; weakest against bending a limb that sticks out, which is held only by friction. Bigger, heavier dolls need a thicker or stronger cord (BJD Life supplies page; Prilly Charmin).
+- **adjustable**: yes: tension is set by where the knot is tied (move the knot up or down; BJD Life) and can be tightened or loosened later with a hook tool or pliers (Dolk). Cord can be doubled for more pull (Prilly Charmin). Friction can be raised with suede or hot-glue linings or 'kips' discs (Afrodita review; BJD Collectasy).
+- **play_and_precision**: noticeable: joints can be pulled apart a little against the cord and hold a pose by friction only, so they are not precise and don't return to exact angles. Loose stringing makes limbs swing; very tight stringing makes joints grind and spring back (BJD Life).
+- **access_needed**: both sides: you work through the neck, limb and head openings, and the head or a removable head cap gives access to the hook inside (Prilly Charmin; Printables 'Customizable ball jointed doll head cap')
+- **materials**: Body parts: polyurethane resin (modern BJDs), bisque, composition (pulp, sawdust and glue on old dolls), hard plastic and vinyl (vintage dolls), wood, polymer clay, papier-mache clay, air-dry clay and 3D-printed PLA or resin (Wikipedia 'Ball-jointed doll'; Prilly Charmin; Printables models). Cord: round elastic cord (rubber strands in a woven cover) ⚑ [uncertain]. Hooks: metal S-hooks or bent wire. Suits hard, smooth materials that can be made hollow; soft rubbery materials grip too much and bend instead of turning. *(⚑ parts need confirming)*
+- **maker_difficulty**: moderate: stringing a ready-made doll is easy with clamps and patience; designing your own hollow parts with matching balls and cups, clear cord channels and hooks takes careful sculpting or CAD
+
+### Making it
+
+- **processes**: 
+  - 3D print (FDM): hollow PLA parts with a channel for the cord (Printables 'The Fabled Hare', 'Eve')
+  - 3D print (resin): small strung figures, e.g. 'Pinocchio Ball Jointed Doll', strung with rubber bands (Printables)
+  - hand sculpting in polymer clay, papier-mache clay or air-dry clay (Wikipedia 'Ball-jointed doll'; Printables 'Arm joint KIT')
+  - casting: commercial BJDs are cast in polyurethane resin from moulds of a clay or printed master (Wikipedia 'Ball-jointed doll')
+  - off-the-shelf part: elastic cord, S-hooks, haemostats
+- **print_in_place**: no: the parts are printed separately, hollow, and then strung together with elastic cord.
+- **making_tips_3d_printing**: 1) Plan a clear channel for the cord through every part before modelling the joints; the designer of 'Eve' (Printables) and of 'The Fabled Hare' print hollow parts, and Eve was designed with 3 mm elastic in mind. 2) Keep the inside free of crossbars and bits that snag the cord, and make sure each joint has a hole all the way through (buyer comments reported in search results on printed BJD bodies) ⚑ [uncertain]. 3) Give the head a removable cap or face plate so you can reach the hook: 'Eve' and 'The Fabled Hare' use small magnets (Eve uses four 6 x 2 mm round magnets), and there is a printable 'Customizable ball jointed doll head cap' (Printables). 4) Settings used by the designers: The Fabled Hare was printed in PLA at 0.2 mm layers, 10% infill, with supports; Eve in PLA at 0.12 mm layers, 20% infill, with supports and a raft (Printables). 5) Small resin figures can use rubber bands and a short pin (a bit of skewer, cotton bud stick or filament) across the wrist or ankle to hold the band; the designer of 'Pinocchio Ball Jointed Doll' says scalloping the joint cups would help posing (Printables). 6) Make thin wrists and ankles strong enough for the cord's pull, since tight stringing cracks them (BJD Life). 7) Smooth or line the balls and cups to set the friction: too smooth slips, too rough grinds; suede or hot glue in the socket adds grip (Afrodita review). *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search for: 'BJD elastic cord' or 'doll stringing elastic' (sold by doll size, e.g. 1.5 mm to 4 mm round elastic cord; Prilly Charmin), 'S-hooks for BJD' or 'doll S-hooks' in several sizes (BJD Life), 'haemostat' or 'surgical forceps' (to clamp the cord), 'stringing tool' or a thin crochet hook, 'BJD joint suede' or 'sueding' material, silicone 'kips' discs (BJD Collectasy), small neodymium disc magnets for head caps, and BJD stands with a waist clamp (Dolk).
+- **rules_of_thumb**: 
+  - Most dolls use two big loops: one across the chest to S-hooks at both hands, one an upside-down V from the neck to S-hooks at both feet, with the head hooked onto the leg loop (BJD Life).
+  - Cut new cord to the doll's head-to-toe height plus 20% for knots, or use the old cord as a guide (BJD Life supplies page).
+  - Cord size by doll height (vintage dolls; Prilly Charmin): 1.5 mm for 4-6 in dolls (doubled for 8 in); 2 mm for 8-10 in; 2.5 mm for 10-18 in slender dolls; 3 mm (about 1/8 in) for 14-18 in stocky dolls; 3.5 mm a little stronger than 3 mm; 4 mm for medium to large dolls. Go thinner for slender dolls and thicker or doubled for stocky ones. These figures are for vintage dolls, not resin BJDs.
+  - Tension test: the doll should sit and stand; if it can't sit up, it is too loose; if it 'snaps into a sitting position' when you stand it, it is too tight (BJD Life).
+  - Tie a double or triple knot and dab it with household PVA glue, not superglue or model glue, which can damage the cord; leave about 1 in of tail and tuck it inside (Prilly Charmin).
+  - A bead (or a loose tie of cord) around both leg cords inside the body stops the legs splaying; it must slide freely (Prilly Charmin).
+  - Elastic ages: restring when limbs go floppy, poses won't hold, or joints creak (BJD Life 'When to Restring').
+
+### When to use it
+
+- **everyday_examples**: 
+  - Resin ball-jointed collector dolls (Wikipedia 'Ball-jointed doll')
+  - Old composition and hard-plastic play dolls whose arms, legs and head are held on by elastic inside (Prilly Charmin; Wikipedia)
+  - Wooden artist's mannequins and 3D-printed posable figures strung with elastic ⚑ [uncertain] *(⚑ parts need confirming)*
+- **when_to_use**: Use elastic stringing for a posable figure made of hollow hard parts (doll, puppet, art figure, creature) when you want every joint to stay closed, hold a pose by friction, and come apart for painting, swapping hands, heads or feet, or repairs. It suits hand-sculpted clay dolls and 3D-printed figures because the joints need no pins, screws or tight print tolerances: the cord takes up any gaps.
+- **when_not_to_use**: Avoid it for small or solid parts with no room for a cord channel (use a pinned joint or a snap-in ball-and-socket joint), for poses that must hold a heavy part out sideways (use friction ball joints you can tighten, or a wire armature), for a figure that must never move once posed (glue it or use an armature), and for toys for small children, since unhooked parts and hooks are small and the cord snaps back hard ⚑ [uncertain]. For a single joint that must hold a camera or lamp, use a lockable ball head. *(⚑ parts need confirming)*
+- **environment_limits**: Elastic cord loses stretch with age and use and must be replaced (BJD Life). Keep dolls out of direct sun and heat: sunlight makes the cord brittle and weak and speeds yellowing of resin parts; store cool and dry, away from humidity that can grow mould (BJD Life). Polyurethane resin itself yellows and decays over time (Wikipedia 'Ball-jointed doll').
+- **safety_notes**: Stored energy: the cord is stretched, so a loop that is unhooked and let go will snap back through the body; clamp the cord with forceps or hold it with a string or crochet hook before unhooking (BJD Life). Stringing too tight makes joints rub and can crack thin wrist and ankle pieces (BJD Life). Hooks, small hands and magnets are choking hazards for young children ⚑ [uncertain]. Pliers can scratch resin (BJD Life supplies page). *(⚑ parts need confirming)*
+- **common_failures**: Floppy limbs or a doll that can't hold a pose: the elastic has stretched out or was too loose (restring or retie the knot higher; BJD Life). Creaking or cracking sounds when posing: joints rubbing because the cord is overstretched (BJD Life). Cracked wrists or ankles: strung too tight (BJD Life). Legs splaying: add a bead around the leg cords (Prilly Charmin). Joints that slide out of a pose even when the tension is right: add friction with suede, hot glue or kips (Afrodita review; BJD Collectasy). Cord that won't pass through: snags inside the parts or holes that don't go right through (remove obstructions; pull through with a crochet hook or plastic string; BJD Life). Knot slipping: tie a double or triple knot and glue it (Prilly Charmin).
+- **related**: 
+  - Ball-and-socket joint (lockable ball head): a single ball joint held by its own socket lip or a clamp, not by an internal cord
+  - Posable segmented arm (ball chain, gooseneck): many small snap-together ball joints held by their own sockets
+  - Shock-corded sectional pole: the same hidden stretched cord, used to keep straight tube sections together
+  - Elastic band and elastic cord springs: the cord here is one of these springs, used to pull joints shut
+  - Wire and foil armature: a bendable wire skeleton inside a figure that holds a pose by bending the wire, usually not taken apart
+  - Pinned glue joint: a wire or toothpick pin that joins figure parts permanently
+  - Magnet joint (embedded magnets): used on some dolls for removable head caps, face plates and hands
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Ball Jointed Doll string system (Nimdeen, Wikimedia Commons, 2018)](https://commons.wikimedia.org/wiki/File:Ball_Jointed_Doll_string_system.png): Diagram of the internal string system of a ball-jointed doll *(licence: CC BY-SA 4.0)*
+  - [Elbow and wrist joint of male ball-jointed doll (Anna Frodesiak, Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:Elbow_and_wrist_joint_of_male_ball-jointed_doll.jpg): Photo of the elbow and wrist ball joints on a resin ball-jointed doll *(licence: CC0 1.0 (public domain dedication))*
+  - [A Guide to Properly Stringing Your Ball-Jointed Doll for Optimal Poseability (BJD Life, 2023)](https://asenvabjd.beehiiv.com/p/stringing-ball-jointed-doll): Step-by-step restringing: tools, the two elastic loops, S-hooks, checking tension *(licence: link only)*
+  - [Tips and Tricks: How to Restring a BJD (YouTube, AsenvaBJD)](https://www.youtube.com/watch?v=dVKn9zhm8jU): Video of restringing a ball-jointed doll (linked from the BJD Life guides; title confirmed via YouTube oEmbed) *(licence: link only (standard YouTube licence))*
+  - [Restring Vintage Dolls: the Classic Method (Prilly Charmin Dolls)](https://prillycharmin.com/restringing-instructions/26-restring-vintage-dolls-the-classic-way.html): Photos of restringing a 14 in vintage doll: head bar or hook, bead on the leg cords, knotting, and a cord size chart *(licence: link only)*
+- **make_it_yourself**: 
+  - [The Fabled Hare (A 3D Printed Ball-jointed Doll) (Loubie3D, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/25238-the-fabled-hare-a-3d-printed-ball-jointed-doll): A printable PLA ball-jointed hare strung with elastic cord, with a magnet-held face plate; build steps on Instructables. Read through the Printables public API. *(licence: CC BY-NC-ND)*
+  - [Eve - Ball Jointed Doll (Aly Westwood, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/793739-eve-ball-jointed-doll): A 1/3 scale (about 54 cm) printable BJD designed for about 3 mm elastic, with a magnet-held head cap. Read through the Printables public API. *(licence: CC BY-NC)*
+  - [Pinocchio Ball Jointed Doll (Ugly Robot, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/740282-pinocchio-ball-jointed-doll): A small resin-printed strung figure held together with rubber bands and pins at the wrists and ankles; a quick way to test the idea. Read through the Printables public API. *(licence: CC BY-SA)*
+  - [Customizable Ball jointed doll head cap (Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/761481-customizable-ball-jointed-doll-head-cap): A customisable printable head cap for reaching the hook inside a BJD head. Read through the Printables public API. *(licence: CC BY-SA)*
+  - [Arm joint KIT for handmade Ball Jointed Doll (BJD) model (Artur Sardlishvili, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/56944-arm-joint-kit-for-handmade-ball-jointed-doll-bjd-m): Printable arm joint parts to use as a base when sculpting a handmade clay BJD. Read through the Printables public API. *(licence: CC BY-NC-SA)*
+- **diagram_idea**: A see-through doll outline showing the two elastic loops (one across the chest to hooks in both hands, one an upside-down V from the head hook down to both feet), with arrows showing the cord pulling each ball into its cup.
+- **sources**: 
+  - https://en.wikipedia.org/wiki/Ball-jointed_doll
+  - https://asenvabjd.beehiiv.com/p/stringing-ball-jointed-doll
+  - https://asenvabjd.beehiiv.com/p/bjd-restringing-supplies
+  - https://asenvabjd.beehiiv.com/p/signs-your-bjd-needs-restringing
+  - https://dolkbjd.com/blogs/dolkbjd-blog/how-to-improve-your-ball-jointed-doll-posing
+  - https://prillycharmin.com/restringing-instructions/26-restring-vintage-dolls-the-classic-way.html
+  - https://www.collectorsweekly.com/dolls/ball-jointed
+  - https://lunarreverie.com/realistic-fashion-style-bjds-afrodita-dolls/
+  - https://bjdcollectasy.com/2016/11/07/embody-a-review/
+  - https://bjdcollectasy.com/2017/04/28/pidgin-doll-body-update/
+  - https://booth.pm/en/items/7517588
+  - https://commons.wikimedia.org/wiki/Category:Ball-jointed_dolls
+  - https://commons.wikimedia.org/wiki/File:Ball_Jointed_Doll_string_system.png
+  - https://commons.wikimedia.org/wiki/File:Elbow_and_wrist_joint_of_male_ball-jointed_doll.jpg
+  - https://www.youtube.com/watch?v=dVKn9zhm8jU
+  - https://api.printables.com/graphql/
+
+### Finder tags
+
+- **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable ⚑ *needs confirming (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched*
+- **clicks**: not applicable
+- **tools**: press or vice, hand tools
+- **load_max**: light
+- **usual_process**: 3D print (FDM)
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: swivel or tilt
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, clay or putty
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** everyday_examples, making_tips_3d_printing, materials, safety_notes, special_behaviour, when_not_to_use
+
+## 443 Glass door hinge (clamp-on glass hinge, drilled glass-door cup hinge, pivot hinge for glass doors)
+
+*hinges & pivots.* A hinge made for a glass or acrylic door that can't take wood screws. It either clamps onto the glass edge with a screw and anti-slip pads, fits a cup through a 26 mm hole drilled in the glass, or lets the door turn on pins at its top and bottom corners, as on display cabinets and 3D-printer enclosures
+
+*Also covers:* Also covers inset and overlay glass hinges, cover caps, pivot hinge and magnetic catch kits, and printed hinges for acrylic enclosure doors. Check the glass thickness range (often 4-6 mm) and weight per pair. Safety: holes in glass must be drilled by a glass shop, and before toughening for toughened glass; plastic must sit between glass and metal.
+
+### What it is
+
+- **plain_name**: A hinge for a glass or clear plastic cupboard door, which grips the glass with a screw and soft pads, bolts through a round hole in the glass, or lets the door turn on two pins at its top and bottom corners, because you can't drive wood screws into glass
+- **term**: Glass door hinge (clamp-on glass hinge, drilled glass-door cup hinge with cover cap, and pivot hinge for glass doors)
+- **aliases**: 
+  - glass door hinge, glass cabinet door hinge, glass cabinet hinge, showcase hinge, display cabinet hinge (Hettich ET 150; HardwareSource)
+  - clamp-on glass hinge, no-drill glass hinge, glass door clamp, clamping glass hinge, 'no drillings necessary in the glass' (Hettich ET 150; vxb kit)
+  - European glass door hinge, 26 mm glass hinge, concealed glass door hinge, glass door cup hinge, drilled glass hinge; inset, overlay and twin overlay versions (HardwareSource; Salice Series 200 sheet)
+  - cover cap, cover plate, glass hinge cap: the round or D-shaped plate that clamps the glass to the hinge cup (HardwareSource)
+  - glass door pivot hinge, no-bore glass door pivot hinge, top and bottom pivot clamp, corner pivot hinge (Sawdustzone forum; vxb kit)
+  - glass door hinge and magnetic catch kit, glass door catch, strike plate (vxb kit; Sawdustzone forum)
+  - acrylic door hinge, Plexiglas or perspex door hinge, enclosure door hinge, printer enclosure hinge (Printables 41109, 820251, 209584, 563324)
+  - Brands a beginner may search for: Blum, Hettich, Salice (brands) (HardwareSource; Hettich; Salice)
+- **family**: hinges & pivots
+- **other_families**: clamping, magnetic & friction connections, print-in-place & 3D-printing joints
+- **one_liner**: A glass door hinge carries a glass or acrylic door on a cabinet without screwing into the door: it grips the sheet with a padded clamp, holds it with a cap bolted through a 26 mm hole drilled in the glass, or clamps the top and bottom corners onto pins that turn in the cabinet.
+- **complexity**: A few parts. Clamp-on: a hinge body with a clamping screw and a pre-fitted anti-slip pad, plus a cabinet-side plate (Hettich ET 150). Drilled cup type: the hinge, a cover cap that clamps the glass, a mounting plate and wood screws (HardwareSource). Pivot type: a top and a bottom glass clamp with a pin, a sleeve (grommet) or plate in the cabinet, plus a separate magnetic catch and strike plate, because the door swings freely (vxb kit; Sawdustzone forum).
+- **how_it_works**: Glass can't hold a screw, so the hinge holds the sheet by squeezing it instead. A clamp-on hinge has a U-shaped jaw that slides over the edge of the glass, and a clamping screw presses a pre-fitted anti-slip pad against it, so no hole is needed (Hettich ET 150). A drilled glass hinge works like a small kitchen cup hinge (Clip-on concealed hinge): its cup passes through a 26 mm hole in the glass and a cover cap is screwed to it from the other face, sandwiching the glass between plastic parts, while the arm clips to a mounting plate on the cabinet (HardwareSource; Salice Series 200 sheet). A pivot hinge clamps the top and bottom corners of the door, and each clamp has a pin that turns in a hole or sleeve in the cabinet top and base, so the door spins about a line through its corners; it has no spring, so a magnetic catch holds it shut (Sawdustzone forum; vxb kit).
+
+### Finder attributes
+
+- **job**: 
+  - let it move (turn, slide or bend): the door swings open, about 94-105° for cup and clamp types (Salice Series 200 sheet; Hettich ET 150)
+  - join and hold: carries the weight of a glass or acrylic door on the cabinet without drilling the glass (clamp and pivot types) or through one drilled hole per hinge (cup type) (Hettich ET 150; HardwareSource)
+- **motion**: rotate: about 105° for the Hettich ET 150 clamp-on hinge and 94° for the Salice Series 200 drilled glass hinge; pivot hinges turn about the top and bottom corner pins (Hettich ET 150; Salice Series 200 sheet; Sawdustzone forum).
+- **degrees_of_freedom**: 1: the door only turns about the hinge axis. Cup types can be adjusted sideways, in and out, and up and down on their mounting plates while fitting, but are locked during use (Salice Series 200 sheet gives the plate-height formulas) ⚑ [uncertain: adjustment directions not listed on the opened glass-hinge pages]. *(⚑ parts need confirming)*
+- **special_behaviour**: 
+  - none: most glass door hinges simply let the door swing; the Hettich ET 150 is listed 'without stay close function' and pivot hinges are 'free swinging' (Hettich ET 150; Sawdustzone forum)
+  - self-closing (sprung) on some cup types: the Salice Series 200 glass hinge is a 'CA sprung hinge', and soft-close glass hinges are sold (Salice Series 200 sheet) ⚑ [uncertain: soft-close versions seen only in search results] *(⚑ parts need confirming)*
+- **holding_principle**: 
+  - friction or clamping (force-fit): the clamp-on and pivot types grip the glass between pads tightened by a screw (Hettich ET 150; vxb kit; Sawdustzone forum)
+  - shape (the parts interlock; form-fit): the drilled type passes through a hole in the glass and is held by a cover cap on the other face (HardwareSource)
+  - magnetic: the pivot kits and some clamp hinges use a separate magnetic catch to keep the door shut (vxb kit; Hettich ET 150)
+- **input_output**: not applicable
+- **power**: passive (no power needed)
+- **removability**: removable: the clamp or cover cap can be unscrewed and the glass taken out, and cup-type arms unclip from their mounting plates (HardwareSource; Hettich ET 150) ⚑ [uncertain: clip-off on Blum glass hinges inferred from Blum cup hinges in general]. *(⚑ parts need confirming)*
+- **reuse_cycles**: many times: the hinge parts are screwed, not glued, so the door can be taken off and refitted; the anti-slip pads may need replacing once flattened ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **tools_needed**: Screwdriver for the clamping screws, cover-cap screws and the wood screws of the mounting plates. A drill for the cabinet side (a hole for the pivot sleeve, or pilot holes for plates). The 26 mm hole in the glass is ordered from a glass supplier, who must make it before toughening for toughened glass (HardwareSource; Sawdustzone forum; Wikipedia 'Tempered glass').
+- **seal**: none
+- **load**: Light. Weight limits per pair are low and vary by model: about 4 kg (8.8 lb) per pair for one Blum overlay glass hinge for 4-6 mm glass (HardwareSource), and 5-8 kg per pair for a no-drill pivot clamp kit rated for doors up to 150 x 40 cm (vxb kit). The glass is weakest at its edges and at drilled holes, so twisting the door or an uneven clamp is the main risk (Wikipedia 'Tempered glass'; Sawdustzone forum).
+- **adjustable**: yes, slightly: clamp and pivot types let you slide the glass in the clamp before tightening to line it up with the cabinet or the next door; cup types adjust on their mounting plate, and the plate height and arm crank are chosen with the maker's formulas (Sawdustzone forum; Salice Series 200 sheet).
+- **play_and_precision**: Small play once tightened. Pivot hinges need the top and bottom holes exactly in line, because 'stresses from improper alignment can crack the glass'; racking of the cabinet after installation can need a final adjustment (Sawdustzone forum). The drilled hole has a fixed position from the door edge: 5.5-6.5 mm for the Salice Series 200 glass hinge (Salice Series 200 sheet).
+- **access_needed**: both sides: the clamp screw or cover cap is reached from the inside face of the door, and the cover cap goes on the opposite face to the hinge cup; pivot sleeves are drilled into the cabinet top and base, best before the cabinet is assembled (HardwareSource; Sawdustzone forum).
+- **materials**: Hinges: die-cast zinc, nickel-plated (Hettich ET 150), stainless steel (vxb kit) or brass and chrome finishes, with plastic parts where they touch the glass: 'All parts of the glass cabinet door hinge and cover cap that touch the glass are a plastic material' (HardwareSource). Doors: float or toughened glass about 4-7 mm thick (4-6 mm Salice; 4.5-7 mm Blum; 5-6 mm vxb kit; Hettich lists 5.2 mm) and acrylic sheet 3-6 mm for printed enclosure hinges (Printables 820251, 209584, 563324, 41109). Cabinet: wood, plywood or MDF for the wood-screw plates; aluminium extrusion for printed enclosure hinges (Printables 820251). Not suited to doors thicker or thinner than the hinge's stated range, or to heavy full-height doors.
+- **maker_difficulty**: easy to moderate: clamp-on and pivot kits fit with a screwdriver and need no hole in the glass; drilled cup hinges need the glass ordered with holes in the right place, and pivot hinges need two holes drilled exactly in line (Hettich ET 150; HardwareSource; Sawdustzone forum).
+
+### Making it
+
+- **processes**: 
+  - off-the-shelf part: clamp-on glass hinges, 26 mm drilled glass hinges with cover caps and mounting plates, pivot hinge and magnetic catch kits (Hettich; HardwareSource; vxb)
+  - 3D print (FDM): hinges for acrylic enclosure doors, in PETG (Printables 41109, 820251, 209584, 563324)
+  - woodwork: drilling the cabinet for pivot sleeves and mounting plates (Sawdustzone forum)
+  - glass shop: cutting, edge polishing and drilling the glass, done before toughening for toughened glass (Wikipedia 'Tempered glass')
+- **print_in_place**: partly: one enclosure hinge for 3 mm acrylic and 4040 extrusion prints in place with no supports inside the hinge, but needs bolts to fix it (Printables 820251); most printed acrylic-door hinges print as separate parts joined by a screw or pin as the axle (Printables 41109, 209584).
+- **making_tips_3d_printing**: 1) Use PETG: all four popular acrylic-door hinge designs recommend it, though PLA also works for one (Printables 41109, 820251, 563324). 2) Print-in-place hinge for 3 mm (1/8 in) acrylic on 4040 extrusion: support only the hinge face raised about 3 mm off the bed for the door, no supports inside the hinge, then work a plastic-safe grease such as petroleum jelly into the hinge holes to smooth it; fix with 5 mm (1/4 in) bolts through the door and 5/16 in bolts with 8 mm T-slot nuts into the extrusion (Printables 820251, CC BY). 3) Hinge for a 5 mm acrylic door on a 10 mm wood panel, inset by 5 mm: two M5 x 60 screws as the hinge axles, three M5 x 10 screws through the acrylic, three perimeters, no supports; a spacer block sets the inset and the Fusion 360 file is parametric for other sizes; the designer reports two years of use (Printables 41109, public domain). 4) Screwless lift-off hinge for 3 mm acrylic (6 mm version too): the parts are friction-fitted, so results depend on printer accuracy; if the top hinges are loose the door drops and breaks the bottom post, so screw through the post to strengthen it (Printables 209584, CC BY-NC). 5) Printed screw hinges for 4 mm acrylic: don't overtighten the printed screws (Printables 563324). 6) Drill acrylic with clearance: make bolt holes at least twice the bolt diameter, keep the hole centre at least 1.5 hole diameters from the edge, and use a rubber grommet to stop cracks starting at the hole (ACRYLITE knowledge base); a maker also warns that tapped screw holes 'have the propensity to crack the acrylic' (Sawdustzone forum). 7) A replacement plastic plate for an old glass-door hinge is better in ABS or nylon with at least 4 walls (Printables 1573379). 8) Don't print hinges that clamp real glass in PLA for warm places; PLA creeps under steady clamping load ⚑ [uncertain: no opened source tests printed glass clamps]. *(⚑ parts need confirming)*
+- **off_the_shelf_parts**: Search terms: 'glass door hinge' (inset, overlay, twin overlay or half overlay), '26 mm glass door hinge', 'glass hinge cover cap' (round or D-shaped, black or chrome), 'mounting plate' (0 mm, 3 mm, face-frame), 'clamp-on glass hinge' or 'no-drill glass hinge', 'glass door pivot hinge' with 'pivot sleeve' or 'grommet', 'glass door magnetic catch' and 'strike plate', 'magnetic touch latch' (push-to-open), 'adhesive glass door knob' (HardwareSource; Hettich ET 150; vxb kit; Sawdustzone forum). Catalogue examples: Hettich ET 150 glass door hinge (https://shop.hettich.com/hn_EN/Hinges/Special-hinges/Glass-door-hinges/Glass-door-hinge-ET-150%2C-nickel-plated%2C-matt/p/20870), Blum glass door hinges (https://www.hardwaresource.com/products/blum-glass-door-hinge), Salice Series 200 glass hinges (https://www.salice.com/downloads/2414/3495/Salice-Self-Closing-Hinges-Series-200-94-standard-for-glass-doors-ENG.pdf). Some inset glass hinges use a much smaller 7 mm hole in the glass instead of 26 mm (HardwareSource listing).
+- **rules_of_thumb**: 
+  - Drilled glass hinges need a 26 mm hole for each hinge and take glass about 4-7 mm thick: 4-6 mm (Salice Series 200 sheet), 4.5-7 mm (Blum, HardwareSource).
+  - Hole position: the Salice Series 200 glass hinge allows a drilling distance from the door edge (K) of 5.5-6.5 mm; the maker's formulas then give the hinge arm and mounting-plate height for the overlay you want (Salice Series 200 sheet).
+  - Weight per pair is small and model-specific: about 4 kg (8.8 lb) per pair for one Blum overlay glass hinge (HardwareSource); 5-8 kg per pair, doors up to 150 x 40 cm, for 5-6 mm glass in a no-drill pivot clamp kit (vxb kit). Use the maker's figure for your hinge.
+  - Clamp-on inset hinge sizing (Hettich ET 150, 105°): door height = inside cabinet height - 6 mm, door width = inside cabinet width - 5.6 mm (Hettich ET 150).
+  - Toughened (tempered) glass: 'Any cutting or grinding must be done prior to tempering', and 'drilling holes in the glass is carried out before the tempering process starts'; work after toughening shatters it (Wikipedia 'Tempered glass').
+  - No metal against glass: on the Blum system all parts that touch the glass are plastic, and the cover cap is what holds the glass (HardwareSource).
+  - Pivot hinges: drill the top and bottom sleeve holes exactly in line and before the cabinet is assembled; keep the pivot no more than about 1/8 in from the cabinet side, or the hinge rubs; then tighten the clamp screws slowly from the inside (Sawdustzone forum, a cabinetmaker's post).
+  - Acrylic doors: bolt hole at least 2 x the bolt diameter, hole centre at least 1.5 x the hole diameter from the edge, and use a rubber grommet (ACRYLITE knowledge base).
+
+### When to use it
+
+- **everyday_examples**: 
+  - A glass-fronted display cabinet, curio cabinet or bookcase with no frame round the glass (vxb kit; Sawdustzone forum)
+  - A kitchen wall cupboard with a plain glass door on concealed hinges (HardwareSource)
+  - An acrylic door on a 3D-printer enclosure (Printables 41109, 820251)
+  - A glass door on a wine cabinet or TV cabinet (vxb kit)
+- **when_to_use**: Use a glass door hinge when the door is a plain sheet of glass or acrylic with no wooden frame: a display cabinet, a glass-fronted bookcase or wine cabinet, a printer enclosure. Choose a clamp-on or pivot hinge when you can't or don't want to drill the glass, for example with a ready-made pane (Hettich ET 150; vxb kit; Sawdustzone forum). Choose a 26 mm drilled cup hinge when you can order the glass with holes and want a tidy, adjustable kitchen-style hinge with overlay options and a cover cap (HardwareSource; Salice Series 200 sheet). Printed hinges suit acrylic enclosure doors, where light weight and printed parts make sense (Printables 41109, 820251).
+- **when_not_to_use**: Don't use them for heavy or tall doors beyond the hinge's weight-per-pair figure; add a third hinge only if the maker allows it, or put the glass in a wooden frame and use ordinary hinges (Clip-on concealed hinge, Knuckle hinge) instead ⚑ [uncertain: third-hinge advice not found on an opened page]. Don't try to drill toughened glass yourself, because it shatters; order it drilled (Wikipedia 'Tempered glass'). For shower doors and full-height room doors use plumbing or building hardware rated for them, not cabinet hinges ⚑ [uncertain]. For sliding glass cabinet doors use a double track instead (Tongue-and-groove joint, sliding-lid grooves). For a door that must stay open at an angle use a friction hinge or a lid stay. *(⚑ parts need confirming)*
+- **environment_limits**: Indoor use: Hettich states its glass hinge is 'Only suitable for indoor use and the usual climatic conditions there' (Hettich ET 150). Acrylic expands and contracts with heat and moisture, which is why its bolt holes must be oversized (ACRYLITE knowledge base). Printed PETG or PLA hinges soften in a hot enclosure or car, and PLA creeps under steady load ⚑ [uncertain: no temperature figure checked for these designs]. *(⚑ parts need confirming)*
+- **safety_notes**: Glass can break: an uneven or overtightened clamp, or top and bottom pivots out of line, can crack the glass (Sawdustzone forum). Toughened glass can't be cut, ground or drilled after toughening; it shatters, so order holes and polished edges from the glass supplier first (Wikipedia 'Tempered glass'). Keep plastic between glass and metal (HardwareSource). Glass doors are heavy: a door on free-swinging pivots can swing open by itself if the cabinet leans forward, so fit a magnetic catch (Sawdustzone forum). Chipped edges are where toughened glass is most likely to fail later, so protect edges when fitting (Wikipedia 'Tempered glass'). Hettich's safety notes say 'Keep away from children' and warn that fittings may fall out of the packaging if it is opened carelessly (Hettich ET 150).
+- **common_failures**: Glass cracks at a clamp or hole, from overtightening, metal touching glass, or misaligned pivots: use the plastic or rubber pads, tighten slowly and evenly, and line the holes up (HardwareSource; Sawdustzone forum). Door slips down in a clamp: clean the glass and pads and retighten; check the glass is within the clamp's thickness range (Hettich ET 150; vxb kit). Door won't stay shut on free pivots: add a magnetic catch or touch latch (Sawdustzone forum). Hinge rubs the cabinet side: the pivot was set too close to the edge (Sawdustzone forum). Acrylic cracks round screw holes: make holes oversize with grommets and keep them away from the edge (ACRYLITE knowledge base). Printed lift-off hinge breaks its bottom post when the top hinges slip (Printables 209584). Plastic hinge plates in old furniture break with age; a printed ABS or nylon copy can replace one (Printables 1573379).
+- **related**: 
+  - Clip-on concealed hinge (cup hinge): the wood-door version with a 35 mm cup; the drilled glass hinge is its 26 mm cousin with a cover cap instead of screws into the door
+  - Glass and mirror edge clips and clamps: hold a sheet still by its edge with padded clamps; the clamp-on glass hinge adds a pivot
+  - Panel standoff: also bolts through a drilled glass or acrylic sheet with plastic washers, but holds it still
+  - Plain pivot and rolling bearing: a pivot hinge is a pin turning in a hole at the door's corners
+  - Magnet joint (embedded magnets, magnetic catch): the catch that holds free-swinging glass doors shut
+  - Push-push latch (push-to-open): a magnetic touch latch lets a handle-less glass door open with a push
+  - Print-in-place hinge: printed hinges for acrylic enclosure doors
+  - Knuckle hinge (butt hinge) and Self-closing hinges: for glass doors set in a wooden frame
+  - Tongue-and-groove joint (sliding-lid grooves): sliding glass doors in a double track instead of hinged ones
+
+### Pictures, videos and models
+
+- **links**: 
+  - [Glass door hinge ET 150, nickel plated, matt (Hettich eShop)](https://shop.hettich.com/hn_EN/Hinges/Special-hinges/Glass-door-hinges/Glass-door-hinge-ET-150%2C-nickel-plated%2C-matt/p/20870): Photos and CAD data of a clamp-on inset glass door hinge with clamping screw and anti-slip pad, 105° opening *(licence: all rights reserved (link only))*
+  - [Blum Glass Door Hinge (HardwareSource)](https://www.hardwaresource.com/products/blum-glass-door-hinge): Photos of the drilled 26 mm glass hinge, its round and D-shaped cover caps and mounting plate, with inset and overlay versions *(licence: all rights reserved (link only))*
+  - [Glass Door Magnetic Catch And Pivot Hinge Kit White (VXB)](https://vxb.com/products/glass-door-magnetic-catch-and-pivot-hinge-kit-whit): Photos of a no-drill kit: four corner pivot clamps, a magnetic catch and strike plates for inset glass doors *(licence: all rights reserved (link only))*
+  - [Series 200 - Hinges for glass doors, technical information (Salice, PDF)](https://www.salice.com/downloads/2414/3495/Salice-Self-Closing-Hinges-Series-200-94-standard-for-glass-doors-ENG.pdf): Drawings of a 26 mm drilled glass hinge with cover, drilling distance K and mounting-plate formulas for different arm cranks *(licence: all rights reserved (link only))*
+  - [No Bore Glass Door Pivot Hinge (The SawdustZone forum, 2012)](https://www.sawdustzone.org/forum/discussions/project-related-discussions/57326-no-bore-glass-door-pivot-hinge): A cabinetmaker's illustrated walk-through of fitting no-drill pivot hinges, sleeves and magnetic catches to a glass door, plus a reader's acrylic doors *(licence: all rights reserved (link only))*
+- **make_it_yourself**: 
+  - [Two hinges to attach an acrylic glass door to a wooden frame (Metikumi, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo): Printed hinge pair for a 5 mm acrylic door on a 10 mm wood frame, from a 3D-printer enclosure build, with a parametric Fusion 360 file *(licence: Creative Commons Public Domain)*
+  - [Print-in-Place Hinge for 1/8" Acrylic Doors for 4040 Extrusion Enclosure (Jerrod H, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/820251-print-in-place-hinge-for-18-acrylic-doors-for-4040): Print-in-place hinge for 3 mm acrylic doors on 4040 aluminium extrusion *(licence: Creative Commons Attribution)*
+  - [Lift off Acrylic Door Hinge (Gruthius, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/209584-lift-off-acrylic-door-hinge): Screwless lift-off hinge that holds a 3 mm (or 6 mm) acrylic door by friction fit *(licence: Creative Commons Attribution-NonCommercial)*
+  - [Door hinges for 4mm acrylic/plexiglass panels (midego, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/563324-door-hinges-for-4mm-acrylicplexiglass-panels): Left and right printed hinges with printed screws for 4 mm acrylic printer-box doors *(licence: Standard Digital File License)*
+  - [Glass Door hinge clip (Marius, Printables) (URL from Printables API, page not opened)](https://www.printables.com/model/1573379-glass-door-hinge-clip): Printed replacement hinge plate for an old flat-pack glass-door cabinet *(licence: Creative Commons Attribution-ShareAlike)*
+- **diagram_idea**: Three small drawings of the same glass cabinet door seen from above: a padded U-clamp gripping the glass edge, a cup through a 26 mm hole with a cover cap on the other face (plastic shown in colour where it touches the glass), and top and bottom corner clamps with pins turning in the cabinet, each with its swing arc.
+- **sources**: 
+  - https://shop.hettich.com/hn_EN/Hinges/Special-hinges/Glass-door-hinges/Glass-door-hinge-ET-150%2C-nickel-plated%2C-matt/p/20870
+  - https://www.hardwaresource.com/products/blum-glass-door-hinge
+  - https://vxb.com/products/glass-door-magnetic-catch-and-pivot-hinge-kit-whit
+  - https://www.salice.com/downloads/2414/3495/Salice-Self-Closing-Hinges-Series-200-94-standard-for-glass-doors-ENG.pdf
+  - https://www.sawdustzone.org/forum/discussions/project-related-discussions/57326-no-bore-glass-door-pivot-hinge
+  - https://en.wikipedia.org/wiki/Tempered_glass
+  - https://www.acrylite.co/resources/knowledge-base/article/how-far-in-should-I-drill-a-hole-from-the-edge-of-acrylic-sheet
+  - https://api.printables.com/graphql/ (models 41109, 587197, 820251, 209584, 563324, 1573379; no Printables pages opened)
+
+### Finder tags
+
+- **connects**: tube, rod or extrusion, lid, door or cover
+- **power_source**: none
+- **power_loss**: not applicable
+- **motion_in**: not applicable
+- **motion_out**: not applicable
+- **shaft_layout**: not applicable
+- **overload_response**: not applicable
+- **clicks**: not applicable
+- **tools**: drill and tap, hand tools
+- **load_max**: light
+- **usual_process**: off-the-shelf part
+- **adjustable**: yes
+- **removability**: removable
+- **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: glass or mirror
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: swings on a hinge
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
+
+### Other info
+
+- ⚑ **Fields with parts that need confirming:** degrees_of_freedom, environment_limits, making_tips_3d_printing, removability, reuse_cycles, special_behaviour, when_not_to_use
 

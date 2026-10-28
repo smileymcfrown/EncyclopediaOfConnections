@@ -79,7 +79,8 @@
       "The bulge in the middle of a rear-wheel-drive car's or truck's back axle",
       "RC cars and LEGO Technic vehicles (the grey or black differential gear case in the axle)",
       "Robot arm wrists where two motors share one joint (e.g. Dan Royer's 3D-printed 5+ axis arm on Hackaday.io)",
-      "Historic machines: mechanical analogue computers and clocks, and Mars rover suspensions (Wikipedia 'Differential')"
+      "Historic machines: mechanical analogue computers and clocks, and Mars rover suspensions (Wikipedia 'Differential')",
+      "Four-wheel-drive vehicles: the transfer case splits the drive between front and rear axles, and because 'the front and rear tires never turn at the same speed', full-time road four-wheel drive needs a centre differential; a part-time case locks the two shafts together and suffers driveline wind-up on dry pavement (Wikipedia 'Transfer case')"
     ],
     "when_to_use": "Use a differential when one motor must drive two wheels on the same axle of a robot or vehicle that has to turn corners without scrubbing its tyres or fighting itself. Also use one to combine two motors into one joint that can move two ways (a pan/roll or pitch/roll robot wrist: both motors turning the same way gives one motion, opposite ways the other), to add or subtract two rotations mechanically, or as a teaching model. Choose a ball diff or a limited-slip type if you want some grip kept on both sides and an adjustable 'feel' (RC racing).",
     "when_not_to_use": "Skip it if each wheel has its own motor (skid-steer or differential-drive robots): the controller already sets each wheel's speed [uncertain] (wording; standard practice). Go-karts and trams simply use a solid axle and accept some wheel slip (Wikipedia 'Differential'). If both wheels must always drive on loose, slippery or uneven ground (rock crawlers, off-road robots), an open differential will spin the wheel with the least grip; use a locker, spool or limited-slip differential instead (Wikipedia 'Limited-slip differential'; Sariel's LEGO LSD). For a single output shaft use a spur, belt or planetary gearbox, and if the output must hold position under load use a worm drive or a brake, because a differential holds nothing by itself.",
@@ -94,7 +95,10 @@
       "Spur-gear or planetary (epicyclic) differential: same speed-averaging job with parallel-shaft gears; planetary ones can split torque unequally front to rear",
       "Planetary gear set: a three-shaft gear train like the differential, but used for speed reduction",
       "Bevel gears (incl. mitre gears): the parts most differentials are built from",
-      "Differential screw and differential pulley (hoist): use the 'difference' idea for fine movement or lifting force, not for sharing drive between two outputs"
+      "Differential screw and differential pulley (hoist): use the 'difference' idea for fine movement or lifting force, not for sharing drive between two outputs",
+      "Line shaft and power take-off: one shaft driving many machines at fixed speeds; it can't let two outputs turn at different speeds as a differential does",
+      "Bevel splitter and counter-rotating drive: the same kind of bevel gears with no cage, so the two outputs always turn at equal speeds in opposite directions",
+      "Several motors driving one load: a differential can add two motors' motions into one output, or mix them into two (e.g. a robot wrist)"
     ]
   },
   "media": {
@@ -208,7 +212,8 @@
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
       "https://help.prusa3d.com/article/pla_2062",
       "https://www.mcmaster.com/products/bevel-gears/",
-      "https://www.mcmaster.com/products/miter-gears/"
+      "https://www.mcmaster.com/products/miter-gears/",
+      "https://en.wikipedia.org/wiki/Transfer_case"
     ]
   },
   "uncertain": [

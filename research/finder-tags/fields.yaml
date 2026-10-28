@@ -115,7 +115,7 @@ sheet_material:
   kind: list
   set_by: hand
   meaning: 'Answer to the finder question "What is the sheet made of?" (under: Hold two things together > Boards, panels or sheet > No, never).'
-  options: [wood, sheet metal, plastic sheet, not applicable]
+  options: [wood, sheet metal, plastic sheet, 'paper, card or foam board', glass or mirror, not applicable]
 
 carries_fluid:
   kind: list
@@ -193,7 +193,7 @@ weld_material:
   kind: list
   set_by: hand
   meaning: 'Answer to the finder question "What are the parts made of?" (under: Hold two things together > Melt them together).'
-  options: [metal, plastic or film, not applicable]
+  options: [metal, plastic or film, glass, not applicable]
 
 wire_use:
   kind: list
@@ -344,3 +344,15 @@ turns:
   set_by: hand
   meaning: 'For things that turn: less than a full turn (swings or rocks) or full turns (spins).'
   options: [part of a turn, full turns, not applicable]
+
+drive_split:
+  kind: list
+  set_by: hand
+  meaning: 'Answer to the finder questions "Which way does the power go?" and "How should the outputs move?" (under: Change a movement > Drive several things from one, or combine several into one). R36: one input driving several outputs, or several inputs combined into one.'
+  options: [same way, opposite ways, different speeds, 'pushes, pulls or flow shared out', combines inputs, not applicable]
+
+made_of:
+  kind: list
+  set_by: hand
+  meaning: 'The "Made of" filter under every finder shortlist (R37, D45): the materials it suits, i.e. a maker can use it to join, hold or move parts made of that material, or can make it from that material. First proposed from the research text by propose_made_of.py, then checked against the entry text (review-r37.yaml).'
+  options: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, carbon fibre or composites, glass or mirror, 'fabric, leather or cord', not applicable]
