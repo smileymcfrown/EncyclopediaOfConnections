@@ -13,7 +13,10 @@ with one contact sheet per page (each candidate numbered) for choosing by eye:
 
 Chosen photos go into content/media/pictures.yaml as `web` items (see tools/fetch_images.py).
 
-Run: python3 tools/find_printables.py OUT [--only page1,page2]
+With --search, pages that have no Printables photo yet are searched by the entry's name and first other
+name instead (Printables search, the top models with an allowed licence, fewer photos each).
+
+Run: python3 tools/find_printables.py OUT [--only page1,page2] [--search]
 Needs Python 3, pyyaml and Pillow. Printables must be reachable (Thingiverse and MakerWorld refuse
 scripted requests).
 """
@@ -33,6 +36,7 @@ UA = {'User-Agent': 'EncyclopaediaOfConnections-build/0.1 (https://github.com/sm
 ALLOWED = {'CC0': 'CC0 1.0', 'CC-BY': 'CC BY', 'CC-BY-SA': 'CC BY-SA'}
 Q = 'query($id:ID!){print(id:$id){id name slug license{abbreviation} user{publicUsername} images{filePath}}}'
 PER_MODEL = 8
+SEARCH_MODELS, SEARCH_PHOTOS = 6, 4
 
 
 def fetch(url, data=None):
@@ -102,6 +106,7 @@ def sheets(out, cands):
 def main():
     out = ARGS[0]
     only = set(ARGS[ARGS.index('--only') + 1].split(',')) if '--only' in ARGS else None
+    search = '--search' in ARGS
     os.makedirs(os.path.join(out, 'thumbs'), exist_ok=True)
     lic_url = {x['abbreviation']: re.search(r'href="([^"]+)"', x['content']).group(1).replace('http://', 'https://')
                for x in gql('{licenses{abbreviation content}}', {})['data']['licenses'] if x['abbreviation'] in ALLOWED}
@@ -112,9 +117,20 @@ def main():
         page = page_of(it['name'])
         if 'render' not in (pics.get(page) or []) or (only and page not in only):
             continue
+        if search and any(isinstance(x, dict) and x.get('web') for x in pics[page]):
+            continue
         d = json.load(open(os.path.join(ROOT, 'research', 'connection-types', 'results', propose.slug(it['name']) + '.json')))
-        ids = list(dict.fromkeys(m.group(1) for x in d['media'].get('make_it_yourself') or []
-                                 for m in [re.search(r'printables\.com/(?:[a-z]{2}/)?model/(\d+)', x.get('url', ''))] if m))
+        if search:
+            terms = [it['name'].split(' (')[0]] + [a.split(' (')[0].split(',')[0].strip() for a in (d['identity'].get('aliases') or [])[:1]]
+            ids = []
+            for t in dict.fromkeys(terms):
+                r = gql('query($q:String!){searchPrints2(query:$q,limit:12){items{id license{abbreviation}}}}', {'q': t})
+                ids += [x['id'] for x in ((r.get('data') or {}).get('searchPrints2') or {}).get('items') or []
+                        if (x.get('license') or {}).get('abbreviation') in ALLOWED]
+            ids = list(dict.fromkeys(ids))[:SEARCH_MODELS]
+        else:
+            ids = list(dict.fromkeys(m.group(1) for x in d['media'].get('make_it_yourself') or []
+                                     for m in [re.search(r'printables\.com/(?:[a-z]{2}/)?model/(\d+)', x.get('url', ''))] if m))
         cs = []
         for mid in ids:
             r = (gql(Q, {'id': mid}).get('data') or {}).get('print')
@@ -123,7 +139,7 @@ def main():
             ab = r['license']['abbreviation']
             ver = re.search(r'/(\d\.\d)/', lic_url[ab])
             name = ALLOWED[ab] + (f' {ver.group(1)}' if ver and ab != 'CC0' else '')
-            for k, im in enumerate(r['images'][:PER_MODEL], 1):
+            for k, im in enumerate(r['images'][:SEARCH_PHOTOS if search else PER_MODEL], 1):
                 url = MEDIA + im['filePath']
                 cs.append({'n': len(cs) + 1, 'id': f"{r['id']}-{k}", 'model': r['name'], 'url': url, 'license': name,
                            'license_url': lic_url[ab], 'author': r['user']['publicUsername'],
