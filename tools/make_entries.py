@@ -182,7 +182,7 @@ def gallery(pics):
         if x.get('render'):
             lead = '<strong>Cut-away render.</strong> ' if x.get('kind') == 'cross-section' else '<strong>Render.</strong> '
             cap = (f'{lead}A 3D model made for the encyclopaedia, not a photo' +
-                   (': a real one is shown below. ' if photo else ': a stand-in until a good real photo is found. ') +
+                   (': a real photo is also shown. ' if photo else ': a stand-in until a good real photo is found. ') +
                    f'{FLAG} Needs confirming: a model can simplify or get details wrong' +
                    ('.' if photo else '; a real photo is welcome.'))
         elif x.get('drawn'):
