@@ -92,11 +92,8 @@ finder:
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam, glass or mirror]
 needs_confirming: {}
 confirmed: []
-open_points:
-- kind: content
-  note: '*Housing and rebate joints* (299): that the foam-board rabbet keeps the outer paper over the foam edge is marked
-    [uncertain] (a sketch in the Core77 thread only).'
-uncertain_fields: [removability, reuse_cycles, processes, making_tips_3d_printing, environment_limits, materials]
+open_points: []
+uncertain_fields: [removability, reuse_cycles, processes, making_tips_3d_printing, environment_limits]
 diagram_idea: 'Cutaway of a bookcase corner: on the left, a shelf end sitting in a three-sided housing cut one-third of the
   way into the side; on the right, the case side''s back edge with a two-sided rebate holding the thin back panel flush. Arrows
   show the shelf''s weight bearing on the housing floor and a ''pull-out'' arrow labelled ''needs glue or screws''.'
@@ -167,6 +164,7 @@ sources:
 - https://www.youtube.com/watch?v=jcDizu5P3Ck
 - https://api.printables.com/graphql/
 - https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942
+- https://patents.google.com/patent/US5048188
 research: research/connection-types/results/Housing_and_rebate_joints_dado_rabbet.json
 image:
   file: housing-and-rebate-joints.webp
@@ -257,7 +255,7 @@ Don't rely on a plain housing or rebate where the joint is pulled apart (in tens
 - **Sealing:** none: the joint itself doesn't seal. In a window, the glazing rebate holds the glass and the putty does the sealing (Wikipedia 'Rabbet').
 - **Adjustable:** no once glued; the fit is adjusted while cutting, by making two passes, adding shims or using undersized bits (Rockler 'Getting Dadoes and Plywood Thickness to Match')
 - **Access needed:** not applicable: the board is pushed into the channel or onto the step during assembly, and nothing needs to be reached from behind
-- **Materials:** Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box'). Foam board can be rebated too: cut a rebate (rabbet) along the edge with a craft knife or a dedicated foam-board rabbet cutter (straight edges only) and hot-glue the next board into it; one maker found rabbet cutters 'work better than mitered edges', and another cut a 3/16 in rebate round a whole side panel (Core77 forum). The cut removes the foam but leaves the outer paper skin, which then covers the foam edge of the joining board ⚑ [uncertain: shown only in a forum sketch and implied by the cutters, not stated in an opened source].
+- **Materials:** Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box'). Foam board can be rebated too: cut a rebate (rabbet) along the edge with a craft knife or a dedicated foam-board rabbet cutter (straight edges only) and hot-glue the next board into it; one maker found rabbet cutters 'work better than mitered edges', and another cut a 3/16 in rebate round a whole side panel (Core77 forum). The cut removes the foam and the inner paper but leaves the outer paper skin, which laps over and covers the foam edge of the joining board; a plain butt joint 'leaves the edge and foam core of the second panel exposed' (US patent 5,048,188 'Rabbet cutting tool').
 - **Heat, cold, water and wear:** These are wood joints, so the limits are those of the timber and glue. Under constant load, wooden shelves keep sagging 'a little more each year', because wood [creeps](../glossary.md#creep) (Popular Woodworking). Changes in humidity make wood and plywood swell and shrink, which changes the fit of a dado (Rockler). MDF and particleboard can swell and lose strength if they get wet, and PVA glue joints are for indoor use unless a water-resistant glue is used ⚑ [uncertain]. 3D-printed versions follow the limits of the plastic, e.g. PLA softening in heat ⚑ [uncertain].
 
 ## Making it
@@ -331,8 +329,7 @@ Cutting housings and rebates on a table saw is a non-through cut, so the standar
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Research note: *Housing and rebate joints* (299): that the foam-board rabbet keeps the outer paper over the foam edge is marked [uncertain] (a sketch in the Core77 thread only).
+- ⚑ 9 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -356,3 +353,4 @@ Cutting housings and rebates on a table saw is a non-through cut, so the standar
 - <https://www.youtube.com/watch?v=jcDizu5P3Ck>
 - <https://api.printables.com/graphql/>
 - <https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942>
+- <https://patents.google.com/patent/US5048188>

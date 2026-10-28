@@ -94,7 +94,8 @@ needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
-  note: '*Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason.'
+  note: '*Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason (searched again
+    2026-10-28: Makedo, Storm the Castle, ikatbag and an MIT class page cover folds and cutting, not slot direction).'
 uncertain_fields: [reuse_cycles, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes,
   rules_of_thumb]
 diagram_idea: Two rectangular boards drawn apart, one with a slot cut down from its top edge to the middle and the other with
@@ -348,7 +349,7 @@ None known for the joint itself. Cutting deep slots uses table saws, routers or 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Research note: *Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason.
+- ⚑ Research note: *Cross-halving slot joint* (242): the same flute advice is marked [uncertain], for the same reason (searched again 2026-10-28: Makedo, Storm the Castle, ikatbag and an MIT class page cover folds and cutting, not slot direction).
 
 ## Sources
 

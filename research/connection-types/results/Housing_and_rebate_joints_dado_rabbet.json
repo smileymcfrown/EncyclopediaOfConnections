@@ -46,7 +46,7 @@
     "adjustable": "no once glued; the fit is adjusted while cutting, by making two passes, adding shims or using undersized bits (Rockler 'Getting Dadoes and Plywood Thickness to Match')",
     "play_and_precision": "small to none if cut correctly: 'a snug fit of mate to dado is essential for a strong joint', and 'Glue won't compensate for a rough, ill-sized dado' (Rockler). Sheet goods are the usual trap: '3/4 in' plywood often measures close to 1/32 in thin, and thickness may vary by up to 3/64 in, so a cut at the nominal size can be sloppy (Rockler). A rabbet-and-dado joint copes with uneven plywood, because the rabbet can be cut to fit a standard dado (Rockler).",
     "access_needed": "not applicable: the board is pushed into the channel or onto the step during assembly, and nothing needs to be reached from behind",
-    "materials": "Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box'). Foam board can be rebated too: cut a rebate (rabbet) along the edge with a craft knife or a dedicated foam-board rabbet cutter (straight edges only) and hot-glue the next board into it; one maker found rabbet cutters 'work better than mitered edges', and another cut a 3/16 in rebate round a whole side panel (Core77 forum). The cut removes the foam but leaves the outer paper skin, which then covers the foam edge of the joining board [uncertain: shown only in a forum sketch and implied by the cutters, not stated in an opened source].",
+    "materials": "Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box'). Foam board can be rebated too: cut a rebate (rabbet) along the edge with a craft knife or a dedicated foam-board rabbet cutter (straight edges only) and hot-glue the next board into it; one maker found rabbet cutters 'work better than mitered edges', and another cut a 3/16 in rebate round a whole side panel (Core77 forum). The cut removes the foam and the inner paper but leaves the outer paper skin, which laps over and covers the foam edge of the joining board; a plain butt joint 'leaves the edge and foam core of the second panel exposed' (US patent 5,048,188 'Rabbet cutting tool').",
     "maker_difficulty": "easy to moderate: a rabbet is 'one of the first joinery cuts that new woodworkers try' (Rockler), and dados are straightforward with a router and a straight guide fence (Rockler). Hand-cut housings need careful marking, sawing and paring (DT Online), and stopped housings need an extra notch in the shelf (DT Online)."
   },
   "making": {
@@ -176,7 +176,8 @@
       "https://www.youtube.com/watch?v=n3e6Ba6IfhM",
       "https://www.youtube.com/watch?v=jcDizu5P3Ck",
       "https://api.printables.com/graphql/",
-      "https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942"
+      "https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942",
+      "https://patents.google.com/patent/US5048188"
     ]
   },
   "uncertain": [
@@ -184,7 +185,6 @@
     "reuse_cycles",
     "processes",
     "making_tips_3d_printing",
-    "environment_limits",
-    "materials"
+    "environment_limits"
   ]
 }

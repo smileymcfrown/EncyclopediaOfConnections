@@ -92,12 +92,9 @@ needs_confirming:
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
 confirmed: []
 open_points:
-- kind: content
-  note: '*Living hinge* (49): only a reader comment on Flite Test supports foam cut partly through as a hinge; which foams
-    it suits, and that it stiffens and tires so tape or CA hinges are used for anything lasting, are marked [uncertain].'
 - kind: scope
   note: '*Quick-release pin* (40) and *Living hinge* (49): no link to *Loose-leaf bindings*;'
-uncertain_fields: [aliases, special_behaviour, seal, play_and_precision, off_the_shelf_parts, processes]
+uncertain_fields: [aliases, special_behaviour, seal, play_and_precision, off_the_shelf_parts]
 diagram_idea: 'A cut-away side view of a box and lid joined by a thin web: frame 1 flat as printed or moulded, with arrows
   showing the plastic''s lines running across the thin section; frame 2 folded to 90 degrees with the outer surface stretched
   (tension) and the inner surface squashed; frame 3 closed at 180 degrees, with an inset showing the wrong way to print it
@@ -175,6 +172,8 @@ sources:
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad
 - https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE
 - https://www.flitetest.com/articles/RC_Plane_Hinge_Types
+- https://www.theparkpilot.org/foam-airplane-hinges
+- https://www.modelaviation.com/Repairing-Foam-Hinges
 research: research/connection-types/results/Living_hinge.json
 image:
   file: drawn/anim/living-hinge.svg
@@ -294,7 +293,7 @@ Avoid it when the hinge must carry a real load (use a pin, knuckle or piano hing
   - 3D print (resin): material jetting with simulated polypropylene works (Hubs); standard SLA resins are brittle under repeated bending (Hubs snap-fit guide). Powder-bed nylon (SLS, MJF) gives the best printed hinges (Protolabs)
   - laser cut: polypropylene sheet can be cut into hinged parts (BYU FlexLinks are cut from PP sheet); plywood and acrylic need a kerf-bend cut pattern instead (Wikipedia; separate entry)
   - other: stamping, blow moulding, extrusion and machining of PP (MIT guide), thermoforming (Wikipedia) and urethane casting (Fictiv)
-  - other: on scratch-built foam model planes, foam cut partly through along the hinge line is used as a crude living hinge ('foam cut partially through makes a great hinge on a scratch build!', a reader comment on Flite Test 'RC Plane Hinge Types'); tape hinges or glued-in CA hinges are used for anything that must last (see 'Slot-in model hinge') ⚑ [uncertain: no opened source says that cut foam stiffens and tires with use, that tape or CA hinges are preferred for lasting hinges, or which foams (EPO, Depron, foam board) it suits]
+  - other: on foam model planes the foam itself can be cut into a hinge, but only in flexible foam. In EPP (expanded polypropylene), control surfaces can be made 'by routing out material and leaving a thin hinge of the foam', but this 'doesn't work with semirigid foams such as Depron, XPS (extruded polystyrene), Readi-Board, and insulation foam': 'the thin foam left by cutting a shallow groove would break after being bent only a few times' (Park Pilot 'Foam airplane hinges'). On paper-faced foam board the hinge line can instead be scored through the foam, 'leaving paper intact on one side', so the flap bends on the paper; but 'the paper adhesive, however, won't last long', so tape is added on the bevelled side (Park Pilot). Moulded EPO (expanded polyolefin) foam planes often have a 'live' hinge of thin foam, which is 'convenient but not always very durable' (Model Aviation 'Repairing Foam Hinges'); a Flite Test reader comment also recommends foam cut partly through on scratch builds (Flite Test 'RC Plane Hinge Types'). For hinges that must last, 'taped hinges are most often used when building and repairing foam models', because glued-in pin, nylon and CA hinges 'often pull out of foam' (Park Pilot; see 'Adhesive tape joint and tape hinge' and 'Slot-in model hinge')
 - **Printing it in one piece (print in place):** yes: the hinge prints as part of the box in one go, usually lying flat so the hinge is the first two thin layers and the box folds up afterwards (Printables 'Book box with living hinge'; BOSL2 living_hinge_mask), or standing up so the hinge axis is vertical (Hubs). No added parts are needed.
 - **Tools:** none: it is made as part of the moulded or printed part. Warmth helps when first flexing a printed hinge: boiling water (Hubs), a warm print bed (Prusa forum) or taking the print off the bed while still warm (BYU CMR origami flasher)
 - **Difficulty:** easy to moderate: a printed hinge is just a thin section and prints in one piece, but making it last more than a few dozen folds needs a bendy material (PP, nylon, TPU or PETG), the right print orientation and a few test prints; a hinge that lasts for years in daily use really needs injection-moulded polypropylene
@@ -361,9 +360,8 @@ None known for the hinge itself. Take care with boiling water or a hot print bed
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
-- ⚑ Research note: *Living hinge* (49): only a reader comment on Flite Test supports foam cut partly through as a hinge; which foams it suits, and that it stiffens and tires so tape or CA hinges are used for anything lasting, are marked [uncertain].
 - ⚑ Research note: *Quick-release pin* (40) and *Living hinge* (49): no link to *Loose-leaf bindings*;
 
 ## Sources
@@ -395,3 +393,5 @@ None known for the hinge itself. Take care with boiling water or a hot print bed
 - <https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/hinges.scad>
 - <https://raw.githubusercontent.com/BelfrySCAD/BOSL2/master/LICENSE>
 - <https://www.flitetest.com/articles/RC_Plane_Hinge_Types>
+- <https://www.theparkpilot.org/foam-airplane-hinges>
+- <https://www.modelaviation.com/Repairing-Foam-Hinges>

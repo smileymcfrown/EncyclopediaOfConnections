@@ -92,6 +92,11 @@ open_points:
   note: '*Slot-in model hinge* (426): Airfield Models advises against CA hinges while others use them; Foam-Tac does not work
     on EPS (Motion RC) versus did not dissolve EPS (Model Aviation''s tester). The tug test is [uncertain] (HobbyKing page
     403).'
+- kind: content
+  note: '*Slot-in model hinge* (426): the entry lists foam (EPO, EPP, Depron, foam board) as suiting slotted CA and printed
+    hinges with foam-safe glue (Motion RC; Printables), but *Park Pilot* (AMA, spring 2020) says pin, nylon and CA hinges
+    ''often pull out of foam because it has such low surface shear'', so taped hinges are most used. Worth weighing which
+    advice the entry should lead with.'
 uncertain_fields: [motion, load, making_tips_3d_printing, everyday_examples, safety_notes, common_failures]
 diagram_idea: A cut-away of the trailing edge of a wing and the leading edge of an aileron, pulled apart, showing a flat hinge
   half in each slot with a toothpick peg through it and the pin centred on the bevelled gap, next to a round hinge point in
@@ -334,6 +339,7 @@ A hinge that pulls out in flight loses control of the model, which can then cras
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Research note: *Slot-in model hinge* (426): Airfield Models advises against CA hinges while others use them; Foam-Tac does not work on EPS (Motion RC) versus did not dissolve EPS (Model Aviation's tester). The tug test is [uncertain] (HobbyKing page 403).
+- ⚑ Research note: *Slot-in model hinge* (426): the entry lists foam (EPO, EPP, Depron, foam board) as suiting slotted CA and printed hinges with foam-safe glue (Motion RC; Printables), but *Park Pilot* (AMA, spring 2020) says pin, nylon and CA hinges 'often pull out of foam because it has such low surface shear', so taped hinges are most used. Worth weighing which advice the entry should lead with.
 
 ## Sources
 
