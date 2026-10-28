@@ -188,13 +188,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: glass-door-hinge.webp
+  title: Two hinges to attach an acrylic glass door to a wooden frame
+  author: Metikumi
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo
+  site: Printables
+  alt: A 3D-printed clamp-on hinge on a wooden frame, its two plates screwed together to grip the edge of a clear acrylic
+    door without drilling through the frame.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: glass-door-hinge-2e7914.webp
+  title: Two hinges to attach an acrylic glass door to a wooden frame
+  author: Metikumi
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo
+  site: Printables
+  alt: Front view of a 3D-printed hinge screwed to a wooden frame, holding a clear acrylic door on a 3D printer enclosure.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [crank, clearance, form-fit--force-fit--material-bond, pilot-hole, repeatability--accuracy, creep, perimeters, print-in-place,
   toughened-glass]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/glass-door-hinge.svg"><img src="../media/drawn/anim/glass-door-hinge.svg" alt="Animated glass cabinet door on a pivot hinge. Left, seen from above: the door, gripped at its corner by a padded metal clamp, swings open a quarter turn about the clamp&#x27;s pin and closes again onto its magnetic catch. Right, a clamp cut open: plastic pads line the metal jaws so metal never touches th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/glass-door-hinge.webp" alt="Render of a glass door hinge: a small wooden cabinet with a glass door standing part open, the door held only by two chrome clamps gripping its top and bottom corners, each turning on a pin in the cabinet top and base, with a small magnetic catch on the base for the other corner." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/glass-door-hinge.webp" alt="Render of a glass door hinge: a small wooden cabinet with a glass door standing part open, the door held only by two chrome clamps gripping its top and bottom corners, each turning on a pin in the cabinet top and base, with a small magnetic catch on the base for the other corner." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glass-door-hinge.webp" alt="A 3D-printed clamp-on hinge on a wooden frame, its two plates screwed together to grip the edge of a clear acrylic door without drilling through the frame." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo">Two hinges to attach an acrylic glass door to a wooden frame</a> by Metikumi, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glass-door-hinge-2e7914.webp" alt="Front view of a 3D-printed hinge screwed to a wooden frame, holding a clear acrylic door on a 3D printer enclosure." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo">Two hinges to attach an acrylic glass door to a wooden frame</a> by Metikumi, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A glass door hinge carries a glass or acrylic door on a cabinet without screwing into the door: it grips the sheet with a padded clamp, holds it with a cap bolted through a 26 mm hole drilled in the glass, or clamps the top and bottom corners onto pins that turn in the cabinet.

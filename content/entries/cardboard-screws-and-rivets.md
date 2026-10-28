@@ -202,12 +202,36 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: cardboard-screws-and-rivets.webp
+  title: CardBoard Hinge compatible makedo
+  author: HuKru
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/752677-cardboard-hinge-compatible-makedo
+  site: Printables
+  alt: A green 3D-printed hinge fixed across two pieces of corrugated cardboard with round blue plastic cardboard screws.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: cardboard-screws-and-rivets-015f2f.webp
+  title: Zip tie cardboard connector
+  author: Zoid
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/10184-zip-tie-cardboard-connector
+  site: Printables
+  alt: Four red 3D-printed round cardboard connectors with a slot through the middle for a zip tie, lying on a table.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [ratchet, torque, form-fit--force-fit--material-bond, creep, brittle--ductile, infill, peel-vs-shear, flute]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/cardboard-screws-and-rivets.svg" alt="Cut-away views through two overlapped sheets of corrugated cardboard joined two ways. Left: a plastic cardboard screw turned in from the front, its coarse thread biting into the card around a punched hole and pulling the layers together, with nothing needed behind. Right: a box rivet made of two ide"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/cardboard-screws-and-rivets.webp" alt="Render of cardboard screws and rivets: two overlapping pieces of corrugated cardboard are held together by a chunky blue plastic screw and the round head of a white snap-together box rivet; in front lie a loose screw with its coarse thread and the two identical halves of a rivet with their ridged pr" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/cardboard-screws-and-rivets.webp" alt="Render of cardboard screws and rivets: two overlapping pieces of corrugated cardboard are held together by a chunky blue plastic screw and the round head of a white snap-together box rivet; in front lie a loose screw with its coarse thread and the two identical halves of a rivet with their ridged pr" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cardboard-screws-and-rivets.webp" alt="A green 3D-printed hinge fixed across two pieces of corrugated cardboard with round blue plastic cardboard screws." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/752677-cardboard-hinge-compatible-makedo">CardBoard Hinge compatible makedo</a> by HuKru, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cardboard-screws-and-rivets-015f2f.webp" alt="Four red 3D-printed round cardboard connectors with a slot through the middle for a zip tie, lying on a table." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/10184-zip-tie-cardboard-connector">Zip tie cardboard connector</a> by Zoid, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Reusable plastic fasteners made for corrugated cardboard: a coarse-threaded plastic screw driven into a punched hole from one side, or a pair of plastic rivet halves pressed together through the hole from both sides, which clamp box panels together without tape or glue and can be taken out and reused, with smooth-shank rivets and plastic hinges for swinging joints.

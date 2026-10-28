@@ -189,12 +189,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: stretch-release-adhesive-strips.webp
+  title: Replacement Command Hook (Large, 5lb)
+  author: James Lovett
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1006631-replacement-command-hook-large-5lb
+  site: Printables
+  alt: An adhesive-strip mounting plate stuck to a wall with the strip's pull tab hanging below it, while a hand slides a
+    3D-printed hook onto it.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: stretch-release-adhesive-strips-187fe8.webp
+  title: Honeycomb 3M Command Strip Mount + Wall Double Hollow Insert
+  author: Spatula
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/266346-honeycomb-3m-command-strip-mount-wall-double-hollo
+  site: Printables
+  alt: A 3D-printed wall mount stuck on with an adhesive strip, its white pull tab showing at the bottom, holding a printed
+    honeycomb panel.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [lever-arm, form-fit--force-fit--material-bond, creep, primer, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/stretch-release-adhesive-strips.svg" alt="Side view of a hook stuck to a wall with a stretchy adhesive strip: first holding a hanging weight that pulls along the wall, then the strip&#x27;s tab pulled slowly straight down so the strip stretches thin and peels off the wall and the hook plate from the bottom up, and a small sketch showing that pul"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/stretch-release-adhesive-strips.webp" alt="Render of a stretch-release adhesive strip holding a plastic hook on a painted wall: the white foam strip is sandwiched between the wall and the hook&#x27;s back plate, with its plain pull tab hanging out below, ready to be pulled straight down along the wall." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/stretch-release-adhesive-strips.webp" alt="Render of a stretch-release adhesive strip holding a plastic hook on a painted wall: the white foam strip is sandwiched between the wall and the hook&#x27;s back plate, with its plain pull tab hanging out below, ready to be pulled straight down along the wall." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/stretch-release-adhesive-strips.webp" alt="An adhesive-strip mounting plate stuck to a wall with the strip&#x27;s pull tab hanging below it, while a hand slides a 3D-printed hook onto it." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1006631-replacement-command-hook-large-5lb">Replacement Command Hook (Large, 5lb)</a> by James Lovett, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/stretch-release-adhesive-strips-187fe8.webp" alt="A 3D-printed wall mount stuck on with an adhesive strip, its white pull tab showing at the bottom, holding a printed honeycomb panel." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/266346-honeycomb-3m-command-strip-mount-wall-double-hollo">Honeycomb 3M Command Strip Mount + Wall Double Hollow Insert</a> by Spatula, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A stretch-release strip is a double-sided pressure-sensitive adhesive on a very stretchy backing that holds strongly while the load pulls along the wall, but lets go cleanly and without residue when its tab is pulled slowly and parallel to the surface.

@@ -204,13 +204,38 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: push-push-latch.webp
+  title: Push-push Mechanism
+  author: Steve DeGroof
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/496329-push-push-mechanism
+  site: Printables
+  alt: The inside of a white 3D-printed push-push latch, with the heart-shaped track at one end and the return spring along
+    the housing.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: push-push-latch-651877.webp
+  title: Push Latch Mechanism
+  author: c_bot
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/273742-push-latch-mechanism
+  site: Printables
+  alt: An assembled black 3D-printed push latch with its plunger sticking out of the housing.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
   overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/push-push-latch.svg"><img src="../media/drawn/anim/push-push-latch.svg" alt="A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released. Animated: the pin runs round the loop one way, and in the side section the stepped groove floor slides under the sprung pin, which rides"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/push-push-latch.webp" alt="Render of a push-push latch with its housing cut open: inside the white plastic body a black slider carries a heart-shaped track, a thin steel wire reaches into the track and rests in the notch at the top of the heart, a coil spring behind the slider pushes it outwards, and the plunger with a rubber" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/push-push-latch.webp" alt="Render of a push-push latch with its housing cut open: inside the white plastic body a black slider carries a heart-shaped track, a thin steel wire reaches into the track and rests in the notch at the top of the heart, a coil spring behind the slider pushes it outwards, and the plunger with a rubber" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-push-latch.webp" alt="The inside of a white 3D-printed push-push latch, with the heart-shaped track at one end and the return spring along the housing." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/496329-push-push-mechanism">Push-push Mechanism</a> by Steve DeGroof, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-push-latch-651877.webp" alt="An assembled black 3D-printed push latch with its plunger sticking out of the housing." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/273742-push-latch-mechanism">Push Latch Mechanism</a> by c_bot, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.

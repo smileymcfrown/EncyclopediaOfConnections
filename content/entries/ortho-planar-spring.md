@@ -180,13 +180,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: ortho-planar-spring.webp
+  title: Ortho-Planar Spring
+  author: Jens Willmer
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/37093-ortho-planar-spring
+  site: Printables
+  alt: A grey 3D-printed ortho-planar spring held in the fingers, its centre platform carried by thin curved legs cut into
+    the flat top face.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [backlash, axial--radial, stroke, bistable, stiffness, preload, flexure, compliant-mechanism, cantilever, deflection,
   damping, clearance, chamfer--fillet, creep, stress-relaxation, fatigue, perimeters, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/ortho-planar-spring.svg"><img src="../media/drawn/anim/ortho-planar-spring.svg" alt="A flat spring seen from above, with three curved legs joining a centre platform to an outer ring, and from the side with the platform pushed straight up, all legs bent equally and no twisting. Animated: the side view shows the platform going down to flat and back up, staying level."></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/ortho-planar-spring.webp" alt="Render of a 3D-printed ortho-planar spring: one flat plastic piece with an outer ring, a round centre platform and three thin curved legs joining them, lying on a bench." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/ortho-planar-spring.webp" alt="Render of a 3D-printed ortho-planar spring: one flat plastic piece with an outer ring, a round centre platform and three thin curved legs joining them, lying on a bench." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/ortho-planar-spring.webp" alt="A grey 3D-printed ortho-planar spring held in the fingers, its centre platform carried by thin curved legs cut into the flat top face." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/37093-ortho-planar-spring">Ortho-Planar Spring</a> by Jens Willmer, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A flat, single-piece spring whose centre platform, held by several thin symmetric legs, moves straight in and out of the sheet it was cut from without rotating, giving a compact push-back spring that can be laser cut, stamped or 3D printed.

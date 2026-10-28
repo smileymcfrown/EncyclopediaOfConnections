@@ -208,13 +208,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: magnetic-detent.webp
+  title: Tactile Magnetic Rotary Encoder (Heavy Detents)
+  author: Axel Åkerström
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1786954-tactile-magnetic-rotary-encoder-heavy-detents
+  site: Printables
+  alt: The two halves of a 3D-printed rotary knob laid open, the rotor with a ring of twelve embedded magnets beside the housing
+    that holds the matching magnets.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: magnetic-detent-92d951.webp
+  title: Tactile Magnetic Rotary Encoder (Heavy Detents)
+  author: Axel Åkerström
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1786954-tactile-magnetic-rotary-encoder-heavy-detents
+  site: Printables
+  alt: The assembled black 3D-printed magnetic detent knob, a flat disc with a ball bearing at its centre.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, self-locking, detent, ratchet, torque, flexure, form-fit--force-fit--material-bond, holding-force,
   heat-set-insert, repeatability--accuracy, creep]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/magnetic-detent.svg"><img src="../media/drawn/anim/magnetic-detent.svg" alt="Top view of a knob with eight magnets over a base with eight magnets, shown lined up and held, and half-way round where each magnet is pulled both back and forward so the knob clicks into the next spot; a graph below shows the energy dipping once for every lined-up position. In the animation the lef"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/magnetic-detent.webp" alt="Render of a magnetic detent: a 3D-printed base with eight small disc magnets set flush in a ring round a centre peg, and its ridged knob lying upside down beside it with eight matching magnets in its underside, which line up with the base magnets when the knob sits on the peg." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/magnetic-detent.webp" alt="Render of a magnetic detent: a 3D-printed base with eight small disc magnets set flush in a ring round a centre peg, and its ridged knob lying upside down beside it with eight matching magnets in its underside, which line up with the base magnets when the knob sits on the peg." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/magnetic-detent.webp" alt="The two halves of a 3D-printed rotary knob laid open, the rotor with a ring of twelve embedded magnets beside the housing that holds the matching magnets." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1786954-tactile-magnetic-rotary-encoder-heavy-detents">Tactile Magnetic Rotary Encoder (Heavy Detents)</a> by Axel Åkerström, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/magnetic-detent-92d951.webp" alt="The assembled black 3D-printed magnetic detent knob, a flat disc with a ball bearing at its centre." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/1786954-tactile-magnetic-rotary-encoder-heavy-detents">Tactile Magnetic Rotary Encoder (Heavy Detents)</a> by Axel Åkerström, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Magnets placed in a moving part and in its housing attract each other (or a small piece of steel) at chosen positions, so a knob, dial, wheel or slider is pulled into and held at those positions with a clean, contact-free click that does not wear.

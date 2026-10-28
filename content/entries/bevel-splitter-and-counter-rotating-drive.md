@@ -189,13 +189,39 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: bevel-splitter-and-counter-rotating-drive.webp
+  title: 'Kinetic sculpture: contra rotating discs'
+  author: Mcchat
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/120260-kinetic-sculpture-contra-rotating-discs
+  site: Printables
+  alt: A 3D-printed gearbox in a bronze-coloured frame where one blue bevel gear drives two facing bevel gears, which turn
+    two shafts in opposite directions.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: bevel-splitter-and-counter-rotating-drive-eee6a9.webp
+  title: 'Kinetic sculpture: contra rotating discs'
+  author: Mcchat
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/120260-kinetic-sculpture-contra-rotating-discs
+  site: Printables
+  alt: A 3D-printed kinetic sculpture with blue and yellow discs on one axis that turn against each other, driven by a bevel
+    gearbox at the back.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, pitch, crank, preload, clearance, tolerance, set-screw,
   creep, infill, o-ring, counter-rotating]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/bevel-splitter-and-counter-rotating-drive.svg"><img src="../media/drawn/anim/bevel-splitter-and-counter-rotating-drive.svg" alt="A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input speed; a small inset shows the coaxial version, where one gear"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/bevel-splitter-and-counter-rotating-drive.webp" alt="Render of a bevel splitter: a brass bevel gear on an upright input shaft meshes with two larger solid steel bevel gears facing each other on one horizontal line, each fixed by its hub to its own output shaft in printed bearing blocks, so the two outputs turn in opposite directions." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/bevel-splitter-and-counter-rotating-drive.webp" alt="Render of a bevel splitter: a brass bevel gear on an upright input shaft meshes with two larger solid steel bevel gears facing each other on one horizontal line, each fixed by its hub to its own output shaft in printed bearing blocks, so the two outputs turn in opposite directions." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bevel-splitter-and-counter-rotating-drive.webp" alt="A 3D-printed gearbox in a bronze-coloured frame where one blue bevel gear drives two facing bevel gears, which turn two shafts in opposite directions." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/120260-kinetic-sculpture-contra-rotating-discs">Kinetic sculpture: contra rotating discs</a> by Mcchat, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/bevel-splitter-and-counter-rotating-drive-eee6a9.webp" alt="A 3D-printed kinetic sculpture with blue and yellow discs on one axis that turn against each other, driven by a bevel gearbox at the back." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/120260-kinetic-sculpture-contra-rotating-discs">Kinetic sculpture: contra rotating discs</a> by Mcchat, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A driving bevel gear meshes with two bevel gears that face each other across it, so one input turns two outputs on one line in opposite directions; nesting one output shaft inside the other turns two rotors on the same axis against each other, and a dog clutch that picks one of the two gears turns the same set into a forward-and-reverse switch.

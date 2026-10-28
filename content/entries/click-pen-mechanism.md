@@ -198,13 +198,39 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: click-pen-mechanism.webp
+  title: Ballpoint pen's click mechanism (Latch mechanism V3)
+  author: Adam
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3
+  site: Printables
+  alt: The parts of a 3D-printed click-pen mechanism laid out on a table, a grey slotted housing, a black push button, an
+    orange rotating cam with its spring, a base plate and screws.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: click-pen-mechanism-c26a32.webp
+  title: Ballpoint pen's click mechanism (Latch mechanism V3)
+  author: Adam
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3
+  site: Printables
+  alt: A large 3D-printed click-pen mechanism model, a grey housing with windows showing the orange rotating cam inside and
+    a black push button on top.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [axial--radial, stroke, bistable, detent, ratchet, pawl, compliant-mechanism, deflection, clearance, form-fit--force-fit--material-bond,
   creep, fatigue, perimeters, infill, elephants-foot, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/click-pen-mechanism.svg"><img src="../media/drawn/anim/click-pen-mechanism.svg" alt="The inside of a click pen&#x27;s tube unrolled flat: fixed ribs with alternating short ledges and deep channels, and the zig-zag path of one rotator lug over four pushes, each push driving it down onto the button&#x27;s sloped teeth and letting it spring up into the next gap, so the pen tip goes out, in, out,"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/click-pen-mechanism.webp" alt="Render of a click-pen mechanism, close up: the blue upper barrel of a retractable ballpoint pen is cut open to show the push button with saw teeth on its end, the white toothed rotator sitting on top of the ink refill, and the ribs inside the tube that catch the rotator; the clear lower barrel shows" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/click-pen-mechanism.webp" alt="Render of a click-pen mechanism, close up: the blue upper barrel of a retractable ballpoint pen is cut open to show the push button with saw teeth on its end, the white toothed rotator sitting on top of the ink refill, and the ribs inside the tube that catch the rotator; the clear lower barrel shows" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/click-pen-mechanism.webp" alt="The parts of a 3D-printed click-pen mechanism laid out on a table, a grey slotted housing, a black push button, an orange rotating cam with its spring, a base plate and screws." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3">Ballpoint pen&#x27;s click mechanism (Latch mechanism V3)</a> by Adam, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/click-pen-mechanism-c26a32.webp" alt="A large 3D-printed click-pen mechanism model, a grey housing with windows showing the orange rotating cam inside and a black push button on top." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/695673-ballpoint-pens-click-mechanism-latch-mechanism-v3">Ballpoint pen&#x27;s click mechanism (Latch mechanism V3)</a> by Adam, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A push button, a spring and a small toothed part that turns a fixed step every time you push, so the same push alternately locks a part out and lets it spring back in (or steps a dial round by one position).

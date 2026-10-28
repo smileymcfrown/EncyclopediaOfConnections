@@ -186,6 +186,17 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: annular-snap-fit.webp
+  title: Parametric Snap-on Lid
+  author: Chris
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/12804-parametric-snap-on-lid
+  site: Printables
+  alt: A 3D-printed grey lid snapped onto the round rim of a food can, held on by a ring-shaped snap fit.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [misalignment, cantilever, deflection, clearance, interference-fit, form-fit--force-fit--material-bond, holding-force,
   circlip, chamfer--fillet, undercut, return-angle, repeatability--accuracy, creep, brittle--ductile, perimeters, infill,
   overhang--bridging, o-ring]
@@ -193,7 +204,8 @@ glossary: [misalignment, cantilever, deflection, clearance, interference-fit, fo
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/annular-snap-fit.svg" alt="Cut-away view of a cap pushed onto a tube in three steps: the cap&#x27;s sloped edge meets the raised ring on the tube, the cap&#x27;s rim stretches outwards over it, then springs back so the ring sits in the cap&#x27;s groove."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/annular-snap-fit.webp" alt="Render of an annular snap fit: a 3D-printed cap snapped onto the end of a printed tube, cut open to show the raised ring round the tube sitting in a matching groove inside the cap; a second cap lies beside it." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/annular-snap-fit.webp" alt="Render of an annular snap fit: a 3D-printed cap snapped onto the end of a printed tube, cut open to show the raised ring round the tube sitting in a matching groove inside the cap; a second cap lies beside it." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/annular-snap-fit.webp" alt="A 3D-printed grey lid snapped onto the round rim of a food can, held on by a ring-shaped snap fit." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/12804-parametric-snap-on-lid">Parametric Snap-on Lid</a> by Chris, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A raised ring (bead) around one round part and a matching groove or lip on the other: pushing them together stretches the outer part or squeezes the inner one all the way round until the bead drops into the groove and the parts click together.

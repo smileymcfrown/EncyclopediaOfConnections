@@ -180,12 +180,37 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: slot-in-model-hinge.webp
+  title: DTF Control Surface Hinge for R/C Airplanes
+  author: Uenbzsto
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes
+  site: Printables
+  alt: A green 3D-printed hinge strip pushed into slits along the edges of two foam-board panels, forming a hidden hinge line
+    for a model plane control surface.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: slot-in-model-hinge-8af9b7.webp
+  title: DTF Control Surface Hinge for R/C Airplanes
+  author: Uenbzsto
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes
+  site: Printables
+  alt: Two foam-board strips joined by a green 3D-printed slot-in hinge, bent at the hinge line to show it pivoting.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [stiffness, living-hinge, clearance, form-fit--force-fit--material-bond, brittle--ductile, cure, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/slot-in-model-hinge.svg"><img src="../media/drawn/anim/slot-in-model-hinge.svg" alt="Cut-away side view of the back edge of a model plane&#x27;s wing and the front of its aileron, both balsa. A flat hinge is pushed half into a slot in each and glued, with a toothpick peg through each half so it can&#x27;t pull out; the edges are bevelled and the hinge bends in the gap between them. Below, see"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/slot-in-model-hinge.webp" alt="Render of slot-in model hinges: the back edge of a balsa model plane wing and its aileron joined by thin white flat hinges pushed half into a slit in each part and glued, with the aileron swung down so the hinges bend in the gap between the bevelled edges; the cut end shows one hinge buried in both " loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/slot-in-model-hinge.webp" alt="Render of slot-in model hinges: the back edge of a balsa model plane wing and its aileron joined by thin white flat hinges pushed half into a slit in each part and glued, with the aileron swung down so the hinges bend in the gap between the bevelled edges; the cut end shows one hinge buried in both " loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/slot-in-model-hinge.webp" alt="A green 3D-printed hinge strip pushed into slits along the edges of two foam-board panels, forming a hidden hinge line for a model plane control surface." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes">DTF Control Surface Hinge for R/C Airplanes</a> by Uenbzsto, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/slot-in-model-hinge-8af9b7.webp" alt="Two foam-board strips joined by a green 3D-printed slot-in hinge, bent at the hinge line to show it pivoting." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes">DTF Control Surface Hinge for R/C Airplanes</a> by Uenbzsto, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Hinges for radio-controlled model planes that are pushed into matching slits or drilled holes along the edges of a wing (or tail) and its moving flap and glued in, giving a hidden, screw-free pivot along the hinge line.

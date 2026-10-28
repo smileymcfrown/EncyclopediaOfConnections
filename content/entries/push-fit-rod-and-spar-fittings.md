@@ -208,13 +208,37 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: push-fit-rod-and-spar-fittings.webp
+  title: Stunt Kite Connector and end cap
+  author: Wing-Art
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/488247-stunt-kite-connector-and-end-cap
+  site: Printables
+  alt: A red 3D-printed kite end cap with a line nock, pushed onto the end of a black carbon rod.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: push-fit-rod-and-spar-fittings-67b26a.webp
+  title: Connector for 3D-Star Kite
+  author: Tiggr
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/75831-connector-for-3d-star-kite
+  site: Printables
+  alt: A white 3D-printed multi-way kite connector with round sockets for rods pointing in many directions.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [fail-safe--fail-secure, interference-fit, form-fit--force-fit--material-bond, set-screw, creep, brittle--ductile,
   layer-lines, warping--shrinkage]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/push-fit-rod-and-spar-fittings.svg" alt="A diamond kite frame and three close-ups of push-fit fittings. On the kite, a cross connector holds the spine and spreader, a ferrule joins the spine low down, nocks at the spreader tips catch the sail&#x27;s edge line, and end caps finish the spine. Close-ups: rods pushed into a cross connector&#x27;s snug s"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/push-fit-rod-and-spar-fittings.webp" alt="Render of push-fit kite fittings: carbon rods pushed into a red moulded cross connector, one spar half pulled out a little from its socket; lower down the spine is joined by an aluminium ferrule glued onto one rod with the other rod partly pulled out, and the rod ends carry a slotted nock and end ca" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/push-fit-rod-and-spar-fittings.webp" alt="Render of push-fit kite fittings: carbon rods pushed into a red moulded cross connector, one spar half pulled out a little from its socket; lower down the spine is joined by an aluminium ferrule glued onto one rod with the other rod partly pulled out, and the rod ends carry a slotted nock and end ca" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-fit-rod-and-spar-fittings.webp" alt="A red 3D-printed kite end cap with a line nock, pushed onto the end of a black carbon rod." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/488247-stunt-kite-connector-and-end-cap">Stunt Kite Connector and end cap</a> by Wing-Art, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-fit-rod-and-spar-fittings-67b26a.webp" alt="A white 3D-printed multi-way kite connector with round sockets for rods pointing in many directions." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/75831-connector-for-3d-star-kite">Connector for 3D-Star Kite</a> by Tiggr, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A small moulded, metal, vinyl-tube or 3D-printed socket that a solid or hollow carbon or fibreglass rod pushes into and is held by a snug fit, used to join rods at a fixed angle (tee, cross, dihedral), join two lengths end to end (ferrule), or finish a rod end with a cap or a slotted nock that holds a line, as on kites, model frames and other light rod structures.

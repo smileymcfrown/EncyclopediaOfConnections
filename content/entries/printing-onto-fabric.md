@@ -200,12 +200,37 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: printing-onto-fabric.webp
+  title: 3D Fabric Experimentation
+  author: Matt Harrison
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/134-3d-fabric-experimentation
+  site: Printables
+  alt: A sheet of pale green 3D-printed pyramid tiles fused onto open net fabric, curving over a hand as the bare net between
+    tiles bends.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: printing-onto-fabric-7c0809.webp
+  title: Dragon scales ( print on fabric )
+  author: Antoine Jack
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/1038289-dragon-scales-print-on-fabric
+  site: Printables
+  alt: Panels of blue 3D-printed scale shapes printed onto black mesh fabric, laid flat on a table.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [living-hinge, form-fit--force-fit--material-bond, captive-nut, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/printing-onto-fabric.svg"><img src="../media/drawn/anim/printing-onto-fabric.svg" alt="Side view in four steps: the first layers of three pieces are printed, the print pauses and a thin open mesh is taped over them, printing resumes through the mesh holes, and the finished sheet bends at the bare fabric gaps between pieces like hinges. Animated: the finished sheet lies flat, then fold"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/printing-onto-fabric.webp" alt="Render of 3D printing onto fabric: a sheet of teal hexagonal plastic scales printed through black see-through tulle, with the end of the sheet curling up because the bare net between the scales bends like a hinge." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/printing-onto-fabric.webp" alt="Render of 3D printing onto fabric: a sheet of teal hexagonal plastic scales printed through black see-through tulle, with the end of the sheet curling up because the bare net between the scales bends like a hinge." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/printing-onto-fabric.webp" alt="A sheet of pale green 3D-printed pyramid tiles fused onto open net fabric, curving over a hand as the bare net between tiles bends." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/134-3d-fabric-experimentation">3D Fabric Experimentation</a> by Matt Harrison, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/printing-onto-fabric-7c0809.webp" alt="Panels of blue 3D-printed scale shapes printed onto black mesh fabric, laid flat on a table." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/1038289-dragon-scales-print-on-fabric">Dragon scales ( print on fabric )</a> by Antoine Jack, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A thin open mesh fabric is laid over the first few printed layers during a pause, and the rest of the print fuses through its holes, so the fabric is locked inside each printed piece and the bare fabric between pieces works as a flexible hinge.

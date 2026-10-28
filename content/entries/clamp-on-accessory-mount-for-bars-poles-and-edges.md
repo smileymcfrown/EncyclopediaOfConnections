@@ -218,13 +218,37 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: clamp-on-accessory-mount-for-bars-poles-and-edges-94a3a4.webp
+  title: Parametric pipe clamp with quick release, fully adjustable in FreeCAD
+  author: Andreas Larsen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1196715-parametric-pipe-clamp-with-quick-release-fully-adj
+  site: Printables
+  alt: A turquoise 3D-printed clip clamped round the neck of a kitchen tap, holding a knitted dishcloth.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: clamp-on-accessory-mount-for-bars-poles-and-edges-790fe5.webp
+  title: Parametric pipe clamp with quick release, fully adjustable in FreeCAD
+  author: Andreas Larsen
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1196715-parametric-pipe-clamp-with-quick-release-fully-adj
+  site: Printables
+  alt: A pink 3D-printed hinged clamp closed round a steel pole.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [over-centre, ratchet, torque, form-fit--force-fit--material-bond, set-screw, taper, collet, heat-set-insert, captive-nut,
   boss, chamfer--fillet, creep, fatigue, brittle--ductile, layer-lines, perimeters, infill, print-in-place]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="A stage-lighting C-clamp, its hook going round a bar and a screw tightening it, with a bolt below for the light."><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:AltmanClamp.jpg">AltmanClamp</a> by StarX (talk) (Uploads), Public domain, from Wikimedia Commons.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="Render of a clamp-on accessory mount: a two-piece printed clamp squeezed round a short length of handlebar by two screws, with a black rubber pad between clamp and bar and two flat prongs on top for fixing a light or camera." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/clamp-on-accessory-mount-for-bars-poles-and-edges.webp" alt="Render of a clamp-on accessory mount: a two-piece printed clamp squeezed round a short length of handlebar by two screws, with a black rubber pad between clamp and bar and two flat prongs on top for fixing a light or camera." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clamp-on-accessory-mount-for-bars-poles-and-edges-94a3a4.webp" alt="A turquoise 3D-printed clip clamped round the neck of a kitchen tap, holding a knitted dishcloth." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1196715-parametric-pipe-clamp-with-quick-release-fully-adj">Parametric pipe clamp with quick release, fully adjustable in FreeCAD</a> by Andreas Larsen, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/clamp-on-accessory-mount-for-bars-poles-and-edges-790fe5.webp" alt="A pink 3D-printed hinged clamp closed round a steel pole." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/1196715-parametric-pipe-clamp-with-quick-release-fully-adj">Parametric pipe clamp with quick release, fully adjustable in FreeCAD</a> by Andreas Larsen, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A clamp that grips an existing bar, pole, tube, pipe or desk edge by squeezing it, often through a rubber pad, so an accessory can be fixed on, repositioned or removed without drilling or changing the thing it is clamped to.

@@ -199,13 +199,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: glass-and-mirror-edge-clips-and-clamps.webp
+  title: Glass bed corner clamp
+  author: Spas Makes
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/501068-glass-bed-corner-clamp
+  site: Printables
+  alt: Side view of a 3D-printed blue corner clamp hooked over the edge of a 3D printer's glass bed, with a knurled thumb
+    screw underneath that squeezes it tight.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [form-fit--force-fit--material-bond, set-screw, counterbore--countersink, creep, perimeters, infill, overhang--bridging,
   toughened-glass]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/glass-and-mirror-edge-clips-and-clamps.svg" alt="Left: side view of a mirror on a wall held by plastic clips with no holes in the glass; a fixed bottom clip carries its weight on a ledge and a top clip, screwed through a plastic washer into a wall plug, slides up (shown dashed) to let the mirror in and drops down over its front face. Right: a cut-"><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/glass-and-mirror-edge-clips-and-clamps.webp" alt="Render of glass and mirror edge clips and clamps: on a piece of painted wall, a mirror is held by four small white plastic clips that overlap its edges, two carrying it at the bottom and two over the top, and below it a glass shelf is gripped by two chrome clamps lined with black rubber pads, with n" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/glass-and-mirror-edge-clips-and-clamps.webp" alt="Render of glass and mirror edge clips and clamps: on a piece of painted wall, a mirror is held by four small white plastic clips that overlap its edges, two carrying it at the bottom and two over the top, and below it a glass shelf is gripped by two chrome clamps lined with black rubber pads, with n" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/glass-and-mirror-edge-clips-and-clamps.webp" alt="Side view of a 3D-printed blue corner clamp hooked over the edge of a 3D printer&#x27;s glass bed, with a knurled thumb screw underneath that squeezes it tight." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/501068-glass-bed-corner-clamp">Glass bed corner clamp</a> by Spas Makes, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Brackets fixed to a wall, cabinet or printer bed that hold a sheet of glass, mirror or acrylic by its edge, either by a lip the sheet sits behind (mirror clips, J-channel) or by a screw that squeezes the sheet between rubber or plastic pads (glass clamps, shelf brackets, display connectors, bed clips), so the sheet is held without drilling it.

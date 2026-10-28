@@ -183,13 +183,38 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: quarter-turn-fastener.webp
+  title: 3030 Quarter Turn Fastener
+  author: John S
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/12418-3030-quarter-turn-fastener
+  site: Printables
+  alt: Close-up of a 3D-printed quarter-turn fastener turned into the slot of an aluminium extrusion, its head clamping a
+    clear panel.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: quarter-turn-fastener-bea474.webp
+  title: 3030 Quarter Turn Fastener
+  author: John S
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/12418-3030-quarter-turn-fastener
+  site: Printables
+  alt: Two white 3D-printed quarter-turn fasteners holding a clear panel against the aluminium frame of a printer enclosure.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, self-locking, over-centre, detent, preload, form-fit--force-fit--material-bond, chamfer--fillet,
   brittle--ductile, perimeters, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/quarter-turn-fastener.svg"><img src="../media/drawn/anim/quarter-turn-fastener.svg" alt="Cut-away of a quarter-turn panel fastener in two states: the stud pushed through the panel and frame with its spiral slot resting on a wire spring stretched across the receptacle, and after a quarter turn the wire drawn up the slot into its end notch so the panel is pulled tight against the frame an"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/quarter-turn-fastener.webp" alt="Render of a quarter-turn (Dzus-type) fastener, cut away: a button-headed stud through a painted panel and a steel frame tube, with a steel wire spring riveted inside the tube sitting in the stud&#x27;s spiral slot; a second stud lies in front showing the spiral slot in its tip." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/quarter-turn-fastener.webp" alt="Render of a quarter-turn (Dzus-type) fastener, cut away: a button-headed stud through a painted panel and a steel frame tube, with a steel wire spring riveted inside the tube sitting in the stud&#x27;s spiral slot; a second stud lies in front showing the spiral slot in its tip." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/quarter-turn-fastener.webp" alt="Close-up of a 3D-printed quarter-turn fastener turned into the slot of an aluminium extrusion, its head clamping a clear panel." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/12418-3030-quarter-turn-fastener">3030 Quarter Turn Fastener</a> by John S, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/quarter-turn-fastener-bea474.webp" alt="Two white 3D-printed quarter-turn fasteners holding a clear panel against the aluminium frame of a printer enclosure." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/12418-3030-quarter-turn-fastener">3030 Quarter Turn Fastener</a> by John S, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A captive stud in a removable panel whose spiral slot (or cross pin) rides over a spring or cam in a receptacle on the frame, so a quarter turn pulls the panel tight and snaps it into a locked position that vibration can't undo.

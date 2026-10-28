@@ -211,6 +211,17 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: rolling-contact-joint.webp
+  title: Roll gelenk / rolling contact joints
+  author: Studi_Ha
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints
+  site: Printables
+  alt: A 3D-printed rolling-contact joint made of two translucent links whose rounded ends sit against each other.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secure, stiffness, flexure, living-hinge, hysteresis,
   clearance, set-screw, chamfer--fillet, repeatability--accuracy, creep, stress-relaxation, brittle--ductile, lubrication,
   layer-lines, print-in-place]
@@ -218,7 +229,8 @@ glossary: [misalignment, backlash, axial--radial, linkage, fail-safe--fail-secur
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/rolling-contact-joint.svg"><img src="../media/drawn/anim/rolling-contact-joint.svg" alt="Three side views of a rolling-contact joint: two blocks with rounded ends touching at one point, tied by two crossed straps (blue over the left block and under the right, green the other way); as the right block swings up it rolls over the left block without sliding, and the contact point, which act"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/rolling-contact-joint.webp" alt="Render of a rolling-contact joint: two 3D-printed blocks with rounded ends, one lying flat and one rolled up at an angle, held together only by crossed black nylon straps screwed to their faces, the middle strap passing one way between the blocks and the two outer straps the other way." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/rolling-contact-joint.webp" alt="Render of a rolling-contact joint: two 3D-printed blocks with rounded ends, one lying flat and one rolled up at an angle, held together only by crossed black nylon straps screwed to their faces, the middle strap passing one way between the blocks and the two outer straps the other way." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real one is shown below. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rolling-contact-joint.webp" alt="A 3D-printed rolling-contact joint made of two translucent links whose rounded ends sit against each other." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/1039873-roll-gelenk-rolling-contact-joints">Roll gelenk / rolling contact joints</a> by Studi_Ha, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Two curved blocks held against each other by thin crossed straps, bands or cords, so that they roll over each other without sliding, giving a smooth, low-friction hinge with no pin and no play.
