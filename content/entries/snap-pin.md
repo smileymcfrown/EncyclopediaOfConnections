@@ -177,13 +177,26 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: snap-pin.webp
+  title: Pegboard snap-fit pin
+  author: nexusz
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/305336-pegboard-snap-fit-pin
+  site: Printables
+  alt: Four red 3D-printed push-in pins lying on a wooden table, each with a round head and a pair of springy split legs that
+    squeeze together to pass through a pegboard hole.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [axial--radial, preload, cantilever, clearance, form-fit--force-fit--material-bond, holding-force, heat-set-insert,
   chamfer--fillet, undercut, return-angle, creep, brittle--ductile, elephants-foot, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/snap-pin.svg" alt="Cut-away of a split snap pin going through a hole in two plates: the legs squeeze together in the hole, spring apart once the barbs come out the far side, and the barbs&#x27; flat backs catch when pulled; an inset shows the pin printed lying flat."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/snap-pin.webp" alt="Render of a snap pin: two round 3D-printed parts held together by a split plastic pin, both parts cut away to show the pin&#x27;s two legs passing through the hole with their barbs sprung out behind a shoulder inside the lower part; a second pin lies beside them." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/snap-pin.webp" alt="Render of a snap pin: two round 3D-printed parts held together by a split plastic pin, both parts cut away to show the pin&#x27;s two legs passing through the hole with their barbs sprung out behind a shoulder inside the lower part; a second pin lies beside them." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/snap-pin.webp" alt="Four red 3D-printed push-in pins lying on a wooden table, each with a round head and a pair of springy split legs that squeeze together to pass through a pegboard hole." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/305336-pegboard-snap-fit-pin">Pegboard snap-fit pin</a> by nexusz, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A separate peg whose split, springy legs squeeze through a hole and spring open behind it, so barbs on the legs hold two parts together, either fixed or as a pivot.

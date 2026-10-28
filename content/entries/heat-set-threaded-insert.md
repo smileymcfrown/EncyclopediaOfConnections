@@ -189,6 +189,29 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: heat-set-threaded-insert-9e3249.webp
+  title: Garbage Can Lid Hook w/ Heat-Set Threaded Insert
+  author: Timothy Prestero
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/917511-garbage-can-lid-hook-w-heat-set-threaded-insert
+  site: Printables
+  alt: A soldering iron pressing a brass threaded insert into the hole in a grey 3D-printed hook, with spare inserts on the
+    mat behind.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: heat-set-threaded-insert-3022bc.webp
+  title: Heat Set Threaded Insert Hole Tester
+  author: broken_slinky
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1548169-heat-set-threaded-insert-hole-tester
+  site: Printables
+  alt: A black 3D-printed test block with a row of brass heat-set inserts melted into its holes beside empty holes.
+  kind: photo
+  drawn: false
+  web: true
 - file: heat-set-threaded-insert.webp
   title: File:Press-in Insert.png
   author: Dhruvvasoya91
@@ -205,7 +228,9 @@ glossary: [deflection, form-fit--force-fit--material-bond, heat-set-insert, capt
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-set-threaded-insert.svg" alt="Three cut-away steps of fitting a heat-set insert: a knurled brass insert sits on a slightly smaller hole in a printed part with a hot soldering iron tip inside it; pushed down, it melts the plastic, which flows into its knurls; once flush and cool it holds a screw in its metal thread."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/heat-set-threaded-insert.webp" alt="Render of a heat-set threaded insert: a printed plastic boss cut in half shows a knurled brass insert with an inner thread melted into it, its ridges locked into the plastic; a second insert lies beside it." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/heat-set-threaded-insert.webp" alt="Render of a heat-set threaded insert: a printed plastic boss cut in half shows a knurled brass insert with an inner thread melted into it, its ridges locked into the plastic; a second insert lies beside it." loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-set-threaded-insert-9e3249.webp" alt="A soldering iron pressing a brass threaded insert into the hole in a grey 3D-printed hook, with spare inserts on the mat behind." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/917511-garbage-can-lid-hook-w-heat-set-threaded-insert">Garbage Can Lid Hook w/ Heat-Set Threaded Insert</a> by Timothy Prestero, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-set-threaded-insert-3022bc.webp" alt="A black 3D-printed test block with a row of brass heat-set inserts melted into its holes beside empty holes." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/1548169-heat-set-threaded-insert-hole-tester">Heat Set Threaded Insert Hole Tester</a> by broken_slinky, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 <figure class="eoc-pic"><img src="../media/heat-set-threaded-insert.webp" alt="A small brass threaded insert with diamond knurling on the outside and a slot down one side." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://commons.wikimedia.org/wiki/File:Press-in_Insert.png">Press-in Insert</a> by Dhruvvasoya91, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
 </div>
 

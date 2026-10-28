@@ -190,12 +190,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: linked-lead-screws.webp
+  title: Ender 5 Plus Z-sync belt tensioner
+  author: Jetlink
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1504880-ender-5-plus-z-sync-belt-tensioner
+  site: Printables
+  alt: A printer Z lead screw with a toothed pulley at its base and the closed sync belt running off it to the other screws,
+    past a 3D-printed tensioner.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: linked-lead-screws-3a82ac.webp
+  title: CR-10s Pro - CR-10 Max z-sync - various belt length possible
+  author: caesar_1111
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/229071-cr-10s-pro-cr-10-max-z-sync-various-belt-length-po
+  site: Printables
+  alt: The top of a 3D printer frame where one toothed belt runs over pulleys on top of the two Z lead screws, held taut by
+    orange 3D-printed tensioners.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, self-locking, idler, crank, linkage, solenoid, creep, perimeters, counter-rotating]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/linked-lead-screws.svg"><img src="../media/drawn/anim/linked-lead-screws.svg" alt="Linked lead screws: seen from the front, a bed is carried on nuts on two upright lead screws, each with the same toothed pulley at its foot, and one motor under the base drives a closed toothed belt that runs round both pulleys; seen from above, the belt loops round the two screw pulleys and the mot"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/linked-lead-screws.webp" alt="Render of linked lead screws: two upright lead screws each carry a brass nut under an aluminium bed, and at their feet the same toothed pulley on each screw is wrapped by one closed black timing belt that also runs round the pulley of a single stepper motor, so both screws turn together." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/linked-lead-screws.webp" alt="Render of linked lead screws: two upright lead screws each carry a brass nut under an aluminium bed, and at their feet the same toothed pulley on each screw is wrapped by one closed black timing belt that also runs round the pulley of a single stepper motor, so both screws turn together." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/linked-lead-screws.webp" alt="A printer Z lead screw with a toothed pulley at its base and the closed sync belt running off it to the other screws, past a 3D-printed tensioner." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1504880-ender-5-plus-z-sync-belt-tensioner">Ender 5 Plus Z-sync belt tensioner</a> by Jetlink, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/linked-lead-screws-3a82ac.webp" alt="The top of a 3D printer frame where one toothed belt runs over pulleys on top of the two Z lead screws, held taut by orange 3D-printed tensioners." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/229071-cr-10s-pro-cr-10-max-z-sync-various-belt-length-po">CR-10s Pro - CR-10 Max z-sync - various belt length possible</a> by caesar_1111, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Linked lead screws are two or more screws, each with a nut fixed to the part being lifted, that are tied together by a closed toothed belt, a chain or shafts and bevel gearboxes and turned by one motor, so they can never get out of step and the bed, gantry or platform stays level as it moves.

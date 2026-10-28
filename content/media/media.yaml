@@ -4415,6 +4415,31 @@ heat-sealed-seam:
   alt: A scientist sealing plastic film over a tray of salad leaves on a heat-sealing machine.
   kind: how-it-works
 heat-set-threaded-insert:
+- src: web:printables-917511-3
+  file: heat-set-threaded-insert-9e3249.webp
+  width: 640
+  height: 480
+  title: Garbage Can Lid Hook w/ Heat-Set Threaded Insert
+  author: Timothy Prestero
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/917511-garbage-can-lid-hook-w-heat-set-threaded-insert
+  site: Printables
+  alt: A soldering iron pressing a brass threaded insert into the hole in a grey 3D-printed hook, with spare inserts on the
+    mat behind.
+  kind: how-it-works
+- src: web:printables-1548169-1
+  file: heat-set-threaded-insert-3022bc.webp
+  width: 800
+  height: 600
+  title: Heat Set Threaded Insert Hole Tester
+  author: broken_slinky
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1548169-heat-set-threaded-insert-hole-tester
+  site: Printables
+  alt: A black 3D-printed test block with a row of brass heat-set inserts melted into its holes beside empty holes.
+  kind: photo
 - src: File:Press-in Insert.png
   file: heat-set-threaded-insert.webp
   width: 116
@@ -5637,6 +5662,33 @@ linear-ratchet:
   site: Wikimedia Commons
   alt: A cable tie cut in half through its head, showing the little blue pawl hooked against the teeth of the yellow strap.
   kind: cross-section
+linked-lead-screws:
+- src: web:printables-1504880-2
+  file: linked-lead-screws.webp
+  width: 800
+  height: 600
+  title: Ender 5 Plus Z-sync belt tensioner
+  author: Jetlink
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1504880-ender-5-plus-z-sync-belt-tensioner
+  site: Printables
+  alt: A printer Z lead screw with a toothed pulley at its base and the closed sync belt running off it to the other screws,
+    past a 3D-printed tensioner.
+  kind: how-it-works
+- src: web:printables-229071-1
+  file: linked-lead-screws-3a82ac.webp
+  width: 800
+  height: 911
+  title: CR-10s Pro - CR-10 Max z-sync - various belt length possible
+  author: caesar_1111
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/229071-cr-10s-pro-cr-10-max-z-sync-various-belt-length-po
+  site: Printables
+  alt: The top of a 3D printer frame where one toothed belt runs over pulleys on top of the two Z lead screws, held taut by
+    orange 3D-printed tensioners.
+  kind: photo
 living-hinge:
 - src: File:Mint box polypropylene lid.JPG
   file: living-hinge.webp
@@ -5726,6 +5778,31 @@ loose-leaf-bindings:
   source: https://commons.wikimedia.org/wiki/File:Ringmechanik_01_(fcm).jpg
   site: Wikimedia Commons
   alt: The metal ring mechanism of a lever-arch file, with its two rings open above the board.
+  kind: photo
+magnet-joint:
+- src: web:printables-1348108-1
+  file: magnet-joint.webp
+  width: 500
+  height: 394
+  title: Strong 9mm magnet snap joint for thread, wristband, knitting
+  author: '6'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1348108-strong-9mm-magnet-snap-joint-for-thread-wristband
+  site: Printables
+  alt: A round disc magnet pressed into a small black 3D-printed cup tied to a cord, one half of a magnetic clasp.
+  kind: how-it-works
+- src: web:printables-1348108-2
+  file: magnet-joint-11f3de.webp
+  width: 500
+  height: 375
+  title: Strong 9mm magnet snap joint for thread, wristband, knitting
+  author: '6'
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1348108-strong-9mm-magnet-snap-joint-for-thread-wristband
+  site: Printables
+  alt: The two black 3D-printed halves of a magnetic cord clasp snapped together face to face by their embedded magnets.
   kind: photo
 magnetic-assisted-buckle:
 - src: web:printables-624912-2
@@ -6343,6 +6420,20 @@ over-centre-linkage:
   site: Wikimedia Commons
   alt: A pair of locking pliers, whose handles lock shut by pushing their linkage just past straight.
   kind: photo
+parallel-leaf-spring-flexure:
+- src: web:printables-1804748-1
+  file: parallel-leaf-spring-flexure.webp
+  width: 800
+  height: 487
+  title: Double parallelogram flexure
+  author: rsmith_nl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1804748-double-parallelogram-flexure
+  site: Printables
+  alt: A white 3D-printed flexure stage lying flat, with a moving centre platform joined to the outer frame by pairs of thin
+    parallel blades on each side, so you can see the blades that bend to let it slide.
+  kind: how-it-works
 parallel-pipe-thread-with-a-sealing-washer:
 - src: File:Brass hose bipp with standard and GHT threads.jpg
   file: parallel-pipe-thread-with-a-sealing-washer.webp
@@ -8482,6 +8573,20 @@ slotted-adjustment-with-a-jacking-screw:
   site: Wikimedia Commons
   alt: The back wheel of a single-speed mountain bike, its axle clamped in rear-facing slotted fork ends so it can be slid
     back to tighten the chain.
+  kind: photo
+snap-pin:
+- src: web:printables-305336-1
+  file: snap-pin.webp
+  width: 800
+  height: 600
+  title: Pegboard snap-fit pin
+  author: nexusz
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/305336-pegboard-snap-fit-pin
+  site: Printables
+  alt: Four red 3D-printed push-in pins lying on a wooden table, each with a round head and a pair of springy split legs that
+    squeeze together to pass through a pegboard hole.
   kind: photo
 solder-sleeve:
 - src: File:Geschrumpfter Lötverbinder auf Litzendraht.JPG

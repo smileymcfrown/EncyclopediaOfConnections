@@ -1,6 +1,7 @@
 # R39 photo choices from Printables model pages (tools/find_printables.py), for pages that show a render.
 # Owner (R39): add real photos under CC0, CC BY or CC BY-SA, credited to the uploader, and keep the render.
 # Four helper agents chose from contact sheets; Claude checked every pick by eye and turned some down (noted).
+# Pages marked found_by: search were found with tools/find_printables.py --search (Printables search by entry name).
 air-bearing-and-air-caster:
   photos:
   - candidate: 4
@@ -48,6 +49,9 @@ anti-twister-mechanism:
     license_url: https://creativecommons.org/licenses/by/4.0/
     page: https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
   note: '#2 is a near-identical view of the same model, so only one is used.'
+bent-or-twisted-tab-through-a-slot:
+  photos: []
+  note: Name-match noise only (belt guide tool, fan controller box, belt clip); no sheet-metal tab through a slot anywhere.
 bevel-splitter-and-counter-rotating-drive:
   photos:
   - candidate: 6
@@ -270,8 +274,7 @@ compliant-one-piece-latch:
     cites.'
 crush-ribs-and-spring-fit-features:
   photos: []
-  note: '#1, #3-4 and #6 are renders; #2 is a tiny part on a print bed; on #5 the ribs cannot be made out; #7-8 are a plain-hole
-    tolerance tester, not crush ribs.'
+  note: Test-print photos (#6,
 detent-hinge:
   photos:
   - candidate: 3
@@ -355,7 +358,7 @@ flexible-beam-coupling:
   note: '#2-3 are renders. #1 is a real photo but carries a small inset render in one corner, so it is a doubtful pick.'
 folded-seam:
   photos: []
-  note: Both candidates are a 3D-printed sheet-metal bending tool in a vice; a tool for making the seam, no folded seam shown.
+  note: Bleed block, tamper seals and a seat-belt cover are unrelated;
 folding-box-closures:
   photos:
   - candidate: 1
@@ -444,6 +447,9 @@ glass-door-hinge:
     page: https://www.printables.com/model/41109-two-hinges-to-attach-an-acrylic-glass-door-to-a-wo
   note: '#2 is a drawing; #4-#7 are renders of a print-in-place hinge; in #8/#9 the hinges are tiny on a whole enclosure;
     #10-#12 are replacement clip rings for a cup hinge rather than the hinge holding glass.'
+glued-tab-joint:
+  photos: []
+  note: All candidates are glue-stick holders or a food-processor switch tab; none shows a paper or card glue tab.
 guy-line-slider:
   photos:
   - candidate: 1
@@ -494,9 +500,31 @@ half-nut:
     page: https://www.printables.com/model/195692-quick-adjust-half-nut-vise
   note: '#5-#7 (quick-release vice) do not show the half nut clearly; #8 is a render.'
 heat-set-threaded-insert:
-  photos: []
-  note: '#1 is an OpenSCAD render; #2 is a hole-size test block (a gauge for making the joint), and the inserts are not clearly
-    visible.'
+  photos:
+  - candidate: 14
+    kind: how-it-works
+    alt: A soldering iron pressing a brass threaded insert into the hole in a grey 3D-printed hook, with spare inserts on
+      the mat behind.
+    id: 917511-3
+    model: Garbage Can Lid Hook w/ Heat-Set Threaded Insert
+    url: https://media.printables.com/media/prints/917511/images/7004939_3e3c8651-9bc3-4562-a340-ccdc8d83cc2f_bcdd94a4-cd50-4e6f-b174-4717cc3d1916/img_4524_tn.jpg
+    author: Timothy Prestero
+    license: CC0 1.0
+    license_url: https://creativecommons.org/publicdomain/zero/1.0/
+    page: https://www.printables.com/model/917511-garbage-can-lid-hook-w-heat-set-threaded-insert
+    found_by: search
+  - candidate: 11
+    kind: photo
+    alt: A black 3D-printed test block with a row of brass heat-set inserts melted into its holes beside empty holes.
+    id: 1548169-1
+    model: Heat Set Threaded Insert Hole Tester
+    url: https://media.printables.com/media/prints/5223a2b0-2a93-4f3d-abb3-f74107cf5a68/images/11672842_9d62cc9f-abda-4d0b-8a28-e77dc5e5dd75_1849aced-264d-42fd-a662-9402fa343620/img_0676.jpeg
+    author: broken_slinky
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    page: https://www.printables.com/model/1548169-heat-set-threaded-insert-hole-tester
+    found_by: search
+  note: Turned down the insert storage trays and cases (#1,
 heat-staking:
   photos:
   - candidate: 1
@@ -514,12 +542,10 @@ heat-staking:
     of small samples with text labels.'
 housing-and-rebate-joints:
   photos: []
-  note: 'Doubtful: only #4 shows the rebates clearly, and the parts are unassembled. #1 is cluttered with a CAD screen behind;
-    #2 and #5 are renders; #6-#13 are a dado jig (a tool for making it). | Claude: #4 turned down (loose panels on the print
-    bed, no joint visible).'
+  note: Every candidate is an electronics "housing" (enclosure), not a woodworking dado or rabbet; several are renders.
 indexing-plunger:
   photos: []
-  note: All candidates are renders of indexing plates, with no plunger.
+  note: Only candidate is a render of a pool plunger valve fitting, a different thing.
 intermittent-gear:
   photos:
   - candidate: 1
@@ -564,6 +590,16 @@ iris-valve:
     page: https://www.printables.com/model/1350975-replacement-platypus-hose-clamp-pinch-valve
   note: 'Doubtful: no twisted-sleeve iris valve was found; the entry also covers the pinch valve, so the clearest pinch-valve
     photo was picked. #1/#2 are a pinch valve but less clear.'
+jaw-coupling:
+  photos: []
+  note: Only candidate is a CAD render.
+kinematic-coupling:
+  photos: []
+  note: 'Doubtful pick; the ball is visible but the V-groove is not clearly seen. | Claude: #6 turned down (the ball and groove
+    cannot be seen).'
+knife-edge-and-jewel-pivots:
+  photos: []
+  note: All are knives, sharpeners, knife covers and squares; nothing shows a knife-edge or jewel pivot.
 lamina-emergent-torsional-joint:
   photos:
   - candidate: 1
@@ -594,21 +630,63 @@ lid-and-flap-stays:
   photos: []
   note: The only candidate is a CAD render.
 linked-lead-screws:
-  photos: []
-  note: 'Somewhat cluttered. #2 is loose parts; #3 and #5/#6 show only a belt idler or tensioner (a minor part); #4/#7-#10
-    and #14 are renders; #11/#12 are whole printers with the belt hard to see; #13 is a height indicator. | Claude: #1 turned
-    down (too dark and cluttered to see the sync belt).'
+  photos:
+  - candidate: 9
+    kind: how-it-works
+    alt: A printer Z lead screw with a toothed pulley at its base and the closed sync belt running off it to the other screws,
+      past a 3D-printed tensioner.
+    id: 1504880-2
+    model: Ender 5 Plus Z-sync belt tensioner
+    url: https://media.printables.com/media/prints/58d4209a-4cf8-4fc2-8713-05b6262490df/images/11338258_2d9fc8f4-b230-4895-aeb3-407a01f5c0d3_b7710dda-cbe7-408c-a62d-d9e7b85fcfb3/zsync1.jpg
+    author: Jetlink
+    license: CC BY-SA 4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    page: https://www.printables.com/model/1504880-ender-5-plus-z-sync-belt-tensioner
+    found_by: search
+  - candidate: 12
+    kind: photo
+    alt: The top of a 3D printer frame where one toothed belt runs over pulleys on top of the two Z lead screws, held taut
+      by orange 3D-printed tensioners.
+    id: 229071-1
+    model: CR-10s Pro - CR-10 Max z-sync - various belt length possible
+    url: https://media.printables.com/media/prints/229071/images/2086426_8cb12327-5480-47d0-9d5f-d3717575fc0a/cr-10-max-z-sync.jpg
+    author: caesar_1111
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    page: https://www.printables.com/model/229071-cr-10s-pro-cr-10-max-z-sync-various-belt-length-po
+    found_by: search
+  note: Turned down renders (#2,
 load-bearing-stitch-patterns-for-straps-and-webbing:
   photos: []
-  note: All candidates are buckles (a different connection); the repair buckle is meant to avoid sewing, and the stitching
-    on straps in
+  note: Search noise (vase, LED bars, bag dispenser, roof rack, golf bag insert, drying rack); no sewn webbing.
 locating-pins-and-hole-and-slot:
   photos: []
-  note: Both candidates are a hole tolerance gauge (a design tool), not locating pins with a hole and slot.
+  note: Skadis T-clip renders and trays use pegboard pins, not a pin-in-hole plus pin-in-slot pair;
 magnet-joint:
-  photos: []
-  note: Turned down all; a render (#1), magnet press-fit testers (#2) and a Gridfinity magnet-pressing jig (#3-#6) are tools
-    for fitting magnets, and
+  photos:
+  - candidate: 7
+    kind: how-it-works
+    alt: A round disc magnet pressed into a small black 3D-printed cup tied to a cord, one half of a magnetic clasp.
+    id: 1348108-1
+    model: Strong 9mm magnet snap joint for thread, wristband, knitting
+    url: https://media.printables.com/media/prints/a80ef3ad-effb-4f43-9921-552553620e83/images/10173071_fbdf051f-b1e1-4552-83dc-326c80869477_bda0ce53-1429-4ec2-88a8-4747cb5c88a7/image_1751836636923703.jpg
+    author: '6'
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    page: https://www.printables.com/model/1348108-strong-9mm-magnet-snap-joint-for-thread-wristband
+    found_by: search
+  - candidate: 8
+    kind: photo
+    alt: The two black 3D-printed halves of a magnetic cord clasp snapped together face to face by their embedded magnets.
+    id: 1348108-2
+    model: Strong 9mm magnet snap joint for thread, wristband, knitting
+    url: https://media.printables.com/media/prints/34da5496-599b-41e3-b9d2-a2b5a8a5c52d/images/10173192_c71800b3-84dd-4fa1-84be-78625906e540_e973586b-62df-421a-b3d5-2d28df7f67ee/image_1751837828178426.jpg
+    author: '6'
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    page: https://www.printables.com/model/1348108-strong-9mm-magnet-snap-joint-for-thread-wristband
+    found_by: search
+  note: Keyboard stands, shaver case and bit organiser do not show the magnets;
 magnetic-assisted-buckle:
   photos:
   - candidate: 2
@@ -709,8 +787,7 @@ mid-print-embedding:
   note: Turned down
 multi-material-interlock:
   photos: []
-  note: '#1 is a slicer screenshot; the TPU/PLA hybrid boxes (#2-#4) show a co-printed hinge but no interlocking beams can
-    be seen, and it is unclear the model uses them.'
+  note: null
 multi-stage-slide-rigging:
   photos:
   - candidate: 4
@@ -752,16 +829,33 @@ ortho-planar-spring:
   note: '#2-#4 are renders and #5 is a CAD cut-away.'
 panel-standoff:
   photos: []
-  note: Both candidates are renders.
+  note: Candidates are PC-case panel pins, OpenBuilds mounting strips and Pi standoffs (renders or different mechanisms),
+    not a barrel-and-cap sign standoff.
 parallel-fold-pop-up:
   photos: []
   note: The only candidate is a bone folder, a tool, not a pop-up.
 parallel-leaf-spring-flexure:
-  photos: []
-  note: All four candidates are renders.
+  photos:
+  - candidate: 1
+    kind: how-it-works
+    alt: A white 3D-printed flexure stage lying flat, with a moving centre platform joined to the outer frame by pairs of
+      thin parallel blades on each side, so you can see the blades that bend to let it slide.
+    id: 1804748-1
+    model: Double parallelogram flexure
+    url: https://media.printables.com/media/prints/aaa9b9d1-3f57-48bc-8fac-bc6fc0a0c1b9/images/13532461_b48ed964-ceed-4cf2-8108-58c0e4fb2599_31543f3b-08c2-48f3-be92-e50f25f77564/flexure-moved.jpg
+    author: rsmith_nl
+    license: CC BY-SA 4.0
+    license_url: https://creativecommons.org/licenses/by-sa/4.0/
+    page: https://www.printables.com/model/1804748-double-parallelogram-flexure
+    found_by: search
+  note: '#1 is a real photo of a printed double parallelogram flexure with the blades clearly visible; #2 is a simulation
+    render, #3 a slicer screenshot, #4 a blurry microscope image of a tiny pantograph, not clearly this mechanism.'
 pinned-glue-joint:
   photos: []
-  note: Every candidate is a pin vise (a drilling tool), and many are renders.
+  note: All candidates are lock-pinning trays and gas-block pinning jigs (name match only, and
+potted-insert:
+  photos: []
+  note: All candidates are Harry Potter decorations and board-game box inserts (name match only).
 printing-onto-fabric:
   photos:
   - candidate: 3
@@ -788,7 +882,8 @@ printing-onto-fabric:
   note: '#2 is a near-duplicate of #3.'
 pull-tab-and-slider-mechanism:
   photos: []
-  note: The only candidate is a bone folder, a tool, not a pull-tab mechanism.
+  note: Candidates are a cat toy, Ethernet plug pull tabs, a zipper pull, RC body-clip tabs and collet clips; none is a card
+    pull-strip sliding in a slot in a book.
 push-fit-rod-and-spar-fittings:
   photos:
   - candidate: 5
@@ -899,8 +994,8 @@ quick-release-hooks:
   note: '#3 is a similar closed view; the carpet background is busy but the part is clear.'
 quick-release-pin:
   photos: []
-  note: Both candidates are a CAD viewer screenshot (#1) and a render on a grid (#2), not photos; the model also has no visible
-    ball lock.
+  note: 'No ball-lock pin: #1/#2 and #9/#10 are renders or slicer screenshots, #3-#6 are a bike brake-lever hinge pin, #7
+    is a drawing, #8 a plain printed key-style pin, #11/#12 a fire-extinguisher safety pin.'
 ratchet-tooth-torque-limiter:
   photos:
   - candidate: 2
@@ -979,6 +1074,10 @@ shape-memory-alloy-wire-latch:
     license_url: https://creativecommons.org/licenses/by-sa/4.0/
     page: https://www.printables.com/model/1740874-titanmuscle-titanium-muscle-wire-latch-mount
   note: Only candidate; a real photo of the item, though the wire inside is not visible.
+shear-pin-coupling:
+  photos: []
+  note: '#1/#2 and #5-#7 are storage boxes for spare snow-blower shear pins (the drive and breakaway are not shown); #3/#4
+    are scissors bins.'
 shock-corded-sectional-pole:
   photos: []
   note: The only model is a bungee-cord end stop for a pole-vault bar, not a shock-corded sectional pole.
@@ -1007,12 +1106,28 @@ slot-in-model-hinge:
     page: https://www.printables.com/model/1335388-dtf-control-surface-hinge-for-rc-airplanes
   note: '#3/#4 show the same hinge with a servo (less focused); #5-#8 are renders and dimension drawings.'
 snap-pin:
-  photos: []
-  note: '#1 is a render; #2 and #3 are real photos but the split legs are not visible (a plain peg on a plate or on the print
-    bed); #4/#5 show Gridfinity baseplates where the pins are not visible.'
+  photos:
+  - candidate: 9
+    kind: photo
+    alt: Four red 3D-printed push-in pins lying on a wooden table, each with a round head and a pair of springy split legs
+      that squeeze together to pass through a pegboard hole.
+    id: 305336-1
+    model: Pegboard snap-fit pin
+    url: https://media.printables.com/media/prints/305336/images/2661916_81d3a6b8-0509-4fef-baa8-1ff10d6c4249/large_display_img_20200202_163357_305336.jpg
+    author: nexusz
+    license: CC BY 4.0
+    license_url: https://creativecommons.org/licenses/by/4.0/
+    page: https://www.printables.com/model/305336-pegboard-snap-fit-pin
+    found_by: search
+  note: '#9 clearly shows split-leg snap pins; #10/#11 show the same pins in a pegboard but far too small to see; #1/#2 are
+    Gridfinity baseplates where the pins are lost; #3-#8 are snap-fit cases and bins, not snap pins.'
 soft-pneumatic-bending-actuator:
   photos: []
-  note: '#1/#2 are casting moulds (tools for making it), #3-#5 are renders of a pillow actuator.'
+  note: Both photos show the printed casting moulds (a tool for making it) with only a partly visible silicone part, not the
+    finished finger or it bending.
+speed-control-valve:
+  photos: []
+  note: '#1-#4 are a servo-turned irrigation valve (no needle valve or check valve); #5 is a render.'
 stretch-release-adhesive-strips:
   photos:
   - candidate: 10
@@ -1044,7 +1159,8 @@ structural-acrylic-and-low-surface-energy-plastic-adhesives:
   note: Generic glue test pieces with no sign of an LSE adhesive or polyolefin;
 tape-spring-hinge:
   photos: []
-  note: The tape-measure Yagi antennas use tape blades as flexible elements, not as a clamped fold-and-lock hinge;
+  note: Candidates are a retractable tape-measure housing, an SMD tape magazine and car-mat clips; none uses a curved tape
+    strip as a fold-and-lock hinge.
 telescoping-tube-twist-lock:
   photos:
   - candidate: 3
@@ -1061,12 +1177,22 @@ telescoping-tube-twist-lock:
   note: '#7, #9-#13 are renders; #8 and #14 (PVC collet) are real but cluttered or unclear; the webcam stand (#15-#22) is
     a screw lock, with a large text title on #15. | Claude: #1 turned down (its toothed ring looks like a notched lock, not
     the friction twist lock).'
+tolerance-ring:
+  photos: []
+  note: Candidates are a lamp socket nut, an HP counter dial, ring tolerance gauges and print-tolerance test rings (gauges/tests
+    are a no); no wavy spring band.
 torsional-snap-fit:
   photos: []
   note: Generic snap-fit test prints on a print bed; none shows a torsion-bar catch.
+v-fold-pop-up:
+  photos: []
+  note: All three are a 3D-printed tissue box for V-fold tissues (name match only), not a pop-up card.
 v-groove-fold:
   photos: []
-  note: Both photos show a foam-board cutting tool, not the fold itself.
+  note: Both candidates are a mitre-saw hold-down jig (a render and a photo of a saw in use), not a grooved and folded sheet.
+vacuum-driven-artificial-muscle:
+  photos: []
+  note: Candidates are foam screw anchors, spray-foam nozzles and a foam cutter (name match on 'foam'); no vacuum actuator.
 virtual-pivot-linkage:
   photos:
   - candidate: 2
@@ -1106,3 +1232,11 @@ wave-and-disc-springs:
     page: https://www.printables.com/model/1069910-midair-rectangular-wave-spring-g-code-hack
   note: '#1-#3 are renders and a parameter table; #5 is blurry. These are rectangular printed wave springs rather than round
     washer-shaped ones (slightly doubtful). | Claude: #8 turned down (the springs are tiny under a stack of tiles).'
+wedge-dowel:
+  photos: []
+  note: Candidates are paper-towel holders, towel hooks and towel-bar brackets with plain dowels/rods; no grooved click-in
+    furniture dowel.
+wrap-spring-clutch:
+  photos: []
+  note: '#1-#4 are a LEGO car whose ''spring clutch'' is a white plastic arc, not a coiled spring wrapped round hubs; #5 is
+    a blind-cord ball-chain connector; #6-#8 are sim-racing pedal compression springs and #9 a render.'
