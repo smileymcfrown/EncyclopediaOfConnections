@@ -98,7 +98,11 @@ finder:
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
-open_points: []
+open_points:
+- kind: content
+  note: '*Hot-melt adhesive* (141): the entry calls standard EVA glue sticks weak on polypropylene and polyethylene (Henkel
+    p. 8), but Loctite''s plastics design guide gives an EVA hot melt (1942) 1.4 MPa on PE and 1.7 MPa on PP, about the same
+    as on ABS. Check which to lead with.'
 uncertain_fields: []
 diagram_idea: 'A cut-away glue gun showing the stick pushed by the trigger into the heated chamber and out of the nozzle,
   next to two joint close-ups: hot glue flowing into the grain of wood and wrapping around a wire, and the same joint with
@@ -356,7 +360,7 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-Nothing is marked on this page.
+- ⚑ Research note: *Hot-melt adhesive* (141): the entry calls standard EVA glue sticks weak on polypropylene and polyethylene (Henkel p. 8), but Loctite's plastics design guide gives an EVA hot melt (1942) 1.4 MPa on PE and 1.7 MPa on PP, about the same as on ABS. Check which to lead with.
 
 ## Sources
 
