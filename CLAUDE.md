@@ -5,6 +5,8 @@ move and adjust parts, for hobbyist makers. It includes a guided flow chart for 
 
 - **Read `PROJECT.md` first.** It holds the vision, requests log, decisions, roadmap and
   current status.
+- If the chat history of a session goes missing, the work is still in the commits: see `sessions/` (dated
+  history of past sessions) and start a fresh session from the newest prompt in `research/prompts/`.
 - **Update `PROJECT.md` before finishing any session:** log new requests, record decisions,
   tick roadmap items, and update "Current phase", "Next action" and the session log.
 - Research prompts are in `research/prompts/` (start with its README), and research outputs go in `research/`.

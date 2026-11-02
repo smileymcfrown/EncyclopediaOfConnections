@@ -30,6 +30,7 @@ Each prompt file has two parts:
 | 2 | `02-connection-types.md` | `/research` → `/research-deep` → `/research-report` | One JSON file per connection type: the encyclopedia's core data |
 | 3 | `03-flowchart-and-format.md` | none (normal session) | Flow-chart questions, draft Mermaid chart, glossary, format/tech recommendation |
 | 4 | `04-materials-and-one-to-many.md` | gap search, `/research-add-items` → `/research-deep`, then pipeline, finder and pictures | New entries for paper, foam, clay, composites and glass, one-to-many and many-to-one drives and paper pop-ups (items from 410); the finder's "Made of" filter (R36, R37). Done 2026-10-22: items 410-452 |
+| 5 | `05-after-phase-5.md` | normal session | Picks up after Phase 5 (written 2026-11-02): checks PR 18, then the open items in `sessions/2026-10-22_to_2026-11-02.md` |
 | any | `expand-a-family.md` | `/research-add-items` → `/research-deep` | Fills in gaps in one family after reviewing run 2 |
 
 **Do run 1 first.** Run 2 starts from the type names and sources that run 1 finds. Run 3 needs run 2.
