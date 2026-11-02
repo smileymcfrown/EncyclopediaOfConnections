@@ -1,6 +1,6 @@
 # seals & pass-throughs: Seals out water and dust, or carries cables and fluid across a joint
 
-16 entries. ⚑ = needs confirming: 12 best guesses and 5 values from text marked [uncertain]
+16 entries. ⚑ = needs confirming: 12 best guesses and 3 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -15,9 +15,9 @@ are welcome. Back to the [index](README.md).
 | 136 | Cable carrier | – | none | – | – | – | – | – | – | hand tools | medium | off-the-shelf part ⚑ | yes | removable | – |
 | 210 | Compression fitting | hoses or pipes | none | – | – | – | – | – | – | hand tools | heavy | off-the-shelf part | partly | removable | – |
 | 275 | Iris valve | – | none | – | – | – | – | – | clicks | none, hand tools ⚑ | medium | off-the-shelf part | yes | removable | – |
-| 290 | Bellows boot and way cover | – | none | – | – | – | – | – | – | hand tools ⚑ | light | off-the-shelf part ⚑ | no | removable | – |
+| 290 | Bellows boot and way cover | – | none | – | – | – | – | – | – | hand tools | light | off-the-shelf part ⚑ | no | removable | – |
 | 291 | Anti-twister mechanism | – | none | – | steady turning | steady turning | in line | – | – | soldering iron, crimper, hand tools ⚑ | light | 3D print (FDM) | no | removable | – |
-| 295 | Radial lip seal | shaft ⚑ | none | – | – | – | – | – | – | press or vice, hand tools | light | off-the-shelf part | no | semi-permanent ⚑ | – |
+| 295 | Radial lip seal | shaft ⚑ | none | – | – | – | – | – | – | press or vice, hand tools | light | off-the-shelf part | no | semi-permanent | – |
 | 338 | Cable through a hinge | lid, door or cover, wires ⚑ | none | – | – | – | – | – | – | soldering iron, crimper, heat gun, drill and tap, hand tools | light ⚑ | 3D print (FDM) | partly | removable | up to about 3 A |
 | 402 | Tapered pipe thread | hoses or pipes | none | – | – | – | – | – | – | press or vice, hand tools | heavy | off-the-shelf part | no | semi-permanent | – |
 | 403 | Parallel pipe thread with a sealing washer | hoses or pipes | none | – | – | – | – | – | – | none, drill and tap, hand tools | medium | off-the-shelf part | partly | removable | – |
@@ -46,6 +46,4 @@ These values are probably right, but the research run could not confirm the fact
 
 - ⚑ **135 Slip ring and rotary union**, `tools` = soldering iron, crimper, press or vice, hand tools: `tools_needed` is marked [uncertain] here: "…or the lead wires; spanners and thread sealant for rotary union ports [uncertain]. DIY slip rings: pipe cutter…"
 - ⚑ **275 Iris valve**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…rs for fabric, and a hose clamp or cable ties to grip the sleeve ends [uncertain]…"
-- ⚑ **290 Bellows boot and way cover**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…tted with the driveshaft removed and secured with special boot clamps [uncertain: not checked in an opened sou…"
 - ⚑ **291 Anti-twister mechanism**, `tools` = soldering iron, crimper, hand tools: `tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends [uncertain]. The printed demonstrator sn…"
-- ⚑ **295 Radial lip seal**, `removability` = semi-permanent: `removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted [uncertain].…"

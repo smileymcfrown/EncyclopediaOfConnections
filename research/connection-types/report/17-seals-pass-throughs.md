@@ -1843,7 +1843,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: hose-clamped collars, screwed flanges and Velcro come undone easily (Joyce/Dayton). A one-piece boot normally has to be slid off the end of the rod or shaft, so it may mean taking the machine apart; zippered bellows avoid this (Joyce/Dayton)
 - **reuse_cycles**: many times: clamps and flanges can be undone and refitted many times; the bellows itself flexes through very many cycles until the material cracks, wears or ages, which happens faster in harsh conditions (Dynatect FAQ)
-- **tools_needed**: a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are usually fitted with the driveshaft removed and secured with special boot clamps ⚑ [uncertain: not checked in an opened source] *(⚑ parts need confirming)*
+- **tools_needed**: a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are fitted with the drive shaft taken out of the car, and their boot clamps are closed with special pliers (Saab WIS, 9-4X drive shaft boot replacement)
 - **seal**: dust-resistant to watertight, depending on construction: sewn fabric bellows have stitch holes and vented bellows let air through, so they keep out dust and chips; 'sealed' constructions (seamless molded rubber, or seams joined by heat or vulcanising) also keep out liquids (Dynatect FAQ; Joyce/Dayton). A printed TPU gaiter was watertight in its maker's test (Gt6k, Printables). It is not a pressure seal, since it normally has to breathe as it moves
 - **load**: light: it is a cover, not a structural part, and carries no load. Long or horizontal bellows must be supported by stiffener guides or by grommets on a guide wire, or they sag onto the part they protect (Joyce/Dayton; Dynatect crane case study), and a build-up of chips can push a cover right off its rails (Dynatect)
 - **adjustable**: no: its length simply follows the movement; the collar position and clamps can be moved when fitting
@@ -1935,6 +1935,7 @@
   - https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
   - https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
   - https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg
+  - https://saabwisonline.com/9-4x/2011/4-transmission/drive-shafts/adjustment-replacement/front-wheel-drive-shaft-outer-joint-and-boot-replacement
 
 ### Finder tags
 
@@ -1946,7 +1947,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…tted with the driveshaft removed and secured with special boot clamps [uncertain: not checked in an opened sou…"*
+- **tools**: hand tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes*
 - **adjustable**: no
@@ -1998,7 +1999,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** degrees_of_freedom, tools_needed
+- ⚑ **Fields with parts that need confirming:** degrees_of_freedom
 
 ## 291 Anti-twister mechanism (twist-free cable feed)
 
@@ -2227,7 +2228,7 @@
   - spring force (a spring or springy part presses it in place): the garter spring and the rubber's own springiness keep the lip pressed on the shaft (Parker, p. 7)
 - **input_output**: not applicable
 - **power**: passive (no power needed)
-- **removability**: semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain]. Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48). *(⚑ parts need confirming)*
+- **removability**: semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is fitted: 'Never reuse old seals' (SKF wheel-end installation guide). Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48).
 - **reuse_cycles**: once: treat it as a replacement part; a seal whose lip is dirty, cut or otherwise damaged will leak and should be replaced (SKF CR Seals handbook, installation checklist); whether an undamaged seal can safely be refitted is not stated there ⚑ [uncertain] *(⚑ parts need confirming)*
 - **tools_needed**: press or seal driver: an arbor press if possible, otherwise a soft-faced hammer on an installation tool whose outside diameter is larger than the bore, so the seal goes in square (SKF CR Seals handbook, pp. 24-25). A thin-walled installation sleeve to cover keyways, splines, threads or sharp shoulders (SKF CR Seals handbook; Parker, p. 11), the oil or grease to be sealed for pre-lubricating the lip, and a seal puller or pry tool for removal. Printable seal drivers exist (Printables 'Oil Seal Installer').
 - **seal**: watertight: the lip keeps oil in and splashes and dirt out, but standard seals are only for near-zero pressure, about 0.5 bar or less (Parker VA, p. 14; SKF HMS5: 0.03 MPa = 0.3 bar). Special pressure seals with short stiff lips, and metal back-up rings for the higher ratings, handle 10, 30 or 60 bar in hydraulic pumps and motors (Parker VP, VT and VV types, pp. 49-60).
@@ -2314,6 +2315,7 @@
   - https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
   - https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
   - https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
+  - https://cdn.skfmediahub.skf.com/api/public/0901d1968019bef9/pdf_preview_medium/0901d1968019bef9_pdf_preview_medium.pdf
 
 ### Finder tags
 
@@ -2329,7 +2331,7 @@
 - **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
-- **removability**: semi-permanent ⚑ *needs confirming (source uncertain): `removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted [uncertain].…"*
+- **removability**: semi-permanent
 - **power**: passive
 - **printed_take_apart**: not applicable
 - **threaded**: not applicable
@@ -2377,7 +2379,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, making_tips_3d_printing, materials, removability, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, making_tips_3d_printing, materials, reuse_cycles, safety_notes
 
 ## 338 Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
 

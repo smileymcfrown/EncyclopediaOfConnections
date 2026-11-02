@@ -14912,15 +14912,7 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites,
       glass or mirror]
-  needs_confirming:
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…PL Premium specification). Glass is claimed by makers,
-        but test first [uncertain].…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…PL Premium specification). Glass is claimed by makers,
-        but test first [uncertain].…"'
+  needs_confirming: {}
   confirmed: []
 - num: 226
   name: Structural acrylic and low-surface-energy plastic adhesives (for PE and PP)
@@ -15207,15 +15199,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [metal]
-  needs_confirming:
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…to verify'' (Loctite threadlocker manual). PLA and PETG
-        are not listed [uncertain]. For plastic-to-plastic thre…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…to verify'' (Loctite threadlocker manual). PLA and PETG
-        are not listed [uncertain]. For plastic-to-plastic thre…"'
+  needs_confirming: {}
   confirmed: []
 - num: 230
   name: Stretch-release adhesive strips
@@ -15763,11 +15747,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the
-        retaining clip [uncertain]; someone or something to hol…"'
+  needs_confirming: {}
   confirmed: []
 - num: 238
   name: Spiral power spring (clock spring)
@@ -17713,10 +17693,6 @@
     drive_split: [same way, opposite ways, different speeds]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
   needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…gears, EngineerDog); a feeler gauge or paper strip to
-        check backlash [uncertain]…"'
     usual_process:
       kind: best guess
       reason: first-listed process is off-the-shelf, but `print_in_place` is yes
@@ -18109,10 +18085,6 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
   needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…s for glued panels; nails for floors, possibly with
-        a flooring nailer [uncertain].…"'
     opens_by:
       kind: best guess
       reason: 'carried over from the old rule on entry names (R33); checked against the entry text and still unsure:
@@ -18979,10 +18951,6 @@
     electrical_band:
       kind: best guess
       reason: tagged electrical, but `load` does not start with the fixed electrical lead-in
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole
-        contacts to wire [uncertain]…"'
   confirmed: []
 - num: 287
   name: Gearless right-angle drive (Hobson's joint, elbow mechanism)
@@ -19241,10 +19209,6 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
   needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…tted with the driveshaft removed and secured with special
-        boot clamps [uncertain: not checked in an opened sou…"'
     usual_process:
       kind: best guess
       reason: first-listed process is off-the-shelf, but `print_in_place` is yes
@@ -19586,10 +19550,6 @@
     connects:
       kind: best guess
       reason: worked out from its name, but joining parts is not one of its two main jobs
-    removability:
-      kind: source uncertain
-      reason: '`removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is
-        normally fitted [uncertain].…"'
   confirmed: []
 - num: 296
   name: Knife-edge and jewel pivots (low-friction point pivots)

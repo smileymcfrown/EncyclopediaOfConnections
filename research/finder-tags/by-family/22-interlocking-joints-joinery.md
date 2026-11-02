@@ -1,6 +1,6 @@
 # interlocking joints & joinery: Joints for wood, sheet and panels
 
-28 entries. ⚑ = needs confirming: 1 best guesses and 5 values from text marked [uncertain]
+28 entries. ⚑ = needs confirming: 1 best guesses and 4 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -26,7 +26,7 @@ are welcome. Back to the [index](README.md).
 | 256 | Self-clinching fastener | boards or sheet | none | – | – | – | – | – | – | drill and tap, press or vice, power tools, hand tools | medium | sheet metal | no | permanent |
 | 271 | Butt and lap wood joints | boards or sheet | none | – | – | – | – | – | – | drill and tap, press or vice, power tools, hand tools | medium | woodwork | no | removable |
 | 272 | Dowel and biscuit joints | boards or sheet | none | – | – | – | – | – | – | drill and tap, press or vice, power tools, hand tools | medium | woodwork | no | permanent |
-| 273 | Tongue-and-groove joint | boards or sheet, lid, door or cover | none | – | – | – | – | – | – | press or vice, power tools, hand tools ⚑ | medium | woodwork | no | tool-free quick release |
+| 273 | Tongue-and-groove joint | boards or sheet, lid, door or cover | none | – | – | – | – | – | – | press or vice, power tools, hand tools | medium | woodwork | no | tool-free quick release |
 | 274 | Blind rivet | boards or sheet | none | – | – | – | – | – | – | drill and tap, hand tools | medium | off-the-shelf part | no | permanent |
 | 298 | Reciprocal frame | boards or sheet | none | – | – | – | – | – | – | none, drill and tap, hand tools | heavy | woodwork | partly | tool-free quick release |
 | 299 | Housing and rebate joints | boards or sheet | none | – | – | – | – | – | – | press or vice, power tools, hand tools | medium | woodwork | no | permanent |
@@ -49,4 +49,3 @@ These values are probably right, but the research run could not confirm the fact
 - ⚑ **245 Dovetail joint**, `tools` = none, press or vice, power tools, hand tools: `tools_needed` is marked [uncertain] here: "…a bandsaw with jigs (woodgears.ca); a CNC router needs special setups [uncertain]. Glue and clamps.…"
 - ⚑ **254 Bent or twisted tab through a slot**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…rm tools to make lanced tabs (Wilson Tool) and machines to twist them [uncertain].…"
 - ⚑ **255 Clinching**, `removability` = permanent: `removability` is marked [uncertain] here: "…ay apart is to tear or drill out the button, which damages the sheets [uncertain: no source describes removal]…"
-- ⚑ **273 Tongue-and-groove joint**, `tools` = press or vice, power tools, hand tools: `tools_needed` is marked [uncertain] here: "…s for glued panels; nails for floors, possibly with a flooring nailer [uncertain].…"

@@ -3090,7 +3090,7 @@
 - **power**: Mostly passive (no power needed): hose couplings, Powerpoles, Dual Lock and printed parts. Many modular-robot docking ports are powered: SMORES-EP's electro-permanent magnets 'can be switched on or off with pulses of current', unlike electromagnets that need a steady current, so they keep their last state (docked or undocked) without power
 - **removability**: tool-free quick release for most types; large or stuck fire-hose Storz couplings can be turned with special Storz spanners (Wikipedia 'Storz')
 - **reuse_cycles**: many times: Anderson Powerpole contacts are rated for 100,000 no-load insertions and 250 hot-plugs at full load (Wikipedia, marked 'citation needed'); Dual Lock tape can be opened and closed up to about 1,000 times (iTapestore vendor guide); hose couplings last for years with gasket replacement (ca-fire.com)
-- **tools_needed**: None for most; a Storz coupling spanner for large or tight fire-hose couplings; a crimp tool (or soldering iron) to fit Powerpole contacts to wire ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: None for most; a Storz coupling spanner for large or tight fire-hose couplings; a crimp tool, best a ratchet crimper (or a soldering iron), to fit Powerpole contacts to wire (NTRAK 'Assembling Anderson Powerpole Connectors')
 - **seal**: Depends on the type: watertight for Storz fire-hose couplings ('a watertight connection between the internal packing gaskets', Wikipedia 'Storz'); airtight or pressure for gladhands ('mated rubber grommets provide a positive seal', Wikipedia 'Gladhand connector'); none for electrical connectors, Dual Lock and printed hinges
 - **load**: Light to heavy. Printed parts and Dual Lock are light duty; a pair of SMORES-EP docking faces holds up to 90 N; Storz couplings carry pressurised fire-hose water in sizes up to 125 mm and more (Wikipedia 'Storz'); gladhands carry truck brake air, and genderless knuckle couplers join whole trains (Wikipedia). Hook-and-slot types are strong in pull once locked; they resist turning back only by friction and any locking detent (ca-fire.com).
 - **adjustable**: No: the halves are identical and fixed. You can chain as many as you like, and Powerpole housings clip side by side and stack to make multi-way connectors (Wikipedia 'Anderson Powerpole')
@@ -3181,6 +3181,7 @@
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+  - https://ntrak.org/resources/Documents/tNt/NTRAK%20TipsNTechniques/TNT%20Assembling%20Anderson%20PP%20Connectors.pdf
 
 ### Finder tags
 
@@ -3193,7 +3194,7 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **electrical_band**: not applicable ⚑ *needs confirming (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in*
-- **tools**: none, soldering iron, crimper, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to wire [uncertain]…"*
+- **tools**: none, soldering iron, crimper, hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -3245,7 +3246,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** make_it_yourself, making_tips_3d_printing, materials, processes, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** make_it_yourself, making_tips_3d_printing, materials, processes, safety_notes, when_not_to_use
 
 ## 393 Tripod and stand screw mount (tripod socket, camera thread)
 

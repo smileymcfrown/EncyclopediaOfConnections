@@ -4043,7 +4043,7 @@
 - **power**: passive (no power needed)
 - **removability**: tool-free quick release for a sliding lid, which just slides out; removable for 'click' floors, where no adhesive makes board replacement easier (Wikipedia 'Wood flooring'); semi-permanent for nailed boards ⚑ [uncertain]; permanent when glued *(⚑ parts need confirming)*
 - **reuse_cycles**: effectively unlimited for a sliding lid, until the grooves wear or the wood warps ⚑ [uncertain]; many times for unglued click or floating floors ⚑ [uncertain]; once for glued joints *(⚑ parts need confirming)*
-- **tools_needed**: Router table with a matched pair of tongue-and-groove bits, a reconfigurable single bit, a slot cutter, or a straight bit plus a rabbeting bit; featherboard and push sticks (Woodcraft; Woodworker's Journal); or a table saw with a dado cutter (Popular Woodworking); or hand planes: a plough plane for the groove and a tongue plane, a pair of match planes or a combination plane (Wikipedia 'Tongue and groove'; DT Online); or a spindle moulder (shaper) (Wikipedia). For sliding lids: a router table with a small straight bit (1/8 in. in Fine Woodworking's box) or a table saw to cut the grooves, and a hand plane to fit the lid (Fine Woodworking; Blue Spruce Toolworks). Glue and clamps for glued panels; nails for floors, possibly with a flooring nailer ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **tools_needed**: Router table with a matched pair of tongue-and-groove bits, a reconfigurable single bit, a slot cutter, or a straight bit plus a rabbeting bit; featherboard and push sticks (Woodcraft; Woodworker's Journal); or a table saw with a dado cutter (Popular Woodworking); or hand planes: a plough plane for the groove and a tongue plane, a pair of match planes or a combination plane (Wikipedia 'Tongue and groove'; DT Online); or a spindle moulder (shaper) (Wikipedia). For sliding lids: a router table with a small straight bit (1/8 in. in Fine Woodworking's box) or a table saw to cut the grooves, and a hand plane to fit the lid (Fine Woodworking; Blue Spruce Toolworks). Glue and clamps for glued panels; nails for floors, driven through the tongue at 45 degrees with a flooring nailer (This Old House).
 - **seal**: loose: the tongue closes and hides the gap between boards as they shrink (Wikipedia), which is why tongue-and-groove boards were used for sheathing and concrete formwork, but the joint is not watertight or airtight ⚑ [uncertain]; a sliding lid is not sealed *(⚑ parts need confirming)*
 - **load**: Light to medium. The tongue mainly aligns; a glued tongue-and-groove edge joint is no stronger than a plain glued edge joint, which can already be almost as strong as the wood itself (USDA Wood Handbook ch. 10). Strong against boards moving up and down relative to each other (shear across the faces); weak in pulling apart sideways unless glued or nailed; the thin tongue can snap at its shoulder if it is long or loaded, and a tight tongue can split the groove walls (Popular Woodworking). Several tongue-and-groove joints can be stacked one above another in thick material (Wikipedia). A sliding lid carries only light loads.
 - **adjustable**: no, but a sliding lid's fit can be eased by planing or sanding its edges (Blue Spruce Toolworks), and panels left floating in grooves adjust themselves to seasonal movement (Wikipedia 'Frame and panel')
@@ -4153,6 +4153,7 @@
   - https://www.youtube.com/watch?v=7NulJL7R4Ok
   - https://api.printables.com/graphql/
   - https://www.bohle.com/uk-EN/Top-Side-track-Double-Nylonslide-6-mm/BO634024P
+  - https://www.thisoldhouse.com/flooring/22740605/tongue-and-groove-flooring
 
 ### Finder tags
 
@@ -4164,7 +4165,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: press or vice, power tools, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…s for glued panels; nails for floors, possibly with a flooring nailer [uncertain].…"*
+- **tools**: press or vice, power tools, hand tools
 - **load_max**: medium
 - **usual_process**: woodwork
 - **adjustable**: no
@@ -4216,7 +4217,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, processes, removability, reuse_cycles, seal, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, processes, removability, reuse_cycles, seal, when_not_to_use
 
 ## 274 Blind rivet (pop rivet)
 

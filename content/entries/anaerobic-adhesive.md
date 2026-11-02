@@ -100,18 +100,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [metal]
-needs_confirming:
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…to verify'' (Loctite threadlocker manual). PLA and PETG are not listed
-      [uncertain]. For plastic-to-plastic thre…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…to verify'' (Loctite threadlocker manual). PLA and PETG are not listed
-      [uncertain]. For plastic-to-plastic thre…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [materials, making_tips_3d_printing, when_not_to_use, environment_limits, common_failures, related]
+uncertain_fields: [making_tips_3d_printing, when_not_to_use, environment_limits, common_failures, related]
 diagram_idea: 'A cut-away of a nut on a bolt, magnified to show the small gaps between the threads: first filled with liquid
   while air can still reach it at the open edges, then with the gaps inside turned solid (shaded) so the nut can no longer
   rock sideways, with small labels ''no air + metal = hardens'' inside and ''air = stays liquid'' at the exposed edge.'
@@ -158,6 +150,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Thread_locking_fluid_Loctite_243.jpg
 - https://commons.wikimedia.org/wiki/File:PXL_20211004_114900846.jpg
 - https://www.youtube.com/watch?v=lwtUWB2TIYA
+- https://static.rapidonline.com/pdf/12-4132o_v1.pdf
 research: research/connection-types/results/Anaerobic_adhesive_threadlocker_retaining_compound.json
 image:
   file: anaerobic-adhesive.webp
@@ -263,7 +256,7 @@ Don't use it on plastic screws, printed threads, powder-coated fasteners or on j
 - **Sealing:** airtight or pressure: the cured plastic fills the thread gaps and seals them against leakage and corrosion; threadlockers keep oil and coolant in through-bolts on gearboxes and engines, and dedicated anaerobic thread sealants are used on pipe fittings (Henkel threadlocking guide; Permatex). Ordinary threadlocker is not a gasket for large gaps.
 - **Adjustable:** Only before it cures: there are minutes before it sets (typical fixture time 10-20 minutes on steel at room temperature, about 5 minutes with an activator; full cure in 24 hours) (Henkel threadlocking guide; Permatex). Low- and medium-strength grades can be broken loose later to re-adjust, then re-applied. A wicking grade can lock a screw after it has been adjusted (Henkel threadlocking guide).
 - **Access needed:** one side only (blind): drops go on the male thread or into a blind hole before assembly; a wicking grade can be dripped onto the joint from outside after assembly (Henkel threadlocking guide)
-- **Materials:** Made of methacrylate resins; cured it is a hard thermoset plastic (Wikipedia; Loctite threadlocker manual). Works on metal-to-metal joints. Fast-curing 'active' metals: iron, plain steel, copper, brass, bronze. Slow or 'inactive' metals that need a primer (unless you choose a primerless or surface-insensitive grade such as Loctite 243 or 638): stainless steel, zinc plating, galvanised steel, anodised or pure aluminium, titanium, cadmium, magnesium, black oxide, silver and gold (Henkel threadlocking guide; Loctite threadlocker manual; Loctite retaining compounds catalogue). Plastics: not recommended for plastic or powder-coated fasteners because they don't start the cure, and it can attack some plastics and cause stress cracking; Henkel rates ABS, acrylic (PMMA), ASA, polycarbonate, polystyrene, PVC, SAN and PPO as 'often not suitable', and nylon, acetal (POM), PET, PE, PP, PU, epoxy and phenolic as 'often suitable, test to verify' (Loctite threadlocker manual). PLA and PETG are not listed ⚑ [uncertain]. For plastic-to-plastic threads Henkel suggests a cyanoacrylate-based threadlocker such as Loctite 425 (Henkel threadlocking guide; Loctite threadlocker manual).
+- **Materials:** Made of methacrylate resins; cured it is a hard thermoset plastic (Wikipedia; Loctite threadlocker manual). Works on metal-to-metal joints. Fast-curing 'active' metals: iron, plain steel, copper, brass, bronze. Slow or 'inactive' metals that need a primer (unless you choose a primerless or surface-insensitive grade such as Loctite 243 or 638): stainless steel, zinc plating, galvanised steel, anodised or pure aluminium, titanium, cadmium, magnesium, black oxide, silver and gold (Henkel threadlocking guide; Loctite threadlocker manual; Loctite retaining compounds catalogue). Plastics: not recommended for plastic or powder-coated fasteners because they don't start the cure, and it can attack some plastics and cause stress cracking; Henkel rates ABS, acrylic (PMMA), ASA, polycarbonate, polystyrene, PVC, SAN and PPO as 'often not suitable', and nylon, acetal (POM), PET, PE, PP, PU, epoxy and phenolic as 'often suitable, test to verify' (Loctite threadlocker manual). PLA and PETG are not listed (PET is), but both are thermoplastics, and Loctite says threadlocker is 'not normally recommended for use on plastics (particularly thermoplastic materials where stress cracking of the plastic could result)' (Loctite 243 data sheet). For plastic-to-plastic threads Henkel suggests a cyanoacrylate-based threadlocker such as Loctite 425 (Henkel threadlocking guide; Loctite threadlocker manual).
 - **Heat, cold, water and wear:** Heat: most grades work from about -54 to +150 °C; above this the plastic softens and strength drops (Wikipedia; Permatex); high-temperature grades reach 232-340 °C (Permatex; Henkel threadlocking guide). Deliberate heating to about 230-260 °C releases high-strength grades (Wikipedia; Permatex). Cold: cures slowly when parts are cold; below +5 °C use an activator (Loctite retaining compounds catalogue; Loctite threadlocker manual). Chemicals: the cured thermoset 'resists most solvents' and is used in oil- and coolant-filled engines and gearboxes (Loctite threadlocker manual; Henkel threadlocking guide). Water and rust: sealing the threads prevents corrosion (Loctite products page). Vibration: this is what it is for; in Henkel's transverse vibration (Junker) test a threadlocked bolt kept its clamp load better than nylon nuts, serrated flanges and split or tooth washers (Henkel threadlocking guide). Creep: it does not stop the clamping force being lost if the bolt itself stretches or the joint settles (Henkel threadlocking guide) ⚑ [uncertain].
 
 ## Making it
@@ -327,9 +320,7 @@ Skin: typical threadlockers are skin sensitisers ('May cause an allergic skin re
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `bonds_well` = metal (source uncertain): `materials` is marked ⚑ [uncertain] here: "…to verify' (Loctite threadlocker manual). PLA and PETG are not listed ⚑ [uncertain]. For plastic-to-plastic thre…"
-- ⚑ Finder value `bonds_poorly` = PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…to verify' (Loctite threadlocker manual). PLA and PETG are not listed ⚑ [uncertain]. For plastic-to-plastic thre…"
+- ⚑ 6 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -350,3 +341,4 @@ Skin: typical threadlockers are skin sensitisers ('May cause an allergic skin re
 - <https://commons.wikimedia.org/wiki/File:Thread_locking_fluid_Loctite_243.jpg>
 - <https://commons.wikimedia.org/wiki/File:PXL_20211004_114900846.jpg>
 - <https://www.youtube.com/watch?v=lwtUWB2TIYA>
+- <https://static.rapidonline.com/pdf/12-4132o_v1.pdf>

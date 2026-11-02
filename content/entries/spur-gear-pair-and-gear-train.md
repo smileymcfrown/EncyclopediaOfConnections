@@ -92,10 +92,6 @@ finder:
   drive_split: [same way, opposite ways, different speeds]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
 needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…gears, EngineerDog); a feeler gauge or paper strip to check backlash
-      [uncertain]…"'
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
@@ -107,7 +103,7 @@ open_points:
 - kind: sources
   note: '*Spur gear pair and gear train* (267): the KHK PDF was read with pypdf; the image of the planet-spacing formula was
     lost, and the text around it confirms the even-spacing condition.'
-uncertain_fields: [tools_needed, processes, environment_limits]
+uncertain_fields: [processes, environment_limits]
 diagram_idea: 'Three panels: a small gear driving a big one with pitch circles drawn and arrows showing opposite rotation
   and ''slower but stronger''; the same pair with an idler in between showing same-direction output and unchanged ratio; and
   a compound train where a big and a small gear share a middle shaft, with the stage ratios written as 3:1 x 3:1 = 9:1.'
@@ -191,6 +187,7 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.firgelliauto.com/blogs/mechanisms/multiple-drilling-machine
 - https://khkgears.us/media/izojpong/gear_guide1.pdf
+- https://jlcmc.com/blog/what-is-backlash-in-gears
 research: research/connection-types/results/Spur_gear_pair_and_gear_train_simple_compound_idler.json
 image:
   file: spur-gear-pair-and-gear-train.webp
@@ -315,7 +312,7 @@ Avoid spur gears for fast, quiet drives: they are noisy at high speed (Wikipedia
   - CNC: hobbing, shaping or milling metal gears; industrial gears are cut by generating tools such as hobs (Gear Solutions)
   - woodwork: wooden gears cut from paper templates (EngineerDog links Matthias Wandel's gear template generator)
 - **Printing it in one piece (print in place):** yes: [print-in-place](../glossary.md#print-in-place) spur gear demonstrators exist (e.g. ForgeFiles' 'Gear Train Demonstration Kit, Print in Place, 4 Meshing Spur'), but working and load-bearing trains are usually printed as separate gears and mounted on metal shafts or pins
-- **Tools:** Hex keys, screwdrivers or spanners for hubs, shafts and housing; [circlip](../glossary.md#circlip) pliers for retaining rings; grease (lithium, PTFE or silicone for printed gears, EngineerDog); a feeler gauge or paper strip to check backlash ⚑ [uncertain]
+- **Tools:** Hex keys, screwdrivers or spanners for hubs, shafts and housing; [circlip](../glossary.md#circlip) pliers for retaining rings; grease (lithium, PTFE or silicone for printed gears, EngineerDog); a feeler gauge to check backlash (JLCMC)
 - **Difficulty:** easy to moderate: free generators draw correct involute teeth and gears print flat without supports, but holding the shafts parallel at the exact centre distance, and fixing gears firmly to shafts, take care
 
 ### 3D printing tips
@@ -387,8 +384,7 @@ Meshing gears create an in-running nip point that can catch fingers, hair and cl
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…gears, EngineerDog); a feeler gauge or paper strip to check backlash ⚑ [uncertain]…"
+- ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ Research note: *Spur gear pair and gear train* (267): "kinetic toys" as an example of one gear driving a ring of gears (the Firgelli page does not mention them).
 
@@ -426,3 +422,4 @@ Meshing gears create an in-running nip point that can catch fingers, hair and cl
 - <https://api.printables.com/graphql/>
 - <https://www.firgelliauto.com/blogs/mechanisms/multiple-drilling-machine>
 - <https://khkgears.us/media/izojpong/gear_guide1.pdf>
+- <https://jlcmc.com/blog/what-is-backlash-in-gears>

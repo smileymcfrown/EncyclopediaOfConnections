@@ -1678,7 +1678,7 @@
 - **adjustable**: no, but it gives time to line parts up: about 15-30 minutes of open time before assembly (Woodcraft), and 25-30 minutes at 70 °F and 50% humidity for Titebond's version (Titebond data sheet). Once it has foamed and cured, nothing can be adjusted.
 - **play_and_precision**: not applicable (nothing moves). It needs tight-fitting joints: glue experts say it can't fill a gap larger than 1-2 mm with any strength (Popular Woodworking), and a 0.3 mm gap already made joints weak in Wandel's test (woodgears.ca). The foam can lift or shift parts slightly, so clamp them or use pins and keys to hold alignment (Woodcraft; Snapmaker).
 - **access_needed**: not applicable: glue goes on the faces before assembly, but you need to reach both sides to clamp the joint while it foams and cures
-- **materials**: Bonds well: wood (including wet or oily wood and end grain), stone, concrete, brick, ceramic, metal, glass, rigid foams including polystyrene insulation board, fibreglass, rigid PVC, and many other plastics and composites (Gorilla Glue; Woodcraft: 'best for wet wood and bonding wood to non wood'; Wikipedia 'Wood glue'; Henkel PL Premium specification; Titebond data sheet: 'most plastics'). For 3D prints, a polyurethane construction adhesive was the overall winner on PETG in Cosel's pull test (Hackaday). Poor or not recommended: polyethylene (PE), polypropylene (PP), PTFE, flexible (soft) PVC, and rubber with a lot of oil or plasticiser (Gorilla Glue FAQ; Henkel PL Premium specification). Glass is claimed by makers, but test first ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **materials**: Bonds well: wood (including wet or oily wood and end grain), stone, concrete, brick, ceramic, metal, glass, rigid foams including polystyrene insulation board, fibreglass, rigid PVC, and many other plastics and composites (Gorilla Glue; Woodcraft: 'best for wet wood and bonding wood to non wood'; Wikipedia 'Wood glue'; Henkel PL Premium specification; Titebond data sheet: 'most plastics'). For 3D prints, a polyurethane construction adhesive was the overall winner on PETG in Cosel's pull test (Hackaday). Poor or not recommended: polyethylene (PE), polypropylene (PP), PTFE, flexible (soft) PVC, and rubber with a lot of oil or plasticiser (Gorilla Glue FAQ; Henkel PL Premium specification). For glass, metal and other shiny surfaces, Gorilla says to roughen the surface first (Gorilla Glue).
 - **maker_difficulty**: easy to moderate: no mixing, and there is time to line parts up, but you have to dampen the surfaces, clamp firmly for 1-2 hours, wear gloves, and deal with foaming squeeze-out (Gorilla Glue; Rockler).
 
 ### Making it
@@ -1774,8 +1774,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: strongest, fills gaps
-- **bonds_well**: PETG, PVC, wood, metal, glass or ceramic, foam, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first [uncertain].…"*
-- **bonds_poorly**: slippery plastics (PE or PP), rubber ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first [uncertain].…"*
+- **bonds_well**: PETG, PVC, wood, metal, glass or ceramic, foam, stone or concrete
+- **bonds_poorly**: slippery plastics (PE or PP), rubber
 - **tools**: press or vice, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
@@ -1828,7 +1828,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, materials, processes, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, processes, safety_notes
 
 ## 226 Structural acrylic and low-surface-energy plastic adhesives (for PE and PP)
 
@@ -2470,7 +2470,7 @@
 - **adjustable**: Only before it cures: there are minutes before it sets (typical fixture time 10-20 minutes on steel at room temperature, about 5 minutes with an activator; full cure in 24 hours) (Henkel threadlocking guide; Permatex). Low- and medium-strength grades can be broken loose later to re-adjust, then re-applied. A wicking grade can lock a screw after it has been adjusted (Henkel threadlocking guide).
 - **play_and_precision**: No play once cured: it fills the clearance in the threads so the parts can't rock sideways (Henkel threadlocking guide). It needs close fits: retaining compounds are chosen by gap, low-viscosity grades up to 0.15 mm, thicker grades 0.15-0.25 mm, and special pastes 0.25-0.5 mm for badly worn parts (Loctite retaining compounds catalogue); larger gaps cure slower and need an activator (Loctite threadlocker manual; Permabond). It does not fix the position more accurately than the parts' own fit.
 - **access_needed**: one side only (blind): drops go on the male thread or into a blind hole before assembly; a wicking grade can be dripped onto the joint from outside after assembly (Henkel threadlocking guide)
-- **materials**: Made of methacrylate resins; cured it is a hard thermoset plastic (Wikipedia; Loctite threadlocker manual). Works on metal-to-metal joints. Fast-curing 'active' metals: iron, plain steel, copper, brass, bronze. Slow or 'inactive' metals that need a primer (unless you choose a primerless or surface-insensitive grade such as Loctite 243 or 638): stainless steel, zinc plating, galvanised steel, anodised or pure aluminium, titanium, cadmium, magnesium, black oxide, silver and gold (Henkel threadlocking guide; Loctite threadlocker manual; Loctite retaining compounds catalogue). Plastics: not recommended for plastic or powder-coated fasteners because they don't start the cure, and it can attack some plastics and cause stress cracking; Henkel rates ABS, acrylic (PMMA), ASA, polycarbonate, polystyrene, PVC, SAN and PPO as 'often not suitable', and nylon, acetal (POM), PET, PE, PP, PU, epoxy and phenolic as 'often suitable, test to verify' (Loctite threadlocker manual). PLA and PETG are not listed ⚑ [uncertain]. For plastic-to-plastic threads Henkel suggests a cyanoacrylate-based threadlocker such as Loctite 425 (Henkel threadlocking guide; Loctite threadlocker manual). *(⚑ parts need confirming)*
+- **materials**: Made of methacrylate resins; cured it is a hard thermoset plastic (Wikipedia; Loctite threadlocker manual). Works on metal-to-metal joints. Fast-curing 'active' metals: iron, plain steel, copper, brass, bronze. Slow or 'inactive' metals that need a primer (unless you choose a primerless or surface-insensitive grade such as Loctite 243 or 638): stainless steel, zinc plating, galvanised steel, anodised or pure aluminium, titanium, cadmium, magnesium, black oxide, silver and gold (Henkel threadlocking guide; Loctite threadlocker manual; Loctite retaining compounds catalogue). Plastics: not recommended for plastic or powder-coated fasteners because they don't start the cure, and it can attack some plastics and cause stress cracking; Henkel rates ABS, acrylic (PMMA), ASA, polycarbonate, polystyrene, PVC, SAN and PPO as 'often not suitable', and nylon, acetal (POM), PET, PE, PP, PU, epoxy and phenolic as 'often suitable, test to verify' (Loctite threadlocker manual). PLA and PETG are not listed (PET is), but both are thermoplastics, and Loctite says threadlocker is 'not normally recommended for use on plastics (particularly thermoplastic materials where stress cracking of the plastic could result)' (Loctite 243 data sheet). For plastic-to-plastic threads Henkel suggests a cyanoacrylate-based threadlocker such as Loctite 425 (Henkel threadlocking guide; Loctite threadlocker manual).
 - **maker_difficulty**: easy: a drop on a clean thread and tighten as normal. The skill is choosing the right strength (purple for small screws, blue for normal service, red only for joints you never want to undo) and keeping it off printed plastic
 
 ### Making it
@@ -2542,6 +2542,7 @@
   - https://commons.wikimedia.org/wiki/File:Thread_locking_fluid_Loctite_243.jpg
   - https://commons.wikimedia.org/wiki/File:PXL_20211004_114900846.jpg
   - https://www.youtube.com/watch?v=lwtUWB2TIYA
+  - https://static.rapidonline.com/pdf/12-4132o_v1.pdf
 
 ### Finder tags
 
@@ -2554,8 +2555,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: strongest, can be undone
-- **bonds_well**: metal ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…to verify' (Loctite threadlocker manual). PLA and PETG are not listed [uncertain]. For plastic-to-plastic thre…"*
-- **bonds_poorly**: PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…to verify' (Loctite threadlocker manual). PLA and PETG are not listed [uncertain]. For plastic-to-plastic thre…"*
+- **bonds_well**: metal
+- **bonds_poorly**: PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, foam
 - **tools**: welding or brazing torch, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
@@ -2608,7 +2609,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, materials, related, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, related, when_not_to_use
 
 ## 230 Stretch-release adhesive strips
 

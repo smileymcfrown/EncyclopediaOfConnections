@@ -39,7 +39,7 @@
     "adjustable": "no, but it gives time to line parts up: about 15-30 minutes of open time before assembly (Woodcraft), and 25-30 minutes at 70 °F and 50% humidity for Titebond's version (Titebond data sheet). Once it has foamed and cured, nothing can be adjusted.",
     "play_and_precision": "not applicable (nothing moves). It needs tight-fitting joints: glue experts say it can't fill a gap larger than 1-2 mm with any strength (Popular Woodworking), and a 0.3 mm gap already made joints weak in Wandel's test (woodgears.ca). The foam can lift or shift parts slightly, so clamp them or use pins and keys to hold alignment (Woodcraft; Snapmaker).",
     "access_needed": "not applicable: glue goes on the faces before assembly, but you need to reach both sides to clamp the joint while it foams and cures",
-    "materials": "Bonds well: wood (including wet or oily wood and end grain), stone, concrete, brick, ceramic, metal, glass, rigid foams including polystyrene insulation board, fibreglass, rigid PVC, and many other plastics and composites (Gorilla Glue; Woodcraft: 'best for wet wood and bonding wood to non wood'; Wikipedia 'Wood glue'; Henkel PL Premium specification; Titebond data sheet: 'most plastics'). For 3D prints, a polyurethane construction adhesive was the overall winner on PETG in Cosel's pull test (Hackaday). Poor or not recommended: polyethylene (PE), polypropylene (PP), PTFE, flexible (soft) PVC, and rubber with a lot of oil or plasticiser (Gorilla Glue FAQ; Henkel PL Premium specification). Glass is claimed by makers, but test first [uncertain].",
+    "materials": "Bonds well: wood (including wet or oily wood and end grain), stone, concrete, brick, ceramic, metal, glass, rigid foams including polystyrene insulation board, fibreglass, rigid PVC, and many other plastics and composites (Gorilla Glue; Woodcraft: 'best for wet wood and bonding wood to non wood'; Wikipedia 'Wood glue'; Henkel PL Premium specification; Titebond data sheet: 'most plastics'). For 3D prints, a polyurethane construction adhesive was the overall winner on PETG in Cosel's pull test (Hackaday). Poor or not recommended: polyethylene (PE), polypropylene (PP), PTFE, flexible (soft) PVC, and rubber with a lot of oil or plasticiser (Gorilla Glue FAQ; Henkel PL Premium specification). For glass, metal and other shiny surfaces, Gorilla says to roughen the surface first (Gorilla Glue).",
     "maker_difficulty": "easy to moderate: no mixing, and there is time to line parts up, but you have to dampen the surfaces, clamp firmly for 1-2 hours, wear gloves, and deal with foaming squeeze-out (Gorilla Glue; Rockler)."
   },
   "making": {
@@ -174,7 +174,6 @@
     ]
   },
   "uncertain": [
-    "materials",
     "processes",
     "environment_limits",
     "safety_notes"

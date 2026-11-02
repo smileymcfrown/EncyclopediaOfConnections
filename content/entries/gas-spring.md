@@ -97,15 +97,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the retaining
-      clip [uncertain]; someone or something to hol…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [aliases, tools_needed, play_and_precision, processes, making_tips_3d_printing, when_not_to_use, safety_notes,
-  make_it_yourself]
+uncertain_fields: [aliases, play_and_precision, processes, making_tips_3d_printing, when_not_to_use, safety_notes, make_it_yourself]
 diagram_idea: A side view of a lid on a hinge with a gas strut drawn as a cutaway tube (gas shown as dots, a small oil pool
   at the rod end, a tiny hole in the piston), arrows showing the gas pushing on the larger inner face of the piston, the moving
   mount about a third of the way along the lid, and an inset showing a lockable version's valve open (rod moves) and closed
@@ -179,6 +174,7 @@ sources:
 - https://www.thingiverse.com/thing:2381580
 - https://www.youtube.com/watch?v=zNp5qmd650M
 - https://www.youtube.com/watch?v=HojDjwwRZ04
+- https://www.ovesco.com.au/assets/Uploads/ovesco-FactSheet-GasStrutVehicle-202212.pdf
 research: research/connection-types/results/Gas_spring_incl_lockable_gas_spring.json
 image:
   file: drawn/anim/gas-spring.svg
@@ -307,7 +303,7 @@ Avoid it where it would be loaded sideways or used as a structural brace, becaus
   - woodwork: toy boxes, storage benches, cabinet lift-up doors and fold-down beds using bought struts ⚑ [uncertain]
   - CNC: machined brackets and ball studs
 - **Printing it in one piece (print in place):** no: the gas spring must be bought; only its brackets and adapters are printed, as separate parts.
-- **Tools:** screwdriver or spanner to fit the brackets and ball studs; for ball-socket ends, often a small flat screwdriver to lift the retaining clip ⚑ [uncertain]; someone or something to hold the lid while fitting (ACE says support the moving mass during assembly and disassembly). A lockable gas spring also needs its release head, lever or Bowden cable (Stabilus; Bansbach). A strap can help compress stiff struts during fitting (Printables 'Ratchet Strap Gas Strut Compression Aid').
+- **Tools:** screwdriver or spanner to fit the brackets and ball studs; for ball-socket ends, a small flat screwdriver to lift the retaining clip just enough to pull the socket off (ovesco gas strut fact sheet); someone or something to hold the lid while fitting (ACE says support the moving mass during assembly and disassembly). A lockable gas spring also needs its release head, lever or Bowden cable (Stabilus; Bansbach). A strap can help compress stiff struts during fitting (Printables 'Ratchet Strap Gas Strut Compression Aid').
 - **Difficulty:** easy to fit, not something to make: buy the strut (it is a high-pressure vessel) and screw on bought or printed brackets. The hard part is choosing the force and mounting points, which a free online calculator can do (Gasspringsshop calculator).
 
 ### 3D printing tips
@@ -366,8 +362,7 @@ It is a pressure vessel: internal pressure can be up to 300 bar (4,350 psi); do 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the retaining clip ⚑ [uncertain]; someone or something to hol…"
+- ⚑ 7 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -393,3 +388,4 @@ It is a pressure vessel: internal pressure can be up to 300 bar (4,350 psi); do 
 - <https://www.thingiverse.com/thing:2381580>
 - <https://www.youtube.com/watch?v=zNp5qmd650M>
 - <https://www.youtube.com/watch?v=HojDjwwRZ04>
+- <https://www.ovesco.com.au/assets/Uploads/ovesco-FactSheet-GasStrutVehicle-202212.pdf>

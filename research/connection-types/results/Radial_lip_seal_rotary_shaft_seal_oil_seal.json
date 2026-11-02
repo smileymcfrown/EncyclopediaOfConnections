@@ -37,7 +37,7 @@
     ],
     "input_output": "not applicable",
     "power": "passive (no power needed)",
-    "removability": "semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is normally fitted [uncertain]. Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48).",
+    "removability": "semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is fitted: 'Never reuse old seals' (SKF wheel-end installation guide). Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48).",
     "reuse_cycles": "once: treat it as a replacement part; a seal whose lip is dirty, cut or otherwise damaged will leak and should be replaced (SKF CR Seals handbook, installation checklist); whether an undamaged seal can safely be refitted is not stated there [uncertain]",
     "tools_needed": "press or seal driver: an arbor press if possible, otherwise a soft-faced hammer on an installation tool whose outside diameter is larger than the bore, so the seal goes in square (SKF CR Seals handbook, pp. 24-25). A thin-walled installation sleeve to cover keyways, splines, threads or sharp shoulders (SKF CR Seals handbook; Parker, p. 11), the oil or grease to be sealed for pre-lubricating the lip, and a seal puller or pry tool for removal. Printable seal drivers exist (Printables 'Oil Seal Installer').",
     "seal": "watertight: the lip keeps oil in and splashes and dirt out, but standard seals are only for near-zero pressure, about 0.5 bar or less (Parker VA, p. 14; SKF HMS5: 0.03 MPa = 0.3 bar). Special pressure seals with short stiff lips, and metal back-up rings for the higher ratings, handle 10, 30 or 60 bar in hydraulic pumps and motors (Parker VP, VT and VV types, pp. 49-60).",
@@ -166,12 +166,12 @@
       "https://www.printables.com/model/1151025-kitchenaid-motor-shaft-seal-pro-mixer",
       "https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg",
       "https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png",
-      "https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg"
+      "https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg",
+      "https://cdn.skfmediahub.skf.com/api/public/0901d1968019bef9/pdf_preview_medium/0901d1968019bef9_pdf_preview_medium.pdf"
     ]
   },
   "uncertain": [
     "materials",
-    "removability",
     "reuse_cycles",
     "adjustable",
     "making_tips_3d_printing",

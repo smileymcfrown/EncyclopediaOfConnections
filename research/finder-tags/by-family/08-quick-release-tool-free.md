@@ -1,6 +1,6 @@
 # quick-release & tool-free: Joins and comes apart without tools
 
-18 entries. ⚑ = needs confirming: 5 best guesses and 2 values from text marked [uncertain]
+18 entries. ⚑ = needs confirming: 5 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -21,7 +21,7 @@ are welcome. Back to the [index](README.md).
 | 170 | Band flange clamp | hoses or pipes | none | – | – | – | – | – | – | none, welding or brazing torch, press or vice, hand tools | heavy | off-the-shelf part | partly | tool-free quick release | – |
 | 171 | Temporary sheet fastener | boards or sheet | none | – | – | – | – | – | – | drill and tap, hand tools | light | off-the-shelf part | no | removable | – |
 | 261 | Tool-free fasteners | any solid parts ⚑ | none | – | – | – | – | – | – | none, hand tools | medium | off-the-shelf part | yes | tool-free quick release | – |
-| 286 | Genderless connector | wires | none | – | – | – | – | – | – | none, soldering iron, crimper, hand tools ⚑ | heavy | 3D print (FDM) | no | tool-free quick release | – ⚑ |
+| 286 | Genderless connector | wires | none | – | – | – | – | – | – | none, soldering iron, crimper, hand tools | heavy | 3D print (FDM) | no | tool-free quick release | – ⚑ |
 | 393 | Tripod and stand screw mount | wall, rail, desk or grid | none | – | – | – | – | – | – | none, soldering iron, drill and tap, power tools, hand tools | medium | off-the-shelf part | yes | removable | – |
 | 437 | Push-fit rod and spar fittings | any solid parts ⚑ | none | – | – | – | – | – | – | none, drill and tap, hand tools | light | off-the-shelf part | partly | tool-free quick release | – |
 
@@ -40,4 +40,3 @@ The script was unsure of these values.
 These values are probably right, but the research run could not confirm the fact behind them.
 
 - ⚑ **168 Indexable clamping lever**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket) [uncertain: varies by model]…"
-- ⚑ **286 Genderless connector**, `tools` = none, soldering iron, crimper, hand tools: `tools_needed` is marked [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to wire [uncertain]…"

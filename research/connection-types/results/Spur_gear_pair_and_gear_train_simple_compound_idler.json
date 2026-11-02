@@ -40,7 +40,7 @@
     "power": "passive (no power needed); driven by a motor, crank or spring. If the motor loses power the train does not hold a load (it back-drives), unless the ratio is so high that friction holds it",
     "removability": "removable: gears come off their shafts by undoing set screws, clamp hubs, keys or retaining rings, and the housing comes apart",
     "reuse_cycles": "many times: gear trains are repeatedly disassembled for maintenance; limits are tooth wear and the hub-to-shaft joint (see the shaft-to-hub entry)",
-    "tools_needed": "Hex keys, screwdrivers or spanners for hubs, shafts and housing; circlip pliers for retaining rings; grease (lithium, PTFE or silicone for printed gears, EngineerDog); a feeler gauge or paper strip to check backlash [uncertain]",
+    "tools_needed": "Hex keys, screwdrivers or spanners for hubs, shafts and housing; circlip pliers for retaining rings; grease (lithium, PTFE or silicone for printed gears, EngineerDog); a feeler gauge to check backlash (JLCMC)",
     "seal": "none: the gears themselves seal nothing; a closed gearbox housing (often with shaft seals) keeps grease or oil in and dirt out",
     "load": "Light to heavy: from clock and toy gears to steel industrial gearboxes. Tooth strength rises with tooth size (module) and face width: doubling the width roughly doubles the strength (EngineerDog). Each tooth is loaded like a small cantilever and can snap at its root under shock loads (EngineerDog; KHK 'Damage to gears'). Spur gears create no axial (end) thrust (Wikipedia 'Gear'), but the tooth force pushes the two shafts apart, more so at higher pressure angles (BOSL2; EngineerDog), so shafts and housing must be stiff. Printed PLA spur gears of module 1.5 broke at about 117 N on a test arm (about 35 N·m) in one test (HowToMechatronics).",
     "adjustable": "no for the ratio of a given set (change gears to change ratio; 'change gears' and sliding-gear gearboxes do this); backlash can be adjusted by moving one shaft slightly closer or further (larger centre distance = more backlash, KHK) or by profile shifting in design",
@@ -206,11 +206,11 @@
       "https://www.youtube.com/watch?v=JTdSBcmtmsk",
       "https://api.printables.com/graphql/",
       "https://www.firgelliauto.com/blogs/mechanisms/multiple-drilling-machine",
-      "https://khkgears.us/media/izojpong/gear_guide1.pdf"
+      "https://khkgears.us/media/izojpong/gear_guide1.pdf",
+      "https://jlcmc.com/blog/what-is-backlash-in-gears"
     ]
   },
   "uncertain": [
-    "tools_needed",
     "processes",
     "environment_limits"
   ]

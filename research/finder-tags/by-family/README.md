@@ -20,7 +20,7 @@ To confirm or correct a value, edit it in `../tags.yaml` and add the field name 
 | [over-centre, toggle & cam clamps](05-over-centre-toggle-cam-clamps.md) | 5 | 9 | 4 |
 | [locks, latches & catches](06-locks-latches-catches.md) | 15 | 15 | 4 |
 | [indexing & detents](07-indexing-detents.md) | 7 | 3 | 0 |
-| [quick-release & tool-free](08-quick-release-tool-free.md) | 18 | 5 | 2 |
+| [quick-release & tool-free](08-quick-release-tool-free.md) | 18 | 5 | 1 |
 | [snap & clip fits](09-snap-clip-fits.md) | 9 | 5 | 4 |
 | [compliant mechanisms & flexures](10-compliant-mechanisms-flexures.md) | 12 | 19 | 4 |
 | [print-in-place & 3D-printing joints](11-print-in-place-3d-printing-joints.md) | 15 | 3 | 5 |
@@ -28,15 +28,15 @@ To confirm or correct a value, edit it in `../tags.yaml` and add the field name 
 | [sliding, telescoping & linear motion](13-sliding-telescoping-linear-motion.md) | 12 | 7 | 4 |
 | [clutches & couplings](14-clutches-couplings.md) | 16 | 7 | 4 |
 | [motion conversion](15-motion-conversion.md) | 20 | 9 | 5 |
-| [gear trains, gearboxes & transmissions](16-gear-trains-gearboxes-transmissions.md) | 22 | 9 | 5 |
-| [seals & pass-throughs](17-seals-pass-throughs.md) | 16 | 12 | 5 |
+| [gear trains, gearboxes & transmissions](16-gear-trains-gearboxes-transmissions.md) | 22 | 9 | 4 |
+| [seals & pass-throughs](17-seals-pass-throughs.md) | 16 | 12 | 3 |
 | [powered & active connectors](18-powered-active-connectors.md) | 13 | 15 | 2 |
 | [clamping, magnetic & friction connections](19-clamping-magnetic-friction-connections.md) | 18 | 2 | 3 |
-| [adhesives & bonding](20-adhesives-bonding.md) | 27 | 8 | 38 |
+| [adhesives & bonding](20-adhesives-bonding.md) | 27 | 8 | 34 |
 | [cord, strap, webbing & textile hardware](21-cord-strap-webbing-textile-hardware.md) | 22 | 19 | 0 |
-| [interlocking joints & joinery](22-interlocking-joints-joinery.md) | 28 | 1 | 5 |
+| [interlocking joints & joinery](22-interlocking-joints-joinery.md) | 28 | 1 | 4 |
 | [locating & alignment](23-locating-alignment.md) | 6 | 5 | 0 |
-| [springs & energy storage](24-springs-energy-storage.md) | 11 | 4 | 5 |
+| [springs & energy storage](24-springs-energy-storage.md) | 11 | 4 | 4 |
 | [brakes, dampers & speed control](25-brakes-dampers-speed-control.md) | 6 | 7 | 2 |
 | [hydraulics, pneumatics & vacuum](26-hydraulics-pneumatics-vacuum.md) | 27 | 42 | 4 |
 | [electrical connections](27-electrical-connections.md) | 22 | 25 | 4 |
