@@ -92,11 +92,6 @@ open_points:
   note: '*Slot-in model hinge* (426): Airfield Models advises against CA hinges while others use them; Foam-Tac does not work
     on EPS (Motion RC) versus did not dissolve EPS (Model Aviation''s tester). The tug test is [uncertain] (HobbyKing page
     403).'
-- kind: content
-  note: '*Slot-in model hinge* (426): the entry lists foam (EPO, EPP, Depron, foam board) as suiting slotted CA and printed
-    hinges with foam-safe glue (Motion RC; Printables), but *Park Pilot* (AMA, spring 2020) says pin, nylon and CA hinges
-    ''often pull out of foam because it has such low surface shear'', so taped hinges are most used. Worth weighing which
-    advice the entry should lead with.'
 uncertain_fields: [motion, load, making_tips_3d_printing, everyday_examples, safety_notes, common_failures]
 diagram_idea: A cut-away of the trailing edge of a wing and the leading edge of an aileron, pulled apart, showing a flat hinge
   half in each slot with a toothpick peg through it and the pin centred on the bevelled gap, next to a round hinge point in
@@ -157,6 +152,7 @@ sources:
 - https://stunthanger.com/smf/building-techniques/ca-hinge-installation
 - https://www.foldnfly.com/lounge/foam-core-tools-techniques.php
 - https://api.printables.com/graphql/
+- https://www.theparkpilot.org/foam-airplane-hinges
 research: research/connection-types/results/Slotin_model_hinge_CA_hinge_flat_hinge_pinned_hinge_point.json
 image:
   file: drawn/anim/slot-in-model-hinge.svg
@@ -269,7 +265,7 @@ On very thin surfaces too thin for a flat hinge, use film, sewn or tape hinges i
 - **Sealing:** none: the hinge line leaks air unless it is sealed with a strip of tape or iron-on film along one side (Airfield Models)
 - **Adjustable:** no: the hinge line is fixed once glued; throw is adjusted at the control horn and pushrod instead
 - **Access needed:** both sides: the edges of both the fixed and the moving surface must be open to cut slots or drill holes before the surfaces are joined; CA wicking holes are drilled from the face of the surface
-- **Materials:** Hinges: Mylar with cloth or paper (CA hinges; Gator RC sells woven-paper ones 0.3 mm thick), polypropylene (poly hinges), nylon with a steel pin (pinned hinges), nylon or plastic hinge points with a metal pin. Surfaces it suits: balsa and light plywood (the classic use), foam (EPO, EPP, Depron, foam board) with foam-safe glue, and 3D-printed or LW-PLA surfaces with printed slots. Glue: thin CA wicks into balsa and CA hinges; ordinary CA can 'eat through' foam, so use foam-safe CA on foam (Motion RC; BSI says even its flexible CA 'can not be used on white foam' (EPS)); slow epoxy for hinge points, but epoxy does not stick to the plastic of hinge points and holds only by the barbs (Airfield Models); Foam-Tac (brand, a flexible contact glue) for EPO, EPP and Depron but not EPS according to Motion RC (Model Aviation's tester found it did not dissolve EPS or XPS)
+- **Materials:** Hinges: Mylar with cloth or paper (CA hinges; Gator RC sells woven-paper ones 0.3 mm thick), polypropylene (poly hinges), nylon with a steel pin (pinned hinges), nylon or plastic hinge points with a metal pin. Surfaces it suits: balsa and light plywood (the classic use), foam (EPO, EPP, Depron, foam board) with foam-safe glue, though pin, nylon and CA hinges 'often pull out of foam because it has such low surface shear', so taped hinges are the usual choice on foam models (Park Pilot, 'Foam airplane hinges', spring 2020), and 3D-printed or LW-PLA surfaces with printed slots. Glue: thin CA wicks into balsa and CA hinges; ordinary CA can 'eat through' foam, so use foam-safe CA on foam (Motion RC; BSI says even its flexible CA 'can not be used on white foam' (EPS)); slow epoxy for hinge points, but epoxy does not stick to the plastic of hinge points and holds only by the barbs (Airfield Models); Foam-Tac (brand, a flexible contact glue) for EPO, EPP and Depron but not EPS according to Motion RC (Model Aviation's tester found it did not dissolve EPS or XPS)
 - **Heat, cold, water and wear:** Glue limits apply: ordinary CA attacks foam (Motion RC; foldnfly), CA is [brittle](../glossary.md#brittle--ductile) on flexing joints (Motion RC), and tape hinges lose adhesion with age and are not fuel-proof (Flite Test; Model Aviation). Engine vibration loosens weak hinges, which is why pinned hinges are recommended for powerful fun-fly planes (Model Airplane News). Torn foam 'live' hinges stiffen and tear further; Foam-Tac stays flexible when cured, while epoxy or CA there gives 'a brittle and fragile hinge' (Model Aviation).
 
 ## Making it
@@ -339,7 +335,6 @@ A hinge that pulls out in flight loses control of the model, which can then cras
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Research note: *Slot-in model hinge* (426): Airfield Models advises against CA hinges while others use them; Foam-Tac does not work on EPS (Motion RC) versus did not dissolve EPS (Model Aviation's tester). The tug test is [uncertain] (HobbyKing page 403).
-- ⚑ Research note: *Slot-in model hinge* (426): the entry lists foam (EPO, EPP, Depron, foam board) as suiting slotted CA and printed hinges with foam-safe glue (Motion RC; Printables), but *Park Pilot* (AMA, spring 2020) says pin, nylon and CA hinges 'often pull out of foam because it has such low surface shear', so taped hinges are most used. Worth weighing which advice the entry should lead with.
 
 ## Sources
 
@@ -362,3 +357,4 @@ A hinge that pulls out in flight loses control of the model, which can then cras
 - <https://stunthanger.com/smf/building-techniques/ca-hinge-installation>
 - <https://www.foldnfly.com/lounge/foam-core-tools-techniques.php>
 - <https://api.printables.com/graphql/>
+- <https://www.theparkpilot.org/foam-airplane-hinges>
