@@ -42,7 +42,7 @@
     "power": "passive (no power needed) for the fixing; the tool is manual (spring-loaded staple gun, hammer tacker) or powered (electric, cordless or pneumatic stapler) (Wikipedia 'Staple gun').",
     "removability": "semi-permanent: 'Once a staple has been driven, it is difficult to remove without causing damage to the surrounding material' (Wikipedia 'Staple (fastener)'); it is prised out with pliers, a thin screwdriver or a staple or tack remover (The Bulletin, Bend, 'DIY: Reupholster chairs'), leaving two small holes.",
     "reuse_cycles": "once: a removed staple is bent and thrown away; the material can be re-stapled in fresh places a few times before the wood or fabric edge is shredded [uncertain].",
-    "tools_needed": "A staple gun (manual, electric, cordless or pneumatic) or hammer tacker loaded with staples made for it; for cable staples, a gun with a wire guide or a cable-staple gun, or hammer-in cable clips (Wikipedia 'Staple gun'); hog ring pliers for hog rings (aftfasteners.com); pliers, a thin screwdriver or a staple/tack remover to take staples out (The Bulletin); a hammer to tap down proud staples [uncertain]; safety glasses (Toolstation PCT162 manual).",
+    "tools_needed": "A staple gun (manual, electric, cordless or pneumatic) or hammer tacker loaded with staples made for it; for cable staples, a gun with a wire guide or a cable-staple gun, or hammer-in cable clips (Wikipedia 'Staple gun'); hog ring pliers for hog rings (aftfasteners.com); pliers, a thin screwdriver or a staple/tack remover to take staples out (The Bulletin); a 'staple set' (a dowel with a steel rod through it, tapped with a hammer) to drive proud staples flush, since hitting them straight with a hammer kinks them (Popular Woodworking); safety glasses (Toolstation PCT162 manual).",
     "seal": "none: staples leave holes; seal or tape over them if the sheet must be weatherproof (e.g. house wrap is taped later) [uncertain].",
     "load": "Light. Each leg resists pull-out like a small nail: the Wood Handbook uses its nail equation p = 54.12 G^2.5 D L (N, mm) for one staple leg, though 'no verification tests have been done'; for a leg about 1 mm thick going 10 mm into wood of specific gravity 0.5 that gives roughly 95 N (about 10 kgf) per leg, under 200 N per staple, as a short-term breaking value (calculated here; safe loads are far lower) [uncertain]. Sideways (shear) strength varies with leg diameter to the 3/2 power, so each leg must be about two-thirds the diameter of a nail to match it (USDA Wood Handbook ch. 8). Staples 'generally have lower holding power compared to nails or screws' (Wikipedia 'Staple (fastener)'). Weak points: pulling straight out, thin fabric tearing out round the crown, and staples driven parallel to the grain splitting the wood [uncertain]. Strongest when the load slides along the surface (shear), as when taut fabric is pulled across a frame.",
     "adjustable": "no: to move or re-tension fabric, pull the staples and re-staple (upholsterers start in the middle of each side and work outwards so tension can be evened out) (The Bulletin; FOX 2 Detroit).",
@@ -182,12 +182,12 @@
       "https://en.wikipedia.org/wiki/Stapler",
       "https://en.wikipedia.org/wiki/Bookbinding",
       "https://blog.talasonline.com/post/elevate-your-zines-pamphlet-stitch-alternative-binding-techniques",
-      "https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/"
+      "https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/",
+      "https://popularwoodworking.com/tricks/staple-set"
     ]
   },
   "uncertain": [
     "reuse_cycles",
-    "tools_needed",
     "seal",
     "load",
     "materials",

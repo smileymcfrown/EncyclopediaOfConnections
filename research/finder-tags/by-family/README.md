@@ -18,17 +18,17 @@ To confirm or correct a value, edit it in `../tags.yaml` and add the field name 
 | [self-locking & anti-back-drive](03-self-locking-anti-back-drive.md) | 6 | 6 | 2 |
 | [tensioning, reels & take-up](04-tensioning-reels-take-up.md) | 5 | 2 | 1 |
 | [over-centre, toggle & cam clamps](05-over-centre-toggle-cam-clamps.md) | 5 | 9 | 4 |
-| [locks, latches & catches](06-locks-latches-catches.md) | 15 | 15 | 4 |
+| [locks, latches & catches](06-locks-latches-catches.md) | 15 | 15 | 3 |
 | [indexing & detents](07-indexing-detents.md) | 7 | 3 | 0 |
 | [quick-release & tool-free](08-quick-release-tool-free.md) | 18 | 5 | 1 |
 | [snap & clip fits](09-snap-clip-fits.md) | 9 | 5 | 4 |
 | [compliant mechanisms & flexures](10-compliant-mechanisms-flexures.md) | 12 | 19 | 4 |
-| [print-in-place & 3D-printing joints](11-print-in-place-3d-printing-joints.md) | 15 | 3 | 5 |
+| [print-in-place & 3D-printing joints](11-print-in-place-3d-printing-joints.md) | 15 | 3 | 2 |
 | [hinges & pivots](12-hinges-pivots.md) | 24 | 16 | 3 |
-| [sliding, telescoping & linear motion](13-sliding-telescoping-linear-motion.md) | 12 | 7 | 4 |
-| [clutches & couplings](14-clutches-couplings.md) | 16 | 7 | 4 |
-| [motion conversion](15-motion-conversion.md) | 20 | 9 | 5 |
-| [gear trains, gearboxes & transmissions](16-gear-trains-gearboxes-transmissions.md) | 22 | 9 | 4 |
+| [sliding, telescoping & linear motion](13-sliding-telescoping-linear-motion.md) | 12 | 7 | 3 |
+| [clutches & couplings](14-clutches-couplings.md) | 16 | 7 | 0 |
+| [motion conversion](15-motion-conversion.md) | 20 | 9 | 1 |
+| [gear trains, gearboxes & transmissions](16-gear-trains-gearboxes-transmissions.md) | 22 | 9 | 1 |
 | [seals & pass-throughs](17-seals-pass-throughs.md) | 16 | 12 | 3 |
 | [powered & active connectors](18-powered-active-connectors.md) | 13 | 15 | 2 |
 | [clamping, magnetic & friction connections](19-clamping-magnetic-friction-connections.md) | 18 | 2 | 3 |

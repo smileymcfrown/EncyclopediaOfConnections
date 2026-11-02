@@ -41,7 +41,7 @@
     "power": "passive (no power needed)",
     "removability": "semi-permanent for crush ribs: the part can be pushed out again, but the ribs stay squashed and grip less next time (AON3D: press-fit crush ribs are for one-time assembly). Removable for spring-fit tabs and for tapered 'transition-fit' crush ribs, which do not deform permanently (AON3D; SpringFit).",
     "reuse_cycles": "once to a few times for crush ribs that are squashed flat (AON3D); many times for cantilever spring tabs and transition-fit ribs, as long as the tab does not crack or take a set [uncertain]",
-    "tools_needed": "none for small parts (push in by hand; SpringFit parts go in best at an angle); a vice, arbor press or a bolt-and-washer puller is kinder than a hammer for pressing bearings [uncertain]; a lead-in chamfer on the hole helps (Gridfinity layout tool: 45 degrees, 0.8 mm)",
+    "tools_needed": "none for small parts (push in by hand; SpringFit parts go in best at an angle); a vice, arbor press (LulzBot presses bearings into printed parts with one) or a bolt, washers and nut (Printables 'Bearing press-in tool') is kinder than a hammer for pressing bearings: 'Do not strike bearings directly' (NSK); a lead-in chamfer on the hole helps (Gridfinity layout tool: 45 degrees, 0.8 mm)",
     "seal": "none: the gaps between the ribs are open",
     "load": "light to medium: it holds only by friction, and only the rib lines touch the part, so heavy or pounding loads can crush the ribs further until a bearing works loose (New Screwdriver; Hackaday commenters). Spring mounts come apart more easily than a hard press fit hammered in with a rubber mallet (SpringFit paper). Strongest against slipping along the hole when there are more and longer ribs; weakest against being pulled straight out.",
     "adjustable": "no: the grip is set by the rib height or spring stiffness; to change it you reprint or recut the part",
@@ -188,12 +188,13 @@
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "https://en.wikipedia.org/wiki/Neodymium_magnet",
       "https://api.printables.com/graphql/",
-      "https://www.printables.com/model/43599-test-print-crush-ribs-version02"
+      "https://www.printables.com/model/43599-test-print-crush-ribs-version02",
+      "https://ohai.lulzbot.com/project/cluster-linear-bearings/cluster/",
+      "https://www.nsk.com/am-en/tools-resources/knowledge-center/bearing-abcs/mounting/"
     ]
   },
   "uncertain": [
     "reuse_cycles",
-    "tools_needed",
     "processes",
     "making_tips_3d_printing",
     "safety_notes",

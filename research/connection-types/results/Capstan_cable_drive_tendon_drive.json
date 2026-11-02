@@ -35,7 +35,7 @@
     "power": "passive (no power needed). With the motor off, the output is free to be back-driven by the load, so a lifted arm will fall unless it is balanced or braked",
     "removability": "removable: the drums are bolted or pressed onto shafts and the cable can be untensioned and unwound; the cable is usually replaced rather than reused once cut and knotted to length",
     "reuse_cycles": "many times for the drums and frame; a few times for the cable, which is cut to length, anchored and pre-stretched in place",
-    "tools_needed": "Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends [uncertain]",
+    "tools_needed": "Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends (melting works on nylon, polyester and polyethylene, not aramid; Wikipedia 'Whipping knot', 'Ropework')",
     "seal": "none: the cable and drums run in the open",
     "load": "Light to medium for hobby builds, and up to heavy in research robots: Forte's printed, steel-cable capstan joints are rated up to about 23.6 N m (with a belt stage, calculated from the motor's holding torque) and Sandia's synthetic-rope drives handle about 60 N m peak torques on a biped ankle. The cable only carries pull, the small drum sees the highest stress (Aaed Musa), and the cable ends are usually the weakest point, so extra wraps are used to protect them (Sandia). Bearings must resist the cable pre-tension pulling the two drums together.",
     "adjustable": "Yes: cable tension is set with a screw, lead screw or sliding tensioning pulley, and should be re-tightened after a wear-in period of roughly 10-50 cycles and occasionally afterwards; Sandia found no more tensioning was needed after about 1,000 cycles. The ratio is fixed by the drum sizes, and makers fine-tune it by adjusting the big drum's outside diameter (Aaed Musa, CARA)",
@@ -154,11 +154,12 @@
       "https://childhoodradio.com/dial-string-mechanisms/",
       "https://www.youtube.com/watch?v=MwIBTbumd1Q",
       "https://www.youtube.com/watch?v=jKZIvseA1Nk",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/Whipping_knot",
+      "https://en.wikipedia.org/wiki/Ropework"
     ]
   },
   "uncertain": [
-    "tools_needed",
     "making_tips_3d_printing",
     "everyday_examples",
     "when_not_to_use",

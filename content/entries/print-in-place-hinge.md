@@ -87,15 +87,11 @@ finder:
   turns: [part of a turn]
   drive_split: [not applicable]
   made_of: [3D prints]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…tuck may need a firm twist or flexing back and forth to break it
-      free [uncertain]. A screwdriver is needed onl…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [aliases, reuse_cycles, tools_needed, load, play_and_precision, making_tips_3d_printing, environment_limits,
-  related, links, make_it_yourself]
+uncertain_fields: [aliases, reuse_cycles, load, play_and_precision, making_tips_3d_printing, environment_limits, related,
+  links, make_it_yourself]
 diagram_idea: A cut-away view along the hinge line showing five alternating knuckles from two leaves (two colours), with cone-shaped
   bumps on one colour sitting in cone-shaped sockets in the other and a thin highlighted gap (0.3 mm) around every contact;
   a small inset shows the print-bed side view with the 45-degree cone underside printing without support, and a second inset
@@ -293,7 +289,7 @@ Avoid it when the hinge must be precise or free of wobble (use a metal hinge, or
   - 3D print (SLS or MJF powder-bed nylon): well suited, because the loose powder holds the parts apart and no supports are needed (Formlabs 'How to 3D Print Interlocking Parts')
   - not suited to CNC, laser cutting or woodwork, which cannot make parts already assembled; those make separate leaves and add a pin
 - **Printing it in one piece (print in place):** yes: both leaves and the pin print together and the hinge works straight off the print bed (Printables 'Print-in-Place Simple Hinge (no supports needed)': 'two parts that print in a single STL file and work right off the print bed').
-- **Tools:** none to assemble. The first time, a hinge that is slightly stuck may need a firm twist or flexing back and forth to break it free ⚑ [uncertain]. A screwdriver is needed only for mounting screws.
+- **Tools:** none to assemble. The first time, a hinge that is slightly stuck may need some wiggling or a firm push to free it (Printables 'Concealed 180º Hinge - print in place'). A screwdriver is needed only for mounting screws.
 - **Difficulty:** easy: it prints in one piece with no supports and no assembly; the catch is that it only works if the printer is well calibrated (first layer, flow) and the clearance suits your printer, so print a clearance test first
 
 ### 3D printing tips
@@ -356,8 +352,7 @@ None known beyond ordinary pinch points between the leaves when closing. Breakin
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 11 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…tuck may need a firm twist or flexing back and forth to break it free ⚑ [uncertain]. A screwdriver is needed onl…"
+- ⚑ 10 sentences on this page marked [uncertain].
 
 ## Sources
 

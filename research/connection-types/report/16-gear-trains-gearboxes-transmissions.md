@@ -1043,7 +1043,7 @@
 - **tools_needed**: Hex keys or small screwdrivers for the case screws; pliers or a pin punch for cross-pins; grease. RC gear diffs need silicone differential oil; RC ball diffs need diff grease for the balls and rings, a different grease for the thrust bearing, and a tool to set the adjusting screw (RCGuided). Some printed demo models need glue and pliers to assemble (Public Domain Differential, Printables).
 - **seal**: none for printed and LEGO differentials. Car differentials run inside a closed, oil-filled axle housing, and RC gear diffs are sealed so their silicone oil stays in (RCGuided mentions O-rings and a sealing grease); the sealing is done by the housing and O-rings, not by the gears. ⚑ [uncertain] Details of the seals vary by model. *(⚑ parts need confirming)*
 - **load**: Medium to heavy for its size in metal, because it carries a vehicle's whole drive torque; in plastic the small spider gears and their thin cross-pin are the weak points. Strong in twist. The bevel side gears push outwards along the axles (thrust) and the pinion pushes away from the ring gear, so the carrier and bearings must be stiff (KHK: bevel gears produce axial thrust; mount them close to bearings). Printed demo differentials are for hand turning and light loads only ⚑ [uncertain] (for any particular model). *(⚑ parts need confirming)*
-- **adjustable**: Open differentials: no (gear mesh and backlash are set with shims or spacers when assembled ⚑ [uncertain]). RC ball diffs: yes, tightening or loosening the screw changes how much they slip (Wikipedia 'Ball differential'). RC gear diffs: yes, by refilling with thinner or thicker silicone oil (RCGuided starting points: front 5,000-7,000 cSt, centre 5,000-10,000 cSt, rear 3,000-5,000 cSt). Locking differentials can be switched between open and locked (manually, by air, cable or electric actuator). *(⚑ parts need confirming)*
+- **adjustable**: Open differentials: no (gear mesh and backlash are set when assembled, with shims or, on some axles, threaded adjusters; RANDYS Worldwide '12 Tech Tips for Differential Assembly & Setup'). RC ball diffs: yes, tightening or loosening the screw changes how much they slip (Wikipedia 'Ball differential'). RC gear diffs: yes, by refilling with thinner or thicker silicone oil (RCGuided starting points: front 5,000-7,000 cSt, centre 5,000-10,000 cSt, rear 3,000-5,000 cSt). Locking differentials can be switched between open and locked (manually, by air, cable or electric actuator).
 - **play_and_precision**: Noticeable backlash: there are two bevel meshes in series plus the ring and pinion, so the wheels have some free play; a ball differential has no backlash or free play (RC Car Action). It is not a positioning device, although robot-wrist differentials use it to move a joint, so backlash matters there. It needs the two output shafts on one line and the pinion at the correct mounting distance; misalignment gives noise, uneven wear, binding or skipping teeth (KHK miter gear catalogue on bevel mounting errors).
 - **access_needed**: not applicable: it is built into an axle or gearbox and reached by opening its housing
 - **materials**: Cars and trucks: steel gears in a cast housing running in oil. RC cars: steel or plastic gear diffs; ball diffs with steel, ceramic or tungsten-carbide balls (ceramic lasts longer; softer balls 'flat spot', per Wikipedia 'Ball differential') and hard diff rings. LEGO Technic differentials (brand): ABS plastic. 3D-printed: PLA, PLA+, PETG or nylon gears, often with steel pins and small ball bearings (e.g. MR63ZZ, MR117, 6700ZZ in Prism08's printed RC differentials). EngineerDog ranks nylon > PLA > ABS > PETG for printed gears.
@@ -1152,6 +1152,7 @@
   - https://www.mcmaster.com/products/bevel-gears/
   - https://www.mcmaster.com/products/miter-gears/
   - https://en.wikipedia.org/wiki/Transfer_case
+  - https://www.randysworldwide.com/blogs/blog/12-tech-tips-for-differential-assembly-setup
 
 ### Finder tags
 
@@ -1166,7 +1167,7 @@
 - **tools**: hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
-- **adjustable**: no ⚑ *needs confirming (source uncertain): `adjustable` is marked [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled [uncertain]).…"*
+- **adjustable**: no
 - **removability**: removable
 - **power**: passive
 - **printed_take_apart**: not applicable
@@ -1215,7 +1216,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, input_output, load, making_tips_3d_printing, power, print_in_place, processes, safety_notes, seal, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, input_output, load, making_tips_3d_printing, power, print_in_place, processes, safety_notes, seal, when_not_to_use
 
 ## 98 Bevel gears (incl. mitre and crown gears)
 
@@ -1895,7 +1896,7 @@
 - **power**: passive (no power needed). With the motor off, the output is free to be back-driven by the load, so a lifted arm will fall unless it is balanced or braked
 - **removability**: removable: the drums are bolted or pressed onto shafts and the cable can be untensioned and unwound; the cable is usually replaced rather than reused once cut and knotted to length
 - **reuse_cycles**: many times for the drums and frame; a few times for the cable, which is cut to length, anchored and pre-stretched in place
-- **tools_needed**: Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends (melting works on nylon, polyester and polyethylene, not aramid; Wikipedia 'Whipping knot', 'Ropework')
 - **seal**: none: the cable and drums run in the open
 - **load**: Light to medium for hobby builds, and up to heavy in research robots: Forte's printed, steel-cable capstan joints are rated up to about 23.6 N m (with a belt stage, calculated from the motor's holding torque) and Sandia's synthetic-rope drives handle about 60 N m peak torques on a biped ankle. The cable only carries pull, the small drum sees the highest stress (Aaed Musa), and the cable ends are usually the weakest point, so extra wraps are used to protect them (Sandia). Bearings must resist the cable pre-tension pulling the two drums together.
 - **adjustable**: Yes: cable tension is set with a screw, lead screw or sliding tensioning pulley, and should be re-tightened after a wear-in period of roughly 10-50 cycles and occasionally afterwards; Sandia found no more tensioning was needed after about 1,000 cycles. The ratio is fixed by the drum sizes, and makers fine-tune it by adjusting the big drum's outside diameter (Aaed Musa, CARA)
@@ -1977,6 +1978,8 @@
   - https://www.youtube.com/watch?v=MwIBTbumd1Q
   - https://www.youtube.com/watch?v=jKZIvseA1Nk
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Whipping_knot
+  - https://en.wikipedia.org/wiki/Ropework
 
 ### Finder tags
 
@@ -1988,7 +1991,7 @@
 - **shaft_layout**: parallel, far apart ⚑ *needs confirming (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts*
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: crimper, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope ends [uncertain]…"*
+- **tools**: crimper, hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
 - **adjustable**: yes
@@ -2040,7 +2043,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, safety_notes, when_not_to_use
 
 ## 102 Bowden cable (push-pull cable)
 
@@ -2084,7 +2087,7 @@
 - **power**: passive (no power needed); it can be worked by hand or by a motor or servo at one end. If a motor-driven cable loses power, it stays where it is unless a return spring pulls it back
 - **removability**: removable: the wire is unclamped at the far end and slid out; the sleeve lifts out of its stops
 - **reuse_cycles**: many times for the sleeve and end stops; a few times for the inner wire, because a cut, frayed or end-capped wire end is hard to thread back through the sleeve and is usually replaced
-- **tools_needed**: A proper cable and housing cutter (dedicated shear-type cutters for compressionless housing); a pick or awl to reopen the squashed liner after cutting; a hex key or spanner for the pinch bolt; pliers to crimp end caps (or solder to stop fraying) (Park Tool; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter ⚑ [uncertain]; push-in fittings need no tools. *(⚑ parts need confirming)*
+- **tools_needed**: A proper cable and housing cutter (dedicated shear-type cutters for compressionless housing); a pick or awl to reopen the squashed liner after cutting; a hex key or spanner for the pinch bolt; pliers to crimp end caps (or solder to stop fraying) (Park Tool; Sheldon Brown). For 3D-printer PTFE tubes: a razor or thin-bladed knife, pressing lightly so the tube stays round, and a drill bit to cone the tube's entrance (Prusa 'How to trim PTFE tube'); push-in fittings need no tools.
 - **seal**: none: typical bike and DIY cables are open at the ends, so water can get in and even freeze in cold weather (Wikipedia); industrial push-pull controls add end seals against dirt and corrosion, which makes them dust-resistant (Frontiers, Grosu et al. 2018)
 - **load**: Light to medium: strong in pull along the wire (bike brake wires are 1.5-1.6 mm steel), weak in push unless it is a push-pull cable with a stiff core and snug sleeve. The sleeve must be held at both ends because it carries the full reaction force in compression. Loads that bend the cable sharply or twist it do not transmit well, and friction rises quickly with every bend.
 - **adjustable**: Yes: slack is taken up with a barrel adjuster at a cable stop or lever, or by re-clamping the wire at the pinch bolt (Wikipedia)
@@ -2163,6 +2166,8 @@
   - https://commons.wikimedia.org/wiki/File:Bowden.jpg
   - https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg
   - https://api.printables.com/graphql/
+  - https://help.prusa3d.com/guide/how-to-trim-ptfe-tube-original-prusa-printers_22424
+  - https://cdn.help.prusa3d.com/wp-content/uploads/generated/printer-maintenance_247_guide_22424_en_2026-05-13.pdf
 
 ### Finder tags
 
@@ -2174,7 +2179,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: crimper, sewing or leather tools, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter [uncertain]; push-in fittings need no to…"*
+- **tools**: crimper, drill and tap, sewing or leather tools, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
@@ -2226,7 +2231,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, making_tips_3d_printing, motion, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, making_tips_3d_printing, motion, when_not_to_use
 
 ## 201 Anti-backlash gear (split scissor gear)
 

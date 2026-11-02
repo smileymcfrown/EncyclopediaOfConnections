@@ -115,7 +115,7 @@ open_points:
     Shed) versus a 200 °F oven with a cracking warning (Sculpey FAQ). Sculpey''s table prints 275 °F as 130 °C (the °F values
     are quoted). No strength figures for any clay join; that PLA can''t survive a polymer clay bake has no tested temperature
     on an opened page in 428 (432 gives 60-65 °C softening from Wikipedia).'
-uncertain_fields: [aliases, load, materials, making_tips_3d_printing]
+uncertain_fields: [aliases, load, making_tips_3d_printing]
 diagram_idea: Three side-by-side sketches of two clay pieces with a thin coloured layer of liquid clay between them, labelled
   raw-to-raw, raw-to-baked and baked-to-baked (with a thin raw clay snake as a bridge), then an arrow into an oven showing
   them coming out as one piece.
@@ -154,6 +154,7 @@ sources:
 - https://www.staedtler.com/uk/en/products/fimo-modelling-clay-accessories/fimo-accessoires/surface-treatment/fimo-liquid-8050-oven-bake-liquid-gel-m8050/
 - https://potterycrafts.co.uk/cdn/shop/files/Premo_Sculpey_Polymer_Clay_747a26ae-3aa8-4d8e-a413-1cfe01b669f7.pdf
 - https://www.sculpey.com/blogs/blog/6-things-to-avoid-when-baking-polymer-clay
+- https://help.prusa3d.com/article/pla_2062
 research: research/connection-types/results/Liquidclay_bond_bakeable_clay_glue_bakeinstages_join.json
 image:
   file: drawn/liquid-clay-bond.svg
@@ -232,7 +233,7 @@ When the piece cannot be baked again (it has glued-on parts, resin, a magnet or 
 - **Sealing:** none (it is not meant as a seal), although a cured joint is waterproof: Sculpey's blog calls clay bonded to cork with it 'completely waterproof'
 - **Adjustable:** yes, until it is baked: the parts can be slid into position while the liquid clay is still runny (Sculpey blog); no once baked
 - **Access needed:** both sides (the two joining faces must be coated before they are pressed together)
-- **Materials:** Joins PVC polymer clay to itself in every combination: raw to raw, raw to baked and baked to baked (Blue Bottle Tree; Sculpey blog). The brand matters: in Blue Bottle Tree's test Fimo Professional bonded well to itself even without liquid clay, Cernit bonded well raw to raw, and Premo, Souffle and Kato bonded poorly unless a bonding agent was used. Sculpey's oven-bake clay adhesive also bonds raw clay to porous things that can go in the oven: wood, cork, cardboard, papier-mâché and heavy paper (Sculpey blog), and bare wood should be baked first at 135 °C for 20 minutes to drive out moisture and sap (Sculpey FAQ). Does not work: smooth metal, glass and other non-porous surfaces ('Clay cannot be bonded to metal or other non-porous surfaces', Sculpey FAQ; wrap or embed instead, see Baked-in findings); air-dry clay, pottery clay or epoxy putty (different materials, see Score-and-slip join and Epoxy putty); anything that cannot take about 130 °C, such as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints ⚑ [uncertain]
+- **Materials:** Joins PVC polymer clay to itself in every combination: raw to raw, raw to baked and baked to baked (Blue Bottle Tree; Sculpey blog). The brand matters: in Blue Bottle Tree's test Fimo Professional bonded well to itself even without liquid clay, Cernit bonded well raw to raw, and Premo, Souffle and Kato bonded poorly unless a bonding agent was used. Sculpey's oven-bake clay adhesive also bonds raw clay to porous things that can go in the oven: wood, cork, cardboard, papier-mâché and heavy paper (Sculpey blog), and bare wood should be baked first at 135 °C for 20 minutes to drive out moisture and sap (Sculpey FAQ). Does not work: smooth metal, glass and other non-porous surfaces ('Clay cannot be bonded to metal or other non-porous surfaces', Sculpey FAQ; wrap or embed instead, see Baked-in findings); air-dry clay, pottery clay or epoxy putty (different materials, see Score-and-slip join and Epoxy putty); anything that cannot take about 130 °C, such as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints, which go soft and deform above 60 °C (Prusa 'PLA')
 - **Heat, cold, water and wear:** Once cured it behaves like the clay itself: polymer clay is 'strong, durable, and waterproof', and properly baked unsealed clay buttons survive the washing machine and tumble dryer (Blue Bottle Tree, buttons). It stays a little flexible. Underbaking leaves the clay and the joint weak (Blue Bottle Tree). Heat limits are those of the clay; the safety data sheet says not to heat it above 175 °C (Premo SDS). Plasticisers stay in the cured clay and can leach out (Wikipedia 'Polymer clay').
 
 ## Making it
@@ -297,7 +298,7 @@ Heat joining: the hazards are the oven, not the liquid. Bake at the temperature 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` = fills gaps (best guess): not on the glue lists in the finder tree; traits read from the text
 - ⚑ Finder value `bonds_well` = PVC (source uncertain): `materials` is marked ⚑ [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints ⚑ [uncertain]…"
 - ⚑ Finder value `bonds_poorly` = PLA, wood, paper or card, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints ⚑ [uncertain]…"
@@ -318,3 +319,4 @@ Heat joining: the hazards are the oven, not the liquid. Bake at the temperature 
 - <https://www.staedtler.com/uk/en/products/fimo-modelling-clay-accessories/fimo-accessoires/surface-treatment/fimo-liquid-8050-oven-bake-liquid-gel-m8050/>
 - <https://potterycrafts.co.uk/cdn/shop/files/Premo_Sculpey_Polymer_Clay_747a26ae-3aa8-4d8e-a413-1cfe01b669f7.pdf>
 - <https://www.sculpey.com/blogs/blog/6-things-to-avoid-when-baking-polymer-clay>
+- <https://help.prusa3d.com/article/pla_2062>

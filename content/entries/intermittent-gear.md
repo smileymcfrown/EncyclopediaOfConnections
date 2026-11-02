@@ -94,14 +94,10 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…ning rings (osamutake''s printed models are held with retaining
-      rings) [uncertain: tool not named]; for wooden…"'
 confirmed: []
 open_points: []
-uncertain_fields: [holding_principle, input_output, tools_needed, play_and_precision, materials, processes, print_in_place,
-  making_tips_3d_printing, off_the_shelf_parts, everyday_examples, environment_limits, safety_notes, make_it_yourself]
+uncertain_fields: [holding_principle, input_output, play_and_precision, materials, processes, print_in_place, making_tips_3d_printing,
+  off_the_shelf_parts, everyday_examples, environment_limits, safety_notes, make_it_yourself]
 diagram_idea: A driving gear with a short toothed section and a long smooth arc, shown at three moments (teeth meshing and
   turning the output, hand-over, smooth arc sliding against the output's curved notch and locking it), with a speed graph
   beneath showing the output's sudden start and stop compared with a Geneva's smooth curve.
@@ -293,7 +289,7 @@ Avoid it at high speed or with heavy or fast-moving loads, because the teeth pic
   - laser cut: ⚑ [uncertain] flat gear profiles could be cut from acrylic or plywood, no tested example found
   - off-the-shelf part: ⚑ [uncertain] complete mechanical counters contain them; separate part-toothed gears are not a common catalogue item
 - **Printing it in one piece (print in place):** no ⚑ [uncertain]: every printable example found was printed as separate gears and assembled on shafts (osamutake holds them with retaining rings); a [print-in-place](../glossary.md#print-in-place) version should be possible like other printed gear sets, but none was found
-- **Tools:** A screwdriver or hex key for the frame; pliers for retaining rings (osamutake's printed models are held with retaining rings) ⚑ [uncertain: tool not named]; for wooden versions, woodworking tools (Matthias Wandel cut away teeth with a Forstner bit on a drill press and shaped them on a strip sander)
+- **Tools:** A screwdriver or hex key for the frame; osamutake's printed models are held with printed retaining rings that come in the same print file, and he suggests sandpaper or a thin round file if a gear is too tight on its shaft; for wooden versions, woodworking tools (Matthias Wandel cut away teeth with a Forstner bit on a drill press and shaped them on a strip sander)
 - **Difficulty:** moderate: the gears are ordinary and print or cut easily, but you must add locking arcs and get the timing right so the first tooth enters cleanly; copying a working printed model first is the easiest start
 
 ### 3D printing tips
@@ -353,10 +349,9 @@ In motor-driven builds the meshing teeth and locking arcs are pinch points ⚑ [
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 18 sentences on this page marked [uncertain].
+- ⚑ 17 sentences on this page marked [uncertain].
 - ⚑ Finder value `print_in_place` = no (source uncertain): `print_in_place` is marked ⚑ [uncertain] here: "no ⚑ [uncertain]:…"
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `tools` = drill and tap, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ning rings (osamutake's printed models are held with retaining rings) ⚑ [uncertain: tool not named]; for wooden…"
 
 ## Sources
 

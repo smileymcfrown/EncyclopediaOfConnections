@@ -113,7 +113,7 @@ open_points:
 - kind: content
   note: '*Hose clamp*: Wikipedia says T-bolt clamps suit high-pressure turbo hoses; AMS Performance says they distort thin
     aluminium pipe, where a worm clamp is better.'
-uncertain_fields: [complexity, reuse_cycles, tools_needed, load, making_tips_3d_printing, safety_notes]
+uncertain_fields: [complexity, reuse_cycles, load, making_tips_3d_printing, safety_notes]
 diagram_idea: A cut-away of a hose pushed over a barbed spigot with a worm-drive clamp sitting just behind the barb, arrows
   showing the band squeezing inwards all round and the barb blocking the hose from sliding off; beside it, small side views
   of a spring clamp (squeeze tabs to open), an ear clamp before and after the ear is pinched, and a no-hub coupling joining
@@ -190,6 +190,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg
 - https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg
 - https://api.printables.com/graphql/
+- https://nassaunationalcable.com/products/1-3-4-1-15-16-stainless-steel-t-bolt-clamp-840188
 research: research/connection-types/results/Hose_clamp_wormdrive_clamp_ear_clamp_spring_hose_clamp.json
 image:
   file: hose-clamp.webp
@@ -304,7 +305,7 @@ Not for high-pressure lines, hydraulics, fuel at pressure or anything where a bl
   - off-the-shelf part: metal hose clamps are bought; a worm-drive clamp of any length can be made from a roll of perforated band and loose housings (EFC International Make-A-Clamp kit)
   - 3D print (FDM): plastic clamps for low-pressure duty such as dust-collection and ventilation hose, and the spigots, adapters and barbs that metal clamps go over (Printables models in make_it_yourself)
 - **Printing it in one piece (print in place):** no: metal clamps are bought; printed plastic hose clamps are a different, weaker version, usually a one-piece ratchet or clasp strip or a two-piece clamp closed with a screw (Printables 485192, 1338893, 22483).
-- **Tools:** Worm-drive: a flat screwdriver or a 1/4 in nut driver for mini clamps and a 5/16 in nut driver for standard clamps (Boshart); a torque-limiting 'T' nut driver with a 60 in-lb slip clutch stops over-tightening (Boshart); no-hub couplings need a torque wrench or preset torque driver, since standard ones are designed for 60 in-lb and heavy-duty ones are installed with a torque wrench (Charlotte Pipe). Spring clamps: pliers, or hose-clamp pliers (Wikipedia 'Hose clamp'). Ear clamps: ear-clamp pincers, which also remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket ⚑ [uncertain]. Cable-tie stand-ins: a cutter.
+- **Tools:** Worm-drive: a flat screwdriver or a 1/4 in nut driver for mini clamps and a 5/16 in nut driver for standard clamps (Boshart); a torque-limiting 'T' nut driver with a 60 in-lb slip clutch stops over-tightening (Boshart); no-hub couplings need a torque wrench or preset torque driver, since standard ones are designed for 60 in-lb and heavy-duty ones are installed with a torque wrench (Charlotte Pipe). Spring clamps: pliers, or hose-clamp pliers (Wikipedia 'Hose clamp'). Ear clamps: ear-clamp pincers, which also remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket wrench (a standard 7/16 in socket for one stainless clamp, Nassau National Cable). Cable-tie stand-ins: a cutter.
 - **Difficulty:** easy: buy a clamp of the right size and tighten it with a screwdriver; the skills are choosing the size, placing it behind the barb and not over-tightening. Ear clamps need the special pincers.
 
 ### 3D printing tips
@@ -369,7 +370,7 @@ PRESSURE: hose clamps are for moderate pressures only (Wikipedia 'Hose clamp'); 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…less worm-drive and spring clamps if the screw and band are undamaged ⚑ [uncertain:…"
 - ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket ⚑ [uncertain]. Cable-tie stand-ins: a cutt…"
 - ⚑ Research note: *Hose clamp*: Wikipedia says T-bolt clamps suit high-pressure turbo hoses; AMS Performance says they distort thin aluminium pipe, where a worm clamp is better.
@@ -396,3 +397,4 @@ PRESSURE: hose clamps are for moderate pressures only (Wikipedia 'Hose clamp'); 
 - <https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg>
 - <https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg>
 - <https://api.printables.com/graphql/>
+- <https://nassaunationalcable.com/products/1-3-4-1-15-16-stainless-steel-t-bolt-clamp-840188>

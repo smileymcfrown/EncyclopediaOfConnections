@@ -462,7 +462,7 @@
 - **power**: passive (no power needed); usually turned by a motor, crank or the previous counter wheel, and if power is lost the output stays where it is
 - **removability**: removable: the gears sit on shafts in a frame and can be taken apart (retaining rings, screws or push-fits)
 - **reuse_cycles**: many times: it can be dismantled and reassembled repeatedly; the limit is wear of the first teeth and the locking arcs
-- **tools_needed**: A screwdriver or hex key for the frame; pliers for retaining rings (osamutake's printed models are held with retaining rings) ⚑ [uncertain: tool not named]; for wooden versions, woodworking tools (Matthias Wandel cut away teeth with a Forstner bit on a drill press and shaped them on a strip sander) *(⚑ parts need confirming)*
+- **tools_needed**: A screwdriver or hex key for the frame; osamutake's printed models are held with printed retaining rings that come in the same print file, and he suggests sandpaper or a thin round file if a gear is too tight on its shaft; for wooden versions, woodworking tools (Matthias Wandel cut away teeth with a Forstner bit on a drill press and shaped them on a strip sander)
 - **seal**: none: it is an open gear mechanism; it does not seal anything
 - **load**: Light: RoyMech says mutilated gears stand up well to the loads found in instruments and counters, but are subject to large impact loads and accelerations at high driving speeds, so Genevas or star wheels are preferred for high speed and power. Bickford says that at high speed or high load 'its name is well deserved'. The weak points are the first tooth of each toothed section, which takes the impact, and tooth tips that can collide (top) if the output is not held properly during the pause. osamutake calls it unsuitable for heavy loads or high speeds.
 - **adjustable**: No, once made: the number, size and position of the toothed sections fix the steps and timing; they are chosen at design time and can be spaced unevenly to set any timing you like (osamutake)
@@ -565,7 +565,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: clicks ⚑ *needs confirming (best guess): the text uses both clicking and silent words*
-- **tools**: drill and tap, power tools, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ning rings (osamutake's printed models are held with retaining rings) [uncertain: tool not named]; for wooden…"*
+- **tools**: drill and tap, power tools, hand tools
 - **load_max**: light
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -617,7 +617,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, holding_principle, input_output, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, print_in_place, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, holding_principle, input_output, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, print_in_place, processes, safety_notes
 
 ## 84 Cam and follower (plate, barrel and face cams)
 
@@ -2341,10 +2341,10 @@
   - none of the locking behaviours: the tension always tries to untwist the strings, so it is not self-locking ⚑ [uncertain] *(⚑ parts need confirming)*
 - **holding_principle**: not a holding joint (it moves or passes on motion): it passes motor torque on as a pull, powered hold: the pull is kept only while the motor (or its gearbox) holds the twist
 - **input_output**: Continuous rotation (many turns) -> straight-line pull (tension only; it cannot push). Contraction x = L - sqrt(L^2 - theta^2 r^2), so the travel per turn grows as the twist builds and the pull per unit of motor torque shrinks; from the force relation F = torque / (r x tan(alpha)) with tan(alpha) = theta x r / p (German Wikipedia), the ratio is very high near zero twist. Typical stroke: under about 25% of the string length in most published designs, 81% with multi-string overtwisting (Tavakoli et al. 2016). Efficiency: about 79% for the strings alone in a high-power ankle exoskeleton (Tan and Collins 2025); German Wikipedia quotes 90%. Shaft arrangement: in line; the strings run straight out along the motor axis (a TSA does not need the motor mounted at right angles to the cable, unlike a spool; Park and SunSpiral, NASA). Back-drivable: yes in principle, since the load's pull always tries to untwist the strings and turn the motor backwards, but a high-ratio gearmotor's friction may hold it ⚑ [uncertain]. *(⚑ parts need confirming)*
-- **power**: powered (needs a motor to twist the strings; the same principle also works by hand, as in the Spanish windlass). If power is lost, the load tries to untwist the strings and run back unless the motor's gearbox friction or a brake holds the twist ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **power**: powered (needs a motor to twist the strings; the same principle also works by hand, as in the Spanish windlass). If power is lost, the load tries to untwist the strings and run back unless the motor's gearbox friction or a brake holds the twist: the twisted-string drive itself is back-drivable, and one robot hand adds brakes to lock its joints (US patent 9272425).
 - **removability**: removable: the strings are tied or looped to the motor hub and load and can be untied and replaced; they are a wear part
 - **reuse_cycles**: many times: the hardware lasts, but the strings wear out; string life ranges from hundreds of cycles under heavy load in thin line (Tavakoli et al.) to 18,000-190,000 cycles for 1-2 mm Dyneema ropes at 15-25 kg (Nguyen et al. 2025)
-- **tools_needed**: Scissors and knots (or loop ties) for the strings; small screwdriver or hex key for the motor hub and mounts; a lighter or heat sealer for synthetic string ends ⚑ [uncertain]; grease (Tan and Collins massaged Krytox grease into their Vectran braid) *(⚑ parts need confirming)*
+- **tools_needed**: Scissors and knots (or loop ties) for the strings; small screwdriver or hex key for the motor hub and mounts; a lighter or heat sealer for synthetic string ends (not for aramid, which does not melt; Wikipedia 'Whipping knot'); grease (Tan and Collins massaged Krytox grease into their Vectran braid)
 - **seal**: none: open strings and an open motor hub; nothing about it seals
 - **load**: Light to heavy depending on string and motor: a pager motor lifted 7 kg (Hizook); a 0.35 mm braided fishing line rated 321 N lifted 2 kg with a small 100:1 gearmotor (Tavakoli et al.); a 3 mm Vectran rope (9.5 kN breaking strength) drove an ankle exoskeleton at 43 N.m peak ankle torque and 700 W peak power (Tan and Collins). Strong in pull only; zero strength in push; the strings bend and swing sideways, so the load needs its own guide; the pull along the motor axis must be carried by a thrust bearing, not the motor shaft (Tan and Collins).
 - **adjustable**: yes: the pull and position are set by the motor angle; the ratio and stroke are chosen by string radius, number of strings and twisting-zone length (thicker bundles or more strands shorten more per turn, Hackaday / Guzek et al.; Tavakoli et al.); a small pre-twist sets where on the curve it starts; research versions add a clutch to switch between fast direct pulling and strong twisting (dual-mode TSA) or move the string attachment points to vary the ratio continuously
@@ -2436,18 +2436,19 @@
   - https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/README.md
   - https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/LICENSE
   - https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md
+  - https://en.wikipedia.org/wiki/Whipping_knot
 
 ### Finder tags
 
 - **connects**: not applicable
-- **power_source**: electricity ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…n back unless the motor's gearbox friction or a brake holds the twist [uncertain].…"*
-- **power_loss**: lets go ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…n back unless the motor's gearbox friction or a brake holds the twist [uncertain].…"*
+- **power_source**: electricity
+- **power_loss**: lets go
 - **motion_in**: steady turning
 - **motion_out**: straight push or pull
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…or hub and mounts; a lighter or heat sealer for synthetic string ends [uncertain]; grease (Tan and Collins mas…"*
+- **tools**: hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
@@ -2499,7 +2500,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, power, processes, safety_notes, special_behaviour, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, processes, safety_notes, special_behaviour
 
 ## 196 Quick-return mechanism (Whitworth, crank and slotted lever)
 

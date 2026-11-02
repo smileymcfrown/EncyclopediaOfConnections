@@ -89,9 +89,6 @@ finder:
   drive_split: [not applicable]
   made_of: [3D prints]
 needs_confirming:
-  power_source:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…n out of the hot water early it keeps the partial fold it has reached [uncertain]…"'
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
@@ -101,7 +98,7 @@ needs_confirming:
       part [uncertain]…"'
 confirmed: []
 open_points: []
-uncertain_fields: [power, reuse_cycles, tools_needed, making_tips_3d_printing, off_the_shelf_parts, everyday_examples, environment_limits,
+uncertain_fields: [reuse_cycles, tools_needed, making_tips_3d_printing, off_the_shelf_parts, everyday_examples, environment_limits,
   safety_notes]
 diagram_idea: 'A three-step strip cartoon: a flat print with a hinge made of a stretched PLA layer on a TPU layer (arrows
   showing locked-in stretch), the print dropped into 70 degrees C water with the PLA shrinking, and the hinge curled up into
@@ -169,6 +166,7 @@ sources:
 - https://www.youtube.com/watch?v=5rnD4DyFmNs
 - https://www.youtube.com/watch?v=yNZ2mqYNLYI
 - https://api.printables.com/graphql/
+- https://www.grid.uns.ac.rs/symposium/download/2020/posteri/18.pdf
 research: research/connection-types/results/Selffolding_print_4D_printing.json
 image:
   file: drawn/anim/self-folding-print.svg
@@ -260,7 +258,7 @@ Avoid it where you need exact dimensions or angles (print the 3D shape directly 
   - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): once cooled, the folded hinges are frozen in their new shape, and folded panels can wrap or lock around each other
   - spring force (a spring or springy part presses it in place): in the dissolvable-lock version, the TPU spring holds the hinge in its folded position
 - **Input and output:** not applicable as a transmission: a one-off stimulus (hot water at about 70 degrees C, or plain water for PVA locks) -> a planned fold
-- **Power:** powered, but only once: it needs heat (hot water, a heat gun or oven) or water to trigger the fold. After folding it holds its shape with no energy. If taken out of the hot water early it keeps the partial fold it has reached ⚑ [uncertain]
+- **Power:** powered, but only once: it needs heat (hot water, a heat gun or oven) or water to trigger the fold. After folding it holds its shape with no energy. The fold angle grows with time in the hot water (Pivar and Muck 2020) and the part sets as it cools (Thermorph), so one taken out early keeps the partial fold it has reached
 - **Load:** light: thin self-folded parts are small and flexible at the hinges; a 0.8 mm thick 1:100 model chair held about 350 g with less than 5 degrees of bending, and the authors estimate about 3 mm thickness for a full-size chair (An et al. 2018). Weakest at the hinges, especially if reheated
 - **Play and precision:** Play: none (one piece). Precision: low to moderate; gravity, collisions between folding panels and differences between filaments make the finished angles differ from the plan, which researchers fix by holding a central face, changing folding order or tweaking print speed (An et al. 2018). Five printed roses folded consistently (An et al. 2018)
 - **Taking it apart:** permanent: once folded it stays folded; PLA versions can be softened with heat and reshaped, but they tend to return to their programmed folded shape when reheated (An et al. 2018)
@@ -337,8 +335,7 @@ Hot water at 70 to 85 degrees C and heat guns can scald or burn, so use tongs an
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `power_source` = liquid, heat (source uncertain): `power` is marked ⚑ [uncertain] here: "…n out of the hot water early it keeps the partial fold it has reached ⚑ [uncertain]…"
+- ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `tools` = heat gun (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ts; a bowl of water for PVA-lock prints; tongs to handle the hot part ⚑ [uncertain]…"
 
@@ -362,3 +359,4 @@ Hot water at 70 to 85 degrees C and heat guns can scald or burn, so use tongs an
 - <https://www.youtube.com/watch?v=5rnD4DyFmNs>
 - <https://www.youtube.com/watch?v=yNZ2mqYNLYI>
 - <https://api.printables.com/graphql/>
+- <https://www.grid.uns.ac.rs/symposium/download/2020/posteri/18.pdf>

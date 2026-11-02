@@ -114,7 +114,7 @@ needs_confirming:
       [uncertain: surface energy named in Wiki…"'
 confirmed: []
 open_points: []
-uncertain_fields: [aliases, seal, load, play_and_precision, materials, making_tips_3d_printing, environment_limits, rules_of_thumb]
+uncertain_fields: [aliases, seal, load, play_and_precision, making_tips_3d_printing, environment_limits, rules_of_thumb]
 diagram_idea: 'Three side views of two flat panels with a small gap: (1) a single strip of tape across the top as a seam,
   with an arrow showing it peeling from the corner; (2) a two-strip hinge, top strip applied with the flap down and bottom
   strip with the flap up; (3) a woven hinge, two half-strips overlapping in the gap and stuck to opposite faces, with the
@@ -177,6 +177,7 @@ sources:
 - https://connectingtocollections.org/wp-content/uploads/2019/08/Book-Repair_handout-1-1.pdf
 - https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg
 - https://api.printables.com/graphql/
+- https://www.tesa.com/en/industry/lp/lse-mounting-solutions
 research: research/connection-types/results/Adhesive_tape_joint_and_tape_hinge_pressuresensitive_tape_masking_packing_gummed_paper_and_doublesided_tissue_tape.json
 image:
   file: drawn/adhesive-tape-joint-and-tape-hinge.svg
@@ -263,7 +264,7 @@ Avoid tape for anything that must last for years, stay outdoors, carry steady we
 - **Sealing:** dust-resistant: a continuous strip over a seam, or an 'H-seal' with cross strips over the box ends, helps keep contaminants out (Wikipedia 'Box-sealing tape'). Duct tape resists water and was first used to seal ammunition cases (Wikipedia 'Duct tape'), but taped seams are not reliably watertight long term ⚑ [uncertain].
 - **Adjustable:** Partly: removable tapes (masking, drafting) can be lifted and repositioned; other tapes cannot be moved once pressed down without damage. The gap of a tape hinge is set when it is taped, using spacers (Model Aviation FAQ 2010/02). Some permanent adhesives grow stronger over hours or days after application (Wikipedia 'Pressure-sensitive adhesive').
 - **Access needed:** one side only (blind) for a single strip over a seam or a one-piece gapless hinge; both sides for the usual two-strip hinge (top and underside) or a woven hinge (Flite Test; Model Aviation FAQ 2010/02)
-- **Materials:** Tape sticks best to clean, dry, smooth surfaces; surface smoothness, [surface energy](../glossary.md#surface-energy) and cleanliness all affect the bond (Wikipedia 'Pressure-sensitive adhesive'). Suits: paper and card (office tape, masking and drafting tape), corrugated cardboard (box-sealing tape, filament tape, gummed paper tape), foam board and foam model planes (clear packing tape and fibre tape; Fold 'N Fly; Flite Test), balsa (Flite Test 'Tape weave hinges' comments), painted walls and car body panels for masking (Wikipedia 'Masking tape'), wood and veneer as a temporary hinge in mitre folds (Woodweb). Gummed paper tape needs a fibrous surface such as cardboard to soak into (iTape). Poor: dusty, oily, damp, rough or very low-energy surfaces such as polyethylene and polypropylene film ⚑ [uncertain: surface energy named in Wikipedia but no plastic list opened]; fragile or valuable paper and documents (tape stains and damages them; Manitoba Museum; JAIC 1984); anything to be painted, since duct tape won't take paint (Cool Tools).
+- **Materials:** Tape sticks best to clean, dry, smooth surfaces; surface smoothness, [surface energy](../glossary.md#surface-energy) and cleanliness all affect the bond (Wikipedia 'Pressure-sensitive adhesive'). Suits: paper and card (office tape, masking and drafting tape), corrugated cardboard (box-sealing tape, filament tape, gummed paper tape), foam board and foam model planes (clear packing tape and fibre tape; Fold 'N Fly; Flite Test), balsa (Flite Test 'Tape weave hinges' comments), painted walls and car body panels for masking (Wikipedia 'Masking tape'), wood and veneer as a temporary hinge in mitre folds (Woodweb). Gummed paper tape needs a fibrous surface such as cardboard to soak into (iTape). Poor: dusty, oily, damp, rough or very low-energy surfaces such as polyethylene and polypropylene film, which 'tend to repel standard adhesives' and need specially made tapes (tesa 'LSE mounting solutions'); fragile or valuable paper and documents (tape stains and damages them; Manitoba Museum; JAIC 1984); anything to be painted, since duct tape won't take paint (Cool Tools).
 - **Heat, cold, water and wear:** Pressure-sensitive adhesives lose tack in the cold and hold less under load when hot (Wikipedia 'Pressure-sensitive adhesive'). Rubber-based tapes such as masking and older clear tape age by oxidation: first little change, then the adhesive turns sticky, oily and yellow and soaks into paper, and finally it hardens, discolours and lets go, with the backing falling off; acrylic tapes discolour much less but slowly flow (cold flow) into porous paper (JAIC 1984, 'Pressure-sensitive tape and techniques for its removal from paper'). Ordinary duct tape fails on hot heating ducts, and tests at Lawrence Berkeley National Laboratory found it becomes [brittle](../glossary.md#brittle--ductile), fails and can fall off (Wikipedia 'Duct tape'). Masking tape is meant for temporary use at room temperature and to come off cleanly only within a limited time (Wikipedia 'Masking tape'; 'Pressure-sensitive tape'). Tape unpeels outdoors in weather (Cool Tools), and hinge tape loses adhesion over time, so check model hinges often (Flite Test). Sunlight speeds ageing ⚑ [uncertain: no UV figure found on an opened page].
 
 ## Making it
@@ -336,7 +337,7 @@ None special for the tape itself; the main risks are to the work: residue on sur
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
 - ⚑ Finder value `bonds_well` = wood, paper or card, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film ⚑ [uncertain: surface energy named in Wiki…"
 - ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP) (source uncertain): `materials` is marked ⚑ [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film ⚑ [uncertain: surface energy named in Wiki…"
@@ -366,3 +367,4 @@ None special for the tape itself; the main risks are to the work: residue on sur
 - <https://connectingtocollections.org/wp-content/uploads/2019/08/Book-Repair_handout-1-1.pdf>
 - <https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg>
 - <https://api.printables.com/graphql/>
+- <https://www.tesa.com/en/industry/lp/lse-mounting-solutions>

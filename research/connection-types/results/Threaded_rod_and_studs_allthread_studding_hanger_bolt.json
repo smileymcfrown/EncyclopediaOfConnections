@@ -41,11 +41,11 @@
       "friction or clamping (force-fit): nuts tightened along the rod clamp the parts between them, and preload and thread friction stop the nuts turning (Wikipedia 'Jam nut')",
       "shape (the parts interlock; form-fit): the thread flanks interlock with the nut, the tapped hole or, for a hanger bolt, the wood fibres, and carry the pull"
     ],
-    "input_output": "Usually not applicable (it is a fixing). When turned as a crude lead screw: rotation -> straight-line motion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread [uncertain]); low efficiency, so it is not back-drivable (self-locking) (Wikipedia 'Screw (simple machine)'); shaft in line with the motion. See Lead screw and nut.",
+    "input_output": "Usually not applicable (it is a fixing). When turned as a crude lead screw: rotation -> straight-line motion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread, Wikipedia 'ISO metric screw thread'); low efficiency, so it is not back-drivable (self-locking) (Wikipedia 'Screw (simple machine)'); shaft in line with the motion. See Lead screw and nut.",
     "power": "passive (no power needed)",
     "removability": "removable: nuts undo with spanners, and studs and hanger bolts can be backed out by gripping two nuts jammed together (Wikipedia 'Jam nut'; The Handyman's Daughter). Rod set in concrete with epoxy or cast in is permanent (Portland Bolt), and seized stainless threads may have to be cut off (Wikipedia 'Galling').",
     "reuse_cycles": "many times: steel rod and nuts can be refitted many times if the threads are kept clean and undamaged; stainless and aluminium threads can gall and seize (Wikipedia 'Galling'); hanger bolts in wood loosen their hole if taken out and refitted often [uncertain].",
-    "tools_needed": "Two spanners (wrenches) or a socket set; to cut rod, a hacksaw, a chop saw (a cold-cutting blade leaves 'significantly less burring' than an abrasive one) or a threaded-rod shear; a grinder, file or cone-shaped chamfering tool (e.g. a Uniburr) to clean the cut end; gloves, since cut rod gets hot (Albany County Fasteners; Wikimedia Commons 'Gewindestangenschere Makita.jpg'). To fit studs and hanger bolts: two nuts jammed together, or a hanger-bolt driver bit in a drill (Wikipedia 'Jam nut'; The Handyman's Daughter); a drill for clearance and pilot holes, and a tap to thread a hole for a stud [uncertain]. A ruler or a cut-to-length jig to set spacings (RepRap 'Prusa Mendel Assembly').",
+    "tools_needed": "Two spanners (wrenches) or a socket set; to cut rod, a hacksaw, a chop saw (a cold-cutting blade leaves 'significantly less burring' than an abrasive one) or a threaded-rod shear; a grinder, file or cone-shaped chamfering tool (e.g. a Uniburr) to clean the cut end; gloves, since cut rod gets hot (Albany County Fasteners; Wikimedia Commons 'Gewindestangenschere Makita.jpg'). To fit studs and hanger bolts: two nuts jammed together, or a hanger-bolt driver bit in a drill (Wikipedia 'Jam nut'; The Handyman's Daughter); a drill for clearance and pilot holes, and a tap to thread a hole for a stud, since a stud is driven into a tapped hole (Vulcan 'Stud installation' tip). A ruler or a cut-to-length jig to set spacings (RepRap 'Prusa Mendel Assembly').",
     "seal": "none: fluid can creep along the thread; where a rod passes through a wet or pressurised wall, seal it with sealing washers or thread sealant [uncertain].",
     "load": "Medium to heavy in tension (a pull along the rod), set by the grade, diameter, nuts and the material being clamped; poor in bending and only moderate in shear, because it is 'designed to be used in tension' (Wikipedia) and its thread sits wherever it crosses a joint [uncertain]. The grade matters hugely: unmarked metric rod is class 4.6 (tensile strength 400 N/mm2, yield 240 N/mm2), yellow-marked class 8.8 is twice as strong (800 and 640), and white-marked 10.9 stronger still (1000 and 900) (Wikipedia 'Threaded rod'). The AISC allowable tension for ordinary threaded rod is P = 0.33 x Fu x pi x d^2 / 4 (Wikipedia); for M8 class 4.6 that gives about 6.6 kN (about 680 kgf) as a structural steel design value (calculated here), not a rating for lifting [uncertain]. A tap-end stud in soft metal is limited by the tapped thread unless it goes in about 1 x its diameter in steel and 2 x in aluminium (Nord-Lock). A hanger bolt is limited by its wood thread's grip, like a coach screw [uncertain]. Through printed plastic, the plastic crushes long before the rod fails, hence 'do not crush the plastic' (RepRap).",
     "adjustable": "yes: run the nuts along the rod to change a spacing, height, length or tension, then lock them with a second nut (Wikipedia 'Jam nut'); RepRap builders set each frame side to 290 mm this way (RepRap 'Prusa Mendel Assembly'). Coupling nuts join rods end to end and can draw them together or push them apart (Wikipedia 'Coupling nut').",
@@ -192,15 +192,15 @@
       "https://commons.wikimedia.org/wiki/File:Hanger_bolt.jpg",
       "https://commons.wikimedia.org/wiki/File:Double_screw_dowel.png",
       "https://commons.wikimedia.org/wiki/File:Gewindestangenschere_Makita.jpg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/ISO_metric_screw_thread",
+      "https://vulcanhammer.info/2017/06/21/vulcan-offshore-tip-12-stud-installation/"
     ]
   },
   "uncertain": [
     "aliases",
     "how_it_works",
-    "input_output",
     "reuse_cycles",
-    "tools_needed",
     "seal",
     "load",
     "play_and_precision",

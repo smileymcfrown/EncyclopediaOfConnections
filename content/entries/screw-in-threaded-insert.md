@@ -101,7 +101,7 @@ open_points:
   note: '*Screw-in threaded insert*: helical insert lengths (1d, 1.5d, 2d) are left out because Böllhoff''s HELICOIL PDFs
     were blocked. CNC Kitchen found a helical insert in PETG held no better than a plain screw (120 kg against 118 kg); worth
     a note in the published entry.'
-uncertain_fields: [removability, seal, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes, common_failures]
+uncertain_fields: [seal, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes, common_failures]
 diagram_idea: 'Three side-view cut-aways in a block of soft material: (1) a helical wire coil being wound into an oversize
   tapped hole with its tang at the bottom, then the tang snapped off; (2) a self-tapping insert with cutting slots cutting
   its own thread into a plain drilled hole; (3) both finished with a bolt screwed in, with arrows showing how the large outside
@@ -165,6 +165,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:TIME-SERT_thread_insert.gif
 - https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg
 - https://api.printables.com/graphql/
+- https://www.hfsindustrial.com/50002.html
 research: research/connection-types/results/Screwin_threaded_insert_wire_thread_insert_selftapping_insert.json
 image:
   file: screw-in-threaded-insert.webp
@@ -244,7 +245,7 @@ In thermoplastic FDM prints (PLA, PETG, ABS), use a heat-set insert or a nut tra
 - **Power:** passive (no power needed)
 - **Load:** medium to heavy in metal and wood, light to medium in plastic prints. Strong in pull-out and twist because the large outside thread spreads load (NASA RP-1228). In soft metals such as aluminium they give stronger threads than tapping the base metal directly (Wikipedia). In FDM prints a helical insert gave no gain: CNC Kitchen's M3 tests in PETG held 120 kg pull-out against 118 kg for a screw straight into plastic, and both stripped at 1 Nm, while a heat-set insert took 3 Nm. In resin, SPIROL rates self-tapping inserts a 'viable alternative' to press-in inserts but with limited back-out [torque](../glossary.md#torque).
 - **Play and precision:** small: the insert gives a normal metal thread with ordinary screw [clearance](../glossary.md#clearance). The main precision issue is getting it in straight; a self-tapping insert that starts crooked or cross-threads stays crooked (Printables self-tapping insert cut-outs: 'take care getting the thread started to avoid crossthreading').
-- **Taking it apart:** semi-permanent: the insert is meant to stay in, but can come out: helical inserts with an extraction tool ⚑ [uncertain], adhesive-locked E-Z LOK inserts with a bolt extractor or by heating above 149 °C (300 °F) (E-Z LOK); key-locked and TIME-SERT inserts are permanent (Wikipedia). The screw in it is removable many times.
+- **Taking it apart:** semi-permanent: the insert is meant to stay in, but can come out: helical inserts with an extraction tool that winds them out (Recoil insert removal tool, HFS Industrial), adhesive-locked E-Z LOK inserts with a bolt extractor or by heating above 149 °C (300 °F) (E-Z LOK); key-locked and TIME-SERT inserts are permanent (Wikipedia). The screw in it is removable many times.
 - **How often it can be reused:** many times: the screw can be put in and taken out many times without wearing the soft parent material, which is the point of fitting it (Wikipedia; E-Z LOK wood inserts 'allow for multiple assembly and disassembly cycles'). The insert itself is usually fitted once.
 - **Sealing:** none: it does not seal; fluid can pass along the threads unless a thread sealant or adhesive is used ⚑ [uncertain]
 - **Adjustable:** no: it is a fixed threaded anchor; any adjustment comes from the screw or the parts being joined
@@ -322,7 +323,7 @@ Brittle resin prints can crack or burst when a thread is forced into them, throw
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `removability` = semi-permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…to stay in, but can come out: helical inserts with an extraction tool ⚑ [uncertain], adhesive-locked E-Z LOK ins…"
 - ⚑ Research note: *Screw-in threaded insert*: helical insert lengths (1d, 1.5d, 2d) are left out because Böllhoff's HELICOIL PDFs were blocked. CNC Kitchen found a helical insert in PETG held no better than a plain screw (120 kg against 118 kg); worth a note in the published entry.
 
@@ -346,3 +347,4 @@ Brittle resin prints can crack or burst when a thread is forced into them, throw
 - <https://commons.wikimedia.org/wiki/File:TIME-SERT_thread_insert.gif>
 - <https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg>
 - <https://api.printables.com/graphql/>
+- <https://www.hfsindustrial.com/50002.html>

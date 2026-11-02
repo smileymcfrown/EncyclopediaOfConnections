@@ -128,8 +128,8 @@ open_points:
   note: '*Threaded rod and studs*: 15 of 41 fields are marked [uncertain] (the M8 example load is calculated; the ''studding''
     alias, the stud-wear argument and rod being weak in bending have no opened source; the AISC article and forum pages were
     blocked), so check it first. The agent also added the adjusters family to `other_families`.'
-uncertain_fields: [aliases, how_it_works, input_output, reuse_cycles, tools_needed, seal, load, play_and_precision, materials,
-  processes, making_tips_3d_printing, when_to_use, environment_limits, safety_notes, common_failures]
+uncertain_fields: [aliases, how_it_works, reuse_cycles, seal, load, play_and_precision, materials, processes, making_tips_3d_printing,
+  when_to_use, environment_limits, safety_notes, common_failures]
 diagram_idea: 'Three side-by-side sketches: (1) a length of threaded rod passing through two printed plates with a washer
   and nut on each side of each plate, arrows showing the rod in tension and the plates squeezed, and a jig block setting the
   gap; (2) a tap-end stud screwed into a part with a cover slid over it and clamped by a nut; (3) a hanger bolt with its wood-thread
@@ -203,6 +203,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Double_screw_dowel.png
 - https://commons.wikimedia.org/wiki/File:Gewindestangenschere_Makita.jpg
 - https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/ISO_metric_screw_thread
+- https://vulcanhammer.info/2017/06/21/vulcan-offshore-tip-12-stud-installation/
 research: research/connection-types/results/Threaded_rod_and_studs_allthread_studding_hanger_bolt.json
 image:
   file: threaded-rod-and-studs.webp
@@ -301,7 +303,7 @@ Not for lifting, swings or anything holding people or heavy overhead loads unles
 - **How it holds:**
   - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): nuts tightened along the rod clamp the parts between them, and [preload](../glossary.md#preload) and thread friction stop the nuts turning (Wikipedia 'Jam nut')
   - shape (the parts interlock; form-fit): the thread flanks interlock with the nut, the tapped hole or, for a hanger bolt, the wood fibres, and carry the pull
-- **Input and output:** Usually not applicable (it is a fixing). When turned as a crude lead screw: rotation -> straight-line motion of a nut, one thread [pitch](../glossary.md#pitch) per turn (1.25 mm for M8 coarse thread ⚑ [uncertain]); low efficiency, so it is not back-drivable (self-locking) (Wikipedia 'Screw (simple machine)'); shaft in line with the motion. See Lead screw and nut.
+- **Input and output:** Usually not applicable (it is a fixing). When turned as a crude lead screw: rotation -> straight-line motion of a nut, one thread [pitch](../glossary.md#pitch) per turn (1.25 mm for M8 coarse thread, Wikipedia 'ISO metric screw thread'); low efficiency, so it is not back-drivable (self-locking) (Wikipedia 'Screw (simple machine)'); shaft in line with the motion. See Lead screw and nut.
 - **Power:** passive (no power needed)
 - **Load:** Medium to heavy in tension (a pull along the rod), set by the grade, diameter, nuts and the material being clamped; poor in bending and only moderate in shear, because it is 'designed to be used in tension' (Wikipedia) and its thread sits wherever it crosses a joint ⚑ [uncertain]. The grade matters hugely: unmarked metric rod is class 4.6 (tensile strength 400 N/mm2, yield 240 N/mm2), yellow-marked class 8.8 is twice as strong (800 and 640), and white-marked 10.9 stronger still (1000 and 900) (Wikipedia 'Threaded rod'). The AISC allowable tension for ordinary threaded rod is P = 0.33 x Fu x pi x d^2 / 4 (Wikipedia); for M8 class 4.6 that gives about 6.6 kN (about 680 kgf) as a structural steel design value (calculated here), not a rating for lifting ⚑ [uncertain]. A tap-end stud in soft metal is limited by the tapped thread unless it goes in about 1 x its diameter in steel and 2 x in aluminium (Nord-Lock). A hanger bolt is limited by its wood thread's grip, like a coach screw ⚑ [uncertain]. Through printed plastic, the plastic crushes long before the rod fails, hence 'do not crush the plastic' (RepRap).
 - **Play and precision:** Small: a loose nut on a thread has a little end play ([backlash](../glossary.md#backlash)), but once nuts are tightened against both sides of a part there is none. Positions are only as accurate as you set them: RepRap builders use a cut-to-length jig 'until you can just barely fit the jig J1 between them' (RepRap). The rod doesn't locate parts sideways by itself, because it sits in [clearance](../glossary.md#clearance) holes ⚑ [uncertain]. A rod that is not straight wobbles when turned: the Prusa Mendel notes wobbling 'if your threaded rods are not straight or your couplings are not aligned' (RepRap).
@@ -322,7 +324,7 @@ Not for lifting, swings or anything holding people or heavy overhead loads unles
   - CNC: studs in a T-slot bed to hold down clamps, with printed knobs (Printables 'Knob for M5 threaded rod / stud')
   - laser cut: plywood or acrylic plates held apart at set distances by threaded rod and nuts ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: the rod and nuts are bought; printed parts are slid onto the rod, and nuts are pressed into printed pockets after printing (Printables 'Knob for M5 threaded rod / stud').
-- **Tools:** Two spanners (wrenches) or a socket set; to cut rod, a hacksaw, a chop saw (a cold-cutting blade leaves 'significantly less burring' than an abrasive one) or a threaded-rod shear; a grinder, file or cone-shaped chamfering tool (e.g. a Uniburr) to clean the cut end; gloves, since cut rod gets hot (Albany County Fasteners; Wikimedia Commons 'Gewindestangenschere Makita.jpg'). To fit studs and hanger bolts: two nuts jammed together, or a hanger-bolt driver bit in a drill (Wikipedia 'Jam nut'; The Handyman's Daughter); a drill for clearance and [pilot holes](../glossary.md#pilot-hole), and a tap to thread a hole for a stud ⚑ [uncertain]. A ruler or a cut-to-length jig to set spacings (RepRap 'Prusa Mendel Assembly').
+- **Tools:** Two spanners (wrenches) or a socket set; to cut rod, a hacksaw, a chop saw (a cold-cutting blade leaves 'significantly less burring' than an abrasive one) or a threaded-rod shear; a grinder, file or cone-shaped chamfering tool (e.g. a Uniburr) to clean the cut end; gloves, since cut rod gets hot (Albany County Fasteners; Wikimedia Commons 'Gewindestangenschere Makita.jpg'). To fit studs and hanger bolts: two nuts jammed together, or a hanger-bolt driver bit in a drill (Wikipedia 'Jam nut'; The Handyman's Daughter); a drill for clearance and [pilot holes](../glossary.md#pilot-hole), and a tap to thread a hole for a stud, since a stud is driven into a tapped hole (Vulcan 'Stud installation' tip). A ruler or a cut-to-length jig to set spacings (RepRap 'Prusa Mendel Assembly').
 - **Difficulty:** easy: cut it to length, clean the end and add nuts and washers; the points needing care are deburring the cut, keeping the rod straight, not over-tightening printed parts, and using a rated grade wherever a failure could hurt someone.
 
 ### 3D printing tips
@@ -390,7 +392,7 @@ Plain zinc-plated hardware-store rod is usually a low-strength grade, and unmark
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 23 sentences on this page marked [uncertain].
+- ⚑ 21 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = any solid parts (best guess): joins parts, but no specific kind of part found; set to any solid parts
 - ⚑ Finder value `motion_in` = steady turning (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread ⚑ [uncertain])…"
 - ⚑ Finder value `motion_out` = straight push or pull (source uncertain): `input_output` is marked ⚑ [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread ⚑ [uncertain])…"
@@ -425,3 +427,5 @@ Plain zinc-plated hardware-store rod is usually a low-strength grade, and unmark
 - <https://commons.wikimedia.org/wiki/File:Double_screw_dowel.png>
 - <https://commons.wikimedia.org/wiki/File:Gewindestangenschere_Makita.jpg>
 - <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/ISO_metric_screw_thread>
+- <https://vulcanhammer.info/2017/06/21/vulcan-offshore-tip-12-stud-installation/>

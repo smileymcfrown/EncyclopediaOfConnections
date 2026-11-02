@@ -40,10 +40,10 @@
       "not a holding joint (it moves or passes on motion): it is a drive that passes on and measures force"
     ],
     "input_output": "Rotation -> rotation for rotary SEAs; rotation -> straight push-pull for linear SEAs using a ball screw with springs on either side of the nut (Hurst & Green; MIT-SEA). The spring stage itself is 1:1 on average, in line; the gearing before it sets the ratio (Pratt & Williamson used a 66:1 planetary gearbox; OpenSEA a 3:1 helical planetary; Lee & Oh a 2:1 timing belt). The output lags or leads the gearbox by the spring's deflection. Efficiency: a steel spring gives back almost all the energy it stores [uncertain: no figure found]; rubber and other elastomers lose some to hysteresis (Hurst & Green). Back-drivable: yes, within the spring's travel, even if the gearbox is locked; beyond that, only if the gearbox itself is back-drivable. With control, it can be made to feel softer or stiffer than the real spring (Pratt & Williamson).",
-    "power": "powered: needs a motor and, for force control, sensors and a controller. The spring coupling itself is passive. If power is lost, the joint behaves like the bare gearbox plus the spring: a self-locking gearbox holds with springy give, a back-drivable one lets the joint sag [uncertain]",
+    "power": "powered: needs a motor and, for force control, sensors and a controller. The spring coupling itself is passive. If power is lost, the joint behaves like the bare gearbox plus the spring: a self-locking gearbox holds with springy give (a worm drive holds static loads with no motor power, Milazzo et al. 2024), a back-drivable one lets the joint sag",
     "removability": "removable: built from bolted parts, bearings and swappable springs",
     "reuse_cycles": "many times: it can be dismantled to change the spring or service the gearbox; the limit is spring fatigue and gear wear [uncertain]",
-    "tools_needed": "Hex keys and screwdrivers for assembly, a soldering iron for sensor wiring, and known weights or a torque gauge to calibrate the spring's stiffness [uncertain: general practice]",
+    "tools_needed": "Hex keys and screwdrivers for assembly, a soldering iron for sensor wiring, and known weights or a torque gauge to calibrate the spring's stiffness (Koda et al. 2024 hung weights on a locked SEA to measure its spring constant)",
     "seal": "none: the actuator described in the sources is open; seal it with a housing if needed",
     "load": "Light to heavy depending on the design. Hobby and 3D-printed versions carry a few newton-metres (OpenSEA: designed for about ±3 N·m through the spring, with up to 12.36 N·m from its gearbox; a stroke-rehabilitation elbow needs about 3 N·m). A linear electric SEA in one design study carried 450 N (IntechOpen chapter). Hydraulic SEAs give about 100 times the power density of electric ones and suit heavy legged robots (IntechOpen). Strong in the drive direction up to the spring's safe deflection; beyond it the spring yields or hits end stops (Pratt & Williamson list the spring's yield point as a limit). Side loads should be carried by bearings, not by the spring [uncertain].",
     "adjustable": "The physical stiffness is fixed by the spring fitted, but springs can be swapped (a hackaday.io printed leg uses swappable springs) or changed on the fly in a variable-stiffness actuator; the controller can make the joint behave softer or stiffer than the spring (Pratt & Williamson). String versions adjust pre-tension with a screw (Printables tendon tensioner).",
@@ -172,14 +172,14 @@
       "https://commons.wikimedia.org/wiki/File:1-a-Schematic-Diagram-of-Series-Elastic-Actuators-44-b-Series-Elastic-Actuator.png",
       "https://commons.wikimedia.org/wiki/File:Variable_Impedance_Actuator.jpg",
       "https://tamiyamodel.com/how-does-a-servo-saver-work/",
-      "https://help.prusa3d.com/article/pla_2062"
+      "https://help.prusa3d.com/article/pla_2062",
+      "https://arxiv.org/pdf/2412.03985",
+      "https://arxiv.org/pdf/2409.15791"
     ]
   },
   "uncertain": [
     "input_output",
-    "power",
     "reuse_cycles",
-    "tools_needed",
     "load",
     "processes",
     "making_tips_3d_printing",

@@ -48,7 +48,7 @@
     "adjustable": "yes, until it is baked: the parts can be slid into position while the liquid clay is still runny (Sculpey blog); no once baked",
     "play_and_precision": "not applicable",
     "access_needed": "both sides (the two joining faces must be coated before they are pressed together)",
-    "materials": "Joins PVC polymer clay to itself in every combination: raw to raw, raw to baked and baked to baked (Blue Bottle Tree; Sculpey blog). The brand matters: in Blue Bottle Tree's test Fimo Professional bonded well to itself even without liquid clay, Cernit bonded well raw to raw, and Premo, Souffle and Kato bonded poorly unless a bonding agent was used. Sculpey's oven-bake clay adhesive also bonds raw clay to porous things that can go in the oven: wood, cork, cardboard, papier-mâché and heavy paper (Sculpey blog), and bare wood should be baked first at 135 °C for 20 minutes to drive out moisture and sap (Sculpey FAQ). Does not work: smooth metal, glass and other non-porous surfaces ('Clay cannot be bonded to metal or other non-porous surfaces', Sculpey FAQ; wrap or embed instead, see Baked-in findings); air-dry clay, pottery clay or epoxy putty (different materials, see Score-and-slip join and Epoxy putty); anything that cannot take about 130 °C, such as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints [uncertain]",
+    "materials": "Joins PVC polymer clay to itself in every combination: raw to raw, raw to baked and baked to baked (Blue Bottle Tree; Sculpey blog). The brand matters: in Blue Bottle Tree's test Fimo Professional bonded well to itself even without liquid clay, Cernit bonded well raw to raw, and Premo, Souffle and Kato bonded poorly unless a bonding agent was used. Sculpey's oven-bake clay adhesive also bonds raw clay to porous things that can go in the oven: wood, cork, cardboard, papier-mâché and heavy paper (Sculpey blog), and bare wood should be baked first at 135 °C for 20 minutes to drive out moisture and sap (Sculpey FAQ). Does not work: smooth metal, glass and other non-porous surfaces ('Clay cannot be bonded to metal or other non-porous surfaces', Sculpey FAQ; wrap or embed instead, see Baked-in findings); air-dry clay, pottery clay or epoxy putty (different materials, see Score-and-slip join and Epoxy putty); anything that cannot take about 130 °C, such as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints, which go soft and deform above 60 °C (Prusa 'PLA')",
     "maker_difficulty": "easy: brush, press and bake; the skill is in supporting the parts until baked and in baking fully at the right temperature"
   },
   "making": {
@@ -139,13 +139,13 @@
       "https://en.wikipedia.org/wiki/Polymer_clay",
       "https://www.staedtler.com/uk/en/products/fimo-modelling-clay-accessories/fimo-accessoires/surface-treatment/fimo-liquid-8050-oven-bake-liquid-gel-m8050/",
       "https://potterycrafts.co.uk/cdn/shop/files/Premo_Sculpey_Polymer_Clay_747a26ae-3aa8-4d8e-a413-1cfe01b669f7.pdf",
-      "https://www.sculpey.com/blogs/blog/6-things-to-avoid-when-baking-polymer-clay"
+      "https://www.sculpey.com/blogs/blog/6-things-to-avoid-when-baking-polymer-clay",
+      "https://help.prusa3d.com/article/pla_2062"
     ]
   },
   "uncertain": [
     "aliases",
     "load",
-    "materials",
     "making_tips_3d_printing"
   ]
 }

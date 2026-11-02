@@ -44,7 +44,7 @@
     "power": "passive (no power needed)",
     "removability": "removable for worm-drive, T-bolt, wire and spring clamps (loosen the screw or open the spring with pliers); semi-permanent for ear clamps, which are crimped once and are removed by cutting or by prising the ear open with pliers, which spoils them (Wikipedia 'Hose clamp'; Oetiker pincer data sheet: pincers are for 'pinching and removing ear clamps'). No-hub couplings can be taken apart, but 'it is often not customary to re-use the clamps and rubber sleeves' because they may not seal well after being deformed (Wikipedia 'Piping and plumbing fitting').",
     "reuse_cycles": "many times for stainless worm-drive and spring clamps if the screw and band are undamaged [uncertain: no maker's reuse figure opened]; once for ear clamps (single stroke, 'do not apply secondary crimping force', Oetiker data sheet); usually once for no-hub sleeves (Wikipedia 'Piping and plumbing fitting'). The hose end may need trimming after each removal, and a stuck hose 'should never be removed by slitting' it, which can scratch the fitting (Wikipedia 'Hose clamp').",
-    "tools_needed": "Worm-drive: a flat screwdriver or a 1/4 in nut driver for mini clamps and a 5/16 in nut driver for standard clamps (Boshart); a torque-limiting 'T' nut driver with a 60 in-lb slip clutch stops over-tightening (Boshart); no-hub couplings need a torque wrench or preset torque driver, since standard ones are designed for 60 in-lb and heavy-duty ones are installed with a torque wrench (Charlotte Pipe). Spring clamps: pliers, or hose-clamp pliers (Wikipedia 'Hose clamp'). Ear clamps: ear-clamp pincers, which also remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket [uncertain]. Cable-tie stand-ins: a cutter.",
+    "tools_needed": "Worm-drive: a flat screwdriver or a 1/4 in nut driver for mini clamps and a 5/16 in nut driver for standard clamps (Boshart); a torque-limiting 'T' nut driver with a 60 in-lb slip clutch stops over-tightening (Boshart); no-hub couplings need a torque wrench or preset torque driver, since standard ones are designed for 60 in-lb and heavy-duty ones are installed with a torque wrench (Charlotte Pipe). Spring clamps: pliers, or hose-clamp pliers (Wikipedia 'Hose clamp'). Ear clamps: ear-clamp pincers, which also remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket wrench (a standard 7/16 in socket for one stainless clamp, Nassau National Cable). Cable-tie stand-ins: a cutter.",
     "seal": "airtight or pressure (moderate pressures only): the clamp presses the hose evenly onto a smooth spigot; even pressure with 'no gaps' is the design goal, which is why wire clamps overlap their ends and StepLess ear clamps have no step inside (Wikipedia 'Hose clamp'; Oetiker data sheet). The seal needs a fitting that is 'smooth and free of nicks, scratches, or contamination' (Wikipedia). No-hub drain couplings seal with a neoprene gasket squeezed by the bands (Charlotte Pipe).",
     "load": "Medium. Pressure: 'Hose clamps are typically limited to moderate pressures, such as those found in automotive and home applications'; at high pressures compression or crimp fittings are used instead (Wikipedia 'Hose clamp'). Pull-off: strong when the clamp sits behind a barb or bead (Wikipedia); two clamps side by side ('double clamping') 'will greatly reduce the chance of a hose blowing off the fitting' (Boshart). Holding force comes from screw torque: e.g. 35-45 in-lb (3.96-4.52 N m) for standard worm-drive clamps, with an ultimate (breaking) torque of at least 60 in-lb (6.8 N m) (Boshart). As a general strap round a pole it is strong in tension round the band but can slip along or round a smooth pole under a sideways or twisting load [uncertain].",
     "adjustable": "yes for worm-drive and T-bolt clamps: re-tighten the screw. To check a worm-drive clamp properly, loosen it completely and re-tighten to the stated torque, because torque on these clamps normally drops about 30% soon after tightening and can't be checked by simply turning the screw (Freightliner service bulletin). Spring and constant-tension clamps adjust themselves; ear clamps can't be adjusted after closing (Wikipedia 'Hose clamp'; EFC International).",
@@ -185,13 +185,13 @@
       "https://commons.wikimedia.org/wiki/Category:Hose_clamps",
       "https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg",
       "https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://nassaunationalcable.com/products/1-3-4-1-15-16-stainless-steel-t-bolt-clamp-840188"
     ]
   },
   "uncertain": [
     "complexity",
     "reuse_cycles",
-    "tools_needed",
     "load",
     "making_tips_3d_printing",
     "safety_notes"

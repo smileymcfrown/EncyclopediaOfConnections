@@ -98,14 +98,9 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying
-      [uncertain]. A clamp, vice or arbor pres…"'
 confirmed: []
 open_points: []
-uncertain_fields: [input_output, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes, links,
-  make_it_yourself]
+uncertain_fields: [input_output, processes, making_tips_3d_printing, environment_limits, safety_notes, links, make_it_yourself]
 diagram_idea: Two side-by-side three-stage slides, one rigged continuous (one long string zig-zagging over every stage) and
   one rigged cascade (a separate string per stage anchored to the stage below), animated so the continuous one extends its
   top stage first while the cascade one extends all stages together with arrows labelled 1x, 2x, 3x speed.
@@ -182,6 +177,7 @@ sources:
 - https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
+- https://en.wikipedia.org/wiki/Whipping_knot
 research: research/connection-types/results/Multistage_slide_rigging_cascade_and_continuous_string_rigging.json
 image:
   file: drawn/anim/multi-stage-slide-rigging.svg
@@ -304,7 +300,7 @@ Avoid string rigging when the load must be pushed hard, held rigidly against sid
   - laser cut: ⚑ [uncertain] flat side plates and spacers for small lifts
   - off-the-shelf part: drawer slides, linear slide kits, pulley bearings, braided line, timing belts, chain and sprockets, constant-force springs
 - **Printing it in one piece (print in place):** no: the stages, pulleys and spools are printed (or bought) separately, then assembled and rigged with string or belt by hand
-- **Tools:** Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide).
+- **Tools:** Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying: a whipping of thread, or melting the cut end of nylon, polyester or polyethylene line (not aramid) with a lighter or hot knife (Wikipedia 'Whipping knot'). A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide).
 - **Difficulty:** moderate: every part is simple, but gm0 calls rigging 'an important and time-consuming requirement', and getting even tension on both sides, the right spool sizes and a retraction path takes patience
 
 ### 3D printing tips
@@ -371,11 +367,10 @@ The sliding stages and pulleys form pinch and shear points that move quickly (in
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `motion_in` = steady turning, straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `motion_out` = straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
-- ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor pres…"
 
 ## Sources
 
@@ -399,3 +394,4 @@ The sliding stages and pulleys form pinch and shear points that move quickly (in
 - <https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene>
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://help.prusa3d.com/article/petg_2059>
+- <https://en.wikipedia.org/wiki/Whipping_knot>

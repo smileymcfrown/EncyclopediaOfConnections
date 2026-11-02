@@ -118,9 +118,9 @@ confirmed: []
 open_points:
 - kind: content
   note: '*Volvelle* (422): no geometry rule for the dissolving wheel was found; split-pin points ⚑.'
-uncertain_fields: [job, motion, special_behaviour, input_output, reuse_cycles, tools_needed, load, adjustable, play_and_precision,
-  maker_difficulty, processes, print_in_place, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes,
-  common_failures, make_it_yourself]
+uncertain_fields: [job, motion, special_behaviour, input_output, reuse_cycles, load, adjustable, play_and_precision, maker_difficulty,
+  processes, print_in_place, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes, common_failures,
+  make_it_yourself]
 diagram_idea: An exploded side view of a volvelle (base disc, middle disc, top disc with a window and pointer, split pin through
   the centre with its legs opened behind), next to a front view showing the top disc turned so its window frames a different
   item on the ring below, and a small inset of a dissolving wheel's two pie-segmented discs interleaved.
@@ -205,6 +205,7 @@ sources:
 - https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-16?part=1501 (16 CFR part 1501, small parts for children
   under 3)
 - 'https://api.printables.com/graphql/ (Printables API: models 226087 and 1882238)'
+- https://briarpress.org/42177
 research: research/connection-types/results/Volvelle_paper_wheel_wheel_chart_rotating_disc.json
 image:
   file: drawn/anim/volvelle.svg
@@ -316,7 +317,7 @@ Avoid it for anything that carries load or must survive rough handling: card tea
   - laser cut: card, thin plywood or acrylic discs ⚑ [uncertain: no laser-specific volvelle source opened]
   - off-the-shelf part: split-pin paper fasteners, eyelets and grommets
 - **Printing it in one piece (print in place):** no: printed volvelles are printed as separate flat discs and joined with a centre post and press-on cap (Printables model 1882238) or by fitting the inner disc into a recess in the base (Printables model 226087). A [print-in-place](../glossary.md#print-in-place) version with a captive centre post is possible in principle ⚑ [uncertain].
-- **Tools:** To make: scissors or a craft knife and cutting mat, a pair of compasses or a circle cutter for round discs (Puget Sound recommends a compass), a single-hole punch for the centre hole (WSU Full-O-Meter instructions), and glue for paper rivets and hidden-wheel cards. For the pivot: a split-pin paper fastener, a needle and strong thread such as waxed bookbinding thread (Puget Sound), or an eyelet or grommet setter ⚑ [uncertain for setter]. A cutting machine (Cricut, Silhouette; brands) can cut the windows and discs (Craft with Sarah). To use: none.
+- **Tools:** To make: scissors or a craft knife and cutting mat, a pair of compasses or a circle cutter for round discs (Puget Sound recommends a compass), a single-hole punch for the centre hole (WSU Full-O-Meter instructions), and glue for paper rivets and hidden-wheel cards. For the pivot: a split-pin paper fastener, a needle and strong thread such as waxed bookbinding thread (Puget Sound), or a hollow eyelet set by hand or with an eyelet setter (Briar Press forum 'Help with complex letterpress job'). A cutting machine (Cricut, Silhouette; brands) can cut the windows and discs (Craft with Sarah). To use: none.
 - **Difficulty:** easy: cut circles, punch a centre hole and push a split pin through; a child's activity in museums and schools (Museum Wales; Warwick; Newberry Library workshop). A dissolving wheel is harder because the segments must be cut accurately and woven together ⚑ [uncertain for difficulty rating].
 
 ### 3D printing tips
@@ -379,7 +380,7 @@ Split-pin paper fasteners have sharp leg tips (a split pin's sharp end can pierc
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 26 sentences on this page marked [uncertain].
+- ⚑ 25 sentences on this page marked [uncertain].
 - ⚑ Finder value `motion_in` = back-and-forth turning (best guess): both sides turn, but no shaft layout named; pop-up: opening the page read as a part turn, not steady turning
 - ⚑ Finder value `motion_out` = back-and-forth turning (best guess): both sides turn, but no shaft layout named; pop-up: opening the page read as a part turn, not steady turning
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named; pop-up: opening the page read as a part turn, not steady turning
@@ -409,3 +410,4 @@ Split-pin paper fasteners have sharp leg tips (a split pin's sharp end can pierc
 - <https://www.thamesandhudson.com/products/paper-engineering-for-designers (contents: 6 pivot mechanisms, 3 wheels, 1 dissolving window)>
 - <https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-16?part=1501 (16 CFR part 1501, small parts for children under 3)>
 - <https://api.printables.com/graphql/ (Printables API: models 226087 and 1882238)>
+- <https://briarpress.org/42177>

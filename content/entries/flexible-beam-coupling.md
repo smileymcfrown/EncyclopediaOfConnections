@@ -90,15 +90,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound on set screws
-      [uncertain]. Printed versions need nuts,…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes, common_failures,
-  make_it_yourself]
+uncertain_fields: [reuse_cycles, processes, making_tips_3d_printing, environment_limits, safety_notes, common_failures, make_it_yourself]
 diagram_idea: A side view of two shafts that are slightly tilted and offset, joined by a tube with a spiral slot shown bending
   smoothly between them; arrows show the tube bending easily but the twist passing straight through, with an inset comparing
   one long spiral (single-beam) with two short overlapped spirals (multi-beam).
@@ -181,6 +176,7 @@ sources:
 - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
+- https://www.albanycountyfasteners.com/media/4c/d6/45/1764616278/set-screw-application-guide.pdf
 research: research/connection-types/results/Flexible_beam_coupling_helicalslot_coupling.json
 image:
   file: drawn/anim/flexible-beam-coupling.svg
@@ -290,7 +286,7 @@ Avoid it for high torque, shock loads or drives that hit hard stops or jam (use 
   - 3D print (FDM): possible for light loads; several printable designs exist (LoboCNC, tierra, JoanPeturPetersen)
   - 3D print (resin): ⚑ [uncertain] no tested example found; [brittle](../glossary.md#brittle--ductile) standard resins are likely to crack at the thin beam
 - **Printing it in one piece (print in place):** partly: a printed beam coupling is one piece and works straight off the printer, but it needs added set screws, nuts or heat-set inserts to grip the shafts
-- **Tools:** A hex key (the common 5 x 8 mm aluminium coupler uses a 2 mm hex key for its set screws, per Adafruit). Optional thread-locking compound on set screws ⚑ [uncertain]. Printed versions need nuts, set screws or heat-set inserts (and a soldering iron to fit inserts).
+- **Tools:** A hex key (the common 5 x 8 mm aluminium coupler uses a 2 mm hex key for its set screws, per Adafruit). Medium-strength thread-locking compound on the set screws stops them shaking loose on rotating parts; leave it off if you will adjust them often (Albany County Fasteners 'Set Screw Application Guide'). Printed versions need nuts, set screws or heat-set inserts (and a soldering iron to fit inserts).
 - **Difficulty:** easy to fit, and best bought: metal ones are cheap standard parts that just need a hex key. Printing one is moderate: the spiral slot has awkward [overhangs](../glossary.md#overhang--bridging) and a printed plastic beam is weaker, springier and less durable than aluminium
 
 ### 3D printing tips
@@ -356,8 +352,7 @@ It spins with the shafts, and the set screws or clamp screw sticking out of it c
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = soldering iron, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound on set screws ⚑ [uncertain]. Printed versions need nuts,…"
+- ⚑ 11 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -389,3 +384,4 @@ It spins with the shafts, and the set screws or clamp screw sticking out of it c
 - <https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/>
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://help.prusa3d.com/article/petg_2059>
+- <https://www.albanycountyfasteners.com/media/4c/d6/45/1764616278/set-screw-application-guide.pdf>

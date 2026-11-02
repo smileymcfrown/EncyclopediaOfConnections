@@ -48,7 +48,7 @@
 - **power**: passive (no power needed)
 - **removability**: tool-free quick release: the latched part is released with a push; the latch body itself is screwed, pressed or clipped into the cabinet or device
 - **reuse_cycles**: many times: designed for everyday use; e.g. push-push SD card connectors rated for more than 10,000 cycles, or 5,000 for an ultra-low-profile microSD version (MoarConn); printed versions wear out sooner as the steps round off
-- **tools_needed**: none to operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: none to operate; a drill to fit a drill-in cabinet latch, or a screwdriver for a screw-on one; the counterplate (strike) is screwed or glued on (Hettich 'Push to open' lock)
 - **seal**: none
 - **load**: light: holds a door, drawer, card or button in against small forces only; magnetic push-to-open cabinet latches are rated about 2 to 6 lbf (9 to 27 N) pull (McMaster-Carr); industrial push-push locking bolts cannot take axial load, and their pin retracts only by spring force (Konstruktionspraxis on GN 514). Weak against pulling the latched part out (Alps patent)
 - **adjustable**: usually no for simple and printed latches; some cabinet push-to-open fittings have adjustable length or opening force ⚑ [uncertain] *(⚑ parts need confirming)*
@@ -135,6 +135,7 @@
   - https://www.printables.com/model/376606-push-latch-case
   - https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip
   - https://api.printables.com/graphql/
+  - https://shop.hettich.com/hu_EN/Hinges/Opening-systems/Push-to-open/Lock%2C-for-drilling-in%2C-white/p/9089595
 
 ### Finder tags
 
@@ -146,7 +147,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: clicks
-- **tools**: none, drill and tap, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike [uncertain]…"*
+- **tools**: none, drill and tap, hand tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
@@ -198,7 +199,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, environment_limits, play_and_precision, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** adjustable, environment_limits, play_and_precision, processes, safety_notes
 
 ## 26 Sear and trigger (trip release mechanism)
 

@@ -86,22 +86,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, metal, 'fabric, leather or cord']
-needs_confirming:
-  power_source:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…n back unless the motor''s gearbox friction or a brake holds the twist
-      [uncertain].…"'
-  power_loss:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…n back unless the motor''s gearbox friction or a brake holds the twist
-      [uncertain].…"'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…or hub and mounts; a lighter or heat sealer for synthetic string
-      ends [uncertain]; grease (Tan and Collins mas…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [special_behaviour, input_output, power, tools_needed, processes, environment_limits, safety_notes, common_failures]
+uncertain_fields: [special_behaviour, input_output, processes, environment_limits, safety_notes, common_failures]
 diagram_idea: Side view of a motor hub and a load joined by two strings, drawn at 0, 10 and 20 turns so the helix tightens
   and the load rises, with a small graph beside it showing pull-in distance against turns (a curve that starts flat and gets
   steeper) and force falling as the twist grows.
@@ -175,6 +163,7 @@ sources:
 - https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/README.md
 - https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/LICENSE
 - https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md
+- https://en.wikipedia.org/wiki/Whipping_knot
 research: research/connection-types/results/Twistedstring_actuator.json
 image:
   file: drawn/anim/twisted-string-actuator.svg
@@ -255,7 +244,7 @@ Avoid it when you need to push, a long stroke compared with the actuator's lengt
   - not a holding joint (it moves or passes on motion): it passes motor torque on as a pull
   - powered hold: the pull is kept only while the motor (or its gearbox) holds the twist
 - **Input and output:** Continuous rotation (many turns) -> straight-line pull (tension only; it cannot push). Contraction x = L - sqrt(L^2 - theta^2 r^2), so the travel per turn grows as the twist builds and the pull per unit of motor torque shrinks; from the force relation F = torque / (r x tan(alpha)) with tan(alpha) = theta x r / p (German Wikipedia), the ratio is very high near zero twist. Typical stroke: under about 25% of the string length in most published designs, 81% with multi-string overtwisting (Tavakoli et al. 2016). Efficiency: about 79% for the strings alone in a high-power ankle exoskeleton (Tan and Collins 2025); German Wikipedia quotes 90%. Shaft arrangement: in line; the strings run straight out along the motor axis (a TSA does not need the motor mounted at right angles to the cable, unlike a spool; Park and SunSpiral, NASA). Back-drivable: yes in principle, since the load's pull always tries to untwist the strings and turn the motor backwards, but a high-ratio gearmotor's friction may hold it ⚑ [uncertain].
-- **Power:** powered (needs a motor to twist the strings; the same principle also works by hand, as in the Spanish windlass). If power is lost, the load tries to untwist the strings and run back unless the motor's gearbox friction or a brake holds the twist ⚑ [uncertain].
+- **Power:** powered (needs a motor to twist the strings; the same principle also works by hand, as in the Spanish windlass). If power is lost, the load tries to untwist the strings and run back unless the motor's gearbox friction or a brake holds the twist: the twisted-string drive itself is back-drivable, and one robot hand adds brakes to lock its joints (US patent 9272425).
 - **Load:** Light to heavy depending on string and motor: a pager motor lifted 7 kg (Hizook); a 0.35 mm braided fishing line rated 321 N lifted 2 kg with a small 100:1 gearmotor (Tavakoli et al.); a 3 mm Vectran rope (9.5 kN breaking strength) drove an ankle exoskeleton at 43 N.m peak ankle torque and 700 W peak power (Tan and Collins). Strong in pull only; zero strength in push; the strings bend and swing sideways, so the load needs its own guide; the pull along the motor axis must be carried by a thrust bearing, not the motor shaft (Tan and Collins).
 - **Play and precision:** No gear teeth, so no [backlash](../glossary.md#backlash), but the strings stretch (it is compliant, not rigid; Tavakoli et al.) and the twist-to-length relation is highly non-linear, so precise movement needs careful calibration or a position sensor (Hizook). Published models predicted displacement to within about 2.7-5.9 mm RMS over 60-100 mm of travel (Tavakoli et al.). It tolerates some angle between the strings and the motor axis if bearings take the sideways force (Tan and Collins), but the twisting zone must be kept straight and free of sharp edges.
 - **Taking it apart:** removable: the strings are tied or looped to the motor hub and load and can be untied and replaced; they are a wear part
@@ -274,7 +263,7 @@ Avoid it when you need to push, a long stroke compared with the actuator's lengt
   - 3D print (resin): small, smooth string hubs and separators ⚑ [uncertain]
   - CNC: machined hubs and housings for high-force designs (e.g. the Tan and Collins ankle exoskeleton used a separate output shaft on [radial](../glossary.md#axial--radial) and thrust bearings)
 - **Printing it in one piece (print in place):** no: the printed hub, separator and mounts are separate parts, and the motor, strings and bearings are added
-- **Tools:** Scissors and knots (or loop ties) for the strings; small screwdriver or hex key for the motor hub and mounts; a lighter or heat sealer for synthetic string ends ⚑ [uncertain]; grease (Tan and Collins massaged Krytox grease into their Vectran braid)
+- **Tools:** Scissors and knots (or loop ties) for the strings; small screwdriver or hex key for the motor hub and mounts; a lighter or heat sealer for synthetic string ends (not for aramid, which does not melt; Wikipedia 'Whipping knot'); grease (Tan and Collins massaged Krytox grease into their Vectran braid)
 - **Difficulty:** moderate: a demo is easy (a gearmotor, braided fishing line and a printed hub), but a reliable actuator needs a thrust bearing, rounded string paths, a return spring or second actuator, and an encoder with calibration because the pull is non-linear
 
 ### 3D printing tips
@@ -332,10 +321,7 @@ The strings carry a large tension from a small motor: a string that snaps can dr
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…n back unless the motor's gearbox friction or a brake holds the twist ⚑ [uncertain].…"
-- ⚑ Finder value `power_loss` = lets go (source uncertain): `power` is marked ⚑ [uncertain] here: "…n back unless the motor's gearbox friction or a brake holds the twist ⚑ [uncertain].…"
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…or hub and mounts; a lighter or heat sealer for synthetic string ends ⚑ [uncertain]; grease (Tan and Collins mas…"
+- ⚑ 7 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -368,3 +354,4 @@ The strings carry a large tension from a small motor: a string that snaps can dr
 - <https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/README.md>
 - <https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/LICENSE>
 - <https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md>
+- <https://en.wikipedia.org/wiki/Whipping_knot>

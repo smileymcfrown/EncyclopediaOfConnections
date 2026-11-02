@@ -110,8 +110,8 @@ open_points:
   note: '*Staples for wood and fabric* (373): Talas calls Monel staples stainless; Monel is not stainless steel, so the text
     says "rust-resistant Monel staples". The entry keeps its name (renaming would change its page address); "desk stapler"
     and the other stapler kinds are aliases.'
-uncertain_fields: [reuse_cycles, tools_needed, seal, load, materials, processes, making_tips_3d_printing, environment_limits,
-  common_failures, safety_notes]
+uncertain_fields: [reuse_cycles, seal, load, materials, processes, making_tips_3d_printing, environment_limits, common_failures,
+  safety_notes]
 diagram_idea: 'A cut-away of fabric folded over the edge of a wooden seat board, with a staple''s crown pressing the fabric
   flat and its two legs in the wood, beside a second view of an insulated staple straddling a cable without touching the conductors,
   and arrows showing upholstery stapling order: middle of each side first, then outwards to the corners.'
@@ -180,6 +180,7 @@ sources:
 - https://en.wikipedia.org/wiki/Bookbinding
 - https://blog.talasonline.com/post/elevate-your-zines-pamphlet-stitch-alternative-binding-techniques
 - https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/
+- https://popularwoodworking.com/tricks/staple-set
 research: research/connection-types/results/Staples_for_wood_and_fabric_staple_gun_hammer_tacker_cable_staple.json
 image:
   file: staples-for-wood-and-fabric.webp
@@ -292,7 +293,7 @@ Not for carrying real loads or joining solid wood structurally: staples hold les
   - 3D print (FDM): printed cable clips and hangers with a thin tab that a staple is fired through (see make_it_yourself); printed parts are not a good base to staple into
   - laser cut: plywood frames and panels that fabric or mesh is stapled onto ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: staples are bought wire parts; only clips and frames that are stapled are printed.
-- **Tools:** A staple gun (manual, electric, cordless or pneumatic) or hammer tacker loaded with staples made for it; for cable staples, a gun with a wire guide or a cable-staple gun, or hammer-in cable clips (Wikipedia 'Staple gun'); hog ring pliers for hog rings (aftfasteners.com); pliers, a thin screwdriver or a staple/tack remover to take staples out (The Bulletin); a hammer to tap down proud staples ⚑ [uncertain]; safety glasses (Toolstation PCT162 manual).
+- **Tools:** A staple gun (manual, electric, cordless or pneumatic) or hammer tacker loaded with staples made for it; for cable staples, a gun with a wire guide or a cable-staple gun, or hammer-in cable clips (Wikipedia 'Staple gun'); hog ring pliers for hog rings (aftfasteners.com); pliers, a thin screwdriver or a staple/tack remover to take staples out (The Bulletin); a 'staple set' (a dowel with a steel rod through it, tapped with a hammer) to drive proud staples flush, since hitting them straight with a hammer kinks them (Popular Woodworking); safety glasses (Toolstation PCT162 manual).
 - **Difficulty:** easy: buy a hand staple gun and the matching staples; the skill is choosing leg length, keeping fabric taut and keeping fingers out of the way.
 
 ### 3D printing tips
@@ -356,7 +357,7 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 14 sentences on this page marked [uncertain].
+- ⚑ 13 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples ⚑ [uncertain]; safety glasses (Toolstation…"
 - ⚑ Finder value `cord_part` = fix to fabric or an edge (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ Research note: *Staples for wood and fabric* (373): Talas calls Monel staples stainless; Monel is not stainless steel, so the text says "rust-resistant Monel staples". The entry keeps its name (renaming would change its page address); "desk stapler" and the other stapler kinds are aliases.
@@ -386,3 +387,4 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 - <https://en.wikipedia.org/wiki/Bookbinding>
 - <https://blog.talasonline.com/post/elevate-your-zines-pamphlet-stitch-alternative-binding-techniques>
 - <https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/>
+- <https://popularwoodworking.com/tricks/staple-set>

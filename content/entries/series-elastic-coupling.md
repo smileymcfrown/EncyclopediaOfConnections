@@ -95,23 +95,16 @@ needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  power_source:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…arbox holds with springy give, a back-drivable one lets the joint sag [uncertain]…"'
   power_loss:
     kind: best guess
     reason: '`power` mentions losing power, but none of the three outcomes'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…d known weights or a torque gauge to calibrate the spring''s stiffness
-      [uncertain: general practice]…"'
 confirmed: []
 open_points:
 - kind: content
   note: '*Series-elastic coupling*: the OpenSEA paper''s spring table doesn''t add up (0.015 N·m/° × ±20° = 0.3 N·m, not the
     ±3 N·m it states). The entry quotes ±3 N·m in `load` only; check it.'
-uncertain_fields: [input_output, power, reuse_cycles, tools_needed, load, processes, making_tips_3d_printing, when_not_to_use,
-  environment_limits, safety_notes, common_failures, related, make_it_yourself]
+uncertain_fields: [input_output, reuse_cycles, load, processes, making_tips_3d_printing, when_not_to_use, environment_limits,
+  safety_notes, common_failures, related, make_it_yourself]
 diagram_idea: Three boxes in a row, 'motor + gearbox', a zig-zag spring and 'joint', with an angle dial on each side of the
   spring and a callout 'force = spring stiffness x (angle difference)'; a second frame shows a hammer hitting the joint and
   the spring squashing so the gear teeth feel only a gentle push.
@@ -181,6 +174,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Variable_Impedance_Actuator.jpg
 - https://tamiyamodel.com/how-does-a-servo-saver-work/
 - https://help.prusa3d.com/article/pla_2062
+- https://arxiv.org/pdf/2412.03985
+- https://arxiv.org/pdf/2409.15791
 research: research/connection-types/results/Serieselastic_coupling_series_elastic_actuator.json
 image:
   file: drawn/anim/series-elastic-coupling.svg
@@ -268,7 +263,7 @@ Avoid it where you need stiff, precise positioning (3D-printer axes, CNC, camera
   - spring force (a spring or springy part presses it in place): all the force between gearbox and joint passes through the spring
   - not a holding joint (it moves or passes on motion): it is a drive that passes on and measures force
 - **Input and output:** Rotation -> rotation for rotary SEAs; rotation -> straight push-pull for linear SEAs using a ball screw with springs on either side of the nut (Hurst & Green; MIT-SEA). The spring stage itself is 1:1 on average, in line; the gearing before it sets the ratio (Pratt & Williamson used a 66:1 planetary gearbox; OpenSEA a 3:1 helical planetary; Lee & Oh a 2:1 timing belt). The output lags or leads the gearbox by the spring's deflection. Efficiency: a steel spring gives back almost all the energy it stores ⚑ [uncertain: no figure found]; rubber and other elastomers lose some to [hysteresis](../glossary.md#hysteresis) (Hurst & Green). Back-drivable: yes, within the spring's travel, even if the gearbox is locked; beyond that, only if the gearbox itself is back-drivable. With control, it can be made to feel softer or stiffer than the real spring (Pratt & Williamson).
-- **Power:** powered: needs a motor and, for force control, sensors and a controller. The spring coupling itself is passive. If power is lost, the joint behaves like the bare gearbox plus the spring: a [self-locking](../glossary.md#self-locking) gearbox holds with springy give, a back-drivable one lets the joint sag ⚑ [uncertain]
+- **Power:** powered: needs a motor and, for force control, sensors and a controller. The spring coupling itself is passive. If power is lost, the joint behaves like the bare gearbox plus the spring: a [self-locking](../glossary.md#self-locking) gearbox holds with springy give (a worm drive holds static loads with no motor power, Milazzo et al. 2024), a back-drivable one lets the joint sag
 - **Load:** Light to heavy depending on the design. Hobby and 3D-printed versions carry a few newton-metres (OpenSEA: designed for about ±3 N·m through the spring, with up to 12.36 N·m from its gearbox; a stroke-rehabilitation elbow needs about 3 N·m). A linear electric SEA in one design study carried 450 N (IntechOpen chapter). Hydraulic SEAs give about 100 times the power density of electric ones and suit heavy legged robots (IntechOpen). Strong in the drive direction up to the spring's safe deflection; beyond it the spring yields or hits end stops (Pratt & Williamson list the spring's yield point as a limit). Side loads should be carried by bearings, not by the spring ⚑ [uncertain].
 - **Play and precision:** Deliberately springy: the output moves under load by the spring's deflection, so holding an exact position is harder; one builder quotes SEAs' 'low stiffness and limited bandwidth that leads to degraded position control performance' (hackaday.io 3D printed robot actuator log). Gear [backlash](../glossary.md#backlash) and friction sit inside the force loop and are largely hidden: Baxter's SEAs 'act as filters that help reduce friction and backlash in low-cost gearboxes' (IEEE Spectrum). Printed gear trains add their own springiness: in OpenSEA the printed planetary gears gave 74.9 % of the total 22.22° compliance and the spring only 25.1 %. Force-sensing resolution = spring stiffness x sensor angle resolution (Lee & Oh: 0.3835 mN·m per encoder count).
 - **Taking it apart:** removable: built from bolted parts, bearings and swappable springs
@@ -287,7 +282,7 @@ Avoid it where you need stiff, precise positioning (3D-printer axes, CNC, camera
   - CNC: metal torsion bars and planar torsion springs for robot-grade actuators ⚑ [uncertain: no fabrication guide opened]
   - laser cut: ⚑ [uncertain] flat spiral or planar springs could be cut from sheet, no tested example opened
 - **Printing it in one piece (print in place):** no: it is assembled from printed parts plus a spring, bearings, sensors and a motor
-- **Tools:** Hex keys and screwdrivers for assembly, a soldering iron for sensor wiring, and known weights or a torque gauge to calibrate the spring's stiffness ⚑ [uncertain: general practice]
+- **Tools:** Hex keys and screwdrivers for assembly, a soldering iron for sensor wiring, and known weights or a torque gauge to calibrate the spring's stiffness (Koda et al. 2024 hung weights on a locked SEA to measure its spring constant)
 - **Difficulty:** moderate to hard: putting a spring between a servo horn and the output is easy, but measuring the deflection and closing a force-control loop needs a sensor, calibration and control code; commercial robot-grade SEAs are expensive precision units, so buy or copy an open design
 
 ### 3D printing tips
@@ -345,11 +340,9 @@ A loaded spring stores energy: a joint can spring back if a part slips or is rel
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 20 sentences on this page marked [uncertain].
+- ⚑ 18 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…arbox holds with springy give, a back-drivable one lets the joint sag ⚑ [uncertain]…"
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
-- ⚑ Finder value `tools` = soldering iron, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…d known weights or a torque gauge to calibrate the spring's stiffness ⚑ [uncertain: general practice]…"
 - ⚑ Research note: *Series-elastic coupling*: the OpenSEA paper's spring table doesn't add up (0.015 N·m/° × ±20° = 0.3 N·m, not the ±3 N·m it states). The entry quotes ±3 N·m in `load` only; check it.
 
 ## Sources
@@ -372,3 +365,5 @@ A loaded spring stores energy: a joint can spring back if a part slips or is rel
 - <https://commons.wikimedia.org/wiki/File:Variable_Impedance_Actuator.jpg>
 - <https://tamiyamodel.com/how-does-a-servo-saver-work/>
 - <https://help.prusa3d.com/article/pla_2062>
+- <https://arxiv.org/pdf/2412.03985>
+- <https://arxiv.org/pdf/2409.15791>

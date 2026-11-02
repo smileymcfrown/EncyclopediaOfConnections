@@ -1591,10 +1591,6 @@
     connects:
       kind: best guess
       reason: worked out from its name, but joining parts is not one of its two main jobs
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch
-        and its strike [uncertain]…"'
   confirmed: []
 - num: 25
   name: Click-pen mechanism (rotating-cam push-push indexer)
@@ -2384,10 +2380,6 @@
     clicks:
       kind: best guess
       reason: the text uses both clicking and silent words
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…ning rings (osamutake''s printed models are held with
-        retaining rings) [uncertain: tool not named]; for wooden…"'
   confirmed: []
 - num: 37
   name: Bayonet mount (push-and-twist lock)
@@ -3553,10 +3545,6 @@
     drive_split: [not applicable]
     made_of: [3D prints]
   needs_confirming:
-    power_source:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…n out of the hot water early it keeps the partial fold it has
-        reached [uncertain]…"'
     power_loss:
       kind: best guess
       reason: uses power, but `power` does not say what happens when it is lost
@@ -3626,11 +3614,7 @@
     turns: [part of a turn]
     drive_split: [not applicable]
     made_of: [3D prints]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…tuck may need a firm twist or flexing back and forth
-        to break it free [uncertain]. A screwdriver is needed onl…"'
+  needs_confirming: {}
   confirmed: []
 - num: 56
   name: Heat-set threaded insert
@@ -3883,10 +3867,6 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
   needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…bolt-and-washer puller is kinder than a hammer for pressing
-        bearings [uncertain]; a lead-in chamfer on the ho…"'
     usual_process:
       kind: best guess
       reason: 'first-listed process "injection moulding: where crush ribs come from; th" not recognised; defaulted'
@@ -4997,10 +4977,6 @@
     shaft_layout:
       kind: best guess
       reason: 'read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form'
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…a knife for the line, and usually a way to stop braided
-        line fraying [uncertain]. A clamp, vice or arbor pres…"'
   confirmed: []
 - num: 77
   name: Oldham coupling
@@ -5189,11 +5165,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound
-        on set screws [uncertain]. Printed versions need nuts,…"'
+  needs_confirming: {}
   confirmed: []
 - num: 80
   name: Universal joint (Hooke's joint, Cardan joint)
@@ -5256,11 +5228,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…pliers and a vice or press to replace a car''s cross-and-bearing
-        joint [uncertain]. Printed joints need small m…"'
+  needs_confirming: {}
   confirmed: []
 - num: 81
   name: Dog clutch (claw clutch)
@@ -5453,17 +5421,9 @@
     connects:
       kind: best guess
       reason: worked out from its name, but joining parts is not one of its two main jobs
-    power_source:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…arbox holds with springy give, a back-drivable one lets the
-        joint sag [uncertain]…"'
     power_loss:
       kind: best guess
       reason: '`power` mentions losing power, but none of the three outcomes'
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…d known weights or a torque gauge to calibrate the spring''s
-        stiffness [uncertain: general practice]…"'
   confirmed: []
 - num: 84
   name: Cam and follower (plate, barrel and face cams)
@@ -6037,19 +5997,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, metal, 'fabric, leather or cord']
-  needs_confirming:
-    power_source:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…n back unless the motor''s gearbox friction or a brake holds
-        the twist [uncertain].…"'
-    power_loss:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…n back unless the motor''s gearbox friction or a brake holds
-        the twist [uncertain].…"'
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…or hub and mounts; a lighter or heat sealer for synthetic
-        string ends [uncertain]; grease (Tan and Collins mas…"'
+  needs_confirming: {}
   confirmed: []
 - num: 93
   name: Planetary gear set (epicyclic gearing)
@@ -6367,11 +6315,7 @@
     turns: [full turns]
     drive_split: [different speeds, combines inputs]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    adjustable:
-      kind: source uncertain
-      reason: '`adjustable` is marked [uncertain] here: "…(gear mesh and backlash are set with shims or spacers
-        when assembled [uncertain]).…"'
+  needs_confirming: {}
   confirmed: []
 - num: 98
   name: Bevel gears (incl. mitre and crown gears)
@@ -6630,10 +6574,6 @@
     shaft_layout:
       kind: best guess
       reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic
-        rope ends [uncertain]…"'
   confirmed: []
 - num: 102
   name: Bowden cable (push-pull cable)
@@ -6647,7 +6587,7 @@
     shaft_layout: [not applicable]
     overload_response: not applicable
     clicks: not applicable
-    tools: [crimper, sewing or leather tools, hand tools]
+    tools: [crimper, drill and tap, sewing or leather tools, hand tools]
     load_max: medium
     usual_process: off-the-shelf part
     adjustable: 'yes'
@@ -6696,11 +6636,7 @@
     turns: [not applicable]
     drive_split: ['pushes, pulls or flow shared out']
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut
-        tube cutter [uncertain]; push-in fittings need no to…"'
+  needs_confirming: {}
   confirmed: []
 - num: 103
   name: Holding electromagnet (maglock)

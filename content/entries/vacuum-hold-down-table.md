@@ -108,7 +108,7 @@ needs_confirming:
     reason: no light/medium/heavy band in `load`; defaulted to medium
 confirmed: []
 open_points: []
-uncertain_fields: [power, making_tips_3d_printing, environment_limits, safety_notes, related]
+uncertain_fields: [making_tips_3d_printing, environment_limits, safety_notes, related]
 diagram_idea: 'A side cutaway of a sheet lying on a grooved table: small blue arrows show air being sucked down through the
   grooves to a pump, big grey arrows press down on the top of the sheet labelled ''room air pressure'', a dashed gasket line
   marks the sealed area, and a small sideways cutter arrow is opposed by a ''friction'' arrow, with a note ''force = vacuum
@@ -180,6 +180,7 @@ sources:
 - https://www.printables.com/model/370205-table-a-depression-vacuum-table
 - https://www.printables.com/model/451126-vacuum-pcb-solder-stencil-jig
 - https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement
+- https://www.schmalz.com/en/products/automation-743270/valves-308656/non-return-valves-308773/non-return-valves-rsv-308774
 research: research/connection-types/results/Vacuum_holddown_table_vacuum_table.json
 image:
   file: drawn/vacuum-hold-down-table.svg
@@ -214,7 +215,7 @@ pictures:
     the bed.
   kind: how-it-works
   drawn: false
-glossary: [form-fit--force-fit--material-bond, repeatability--accuracy, perimeters, check-valve, venturi]
+glossary: [form-fit--force-fit--material-bond, repeatability--accuracy, perimeters, venturi]
 ---
 
 <div class="eoc-pictures">
@@ -266,7 +267,7 @@ Avoid it for small parts with little area, which have little hold-down and pop o
   - friction or clamping ([force-fit](../glossary.md#form-fit--force-fit--material-bond)): sideways grip comes only from friction between sheet and table, which the air pressure increases; Mekanika uses a friction coefficient of 0.40 for wood on wood (Mekanika; Wikipedia)
   - powered hold: the hold lasts only while the vacuum source keeps the chamber evacuated (CNC Cookbook)
 - **Input and output:** not applicable
-- **Power:** powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a [check valve](../glossary.md#check-valve) to hold vacuum briefly after a pump stops is common practice ⚑ [uncertain]
+- **Power:** powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a non-return (check) valve in the vacuum line is sold for 'maintaining the vacuum in the case of a power failure or a failure of the vacuum generator' (Schmalz RSV non-return valve)
 - **Load:** Pull-off force = vacuum x area: at most about 10 N per square cm (14.7 psi) at sea level with a perfect vacuum, so a 10 in x 10 in part could in theory be held with almost 1,500 lb (CNC Cookbook). Real tables reach less: a shop vacuum about 2-2.5 psi, a regenerative blower about 4-5 psi (8-10 inHg), rotary-vane and liquid-ring pumps nearer full vacuum (CNC Cookbook). Mekanika's side-channel blower at 250 mbar under a 50 x 50 cm board gives 625 kg in theory, about 300 kg allowing for 50% effective groove area, and about 120 kg of sideways friction. So it is heavy for large sheets, light for small parts; strongest against straight lifting, weaker sideways (friction only) and weakest against levering or peeling, e.g. tall parts or a cutter grabbing an edge (CNC Cookbook 'Vacuum Chucks')
 - **Play and precision:** No play while held, and the sheet is pulled flat against the table, which is why it suits thin PCBs and warped sheets (Hackaday 2019; Hackaday 2016). It does not locate the part by itself: for repeatable or two-sided work, add dowel pins in matching holes or work stops (CNC Cookbook; Make:; Hackaday 2019, raised pegs for double-sided PCBs). Flatness of the table limits [accuracy](../glossary.md#repeatability--accuracy), so the bleeder board is resurfaced on the machine (CNC Cookbook; Mekanika). The sheet can still slide if cutting forces beat friction
 - **Taking it apart:** tool-free quick release for the workpiece (vent the vacuum and lift it off). The table itself is bolted or screwed to the machine bed and can be removed (Printables 1362329 uses M4 threaded inserts in the spoilboard; hackaday.io 166349)
@@ -351,7 +352,7 @@ Vacuum sources: shop vacuum or wet-dry vacuum, vacuum motors (as used in central
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity, compressed air, suction (best guess): `power` names several power sources, and not all may apply
 - ⚑ Finder value `power_loss` = lets go (source uncertain): `power` is marked ⚑ [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice ⚑ [uncertain]…"
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
@@ -381,3 +382,4 @@ Vacuum sources: shop vacuum or wet-dry vacuum, vacuum motors (as used in central
 - <https://www.printables.com/model/370205-table-a-depression-vacuum-table>
 - <https://www.printables.com/model/451126-vacuum-pcb-solder-stencil-jig>
 - <https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement>
+- <https://www.schmalz.com/en/products/automation-743270/valves-308656/non-return-valves-308773/non-return-valves-rsv-308774>

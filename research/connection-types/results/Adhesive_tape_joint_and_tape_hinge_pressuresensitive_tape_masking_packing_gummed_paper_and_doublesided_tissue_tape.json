@@ -51,7 +51,7 @@
     "adjustable": "Partly: removable tapes (masking, drafting) can be lifted and repositioned; other tapes cannot be moved once pressed down without damage. The gap of a tape hinge is set when it is taped, using spacers (Model Aviation FAQ 2010/02). Some permanent adhesives grow stronger over hours or days after application (Wikipedia 'Pressure-sensitive adhesive').",
     "play_and_precision": "Taped seam: no play, but the backing stretches a little and the adhesive slowly creeps under steady load, so taped parts can drift out of line over time [uncertain: no figure found]. Tape hinge: precision depends on the gap: too little causes binding and limits travel, too much causes flapping or vibration (Model Aviation FAQ 2010/02). A woven tape hinge has no gap on either side, but its pivot line shifts slightly depending on which way the flap moves (Flite Test 'Tape weave hinges' and comments).",
     "access_needed": "one side only (blind) for a single strip over a seam or a one-piece gapless hinge; both sides for the usual two-strip hinge (top and underside) or a woven hinge (Flite Test; Model Aviation FAQ 2010/02)",
-    "materials": "Tape sticks best to clean, dry, smooth surfaces; surface smoothness, surface energy and cleanliness all affect the bond (Wikipedia 'Pressure-sensitive adhesive'). Suits: paper and card (office tape, masking and drafting tape), corrugated cardboard (box-sealing tape, filament tape, gummed paper tape), foam board and foam model planes (clear packing tape and fibre tape; Fold 'N Fly; Flite Test), balsa (Flite Test 'Tape weave hinges' comments), painted walls and car body panels for masking (Wikipedia 'Masking tape'), wood and veneer as a temporary hinge in mitre folds (Woodweb). Gummed paper tape needs a fibrous surface such as cardboard to soak into (iTape). Poor: dusty, oily, damp, rough or very low-energy surfaces such as polyethylene and polypropylene film [uncertain: surface energy named in Wikipedia but no plastic list opened]; fragile or valuable paper and documents (tape stains and damages them; Manitoba Museum; JAIC 1984); anything to be painted, since duct tape won't take paint (Cool Tools).",
+    "materials": "Tape sticks best to clean, dry, smooth surfaces; surface smoothness, surface energy and cleanliness all affect the bond (Wikipedia 'Pressure-sensitive adhesive'). Suits: paper and card (office tape, masking and drafting tape), corrugated cardboard (box-sealing tape, filament tape, gummed paper tape), foam board and foam model planes (clear packing tape and fibre tape; Fold 'N Fly; Flite Test), balsa (Flite Test 'Tape weave hinges' comments), painted walls and car body panels for masking (Wikipedia 'Masking tape'), wood and veneer as a temporary hinge in mitre folds (Woodweb). Gummed paper tape needs a fibrous surface such as cardboard to soak into (iTape). Poor: dusty, oily, damp, rough or very low-energy surfaces such as polyethylene and polypropylene film, which 'tend to repel standard adhesives' and need specially made tapes (tesa 'LSE mounting solutions'); fragile or valuable paper and documents (tape stains and damages them; Manitoba Museum; JAIC 1984); anything to be painted, since duct tape won't take paint (Cool Tools).",
     "maker_difficulty": "easy: no drying, no tools, instantly strong enough for prototypes; the skill is choosing the right tape and pressing it down firmly."
   },
   "making": {
@@ -173,7 +173,8 @@
       "https://manitobamuseum.ca/tape-is-evil/",
       "https://connectingtocollections.org/wp-content/uploads/2019/08/Book-Repair_handout-1-1.pdf",
       "https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.tesa.com/en/industry/lp/lse-mounting-solutions"
     ]
   },
   "uncertain": [
@@ -181,7 +182,6 @@
     "seal",
     "load",
     "play_and_precision",
-    "materials",
     "making_tips_3d_printing",
     "environment_limits",
     "rules_of_thumb"

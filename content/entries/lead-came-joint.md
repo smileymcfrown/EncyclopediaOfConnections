@@ -103,7 +103,7 @@ open_points:
   note: '*Lead came joint* (445): reinforce fixed panels over about 10 ft perimeter and moving ones over about 8 ft, every
     18 in (source in the entry) versus "over 24 x 24 in" (an r/StainedGlass member); solder 50/50 (Everything Stained Glass)
     versus 60/40 (SCW club).'
-uncertain_fields: [removability, tools_needed, materials, processes, making_tips_3d_printing, when_not_to_use, safety_notes]
+uncertain_fields: [removability, materials, processes, making_tips_3d_printing, when_not_to_use, safety_notes]
 diagram_idea: An exploded cross-section of two glass pieces sliding into each side of an H came, then a top view of a crossing
   where three came strips meet with a solder blob, and a final cross-section with dark cement packed under the flanges, labelled
   'shape holds the glass, solder joins the came, cement seals'.
@@ -157,6 +157,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Buckled_lead_came_window_01.jpg
 - https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_012_window_showing_leading_and_support.JPG
 - https://api.printables.com/graphql/ (models 1312183, 1468163, 678895; no Printables pages opened)
+- https://everythingstainedglass.com/stain-glass-how-to
 research: research/connection-types/results/Lead_came_joint_leaded_glass_came_glasswork_zinc_and_brass_came.json
 image:
   file: drawn/lead-came-joint.svg
@@ -250,7 +251,7 @@ For small, intricate pieces, curved or 3D shapes (lampshades, boxes, suncatchers
   - woodwork: setting the finished panel into a rebate in a wooden door or window frame (Fine Woodworking; Everything Stained Glass 'How to Reinforce Stained Glass Panels')
   - 3D print (FDM): jigs and look-alike 'leaded glass' inserts only, not the joint itself (Printables 1468163, 678895) ⚑ [uncertain: printed jigs are made for copper-foil work]
 - **Printing it in one piece (print in place):** no: the joint is metal and soldered; it can't be printed.
-- **Tools:** Glass cutter and breaking pliers (grozier pliers), a lead knife, a lead vice or stretcher, horseshoe nails or pins to hold the pieces while leading up, a soldering iron (for lead about 360 °C, or a Weller tip marked 7 = 700 °F), solder (50/50 or 60/40), flux (or tallow), wire brush, scrubbing brushes, a fid or wooden stick for cement, whiting (Wikipedia 'Came glasswork' tool images; Everything Stained Glass 'Stained Glass Lead Soldering' and 'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a saw ⚑ [uncertain: mentioned only in a reader's question on Everything Stained Glass].
+- **Tools:** Glass cutter and breaking pliers (grozier pliers), a lead knife, a lead vice or stretcher, horseshoe nails or pins to hold the pieces while leading up, a soldering iron (for lead about 360 °C, or a Weller tip marked 7 = 700 °F), solder (50/50 or 60/40), flux (or tallow), wire brush, scrubbing brushes, a fid or wooden stick for cement, whiting (Wikipedia 'Came glasswork' tool images; Everything Stained Glass 'Stained Glass Lead Soldering' and 'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a came saw or fine-toothed hacksaw, without pressing so hard that it squashes (Everything Stained Glass 'How To Frame With Stained Glass Zinc Came').
 - **Difficulty:** moderate: few special tools, and the soldering is 'FAR easier than soldering copper foil' because each joint is a small spot, but cutting glass to size, stretching lead, cementing and handling lead safely take practice (Everything Stained Glass 'Stained Glass Lead Soldering'; Fine Woodworking).
 
 ### 3D printing tips
@@ -308,7 +309,7 @@ Lead: you are exposed 'when handling lead came or leaded solders and during dism
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = soldering iron, press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a saw ⚑ [uncertain: mentioned only in a reader's…"
 - ⚑ Research note: *Lead came joint* (445): reinforce fixed panels over about 10 ft perimeter and moving ones over about 8 ft, every 18 in (source in the entry) versus "over 24 x 24 in" (an r/StainedGlass member); solder 50/50 (Everything Stained Glass) versus 60/40 (SCW club).
 
@@ -329,3 +330,4 @@ Lead: you are exposed 'when handling lead came or leaded solders and during dism
 - <https://commons.wikimedia.org/wiki/File:Buckled_lead_came_window_01.jpg>
 - <https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_012_window_showing_leading_and_support.JPG>
 - <https://api.printables.com/graphql/ (models 1312183, 1468163, 678895; no Printables pages opened)>
+- <https://everythingstainedglass.com/stain-glass-how-to>

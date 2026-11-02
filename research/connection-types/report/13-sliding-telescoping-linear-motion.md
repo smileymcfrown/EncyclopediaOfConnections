@@ -1233,7 +1233,7 @@
 - **power**: passive (no power needed) for the rigging itself, but it is almost always driven by an electric motor turning the spool. If power is lost the motor stops pulling, so a vertical lift can slide back down under gravity; brake mode alone may not be enough to hold it (Chief Delphi 2019).
 - **removability**: removable: strings are anchored with knots or, better, clamped under a bolt head so they can be re-tensioned or replaced quickly (gm0); belts are clamped in belt clamps (Instructables cascading slide)
 - **reuse_cycles**: many times: the slides, pulleys and spools can be re-rigged indefinitely; the strings themselves stretch, fray and are replaced as a wear item (gm0 notes that string loosens over time)
-- **tools_needed**: Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide). *(⚑ parts need confirming)*
+- **tools_needed**: Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying: a whipping of thread, or melting the cut end of nylon, polyester or polyethylene line (not aramid) with a lighter or hot knife (Wikipedia 'Whipping knot'). A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide).
 - **seal**: none: an open framework of slides, pulleys and strings
 - **load**: Light to medium (competition robots lift game pieces and sometimes the robot itself: Brogan Pratt's printed FTC slide insert is described as lifting a 20 kg robot with two motors). Strings are only strong in pull (tension) and cannot push, so every direction you drive needs its own string or elastic. Braided UHMWPE (Dyneema/Spectra) kite line rated around 800 lb has been used on FRC elevators (Chief Delphi 2012). The weak points are sideways and bending loads on the extended slides: keep enough overlap between stages (about 20% of stage length) and at least two bearing blocks per side between stages (YETI wiki).
 - **adjustable**: Yes: string tension is adjusted at bolt clamps, spring tensioners, spring-loaded pulleys, or a pulley that slides along an extrusion (gm0); speed and pulling force can be traded by changing the spool diameter instead of the gearbox (new diameter = old diameter x old ratio / new ratio) (gm0); the number of stages can be changed.
@@ -1325,6 +1325,7 @@
   - https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
+  - https://en.wikipedia.org/wiki/Whipping_knot
 
 ### Finder tags
 
@@ -1336,7 +1337,7 @@
 - **shaft_layout**: not applicable ⚑ *needs confirming (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form*
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying [uncertain]. A clamp, vice or arbor pres…"*
+- **tools**: press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: yes
@@ -1388,7 +1389,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, make_it_yourself, making_tips_3d_printing, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, make_it_yourself, making_tips_3d_printing, processes, safety_notes
 
 ## 186 Drawer slide (telescopic ball-bearing slide)
 

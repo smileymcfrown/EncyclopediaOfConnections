@@ -1,12 +1,12 @@
 # locks, latches & catches: Latches, catches and locks
 
-15 entries. ⚑ = needs confirming: 15 best guesses and 4 values from text marked [uncertain]
+15 entries. ⚑ = needs confirming: 15 best guesses and 3 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
 | # | Entry | Connects | Power | If power is lost | Motion in | Motion out | Shafts | If overloaded | Clicks | Tools | Load | Usually made by | Adjust | Take apart |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 24 | Push-push latch | lid, door or cover ⚑ | none | – | straight push or pull | straight push or pull | – | – | clicks | none, drill and tap, hand tools ⚑ | light | off-the-shelf part | no | tool-free quick release |
+| 24 | Push-push latch | lid, door or cover ⚑ | none | – | straight push or pull | straight push or pull | – | – | clicks | none, drill and tap, hand tools | light | off-the-shelf part | no | tool-free quick release |
 | 26 | Sear and trigger | – | none | – | – | – | – | – | – | none | heavy | 3D print (FDM) | partly | tool-free quick release |
 | 27 | Compliant one-piece latch | lid, door or cover | none | – | – | – | – | – | – | none | medium | 3D print (FDM) | no | tool-free quick release |
 | 28 | Hidden latches | lid, door or cover ⚑ | none | – | – | – | – | – | – | drill and tap, hand tools | light | off-the-shelf part | no | tool-free quick release |
@@ -46,7 +46,6 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **24 Push-push latch**, `tools` = none, drill and tap, hand tools: `tools_needed` is marked [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike [uncertain]…"
 - ⚑ **161 Pin-tumbler lock**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…e set screw); a mortice lock also needs a pocket cut in the door edge [uncertain: fitting details not from an…"
 - ⚑ **163 Rotary latch**, `adjustable` = partly: `adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers) [uncertain: adjustment procedure not des…"
 - ⚑ **375 Tamper-resistant fasteners**, `load_max` = heavy: `load` is marked [uncertain] here: "…ame size and material, because the special shape is only in the drive [uncertain…"

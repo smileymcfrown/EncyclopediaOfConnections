@@ -88,15 +88,11 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…pliers and a vice or press to replace a car''s cross-and-bearing
-      joint [uncertain]. Printed joints need small m…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [input_output, removability, tools_needed, load, play_and_precision, processes, making_tips_3d_printing,
-  safety_notes, common_failures]
+uncertain_fields: [input_output, removability, load, play_and_precision, processes, making_tips_3d_printing, safety_notes,
+  common_failures]
 diagram_idea: Two shafts meeting at an angle, each ending in a fork, with a plus-shaped cross between them; colour one pair
   of cross arms to show the up-down hinge and the other for the side-to-side hinge, and add a small graph of output speed
   rising and falling twice per turn beside a second, phased joint that flattens it.
@@ -167,6 +163,8 @@ sources:
 - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
+- https://www.mgaguru.com/mgtech/propshaft/ps202.htm
+- https://www.grainews.ca/machinery/how-to-install-u-joints
 research: research/connection-types/results/Universal_joint_Hookes_joint_Cardan_joint.json
 image:
   file: universal-joint.webp
@@ -287,7 +285,7 @@ Avoid a single joint at a large angle where smooth, steady speed or exact positi
   - CNC: machined steel forks, cross or block for strong joints
   - off-the-shelf part: single and double universal joints, precision miniature joints, automotive cross-and-bearing kits, universal driveshafts
 - **Printing it in one piece (print in place):** yes: several designs print fully assembled and working, e.g. eversoRAD's 'U-Joint Bit Holder ([Print-in-Place](../glossary.md#print-in-place))' (PLA, 0.10 mm layers, 4 [perimeters](../glossary.md#perimeters), brim) and Triple G Workshop's 'Universal Joint Chain - Print in Place' (joints must be gently loosened after printing). Joints meant to carry real torque are usually printed as separate forks and cross and assembled with metal pins or bearings
-- **Tools:** Hex key for set screws or clamp hubs; pin punch for roll pins; a grease gun for greaseable joints (The Ranger Station); snap-ring pliers and a vice or press to replace a car's cross-and-bearing joint ⚑ [uncertain]. Printed joints need small metal pins, screws or wire, and sometimes ball bearings.
+- **Tools:** Hex key for set screws or clamp hubs; pin punch for roll pins; a grease gun for greaseable joints (The Ranger Station); snap-ring pliers, a bench vice, sockets and a hammer to replace a car's cross-and-bearing joint, or a press to make it easier (MGAguru 'Universal Joint Replacement Sequence'; Grainews 'How to install U-joints'). Printed joints need small metal pins, screws or wire, and sometimes ball bearings.
 - **Difficulty:** easy to moderate: small steel universal joints are cheap to buy, and printed ones are simple two-fork-and-cross designs; the hard part is making the pins and fork arms strong enough, so use metal pins, screws or bearings for anything carrying real torque
 
 ### 3D printing tips
@@ -350,8 +348,7 @@ Spinning universal joints are serious entanglement hazards: on tractor PTO shaft
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…pliers and a vice or press to replace a car's cross-and-bearing joint ⚑ [uncertain]. Printed joints need small m…"
+- ⚑ 9 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -380,3 +377,5 @@ Spinning universal joints are serious entanglement hazards: on tractor PTO shaft
 - <https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/>
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://help.prusa3d.com/article/petg_2059>
+- <https://www.mgaguru.com/mgtech/propshaft/ps202.htm>
+- <https://www.grainews.ca/machinery/how-to-install-u-joints>

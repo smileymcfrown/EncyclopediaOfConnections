@@ -43,7 +43,7 @@
   - shape (the parts interlock; form-fit): once cooled, the folded hinges are frozen in their new shape, and folded panels can wrap or lock around each other
   - spring force (a spring or springy part presses it in place): in the dissolvable-lock version, the TPU spring holds the hinge in its folded position
 - **input_output**: not applicable as a transmission: a one-off stimulus (hot water at about 70 degrees C, or plain water for PVA locks) -> a planned fold
-- **power**: powered, but only once: it needs heat (hot water, a heat gun or oven) or water to trigger the fold. After folding it holds its shape with no energy. If taken out of the hot water early it keeps the partial fold it has reached ⚑ [uncertain] *(⚑ parts need confirming)*
+- **power**: powered, but only once: it needs heat (hot water, a heat gun or oven) or water to trigger the fold. After folding it holds its shape with no energy. The fold angle grows with time in the hot water (Pivar and Muck 2020) and the part sets as it cools (Thermorph), so one taken out early keeps the partial fold it has reached
 - **removability**: permanent: once folded it stays folded; PLA versions can be softened with heat and reshaped, but they tend to return to their programmed folded shape when reheated (An et al. 2018)
 - **reuse_cycles**: once: the fold happens one time; PLA shape-memory versions can be deformed and recovered a few times with heat (An et al. 2018), and dissolvable locks must be replaced to reset the spring version ⚑ [uncertain] *(⚑ parts need confirming)*
 - **tools_needed**: a pot or tank of hot water and a thermometer (or a heat gun or oven) for heat-triggered prints; a bowl of water for PVA-lock prints; tongs to handle the hot part ⚑ [uncertain] *(⚑ parts need confirming)*
@@ -128,11 +128,12 @@
   - https://www.youtube.com/watch?v=5rnD4DyFmNs
   - https://www.youtube.com/watch?v=yNZ2mqYNLYI
   - https://api.printables.com/graphql/
+  - https://www.grid.uns.ac.rs/symposium/download/2020/posteri/18.pdf
 
 ### Finder tags
 
 - **connects**: 3D-printed part
-- **power_source**: liquid, heat ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…n out of the hot water early it keeps the partial fold it has reached [uncertain]…"*
+- **power_source**: liquid, heat
 - **power_loss**: not applicable ⚑ *needs confirming (best guess): uses power, but `power` does not say what happens when it is lost*
 - **motion_in**: not applicable
 - **motion_out**: not applicable
@@ -191,7 +192,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, making_tips_3d_printing, off_the_shelf_parts, power, reuse_cycles, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, making_tips_3d_printing, off_the_shelf_parts, reuse_cycles, safety_notes, tools_needed
 
 ## 55 Print-in-place hinge
 
@@ -230,7 +231,7 @@
 - **power**: passive (no power needed)
 - **removability**: permanent: the two leaves are trapped together as printed and can only be separated by breaking a knuckle or pin. The hinge as a whole is fixed to a project with screws (removable) or is printed as part of the object (permanent).
 - **reuse_cycles**: not applicable to taking apart (it never comes apart). No published cycle-life tests were found; one designer says PLA hinges 'deform or wear out over time' and recommends PETG or ASA (Printables 'Print in Place Hinge - PETG/ASA - High Strength 300') ⚑ [uncertain] *(⚑ parts need confirming)*
-- **tools_needed**: none to assemble. The first time, a hinge that is slightly stuck may need a firm twist or flexing back and forth to break it free ⚑ [uncertain]. A screwdriver is needed only for mounting screws. *(⚑ parts need confirming)*
+- **tools_needed**: none to assemble. The first time, a hinge that is slightly stuck may need some wiggling or a firm push to free it (Printables 'Concealed 180º Hinge - print in place'). A screwdriver is needed only for mounting screws.
 - **seal**: none: the gap around the knuckles is open; the hinge does not seal
 - **load**: light to medium: fine for box lids, covers, small doors and toys. The weak points are the small printed pins or cones and the layer lines through the knuckles; the gap also means the load rests on only a few small contact points. Some designs are sold as strong enough for furniture doors and chest lids when printed in PETG or ASA (designer's claim, Printables 'Print in Place Hinge - PETG/ASA - High Strength 300'), and a print-in-place geared hinge, which spreads the weight along the length of its gear teeth, held about 210 lb of dumbbells (Hackaday 'One-piece Geared Hinge Can Take The Weight'). No independent strength tests of cone hinges were found. ⚑ [uncertain] *(⚑ parts need confirming)*
 - **adjustable**: No: the gap is fixed when the part is designed and printed. Parametric models let you change the clearance before printing (BOSL2 gap parameter; Fusion 360 parameters in Printables 'Print-in-Place Hinge Clearance Tester' and 'Print In Place Butt Hinge').
@@ -333,7 +334,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…tuck may need a firm twist or flexing back and forth to break it free [uncertain]. A screwdriver is needed onl…"*
+- **tools**: none, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -385,7 +386,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, links, load, make_it_yourself, making_tips_3d_printing, play_and_precision, related, reuse_cycles, tools_needed
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, links, load, make_it_yourself, making_tips_3d_printing, play_and_precision, related, reuse_cycles
 
 ## 56 Heat-set threaded insert
 
@@ -1029,7 +1030,7 @@
 - **power**: passive (no power needed)
 - **removability**: semi-permanent for crush ribs: the part can be pushed out again, but the ribs stay squashed and grip less next time (AON3D: press-fit crush ribs are for one-time assembly). Removable for spring-fit tabs and for tapered 'transition-fit' crush ribs, which do not deform permanently (AON3D; SpringFit).
 - **reuse_cycles**: once to a few times for crush ribs that are squashed flat (AON3D); many times for cantilever spring tabs and transition-fit ribs, as long as the tab does not crack or take a set ⚑ [uncertain] *(⚑ parts need confirming)*
-- **tools_needed**: none for small parts (push in by hand; SpringFit parts go in best at an angle); a vice, arbor press or a bolt-and-washer puller is kinder than a hammer for pressing bearings ⚑ [uncertain]; a lead-in chamfer on the hole helps (Gridfinity layout tool: 45 degrees, 0.8 mm) *(⚑ parts need confirming)*
+- **tools_needed**: none for small parts (push in by hand; SpringFit parts go in best at an angle); a vice, arbor press (LulzBot presses bearings into printed parts with one) or a bolt, washers and nut (Printables 'Bearing press-in tool') is kinder than a hammer for pressing bearings: 'Do not strike bearings directly' (NSK); a lead-in chamfer on the hole helps (Gridfinity layout tool: 45 degrees, 0.8 mm)
 - **seal**: none: the gaps between the ribs are open
 - **load**: light to medium: it holds only by friction, and only the rib lines touch the part, so heavy or pounding loads can crush the ribs further until a bearing works loose (New Screwdriver; Hackaday commenters). Spring mounts come apart more easily than a hard press fit hammered in with a rubber mallet (SpringFit paper). Strongest against slipping along the hole when there are more and longer ribs; weakest against being pulled straight out.
 - **adjustable**: no: the grip is set by the rib height or spring stiffness; to change it you reprint or recut the part
@@ -1124,6 +1125,8 @@
   - https://en.wikipedia.org/wiki/Neodymium_magnet
   - https://api.printables.com/graphql/
   - https://www.printables.com/model/43599-test-print-crush-ribs-version02
+  - https://ohai.lulzbot.com/project/cluster-linear-bearings/cluster/
+  - https://www.nsk.com/am-en/tools-resources/knowledge-center/bearing-abcs/mounting/
 
 ### Finder tags
 
@@ -1135,7 +1138,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…bolt-and-washer puller is kinder than a hammer for pressing bearings [uncertain]; a lead-in chamfer on the ho…"*
+- **tools**: none, press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process "injection moulding: where crush ribs come from; th" not recognised; defaulted*
 - **adjustable**: no
@@ -1187,7 +1190,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** make_it_yourself, making_tips_3d_printing, processes, reuse_cycles, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** make_it_yourself, making_tips_3d_printing, processes, reuse_cycles, safety_notes
 
 ## 60 Mid-print embedding (captive nuts, magnets and bearings)
 

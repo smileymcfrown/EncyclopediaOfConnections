@@ -125,7 +125,7 @@ open_points:
 - kind: content
   note: '*Conductive tape*: no maker publishes a current rating, so its ''up to about 3 A'' lead-in is [uncertain]; copper
     tape''s 0.08 Ω/m is labelled calculated.'
-uncertain_fields: [seal, load, materials, print_in_place, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes,
+uncertain_fields: [seal, load, print_in_place, making_tips_3d_printing, when_not_to_use, environment_limits, safety_notes,
   common_failures]
 diagram_idea: A flat card with two copper-tape lines from a coin-cell flap to an LED, with a close-up of the fold-back corner
   in three steps, and a side-by-side cross-section of conductive-adhesive tape (particles in the glue linking two overlapped
@@ -199,6 +199,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:CopperTapeShieldedCable.jpg
 - https://commons.wikimedia.org/wiki/File:Corroded_copper_tape.jpg
 - https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Solderability
 research: research/connection-types/results/Conductive_tape_copper_foil_tape_conductive_fabric_tape.json
 image:
   file: conductive-tape.webp
@@ -222,7 +223,7 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
-glossary: [clearance, form-fit--force-fit--material-bond, peel-vs-shear]
+glossary: [clearance, form-fit--force-fit--material-bond, peel-vs-shear, flux]
 ---
 
 <div class="eoc-pictures">
@@ -277,7 +278,7 @@ For anything above small currents or above extra-low voltage: use a Soldered wir
 - **Sealing:** none: the top of the foil is bare metal and the tape gives no protection from water ⚑ [uncertain: no opened page discusses waterproofing; covering lines with clear tape or paper also helps stop accidental shorts]
 - **Adjustable:** partly: the layout is fixed once stuck down, but new branches can be added anywhere by sticking conductive-adhesive tape or fabric tape on top of an existing line, and weak spots can be patched the same way (Chibitronics)
 - **Access needed:** one side only (blind): the tape and the parts all go on the same face; a battery flap or a tape line that wraps over an edge to the back needs both sides (SparkFun 'Paper Circuit Pin')
-- **Materials:** Copper tape: 'deadsoft 1-ounce copper foil' 0.04 mm thick with a conductive or non-conductive acrylic pressure-sensitive adhesive, 0.066 mm total (3M 1181, 1194); hobby rolls are about 3 mil (0.07 mm) thick and 5-6 mm wide (SparkFun; Adafruit). The copper is solderable and 'resists oxidation and discoloration' (3M). Conductive fabric tape: nylon fabric plated with nickel, copper and cobalt, with conductive glue (SparkFun; Adafruit product 3961); it 'cannot be soldered' (Chibitronics) but can be sewn (Adafruit). Sticks well to paper and cardstock (SparkFun projects), smooth 3D prints (Hackaday 2026), wood and plastic enclosure walls; wrinkled foil makes poor contact and should be burnished flat (Chibitronics). PLA prints soften above about 60 °C, so soldering onto tape laid over PLA must be quick (Prusa 'PLA'; Hackaday 2026). Garden and hardware-store copper tapes usually have non-conductive adhesive (SparkFun; Chibitronics); aluminium tape can't be soldered with ordinary electronics solder ⚑ [uncertain: not on an opened page].
+- **Materials:** Copper tape: 'deadsoft 1-ounce copper foil' 0.04 mm thick with a conductive or non-conductive acrylic pressure-sensitive adhesive, 0.066 mm total (3M 1181, 1194); hobby rolls are about 3 mil (0.07 mm) thick and 5-6 mm wide (SparkFun; Adafruit). The copper is solderable and 'resists oxidation and discoloration' (3M). Conductive fabric tape: nylon fabric plated with nickel, copper and cobalt, with conductive glue (SparkFun; Adafruit product 3961); it 'cannot be soldered' (Chibitronics) but can be sewn (Adafruit). Sticks well to paper and cardstock (SparkFun projects), smooth 3D prints (Hackaday 2026), wood and plastic enclosure walls; wrinkled foil makes poor contact and should be burnished flat (Chibitronics). PLA prints soften above about 60 °C, so soldering onto tape laid over PLA must be quick (Prusa 'PLA'; Hackaday 2026). Garden and hardware-store copper tapes usually have non-conductive adhesive (SparkFun; Chibitronics); aluminium tape is poor to solder, because its tough surface oxide stops solder wetting it without special [flux](../glossary.md#flux) and brushing (Wikipedia 'Solderability').
 - **Heat, cold, water and wear:** Heat: the copper and its glue are made for electronics and pass the UL 510 flame test (3M data sheets), but the surface the tape is stuck to usually gives out first: PLA 'gets soft and deforms at temperatures over 60 °C' (Prusa 'PLA'), and paper scorches under a soldering iron ⚑ [uncertain]. Flexing: copper tape 'will crack if folded repeatedly' and 'can accidentally tear at turns'; fabric tape 'does not break when folded repeatedly' (Chibitronics). Surface condition: smooth the copper 'so that it's shiny, bright and has a solid connection' (Chibitronics 'Troubleshooting'); dusty or greasy surfaces hold the glue less well ⚑ [uncertain]. Corrosion: 3M's copper foil 'resists oxidation and discoloration', but bare copper stored for a long time does oxidise (Wikimedia Commons 'Corroded copper tape.jpg' description); polish tarnished foil before soldering ⚑ [uncertain]. Joints between pieces of conductive-adhesive tape become less reliable over time (Chibitronics).
 
 ## Making it
@@ -350,7 +351,7 @@ CUTS: 'Copper tape can give you a nasty paper cut, please be careful!' (SparkFun
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
 - ⚑ Finder value `bonds_well` = nylon, acrylic or polycarbonate, metal, fabric or leather (source uncertain): `materials` is marked ⚑ [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder ⚑ [uncertain: not on an opened page].…"
 - ⚑ Finder value `bonds_poorly` = PLA, wood, paper or card (source uncertain): `materials` is marked ⚑ [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder ⚑ [uncertain: not on an opened page].…"
@@ -385,3 +386,4 @@ CUTS: 'Copper tape can give you a nasty paper cut, please be careful!' (SparkFun
 - <https://commons.wikimedia.org/wiki/File:CopperTapeShieldedCable.jpg>
 - <https://commons.wikimedia.org/wiki/File:Corroded_copper_tape.jpg>
 - <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Solderability>

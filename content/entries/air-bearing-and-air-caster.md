@@ -102,7 +102,7 @@ open_points:
 - kind: content
   note: '*Float valve* and *Air bearing* cite some Thingiverse models whose licences weren''t shown (marked [uncertain]).
     A Commons page for a ram-pump video shows the uploader''s email address; the entry credits the name only.'
-uncertain_fields: [tools_needed, environment_limits, safety_notes]
+uncertain_fields: [environment_limits, safety_notes]
 diagram_idea: A side-on cut-away of a flat pad over a granite plate, with arrows showing air entering a central hole, spreading
   through a thin gap (labelled 'thinner than a hair') and escaping at the edges, a pressure 'hill' drawn under the pad, and
   a second panel showing the gap squeezed by extra weight with the pressure hill growing taller to push back; a small inset
@@ -187,6 +187,7 @@ sources:
 - https://www.printables.com/model/437647-levitating-air-hockey-disc-paddles
 - https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
 - https://www.printables.com/model/1247872-mini-air-hockey-table
+- https://img-ilmenau.de/media/pages/luftlager/standardluftlager/rd-42s1/ebea320839-1727690744/rd-42s1_en.pdf
 research: research/connection-types/results/Air_bearing_and_air_caster_aircushion_bearing.json
 image:
   file: air-bearing-and-air-caster.webp
@@ -310,7 +311,7 @@ Avoid it when there is no steady supply of clean, dry compressed air, or the sur
   - lapping or grinding: flattening graphite or metal faces against a reference plate with abrasives (Hackaday 2019; Printables 1055797)
   - CNC and laser drilling: commercial orifice and micro-nozzle pads (Wikipedia: laser-drilled micro-nozzles 0.02-0.06 mm)
 - **Printing it in one piece (print in place):** partly: toy versions print in one piece and only need a balloon (Printables 386417 and 437647). For working air bearings the printed part is usually a housing, plenum or jig, and the bearing face is a separate graphite insert, epoxy layer or lapped surface (Hackaday 2019; Hackaday 2024); a printed vortex pad works directly but needs its face lapped flat and a tapped air fitting (Printables 1055797)
-- **Tools:** To use: an air compressor or blower, a filter and [regulator](../glossary.md#regulator), hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)
+- **Tools:** To use: an air compressor or blower, a filter and [regulator](../glossary.md#regulator), hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts), since a pad sits on a threaded mounting screw that is locked with a small socket-head lock screw and washer, or with a lock nut (IMG Ilmenau RD 42S1 data sheet). DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)
 - **Difficulty:** easy for a toy (a balloon hovercraft or air-hockey puck: Science Buddies; Printables). Hard for a real precision air bearing: it needs surfaces flat to a few micrometres, clean dry compressed air and careful restrictor design, though makers have done it with float glass, epoxy replication and porous graphite (Hackaday 2024; Hackaday 2019). For moving heavy loads, buy commercial air casters and check the floor first (AeroGo; Airfloat)
 
 ### 3D printing tips
@@ -374,7 +375,7 @@ Porous carbon flat round and rectangular air bearings, air bushings (porous bron
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
 - ⚑ Finder value `tools` = drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill wi…"
 - ⚑ Research note: *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address; the entry credits the name only.
@@ -406,3 +407,4 @@ Porous carbon flat round and rectangular air bearings, air bushings (porous bron
 - <https://www.printables.com/model/437647-levitating-air-hockey-disc-paddles>
 - <https://www.printables.com/model/386417-hovercraft-v2-balloon-powered>
 - <https://www.printables.com/model/1247872-mini-air-hockey-table>
+- <https://img-ilmenau.de/media/pages/luftlager/standardluftlager/rd-42s1/ebea320839-1727690744/rd-42s1_en.pdf>

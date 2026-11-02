@@ -37,7 +37,7 @@
     "power": "passive (no power needed)",
     "removability": "permanent: the two leaves are trapped together as printed and can only be separated by breaking a knuckle or pin. The hinge as a whole is fixed to a project with screws (removable) or is printed as part of the object (permanent).",
     "reuse_cycles": "not applicable to taking apart (it never comes apart). No published cycle-life tests were found; one designer says PLA hinges 'deform or wear out over time' and recommends PETG or ASA (Printables 'Print in Place Hinge - PETG/ASA - High Strength 300') [uncertain]",
-    "tools_needed": "none to assemble. The first time, a hinge that is slightly stuck may need a firm twist or flexing back and forth to break it free [uncertain]. A screwdriver is needed only for mounting screws.",
+    "tools_needed": "none to assemble. The first time, a hinge that is slightly stuck may need some wiggling or a firm push to free it (Printables 'Concealed 180º Hinge - print in place'). A screwdriver is needed only for mounting screws.",
     "seal": "none: the gap around the knuckles is open; the hinge does not seal",
     "load": "light to medium: fine for box lids, covers, small doors and toys. The weak points are the small printed pins or cones and the layer lines through the knuckles; the gap also means the load rests on only a few small contact points. Some designs are sold as strong enough for furniture doors and chest lids when printed in PETG or ASA (designer's claim, Printables 'Print in Place Hinge - PETG/ASA - High Strength 300'), and a print-in-place geared hinge, which spreads the weight along the length of its gear teeth, held about 210 lb of dumbbells (Hackaday 'One-piece Geared Hinge Can Take The Weight'). No independent strength tests of cone hinges were found. [uncertain]",
     "adjustable": "No: the gap is fixed when the part is designed and printed. Parametric models let you change the clearance before printing (BOSL2 gap parameter; Fusion 360 parameters in Printables 'Print-in-Place Hinge Clearance Tester' and 'Print In Place Butt Hinge').",
@@ -192,7 +192,6 @@
   "uncertain": [
     "aliases",
     "reuse_cycles",
-    "tools_needed",
     "load",
     "play_and_precision",
     "making_tips_3d_printing",

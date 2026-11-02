@@ -106,7 +106,7 @@ confirmed: []
 open_points:
 - kind: sources
   note: '*Bonding fastener* (436): Practical Sailor pages lost their fraction characters, so their stud sizes are left out.'
-uncertain_fields: [load, materials, making_tips_3d_printing, environment_limits, safety_notes]
+uncertain_fields: [load, making_tips_3d_printing, environment_limits, safety_notes]
 diagram_idea: 'Side-by-side cross-sections of a panel: (1) a stud on a perforated plate glued to the front face, with glue
   pushed through the holes like mushroom heads; (2) the plate glued to the back face with the stud through a small hole and
   a nut clamping a bracket; (3) the plate buried between glass layers of a laminate, with arrows showing load spreading over
@@ -160,6 +160,8 @@ sources:
 - https://www.tesa.com/sk-sk/spotrebitel/kupelnove-doplnky/technologia-power-kit
 - https://www.westsystem.com/safety/health-effects-from-overexposure-to-epoxy/
 - https://api.printables.com/graphql/
+- https://www.cruisingworld.com/story/how-to/fiberglass-repairs/
+- https://manuals.seakeeper.com/ride/seakeeper-ride-mechanical-installation-manual/6-prepare-hull/6-6-grind-old-construction-only/
 research: research/connection-types/results/Bonding_fastener_glueon_stud_bondedbase_stud_or_nut_perforatedbase_fastener.json
 image:
   file: drawn/bonding-fastener.svg
@@ -241,7 +243,7 @@ Not for loads that hold people, rigging, lifting or overhead loads unless the ma
 - **Sealing:** watertight at the mounting point: there is no hole through the skin, so nothing can leak in, which is the reason for using it on cored boat hulls (Practical Sailor). The 'through' version (stud passing through a hole) needs the hole sealed like any other.
 - **Adjustable:** Only while wet: with the equipment held in position and the studs hanging from its mounting holes, the studs can be glued in place for perfect alignment (Practical Sailor 'Alignment Tip'). Once cured, position is fixed.
 - **Access needed:** one side only (blind): it is glued to one face with no need to reach the back, which is its main advantage (Practical Sailor: when 'the other side is either inaccessible or exposed'). The strongest 'through' version needs the back face (Easy Composites).
-- **Materials:** Fastener: usually 304 or 316 stainless steel (Carr Lane; Easy Composites). Suits: fibreglass (GRP) and carbon laminates, metals (aluminium, stainless, galvanised steel), engineering plastics and composites (Easy Composites; Carr Lane); tile, stone, glass, concrete, metal, wood and many plastics for household adapter kits (tesa). Embedding needs material about 3 mm thick or more round the head (bigHead SM1-B20 TDS). Adhesives: methacrylate (MMA) structural adhesives (Easy Composites VM100, Weld Mount AT-8040), two-part epoxy thickened to mayonnaise consistency (Practical Sailor), or the maker's own adhesive. Poor: polyethylene (PE), polypropylene (PP) and PTFE, loose or painted plaster, wallpaper, fabrics, and painted or sealed coatings (tesa); gelcoat or paint that could peel off the laminate ⚑ [uncertain: forum advice seen in search results to grind to bare fibreglass, page not opened].
+- **Materials:** Fastener: usually 304 or 316 stainless steel (Carr Lane; Easy Composites). Suits: fibreglass (GRP) and carbon laminates, metals (aluminium, stainless, galvanised steel), engineering plastics and composites (Easy Composites; Carr Lane); tile, stone, glass, concrete, metal, wood and many plastics for household adapter kits (tesa). Embedding needs material about 3 mm thick or more round the head (bigHead SM1-B20 TDS). Adhesives: methacrylate (MMA) structural adhesives (Easy Composites VM100, Weld Mount AT-8040), two-part epoxy thickened to mayonnaise consistency (Practical Sailor), or the maker's own adhesive. Poor: polyethylene (PE), polypropylene (PP) and PTFE, loose or painted plaster, wallpaper, fabrics, and painted or sealed coatings (tesa); gelcoat or paint that could peel off the laminate, so grind down to bare fibreglass where the base goes ('Never attempt to bond to gelcoat', Cruising World 'Fiberglass Repairs'; Seakeeper installation manual).
 - **Heat, cold, water and wear:** Temperature: depends on the adhesive; a household SMP adhesive is rated -40 to +100 °C once cured and must be applied between +5 and +40 °C (tesa); an acrylic-bonded aircraft fastener softens enough to peel off at about 350 °F (Kitplanes). Water: tesa's kit is moisture-resistant but not for permanent immersion, running water or steam rooms (tesa); epoxy- or methacrylate-bonded marine studs are used inside boats (Practical Sailor). [Creep](../glossary.md#creep): if the parts clamped by the nut are plastic or polymer composite, they can creep and the clamp loosens over time, so test the assembly (bigHead guidance). UV and long-term ageing ⚑ [uncertain: no figure found].
 
 ## Making it
@@ -319,7 +321,7 @@ Only as strong as the surface it is glued to: a strong stud on paint, a sealed o
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
 - ⚑ Finder value `bonds_well` = wood, metal, glass or ceramic, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate ⚑ [uncertain: forum advice seen in search…"
 - ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), paper or card, fabric or leather (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate ⚑ [uncertain: forum advice seen in search…"
@@ -338,3 +340,5 @@ Only as strong as the surface it is glued to: a strong stud on paint, a sealed o
 - <https://www.tesa.com/sk-sk/spotrebitel/kupelnove-doplnky/technologia-power-kit>
 - <https://www.westsystem.com/safety/health-effects-from-overexposure-to-epoxy/>
 - <https://api.printables.com/graphql/>
+- <https://www.cruisingworld.com/story/how-to/fiberglass-repairs/>
+- <https://manuals.seakeeper.com/ride/seakeeper-ride-mechanical-installation-manual/6-prepare-hull/6-6-grind-old-construction-only/>

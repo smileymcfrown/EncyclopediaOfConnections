@@ -180,6 +180,7 @@ sources:
 - https://www.epoxyworks.com/?p=9878
 - https://idph.illinois.gov/envhealth/factsheets/fiberglass.htm
 - https://api.printables.com/graphql/
+- https://patents.google.com/patent/WO1998045343A1/en
 research: research/connection-types/results/Filletandtape_joint_stitchandglue_seam_glasstape_tabbing_tackandtape.json
 image:
   file: drawn/fillet-and-tape-joint.svg
@@ -265,7 +266,7 @@ Not for anything that must come apart (use screws, bolts or the Glued joint desi
 - **Sealing:** watertight: the epoxy fillet fills the gap and the glass tape over it is saturated with resin, so a well-made seam keeps water out; taping the outside too, and sealing plywood [end grain](../glossary.md#end-grain) with epoxy, keeps water from wicking into the wood (Wikipedia 'Stitch and glue'; boatdesign.net thread). Masking tape along the outside of an open seam stops resin draining out and leaving a 'starved seam' while taping the inside (Guillemot Kayaks).
 - **Adjustable:** Only before the epoxy sets: copper wire stitches can be twisted tighter or looser to adjust the fit (Wikipedia 'Stitch and glue'); once tack fillets or the full fillet cure, the shape is fixed.
 - **Access needed:** both sides: you need to reach the inside corner to lay the fillet and tape, and the outside to snip or pull stitches, fill and (usually) tape it too (Duckworks; Wikipedia 'Stitch and glue'). Tabbing a bulkhead needs access to both faces of the bulkhead where it meets the hull.
-- **Materials:** Suits: marine and other plywood panels (the classic use), solid wood, fibreglass (GRP) laminates and hulls, plywood bulkheads into GRP hulls, and composite [sandwich panels](../glossary.md#sandwich-panel) (Wikipedia 'Stitch and glue'; boatdesign.net thread). Epoxy is strongly recommended for wood ('nothing sticks as well to wood as epoxy', Fiberglass Supply); polyester resin is the traditional production-boat choice for GRP but bonds poorly to already-cured laminate (Practical Sailor 'Bulletproof Sailboat Deck Hardware': the secondary bond is about 4-6 times weaker for polyester and 2-4 times weaker for vinylester). Fabrics: plain glass tape or cloth for small boats; knitted double-bias tape for larger ones; mat-backed tapes waste resin in epoxy (Fiberglass Supply; boatdesign.net thread). Foam and 3D prints: glass and epoxy can wrap a foam or printed shape (see making tips), but polyester resin dissolves polystyrene foam ⚑ [uncertain: forum consensus in search results; no authoritative page opened] and a PLA print's plastic can peel away from the epoxy-glass skin (3DPrint.com 'strengthening 3D parts'). Poor: polyethylene and polypropylene (epoxy does not stick) ⚑ [uncertain: not stated on a page opened for this entry; see the Two-part epoxy entry].
+- **Materials:** Suits: marine and other plywood panels (the classic use), solid wood, fibreglass (GRP) laminates and hulls, plywood bulkheads into GRP hulls, and composite [sandwich panels](../glossary.md#sandwich-panel) (Wikipedia 'Stitch and glue'; boatdesign.net thread). Epoxy is strongly recommended for wood ('nothing sticks as well to wood as epoxy', Fiberglass Supply); polyester resin is the traditional production-boat choice for GRP but bonds poorly to already-cured laminate (Practical Sailor 'Bulletproof Sailboat Deck Hardware': the secondary bond is about 4-6 times weaker for polyester and 2-4 times weaker for vinylester). Fabrics: plain glass tape or cloth for small boats; knitted double-bias tape for larger ones; mat-backed tapes waste resin in epoxy (Fiberglass Supply; boatdesign.net thread). Foam and 3D prints: glass and epoxy can wrap a foam or printed shape (see making tips), but polyester resin dissolves polystyrene foam, because its styrene solvent 'attacks and dissolves' it (patent WO1998045343A1) and a PLA print's plastic can peel away from the epoxy-glass skin (3DPrint.com 'strengthening 3D parts'). Poor: polyethylene and polypropylene (epoxy does not stick) ⚑ [uncertain: not stated on a page opened for this entry; see the Two-part epoxy entry].
 - **Heat, cold, water and wear:** Water: cured epoxy and glass are waterproof, but exposed plywood end grain wicks water and must be sealed with epoxy (boatdesign.net thread). Sunlight: epoxy is damaged by UV and needs paint or varnish over it; some resin systems add UV inhibitors (Fiberglass Supply mentions WEST SYSTEM 105/207 'with UV inhibitors') ⚑ [uncertain: no figure]. Heat: epoxy softens as it warms; check the resin's data sheet for its heat limit ⚑ [uncertain: no figure on an opened page]. Cold: cure slows; full cure can take over two weeks at room temperature (WEST SYSTEM 'General Epoxy Safety Guidelines'). Hard landings or flexing: a stiff fillet edge on a solid laminate can crack the hull along a 'hard spot' (boatdesign.net thread).
 
 ## Making it
@@ -350,7 +351,7 @@ Epoxy skin allergy (sensitisation): fewer than 10% of users react, less than 2% 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 9 sentences on this page marked [uncertain].
+- ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `processes` = off-the-shelf part, CNC, 3D print (FDM), laser cut, woodwork (source uncertain): `processes` is marked ⚑ [uncertain] here: "…| off-the-shelf part | 3D print | laser cut or CNC for panel kits ⚑ [uncertain…"
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
 - ⚑ Finder value `bonds_well` = wood, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam ⚑ [uncertain: forum consensus in search re…"
@@ -379,3 +380,4 @@ Epoxy skin allergy (sensitisation): fewer than 10% of users react, less than 2% 
 - <https://www.epoxyworks.com/?p=9878>
 - <https://idph.illinois.gov/envhealth/factsheets/fiberglass.htm>
 - <https://api.printables.com/graphql/>
+- <https://patents.google.com/patent/WO1998045343A1/en>

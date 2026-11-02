@@ -89,14 +89,10 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope
-      ends [uncertain]…"'
 confirmed: []
 open_points: []
-uncertain_fields: [tools_needed, making_tips_3d_printing, everyday_examples, when_not_to_use, environment_limits, safety_notes,
-  common_failures, make_it_yourself]
+uncertain_fields: [making_tips_3d_printing, everyday_examples, when_not_to_use, environment_limits, safety_notes, common_failures,
+  make_it_yourself]
 diagram_idea: Top view of a small drum and a large drum side by side with one cable coming off the big drum, wrapping three
   spiral turns round the small drum and returning to the big drum, with arrows showing the small drum turning eight times
   for one slow sweep of the big drum, and an inset graph of grip rising steeply with each extra wrap.
@@ -153,6 +149,8 @@ sources:
 - https://www.youtube.com/watch?v=MwIBTbumd1Q
 - https://www.youtube.com/watch?v=jKZIvseA1Nk
 - https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Whipping_knot
+- https://en.wikipedia.org/wiki/Ropework
 research: research/connection-types/results/Capstan_cable_drive_tendon_drive.json
 image:
   file: drawn/anim/capstan-cable-drive.svg
@@ -262,7 +260,7 @@ Don't use it for continuous rotation, such as wheels or spindles, since the outp
   - CNC: machined aluminium drums with spiral grooves in research and industrial designs
   - off-the-shelf part: the rope or cable, end fittings, bearings and screws
 - **Printing it in one piece (print in place):** no: the drums and frame are printed separately, then the cable is wound on, anchored and tensioned by hand
-- **Tools:** Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends ⚑ [uncertain]
+- **Tools:** Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends (melting works on nylon, polyester and polyethylene, not aramid; Wikipedia 'Whipping knot', 'Ropework')
 - **Difficulty:** moderate: the parts print easily and need no precise gear teeth, but you must choose a low-creep rope, work out the effective diameters, route and anchor the cable neatly and build a tensioner
 
 ### 3D printing tips
@@ -320,9 +318,8 @@ The pre-tensioned cable stores energy and can whip if it or an anchor breaks, so
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `tools` = crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope ends ⚑ [uncertain]…"
 
 ## Sources
 
@@ -345,3 +342,5 @@ The pre-tensioned cable stores energy and can whip if it or an anchor breaks, so
 - <https://www.youtube.com/watch?v=MwIBTbumd1Q>
 - <https://www.youtube.com/watch?v=jKZIvseA1Nk>
 - <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Whipping_knot>
+- <https://en.wikipedia.org/wiki/Ropework>
