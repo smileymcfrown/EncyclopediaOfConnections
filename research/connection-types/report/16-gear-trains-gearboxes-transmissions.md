@@ -2681,7 +2681,7 @@
 - **power**: passive (no power needed); it only passes on the motor's power. If the motor stops nothing holds the output
 - **removability**: removable: the gears slide off their pins or shafts once clips, set screws or hubs are undone
 - **reuse_cycles**: many times: the gears can be taken off and refitted as often as needed; refit them at the same relative angle (see tools_needed)
-- **tools_needed**: A screwdriver or hex key for hubs, or none for gears held on pins with snap-on retaining rings (osamutake's model needs no glue). Design software or an online generator is needed to make the pair. When assembling, mesh the gears at their designed relative angle (mark matching teeth): because the two radii must always add up to the centre distance, a pair meshed one tooth off will bind or gap (follows from the fixed-centre rule in Wikipedia) ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: A screwdriver or hex key for hubs, or none for gears held on pins with snap-on retaining rings (osamutake's model needs no glue). Design software or an online generator is needed to make the pair. When assembling, mesh the gears at their designed relative angle (mark matching teeth: Shimano's reel patent US 7,188,794 marks the largest-radius tooth of one gear and the smallest-radius tooth of the other so they meet): because the two radii must always add up to the centre distance, a pair meshed one tooth off will bind or gap (follows from the fixed-centre rule in Wikipedia)
 - **seal**: none: open gears. In an oval gear flow meter the gears run in a closely fitting chamber and the fluid is carried round in the pockets between gears and chamber wall, but that is the meter housing, not the gears (Silver Automation Instruments)
 - **load**: Light to medium: made accurately in metal they carry industrial loads (presses, hydraulic motors, pumps; Wikipedia), but home-made printed or laser-cut ones are for light loads, models and kinetic art. Teeth near the sharp ends of a pointed oval are small and undercut, so they are the weak spot (osamutake). Strong in twist (torque) along the direction of rotation; like other spur gears they push the shafts apart and need a stiff frame to keep the centre distance
 - **adjustable**: no: the speed pattern is fixed by the gears' shapes and the centre distance is fixed; to change the pattern you make a new pair (or change the relative starting angle, which shifts when the fast and slow parts happen)
@@ -2770,6 +2770,7 @@
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://help.prusa3d.com/article/pla_2062
   - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+  - https://patents.google.com/patent/US7188794B2/en
 
 ### Finder tags
 
@@ -2781,7 +2782,7 @@
 - **shaft_layout**: parallel
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ff will bind or gap (follows from the fixed-centre rule in Wikipedia) [uncertain]…"*
+- **tools**: hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -2833,7 +2834,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, input_output, make_it_yourself, processes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, input_output, make_it_yourself, processes, when_not_to_use
 
 ## 204 Lantern gear (pin gear)
 

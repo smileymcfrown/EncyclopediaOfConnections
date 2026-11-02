@@ -97,10 +97,6 @@ finder:
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
 needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples
-      [uncertain]; safety glasses (Toolstation…"'
   cord_part:
     kind: best guess
     reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
@@ -358,7 +354,6 @@ Staple guns and powered staplers fire like nail guns: always assume the tool is 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples ⚑ [uncertain]; safety glasses (Toolstation…"
 - ⚑ Finder value `cord_part` = fix to fabric or an edge (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ Research note: *Staples for wood and fabric* (373): Talas calls Monel staples stainless; Monel is not stainless steel, so the text says "rust-resistant Monel staples". The entry keeps its name (renaming would change its page address); "desk stapler" and the other stapler kinds are aliases.
 

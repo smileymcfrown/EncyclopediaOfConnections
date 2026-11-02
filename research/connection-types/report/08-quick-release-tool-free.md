@@ -2091,7 +2091,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: loosened and unscrewed by hand with no tools; the lever itself stays assembled on its insert, held by a retaining screw or pin (Elesa+Ganter GN 300; Elesa ERX)
 - **reuse_cycles**: effectively unlimited: made for repeated clamping; an Elesa ERX.78 withstood more than 100,000 tightening cycles at 490 N without yielding (Elesa ERX datasheet)
-- **tools_needed**: None to use. To fit: none for a threaded-stud version screwed into a tapped hole by hand, or a spanner to fit a stud or nut; a hex key for the retaining screw on some models (vxb lists a 3 mm hex socket) ⚑ [uncertain: varies by model] *(⚑ parts need confirming)*
+- **tools_needed**: None to use. To fit: none for a threaded-stud version screwed into a tapped hole by hand, or a spanner to fit a stud or nut; a hex key for the retaining screw on models that have one (Ganter GN 300 has a steel retaining screw; vxb lists a 3 mm hex socket); Elesa ERX handles use a plastic retaining pin instead (Elesa ERX)
 - **seal**: none
 - **load**: medium: clamping force comes from the screw, so it depends on thread size (M3 to M16 on GN 300) and how hard you pull; the weak point is the toothed element that carries the torque from lever to insert (Elesa ERX). Strong in normal tightening; weak if you hang your weight on the lever or strike it, which can strip plastic teeth or bend the lever ⚑ [uncertain] *(⚑ parts need confirming)*
 - **adjustable**: yes: the lever angle can be re-set one tooth at a time, and the clamping force is set by how far you tighten
@@ -2184,7 +2184,7 @@
 - **shaft_layout**: in line
 - **overload_response**: not applicable
 - **clicks**: clicks
-- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket) [uncertain: varies by model]…"*
+- **tools**: none, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
@@ -2236,7 +2236,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, common_failures, input_output, load, making_tips_3d_printing, play_and_precision, processes, rules_of_thumb, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, input_output, load, making_tips_3d_printing, play_and_precision, processes, rules_of_thumb, safety_notes, when_not_to_use
 
 ## 169 Spring bar (spring-loaded telescoping pin)
 

@@ -104,10 +104,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`reuse_cycles` is marked [uncertain] here: "…less worm-drive and spring clamps if the screw and band are undamaged
       [uncertain:…"'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket
-      [uncertain]. Cable-tie stand-ins: a cutt…"'
 confirmed: []
 open_points:
 - kind: content
@@ -372,7 +368,6 @@ PRESSURE: hose clamps are for moderate pressures only (Wikipedia 'Hose clamp'); 
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…less worm-drive and spring clamps if the screw and band are undamaged ⚑ [uncertain:…"
-- ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket ⚑ [uncertain]. Cable-tie stand-ins: a cutt…"
 - ⚑ Research note: *Hose clamp*: Wikipedia says T-bolt clamps suit high-pressure turbo hoses; AMS Performance says they distort thin aluminium pipe, where a worm clamp is better.
 
 ## Sources

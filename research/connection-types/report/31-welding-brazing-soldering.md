@@ -1979,7 +1979,7 @@
 - **power**: passive (no power needed); a soldering iron is needed only to make it
 - **removability**: semi-permanent: a broken piece can be replaced by cutting or opening the came round it, and old panels are taken apart for restoration, but this disturbs the cement and lead (Everything Stained Glass lesson 'Fixing a broken stained glass window'; Illinois DPH, 'dismantling of old stained glass pieces for restoration') ⚑ [uncertain: repair steps not read in detail]. *(⚑ parts need confirming)*
 - **reuse_cycles**: once: a panel is made to last; old lead can be re-soldered after thorough cleaning, but used came is hard to get clean enough to take solder (Everything Stained Glass 'Stained Glass Lead Soldering').
-- **tools_needed**: Glass cutter and breaking pliers (grozier pliers), a lead knife, a lead vice or stretcher, horseshoe nails or pins to hold the pieces while leading up, a soldering iron (for lead about 360 °C, or a Weller tip marked 7 = 700 °F), solder (50/50 or 60/40), flux (or tallow), wire brush, scrubbing brushes, a fid or wooden stick for cement, whiting (Wikipedia 'Came glasswork' tool images; Everything Stained Glass 'Stained Glass Lead Soldering' and 'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a saw ⚑ [uncertain: mentioned only in a reader's question on Everything Stained Glass]. *(⚑ parts need confirming)*
+- **tools_needed**: Glass cutter and breaking pliers (grozier pliers), a lead knife, a lead vice or stretcher, horseshoe nails or pins to hold the pieces while leading up, a soldering iron (for lead about 360 °C, or a Weller tip marked 7 = 700 °F), solder (50/50 or 60/40), flux (or tallow), wire brush, scrubbing brushes, a fid or wooden stick for cement, whiting (Wikipedia 'Came glasswork' tool images; Everything Stained Glass 'Stained Glass Lead Soldering' and 'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a came saw or fine-toothed hacksaw, without pressing so hard that it squashes (Everything Stained Glass 'How To Frame With Stained Glass Zinc Came').
 - **seal**: watertight: once cement or putty is worked under the came flanges on both faces it hardens and keeps out rain; uncemented panels are not waterproof (Wikipedia 'Came glasswork'; Everything Stained Glass 'Cementing Lead Came'). Old cement that crumbles and dissolves in water no longer seals, and needs re-cementing (Everything Stained Glass, reply to a reader).
 - **load**: Light: carries the weight of its own glass and wind on a window, set in a frame. Lead is soft, so large or moving panels sag or buckle unless reinforced; bevelled (thick) glass in lead came is 'much more likely to buckle or sag over time', so it is usually done in zinc (Wikipedia 'Came glasswork'). Strong in the plane of the panel once cemented, weak when bent or pushed sideways (Wikipedia 'Came glasswork' image 'Buckled lead came window').
 - **adjustable**: no
@@ -2058,6 +2058,7 @@
   - https://commons.wikimedia.org/wiki/File:Buckled_lead_came_window_01.jpg
   - https://commons.wikimedia.org/wiki/File:Canterbury_Cathedral_012_window_showing_leading_and_support.JPG
   - https://api.printables.com/graphql/ (models 1312183, 1468163, 678895; no Printables pages opened)
+  - https://everythingstainedglass.com/stain-glass-how-to
 
 ### Finder tags
 
@@ -2069,7 +2070,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: soldering iron, press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a saw [uncertain: mentioned only in a reader's…"*
+- **tools**: soldering iron, press or vice, hand tools
 - **load_max**: light
 - **usual_process**: by hand (tied or wrapped)
 - **adjustable**: no
@@ -2121,7 +2122,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, materials, processes, removability, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** making_tips_3d_printing, materials, processes, removability, safety_notes, when_not_to_use
 
 ## 446 Glass fusing (kiln fusing, tack fusing, full fusing)
 

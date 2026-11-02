@@ -92,14 +92,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…asher (Smoking Steel Garage video ''Install Rivnuts Without The
-      Tool'') [uncertain: video not watched]. Well nut…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [special_behaviour, holding_principle, reuse_cycles, tools_needed, processes, making_tips_3d_printing, everyday_examples,
+uncertain_fields: [special_behaviour, holding_principle, reuse_cycles, processes, making_tips_3d_printing, everyday_examples,
   environment_limits, safety_notes, common_failures]
 diagram_idea: 'A three-step cross-section through a thin sheet: (1) the rivet nut on the tool''s threaded rod pushed into
   the hole, (2) the rod pulling the thread back so the thin middle section buckles into a ring behind the sheet, (3) the tool
@@ -173,6 +169,7 @@ sources:
 - https://www.youtube.com/watch?v=FJ4gF2tXRBE
 - https://www.youtube.com/watch?v=lYXTiJo_FQQ
 - https://api.printables.com/graphql/ (models 1174824, 264580, 161882, 1373120, 126459)
+- https://www.garagejournal.com/forum/threads/rivnut.88047/
 research: research/connection-types/results/Blind_threaded_fixings_rivet_nut_well_nut.json
 image:
   file: blind-threaded-fixings.webp
@@ -292,7 +289,7 @@ If you can reach both sides, an ordinary bolt and nut is simpler and stronger (s
   - woodwork: well nuts in plywood, and in blind holes in solid material (RivetLab; Wikipedia 'Well nut')
   - laser cut: rivet nuts and well nuts in cut plastic or composite panels ⚑ [uncertain: no specific source; follows from the materials list]
 - **Printing it in one piece (print in place):** partly: a home-made well nut can be printed in flexible TPU or TPE, but it needs a metal nut added (Kalafatis's design uses the M4, M5 and M6 embedded nuts 'popular in 3D printing'; ParametricFab's uses an M5 nut on the back). Metal rivet nuts can't be printed; they are fitted to printed parts afterwards.
-- **Tools:** A drill with the exact bit size from the data sheet, a deburring tool (Eugene Fasteners). Rivet nut: a setting tool fitted with the right mandrel and nose piece for the thread size: hand tools (lever or wrench type), pneumatic, pneumatic-hydraulic or battery tools (Böllhoff RIVNUT catalogue pp.24-29; Eugene Fasteners). Some types (pre-bulbed plus nuts, 'easy-install' rivet nuts) can be set by turning a screw with a simple torque hand tool or ordinary screw driver tool (Böllhoff PLUSNUT data sheet; McMaster-Carr 'Easy-Install Rivet Nuts ... Install with nothing more than a screw'); makers also set them with a bolt, nut and washer (Smoking Steel Garage video 'Install Rivnuts Without The Tool') ⚑ [uncertain: video not watched]. Well nut: only a screwdriver or hex key, sometimes a rubber mallet to seat it (Wikipedia; RivetLab; Spring Creek).
+- **Tools:** A drill with the exact bit size from the data sheet, a deburring tool (Eugene Fasteners). Rivet nut: a setting tool fitted with the right mandrel and nose piece for the thread size: hand tools (lever or wrench type), pneumatic, pneumatic-hydraulic or battery tools (Böllhoff RIVNUT catalogue pp.24-29; Eugene Fasteners). Some types (pre-bulbed plus nuts, 'easy-install' rivet nuts) can be set by turning a screw with a simple torque hand tool or ordinary screw driver tool (Böllhoff PLUSNUT data sheet; McMaster-Carr 'Easy-Install Rivet Nuts ... Install with nothing more than a screw'); makers also set them with a bolt, two washers and an oversize nut held with a spanner while the bolt is tightened (Garage Journal forum 'Rivnut'; Smoking Steel Garage video 'Install Rivnuts Without The Tool'). Well nut: only a screwdriver or hex key, sometimes a rubber mallet to seat it (Wikipedia; RivetLab; Spring Creek).
 - **Difficulty:** easy to moderate: well nuts are easy (drill a hole, push in, tighten a screw). Rivet nuts are moderate: a hand setting tool is cheap, but you must drill the exact hole size, deburr it and pick the right grip length, or the insert spins or pulls out (Eugene Fasteners).
 
 ### 3D printing tips
@@ -360,8 +357,7 @@ Drilling sheet metal leaves sharp burrs and swarf: wear eye protection and debur
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 15 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…asher (Smoking Steel Garage video 'Install Rivnuts Without The Tool') ⚑ [uncertain: video not watched]. Well nut…"
+- ⚑ 14 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -388,3 +384,4 @@ Drilling sheet metal leaves sharp burrs and swarf: wear eye protection and debur
 - <https://www.youtube.com/watch?v=FJ4gF2tXRBE>
 - <https://www.youtube.com/watch?v=lYXTiJo_FQQ>
 - <https://api.printables.com/graphql/ (models 1174824, 264580, 161882, 1373120, 126459)>
+- <https://www.garagejournal.com/forum/threads/rivnut.88047/>

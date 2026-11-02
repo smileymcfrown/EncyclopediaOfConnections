@@ -107,6 +107,10 @@ open_points:
 - kind: content
   note: '*Hand-mouldable thermoplastic*: moulding it on the body (Preproom: never in schools; Easy Composites sells it for
     that, with cling film over the skin). Both are in `safety_notes`.'
+- kind: content
+  note: '*Hand-mouldable thermoplastic* (297): its finder tag lists PLA under *bonds poorly*, but a Maker Forums post says
+    hot PCL stuck so hard in a printed PLA mould that it took hours in hot water to pick out (https://forum.makerforums.info/t/originally-shared-by-james-newton-made-some-progress-today-on-casting-small-parts/40929).
+    Worth a test or a better source.'
 uncertain_fields: [holding_principle, removability, seal, materials, processes, making_tips_3d_printing, environment_limits,
   safety_notes]
 diagram_idea: 'Three panels: white pellets in a bowl of 65 °C water turning clear; the soft clear lump being pressed by hand
@@ -351,6 +355,7 @@ Scalds and burns are the main hazard. Don't put your hands into hot water; lift 
 - ⚑ Finder value `bonds_well` = PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond ⚑ [uncertain]. To fix cooled PCL to materi…"
 - ⚑ Finder value `bonds_poorly` = PLA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond ⚑ [uncertain]. To fix cooled PCL to materi…"
 - ⚑ Research note: *Hand-mouldable thermoplastic*: moulding it on the body (Preproom: never in schools; Easy Composites sells it for that, with cling film over the skin). Both are in `safety_notes`.
+- ⚑ Research note: *Hand-mouldable thermoplastic* (297): its finder tag lists PLA under *bonds poorly*, but a Maker Forums post says hot PCL stuck so hard in a printed PLA mould that it took hours in hot water to pick out (https://forum.makerforums.info/t/originally-shared-by-james-newton-made-some-progress-today-on-casting-small-parts/40929). Worth a test or a better source.
 
 ## Sources
 

@@ -1444,7 +1444,7 @@
 - **tools_needed**: screwdriver or drill-driver, tape measure and square or level, and ideally a positioning jig (Rockler; printable jigs on Printables); for robot lifts, countersunk M3 or M4 screws, nuts and often 3D-printed spacers (gm0)
 - **seal**: none: dirt, sawdust and chips get into the ball tracks and spoil the movement (gm0; Accuride slide reference guide)
 - **load**: light to heavy: Accuride groups slides as light duty up to 75 lb, medium duty 90 to 100 lb and heavy duty 100 to 600 lb per pair, with stainless and aluminium ranges up to 1,323 lb (Accuride slide reference guide); ordinary kitchen slides are about 75 to 100 lb (Rockler). Ratings are for a pair of 18 in slides fitted on their edges (on the drawer sides): they drop for longer slides, drop by at least 50% if the slides are laid flat under the drawer, and drop as extension increases (Accuride; Chambrelan). Strongest carrying weight down across the tall side of the slide; weakest to sideways loads and twisting when fully extended, where the slide bends (deflects) (Chambrelan lexicon; gm0)
-- **adjustable**: mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon) *(⚑ parts need confirming)*
+- **adjustable**: mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments: screws go first in the vertical and horizontal slots to set height and front-to-back position, then the round holes lock it, Accuride 3017 instructions), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon)
 - **play_and_precision**: small in good steel slides; the fully extended slide bends (deflects) in proportion to the load (Chambrelan lexicon), and aluminium robot slides develop play as steel balls wear into the rails (gm0). The two slides must be parallel in both directions or they bind, though mounting one slightly higher than the other has little effect (Accuride). Side clearance must suit the slide, usually 1/2 in (12.7 mm) each side for ball-bearing side-mount slides (Rockler)
 - **access_needed**: one side only (blind): the cabinet member screws to the inside of the cabinet and the drawer member to the outside of the drawer box, each from its own open side
 - **materials**: Cold-rolled steel members and ball retainers with carburised steel balls and zinc plating; stainless steel throughout; or aluminium members with stainless balls and retainers for damp places (Accuride slide reference guide). Robot slides: aluminium (MISUMI SAR) or steel (goBILDA Viper) (gm0). Printed: PLA-on-PLA plain slides (Printables, JoshRC) or printed rails running on 6 mm airsoft BBs (Printables, Radek)
@@ -1537,6 +1537,7 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://api.printables.com/graphql/
+  - https://static.richelieu.com/documents/docsGr/100/725/0/1007250/1438787.pdf
 
 ### Finder tags
 
@@ -1551,7 +1552,7 @@
 - **tools**: drill and tap, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
-- **adjustable**: no ⚑ *needs confirming (source uncertain): `adjustable` is marked [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments [uncertain]), and travel, detent force a…"*
+- **adjustable**: no
 - **removability**: removable
 - **power**: passive
 - **printed_take_apart**: not applicable
@@ -1600,7 +1601,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, how_it_works, links, make_it_yourself, rules_of_thumb
+- ⚑ **Fields with parts that need confirming:** how_it_works, links, make_it_yourself, rules_of_thumb
 
 ## 187 Ball screw
 
@@ -2033,7 +2034,7 @@
   - shape (form-fit): link shoulders, notches or interlocking teeth lock the links into a column, and the sprocket teeth mesh with the link rollers
   - not a holding joint (it moves or passes on motion): it drives a load; its position is held by the motor or brake
 - **input_output**: Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). Rough efficiency: not stated in the makers' pages found ⚑ [uncertain]. Back-drivable: in principle yes, like a rack and pinion, unless the gearmotor or a brake holds it ⚑ [uncertain]. *(⚑ parts need confirming)*
-- **power**: powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds against a strong wind or push when unpowered] *(⚑ parts need confirming)*
+- **power**: powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors and are rated to hold well above their pushing force when stopped (Giesse Varia Slim Small: 200 N push, 1000 N static holding force; WindowMaster WMU 883: 1000 N push, 5000 N locking force)
 - **removability**: removable: the housing bolts to the frame and the chain's end fitting bolts or pins to the moving part (window sash, platform or carriage)
 - **reuse_cycles**: many times: it is fitted once but runs for many cycles (Tsubaki expects about 4000 km of travel); brackets can be unbolted and refitted
 - **tools_needed**: Screwdriver, hex keys and spanners for the brackets; electrical tools for wiring the motor supply and switches; grease for industrial chains. Printed demo chains: none (pins and clips press in).
@@ -2125,12 +2126,14 @@
   - https://www.thingiverse.com/thing:2362604
   - https://help.prusa3d.com/article/pla_2062
   - https://api.printables.com/graphql/
+  - https://products.tyman-international.com/pub/media/scambio/GIESSE/SCHEDA_TECNICA/EN/FAC_VARIA_SLIM_SMALL.pdf
+  - https://www.specifiedby.com/windowmaster/chain-actuator-600n-1a/Windowmaster_600N-1A_Technical_Datasheet.pdf
 
 ### Finder tags
 
 - **connects**: not applicable
-- **power_source**: electricity ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain whether every model holds aga…"*
-- **power_loss**: keeps its last state ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain whether every model holds aga…"*
+- **power_source**: electricity
+- **power_loss**: keeps its last state
 - **motion_in**: steady turning
 - **motion_out**: straight push or pull
 - **shaft_layout**: not applicable
@@ -2188,7 +2191,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** input_output, make_it_yourself, power
+- ⚑ **Fields with parts that need confirming:** input_output, make_it_yourself
 
 ## 265 Linear guides (bushings on rods, wheels or carriages on rails)
 

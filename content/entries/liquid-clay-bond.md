@@ -97,14 +97,6 @@ needs_confirming:
   glue_traits:
     kind: best guess
     reason: not on the glue lists in the finder tree; traits read from the text
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…as plastic ''crystals'', amber, pearls (Blue Bottle Tree) or PLA prints
-      [uncertain]…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…as plastic ''crystals'', amber, pearls (Blue Bottle Tree) or PLA prints
-      [uncertain]…"'
 confirmed: []
 open_points:
 - kind: sources
@@ -300,8 +292,6 @@ Heat joining: the hazards are the oven, not the liquid. Bake at the temperature 
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` = fills gaps (best guess): not on the glue lists in the finder tree; traits read from the text
-- ⚑ Finder value `bonds_well` = PVC (source uncertain): `materials` is marked ⚑ [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints ⚑ [uncertain]…"
-- ⚑ Finder value `bonds_poorly` = PLA, wood, paper or card, metal, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints ⚑ [uncertain]…"
 - ⚑ Research note: *Score-and-slip join* (429) and *Liquid-clay bond* (428): drying air-dry clay: never sun, hairdryer or oven (Art Shed) versus a 200 °F oven with a cracking warning (Sculpey FAQ). Sculpey's table prints 275 °F as 130 °C (the °F values are quoted). No strength figures for any clay join; that PLA can't survive a polymer clay bake has no tested temperature on an opened page in 428 (432 gives 60-65 °C softening from Wikipedia).
 
 ## Sources

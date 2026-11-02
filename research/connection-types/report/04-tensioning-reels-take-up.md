@@ -634,7 +634,7 @@
 - **power**: passive (no power needed): hand-cranked. Powered capstans and winches (electric, hydraulic, pneumatic or engine-driven) do the same job (Wikipedia 'Capstan (nautical)'; 'Winch'); what a powered winch does when power is lost depends on its brake ⚑ [uncertain] *(⚑ parts need confirming)*
 - **removability**: removable: the winch bolts to a post, stand, wall or vehicle, and the rope unhooks and unwinds; a capstan just needs the turns taken off
 - **reuse_cycles**: effectively unlimited for the drum, crank and ratchet with occasional cleaning and inspection (Larson asks for at least a yearly check); the rope, strap or cable wears and is replaced at the first sign of kinks, broken wires or fraying (Larson; Curt)
-- **tools_needed**: None to operate. Spanners or sockets to bolt the winch down (Curt specifies three 3/8 in grade 5 bolts with lock washers) and to fit the handle with its lock nut; for steel cable, fittings such as wire rope clips or crimps at the hook end ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: None to operate. Spanners or sockets to bolt the winch down (Curt specifies three 3/8 in grade 5 bolts with lock washers) and to fit the handle with its lock nut; for steel cable, an eye with a thimble at the hook end, held by wire rope clips tightened with a spanner or torque wrench (Crosby clip instructions) or by a swaged (crimped) fitting (Wikipedia 'Wire rope')
 - **seal**: none: the drum, gears and rope are open to the weather; hand winches need occasional cleaning and light lubrication, but never on the brake parts (Larson)
 - **load**: Light to heavy. Hand trailer winches are rated for a few hundred to a few thousand pounds of straight pull (Curt 900 lb; Fulton models listed from 600 to 3,700 lb), on the first layer of line; a differential windlass can lift very heavy loads slowly by hand (Make's 600 lb example). Strong only in a straight pull on the rope; an off-angle pull piles rope at one flange and loads the frame sideways. The mounting must be far stronger than the winch (Fulton asks for a stand good for five times the rated capacity), and the rope's anchor on the drum is not rated for the full load, so turns must always stay on the drum (Curt).
 - **adjustable**: Yes: rope length and tension are set by cranking in or letting out; a ratchet holds at each tooth and a brake winch holds at any point. Multi-speed sailing winches let you change the gear ratio as the load grows (Harken).
@@ -734,6 +734,8 @@
   - https://www.mazzellacompanies.com/learning-center/why-sheave-design-is-critical-to-wire-rope-service-life/
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://api.printables.com/graphql/
+  - https://canadabuys.canada.ca/documents/pub/att/2022/03/18/bb70d752b1fca15febefef5f8b2e73e0/5000063759_annex_b_-_drawings_dessins_-_5_-_crosby_fist_grip_specifications.pdf
+  - https://en.wikipedia.org/wiki/Wire_rope
 
 ### Finder tags
 
@@ -745,7 +747,7 @@
 - **shaft_layout**: parallel, in line
 - **overload_response**: not applicable
 - **clicks**: clicks ⚑ *needs confirming (best guess): the text uses both clicking and silent words*
-- **tools**: none, crimper, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…eel cable, fittings such as wire rope clips or crimps at the hook end [uncertain]…"*
+- **tools**: none, crimper, hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
 - **adjustable**: yes
@@ -797,7 +799,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, making_tips_3d_printing, off_the_shelf_parts, power, related, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, making_tips_3d_printing, off_the_shelf_parts, power, related, safety_notes
 
 ## 152 Shock-corded sectional pole
 

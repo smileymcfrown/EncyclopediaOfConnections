@@ -1,6 +1,6 @@
 # hydraulics, pneumatics & vacuum: Moves, holds or lets go using air or liquid pressure, or suction
 
-27 entries. ⚑ = needs confirming: 42 best guesses and 4 values from text marked [uncertain]
+27 entries. ⚑ = needs confirming: 42 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -18,19 +18,19 @@ are welcome. Back to the [index](README.md).
 | 306 | Air-logic valve | – | electricity, compressed air, suction ⚑ | – ⚑ | pressure | pressure | – | – | – | none, drill and tap | light | off-the-shelf part ⚑ | partly | removable |
 | 307 | Tesla valve | – | none | – | – | – | – | – | – | none, power tools, hand tools | light | 3D print (FDM) | no | removable |
 | 308 | Vacuum-driven artificial muscle | – | compressed air, liquid, suction ⚑ | – ⚑ | pressure | straight push or pull, bending | – | – | – | soldering iron, glue gun, power tools, hand tools | heavy | laser cut | yes | removable |
-| 309 | Syringe pump | – | electricity, liquid ⚑ | keeps its last state ⚑ | steady turning | straight push or pull, pressure | – | – ⚑ | – | soldering iron, crimper, hand tools | medium | 3D print (FDM) | yes | removable |
+| 309 | Syringe pump | – | electricity, liquid | keeps its last state | steady turning | straight push or pull, pressure | – | – ⚑ | – | soldering iron, crimper, hand tools | medium | 3D print (FDM) | yes | removable |
 | 310 | Diaphragm pump and squeeze bulb | – | electricity, compressed air, liquid, suction ⚑ | – ⚑ | back-and-forth straight, steady turning | pressure | – | slips and keeps going ⚑ | – | none, soldering iron, hand tools | light | off-the-shelf part | yes | removable |
 | 311 | Air tank and hydraulic accumulator | – | none | – | – | – | – | – | – | hand tools | heavy | off-the-shelf part | yes | removable |
 | 312 | Pressure regulator | – | none | – | – | – | – | – | – | hand tools | medium ⚑ | off-the-shelf part | yes | removable |
 | 313 | Pressure relief valve | – | none | – | – | – | – | clicks or pops out and resets | – | drill and tap, hand tools | medium ⚑ | off-the-shelf part | partly | removable |
 | 314 | Speed-control valve | – | none | – | – | – | – | – | – | sewing or leather tools, hand tools | medium ⚑ | off-the-shelf part | yes | removable |
 | 315 | Shut-off valve | – | none | – | – | – | – | – | clicks | none, hand tools | medium ⚑ | off-the-shelf part | yes | removable |
-| 316 | Vacuum hold-down table | wall, rail, desk or grid | electricity, compressed air, suction ⚑ | lets go ⚑ | – | – | – | – | – | none, power tools, hand tools | medium ⚑ | CNC | yes | tool-free quick release |
+| 316 | Vacuum hold-down table | wall, rail, desk or grid | electricity, compressed air, suction ⚑ | lets go | – | – | – | – | – | none, power tools, hand tools | medium ⚑ | CNC | yes | tool-free quick release |
 | 317 | Gear pump | – | electricity, liquid | – ⚑ | steady turning | pressure | – | – | – | soldering iron, hand tools | medium ⚑ | 3D print (FDM) | partly | removable |
 | 318 | Rotary air actuator | – | compressed air, liquid, suction ⚑ | – ⚑ | pressure | back-and-forth turning | – | – ⚑ | clicks | drill and tap, press or vice, hand tools | heavy | off-the-shelf part | yes | removable |
 | 319 | Float valve | – | none | – | – ⚑ | – ⚑ | – ⚑ | – | – | hand tools | medium | off-the-shelf part | yes | removable |
 | 320 | Hydraulic ram pump | – | none | – | – ⚑ | straight push or pull ⚑ | – ⚑ | – | – | drill and tap, hand tools | medium ⚑ | off-the-shelf part | yes | removable |
-| 321 | Air bearing and air caster | – | compressed air | – ⚑ | – | – | – | – | – | drill and tap, hand tools ⚑ | heavy | off-the-shelf part | yes | removable |
+| 321 | Air bearing and air caster | – | compressed air | – ⚑ | – | – | – | – | – | drill and tap, hand tools | heavy | off-the-shelf part | yes | removable |
 | 322 | Centrifugal pump | – | electricity, liquid | lets go | steady turning | pressure | – | slips and keeps going | – | none, soldering iron, drill and tap, hand tools | light | off-the-shelf part | yes | removable |
 | 323 | Automatic siphon | – | none | – | – ⚑ | steps ⚑ | – ⚑ | – | – | drill and tap, power tools, hand tools | light | off-the-shelf part | yes | tool-free quick release |
 
@@ -85,7 +85,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **309 Syringe pump**, `power_source` = electricity, liquid: `power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain: inferred from Medfusion's de…"
-- ⚑ **309 Syringe pump**, `power_loss` = keeps its last state: `power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain: inferred from Medfusion's de…"
-- ⚑ **316 Vacuum hold-down table**, `power_loss` = lets go: `power` is marked [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice [uncertain]…"
-- ⚑ **321 Air bearing and air caster**, `tools` = drill and tap, hand tools: `tools_needed` is marked [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) [uncertain]. DIY builds: a hand drill wi…"
+None.

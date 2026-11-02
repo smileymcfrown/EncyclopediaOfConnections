@@ -93,11 +93,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push
-      nut [uncertain]. Speed nuts, U- and J-nuts:…"'
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -105,8 +101,7 @@ open_points:
     *Cam and follower*. In the update pass, *Aluminium-extrusion connectors* (113) and *Spring-steel push-on fasteners* (173)
     gained a Commons photo of their new variant (strut-channel spring nut, CC BY-SA 4.0; cage nut, CC BY-SA 3.0); one weaker
     link in each was moved to `sources` only, to stay at five.'
-uncertain_fields: [tools_needed, play_and_precision, processes, making_tips_3d_printing, environment_limits, safety_notes,
-  common_failures]
+uncertain_fields: [play_and_precision, processes, making_tips_3d_printing, environment_limits, safety_notes, common_failures]
 diagram_idea: 'Two side-by-side cut-aways: left, a round push nut with angled teeth sliding onto a rod (arrow ''pushes on
   easily'') and then biting in when pulled back (arrow ''pull-off blocked''); right, a flat speed nut whose arched base flattens
   as the screw tightens, squeezing its two prongs into the thread root, with a small inset of a U-nut clipped over a panel
@@ -165,6 +160,7 @@ sources:
 - https://en.wikipedia.org/wiki/19-inch_rack
 - https://commons.wikimedia.org/wiki/Category:Cage_nuts
 - https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg
+- https://patents.google.com/patent/US7231700B2/en
 research: research/connection-types/results/Springsteel_pushon_fasteners_push_nut_speed_nut_Unut.json
 image:
   file: spring-steel-push-on-fasteners.webp
@@ -261,7 +257,7 @@ Avoid push nuts where the part must come off for service (use an E-clip or [circ
   - woodwork: push nuts on dowel or metal-rod axles for toys and carts ⚑ [uncertain]
   - sheet metal: speed nuts and U-/J-nuts on sheet panels
 - **Printing it in one piece (print in place):** no: it is a separate metal part pushed or screwed onto the printed or wooden part
-- **Tools:** Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; McMaster-Carr sells installation tools with a magnetised tip); removal needs pliers, a screwdriver to pry or cutters, and destroys the push nut ⚑ [uncertain]. Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). Cage nuts: the original design needs a small insertion tool to squeeze the wings into the hole; newer squeeze-and-release designs fit without tools (Wikipedia 'Cage nut').
+- **Tools:** Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; McMaster-Carr sells installation tools with a magnetised tip); removal destroys the push nut ('cannot be removed without destruction', Starlock catalogue p. 3): it is prised off with a screwdriver, cut off or ground off (US patent 7,231,700). Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). Cage nuts: the original design needs a small insertion tool to squeeze the wings into the hole; newer squeeze-and-release designs fit without tools (Wikipedia 'Cage nut').
 - **Difficulty:** easy: buy the right size and push or screw it on; the main catch is matching the shaft diameter closely (within about ±0.05 mm for small Starlock sizes) or the panel thickness range of a U-nut
 
 ### 3D printing tips
@@ -321,8 +317,7 @@ Stamped spring steel has sharp edges and teeth; wear gloves when handling many a
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push nut ⚑ [uncertain]. Speed nuts, U- and J-nuts:…"
+- ⚑ 11 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -348,3 +343,4 @@ Stamped spring steel has sharp edges and teeth; wear gloves when handling many a
 - <https://en.wikipedia.org/wiki/19-inch_rack>
 - <https://commons.wikimedia.org/wiki/Category:Cage_nuts>
 - <https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg>
+- <https://patents.google.com/patent/US7231700B2/en>

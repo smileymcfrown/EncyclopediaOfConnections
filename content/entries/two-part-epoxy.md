@@ -95,21 +95,13 @@ finder:
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty, carbon fibre or composites,
     glass or mirror]
-needs_confirming:
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL)
-      [uncertain for silicone and PTFE]. Polye…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL)
-      [uncertain for silicone and PTFE]. Polye…"'
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: scope
   note: '*Two-part epoxy* (138): a pool of fast epoxy getting hot enough to soften foam (not in the Swaylocks thread; the
     entry already notes that a big batch heats itself).'
-uncertain_fields: [holding_principle, materials, making_tips_3d_printing]
+uncertain_fields: [holding_principle, making_tips_3d_printing]
 diagram_idea: Two blobs (resin and hardener) being stirred together into one, then a timeline bar showing liquid (working
   time), gel and solid stages, and below it a joint with a slightly uneven gap completely filled by the epoxy, with a callout
   showing a filler-thickened 'mayonnaise' bead bridging a bigger gap.
@@ -184,6 +176,7 @@ sources:
 - https://clcboats.com/blogs/boatbuilding-tips/fillets (WebFetch returned only menus; read with curl)
 - https://www.cruisingworld.com/?p=40890
 - https://www.practical-sailor.com/boat-maintenance/a-solid-connection
+- https://www.smooth-on.com/tb/files/SMOOTH-SIL_SERIES_TB.pdf
 research: research/connection-types/results/Twopart_epoxy.json
 image:
   file: two-part-epoxy.webp
@@ -288,7 +281,7 @@ Don't use it when you need a bond in seconds (use CA) or when parts must come ap
 - **Sealing:** watertight: a joint or pocket completely filled with epoxy keeps water out, and epoxy is used for potting electronics (Loctite EA E-00CL) and for boat building and repair (Wikipedia). Moisture resistance varies a lot: marine epoxies form 'a high-strength, moisture-resistant solid' (West System 105/205), while a fast 5-minute type kept only 35% of its strength after 1,000 hours in water (Loctite EA E-00CL).
 - **Adjustable:** no, once it gels; before that, parts can be moved and lined up during the working time, from about 3-5 minutes for fast types to an hour or more for slow ones (Loctite EA E-00CL: working life 3.5 min; Epoxyworks: 105/205 working time 60-70 min in a thin film).
 - **Access needed:** not applicable: epoxy is applied to the joint faces before assembly, or packed into a hole or pocket from one side.
-- **Materials:** Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Safe on polystyrene foam (EPS and XPS) because it contains no solvent, unlike polyester and vinylester resins, whose styrene melts them (Swaylocks forum thread 'Resin and foam compatibility'). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia).
+- **Materials:** Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Safe on polystyrene foam (EPS and XPS) because it contains no solvent, unlike polyester and vinylester resins, whose styrene melts them (Swaylocks forum thread 'Resin and foam compatibility'). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL): Loctite's epoxies held only 0.3 to 0.7 MPa on untreated PTFE (Loctite design guide p. 29), and epoxy can be cast into silicone moulds without a release agent (Smooth-On Smooth-Sil data sheet). Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia).
 - **Heat, cold, water and wear:** Heat: room-temperature-cured epoxies soften at modest temperatures: heat deflection temperature 48 °C and ultimate Tg 61 °C for WEST SYSTEM 105/205, and a Tg of only 20 °C for a fast 5-minute type (Loctite EA E-00CL); heat-cured and special high-temperature epoxies do better, and epoxy adhesives in general degrade above 177 °C (Loctite design guide; Wikipedia). Cold: cure slows sharply, with minimum working temperatures of about 4-18 °C depending on hardener (West System). Water: marine epoxies are moisture-resistant (West System), but a fast epoxy lost most of its strength in hot, humid air (10% left after 500 hours of condensing humidity at 49 °C) (Loctite EA E-00CL). Sunlight: epoxy deteriorates in UV light and needs paint or varnish over it outdoors (Wikipedia). Chemicals: generally good resistance; a fast epoxy kept its strength in motor oil, petrol, acetone and isopropanol (Loctite EA E-00CL). Old epoxy may look fine but never cure fully (Prusa).
 
 ## Making it
@@ -368,9 +361,7 @@ Skin: liquid resin and hardener irritate skin and eyes, and repeated contact can
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polye…"
-- ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), silicone (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polye…"
+- ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Research note: *Two-part epoxy* (138): a pool of fast epoxy getting hot enough to soften foam (not in the Swaylocks thread; the entry already notes that a big batch heats itself).
 
 ## Sources
@@ -400,3 +391,4 @@ Skin: liquid resin and hardener irritate skin and eyes, and repeated contact can
 - <https://clcboats.com/blogs/boatbuilding-tips/fillets (WebFetch returned only menus; read with curl)>
 - <https://www.cruisingworld.com/?p=40890>
 - <https://www.practical-sailor.com/boat-maintenance/a-solid-connection>
+- <https://www.smooth-on.com/tb/files/SMOOTH-SIL_SERIES_TB.pdf>

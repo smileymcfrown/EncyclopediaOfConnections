@@ -560,3 +560,10 @@ entries to the new items 410-452). All 116 changed files validate.
 
 ### Blocked or unreadable (nothing cited from them)
 - spikeybits.com pinning page (403; the Starship Modeler thread is cited instead), rmweb.co.uk (403), the Model Airplane News page on foam hinges (paywalled).
+
+## Checking the text behind "source uncertain" finder tags (2026-11-02)
+Plan and outcome: `research/finder-tags/confirm-2026-11-02.md`.
+
+### Conflicting figures and content points
+- *Spot weld* (406): "about 30 A per nickel strip" may be high: sellers' and forum figures seen in search results give about 6-15 A for common 0.15 × 8-10 mm nickel strip; the rating pages could not be opened. Check against a maker's current rating.
+- *Hand-mouldable thermoplastic* (297): its finder tag lists PLA under *bonds poorly*, but a Maker Forums post says hot PCL stuck so hard in a printed PLA mould that it took hours in hot water to pick out (https://forum.makerforums.info/t/originally-shared-by-james-newton-made-some-progress-today-on-casting-small-parts/40929). Worth a test or a better source.

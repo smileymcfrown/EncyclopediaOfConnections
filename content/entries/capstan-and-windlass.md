@@ -103,18 +103,13 @@ needs_confirming:
   clicks:
     kind: best guess
     reason: the text uses both clicking and silent words
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…eel cable, fittings such as wire rope clips or crimps at the hook
-      end [uncertain]…"'
 confirmed: []
 open_points:
 - kind: sources
   note: '*Capstan and windlass* (151) and *Lantern gear* (204) already have the maximum five `links`, so the Commons Spanish
     windlass photo (CC BY-SA 3.0) and the *507 Mechanical Movements* pages are only in `sources`; swap one in when publishing
     if preferred.'
-uncertain_fields: [input_output, power, tools_needed, making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes,
-  related]
+uncertain_fields: [input_output, power, making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes, related]
 diagram_idea: Side view of a crank turning a drum with a rope running down to a load and a ratchet wheel and pawl at the drum's
   end, plus an inset of a differential windlass showing the rope coming off a thin drum, round a hanging pulley and onto a
   thicker drum, with arrows showing the pulley rising by half the difference in circumferences per turn.
@@ -195,6 +190,8 @@ sources:
 - https://www.mazzellacompanies.com/learning-center/why-sheave-design-is-critical-to-wire-rope-service-life/
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
+- https://canadabuys.canada.ca/documents/pub/att/2022/03/18/bb70d752b1fca15febefef5f8b2e73e0/5000063759_annex_b_-_drawings_dessins_-_5_-_crosby_fist_grip_specifications.pdf
+- https://en.wikipedia.org/wiki/Wire_rope
 research: research/connection-types/results/Capstan_and_windlass_incl_differential_windlass.json
 image:
   file: drawn/anim/capstan-and-windlass.svg
@@ -234,7 +231,7 @@ pictures:
   alt: A wooden windlass beside a Cornish cove, a horizontal drum turned by long bars, used to haul boats up the slipway.
   kind: photo
   drawn: false
-glossary: [backlash, self-locking, ratchet, pawl, freewheel, gear-ratio, crank, actuator, clearance, form-fit--force-fit--material-bond,
+glossary: [backlash, self-locking, ratchet, pawl, freewheel, torque, gear-ratio, crank, actuator, clearance, form-fit--force-fit--material-bond,
   holding-force, set-screw, creep, fatigue, lubrication, infill]
 ---
 
@@ -314,7 +311,7 @@ Don't lift people, or loads over people, with a hand winch; use a rated hoist (C
   - CNC: a lathe-turned steel differential drum, one end turned slightly smaller (suggested in Make's article)
   - off-the-shelf part: trailer winches, brake winches, sailing winches, rope, cable, straps and bearings
 - **Printing it in one piece (print in place):** no: the drum, frame, crank and pawl are printed separately and assembled on a bolt, threaded rod or wooden dowel axle (Printables 'Hand cranked winch for 6mm rope' and 'Compact winch for 6mm rope')
-- **Tools:** None to operate. Spanners or sockets to bolt the winch down (Curt specifies three 3/8 in grade 5 bolts with lock washers) and to fit the handle with its lock nut; for steel cable, fittings such as wire rope clips or crimps at the hook end ⚑ [uncertain]
+- **Tools:** None to operate. Spanners or sockets to bolt the winch down (Curt specifies three 3/8 in grade 5 bolts with lock washers) and to fit the handle with its lock nut; for steel cable, an eye with a thimble at the hook end, held by wire rope clips tightened with a spanner or [torque](../glossary.md#torque) wrench (Crosby clip instructions) or by a swaged (crimped) fitting (Wikipedia 'Wire rope')
 - **Difficulty:** easy to moderate: a drum, crank and bearings are easy to print or build from pipe and wood, but a reliable ratchet or brake takes care, and for lifting or heavy pulls you should buy a rated winch
 
 ### 3D printing tips
@@ -380,9 +377,8 @@ Stand back and stay out of the line the cable is pulling: if it slips or breaks 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): the text uses both clicking and silent words
-- ⚑ Finder value `tools` = none, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…eel cable, fittings such as wire rope clips or crimps at the hook end ⚑ [uncertain]…"
 
 ## Sources
 
@@ -413,3 +409,5 @@ Stand back and stay out of the line the cable is pulling: if it slips or breaks 
 - <https://www.mazzellacompanies.com/learning-center/why-sheave-design-is-critical-to-wire-rope-service-life/>
 - <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
 - <https://api.printables.com/graphql/>
+- <https://canadabuys.canada.ca/documents/pub/att/2022/03/18/bb70d752b1fca15febefef5f8b2e73e0/5000063759_annex_b_-_drawings_dessins_-_5_-_crosby_fist_grip_specifications.pdf>
+- <https://en.wikipedia.org/wiki/Wire_rope>

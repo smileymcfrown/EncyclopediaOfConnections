@@ -100,9 +100,6 @@ needs_confirming:
   power_source:
     kind: best guess
     reason: '`power` names several power sources, and not all may apply'
-  power_loss:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice [uncertain]…"'
   load_max:
     kind: best guess
     reason: no light/medium/heavy band in `load`; defaulted to medium
@@ -354,7 +351,6 @@ Vacuum sources: shop vacuum or wet-dry vacuum, vacuum motors (as used in central
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_source` = electricity, compressed air, suction (best guess): `power` names several power sources, and not all may apply
-- ⚑ Finder value `power_loss` = lets go (source uncertain): `power` is marked ⚑ [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice ⚑ [uncertain]…"
 - ⚑ Finder value `load_max` = medium (best guess): no light/medium/heavy band in `load`; defaulted to medium
 
 ## Sources

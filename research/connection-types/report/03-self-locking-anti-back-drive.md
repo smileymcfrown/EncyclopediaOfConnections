@@ -438,7 +438,7 @@
 - **power**: passive (no power needed): the spring, the inertia sensor and the pawl need no electricity. Exceptions: pretensioners fire a small explosive charge in a crash (one-shot) (Wikipedia 'Seat belt'), and some door-mounted belts use an electromagnet to stop locking while the door opens, designed so that a failure still lets a hard deceleration lock the belt (US patent 4,235,455).
 - **removability**: removable: the retractor bolts to the vehicle body or anchor as a unit (TR6 forum: disconnect the retractor unit); the lock itself is not a joint that is taken apart
 - **reuse_cycles**: many times: it locks and unlocks over and over in normal use (car retractors are tested for 50,000 pull-out cycles, with the lock triggered at least 10,000 times; FMVSS 209), but after arresting a real crash or fall it should be taken out of service and inspected or replaced (OSHA 1910.140(c)(17))
-- **tools_needed**: To fit: spanner or socket for the anchor bolts ⚑ [uncertain: specific bolt types vary]. To use: none. *(⚑ parts need confirming)*
+- **tools_needed**: To fit: spanner or socket, and a torque wrench, for the anchor bolts (US belts use 7/16-20 UNF or 1/2-13 UNC bolts or metric equivalents, 49 CFR 571.209; Saab tightens reel and anchors to 37 Nm, Saab WIS). To use: none.
 - **seal**: dust-resistant: the mechanism is enclosed in a housing, and car retractors must still work after a 5-hour dust test (FMVSS 209); leaves and grime can still get in over the years (TR6 forum)
 - **load**: Heavy in pull when locked: a car seat-belt assembly loop must withstand at least 22,241 N (each structural part at least 11,120 N) (FMVSS 209); self-retracting lifelines limiting free fall to 2 ft or less must have components that sustain 3,000 lb (13.3 kN) (OSHA 1910.140). Very light in normal use: the retractive pull is only 1 to 7 N (FMVSS 209). It only resists pull along the strap; it does nothing against slow creep, because a slow pull never triggers the lock.
 - **adjustable**: no: the locking thresholds are fixed by the sensor design; a switchable car retractor can be changed into automatic-locking mode by pulling the belt all the way out, and back to normal by letting it all the way in (The Car Seat Lady)
@@ -515,6 +515,7 @@
   - https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg
   - https://commons.wikimedia.org/wiki/File:Elevator_speed_governor.jpg
   - https://www.youtube.com/watch?v=aunIE33GYZc
+  - https://saabwisonline.com/9-3-9440/2006/8-body/seat-belt-system/adjustment-replacement/rear-inertia-reel-5d
 
 ### Finder tags
 
@@ -526,7 +527,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: clicks
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "To fit: spanner or socket for the anchor bolts [uncertain: specific bolt types vary]. T…"*
+- **tools**: hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
@@ -578,7 +579,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, links, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, print_in_place, processes, tools_needed, when_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, links, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, print_in_place, processes, when_to_use
 
 ## 148 Woven self-tightening grip (finger-trap grip)
 

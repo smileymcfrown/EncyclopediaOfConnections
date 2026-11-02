@@ -105,12 +105,12 @@ needs_confirming:
     reason: no glue traits found
   bonds_well:
     kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam
-      [uncertain: forum consensus in search re…"'
+    reason: '`materials` is marked [uncertain] here: "…parts''). Poor: polyethylene and polypropylene (epoxy does not stick)
+      [uncertain: not stated on a page opened…"'
   bonds_poorly:
     kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam
-      [uncertain: forum consensus in search re…"'
+    reason: '`materials` is marked [uncertain] here: "…parts''). Poor: polyethylene and polypropylene (epoxy does not stick)
+      [uncertain: not stated on a page opened…"'
 confirmed: []
 open_points:
 - kind: content
@@ -354,8 +354,8 @@ Epoxy skin allergy (sensitisation): fewer than 10% of users react, less than 2% 
 - ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `processes` = off-the-shelf part, CNC, 3D print (FDM), laser cut, woodwork (source uncertain): `processes` is marked ⚑ [uncertain] here: "…| off-the-shelf part | 3D print | laser cut or CNC for panel kits ⚑ [uncertain…"
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
-- ⚑ Finder value `bonds_well` = wood, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam ⚑ [uncertain: forum consensus in search re…"
-- ⚑ Finder value `bonds_poorly` = PLA, slippery plastics (PE or PP), fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam ⚑ [uncertain: forum consensus in search re…"
+- ⚑ Finder value `bonds_well` = wood, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…parts'). Poor: polyethylene and polypropylene (epoxy does not stick) ⚑ [uncertain: not stated on a page opened…"
+- ⚑ Finder value `bonds_poorly` = PLA, slippery plastics (PE or PP), fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…parts'). Poor: polyethylene and polypropylene (epoxy does not stick) ⚑ [uncertain: not stated on a page opened…"
 - ⚑ Research note: *Fillet-and-tape joint* (434): Wikipedia's "8-10 times the strength" for stitch-and-glue is unsourced ⚑. Fillet radius 1 in for main seams and 1/2 in for bulkheads (CLC) versus about 30 mm (Welsford).
 
 ## Sources

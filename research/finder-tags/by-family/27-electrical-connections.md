@@ -1,6 +1,6 @@
 # electrical connections: Joins wires, or connects them to boards, batteries and devices
 
-22 entries. ⚑ = needs confirming: 25 best guesses and 4 values from text marked [uncertain]
+22 entries. ⚑ = needs confirming: 25 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -16,7 +16,7 @@ are welcome. Back to the [index](README.md).
 | 349 | Spring-clamp wire connector | wires | none | – | – | – | – | – | – | crimper, hand tools | light ⚑ | off-the-shelf part | no | tool-free quick release | – | – | – | up to about 30 A |
 | 350 | Screw terminal | wires | none | – | – | – | – | – | – | crimper, hand tools | light ⚑ | off-the-shelf part | yes | removable | – | – | – | up to about 30 A |
 | 351 | Wire-end ferrule | wires | none | – | – | – | – | – | – | crimper, hand tools | light ⚑ | off-the-shelf part | no | permanent | – | – | – | above about 30 A |
-| 352 | High-current battery plug | wires | none | – | – | – | – | – | – | soldering iron, crimper, heat gun, hand tools ⚑ | light ⚑ | off-the-shelf part | no | tool-free quick release | – | – | – | above about 30 A |
+| 352 | High-current battery plug | wires | none | – | – | – | – | – | – | soldering iron, crimper, heat gun, hand tools | light ⚑ | off-the-shelf part | no | tool-free quick release | – | – | – | above about 30 A |
 | 353 | Heat-shrink tubing | wires | none | – | – | – | – | – | – | soldering iron, heat gun, hand tools | light ⚑ | off-the-shelf part | no | permanent | – | – | – | above about 30 A |
 | 354 | Solder sleeve | wires | none | – | – | – | – | – | – | soldering iron, crimper, heat gun, hand tools | light ⚑ | off-the-shelf part | no | permanent | – | – | – | up to about 30 A |
 | 355 | Standard plug-and-socket connector | wires | none | – | – | – | – | comes apart without damage, refit by hand | – | none, soldering iron, crimper, drill and tap, hand tools | light ⚑ | off-the-shelf part | no | tool-free quick release | – | – | – | up to about 30 A |
@@ -24,7 +24,7 @@ are welcome. Back to the [index](README.md).
 | 357 | Binding post and banana plug | wires | none | – | – | – | – | – | – | none, soldering iron, crimper, drill and tap, hand tools | light ⚑ | off-the-shelf part | no | tool-free quick release | – | – | – | up to about 30 A |
 | 358 | Twist-on wire connector | wires | none | – | – | – | – | – | – | none, hand tools | light ⚑ | off-the-shelf part | no | removable | – | – | – | up to about 30 A |
 | 359 | Conductive thread | wires | none | – | – | – | – | – | – | soldering iron, sewing or leather tools, hand tools | light ⚑ | off-the-shelf part | no | semi-permanent | – | – | – | signal only |
-| 360 | Conductive tape | strap, cord or fabric, wires | none | – | – | – | – | – | – | soldering iron, sewing or leather tools, hand tools | light ⚑ | off-the-shelf part | partly | semi-permanent | – ⚑ | nylon, acrylic or polycarbonate, metal, fabric or leather ⚑ | PLA, wood, paper or card ⚑ | up to about 3 A ⚑ |
+| 360 | Conductive tape | strap, cord or fabric, wires | none | – | – | – | – | – | – | soldering iron, sewing or leather tools, hand tools | light ⚑ | off-the-shelf part | partly | semi-permanent | – ⚑ | nylon, acrylic or polycarbonate, metal, fabric or leather | PLA, wood, paper or card | up to about 3 A ⚑ |
 | 361 | Conductive glue, paint and ink | wires | none | – | – | – | – | – | – | hand tools ⚑ | light ⚑ | off-the-shelf part | no | permanent | strongest, fills gaps | silicone, acrylic or polycarbonate, wood, paper or card, metal, glass or ceramic, rubber | PLA, slippery plastics (PE or PP) | signal only |
 | 362 | Flat flexible cable and latching connector | lid, door or cover, wires | none | – | – | – | – | – | – | none, hand tools | light ⚑ | off-the-shelf part | no | removable | – | – | – | up to about 3 A |
 | 363 | Wire wrap | wires | none | – | – | – | – | – | – | soldering iron, sewing or leather tools, hand tools | light ⚑ | off-the-shelf part | no | removable | – | – | – | up to about 3 A |
@@ -63,7 +63,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **352 High-current battery plug**, `tools` = soldering iron, crimper, heat gun, hand tools: `tools_needed` is marked [uncertain] here: "…W iron to fit a T-plug; bigger plugs and thicker wire need more heat [uncertain]), solder and flux, wire stri…"
-- ⚑ **360 Conductive tape**, `bonds_well` = nylon, acrylic or polycarbonate, metal, fabric or leather: `materials` is marked [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder [uncertain: not on an opened page].…"
-- ⚑ **360 Conductive tape**, `bonds_poorly` = PLA, wood, paper or card: `materials` is marked [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder [uncertain: not on an opened page].…"
 - ⚑ **360 Conductive tape**, `electrical_band` = up to about 3 A: `load` is marked [uncertain] here: "Electrical: up to about 3 A [uncertain: no maker publishes a current…"

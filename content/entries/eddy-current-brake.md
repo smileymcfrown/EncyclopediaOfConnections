@@ -89,15 +89,11 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, wood, metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the
-      gap [uncertain]; pressing magnets into print…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [aliases, tools_needed, load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
-  common_failures, make_it_yourself]
+uncertain_fields: [aliases, load, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, common_failures,
+  make_it_yourself]
 diagram_idea: Top view of an aluminium disc spinning between a pair of magnets, with two swirling current loops (one ahead
   of the magnet, one behind), arrows showing the drag opposing rotation, and beside it a small graph of drag force against
   speed that starts at zero, rises in a straight line, peaks and then slowly falls, labelled 'no force when stopped'.
@@ -172,6 +168,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:What_can_you_do_with_a_Neodymium_magnet_and_a_copper_pipe-.webm
 - https://commons.wikimedia.org/wiki/File:KWh_meter_magnetic_brake.jpg
 - https://api.printables.com/graphql/
+- https://patents.google.com/patent/US4398111A/en
 research: research/connection-types/results/Eddycurrent_brake_magnetic_brake.json
 image:
   file: drawn/anim/eddy-current-brake.svg
@@ -296,7 +293,7 @@ Don't use it to hold anything still or park a load: it has no [holding force](..
   - CNC: turning or cutting an aluminium or copper disc ⚑ [uncertain]
   - woodwork: a simple wooden mount for magnets beside an aluminium roller (girogeek)
 - **Printing it in one piece (print in place):** no: it needs separate magnets and a metal conductor; printed parts only hold them (magnets can be pressed into printed pockets, as in Printables 743728, or sealed in mid-print)
-- **Tools:** Screwdriver or hex keys for the magnet holder and disc hub; non-magnetic spacers or shims help set the gap ⚑ [uncertain]; pressing magnets into printed pockets may need a vice or clamp, and a small hex key to push them out again (Printables 564712)
+- **Tools:** Screwdriver or hex keys for the magnet holder and disc hub; shims set the gap and a feeler gauge checks it (eddy-current brake patent US 4,398,111); pressing magnets into printed pockets may need a vice or clamp, and a small hex key to push them out again (Printables 564712)
 - **Difficulty:** easy: glue or press neodymium magnets into a printed holder next to an aluminium or copper disc or plate; getting strong braking is harder, because it needs strong magnets, a thick conductor, a tiny gap and enough speed (Hackaday.io, Braker One 'Eddy current brake failure'; K&J Magnetics)
 
 ### 3D printing tips
@@ -355,8 +352,7 @@ Strong neodymium magnets can pinch skin and even break bones when they snap toge
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 11 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the gap ⚑ [uncertain]; pressing magnets into print…"
+- ⚑ 10 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -385,3 +381,4 @@ Strong neodymium magnets can pinch skin and even break bones when they snap toge
 - <https://commons.wikimedia.org/wiki/File:What_can_you_do_with_a_Neodymium_magnet_and_a_copper_pipe-.webm>
 - <https://commons.wikimedia.org/wiki/File:KWh_meter_magnetic_brake.jpg>
 - <https://api.printables.com/graphql/>
+- <https://patents.google.com/patent/US4398111A/en>

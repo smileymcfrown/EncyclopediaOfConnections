@@ -95,11 +95,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, wood, metal]
-needs_confirming:
-  adjustable:
-    kind: source uncertain
-    reason: '`adjustable` is marked [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments
-      [uncertain]), and travel, detent force a…"'
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -107,7 +103,7 @@ open_points:
     *Cam and follower*. In the update pass, *Aluminium-extrusion connectors* (113) and *Spring-steel push-on fasteners* (173)
     gained a Commons photo of their new variant (strut-channel spring nut, CC BY-SA 4.0; cage nut, CC BY-SA 3.0); one weaker
     link in each was moved to `sources` only, to stay at five.'
-uncertain_fields: [how_it_works, adjustable, rules_of_thumb, links, make_it_yourself]
+uncertain_fields: [how_it_works, rules_of_thumb, links, make_it_yourself]
 diagram_idea: End-on cross-section of a three-part slide showing the outer, middle and inner channels with a ball on each
   side between each pair, plus a side view in three frames (closed, half open, fully open) showing the middle member and ball
   cages moving along as the drawer member extends.
@@ -191,6 +187,7 @@ sources:
 - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://api.printables.com/graphql/
+- https://static.richelieu.com/documents/docsGr/100/725/0/1007250/1438787.pdf
 research: research/connection-types/results/Drawer_slide_telescopic_ballbearing_slide.json
 image:
   file: drawn/anim/drawer-slide.svg
@@ -296,7 +293,7 @@ Not for precise positioning or machine axes (use linear guides such as profile r
 - **Taking it apart:** removable: screwed to the cabinet and drawer; most slides let the drawer be disconnected and lifted out by a lever, rail latch, push latch or a firm pull (Accuride slide reference guide)
 - **How often it can be reused:** many times: can be unscrewed and refitted; most Accuride slides are tested to at least 50,000 open-and-close cycles to ANSI/BIFMA guidelines (Accuride slide reference guide)
 - **Sealing:** none: dirt, sawdust and chips get into the ball tracks and spoil the movement (gm0; Accuride slide reference guide)
-- **Adjustable:** mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon)
+- **Adjustable:** mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments: screws go first in the vertical and horizontal slots to set height and front-to-back position, then the round holes lock it, Accuride 3017 instructions), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon)
 - **Access needed:** one side only (blind): the cabinet member screws to the inside of the cabinet and the drawer member to the outside of the drawer box, each from its own open side
 - **Materials:** Cold-rolled steel members and ball retainers with carburised steel balls and zinc plating; stainless steel throughout; or aluminium members with stainless balls and retainers for damp places (Accuride slide reference guide). Robot slides: aluminium (MISUMI SAR) or steel (goBILDA Viper) (gm0). Printed: PLA-on-PLA plain slides (Printables, JoshRC) or printed rails running on 6 mm airsoft BBs (Printables, Radek)
 - **Heat, cold, water and wear:** Designed for indoor use, 0 to 180 F (about -18 to 82 C); keep away from moisture, chemical fumes, dirt and finish overspray; extreme temperatures affect the grease and the plastic or rubber parts (Accuride). Stainless steel and aluminium versions resist moisture (Accuride). Shock and vibration can upset slide performance, so test or pick a heavier slide (Accuride). Sawdust and chips spoil the movement (gm0). Vertical mounting, short [strokes](../glossary.md#stroke) and vibration make ball cages [creep](../glossary.md#creep) (linearmotiontips.com). Printed rails: PLA softens at about 60 C and PETG at about 80 C (CNC Kitchen).
@@ -375,8 +372,7 @@ Pinch points between the moving members and at the drawer front. Loaded, fully e
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `adjustable` = no (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force a…"
+- ⚑ 6 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -403,3 +399,4 @@ Pinch points between the moving members and at the drawer front. Loaded, fully e
 - <https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament>
 - <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
 - <https://api.printables.com/graphql/>
+- <https://static.richelieu.com/documents/docsGr/100/725/0/1007250/1438787.pdf>

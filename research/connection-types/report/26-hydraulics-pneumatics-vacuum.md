@@ -2519,7 +2519,7 @@
   - not a holding joint (it moves or passes on motion): it pushes liquid rather than holding parts together
   - shape (form-fit) and friction or clamping (force-fit): the syringe's finger flange sits in a slot and a clamp or press fit holds the barrel; the plunger end sits in a slot on the carriage (poseidon paper: print settings tuned 'to allow for a press fit of the syringe'; Printables 167075 and 50666)
 - **input_output**: Continuous rotation of the motor -> slow straight push or pull of the plunger -> liquid flow. Plunger travel per motor turn = the lead of the screw (e.g. 2 mm per turn for an 8 mm screw with 2 mm pitch, Printables 167075); volume per turn = lead x inside area of the barrel. Worked example (calculated): a BD 10 mL plastic syringe has a 14.5 mm inner diameter (Chemyx), about 165 mm2 of area, so a 2 mm lead moves about 0.33 mL per turn and, with a 200-step motor, about 1.65 µL per full step. Efficiency is that of a plain lead screw (roughly 20-80%, see the Lead screw entry); the PLOS ONE authors note lead screws are inefficient. Shaft arrangement: in line (motor, screw and plunger on parallel or the same axis). Back-drivable: no for fine-pitch screws (Wikipedia 'Leadscrew'), so the plunger stays put when the motor stops
-- **power**: powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's description of stored pressure after a blockage] *(⚑ parts need confirming)*
+- **power**: powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out: trapped bubbles expand and push solution out after the pump stops, and plastic syringes and tubing can stretch and let drips form (Ossila 'Syringe pump troubleshooting')
 - **removability**: removable: the syringe drops into its cradle and is clamped or press-fitted, so syringes of different sizes can be swapped (poseidon paper; Printables 80669 swaps a retainer to change between 1 mL and 3 mL syringes); the pump itself is screwed together
 - **reuse_cycles**: many times: syringes are swapped and refilled routinely; disposable plastic syringes are single-use in medicine and their plungers wear or swell, while glass and stainless-steel syringes are reusable (LabX syringe guide; Chemyx)
 - **tools_needed**: screwdrivers and hex keys, pliers (a poseidon pump can be assembled in under 15 minutes with only pliers and screwdrivers, poseidon paper); a small screwdriver to set the stepper driver's current limit (poseidon README); a soldering iron or crimp tool for wiring; a scale or measuring cylinder for calibration (PLOS ONE)
@@ -2625,12 +2625,13 @@
   - https://commons.wikimedia.org/wiki/File:Syringe_drivers.JPG
   - https://www.youtube.com/watch?v=7YSiO6usR1M
   - https://www.youtube.com/watch?v=YdeZJIZdA_A
+  - https://ossila.com/pages/syringe-pump-troubleshooting
 
 ### Finder tags
 
 - **connects**: not applicable
-- **power_source**: electricity, liquid ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain: inferred from Medfusion's de…"*
-- **power_loss**: keeps its last state ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain: inferred from Medfusion's de…"*
+- **power_source**: electricity, liquid
+- **power_loss**: keeps its last state
 - **motion_in**: steady turning
 - **motion_out**: straight push or pull, pressure
 - **shaft_layout**: not applicable
@@ -2688,7 +2689,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** power, processes, safety_notes
+- ⚑ **Fields with parts that need confirming:** processes, safety_notes
 
 ## 310 Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
 
@@ -4004,7 +4005,7 @@
   - friction or clamping (force-fit): sideways grip comes only from friction between sheet and table, which the air pressure increases; Mekanika uses a friction coefficient of 0.40 for wood on wood (Mekanika; Wikipedia)
   - powered hold: the hold lasts only while the vacuum source keeps the chamber evacuated (CNC Cookbook)
 - **input_output**: not applicable
-- **power**: powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a check valve to hold vacuum briefly after a pump stops is common practice ⚑ [uncertain] *(⚑ parts need confirming)*
+- **power**: powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a non-return (check) valve in the vacuum line is sold for 'maintaining the vacuum in the case of a power failure or a failure of the vacuum generator' (Schmalz RSV non-return valve)
 - **removability**: tool-free quick release for the workpiece (vent the vacuum and lift it off). The table itself is bolted or screwed to the machine bed and can be removed (Printables 1362329 uses M4 threaded inserts in the spoilboard; hackaday.io 166349)
 - **reuse_cycles**: effectively unlimited: the table is reused for every job; only the sacrificial bleeder board is resurfaced from time to time and replaced when too thin (CNC Cookbook; Make:)
 - **tools_needed**: none to load or unload a part. To build or service one: a CNC router or table saw for the plenum, sealer (polyurethane, epoxy or thinned wood glue) for MDF, gasket cord or foam strip, PVC pipe and glue or push-in fittings, ball valves and a vacuum gauge (Make:; Mekanika; CNC Cookbook)
@@ -4102,12 +4103,13 @@
   - https://www.printables.com/model/370205-table-a-depression-vacuum-table
   - https://www.printables.com/model/451126-vacuum-pcb-solder-stencil-jig
   - https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement
+  - https://www.schmalz.com/en/products/automation-743270/valves-308656/non-return-valves-308773/non-return-valves-rsv-308774
 
 ### Finder tags
 
 - **connects**: wall, rail, desk or grid
 - **power_source**: electricity, compressed air, suction ⚑ *needs confirming (best guess): `power` names several power sources, and not all may apply*
-- **power_loss**: lets go ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice [uncertain]…"*
+- **power_loss**: lets go
 - **motion_in**: not applicable
 - **motion_out**: not applicable
 - **shaft_layout**: not applicable
@@ -4165,7 +4167,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, power, related, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, related, safety_notes
 
 ## 317 Gear pump (including gerotor)
 
@@ -5030,7 +5032,7 @@
 - **power**: powered: needs a continuous supply of compressed air: precision pads typically run at 20-120 psi (PI Nelson Air) or 4-6 bar (IBS), and Slocum notes air bearings are typically kept below 10 atmospheres for safety; air-hockey tables and air tracks use large amounts of low-pressure air from a fan or blower (Wikipedia 'Air hockey'; 'Air track'). When the air is lost, the film collapses and the load settles gently onto the pad and stops (IBS FAQ); it does not stay floating
 - **removability**: removable: precision pads bolt on through ball-pin (ball-stud) or stiff joint mounts (Wikipedia); air casters are simply slid under a load, inflated, used and taken out again (AeroGo; Wikipedia)
 - **reuse_cycles**: effectively unlimited: there is no contact and so no wear; 'the durability of air bearings is unlimited if they are designed and calculated correctly' (Wikipedia)
-- **tools_needed**: To use: an air compressor or blower, a filter and regulator, hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797) *(⚑ parts need confirming)*
+- **tools_needed**: To use: an air compressor or blower, a filter and regulator, hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts), since a pad sits on a threaded mounting screw that is locked with a small socket-head lock screw and washer, or with a lock nut (IMG Ilmenau RD 42S1 data sheet). DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)
 - **seal**: none: air leaks out of the edges all the time by design, so the film is not a seal (Slocum; PI Nelson Air). An air caster's flexible ring makes a near-seal with the floor only so that pressure can build under it (Wikipedia 'Air caster')
 - **load**: light to very heavy, but mainly in one direction: a pad pushes; it can't pull or resist sideways shove or tipping unless opposed pads or a preload hold it (Slocum; PI Nelson Air). Precision pads carry about 50 N to 20 kN each (IBS); air casters move loads from 500 lb to over 5,000 tons (AeroGo) and press on the floor at only about 2-50 psi, against over 1,000 psi under rollers and wheels (AeroGo). For the same pad area, oil-fed (hydrostatic) bearings carry about five times more (PI Nelson Air)
 - **adjustable**: yes: supply pressure and preload set the gap and stiffness (IBS; PI Nelson Air); ball-pin mounts let a pad tilt to sit flat on its guide (Wikipedia); for air casters, using more casters spreads the load and lowers the floor pressure (AeroGo)
@@ -5126,6 +5128,7 @@
   - https://www.printables.com/model/437647-levitating-air-hockey-disc-paddles
   - https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
   - https://www.printables.com/model/1247872-mini-air-hockey-table
+  - https://img-ilmenau.de/media/pages/luftlager/standardluftlager/rd-42s1/ebea320839-1727690744/rd-42s1_en.pdf
 
 ### Finder tags
 
@@ -5137,7 +5140,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: drill and tap, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) [uncertain]. DIY builds: a hand drill wi…"*
+- **tools**: drill and tap, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
@@ -5189,7 +5192,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, safety_notes
 
 ## 322 Centrifugal pump (impeller pump)
 

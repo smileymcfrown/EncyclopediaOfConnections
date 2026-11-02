@@ -104,14 +104,6 @@ needs_confirming:
   glue_traits:
     kind: best guess
     reason: no glue traits found
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film
-      [uncertain: surface energy named in Wiki…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film
-      [uncertain: surface energy named in Wiki…"'
 confirmed: []
 open_points: []
 uncertain_fields: [aliases, seal, load, play_and_precision, making_tips_3d_printing, environment_limits, rules_of_thumb]
@@ -339,8 +331,6 @@ None special for the tape itself; the main risks are to the work: residue on sur
 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
-- ⚑ Finder value `bonds_well` = wood, paper or card, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film ⚑ [uncertain: surface energy named in Wiki…"
-- ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP) (source uncertain): `materials` is marked ⚑ [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film ⚑ [uncertain: surface energy named in Wiki…"
 
 ## Sources
 

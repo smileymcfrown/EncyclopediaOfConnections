@@ -45,7 +45,7 @@
     "power": "passive (no power needed) when worked by hand, foot, a cable, a spring or a weight; powered versions use hydraulics, air, a solenoid or a servo (e.g. a servo-driven RC plane drum brake, Printables 77496). If power is lost, a power-applied brake lets go, while a spring-applied brake stays on (see the electromagnetic power-off brake entry) [uncertain]",
     "removability": "removable: bolted to a frame and a hub, with pads, shoes or bands that are designed to be replaced as they wear (Wikipedia, Brake: 'Durability')",
     "reuse_cycles": "many times: the brake can be taken off and refitted, and applied endlessly, but the friction material and disc or drum wear and need renewing (Wikipedia, Brake)",
-    "tools_needed": "Spanners and hex keys to mount and adjust; a screwdriver or knob to set the pressing force on simple brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes [uncertain]",
+    "tools_needed": "Spanners and hex keys to mount and adjust; a screwdriver or knob to set the pressing force on simple brakes (Printables 208775, 1804380); a bleed kit and the right fluid for hydraulic brakes (Park Tool)",
     "seal": "none: it isn't a sealing part. Enclosed drum and coaster brakes keep rain and mud off the rubbing surfaces, so they work consistently when wet (Wikipedia, Bicycle brake)",
     "load": "light to heavy: from a few newton-centimetres on a filament spool to cars and trains. Torque grows with the pressing force, the friction coefficient and the radius (Engineering ToolBox), and a band brake multiplies its pull by e^(μθ) (RoyMech). A shoe pressing on one side pushes the shaft sideways unless the linkage takes that force back to the frame; shoes on opposite sides cancel it (Thang, 'Shaft brake 1', 'Shaft brake 2' and 'Shaft brake 3')",
     "adjustable": "yes: set the pressing force with a screw, spring or weights (Printables 208775, 1536289), change the lever ratio, and take up pad wear with an adjuster (self-adjusting drum brakes appeared in the 1950s; Wikipedia, Drum brake)",
@@ -191,13 +191,13 @@
       "https://commons.wikimedia.org/wiki/File:Hydraulic_disc_brake_diagram.gif",
       "https://commons.wikimedia.org/wiki/File:Tipologia_tamburo.svg",
       "https://commons.wikimedia.org/wiki/File:Broms,_fig_3,_Nordisk_familjebok.png",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.parktool.com/blog/repair-help/shimano-hydraulic-brake-service-and-adjustment"
     ]
   },
   "uncertain": [
     "aliases",
     "power",
-    "tools_needed",
     "materials",
     "processes",
     "making_tips_3d_printing",

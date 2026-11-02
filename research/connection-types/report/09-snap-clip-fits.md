@@ -1207,7 +1207,7 @@
 - **power**: passive (no power needed)
 - **removability**: push nuts and push-on rings: permanent to semi-permanent: 'once fixed in position, the Starlock push on fastener is so secure that it cannot be removed without destruction' (Starlock catalogue p. 3), and Rotor Clip says removal may deform the ring or shaft so replacement is recommended; speed nuts and U-/J-nuts: removable, unscrewed like a normal nut (Tinnerman catalogue)
 - **reuse_cycles**: once for push nuts and push-on rings (Starlock catalogue; Rotor Clip; McMaster-Carr: 'For one-time use only' for push-on retaining rings); many times for speed nuts and U-nuts, which the maker describes as 'ideal for service locations, reused indefinitely' (Tinnerman catalogue p. 5)
-- **tools_needed**: Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; McMaster-Carr sells installation tools with a magnetised tip); removal needs pliers, a screwdriver to pry or cutters, and destroys the push nut ⚑ [uncertain]. Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). Cage nuts: the original design needs a small insertion tool to squeeze the wings into the hole; newer squeeze-and-release designs fit without tools (Wikipedia 'Cage nut'). *(⚑ parts need confirming)*
+- **tools_needed**: Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; McMaster-Carr sells installation tools with a magnetised tip); removal destroys the push nut ('cannot be removed without destruction', Starlock catalogue p. 3): it is prised off with a screwdriver, cut off or ground off (US patent 7,231,700). Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). Cage nuts: the original design needs a small insertion tool to squeeze the wings into the hole; newer squeeze-and-release designs fit without tools (Wikipedia 'Cage nut').
 - **seal**: none: they hold parts on but do not seal; capped push nuts only cover the shaft end for looks
 - **load**: light to medium. Push nuts hold against pulling off along the shaft: B&F Starlock rates spring-steel push nuts at about 196 N pull-off on a 3 mm shaft, 392 N on 5 mm, 981 N on 10 mm and 3434-3777 N on 20-25 mm, measured on mild-steel shafts (Starlock catalogue p. 6). Push-on rings suit 'low thrust loads' only (Rotor Clip). Speed nuts are 'light-to-medium duty, built for fast captive retention ... rather than high clamp load' (Eugene Fastener); Tinnerman lists average tensile limits of about 250 lb (1.1 kN) for a #8-32 machine screw and 600 lb (2.7 kN) for a #8 sheet-metal screw (Tinnerman catalogue p. 5). Weak against twisting on round shafts (the push nut can spin) and against prying.
 - **adjustable**: Push nuts: no, the position is set by how far it is pushed and it cannot be backed off; speed nuts: yes, by turning the screw, and a 'Prevailing Torque Fit' version is recommended 'when the fastener is used as an adjustment nut' (Tinnerman catalogue p. 5)
@@ -1296,6 +1296,7 @@
   - https://en.wikipedia.org/wiki/19-inch_rack
   - https://commons.wikimedia.org/wiki/Category:Cage_nuts
   - https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg
+  - https://patents.google.com/patent/US7231700B2/en
 
 ### Finder tags
 
@@ -1307,7 +1308,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: clicks
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push nut [uncertain]. Speed nuts, U- and J-nuts:…"*
+- **tools**: hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
@@ -1359,7 +1360,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, play_and_precision, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, play_and_precision, processes, safety_notes
 
 ## 259 Retaining ring (circlip, E-clip)
 

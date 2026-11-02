@@ -103,14 +103,6 @@ needs_confirming:
   glue_traits:
     kind: best guess
     reason: no glue traits found
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…s); aluminium tape can''t be soldered with ordinary electronics solder
-      [uncertain: not on an opened page].…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…s); aluminium tape can''t be soldered with ordinary electronics solder
-      [uncertain: not on an opened page].…"'
   electrical_band:
     kind: source uncertain
     reason: '`load` is marked [uncertain] here: "Electrical: up to about 3 A [uncertain: no maker publishes a current…"'
@@ -353,8 +345,6 @@ CUTS: 'Copper tape can give you a nasty paper cut, please be careful!' (SparkFun
 
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
-- ⚑ Finder value `bonds_well` = nylon, acrylic or polycarbonate, metal, fabric or leather (source uncertain): `materials` is marked ⚑ [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder ⚑ [uncertain: not on an opened page].…"
-- ⚑ Finder value `bonds_poorly` = PLA, wood, paper or card (source uncertain): `materials` is marked ⚑ [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder ⚑ [uncertain: not on an opened page].…"
 - ⚑ Finder value `electrical_band` = up to about 3 A (source uncertain): `load` is marked ⚑ [uncertain] here: "Electrical: up to about 3 A ⚑ [uncertain: no maker publishes a current…"
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Conductive tape*: no maker publishes a current rating, so its 'up to about 3 A' lead-in is [uncertain]; copper tape's 0.08 Ω/m is labelled calculated.

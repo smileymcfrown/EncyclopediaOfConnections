@@ -1,6 +1,6 @@
 # pop-up & movable paper mechanisms: Pops up, slides or turns when a card or page is opened or pulled
 
-5 entries. ⚑ = needs confirming: 16 best guesses and 2 values from text marked [uncertain]
+5 entries. ⚑ = needs confirming: 16 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -9,7 +9,7 @@ are welcome. Back to the [index](README.md).
 | 419 | Parallel-fold pop-up | – | none | – | back-and-forth turning ⚑ | straight push or pull ⚑ | – ⚑ | – | – | hand tools | light | by hand (tied or wrapped) | no | permanent |
 | 420 | V-fold pop-up | – | none | – | back-and-forth turning ⚑ | back-and-forth turning ⚑ | – ⚑ | – | – | hand tools | light | by hand (tied or wrapped) | no | permanent |
 | 421 | Pull-tab and slider mechanism | boards or sheet ⚑ | none | – | back-and-forth turning, straight push or pull ⚑ | straight push or pull ⚑ | – ⚑ | – | – | hand tools | light | by hand (tied or wrapped) | no | permanent |
-| 422 | Volvelle | – | none | – | back-and-forth turning ⚑ | back-and-forth turning ⚑ | – ⚑ | – | clicks ⚑ | sewing or leather tools, hand tools ⚑ | light | by hand (tied or wrapped) | yes | removable |
+| 422 | Volvelle | – | none | – | back-and-forth turning ⚑ | back-and-forth turning ⚑ | – ⚑ | – | clicks ⚑ | sewing or leather tools, hand tools | light | by hand (tied or wrapped) | yes | removable |
 | 423 | Spring-powered paper pop-up | – | none | – | bending ⚑ | – ⚑ | – ⚑ | – | – | sewing or leather tools, hand tools | light | by hand (tied or wrapped) | yes | permanent |
 
 ## Best guesses
@@ -38,4 +38,3 @@ The script was unsure of these values.
 These values are probably right, but the research run could not confirm the fact behind them.
 
 - ⚑ **422 Volvelle**, `clicks` = clicks: `special_behaviour` is marked [uncertain] here: "…ows define the readings, but a paper volvelle doesn't click into them [uncertain]…"
-- ⚑ **422 Volvelle**, `tools` = sewing or leather tools, hand tools: `tools_needed` is marked [uncertain] here: "…axed bookbinding thread (Puget Sound), or an eyelet or grommet setter [uncertain for setter]. A cutting machin…"

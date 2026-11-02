@@ -8830,10 +8830,6 @@
     electrical_band:
       kind: best guess
       reason: tagged electrical, but `load` does not start with the fixed electrical lead-in
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…or the lead wires; spanners and thread sealant for rotary
-        union ports [uncertain]. DIY slip rings: pipe cutter…"'
   confirmed: []
 - num: 136
   name: Cable carrier (drag chain, energy chain)
@@ -9035,15 +9031,7 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty, carbon fibre
         or composites, glass or mirror]
-  needs_confirming:
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite
-        EA E-00CL) [uncertain for silicone and PTFE]. Polye…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite
-        EA E-00CL) [uncertain for silicone and PTFE]. Polye…"'
+  needs_confirming: {}
   confirmed: []
 - num: 139
   name: Solvent welding (solvent cement)
@@ -9209,7 +9197,7 @@
     glue_traits: [stays flexible, fills gaps, fast, can be undone]
     bonds_well: [PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, metal,
       glass or ceramic, rubber, fabric or leather, foam]
-    bonds_poorly: []
+    bonds_poorly: [PVC]
     tools: [glue gun, heat gun]
     load_max: light
     usual_process: off-the-shelf part
@@ -9260,15 +9248,7 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or
         cord']
-  needs_confirming:
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected
-        to bond [uncertain].…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected
-        to bond [uncertain].…"'
+  needs_confirming: {}
   confirmed: []
 - num: 142
   name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
@@ -9338,12 +9318,12 @@
   needs_confirming:
     bonds_well:
       kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks
-        holding well [uncertain]. Silicone rubber and silicon…"'
+      reason: '`materials` is marked [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated
+        surfaces: poor [uncertain]…"'
     bonds_poorly:
       kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks
-        holding well [uncertain]. Silicone rubber and silicon…"'
+      reason: '`materials` is marked [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated
+        surfaces: poor [uncertain]…"'
   confirmed: []
 - num: 143
   name: Magnetic coupling and magnetic gear
@@ -9671,10 +9651,6 @@
     connects:
       kind: best guess
       reason: worked out from its name, but joining parts is not one of its two main jobs
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "To fit: spanner or socket for the anchor bolts [uncertain:
-        specific bolt types vary]. T…"'
   confirmed: []
 - num: 148
   name: Woven self-tightening grip (finger-trap grip)
@@ -9937,10 +9913,6 @@
     clicks:
       kind: best guess
       reason: the text uses both clicking and silent words
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…eel cable, fittings such as wire rope clips or crimps
-        at the hook end [uncertain]…"'
   confirmed: []
 - num: 152
   name: Shock-corded sectional pole
@@ -10594,10 +10566,6 @@
     connects:
       kind: best guess
       reason: worked out from its name, but joining parts is not one of its two main jobs
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…e set screw); a mortice lock also needs a pocket cut
-        in the door edge [uncertain: fitting details not from an…"'
   confirmed: []
 - num: 162
   name: Combination lock (wheel pack)
@@ -10726,11 +10694,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    adjustable:
-      kind: source uncertain
-      reason: '`adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount
-        strikers) [uncertain: adjustment procedure not des…"'
+  needs_confirming: {}
   confirmed: []
 - num: 164
   name: Folding-blade lock (liner lock, lockback, slip joint)
@@ -11054,11 +11018,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…for the retaining screw on some models (vxb lists a
-        3 mm hex socket) [uncertain: varies by model]…"'
+  needs_confirming: {}
   confirmed: []
 - num: 169
   name: Spring bar (spring-loaded telescoping pin)
@@ -11378,11 +11338,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys
-        the push nut [uncertain]. Speed nuts, U- and J-nuts:…"'
+  needs_confirming: {}
   confirmed: []
 - num: 174
   name: Lamina emergent torsional joint (LET joint)
@@ -11672,10 +11628,6 @@
     overload_response:
       kind: best guess
       reason: listed as torque-limiting or breakaway, but no overload behaviour matched
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver
-        for clamp screws [uncertain]…"'
   confirmed: []
 - num: 178
   name: Origami mechanisms (waterbomb, Kresling, thick-panel origami)
@@ -12273,11 +12225,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, wood, metal]
-  needs_confirming:
-    adjustable:
-      kind: source uncertain
-      reason: '`adjustable` is marked [uncertain] here: "…e the screws go (some slides have slotted holes for small
-        adjustments [uncertain]), and travel, detent force a…"'
+  needs_confirming: {}
   confirmed: []
 - num: 187
   name: Ball screw
@@ -12466,15 +12414,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    power_source:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V
-        gearmotors [uncertain whether every model holds aga…"'
-    power_loss:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V
-        gearmotors [uncertain whether every model holds aga…"'
+  needs_confirming: {}
   confirmed: []
 - num: 190
   name: Spline shaft (sliding spline)
@@ -13380,11 +13320,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…ff will bind or gap (follows from the fixed-centre rule
-        in Wikipedia) [uncertain]…"'
+  needs_confirming: {}
   confirmed: []
 - num: 204
   name: Lantern gear (pin gear)
@@ -13708,11 +13644,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…a spanner'', underfloor heating supplier); snips to
-        cut bimetal strip [uncertain]; for electric versions, wiri…"'
+  needs_confirming: {}
   confirmed: []
 - num: 209
   name: Burn-wire and fusible-link release (one-shot thermal release)
@@ -13907,11 +13839,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, wood, metal, 'fabric, leather or cord']
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for
-        hydraulic brakes [uncertain]…"'
+  needs_confirming: {}
   confirmed: []
 - num: 212
   name: Eddy-current brake (magnetic brake)
@@ -13974,11 +13902,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, wood, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims
-        help set the gap [uncertain]; pressing magnets into print…"'
+  needs_confirming: {}
   confirmed: []
 - num: 213
   name: Speed governor (fly fan, centrifugal governor)
@@ -14568,11 +14492,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…e cutter or saw and a deburring tool to square and clean
-        the tube end [uncertain: general advice].…"'
+  needs_confirming: {}
   confirmed: []
 - num: 222
   name: Blind threaded fixings (rivet nut, well nut)
@@ -14636,11 +14556,7 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass
         or mirror]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…asher (Smoking Steel Garage video ''Install Rivnuts
-        Without The Tool'') [uncertain: video not watched]. Well nut…"'
+  needs_confirming: {}
   confirmed: []
 - num: 223
   name: PVA wood glue (white and yellow glue)
@@ -14773,15 +14689,7 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather
         or cord']
-  needs_confirming:
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…). Slippery plastics such as polyethylene, polypropylene
-        and silicone [uncertain: not tested in an opened sour…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…). Slippery plastics such as polyethylene, polypropylene
-        and silicone [uncertain: not tested in an opened sour…"'
+  needs_confirming: {}
   confirmed: []
 - num: 225
   name: Polyurethane glue (foaming moisture-cure glue)
@@ -20422,14 +20330,6 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
   needs_confirming:
-    power_source:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little
-        liquid out [uncertain: inferred from Medfusion''s de…"'
-    power_loss:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little
-        liquid out [uncertain: inferred from Medfusion''s de…"'
     overload_response:
       kind: best guess
       reason: listed as torque-limiting or breakaway, but no overload behaviour matched
@@ -20899,10 +20799,6 @@
     power_source:
       kind: best guess
       reason: '`power` names several power sources, and not all may apply'
-    power_loss:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common
-        practice [uncertain]…"'
     load_max:
       kind: best guess
       reason: no light/medium/heavy band in `load`; defaulted to medium
@@ -21266,10 +21162,6 @@
     power_loss:
       kind: best guess
       reason: uses power, but `power` does not say what happens when it is lost
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia:
-        ball-pin mounts) [uncertain]. DIY builds: a hand drill wi…"'
   confirmed: []
 - num: 322
   name: Centrifugal pump (impeller pump)
@@ -21997,11 +21889,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    removability:
-      kind: source uncertain
-      reason: '`removability` is marked [uncertain] here: "…to stay in, but can come out: helical inserts with an
-        extraction tool [uncertain], adhesive-locked E-Z LOK ins…"'
+  needs_confirming: {}
   confirmed: []
 - num: 333
   name: Sew-on part (sewing holes, loops and slots on a rigid part)
@@ -23305,10 +23193,6 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
   needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…W iron to fit a T-plug; bigger plugs and thicker wire
-        need more heat [uncertain]), solder and flux, wire stri…"'
     load_max:
       kind: best guess
       reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
@@ -23855,14 +23739,6 @@
     glue_traits:
       kind: best guess
       reason: no glue traits found
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…s); aluminium tape can''t be soldered with ordinary electronics
-        solder [uncertain: not on an opened page].…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…s); aluminium tape can''t be soldered with ordinary electronics
-        solder [uncertain: not on an opened page].…"'
     electrical_band:
       kind: source uncertain
       reason: '`load` is marked [uncertain] here: "Electrical: up to about 3 A [uncertain: no maker publishes a
@@ -24140,11 +24016,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…remove them (Oetiker pincer data sheet). T-bolt: a spanner
-        or socket [uncertain]. Cable-tie stand-ins: a cutt…"'
+  needs_confirming: {}
   confirmed: []
 - num: 365
   name: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin)
@@ -24597,22 +24469,6 @@
     connects:
       kind: best guess
       reason: joins parts, but no specific kind of part found; set to any solid parts
-    motion_in:
-      kind: source uncertain
-      reason: '`input_output` is marked [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for
-        M8 coarse thread [uncertain])…"'
-    motion_out:
-      kind: source uncertain
-      reason: '`input_output` is marked [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for
-        M8 coarse thread [uncertain])…"'
-    shaft_layout:
-      kind: source uncertain
-      reason: '`input_output` is marked [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for
-        M8 coarse thread [uncertain])…"'
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…for clearance and pilot holes, and a tap to thread a
-        hole for a stud [uncertain]. A ruler or a cut-to-length…"'
   confirmed: []
 - num: 372
   name: Eye bolts, screw eyes and hooks (lifting eye, cup hook, screw hook)
@@ -24741,10 +24597,6 @@
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or
         cord']
   needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down
-        proud staples [uncertain]; safety glasses (Toolstation…"'
     cord_part:
       kind: best guess
       reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
@@ -27317,14 +27169,6 @@
     glue_traits:
       kind: best guess
       reason: no glue traits found
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene
-        film [uncertain: surface energy named in Wiki…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene
-        film [uncertain: surface energy named in Wiki…"'
   confirmed: []
 - num: 413
   name: Split-pin paper fastener (brass fastener, paper brad, butterfly clip)
@@ -28031,10 +27875,6 @@
       kind: source uncertain
       reason: '`special_behaviour` is marked [uncertain] here: "…ows define the readings, but a paper volvelle doesn''t
         click into them [uncertain]…"'
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…axed bookbinding thread (Puget Sound), or an eyelet
-        or grommet setter [uncertain for setter]. A cutting machin…"'
   confirmed: []
 - num: 423
   name: Spring-powered paper pop-up (rubber-band snap-up cube, paper spring, jumping card)
@@ -28437,14 +28277,6 @@
     glue_traits:
       kind: best guess
       reason: not on the glue lists in the finder tree; traits read from the text
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…as plastic ''crystals'', amber, pearls (Blue Bottle Tree)
-        or PLA prints [uncertain]…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…as plastic ''crystals'', amber, pearls (Blue Bottle Tree)
-        or PLA prints [uncertain]…"'
   confirmed: []
 - num: 429
   name: Score-and-slip join (scratch and slip, luting)
@@ -28849,12 +28681,12 @@
       reason: no glue traits found
     bonds_well:
       kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene
-        foam [uncertain: forum consensus in search re…"'
+      reason: '`materials` is marked [uncertain] here: "…parts''). Poor: polyethylene and polypropylene (epoxy does
+        not stick) [uncertain: not stated on a page opened…"'
     bonds_poorly:
       kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene
-        foam [uncertain: forum consensus in search re…"'
+      reason: '`materials` is marked [uncertain] here: "…parts''). Poor: polyethylene and polypropylene (epoxy does
+        not stick) [uncertain: not stated on a page opened…"'
   confirmed: []
 - num: 435
   name: Potted insert (sandwich-panel insert, hard point, overdrill-fill-redrill)
@@ -28988,14 +28820,6 @@
     glue_traits:
       kind: best guess
       reason: no glue traits found
-    bonds_well:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off
-        the laminate [uncertain: forum advice seen in search…"'
-    bonds_poorly:
-      kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off
-        the laminate [uncertain: forum advice seen in search…"'
   confirmed: []
 - num: 437
   name: 'Push-fit rod and spar fittings (kite fittings: tee and cross connectors, ferrules, nocks, end caps)'
@@ -29572,11 +29396,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [metal, glass or mirror]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…''Cementing Lead Came''; Fine Woodworking). Zinc came
-        is cut with a saw [uncertain: mentioned only in a reader''s…"'
+  needs_confirming: {}
   confirmed: []
 - num: 446
   name: Glass fusing (kiln fusing, tack fusing, full fusing)

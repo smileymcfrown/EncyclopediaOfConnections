@@ -1,6 +1,6 @@
 # seals & pass-throughs: Seals out water and dust, or carries cables and fluid across a joint
 
-16 entries. ⚑ = needs confirming: 12 best guesses and 3 values from text marked [uncertain]
+16 entries. ⚑ = needs confirming: 12 best guesses and 2 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -11,7 +11,7 @@ are welcome. Back to the [index](README.md).
 | 132 | Labyrinth seal | – | none | – | – | – | – | – | – | none | medium ⚑ | 3D print (FDM) | no | removable | – |
 | 133 | Hose barb | tube, rod or extrusion, hoses or pipes | none | – | – | – | – | – | clicks ⚑ | none, crimper, hand tools | light | off-the-shelf part ⚑ | no | semi-permanent | – |
 | 134 | Cable gland and strain relief | any solid parts ⚑ | none | – | – | – | – | – | – | drill and tap, sewing or leather tools, hand tools | medium | off-the-shelf part | yes | removable | – |
-| 135 | Slip ring and rotary union | wires ⚑ | none | – | – | – | – | – | – | soldering iron, crimper, press or vice, hand tools ⚑ | light | off-the-shelf part | no | removable | – ⚑ |
+| 135 | Slip ring and rotary union | wires ⚑ | none | – | – | – | – | – | – | soldering iron, crimper, press or vice, hand tools | light | off-the-shelf part | no | removable | – ⚑ |
 | 136 | Cable carrier | – | none | – | – | – | – | – | – | hand tools | medium | off-the-shelf part ⚑ | yes | removable | – |
 | 210 | Compression fitting | hoses or pipes | none | – | – | – | – | – | – | hand tools | heavy | off-the-shelf part | partly | removable | – |
 | 275 | Iris valve | – | none | – | – | – | – | – | clicks | none, hand tools ⚑ | medium | off-the-shelf part | yes | removable | – |
@@ -44,6 +44,5 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **135 Slip ring and rotary union**, `tools` = soldering iron, crimper, press or vice, hand tools: `tools_needed` is marked [uncertain] here: "…or the lead wires; spanners and thread sealant for rotary union ports [uncertain]. DIY slip rings: pipe cutter…"
 - ⚑ **275 Iris valve**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…rs for fabric, and a hose clamp or cable ties to grip the sleeve ends [uncertain]…"
 - ⚑ **291 Anti-twister mechanism**, `tools` = soldering iron, crimper, hand tools: `tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends [uncertain]. The printed demonstrator sn…"

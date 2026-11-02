@@ -667,7 +667,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable for a split-pin fastener (fold the legs back and pull it out) or a string pivot (untie it); permanent for a glued paper rivet, a set metal grommet or rivet, which must be cut out or torn to take the discs apart
 - **reuse_cycles**: Taking apart: a few times with a split pin or string; once with a glued paper rivet or a set grommet. Turning: many times while the card stays stiff and the centre hole isn't worn oval ⚑ [uncertain: no cycle counts found]. Museum Wales and Puget Sound report 16th-century volvelles in books that still work, though some are 'in a very fragile state' (Museum Wales). *(⚑ parts need confirming)*
-- **tools_needed**: To make: scissors or a craft knife and cutting mat, a pair of compasses or a circle cutter for round discs (Puget Sound recommends a compass), a single-hole punch for the centre hole (WSU Full-O-Meter instructions), and glue for paper rivets and hidden-wheel cards. For the pivot: a split-pin paper fastener, a needle and strong thread such as waxed bookbinding thread (Puget Sound), or an eyelet or grommet setter ⚑ [uncertain for setter]. A cutting machine (Cricut, Silhouette; brands) can cut the windows and discs (Craft with Sarah). To use: none. *(⚑ parts need confirming)*
+- **tools_needed**: To make: scissors or a craft knife and cutting mat, a pair of compasses or a circle cutter for round discs (Puget Sound recommends a compass), a single-hole punch for the centre hole (WSU Full-O-Meter instructions), and glue for paper rivets and hidden-wheel cards. For the pivot: a split-pin paper fastener, a needle and strong thread such as waxed bookbinding thread (Puget Sound), or a hollow eyelet set by hand or with an eyelet setter (Briar Press forum 'Help with complex letterpress job'). A cutting machine (Cricut, Silhouette; brands) can cut the windows and discs (Craft with Sarah). To use: none.
 - **seal**: none: it is open paper
 - **load**: light: carries only its own weight and the reader's finger. The centre hole is the weak point: under rough handling the card round it can tear or wear oval ⚑ [uncertain]. WSU's instructions say 'Flimsy copy paper will not work well' for a hand-turned pointer and suggest heavier stock. *(⚑ parts need confirming)*
 - **adjustable**: yes: the setting is the whole point, as the discs are turned to any reading. The stiffness can also be adjusted: tighten or loosen a string knot, or squeeze or ease the split-pin legs ⚑ [uncertain for split pins]. *(⚑ parts need confirming)*
@@ -758,6 +758,7 @@
   - https://www.thamesandhudson.com/products/paper-engineering-for-designers (contents: 6 pivot mechanisms, 3 wheels, 1 dissolving window)
   - https://www.ecfr.gov/api/renderer/v1/content/enhanced/current/title-16?part=1501 (16 CFR part 1501, small parts for children under 3)
   - https://api.printables.com/graphql/ (Printables API: models 226087 and 1882238)
+  - https://briarpress.org/42177
 
 ### Finder tags
 
@@ -769,7 +770,7 @@
 - **shaft_layout**: not applicable ⚑ *needs confirming (best guess): both sides turn, but no shaft layout named; pop-up: opening the page read as a part turn, not steady turning*
 - **overload_response**: not applicable
 - **clicks**: clicks ⚑ *needs confirming (source uncertain): `special_behaviour` is marked [uncertain] here: "…ows define the readings, but a paper volvelle doesn't click into them [uncertain]…"*
-- **tools**: sewing or leather tools, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…axed bookbinding thread (Puget Sound), or an eyelet or grommet setter [uncertain for setter]. A cutting machin…"*
+- **tools**: sewing or leather tools, hand tools
 - **load_max**: light
 - **usual_process**: by hand (tied or wrapped)
 - **adjustable**: yes
@@ -821,7 +822,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, environment_limits, input_output, job, load, make_it_yourself, maker_difficulty, making_tips_3d_printing, motion, play_and_precision, print_in_place, processes, reuse_cycles, safety_notes, special_behaviour, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, environment_limits, input_output, job, load, make_it_yourself, maker_difficulty, making_tips_3d_printing, motion, play_and_precision, print_in_place, processes, reuse_cycles, safety_notes, special_behaviour, when_not_to_use
 
 ## 423 Spring-powered paper pop-up (rubber-band snap-up cube, paper spring, jumping card)
 

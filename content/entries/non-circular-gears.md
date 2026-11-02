@@ -86,14 +86,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…ff will bind or gap (follows from the fixed-centre rule in Wikipedia)
-      [uncertain]…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [input_output, tools_needed, processes, when_not_to_use, common_failures, make_it_yourself]
+uncertain_fields: [input_output, processes, when_not_to_use, common_failures, make_it_yourself]
 diagram_idea: Two identical ellipses each pinned at one focus, shown at three moments of a turn with the contact point marked
   and the two contact distances drawn as coloured bars that always add up to the fixed centre distance, plus a small speed-over-one-turn
   graph showing the output racing and crawling while the input stays steady.
@@ -171,6 +167,7 @@ sources:
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
 - https://help.prusa3d.com/article/pla_2062
 - https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions
+- https://patents.google.com/patent/US7188794B2/en
 research: research/connection-types/results/Noncircular_gears.json
 image:
   file: non-circular-gears.webp
@@ -292,7 +289,7 @@ Don't use them when you just need a constant speed change: use ordinary spur gea
   - CNC or wire EDM (industrial metal gears; Wikipedia mentions moulding and electrical discharge machining)
   - off-the-shelf part: rarely; mostly found inside products such as oval gear flow meters and oval bicycle chainrings ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: the two gears are printed separately and fitted on pins or shafts, then clipped in place (osamutake's model uses snap-on retaining rings)
-- **Tools:** A screwdriver or hex key for hubs, or none for gears held on pins with snap-on retaining rings (osamutake's model needs no glue). Design software or an online generator is needed to make the pair. When assembling, mesh the gears at their designed relative angle (mark matching teeth): because the two radii must always add up to the centre distance, a pair meshed one tooth off will bind or gap (follows from the fixed-centre rule in Wikipedia) ⚑ [uncertain]
+- **Tools:** A screwdriver or hex key for hubs, or none for gears held on pins with snap-on retaining rings (osamutake's model needs no glue). Design software or an online generator is needed to make the pair. When assembling, mesh the gears at their designed relative angle (mark matching teeth: Shimano's reel patent US 7,188,794 marks the largest-radius tooth of one gear and the smallest-radius tooth of the other so they meet): because the two radii must always add up to the centre distance, a pair meshed one tooth off will bind or gap (follows from the fixed-centre rule in Wikipedia)
 - **Difficulty:** moderate: easy to make once a generator has drawn the pair (print or laser-cut it), but hard to design by hand, because every tooth is a different shape and the mate has to be calculated
 
 ### 3D printing tips
@@ -352,8 +349,7 @@ Meshing gears form in-running nip points that can trap fingers, hair or clothing
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ff will bind or gap (follows from the fixed-centre rule in Wikipedia) ⚑ [uncertain]…"
+- ⚑ 8 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -379,3 +375,4 @@ Meshing gears form in-running nip points that can trap fingers, hair or clothing
 - <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://www.osha.gov/etools/machine-guarding/introduction/hazardous-motions-actions>
+- <https://patents.google.com/patent/US7188794B2/en>

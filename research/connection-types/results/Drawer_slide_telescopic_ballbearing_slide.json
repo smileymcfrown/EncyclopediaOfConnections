@@ -54,7 +54,7 @@
     "tools_needed": "screwdriver or drill-driver, tape measure and square or level, and ideally a positioning jig (Rockler; printable jigs on Printables); for robot lifts, countersunk M3 or M4 screws, nuts and often 3D-printed spacers (gm0)",
     "seal": "none: dirt, sawdust and chips get into the ball tracks and spoil the movement (gm0; Accuride slide reference guide)",
     "load": "light to heavy: Accuride groups slides as light duty up to 75 lb, medium duty 90 to 100 lb and heavy duty 100 to 600 lb per pair, with stainless and aluminium ranges up to 1,323 lb (Accuride slide reference guide); ordinary kitchen slides are about 75 to 100 lb (Rockler). Ratings are for a pair of 18 in slides fitted on their edges (on the drawer sides): they drop for longer slides, drop by at least 50% if the slides are laid flat under the drawer, and drop as extension increases (Accuride; Chambrelan). Strongest carrying weight down across the tall side of the slide; weakest to sideways loads and twisting when fully extended, where the slide bends (deflects) (Chambrelan lexicon; gm0)",
-    "adjustable": "mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments [uncertain]), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon)",
+    "adjustable": "mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments: screws go first in the vertical and horizontal slots to set height and front-to-back position, then the round holes lock it, Accuride 3017 instructions), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon)",
     "play_and_precision": "small in good steel slides; the fully extended slide bends (deflects) in proportion to the load (Chambrelan lexicon), and aluminium robot slides develop play as steel balls wear into the rails (gm0). The two slides must be parallel in both directions or they bind, though mounting one slightly higher than the other has little effect (Accuride). Side clearance must suit the slide, usually 1/2 in (12.7 mm) each side for ball-bearing side-mount slides (Rockler)",
     "access_needed": "one side only (blind): the cabinet member screws to the inside of the cabinet and the drawer member to the outside of the drawer box, each from its own open side",
     "materials": "Cold-rolled steel members and ball retainers with carburised steel balls and zinc plating; stainless steel throughout; or aluminium members with stainless balls and retainers for damp places (Accuride slide reference guide). Robot slides: aluminium (MISUMI SAR) or steel (goBILDA Viper) (gm0). Printed: PLA-on-PLA plain slides (Printables, JoshRC) or printed rails running on 6 mm airsoft BBs (Printables, Radek)",
@@ -204,12 +204,12 @@
       "https://www.youtube.com/watch?v=VrYiAUcE6vI",
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://static.richelieu.com/documents/docsGr/100/725/0/1007250/1438787.pdf"
     ]
   },
   "uncertain": [
     "how_it_works",
-    "adjustable",
     "rules_of_thumb",
     "links",
     "make_it_yourself"

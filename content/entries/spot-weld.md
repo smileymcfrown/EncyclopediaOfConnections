@@ -107,6 +107,10 @@ open_points:
   note: '*Spot weld*: galvanised steel advice differs (Miller: don''t weld it unless the coating is removed and you wear an
     air-supplied respirator; TWI: general ventilation is usually enough), both recorded; the ''up to about 30 A per strip''
     rating and ''use pure nickel, not nickel-plated steel'' (one Hackaday reader) are [uncertain]; 7 fields are marked.'
+- kind: content
+  note: '*Spot weld* (406): "about 30 A per nickel strip" may be high: sellers'' and forum figures seen in search results
+    give about 6-15 A for common 0.15 × 8-10 mm nickel strip; the rating pages could not be opened. Check against a maker''s
+    current rating.'
 uncertain_fields: [seal, load, access_needed, materials, off_the_shelf_parts, everyday_examples, environment_limits]
 diagram_idea: A cross-section of two overlapping sheets squeezed between upper and lower copper electrodes, with arrows for
   force and current, a glowing lens-shaped nugget at the joint line, and a second small panel showing a battery welder's two
@@ -354,6 +358,7 @@ SPARKS AND FIRE: 'it is common for a spray of molten metal droplets (sparks) to 
 - ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = up to about 30 A (source uncertain): `load` is marked ⚑ [uncertain] here: "Electrical: up to about 30 A per nickel strip ⚑ [uncertain: depends on strip width and t…"
 - ⚑ Research note: *Spot weld*: galvanised steel advice differs (Miller: don't weld it unless the coating is removed and you wear an air-supplied respirator; TWI: general ventilation is usually enough), both recorded; the 'up to about 30 A per strip' rating and 'use pure nickel, not nickel-plated steel' (one Hackaday reader) are [uncertain]; 7 fields are marked.
+- ⚑ Research note: *Spot weld* (406): "about 30 A per nickel strip" may be high: sellers' and forum figures seen in search results give about 6-15 A for common 0.15 × 8-10 mm nickel strip; the rating pages could not be opened. Check against a maker's current rating.
 
 ## Sources
 

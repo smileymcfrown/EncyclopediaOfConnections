@@ -1,6 +1,6 @@
 # locks, latches & catches: Latches, catches and locks
 
-15 entries. ⚑ = needs confirming: 15 best guesses and 3 values from text marked [uncertain]
+15 entries. ⚑ = needs confirming: 15 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -13,9 +13,9 @@ are welcome. Back to the [index](README.md).
 | 29 | Push-and-turn child-resistant cap | any solid parts ⚑ | none | – | – ⚑ | – ⚑ | – ⚑ | – | clicks | none | light | off-the-shelf part | no | tool-free quick release |
 | 159 | Cam latch | lid, door or cover | none | – | – | – | – | – | clicks | drill and tap, hand tools | medium | off-the-shelf part | yes | tool-free quick release |
 | 160 | Mechanical interlock | lid, door or cover ⚑ | none | – | – | – | – | – | – | drill and tap, hand tools | heavy | 3D print (FDM) | partly | tool-free quick release |
-| 161 | Pin-tumbler lock | lid, door or cover ⚑ | none | – | – | – | – | – | – | hand tools ⚑ | medium | off-the-shelf part | yes | tool-free quick release |
+| 161 | Pin-tumbler lock | lid, door or cover ⚑ | none | – | – | – | – | – | – | hand tools | medium | off-the-shelf part | yes | tool-free quick release |
 | 162 | Combination lock | lid, door or cover ⚑ | none | – | – | – | – | – | clicks | hand tools | heavy | off-the-shelf part | yes | tool-free quick release |
-| 163 | Rotary latch | lid, door or cover | none | – | – | – | – | – | clicks | crimper, drill and tap, hand tools | heavy | off-the-shelf part | partly ⚑ | tool-free quick release |
+| 163 | Rotary latch | lid, door or cover | none | – | – | – | – | – | clicks | crimper, drill and tap, hand tools | heavy | off-the-shelf part | partly | tool-free quick release |
 | 164 | Folding-blade lock | lid, door or cover ⚑ | none | – | – | – | – | – | clicks | heat gun, hand tools | medium | off-the-shelf part | partly | tool-free quick release |
 | 165 | Tamper-evident breakaway bridge | lid, door or cover | none | – | – | – | – | breaks or lets go once | clicks ⚑ | none, hand tools | light | 3D print (FDM) | no | semi-permanent |
 | 262 | Basic latches | lid, door or cover | none | – | – | – | – | – | clicks ⚑ | drill and tap, hand tools | medium | off-the-shelf part | partly | tool-free quick release |
@@ -46,6 +46,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **161 Pin-tumbler lock**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…e set screw); a mortice lock also needs a pocket cut in the door edge [uncertain: fitting details not from an…"
-- ⚑ **163 Rotary latch**, `adjustable` = partly: `adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers) [uncertain: adjustment procedure not des…"
 - ⚑ **375 Tamper-resistant fasteners**, `load_max` = heavy: `load` is marked [uncertain] here: "…ame size and material, because the special shape is only in the drive [uncertain…"

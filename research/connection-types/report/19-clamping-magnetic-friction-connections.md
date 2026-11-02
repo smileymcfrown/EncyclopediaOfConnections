@@ -1666,7 +1666,7 @@
 - **power**: passive (no power needed)
 - **removability**: Star nut: permanent ('a star nut is not designed to be removable'; to replace one, drive it deeper or right through the tube, or drill it out, Park Tool). Ribbed push-in inserts: semi-permanent ⚑ [uncertain: they can usually be prised out but the ribs may be damaged]. Expansion plugs, wedge expanders and expanding caster stems: removable; loosen the bolt and pull them out (Caster Technology: 'Just loosen the bolt to collapse the bushing and pull out the stem') *(⚑ parts need confirming)*
 - **reuse_cycles**: Star nut: once (it is destroyed or left in the tube when removed, Park Tool). Expansion plugs and expanding stems: many times; Caster Technology says the system can be reused across different frames. Ribbed inserts: a few times ⚑ [uncertain] *(⚑ parts need confirming)*
-- **tools_needed**: Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A pipe cutter or saw and a deburring tool to square and clean the tube end ⚑ [uncertain: general advice]. *(⚑ parts need confirming)*
+- **tools_needed**: Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A hacksaw in a saw guide, then flat and round files or a deburring tool, to square and clean the tube end (Park Tool, steering column sizing).
 - **seal**: Star nut: none. Ribbed plugs: dust-resistant, since they close the tube end (Superior Glide: 'The insert seals the tube end'). Rubber or flexible expanding plugs: can be watertight or airtight, because the squeezed rubber presses all round the wall, e.g. windi's printed plug with TPU sections seals a vibraphone resonator tube airtight, and Kirk's TPU plug stops a pool or spa drain
 - **load**: Light to medium, mostly along the tube: star nuts carry the pull of a headset top-cap bolt (just the bearing pre-load; the fork is actually held by the stem clamp bolts, Wikipedia 'Headset (bicycle part)'); ribbed inserts carry a levelling foot's weight, which pushes the insert into the tube and passes the load through the plastic body to the tube walls (Superior Glide); expanding caster stems carry furniture, cart and prep-table loads (Caster Technology). Pull-out resistance depends on friction and on the tube's wall and inside size matching the insert. Twisting is the weak direction in round tubes, since a friction plug can spin; square plugs and square wedges resist turning ('Square wedge to prevent rotation', ray of sunshine's wedge plug) ⚑ [uncertain: no load figures published in the sources opened]. *(⚑ parts need confirming)*
 - **adjustable**: Expansion plugs and wedge expanders: yes, they can be set at any depth before tightening, and loosened and moved later (Park Tool; Wikipedia 'Headset (bicycle part)' on quill stems, which can be adjusted in height). Star nut: no; its depth is fixed when it is driven in (Park Tool sets it 15 mm down). Threaded inserts give a thread, so a screwed-in levelling foot can then be adjusted up and down (Superior Glide).
@@ -1754,6 +1754,7 @@
   - https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
   - https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png
   - https://dragonplate.com/how-to-connect-carbon-fiber-tubes
+  - https://www.parktool.com/en-us/blog/repair-help/fork-steering-column-length-and-sizing
 
 ### Finder tags
 
@@ -1765,7 +1766,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: silent
-- **tools**: sewing or leather tools, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube end [uncertain: general advice].…"*
+- **tools**: sewing or leather tools, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
@@ -1817,7 +1818,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, removability, reuse_cycles, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, removability, reuse_cycles, safety_notes
 
 ## 222 Blind threaded fixings (rivet nut, well nut)
 
@@ -1862,7 +1863,7 @@
 - **power**: passive (no power needed); pneumatic or battery setting tools are only used to install rivet nuts faster (Böllhoff RIVNUT catalogue pp.24-27)
 - **removability**: Rivet nut: permanent; the screw can be removed and refitted, but the insert itself has to be drilled out, and a spun or failed one is drilled out and replaced, going up a size if the hole is damaged (Eugene Fasteners 'Troubleshooting Rivet Nut Failures'). Well nut: removable; loosen the screw and pull it out (RivetLab; Rivet Nut USA), though Spring Creek notes that once screwed up it expands beyond the 1/2 in hole 'and will not be able to come out' until loosened.
 - **reuse_cycles**: Rivet nut: once for the insert itself, but its metal thread takes the screw effectively unlimited times (Zortrax and JC's Printables knob use rivet nuts in prints for exactly this reason ⚑ [uncertain: Zortrax page could not be opened; JC only says it was used as an insert]). Well nut: a few times to many times; RivetLab calls it reusable, and HR Fastener advises replacing it if the rubber sleeve is damaged. *(⚑ parts need confirming)*
-- **tools_needed**: A drill with the exact bit size from the data sheet, a deburring tool (Eugene Fasteners). Rivet nut: a setting tool fitted with the right mandrel and nose piece for the thread size: hand tools (lever or wrench type), pneumatic, pneumatic-hydraulic or battery tools (Böllhoff RIVNUT catalogue pp.24-29; Eugene Fasteners). Some types (pre-bulbed plus nuts, 'easy-install' rivet nuts) can be set by turning a screw with a simple torque hand tool or ordinary screw driver tool (Böllhoff PLUSNUT data sheet; McMaster-Carr 'Easy-Install Rivet Nuts ... Install with nothing more than a screw'); makers also set them with a bolt, nut and washer (Smoking Steel Garage video 'Install Rivnuts Without The Tool') ⚑ [uncertain: video not watched]. Well nut: only a screwdriver or hex key, sometimes a rubber mallet to seat it (Wikipedia; RivetLab; Spring Creek). *(⚑ parts need confirming)*
+- **tools_needed**: A drill with the exact bit size from the data sheet, a deburring tool (Eugene Fasteners). Rivet nut: a setting tool fitted with the right mandrel and nose piece for the thread size: hand tools (lever or wrench type), pneumatic, pneumatic-hydraulic or battery tools (Böllhoff RIVNUT catalogue pp.24-29; Eugene Fasteners). Some types (pre-bulbed plus nuts, 'easy-install' rivet nuts) can be set by turning a screw with a simple torque hand tool or ordinary screw driver tool (Böllhoff PLUSNUT data sheet; McMaster-Carr 'Easy-Install Rivet Nuts ... Install with nothing more than a screw'); makers also set them with a bolt, two washers and an oversize nut held with a spanner while the bolt is tightened (Garage Journal forum 'Rivnut'; Smoking Steel Garage video 'Install Rivnuts Without The Tool'). Well nut: only a screwdriver or hex key, sometimes a rubber mallet to seat it (Wikipedia; RivetLab; Spring Creek).
 - **seal**: Rivet nut: none for an open-end type (water can pass through the thread); closed-end types 'seal the threads' and versions with a pre-applied PVC foam head seal 'against dust, water, air and non-petroleum based liquids' (Böllhoff RIVNUT catalogue pp.8, 23). Well nut: watertight, and described as airtight or gas-proof, because the squashed rubber lip presses round the hole and under the flange (Wikipedia 'Well nut'; Rivet Nut USA; RivetLab).
 - **load**: Rivet nut: medium to heavy for its size. Böllhoff's figures for an M6 steel RIVNUT in steel plate are about 7.7 kN ultimate tension (pull-out along the screw), 4.4 kN ultimate shear and more than 21 kN thread strength; an M6 aluminium one in 2024-T4 aluminium is about 4.1 kN tension and 2.6 kN shear (Böllhoff RIVNUT catalogue p.31, averages). It is weakest in twisting: a round one can spin in its hole if the hole is oversize or the material soft (Eugene Fasteners). In thin sheet and plastics a slotted plus nut holds much more: e.g. 5.40 kN versus 2.13 kN for a standard rivet nut in 0.76 mm steel, and 3.22 kN versus 1.25 kN in 4.69 mm blow-moulded plastic (Böllhoff PLUSNUT data sheet; thread size not stated). Well nut: light; Wikipedia says well nuts 'are not particularly strong', and RivetLab says they have weaker pull-out and torque strength than rivet nuts and are not for structural use.
 - **adjustable**: no for position: it is fixed in its hole. A well nut's clamping force (how hard it squeezes the panel and seal) is set by how far the screw is tightened; stop when you feel resistance (RivetLab).
@@ -1960,6 +1961,7 @@
   - https://www.youtube.com/watch?v=FJ4gF2tXRBE
   - https://www.youtube.com/watch?v=lYXTiJo_FQQ
   - https://api.printables.com/graphql/ (models 1174824, 264580, 161882, 1373120, 126459)
+  - https://www.garagejournal.com/forum/threads/rivnut.88047/
 
 ### Finder tags
 
@@ -1971,7 +1973,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: drill and tap, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…asher (Smoking Steel Garage video 'Install Rivnuts Without The Tool') [uncertain: video not watched]. Well nut…"*
+- **tools**: drill and tap, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
@@ -2023,7 +2025,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, everyday_examples, holding_principle, making_tips_3d_printing, processes, reuse_cycles, safety_notes, special_behaviour, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, everyday_examples, holding_principle, making_tips_3d_printing, processes, reuse_cycles, safety_notes, special_behaviour
 
 ## 257 Ordinary screw joint (bolt and nut, machine screw)
 
@@ -2874,7 +2876,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable for worm-drive, T-bolt, wire and spring clamps (loosen the screw or open the spring with pliers); semi-permanent for ear clamps, which are crimped once and are removed by cutting or by prising the ear open with pliers, which spoils them (Wikipedia 'Hose clamp'; Oetiker pincer data sheet: pincers are for 'pinching and removing ear clamps'). No-hub couplings can be taken apart, but 'it is often not customary to re-use the clamps and rubber sleeves' because they may not seal well after being deformed (Wikipedia 'Piping and plumbing fitting').
 - **reuse_cycles**: many times for stainless worm-drive and spring clamps if the screw and band are undamaged ⚑ [uncertain: no maker's reuse figure opened]; once for ear clamps (single stroke, 'do not apply secondary crimping force', Oetiker data sheet); usually once for no-hub sleeves (Wikipedia 'Piping and plumbing fitting'). The hose end may need trimming after each removal, and a stuck hose 'should never be removed by slitting' it, which can scratch the fitting (Wikipedia 'Hose clamp'). *(⚑ parts need confirming)*
-- **tools_needed**: Worm-drive: a flat screwdriver or a 1/4 in nut driver for mini clamps and a 5/16 in nut driver for standard clamps (Boshart); a torque-limiting 'T' nut driver with a 60 in-lb slip clutch stops over-tightening (Boshart); no-hub couplings need a torque wrench or preset torque driver, since standard ones are designed for 60 in-lb and heavy-duty ones are installed with a torque wrench (Charlotte Pipe). Spring clamps: pliers, or hose-clamp pliers (Wikipedia 'Hose clamp'). Ear clamps: ear-clamp pincers, which also remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket ⚑ [uncertain]. Cable-tie stand-ins: a cutter. *(⚑ parts need confirming)*
+- **tools_needed**: Worm-drive: a flat screwdriver or a 1/4 in nut driver for mini clamps and a 5/16 in nut driver for standard clamps (Boshart); a torque-limiting 'T' nut driver with a 60 in-lb slip clutch stops over-tightening (Boshart); no-hub couplings need a torque wrench or preset torque driver, since standard ones are designed for 60 in-lb and heavy-duty ones are installed with a torque wrench (Charlotte Pipe). Spring clamps: pliers, or hose-clamp pliers (Wikipedia 'Hose clamp'). Ear clamps: ear-clamp pincers, which also remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket wrench (a standard 7/16 in socket for one stainless clamp, Nassau National Cable). Cable-tie stand-ins: a cutter.
 - **seal**: airtight or pressure (moderate pressures only): the clamp presses the hose evenly onto a smooth spigot; even pressure with 'no gaps' is the design goal, which is why wire clamps overlap their ends and StepLess ear clamps have no step inside (Wikipedia 'Hose clamp'; Oetiker data sheet). The seal needs a fitting that is 'smooth and free of nicks, scratches, or contamination' (Wikipedia). No-hub drain couplings seal with a neoprene gasket squeezed by the bands (Charlotte Pipe).
 - **load**: Medium. Pressure: 'Hose clamps are typically limited to moderate pressures, such as those found in automotive and home applications'; at high pressures compression or crimp fittings are used instead (Wikipedia 'Hose clamp'). Pull-off: strong when the clamp sits behind a barb or bead (Wikipedia); two clamps side by side ('double clamping') 'will greatly reduce the chance of a hose blowing off the fitting' (Boshart). Holding force comes from screw torque: e.g. 35-45 in-lb (3.96-4.52 N m) for standard worm-drive clamps, with an ultimate (breaking) torque of at least 60 in-lb (6.8 N m) (Boshart). As a general strap round a pole it is strong in tension round the band but can slip along or round a smooth pole under a sideways or twisting load ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **adjustable**: yes for worm-drive and T-bolt clamps: re-tighten the screw. To check a worm-drive clamp properly, loosen it completely and re-tighten to the stated torque, because torque on these clamps normally drops about 30% soon after tightening and can't be checked by simply turning the screw (Freightliner service bulletin). Spring and constant-tension clamps adjust themselves; ear clamps can't be adjusted after closing (Wikipedia 'Hose clamp'; EFC International).
@@ -2963,6 +2965,7 @@
   - https://commons.wikimedia.org/wiki/File:Hoseclamps.screw.agr.jpg
   - https://commons.wikimedia.org/wiki/File:Two_spring_Hose_Clamps_-_small.jpg
   - https://api.printables.com/graphql/
+  - https://nassaunationalcable.com/products/1-3-4-1-15-16-stainless-steel-t-bolt-clamp-840188
 
 ### Finder tags
 
@@ -2974,7 +2977,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…remove them (Oetiker pincer data sheet). T-bolt: a spanner or socket [uncertain]. Cable-tie stand-ins: a cutt…"*
+- **tools**: press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
@@ -3026,7 +3029,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** complexity, load, making_tips_3d_printing, reuse_cycles, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** complexity, load, making_tips_3d_printing, reuse_cycles, safety_notes
 
 ## 394 Clamp-on accessory mount for bars, poles and edges (handlebar clamp, desk clamp, U-bolt)
 

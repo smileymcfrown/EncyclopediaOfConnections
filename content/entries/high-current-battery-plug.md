@@ -97,10 +97,6 @@ finder:
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…W iron to fit a T-plug; bigger plugs and thicker wire need more
-      heat [uncertain]), solder and flux, wire stri…"'
   load_max:
     kind: best guess
     reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
@@ -337,7 +333,6 @@ Shorted lithium packs burn: 'short-circuiting them will transform all this energ
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `tools` = soldering iron, crimper, heat gun, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…W iron to fit a T-plug; bigger plugs and thicker wire need more heat ⚑ [uncertain]), solder and flux, wire stri…"
 - ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *High-current battery plug*: current ratings differ (AMASS via Holybro: XT60 30 A continuous, 60 A burst; Oscar Liang 2014: XT60 60 A, bullets 2 mm 20 A to 8 mm 200 A; Horizon Hobby: EC3 60 A continuous; Wikipedia: Deans 40 A (70 A pulse), Tamiya rated 20 A, about 15 A in use). Recorded side by side; design to the lower figure.
 

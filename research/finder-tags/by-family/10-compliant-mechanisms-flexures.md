@@ -1,6 +1,6 @@
 # compliant mechanisms & flexures: Bends instead of hinging
 
-12 entries. ⚑ = needs confirming: 19 best guesses and 4 values from text marked [uncertain]
+12 entries. ⚑ = needs confirming: 19 best guesses and 3 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -15,7 +15,7 @@ are welcome. Back to the [index](README.md).
 | 174 | Lamina emergent torsional joint | – | none | – | – | – | – | – | clicks ⚑ | power tools, hand tools ⚑ | light | laser cut | no | permanent |
 | 175 | Rolling-contact joint | lid, door or cover ⚑ | none | – | – | – | – | – ⚑ | clicks ⚑ | crimper, hand tools | medium | 3D print (FDM) | yes | removable |
 | 176 | Mechanical metamaterial mechanism | lid, door or cover ⚑ | none | – | steady turning ⚑ | – ⚑ | – ⚑ | – | – | none, power tools, hand tools | light | 3D print (FDM) | no | permanent |
-| 177 | Tape-spring hinge | lid, door or cover ⚑ | none | – | – | – | – | – ⚑ | – | hand tools ⚑ | light | off-the-shelf part | no | removable |
+| 177 | Tape-spring hinge | lid, door or cover ⚑ | none | – | – | – | – | – ⚑ | – | hand tools | light | off-the-shelf part | no | removable |
 | 178 | Origami mechanisms | boards or sheet ⚑ | none | – | straight push or pull ⚑ | – ⚑ | – ⚑ | – | – | none, hand tools | light | 3D print (FDM) | partly | permanent |
 | 410 | Score-and-fold hinge | lid, door or cover ⚑ | none | – | – | – | – | – | – | sewing or leather tools, hand tools | light | by hand (tied or wrapped) | no | permanent |
 
@@ -50,4 +50,3 @@ These values are probably right, but the research run could not confirm the fact
 - ⚑ **50 Flexure hinge**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks [uncertain]; bought pivot bearings are f…"
 - ⚑ **51 Parallel leaf-spring flexure**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades [uncertain]…"
 - ⚑ **174 Lamina emergent torsional joint**, `tools` = power tools, hand tools: `tools_needed` is marked [uncertain] here: "…model has to hold its shape (BYU CMR 'Mini Flex Chair' instructions) [uncertain] (for water jet and stamping)…"
-- ⚑ **177 Tape-spring hinge**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws [uncertain]…"

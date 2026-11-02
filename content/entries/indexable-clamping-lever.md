@@ -87,15 +87,11 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket)
-      [uncertain: varies by model]…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [aliases, input_output, tools_needed, load, play_and_precision, processes, making_tips_3d_printing, rules_of_thumb,
-  when_not_to_use, safety_notes, common_failures]
+uncertain_fields: [aliases, input_output, load, play_and_precision, processes, making_tips_3d_printing, rules_of_thumb, when_not_to_use,
+  safety_notes, common_failures]
 diagram_idea: 'Three-step cut-away of the lever on its screw: (1) teeth in mesh, spring pushing down, lever turning the screw;
   (2) lever lifted a few millimetres, teeth apart, lever swinging back while the screw stays still; (3) lever released, spring
   snaps the teeth back into mesh at a new angle, with a small top view marking the tooth-by-tooth parking positions.'
@@ -264,7 +260,7 @@ If you need instant clamp-and-release in one movement, use an eccentric cam leve
   - 3D print (resin): possible for small levers, but no tested example found ⚑ [uncertain]
   - CNC: a metal insert or lever could be machined, but commercial ones are die cast or moulded (Wikipedia de, Klemmhebel) ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: the lever, insert, spring and screw are separate parts that are assembled (Printables 86927; Elesa+Ganter GN 300)
-- **Tools:** None to use. To fit: none for a threaded-stud version screwed into a tapped hole by hand, or a spanner to fit a stud or nut; a hex key for the retaining screw on some models (vxb lists a 3 mm hex socket) ⚑ [uncertain: varies by model]
+- **Tools:** None to use. To fit: none for a threaded-stud version screwed into a tapped hole by hand, or a spanner to fit a stud or nut; a hex key for the retaining screw on models that have one (Ganter GN 300 has a steel retaining screw; vxb lists a 3 mm hex socket); Elesa ERX handles use a plastic retaining pin instead (Elesa ERX)
 - **Difficulty:** easy to buy and fit; moderate to make: the simplest printed version uses a hex nut as the 'teeth' and needs only a screw and nuts (Printables 86927), but a spring-return serrated version needs strong teeth, a steel spring and a retaining screw
 
 ### 3D printing tips
@@ -323,8 +319,7 @@ Pinch point: the spring snaps the lever back down when you let go, and a swingin
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 15 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…for the retaining screw on some models (vxb lists a 3 mm hex socket) ⚑ [uncertain: varies by model]…"
+- ⚑ 14 sentences on this page marked [uncertain].
 
 ## Sources
 

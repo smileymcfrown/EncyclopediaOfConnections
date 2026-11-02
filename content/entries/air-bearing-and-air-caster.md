@@ -93,10 +93,6 @@ needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts)
-      [uncertain]. DIY builds: a hand drill wi…"'
 confirmed: []
 open_points:
 - kind: content
@@ -377,7 +373,6 @@ Porous carbon flat round and rectangular air bearings, air bushings (porous bron
 
 - ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
-- ⚑ Finder value `tools` = drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill wi…"
 - ⚑ Research note: *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address; the entry credits the name only.
 
 ## Sources

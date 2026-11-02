@@ -95,15 +95,11 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube
-      end [uncertain: general advice].…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [load, removability, reuse_cycles, tools_needed, play_and_precision, materials, processes, making_tips_3d_printing,
-  off_the_shelf_parts, environment_limits, safety_notes, common_failures]
+uncertain_fields: [load, removability, reuse_cycles, play_and_precision, materials, processes, making_tips_3d_printing, off_the_shelf_parts,
+  environment_limits, safety_notes, common_failures]
 diagram_idea: 'Three cut-away tube ends side by side: a star nut with its barbs bent back and biting the wall (arrow showing
   it can go in but not out), a ribbed insert with a nut pressing out on the walls, and an expansion plug where a bolt pulls
   two cones together so a split sleeve swells outward against the wall.'
@@ -174,6 +170,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
 - https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png
 - https://dragonplate.com/how-to-connect-carbon-fiber-tubes
+- https://www.parktool.com/en-us/blog/repair-help/fork-steering-column-length-and-sizing
 research: research/connection-types/results/Internal_tube_anchors_star_nut_expansion_plug.json
 image:
   file: drawn/internal-tube-anchors.svg
@@ -270,7 +267,7 @@ Avoid them for heavy pulling loads or safety-critical joints where the only thin
   - 3D print (FDM): expanding plugs and wedge plugs with a metal screw and nut, bar-end plugs, flexible (TPU) sealing plugs, and push-in connectors that fit inside PVC pipe (ray of sunshine; Rossero; windi; Kirk; KPV)
   - CNC: ⚑ [uncertain] turned metal expanders or plugs for special tube sizes; no specific guide found
 - **Printing it in one piece (print in place):** partly: an expanding plug is usually printed as one or two plastic parts and then needs an added screw and nut (Rossero's bar-end plug needs an M3 bolt of at least 20 mm and an M3 nut; ray of sunshine's wedge plug needs an M3 flat-head screw and a nut dropped in during a print pause); multi-material plugs can combine hard and flexible sections in one print (windi)
-- **Tools:** Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A pipe cutter or saw and a deburring tool to square and clean the tube end ⚑ [uncertain: general advice].
+- **Tools:** Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A hacksaw in a saw guide, then flat and round files or a deburring tool, to square and clean the tube end (Park Tool, steering column sizing).
 - **Difficulty:** easy: buy the right size, then press, tap or bolt it in; the main skill is measuring the tube's inside size and wall thickness. Printed expanding plugs are also easy to make (ray of sunshine; Rossero), but a printed star nut would not have springy metal barbs
 
 ### 3D printing tips
@@ -338,8 +335,7 @@ On a bicycle, a missing or loose steerer anchor lets the headset come loose, and
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = sewing or leather tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube end ⚑ [uncertain: general advice].…"
+- ⚑ 12 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -358,3 +354,4 @@ On a bicycle, a missing or loose steerer anchor lets the headset come loose, and
 - <https://commons.wikimedia.org/wiki/File:Quill_stems.JPG>
 - <https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png>
 - <https://dragonplate.com/how-to-connect-carbon-fiber-tubes>
+- <https://www.parktool.com/en-us/blog/repair-help/fork-steering-column-length-and-sizing>

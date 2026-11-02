@@ -1297,11 +1297,11 @@
 - **holding_principle**: 
   - friction or clamping (force-fit): nuts tightened along the rod clamp the parts between them, and preload and thread friction stop the nuts turning (Wikipedia 'Jam nut')
   - shape (the parts interlock; form-fit): the thread flanks interlock with the nut, the tapped hole or, for a hanger bolt, the wood fibres, and carry the pull
-- **input_output**: Usually not applicable (it is a fixing). When turned as a crude lead screw: rotation -> straight-line motion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread ⚑ [uncertain]); low efficiency, so it is not back-drivable (self-locking) (Wikipedia 'Screw (simple machine)'); shaft in line with the motion. See Lead screw and nut. *(⚑ parts need confirming)*
+- **input_output**: Usually not applicable (it is a fixing). When turned as a crude lead screw: rotation -> straight-line motion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread, Wikipedia 'ISO metric screw thread'); low efficiency, so it is not back-drivable (self-locking) (Wikipedia 'Screw (simple machine)'); shaft in line with the motion. See Lead screw and nut.
 - **power**: passive (no power needed)
 - **removability**: removable: nuts undo with spanners, and studs and hanger bolts can be backed out by gripping two nuts jammed together (Wikipedia 'Jam nut'; The Handyman's Daughter). Rod set in concrete with epoxy or cast in is permanent (Portland Bolt), and seized stainless threads may have to be cut off (Wikipedia 'Galling').
 - **reuse_cycles**: many times: steel rod and nuts can be refitted many times if the threads are kept clean and undamaged; stainless and aluminium threads can gall and seize (Wikipedia 'Galling'); hanger bolts in wood loosen their hole if taken out and refitted often ⚑ [uncertain]. *(⚑ parts need confirming)*
-- **tools_needed**: Two spanners (wrenches) or a socket set; to cut rod, a hacksaw, a chop saw (a cold-cutting blade leaves 'significantly less burring' than an abrasive one) or a threaded-rod shear; a grinder, file or cone-shaped chamfering tool (e.g. a Uniburr) to clean the cut end; gloves, since cut rod gets hot (Albany County Fasteners; Wikimedia Commons 'Gewindestangenschere Makita.jpg'). To fit studs and hanger bolts: two nuts jammed together, or a hanger-bolt driver bit in a drill (Wikipedia 'Jam nut'; The Handyman's Daughter); a drill for clearance and pilot holes, and a tap to thread a hole for a stud ⚑ [uncertain]. A ruler or a cut-to-length jig to set spacings (RepRap 'Prusa Mendel Assembly'). *(⚑ parts need confirming)*
+- **tools_needed**: Two spanners (wrenches) or a socket set; to cut rod, a hacksaw, a chop saw (a cold-cutting blade leaves 'significantly less burring' than an abrasive one) or a threaded-rod shear; a grinder, file or cone-shaped chamfering tool (e.g. a Uniburr) to clean the cut end; gloves, since cut rod gets hot (Albany County Fasteners; Wikimedia Commons 'Gewindestangenschere Makita.jpg'). To fit studs and hanger bolts: two nuts jammed together, or a hanger-bolt driver bit in a drill (Wikipedia 'Jam nut'; The Handyman's Daughter); a drill for clearance and pilot holes, and a tap to thread a hole for a stud, since a stud is driven into a tapped hole (Vulcan 'Stud installation' tip). A ruler or a cut-to-length jig to set spacings (RepRap 'Prusa Mendel Assembly').
 - **seal**: none: fluid can creep along the thread; where a rod passes through a wet or pressurised wall, seal it with sealing washers or thread sealant ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **load**: Medium to heavy in tension (a pull along the rod), set by the grade, diameter, nuts and the material being clamped; poor in bending and only moderate in shear, because it is 'designed to be used in tension' (Wikipedia) and its thread sits wherever it crosses a joint ⚑ [uncertain]. The grade matters hugely: unmarked metric rod is class 4.6 (tensile strength 400 N/mm2, yield 240 N/mm2), yellow-marked class 8.8 is twice as strong (800 and 640), and white-marked 10.9 stronger still (1000 and 900) (Wikipedia 'Threaded rod'). The AISC allowable tension for ordinary threaded rod is P = 0.33 x Fu x pi x d^2 / 4 (Wikipedia); for M8 class 4.6 that gives about 6.6 kN (about 680 kgf) as a structural steel design value (calculated here), not a rating for lifting ⚑ [uncertain]. A tap-end stud in soft metal is limited by the tapped thread unless it goes in about 1 x its diameter in steel and 2 x in aluminium (Nord-Lock). A hanger bolt is limited by its wood thread's grip, like a coach screw ⚑ [uncertain]. Through printed plastic, the plastic crushes long before the rod fails, hence 'do not crush the plastic' (RepRap). *(⚑ parts need confirming)*
 - **adjustable**: yes: run the nuts along the rod to change a spacing, height, length or tension, then lock them with a second nut (Wikipedia 'Jam nut'); RepRap builders set each frame side to 290 mm this way (RepRap 'Prusa Mendel Assembly'). Coupling nuts join rods end to end and can draw them together or push them apart (Wikipedia 'Coupling nut').
@@ -1401,18 +1401,20 @@
   - https://commons.wikimedia.org/wiki/File:Double_screw_dowel.png
   - https://commons.wikimedia.org/wiki/File:Gewindestangenschere_Makita.jpg
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/ISO_metric_screw_thread
+  - https://vulcanhammer.info/2017/06/21/vulcan-offshore-tip-12-stud-installation/
 
 ### Finder tags
 
 - **connects**: any solid parts ⚑ *needs confirming (best guess): joins parts, but no specific kind of part found; set to any solid parts*
 - **power_source**: none
 - **power_loss**: not applicable
-- **motion_in**: steady turning ⚑ *needs confirming (source uncertain): `input_output` is marked [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread [uncertain])…"*
-- **motion_out**: straight push or pull ⚑ *needs confirming (source uncertain): `input_output` is marked [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread [uncertain])…"*
-- **shaft_layout**: not applicable ⚑ *needs confirming (source uncertain): `input_output` is marked [uncertain] here: "…ion of a nut, one thread pitch per turn (1.25 mm for M8 coarse thread [uncertain])…"*
+- **motion_in**: steady turning
+- **motion_out**: straight push or pull
+- **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: drill and tap, power tools, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…for clearance and pilot holes, and a tap to thread a hole for a stud [uncertain]. A ruler or a cut-to-length…"*
+- **tools**: drill and tap, power tools, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
@@ -1464,7 +1466,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, how_it_works, input_output, load, making_tips_3d_printing, materials, play_and_precision, processes, reuse_cycles, safety_notes, seal, tools_needed, when_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, how_it_works, load, making_tips_3d_printing, materials, play_and_precision, processes, reuse_cycles, safety_notes, seal, when_to_use
 
 ## 372 Eye bolts, screw eyes and hooks (lifting eye, cup hook, screw hook)
 
@@ -1719,7 +1721,7 @@
 - **power**: passive (no power needed) for the fixing; the tool is manual (spring-loaded staple gun, hammer tacker) or powered (electric, cordless or pneumatic stapler) (Wikipedia 'Staple gun').
 - **removability**: semi-permanent: 'Once a staple has been driven, it is difficult to remove without causing damage to the surrounding material' (Wikipedia 'Staple (fastener)'); it is prised out with pliers, a thin screwdriver or a staple or tack remover (The Bulletin, Bend, 'DIY: Reupholster chairs'), leaving two small holes.
 - **reuse_cycles**: once: a removed staple is bent and thrown away; the material can be re-stapled in fresh places a few times before the wood or fabric edge is shredded ⚑ [uncertain]. *(⚑ parts need confirming)*
-- **tools_needed**: A staple gun (manual, electric, cordless or pneumatic) or hammer tacker loaded with staples made for it; for cable staples, a gun with a wire guide or a cable-staple gun, or hammer-in cable clips (Wikipedia 'Staple gun'); hog ring pliers for hog rings (aftfasteners.com); pliers, a thin screwdriver or a staple/tack remover to take staples out (The Bulletin); a hammer to tap down proud staples ⚑ [uncertain]; safety glasses (Toolstation PCT162 manual). *(⚑ parts need confirming)*
+- **tools_needed**: A staple gun (manual, electric, cordless or pneumatic) or hammer tacker loaded with staples made for it; for cable staples, a gun with a wire guide or a cable-staple gun, or hammer-in cable clips (Wikipedia 'Staple gun'); hog ring pliers for hog rings (aftfasteners.com); pliers, a thin screwdriver or a staple/tack remover to take staples out (The Bulletin); a 'staple set' (a dowel with a steel rod through it, tapped with a hammer) to drive proud staples flush, since hitting them straight with a hammer kinks them (Popular Woodworking); safety glasses (Toolstation PCT162 manual).
 - **seal**: none: staples leave holes; seal or tape over them if the sheet must be weatherproof (e.g. house wrap is taped later) ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **load**: Light. Each leg resists pull-out like a small nail: the Wood Handbook uses its nail equation p = 54.12 G^2.5 D L (N, mm) for one staple leg, though 'no verification tests have been done'; for a leg about 1 mm thick going 10 mm into wood of specific gravity 0.5 that gives roughly 95 N (about 10 kgf) per leg, under 200 N per staple, as a short-term breaking value (calculated here; safe loads are far lower) ⚑ [uncertain]. Sideways (shear) strength varies with leg diameter to the 3/2 power, so each leg must be about two-thirds the diameter of a nail to match it (USDA Wood Handbook ch. 8). Staples 'generally have lower holding power compared to nails or screws' (Wikipedia 'Staple (fastener)'). Weak points: pulling straight out, thin fabric tearing out round the crown, and staples driven parallel to the grain splitting the wood ⚑ [uncertain]. Strongest when the load slides along the surface (shear), as when taut fabric is pulled across a frame. *(⚑ parts need confirming)*
 - **adjustable**: no: to move or re-tension fabric, pull the staples and re-staple (upholsterers start in the middle of each side and work outwards so tension can be evened out) (The Bulletin; FOX 2 Detroit).
@@ -1812,6 +1814,7 @@
   - https://en.wikipedia.org/wiki/Bookbinding
   - https://blog.talasonline.com/post/elevate-your-zines-pamphlet-stitch-alternative-binding-techniques
   - https://makezine.com/article/craft/working-with-cardboard-tips-cut-fold-mold-papier-mache/
+  - https://popularwoodworking.com/tricks/staple-set
 
 ### Finder tags
 
@@ -1823,7 +1826,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…o take staples out (The Bulletin); a hammer to tap down proud staples [uncertain]; safety glasses (Toolstation…"*
+- **tools**: hand tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
@@ -1875,7 +1878,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, processes, reuse_cycles, safety_notes, seal, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, processes, reuse_cycles, safety_notes, seal
 
 ## 414 Cardboard screws and rivets (cardboard construction screw, box rivet, zip-tie rivet)
 
@@ -2669,7 +2672,7 @@
 - **adjustable**: Only while wet: with the equipment held in position and the studs hanging from its mounting holes, the studs can be glued in place for perfect alignment (Practical Sailor 'Alignment Tip'). Once cured, position is fixed.
 - **play_and_precision**: No play once cured. Placement accuracy depends on holding it still while the adhesive sets: plain bonded bases 'tend to slide around as though on skates' without tape or clamps (Practical Sailor); high-viscosity 'no-slide' adhesives or the maker's fixtures prevent this (Carr Lane; Click Bond FAQ). Clearance holes in the part bolted on should be smaller than the fastener's shoulder (ideally 80-90% of its diameter) so the clamp load bears on the shoulder (bigHead guidance).
 - **access_needed**: one side only (blind): it is glued to one face with no need to reach the back, which is its main advantage (Practical Sailor: when 'the other side is either inaccessible or exposed'). The strongest 'through' version needs the back face (Easy Composites).
-- **materials**: Fastener: usually 304 or 316 stainless steel (Carr Lane; Easy Composites). Suits: fibreglass (GRP) and carbon laminates, metals (aluminium, stainless, galvanised steel), engineering plastics and composites (Easy Composites; Carr Lane); tile, stone, glass, concrete, metal, wood and many plastics for household adapter kits (tesa). Embedding needs material about 3 mm thick or more round the head (bigHead SM1-B20 TDS). Adhesives: methacrylate (MMA) structural adhesives (Easy Composites VM100, Weld Mount AT-8040), two-part epoxy thickened to mayonnaise consistency (Practical Sailor), or the maker's own adhesive. Poor: polyethylene (PE), polypropylene (PP) and PTFE, loose or painted plaster, wallpaper, fabrics, and painted or sealed coatings (tesa); gelcoat or paint that could peel off the laminate ⚑ [uncertain: forum advice seen in search results to grind to bare fibreglass, page not opened]. *(⚑ parts need confirming)*
+- **materials**: Fastener: usually 304 or 316 stainless steel (Carr Lane; Easy Composites). Suits: fibreglass (GRP) and carbon laminates, metals (aluminium, stainless, galvanised steel), engineering plastics and composites (Easy Composites; Carr Lane); tile, stone, glass, concrete, metal, wood and many plastics for household adapter kits (tesa). Embedding needs material about 3 mm thick or more round the head (bigHead SM1-B20 TDS). Adhesives: methacrylate (MMA) structural adhesives (Easy Composites VM100, Weld Mount AT-8040), two-part epoxy thickened to mayonnaise consistency (Practical Sailor), or the maker's own adhesive. Poor: polyethylene (PE), polypropylene (PP) and PTFE, loose or painted plaster, wallpaper, fabrics, and painted or sealed coatings (tesa); gelcoat or paint that could peel off the laminate, so grind down to bare fibreglass where the base goes ('Never attempt to bond to gelcoat', Cruising World 'Fiberglass Repairs'; Seakeeper installation manual).
 - **maker_difficulty**: easy: glue it on and wait; the skill is in surface preparation, choosing the adhesive, and holding it still while it cures.
 
 ### Making it
@@ -2750,6 +2753,8 @@
   - https://www.tesa.com/sk-sk/spotrebitel/kupelnove-doplnky/technologia-power-kit
   - https://www.westsystem.com/safety/health-effects-from-overexposure-to-epoxy/
   - https://api.printables.com/graphql/
+  - https://www.cruisingworld.com/story/how-to/fiberglass-repairs/
+  - https://manuals.seakeeper.com/ride/seakeeper-ride-mechanical-installation-manual/6-prepare-hull/6-6-grind-old-construction-only/
 
 ### Finder tags
 
@@ -2762,8 +2767,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
-- **bonds_well**: wood, metal, glass or ceramic, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate [uncertain: forum advice seen in search…"*
-- **bonds_poorly**: slippery plastics (PE or PP), paper or card, fabric or leather ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate [uncertain: forum advice seen in search…"*
+- **bonds_well**: wood, metal, glass or ceramic, stone or concrete
+- **bonds_poorly**: slippery plastics (PE or PP), paper or card, fabric or leather
 - **tools**: press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
@@ -2816,7 +2821,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, load, making_tips_3d_printing, materials, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, load, making_tips_3d_printing, safety_notes
 
 ## 438 Compression limiter (crush tube, bolt sleeve, compression sleeve)
 

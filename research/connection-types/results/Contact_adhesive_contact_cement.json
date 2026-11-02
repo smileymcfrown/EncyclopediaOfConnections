@@ -39,7 +39,7 @@
     "adjustable": "no: parts cannot be shifted once the glue films touch (DAP; 3M). Position them first on dry spacers, then pull the spacers out one at a time (DAP; Rockler).",
     "play_and_precision": "not applicable (nothing moves). Alignment must be right first time, so pre-fit all parts and use spacers or slip sheets to position large pieces (DAP; 3M). It copes with rough or porous surfaces better than thin wood glues because a thick glossy film is built up on each face [uncertain: inferred from coating advice], but it is not a gap filler.",
     "access_needed": "not applicable: both faces are coated before assembly",
-    "materials": "Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam with ordinary solvent types, whose ketone solvents (acetone, MEK in DAP's) dissolve it (DAP); polystyrene-safe solvent types exist, such as UHU por (brand), a synthetic-rubber contact adhesive whose aliphatic solvents are chosen so 'the structure of the polystyrene foam is not attacked' (UHU por data sheet), so the rule is to check the solvent, not to avoid every solvent glue; copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Slippery plastics such as polyethylene, polypropylene and silicone [uncertain: not tested in an opened source; generally poor for most glues].",
+    "materials": "Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam with ordinary solvent types, whose ketone solvents (acetone, MEK in DAP's) dissolve it (DAP); polystyrene-safe solvent types exist, such as UHU por (brand), a synthetic-rubber contact adhesive whose aliphatic solvents are chosen so 'the structure of the polystyrene foam is not attacked' (UHU por data sheet), so the rule is to check the solvent, not to avoid every solvent glue; copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Not suitable: slippery plastics such as polyethylene and polypropylene (Pattex Contact Adhesive data sheet), and silicone rubber and PTFE (Selco contact adhesive data sheet).",
     "maker_difficulty": "easy to moderate: no mixing and no clamps, but you must wait for the right dryness, get the alignment right first time, press hard everywhere, and handle flammable fumes safely (thisTOthat; DAP; 3M; Rockler)."
   },
   "making": {
@@ -175,14 +175,15 @@
       "https://static.rapidonline.com/pdf/64-1845t_v1.pdf",
       "https://www.costumary.com/blog/eva-foam-clean-builds",
       "https://cosplayadvice.com/using-eva-foam-for-cosplay/",
-      "https://www.xposeddesigns.com/blog/how-to-attach-cosplay-armor-to-a-bodysuit-without-the-straps-showing"
+      "https://www.xposeddesigns.com/blog/how-to-attach-cosplay-armor-to-a-bodysuit-without-the-straps-showing",
+      "https://datasheets.tdx.henkel.com/PATTEX-CONTACT-ADHESIVE-en_ZA.pdf",
+      "https://www.selcobw.com/media/files/CS527670566%20Technical%20Data%20Sheet.pdf"
     ]
   },
   "uncertain": [
     "aliases",
     "removability",
     "play_and_precision",
-    "materials",
     "processes",
     "making_tips_3d_printing",
     "everyday_examples",

@@ -1831,7 +1831,7 @@
 - **power**: passive (no power needed). Space versions are held folded by a restraint and then released, e.g. the ISIS CubeSat antenna uses a thermal knife that burns through a wire (cubesatshop.com); power is only needed for that release device, and once released the tape deploys on its own
 - **removability**: removable: the tapes are clamped or bolted to the parts (e.g. aluminium clamp blocks in the TSR hinge, Watt and Pellegrino 2002) and can be unscrewed
 - **reuse_cycles**: many times, as long as the fold never overstresses the tape; a tape that overshoots and yields is permanently damaged (Seffen and Pellegrino 1997); no cycle count found ⚑ [uncertain] *(⚑ parts need confirming)*
-- **tools_needed**: Tin snips or old scissors to cut the tape and tough tape to cover the sharp cut edges (Naked Scientists); a screwdriver for clamp screws ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: Tin snips or old scissors to cut the tape and tough tape to cover the sharp cut edges (Naked Scientists); a screwdriver or spanner for the bolts that hold each end of the tape under a clamp tab (US patent 10,119,266)
 - **seal**: none
 - **load**: light: it locks strongly for its weight but deploys gently; a 135 mm long TSR hinge with one pair of 25.4 mm wide steel tapes needed only 0.1 to 0.3 N m to deploy but locked against 13 N m (Watt and Pellegrino 2002). Strong along the tape and stiff while straight; it resists bending that puts the tape's edges in tension (opposite-sense bending) better than bending the other way (equal-sense bending), which is softer and buckles sooner into a twisted fold (Seffen and Pellegrino 1997); once folded it carries almost no load
 - **adjustable**: no after assembly; the deployment and locking moments are set by the tape size, the number of stacked tapes (moments rise roughly in proportion) and the spacing between the tapes (Watt and Pellegrino 2002)
@@ -1914,6 +1914,7 @@
   - https://www.printables.com/model/540996-tape-measure-yagi-antenna
   - https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna
   - https://api.printables.com/graphql/
+  - https://patents.google.com/patent/US10119266B1/en
 
 ### Finder tags
 
@@ -1925,7 +1926,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable ⚑ *needs confirming (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched*
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws [uncertain]…"*
+- **tools**: hand tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
@@ -1977,7 +1978,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, print_in_place, processes, reuse_cycles, special_behaviour, tools_needed
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, print_in_place, processes, reuse_cycles, special_behaviour
 
 ## 178 Origami mechanisms (waterbomb, Kresling, thick-panel origami)
 

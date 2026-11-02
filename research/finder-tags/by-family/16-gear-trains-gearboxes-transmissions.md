@@ -1,6 +1,6 @@
 # gear trains, gearboxes & transmissions: Changes speed or turning force
 
-22 entries. ⚑ = needs confirming: 9 best guesses and 1 values from text marked [uncertain]
+22 entries. ⚑ = needs confirming: 9 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -19,7 +19,7 @@ are welcome. Back to the [index](README.md).
 | 102 | Bowden cable | – | none | – | straight push or pull | straight push or pull | – | – | – | crimper, drill and tap, sewing or leather tools, hand tools | medium | off-the-shelf part | yes | removable |
 | 201 | Anti-backlash gear | – | none | – | steady turning | steady turning | parallel | – | – | hand tools | light | off-the-shelf part | yes | removable |
 | 202 | Chain and sprocket drive | – | none | – | steady turning | steady turning, straight push or pull | parallel, far apart ⚑ | – | – | hand tools | heavy | off-the-shelf part | yes | removable |
-| 203 | Non-circular gears | – | none | – | steady turning | steady turning | parallel | – | – | hand tools ⚑ | medium | 3D print (FDM) | no | removable |
+| 203 | Non-circular gears | – | none | – | steady turning | steady turning | parallel | – | – | hand tools | medium | 3D print (FDM) | no | removable |
 | 204 | Lantern gear | – | none | – | steady turning | steady turning, straight push or pull | parallel, at an angle | – | – | drill and tap, press or vice, power tools, hand tools | heavy | laser cut | partly | removable |
 | 205 | Friction drives and CVTs | – | none | – | steady turning | steady turning, straight push or pull | parallel, at an angle, in line | slips and keeps going | silent | hand tools | heavy | 3D print (FDM) | yes | removable |
 | 206 | Pulley system | – | none | – | straight push or pull | straight push or pull | – | – | clicks ⚑ | none, hand tools | heavy | 3D print (FDM) | yes | removable |
@@ -47,4 +47,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **203 Non-circular gears**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…ff will bind or gap (follows from the fixed-centre rule in Wikipedia) [uncertain]…"
+None.

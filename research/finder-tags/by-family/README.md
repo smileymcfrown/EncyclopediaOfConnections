@@ -15,33 +15,33 @@ To confirm or correct a value, edit it in `../tags.yaml` and add the field name 
 |---|---|---|---|
 | [torque limiting & slip](01-torque-limiting-slip.md) | 7 | 4 | 0 |
 | [one-way & ratchet](02-one-way-ratchet.md) | 8 | 3 | 1 |
-| [self-locking & anti-back-drive](03-self-locking-anti-back-drive.md) | 6 | 6 | 2 |
-| [tensioning, reels & take-up](04-tensioning-reels-take-up.md) | 5 | 2 | 1 |
+| [self-locking & anti-back-drive](03-self-locking-anti-back-drive.md) | 6 | 6 | 1 |
+| [tensioning, reels & take-up](04-tensioning-reels-take-up.md) | 5 | 2 | 0 |
 | [over-centre, toggle & cam clamps](05-over-centre-toggle-cam-clamps.md) | 5 | 9 | 4 |
-| [locks, latches & catches](06-locks-latches-catches.md) | 15 | 15 | 3 |
+| [locks, latches & catches](06-locks-latches-catches.md) | 15 | 15 | 1 |
 | [indexing & detents](07-indexing-detents.md) | 7 | 3 | 0 |
-| [quick-release & tool-free](08-quick-release-tool-free.md) | 18 | 5 | 1 |
-| [snap & clip fits](09-snap-clip-fits.md) | 9 | 5 | 4 |
-| [compliant mechanisms & flexures](10-compliant-mechanisms-flexures.md) | 12 | 19 | 4 |
-| [print-in-place & 3D-printing joints](11-print-in-place-3d-printing-joints.md) | 15 | 3 | 2 |
+| [quick-release & tool-free](08-quick-release-tool-free.md) | 18 | 5 | 0 |
+| [snap & clip fits](09-snap-clip-fits.md) | 9 | 5 | 3 |
+| [compliant mechanisms & flexures](10-compliant-mechanisms-flexures.md) | 12 | 19 | 3 |
+| [print-in-place & 3D-printing joints](11-print-in-place-3d-printing-joints.md) | 15 | 3 | 1 |
 | [hinges & pivots](12-hinges-pivots.md) | 24 | 16 | 3 |
-| [sliding, telescoping & linear motion](13-sliding-telescoping-linear-motion.md) | 12 | 7 | 3 |
+| [sliding, telescoping & linear motion](13-sliding-telescoping-linear-motion.md) | 12 | 7 | 0 |
 | [clutches & couplings](14-clutches-couplings.md) | 16 | 7 | 0 |
 | [motion conversion](15-motion-conversion.md) | 20 | 9 | 1 |
-| [gear trains, gearboxes & transmissions](16-gear-trains-gearboxes-transmissions.md) | 22 | 9 | 1 |
-| [seals & pass-throughs](17-seals-pass-throughs.md) | 16 | 12 | 3 |
-| [powered & active connectors](18-powered-active-connectors.md) | 13 | 15 | 2 |
-| [clamping, magnetic & friction connections](19-clamping-magnetic-friction-connections.md) | 18 | 2 | 3 |
-| [adhesives & bonding](20-adhesives-bonding.md) | 27 | 8 | 34 |
+| [gear trains, gearboxes & transmissions](16-gear-trains-gearboxes-transmissions.md) | 22 | 9 | 0 |
+| [seals & pass-throughs](17-seals-pass-throughs.md) | 16 | 12 | 2 |
+| [powered & active connectors](18-powered-active-connectors.md) | 13 | 15 | 1 |
+| [clamping, magnetic & friction connections](19-clamping-magnetic-friction-connections.md) | 18 | 2 | 0 |
+| [adhesives & bonding](20-adhesives-bonding.md) | 27 | 8 | 24 |
 | [cord, strap, webbing & textile hardware](21-cord-strap-webbing-textile-hardware.md) | 22 | 19 | 0 |
 | [interlocking joints & joinery](22-interlocking-joints-joinery.md) | 28 | 1 | 4 |
 | [locating & alignment](23-locating-alignment.md) | 6 | 5 | 0 |
 | [springs & energy storage](24-springs-energy-storage.md) | 11 | 4 | 4 |
-| [brakes, dampers & speed control](25-brakes-dampers-speed-control.md) | 6 | 7 | 2 |
-| [hydraulics, pneumatics & vacuum](26-hydraulics-pneumatics-vacuum.md) | 27 | 42 | 4 |
-| [electrical connections](27-electrical-connections.md) | 22 | 25 | 4 |
-| [everyday fasteners & fixings](28-everyday-fasteners-fixings.md) | 18 | 3 | 7 |
+| [brakes, dampers & speed control](25-brakes-dampers-speed-control.md) | 6 | 7 | 0 |
+| [hydraulics, pneumatics & vacuum](26-hydraulics-pneumatics-vacuum.md) | 27 | 42 | 0 |
+| [electrical connections](27-electrical-connections.md) | 22 | 25 | 1 |
+| [everyday fasteners & fixings](28-everyday-fasteners-fixings.md) | 18 | 3 | 0 |
 | [knots, lashings & sewn joints](29-knots-lashings-sewn-joints.md) | 15 | 12 | 0 |
 | [adjusters, levellers & spacers](30-adjusters-levellers-spacers.md) | 5 | 10 | 0 |
-| [welding, brazing & soldering](31-welding-brazing-soldering.md) | 12 | 2 | 2 |
-| [pop-up & movable paper mechanisms](32-pop-up-movable-paper-mechanisms.md) | 5 | 16 | 2 |
+| [welding, brazing & soldering](31-welding-brazing-soldering.md) | 12 | 2 | 1 |
+| [pop-up & movable paper mechanisms](32-pop-up-movable-paper-mechanisms.md) | 5 | 16 | 1 |

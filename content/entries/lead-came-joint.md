@@ -92,11 +92,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [metal, glass or mirror]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…''Cementing Lead Came''; Fine Woodworking). Zinc came is cut with
-      a saw [uncertain: mentioned only in a reader''s…"'
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -310,7 +306,6 @@ Lead: you are exposed 'when handling lead came or leaded solders and during dism
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = soldering iron, press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…'Cementing Lead Came'; Fine Woodworking). Zinc came is cut with a saw ⚑ [uncertain: mentioned only in a reader's…"
 - ⚑ Research note: *Lead came joint* (445): reinforce fixed panels over about 10 ft perimeter and moving ones over about 8 ft, every 18 in (source in the entry) versus "over 24 x 24 in" (an r/StainedGlass member); solder 50/50 (Everything Stained Glass) versus 60/40 (SCW club).
 
 ## Sources

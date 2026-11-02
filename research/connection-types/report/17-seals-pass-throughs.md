@@ -1033,7 +1033,7 @@
 - **power**: passive (no power needed): it carries power and signals but needs none to work; if the supply is lost, the rotating side simply loses power
 - **removability**: removable: capsule slip rings are held by a flange with screws and their leads go to connectors or terminals; rotary unions screw onto the shaft end and their hoses unscrew
 - **reuse_cycles**: many times
-- **tools_needed**: Screwdriver or hex keys for the flange; soldering iron or crimp tool for the lead wires; spanners and thread sealant for rotary union ports ⚑ [uncertain]. DIY slip rings: pipe cutter, soldering iron and a press or hammer for press-fitting (Printables 103824). *(⚑ parts need confirming)*
+- **tools_needed**: Screwdriver or hex keys for the flange; soldering iron or crimp tool for the lead wires; spanners and thread sealant for rotary union ports (PTFE tape or pipe sealant on tapered threads, a gasket on straight threads; Rotary Systems; Kadant Johnson). DIY slip rings: pipe cutter, soldering iron and a press or hammer for press-fitting (Printables 103824).
 - **seal**: airtight or pressure (rotary union: seals hold liquid, air or vacuum; industrial unions reach 1,000 bar and 40,000 rpm, Moog; a small amount of leakage is normal in some designs, GTI Spindle). Slip rings themselves range from unsealed hobby capsules to IP65/IP67 sealed units for dust and water (TME Systems)
 - **load**: light: carries current and signals, not mechanical load. A hobby capsule ring carries 2 A per circuit at up to 240 V (Adafruit, SRC022/SRC012 data sheets), though Hackaday's review of a teardown called a small unit's mains-voltage claim 'wishful thinking'. Robot-size rings with 30 A per contact exist (Chief Delphi). The rings' own bearings should not carry side loads: mount the rotating part on its own bearing and let the slip ring only follow it (Canyon Components for rotary O-ring seals; Hackaday reader comments).
 - **adjustable**: no
@@ -1135,6 +1135,8 @@
   - https://api.printables.com/graphql/
   - https://www.youcanic.com/properly-set-a-new-clock-spring/
   - https://en.wikipedia.org/wiki/Flexible_flat_cable
+  - https://rotarysystems.com/wp-content/uploads/2019/07/Installation-Guide-009.pdf
+  - https://fluidhandling.kadant.com/images/guides/rotary-joints-unions/IS-.375-1.5-rx-single-flow/IS-RX-.375-1.5-Single-Flow.pdf
 
 ### Finder tags
 
@@ -1147,7 +1149,7 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **electrical_band**: not applicable ⚑ *needs confirming (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in*
-- **tools**: soldering iron, crimper, press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…or the lead wires; spanners and thread sealant for rotary union ports [uncertain]. DIY slip rings: pipe cutter…"*
+- **tools**: soldering iron, crimper, press or vice, hand tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
@@ -1199,7 +1201,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, common_failures, making_tips_3d_printing, off_the_shelf_parts, processes, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, making_tips_3d_printing, off_the_shelf_parts, processes, safety_notes, when_not_to_use
 
 ## 136 Cable carrier (drag chain, energy chain)
 

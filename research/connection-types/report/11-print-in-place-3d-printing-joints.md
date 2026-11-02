@@ -2402,7 +2402,7 @@
   - material bond (glue, solvent or melting): adhesive-anchored inserts (E-Z LOK) and inserts glued in with epoxy in printed parts (Printables self-tapping insert cut-outs)
 - **input_output**: not applicable
 - **power**: passive (no power needed)
-- **removability**: semi-permanent: the insert is meant to stay in, but can come out: helical inserts with an extraction tool ⚑ [uncertain], adhesive-locked E-Z LOK inserts with a bolt extractor or by heating above 149 °C (300 °F) (E-Z LOK); key-locked and TIME-SERT inserts are permanent (Wikipedia). The screw in it is removable many times. *(⚑ parts need confirming)*
+- **removability**: semi-permanent: the insert is meant to stay in, but can come out: helical inserts with an extraction tool that winds them out (Recoil insert removal tool, HFS Industrial), adhesive-locked E-Z LOK inserts with a bolt extractor or by heating above 149 °C (300 °F) (E-Z LOK); key-locked and TIME-SERT inserts are permanent (Wikipedia). The screw in it is removable many times.
 - **reuse_cycles**: many times: the screw can be put in and taken out many times without wearing the soft parent material, which is the point of fitting it (Wikipedia; E-Z LOK wood inserts 'allow for multiple assembly and disassembly cycles'). The insert itself is usually fitted once.
 - **tools_needed**: Drill and the drill size specified for the insert. Helical inserts: a matching insert (STI) tap, an installation mandrel or winding tool, and a tang break-off tool, normally bought as one kit (Wikipedia: 'sold in kits with matched taps and insert tools'; CNC Kitchen). Solid metal-thread inserts: a standard tap matching the insert's outside thread, then a screwdriver, a bolt and jam nut or a drive tool (E-Z LOK). Self-tapping inserts: a drive tool or a bolt with a washer or jam nut (Printables self-tapping insert cut-outs). Wood insert nuts: a hex key or screwdriver (Wikipedia; E-Z LOK). Key-locking inserts also have keys that are hammered in after the insert is fitted (Wikipedia; NASA RP-1228).
 - **seal**: none: it does not seal; fluid can pass along the threads unless a thread sealant or adhesive is used ⚑ [uncertain] *(⚑ parts need confirming)*
@@ -2490,6 +2490,7 @@
   - https://commons.wikimedia.org/wiki/File:TIME-SERT_thread_insert.gif
   - https://commons.wikimedia.org/wiki/File:Rampamuffe_(klein).jpg
   - https://api.printables.com/graphql/
+  - https://www.hfsindustrial.com/50002.html
 
 ### Finder tags
 
@@ -2505,7 +2506,7 @@
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
-- **removability**: semi-permanent ⚑ *needs confirming (source uncertain): `removability` is marked [uncertain] here: "…to stay in, but can come out: helical inserts with an extraction tool [uncertain], adhesive-locked E-Z LOK ins…"*
+- **removability**: semi-permanent
 - **power**: passive
 - **printed_take_apart**: yes
 - **threaded**: yes
@@ -2553,7 +2554,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, removability, safety_notes, seal, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, safety_notes, seal, when_not_to_use
 
 ## 335 Printing onto fabric (fabric embedded in a 3D print)
 

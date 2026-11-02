@@ -1,6 +1,6 @@
 # self-locking & anti-back-drive: Holds against a load until you release it
 
-6 entries. ⚑ = needs confirming: 6 best guesses and 2 values from text marked [uncertain]
+6 entries. ⚑ = needs confirming: 6 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -8,7 +8,7 @@ are welcome. Back to the [index](README.md).
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 15 | Bidirectional anti-back-drive clutch | – | none | – | steady turning | steady turning | in line | – | – | press or vice, hand tools ⚑ | medium | off-the-shelf part | no | removable |
 | 146 | Self-locking wedge | something to grip | none | – | – | – | – | – | – | none, power tools, hand tools | heavy | woodwork | yes | removable |
-| 147 | Inertia-locking reel | lid, door or cover ⚑ | none | – | straight push or pull | steady turning | – | – | clicks | hand tools ⚑ | heavy | off-the-shelf part | no | removable |
+| 147 | Inertia-locking reel | lid, door or cover ⚑ | none | – | straight push or pull | steady turning | – | – | clicks | hand tools | heavy | off-the-shelf part | no | removable |
 | 148 | Woven self-tightening grip | strap, cord or fabric | none | – | – | – | – | – | – | none, sewing or leather tools, hand tools | heavy | off-the-shelf part | yes | removable |
 | 260 | Thread-locking hardware | any solid parts ⚑ | none | – | – | – | – | – | clicks ⚑ | drill and tap, hand tools | heavy | off-the-shelf part | yes | removable |
 | 292 | Weight-activated gripping tongs | something to grip | none | – | straight push or pull ⚑ | – ⚑ | – ⚑ | – | – | none, drill and tap, hand tools | heavy | off-the-shelf part | partly | tool-free quick release |
@@ -29,4 +29,3 @@ The script was unsure of these values.
 These values are probably right, but the research run could not confirm the fact behind them.
 
 - ⚑ **15 Bidirectional anti-back-drive clutch**, `tools` = press or vice, hand tools: `tools_needed` is marked [uncertain] here: "…may also need circlip pliers or a small press for shafts and bearings [uncertain]…"
-- ⚑ **147 Inertia-locking reel**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "To fit: spanner or socket for the anchor bolts [uncertain: specific bolt types vary]. T…"

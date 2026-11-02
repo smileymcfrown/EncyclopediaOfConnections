@@ -239,7 +239,7 @@
 - **adjustable**: no, once it gels; before that, parts can be moved and lined up during the working time, from about 3-5 minutes for fast types to an hour or more for slow ones (Loctite EA E-00CL: working life 3.5 min; Epoxyworks: 105/205 working time 60-70 min in a thin film).
 - **play_and_precision**: not applicable (nothing moves). It tolerates poor fit because it fills gaps, but a thin bond line is strongest: 'Maximum shear strength is obtained with a 0.1 to 0.2 mm bond line' (Loctite EA E-00CL); bigger gaps should be bridged with epoxy thickened by a filler (West System).
 - **access_needed**: not applicable: epoxy is applied to the joint faces before assembly, or packed into a hole or pocket from one side.
-- **materials**: Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Safe on polystyrene foam (EPS and XPS) because it contains no solvent, unlike polyester and vinylester resins, whose styrene melts them (Swaylocks forum thread 'Resin and foam compatibility'). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) ⚑ [uncertain for silicone and PTFE]. Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia). *(⚑ parts need confirming)*
+- **materials**: Bonds well: steel, aluminium and other metals, wood, glass, stone, ceramics, fibreglass and carbon-fibre composites, cured epoxy and polyester, and many rigid plastics such as PVC, polycarbonate, ABS, PLA, PETG and resin prints (Wikipedia; Loctite EA E-00CL; Loctite design guide; Prusa). Safe on polystyrene foam (EPS and XPS) because it contains no solvent, unlike polyester and vinylester resins, whose styrene melts them (Swaylocks forum thread 'Resin and foam compatibility'). Weaker on nylon and acrylic (about 1-6 MPa in Loctite's tests), and poor on polyethylene, polypropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL): Loctite's epoxies held only 0.3 to 0.7 MPa on untreated PTFE (Loctite design guide p. 29), and epoxy can be cast into silicone moulds without a release agent (Smooth-On Smooth-Sil data sheet). Polyester gelcoat does not stick to cured epoxy, although epoxy sticks well to polyester (Wikipedia).
 - **maker_difficulty**: easy to moderate: widely sold and forgiving of gaps, but you must measure and mix accurately, work within the pot life, protect your skin and keep parts still while it cures (Epoxyworks; West System).
 
 ### Making it
@@ -333,6 +333,7 @@
   - https://clcboats.com/blogs/boatbuilding-tips/fillets (WebFetch returned only menus; read with curl)
   - https://www.cruisingworld.com/?p=40890
   - https://www.practical-sailor.com/boat-maintenance/a-solid-connection
+  - https://www.smooth-on.com/tb/files/SMOOTH-SIL_SERIES_TB.pdf
 
 ### Finder tags
 
@@ -345,8 +346,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: strongest, fills gaps
-- **bonds_well**: PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"*
-- **bonds_poorly**: slippery plastics (PE or PP), silicone ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ropylene, PTFE and silicone (Loctite design guide; Loctite EA E-00CL) [uncertain for silicone and PTFE]. Polye…"*
+- **bonds_well**: PLA, PETG, ABS or ASA, nylon, resin prints, acrylic or polycarbonate, PVC, wood, metal, glass or ceramic, foam, stone or concrete
+- **bonds_poorly**: slippery plastics (PE or PP), silicone
 - **tools**: press or vice
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
@@ -399,7 +400,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** holding_principle, making_tips_3d_printing, materials
+- ⚑ **Fields with parts that need confirming:** holding_principle, making_tips_3d_printing
 
 ## 139 Solvent welding (solvent cement)
 
@@ -854,7 +855,7 @@
 - **adjustable**: no: once cool it is fixed, though it can be softened with heat and repositioned or peeled off (Raise3D)
 - **play_and_precision**: not applicable: glue doesn't locate the parts, and you only have seconds to position them before it sets (Wikipedia; Raise3D says about 30-45 seconds before repositioning gets difficult), so precise alignment needs a jig or locating features. The rubbery glue allows a little flex even when set.
 - **access_needed**: one side only (blind): glue is put on one face, or run as a fillet along the outside of the joint, from the front; nothing has to reach behind the parts
-- **materials**: Glue sticks are usually EVA (ethylene-vinyl acetate) blended with tackifier resin and wax; polyamide sticks resist heat and oil better; polyolefin types are made for polypropylene and polyethylene (Wikipedia; Henkel p. 8). Bonds well: porous or rough materials such as wood, card, paper, fabric and foam (Wikipedia; Surebonder), many plastics (Henkel p. 8), and rubber, ceramics, metal and glass to some degree (Wikipedia). 3D prints: fine for light and temporary joints on PLA, PETG, ABS and resin (Raise3D), and hot glue sticks very firmly to PETG unless a release agent is used (Hackaday 2024); but a hot gun can soften thin PLA, foam or thin plastic (thisTOthat: 'it can melt the material you are working with'; CNC Kitchen: PLA gives at about 60 °C). Weak: smooth metal and glass, which chill the glue before it can wet them, unless cleaned, roughened and preheated (Henkel p. 8; Glu-Stix); standard EVA sticks on polypropylene and polyethylene (use polyolefin hot melt; Wikipedia; Henkel p. 8); silicone rubber and PTFE are not expected to bond ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **materials**: Glue sticks are usually EVA (ethylene-vinyl acetate) blended with tackifier resin and wax; polyamide sticks resist heat and oil better; polyolefin types are made for polypropylene and polyethylene (Wikipedia; Henkel p. 8). Bonds well: porous or rough materials such as wood, card, paper, fabric and foam (Wikipedia; Surebonder), many plastics (Henkel p. 8), and rubber, ceramics, metal and glass to some degree (Wikipedia). 3D prints: fine for light and temporary joints on PLA, PETG, ABS and resin (Raise3D), and hot glue sticks very firmly to PETG unless a release agent is used (Hackaday 2024); but a hot gun can soften thin PLA, foam or thin plastic (thisTOthat: 'it can melt the material you are working with'; CNC Kitchen: PLA gives at about 60 °C). Weak: smooth metal and glass, which chill the glue before it can wet them, unless cleaned, roughened and preheated (Henkel p. 8; Glu-Stix); standard EVA sticks on polypropylene and polyethylene (use polyolefin hot melt; Wikipedia; Henkel p. 8); silicone and PTFE are not suitable, nor is soft PVC (Pattex Hot Sticks data sheet, French edition).
 - **maker_difficulty**: easy: cheap tools, no mixing and no waiting; the main skills are working quickly before the glue skins over and avoiding burns
 
 ### Making it
@@ -950,6 +951,7 @@
   - https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build
   - https://cosplayadvice.com/using-eva-foam-for-cosplay/
   - https://www.gluegun.com/blogs/tips-tutorials/adhesives-for-polystyrene
+  - https://datasheets.tdx.henkel.com/PATTEX-Hot-Sticks-fr_CH.pdf
 
 ### Finder tags
 
@@ -962,8 +964,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: stays flexible, fills gaps, fast, can be undone
-- **bonds_well**: PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, metal, glass or ceramic, rubber, fabric or leather, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond [uncertain].…"*
-- **bonds_poorly**:  ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond [uncertain].…"*
+- **bonds_well**: PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, metal, glass or ceramic, rubber, fabric or leather, foam
+- **bonds_poorly**: PVC
 - **tools**: glue gun, heat gun
 - **load_max**: light
 - **usual_process**: off-the-shelf part
@@ -1013,10 +1015,6 @@
 - **turns**: not applicable
 - **drive_split**: not applicable
 - **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, paper or card, foam, fabric, leather or cord
-
-### Other info
-
-- ⚑ **Fields with parts that need confirming:** materials
 
 ## 142 Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
 
@@ -1070,7 +1068,7 @@
 - **adjustable**: no: it grabs on contact, so the part can't be slid into position once it touches; cut it off and re-tape to move it
 - **play_and_precision**: Not a locating joint: the part ends up wherever you placed it by hand, so use a jig or pencil marks for alignment. No play when bonded, but the foam gives slightly under load, creeps under steady weight, and allows sideways movement of up to about 3 times the tape thickness between parts that grow differently with heat (3M VHB 5952 data sheet)
 - **access_needed**: one side only (blind): you stick the part onto the surface from the front; nothing has to reach behind the wall or panel
-- **materials**: Tape: acrylic foam with acrylic adhesive (the strongest and most heat- and weather-resistant type), or polyethylene (PE) or polyurethane (PU) foam with acrylic or rubber adhesive (cheaper, lighter duty) (tesa acrylic and PE foam tape pages; Wikimedia Commons photo of PU foam tape). Bonds well to high-surface-energy materials: metals (aluminium, steel, copper), glass, and plastics such as ABS and polycarbonate (42 dynes/cm), PVC (39), acrylic (38), polyester (43, the family PETG belongs to) and nylon (46), plus many paints and powder coats with 'modified acrylic' tapes (3M/JBC LSE selection guide; 3M VHB Tape Design Guide). Bonds poorly to low-surface-energy plastics such as polypropylene (29 dynes/cm), polyethylene (31) and PTFE (18) unless you use a special low-surface-energy (LSE) tape or a primer such as 3M Primer 94 (3M/JBC LSE guide; 3M VHB Tape Design Guide). Needs extra care: bare wood, particleboard and concrete must be sealed first, glass needs a silane treatment for best results, and soft vinyl and rubber with plasticisers that migrate can weaken the bond (3M VHB 5952 data sheet). PLA prints: surface energy not found in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicone-coated surfaces: poor ⚑ [uncertain] *(⚑ parts need confirming)*
+- **materials**: Tape: acrylic foam with acrylic adhesive (the strongest and most heat- and weather-resistant type), or polyethylene (PE) or polyurethane (PU) foam with acrylic or rubber adhesive (cheaper, lighter duty) (tesa acrylic and PE foam tape pages; Wikimedia Commons photo of PU foam tape). Bonds well to high-surface-energy materials: metals (aluminium, steel, copper), glass, and plastics such as ABS and polycarbonate (42 dynes/cm), PVC (39), acrylic (38), polyester (43, the family PETG belongs to) and nylon (46), plus many paints and powder coats with 'modified acrylic' tapes (3M/JBC LSE selection guide; 3M VHB Tape Design Guide). Bonds poorly to low-surface-energy plastics such as polypropylene (29 dynes/cm), polyethylene (31) and PTFE (18) unless you use a special low-surface-energy (LSE) tape or a primer such as 3M Primer 94 (3M/JBC LSE guide; 3M VHB Tape Design Guide). Needs extra care: bare wood, particleboard and concrete must be sealed first, glass needs a silane treatment for best results, and soft vinyl and rubber with plasticisers that migrate can weaken the bond (3M VHB 5952 data sheet). PLA prints: about 37 dynes/cm untreated (Jordá Vilaplana et al. 2014), close to acrylic and PVC, and makers report printed PLA hooks holding well. Silicone rubber and silicone-coated surfaces: poor ⚑ [uncertain] *(⚑ parts need confirming)*
 - **maker_difficulty**: easy: cut, clean, stick and press. The only real skills are cleaning the surface, pressing hard, giving it enough area, and waiting a day or more before loading it fully
 
 ### Making it
@@ -1161,6 +1159,7 @@
   - https://www.youtube.com/watch?v=6WYz3Kunk08
   - https://api.printables.com/graphql/
   - https://www.printables.com/model/1237722-simple-hook
+  - https://riunet.upv.es/handle/10251/51793
 
 ### Finder tags
 
@@ -1173,8 +1172,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: stays flexible
-- **bonds_well**: PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, metal, glass or ceramic, rubber, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well [uncertain]. Silicone rubber and silicon…"*
-- **bonds_poorly**: PLA, silicone, wood, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well [uncertain]. Silicone rubber and silicon…"*
+- **bonds_well**: PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, metal, glass or ceramic, rubber, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated surfaces: poor [uncertain]…"*
+- **bonds_poorly**: PLA, silicone, wood, stone or concrete ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated surfaces: poor [uncertain]…"*
 - **tools**: heat gun, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
@@ -1482,7 +1481,7 @@
 - **adjustable**: no: parts cannot be shifted once the glue films touch (DAP; 3M). Position them first on dry spacers, then pull the spacers out one at a time (DAP; Rockler).
 - **play_and_precision**: not applicable (nothing moves). Alignment must be right first time, so pre-fit all parts and use spacers or slip sheets to position large pieces (DAP; 3M). It copes with rough or porous surfaces better than thin wood glues because a thick glossy film is built up on each face ⚑ [uncertain: inferred from coating advice], but it is not a gap filler. *(⚑ parts need confirming)*
 - **access_needed**: not applicable: both faces are coated before assembly
-- **materials**: Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam with ordinary solvent types, whose ketone solvents (acetone, MEK in DAP's) dissolve it (DAP); polystyrene-safe solvent types exist, such as UHU por (brand), a synthetic-rubber contact adhesive whose aliphatic solvents are chosen so 'the structure of the polystyrene foam is not attacked' (UHU por data sheet), so the rule is to check the solvent, not to avoid every solvent glue; copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Slippery plastics such as polyethylene, polypropylene and silicone ⚑ [uncertain: not tested in an opened source; generally poor for most glues]. *(⚑ parts need confirming)*
+- **materials**: Bonds well: plastic laminate (e.g. Formica, brand) to particleboard, MDF and plywood; wood and plastic veneers (backed veneers for water-based types); wood; rubber; cork; leather and pleather; felt, fabric and canvas; EVA foam; polyurethane foam and 'most foamed plastics' (water-based); paper and cardboard; tile; metal; 'some plastics and vinyls'; shoe soles to uppers (DAP; 3M Fastbond 30-NF; Wikipedia 'Impact glue'; Lumin's Workshop). Flexible 3D prints (TPU/TPE): Prusa suggests contact cements 'might be good especially for flexible filament materials!' Poor or damaged: polystyrene foam with ordinary solvent types, whose ketone solvents (acetone, MEK in DAP's) dissolve it (DAP); polystyrene-safe solvent types exist, such as UHU por (brand), a synthetic-rubber contact adhesive whose aliphatic solvents are chosen so 'the structure of the polystyrene foam is not attacked' (UHU por data sheet), so the rule is to check the solvent, not to avoid every solvent glue; copper and copper alloys (DAP); drywall laminating and metal with water-based types unless the metal is force-dried and protected (3M); un-backed wood veneer with water-based types (3M); painted surfaces, vinyls and some plastics can be stained or softened by the solvents, so test first (DAP). For best results at least one surface should be porous, and painted or non-porous surfaces should be roughened (DAP). Not suitable: slippery plastics such as polyethylene and polypropylene (Pattex Contact Adhesive data sheet), and silicone rubber and PTFE (Selco contact adhesive data sheet).
 - **maker_difficulty**: easy to moderate: no mixing and no clamps, but you must wait for the right dryness, get the alignment right first time, press hard everywhere, and handle flammable fumes safely (thisTOthat; DAP; 3M; Rockler).
 
 ### Making it
@@ -1571,6 +1570,8 @@
   - https://www.costumary.com/blog/eva-foam-clean-builds
   - https://cosplayadvice.com/using-eva-foam-for-cosplay/
   - https://www.xposeddesigns.com/blog/how-to-attach-cosplay-armor-to-a-bodysuit-without-the-straps-showing
+  - https://datasheets.tdx.henkel.com/PATTEX-CONTACT-ADHESIVE-en_ZA.pdf
+  - https://www.selcobw.com/media/files/CS527670566%20Technical%20Data%20Sheet.pdf
 
 ### Finder tags
 
@@ -1583,8 +1584,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: stays flexible, fast
-- **bonds_well**: TPU or flexible prints, wood, paper or card, metal, rubber, fabric or leather, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…). Slippery plastics such as polyethylene, polypropylene and silicone [uncertain: not tested in an opened sour…"*
-- **bonds_poorly**: slippery plastics (PE or PP), silicone ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…). Slippery plastics such as polyethylene, polypropylene and silicone [uncertain: not tested in an opened sour…"*
+- **bonds_well**: TPU or flexible prints, wood, paper or card, metal, rubber, fabric or leather, foam
+- **bonds_poorly**: slippery plastics (PE or PP), silicone
 - **tools**: power tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
@@ -1637,7 +1638,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, everyday_examples, making_tips_3d_printing, materials, play_and_precision, processes, removability, safety_notes, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, everyday_examples, making_tips_3d_printing, play_and_precision, processes, removability, safety_notes, when_not_to_use
 
 ## 225 Polyurethane glue (foaming moisture-cure glue)
 
@@ -4058,7 +4059,7 @@
 - **adjustable**: Partly: removable tapes (masking, drafting) can be lifted and repositioned; other tapes cannot be moved once pressed down without damage. The gap of a tape hinge is set when it is taped, using spacers (Model Aviation FAQ 2010/02). Some permanent adhesives grow stronger over hours or days after application (Wikipedia 'Pressure-sensitive adhesive').
 - **play_and_precision**: Taped seam: no play, but the backing stretches a little and the adhesive slowly creeps under steady load, so taped parts can drift out of line over time ⚑ [uncertain: no figure found]. Tape hinge: precision depends on the gap: too little causes binding and limits travel, too much causes flapping or vibration (Model Aviation FAQ 2010/02). A woven tape hinge has no gap on either side, but its pivot line shifts slightly depending on which way the flap moves (Flite Test 'Tape weave hinges' and comments). *(⚑ parts need confirming)*
 - **access_needed**: one side only (blind) for a single strip over a seam or a one-piece gapless hinge; both sides for the usual two-strip hinge (top and underside) or a woven hinge (Flite Test; Model Aviation FAQ 2010/02)
-- **materials**: Tape sticks best to clean, dry, smooth surfaces; surface smoothness, surface energy and cleanliness all affect the bond (Wikipedia 'Pressure-sensitive adhesive'). Suits: paper and card (office tape, masking and drafting tape), corrugated cardboard (box-sealing tape, filament tape, gummed paper tape), foam board and foam model planes (clear packing tape and fibre tape; Fold 'N Fly; Flite Test), balsa (Flite Test 'Tape weave hinges' comments), painted walls and car body panels for masking (Wikipedia 'Masking tape'), wood and veneer as a temporary hinge in mitre folds (Woodweb). Gummed paper tape needs a fibrous surface such as cardboard to soak into (iTape). Poor: dusty, oily, damp, rough or very low-energy surfaces such as polyethylene and polypropylene film ⚑ [uncertain: surface energy named in Wikipedia but no plastic list opened]; fragile or valuable paper and documents (tape stains and damages them; Manitoba Museum; JAIC 1984); anything to be painted, since duct tape won't take paint (Cool Tools). *(⚑ parts need confirming)*
+- **materials**: Tape sticks best to clean, dry, smooth surfaces; surface smoothness, surface energy and cleanliness all affect the bond (Wikipedia 'Pressure-sensitive adhesive'). Suits: paper and card (office tape, masking and drafting tape), corrugated cardboard (box-sealing tape, filament tape, gummed paper tape), foam board and foam model planes (clear packing tape and fibre tape; Fold 'N Fly; Flite Test), balsa (Flite Test 'Tape weave hinges' comments), painted walls and car body panels for masking (Wikipedia 'Masking tape'), wood and veneer as a temporary hinge in mitre folds (Woodweb). Gummed paper tape needs a fibrous surface such as cardboard to soak into (iTape). Poor: dusty, oily, damp, rough or very low-energy surfaces such as polyethylene and polypropylene film, which 'tend to repel standard adhesives' and need specially made tapes (tesa 'LSE mounting solutions'); fragile or valuable paper and documents (tape stains and damages them; Manitoba Museum; JAIC 1984); anything to be painted, since duct tape won't take paint (Cool Tools).
 - **maker_difficulty**: easy: no drying, no tools, instantly strong enough for prototypes; the skill is choosing the right tape and pressing it down firmly.
 
 ### Making it
@@ -4143,6 +4144,7 @@
   - https://connectingtocollections.org/wp-content/uploads/2019/08/Book-Repair_handout-1-1.pdf
   - https://commons.wikimedia.org/wiki/File:Filament_tape_-_01.jpg
   - https://api.printables.com/graphql/
+  - https://www.tesa.com/en/industry/lp/lse-mounting-solutions
 
 ### Finder tags
 
@@ -4155,8 +4157,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
-- **bonds_well**: wood, paper or card, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film [uncertain: surface energy named in Wiki…"*
-- **bonds_poorly**: slippery plastics (PE or PP) ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…very low-energy surfaces such as polyethylene and polypropylene film [uncertain: surface energy named in Wiki…"*
+- **bonds_well**: wood, paper or card, foam
+- **bonds_poorly**: slippery plastics (PE or PP)
 - **tools**: none, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
@@ -4209,7 +4211,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, load, making_tips_3d_printing, materials, play_and_precision, rules_of_thumb, seal
+- ⚑ **Fields with parts that need confirming:** aliases, environment_limits, load, making_tips_3d_printing, play_and_precision, rules_of_thumb, seal
 
 ## 415 Glue stick and starch paste (paper glue stick, wheat-starch paste, methyl cellulose, wallpaper paste)
 
@@ -4652,7 +4654,7 @@
 - **adjustable**: yes, until it is baked: the parts can be slid into position while the liquid clay is still runny (Sculpey blog); no once baked
 - **play_and_precision**: not applicable
 - **access_needed**: both sides (the two joining faces must be coated before they are pressed together)
-- **materials**: Joins PVC polymer clay to itself in every combination: raw to raw, raw to baked and baked to baked (Blue Bottle Tree; Sculpey blog). The brand matters: in Blue Bottle Tree's test Fimo Professional bonded well to itself even without liquid clay, Cernit bonded well raw to raw, and Premo, Souffle and Kato bonded poorly unless a bonding agent was used. Sculpey's oven-bake clay adhesive also bonds raw clay to porous things that can go in the oven: wood, cork, cardboard, papier-mâché and heavy paper (Sculpey blog), and bare wood should be baked first at 135 °C for 20 minutes to drive out moisture and sap (Sculpey FAQ). Does not work: smooth metal, glass and other non-porous surfaces ('Clay cannot be bonded to metal or other non-porous surfaces', Sculpey FAQ; wrap or embed instead, see Baked-in findings); air-dry clay, pottery clay or epoxy putty (different materials, see Score-and-slip join and Epoxy putty); anything that cannot take about 130 °C, such as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints ⚑ [uncertain] *(⚑ parts need confirming)*
+- **materials**: Joins PVC polymer clay to itself in every combination: raw to raw, raw to baked and baked to baked (Blue Bottle Tree; Sculpey blog). The brand matters: in Blue Bottle Tree's test Fimo Professional bonded well to itself even without liquid clay, Cernit bonded well raw to raw, and Premo, Souffle and Kato bonded poorly unless a bonding agent was used. Sculpey's oven-bake clay adhesive also bonds raw clay to porous things that can go in the oven: wood, cork, cardboard, papier-mâché and heavy paper (Sculpey blog), and bare wood should be baked first at 135 °C for 20 minutes to drive out moisture and sap (Sculpey FAQ). Does not work: smooth metal, glass and other non-porous surfaces ('Clay cannot be bonded to metal or other non-porous surfaces', Sculpey FAQ; wrap or embed instead, see Baked-in findings); air-dry clay, pottery clay or epoxy putty (different materials, see Score-and-slip join and Epoxy putty); anything that cannot take about 130 °C, such as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints, which go soft and deform above 60 °C (Prusa 'PLA')
 - **maker_difficulty**: easy: brush, press and bake; the skill is in supporting the parts until baked and in baking fully at the right temperature
 
 ### Making it
@@ -4719,6 +4721,7 @@
   - https://www.staedtler.com/uk/en/products/fimo-modelling-clay-accessories/fimo-accessoires/surface-treatment/fimo-liquid-8050-oven-bake-liquid-gel-m8050/
   - https://potterycrafts.co.uk/cdn/shop/files/Premo_Sculpey_Polymer_Clay_747a26ae-3aa8-4d8e-a413-1cfe01b669f7.pdf
   - https://www.sculpey.com/blogs/blog/6-things-to-avoid-when-baking-polymer-clay
+  - https://help.prusa3d.com/article/pla_2062
 
 ### Finder tags
 
@@ -4731,8 +4734,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**: fills gaps ⚑ *needs confirming (best guess): not on the glue lists in the finder tree; traits read from the text*
-- **bonds_well**: PVC ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints [uncertain]…"*
-- **bonds_poorly**: PLA, wood, paper or card, metal, glass or ceramic ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…as plastic 'crystals', amber, pearls (Blue Bottle Tree) or PLA prints [uncertain]…"*
+- **bonds_well**: PVC
+- **bonds_poorly**: PLA, wood, paper or card, metal, glass or ceramic
 - **tools**: sewing or leather tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part
@@ -4785,7 +4788,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, load, making_tips_3d_printing, materials
+- ⚑ **Fields with parts that need confirming:** aliases, load, making_tips_3d_printing
 
 ## 429 Score-and-slip join (scratch and slip, luting)
 
@@ -5215,7 +5218,7 @@
 - **adjustable**: Only before the epoxy sets: copper wire stitches can be twisted tighter or looser to adjust the fit (Wikipedia 'Stitch and glue'); once tack fillets or the full fillet cure, the shape is fixed.
 - **play_and_precision**: No play once cured. Accuracy depends on the cut panel shapes and on the stitching; the method tolerates small gaps along the seam, which the fillet fills (JW Boat Designs: the seam can be open on the outside as long as it is a close fit on the inside edge).
 - **access_needed**: both sides: you need to reach the inside corner to lay the fillet and tape, and the outside to snip or pull stitches, fill and (usually) tape it too (Duckworks; Wikipedia 'Stitch and glue'). Tabbing a bulkhead needs access to both faces of the bulkhead where it meets the hull.
-- **materials**: Suits: marine and other plywood panels (the classic use), solid wood, fibreglass (GRP) laminates and hulls, plywood bulkheads into GRP hulls, and composite sandwich panels (Wikipedia 'Stitch and glue'; boatdesign.net thread). Epoxy is strongly recommended for wood ('nothing sticks as well to wood as epoxy', Fiberglass Supply); polyester resin is the traditional production-boat choice for GRP but bonds poorly to already-cured laminate (Practical Sailor 'Bulletproof Sailboat Deck Hardware': the secondary bond is about 4-6 times weaker for polyester and 2-4 times weaker for vinylester). Fabrics: plain glass tape or cloth for small boats; knitted double-bias tape for larger ones; mat-backed tapes waste resin in epoxy (Fiberglass Supply; boatdesign.net thread). Foam and 3D prints: glass and epoxy can wrap a foam or printed shape (see making tips), but polyester resin dissolves polystyrene foam ⚑ [uncertain: forum consensus in search results; no authoritative page opened] and a PLA print's plastic can peel away from the epoxy-glass skin (3DPrint.com 'strengthening 3D parts'). Poor: polyethylene and polypropylene (epoxy does not stick) ⚑ [uncertain: not stated on a page opened for this entry; see the Two-part epoxy entry]. *(⚑ parts need confirming)*
+- **materials**: Suits: marine and other plywood panels (the classic use), solid wood, fibreglass (GRP) laminates and hulls, plywood bulkheads into GRP hulls, and composite sandwich panels (Wikipedia 'Stitch and glue'; boatdesign.net thread). Epoxy is strongly recommended for wood ('nothing sticks as well to wood as epoxy', Fiberglass Supply); polyester resin is the traditional production-boat choice for GRP but bonds poorly to already-cured laminate (Practical Sailor 'Bulletproof Sailboat Deck Hardware': the secondary bond is about 4-6 times weaker for polyester and 2-4 times weaker for vinylester). Fabrics: plain glass tape or cloth for small boats; knitted double-bias tape for larger ones; mat-backed tapes waste resin in epoxy (Fiberglass Supply; boatdesign.net thread). Foam and 3D prints: glass and epoxy can wrap a foam or printed shape (see making tips), but polyester resin dissolves polystyrene foam, because its styrene solvent 'attacks and dissolves' it (patent WO1998045343A1) and a PLA print's plastic can peel away from the epoxy-glass skin (3DPrint.com 'strengthening 3D parts'). Poor: polyethylene and polypropylene (epoxy does not stick) ⚑ [uncertain: not stated on a page opened for this entry; see the Two-part epoxy entry]. *(⚑ parts need confirming)*
 - **maker_difficulty**: moderate: no special tools and very forgiving ('messy but very easy, sort of like making mud pies', CLC Boats), but it needs careful epoxy handling, working fast before the mix goes off, and a lot of sanding to finish neatly.
 
 ### Making it
@@ -5310,6 +5313,7 @@
   - https://www.epoxyworks.com/?p=9878
   - https://idph.illinois.gov/envhealth/factsheets/fiberglass.htm
   - https://api.printables.com/graphql/
+  - https://patents.google.com/patent/WO1998045343A1/en
 
 ### Finder tags
 
@@ -5322,8 +5326,8 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
-- **bonds_well**: wood, glass or ceramic ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam [uncertain: forum consensus in search re…"*
-- **bonds_poorly**: PLA, slippery plastics (PE or PP), fabric or leather, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…ape (see making tips), but polyester resin dissolves polystyrene foam [uncertain: forum consensus in search re…"*
+- **bonds_well**: wood, glass or ceramic ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…parts'). Poor: polyethylene and polypropylene (epoxy does not stick) [uncertain: not stated on a page opened…"*
+- **bonds_poorly**: PLA, slippery plastics (PE or PP), fabric or leather, foam ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…parts'). Poor: polyethylene and polypropylene (epoxy does not stick) [uncertain: not stated on a page opened…"*
 - **tools**: drill and tap, sewing or leather tools, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part

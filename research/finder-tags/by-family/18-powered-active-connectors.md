@@ -1,6 +1,6 @@
 # powered & active connectors: Needs power to hold or to let go
 
-13 entries. ⚑ = needs confirming: 15 best guesses and 2 values from text marked [uncertain]
+13 entries. ⚑ = needs confirming: 15 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -15,7 +15,7 @@ are welcome. Back to the [index](README.md).
 | 109 | Vacuum | wall, rail, desk or grid, something to grip | electricity, compressed air, suction ⚑ | lets go | – | – | – | – | – | none, soldering iron, crimper, hand tools | heavy | off-the-shelf part | yes | tool-free quick release |
 | 110 | Granular jamming gripper | something to grip | compressed air, suction | – ⚑ | – | – | – | – | – | none, hand tools | medium | off-the-shelf part | yes | tool-free quick release |
 | 207 | Electromagnetic clutch | any solid parts ⚑ | electricity | lets go | steady turning | steady turning | in line | slips and keeps going | clicks ⚑ | hand tools | heavy | off-the-shelf part | partly | removable |
-| 208 | Thermal actuators | – | electricity, heat | keeps its last state | heat | straight push or pull | – | – | – | hand tools ⚑ | heavy | off-the-shelf part | partly | removable |
+| 208 | Thermal actuators | – | electricity, heat | keeps its last state | heat | straight push or pull | – | – | – | hand tools | heavy | off-the-shelf part | partly | removable |
 | 209 | Burn-wire and fusible-link release | any solid parts ⚑ | electricity, heat | stays locked ⚑ | – | – | – | breaks or lets go once | – | heat gun, hand tools | medium | off-the-shelf part | no | semi-permanent |
 | 276 | Twisted-and-coiled polymer muscle | – | electricity, compressed air, liquid, heat ⚑ | lets go | heat | straight push or pull | – | – | – | soldering iron, crimper, heat gun, drill and tap, power tools, hand tools | light | off-the-shelf part | yes | removable |
 | 277 | Bernoulli gripper | something to grip | compressed air ⚑ | – ⚑ | – | – | – | – | – | none, hand tools | light | 3D print (FDM) | yes | tool-free quick release |
@@ -44,5 +44,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **208 Thermal actuators**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…a spanner', underfloor heating supplier); snips to cut bimetal strip [uncertain]; for electric versions, wiri…"
 - ⚑ **277 Bernoulli gripper**, `power_source` = compressed air: `power` is marked [uncertain] here: "…re exists only while air is flowing (Festo OGGB functional principle) [uncertain: no source gives how quickly…"

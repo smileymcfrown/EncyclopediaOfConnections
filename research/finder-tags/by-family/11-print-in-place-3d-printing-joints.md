@@ -1,6 +1,6 @@
 # print-in-place & 3D-printing joints: Made for 3D printing
 
-15 entries. ⚑ = needs confirming: 3 best guesses and 2 values from text marked [uncertain]
+15 entries. ⚑ = needs confirming: 3 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -18,7 +18,7 @@ are welcome. Back to the [index](README.md).
 | 179 | Press-fit and expanding inserts | 3D-printed part | none | – | – | – | – | – | – | drill and tap, press or vice, hand tools | medium | 3D print (FDM) | no | removable |
 | 258 | Self-tapping screw into plastic | 3D-printed part | none | – | – | – | – | – | – | drill and tap, hand tools | medium | 3D print (FDM) | no | removable |
 | 281 | Multi-material interlock | 3D-printed part, lid, door or cover | none | – | – | – | – | – | – | hand tools ⚑ | medium | 3D print (FDM) | no | permanent |
-| 332 | Screw-in threaded insert | 3D-printed part | none | – | – | – | – | – | – | drill and tap, power tools, hand tools | heavy | off-the-shelf part | no | semi-permanent ⚑ |
+| 332 | Screw-in threaded insert | 3D-printed part | none | – | – | – | – | – | – | drill and tap, power tools, hand tools | heavy | off-the-shelf part | no | semi-permanent |
 | 335 | Printing onto fabric | 3D-printed part, strap, cord or fabric | none | – | – | – | – | – | – | hand tools | light | 3D print (FDM) | no | permanent |
 | 340 | Printed chainmail and tile fabric | 3D-printed part, strap, cord or fabric | none | – | – | – | – | – | – | none, crimper, hand tools | light | 3D print (FDM) | no | permanent |
 
@@ -35,4 +35,3 @@ The script was unsure of these values.
 These values are probably right, but the research run could not confirm the fact behind them.
 
 - ⚑ **54 Self-folding print**, `tools` = heat gun: `tools_needed` is marked [uncertain] here: "…ts; a bowl of water for PVA-lock prints; tongs to handle the hot part [uncertain]…"
-- ⚑ **332 Screw-in threaded insert**, `removability` = semi-permanent: `removability` is marked [uncertain] here: "…to stay in, but can come out: helical inserts with an extraction tool [uncertain], adhesive-locked E-Z LOK ins…"

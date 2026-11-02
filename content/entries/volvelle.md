@@ -110,10 +110,6 @@ needs_confirming:
     kind: source uncertain
     reason: '`special_behaviour` is marked [uncertain] here: "…ows define the readings, but a paper volvelle doesn''t click
       into them [uncertain]…"'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…axed bookbinding thread (Puget Sound), or an eyelet or grommet setter
-      [uncertain for setter]. A cutting machin…"'
 confirmed: []
 open_points:
 - kind: content
@@ -385,7 +381,6 @@ Split-pin paper fasteners have sharp leg tips (a split pin's sharp end can pierc
 - ⚑ Finder value `motion_out` = back-and-forth turning (best guess): both sides turn, but no shaft layout named; pop-up: opening the page read as a part turn, not steady turning
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): both sides turn, but no shaft layout named; pop-up: opening the page read as a part turn, not steady turning
 - ⚑ Finder value `clicks` = clicks (source uncertain): `special_behaviour` is marked ⚑ [uncertain] here: "…ows define the readings, but a paper volvelle doesn't click into them ⚑ [uncertain]…"
-- ⚑ Finder value `tools` = sewing or leather tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…axed bookbinding thread (Puget Sound), or an eyelet or grommet setter ⚑ [uncertain for setter]. A cutting machin…"
 - ⚑ Research note: *Volvelle* (422): no geometry rule for the dissolving wheel was found; split-pin points ⚑.
 
 ## Sources

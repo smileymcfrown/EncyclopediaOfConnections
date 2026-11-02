@@ -94,14 +94,6 @@ needs_confirming:
   glue_traits:
     kind: best guess
     reason: no glue traits found
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate
-      [uncertain: forum advice seen in search…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate
-      [uncertain: forum advice seen in search…"'
 confirmed: []
 open_points:
 - kind: sources
@@ -323,8 +315,6 @@ Only as strong as the surface it is glued to: a strong stud on paint, a sealed o
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
-- ⚑ Finder value `bonds_well` = wood, metal, glass or ceramic, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate ⚑ [uncertain: forum advice seen in search…"
-- ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), paper or card, fabric or leather (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ed coatings (tesa); gelcoat or paint that could peel off the laminate ⚑ [uncertain: forum advice seen in search…"
 
 ## Sources
 

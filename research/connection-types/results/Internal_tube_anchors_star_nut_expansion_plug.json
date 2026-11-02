@@ -42,7 +42,7 @@
     "power": "passive (no power needed)",
     "removability": "Star nut: permanent ('a star nut is not designed to be removable'; to replace one, drive it deeper or right through the tube, or drill it out, Park Tool). Ribbed push-in inserts: semi-permanent [uncertain: they can usually be prised out but the ribs may be damaged]. Expansion plugs, wedge expanders and expanding caster stems: removable; loosen the bolt and pull them out (Caster Technology: 'Just loosen the bolt to collapse the bushing and pull out the stem')",
     "reuse_cycles": "Star nut: once (it is destroyed or left in the tube when removed, Park Tool). Expansion plugs and expanding stems: many times; Caster Technology says the system can be reused across different frames. Ribbed inserts: a few times [uncertain]",
-    "tools_needed": "Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A pipe cutter or saw and a deburring tool to square and clean the tube end [uncertain: general advice].",
+    "tools_needed": "Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A hacksaw in a saw guide, then flat and round files or a deburring tool, to square and clean the tube end (Park Tool, steering column sizing).",
     "seal": "Star nut: none. Ribbed plugs: dust-resistant, since they close the tube end (Superior Glide: 'The insert seals the tube end'). Rubber or flexible expanding plugs: can be watertight or airtight, because the squeezed rubber presses all round the wall, e.g. windi's printed plug with TPU sections seals a vibraphone resonator tube airtight, and Kirk's TPU plug stops a pool or spa drain",
     "load": "Light to medium, mostly along the tube: star nuts carry the pull of a headset top-cap bolt (just the bearing pre-load; the fork is actually held by the stem clamp bolts, Wikipedia 'Headset (bicycle part)'); ribbed inserts carry a levelling foot's weight, which pushes the insert into the tube and passes the load through the plastic body to the tube walls (Superior Glide); expanding caster stems carry furniture, cart and prep-table loads (Caster Technology). Pull-out resistance depends on friction and on the tube's wall and inside size matching the insert. Twisting is the weak direction in round tubes, since a friction plug can spin; square plugs and square wedges resist turning ('Square wedge to prevent rotation', ray of sunshine's wedge plug) [uncertain: no load figures published in the sources opened].",
     "adjustable": "Expansion plugs and wedge expanders: yes, they can be set at any depth before tightening, and loosened and moved later (Park Tool; Wikipedia 'Headset (bicycle part)' on quill stems, which can be adjusted in height). Star nut: no; its depth is fixed when it is driven in (Park Tool sets it 15 mm down). Threaded inserts give a thread, so a screwed-in levelling foot can then be adjusted up and down (Superior Glide).",
@@ -182,14 +182,14 @@
       "https://help.prusa3d.com/article/pla_2062",
       "https://commons.wikimedia.org/wiki/File:Quill_stems.JPG",
       "https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png",
-      "https://dragonplate.com/how-to-connect-carbon-fiber-tubes"
+      "https://dragonplate.com/how-to-connect-carbon-fiber-tubes",
+      "https://www.parktool.com/en-us/blog/repair-help/fork-steering-column-length-and-sizing"
     ]
   },
   "uncertain": [
     "load",
     "removability",
     "reuse_cycles",
-    "tools_needed",
     "play_and_precision",
     "materials",
     "processes",
