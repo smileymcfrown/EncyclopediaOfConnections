@@ -90,9 +90,6 @@ finder:
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
-  power_source:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…whereas a back-drivable drive lets the elastic return open the finger [uncertain].…"'
   power_loss:
     kind: best guess
     reason: '`power` mentions losing power, but none of the three outcomes'
@@ -100,7 +97,7 @@ confirmed: []
 open_points:
 - kind: content
   note: '*Tendon-driven joint* (278): a cable-closed grip figure measured on people was left out on purpose.'
-uncertain_fields: [degrees_of_freedom, power, processes, environment_limits]
+uncertain_fields: [degrees_of_freedom, processes, environment_limits]
 diagram_idea: Side view of a three-segment finger with a red tendon running along the palm side through small holes a few
   millimetres below each hinge and tied at the fingertip, and a green elastic cord along the back; one panel shows the finger
   straight, the second shows a hand pulling the red tendon a short distance so all three joints curl, with the moment arm
@@ -186,6 +183,7 @@ sources:
 - https://www.youtube.com/watch?v=xk_EUOnGtAg
 - https://www.youtube.com/watch?v=EVMatHNgC6s
 - https://en.wikipedia.org/wiki/Prosthesis
+- https://arxiv.org/pdf/2011.01483
 research: research/connection-types/results/Tendondriven_joint_cablepulled_finger_or_tentacle.json
 image:
   file: drawn/anim/tendon-driven-joint.svg
@@ -271,7 +269,7 @@ Avoid it when you need stiff, precise, repeatable positions, high forces in both
   - powered hold: the grip lasts only while the actuator or the user keeps the tendon tight
   - spring force (a spring or springy part presses it in place): elastic cords, rubber bands or flexures return the segments to their rest position (Frontiers 2021)
 - **Input and output:** Straight pull (tendon travel and tension) -> bending of one or more joints. [Torque](../glossary.md#torque) at a joint = tendon tension x moment arm (OpenHand used 9 mm moment arms). A larger moment arm gives more torque per newton but needs more tendon travel for the same angle. Example: a Raptor Reloaded finger flexed 45 degrees with 5.7 mm of pull at 8.9 N and 90 degrees with 15 mm at 22.2 N (Frontiers 2021). Tendon force from a motor = motor torque / pulley radius: a 7.3 N m servo with a 10 mm pulley gives a theoretical 365 N per finger in the four-finger OpenHand. Efficiency falls with every bend the tendon rubs round: by the capstan equation the tension needed rises exponentially with the total bend angle, while free-turning pulleys add almost no friction (Hackaday, Vasquez 2021). Arrangement: the tendon runs alongside the segments and can be led round corners through sleeves or over pulleys. Back-drivable: yes if the puller is back-drivable (the finger springs back when released); with a non-back-drivable actuator the locked tendon lets the fingers resist much larger forces than they can actively exert (OpenHand).
-- **Power:** passive or powered: body-powered versions are pulled by the user's wrist (e-NABLE hands) or by hand through a lever or joystick (Thingiverse 'Cable Mechanism Joystick'); robot versions use a servo, winch or other motor turning a pulley (InMoov; Yale OpenHand) or an artificial muscle. If power is lost, what happens depends on the actuator: a non-back-drivable gearmotor or locked tendon keeps the last position (OpenHand), whereas a back-drivable drive lets the elastic return open the finger ⚑ [uncertain].
+- **Power:** passive or powered: body-powered versions are pulled by the user's wrist (e-NABLE hands) or by hand through a lever or joystick (Thingiverse 'Cable Mechanism Joystick'); robot versions use a servo, winch or other motor turning a pulley (InMoov; Yale OpenHand) or an artificial muscle. If power is lost, what happens depends on the actuator: a non-back-drivable gearmotor or locked tendon keeps the last position (OpenHand), whereas a back-drivable drive lets the elastic return open the finger, unless the gearbox friction is greater than the springs' pull (Chen, Zhang and Ciocarlie, arXiv 2011.01483).
 - **Load:** Light to medium: printed prosthetic fingers are designed for about 22 N of grasping force (Frontiers 2021) and the Yale OpenHand measured 10 N grip with a servo able to put a theoretical 365 N into each tendon. Tendons themselves are strong (the braided line in Frontiers 2021 was rated 440 N, far above the 28 N tested), so the limits are the printed segments, pins and tendon holes. Strong only in the direction the tendon pulls; the opening side is only as strong as the elastic return; weak sideways and in twist, especially flexure fingers, which have the lowest twisting stiffness (OpenHand).
 - **Play and precision:** Noticeable: tendons stretch, which costs strength and smoothness (Wikipedia 'Tendon-driven robot'), ordinary nylon line stretches too much (InMoov), slack and friction in the holes cause dead band and hysteresis, and moving other joints changes the tendon path length (turning the InMoov wrist tightens or slackens the finger tendons; in multi-segment tentacles the tendons of the far segments pass through the near ones, coupling their motion, arXiv 2507.17163). It is very tolerant of [misalignment](../glossary.md#misalignment) and knocks because it is compliant, but accurate positioning needs sensors or careful calibration.
 - **Taking it apart:** removable: tendons are knotted (often with a drop of glue) or clamped and can be cut and re-tied, and segments are held by pins or screws (InMoov; e-NABLE)
@@ -357,8 +355,7 @@ Finger joints and the gap between fingers and palm are pinch points, and a servo
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…whereas a back-drivable drive lets the elastic return open the finger ⚑ [uncertain].…"
+- ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): `power` mentions losing power, but none of the three outcomes
 - ⚑ Research note: *Tendon-driven joint* (278): a cable-closed grip figure measured on people was left out on purpose.
 
@@ -389,3 +386,4 @@ Finger joints and the gap between fingers and palm are pinch points, and a servo
 - <https://www.youtube.com/watch?v=xk_EUOnGtAg>
 - <https://www.youtube.com/watch?v=EVMatHNgC6s>
 - <https://en.wikipedia.org/wiki/Prosthesis>
+- <https://arxiv.org/pdf/2011.01483>

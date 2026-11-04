@@ -457,7 +457,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: most clips can be released by squeezing the finger by hand or with a small screwdriver (DefProc Clip-R-Pi is designed to be taken apart and reassembled); barbs hidden inside a closed box are effectively permanent, and in card or felt the barbs deform after release.
 - **reuse_cycles**: many times in acrylic when the clip is designed to stay well below the material's yield stress (DefProc sized its acrylic clip at about one-eighth of the yield stress, and every Clip-R-Pi case was assembled and taken apart before packing); only a few times in card, MDF or plywood, where the barbs tear or crush ⚑ [uncertain]. The springFit authors note that long-term repeated assembly was not tested. *(⚑ parts need confirming)*
-- **tools_needed**: none to assemble: push the tab through by hand. A small flat screwdriver or fingernail helps release clips; a rubber mallet is not needed and can crack acrylic ⚑ [uncertain]. *(⚑ parts need confirming)*
+- **tools_needed**: none to assemble: push the tab through by hand. A small flat screwdriver or fingernail helps release clips; a rubber mallet is not needed, and acrylic is brittle: stressed too much, it 'will break, not bend' (Mechanical Gifs).
 - **seal**: none: the laser-cut and cardboard versions leave gaps. The sheet-metal duct version (button-punch snap lock) is rated for low-pressure air ducts up to about plus or minus 4 in water gauge (about 1 kPa), with screws added at the duct ends at that pressure (Sheet Metal Connectors 'Snaplock'); extra sealant is often used ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **load**: light: DefProc's example clip in 3 mm acrylic needs about 2.5 N to press and about 31 N pulling before it unclips; springFit's plywood and acrylic springs pushed with about 5 N. Strongest in the direction the barb hooks and in shear when combined with tabs; weak against pulling in the opposite direction to the hook (SendCutSend 'Hooks: weak against loads opposite of hooking direction') and against prying the finger open. springFit joints 'come apart more easily than their press fit counterparts'.
 - **adjustable**: no
@@ -553,6 +553,7 @@
   - https://en.wikipedia.org/wiki/Snap-fit
   - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
   - https://en.wikipedia.org/wiki/Medium-density_fibreboard
+  - https://www.mechanicalgifs.com/instructions
 
 ### Finder tags
 
@@ -564,7 +565,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ps release clips; a rubber mallet is not needed and can crack acrylic [uncertain].…"*
+- **tools**: none, hand tools
 - **load_max**: light
 - **usual_process**: laser cut
 - **adjustable**: no
@@ -616,7 +617,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, materials, play_and_precision, processes, reuse_cycles, safety_notes, seal, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, everyday_examples, make_it_yourself, making_tips_3d_printing, materials, play_and_precision, processes, reuse_cycles, safety_notes, seal
 
 ## 242 Cross-halving slot joint (egg-crate joint)
 

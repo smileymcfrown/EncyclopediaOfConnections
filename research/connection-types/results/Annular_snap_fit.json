@@ -44,7 +44,7 @@
     "power": "passive (no power needed)",
     "removability": "removable: pull-off designs with about a 30-45° back face come apart by hand; permanent versions with a 90° back face need a hub that is open at the far end and can only be broken apart (Machine Design; DuPont p. 73)",
     "reuse_cycles": "many times for pull-off designs such as pen caps, although 'repeated use can cause permanent strain and loosening' (Wikipedia 'Snap-fit'); once for 90° permanent designs",
-    "tools_needed": "none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press or mallet for large, stiff joints [uncertain]",
+    "tools_needed": "none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press for large, stiff joints pushed on straight; by hand, tip the bead in at an angle and press or knock the rest into place, which takes much less force (Covestro p. 23)",
     "seal": "dust-resistant: a continuous (unslotted) ring closes the joint all the way round; Covestro calls this a 'semi-hermetic seal' and Hubs says an annular snap fit 'can provide a watertight seal' with proper geometry and material, but for a dependable watertight or pressure seal add an O-ring or gasket (not verified for 3D-printed parts) [uncertain]",
     "load": "medium: annular snaps 'are generally stronger, but need greater assembly force than their cantilevered counterparts' (Machine Design; DuPont p. 72), and 'quite small undercuts give joints of considerable strength' (Covestro p. 6). Strongest against pulling apart along the axis, especially with a steep back face or a groove placed well away from the tube's end (Covestro p. 22); weak against twisting (the parts just turn) and against being tipped or pried from one side, which is also how they are opened. Slotting the ring for easier assembly lowers the holding force (DuPont p. 73).",
     "adjustable": "no: the fit is fixed by the bead and groove sizes; the parts can still be turned to any angle unless keyed",
@@ -193,7 +193,6 @@
   "uncertain": [
     "special_behaviour",
     "holding_principle",
-    "tools_needed",
     "seal",
     "play_and_precision",
     "materials",

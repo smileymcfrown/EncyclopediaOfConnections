@@ -91,14 +91,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts']
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…apart with a knife blade''); a press or mallet for large, stiff
-      joints [uncertain]…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [special_behaviour, holding_principle, tools_needed, seal, play_and_precision, materials, processes, making_tips_3d_printing,
+uncertain_fields: [special_behaviour, holding_principle, seal, play_and_precision, materials, processes, making_tips_3d_printing,
   off_the_shelf_parts, rules_of_thumb, environment_limits, safety_notes, make_it_yourself]
 diagram_idea: 'A cut-away side view of a cap on a tube in three frames: the cap''s sloped lead face meets the bead; the cap''s
   rim stretches outwards (arrows round the circle labelled ''hoop strain'', undercut y and diameter d marked); the bead drops
@@ -275,7 +271,7 @@ Avoid it on square or irregular shapes (DuPont: rectangular versions 'do not wor
   - CNC: turned plastic caps and bushes on a lathe ⚑ [uncertain]
   - off-the-shelf part: snap caps and snap-on closures for bottles and tubes
 - **Printing it in one piece (print in place):** no: the two parts are printed separately and pressed together
-- **Tools:** none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press or mallet for large, stiff joints ⚑ [uncertain]
+- **Tools:** none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press for large, stiff joints pushed on straight; by hand, tip the bead in at an angle and press or knock the rest into place, which takes much less force (Covestro p. 23)
 - **Difficulty:** moderate: the shapes are simple, but the interference is only a few tenths of a millimetre, so printer [accuracy](../glossary.md#repeatability--accuracy), roundness and material choice matter; plan on a test print or two
 
 ### 3D printing tips
@@ -343,8 +339,7 @@ Small caps and snap-on parts can be swallowed or inhaled by children: pen caps f
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 18 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…apart with a knife blade'); a press or mallet for large, stiff joints ⚑ [uncertain]…"
+- ⚑ 17 sentences on this page marked [uncertain].
 
 ## Sources
 

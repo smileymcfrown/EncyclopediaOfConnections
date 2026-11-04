@@ -93,11 +93,7 @@ finder:
   turns: [full turns]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable
-      ends [uncertain]. The printed demonstrator sn…"'
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -110,8 +106,8 @@ open_points:
     (134) is described without tying steps, under the mains rule.'
 - kind: content
   note: '*Anti-twister mechanism* lists `materials` as unverified without a marker (see above).'
-uncertain_fields: [aliases, input_output, removability, tools_needed, adjustable, play_and_precision, materials, maker_difficulty,
-  processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes, common_failures]
+uncertain_fields: [aliases, input_output, removability, adjustable, play_and_precision, materials, maker_difficulty, processes,
+  making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes, common_failures]
 diagram_idea: 'Side view of a turntable on a fixed base: a coloured cable rises up the base''s axis, loops out and over a
   C-shaped carrier arm, and drops onto the centre of the turntable; frames at 0, 180, 360, 540 and 720 degrees of turntable
   rotation show the arm at half those angles and a stripe painted along the cable twisting half a turn one way and then back
@@ -175,6 +171,7 @@ sources:
 - https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
 - https://en.wikipedia.org/wiki/Clockspring
 - https://www.youcanic.com/properly-set-a-new-clock-spring/
+- https://learn.sparkfun.com/tutorials/working-with-wire/all
 research: research/connection-types/results/Antitwister_mechanism_twistfree_cable_feed.json
 image:
   file: drawn/anim/anti-twister-mechanism.svg
@@ -281,7 +278,7 @@ If the part only turns part of a revolution or a few turns back and forth, a sim
   - LEGO Technic: anti-twist and spinor-linkage demonstrators (Holroyd 2022; YouTube 'LEGO anti-twist mechanism')
   - CNC: machined gears, shafts and frames for full-size machines ⚑ [uncertain]
 - **Printing it in one piece (print in place):** partly: the two-layer planetary gear drive of Printables model 1128267 prints in place and is broken loose after printing, but the cube, axle, bases and band are separate parts that snap on
-- **Tools:** Screwdriver or hex keys to fit gears, bearings and cable clamps; soldering iron or crimp tool for the cable ends ⚑ [uncertain]. The printed demonstrator snaps together: 'The bases, axle, and band clip in with a snap fit' (Printables 1128267); its print-in-place gears are freed with a blunt butter knife.
+- **Tools:** Screwdriver or hex keys to fit gears, bearings and cable clamps; soldering iron or crimp tool for the cable ends (SparkFun 'Working with Wire'). The printed demonstrator snaps together: 'The bases, axle, and band clip in with a snap fit' (Printables 1128267); its print-in-place gears are freed with a blunt butter knife.
 - **Difficulty:** moderate: the 2:1 gearing is simple and prints well (a planetary set or two gear pairs), but choosing a cable that survives endless bending, keeping the loop clear of everything as it sweeps round, and balancing the carrier for higher speeds take care ⚑ [uncertain on balancing]
 
 ### 3D printing tips
@@ -338,8 +335,7 @@ The carrier arm and cable loop sweep round the rotor, making entanglement and pi
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 17 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = soldering iron, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends ⚑ [uncertain]. The printed demonstrator sn…"
+- ⚑ 16 sentences on this page marked [uncertain].
 - ⚑ Research note: *Anti-twister mechanism*: `materials` is in the entry's `uncertain` list but has no `[uncertain]` marker, so the default report shows it in full. Check its materials list before publishing.
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 - ⚑ Research note: *Anti-twister mechanism* lists `materials` as unverified without a marker (see above).
@@ -365,3 +361,4 @@ The carrier arm and cable loop sweep round the rotor, making entanglement and pi
 - <https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec>
 - <https://en.wikipedia.org/wiki/Clockspring>
 - <https://www.youcanic.com/properly-set-a-new-clock-spring/>
+- <https://learn.sparkfun.com/tutorials/working-with-wire/all>

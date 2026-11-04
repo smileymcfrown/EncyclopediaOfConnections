@@ -48,7 +48,7 @@ finder:
   clicks: not applicable
   electrical_band: up to about 30 A
   tools: [soldering iron, crimper, heat gun, hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'no'
   removability: permanent
@@ -96,10 +96,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: ['plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -339,7 +336,6 @@ Burns: the heat gun and the splice get hot; TE warns 'allow tool and the assembl
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Solder sleeve*: sellers' operating ratings for Sn42Bi58 sleeves disagree (Markertek 125 °C, Quick Cable 110 °C); both recorded. TE's CWT series uses a cadmium-bearing solder (Sn50Pb32Cd18), worth a safety line when publishing. Reports of sleeves that looked good but had not bonded (an iATN teardown, a Hobby-Machinist thread) are labelled as forum and technician reports. No one publishes a current rating for the sleeve itself; its 'up to about 30 A' band, like that of *Standard plug-and-socket connector*, is the agent's judgement, explained in the text.
 
 ## Sources

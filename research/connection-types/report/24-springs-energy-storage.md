@@ -425,7 +425,7 @@
 - **power**: passive (no power needed). Robots can instead compensate gravity actively with motor torque; passive springs reduce the motor torque needed (Takahashi et al. 2019).
 - **removability**: removable: springs hook onto posts or eyes and counterweights bolt on, so the balancer can be taken apart and adjusted
 - **reuse_cycles**: many times for taking apart. Spring life is set by fatigue: garage-door torsion springs are typically rated 10,000-15,000 opening cycles, with 30,000-cycle springs available (Wikipedia 'Garage door')
-- **tools_needed**: screwdriver or hex keys for pivots and anchor points; pliers or a spring hook to fit stretched extension springs ⚑ [uncertain]; garage-door torsion springs need special winding tools and training (Wikipedia 'Garage door') *(⚑ parts need confirming)*
+- **tools_needed**: screwdriver or hex keys for pivots and anchor points; a spring hook to stretch extension springs onto their anchors, much easier than pliers or screwdrivers (Cycle World 'Tool Time'); garage-door torsion springs need special winding tools and training (Wikipedia 'Garage door')
 - **seal**: none
 - **load**: light to heavy: from a desk-lamp head to a garage door of 400 lb (180 kg) or more balanced by torsion or extension springs (Wikipedia 'Garage door'); small tool balancers carry tools up to 5 lb (2.3 kg) (Hubbell Gleason BD series spec sheet). The balance only works for the design load in a vertical plane; springs that leave the vertical plane add side loads (French and Widden 2000).
 - **adjustable**: yes: move the fixed spring anchor, change the spring pretension or add or remove counterweight to suit a new load (a change in load needs re-tuning). Tool balancers have a tension knob and push-button release (Hubbell Gleason spec sheet). Adjusting without adding or removing energy ('spring-to-spring balancing') is a research topic ⚑ [uncertain: paper not opened]. *(⚑ parts need confirming)*
@@ -508,6 +508,7 @@
   - https://commons.wikimedia.org/wiki/File:Anglepoise_1227.jpg
   - https://www.youtube.com/watch?v=WnDc7tv79HM
   - https://www.youtube.com/watch?v=oBnVt-Si2o0
+  - https://issues.cycleworld.com/article/2006/4/1/tool-time
 
 ### Finder tags
 
@@ -519,7 +520,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs [uncertain]; garage-door torsion springs…"*
+- **tools**: hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
 - **adjustable**: yes
@@ -571,7 +572,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, make_it_yourself, motion, off_the_shelf_parts, play_and_precision, processes, related, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, make_it_yourself, motion, off_the_shelf_parts, play_and_precision, processes, related, safety_notes
 
 ## 120 Printed leaf spring (flat cantilever spring)
 

@@ -106,9 +106,6 @@ needs_confirming:
   electrical_band:
     kind: source uncertain
     reason: '`load` is marked [uncertain] here: "Electrical: up to about 3 A [uncertain: no maker publishes a current…"'
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 confirmed: []
 open_points:
 - kind: sources
@@ -346,7 +343,6 @@ CUTS: 'Copper tape can give you a nasty paper cut, please be careful!' (SparkFun
 - ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `glue_traits` =  (best guess): no glue traits found
 - ⚑ Finder value `electrical_band` = up to about 3 A (source uncertain): `load` is marked ⚑ [uncertain] here: "Electrical: up to about 3 A ⚑ [uncertain: no maker publishes a current…"
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Conductive tape*: no maker publishes a current rating, so its 'up to about 3 A' lead-in is [uncertain]; copper tape's 0.08 Ω/m is labelled calculated.
 
 ## Sources

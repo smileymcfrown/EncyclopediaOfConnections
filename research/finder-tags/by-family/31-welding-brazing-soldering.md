@@ -1,6 +1,6 @@
 # welding, brazing & soldering: Joins by melting: welds, brazes, solders and heat seals
 
-12 entries. ⚑ = needs confirming: 2 best guesses and 1 values from text marked [uncertain]
+12 entries. ⚑ = needs confirming: 2 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -12,7 +12,7 @@ are welcome. Back to the [index](README.md).
 | 344 | Heat-sealed seam | strap, cord or fabric | none | – | – | – | – | – | – | soldering iron, power tools | medium | off-the-shelf part | no | permanent | – |
 | 404 | Soldered metal joint | wires, hoses or pipes | none | – | – | – | – | – | – | soldering iron, welding or brazing torch, hand tools | medium | sheet metal | no | semi-permanent | – ⚑ |
 | 405 | Brazed joint | any solid parts | none | – | – | – | – | – | – | welding or brazing torch, press or vice, hand tools | heavy | sheet metal | no | permanent | – |
-| 406 | Spot weld | wires | none | – | – | – | – | – | – | welding or brazing torch, drill and tap, press or vice, hand tools | medium | sheet metal | no | permanent | up to about 30 A ⚑ |
+| 406 | Spot weld | wires | none | – | – | – | – | – | – | welding or brazing torch, drill and tap, press or vice, hand tools | medium | sheet metal | no | permanent | up to about 30 A |
 | 407 | Heat-fused plastic pipe | hoses or pipes | none | – | – | – | – | – | – | press or vice, hand tools | heavy | off-the-shelf part | no | permanent | – |
 | 409 | Ultrasonic weld | any solid parts | none | – | – | – | – | – | – | welding or brazing torch, press or vice, power tools | heavy | off-the-shelf part | no | permanent | – |
 | 441 | Copper-foil joint | any solid parts | none | – | – | – | – | – | – | soldering iron, power tools, hand tools | light | off-the-shelf part ⚑ | no | permanent | – |
@@ -30,4 +30,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **406 Spot weld**, `electrical_band` = up to about 30 A: `load` is marked [uncertain] here: "Electrical: up to about 30 A per nickel strip [uncertain: depends on strip width and t…"
+None.

@@ -454,7 +454,7 @@
 - **power**: passive (no power needed)
 - **removability**: permanent for one-piece notch, leaf and printed hinges (they are part of the part); removable for crossed pivots that clip together (BYU CMR Cross-Axis Flexure Pivot), for metal blades clamped between blocks, and for bought pivot bearings that mount in a hole (C-Flex design guide)
 - **reuse_cycles**: many times for clip-together, clamped and bought versions. The real limit is flex life, not taking it apart: effectively unlimited when the strain is kept low (a Riverhawk pivot was cycled over 12 billion times in twenty years; C-Flex rates 'indefinite life' below a set angle), but limited in 3D-printed plastic, which yields early and creeps (Akaki Kuumeri)
-- **tools_needed**: none for printed one-piece or clip-together hinges; a screwdriver or hex key to clamp metal blades between blocks ⚑ [uncertain]; bought pivot bearings are fitted into a bore ⚑ [uncertain: fitting method not checked] *(⚑ parts need confirming)*
+- **tools_needed**: none for printed one-piece or clip-together hinges; a screwdriver or hex key for the bolts that clamp metal blades between blocks (DSPE 'Flexure assembly using dove tail clamps'); bought pivot bearings go into a close-fitting hole and are held by a clamp screw, a cup-point set screw, a cross pin or a shrink fit (Free-Flex mounting methods)
 - **seal**: none
 - **load**: light to medium. Bought steel crossed-spring pivots are very stiff sideways (radial stiffness up to 100,000 lb/in) and carry radial loads up to 1,600 lb (about 7 kN) in the biggest sizes (Riverhawk); printed plastic hinges carry only light loads. Load capacity and stiffness fall as the rotation angle grows (C-Flex design guide; DSPE 'Infinity flexure'). A single blade is strong when pulled along its length, weaker when pushed (it can buckle) and weak against twisting (Wikipedia 'Flexure').
 - **adjustable**: No: stiffness and range are fixed by the section's thickness, length, width and material. You can limit travel with end stops (Akaki Kuumeri), and bought pivots come in thinner or thicker spring series: thinner springs give more range but less stiffness and load capacity (C-Flex design guide).
@@ -553,6 +553,8 @@
   - https://www.youtube.com/watch?v=rUH3cDmeXC4
   - https://www.youtube.com/watch?v=PaypcVFPs48
   - https://www.youtube.com/watch?v=K0wr_ZhhtbE
+  - https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps
+  - https://flexpivots.com/resources/mounting-methods
 
 ### Finder tags
 
@@ -564,7 +566,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks [uncertain]; bought pivot bearings are f…"*
+- **tools**: none, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -616,7 +618,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** off_the_shelf_parts, play_and_precision, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** off_the_shelf_parts, play_and_precision, processes, safety_notes
 
 ## 51 Parallel leaf-spring flexure (linear flexure stage)
 
@@ -658,7 +660,7 @@
 - **power**: passive (no power needed) for the flexure itself; motorised stages need power to move, and a screw-driven stage stays where it is if power is lost
 - **removability**: permanent for one-piece printed or machined stages; removable when metal blades are clamped between blocks with screws ⚑ [uncertain] *(⚑ parts need confirming)*
 - **reuse_cycles**: many times: nothing wears because nothing slides; the life limit is fatigue of the blades, which is long if they are bent well within the material's limit. Printed OpenFlexure stages had no flexures snap after 6 months of use (Sharkey et al.); FabianVeile's printed XY guide is designed to stay in the elastic region so it always returns to its start position (Printables)
-- **tools_needed**: none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for the bolts that clamp metal blades between blocks (DSPE 'Flexure assembly using dove tail clamps')
 - **seal**: none
 - **load**: light to medium in the directions it holds; very light in the travel direction by design. Stiff against loads along the blades and against tilting. Stiffness in the travel direction is 2 x E x w x t cubed / L cubed for two blades (Ingeniqs). Holding stiffness falls as it moves: about 30% lower at a travel of one tenth of the blade length for a simple parallelogram, and about 90% lower for a double parallelogram (Awtar et al.). A pushing (compressive) load along the blades softens them towards buckling, so hang loads from the blades rather than stand them on top where possible (Awtar et al.).
 - **adjustable**: Position: yes, that is its purpose; the platform is moved by a fine screw (an M3 screw moves 0.5 mm per turn, allowing sub-micron adjustment by hand; Sharkey et al.), a piezo or a motor. Stiffness and range: no, fixed by the blade thickness, length, width and material.
@@ -749,6 +751,7 @@
   - https://www.printables.com/model/586635-linear-motion-compliant-mechanism
   - https://www.youtube.com/watch?v=JGbM6qZAwQY
   - https://www.youtube.com/watch?v=PaypcVFPs48
+  - https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps
 
 ### Finder tags
 
@@ -760,7 +763,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades [uncertain]…"*
+- **tools**: none, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: yes
@@ -812,7 +815,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** complexity, materials, off_the_shelf_parts, processes, removability, tools_needed
+- ⚑ **Fields with parts that need confirming:** complexity, materials, off_the_shelf_parts, processes, removability
 
 ## 52 Compliant gripper and force amplifier
 

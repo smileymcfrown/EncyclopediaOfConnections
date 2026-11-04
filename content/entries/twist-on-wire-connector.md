@@ -92,10 +92,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: ['plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -319,7 +316,6 @@ MAINS: this entry describes the type only and gives no mains wiring steps. Mains
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 8 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Twist-on wire connector*: Wikipedia says these are 'not certified in most European countries', citing forum pages; an IEC standard for them exists (IEC 60998-2-4: 0.5-16 mm² copper, up to 1000 V AC). The entry gives both and says rules differ by country. The 'up to about 30 A' lead-in in `load` is [uncertain], because the connector is rated by wire size, not current.
 
 ## Sources

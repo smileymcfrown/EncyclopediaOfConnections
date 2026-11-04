@@ -56,7 +56,7 @@ finder:
   bonds_poorly: [PLA, slippery plastics (PE or PP)]
   electrical_band: signal only
   tools: [hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'no'
   removability: permanent
@@ -109,9 +109,6 @@ needs_confirming:
   tools:
     kind: best guess
     reason: no tool named in `tools_needed`; defaulted to hand tools
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing, environment_limits, safety_notes, common_failures]
@@ -331,7 +328,6 @@ SOLVENT FUMES AND FIRE: some silver paints are solvent-based. Electrolube's Silv
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `tools` = hand tools (best guess): no tool named in `tools_needed`; defaulted to hand tools
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 
 ## Sources
 

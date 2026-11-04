@@ -50,7 +50,7 @@ finder:
   clicks: not applicable
   electrical_band: up to about 30 A
   tools: [crimper, hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'yes'
   removability: removable
@@ -98,10 +98,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [reuse_cycles, making_tips_3d_printing, common_failures]
@@ -350,7 +347,6 @@ LOOSE MEANS HOT: a loose or poorly made terminal heats up and can start a fire, 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 
 ## Sources
 

@@ -84,14 +84,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…sitioning Device''); a hex key or screwdriver for clamped metal
-      blades [uncertain]…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [complexity, removability, tools_needed, materials, processes, off_the_shelf_parts]
+uncertain_fields: [complexity, removability, materials, processes, off_the_shelf_parts]
 diagram_idea: 'Side view of a platform held above a base by two parallel blades: frame 1 at rest (a rectangle); frame 2 pushed
   sideways, both blades bent into matching S shapes and the platform still level, with a small exaggerated arrow showing it
   dipping towards the base; frame 3 a double parallelogram in which the middle block moves half as far and the dip cancels.'
@@ -172,6 +168,7 @@ sources:
 - https://www.printables.com/model/586635-linear-motion-compliant-mechanism
 - https://www.youtube.com/watch?v=JGbM6qZAwQY
 - https://www.youtube.com/watch?v=PaypcVFPs48
+- https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps
 research: research/connection-types/results/Parallel_leafspring_flexure_linear_flexure_stage.json
 image:
   file: drawn/anim/parallel-leaf-spring-flexure.svg
@@ -281,7 +278,7 @@ Avoid it when you need long travel (more than a few millimetres in metal, or mor
   - sheet metal: spring-steel blades clamped between blocks ⚑ [uncertain: no build guide opened]
   - off-the-shelf part: piezo flexure stages and nanopositioners (Physik Instrumente); single-point load cells (Transducer Techniques)
 - **Printing it in one piece (print in place):** yes: the whole guide prints as one working piece without supports (OpenFlexure microscope and Block Stage; zalo's XY Flexure Translation Stage; FabianVeile's XY Linear Guide). A positioning stage then needs an added drive, such as an M3 screw and nut (Sharkey et al.; Printables 'High-precision Compliant XY-Positioning Device'), which makes it 'partly' [print-in-place](../glossary.md#print-in-place).
-- **Tools:** none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain]
+- **Tools:** none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for the bolts that clamp metal blades between blocks (DSPE 'Flexure assembly using dove tail clamps')
 - **Difficulty:** easy to moderate: a printed parallel flexure is a simple one-piece print (FabianVeile's XY Linear Guide prints in about 45 minutes), but printing thin blades cleanly, avoiding creep and adding a fine screw drive takes some care; nanometre-grade metal stages are bought
 
 ### 3D printing tips
@@ -341,8 +338,7 @@ None known for small printed stages. Printed blades pushed past their limit can 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain]…"
+- ⚑ 5 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -371,3 +367,4 @@ None known for small printed stages. Printed blades pushed past their limit can 
 - <https://www.printables.com/model/586635-linear-motion-compliant-mechanism>
 - <https://www.youtube.com/watch?v=JGbM6qZAwQY>
 - <https://www.youtube.com/watch?v=PaypcVFPs48>
+- <https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps>

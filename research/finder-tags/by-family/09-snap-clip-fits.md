@@ -1,13 +1,13 @@
 # snap & clip fits: Snaps or clips together
 
-9 entries. ⚑ = needs confirming: 5 best guesses and 3 values from text marked [uncertain]
+9 entries. ⚑ = needs confirming: 5 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
 | # | Entry | Connects | Power | If power is lost | Motion in | Motion out | Shafts | If overloaded | Clicks | Tools | Load | Usually made by | Adjust | Take apart |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 44 | Cantilever snap fit | 3D-printed part | none | – | – | – | – | – | – | none, hand tools ⚑ | medium | 3D print (FDM) | no | removable |
-| 45 | Annular snap fit | 3D-printed part | none | – | – | – | – | – | – | none, press or vice, hand tools ⚑ | medium | 3D print (FDM) | no | removable |
+| 44 | Cantilever snap fit | 3D-printed part | none | – | – | – | – | – | – | none, hand tools | medium | 3D print (FDM) | no | removable |
+| 45 | Annular snap fit | 3D-printed part | none | – | – | – | – | – | – | none, press or vice, hand tools | medium | 3D print (FDM) | no | removable |
 | 46 | Torsional snap fit | 3D-printed part | none | – | – | – | – | – | – | none | medium | off-the-shelf part ⚑ | no | tool-free quick release |
 | 47 | Snap pin | 3D-printed part | none | – | – | – | – | – | – | none, press or vice, hand tools | light | 3D print (FDM) | no | removable |
 | 48 | Push-in plastic rivet | 3D-printed part, boards or sheet | none | – | – | – | – | – | – | none, hand tools | light | off-the-shelf part | no | semi-permanent |
@@ -30,6 +30,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **44 Cantilever snap fit**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release [uncertain]…"
-- ⚑ **45 Annular snap fit**, `tools` = none, press or vice, hand tools: `tools_needed` is marked [uncertain] here: "…apart with a knife blade'); a press or mallet for large, stiff joints [uncertain]…"
 - ⚑ **368 Push-on edge trim**, `removability` = removable: `removability` is marked [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent [uncertain: no source describes removing…"

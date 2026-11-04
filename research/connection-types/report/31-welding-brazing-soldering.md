@@ -1212,7 +1212,7 @@
 - **reuse_cycles**: once
 - **tools_needed**: A spot welder: a portable tong spot welder for sheet steel, or a battery spot welder with a pen or fixed arms for nickel strip (Miller OM-716; Hackaday). Also: a foot switch or hand lever, clamps or a jig, a file or tip dresser to keep the copper tips in shape, a wire brush or abrasive to clean off paint, rust and oil, safety glasses with side shields, leather gloves, a fire extinguisher, and pliers to handle hot parts (Miller OM-716; George Fox University Maker Hub). For removal: a spot weld cutter or spot weld drill (ICS Cutting Tools).
 - **seal**: none for ordinary spot welds: the spots are separate and 'do not form a continuous seam' (Wikipedia 'Electric resistance welding'), so add a seam sealer or use another joint for tightness ⚑ [uncertain: sealer not on an opened page]. Airtight or pressure only with continuous resistance seam welding, as used to make steel tube (Wikipedia). *(⚑ parts need confirming)*
-- **load**: Electrical: up to about 30 A per nickel strip ⚑ [uncertain: depends on strip width and thickness; no rating table opened], extra-low voltage only (battery packs). Mechanical: medium per spot. Each spot is strong in shear (sideways sliding of the sheets): spot welding is used 'in preference to more costly mechanical fastening, such as riveting' when high shear strength is needed (Wikipedia 'Electric resistance welding'). Weak in peel (prying the sheets apart from an edge), and the separate spots make overall strength 'often significantly lower than with other welding methods' (Wikipedia). Spot welding can harden and crack the metal around the nugget and reduces fatigue strength, so vibration is a weak point (Wikipedia 'Spot welding'). Cars hold together with several thousand spot welds (Wikipedia). *(⚑ parts need confirming)*
+- **load**: Electrical: up to about 30 A, extra-low voltage only (battery packs), but only by sharing the current between several nickel strips. A nickel-strip maker rates one common 0.15 × 8 mm pure nickel strip at about 5 A, 7.5 A at most, with a risk of overheating above about 10 A, and says a second strip welded on top doubles what it can carry (Custom Nickel Strips sizing guide); another strip seller gives 5-10 A for 0.15 mm strip and 10-15 A for 0.2 mm (Battery Nickel Strip). Mechanical: medium per spot. Each spot is strong in shear (sideways sliding of the sheets): spot welding is used 'in preference to more costly mechanical fastening, such as riveting' when high shear strength is needed (Wikipedia 'Electric resistance welding'). Weak in peel (prying the sheets apart from an edge), and the separate spots make overall strength 'often significantly lower than with other welding methods' (Wikipedia). Spot welding can harden and crack the metal around the nugget and reduces fatigue strength, so vibration is a weak point (Wikipedia 'Spot welding'). Cars hold together with several thousand spot welds (Wikipedia).
 - **adjustable**: no: position is fixed once welded; a misplaced spot must be drilled out and re-welded
 - **play_and_precision**: No play once welded. Accuracy depends on clamping and fit-up: 'poor part fit-up and close sheet edge distances can lead to poor or variable quality' (TWI), and spot welding 'tends to harden the material, causing it to warp' (Wikipedia 'Spot welding'). Distortion is greatest on the thinner sheet; keep the thickness ratio at 3:1 or less (Machine Design).
 - **access_needed**: both sides for ordinary sheet spot welding: one electrode presses on each side, and the welder's throat depth (often 13-130 cm, Wikipedia) limits how far from an edge you can reach; 'good design practice must always allow for adequate accessibility' (Wikipedia 'Spot welding'). One side only for battery tab welding, where both probes press on top of the strip side by side ⚑ [uncertain: described by a Hackaday reader, not by a manufacturer]. *(⚑ parts need confirming)*
@@ -1302,6 +1302,8 @@
   - https://www.youtube.com/watch?v=mt0229lU9sU
   - https://www.printables.com/model/1322762-18650-battery-welding-jig
   - https://api.printables.com/graphql/
+  - https://customnickelstrips.com/the-ultimate-guide-to-sizing-nickel-strips-for-battery-packs/
+  - https://www.batterynickelstrip.com/nickel-strips-for-battery-packs-material-thickness-current-and-welding/
 
 ### Finder tags
 
@@ -1313,7 +1315,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **electrical_band**: up to about 30 A ⚑ *needs confirming (source uncertain): `load` is marked [uncertain] here: "Electrical: up to about 30 A per nickel strip [uncertain: depends on strip width and t…"*
+- **electrical_band**: up to about 30 A
 - **tools**: welding or brazing torch, drill and tap, press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: sheet metal
@@ -1366,7 +1368,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** access_needed, environment_limits, everyday_examples, load, materials, off_the_shelf_parts, seal
+- ⚑ **Fields with parts that need confirming:** access_needed, environment_limits, everyday_examples, materials, off_the_shelf_parts, seal
 
 ## 407 Heat-fused plastic pipe (socket fusion, butt fusion, electrofusion)
 

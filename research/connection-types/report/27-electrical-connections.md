@@ -150,7 +150,7 @@
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
 - **tools**: soldering iron, heat gun, press or vice, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: semi-permanent
@@ -345,7 +345,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: none, soldering iron, crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
@@ -557,7 +557,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: soldering iron, drill and tap
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
 - **removability**: tool-free quick release
@@ -760,7 +760,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, soldering iron
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
@@ -971,7 +971,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: soldering iron, crimper, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
@@ -1355,7 +1355,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: crimper, heat gun, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
@@ -1550,7 +1550,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
@@ -1744,7 +1744,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
 - **removability**: removable
@@ -1938,7 +1938,7 @@
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
 - **tools**: crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
@@ -2135,7 +2135,7 @@
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
 - **tools**: soldering iron, crimper, heat gun, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
@@ -2334,7 +2334,7 @@
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
 - **tools**: soldering iron, heat gun, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
@@ -2529,7 +2529,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: soldering iron, crimper, heat gun, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
@@ -2737,7 +2737,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, soldering iron, crimper, drill and tap, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
@@ -2932,7 +2932,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: crimper, press or vice, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: semi-permanent
@@ -3131,7 +3131,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, soldering iron, crimper, drill and tap, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
@@ -3308,7 +3308,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable
@@ -3499,7 +3499,7 @@
 - **clicks**: not applicable
 - **electrical_band**: signal only
 - **tools**: soldering iron, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: semi-permanent
@@ -3703,7 +3703,7 @@
 - **bonds_poorly**: PLA, wood, paper or card
 - **electrical_band**: up to about 3 A ⚑ *needs confirming (source uncertain): `load` is marked [uncertain] here: "Electrical: up to about 3 A [uncertain: no maker publishes a current…"*
 - **tools**: soldering iron, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: partly
 - **removability**: semi-permanent
@@ -3900,7 +3900,7 @@
 - **bonds_poorly**: PLA, slippery plastics (PE or PP)
 - **electrical_band**: signal only
 - **tools**: hand tools ⚑ *needs confirming (best guess): no tool named in `tools_needed`; defaulted to hand tools*
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
@@ -4092,7 +4092,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: none, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable
@@ -4291,7 +4291,7 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: soldering iron, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable

@@ -98,6 +98,9 @@ def load_max(s):
     lv = [w for w in ['light', 'medium', 'heavy'] if re.search(r'\b' + w + r'\b', first)]
     if not lv:
         lv = [w for w in ['light', 'medium', 'heavy'] if re.search(r'\b' + w + r'\b', l[:200])]
+        mech = re.search(r'\bmechanical:\s*([^.;(]*)', l)     # electrical entries give the mechanical band later
+        if not lv and mech:
+            lv = [w for w in ['light', 'medium', 'heavy'] if re.search(r'\b' + w + r'\b', mech.group(1))]
         if not lv:
             return 'medium', 'no light/medium/heavy band in `load`; defaulted to medium'
     return (['light', 'medium', 'heavy'][max(['light', 'medium', 'heavy'].index(w) for w in lv)]), None
@@ -111,7 +114,7 @@ TOOLS = OrderedDict([
     ('heat gun', r'heat gun|hot-air|hot air gun|heat-shrink'),
     ('welding or brazing torch', r'welder|welding|brazing|blowtorch|gas torch|propane|butane torch|oxy-?acetylene|oxy-fuel'),
     ('drill and tap', r'\bdrill|(?<!t-)\btaps\b|\btap (?:and die|set|wrench|drill)|thread tap|\bm\d+ tap|tapping|reamer'),
-    ('press or vice', r'arbor press|\bvice\b|\bvise\b|(?:a|small|hand|bench|hydraulic|rivet|clinching) press\b|press tool|[gf]-clamp|bar clamp|sash clamp|(?<!hose )(?<!ear )(?<!or )(?<!cable )(?<!boot )(?<!drive )(?<!for )(?<!spring )\bclamps\b'),
+    ('press or vice', r'arbor press|\bvice\b|\bvise\b|(?:a|small|hand|bench|hydraulic|rivet|clinching) press\b|press tool|[gf]-clamp|bar clamp|sash clamp|(?<!hose )(?<!ear )(?<!or )(?<!cable )(?<!boot )(?<!drive )(?<!for )(?<!spring )(?<!tail )\bclamps\b'),
     ('sewing or leather tools', r'\bneedle\b(?![- ]nose| file|[- ]tip| applicator| bottle| nozzle)|sewing|stitch|\bawl\b|pricking iron|leather punch|hole punch|rotary punch|grommet|eyelet|\bsetter\b|sailmaker'),
     ('power tools', r'router|power saw|circular saw|mitre saw|miter saw|table saw|band ?saw|scroll saw|jigsaw|grinder|lathe|milling|\bmill\b|laser cutter|\bcnc\b|rotary tool|dremel|power drill|cordless drill|drill press'),
     ('hand tools', r'screwdriver|spanner|wrench|hex key|allen|pliers|hammer|mallet|chisel|knife|scissors|\bfiles?\b|stripper|cutters?\b|\bsaw\b|hacksaw|punch|\bdrift\b|tweezers|socket set'),

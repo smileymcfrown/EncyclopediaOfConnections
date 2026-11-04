@@ -1,6 +1,6 @@
 # motion conversion: Changes one kind of motion into another (cams, linkages, stepping motion)
 
-20 entries. ⚑ = needs confirming: 9 best guesses and 1 values from text marked [uncertain]
+20 entries. ⚑ = needs confirming: 9 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -23,7 +23,7 @@ are welcome. Back to the [index](README.md).
 | 198 | Escapement | – | none | – | steady turning ⚑ | steps, back-and-forth turning, straight push or pull ⚑ | parallel, at an angle, crossed ⚑ | – | clicks ⚑ | press or vice, hand tools | light | 3D print (FDM) | yes | removable |
 | 199 | Bell crank | – | none | – | back-and-forth turning, straight push or pull | straight push or pull | – | – | – | hand tools | heavy | 3D print (FDM) | yes | removable |
 | 200 | Swashplate and wobble plate | – | none | – | steady turning | back-and-forth straight | – | – | – | press or vice, hand tools | heavy | 3D print (FDM) | yes | removable |
-| 278 | Tendon-driven joint | – | electricity ⚑ | – ⚑ | straight push or pull | bending | – | – | – | crimper, heat gun, drill and tap, hand tools | medium | 3D print (FDM) | yes | removable |
+| 278 | Tendon-driven joint | – | electricity | – ⚑ | straight push or pull | bending | – | – | – | crimper, heat gun, drill and tap, hand tools | medium | 3D print (FDM) | yes | removable |
 | 279 | Walking linkage | – | none | – | steady turning | steady turning | parallel | – | – | none, soldering iron, hand tools | heavy | 3D print (FDM) | no | removable |
 | 448 | Linked lead screws | – | electricity | keeps its last state | steady turning | straight push or pull | – | – | – | hand tools | heavy | off-the-shelf part | yes | removable |
 
@@ -45,4 +45,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **278 Tendon-driven joint**, `power_source` = electricity: `power` is marked [uncertain] here: "…whereas a back-drivable drive lets the elastic return open the finger [uncertain].…"
+None.

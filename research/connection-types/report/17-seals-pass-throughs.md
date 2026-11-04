@@ -2045,7 +2045,7 @@
 - **power**: passive (no power needed): the mechanism itself needs no power; the spinning part is usually driven by a motor (US3586413 uses one motor for both). If the motor stops, the cable simply stays connected; nothing releases
 - **removability**: removable: the cable or tube is clamped at each end and guided by the carrier, so it can be unclamped and replaced; in blood centrifuges the tube set (umbilicus) is changed between uses (US9545637 describes the umbilicus as part of a fluid processing assembly) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **reuse_cycles**: many times
-- **tools_needed**: Screwdriver or hex keys to fit gears, bearings and cable clamps; soldering iron or crimp tool for the cable ends ⚑ [uncertain]. The printed demonstrator snaps together: 'The bases, axle, and band clip in with a snap fit' (Printables 1128267); its print-in-place gears are freed with a blunt butter knife. *(⚑ parts need confirming)*
+- **tools_needed**: Screwdriver or hex keys to fit gears, bearings and cable clamps; soldering iron or crimp tool for the cable ends (SparkFun 'Working with Wire'). The printed demonstrator snaps together: 'The bases, axle, and band clip in with a snap fit' (Printables 1128267); its print-in-place gears are freed with a blunt butter knife.
 - **seal**: none: the mechanism itself doesn't seal anything, but because the tube runs unbroken from base to rotor, a liquid path stays closed with no rotating seal to leak ('The sealed, sterile integrity of the fluid processing assembly may thus be maintained without the need for rotating seals', US9545637; Ito et al. 1975: 'eliminates complications arising from rotating seals')
 - **load**: light: it carries cables or tubes, not mechanical loads. The spinning platform must run on its own bearing (in US3586413 the platform and rotating support each have their own bearings). The weak point is the cable itself, which is bent on every turn: continuous bending makes most cables 'corkscrew', a major reason conductors break (igus, Basics of Cable Carriers).
 - **adjustable**: no: the 2:1 ratio is fixed by the gears; at most the loop length and clamp positions can be set during assembly ⚑ [uncertain] *(⚑ parts need confirming)*
@@ -2127,6 +2127,7 @@
   - https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
   - https://en.wikipedia.org/wiki/Clockspring
   - https://www.youcanic.com/properly-set-a-new-clock-spring/
+  - https://learn.sparkfun.com/tutorials/working-with-wire/all
 
 ### Finder tags
 
@@ -2138,7 +2139,7 @@
 - **shaft_layout**: in line
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: soldering iron, crimper, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends [uncertain]. The printed demonstrator sn…"*
+- **tools**: soldering iron, crimper, hand tools
 - **load_max**: light
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -2190,7 +2191,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, aliases, common_failures, environment_limits, input_output, maker_difficulty, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, removability, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** adjustable, aliases, common_failures, environment_limits, input_output, maker_difficulty, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, removability, safety_notes
 
 ## 295 Radial lip seal (rotary shaft seal, oil seal)
 

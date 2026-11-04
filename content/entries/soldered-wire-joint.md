@@ -47,7 +47,7 @@ finder:
   clicks: not applicable
   electrical_band: above about 30 A
   tools: [soldering iron, heat gun, press or vice, hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'no'
   removability: semi-permanent
@@ -95,10 +95,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [metal]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -362,7 +359,6 @@ Burns and fire: the tip runs at about 325-375 °C; always park the iron in its s
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Soldered wire joint*: are soldered splices allowed in mains wiring? Wikipedia (*Rat-tail splice*) says most or all North American codes forbid tape-only and soldered splices at 110 V and above; OSHA 1910.303(c)(3)(i) allows them if the wires are first joined securely without solder. Both are in `safety_notes` with 'check your local code'.
 - ⚑ Research note: *Soldered wire joint*: tinning wire ends for screw terminals. SparkFun suggests it; Wikipedia (*Screw terminal*) warns that solder creeps under pressure and the joint works loose. The entry follows Wikipedia and points to ferrules.
 

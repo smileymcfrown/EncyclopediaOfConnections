@@ -86,15 +86,10 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release
-      [uncertain]…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
-  safety_notes]
+uncertain_fields: [reuse_cycles, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits, safety_notes]
 diagram_idea: 'A three-frame side view: frame 1 the hook''s sloped lead face touches the ledge; frame 2 the arm bends aside
   by the undercut depth y (label arm length L, root thickness h, root fillet, lead angle); frame 3 the arm springs back straight
   and the hook''s back face sits behind the ledge, with small insets showing a 90° back face marked ''permanent'' and a sloped
@@ -185,6 +180,7 @@ sources:
 - https://designerdata.nl/calculators/snap-fit-joints/snap-fitting-hook-straight-ring-segment
 - https://www.fictiv.com/tools/snap-fit-calculator
 - https://www.engineersedge.com/snap_fit_straight.htm
+- https://www.electronicdesign.com/technologies/components/article/21765277/enclosures-snap-and-fit-easily
 research: research/connection-types/results/Cantilever_snap_fit.json
 image:
   file: cantilever-snap-fit.webp
@@ -308,7 +304,7 @@ Avoid it when the joint must carry high or continuous loads (use screws into [he
   - laser cut: flat springy tabs in acrylic, POM or plywood; brittle acrylic needs long, gentle arms ⚑ [uncertain]
   - sheet metal: spring-steel clips
 - **Printing it in one piece (print in place):** no: the arm prints as part of one piece and snaps into a separately printed mating part; no extra hardware is needed
-- **Tools:** none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release ⚑ [uncertain]
+- **Tools:** none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release (OKW's clip-on Snaptec lids come off with a small flat screwdriver or the supplied nylon key; Electronic Design)
 - **Difficulty:** easy to moderate: the hook is just part of the printed shape, but getting the arm length, thickness and hook depth right for your material and printer usually takes one or two test prints
 
 ### 3D printing tips
@@ -377,8 +373,7 @@ Generally none known. Over-bent arms can snap and send small sharp fragments fly
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 9 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release ⚑ [uncertain]…"
+- ⚑ 8 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -407,3 +402,4 @@ Generally none known. Over-bent arms can snap and send small sharp fragments fly
 - <https://designerdata.nl/calculators/snap-fit-joints/snap-fitting-hook-straight-ring-segment>
 - <https://www.fictiv.com/tools/snap-fit-calculator>
 - <https://www.engineersedge.com/snap_fit_straight.htm>
+- <https://www.electronicdesign.com/technologies/components/article/21765277/enclosures-snap-and-fit-easily>

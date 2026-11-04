@@ -98,11 +98,7 @@ finder:
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
-open_points:
-- kind: content
-  note: '*Hot-melt adhesive* (141): the entry calls standard EVA glue sticks weak on polypropylene and polyethylene (Henkel
-    p. 8), but Loctite''s plastics design guide gives an EVA hot melt (1942) 1.4 MPa on PE and 1.7 MPa on PP, about the same
-    as on ABS. Check which to lead with.'
+open_points: []
 uncertain_fields: []
 diagram_idea: 'A cut-away glue gun showing the stick pushed by the trigger into the heated chamber and out of the nozzle,
   next to two joint close-ups: hot glue flowing into the grain of wood and wrapping around a wire, and the same joint with
@@ -282,7 +278,7 @@ Avoid it for load-bearing or structural joints (use epoxy, screws or a structura
 - **Sealing:** watertight: a continuous bead or over-mould keeps water out of wire splices and cable entries; a hot-glue over-mould made in a 3D-printed mould survived a saltwater bath without leaking (Hackaday 2024), and polyolefin hot melts are good moisture barriers (Wikipedia). It is not a pressure seal, and it can peel away from smooth surfaces.
 - **Adjustable:** no: once cool it is fixed, though it can be softened with heat and repositioned or peeled off (Raise3D)
 - **Access needed:** one side only (blind): glue is put on one face, or run as a [fillet](../glossary.md#chamfer--fillet) along the outside of the joint, from the front; nothing has to reach behind the parts
-- **Materials:** Glue sticks are usually EVA (ethylene-vinyl acetate) blended with tackifier resin and wax; polyamide sticks resist heat and oil better; polyolefin types are made for polypropylene and polyethylene (Wikipedia; Henkel p. 8). Bonds well: porous or rough materials such as wood, card, paper, fabric and foam (Wikipedia; Surebonder), many plastics (Henkel p. 8), and rubber, ceramics, metal and glass to some degree (Wikipedia). 3D prints: fine for light and temporary joints on PLA, PETG, ABS and resin (Raise3D), and hot glue sticks very firmly to PETG unless a release agent is used (Hackaday 2024); but a hot gun can soften thin PLA, foam or thin plastic (thisTOthat: 'it can melt the material you are working with'; CNC Kitchen: PLA gives at about 60 °C). Weak: smooth metal and glass, which chill the glue before it can wet them, unless cleaned, roughened and preheated (Henkel p. 8; Glu-Stix); standard EVA sticks on polypropylene and polyethylene (use polyolefin hot melt; Wikipedia; Henkel p. 8); silicone and PTFE are not suitable, nor is soft PVC (Pattex Hot Sticks data sheet, French edition).
+- **Materials:** Glue sticks are usually EVA (ethylene-vinyl acetate) blended with tackifier resin and wax; polyamide sticks resist heat and oil better; polyolefin types are made for polypropylene and polyethylene (Wikipedia; Henkel p. 8). Bonds well: porous or rough materials such as wood, card, paper, fabric and foam (Wikipedia; Surebonder), many plastics (Henkel p. 8), and rubber, ceramics, metal and glass to some degree (Wikipedia). 3D prints: fine for light and temporary joints on PLA, PETG, ABS and resin (Raise3D), and hot glue sticks very firmly to PETG unless a release agent is used (Hackaday 2024); but a hot gun can soften thin PLA, foam or thin plastic (thisTOthat: 'it can melt the material you are working with'; CNC Kitchen: PLA gives at about 60 °C). Weak: smooth metal and glass, which chill the glue before it can wet them, unless cleaned, roughened and preheated (Henkel p. 8; Glu-Stix); silicone and PTFE are not suitable, nor is soft PVC (Pattex Hot Sticks data sheet, French edition). Polypropylene and polyethylene (PP and PE): makers advise against standard sticks, since the same Pattex sheet lists PE and PP as not suitable and polyolefin hot melts are made for these plastics (Wikipedia; Henkel p. 8). In Henkel's own measured test (block shear), though, an EVA hot melt (Loctite 1942) held about 1.4 MPa on PE and 1.7 MPa on PP, much as it did on ABS (1.4 MPa), while a polyolefin bonder broke the PE test blocks before the bond failed and held 12.4 MPa on PP (Henkel pp. 21, 51, 63). So standard sticks can grip PE and PP, but test a scrap first, or use a polyolefin hot melt.
 - **Heat, cold, water and wear:** Heat: craft EVA glue is limited to below about 60-80 °C and loses strength well before it melts, so hot glue softens in a hot car (Wikipedia; Raise3D). Polyamide sticks work up to about 70 °C under load, and cured reactive PUR hot melt to about 150 °C (Wikipedia). Cold: thisTOthat warns hot glue 'does not withstand cold temperatures'. Creep: EVA hot glue slowly gives way under a constant load (Wikipedia). Weather and chemicals: cheap craft sticks resist weathering and some chemicals less well than specialised hot melts (Wikipedia), and isopropyl alcohol loosens the bond (Make:). Polyamide sticks absorb moisture from the air, which can make them foam and form voids when melted (Wikipedia).
 
 ## Making it
@@ -360,7 +356,7 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ Research note: *Hot-melt adhesive* (141): the entry calls standard EVA glue sticks weak on polypropylene and polyethylene (Henkel p. 8), but Loctite's plastics design guide gives an EVA hot melt (1942) 1.4 MPa on PE and 1.7 MPa on PP, about the same as on ABS. Check which to lead with.
+Nothing is marked on this page.
 
 ## Sources
 

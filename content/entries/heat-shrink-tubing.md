@@ -98,10 +98,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: ['plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -349,7 +346,6 @@ Heat-gun burns: a heat gun blows air at about 100-550 °C, much hotter than a ha
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 
 ## Sources
 

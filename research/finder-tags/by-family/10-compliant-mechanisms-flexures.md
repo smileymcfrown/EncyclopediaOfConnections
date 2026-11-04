@@ -1,6 +1,6 @@
 # compliant mechanisms & flexures: Bends instead of hinging
 
-12 entries. ⚑ = needs confirming: 19 best guesses and 3 values from text marked [uncertain]
+12 entries. ⚑ = needs confirming: 19 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -8,8 +8,8 @@ are welcome. Back to the [index](README.md).
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | 23 | Bistable compliant mechanism | lid, door or cover ⚑ | none | – | – | – | – | – | clicks ⚑ | none | light | 3D print (FDM) | no | tool-free quick release |
 | 49 | Living hinge | lid, door or cover | none | – | – | – | – | – | – | none | light | off-the-shelf part ⚑ | no | permanent |
-| 50 | Flexure hinge | lid, door or cover ⚑ | none | – | – | – | – | – | – | none, hand tools ⚑ | medium | 3D print (FDM) | no | permanent |
-| 51 | Parallel leaf-spring flexure | – | none | – | – | – | – | – | – | none, hand tools ⚑ | medium | 3D print (FDM) | yes | permanent |
+| 50 | Flexure hinge | lid, door or cover ⚑ | none | – | – | – | – | – | – | none, hand tools | medium | 3D print (FDM) | no | permanent |
+| 51 | Parallel leaf-spring flexure | – | none | – | – | – | – | – | – | none, hand tools | medium | 3D print (FDM) | yes | permanent |
 | 52 | Compliant gripper and force amplifier | something to grip | none | – | straight push or pull | steady turning, straight push or pull | – | – | – | none, hand tools | light | 3D print (FDM) | no | tool-free quick release |
 | 53 | Fin-ray gripper | something to grip | none | – | – | – | – | – | – | hand tools | light | 3D print (FDM) | no | tool-free quick release |
 | 174 | Lamina emergent torsional joint | – | none | – | – | – | – | – | clicks ⚑ | power tools, hand tools ⚑ | light | laser cut | no | permanent |
@@ -47,6 +47,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **50 Flexure hinge**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks [uncertain]; bought pivot bearings are f…"
-- ⚑ **51 Parallel leaf-spring flexure**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades [uncertain]…"
 - ⚑ **174 Lamina emergent torsional joint**, `tools` = power tools, hand tools: `tools_needed` is marked [uncertain] here: "…model has to hold its shape (BYU CMR 'Mini Flex Chair' instructions) [uncertain] (for water jet and stamping)…"

@@ -90,14 +90,10 @@ finder:
   turns: [part of a turn]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs
-      [uncertain]; garage-door torsion springs…"'
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [motion, tools_needed, adjustable, play_and_precision, processes, off_the_shelf_parts, safety_notes, common_failures,
+uncertain_fields: [motion, adjustable, play_and_precision, processes, off_the_shelf_parts, safety_notes, common_failures,
   related, make_it_yourself]
 diagram_idea: Side view of a single arm pivoting on a post, with a load at its tip and a spring running from a point on the
   arm to an anchor directly above the pivot, shown at three angles with the spring stretched different amounts, plus a small
@@ -158,6 +154,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Anglepoise_1227.jpg
 - https://www.youtube.com/watch?v=WnDc7tv79HM
 - https://www.youtube.com/watch?v=oBnVt-Si2o0
+- https://issues.cycleworld.com/article/2006/4/1/tool-time
 research: research/connection-types/results/Spring_balancer_gravity_compensation.json
 image:
   file: drawn/anim/spring-balancer.svg
@@ -269,7 +266,7 @@ Avoid it when the load changes a lot (a balancer is tuned to one weight; use an 
   - sheet metal: brackets and parallelogram links ⚑ [uncertain]
   - off-the-shelf part: extension springs, torsion springs, constant-force springs, gas springs, tool balancers, counterweights, pulleys and cable
 - **Printing it in one piece (print in place):** no: it needs metal springs, pins or shafts and usually bearings, and is assembled from printed parts
-- **Tools:** screwdriver or hex keys for pivots and anchor points; pliers or a spring hook to fit stretched extension springs ⚑ [uncertain]; garage-door torsion springs need special winding tools and training (Wikipedia 'Garage door')
+- **Tools:** screwdriver or hex keys for pivots and anchor points; a spring hook to stretch extension springs onto their anchors, much easier than pliers or screwdrivers (Cycle World 'Tool Time'); garage-door torsion springs need special winding tools and training (Wikipedia 'Garage door')
 - **Difficulty:** moderate: the arm and brackets are easy to print or cut, and a counterweight is easy, but a spring balancer needs a little geometry to pick the spring stiffness and anchor points, bought steel springs, low-friction pivots and some tuning
 
 ### 3D printing tips
@@ -326,8 +323,7 @@ Stored spring energy: balance springs are always under tension, and large ones (
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs ⚑ [uncertain]; garage-door torsion springs…"
+- ⚑ 11 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -350,3 +346,4 @@ Stored spring energy: balance springs are always under tension, and large ones (
 - <https://commons.wikimedia.org/wiki/File:Anglepoise_1227.jpg>
 - <https://www.youtube.com/watch?v=WnDc7tv79HM>
 - <https://www.youtube.com/watch?v=oBnVt-Si2o0>
+- <https://issues.cycleworld.com/article/2006/4/1/tool-time>

@@ -53,7 +53,7 @@ finder:
   clicks: not applicable
   electrical_band: up to about 30 A
   tools: [crimper, heat gun, hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'no'
   removability: permanent
@@ -101,10 +101,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: ['plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -351,7 +348,6 @@ PULL-OUTS: the wrong tool, a mismatched splice or the wrong wire size gives crim
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Crimped butt splice*: over-crimping (SparkFun: 'almost impossible to over crimp'; Wikipedia: the squeeze must be 'not too light, nor too strong'), both recorded; whether to add solder over a crimp (Hackaday commenters disagree); twisting wires before crimping (Gardner Bender: join them first; NASA: insert them parallel, not twisted), only NASA's rule is in the entry. No data found on aluminium-rated butt splices or splices with a different wire size at each end.
 
 ## Sources

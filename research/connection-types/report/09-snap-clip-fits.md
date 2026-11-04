@@ -43,7 +43,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable when designed to separate (sloped back face, release tab or access slot); permanent versions with a hidden 90° hook can only be undone by breaking the hook (Wikipedia 'Snap-fit'; HP MJF handbook)
 - **reuse_cycles**: many times if the arm is designed for repeated use, i.e. bent to only about 60% of the one-time strain limit (Covestro Table 2) or to DuPont's 'used frequently' values (e.g. acetal 2-4% instead of 8%); a few times, or once, if the arm is strained near its limit, is printed in brittle PLA, or is printed standing up so its layers peel ⚑ [uncertain] (no cycle counts found for printed arms) *(⚑ parts need confirming)*
-- **tools_needed**: none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release (OKW's clip-on Snaptec lids come off with a small flat screwdriver or the supplied nylon key; Electronic Design)
 - **seal**: none: a snap fit holds parts but doesn't seal; add a gasket or O-ring if needed
 - **load**: light to medium: strongest against pulling apart in the direction the hook resists (Covestro says its positive snap joint 'can transmit considerable forces'), weaker in side-to-side shear, which locating lugs should carry (Hubs), and weakest if the arm is pried or bent further. Assembly force for fingers is usually kept below about 50-100 N (HP MJF handbook).
 - **adjustable**: no: position and holding force are fixed by the arm and hook shape; some designs take up tolerances by leaving the arm slightly bent after assembly (DuPont p. 75)
@@ -145,6 +145,7 @@
   - https://designerdata.nl/calculators/snap-fit-joints/snap-fitting-hook-straight-ring-segment
   - https://www.fictiv.com/tools/snap-fit-calculator
   - https://www.engineersedge.com/snap_fit_straight.htm
+  - https://www.electronicdesign.com/technologies/components/article/21765277/enclosures-snap-and-fit-easily
 
 ### Finder tags
 
@@ -156,7 +157,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release [uncertain]…"*
+- **tools**: none, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -208,7 +209,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, off_the_shelf_parts, processes, reuse_cycles, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, off_the_shelf_parts, processes, reuse_cycles, safety_notes
 
 ## 45 Annular snap fit
 
@@ -253,7 +254,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: pull-off designs with about a 30-45° back face come apart by hand; permanent versions with a 90° back face need a hub that is open at the far end and can only be broken apart (Machine Design; DuPont p. 73)
 - **reuse_cycles**: many times for pull-off designs such as pen caps, although 'repeated use can cause permanent strain and loosening' (Wikipedia 'Snap-fit'); once for 90° permanent designs
-- **tools_needed**: none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press or mallet for large, stiff joints ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press for large, stiff joints pushed on straight; by hand, tip the bead in at an angle and press or knock the rest into place, which takes much less force (Covestro p. 23)
 - **seal**: dust-resistant: a continuous (unslotted) ring closes the joint all the way round; Covestro calls this a 'semi-hermetic seal' and Hubs says an annular snap fit 'can provide a watertight seal' with proper geometry and material, but for a dependable watertight or pressure seal add an O-ring or gasket (not verified for 3D-printed parts) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **load**: medium: annular snaps 'are generally stronger, but need greater assembly force than their cantilevered counterparts' (Machine Design; DuPont p. 72), and 'quite small undercuts give joints of considerable strength' (Covestro p. 6). Strongest against pulling apart along the axis, especially with a steep back face or a groove placed well away from the tube's end (Covestro p. 22); weak against twisting (the parts just turn) and against being tipped or pried from one side, which is also how they are opened. Slotting the ring for easier assembly lowers the holding force (DuPont p. 73).
 - **adjustable**: no: the fit is fixed by the bead and groove sizes; the parts can still be turned to any angle unless keyed
@@ -360,7 +361,7 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…apart with a knife blade'); a press or mallet for large, stiff joints [uncertain]…"*
+- **tools**: none, press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
@@ -412,7 +413,7 @@
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, holding_principle, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, rules_of_thumb, safety_notes, seal, special_behaviour, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, holding_principle, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, rules_of_thumb, safety_notes, seal, special_behaviour
 
 ## 46 Torsional snap fit
 

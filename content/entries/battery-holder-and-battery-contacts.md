@@ -89,10 +89,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -342,7 +339,6 @@ LITHIUM CELLS: shorting, crushing, puncturing, overheating or overcharging a lit
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Battery holder and battery contacts*: the "up to about 3 A" rating in `load` comes from forum users (budgetlightforum), not from tests or a data sheet; check it against a holder maker's data sheet.
 
 ## Sources

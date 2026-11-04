@@ -89,10 +89,7 @@ finder:
   turns: [not applicable]
   drive_split: [not applicable]
   made_of: [3D prints, wood, metal]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [load, play_and_precision, making_tips_3d_printing, safety_notes, common_failures]
@@ -335,7 +332,6 @@ Small strong magnets can be swallowed: if two or more (or a magnet and a piece o
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 
 ## Sources
 

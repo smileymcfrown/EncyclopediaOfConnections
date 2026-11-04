@@ -1,6 +1,6 @@
 # seals & pass-throughs: Seals out water and dust, or carries cables and fluid across a joint
 
-16 entries. ⚑ = needs confirming: 12 best guesses and 2 values from text marked [uncertain]
+16 entries. ⚑ = needs confirming: 12 best guesses and 1 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -16,7 +16,7 @@ are welcome. Back to the [index](README.md).
 | 210 | Compression fitting | hoses or pipes | none | – | – | – | – | – | – | hand tools | heavy | off-the-shelf part | partly | removable | – |
 | 275 | Iris valve | – | none | – | – | – | – | – | clicks | none, hand tools ⚑ | medium | off-the-shelf part | yes | removable | – |
 | 290 | Bellows boot and way cover | – | none | – | – | – | – | – | – | hand tools | light | off-the-shelf part ⚑ | no | removable | – |
-| 291 | Anti-twister mechanism | – | none | – | steady turning | steady turning | in line | – | – | soldering iron, crimper, hand tools ⚑ | light | 3D print (FDM) | no | removable | – |
+| 291 | Anti-twister mechanism | – | none | – | steady turning | steady turning | in line | – | – | soldering iron, crimper, hand tools | light | 3D print (FDM) | no | removable | – |
 | 295 | Radial lip seal | shaft ⚑ | none | – | – | – | – | – | – | press or vice, hand tools | light | off-the-shelf part | no | semi-permanent | – |
 | 338 | Cable through a hinge | lid, door or cover, wires ⚑ | none | – | – | – | – | – | – | soldering iron, crimper, heat gun, drill and tap, hand tools | light ⚑ | 3D print (FDM) | partly | removable | up to about 3 A |
 | 402 | Tapered pipe thread | hoses or pipes | none | – | – | – | – | – | – | press or vice, hand tools | heavy | off-the-shelf part | no | semi-permanent | – |
@@ -45,4 +45,3 @@ The script was unsure of these values.
 These values are probably right, but the research run could not confirm the fact behind them.
 
 - ⚑ **275 Iris valve**, `tools` = none, hand tools: `tools_needed` is marked [uncertain] here: "…rs for fabric, and a hose clamp or cable ties to grip the sleeve ends [uncertain]…"
-- ⚑ **291 Anti-twister mechanism**, `tools` = soldering iron, crimper, hand tools: `tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends [uncertain]. The printed demonstrator sn…"

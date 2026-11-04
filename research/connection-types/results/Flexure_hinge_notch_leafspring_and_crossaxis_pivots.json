@@ -44,7 +44,7 @@
     "power": "passive (no power needed)",
     "removability": "permanent for one-piece notch, leaf and printed hinges (they are part of the part); removable for crossed pivots that clip together (BYU CMR Cross-Axis Flexure Pivot), for metal blades clamped between blocks, and for bought pivot bearings that mount in a hole (C-Flex design guide)",
     "reuse_cycles": "many times for clip-together, clamped and bought versions. The real limit is flex life, not taking it apart: effectively unlimited when the strain is kept low (a Riverhawk pivot was cycled over 12 billion times in twenty years; C-Flex rates 'indefinite life' below a set angle), but limited in 3D-printed plastic, which yields early and creeps (Akaki Kuumeri)",
-    "tools_needed": "none for printed one-piece or clip-together hinges; a screwdriver or hex key to clamp metal blades between blocks [uncertain]; bought pivot bearings are fitted into a bore [uncertain: fitting method not checked]",
+    "tools_needed": "none for printed one-piece or clip-together hinges; a screwdriver or hex key for the bolts that clamp metal blades between blocks (DSPE 'Flexure assembly using dove tail clamps'); bought pivot bearings go into a close-fitting hole and are held by a clamp screw, a cup-point set screw, a cross pin or a shrink fit (Free-Flex mounting methods)",
     "seal": "none",
     "load": "light to medium. Bought steel crossed-spring pivots are very stiff sideways (radial stiffness up to 100,000 lb/in) and carry radial loads up to 1,600 lb (about 7 kN) in the biggest sizes (Riverhawk); printed plastic hinges carry only light loads. Load capacity and stiffness fall as the rotation angle grows (C-Flex design guide; DSPE 'Infinity flexure'). A single blade is strong when pulled along its length, weaker when pushed (it can buckle) and weak against twisting (Wikipedia 'Flexure').",
     "adjustable": "No: stiffness and range are fixed by the section's thickness, length, width and material. You can limit travel with end stops (Akaki Kuumeri), and bought pivots come in thinner or thicker spring series: thinner springs give more range but less stiffness and load capacity (C-Flex design guide).",
@@ -190,11 +190,12 @@
       "https://www.youtube.com/watch?v=97t7Xj_iBv0",
       "https://www.youtube.com/watch?v=rUH3cDmeXC4",
       "https://www.youtube.com/watch?v=PaypcVFPs48",
-      "https://www.youtube.com/watch?v=K0wr_ZhhtbE"
+      "https://www.youtube.com/watch?v=K0wr_ZhhtbE",
+      "https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps",
+      "https://flexpivots.com/resources/mounting-methods"
     ]
   },
   "uncertain": [
-    "tools_needed",
     "play_and_precision",
     "processes",
     "off_the_shelf_parts",

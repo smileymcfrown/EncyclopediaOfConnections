@@ -2886,11 +2886,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear,
-        for release [uncertain]…"'
+  needs_confirming: {}
   confirmed: []
 - num: 45
   name: Annular snap fit
@@ -2953,11 +2949,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts']
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…apart with a knife blade''); a press or mallet for large,
-        stiff joints [uncertain]…"'
+  needs_confirming: {}
   confirmed: []
 - num: 46
   name: Torsional snap fit
@@ -3285,10 +3277,6 @@
     connects:
       kind: best guess
       reason: worked out from its name, but joining parts is not one of its two main jobs
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades
-        between blocks [uncertain]; bought pivot bearings are f…"'
   confirmed: []
 - num: 51
   name: Parallel leaf-spring flexure (linear flexure stage)
@@ -3351,11 +3339,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…sitioning Device''); a hex key or screwdriver for clamped
-        metal blades [uncertain]…"'
+  needs_confirming: {}
   confirmed: []
 - num: 52
   name: Compliant gripper and force amplifier
@@ -7744,11 +7728,7 @@
     turns: [part of a turn]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…or points; pliers or a spring hook to fit stretched
-        extension springs [uncertain]; garage-door torsion springs…"'
+  needs_confirming: {}
   confirmed: []
 - num: 120
   name: Printed leaf spring (flat cantilever spring)
@@ -15853,11 +15833,7 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or
         cord']
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…ps release clips; a rubber mallet is not needed and
-        can crack acrylic [uncertain].…"'
+  needs_confirming: {}
   confirmed: []
 - num: 242
   name: Cross-halving slot joint (egg-crate joint)
@@ -18265,10 +18241,6 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
   needs_confirming:
-    power_source:
-      kind: source uncertain
-      reason: '`power` is marked [uncertain] here: "…whereas a back-drivable drive lets the elastic return open
-        the finger [uncertain].…"'
     power_loss:
       kind: best guess
       reason: '`power` mentions losing power, but none of the three outcomes'
@@ -19118,11 +19090,7 @@
     turns: [full turns]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    tools:
-      kind: source uncertain
-      reason: '`tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for
-        the cable ends [uncertain]. The printed demonstrator sn…"'
+  needs_confirming: {}
   confirmed: []
 - num: 292
   name: Weight-activated gripping tongs (lifting tongs, lewis)
@@ -19471,8 +19439,8 @@
     overload_response: not applicable
     clicks: not applicable
     glue_traits: [fills gaps, can be undone]
-    bonds_well: [PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam]
-    bonds_poorly: [PLA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic]
+    bonds_well: [PLA, PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam]
+    bonds_poorly: [nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic]
     tools: [heat gun, drill and tap, hand tools]
     load_max: medium
     usual_process: off-the-shelf part
@@ -19525,12 +19493,12 @@
   needs_confirming:
     bonds_well:
       kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints
-        won''t bond [uncertain]. To fix cooled PCL to materi…"'
+      reason: '`materials` is marked [uncertain] here: "…, should take a hot bond too, but it won''t bond to nylon
+        or PP prints [uncertain: from the material lists abov…"'
     bonds_poorly:
       kind: source uncertain
-      reason: '`materials` is marked [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints
-        won''t bond [uncertain]. To fix cooled PCL to materi…"'
+      reason: '`materials` is marked [uncertain] here: "…, should take a hot bond too, but it won''t bond to nylon
+        or PP prints [uncertain: from the material lists abov…"'
   confirmed: []
 - num: 298
   name: Reciprocal frame (self-supporting stick bridge)
@@ -21315,7 +21283,7 @@
     clicks: not applicable
     electrical_band: above about 30 A
     tools: [soldering iron, heat gun, press or vice, hand tools]
-    load_max: light
+    load_max: medium
     usual_process: off-the-shelf part
     adjustable: 'no'
     removability: semi-permanent
@@ -21363,10 +21331,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 325
   name: Wood screw (including coach screw and Confirmat screw)
@@ -21689,10 +21654,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 330
   name: Pogo pin (spring-loaded contact pin)
@@ -21756,10 +21718,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 331
   name: Magnetic connector (magnetic pogo connector, magnetic breakaway power connector)
@@ -21823,10 +21782,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, wood, metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 332
   name: Screw-in threaded insert (wire thread insert, self-tapping insert)
@@ -22790,10 +22746,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 347
   name: Crimp terminals (ring, fork and spade terminals, blade quick-disconnect)
@@ -22873,7 +22826,7 @@
     clicks: not applicable
     electrical_band: up to about 30 A
     tools: [crimper, heat gun, hand tools]
-    load_max: light
+    load_max: medium
     usual_process: off-the-shelf part
     adjustable: 'no'
     removability: permanent
@@ -22921,10 +22874,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: ['plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 349
   name: Spring-clamp wire connector (lever connector, push-in wire connector)
@@ -22940,7 +22890,7 @@
     clicks: not applicable
     electrical_band: up to about 30 A
     tools: [crimper, hand tools]
-    load_max: light
+    load_max: medium
     usual_process: off-the-shelf part
     adjustable: 'no'
     removability: tool-free quick release
@@ -22989,9 +22939,6 @@
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
   needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
     plugs_in:
       kind: best guess
       reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
@@ -23010,7 +22957,7 @@
     clicks: not applicable
     electrical_band: up to about 30 A
     tools: [crimper, hand tools]
-    load_max: light
+    load_max: medium
     usual_process: off-the-shelf part
     adjustable: 'yes'
     removability: removable
@@ -23058,10 +23005,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 351
   name: Wire-end ferrule (bootlace ferrule, end sleeve)
@@ -23125,10 +23069,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: ['plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 352
   name: High-current battery plug (bullet connector, polarised battery connector)
@@ -23192,10 +23133,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 353
   name: Heat-shrink tubing (heat-shrink sleeve, adhesive-lined heat-shrink)
@@ -23259,10 +23197,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: ['plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 354
   name: Solder sleeve (solder-seal splice)
@@ -23278,7 +23213,7 @@
     clicks: not applicable
     electrical_band: up to about 30 A
     tools: [soldering iron, crimper, heat gun, hand tools]
-    load_max: light
+    load_max: medium
     usual_process: off-the-shelf part
     adjustable: 'no'
     removability: permanent
@@ -23326,10 +23261,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: ['plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 355
   name: Standard plug-and-socket connector (USB, barrel jack, audio jack, RJ45)
@@ -23393,10 +23325,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 356
   name: Insulation-displacement connector (IDC, ribbon-cable plug, punch-down, T-tap)
@@ -23461,9 +23390,6 @@
     drive_split: [not applicable]
     made_of: ['plastic sheet, tube or moulded parts', metal]
   needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
     plugs_in:
       kind: best guess
       reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
@@ -23530,10 +23456,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 358
   name: Twist-on wire connector (wire nut)
@@ -23597,10 +23520,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: ['plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 359
   name: Conductive thread (sewn circuit, e-textile stitching)
@@ -23664,10 +23584,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 360
   name: Conductive tape (copper foil tape, conductive fabric tape)
@@ -23743,9 +23660,6 @@
       kind: source uncertain
       reason: '`load` is marked [uncertain] here: "Electrical: up to about 3 A [uncertain: no maker publishes a
         current…"'
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
   confirmed: []
 - num: 361
   name: Conductive glue, paint and ink (electrically conductive adhesive, silver epoxy)
@@ -23764,7 +23678,7 @@
     bonds_poorly: [PLA, slippery plastics (PE or PP)]
     electrical_band: signal only
     tools: [hand tools]
-    load_max: light
+    load_max: medium
     usual_process: off-the-shelf part
     adjustable: 'no'
     removability: permanent
@@ -23817,9 +23731,6 @@
     tools:
       kind: best guess
       reason: no tool named in `tools_needed`; defaulted to hand tools
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
   confirmed: []
 - num: 362
   name: Flat flexible cable and latching connector (FFC with ZIF connector)
@@ -23883,10 +23794,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 363
   name: Wire wrap (wire-wrapped connection)
@@ -23950,10 +23858,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [metal]
-  needs_confirming:
-    load_max:
-      kind: best guess
-      reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  needs_confirming: {}
   confirmed: []
 - num: 364
   name: Hose clamp (worm-drive clamp, ear clamp, spring hose clamp)
@@ -26766,11 +26671,7 @@
     turns: [not applicable]
     drive_split: [not applicable]
     made_of: [metal]
-  needs_confirming:
-    electrical_band:
-      kind: source uncertain
-      reason: '`load` is marked [uncertain] here: "Electrical: up to about 30 A per nickel strip [uncertain: depends
-        on strip width and t…"'
+  needs_confirming: {}
   confirmed: []
 - num: 407
   name: Heat-fused plastic pipe (socket fusion, butt fusion, electrofusion)
