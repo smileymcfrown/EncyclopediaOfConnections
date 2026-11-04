@@ -91,17 +91,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "To fit: spanner or socket for the anchor bolts [uncertain: specific
-      bolt types vary]. T…"'
 confirmed: []
 open_points: []
-uncertain_fields: [tools_needed, play_and_precision, materials, processes, print_in_place, making_tips_3d_printing, off_the_shelf_parts,
+uncertain_fields: [play_and_precision, materials, processes, print_in_place, making_tips_3d_printing, off_the_shelf_parts,
   when_to_use, environment_limits, common_failures, links]
 diagram_idea: 'Side view of a seat-belt spool with its ratchet wheel, shown twice: a slow pull where the spring-held flyweight
   stays tucked in and the spool turns, and a sudden jerk where the flyweight swings out, a cam tips the pawl into the ratchet
@@ -152,6 +150,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg
 - https://commons.wikimedia.org/wiki/File:Elevator_speed_governor.jpg
 - https://www.youtube.com/watch?v=aunIE33GYZc
+- https://saabwisonline.com/9-3-9440/2006/8-body/seat-belt-system/adjustment-replacement/rear-inertia-reel-5d
 research: research/connection-types/results/Inertialocking_reel_seatbelt_lock_centrifugal_catch.json
 image:
   file: drawn/anim/inertia-locking-reel.svg
@@ -191,7 +190,7 @@ pictures:
   alt: A seat-belt retractor, a black cylindrical reel housing with the belt webbing running out of it, fitted in an old car.
   kind: photo
   drawn: false
-glossary: [self-locking, ratchet, pawl, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
+glossary: [self-locking, ratchet, pawl, torque, fail-safe--fail-secure, clearance, form-fit--force-fit--material-bond, creep]
 ---
 
 <div class="eoc-pictures">
@@ -264,7 +263,7 @@ Never make your own for protecting people: use a certified seat belt or self-ret
   - 3D print (FDM): only for teaching models and non-safety mechanisms ⚑ [uncertain: no printable inertia-reel model found]
   - CNC: metal pawls, ratchets and spools ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: the spool, ratchet, flyweight or pendulum, pawl and housing are separate parts, and it needs a spiral return spring and small springs that are best bought ⚑ [uncertain: no printable design found to confirm]
-- **Tools:** To fit: spanner or socket for the anchor bolts ⚑ [uncertain: specific bolt types vary]. To use: none.
+- **Tools:** To fit: spanner or socket, and a [torque](../glossary.md#torque) wrench, for the anchor bolts (US belts use 7/16-20 UNF or 1/2-13 UNC bolts or metric equivalents, 49 CFR 571.209; Saab tightens reel and anchors to 37 Nm, Saab WIS). To use: none.
 - **Difficulty:** hard: for anything that protects people, buy a certified retractor or self-retracting lifeline; a printed demonstrator is moderate, but getting the flyweight heavy enough and the springs light enough to trigger reliably is fiddly (a printed centrifugal-lock puzzle box worked only unreliably because its printed balls were too light; Printables 'Box with Centrifugal Locks')
 
 ### 3D printing tips
@@ -319,9 +318,8 @@ Life-safety device: never modify, bypass or 3D print one for real use. The rewin
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 16 sentences on this page marked [uncertain].
+- ⚑ 15 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "To fit: spanner or socket for the anchor bolts ⚑ [uncertain: specific bolt types vary]. T…"
 
 ## Sources
 
@@ -342,3 +340,4 @@ Life-safety device: never modify, bypass or 3D print one for real use. The rewin
 - <https://commons.wikimedia.org/wiki/File:Inertial_reel_belt.jpg>
 - <https://commons.wikimedia.org/wiki/File:Elevator_speed_governor.jpg>
 - <https://www.youtube.com/watch?v=aunIE33GYZc>
+- <https://saabwisonline.com/9-3-9440/2006/8-body/seat-belt-system/adjustment-replacement/rear-inertia-reel-5d>

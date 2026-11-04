@@ -91,11 +91,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  electrical_band:
-    kind: source uncertain
-    reason: '`load` is marked [uncertain] here: "Electrical: up to about 30 A per nickel strip [uncertain: depends on strip
-      width and t…"'
+  drive_split: [not applicable]
+  made_of: [metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -105,7 +103,7 @@ open_points:
   note: '*Spot weld*: galvanised steel advice differs (Miller: don''t weld it unless the coating is removed and you wear an
     air-supplied respirator; TWI: general ventilation is usually enough), both recorded; the ''up to about 30 A per strip''
     rating and ''use pure nickel, not nickel-plated steel'' (one Hackaday reader) are [uncertain]; 7 fields are marked.'
-uncertain_fields: [seal, load, access_needed, materials, off_the_shelf_parts, everyday_examples, environment_limits]
+uncertain_fields: [seal, access_needed, materials, off_the_shelf_parts, everyday_examples, environment_limits]
 diagram_idea: A cross-section of two overlapping sheets squeezed between upper and lower copper electrodes, with arrows for
   force and current, a glowing lens-shaped nugget at the joint line, and a second small panel showing a battery welder's two
   probes side by side on a nickel strip over a cell's end cap.
@@ -181,6 +179,8 @@ sources:
 - https://www.youtube.com/watch?v=mt0229lU9sU
 - https://www.printables.com/model/1322762-18650-battery-welding-jig
 - https://api.printables.com/graphql/
+- https://customnickelstrips.com/the-ultimate-guide-to-sizing-nickel-strips-for-battery-packs/
+- https://www.batterynickelstrip.com/nickel-strips-for-battery-packs-material-thickness-current-and-welding/
 research: research/connection-types/results/Spot_weld_resistance_spot_welding.json
 image:
   file: drawn/spot-weld.svg
@@ -268,7 +268,7 @@ When you can only reach one side of a sheet-metal joint (use a blind rivet or a 
 - **How it holds:** [material bond](../glossary.md#form-fit--force-fit--material-bond) (glue, solvent or melting): the metal of both sheets melts and sets as one nugget (a fusion bond); resistance welding can also make solid-state bonds and resistance-heated braze bonds between unlike metals (Wikipedia 'Electric resistance welding')
 - **Input and output:** not applicable
 - **Power:** passive (no power needed) once made; making it needs a powered spot welder (mains transformer, or a capacitor or battery pulse unit)
-- **Load:** Electrical: up to about 30 A per nickel strip ⚑ [uncertain: depends on strip width and thickness; no rating table opened], extra-low voltage only (battery packs). Mechanical: medium per spot. Each spot is strong in shear (sideways sliding of the sheets): spot welding is used 'in preference to more costly mechanical fastening, such as riveting' when high shear strength is needed (Wikipedia 'Electric resistance welding'). Weak in peel (prying the sheets apart from an edge), and the separate spots make overall strength 'often significantly lower than with other welding methods' (Wikipedia). Spot welding can harden and crack the metal around the nugget and reduces [fatigue](../glossary.md#fatigue) strength, so vibration is a weak point (Wikipedia 'Spot welding'). Cars hold together with several thousand spot welds (Wikipedia).
+- **Load:** Electrical: up to about 30 A, extra-low voltage only (battery packs), but only by sharing the current between several nickel strips. A nickel-strip maker rates one common 0.15 × 8 mm pure nickel strip at about 5 A, 7.5 A at most, with a risk of overheating above about 10 A, and says a second strip welded on top doubles what it can carry (Custom Nickel Strips sizing guide); another strip seller gives 5-10 A for 0.15 mm strip and 10-15 A for 0.2 mm (Battery Nickel Strip). Mechanical: medium per spot. Each spot is strong in shear (sideways sliding of the sheets): spot welding is used 'in preference to more costly mechanical fastening, such as riveting' when high shear strength is needed (Wikipedia 'Electric resistance welding'). Weak in peel (prying the sheets apart from an edge), and the separate spots make overall strength 'often significantly lower than with other welding methods' (Wikipedia). Spot welding can harden and crack the metal around the nugget and reduces [fatigue](../glossary.md#fatigue) strength, so vibration is a weak point (Wikipedia 'Spot welding'). Cars hold together with several thousand spot welds (Wikipedia).
 - **Play and precision:** No play once welded. [Accuracy](../glossary.md#repeatability--accuracy) depends on clamping and fit-up: 'poor part fit-up and close sheet edge distances can lead to poor or variable quality' (TWI), and spot welding 'tends to harden the material, causing it to warp' (Wikipedia 'Spot welding'). Distortion is greatest on the thinner sheet; keep the thickness ratio at 3:1 or less (Machine Design).
 - **Taking it apart:** permanent: undo it by drilling or cutting each spot out; auto-body spot weld cutters remove spot welds 'without pre-drilling or punching' and separate body panels (ICS Cutting Tools). Nickel strip welded to cells is peeled or cut off, which spoils the strip.
 - **How often it can be reused:** once
@@ -349,8 +349,7 @@ SPARKS AND FIRE: 'it is common for a spray of molten metal droplets (sparks) to 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `electrical_band` = up to about 30 A (source uncertain): `load` is marked ⚑ [uncertain] here: "Electrical: up to about 30 A per nickel strip ⚑ [uncertain: depends on strip width and t…"
+- ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Research note: *Spot weld*: galvanised steel advice differs (Miller: don't weld it unless the coating is removed and you wear an air-supplied respirator; TWI: general ventilation is usually enough), both recorded; the 'up to about 30 A per strip' rating and 'use pure nickel, not nickel-plated steel' (one Hackaday reader) are [uncertain]; 7 fields are marked.
 
 ## Sources
@@ -378,3 +377,5 @@ SPARKS AND FIRE: 'it is common for a spray of molten metal droplets (sparks) to 
 - <https://www.youtube.com/watch?v=mt0229lU9sU>
 - <https://www.printables.com/model/1322762-18650-battery-welding-jig>
 - <https://api.printables.com/graphql/>
+- <https://customnickelstrips.com/the-ultimate-guide-to-sizing-nickel-strips-for-battery-packs/>
+- <https://www.batterynickelstrip.com/nickel-strips-for-battery-packs-material-thickness-current-and-welding/>

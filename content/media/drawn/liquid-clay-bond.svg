@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Three ways to join polymer clay with liquid clay: two raw pieces, a raw piece to a baked piece, and two baked pieces with a thin snake of raw clay laid in the joint as a bridge, each with a thin layer of liquid clay between the parts. All three go into the oven and come out as one solid piece of plastic.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="130.0" y="82" width="10" height="92" fill="#cfe3f5" stroke-width="2"/>
+<path d="M48.0,78 Q82.0,73 116.0,78 Q130.0,78 130.0,92 L130.0,164 Q130.0,178 116.0,178 Q82.0,183 48.0,178 Q34.0,178 34.0,164 L34.0,92 Q34.0,78 48.0,78 Z" fill="#fde2c4"/>
+<path d="M154.0,78 Q188.0,73 222.0,78 Q236.0,78 236.0,92 L236.0,164 Q236.0,178 222.0,178 Q188.0,183 154.0,178 Q140.0,178 140.0,164 L140.0,92 Q140.0,78 154.0,78 Z" fill="#fde2c4"/>
+<rect x="395.0" y="82" width="10" height="92" fill="#cfe3f5" stroke-width="2"/>
+<path d="M313.0,78 Q347.0,73 381.0,78 Q395.0,78 395.0,92 L395.0,164 Q395.0,178 381.0,178 Q347.0,183 313.0,178 Q299.0,178 299.0,164 L299.0,92 Q299.0,78 313.0,78 Z" fill="#fde2c4"/>
+<rect x="405.0" y="78" width="96" height="100" rx="3" fill="#fde2c4"/>
+<rect x="652.0" y="82" width="26" height="92" fill="#cfe3f5" stroke-width="2"/>
+<rect x="659" y="82" width="12" height="92" rx="6" fill="#fde2c4" stroke-width="2"/>
+<rect x="556.0" y="78" width="96" height="100" rx="3" fill="#fde2c4"/>
+<rect x="678.0" y="78" width="96" height="100" rx="3" fill="#fde2c4"/>
+<rect x="310" y="290" width="180" height="116" rx="8" fill="#e8e8e8"/><rect x="328" y="306" width="144" height="84" rx="4" fill="#ffffff"/><rect x="346" y="328" width="108" height="46" rx="4" fill="#fde2c4"/><path d="M360,322 q5,-6 0,-12 M400,322 q5,-6 0,-12 M440,322 q5,-6 0,-12" fill="none" stroke="#999" stroke-width="2.5"/><rect x="570" y="318" width="170" height="64" rx="4" fill="#fde2c4"/>
+</g>
+<g stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)">
+<line x1="190" y1="196" x2="300" y2="290"/><line x1="400" y1="196" x2="400" y2="278"/><line x1="610" y1="196" x2="500" y2="290"/>
+<line x1="500" y1="350" x2="558" y2="350"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="82.0" y="134.0" text-anchor="middle">raw</text>
+<text x="188.0" y="134.0" text-anchor="middle">raw</text>
+<text x="347.0" y="134.0" text-anchor="middle">raw</text>
+<text x="453.0" y="134.0" text-anchor="middle">baked</text>
+<text x="604.0" y="134.0" text-anchor="middle">baked</text>
+<text x="726.0" y="134.0" text-anchor="middle">baked</text>
+<text x="135" y="50" text-anchor="middle">liquid clay, brushed thin</text>
+<line x1="135" y1="56" x2="135" y2="84" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="50" text-anchor="middle">rest overnight first</text>
+<text x="665" y="50" text-anchor="middle">raw clay snake as a bridge</text>
+<line x1="665" y1="56" x2="665" y2="84" stroke="#222" stroke-width="1.5"/>
+<text x="296" y="356" text-anchor="end">bake again</text><text x="296" y="378" text-anchor="end">in the oven</text>
+<text x="655" y="357" text-anchor="middle">one solid piece</text>
+<text x="400" y="438" text-anchor="middle" font-size="17">Nothing holds until it is baked: prop the parts in place until then</text>
+</g>
+</svg>

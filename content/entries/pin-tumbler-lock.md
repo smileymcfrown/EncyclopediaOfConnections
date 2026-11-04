@@ -87,18 +87,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…e set screw); a mortice lock also needs a pocket cut in the door
-      edge [uncertain: fitting details not from an…"'
 confirmed: []
 open_points: []
-uncertain_fields: [reuse_cycles, materials, processes, making_tips_3d_printing, safety_notes, common_failures, play_and_precision,
-  tools_needed]
+uncertain_fields: [reuse_cycles, materials, processes, making_tips_3d_printing, safety_notes, common_failures, play_and_precision]
 diagram_idea: 'A side cut-away of a plug inside its housing with five pin stacks, shown three ways: no key (driver pins cross
   the shear line, a red ''blocked'' mark), wrong key (one pin too high, one too low), and right key (all gaps exactly on the
   shear line, the plug turning), with the shear line drawn as a bold dashed line.'
@@ -188,6 +185,7 @@ sources:
 - https://www.printables.com/model/1059790-mini-vault-with-lever-tumbler-lock (URL from Printables API, page not opened)
 - https://www.printables.com/model/576652-wafer-lock (URL from Printables API, page not opened)
 - https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Mortise_lock
 research: research/connection-types/results/Pintumbler_lock_and_other_tumbler_locks.json
 image:
   file: drawn/anim/pin-tumbler-lock.svg
@@ -294,7 +292,7 @@ Don't use a 3D-printed lock to protect anything valuable; any printed lock is we
   - 3D print (resin): smaller, finer pins and keys ⚑ [uncertain: no resin-printed lock example opened]
   - CNC: machining plugs, housings and pins (lathe work) for metal replicas ⚑ [uncertain: no example opened]
 - **Printing it in one piece (print in place):** no: the plug, housing, pins, key and springs are printed or bought separately and assembled (springs are usually metal pen springs)
-- **Tools:** To use: the key. To fit a cylinder: screwdriver (a euro cylinder is held by one set screw); a mortice lock also needs a pocket cut in the door edge ⚑ [uncertain: fitting details not from an opened source]. To rekey: a plug follower and a pinning kit (locksmith tools). For printed locks: sandpaper or files, and ballpoint-pen springs or small compression springs.
+- **Tools:** To use: the key. To fit a cylinder: screwdriver (a euro cylinder is held by one set screw); a mortice lock also needs a pocket (the mortise) cut in the door edge, often with a jig (Wikipedia 'Mortise lock'). To rekey: a plug follower and a pinning kit (locksmith tools). For printed locks: sandpaper or files, and ballpoint-pen springs or small compression springs.
 - **Difficulty:** moderate: a scaled-up, 3- to 5-pin printed demonstrator works with a well-tuned printer, some sanding and pen springs; a lock that is actually secure needs precise machining and hardened parts, so buy one
 
 ### 3D printing tips
@@ -356,9 +354,8 @@ Few physical hazards; the main risks are lockouts (keep a spare key somewhere sa
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 10 sentences on this page marked [uncertain].
+- ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…e set screw); a mortice lock also needs a pocket cut in the door edge ⚑ [uncertain: fitting details not from an…"
 
 ## Sources
 
@@ -398,3 +395,4 @@ Few physical hazards; the main risks are lockouts (keep a spare key somewhere sa
 - <https://www.printables.com/model/1059790-mini-vault-with-lever-tumbler-lock (URL from Printables API, page not opened)>
 - <https://www.printables.com/model/576652-wafer-lock (URL from Printables API, page not opened)>
 - <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Mortise_lock>

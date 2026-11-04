@@ -94,6 +94,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass
+      or mirror, 'fabric, leather or cord']
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -178,6 +181,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg
 - https://www.youtube.com/watch?v=hsmqOMNsekg
 - https://www.youtube.com/watch?v=R_r53OCHYKU
+- https://thebluebottletree.com/best-glue-for-polymer-clay/
+- https://thebluebottletree.com/securing-polymer-clay-earring-post-backs-whats-the-best-way/
 research: research/connection-types/results/Elastomeric_solvent_glue_flexible_craft_glue.json
 image:
   file: elastomeric-solvent-glue.webp
@@ -237,7 +242,7 @@ Use it when the joint must bend, stretch or take knocks and vibration, or when y
 
 ## When not to use it
 
-Avoid it for rigid, load-bearing plastic or metal joints: use two-part epoxy, CA or a structural adhesive (Snapmaker). Avoid it on PE, PP, polystyrene foam and paper (E6000 Craft data sheet): use a low-surface-energy adhesive or mechanical fixing. Don't use it where you need handling strength quickly: CA sets in seconds. Don't use it for food, drinking-water or pet items (E6000 Craft data sheet), for parts exposed to fuel or strong solvents that dissolve it (petrol, toluene), in constant sunlight without paint or a UV grade (E6000 Industrial and Goop data sheets), or near heat above about 66-82 °C (data sheets). If the fumes are a problem, choose a solvent-free or water-based flexible adhesive such as an MS-polymer or silicone adhesive sealant (e.g. E6000 Plus is solvent-free; E6000 Plus data sheet). For large flat areas (laminates, foam sheets) a brush-on contact cement is usually easier (thisTOthat; Wikipedia 'Adhesive').
+Avoid it for rigid, load-bearing plastic or metal joints: use two-part epoxy, CA or a structural adhesive (Snapmaker). Avoid it on PE, PP, polystyrene foam and paper (E6000 Craft data sheet): use a low-surface-energy adhesive or mechanical fixing. Don't use it where you need handling strength quickly: CA sets in seconds. Don't use it for food, drinking-water or pet items (E6000 Craft data sheet), for parts exposed to fuel or strong solvents that dissolve it (petrol, toluene), in constant sunlight without paint or a UV grade (E6000 Industrial and Goop data sheets), or near heat above about 66-82 °C (data sheets). If the fumes are a problem, choose a solvent-free or water-based flexible adhesive such as an MS-polymer or silicone adhesive sealant (e.g. E6000 Plus is solvent-free; E6000 Plus data sheet). For large flat areas (laminates, foam sheets) a brush-on contact cement is usually easier (thisTOthat; Wikipedia 'Adhesive'). On polymer clay, don't rely on it for earring posts or anything that will be baked again: The Blue Bottle Tree says 'Do not use E6000' for earring posts and that 'you cannot bake E6000'; bake metal findings into the clay, or join clay to clay with liquid clay and bake (see Liquid-clay bond).
 
 ## Details
 
@@ -260,7 +265,7 @@ Avoid it for rigid, load-bearing plastic or metal joints: use two-part epoxy, CA
 - **Sealing:** watertight: after full [cure](../glossary.md#cure) it is waterproof and can be submerged in fresh and salt water, and it is used to seal boots, waders and waterproof fabrics and to fill small cracks (E6000 Industrial, Amazing Goop and Shoe Goo data sheets). It is not a pressure seal.
 - **Adjustable:** Only while wet: parts can be slid into position for a few minutes (the Loctite flexible adhesive 'can be repositioned while the adhesive is still wet'), but once two tacky coated faces are pressed together the bond is immediate and 'difficult to reposition' (E6000 Craft data sheet; Henkel data sheet). After curing, no.
 - **Access needed:** not applicable: glue goes on the joint faces before assembly, or is run along a seam or crack from one side
-- **Materials:** Goop and Shoe Goo are a styrene-butadiene synthetic rubber in toluene and petroleum naphtha (safety data sheets); current US E6000 Craft also uses toluene and petroleum distillates, but the sheets opened here don't name its rubber ⚑ [uncertain]. Older and Canadian formulas used perchloroethylene, and E6000 Premium uses n-propyl acetate (2013 E6000 SDS; 2016 and 2025 E6000 Craft data sheets; thisTOthat; E6000 Premium data sheet). Note the conflict: thisTOthat calls Household Goop 'silicone-based', but the manufacturer's safety data sheet lists styrene-butadiene rubber and no silicone. Bonds well: wood, metal, glass, fibreglass, ceramics, masonry and concrete, leather, rubber, vinyl, PVC, neoprene, fabric and many plastics (E6000 Craft and Industrial data sheets); gems, beads, polymer clay and jewellery metals (E6000 Premium Jewelry & Bead). E6000 Premium claims to bond most 3D-printing plastics, ABS, polycarbonate, acrylic and polystyrene. Makers report good results on PLA (Blue Paper Tech) and on flexible TPU prints (Snapmaker), but no manufacturer test on PLA, PETG or TPU was found ⚑ [uncertain]. Poor or not recommended: polyethylene (PE), polypropylene (PP), polystyrene and Styrofoam (for standard E6000), paper, and finished surfaces that the solvent may damage (E6000 Craft and Industrial data sheets). Not for anything in contact with food, drinking water or animals (E6000 Craft data sheet).
+- **Materials:** Goop and Shoe Goo are a styrene-butadiene synthetic rubber in toluene and petroleum naphtha (safety data sheets); current US E6000 Craft also uses toluene and petroleum distillates, but the sheets opened here don't name its rubber ⚑ [uncertain]. Older and Canadian formulas used perchloroethylene, and E6000 Premium uses n-propyl acetate (2013 E6000 SDS; 2016 and 2025 E6000 Craft data sheets; thisTOthat; E6000 Premium data sheet). Note the conflict: thisTOthat calls Household Goop 'silicone-based', but the manufacturer's safety data sheet lists styrene-butadiene rubber and no silicone. Bonds well: wood, metal, glass, fibreglass, ceramics, masonry and concrete, leather, rubber, vinyl, PVC, neoprene, fabric and many plastics (E6000 Craft and Industrial data sheets); gems, beads, polymer clay and jewellery metals (E6000 Premium Jewelry & Bead). E6000 Premium claims to bond most 3D-printing plastics, ABS, polycarbonate, acrylic and polystyrene. Makers report good results on PLA (Blue Paper Tech) and on flexible TPU prints (Snapmaker), but no manufacturer test on PLA, PETG or TPU was found ⚑ [uncertain]. Poor or not recommended: polyethylene (PE), polypropylene (PP), polystyrene and Styrofoam (for standard E6000), paper, and finished surfaces that the solvent may damage (E6000 Craft and Industrial data sheets). Not for anything in contact with food, drinking water or animals (E6000 Craft data sheet). A polymer clay specialist disagrees: E6000 'often does not properly set on polymer clay or becomes brittle with age', and the bond 'will degrade with heat', so it cannot be baked (The Blue Bottle Tree).
 - **Heat, cold, water and wear:** Heat: E6000 and Amazing Goop withstand -40 to 82 °C (-40 to 180 °F) intermittently, Shoe Goo -40 to 66 °C (E6000 Craft, Goop and Shoe Goo data sheets); the Loctite flexible polyurethane type is 'not for applications over 140 °F (60 °C)' (Henkel data sheet). Cold: stays flexible and 'does not become brittle in cold weather' (E6000 Craft data sheet). Water: waterproof after full cure, can be submerged in fresh and salt water, and survives washing machines and tumble dryers but not dry cleaning (E6000 Industrial and Amazing Goop data sheets). Sunlight: no UV resistance; paint over it or use a UV grade (Goop and Shoe Goo data sheets; E6000 Industrial). Chemicals: excellent resistance to water, dilute acids and bases, antifreeze and motor oil; thin films immersed for two weeks gained under 2% weight and lost under 10% strength, but it is dissolved by petrol, toluene, cyclohexane, perchloroethylene and propyl acetate (Shoe Goo and E6000 Craft data sheets). [Creep](../glossary.md#creep): as a soft rubber it can slowly give under a constant load ⚑ [uncertain].
 
 ## Making it
@@ -313,6 +318,7 @@ The solvents are the main hazard. US Goop and Shoe Goo contain 25-50% toluene pl
 - Solvent welding (solvent cement): fuses plastics such as ABS, PVC or acrylic into one piece; rigid
 - Polyurethane flexible solvent adhesives, e.g. vinyl and inflatable repair glues: thinner liquids for vinyl, PVC and fabric patches (Henkel data sheet)
 - Sewing, rivets and snap fasteners: mechanical alternatives for fabric and leather that don't need solvent
+- Liquid-clay bond (bakeable clay glue): the usual way to join polymer clay to itself, by brushing on liquid clay and baking; E6000 often fails to set on polymer clay and can't be baked
 
 ## Make it yourself
 
@@ -363,3 +369,5 @@ The solvents are the main hazard. US Goop and Shoe Goo contain 25-50% toluene pl
 - <https://commons.wikimedia.org/wiki/File:Repairing_snowboard_boots_with_Shoe_Goo.jpg>
 - <https://www.youtube.com/watch?v=hsmqOMNsekg>
 - <https://www.youtube.com/watch?v=R_r53OCHYKU>
+- <https://thebluebottletree.com/best-glue-for-polymer-clay/>
+- <https://thebluebottletree.com/securing-polymer-clay-earring-post-backs-whats-the-best-way/>

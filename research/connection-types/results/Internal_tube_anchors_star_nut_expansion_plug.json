@@ -10,7 +10,8 @@
       "expanding adapter stem; expansion stem; rubber expansion adapter (for casters in tube legs) (Caster Technology)",
       "expanding bar-end plug (bicycle handlebar end plug)",
       "tube-connecting nut ('push inside tubes to join them with a threaded stud instead of welding', McMaster-Carr category name)",
-      "expanding tube plug; wedge expanding plug; tube end plug with thread"
+      "expanding tube plug; wedge expanding plug; tube end plug with thread",
+      "bonded threaded end adapter; quick-release carbon tube connector (an aluminium adapter glued into a carbon tube end; DragonPlate)"
     ],
     "family": "clamping, magnetic & friction connections",
     "other_families": [
@@ -41,7 +42,7 @@
     "power": "passive (no power needed)",
     "removability": "Star nut: permanent ('a star nut is not designed to be removable'; to replace one, drive it deeper or right through the tube, or drill it out, Park Tool). Ribbed push-in inserts: semi-permanent [uncertain: they can usually be prised out but the ribs may be damaged]. Expansion plugs, wedge expanders and expanding caster stems: removable; loosen the bolt and pull them out (Caster Technology: 'Just loosen the bolt to collapse the bushing and pull out the stem')",
     "reuse_cycles": "Star nut: once (it is destroyed or left in the tube when removed, Park Tool). Expansion plugs and expanding stems: many times; Caster Technology says the system can be reused across different frames. Ribbed inserts: a few times [uncertain]",
-    "tools_needed": "Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A pipe cutter or saw and a deburring tool to square and clean the tube end [uncertain: general advice].",
+    "tools_needed": "Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A hacksaw in a saw guide, then flat and round files or a deburring tool, to square and clean the tube end (Park Tool, steering column sizing).",
     "seal": "Star nut: none. Ribbed plugs: dust-resistant, since they close the tube end (Superior Glide: 'The insert seals the tube end'). Rubber or flexible expanding plugs: can be watertight or airtight, because the squeezed rubber presses all round the wall, e.g. windi's printed plug with TPU sections seals a vibraphone resonator tube airtight, and Kirk's TPU plug stops a pool or spa drain",
     "load": "Light to medium, mostly along the tube: star nuts carry the pull of a headset top-cap bolt (just the bearing pre-load; the fork is actually held by the stem clamp bolts, Wikipedia 'Headset (bicycle part)'); ribbed inserts carry a levelling foot's weight, which pushes the insert into the tube and passes the load through the plastic body to the tube walls (Superior Glide); expanding caster stems carry furniture, cart and prep-table loads (Caster Technology). Pull-out resistance depends on friction and on the tube's wall and inside size matching the insert. Twisting is the weak direction in round tubes, since a friction plug can spin; square plugs and square wedges resist turning ('Square wedge to prevent rotation', ray of sunshine's wedge plug) [uncertain: no load figures published in the sources opened].",
     "adjustable": "Expansion plugs and wedge expanders: yes, they can be set at any depth before tightening, and loosened and moved later (Park Tool; Wikipedia 'Headset (bicycle part)' on quill stems, which can be adjusted in height). Star nut: no; its depth is fixed when it is driven in (Park Tool sets it 15 mm down). Threaded inserts give a thread, so a screwed-in levelling foot can then be adjusted up and down (Superior Glide).",
@@ -79,7 +80,7 @@
       "Screw-in levelling feet in square steel table and desk legs (Superior Glide), and expanding-stem casters in kitchen prep tables and carts (Caster Technology)",
       "The expanding plug that closes the end of a bicycle handlebar (Rossero's printable bar-end plug is based on 'common expanding sleeve bar ends')"
     ],
-    "when_to_use": "Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology).",
+    "when_to_use": "Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology). For carbon tube, a glued-in version is common: an aluminium threaded adapter is epoxied into each tube end and quick-release male and female ends screw into the adapters, so long trusses can be built from sections up to eight feet long and taken apart again; DragonPlate advises against drilling carbon tube to pin or bolt it, because that weakens the wall (DragonPlate 'How to Connect Carbon Fiber Tubes'). See Bonded tube joint.",
     "when_not_to_use": "Avoid them for heavy pulling loads or safety-critical joints where the only thing holding is friction inside a tube: use a through-bolt, a welded or bonded insert, or a rivet nut (see 'Blind threaded fixings'). Never use a barbed star nut in carbon fibre or other brittle tubes (use an expansion plug) (Sheldon Brown). If you need to fix something to the side of a tube rather than its end, use a clamp-on fitting or a rivet nut. If the tube's inside size varies or is unknown, a barbed or ribbed insert may be loose or impossible to fit: use an expanding type. For joining two tubes at an angle, clamp-on tube fittings are usually stronger.",
     "environment_limits": "Steel star nuts and plated nuts can rust inside a wet tube; zinc-plated steel nuts resist corrosion better (Superior Glide). Rubber and thermoplastic expanding bushings rely on staying squeezed: they may relax or loosen with time, heat or vibration, so re-check them [uncertain: no source gives figures]. Printed plugs: PLA softens above about 60 °C and degrades in sunlight (Prusa); use ASA for outdoor parts (ray of sunshine). Quill stem wedges can bind or seize inside the steerer over time (Wikipedia 'Stem (bicycle part)').",
     "safety_notes": "On a bicycle, a missing or loose steerer anchor lets the headset come loose, and a star nut in a carbon steerer can crack it to the point of failure (Wikipedia 'Stem (bicycle part)'); remember the anchor only pre-loads the bearings, and the stem clamp bolts must be tightened to hold the fork (Wikipedia 'Headset (bicycle part)'). Hammering in a star nut calls for eye protection and a guide so the hammer doesn't glance off [uncertain: general advice]. Don't rely on a friction-only plug to hold a person's weight in tension [uncertain: general advice]. Cut tube ends are sharp: deburr before fitting.",
@@ -95,7 +96,9 @@
       "Self-locking wedge (wedge clamp, taper key): the wedge principle behind the quill-stem wedge and printed wedge plugs",
       "Hose barb (barbed tube fitting): barbs that hold a soft hose from inside, and also seal",
       "Castor: the wheel that an expanding caster stem or a threaded tube insert holds in the end of a tube leg",
-      "Levelling foot: the screw-in foot that a ribbed threaded insert gives a square or round tube leg a thread for"
+      "Levelling foot: the screw-in foot that a ribbed threaded insert gives a square or round tube leg a thread for",
+      "Bonded tube joint (lugged or sleeved tube joint): glues a socket, sleeve or threaded end adapter into or over a tube end, the usual way to fix anything to carbon tube",
+      "Push-fit rod and spar fittings (kite fittings): small sockets and ferrules held on a rod or thin tube by a snug fit, for light frames such as kites"
     ]
   },
   "media": {
@@ -178,14 +181,15 @@
       "https://api.printables.com/graphql/",
       "https://help.prusa3d.com/article/pla_2062",
       "https://commons.wikimedia.org/wiki/File:Quill_stems.JPG",
-      "https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png"
+      "https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png",
+      "https://dragonplate.com/how-to-connect-carbon-fiber-tubes",
+      "https://www.parktool.com/en-us/blog/repair-help/fork-steering-column-length-and-sizing"
     ]
   },
   "uncertain": [
     "load",
     "removability",
     "reuse_cycles",
-    "tools_needed",
     "play_and_precision",
     "materials",
     "processes",

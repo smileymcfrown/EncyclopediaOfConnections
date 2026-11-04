@@ -85,6 +85,8 @@ finder:
   powered_does: [not applicable]
   also_under: [control]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', foam]
 needs_confirming:
   connects:
     kind: best guess
@@ -210,13 +212,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: mechanical-metamaterial-mechanism.webp
+  title: HingePliers (a metamaterials experiment)
+  author: ProfHankD
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment
+  site: Printables
+  alt: Several 3D-printed one-piece pliers on a wooden table, two of them with the grid of small shearing cells that forms
+    the hinge clearly visible at the joint.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: mechanical-metamaterial-mechanism-ed0986.webp
+  title: HingePliers (a metamaterials experiment)
+  author: ProfHankD
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment
+  site: Printables
+  alt: A blue 3D-printed pair of one-piece metamaterial pliers lying on a wooden table.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, over-centre, bistable, linkage, stiffness, flexure, compliant-mechanism, living-hinge, fatigue, brittle--ductile,
   lubrication, infill, print-in-place, kerf, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/mechanical-metamaterial-mechanism.svg"><img src="../media/drawn/anim/mechanical-metamaterial-mechanism.svg" alt="A grid of square cells, most with a diagonal brace, shown before and after a push: the unbraced middle column leans over into parallelograms so the braced block on its right swings down like the end of a linkage while the left block stays fixed; a third panel shows a door latch idea where a row of u"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/mechanical-metamaterial-mechanism.webp" alt="Render of a mechanical metamaterial mechanism: a one-piece flexible 3D print made of a grid of square cells, fixed at the left to a grey block; its braced cells stay square while an unbraced middle column leans over into parallelograms, so the braced block on the right has dropped down." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/mechanical-metamaterial-mechanism.webp" alt="Render of a mechanical metamaterial mechanism: a one-piece flexible 3D print made of a grid of square cells, fixed at the left to a grey block; its braced cells stay square while an unbraced middle column leans over into parallelograms, so the braced block on the right has dropped down." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/mechanical-metamaterial-mechanism.webp" alt="Several 3D-printed one-piece pliers on a wooden table, two of them with the grid of small shearing cells that forms the hinge clearly visible at the joint." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment">HingePliers (a metamaterials experiment)</a> by ProfHankD, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/mechanical-metamaterial-mechanism-ed0986.webp" alt="A blue 3D-printed pair of one-piece metamaterial pliers lying on a wooden table." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/282608-hingepliers-a-metamaterials-experiment">HingePliers (a metamaterials experiment)</a> by ProfHankD, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A one-piece block made of a regular grid of tiny cells, where rigid cells act as levers and cells that can [shear](../glossary.md#peel-vs-shear) act as hinges and springs, so the whole block works as a mechanism such as a latch, pliers or [linkage](../glossary.md#linkage) with no assembly.

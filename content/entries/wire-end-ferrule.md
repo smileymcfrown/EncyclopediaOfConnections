@@ -89,10 +89,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  drive_split: [not applicable]
+  made_of: ['plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -332,7 +331,6 @@ Splayed strands make a poor, hot joint: fewer strands touch the terminal, the re
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 2 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Wire-end ferrule*: two colour codes recorded side by side from Weidmüller's sheet (DIN: 0.5 mm² white, 0.75 grey, 1.0 red, 1.5 black; Weidmüller's own: 0.5 orange, 0.75 white, 1.0 yellow, 1.5 red; only 2.5 mm² blue and 4 mm² grey agree). Hackaday's claim that CE-marked equipment must use ferrules was not checked against the standards ([uncertain]).
 
 ## Sources

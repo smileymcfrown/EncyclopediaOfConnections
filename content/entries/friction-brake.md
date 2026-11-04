@@ -88,14 +88,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes
-      [uncertain]…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal, 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [aliases, power, tools_needed, materials, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
+uncertain_fields: [aliases, power, materials, processes, making_tips_3d_printing, off_the_shelf_parts, environment_limits,
   safety_notes, make_it_yourself, common_failures]
 diagram_idea: 'Three side-by-side sketches of the same spinning drum: a disc pinched by two pads, shoes pushed outwards inside
   a drum (arrow showing the leading shoe dragged in harder), and a band wrapped 270° with the anchored tight end labelled
@@ -174,6 +172,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Tipologia_tamburo.svg
 - https://commons.wikimedia.org/wiki/File:Broms,_fig_3,_Nordisk_familjebok.png
 - https://api.printables.com/graphql/
+- https://www.parktool.com/blog/repair-help/shimano-hydraulic-brake-service-and-adjustment
 research: research/connection-types/results/Friction_brake_band_drum_or_disc_brake.json
 image:
   file: drawn/anim/friction-brake.svg
@@ -278,7 +277,7 @@ Don't use it where you need wear-free, silent, contactless slowing: use an eddy-
   - CNC: turned drums and discs, milled calipers ⚑ [uncertain]
   - laser cut: flat metal or plywood discs and levers ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: it needs separate friction material (TPU, rubber, O-rings or pads) and usually screws, springs or weights to set the force (Printables 748642, 1536289, 77496)
-- **Tools:** Spanners and hex keys to mount and adjust; a screwdriver or knob to set the pressing force on simple brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes ⚑ [uncertain]
+- **Tools:** Spanners and hex keys to mount and adjust; a screwdriver or knob to set the pressing force on simple brakes (Printables 208775, 1804380); a bleed kit and the right fluid for hydraulic brakes (Park Tool)
 - **Difficulty:** moderate: a light spool or hand brake is easy to print, but anything that gets hot, carries people or holds a load safely needs metal rubbing surfaces and proper linings, so buy a bicycle brake or a commercial holding brake
 
 ### 3D printing tips
@@ -339,8 +338,7 @@ Discs, drums and pads get hot enough to burn after hard use (Wikipedia, Brake). 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes ⚑ [uncertain]…"
+- ⚑ 11 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -370,3 +368,4 @@ Discs, drums and pads get hot enough to burn after hard use (Wikipedia, Brake). 
 - <https://commons.wikimedia.org/wiki/File:Tipologia_tamburo.svg>
 - <https://commons.wikimedia.org/wiki/File:Broms,_fig_3,_Nordisk_familjebok.png>
 - <https://api.printables.com/graphql/>
+- <https://www.parktool.com/blog/repair-help/shimano-hydraulic-brake-service-and-adjustment>

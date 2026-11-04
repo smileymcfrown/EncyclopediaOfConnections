@@ -34,7 +34,7 @@
     "power": "passive (no power needed). Electronic and motorised locks are separate entries.",
     "removability": "tool-free quick release for the thing it locks (just turn the key); the lock itself is removable: a euro cylinder comes out after loosening one set screw so it can be changed without changing the rest of the lock, and padlocks simply unhook",
     "reuse_cycles": "effectively unlimited for normal use: the European cylinder standard EN 1303 grades durability at 25,000, 50,000 or 100,000 test cycles (Lockwiki summary of EN 1303). Printed locks wear much faster [uncertain: no cycle figures for printed locks found].",
-    "tools_needed": "To use: the key. To fit a cylinder: screwdriver (a euro cylinder is held by one set screw); a mortice lock also needs a pocket cut in the door edge [uncertain: fitting details not from an opened source]. To rekey: a plug follower and a pinning kit (locksmith tools). For printed locks: sandpaper or files, and ballpoint-pen springs or small compression springs.",
+    "tools_needed": "To use: the key. To fit a cylinder: screwdriver (a euro cylinder is held by one set screw); a mortice lock also needs a pocket (the mortise) cut in the door edge, often with a jig (Wikipedia 'Mortise lock'). To rekey: a plug follower and a pinning kit (locksmith tools). For printed locks: sandpaper or files, and ballpoint-pen springs or small compression springs.",
     "seal": "none; at best dust-resistant: some padlocks have a spring-loaded cover over the keyhole to keep dirt out (Wikipedia, Padlock), and disc-detainer locks, having no springs, cope better with harsh outdoor conditions",
     "load": "medium: strong against turning and pulling on the plug without the key but weaker than the door or hasp around it. EN 1303 requires keys to survive 2.5 N·m of torque, and plug torque resistance of 2.5 to 15 N·m depending on security grade (up to 20-30 N·m in the attack-resistance grades). Common weak points are lock snapping of euro cylinders with pliers, drilling, and, for luggage locks, thin shackles. 3D-printed locks are light-duty toys and demonstrators.",
     "adjustable": "Yes, by rekeying: a locksmith (or a careful maker) changes the key pins (and driver or spacer pins) to suit a new key, or swaps the whole cylinder. Master keying adds spacer pins so a second key also works. Lever locks are harder to master-key; some safe lever locks can be reset with a change key.",
@@ -190,7 +190,8 @@
       "https://www.printables.com/model/820936-vault-with-pin-tumbler-lock (URL from Printables API, page not opened)",
       "https://www.printables.com/model/1059790-mini-vault-with-lever-tumbler-lock (URL from Printables API, page not opened)",
       "https://www.printables.com/model/576652-wafer-lock (URL from Printables API, page not opened)",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/Mortise_lock"
     ]
   },
   "uncertain": [
@@ -200,7 +201,6 @@
     "making_tips_3d_printing",
     "safety_notes",
     "common_failures",
-    "play_and_precision",
-    "tools_needed"
+    "play_and_precision"
   ]
 }

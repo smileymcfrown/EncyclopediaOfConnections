@@ -88,17 +88,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks
-      [uncertain]; bought pivot bearings are f…"'
 confirmed: []
 open_points: []
-uncertain_fields: [tools_needed, play_and_precision, processes, off_the_shelf_parts, safety_notes]
+uncertain_fields: [play_and_precision, processes, off_the_shelf_parts, safety_notes]
 diagram_idea: 'Three side-by-side sketches of the same swinging arm on different flexure hinges: a block with two round notches
   cut into it (tiny angle, fixed axis), a single thin blade (bigger angle, axis drifting, shown with a moving dot), and two
   blades crossed in an X (big angle, axis almost fixed), each with an arc arrow showing its range and a small ''no pin, no
@@ -182,6 +180,8 @@ sources:
 - https://www.youtube.com/watch?v=rUH3cDmeXC4
 - https://www.youtube.com/watch?v=PaypcVFPs48
 - https://www.youtube.com/watch?v=K0wr_ZhhtbE
+- https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps
+- https://flexpivots.com/resources/mounting-methods
 research: research/connection-types/results/Flexure_hinge_notch_leafspring_and_crossaxis_pivots.json
 image:
   file: drawn/anim/flexure-hinge.svg
@@ -221,7 +221,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [misalignment, backlash, axial--radial, bistable, stiffness, flexure, compliant-mechanism, living-hinge, cantilever,
-  torsion, chamfer--fillet, repeatability--accuracy, creep, fatigue, infill, print-in-place, peel-vs-shear, regulator]
+  torsion, set-screw, chamfer--fillet, repeatability--accuracy, creep, fatigue, infill, print-in-place, peel-vs-shear, regulator]
 ---
 
 <div class="eoc-pictures">
@@ -294,7 +294,7 @@ Avoid it when you need a large angle or continuous rotation (use a pin hinge, a 
   - sheet metal: spring-steel or beryllium-copper blades clamped between blocks, or a clock's suspension spring ⚑ [uncertain: no build guide opened]
   - off-the-shelf part: flexural pivot bearings (Free-Flex (brand), C-Flex (brand))
 - **Printing it in one piece (print in place):** yes: notch and leaf hinges print as part of the mechanism with no assembly (the OpenFlexure microscope body, with all its hinges, prints as one piece without supports; Sharkey et al.). Crossed-blade pivots, whose blades cross in space, are often printed as two identical halves that clip together (BYU CMR Cross-Axis Flexure Pivot; layer.works 'Simplified Snap-Fit Flexure Pivot').
-- **Tools:** none for printed one-piece or clip-together hinges; a screwdriver or hex key to clamp metal blades between blocks ⚑ [uncertain]; bought pivot bearings are fitted into a bore ⚑ [uncertain: fitting method not checked]
+- **Tools:** none for printed one-piece or clip-together hinges; a screwdriver or hex key for the bolts that clamp metal blades between blocks (DSPE 'Flexure assembly using dove tail clamps'); bought pivot bearings go into a close-fitting hole and are held by a clamp screw, a cup-point [set screw](../glossary.md#set-screw), a cross pin or a shrink fit (Free-Flex mounting methods)
 - **Difficulty:** easy to moderate: a printed notch or leaf hinge is just a thin wall and prints in place, but getting thickness, length and range right takes test prints, and plastic yields and creeps; precise, long-life metal pivots are easiest to buy ready-made
 
 ### 3D printing tips
@@ -353,9 +353,8 @@ Generally low risk. Printed flexures bent past their limit snap suddenly (Sharke
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ 4 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…hinges; a screwdriver or hex key to clamp metal blades between blocks ⚑ [uncertain]; bought pivot bearings are f…"
 
 ## Sources
 
@@ -392,3 +391,5 @@ Generally low risk. Printed flexures bent past their limit snap suddenly (Sharke
 - <https://www.youtube.com/watch?v=rUH3cDmeXC4>
 - <https://www.youtube.com/watch?v=PaypcVFPs48>
 - <https://www.youtube.com/watch?v=K0wr_ZhhtbE>
+- <https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps>
+- <https://flexpivots.com/resources/mounting-methods>

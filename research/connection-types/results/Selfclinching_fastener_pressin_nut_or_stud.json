@@ -88,7 +88,8 @@
       "Press-fit and expanding inserts (tap-in insert): knurled inserts pressed into plastic or wood; they grip by friction rather than by metal flowing into an undercut",
       "Spring-steel push-on fasteners (push nut, speed nut, U-nut): clip onto sheet metal with no press, but hold far less",
       "Captive nut pocket (nut trap): the 3D-printing way to hold a nut captive",
-      "Ordinary screw joint (bolt and nut): what the self-clinching nut or stud is used to make; a loose nut is simpler if both sides stay reachable"
+      "Ordinary screw joint (bolt and nut): what the self-clinching nut or stud is used to make; a loose nut is simpler if both sides stay reachable",
+      "Bonding fastener (glue-on stud): a stud or nut on a perforated base plate that is glued on or laminated into composites, giving a thread with no hole; self-clinching parts need a hole, a press and ductile sheet metal"
     ]
   },
   "media": {

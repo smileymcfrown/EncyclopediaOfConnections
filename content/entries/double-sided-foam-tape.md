@@ -98,15 +98,17 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror]
 needs_confirming:
   bonds_well:
     kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well
-      [uncertain]. Silicone rubber and silicon…"'
+    reason: '`materials` is marked [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated surfaces: poor
+      [uncertain]…"'
   bonds_poorly:
     kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well
-      [uncertain]. Silicone rubber and silicon…"'
+    reason: '`materials` is marked [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated surfaces: poor
+      [uncertain]…"'
 confirmed: []
 open_points: []
 uncertain_fields: [materials, processes, making_tips_3d_printing, everyday_examples, environment_limits, safety_notes, common_failures]
@@ -177,6 +179,7 @@ sources:
 - https://www.youtube.com/watch?v=6WYz3Kunk08
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/1237722-simple-hook
+- https://riunet.upv.es/handle/10251/51793
 research: research/connection-types/results/Doublesided_foam_tape_acrylic_foam_pressuresensitive_adhesive.json
 image:
   file: double-sided-foam-tape.webp
@@ -200,7 +203,7 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, creep, elephants-foot, cure, surface-energy, primer, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, creep, elephants-foot, cure, surface-energy, primer, peel-vs-shear, scarf-joint]
 ---
 
 <div class="eoc-pictures">
@@ -257,7 +260,7 @@ Not on rough, dusty, crumbly or unsealed porous surfaces such as raw wood, plast
 - **Sealing:** watertight: a continuous, unbroken loop of closed-cell foam tape seals against water, moisture and dust, which is why it is used to bond and seal lenses and windows into housings (3M VHB 5952 data sheet; 3M VHB Tape Design Guide; tesa PE foam tapes). Gaps or joins in the loop leak
 - **Adjustable:** no: it grabs on contact, so the part can't be slid into position once it touches; cut it off and re-tape to move it
 - **Access needed:** one side only (blind): you stick the part onto the surface from the front; nothing has to reach behind the wall or panel
-- **Materials:** Tape: acrylic foam with acrylic adhesive (the strongest and most heat- and weather-resistant type), or polyethylene (PE) or polyurethane (PU) foam with acrylic or rubber adhesive (cheaper, lighter duty) (tesa acrylic and PE foam tape pages; Wikimedia Commons photo of PU foam tape). Bonds well to high-surface-energy materials: metals (aluminium, steel, copper), glass, and plastics such as ABS and polycarbonate (42 dynes/cm), PVC (39), acrylic (38), polyester (43, the family PETG belongs to) and nylon (46), plus many paints and powder coats with 'modified acrylic' tapes (3M/JBC LSE selection guide; 3M VHB Tape Design Guide). Bonds poorly to low-surface-energy plastics such as polypropylene (29 dynes/cm), polyethylene (31) and PTFE (18) unless you use a special low-surface-energy (LSE) tape or a primer such as 3M Primer 94 (3M/JBC LSE guide; 3M VHB Tape Design Guide). Needs extra care: bare wood, particleboard and concrete must be sealed first, glass needs a silane treatment for best results, and soft vinyl and rubber with plasticisers that migrate can weaken the bond (3M VHB 5952 data sheet). PLA prints: [surface energy](../glossary.md#surface-energy) not found in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicone-coated surfaces: poor ⚑ [uncertain]
+- **Materials:** Tape: acrylic foam with acrylic adhesive (the strongest and most heat- and weather-resistant type), or polyethylene (PE) or polyurethane (PU) foam with acrylic or rubber adhesive (cheaper, lighter duty) (tesa acrylic and PE foam tape pages; Wikimedia Commons photo of PU foam tape). Bonds well to high-surface-energy materials: metals (aluminium, steel, copper), glass, and plastics such as ABS and polycarbonate (42 dynes/cm), PVC (39), acrylic (38), polyester (43, the family PETG belongs to) and nylon (46), plus many paints and powder coats with 'modified acrylic' tapes (3M/JBC LSE selection guide; 3M VHB Tape Design Guide). Bonds poorly to low-surface-energy plastics such as polypropylene (29 dynes/cm), polyethylene (31) and PTFE (18) unless you use a special low-surface-energy (LSE) tape or a primer such as 3M Primer 94 (3M/JBC LSE guide; 3M VHB Tape Design Guide). Needs extra care: bare wood, particleboard and concrete must be sealed first, glass needs a silane treatment for best results, and soft vinyl and rubber with plasticisers that migrate can weaken the bond (3M VHB 5952 data sheet). PLA prints: about 37 dynes/cm untreated (Jordá Vilaplana et al. 2014), close to acrylic and PVC, and makers report printed PLA hooks holding well. Silicone rubber and silicone-coated surfaces: poor ⚑ [uncertain]
 - **Heat, cold, water and wear:** Heat: a typical acrylic foam tape (3M VHB 5952) is rated about 93 °C long-term and 149 °C for short periods, and its steady-load holding halves between 23 °C and 66 °C and again by 93 °C (3M VHB 5952 data sheet). PSAs generally lose shear holding when hot and lose tack when cold (Wikipedia 'Pressure-sensitive adhesive'). Cold: apply above about 10 °C (0 °C for low-temperature tapes); below about -40 °C the tape turns rigid and a sharp knock can fracture it (3M disassembly bulletin). Water, UV and solvents: acrylic foam tapes are made to resist UV, moisture, temperature cycling and many solvents and seal against water (3M VHB Tape Design Guide; 3M VHB 5952 data sheet); cheaper PE-foam tapes with rubber adhesive are less heat- and weather-resistant ⚑ [uncertain]. Creep: under a constant load the viscoelastic foam slowly flows, so steady loads need about 57 cm² of tape per kg (3M). The printed part may be the weak point: PLA softens above about 60 °C (Prusa). Shelf life of unused tape about 24 months (3M VHB 5952 data sheet)
 
 ## Making it
@@ -290,7 +293,7 @@ Search terms: double-sided acrylic foam tape, VHB tape (3M brand; e.g. 5952 for 
 - Use tape at least 1.1 mm (45 mil) thick to bond rigid parts of normal flatness; thinner tape can be used as the parts get more flexible (3M VHB 5952 data sheet)
 - The tape tolerates sideways (shear) movement between the two parts of up to about 3 times its thickness, e.g. from different heat expansion (3M VHB 5952 data sheet; 3M VHB Tape Design Guide)
 - Clean with isopropyl alcohol and water (3M gives 50:50 in the design guide and 70:30 in the 5952 data sheet); degrease oily parts first, abrade (about 180 grit) oxidised or dirty surfaces, seal porous wood and concrete (3M VHB 5952 data sheet; 3M VHB Tape Design Guide)
-- Surfaces below roughly the mid-30s in surface energy (dynes/cm), such as polypropylene (29), polyethylene (31) and PTFE (18), are hard to bond: use an LSE tape or a primer (3M LSE product selection guide via JBC Technologies)
+- Surfaces below roughly the mid-30s in [surface energy](../glossary.md#surface-energy) (dynes/cm), such as polypropylene (29), polyethylene (31) and PTFE (18), are hard to bond: use an LSE tape or a primer (3M LSE product selection guide via JBC Technologies)
 - Peel is the weak direction: one 1.1 mm acrylic foam tape gives 550 kPa in overlap shear but only 39 N/cm in 90° peel (3M VHB 5952 data sheet), so design joints to load the tape in shear
 - Heat roughly halves steady-load holding at each step: the 5952 tape held 1,000 g on 3.23 cm² for 10,000 minutes at 23 °C, 500 g at 66 °C and 250 g at 93 °C; its long-term temperature limit is 93 °C and short-term 149 °C (3M VHB 5952 data sheet)
 - Round the corners of tapes and labels: pointed corners start to detach first (Wikipedia 'Pressure-sensitive adhesive')
@@ -312,8 +315,13 @@ Low hazard in itself. Isopropyl alcohol, primers and adhesive removers are flamm
 - Hook-and-loop fastener: usually attached with its own adhesive backing; lets you remove and refit the part
 - Magnet joint (embedded magnets, magnetic catch): removable mounting on steel surfaces
 - Silicone and MS-polymer adhesive sealants: flexible, gap-filling bond and seal that needs curing time
-- Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape any bonded joint so it is loaded in shear rather than peel
+- Glued joint design (butt, lap and [scarf joints](../glossary.md#scarf-joint); peel vs shear): how to shape any bonded joint so it is loaded in shear rather than peel
 - Gel 'nano tape': a clear acrylic gel tape without a foam core, used the same way for light items
+- Adhesive tape joint and tape hinge: thin sticky tape for quick joints and bendable hinges, with no foam layer
+- Glue stick and starch paste: paper glues; foam tape pads are used instead to lift card layers off the page
+- Bonding fastener: a glue-on threaded stud or nut that gives a strong mounting point with no hole; foam tape is the quick, removable way to stick light mounts
+- Panel standoff: holds a drilled sign or glass panel off the wall on metal posts; foam tape holds light signs with no holes but can't be taken apart
+- Glass and mirror edge clips and clamps: hold a mirror or glass sheet by its edges with no glue; foam tape sticks light mirrors and panels on instead
 
 ## Make it yourself
 
@@ -333,9 +341,9 @@ Low hazard in itself. Isopropyl alcohol, primers and adhesive removers are flamm
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 10 sentences on this page marked [uncertain].
-- ⚑ Finder value `bonds_well` = PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, metal, glass or ceramic, rubber, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicon…"
-- ⚑ Finder value `bonds_poorly` = PLA, silicone, wood, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…nd in these sources, but makers report printed PLA hooks holding well ⚑ [uncertain]. Silicone rubber and silicon…"
+- ⚑ 9 sentences on this page marked [uncertain].
+- ⚑ Finder value `bonds_well` = PETG, ABS or ASA, nylon, slippery plastics (PE or PP), acrylic or polycarbonate, PVC, metal, glass or ceramic, rubber, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated surfaces: poor ⚑ [uncertain]…"
+- ⚑ Finder value `bonds_poorly` = PLA, silicone, wood, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…ooks holding well. Silicone rubber and silicone-coated surfaces: poor ⚑ [uncertain]…"
 
 ## Sources
 
@@ -360,3 +368,4 @@ Low hazard in itself. Isopropyl alcohol, primers and adhesive removers are flamm
 - <https://www.youtube.com/watch?v=6WYz3Kunk08>
 - <https://api.printables.com/graphql/>
 - <https://www.printables.com/model/1237722-simple-hook>
+- <https://riunet.upv.es/handle/10251/51793>

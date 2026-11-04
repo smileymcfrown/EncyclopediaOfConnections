@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side views of a score-and-fold hinge in card: a bone folder run along a ruler presses a groove into the top face and pushes a small bead out underneath; the card then folds on that line with the groove on the outside and the bead tucked inside the fold. Below, folding it the wrong way round (groove inside) cracks the outer face, and thick foam board is cut part-way through so its bottom paper is left to bend as the hinge.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<g stroke="#cccccc" stroke-width="2"><line x1="400" y1="20" x2="400" y2="405"/><line x1="20" y1="222" x2="380" y2="222"/><line x1="420" y1="262" x2="780" y2="262"/></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<path d="M40,166 L191,166 Q200,176 209,166 L360,166 L360,188 L40,188 Z" fill="url(#hatch)"/>
+<path d="M40,146 176,146 178,146 180,146 182,146 184,146 186,146 188,146 190,146 192,146 194,148 196,150 198,152 200,154 202,152 204,150 206,148 208,146 210,146 212,146 214,146 216,146 218,146 220,146 222,146 360,146 360,166 222,166 220,166 218,166 216,166 214,166 212,166 210,166 208,166 206,170 204,171.2 202,171.8 200,172 198,171.8 196,171.2 194,170 192,166 190,166 188,166 186,166 184,166 182,166 180,166 178,166 176,166 40,166Z" fill="#fde2c4"/>
+<rect x="212" y="122" width="110" height="24" fill="#cfe3f5"/>
+<path d="M195,152 L128,64 Q123,54 133,50 L147,44 Q157,42 161,52 L208,144 Q210,155 195,152 Z" fill="#fdf3c4"/>
+<line x1="112" y1="82" x2="152" y2="140" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+</g>
+<g stroke-linejoin="round" stroke-linecap="round">
+<path d="M450,108 586,108 588,108 590,108 592,108 594,108 596,108 598,108 600,108 602,108 604,108 606,108 608,109.8 610,111.6 612,113.3 614,115.1 616,115.1 618,113.3 620,111.6 622,109.8 624,108 626,108 628,108 630,108 632,108 634,108 636,108 638,108 640,108 642,108 740,108 740,126 642,126 640,126 638,126 636,126 634,126 632,126 630,126 628,126 626,126 624,126 622,130.4 620,131.8 618,132.6 616,133 614,133 612,132.6 610,131.8 608,130.4 606,126 604,126 602,126 600,126 598,126 596,126 594,126 592,126 590,126 588,126 586,126 450,126Z" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="6 5"/>
+<path d="M723.7,129.8 A112,112 0 0 1 661.1,222.7" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path d="M450,108 586,108 588,108 590,108 592,108 594,108 596,108 598,108 600,108 602.9,108.2 605.8,108.6 608.7,109.4 610.7,112.1 612.3,114.8 613.4,117.7 614,120.5 615.6,122.1 618.4,122.7 621.3,123.8 624,125.4 626.7,127.4 627.5,130.3 627.9,133.2 628.1,136.1 628.1,138.1 628.1,140.1 628.1,142.1 628.1,144.1 628.1,146.1 628.1,148.1 628.1,246.1 610.1,246.1 610.1,148.1 610.1,146.1 610.1,144.1 610.1,142.1 610.1,140.1 610.1,138.1 610.1,136.1 610,135 609.9,134 609.6,133 605.2,133.8 603.7,134 602.8,134 602.3,134 602.1,133.8 602.1,133.3 602.1,132.4 602.3,130.9 603.1,126.5 602.1,126.2 601.1,126.1 600,126 598,126 596,126 594,126 592,126 590,126 588,126 586,126 450,126Z" fill="#fde2c4" stroke="#222" stroke-width="3"/>
+</g>
+<path d="M70,276 206,276 208,276 210,276 212,276 214,276 216,276 218,276 220,276 223.4,276.3 227.9,273.3 232.2,273.7 236.2,275.5 239.6,278.1 242.3,281.5 244,285.5 244.4,289.8 241.5,294.3 241.7,297.7 241.7,299.7 241.7,301.7 241.7,303.7 241.7,305.7 241.7,307.7 241.7,309.7 241.7,389.7 223.7,389.7 223.7,309.7 223.7,307.7 223.7,305.7 223.7,303.7 223.7,301.7 223.7,299.7 223.7,297.7 223.7,297.1 225.5,296 226.9,294.2 227.9,292 228.3,289.4 225.7,289.9 223.5,290.8 221.8,292.3 220.6,294 220,294 218,294 216,294 214,294 212,294 210,294 208,294 206,294 70,294Z" fill="#fde2c4" stroke="#222" stroke-width="3" stroke-linejoin="round"/>
+<path d="M230.2,272.4 L230.7,277.9 L225.5,280.2 L226.7,283.9 M240.3,277.4 L238.5,282.7 L232.9,282.7 L232.5,286.6 M245.4,287.5 L241.7,291.7 L236.5,289.5 L234.6,292.9" fill="none" stroke="#222" stroke-width="2.5" stroke-linejoin="round"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round">
+<rect x="432" y="318" width="120" height="26" fill="#ffffff"/><g stroke-width="1.5" fill="#fdf3c4"><rect x="432" y="318" width="120" height="5"/><rect x="432" y="339" width="120" height="5"/></g>
+<path d="M492,317 L492,337" stroke-width="3"/>
+<line x1="492" y1="294" x2="492" y2="312" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="562" y1="331" x2="588" y2="331" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<rect x="600" y="318" width="70" height="26" fill="#ffffff"/>
+<rect x="670" y="344" width="26" height="40" fill="#ffffff"/>
+<g stroke-width="1.5" fill="#fdf3c4"><rect x="600" y="318" width="70" height="5"/><rect x="691" y="344" width="5" height="40"/>
+<path d="M600,339 L675,339 L675,384 L670,384 L670,344 L600,344 Z"/></g>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<g font-size="19" font-weight="bold"><text x="200" y="38" text-anchor="middle">Press a groove along a ruler</text><text x="600" y="38" text-anchor="middle">Fold with the groove outside</text><text x="200" y="252" text-anchor="middle">Wrong way: groove inside</text><text x="600" y="288" text-anchor="middle">Thick board: cut part-way</text></g>
+<text x="26" y="76">bone</text><text x="26" y="96">folder</text>
+<text x="240" y="112">ruler</text>
+<text x="290" y="212">card</text><line x1="286" y1="206" x2="270" y2="162" stroke="#222" stroke-width="1.5"/>
+<text x="40" y="212">soft mat</text>
+<text x="168" y="212">bead</text><line x1="196" y1="196" x2="200" y2="174" stroke="#222" stroke-width="1.5"/>
+<text x="660" y="74">groove stays</text><text x="660" y="94">on the outside</text><line x1="656" y1="82" x2="624" y2="106" stroke="#222" stroke-width="1.5"/>
+<text x="450" y="176">bead ends up</text><text x="450" y="196">inside the fold</text><line x1="560" y1="172" x2="612" y2="138" stroke="#222" stroke-width="1.5"/>
+<text x="256" y="320">outer face</text><text x="256" y="340">stretches</text><text x="256" y="360">and cracks</text><line x1="252" y1="314" x2="240" y2="298" stroke="#222" stroke-width="1.5"/>
+<text x="432" y="372">foam board</text>
+<text x="545" y="386" font-size="17">bottom paper</text><text x="545" y="405" font-size="17">is the hinge</text><line x1="640" y1="372" x2="667" y2="348" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="438" text-anchor="middle" font-size="18">One sheet, no extra parts · fold along the grain where you can · crease thick card first</text>
+</g></svg>

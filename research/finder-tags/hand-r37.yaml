@@ -1,0 +1,42 @@
+# R37 (2026-10-22): the hand-set finder answers (set_by: hand) for the new entries 410-452, chosen by
+# Claude from each entry's research text (the finder question each field answers is in fields.yaml).
+# Fields not listed stay "not applicable". Like every finder value, they can be corrected in tags.yaml.
+410: {flex_does: [folds like a hinge], sheet_material: ['paper, card or foam board']}
+411: {sheet_material: ['paper, card or foam board']}
+412: {sheet_material: ['paper, card or foam board']}
+413: {sheet_material: ['paper, card or foam board'], turns: [part of a turn, full turns]}
+414: {sheet_material: ['paper, card or foam board'], turns: [part of a turn]}
+416: {sheet_material: ['paper, card or foam board']}
+417: {cord_use: [sew or lace], flex_does: [folds like a hinge]}
+418: {turns: [part of a turn]}
+419: {flex_does: [folds like a hinge]}
+420: {flex_does: [folds like a hinge]}
+421: {push_by: [levers and linkages], slide_kind: [carriage on a rail]}
+422: {turns: [full turns]}
+423: {spring_kind: [wind up and let go]}
+424: {sheet_material: [wood, plastic sheet, 'paper, card or foam board']}
+426: {turns: [part of a turn]}
+427: {sheet_material: ['paper, card or foam board', plastic sheet]}
+431: {move_kind: [swivel or tilt]}
+433: {carries_fluid: ['no']}
+435: {printed_take_apart: ['yes'], threaded: ['yes']}
+438: {sheet_material: [plastic sheet], printed_take_apart: ['yes'], threaded: ['yes']}
+439: {sheet_material: [plastic sheet, glass or mirror], mounts_on: [wall or ceiling], wall_hold: ['screws, anchors or hooks']}
+440: {sheet_material: [glass or mirror, plastic sheet], mounts_on: [wall or ceiling], wall_hold: ['screws, anchors or hooks']}
+441: {weld_material: [glass]}
+442: {sheet_material: [glass or mirror], seal_use: [seal a still joint], seal_material: ['plastic, fabric or a gap']}
+443: {opens_by: [swings on a hinge], sheet_material: [glass or mirror], turns: [part of a turn]}
+444: {over_centre_use: [clamp or latch], seal_use: [seal a still joint], opens_by: [catch or lever], locks_out: ['no']}
+445: {weld_material: [glass]}
+446: {weld_material: [glass]}
+447: {adjusts: [set and hold]}
+448: {straight_drive: [screw], slide_kind: ['pushed by a screw, chain or crank'], drive_split: [same way]}
+449: {drive_split: [same way, different speeds], drive_does: [changes speed or splits]}
+450: {drive_split: [opposite ways], drive_does: [changes speed or splits]}
+451: {drive_split: [combines inputs], powered_does: [move or push something]}
+452: {drive_split: ['pushes, pulls or flow shared out'], push_by: ['cables, pulleys or liquid']}
+# Existing entries given a new answer (R37): the new sheet answer "Paper, card or foam board", where the
+# gap searches found makers use them on card or foam board (scope-search-2026-10-22-foam.md and -paper.md)
+244: {sheet_material: {add: ['paper, card or foam board']}}
+299: {sheet_material: {add: ['paper, card or foam board']}}
+373: {sheet_material: {add: ['paper, card or foam board']}}

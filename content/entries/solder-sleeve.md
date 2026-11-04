@@ -48,7 +48,7 @@ finder:
   clicks: not applicable
   electrical_band: up to about 30 A
   tools: [soldering iron, crimper, heat gun, hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'no'
   removability: permanent
@@ -94,10 +94,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  drive_split: [not applicable]
+  made_of: ['plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
@@ -210,7 +209,8 @@ pictures:
     glue ring at each end.
   kind: photo
   drawn: false
-glossary: [coaxial, form-fit--force-fit--material-bond, chamfer--fillet, creep, fatigue, print-in-place, peel-vs-shear, gland]
+glossary: [coaxial, form-fit--force-fit--material-bond, chamfer--fillet, creep, fatigue, print-in-place, peel-vs-shear, gland,
+  flux]
 ---
 
 <div class="eoc-pictures">
@@ -226,7 +226,7 @@ A clear heat-shrink tube with a built-in ring of flux-cored solder and two rings
 
 ## How it works
 
-You strip both wires, overlap (or lightly twist) the bare ends and slide the sleeve on so the solder ring sits over the bare copper and the glue rings sit over the insulation (NASA-STD-8739.4A §19.6.1a; TE RPIP-824-00 §4.2). Hot air shrinks the tube, which squeezes the softening solder ring onto the wires; the flux cleans the copper so the molten solder flows in and wets it, and the glue rings melt and seal round the insulation at each end (TE catalogue p. 3-4; Hackaday 2023). Because the tube is clear you can check the result: a good joint shows no trace of the ring's original shape and a smooth solder [fillet](../glossary.md#chamfer--fillet) along the wires (NASA §19.6.1c, §20.5.1g; TE RPIP-824-00 §4.2.3).
+You strip both wires, overlap (or lightly twist) the bare ends and slide the sleeve on so the solder ring sits over the bare copper and the glue rings sit over the insulation (NASA-STD-8739.4A §19.6.1a; TE RPIP-824-00 §4.2). Hot air shrinks the tube, which squeezes the softening solder ring onto the wires; the [flux](../glossary.md#flux) cleans the copper so the molten solder flows in and wets it, and the glue rings melt and seal round the insulation at each end (TE catalogue p. 3-4; Hackaday 2023). Because the tube is clear you can check the result: a good joint shows no trace of the ring's original shape and a smooth solder [fillet](../glossary.md#chamfer--fillet) along the wires (NASA §19.6.1c, §20.5.1g; TE RPIP-824-00 §4.2.3).
 
 ## Parts
 
@@ -336,7 +336,6 @@ Burns: the heat gun and the splice get hot; TE warns 'allow tool and the assembl
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 7 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Solder sleeve*: sellers' operating ratings for Sn42Bi58 sleeves disagree (Markertek 125 °C, Quick Cable 110 °C); both recorded. TE's CWT series uses a cadmium-bearing solder (Sn50Pb32Cd18), worth a safety line when publishing. Reports of sleeves that looked good but had not bonded (an iATN teardown, a Hobby-Machinist thread) are labelled as forum and technician reports. No one publishes a current rating for the sleeve itself; its 'up to about 30 A' band, like that of *Standard plug-and-socket connector*, is the agent's judgement, explained in the text.
 
 ## Sources

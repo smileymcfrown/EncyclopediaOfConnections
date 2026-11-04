@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Two cut-aways of a bolt clamping a printed plastic bracket to a metal plate. On the left there is no tube, so the washer sinks into the plastic, which squashes and slowly flows sideways until the bolt goes loose. On the right a metal tube a hair shorter than the plastic sits round the bolt, the washer lands on the tube, and the tube carries the clamping force so the bolt stays tight.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="50" y="300" width="300" height="34" fill="url(#hatch)"/><rect x="450" y="300" width="300" height="34" fill="url(#hatch)"/>
+<path d="M70,215 L128,215 Q140,198 150,216 L150,236 L188,236 L188,300 L70,300 Z" fill="#fde2c4"/>
+<path d="M330,215 L272,215 Q260,198 250,216 L250,236 L212,236 L212,300 L330,300 Z" fill="#fde2c4"/>
+<rect x="192" y="226" width="16" height="140" fill="#e8e8e8"/>
+<rect x="150" y="226" width="100" height="10" fill="#e8e8e8"/>
+<rect x="160" y="198" width="80" height="28" rx="3" fill="#e8e8e8"/>
+<rect x="166" y="334" width="68" height="26" rx="2" fill="#e8e8e8"/>
+<path d="M470,215 L548,215 L551,217 L580,217 L580,300 L470,300 Z" fill="#fde2c4"/>
+<path d="M730,215 L652,215 L649,217 L620,217 L620,300 L730,300 Z" fill="#fde2c4"/>
+<rect x="580" y="217" width="11" height="83" fill="url(#hatch)"/><rect x="609" y="217" width="11" height="83" fill="url(#hatch)"/>
+<rect x="592" y="207" width="16" height="159" fill="#e8e8e8"/>
+<rect x="550" y="207" width="100" height="10" fill="#e8e8e8"/>
+<rect x="560" y="179" width="80" height="28" rx="3" fill="#e8e8e8"/>
+<rect x="566" y="334" width="68" height="26" rx="2" fill="#e8e8e8"/>
+</g>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)">
+<line x1="170" y1="268" x2="106" y2="268"/><line x1="230" y1="268" x2="294" y2="268"/>
+<line x1="200" y1="146" x2="200" y2="188"/>
+<line x1="585" y1="118" x2="585" y2="170"/><line x1="615" y1="118" x2="615" y2="170"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">
+<text x="200" y="40" font-size="21" font-weight="bold">No tube: plastic crushed</text>
+<text x="600" y="40" font-size="21" font-weight="bold">Metal tube takes the clamp</text>
+<text x="200" y="90">washer sinks into the plastic,</text>
+<text x="200" y="113">which slowly squashes and flows,</text>
+<text x="200" y="136">so the bolt goes loose</text>
+<text x="90" y="196" font-size="18">printed plastic</text>
+<text x="200" y="392" font-size="18">metal plate</text>
+<text x="600" y="90">clamping force goes through</text>
+<text x="600" y="113">the metal tube, not the plastic</text>
+<text x="452" y="166" font-size="18" text-anchor="start">metal tube</text><text x="452" y="187" font-size="18" text-anchor="start">(cut open)</text>
+<text x="716" y="160" font-size="18">washer lands</text><text x="716" y="181" font-size="18">on the tube</text>
+<text x="600" y="390" font-size="18">tube a hair shorter than the plastic,</text>
+<text x="600" y="411" font-size="18">so the plastic is only lightly squeezed</text>
+</g>
+<g stroke="#222" stroke-width="1.5"><line x1="540" y1="180" x2="583" y2="228"/><line x1="680" y1="188" x2="648" y2="210"/></g>
+<text x="400" y="441" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">The tube stops the squeeze at its own length, so soft parts don't creep and the bolt stays tight</text>
+</svg>

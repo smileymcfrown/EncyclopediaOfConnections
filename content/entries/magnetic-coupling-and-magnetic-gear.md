@@ -94,6 +94,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
 needs_confirming:
   connects:
     kind: best guess
@@ -219,7 +221,7 @@ pictures:
   kind: cross-section
   drawn: false
 glossary: [misalignment, backlash, axial--radial, coaxial, torque, fail-safe--fail-secure, hysteresis, tolerance, set-screw,
-  creep, brittle--ductile, infill, print-in-place, peel-vs-shear]
+  creep, brittle--ductile, infill, print-in-place, peel-vs-shear, flux]
 ---
 
 <div class="eoc-pictures">
@@ -307,7 +309,7 @@ Neodymium (NdFeB) disc, block and ring magnets (e.g. 6 x 3 mm or 5/16 in discs; 
 ## Rules of thumb
 
 - Estimate slip torque: find the straight-line pull between one magnet pair at your gap (from a pull-force calculator), multiply by 0.44 to get the sideways ([shear](../glossary.md#peel-vs-shear)) force, then by the distance from the magnet centre to the axis, then by the number of magnets on one side; e.g. two 5/16 in x 1/4 in discs 1/8 in apart pull 1.03 lb, giving about 0.45 lb x 0.4 in x 6 magnets = about 1.08 in-lb (0.12 N·m). K&J say this is only a rough starting point: test it (K&J Magnetics, 'Magnetic Couplers Powering a Boat')
-- Coaxial (flux-modulated) magnetic gear: number of steel pole pieces = inner pole pairs + outer pole pairs, and with the outer rotor held, ratio = pole pieces / inner pole pairs, e.g. 4 inner pole pairs, 13 outer pole pairs and 17 pieces give 4.25:1 (Som, Li, Kadel, Wright, Modaresahmadi, Bird and Williams, 'Analysis and Testing of a Coaxial Magnetic Gearbox with Flux Concentration Halbach Rotors', OSTI 1505685)
+- Coaxial (flux-modulated) magnetic gear: number of steel pole pieces = inner pole pairs + outer pole pairs, and with the outer rotor held, ratio = pole pieces / inner pole pairs, e.g. 4 inner pole pairs, 13 outer pole pairs and 17 pieces give 4.25:1 (Som, Li, Kadel, Wright, Modaresahmadi, Bird and Williams, 'Analysis and Testing of a Coaxial Magnetic Gearbox with [Flux](../glossary.md#flux) Concentration Halbach Rotors', OSTI 1505685)
 - Using the difference of the pole pair counts as the number of pole pieces instead makes the output turn the same way as the input (Wikipedia 'Magnetic gear': 20 and 14 magnets with 17 pieces give 10:7 reversed, with 3 pieces 10:7 same direction)
 - Side-by-side magnetic 'spur' gears always have ratios of small whole numbers (Wikipedia 'Magnetic coupling')
 - Losses in a metal wall between the halves rise with the square of speed and the square of the drive radius, so use a non-metallic wall where you can (Michael Smith Engineers, 'Magnetic Couplings')

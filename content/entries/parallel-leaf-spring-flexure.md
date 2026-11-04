@@ -82,14 +82,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…sitioning Device''); a hex key or screwdriver for clamped metal
-      blades [uncertain]…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [complexity, removability, tools_needed, materials, processes, off_the_shelf_parts]
+uncertain_fields: [complexity, removability, materials, processes, off_the_shelf_parts]
 diagram_idea: 'Side view of a platform held above a base by two parallel blades: frame 1 at rest (a rectangle); frame 2 pushed
   sideways, both blades bent into matching S shapes and the platform still level, with a small exaggerated arrow showing it
   dipping towards the base; frame 3 a double parallelogram in which the middle block moves half as far and the dip cancels.'
@@ -170,6 +168,7 @@ sources:
 - https://www.printables.com/model/586635-linear-motion-compliant-mechanism
 - https://www.youtube.com/watch?v=JGbM6qZAwQY
 - https://www.youtube.com/watch?v=PaypcVFPs48
+- https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps
 research: research/connection-types/results/Parallel_leafspring_flexure_linear_flexure_stage.json
 image:
   file: drawn/anim/parallel-leaf-spring-flexure.svg
@@ -194,13 +193,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: parallel-leaf-spring-flexure.webp
+  title: Double parallelogram flexure
+  author: rsmith_nl
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1804748-double-parallelogram-flexure
+  site: Printables
+  alt: A white 3D-printed flexure stage lying flat, with a moving centre platform joined to the outer frame by pairs of thin
+    parallel blades on each side, so you can see the blades that bend to let it slide.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [degrees-of-freedom, backlash, stroke, linkage, actuator, stiffness, flexure, compliant-mechanism, living-hinge,
   stick-slip, chamfer--fillet, over-constraint, repeatability--accuracy, creep, fatigue, perimeters, print-in-place, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/parallel-leaf-spring-flexure.svg"><img src="../media/drawn/anim/parallel-leaf-spring-flexure.svg" alt="Side view of a platform held above a fixed base by two thin parallel blades: at rest the blades are straight, and when the platform is pushed sideways both blades bend into the same S shape so the platform slides along while staying level, dipping only very slightly; the pushed view slides back to r"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/parallel-leaf-spring-flexure.webp" alt="Render of a parallel leaf-spring flexure: a one-piece green 3D-printed part, a base block and a platform joined by two thin upright blades; the platform has been pushed a little to one side, the blades bend into matching S shapes and the platform stays level." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/parallel-leaf-spring-flexure.webp" alt="Render of a parallel leaf-spring flexure: a one-piece green 3D-printed part, a base block and a platform joined by two thin upright blades; the platform has been pushed a little to one side, the blades bend into matching S shapes and the platform stays level." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/parallel-leaf-spring-flexure.webp" alt="A white 3D-printed flexure stage lying flat, with a moving centre platform joined to the outer frame by pairs of thin parallel blades on each side, so you can see the blades that bend to let it slide." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1804748-double-parallelogram-flexure">Double parallelogram flexure</a> by rsmith_nl, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 Two or more identical parallel blades join a fixed base to a moving platform, so the platform can slide a short distance in a nearly straight line with no friction, play or wear, guided and sprung by the bending blades.
@@ -266,7 +278,7 @@ Avoid it when you need long travel (more than a few millimetres in metal, or mor
   - sheet metal: spring-steel blades clamped between blocks ⚑ [uncertain: no build guide opened]
   - off-the-shelf part: piezo flexure stages and nanopositioners (Physik Instrumente); single-point load cells (Transducer Techniques)
 - **Printing it in one piece (print in place):** yes: the whole guide prints as one working piece without supports (OpenFlexure microscope and Block Stage; zalo's XY Flexure Translation Stage; FabianVeile's XY Linear Guide). A positioning stage then needs an added drive, such as an M3 screw and nut (Sharkey et al.; Printables 'High-precision Compliant XY-Positioning Device'), which makes it 'partly' [print-in-place](../glossary.md#print-in-place).
-- **Tools:** none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain]
+- **Tools:** none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for the bolts that clamp metal blades between blocks (DSPE 'Flexure assembly using dove tail clamps')
 - **Difficulty:** easy to moderate: a printed parallel flexure is a simple one-piece print (FabianVeile's XY Linear Guide prints in about 45 minutes), but printing thin blades cleanly, avoiding creep and adding a fine screw drive takes some care; nanometre-grade metal stages are bought
 
 ### 3D printing tips
@@ -326,8 +338,7 @@ None known for small printed stages. Printed blades pushed past their limit can 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…sitioning Device'); a hex key or screwdriver for clamped metal blades ⚑ [uncertain]…"
+- ⚑ 5 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -356,3 +367,4 @@ None known for small printed stages. Printed blades pushed past their limit can 
 - <https://www.printables.com/model/586635-linear-motion-compliant-mechanism>
 - <https://www.youtube.com/watch?v=JGbM6qZAwQY>
 - <https://www.youtube.com/watch?v=PaypcVFPs48>
+- <https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps>

@@ -85,23 +85,24 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
     reason: '`reuse_cycles` is marked [uncertain] here: "…unlimited for a sliding lid, until the grooves wear or the wood
       warps [uncertain];…"'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…s for glued panels; nails for floors, possibly with a flooring nailer
-      [uncertain].…"'
   opens_by:
     kind: best guess
     reason: 'carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding
       lid opens by sliding, which none of the three answers covers; ''catch or lever'' is wrong, but dropping it would lose
       sliding-lid boxes from the lid shortlist'
 confirmed: []
-open_points: []
-uncertain_fields: [removability, reuse_cycles, tools_needed, seal, processes, making_tips_3d_printing, when_not_to_use]
+open_points:
+- kind: scope
+  note: '*Tongue-and-groove joint* (273): acrylic doors (Bohle covers glass only) and lifting a pane in through a deeper top
+    channel.'
+uncertain_fields: [removability, reuse_cycles, seal, processes, making_tips_3d_printing, when_not_to_use]
 diagram_idea: 'Two panels: (1) an end view of three boards with tongues in grooves, showing the small gap left at the bottom
   of each groove and a dotted outline of a board shrinking while its tongue stays in the groove; (2) a cut-away box with grooves
   along the inside of both long sides and a lid sliding out of the open end, with arrows showing it is held up, down and sideways
@@ -186,6 +187,8 @@ sources:
 - https://www.osha.gov/etools/machine-guarding/saws/table
 - https://www.youtube.com/watch?v=7NulJL7R4Ok
 - https://api.printables.com/graphql/
+- https://www.bohle.com/uk-EN/Top-Side-track-Double-Nylonslide-6-mm/BO634024P
+- https://www.thisoldhouse.com/flooring/22740605/tongue-and-groove-flooring
 research: research/connection-types/results/Tongueandgroove_joint_incl_slidinglid_grooves.json
 image:
   file: drawn/anim/tongue-and-groove-joint.svg
@@ -257,6 +260,7 @@ Single feature on each part, or a few parts: one board with a groove along one e
 - Tongue-and-groove wall panelling, V-groove wainscot and the back panels of bookcases (Woodworker's Journal; DT Online 'Matched Boarding')
 - A wooden pencil box with a sliding top (Fine Woodworking: the author's childhood pencil box inspired his design)
 - Printed or wooden boxes for board-game pieces with a slide-out lid (Printables 'Parametric Sliding Lid Box')
+- Sliding glass doors on a display cabinet, running on rollers in a double bottom track with their top edges in a double top track (Bohle)
 
 ## When to use it
 
@@ -302,7 +306,7 @@ Don't add a tongue and groove for strength in an edge glue-up; a well-glued plai
   - laser cut: Boxes.py's SlidingLidBox makes a finger-jointed box where the lid runs between glued-in upper and lower rails (Boxes.py)
   - off-the-shelf part: ready-made tongue-and-groove flooring, panelling, cladding and T&G plywood sheets (Wikipedia; DT Online)
 - **Printing it in one piece (print in place):** no: the box and lid (or the two tongue-and-groove parts) are printed separately and slid together; e.g. one printable dovetailed sliding-lid box is printed with the box upright and the lid upside down (Printables 'Fully Parametric Dovetail Sliding Lid Box')
-- **Tools:** Router table with a matched pair of tongue-and-groove bits, a reconfigurable single bit, a slot cutter, or a straight bit plus a rabbeting bit; featherboard and push sticks (Woodcraft; Woodworker's Journal); or a table saw with a dado cutter (Popular Woodworking); or hand planes: a plough plane for the groove and a tongue plane, a pair of match planes or a combination plane (Wikipedia 'Tongue and groove'; DT Online); or a spindle moulder (shaper) (Wikipedia). For sliding lids: a router table with a small straight bit (1/8 in. in Fine Woodworking's box) or a table saw to cut the grooves, and a hand plane to fit the lid (Fine Woodworking; Blue Spruce Toolworks). Glue and clamps for glued panels; nails for floors, possibly with a flooring nailer ⚑ [uncertain].
+- **Tools:** Router table with a matched pair of tongue-and-groove bits, a reconfigurable single bit, a slot cutter, or a straight bit plus a rabbeting bit; featherboard and push sticks (Woodcraft; Woodworker's Journal); or a table saw with a dado cutter (Popular Woodworking); or hand planes: a plough plane for the groove and a tongue plane, a pair of match planes or a combination plane (Wikipedia 'Tongue and groove'; DT Online); or a spindle moulder (shaper) (Wikipedia). For sliding lids: a router table with a small straight bit (1/8 in. in Fine Woodworking's box) or a table saw to cut the grooves, and a hand plane to fit the lid (Fine Woodworking; Blue Spruce Toolworks). Glue and clamps for glued panels; nails for floors, driven through the tongue at 45 degrees with a flooring nailer (This Old House).
 - **Difficulty:** moderate for wood: easy with a matched router-bit set in a router table, but needs a careful setup, a centred groove and consistent stock thickness (Woodcraft; Popular Woodworking); easy for 3D-printed sliding-lid boxes from a parametric model (Printables)
 
 ### 3D printing tips
@@ -327,6 +331,7 @@ Tongue-and-groove router bits: matched 2-bit sets, reversible single bits, 'conv
 - Sliding lid in wood: use quarter-sawn or rift-sawn stock and mill it to thickness in stages ('double and even triple-milling') so the lid stays flat and slides without binding (Michael Cullen, Fine Woodworking #255).
 - Loose tongues: grooves about one-third of the thickness (e.g. the nearest standard plywood thickness); if the tongue is solid wood, run its grain diagonally or across its width for strength (DT Online 'Widening Joint').
 - Stopped grooves (grooves that stop short of the ends) should be cut with a router or spindle moulder, not a table saw (DT Online, citing HSE WIS16).
+- Sliding glass cabinet doors run in a double track: the panes ride on nylon rollers in the bottom track, their top edges are held in the matching top track, and the two doors usually overlap by 26 mm. One such track is for 6 mm glass up to 1.5 m high: cut the glass 22 mm shorter than the opening height, keep each door no taller than 1.5 times its width, and have the glass edges polished 'for safety reasons' (Bohle double top track BO634024P).
 
 ## Common failures
 
@@ -347,6 +352,9 @@ Tongue-and-groove router bits are large and heavy: use a powerful, variable-spee
 - Snap-lock sheet joint and [cantilever](../glossary.md#cantilever) snap fit: locking versions, like 'click' floors whose tongues snap into modified grooves (Wikipedia 'Wood flooring')
 - Oldham coupling: uses tongue-and-groove slots at right angles to join slightly misaligned shafts
 - Drawer slide (telescopic ball-bearing slide): the hardware alternative for sliding parts
+- Jigsaw puzzle-edge joint: a press-together wavy edge that locks flat panels (such as foam floor mats) against pulling apart, where tongue and groove only keeps them flush
+- Glazing in a rebated frame: holds a fixed pane of glass or acrylic in a stepped rebate with points, putty or beads, rather than in a groove
+- Glass door hinge: the hinged alternative to sliding glass cabinet doors in a track
 
 ## Make it yourself
 
@@ -368,10 +376,10 @@ Tongue-and-groove router bits are large and heavy: use a powerful, variable-spee
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 10 sentences on this page marked [uncertain].
+- ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = effectively unlimited (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…unlimited for a sliding lid, until the grooves wear or the wood warps ⚑ [uncertain];…"
-- ⚑ Finder value `tools` = press or vice, power tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…s for glued panels; nails for floors, possibly with a flooring nailer ⚑ [uncertain].…"
 - ⚑ Finder value `opens_by` = catch or lever (best guess): carried over from the old rule on entry names (R33); checked against the entry text and still unsure: the sliding lid opens by sliding, which none of the three answers covers; 'catch or lever' is wrong, but dropping it would lose sliding-lid boxes from the lid shortlist
+- ⚑ Research note: *Tongue-and-groove joint* (273): acrylic doors (Bohle covers glass only) and lifting a pane in through a deeper top channel.
 
 ## Sources
 
@@ -405,3 +413,5 @@ Tongue-and-groove router bits are large and heavy: use a powerful, variable-spee
 - <https://www.osha.gov/etools/machine-guarding/saws/table>
 - <https://www.youtube.com/watch?v=7NulJL7R4Ok>
 - <https://api.printables.com/graphql/>
+- <https://www.bohle.com/uk-EN/Top-Side-track-Double-Nylonslide-6-mm/BO634024P>
+- <https://www.thisoldhouse.com/flooring/22740605/tongue-and-groove-flooring>

@@ -95,14 +95,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   electrical_band:
     kind: best guess
     reason: tagged electrical, but `load` does not start with the fixed electrical lead-in
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to
-      wire [uncertain]…"'
 confirmed: []
 open_points:
 - kind: content
@@ -114,7 +112,7 @@ open_points:
   note: '**Vendor or retailer numbers** to check against a second source: Storz "99% of leaks are gasket problems" (ca-fire.com)
     and Dual Lock''s 1,000 cycles (a retailer guide) in *Genderless connector*. The *Hobson''s joint* Cal-Van catalogue line
     was decoded from a PDF with a scrambled font.'
-uncertain_fields: [tools_needed, materials, processes, making_tips_3d_printing, when_not_to_use, safety_notes, make_it_yourself]
+uncertain_fields: [materials, processes, making_tips_3d_printing, when_not_to_use, safety_notes, make_it_yourself]
 diagram_idea: Two identical coupling halves drawn side by side, the second rotated 180 degrees, with matching colours showing
   each hook landing in the other's slot (and, in a second panel, a ring of alternating N and S magnets lining up), next to
   a gendered plug and socket for comparison and the caption 'one part, printed twice'.
@@ -186,6 +184,7 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
 - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
+- https://ntrak.org/resources/Documents/tNt/NTRAK%20TipsNTechniques/TNT%20Assembling%20Anderson%20PP%20Connectors.pdf
 research: research/connection-types/results/Genderless_connector_hermaphroditic_coupling.json
 image:
   file: genderless-connector.webp
@@ -232,8 +231,8 @@ pictures:
   alt: Two identical knuckle couplers on railway wagons locked together, each hook gripping the other.
   kind: how-it-works
   drawn: false
-glossary: [misalignment, detent, stiffness, clearance, form-fit--force-fit--material-bond, keying, print-in-place, elephants-foot,
-  overhang--bridging]
+glossary: [misalignment, detent, ratchet, stiffness, clearance, form-fit--force-fit--material-bond, keying, print-in-place,
+  elephants-foot, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
@@ -310,7 +309,7 @@ Avoid it when joining the wrong two things would be dangerous or damaging: where
   - off-the-shelf part: Storz and gladhand couplings, Anderson Powerpole and SAE connectors, Dual Lock tape
   - laser cut: ⚑ [uncertain] identical slotted flat pieces that interlock (as in some construction toys) are genderless
 - **Printing it in one piece (print in place):** no: genderless parts are printed as separate identical copies and then joined; the whole point is that one file printed twice is enough (DeGroof's hinge, LockSpool V3, Brožek's dodecahedron box)
-- **Tools:** None for most; a Storz coupling spanner for large or tight fire-hose couplings; a crimp tool (or soldering iron) to fit Powerpole contacts to wire ⚑ [uncertain]
+- **Tools:** None for most; a Storz coupling spanner for large or tight fire-hose couplings; a crimp tool, best a [ratchet](../glossary.md#ratchet) crimper (or a soldering iron), to fit Powerpole contacts to wire (NTRAK 'Assembling Anderson Powerpole Connectors')
 - **Difficulty:** easy to moderate: buying genderless parts (Powerpoles, SAE leads, Storz fittings, Dual Lock) is easy; designing your own is moderate, because the mating face must fit a turned-round copy of itself exactly, so the symmetry has to be built into the CAD model and printed hooks need clearance testing
 
 ### 3D printing tips
@@ -371,9 +370,8 @@ Pressurised hoses: a quarter-turn coupling that is not fully engaged can come ap
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
-- ⚑ Finder value `tools` = none, soldering iron, crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…s; a crimp tool (or soldering iron) to fit Powerpole contacts to wire ⚑ [uncertain]…"
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 
 ## Sources
@@ -401,3 +399,4 @@ Pressurised hoses: a quarter-turn coupling that is not fully engaged can come ap
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://help.prusa3d.com/article/petg_2059>
 - <https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135>
+- <https://ntrak.org/resources/Documents/tNt/NTRAK%20TipsNTechniques/TNT%20Assembling%20Anderson%20PP%20Connectors.pdf>

@@ -39,7 +39,7 @@
       "not a holding joint (it moves or passes on motion): it drives a load; its position is held by the motor or brake"
     ],
     "input_output": "Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). Rough efficiency: not stated in the makers' pages found [uncertain]. Back-drivable: in principle yes, like a rack and pinion, unless the gearmotor or a brake holds it [uncertain].",
-    "power": "powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain whether every model holds against a strong wind or push when unpowered]",
+    "power": "powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors and are rated to hold well above their pushing force when stopped (Giesse Varia Slim Small: 200 N push, 1000 N static holding force; WindowMaster WMU 883: 1000 N push, 5000 N locking force)",
     "removability": "removable: the housing bolts to the frame and the chain's end fitting bolts or pins to the moving part (window sash, platform or carriage)",
     "reuse_cycles": "many times: it is fitted once but runs for many cycles (Tsubaki expects about 4000 km of travel); brackets can be unbolted and refitted",
     "tools_needed": "Screwdriver, hex keys and spanners for the brackets; electrical tools for wiring the motor supply and switches; grease for industrial chains. Printed demo chains: none (pins and clips press in).",
@@ -173,12 +173,13 @@
       "https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain",
       "https://www.thingiverse.com/thing:2362604",
       "https://help.prusa3d.com/article/pla_2062",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://products.tyman-international.com/pub/media/scambio/GIESSE/SCHEDA_TECNICA/EN/FAC_VARIA_SLIM_SMALL.pdf",
+      "https://www.specifiedby.com/windowmaster/chain-actuator-600n-1a/Windowmaster_600N-1A_Technical_Datasheet.pdf"
     ]
   },
   "uncertain": [
     "input_output",
-    "power",
     "make_it_yourself"
   ]
 }

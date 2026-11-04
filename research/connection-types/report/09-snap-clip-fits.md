@@ -43,7 +43,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable when designed to separate (sloped back face, release tab or access slot); permanent versions with a hidden 90° hook can only be undone by breaking the hook (Wikipedia 'Snap-fit'; HP MJF handbook)
 - **reuse_cycles**: many times if the arm is designed for repeated use, i.e. bent to only about 60% of the one-time strain limit (Covestro Table 2) or to DuPont's 'used frequently' values (e.g. acetal 2-4% instead of 8%); a few times, or once, if the arm is strained near its limit, is printed in brittle PLA, or is printed standing up so its layers peel ⚑ [uncertain] (no cycle counts found for printed arms) *(⚑ parts need confirming)*
-- **tools_needed**: none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release (OKW's clip-on Snaptec lids come off with a small flat screwdriver or the supplied nylon key; Electronic Design)
 - **seal**: none: a snap fit holds parts but doesn't seal; add a gasket or O-ring if needed
 - **load**: light to medium: strongest against pulling apart in the direction the hook resists (Covestro says its positive snap joint 'can transmit considerable forces'), weaker in side-to-side shear, which locating lugs should carry (Hubs), and weakest if the arm is pried or bent further. Assembly force for fingers is usually kept below about 50-100 N (HP MJF handbook).
 - **adjustable**: no: position and holding force are fixed by the arm and hook shape; some designs take up tolerances by leaving the arm slightly bent after assembly (DuPont p. 75)
@@ -145,6 +145,7 @@
   - https://designerdata.nl/calculators/snap-fit-joints/snap-fitting-hook-straight-ring-segment
   - https://www.fictiv.com/tools/snap-fit-calculator
   - https://www.engineersedge.com/snap_fit_straight.htm
+  - https://www.electronicdesign.com/technologies/components/article/21765277/enclosures-snap-and-fit-easily
 
 ### Finder tags
 
@@ -156,16 +157,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…all flat screwdriver or pry tool to press the hook clear, for release [uncertain]…"*
+- **tools**: none, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, off_the_shelf_parts, processes, reuse_cycles, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, off_the_shelf_parts, processes, reuse_cycles, safety_notes
 
 ## 45 Annular snap fit
 
@@ -210,7 +254,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: pull-off designs with about a 30-45° back face come apart by hand; permanent versions with a 90° back face need a hub that is open at the far end and can only be broken apart (Machine Design; DuPont p. 73)
 - **reuse_cycles**: many times for pull-off designs such as pen caps, although 'repeated use can cause permanent strain and loosening' (Wikipedia 'Snap-fit'); once for 90° permanent designs
-- **tools_needed**: none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press or mallet for large, stiff joints ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: none to assemble or to pull off; a knife blade or thin screwdriver to pry apart a tight continuous snap (kaje notes his continuous annular test print 'can be separated again by prying apart with a knife blade'); a press for large, stiff joints pushed on straight; by hand, tip the bead in at an angle and press or knock the rest into place, which takes much less force (Covestro p. 23)
 - **seal**: dust-resistant: a continuous (unslotted) ring closes the joint all the way round; Covestro calls this a 'semi-hermetic seal' and Hubs says an annular snap fit 'can provide a watertight seal' with proper geometry and material, but for a dependable watertight or pressure seal add an O-ring or gasket (not verified for 3D-printed parts) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **load**: medium: annular snaps 'are generally stronger, but need greater assembly force than their cantilevered counterparts' (Machine Design; DuPont p. 72), and 'quite small undercuts give joints of considerable strength' (Covestro p. 6). Strongest against pulling apart along the axis, especially with a steep back face or a groove placed well away from the tube's end (Covestro p. 22); weak against twisting (the parts just turn) and against being tipped or pried from one side, which is also how they are opened. Slotting the ring for easier assembly lowers the holding force (DuPont p. 73).
 - **adjustable**: no: the fit is fixed by the bead and groove sizes; the parts can still be turned to any angle unless keyed
@@ -317,16 +361,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: none, press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…apart with a knife blade'); a press or mallet for large, stiff joints [uncertain]…"*
+- **tools**: none, press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, holding_principle, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, rules_of_thumb, safety_notes, seal, special_behaviour, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, holding_principle, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, rules_of_thumb, safety_notes, seal, special_behaviour
 
 ## 46 Torsional snap fit
 
@@ -458,6 +545,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 
@@ -603,6 +733,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -694,6 +867,7 @@
   - Quarter-turn fastener: a stud that locks a panel with a quarter turn; made for panels opened again and again
   - Heat staking: a plastic post melted into a rivet head; permanent
   - Cable tie mounts and edge clips: similar push-in stems used to route cables
+  - Cardboard screws and rivets (box rivets): reusable plastic rivet halves pressed together from both sides through punched holes in corrugated cardboard
 
 ### Pictures, videos and models
 
@@ -748,6 +922,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: no, yes
+- **threaded**: no ⚑ *needs confirming (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it*
+- **sheet_material**: sheet metal, plastic sheet
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, fabric, leather or cord
 
 ### Other info
 
@@ -898,6 +1115,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: close or attach fabric
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, carbon fibre or composites, fabric, leather or cord ⚑ *needs confirming (best guess): still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com: "Heavy-duty snaps through drilled holes in the armor" (rigid armour; same use on foam ).*
 
 ### Other info
 
@@ -948,7 +1208,7 @@
 - **power**: passive (no power needed)
 - **removability**: push nuts and push-on rings: permanent to semi-permanent: 'once fixed in position, the Starlock push on fastener is so secure that it cannot be removed without destruction' (Starlock catalogue p. 3), and Rotor Clip says removal may deform the ring or shaft so replacement is recommended; speed nuts and U-/J-nuts: removable, unscrewed like a normal nut (Tinnerman catalogue)
 - **reuse_cycles**: once for push nuts and push-on rings (Starlock catalogue; Rotor Clip; McMaster-Carr: 'For one-time use only' for push-on retaining rings); many times for speed nuts and U-nuts, which the maker describes as 'ideal for service locations, reused indefinitely' (Tinnerman catalogue p. 5)
-- **tools_needed**: Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; McMaster-Carr sells installation tools with a magnetised tip); removal needs pliers, a screwdriver to pry or cutters, and destroys the push nut ⚑ [uncertain]. Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). Cage nuts: the original design needs a small insertion tool to squeeze the wings into the hole; newer squeeze-and-release designs fit without tools (Wikipedia 'Cage nut'). *(⚑ parts need confirming)*
+- **tools_needed**: Push nuts: none, fingers or a light tap; a simple tube or a hand tool with a magnetic ferrule sized to the shaft seats them squarely (Starlock catalogue p. 26; McMaster-Carr sells installation tools with a magnetised tip); removal destroys the push nut ('cannot be removed without destruction', Starlock catalogue p. 3): it is prised off with a screwdriver, cut off or ground off (US patent 7,231,700). Speed nuts, U- and J-nuts: a screwdriver; the U- or J-nut is pushed on by hand, and finger pressure stops a flat speed nut turning while the screw is driven (Tinnerman catalogue pp. 8-11). Cage nuts: the original design needs a small insertion tool to squeeze the wings into the hole; newer squeeze-and-release designs fit without tools (Wikipedia 'Cage nut').
 - **seal**: none: they hold parts on but do not seal; capped push nuts only cover the shaft end for looks
 - **load**: light to medium. Push nuts hold against pulling off along the shaft: B&F Starlock rates spring-steel push nuts at about 196 N pull-off on a 3 mm shaft, 392 N on 5 mm, 981 N on 10 mm and 3434-3777 N on 20-25 mm, measured on mild-steel shafts (Starlock catalogue p. 6). Push-on rings suit 'low thrust loads' only (Rotor Clip). Speed nuts are 'light-to-medium duty, built for fast captive retention ... rather than high clamp load' (Eugene Fastener); Tinnerman lists average tensile limits of about 250 lb (1.1 kN) for a #8-32 machine screw and 600 lb (2.7 kN) for a #8 sheet-metal screw (Tinnerman catalogue p. 5). Weak against twisting on round shafts (the push nut can spin) and against prying.
 - **adjustable**: Push nuts: no, the position is set by how far it is pushed and it cannot be backed off; speed nuts: yes, by turning the screw, and a 'Prevailing Torque Fit' version is recommended 'when the fastener is used as an adjustment nut' (Tinnerman catalogue p. 5)
@@ -1037,6 +1297,7 @@
   - https://en.wikipedia.org/wiki/19-inch_rack
   - https://commons.wikimedia.org/wiki/Category:Cage_nuts
   - https://commons.wikimedia.org/wiki/File:Kafigmutter.jpg
+  - https://patents.google.com/patent/US7231700B2/en
 
 ### Finder tags
 
@@ -1048,16 +1309,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: clicks
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ds pliers, a screwdriver to pry or cutters, and destroys the push nut [uncertain]. Speed nuts, U- and J-nuts:…"*
+- **tools**: hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: no
+- **threaded**: not applicable
+- **sheet_material**: sheet metal
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, play_and_precision, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, making_tips_3d_printing, play_and_precision, processes, safety_notes
 
 ## 259 Retaining ring (circlip, E-clip)
 
@@ -1211,6 +1515,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft
+- **printable**: yes
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1313,6 +1660,8 @@
   - Clamp-on accessory mount for bars, poles and edges: a screw-tightened clamp for edges that must carry load
   - Silicone and MS-polymer adhesive sealants: glue-on alternative for sealing or protecting an edge
   - Double-sided foam tape: stick-on alternative for light trims and bumpers
+  - Glass and mirror edge clips and clamps: lips, J-channel or padded screw clamps that hold a glass or acrylic sheet by its edge, rather than just covering the edge
+  - Lead came joint (leaded glass): grooved H- and U-shaped lead strips that grip the edges of glass pieces and are soldered together, like a metal U-channel edging
 
 ### Pictures, videos and models
 
@@ -1363,6 +1712,49 @@
 - **adjustable**: yes
 - **removability**: removable ⚑ *needs confirming (source uncertain): `removability` is marked [uncertain] here: "…d refitted, though trims with pre-applied adhesive are semi-permanent [uncertain: no source describes removing…"*
 - **power**: passive
+- **printed_take_apart**: yes
+- **threaded**: no
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint, pass cables through
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, carbon fibre or composites, glass or mirror
 
 ### Other info
 

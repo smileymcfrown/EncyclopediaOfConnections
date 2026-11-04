@@ -88,17 +88,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…bolt-and-washer puller is kinder than a hammer for pressing bearings
-      [uncertain]; a lead-in chamfer on the ho…"'
   usual_process:
     kind: best guess
     reason: 'first-listed process "injection moulding: where crush ribs come from; th" not recognised; defaulted'
 confirmed: []
 open_points: []
-uncertain_fields: [reuse_cycles, tools_needed, processes, making_tips_3d_printing, safety_notes, make_it_yourself]
+uncertain_fields: [reuse_cycles, processes, making_tips_3d_printing, safety_notes, make_it_yourself]
 diagram_idea: 'Two top-down views side by side: left, a plain round hole slightly too small, with red arrows showing the whole
   wall stretched and a crack starting along a layer line; right, a slightly larger hole with three or four small ribs, a bearing
   pushed in, and the rib tips shown squashed; a third inset shows a laser-cut slot beside a hole leaving a thin springy arm
@@ -182,6 +180,8 @@ sources:
 - https://en.wikipedia.org/wiki/Neodymium_magnet
 - https://api.printables.com/graphql/
 - https://www.printables.com/model/43599-test-print-crush-ribs-version02
+- https://ohai.lulzbot.com/project/cluster-linear-bearings/cluster/
+- https://www.nsk.com/am-en/tools-resources/knowledge-center/bearing-abcs/mounting/
 research: research/connection-types/results/Crush_ribs_and_springfit_features_compliant_press_fit.json
 image:
   file: drawn/crush-ribs-and-spring-fit-features.svg
@@ -273,7 +273,7 @@ Avoid relying on them alone for heavy, hammering or vibrating loads, precision b
   - laser cut: bumps (nodes) in slots and cantilever-spring mounts and joints in plywood, MDF and acrylic (Ponoko; SpringFit)
   - CNC: rounded ribs are cut into moulds with an end mill (Protolabs)
 - **Printing it in one piece (print in place):** no: the ribs or spring tabs print as part of the holder, and the bearing, magnet or other part is pushed in after printing
-- **Tools:** none for small parts (push in by hand; SpringFit parts go in best at an angle); a vice, arbor press or a bolt-and-washer puller is kinder than a hammer for pressing bearings ⚑ [uncertain]; a lead-in [chamfer](../glossary.md#chamfer--fillet) on the hole helps (Gridfinity layout tool: 45 degrees, 0.8 mm)
+- **Tools:** none for small parts (push in by hand; SpringFit parts go in best at an angle); a vice, arbor press (LulzBot presses bearings into printed parts with one) or a bolt, washers and nut (Printables 'Bearing press-in tool') is kinder than a hammer for pressing bearings: 'Do not strike bearings directly' (NSK); a lead-in [chamfer](../glossary.md#chamfer--fillet) on the hole helps (Gridfinity layout tool: 45 degrees, 0.8 mm)
 - **Difficulty:** easy: a few small ridges or a slot-cut spring arm are quick to add in CAD, print or cut with the part, and save the trial-and-error of tuning an exact hole size for every printer
 
 ### 3D printing tips
@@ -334,8 +334,7 @@ Pressing parts in can crack the holder and send sharp fragments or brittle acryl
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…bolt-and-washer puller is kinder than a hammer for pressing bearings ⚑ [uncertain]; a lead-in chamfer on the ho…"
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process "injection moulding: where crush ribs come from; th" not recognised; defaulted
 
 ## Sources
@@ -367,3 +366,5 @@ Pressing parts in can crack the holder and send sharp fragments or brittle acryl
 - <https://en.wikipedia.org/wiki/Neodymium_magnet>
 - <https://api.printables.com/graphql/>
 - <https://www.printables.com/model/43599-test-print-crush-ribs-version02>
+- <https://ohai.lulzbot.com/project/cluster-linear-bearings/cluster/>
+- <https://www.nsk.com/am-en/tools-resources/knowledge-center/bearing-abcs/mounting/>

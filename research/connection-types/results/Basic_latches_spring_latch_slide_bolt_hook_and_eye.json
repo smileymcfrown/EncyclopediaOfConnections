@@ -107,7 +107,8 @@
       "Indexing plunger (pull-knob index pin): a spring-loaded pin, like a spring shoot bolt, used to lock parts at set positions",
       "Tool-free fasteners (hitch pin and R-clip): a pin pushed through holes and clipped, used as a simple removable bolt",
       "Eye bolts, screw eyes and hooks: the screw eyes and screw hooks a hook-and-eye latch is made from, used on their own as fixed anchor points for ropes and hanging things",
-      "Sew-on part: how small hooks, eyes and other hardware are sewn onto fabric, as with the garment hook and eye"
+      "Sew-on part: how small hooks, eyes and other hardware are sewn onto fabric, as with the garment hook and eye",
+      "Glazing in a rebated frame: picture frames use turn buttons, flat pieces of metal or wood that turn on one screw over the backing board, the simplest latch, so the back can be taken out and put back (LION Picture Framing; Wiktionary 'button')"
     ]
   },
   "media": {
@@ -212,7 +213,9 @@
       "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
       "https://www.hubs.com/knowledge-base/how-design-snap-fit-joints-3d-printing/",
       "https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.lionpic.co.uk/turn-button-frame-fasteners/",
+      "https://en.wiktionary.org/wiki/button"
     ]
   },
   "uncertain": [

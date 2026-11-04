@@ -49,7 +49,7 @@ finder:
   power: passive
   printed_take_apart: [not applicable]
   threaded: [not applicable]
-  sheet_material: [wood]
+  sheet_material: [wood, 'paper, card or foam board']
   carries_fluid: [not applicable]
   shaft_joint: [not applicable]
   printable: [not applicable]
@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam, glass or mirror]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -161,6 +163,8 @@ sources:
 - https://www.youtube.com/watch?v=n3e6Ba6IfhM
 - https://www.youtube.com/watch?v=jcDizu5P3Ck
 - https://api.printables.com/graphql/
+- https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942
+- https://patents.google.com/patent/US5048188
 research: research/connection-types/results/Housing_and_rebate_joints_dado_rabbet.json
 image:
   file: housing-and-rebate-joints.webp
@@ -192,7 +196,7 @@ pictures:
   render: true
   drawn: true
 glossary: [stiffness, clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, creep, stress-concentration,
-  perimeters, infill, elephants-foot, kerf, end-grain, peel-vs-shear]
+  perimeters, infill, elephants-foot, kerf, end-grain, peel-vs-shear, flute]
 ---
 
 <div class="eoc-pictures">
@@ -251,7 +255,7 @@ Don't rely on a plain housing or rebate where the joint is pulled apart (in tens
 - **Sealing:** none: the joint itself doesn't seal. In a window, the glazing rebate holds the glass and the putty does the sealing (Wikipedia 'Rabbet').
 - **Adjustable:** no once glued; the fit is adjusted while cutting, by making two passes, adding shims or using undersized bits (Rockler 'Getting Dadoes and Plywood Thickness to Match')
 - **Access needed:** not applicable: the board is pushed into the channel or onto the step during assembly, and nothing needs to be reached from behind
-- **Materials:** Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box').
+- **Materials:** Usually wood: solid timber, plywood, MDF and particleboard (Wikipedia: 'machinable material, usually wood'; Rockler). Plywood is about half as stiff as average hardwood and particleboard or MDF about a quarter, which affects shelf spans (Popular Woodworking). The same shapes appear in 3D-printed and CNC-cut boxes, e.g. a box generator that makes rabbet-jointed boxes for both 3D printers and CNC machines (Printables 'Slide Top Rabbet Box'). Foam board can be rebated too: cut a rebate (rabbet) along the edge with a craft knife or a dedicated foam-board rabbet cutter (straight edges only) and hot-glue the next board into it; one maker found rabbet cutters 'work better than mitered edges', and another cut a 3/16 in rebate round a whole side panel (Core77 forum). The cut removes the foam and the inner paper but leaves the outer paper skin, which laps over and covers the foam edge of the joining board; a plain butt joint 'leaves the edge and foam core of the second panel exposed' (US patent 5,048,188 'Rabbet cutting tool').
 - **Heat, cold, water and wear:** These are wood joints, so the limits are those of the timber and glue. Under constant load, wooden shelves keep sagging 'a little more each year', because wood [creeps](../glossary.md#creep) (Popular Woodworking). Changes in humidity make wood and plywood swell and shrink, which changes the fit of a dado (Rockler). MDF and particleboard can swell and lose strength if they get wet, and PVA glue joints are for indoor use unless a water-resistant glue is used ⚑ [uncertain]. 3D-printed versions follow the limits of the plastic, e.g. PLA softening in heat ⚑ [uncertain].
 
 ## Making it
@@ -272,7 +276,7 @@ Don't rely on a plain housing or rebate where the joint is pulled apart (in tens
 
 ### Buying one (off-the-shelf parts)
 
-Router bits: straight bits with short flutes (dados seldom exceed 1/2 in deep) and plunge-cutting ends for stopped dados; 'undersized' plywood bits of 23/32 in, 15/32 in (or 31/64 in) and 15/64 in for nominal 3/4, 1/2 and 1/4 in plywood; bearing-guided rabbeting bit sets with interchangeable bearings; dovetail bits for dovetail housings (Rockler). Table-saw dado sets: a stacked dado set (two outer blades, chippers and shims) or a wobble dado; micro-adjustable sets such as Freud Dial-A-Width (brand) (Wikipedia 'Dado set'; Rockler). Hand tools: router plane, rebate (rabbet) plane, shoulder plane (Wikipedia 'Rabbet'; DT Online). Safety: featherboards ('combs') and push pads for table-saw dadoing and rabbeting (OSHA 1910.213; Fine Woodworking).
+Router bits: straight bits with short [flutes](../glossary.md#flute) (dados seldom exceed 1/2 in deep) and plunge-cutting ends for stopped dados; 'undersized' plywood bits of 23/32 in, 15/32 in (or 31/64 in) and 15/64 in for nominal 3/4, 1/2 and 1/4 in plywood; bearing-guided rabbeting bit sets with interchangeable bearings; dovetail bits for dovetail housings (Rockler). Table-saw dado sets: a stacked dado set (two outer blades, chippers and shims) or a wobble dado; micro-adjustable sets such as Freud Dial-A-Width (brand) (Wikipedia 'Dado set'; Rockler). Hand tools: router plane, rebate (rabbet) plane, shoulder plane (Wikipedia 'Rabbet'; DT Online). Safety: featherboards ('combs') and push pads for table-saw dadoing and rabbeting (OSHA 1910.213; Fine Woodworking).
 
 ## Rules of thumb
 
@@ -303,6 +307,8 @@ Cutting housings and rebates on a table saw is a non-through cut, so the standar
 - Dowel and biscuit joints: alternative ways to fix shelves without cutting a full-width housing
 - Knock-down cam-lock and cross-dowel connectors: for flat-pack shelves that must come apart
 - Tab-and-slot joint: the sheet-material (laser-cut) version, with through-slots instead of blind housings
+- Glazing in a rebated frame: what holds the glass, mirror or acrylic in a frame's rebate: glazier's points, putty, glazing beads or turn buttons
+- Lead came joint: H-section lead strips whose grooves hold each piece of glass in a leaded panel
 
 ## Make it yourself
 
@@ -346,3 +352,5 @@ Cutting housings and rebates on a table saw is a non-through cut, so the standar
 - <https://www.youtube.com/watch?v=n3e6Ba6IfhM>
 - <https://www.youtube.com/watch?v=jcDizu5P3Ck>
 - <https://api.printables.com/graphql/>
+- <https://boards.core77.com/t/how-do-you-join-foam-core-edges/29942>
+- <https://patents.google.com/patent/US5048188>

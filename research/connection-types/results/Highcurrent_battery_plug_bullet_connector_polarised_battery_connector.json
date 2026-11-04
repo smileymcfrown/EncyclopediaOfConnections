@@ -41,7 +41,7 @@
     "power": "passive (no power needed).",
     "removability": "tool-free quick release: the two halves plug and unplug by hand (MC4 needs its unlocking tool). The wires are soldered or crimped into each half and are not meant to come out.",
     "reuse_cycles": "many times: AMASS recommends 1000 mating cycles for the XT60 (AMASS XT60 datasheet). Sparks when connecting and pulling apart under load pit the contacts and shorten their life (Aloft Hobbies; Wikipedia 'MC4 connector').",
-    "tools_needed": "To fit: a soldering iron with enough heat for thick wire and large brass contacts (a Flite Test community guide used a 30 W iron to fit a T-plug; bigger plugs and thicker wire need more heat [uncertain]), solder and flux, wire strippers, heat-shrink tubing and a heat gun, and a holder or jig (Flite Test). Crimp-type plugs (Tamiya-type, Anderson, MC4) need their matching crimp tool, and MC4 needs its unlocking tool (Wikipedia 'MC4 connector'). A multimeter to check polarity before first use. To use: none.",
+    "tools_needed": "To fit: a soldering iron with enough heat for thick wire and large brass contacts (a Flite Test community guide used a 30 W iron to fit a T-plug; bigger plugs and thicker wire need more heat: for XT90 and XT150 plugs on wire up to 7 AWG, Flite Test recommends a 60 W iron and warns that a 30 W one will struggle), solder and flux, wire strippers, heat-shrink tubing and a heat gun, and a holder or jig (Flite Test). Crimp-type plugs (Tamiya-type, Anderson, MC4) need their matching crimp tool, and MC4 needs its unlocking tool (Wikipedia 'MC4 connector'). A multimeter to check polarity before first use. To use: none.",
     "seal": "none for XT, Deans, EC, Tamiya and bullet plugs (Tamiya's housing separates the two contacts so it is usable in damp, dirty conditions, but it is not sealed; Wikipedia 'Tamiya connector'). Watertight for MC4-type solar connectors: a rubber sealing ring keeps out moisture, but only on cable of the correct diameter (Wikipedia 'MC4 connector').",
     "load": "Electrical: above about 30 A (genuine AMASS ratings with the matching wire, continuous / 1-minute burst at under 60 °C temperature rise: XT60 with 12 AWG 30/60 A, XT90 with 10 AWG 45/90 A, XT120 with 8 AWG 60/120 A, AS150 with 8 AWG 75/150 A, AS300 with 6 AWG 150/300 A (Holybro); small types are lower, e.g. Tamiya 'up to about 15 A' in practice (Wikipedia)); extra-low voltage only (as used by makers for battery packs; the plugs themselves are rated higher, e.g. XT60 500 V DC (AMASS) and MC4 1500 V DC (Wikipedia), but solar strings at hundreds of volts are outside this entry). Mechanical: light: friction-held plugs (XT, Deans, EC, bullets) can be pulled apart by a firm tug or a crash; latched Tamiya and locked MC4 hold against pulling (Wikipedia). The solder joints at the back are weak against bending and pulling, so the wires need strain relief.",
     "adjustable": "no.",
@@ -169,11 +169,11 @@
       "https://commons.wikimedia.org/wiki/File:Tamiya_Connector.gif",
       "https://commons.wikimedia.org/wiki/File:MC4_Connector_Front_and_Top_View.jpg",
       "https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.flitetest.com/articles/heavy-duty-connectors-large-gauge-wire"
     ]
   },
   "uncertain": [
-    "processes",
-    "tools_needed"
+    "processes"
   ]
 }

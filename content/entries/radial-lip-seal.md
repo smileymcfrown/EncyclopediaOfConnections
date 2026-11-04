@@ -86,17 +86,15 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  removability:
-    kind: source uncertain
-    reason: '`removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted
-      [uncertain].…"'
 confirmed: []
 open_points: []
-uncertain_fields: [materials, removability, reuse_cycles, adjustable, making_tips_3d_printing, safety_notes, common_failures]
+uncertain_fields: [materials, reuse_cycles, adjustable, making_tips_3d_printing, safety_notes, common_failures]
 diagram_idea: Cross-section of a shaft passing out of an oil-filled box, with the seal's metal ring pressed in the hole, its
   rubber lip pointing at the oil and a garter spring squeezing it on, plus an inset close-up showing the thin oil film under
   the lip and arrows of oil being pumped back in as the shaft turns.
@@ -157,6 +155,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
 - https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
 - https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
+- https://cdn.skfmediahub.skf.com/api/public/0901d1968019bef9/pdf_preview_medium/0901d1968019bef9_pdf_preview_medium.pdf
 research: research/connection-types/results/Radial_lip_seal_rotary_shaft_seal_oil_seal.json
 image:
   file: drawn/anim/radial-lip-seal.svg
@@ -260,7 +259,7 @@ Don't use one on parts that don't turn (use an O-ring or a gasket), on a sliding
 - **Power:** passive (no power needed)
 - **Load:** light: it carries no load and 'must not be axially strained and must not be used to transmit forces' (Parker, p. 11). The shaft has to be held by bearings; the seal only needs a light press fit in its bore.
 - **Play and precision:** not applicable for locating. It needs accurate parts around it: shaft [tolerance](../glossary.md#tolerance) h11 and bore tolerance H8 (Parker, pp. 10-11; SKF HMS5 brochure). The lip tolerates small shaft wobble (runout) and offset between shaft and bore, but less at high speed, because the lip cannot follow fast enough, and pressure seals tolerate 50-70% less (Parker, p. 12).
-- **Taking it apart:** semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain]. Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48).
+- **Taking it apart:** semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is fitted: 'Never reuse old seals' (SKF wheel-end installation guide). Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48).
 - **How often it can be reused:** once: treat it as a replacement part; a seal whose lip is dirty, cut or otherwise damaged will leak and should be replaced (SKF CR Seals handbook, installation checklist); whether an undamaged seal can safely be refitted is not stated there ⚑ [uncertain]
 - **Sealing:** watertight: the lip keeps oil in and splashes and dirt out, but standard seals are only for near-zero pressure, about 0.5 bar or less (Parker VA, p. 14; SKF HMS5: 0.03 MPa = 0.3 bar). Special pressure seals with short stiff lips, and metal back-up rings for the higher ratings, handle 10, 30 or 60 bar in hydraulic pumps and motors (Parker VP, VT and VV types, pp. 49-60).
 - **Adjustable:** No. The only choices are how deep it is pressed in (so a new lip can run on an unworn part of the shaft ⚑ [uncertain]) and fitting a thin wear sleeve over a grooved shaft so the original seal size still fits (SKF Speedi-Sleeve (brand), 0.28 mm wall; SKF seals overview).
@@ -338,9 +337,8 @@ Fluororubber (FKM, Viton (brand)) and PTFE seals give off dangerous fumes above 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 10 sentences on this page marked [uncertain].
+- ⚑ 9 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = shaft (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `removability` = semi-permanent (source uncertain): `removability` is marked ⚑ [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain].…"
 
 ## Sources
 
@@ -361,3 +359,4 @@ Fluororubber (FKM, Viton (brand)) and PTFE seals give off dangerous fumes above 
 - <https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg>
 - <https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png>
 - <https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg>
+- <https://cdn.skfmediahub.skf.com/api/public/0901d1968019bef9/pdf_preview_medium/0901d1968019bef9_pdf_preview_medium.pdf>

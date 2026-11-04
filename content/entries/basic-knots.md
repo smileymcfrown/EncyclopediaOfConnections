@@ -93,6 +93,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'fabric, leather or cord']
 needs_confirming:
   usual_process:
     kind: best guess
@@ -329,6 +331,7 @@ Knots are not for climbing, lifting or holding people without training and rated
 - Rope-end finishing: whipping and heat-sealing stop fraying better than an overhand in the end
 - Pole lashings: square, diagonal and tripod lashings, started and finished with hitches
 - Cord lock (spring toggle), Cam cleat and Clam cleat: hardware that grips a cord without any knot
+- Sewn book bindings: the reef (square) knot ties off the thread of a pamphlet stitch and finishes a Coptic binding
 
 ## Make it yourself
 

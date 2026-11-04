@@ -94,6 +94,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -346,6 +348,7 @@ Few hazards. Over-tightening can crack a printed nut or [boss](../glossary.md#bo
 - Ordinary screw joint (bolt and nut): the metal baseline that printed threads imitate
 - Levelling foot: a threaded stud and pad screwed into a leg to set its height; a printed thread can make a light-duty foot, but a metal stud and insert last longer
 - Tripod and stand screw mount: the standard 1/4-20 or 3/8-16 camera thread; printing it is for light items only, and a metal insert or nut is safer for cameras
+- Wire-bail closure (swing-top bottle, clip-top jar): a resealable lid closed by a wire lever and rubber seal instead of a thread
 
 ## Make it yourself
 

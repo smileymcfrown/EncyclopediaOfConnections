@@ -91,6 +91,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -198,7 +200,7 @@ pictures:
   drawn: false
 glossary: [torque, pitch, clearance, tolerance, form-fit--force-fit--material-bond, heat-set-insert, captive-nut, boss, pilot-hole,
   counterbore--countersink, chamfer--fillet, creep, stress-relaxation, brittle--ductile, perimeters, infill, warping--shrinkage,
-  o-ring]
+  o-ring, flute]
 ---
 
 <div class="eoc-pictures">
@@ -210,7 +212,7 @@ A hardened screw with a sharp, widely spaced thread forms or cuts its own mating
 
 **In plain words:** A pointed or coarse-threaded metal screw driven straight into a plain, slightly-too-small hole in a plastic or 3D-printed part, so the screw makes its own thread as it goes in; quick and cheap, but the plastic thread wears out if you undo it many times. **Proper term:** Self-tapping screw into plastic (thread-forming or thread-cutting screw for plastics, driven into a pilot hole or screw [boss](../glossary.md#boss)).
 
-**Also called:** self-tapping screw, self-tapper (Wikipedia 'Self-tapping screw'; Hackaday); thread-forming screw (pushes the plastic aside, no chips) and thread-cutting screw (has a cutting flute, removes material) (Wikipedia 'Self-tapping screw'; Assembly Magazine); screw for plastics, plastic screw, PT screw; brand names include EJOT DELTA PT (brand), Plastite (brand) and Taptite (brand) (a trilobular thread-forming screw) (ATF/EJOT brochure; Assembly Magazine; Wikipedia 'Pentalobular screw thread'); sheet-metal screw, PK screw (after Parker-Kalon (brand)), type B (blunt-tip) tapping screw (Wikipedia 'Self-tapping screw'); screwing a machine screw directly into an undersized printed hole ('self tap' hole in BOSL2; 'direct screwing' in CNC Kitchen tests); screw boss (the moulded post with a hole that the screw goes into) (Assembly Magazine; EJOT); lobular or trilobular screw; self-forming thread with three lobes in the hole (Wikipedia 'Pentalobular screw thread'; Hackaday on Thomas Sanladerer); self-drilling screw, Tek (brand) screw: a tapping screw with a fluted drill point that drills its hole, cuts the thread and fastens in one go (Wikipedia 'Self-tapping screw', section 'Self-drilling screws').
+**Also called:** self-tapping screw, self-tapper (Wikipedia 'Self-tapping screw'; Hackaday); thread-forming screw (pushes the plastic aside, no chips) and thread-cutting screw (has a cutting [flute](../glossary.md#flute), removes material) (Wikipedia 'Self-tapping screw'; Assembly Magazine); screw for plastics, plastic screw, PT screw; brand names include EJOT DELTA PT (brand), Plastite (brand) and Taptite (brand) (a trilobular thread-forming screw) (ATF/EJOT brochure; Assembly Magazine; Wikipedia 'Pentalobular screw thread'); sheet-metal screw, PK screw (after Parker-Kalon (brand)), type B (blunt-tip) tapping screw (Wikipedia 'Self-tapping screw'); screwing a machine screw directly into an undersized printed hole ('self tap' hole in BOSL2; 'direct screwing' in CNC Kitchen tests); screw boss (the moulded post with a hole that the screw goes into) (Assembly Magazine; EJOT); lobular or trilobular screw; self-forming thread with three lobes in the hole (Wikipedia 'Pentalobular screw thread'; Hackaday on Thomas Sanladerer); self-drilling screw, Tek (brand) screw: a tapping screw with a fluted drill point that drills its hole, cuts the thread and fastens in one go (Wikipedia 'Self-tapping screw', section 'Self-drilling screws').
 
 ## How it works
 
@@ -310,6 +312,7 @@ Pointed screw tips can stick out of the far side and scratch or cut ⚑ [uncerta
 - Heat staking (melted plastic rivet): a plastic post melted over, permanent
 - Blind threaded fixings (rivet nut, well nut): give a reusable thread in thin sheet or panels
 - Wood screw: the pointed, coarse-threaded screw for wood, technically self-tapping too; a type A sheet-metal screw holds slightly better in wood (Wood Handbook)
+- Cardboard construction screws and box rivets: coarse plastic screws driven into punched holes in corrugated cardboard, reusable, for the softest sheet of all
 
 ## Make it yourself
 

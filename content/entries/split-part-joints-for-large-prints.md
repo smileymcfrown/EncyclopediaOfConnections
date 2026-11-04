@@ -87,6 +87,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -312,6 +314,9 @@ Superglue bonds skin in seconds and its fumes irritate eyes; epoxy can cause ski
 - [Cantilever](../glossary.md#cantilever) snap fit: the catch used by slicer 'snap' connectors
 - Solvent welding and cyanoacrylate (superglue): the glues usually used to finish split joints
 - Tab-and-slot joint and Japanese interlocking joints: other ways of locking pieces by shape
+- Pinned glue joint (pinning): a wire, rod or toothpick pin glued into holes in both parts, as modellers do with small figures and resin prints
+- Jigsaw puzzle-edge joint (interlocking tile edge): the knob-and-socket edge as its own joint, for flat panels such as EVA foam mats
+- Bonded tube joint (lugged or sleeved tube joint): tubes glued into printed or metal lugs, a way to build big frames from small printed nodes and bought tubes
 
 ## Make it yourself
 

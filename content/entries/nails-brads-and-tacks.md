@@ -106,6 +106,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -218,7 +220,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [axial--radial, stiffness, clearance, form-fit--force-fit--material-bond, taper, heat-set-insert, brittle--ductile,
-  infill, overhang--bridging, end-grain, peel-vs-shear]
+  infill, overhang--bridging, end-grain, peel-vs-shear, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -276,7 +278,7 @@ Not where the main load pulls the fastener straight out, such as a shelf hanging
 - **Adjustable:** no: once driven a nail can't be moved; pull it and re-nail. Duplex nails suit temporary jigs, formwork and scaffolding that will be changed or taken down (Wikipedia).
 - **Access needed:** one side only (blind) for ordinary nailing, with the work backed up solidly; clinching needs the far side reachable to bend the point over, or a hard backing such as a clinching iron for canoe tacks (Wikipedia; USDA Wood Handbook).
 - **Materials:** Nails: mostly soft low-carbon (mild) steel of about 0.1% carbon; masonry nails are tempered, higher-carbon steel (Wikipedia). Finishes: bright (uncoated, 'not recommended for weather exposure or acidic or treated lumber'), cement or resin coated, electro-, mechanically or hot-dip galvanised, phosphate coated; also 300-series stainless steel, copper, silicon bronze, aluminium and brass nails and tacks (Wikipedia; USDA Wood Handbook). Joins: softwoods (usually driven directly) and hardwoods (pre-drill), plywood (resists splitting near edges better than solid wood), hardboard and thin ply (hardboard pins), roofing felt (clout nails), fabric, carpet and leather (tacks), plasterboard to wood framing (drywall nails), and steel connector plates to wood with the maker's specified nails (DT Online; Wikipedia; USDA Wood Handbook; Simpson Strong-Tie). Not for: 3D-printed plastic as the material being nailed, glass, or metal to metal; into concrete or block only with hardened masonry nails or cut nails (Wikipedia; DT Online).
-- **Heat, cold, water and wear:** Water and humidity: smooth nails in wood that is wetted and dried, or green wood that dries, can lose most of their grip, down to 25% of the value just after driving, and even in steady dry wood the grip falls slowly as the fibres relax; ring-shank and twisted nails hold about four times better under moisture changes (USDA Wood Handbook ch. 8). Cement coatings help only at first: in softwoods the gain 'drops off significantly after a month or so' (USDA Wood Handbook). Corrosion: bright nails are not for weather or treated wood (Wikipedia); in wet treated wood use 300-series stainless, copper or silicon bronze (USDA Wood Handbook), hot-dip galvanised nails with galvanised connectors, and the same metal for nail and hanger to avoid galvanic corrosion (USDA Wood Handbook; Simpson Strong-Tie). Staining: steel reacts with some woods' extractives in the wet, so use stainless, aluminium or hot-dip galvanised nails on visible outdoor wood (USDA Wood Handbook); brass tacks resist sweat on furniture (Wikipedia). Drying after assembly can also loosen joints as the wood shrinks (USDA Wood Handbook, clinching).
+- **Heat, cold, water and wear:** Water and humidity: smooth nails in wood that is wetted and dried, or green wood that dries, can lose most of their grip, down to 25% of the value just after driving, and even in steady dry wood the grip falls slowly as the fibres relax; ring-shank and twisted nails hold about four times better under moisture changes (USDA Wood Handbook ch. 8). Cement coatings help only at first: in softwoods the gain 'drops off significantly after a month or so' (USDA Wood Handbook). Corrosion: bright nails are not for weather or treated wood (Wikipedia); in wet treated wood use 300-series stainless, copper or silicon bronze (USDA Wood Handbook), hot-dip galvanised nails with galvanised connectors, and the same metal for nail and hanger to avoid [galvanic corrosion](../glossary.md#galvanic-corrosion) (USDA Wood Handbook; Simpson Strong-Tie). Staining: steel reacts with some woods' extractives in the wet, so use stainless, aluminium or hot-dip galvanised nails on visible outdoor wood (USDA Wood Handbook); brass tacks resist sweat on furniture (Wikipedia). Drying after assembly can also loosen joints as the wood shrinks (USDA Wood Handbook, clinching).
 
 ## Making it
 
@@ -330,6 +332,8 @@ Wear safety glasses or goggles when hammering, strike squarely, avoid glancing b
 - Wall plug (expansion anchor for solid walls): the way to fix into brick or concrete without masonry nails
 - Blind rivet (pop rivet): a permanent fastener whose tail is spread on the far side, like a clinched nail, for sheet metal
 - Clinching (press joining without rivets): a different meaning of 'clinching', where sheet metal is pressed into itself
+- Split-pin paper fastener (brass paper fastener, paper brad): not a nail despite the name 'brad'; a round-head pin whose two legs are spread behind paper or card
+- Glazing in a rebated frame (glazier's points, glazing bead): panel pins hold the glazing beads that trap the glass in a frame
 
 ## Make it yourself
 

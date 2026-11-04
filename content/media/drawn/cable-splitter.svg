@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same distance.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="70" y="310" width="60" height="16" fill="url(#hatch)"/><path d="M88,310 L100,300 L112,310" fill="#e8e8e8"/>
+<rect x="180" y="214" width="12" height="32" fill="url(#hatch)"/>
+<rect x="566" y="104" width="12" height="32" fill="url(#hatch)"/>
+<rect x="566" y="324" width="12" height="32" fill="url(#hatch)"/>
+<rect x="726" y="186" width="40" height="28" fill="url(#hatch)"/>
+<rect x="726" y="246" width="40" height="28" fill="url(#hatch)"/>
+<path d="M192,230 L300,230" fill="none" stroke-width="12"/><path d="M192,230 L300,230" fill="none" stroke="#9a9a9a" stroke-width="7"/>
+<path d="M480,214 C536,214 520,120 566,120" fill="none" stroke-width="12"/><path d="M480,214 C536,214 520,120 566,120" fill="none" stroke="#9a9a9a" stroke-width="7"/>
+<path d="M480,246 C536,246 520,340 566,340" fill="none" stroke-width="12"/><path d="M480,246 C536,246 520,340 566,340" fill="none" stroke="#9a9a9a" stroke-width="7"/>
+<rect x="300" y="190" width="180" height="80" fill="#ffffff"/><rect x="300" y="190" width="180" height="10" fill="url(#hatch)"/><rect x="300" y="260" width="180" height="10" fill="url(#hatch)"/><rect x="300" y="200" width="12" height="60" fill="url(#hatch)"/><rect x="468" y="200" width="12" height="60" fill="url(#hatch)"/>
+<line x1="312" y1="230" x2="380" y2="230" stroke-width="2.5"></line>
+<line x1="412" y1="214" x2="468" y2="214" stroke-width="2.5"></line>
+<line x1="412" y1="246" x2="468" y2="246" stroke-width="2.5"></line>
+<g><rect x="380" y="203" width="32" height="54" rx="3" fill="#fde2c4"/><circle cx="386" cy="230" r="4" fill="#222"/><circle cx="406" cy="214" r="4" fill="#222"/><circle cx="406" cy="246" r="4" fill="#222"/></g>
+<line x1="100" y1="230" x2="180" y2="230" stroke-width="2.5"></line>
+<g><path d="M91,300 L91,110 Q91,96 100,96 Q109,96 109,110 L109,300 Z" fill="#cfe3f5"/><circle cx="100" cy="230" r="5" fill="#222"/></g><circle cx="100" cy="300" r="6" fill="#e8e8e8"/>
+<line x1="578" y1="120" x2="720" y2="120" stroke-width="2.5"></line>
+<rect x="619" y="114" width="12" height="12" rx="2" fill="#222" stroke-width="1"></rect>
+<g><path d="M712,200 L712,96 L728,96 L728,200 Z" fill="#d8f0d2"/><circle cx="720" cy="120" r="4" fill="#222"/></g><circle cx="720" cy="200" r="4" fill="#e8e8e8"/><path d="M725.0,200.0 L724.6,202.6 L722.8,204.8 L720.0,205.9 L716.9,205.3 L714.4,203.2 L713.2,200.0 L713.9,196.5 L716.3,193.6 L720.0,192.4 L724.0,193.1 L727.1,195.9 L728.5,200.0 L727.6,204.4 L724.5,207.9 L720.0,209.4 L715.2,208.4 L711.4,205.0 L709.8,200.0 L710.9,194.7 L714.6,190.6 L720.0,188.9 L725.7,190.1 L730.1,194.1 L732.0,200.0" fill="none" stroke-width="2"/>
+<line x1="578" y1="340" x2="720" y2="340" stroke-width="2.5"></line>
+<rect x="619" y="334" width="12" height="12" rx="2" fill="#222" stroke-width="1"></rect>
+<g><path d="M712,260 L712,364 L728,364 L728,260 Z" fill="#d8f0d2"/><circle cx="720" cy="340" r="4" fill="#222"/></g><circle cx="720" cy="260" r="4" fill="#e8e8e8"/><path d="M725.0,260.0 L724.6,262.6 L722.8,264.8 L720.0,265.9 L716.9,265.3 L714.4,263.2 L713.2,260.0 L713.9,256.5 L716.3,253.6 L720.0,252.4 L724.0,253.1 L727.1,255.9 L728.5,260.0 L727.6,264.4 L724.5,267.9 L720.0,269.4 L715.2,268.4 L711.4,265.0 L709.8,260.0 L710.9,254.7 L714.6,250.6 L720.0,248.9 L725.7,250.1 L730.1,254.1 L732.0,260.0" fill="none" stroke-width="2"/>
+</g>
+<g stroke="#555" stroke-width="2" fill="none"><path d="M595,106 V96 M625,106 V96 M595,101 H625"/><path d="M595,354 V364 M625,354 V364 M595,359 H625"/></g>
+<g stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)"><path d="M72,84 A60,60 0 0 0 40,112"/><line x1="452" y1="296" x2="396" y2="296"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="50" y="66">pull</text>
+<text x="390" y="176">junction box (cut open)</text>
+<text x="390" y="322">one slider holds all</text><text x="390" y="343">three wire ends</text>
+<text x="612" y="226">both pulled the</text><text x="612" y="247">same distance</text>
+<text x="770" y="92">brake</text><text x="770" y="382">brake</text>
+<text x="400" y="414" font-size="17">Springs at the brakes pull everything back · it copies distance, not force,</text>
+<text x="400" y="436" font-size="17">so set each cable's slack with its adjuster to make both brakes bite together</text>
+</g>
+</svg>

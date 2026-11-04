@@ -91,6 +91,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [metal]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -282,6 +284,7 @@ Installation needs several tonnes of force (e.g. 11-16 kN for an M3 nut in steel
 - Spring-steel push-on fasteners (push nut, speed nut, U-nut): clip onto sheet metal with no press, but hold far less
 - Captive nut pocket (nut trap): the 3D-printing way to hold a nut captive
 - Ordinary screw joint (bolt and nut): what the self-clinching nut or stud is used to make; a loose nut is simpler if both sides stay reachable
+- Bonding fastener (glue-on stud): a stud or nut on a perforated base plate that is glued on or laminated into composites, giving a thread with no hole; self-clinching parts need a hole, a press and ductile sheet metal
 
 ## Make it yourself
 

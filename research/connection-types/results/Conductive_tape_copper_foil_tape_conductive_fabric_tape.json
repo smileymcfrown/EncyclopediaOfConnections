@@ -43,7 +43,7 @@
     "adjustable": "partly: the layout is fixed once stuck down, but new branches can be added anywhere by sticking conductive-adhesive tape or fabric tape on top of an existing line, and weak spots can be patched the same way (Chibitronics)",
     "play_and_precision": "not applicable",
     "access_needed": "one side only (blind): the tape and the parts all go on the same face; a battery flap or a tape line that wraps over an edge to the back needs both sides (SparkFun 'Paper Circuit Pin')",
-    "materials": "Copper tape: 'deadsoft 1-ounce copper foil' 0.04 mm thick with a conductive or non-conductive acrylic pressure-sensitive adhesive, 0.066 mm total (3M 1181, 1194); hobby rolls are about 3 mil (0.07 mm) thick and 5-6 mm wide (SparkFun; Adafruit). The copper is solderable and 'resists oxidation and discoloration' (3M). Conductive fabric tape: nylon fabric plated with nickel, copper and cobalt, with conductive glue (SparkFun; Adafruit product 3961); it 'cannot be soldered' (Chibitronics) but can be sewn (Adafruit). Sticks well to paper and cardstock (SparkFun projects), smooth 3D prints (Hackaday 2026), wood and plastic enclosure walls; wrinkled foil makes poor contact and should be burnished flat (Chibitronics). PLA prints soften above about 60 °C, so soldering onto tape laid over PLA must be quick (Prusa 'PLA'; Hackaday 2026). Garden and hardware-store copper tapes usually have non-conductive adhesive (SparkFun; Chibitronics); aluminium tape can't be soldered with ordinary electronics solder [uncertain: not on an opened page].",
+    "materials": "Copper tape: 'deadsoft 1-ounce copper foil' 0.04 mm thick with a conductive or non-conductive acrylic pressure-sensitive adhesive, 0.066 mm total (3M 1181, 1194); hobby rolls are about 3 mil (0.07 mm) thick and 5-6 mm wide (SparkFun; Adafruit). The copper is solderable and 'resists oxidation and discoloration' (3M). Conductive fabric tape: nylon fabric plated with nickel, copper and cobalt, with conductive glue (SparkFun; Adafruit product 3961); it 'cannot be soldered' (Chibitronics) but can be sewn (Adafruit). Sticks well to paper and cardstock (SparkFun projects), smooth 3D prints (Hackaday 2026), wood and plastic enclosure walls; wrinkled foil makes poor contact and should be burnished flat (Chibitronics). PLA prints soften above about 60 °C, so soldering onto tape laid over PLA must be quick (Prusa 'PLA'; Hackaday 2026). Garden and hardware-store copper tapes usually have non-conductive adhesive (SparkFun; Chibitronics); aluminium tape is poor to solder, because its tough surface oxide stops solder wetting it without special flux and brushing (Wikipedia 'Solderability').",
     "maker_difficulty": "easy: peel and stick, 'one of the easiest ways to get started crafting a paper circuit' (SparkFun); the fiddly parts are neat corners, reliable joints between pieces, and soldering on paper without burning it"
   },
   "making": {
@@ -88,7 +88,8 @@
       "Battery holder and battery contacts (spring battery contact, coin-cell holder): a proper holder instead of a copper-tape flap round a coin cell",
       "Flat flexible cable and latching connector (FFC with ZIF connector): the factory-made flat cable for many signals through hinges and into moving parts",
       "Wire-to-board plug connectors (pin header and crimp housing): the plug-in way to connect wires to a board",
-      "Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop): how to route a conductor across a moving joint"
+      "Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop): how to route a conductor across a moving joint",
+      "Adhesive tape joint and tape hinge: ordinary non-conductive tapes for holding parts together and making hinges"
     ]
   },
   "media": {
@@ -176,13 +177,13 @@
       "https://commons.wikimedia.org/wiki/File:Paper_circuit_ninja_card.jpg",
       "https://commons.wikimedia.org/wiki/File:CopperTapeShieldedCable.jpg",
       "https://commons.wikimedia.org/wiki/File:Corroded_copper_tape.jpg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/Solderability"
     ]
   },
   "uncertain": [
     "seal",
     "load",
-    "materials",
     "print_in_place",
     "making_tips_3d_printing",
     "when_not_to_use",

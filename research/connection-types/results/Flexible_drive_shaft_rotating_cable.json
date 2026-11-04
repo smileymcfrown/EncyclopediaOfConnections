@@ -92,7 +92,8 @@
       "Schmidt coupling and Oldham coupling: join parallel offset shafts at exactly constant speed, but can't go round bends",
       "Flexible beam coupling and jaw coupling: handle only small misalignment between nearly in-line shafts",
       "Capstan cable drive (tendon drive): cables over pulleys that pull rather than spin",
-      "Remote motor with wires: often simpler today, as with electronic speedometer sensors replacing cables (Hackaday)"
+      "Remote motor with wires: often simpler today, as with electronic speedometer sensors replacing cables (Hackaday)",
+      "Line shaft and power take-off: one driven shaft feeding several machines through belts or chains; a flexible shaft can take power from one take-off to a hand tool"
     ]
   },
   "media": {

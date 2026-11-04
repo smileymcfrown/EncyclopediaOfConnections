@@ -48,7 +48,7 @@
     "power": "passive (no power needed). A lockable gas spring is released by hand through a pin, lever or Bowden cable, so losing electrical power does not matter; hydraulic remote-release systems also exist (Bansbach).",
     "removability": "removable: the end fittings clip or screw onto ball studs or bolt through eyes, so the strut can be swapped (ACE says fit it fully extended and support the lid while doing so). The strut itself is a sealed, permanent unit that must never be opened (ACE catalogue).",
     "reuse_cycles": "many times: fitting and removing the strut can be repeated freely; the strut's own life is set by its seals. ACE gas springs are generally tested to 70,000 strokes (about 2-10 km of rod travel), and some applications reach 500,000 strokes or more (ACE catalogue).",
-    "tools_needed": "screwdriver or spanner to fit the brackets and ball studs; for ball-socket ends, often a small flat screwdriver to lift the retaining clip [uncertain]; someone or something to hold the lid while fitting (ACE says support the moving mass during assembly and disassembly). A lockable gas spring also needs its release head, lever or Bowden cable (Stabilus; Bansbach). A strap can help compress stiff struts during fitting (Printables 'Ratchet Strap Gas Strut Compression Aid').",
+    "tools_needed": "screwdriver or spanner to fit the brackets and ball studs; for ball-socket ends, a small flat screwdriver to lift the retaining clip just enough to pull the socket off (ovesco gas strut fact sheet); someone or something to hold the lid while fitting (ACE says support the moving mass during assembly and disassembly). A lockable gas spring also needs its release head, lever or Bowden cable (Stabilus; Bansbach). A strap can help compress stiff struts during fitting (Printables 'Ratchet Strap Gas Strut Compression Aid').",
     "seal": "none as a connection (it doesn't seal anything else). Inside, it is an airtight pressure vessel sealed by the rod seal and guide; up to 300 bar internal pressure (ACE catalogue).",
     "load": "Light to heavy: stock industrial gas springs range from about 10 N to 13,000 N of push, in body diameters from 8 mm to 70 mm (ACE catalogue); lockable types about 50-2,600 N (Bansbach) or 200-1,000 N (Suspa). Strong only along its own axis in push (or pull, for traction types); it must not take tilting, side or bending loads, which bend the rod and wear the seals (ACE catalogue). Long, thin, high-force struts are the least stable; ACE advises avoiding 'small diameter + long stroke + high force'.",
     "adjustable": "Partly. Force is fixed for a plain gas spring, but valve types let you bleed gas out to lower the force permanently (McMaster-Carr 'Adjustable-Force Gas Springs'; ACE 'The valve allows the force to be adjusted'); if too much is released it must be replaced (Wikipedia). The lifting feel can be tuned by moving the mounting points (Camloc; Engineer Live). A lockable gas spring can be set and locked at any length along its stroke (Bansbach).",
@@ -183,12 +183,12 @@
       "https://api.printables.com/graphql/",
       "https://www.thingiverse.com/thing:2381580",
       "https://www.youtube.com/watch?v=zNp5qmd650M",
-      "https://www.youtube.com/watch?v=HojDjwwRZ04"
+      "https://www.youtube.com/watch?v=HojDjwwRZ04",
+      "https://www.ovesco.com.au/assets/Uploads/ovesco-FactSheet-GasStrutVehicle-202212.pdf"
     ]
   },
   "uncertain": [
     "aliases",
-    "tools_needed",
     "play_and_precision",
     "processes",
     "making_tips_3d_printing",

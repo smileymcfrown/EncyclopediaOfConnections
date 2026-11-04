@@ -85,6 +85,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -182,13 +184,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: half-nut.webp
+  title: Quick-Adjust Half-Nut Vise
+  author: LoboCNC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/195692-quick-adjust-half-nut-vise
+  site: Printables
+  alt: Close-up of a 3D-printed quick-adjust vice, the lead screw lying in a half-thread cut into the jaw so it can be lifted
+    out to slide the jaw freely.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: half-nut-3160e5.webp
+  title: Quick-Adjust Half-Nut Vise
+  author: LoboCNC
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/195692-quick-adjust-half-nut-vise
+  site: Printables
+  alt: A hand holding the 3D-printed quick-adjust half-nut vice by its lead screw, with the moving jaw on the screw.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, self-locking, over-centre, ratchet, pawl, linkage, clearance, form-fit--force-fit--material-bond,
   chamfer--fillet, perimeters, infill, elephants-foot]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/half-nut.svg"><img src="../media/drawn/anim/half-nut.svg" alt="A lead screw seen from the side with a nut split into an upper and a lower half: on the left the halves are closed onto the thread so turning the screw moves the nut, and on the right they are pulled apart so the nut slides freely along the screw. Animated: the closed nut is carried to and fro as th"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/half-nut.webp" alt="Render of a half nut opened on a lead screw: a steel threaded rod runs between two end blocks, and the two bronze halves of the nut have slid apart on their guide rods so their half-threads no longer touch the screw." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/half-nut.webp" alt="Render of a half nut opened on a lead screw: a steel threaded rod runs between two end blocks, and the two bronze halves of the nut have slid apart on their guide rods so their half-threads no longer touch the screw." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/half-nut.webp" alt="Close-up of a 3D-printed quick-adjust vice, the lead screw lying in a half-thread cut into the jaw so it can be lifted out to slide the jaw freely." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/195692-quick-adjust-half-nut-vise">Quick-Adjust Half-Nut Vise</a> by LoboCNC, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/half-nut-3160e5.webp" alt="A hand holding the 3D-printed quick-adjust half-nut vice by its lead screw, with the moving jaw on the screw." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/195692-quick-adjust-half-nut-vise">Quick-Adjust Half-Nut Vise</a> by LoboCNC, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A nut split lengthwise into two halves that can be opened away from a lead screw so a carriage or vice jaw slides freely to a new position, then closed again so the screw drives or clamps it, as in quick-release vices, lathe carriages and syringe pumps.

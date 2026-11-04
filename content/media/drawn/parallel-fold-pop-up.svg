@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view and three-quarter view of a parallel-fold pop-up step: a card opened to a right angle, with a strip cut by two parallel cuts across the centre fold, pushed through and creased so it stands as a step; every crease is parallel to the centre fold, so the step top stays parallel to the base page and the step front parallel to the back page, and matching marks show the opposite sides are equal.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<path fill="none" stroke="#222" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" d="M350,330 L95,330"/><path fill="none" stroke="#fdf3c4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M350,330 L95,330"/>
+<path fill="none" stroke="#222" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" d="M95,230 L215,230 L215,330"/><path fill="none" stroke="#cfe3f5" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M95,230 L215,230 L215,330"/>
+<path fill="none" stroke="#222" stroke-width="9" stroke-linejoin="round" stroke-linecap="round" d="M95,330 L95,100"/><path fill="none" stroke="#fdf3c4" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M95,330 L95,100"/>
+<circle cx="95" cy="330" r="5" fill="#222"/>
+<path fill="none" stroke="#222" stroke-width="2.5" d="M88,280 L102,280 M222,280 L208,280"/>
+<path fill="none" stroke="#222" stroke-width="2.5" d="M151.5,323 L151.5,337 M158.5,323 L158.5,337 M151.5,223 L151.5,237 M158.5,223 L158.5,237"/>
+<path d="M351.3,275.5 A262,262 0 0 0 122.4,69.4" fill="none" stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"/>
+<path fill="#fdf3c4" stroke="#222" stroke-width="3" stroke-linejoin="round" d="M492,268 L574,268 L542.5,299.5 L612.5,299.5 L644,268 L722,268 L654.5,335.5 L424.5,335.5Z"/>
+<path fill="#fdf3c4" stroke="#222" stroke-width="3" stroke-linejoin="round" d="M492,268 L574,268 L574,206 L644,206 L644,268 L722,268 L722,128 L492,128Z" visibility="visible"/>
+<path fill="#cfe3f5" stroke="#222" stroke-width="3" stroke-linejoin="round" d="M574,206 L644,206 L612.5,237.5 L542.5,237.5Z"/>
+<path fill="#cfe3f5" stroke="#222" stroke-width="3" stroke-linejoin="round" d="M542.5,237.5 L612.5,237.5 L612.5,299.5 L542.5,299.5Z"/>
+<path fill="#fdf3c4" stroke="#222" stroke-width="3" stroke-linejoin="round" d="M492,268 L574,268 L574,206 L644,206 L644,268 L722,268 L722,128 L492,128Z" visibility="hidden"/>
+<path fill="none" stroke="#222" stroke-width="1.5" d="M692,120 L644,249.4"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#222"><text x="200" y="36" font-size="21" text-anchor="middle" font-weight="bold">Side view</text><text x="600" y="36" font-size="21" text-anchor="middle" font-weight="bold">Three-quarter view</text><text x="110" y="100" font-size="19">back page</text><text x="250" y="360" font-size="19">base page (card)</text><text x="14" y="372" font-size="19">centre fold</text><line x1="60" y1="356" x2="90" y2="336" stroke="#222" stroke-width="1.5"/><text x="222" y="200" font-size="19">step</text><text x="14" y="410" font-size="18">matching marks = equal lengths</text><text x="700" y="112" font-size="19" text-anchor="middle">two cuts</text><text x="600" y="380" font-size="18" text-anchor="middle">step: one strip of the card,</text><text x="600" y="402" font-size="18" text-anchor="middle">pushed through and creased</text><text x="400" y="440" font-size="18" text-anchor="middle">Every crease is parallel to the centre fold, so the step stands up as the card opens</text></g>
+</svg>

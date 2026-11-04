@@ -1,6 +1,6 @@
 # knots, lashings & sewn joints: Tied, lashed, spliced or sewn with cord or thread
 
-14 entries. ⚑ = needs confirming: 12 best guesses and 0 values from text marked [uncertain]
+15 entries. ⚑ = needs confirming: 12 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -20,6 +20,7 @@ are welcome. Back to the [index](README.md).
 | 387 | Lacing | strap, cord or fabric | none | – | – | – | – | – | – | none, press or vice, sewing or leather tools, hand tools | medium | sewing or leatherwork | yes | removable | – |
 | 388 | Rope splices | strap, cord or fabric | none | – | – | – | – | – | – | sewing or leather tools, hand tools | heavy | by hand (tied or wrapped) ⚑ | no | semi-permanent | – |
 | 392 | Binding knots and seizings | strap, cord or fabric, wires | none | – | – | – | – | – | – | none, sewing or leather tools, hand tools | light | sewing or leatherwork ⚑ | no | semi-permanent | not a conductor |
+| 417 | Sewn book bindings | strap, cord or fabric | none | – | – | – | – | – | – | sewing or leather tools, hand tools | light | by hand (tied or wrapped) | no | semi-permanent | – |
 
 ## Best guesses
 

@@ -66,7 +66,8 @@
       "Force is not proportional to stretch: an idealised rubber band follows F = K (L/L0 - (L0/L)^2), rising steeply at first, and the unloading curve lies below the loading curve (Penn State interactive, https://phys23p.sl.psu.edu/~mrg3/interactives/EJSS_mrg/ejss_model_Bungee_Hysteresis_Thermal_V2/ElasticHysteresisIntroduction.html; Vernier, https://www.vernier.com/vernier-ideas/elastic-hysteresis-of-a-rubber-band/).",
       "Rope-style safety margin for cord: working loads are usually 1/10 to 1/4 of the average breaking strength, and knots can reduce strength by up to 50% (Knot & Rope Supply, https://www.knotandrope.com/products/1-8-shock-cord-1000-spool).",
       "Lifetime: ordinary rubber bands perished in weeks to months whether used or not; Viton O-rings (30 mm inside diameter, 2 mm thick, about 75 Shore A, able to stretch at least 150%) lasted about 30,000 cycles over several months (Collins et al. 2020, https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7249832/fullTextXML; OpenFlexure troubleshooting, https://build.openflexure.org/openflexure-microscope/master/troubleshooting.html).",
-      "Temperature ranges by rubber type: natural rubber about -55 to +82 degC, EPDM -50 to +150 degC, nitrile and neoprene -40 to +135 degC, silicone -100 to +315 degC (Pooley, https://www.pooleyinc.com/wp-content/uploads/Common-Properties-of-Rubber-Elastomers.pdf)."
+      "Temperature ranges by rubber type: natural rubber about -55 to +82 degC, EPDM -50 to +150 degC, nitrile and neoprene -40 to +135 degC, silicone -100 to +315 degC (Pooley, https://www.pooleyinc.com/wp-content/uploads/Common-Properties-of-Rubber-Elastomers.pdf).",
+      "Rubber-band wing hold-down on model planes: use several separate bands (one columnist uses three each side, six in all), because 'One rubber band failure out of six will not crash your airplane'; a band can stretch roughly three times its own length; never use a loop of strip rubber left over from a rubber motor, which unravels after one break; throw the bands away after every flying session, because fuel residue and sunlight (UV) quickly weaken them (Model Aviation FAQ, April 2013)."
     ]
   },
   "guidance": {
@@ -74,7 +75,9 @@
       "a rubber band round a bundle of letters or a rolled-up newspaper (Wikipedia 'Rubber band')",
       "bungee cords with hooks holding luggage on a roof rack (Wikipedia 'Bungee cord')",
       "a slingshot (catapult) powered by latex tubing or flat bands (Wikipedia 'Slingshot')",
-      "the elastic in braces on teeth (orthodontic elastics), and the thick elastic that holds ball-jointed dolls together (Wikipedia)"
+      "the elastic in braces on teeth (orthodontic elastics), and the thick elastic that holds ball-jointed dolls together (Wikipedia)",
+      "a pop-up cube: a folded card cube held flat against a stretched rubber band, which jumps into shape when it slides out of a card or letter; the band's flat length should be slightly more than one side of the cube (Alliance Rubber 'DIY Pop-Up Cube Using Rubber Bands')",
+      "the wing of a model plane held onto the fuselage by several rubber bands (Model Aviation FAQ, April 2013)"
     ],
     "when_to_use": "When you need a pull spring that is cheap, quick to try and easy to change: returning a printed finger, lever, latch or trigger to its rest position; holding a printed clamp or lid shut; keeping a nut or slider pressed against a screw to take out wobble; powering toys, catapults and rubber-band cars; or holding a string of parts together (dolls, tent-pole style sections). It is especially good when the part must stretch a long way compared with its size, when you want to tune the force by simply adding bands, when some damping is welcome, or when a soft, quiet pull is safer than a stiff steel spring.",
     "when_not_to_use": "Not where the force must stay the same for months or years, or where failure matters: rubber loses force and perishes, so use a steel extension spring (see Coil spring) or a constant-force spring. Not in heat, strong sunlight, ozone (near electric motors) or oil: use a steel spring, or at least an EPDM, silicone or Viton band. Not where it must push: use a compression spring. Not for precise or repeatable force (e.g. a measuring device): rubber drifts with time and temperature. Not where a snapping band could hit someone's face or eyes. Not hidden inside a part where it can't be replaced.",
@@ -90,7 +93,9 @@
       "Elastomer isolation mount (rubber bobbin, grommet): rubber used squashed or sheared to soak up vibration rather than stretched as a spring",
       "Series-elastic coupling: puts a deliberate spring (sometimes elastic) between a motor and its load to measure and soften force",
       "Pneumatic artificial muscle (McKibben muscle): a rubber tube inside a braid that pulls when pumped up with air",
-      "Stopper knots and cord-end anchors: a knot behind a hole or a printed cord-end anchor to tie off elastic cord, as at the palm end of printed hands"
+      "Stopper knots and cord-end anchors: a knot behind a hole or a printed cord-end anchor to tie off elastic cord, as at the palm end of printed hands",
+      "Spring-powered paper pop-up: a folded card cube or box held flat against a rubber band, so it jumps into shape when released",
+      "Elastic-strung ball joint: elastic cord run through a chain of ball-and-socket joints to hold a doll or figure together so it keeps a pose"
     ]
   },
   "media": {
@@ -198,7 +203,9 @@
       "https://api.printables.com/graphql/ (Printables API: models 617245, 476915, 236902, 1347249, 145372)",
       "https://commons.wikimedia.org/wiki/File:RubberBand.jpg",
       "https://commons.wikimedia.org/wiki/File:Ozone_cracks_in_tube1.jpg",
-      "https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg"
+      "https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg",
+      "https://www.rubberband.com/blog/diy-pop-up-cube-using-rubber-bands/",
+      "https://library.modelaviation.com/article/frequently-asked-questions-201304"
     ]
   },
   "uncertain": [

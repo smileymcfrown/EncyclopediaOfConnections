@@ -85,6 +85,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [part of a turn]
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -205,13 +207,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: invisible-barrel-hinge-d91f69.webp
+  title: SOSS Hidden Hinge Mortise Router Template – All sizes!
+  author: Zdeněk
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/1341292-soss-hidden-hinge-mortise-router-template-all-size
+  site: Printables
+  alt: A metal Soss-type invisible hinge sitting in a pocket routed in the edge of a wooden board, its folding links opened
+    up, with a 3D-printed router template behind.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [linkage, stiffness, living-hinge, clearance, tolerance, form-fit--force-fit--material-bond, creep, perimeters,
   infill, print-in-place, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/invisible-barrel-hinge.still.webp"><img src="../media/invisible-barrel-hinge.webp" alt="A cut-away animation of a concealed cross-link hinge, its crossed links folding into the two pockets as the door closes and unfolding as it opens."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Scharnier_11.gif">Scharnier 11</a> by Manfredgoellner, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, from Wikimedia Commons.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/invisible-barrel-hinge.webp" alt="Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the corner; a spare hinge, two brass cylinders joined end to end b" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/invisible-barrel-hinge.webp" alt="Render of invisible barrel hinges: two wooden boards opened to a right angle, joined at their edges by two small brass hinges whose cylinders are sunk in holes drilled into the board edges, with only the folded brass links showing in the corner; a spare hinge, two brass cylinders joined end to end b" loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/invisible-barrel-hinge-d91f69.webp" alt="A metal Soss-type invisible hinge sitting in a pocket routed in the edge of a wooden board, its folding links opened up, with a 3D-printed router template behind." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1341292-soss-hidden-hinge-mortise-router-template-all-size">SOSS Hidden Hinge Mortise Router Template – All sizes!</a> by Zdeněk, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A hinge made of two metal bodies sunk into matching pockets in the door edge and the frame, joined by folding links, so that when the door is shut nothing at all shows on either side and when it opens it swings a full 180°.

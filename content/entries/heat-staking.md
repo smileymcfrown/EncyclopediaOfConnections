@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [melt]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -183,13 +185,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: heat-staking.webp
+  title: heat stake and ultrasonic welding test
+  author: winchcable22
+  license: CC0 1.0
+  license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  source: https://www.printables.com/model/833859-heat-stake-and-ultrasonic-welding-test
+  site: Printables
+  alt: A 3D-printed test piece where a plastic post has been pushed through a white plate and its tip melted into a flattened
+    head, holding the plate on a black base.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [flexure, cantilever, clearance, form-fit--force-fit--material-bond, heat-set-insert, boss, counterbore--countersink,
   chamfer--fillet, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><img src="../media/drawn/heat-staking.svg" alt="Three cut-away steps of heat staking: a plastic post pushed through a countersunk hole in a second plate, a hot iron with tape pressing and melting the post tip, and the cooled mushroom head filling the countersink so the plates cannot lift apart or slide."><figcaption>Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/heat-staking.webp" alt="Render of heat staking: a small green circuit board sits on a blue 3D-printed base, held at three corners by the base&#x27;s own plastic posts melted into domed heads over the board&#x27;s holes; at the fourth corner the post still sticks up straight through the hole, not yet melted." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/heat-staking.webp" alt="Render of heat staking: a small green circuit board sits on a blue 3D-printed base, held at three corners by the base&#x27;s own plastic posts melted into domed heads over the board&#x27;s holes; at the fourth corner the post still sticks up straight through the hole, not yet melted." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/heat-staking.webp" alt="A 3D-printed test piece where a plastic post has been pushed through a white plate and its tip melted into a flattened head, holding the plate on a black base." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/833859-heat-stake-and-ultrasonic-welding-test">heat stake and ultrasonic welding test</a> by winchcable22, <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A post on one plastic part is pushed through a hole in another part and its end is melted and pressed into a head, locking the parts together for good with no screw, rivet or glue.

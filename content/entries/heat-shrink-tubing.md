@@ -96,10 +96,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  drive_split: [not applicable]
+  made_of: ['plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points: []
 uncertain_fields: [making_tips_3d_printing]
@@ -325,6 +324,8 @@ Heat-gun burns: a heat gun blows air at about 100-550 °C, much hotter than a ha
 - Silicone and MS-polymer adhesive sealants: for sealing gaps and potting, where a tube can't be slid on
 - Linear [ratchet](../glossary.md#ratchet) (cable-tie ratchet): cable ties bundle wires and can be removed; heat-shrink bundles more neatly but permanently
 - Rope-end finishing (whipping, heat-sealing, aglet): heat-shrink can also cap a cord end
+- Adhesive tape joint and tape hinge: ordinary pressure-sensitive tapes for holding parts together and making hinges, rather than insulating a joint
+- Push-fit rod and spar fittings: kite fittings, stoppers and nocks that heat-shrink is used to hold on spars
 
 ## Make it yourself
 
@@ -345,7 +346,6 @@ Heat-gun burns: a heat gun blows air at about 100-550 °C, much hotter than a ha
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 
 ## Sources
 

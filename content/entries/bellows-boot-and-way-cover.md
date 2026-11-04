@@ -88,11 +88,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…tted with the driveshaft removed and secured with special boot clamps
-      [uncertain: not checked in an opened sou…"'
   usual_process:
     kind: best guess
     reason: first-listed process is off-the-shelf, but `print_in_place` is yes
@@ -101,7 +99,7 @@ open_points:
 - kind: content
   note: '*Bellows boot*: `other_families` lists compliant mechanisms & flexures (the agent''s choice, not asked for in the
     outline notes). Likewise *Bellows and inflatable actuators* adds springs & energy storage.'
-uncertain_fields: [degrees_of_freedom, tools_needed]
+uncertain_fields: [degrees_of_freedom]
 diagram_idea: 'A lead screw with a moving carriage, drawn twice: carriage at the left with the bellows on its right stretched
   out long, then carriage at the right with the bellows squashed into a short stack, with labels for extended length, retracted
   (stack) length and a vent hole, and grit bouncing off the folds.'
@@ -180,6 +178,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
 - https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
 - https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg
+- https://saabwisonline.com/9-4x/2011/4-transmission/drive-shafts/adjustment-replacement/front-wheel-drive-shaft-outer-joint-and-boot-replacement
 research: research/connection-types/results/Bellows_boot_and_way_cover_gaiter.json
 image:
   file: drawn/anim/bellows-boot-and-way-cover.svg
@@ -290,7 +289,7 @@ Avoid it where there's no room for the squashed bellows (a roll-up cover is lowe
   - sewing: fabric bellows sewn from coated fabric, often with plastic stiffeners at each fold (Joyce/Dayton; Dynatect)
   - molding: rubber bellows made by injection, transfer or compression molding (Rubber Group)
 - **Printing it in one piece (print in place):** yes: a TPU bellows prints as one piece and works straight off the printer (vase-mode or folded designs, Printables); the alternating TPU-and-PLA method needs the PLA layers peeled out afterwards (Hackaday)
-- **Tools:** a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are usually fitted with the driveshaft removed and secured with special boot clamps ⚑ [uncertain: not checked in an opened source]
+- **Tools:** a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are fitted with the drive shaft taken out of the car, and their boot clamps are closed with special pliers (Saab WIS, 9-4X drive shaft boot replacement)
 - **Difficulty:** easy to buy and fit (standard round boots and bellows come in many sizes and lengths); moderate to print in TPU, because flexible filament is slow and fussy, the folds are [overhangs](../glossary.md#overhang--bridging), and tall thin parts wobble under the nozzle (Prusa; Gt6k and Homunculus, Printables)
 
 ### 3D printing tips
@@ -354,8 +353,7 @@ Low risk in itself; a bellows usually improves safety by covering pinch points b
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 2 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…tted with the driveshaft removed and secured with special boot clamps ⚑ [uncertain: not checked in an opened sou…"
+- ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Finder value `usual_process` = off-the-shelf part (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ Research note: *Bellows boot*: `other_families` lists compliant mechanisms & flexures (the agent's choice, not asked for in the outline notes). Likewise *Bellows and inflatable actuators* adds springs & energy storage.
 
@@ -383,3 +381,4 @@ Low risk in itself; a bellows usually improves safety by covering pinch points b
 - <https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg>
 - <https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg>
 - <https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg>
+- <https://saabwisonline.com/9-4x/2011/4-transmission/drive-shafts/adjustment-replacement/front-wheel-drive-shaft-outer-joint-and-boot-replacement>

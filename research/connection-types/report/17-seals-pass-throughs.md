@@ -149,6 +149,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint, seal a moving shaft
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -250,7 +293,10 @@
   - Tongue-and-groove joint: the joinery cousin; in enclosures the tongue on the lid presses the gasket into the groove
   - Double-sided foam tape (acrylic foam pressure-sensitive adhesive): bonds a panel on with a foam layer that may also act as a light seal ⚑ [uncertain]
   - Parallel pipe thread with a sealing washer: a straight-threaded pipe or hose joint in which a small ring gasket (washer, bonded seal or O-ring) squeezed against a flat face does the sealing
-  - Bead-in-groove fabric edge: the same groove idea used to hold and tension a fabric edge (keder, bolt rope, screen spline) instead of sealing a lid *(⚑ parts need confirming)*
+  - Bead-in-groove fabric edge: the same groove idea used to hold and tension a fabric edge (keder, bolt rope, screen spline) instead of sealing a lid
+  - Compression limiter: a metal sleeve in the bolt hole that stops the bolt crushing a soft part, and can set how hard a gasket under the screw is squeezed
+  - Glazing in a rebated frame: holds a pane in a frame with points, putty or beads; well-painted putty gives the weathertight seal
+  - Wire-bail closure: a wire over-centre lever that squeezes a rubber ring gasket between stopper and bottle or jar mouth *(⚑ parts need confirming)*
 
 ### Pictures, videos and models
 
@@ -310,6 +356,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, glass or mirror, fabric, leather or cord ⚑ *needs confirming (best guess): still unsure: added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Rubber seals on glass jar lids and flip-tops (Wikipedia "Flip-top": "fitted with a rubber gasket").  The JSON itself has no glass quote.*
 
 ### Other info
 
@@ -454,6 +543,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a still joint, seal a moving shaft
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -604,6 +736,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: yes
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: pushed, clamped or clicked
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: pushes, pulls or flow shared out
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -770,6 +945,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: insulate, protect or route
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pass cables through
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: wires
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -815,7 +1033,7 @@
 - **power**: passive (no power needed): it carries power and signals but needs none to work; if the supply is lost, the rotating side simply loses power
 - **removability**: removable: capsule slip rings are held by a flange with screws and their leads go to connectors or terminals; rotary unions screw onto the shaft end and their hoses unscrew
 - **reuse_cycles**: many times
-- **tools_needed**: Screwdriver or hex keys for the flange; soldering iron or crimp tool for the lead wires; spanners and thread sealant for rotary union ports ⚑ [uncertain]. DIY slip rings: pipe cutter, soldering iron and a press or hammer for press-fitting (Printables 103824). *(⚑ parts need confirming)*
+- **tools_needed**: Screwdriver or hex keys for the flange; soldering iron or crimp tool for the lead wires; spanners and thread sealant for rotary union ports (PTFE tape or pipe sealant on tapered threads, a gasket on straight threads; Rotary Systems; Kadant Johnson). DIY slip rings: pipe cutter, soldering iron and a press or hammer for press-fitting (Printables 103824).
 - **seal**: airtight or pressure (rotary union: seals hold liquid, air or vacuum; industrial unions reach 1,000 bar and 40,000 rpm, Moog; a small amount of leakage is normal in some designs, GTI Spindle). Slip rings themselves range from unsealed hobby capsules to IP65/IP67 sealed units for dust and water (TME Systems)
 - **load**: light: carries current and signals, not mechanical load. A hobby capsule ring carries 2 A per circuit at up to 240 V (Adafruit, SRC022/SRC012 data sheets), though Hackaday's review of a teardown called a small unit's mains-voltage claim 'wishful thinking'. Robot-size rings with 30 A per contact exist (Chief Delphi). The rings' own bearings should not carry side loads: mount the rotating part on its own bearing and let the slip ring only follow it (Canyon Components for rotary O-ring seals; Hackaday reader comments).
 - **adjustable**: no
@@ -917,6 +1135,8 @@
   - https://api.printables.com/graphql/
   - https://www.youcanic.com/properly-set-a-new-clock-spring/
   - https://en.wikipedia.org/wiki/Flexible_flat_cable
+  - https://rotarysystems.com/wp-content/uploads/2019/07/Installation-Guide-009.pdf
+  - https://fluidhandling.kadant.com/images/guides/rotary-joints-unions/IS-.375-1.5-rx-single-flow/IS-RX-.375-1.5-Single-Flow.pdf
 
 ### Finder tags
 
@@ -929,16 +1149,59 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **electrical_band**: not applicable ⚑ *needs confirming (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in*
-- **tools**: soldering iron, crimper, press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…or the lead wires; spanners and thread sealant for rotary union ports [uncertain]. DIY slip rings: pipe cutter…"*
+- **tools**: soldering iron, crimper, press or vice, hand tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: touching or turning contacts
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pass cables through
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, common_failures, making_tips_3d_printing, off_the_shelf_parts, processes, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, making_tips_3d_printing, off_the_shelf_parts, processes, safety_notes, when_not_to_use
 
 ## 136 Cable carrier (drag chain, energy chain)
 
@@ -1081,6 +1344,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: insulate, protect or route
+- **plugs_in**: not applicable
+- **holds_position**: no
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pass cables through
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: wires
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1233,6 +1539,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: screwed
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1406,6 +1755,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: hold a set position
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1453,7 +1845,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: hose-clamped collars, screwed flanges and Velcro come undone easily (Joyce/Dayton). A one-piece boot normally has to be slid off the end of the rod or shaft, so it may mean taking the machine apart; zippered bellows avoid this (Joyce/Dayton)
 - **reuse_cycles**: many times: clamps and flanges can be undone and refitted many times; the bellows itself flexes through very many cycles until the material cracks, wears or ages, which happens faster in harsh conditions (Dynatect FAQ)
-- **tools_needed**: a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are usually fitted with the driveshaft removed and secured with special boot clamps ⚑ [uncertain: not checked in an opened source] *(⚑ parts need confirming)*
+- **tools_needed**: a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are fitted with the drive shaft taken out of the car, and their boot clamps are closed with special pliers (Saab WIS, 9-4X drive shaft boot replacement)
 - **seal**: dust-resistant to watertight, depending on construction: sewn fabric bellows have stitch holes and vented bellows let air through, so they keep out dust and chips; 'sealed' constructions (seamless molded rubber, or seams joined by heat or vulcanising) also keep out liquids (Dynatect FAQ; Joyce/Dayton). A printed TPU gaiter was watertight in its maker's test (Gt6k, Printables). It is not a pressure seal, since it normally has to breathe as it moves
 - **load**: light: it is a cover, not a structural part, and carries no load. Long or horizontal bellows must be supported by stiffener guides or by grommets on a guide wire, or they sag onto the part they protect (Joyce/Dayton; Dynatect crane case study), and a build-up of chips can push a cover right off its rails (Dynatect)
 - **adjustable**: no: its length simply follows the movement; the collar position and clamps can be moved when fitting
@@ -1545,6 +1937,7 @@
   - https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg
   - https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg
   - https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg
+  - https://saabwisonline.com/9-4x/2011/4-transmission/drive-shafts/adjustment-replacement/front-wheel-drive-shaft-outer-joint-and-boot-replacement
 
 ### Finder tags
 
@@ -1556,16 +1949,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…tted with the driveshaft removed and secured with special boot clamps [uncertain: not checked in an opened sou…"*
+- **tools**: hand tools
 - **load_max**: light
 - **usual_process**: off-the-shelf part ⚑ *needs confirming (best guess): first-listed process is off-the-shelf, but `print_in_place` is yes*
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a moving shaft
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** degrees_of_freedom, tools_needed
+- ⚑ **Fields with parts that need confirming:** degrees_of_freedom
 
 ## 291 Anti-twister mechanism (twist-free cable feed)
 
@@ -1609,7 +2045,7 @@
 - **power**: passive (no power needed): the mechanism itself needs no power; the spinning part is usually driven by a motor (US3586413 uses one motor for both). If the motor stops, the cable simply stays connected; nothing releases
 - **removability**: removable: the cable or tube is clamped at each end and guided by the carrier, so it can be unclamped and replaced; in blood centrifuges the tube set (umbilicus) is changed between uses (US9545637 describes the umbilicus as part of a fluid processing assembly) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **reuse_cycles**: many times
-- **tools_needed**: Screwdriver or hex keys to fit gears, bearings and cable clamps; soldering iron or crimp tool for the cable ends ⚑ [uncertain]. The printed demonstrator snaps together: 'The bases, axle, and band clip in with a snap fit' (Printables 1128267); its print-in-place gears are freed with a blunt butter knife. *(⚑ parts need confirming)*
+- **tools_needed**: Screwdriver or hex keys to fit gears, bearings and cable clamps; soldering iron or crimp tool for the cable ends (SparkFun 'Working with Wire'). The printed demonstrator snaps together: 'The bases, axle, and band clip in with a snap fit' (Printables 1128267); its print-in-place gears are freed with a blunt butter knife.
 - **seal**: none: the mechanism itself doesn't seal anything, but because the tube runs unbroken from base to rotor, a liquid path stays closed with no rotating seal to leak ('The sealed, sterile integrity of the fluid processing assembly may thus be maintained without the need for rotating seals', US9545637; Ito et al. 1975: 'eliminates complications arising from rotating seals')
 - **load**: light: it carries cables or tubes, not mechanical loads. The spinning platform must run on its own bearing (in US3586413 the platform and rotating support each have their own bearings). The weak point is the cable itself, which is bent on every turn: continuous bending makes most cables 'corkscrew', a major reason conductors break (igus, Basics of Cable Carriers).
 - **adjustable**: no: the 2:1 ratio is fixed by the gears; at most the loop length and clamp positions can be set during assembly ⚑ [uncertain] *(⚑ parts need confirming)*
@@ -1691,6 +2127,7 @@
   - https://www.printables.com/model/1128267-4pi-spin-12-symmetry-demonstrator-anti-twister-mec
   - https://en.wikipedia.org/wiki/Clockspring
   - https://www.youcanic.com/properly-set-a-new-clock-spring/
+  - https://learn.sparkfun.com/tutorials/working-with-wire/all
 
 ### Finder tags
 
@@ -1702,16 +2139,59 @@
 - **shaft_layout**: in line
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: soldering iron, crimper, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ngs and cable clamps; soldering iron or crimp tool for the cable ends [uncertain]. The printed demonstrator sn…"*
+- **tools**: soldering iron, crimper, hand tools
 - **load_max**: light
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pass cables through
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, aliases, common_failures, environment_limits, input_output, maker_difficulty, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, removability, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** adjustable, aliases, common_failures, environment_limits, input_output, maker_difficulty, making_tips_3d_printing, materials, off_the_shelf_parts, play_and_precision, processes, removability, safety_notes
 
 ## 295 Radial lip seal (rotary shaft seal, oil seal)
 
@@ -1751,7 +2231,7 @@
   - spring force (a spring or springy part presses it in place): the garter spring and the rubber's own springiness keep the lip pressed on the shaft (Parker, p. 7)
 - **input_output**: not applicable
 - **power**: passive (no power needed)
-- **removability**: semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is normally fitted ⚑ [uncertain]. Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48). *(⚑ parts need confirming)*
+- **removability**: semi-permanent (can be undone but may damage parts): it is pressed in and usually has to be levered or pushed out, which tends to damage it, so a new seal is fitted: 'Never reuse old seals' (SKF wheel-end installation guide). Designers can add holes in the housing shoulder so the seal can be pushed out from behind (SKF CR Seals handbook, p. 48).
 - **reuse_cycles**: once: treat it as a replacement part; a seal whose lip is dirty, cut or otherwise damaged will leak and should be replaced (SKF CR Seals handbook, installation checklist); whether an undamaged seal can safely be refitted is not stated there ⚑ [uncertain] *(⚑ parts need confirming)*
 - **tools_needed**: press or seal driver: an arbor press if possible, otherwise a soft-faced hammer on an installation tool whose outside diameter is larger than the bore, so the seal goes in square (SKF CR Seals handbook, pp. 24-25). A thin-walled installation sleeve to cover keyways, splines, threads or sharp shoulders (SKF CR Seals handbook; Parker, p. 11), the oil or grease to be sealed for pre-lubricating the lip, and a seal puller or pry tool for removal. Printable seal drivers exist (Printables 'Oil Seal Installer').
 - **seal**: watertight: the lip keeps oil in and splashes and dirt out, but standard seals are only for near-zero pressure, about 0.5 bar or less (Parker VA, p. 14; SKF HMS5: 0.03 MPa = 0.3 bar). Special pressure seals with short stiff lips, and metal back-up rings for the higher ratings, handle 10, 30 or 60 bar in hydraulic pumps and motors (Parker VP, VT and VV types, pp. 49-60).
@@ -1838,6 +2318,7 @@
   - https://commons.wikimedia.org/wiki/File:Radial_sealing_CAD_sectional_view_num.svg
   - https://commons.wikimedia.org/wiki/File:RWDR_mit_Fettpunkten_im_Schnitt.png
   - https://commons.wikimedia.org/wiki/File:Gufero_s_prachovkou_(001).jpg
+  - https://cdn.skfmediahub.skf.com/api/public/0901d1968019bef9/pdf_preview_medium/0901d1968019bef9_pdf_preview_medium.pdf
 
 ### Finder tags
 
@@ -1853,12 +2334,55 @@
 - **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
-- **removability**: semi-permanent ⚑ *needs confirming (source uncertain): `removability` is marked [uncertain] here: "…ushed out, which tends to damage it, so a new seal is normally fitted [uncertain].…"*
+- **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: seal a moving shaft
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, making_tips_3d_printing, materials, removability, reuse_cycles, safety_notes
+- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, making_tips_3d_printing, materials, reuse_cycles, safety_notes
 
 ## 338 Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
 
@@ -1997,6 +2521,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: swings on a hinge
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: insulate, protect or route
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pass cables through
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: hold together
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2156,6 +2723,49 @@
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: screwed
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -2320,6 +2930,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: screwed
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -2461,6 +3114,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: yes
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: join hoses or pipes
+- **seal_material**: not applicable
+- **hose_join**: screwed
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 

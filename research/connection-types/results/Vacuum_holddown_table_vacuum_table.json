@@ -41,7 +41,7 @@
       "powered hold: the hold lasts only while the vacuum source keeps the chamber evacuated (CNC Cookbook)"
     ],
     "input_output": "not applicable",
-    "power": "powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a check valve to hold vacuum briefly after a pump stops is common practice [uncertain]",
+    "power": "powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a non-return (check) valve in the vacuum line is sold for 'maintaining the vacuum in the case of a power failure or a failure of the vacuum generator' (Schmalz RSV non-return valve)",
     "removability": "tool-free quick release for the workpiece (vent the vacuum and lift it off). The table itself is bolted or screwed to the machine bed and can be removed (Printables 1362329 uses M4 threaded inserts in the spoilboard; hackaday.io 166349)",
     "reuse_cycles": "effectively unlimited: the table is reused for every job; only the sacrificial bleeder board is resurfaced from time to time and replaced when too thin (CNC Cookbook; Make:)",
     "tools_needed": "none to load or unload a part. To build or service one: a CNC router or table saw for the plenum, sealer (polyurethane, epoxy or thinned wood glue) for MDF, gasket cord or foam strip, PVC pipe and glue or push-in fittings, ball valves and a vacuum gauge (Make:; Mekanika; CNC Cookbook)",
@@ -186,11 +186,11 @@
       "https://www.printables.com/model/1513539-vacuum-fixture-table-for-cnc-3018",
       "https://www.printables.com/model/370205-table-a-depression-vacuum-table",
       "https://www.printables.com/model/451126-vacuum-pcb-solder-stencil-jig",
-      "https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement"
+      "https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement",
+      "https://www.schmalz.com/en/products/automation-743270/valves-308656/non-return-valves-308773/non-return-valves-rsv-308774"
     ]
   },
   "uncertain": [
-    "power",
     "making_tips_3d_printing",
     "environment_limits",
     "safety_notes",

@@ -1,6 +1,6 @@
 # cord, strap, webbing & textile hardware: Hardware for rope, cord, straps, fabric and leather
 
-22 entries. ⚑ = needs confirming: 17 best guesses and 0 values from text marked [uncertain]
+22 entries. ⚑ = needs confirming: 19 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
@@ -40,6 +40,7 @@ The script was unsure of these values.
 - ⚑ **123 Cam buckle**, `connects` = strap, cord or fabric: worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ **124 Ladder lock buckle**, `connects` = strap, cord or fabric: worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ **124 Ladder lock buckle**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
+- ⚑ **125 Side-release buckle**, `made_of` = 3D prints, plastic sheet, tube or moulded parts, metal, foam, fabric, leather or cord: still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): Same harness use (search results described straps and buckles glued to foam armour with contact cement, but that Instructables page would not render, so ).
 - ⚑ **126 Cord lock**, `connects` = strap, cord or fabric: worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ **126 Cord lock**, `clicks` = clicks: the text uses both clicking and silent words
 - ⚑ **149 Rope grab and ascender**, `connects` = strap, cord or fabric: worked out from its name, but joining parts is not one of its two main jobs
@@ -49,6 +50,7 @@ The script was unsure of these values.
 - ⚑ **154 Guy-line slider**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ **156 Spring-gate hook**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
 - ⚑ **269 Basic strap and garment closures**, `clicks` = clicks: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+- ⚑ **269 Basic strap and garment closures**, `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, fabric, leather or cord: still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com: harness with "nylon webbing, adjustable buckles, and D-rings" carrying the armour.
 - ⚑ **399 In-line swivel**, `usual_process` = off-the-shelf part: first-listed process is off-the-shelf, but `print_in_place` is yes
 
 ## From research text marked [uncertain]

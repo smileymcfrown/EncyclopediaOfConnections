@@ -93,6 +93,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -100,10 +102,6 @@ needs_confirming:
   electrical_band:
     kind: best guess
     reason: tagged electrical, but `load` does not start with the fixed electrical lead-in
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…or the lead wires; spanners and thread sealant for rotary union
-      ports [uncertain]. DIY slip rings: pipe cutter…"'
 confirmed: []
 open_points:
 - kind: content
@@ -111,8 +109,7 @@ open_points:
     family, but their `load` doesn''t start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists
     `materials` in `uncertain` without a marker (noted earlier). The underwriter''s knot in *Cable gland and strain relief*
     (134) is described without tying steps, under the mains rule.'
-uncertain_fields: [aliases, tools_needed, processes, making_tips_3d_printing, off_the_shelf_parts, when_not_to_use, safety_notes,
-  common_failures]
+uncertain_fields: [aliases, processes, making_tips_3d_printing, off_the_shelf_parts, when_not_to_use, safety_notes, common_failures]
 diagram_idea: 'Side-by-side cut-aways on one shaft: left, a slip ring with three coloured rings on the turning shaft and three
   spring brushes on the fixed housing, each wire colour-matched to its ring; right, a rotary union with a fixed housing, an
   inlet feeding a groove that runs all round the shaft, a cross-drilled hole in the shaft, and O-rings either side; an arrow
@@ -201,6 +198,8 @@ sources:
 - https://api.printables.com/graphql/
 - https://www.youcanic.com/properly-set-a-new-clock-spring/
 - https://en.wikipedia.org/wiki/Flexible_flat_cable
+- https://rotarysystems.com/wp-content/uploads/2019/07/Installation-Guide-009.pdf
+- https://fluidhandling.kadant.com/images/guides/rotary-joints-unions/IS-.375-1.5-rx-single-flow/IS-RX-.375-1.5-Single-Flow.pdf
 research: research/connection-types/results/Slip_ring_and_rotary_union.json
 image:
   file: drawn/anim/slip-ring-and-rotary-union.svg
@@ -297,7 +296,7 @@ If the part only turns part of a revolution, or a few turns back and forth, use 
   - 3D print (FDM): housings, ring carriers and mounts for DIY slip rings (with copper pipe rings, brushes or ball bearings), mounts for bought slip rings, swivelling low-pressure hose adapters (e.g. vacuum hose swivels)
   - CNC: machined shafts and housings for rotary unions ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: printed slip rings combine printed carriers with metal rings, brushes, bearings and wires, assembled by press-fitting and soldering (Printables 103824; Printables 1071530)
-- **Tools:** Screwdriver or hex keys for the flange; soldering iron or crimp tool for the lead wires; spanners and thread sealant for rotary union ports ⚑ [uncertain]. DIY slip rings: pipe cutter, soldering iron and a press or hammer for press-fitting (Printables 103824).
+- **Tools:** Screwdriver or hex keys for the flange; soldering iron or crimp tool for the lead wires; spanners and thread sealant for rotary union ports (PTFE tape or pipe sealant on tapered threads, a gasket on straight threads; Rotary Systems; Kadant Johnson). DIY slip rings: pipe cutter, soldering iron and a press or hammer for press-fitting (Printables 103824).
 - **Difficulty:** moderate: a bought capsule slip ring is easy to fit (screw on the flange, solder the leads), but designing the turning joint round it and making your own reliable contacts or a leak-free fluid union is hard
 
 ### 3D printing tips
@@ -359,10 +358,9 @@ Mains voltage through a small capsule slip ring is risky: Hackaday called one sm
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 9 sentences on this page marked [uncertain].
+- ⚑ 8 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = wires (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `electrical_band` = not applicable (best guess): tagged electrical, but `load` does not start with the fixed electrical lead-in
-- ⚑ Finder value `tools` = soldering iron, crimper, press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…or the lead wires; spanners and thread sealant for rotary union ports ⚑ [uncertain]. DIY slip rings: pipe cutter…"
 - ⚑ Research note: **For a later pass:** *Slip ring and rotary union* (135) and *Genderless connector* (286) are tagged with the electrical family, but their `load` doesn't start with the fixed electrical lead-in. *Anti-twister mechanism* (291) still lists `materials` in `uncertain` without a marker (noted earlier). The underwriter's knot in *Cable gland and strain relief* (134) is described without tying steps, under the mains rule.
 
 ## Sources
@@ -401,3 +399,5 @@ Mains voltage through a small capsule slip ring is risky: Hackaday called one sm
 - <https://api.printables.com/graphql/>
 - <https://www.youcanic.com/properly-set-a-new-clock-spring/>
 - <https://en.wikipedia.org/wiki/Flexible_flat_cable>
+- <https://rotarysystems.com/wp-content/uploads/2019/07/Installation-Guide-009.pdf>
+- <https://fluidhandling.kadant.com/images/guides/rotary-joints-unions/IS-.375-1.5-rx-single-flow/IS-RX-.375-1.5-Single-Flow.pdf>

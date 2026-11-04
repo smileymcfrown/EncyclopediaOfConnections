@@ -4,7 +4,8 @@ content/media/pictures.yaml lists each page's pictures in order (see load_pictur
 Wikimedia Commons file the licence is checked on Commons itself (its file API): public domain,
 CC0, CC BY or CC BY-SA (any version) are copied; non-commercial (NC), no-derivatives (ND),
 GFDL-only and unknown licences are skipped. Openverse pictures (CC-licensed photos from Flickr and
-similar) carry their licence and credit in pictures.yaml. A web-sized copy (at most 800 px wide,
+similar) and `web` pictures (photos from other sites, such as Printables model pages under CC0, CC BY
+or CC BY-SA; R39) carry their licence and credit in pictures.yaml. A web-sized copy (at most 800 px wide,
 as WebP) is saved as content/media/<page>.webp (or <page>-<id>.webp for a second or third
 picture), and content/media/media.yaml records each one's title, author, licence and source page,
 which the entry page shows as a credit line under the picture. Animated GIFs are saved as
@@ -142,8 +143,8 @@ def load_pictures():
     """content/media/pictures.yaml: the pictures each page shows, in order (R32). Items are
     `render` (a 3D render made for the encyclopaedia, content/media/render/<page>.webp; R35), `drawn`
     (the diagram in drawn/<page>.svg, animated from drawn/anim/<page>.svg when there is one),
-    {commons: "File:..."} or {openverse: <id>, url, title, author, license, license_url, source},
-    each with an optional `kind` (animation, diagram, cross-section, how-it-works, photo) and `alt`."""
+    {commons: "File:..."}, {openverse: <id>, url, title, author, license, license_url, source} or
+    {web: <id>, url, title, author, license, license_url, source, site} (R39), each with an optional `kind` (animation, diagram, cross-section, how-it-works, photo) and `alt`."""
     f = os.path.join(MEDIA, 'pictures.yaml')
     out = {}
     for page, items in ((yaml.safe_load(open(f)) or {}) if os.path.exists(f) else {}).items():
@@ -152,7 +153,12 @@ def load_pictures():
 
 
 def src_of(x):
-    return x['commons'].replace('_', ' ') if x.get('commons') else 'openverse:' + x['openverse'] if x.get('openverse') else None
+    if x.get('commons'):
+        return x['commons'].replace('_', ' ')
+    for k in ('openverse', 'web'):
+        if x.get(k):
+            return f'{k}:{x[k]}'
+    return None
 
 
 def main():
@@ -207,7 +213,7 @@ def main():
                 pic = {'mime': 'image/' + ('gif' if x['url'].lower().endswith('.gif') else 'jpeg'),
                        'thumb': x['url'], 'original': x['url']}
                 credit = {k: x.get(k) or '' for k in ('title', 'author', 'license', 'license_url', 'source')}
-                credit['site'] = x.get('site') or 'Openverse'
+                credit['site'] = x.get('site') or ('Openverse' if x.get('openverse') else 'the web')
             taken = {q['file'] for q in new} | {q['file'] for q in old.values() if q['src'] != s}
             name = (r or {}).get('file') or (p + '.webp' if p + '.webp' not in taken
                                               else f'{p}-{hashlib.sha1(s.encode()).hexdigest()[:6]}.webp')

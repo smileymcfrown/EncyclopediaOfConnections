@@ -143,6 +143,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: strap, cord or rope, belt, chain or cable
+- **tension_hold**: spring or elastic
+- **adjusts**: not applicable
+- **spring_kind**: straight push or pull, wind up and let go
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -288,6 +331,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: straight line or spring
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -339,7 +425,7 @@
 - **power**: passive (no power needed). Robots can instead compensate gravity actively with motor torque; passive springs reduce the motor torque needed (Takahashi et al. 2019).
 - **removability**: removable: springs hook onto posts or eyes and counterweights bolt on, so the balancer can be taken apart and adjusted
 - **reuse_cycles**: many times for taking apart. Spring life is set by fatigue: garage-door torsion springs are typically rated 10,000-15,000 opening cycles, with 30,000-cycle springs available (Wikipedia 'Garage door')
-- **tools_needed**: screwdriver or hex keys for pivots and anchor points; pliers or a spring hook to fit stretched extension springs ⚑ [uncertain]; garage-door torsion springs need special winding tools and training (Wikipedia 'Garage door') *(⚑ parts need confirming)*
+- **tools_needed**: screwdriver or hex keys for pivots and anchor points; a spring hook to stretch extension springs onto their anchors, much easier than pliers or screwdrivers (Cycle World 'Tool Time'); garage-door torsion springs need special winding tools and training (Wikipedia 'Garage door')
 - **seal**: none
 - **load**: light to heavy: from a desk-lamp head to a garage door of 400 lb (180 kg) or more balanced by torsion or extension springs (Wikipedia 'Garage door'); small tool balancers carry tools up to 5 lb (2.3 kg) (Hubbell Gleason BD series spec sheet). The balance only works for the design load in a vertical plane; springs that leave the vertical plane add side loads (French and Widden 2000).
 - **adjustable**: yes: move the fixed spring anchor, change the spring pretension or add or remove counterweight to suit a new load (a change in load needs re-tuning). Tool balancers have a tension knob and push-button release (Hubbell Gleason spec sheet). Adjusting without adding or removing energy ('spring-to-spring balancing') is a research topic ⚑ [uncertain: paper not opened]. *(⚑ parts need confirming)*
@@ -422,6 +508,7 @@
   - https://commons.wikimedia.org/wiki/File:Anglepoise_1227.jpg
   - https://www.youtube.com/watch?v=WnDc7tv79HM
   - https://www.youtube.com/watch?v=oBnVt-Si2o0
+  - https://issues.cycleworld.com/article/2006/4/1/tool-time
 
 ### Finder tags
 
@@ -433,16 +520,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…or points; pliers or a spring hook to fit stretched extension springs [uncertain]; garage-door torsion springs…"*
+- **tools**: hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: straight push or pull
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, make_it_yourself, motion, off_the_shelf_parts, play_and_precision, processes, related, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** adjustable, common_failures, make_it_yourself, motion, off_the_shelf_parts, play_and_precision, processes, related, safety_notes
 
 ## 120 Printed leaf spring (flat cantilever spring)
 
@@ -591,6 +721,49 @@
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: straight line or spring
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -748,6 +921,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: parts clamped together
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -799,7 +1015,7 @@
 - **power**: passive (no power needed). A lockable gas spring is released by hand through a pin, lever or Bowden cable, so losing electrical power does not matter; hydraulic remote-release systems also exist (Bansbach).
 - **removability**: removable: the end fittings clip or screw onto ball studs or bolt through eyes, so the strut can be swapped (ACE says fit it fully extended and support the lid while doing so). The strut itself is a sealed, permanent unit that must never be opened (ACE catalogue).
 - **reuse_cycles**: many times: fitting and removing the strut can be repeated freely; the strut's own life is set by its seals. ACE gas springs are generally tested to 70,000 strokes (about 2-10 km of rod travel), and some applications reach 500,000 strokes or more (ACE catalogue).
-- **tools_needed**: screwdriver or spanner to fit the brackets and ball studs; for ball-socket ends, often a small flat screwdriver to lift the retaining clip ⚑ [uncertain]; someone or something to hold the lid while fitting (ACE says support the moving mass during assembly and disassembly). A lockable gas spring also needs its release head, lever or Bowden cable (Stabilus; Bansbach). A strap can help compress stiff struts during fitting (Printables 'Ratchet Strap Gas Strut Compression Aid'). *(⚑ parts need confirming)*
+- **tools_needed**: screwdriver or spanner to fit the brackets and ball studs; for ball-socket ends, a small flat screwdriver to lift the retaining clip just enough to pull the socket off (ovesco gas strut fact sheet); someone or something to hold the lid while fitting (ACE says support the moving mass during assembly and disassembly). A lockable gas spring also needs its release head, lever or Bowden cable (Stabilus; Bansbach). A strap can help compress stiff struts during fitting (Printables 'Ratchet Strap Gas Strut Compression Aid').
 - **seal**: none as a connection (it doesn't seal anything else). Inside, it is an airtight pressure vessel sealed by the rod seal and guide; up to 300 bar internal pressure (ACE catalogue).
 - **load**: Light to heavy: stock industrial gas springs range from about 10 N to 13,000 N of push, in body diameters from 8 mm to 70 mm (ACE catalogue); lockable types about 50-2,600 N (Bansbach) or 200-1,000 N (Suspa). Strong only along its own axis in push (or pull, for traction types); it must not take tilting, side or bending loads, which bend the rod and wear the seals (ACE catalogue). Long, thin, high-force struts are the least stable; ACE advises avoiding 'small diameter + long stroke + high force'.
 - **adjustable**: Partly. Force is fixed for a plain gas spring, but valve types let you bleed gas out to lower the force permanently (McMaster-Carr 'Adjustable-Force Gas Springs'; ACE 'The valve allows the force to be adjusted'); if too much is released it must be replaced (Wikipedia). The lifting feel can be tuned by moving the mounting points (Camloc; Engineer Live). A lockable gas spring can be set and locked at any length along its stroke (Bansbach).
@@ -887,6 +1103,7 @@
   - https://www.thingiverse.com/thing:2381580
   - https://www.youtube.com/watch?v=zNp5qmd650M
   - https://www.youtube.com/watch?v=HojDjwwRZ04
+  - https://www.ovesco.com.au/assets/Uploads/ovesco-FactSheet-GasStrutVehicle-202212.pdf
 
 ### Finder tags
 
@@ -898,16 +1115,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…ocket ends, often a small flat screwdriver to lift the retaining clip [uncertain]; someone or something to hol…"*
+- **tools**: hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: damper
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: straight push or pull
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, make_it_yourself, making_tips_3d_printing, play_and_precision, processes, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** aliases, make_it_yourself, making_tips_3d_printing, play_and_precision, processes, safety_notes, when_not_to_use
 
 ## 238 Spiral power spring (clock spring)
 
@@ -1054,6 +1314,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: strap, cord or rope
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: twist back, wind up and let go
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1161,6 +1464,7 @@
   - Magnetic detent: magnet click stops; repelling magnets can also be used as a spring (magnetic spring), which works across an air gap but whose force rises steeply only at the end of travel (K&J Magnetics)
   - Battery holder and battery contacts: a coil (often conical) spring presses on one end of a cell as its contact
   - Pogo pin: a spring-loaded contact pin, where a tiny compression spring inside a tube pushes a contact pin out against a pad
+  - Spring-powered paper pop-up: a rubber band or a folded paper strip, not a wire coil, stores the energy that makes a flat card cube or figure jump into shape
 
 ### Pictures, videos and models
 
@@ -1223,6 +1527,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: belt, chain or cable, parts clamped together
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: straight push or pull, twist back
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1231,6 +1578,8 @@
 ## 282 Elastic band and elastic cord springs (elastomer springs)
 
 *springs & energy storage.* Rubber bands, elastic cord or rubber tubing used as stretchy springs, for example to pull a printed finger straight again; they stretch much further than steel springs but creep and perish
+
+*Also covers:* Also covers the rubber-band pop-up cube and rubber-band wing hold-downs on model planes.
 
 ### What it is
 
@@ -1296,6 +1645,7 @@
   - Rope-style safety margin for cord: working loads are usually 1/10 to 1/4 of the average breaking strength, and knots can reduce strength by up to 50% (Knot & Rope Supply, https://www.knotandrope.com/products/1-8-shock-cord-1000-spool).
   - Lifetime: ordinary rubber bands perished in weeks to months whether used or not; Viton O-rings (30 mm inside diameter, 2 mm thick, about 75 Shore A, able to stretch at least 150%) lasted about 30,000 cycles over several months (Collins et al. 2020, https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7249832/fullTextXML; OpenFlexure troubleshooting, https://build.openflexure.org/openflexure-microscope/master/troubleshooting.html).
   - Temperature ranges by rubber type: natural rubber about -55 to +82 degC, EPDM -50 to +150 degC, nitrile and neoprene -40 to +135 degC, silicone -100 to +315 degC (Pooley, https://www.pooleyinc.com/wp-content/uploads/Common-Properties-of-Rubber-Elastomers.pdf).
+  - Rubber-band wing hold-down on model planes: use several separate bands (one columnist uses three each side, six in all), because 'One rubber band failure out of six will not crash your airplane'; a band can stretch roughly three times its own length; never use a loop of strip rubber left over from a rubber motor, which unravels after one break; throw the bands away after every flying session, because fuel residue and sunlight (UV) quickly weaken them (Model Aviation FAQ, April 2013).
 
 ### When to use it
 
@@ -1304,6 +1654,8 @@
   - bungee cords with hooks holding luggage on a roof rack (Wikipedia 'Bungee cord')
   - a slingshot (catapult) powered by latex tubing or flat bands (Wikipedia 'Slingshot')
   - the elastic in braces on teeth (orthodontic elastics), and the thick elastic that holds ball-jointed dolls together (Wikipedia)
+  - a pop-up cube: a folded card cube held flat against a stretched rubber band, which jumps into shape when it slides out of a card or letter; the band's flat length should be slightly more than one side of the cube (Alliance Rubber 'DIY Pop-Up Cube Using Rubber Bands')
+  - the wing of a model plane held onto the fuselage by several rubber bands (Model Aviation FAQ, April 2013)
 - **when_to_use**: When you need a pull spring that is cheap, quick to try and easy to change: returning a printed finger, lever, latch or trigger to its rest position; holding a printed clamp or lid shut; keeping a nut or slider pressed against a screw to take out wobble; powering toys, catapults and rubber-band cars; or holding a string of parts together (dolls, tent-pole style sections). It is especially good when the part must stretch a long way compared with its size, when you want to tune the force by simply adding bands, when some damping is welcome, or when a soft, quiet pull is safer than a stiff steel spring.
 - **when_not_to_use**: Not where the force must stay the same for months or years, or where failure matters: rubber loses force and perishes, so use a steel extension spring (see Coil spring) or a constant-force spring. Not in heat, strong sunlight, ozone (near electric motors) or oil: use a steel spring, or at least an EPDM, silicone or Viton band. Not where it must push: use a compression spring. Not for precise or repeatable force (e.g. a measuring device): rubber drifts with time and temperature. Not where a snapping band could hit someone's face or eyes. Not hidden inside a part where it can't be replaced.
 - **environment_limits**: Heat: natural rubber's useful range is about -55 to +82 degC (Pooley); the e-NABLE Phoenix v2 remix replaced 'all the rubber bands' because they do not survive tropical heat. Sunlight, oxygen and ozone: natural rubber is 'damaged by aging, sunlight, oil and perspiration' (Wikipedia 'Natural rubber'); tiny traces of ozone crack natural, nitrile and styrene-butadiene rubbers, and cracks form in stretched parts at right angles to the stretch (Wikipedia 'Ozone cracking'); EPDM, fluoroelastomers (Viton), neoprene, silicone and polyurethanes resist ozone. Store spares cool, dark and away from motors and other ozone sources (APG: never above 120 degF, about 49 degC). Time: even indoors, rubber bands perished in weeks to months (Collins et al. 2020), and held stretched they lose force over hours (stress relaxation; Clin Exp Dent Res 2025) and slowly get longer under a steady load (creep; Wikipedia 'Stress relaxation'). Cold: below its glass transition rubber goes stiff and stops springing back, as with the Challenger O-rings (Wikipedia 'Natural rubber'). Warmth: a stretched band pulls harder when heated (Gough-Joule effect). Water: natural rubber absorbs water and its elasticity deteriorates (Wikipedia 'Elastics (orthodontics)').
@@ -1319,6 +1671,8 @@
   - Series-elastic coupling: puts a deliberate spring (sometimes elastic) between a motor and its load to measure and soften force
   - Pneumatic artificial muscle (McKibben muscle): a rubber tube inside a braid that pulls when pumped up with air
   - Stopper knots and cord-end anchors: a knot behind a hole or a printed cord-end anchor to tie off elastic cord, as at the palm end of printed hands
+  - Spring-powered paper pop-up: a folded card cube or box held flat against a rubber band, so it jumps into shape when released
+  - Elastic-strung ball joint: elastic cord run through a chain of ball-and-socket joints to hold a doll or figure together so it keeps a pose
 
 ### Pictures, videos and models
 
@@ -1370,6 +1724,8 @@
   - https://commons.wikimedia.org/wiki/File:RubberBand.jpg
   - https://commons.wikimedia.org/wiki/File:Ozone_cracks_in_tube1.jpg
   - https://commons.wikimedia.org/wiki/File:Bungee_Cord_PICT6882a.jpg
+  - https://www.rubberband.com/blog/diy-pop-up-cube-using-rubber-bands/
+  - https://library.modelaviation.com/article/frequently-asked-questions-201304
 
 ### Finder tags
 
@@ -1387,6 +1743,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: strap, cord or rope
+- **tension_hold**: spring or elastic
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, clay or putty, fabric, leather or cord
 
 ### Other info
 
@@ -1536,6 +1935,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: long travel or pulling
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: straight push or pull, wind up and let go
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1688,6 +2130,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: wind up and let go
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 

@@ -41,7 +41,7 @@ finder:
   shaft_layout: [not applicable]
   overload_response: not applicable
   clicks: not applicable
-  tools: [crimper, sewing or leather tools, hand tools]
+  tools: [crimper, drill and tap, sewing or leather tools, hand tools]
   load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'yes'
@@ -88,14 +88,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter
-      [uncertain]; push-in fittings need no to…"'
+  drive_split: ['pushes, pulls or flow shared out']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [motion, tools_needed, making_tips_3d_printing, when_not_to_use, common_failures]
+uncertain_fields: [motion, making_tips_3d_printing, when_not_to_use, common_failures]
 diagram_idea: A cut-away of a curved cable between a hand lever and a brake caliper, with arrows showing the wire being pulled
   one way while the sleeve pushes back against its two end stops, and a return spring opening the caliper; beside it a graph
   of force getting through falling as the total bend angle increases.
@@ -159,6 +157,8 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Bowden.jpg
 - https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg
 - https://api.printables.com/graphql/
+- https://help.prusa3d.com/guide/how-to-trim-ptfe-tube-original-prusa-printers_22424
+- https://cdn.help.prusa3d.com/wp-content/uploads/generated/printer-maintenance_247_guide_22424_en_2026-05-13.pdf
 research: research/connection-types/results/Bowden_cable_pushpull_cable.json
 image:
   file: drawn/anim/bowden-cable.svg
@@ -282,7 +282,7 @@ Avoid it for precise positioning or fast, stiff control, because friction, lag a
   - off-the-shelf part (bike cables and housing, push-pull control cables, PTFE tube, push-in fittings)
   - 3D print (FDM): levers, cable stops, sleeve anchors, servo mounts, wire clamps
 - **Printing it in one piece (print in place):** no: the cable is bought and threaded through printed or bought end fittings after printing
-- **Tools:** A proper cable and housing cutter (dedicated shear-type cutters for compressionless housing); a pick or awl to reopen the squashed liner after cutting; a hex key or spanner for the pinch bolt; pliers to crimp end caps (or solder to stop fraying) (Park Tool; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter ⚑ [uncertain]; push-in fittings need no tools.
+- **Tools:** A proper cable and housing cutter (dedicated shear-type cutters for compressionless housing); a pick or awl to reopen the squashed liner after cutting; a hex key or spanner for the pinch bolt; pliers to crimp end caps (or solder to stop fraying) (Park Tool; Sheldon Brown). For 3D-printer PTFE tubes: a razor or thin-bladed knife, pressing lightly so the tube stays round, and a drill bit to cone the tube's entrance (Prusa 'How to trim PTFE tube'); push-in fittings need no tools.
 - **Difficulty:** easy: buy bike brake or gear cables and housing (or PTFE tube and braided wire), and print levers, cable stops and anchors; the only trick is fixing both ends of the sleeve firmly and keeping bends gentle
 
 ### 3D printing tips
@@ -319,6 +319,8 @@ Never use compressionless shift housing for brakes: it can burst and cause a sud
 - Capstan cable drive and tendon drives over pulleys: open cables running over free-turning pulleys, with much less friction than a sleeve
 - Hydraulic line (hydraulic brakes): carries force through fluid, with less friction over long routes
 - Belt drive: carries continuous rotation around pulleys rather than a short pull
+- Pull-tab and slider mechanism: the paper version in pop-up books, a card strip pulled along a slot to move a picture at a distance
+- Cable splitter: a junction that joins one Bowden cable to two (one lever, two brakes) or two to one
 
 ## Make it yourself
 
@@ -338,8 +340,7 @@ Never use compressionless shift housing for brakes: it can burst and cause a sud
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 5 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = crimper, sewing or leather tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter ⚑ [uncertain]; push-in fittings need no to…"
+- ⚑ 4 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -362,3 +363,5 @@ Never use compressionless shift housing for brakes: it can burst and cause a sud
 - <https://commons.wikimedia.org/wiki/File:Bowden.jpg>
 - <https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg>
 - <https://api.printables.com/graphql/>
+- <https://help.prusa3d.com/guide/how-to-trim-ptfe-tube-original-prusa-printers_22424>
+- <https://cdn.help.prusa3d.com/wp-content/uploads/generated/printer-maintenance_247_guide_22424_en_2026-05-13.pdf>

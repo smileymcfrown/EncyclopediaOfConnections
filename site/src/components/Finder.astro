@@ -30,6 +30,11 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     ['power', 'Power'],
     ['usual_process', 'Usually made by'],
   ];
+  // The "Made of" row under every shortlist (R37, D45): the materials an entry suits (its `made_of` tag).
+  // The choice is kept in the address (m=…), so it stays set from one shortlist to the next.
+  const MATERIALS = ['3D prints', 'plastic sheet, tube or moulded parts', 'wood', 'metal', 'paper or card', 'foam',
+    'clay or putty', 'carbon fibre or composites', 'glass or mirror', 'fabric, leather or cord'];
+  let material: string | null = null;
 
   const root = document.querySelector<HTMLElement>('.finder')!;
   const base = root.dataset.base ?? '';
@@ -50,20 +55,27 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     return v === undefined ? [] : Array.isArray(v) ? v : [v];
   };
 
-  function readHash(): { steps: number[]; unsure: boolean } {
+  function readHash(): { steps: number[]; unsure: boolean; m: string | null } {
     const h = new URLSearchParams(location.hash.slice(1));
     const a = h.get('a');
-    return { steps: a ? a.split('.').map(Number).filter((n) => !Number.isNaN(n)) : [], unsure: h.get('unsure') === '1' };
+    const m = h.get('m');
+    return { steps: a ? a.split('.').map(Number).filter((n) => !Number.isNaN(n)) : [], unsure: h.get('unsure') === '1',
+             m: m && MATERIALS.includes(m) ? m : null };
   }
-  function go(steps: number[], unsure = false) {
+  function hashFor(steps: number[], unsure = false) {
     const p = new URLSearchParams();
     if (steps.length) p.set('a', steps.join('.'));
     if (unsure) p.set('unsure', '1');
-    location.hash = p.toString();
+    if (material) p.set('m', material);
+    return p.toString();
+  }
+  function go(steps: number[], unsure = false) {
+    location.hash = hashFor(steps, unsure);
   }
 
   function render() {
-    const { steps, unsure } = readHash();
+    const { steps, unsure, m } = readHash();
+    material = m;
     let q: Question | undefined = tree;
     const chosen: Answer[] = [];
     for (const i of steps) {
@@ -93,7 +105,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     const nums = unsure && q ? [...new Set(q.answers.flatMap((a) => a.entries))] : last.entries;
     const flags: Record<string, string[]> = unsure && q
       ? Object.assign({}, ...q.answers.map((a) => a.needs_confirming)) : last.needs_confirming;
-    showList(nums.map((n) => byNum.get(n)!).filter(Boolean), flags, unsure, unsure ? undefined : last.tick);
+    showList(nums.map((n) => byNum.get(n)!).filter(Boolean), flags, unsure, unsure ? undefined : last.tick, steps);
   }
 
   function showQuestion(q: Question, steps: number[]) {
@@ -118,8 +130,9 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   // counts ignore that group's own ticks, so you can always tick another option in it. A tick step
   // (R29) works the other way: an entry must have *every* ticked value, e.g. a glue that bonds both
   // materials, or a joint for both kinds of part.
-  function showList(es: Entry[], flags: Record<string, string[]>, unsure: boolean, tick?: Tick) {
+  function showList(es: Entry[], flags: Record<string, string[]>, unsure: boolean, tick: Tick | undefined, steps: number[]) {
     const panel = el('div', { class: 'finder-panel' });
+    const madeOf = el('div', { class: 'finder-made-of', role: 'group', 'aria-label': 'Made of' });
     const cards = el('div', {});
     const heading = el('h2', {});
     const tickBox = el('div', { class: 'finder-tick' });
@@ -138,6 +151,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       const f = flags[String(e.num)];
       if (f) li.append(el('p', { class: 'finder-flag', title: `Needs confirming: ${f.join(', ')}` },
         `⚑ It is here because of a finder value that needs confirming (${f.join(', ')}).`));
+      if (material && e.needs_confirming.includes('made_of')) li.append(el('p', { class: 'finder-flag' },
+        `⚑ Whether it suits ${material} needs confirming.`));
       return li;
     };
     const draw = () => {
@@ -158,10 +173,31 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
           tickBox.append(el('label', { class: n === 0 && !box.checked ? 'finder-none' : '' }, box, ` ${v} (${n})`));
         }
       }
-      const pool = [...strict, ...general];
-      const shown = strict.filter((e) => passPanel(e));
-      const shownGeneral = general.filter((e) => passPanel(e));
-      // 2. the panel, counted over what the tick step leaves
+      // 2. the "Made of" row: counts over what the tick step and the panel leave. If nothing on the list
+      // suits the chosen material, the list shows everything and says so (the show-all fallback).
+      const suits = (e: Entry) => !material || values(e, 'made_of').includes(material);
+      const before = [...strict, ...general].filter((e) => passPanel(e));
+      const none = !!material && before.length > 0 && !before.some(suits);
+      const useMat = (e: Entry) => none || suits(e);
+      madeOf.replaceChildren(el('span', { class: 'finder-panel-title' }, 'Made of:'));
+      const pick = (m: string | null) => {
+        material = m;
+        history.replaceState(null, '', `#${hashFor(steps, unsure)}`);
+        draw();
+      };
+      const allBtn = el('button', { type: 'button', 'aria-pressed': String(!material) }, `Any material (${before.length})`);
+      allBtn.addEventListener('click', () => pick(null));
+      madeOf.append(allBtn);
+      for (const m of MATERIALS) {
+        const n = before.filter((e) => values(e, 'made_of').includes(m)).length;
+        const b = el('button', { type: 'button', 'aria-pressed': String(material === m), class: n ? '' : 'finder-none' }, `${m} (${n})`);
+        b.addEventListener('click', () => pick(material === m ? null : m));
+        madeOf.append(b);
+      }
+      const pool = [...strict, ...general].filter(useMat);
+      const shown = strict.filter((e) => passPanel(e) && useMat(e));
+      const shownGeneral = general.filter((e) => passPanel(e) && useMat(e));
+      // 3. the panel, counted over what the tick step and the material leave
       panel.replaceChildren(el('p', { class: 'finder-panel-title' }, 'Tick what applies to narrow the list:'));
       for (const [f, label] of FILTERS) {
         const counts = new Map<string, number>();
@@ -183,18 +219,21 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
         }
         panel.append(fs);
       }
-      // 3. the cards
+      // 4. the cards
       const total = shown.length + shownGeneral.length;
       if (tick && !want.size) {
         heading.textContent = 'Tick what you are joining';
         cards.replaceChildren(el('p', {}, 'Tick two or more boxes above. The list shows the options that suit all of them together.'));
         panel.replaceChildren();
+        madeOf.replaceChildren();
         return;
       }
       heading.textContent = (tick && any ? `${shown.length} made for this mix` + (shownGeneral.length ? `, and ${shownGeneral.length} that join any parts` : '')
-        : `${total} ${total === 1 ? 'match' : 'matches'}`) +
+        : `${total} ${total === 1 ? 'match' : 'matches'}`) + (material && !none ? ` for ${material}` : '') +
         (unsure ? " (you weren't sure, so these are all the options)" : '');
       const parts: Node[] = [];
+      if (none) parts.push(el('p', { class: 'finder-fallback' },
+        `Nothing on this list is listed as suiting ${material}, so all of them are shown.`));
       if (tick && !shown.length) parts.push(el('p', {}, any
         ? 'Nothing in the encyclopaedia is made for exactly this mix, but the options below join any parts.'
         : 'Nothing in the encyclopaedia is listed as suiting all of these together. Try ticking fewer, or look at a mechanical fixing instead (Back, then another answer).'));
@@ -210,7 +249,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       cards.replaceChildren(...parts);
     };
     draw();
-    body.replaceChildren(...(tick ? [tickBox] : []), heading, panel, cards);
+    body.replaceChildren(...(tick ? [tickBox] : []), heading, madeOf, panel, cards);
   }
 
   Promise.all([
@@ -251,6 +290,13 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   .finder-panel fieldset { border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; padding: 0.5rem 0.75rem; margin: 0; }
   .finder-panel label { display: block; font-size: var(--sl-text-sm); }
   .finder-none { color: var(--sl-color-gray-4); }
+  .finder-made-of { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 0.5rem; margin: 0.5rem 0; }
+  .finder-made-of .finder-panel-title { width: auto; font-weight: 600; margin-right: 0.25rem; }
+  .finder-made-of button { font-size: var(--sl-text-sm); padding: 0.2rem 0.6rem; border: 1px solid var(--sl-color-gray-5);
+    border-radius: 999px; background: var(--sl-color-gray-6); color: var(--sl-color-white); }
+  .finder-made-of button.finder-none { color: var(--sl-color-gray-4); }
+  .finder-made-of button[aria-pressed='true'] { border-color: var(--sl-color-accent); background: var(--sl-color-accent-low); font-weight: 600; }
+  .finder-fallback { padding: 0.5rem 0.75rem; border-left: 3px solid var(--sl-color-accent); background: var(--sl-color-gray-6); }
   .finder-cards { list-style: none; padding: 0; display: grid; gap: 0.75rem; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); }
   .finder-card { margin: 0; padding: 0.75rem 1rem; border: 1px solid var(--sl-color-gray-5); border-radius: 0.5rem; }
   .finder-card a { font-weight: 600; }

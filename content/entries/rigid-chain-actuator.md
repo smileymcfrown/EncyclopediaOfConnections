@@ -86,18 +86,12 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  power_source:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain
-      whether every model holds aga…"'
-  power_loss:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain
-      whether every model holds aga…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [input_output, power, make_it_yourself]
+uncertain_fields: [input_output, make_it_yourself]
 diagram_idea: 'Side view of a housing with a sprocket feeding a chain out of the top: inside, the chain hangs loosely in a
   coil; outside, the links stand in a straight column with their shoulders touching, and a zoomed inset shows the shoulder
   contact and the one-way bending of two links, plus a second small panel with two chains zipping together back to back.'
@@ -164,6 +158,8 @@ sources:
 - https://www.thingiverse.com/thing:2362604
 - https://help.prusa3d.com/article/pla_2062
 - https://api.printables.com/graphql/
+- https://products.tyman-international.com/pub/media/scambio/GIESSE/SCHEDA_TECNICA/EN/FAC_VARIA_SLIM_SMALL.pdf
+- https://www.specifiedby.com/windowmaster/chain-actuator-600n-1a/Windowmaster_600N-1A_Technical_Datasheet.pdf
 research: research/connection-types/results/Rigid_chain_actuator_zip_chain_push_chain.json
 image:
   file: rigid-chain-actuator.webp
@@ -198,13 +194,26 @@ pictures:
   kind: render
   render: true
   drawn: true
-glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, lubrication, infill,
-  overhang--bridging]
+- file: rigid-chain-actuator-361345.webp
+  title: PCN145 - Fully Printable Push Chain
+  author: FH
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain
+  site: Printables
+  alt: A 3D-printed push chain with grey, red and gold links curled into a tight loop, showing that the links bend freely
+    in one direction only.
+  kind: how-it-works
+  drawn: false
+  web: true
+glossary: [misalignment, stroke, pitch, linkage, actuator, clearance, form-fit--force-fit--material-bond, holding-force, lubrication,
+  infill, overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/rigid-chain-actuator.still.webp"><img src="../media/rigid-chain-actuator.webp" alt="A rendered rigid chain actuator, its motor housing pushing out a chain that locks straight into a stiff bar and pulling it back in."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Rigid_Chain_Actuator.gif">Rigid Chain Actuator</a> by User:Catsquisher, Public domain, from Wikimedia Commons.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/rigid-chain-actuator.webp" alt="Render of a rigid chain actuator of the kind that opens windows: a slim aluminium box with a stainless steel chain sticking straight out of the middle of its side, its links locked into a stiff straight bar held out in the air, ending in a mounting bracket; a power cable leaves one end." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/rigid-chain-actuator.webp" alt="Render of a rigid chain actuator of the kind that opens windows: a slim aluminium box with a stainless steel chain sticking straight out of the middle of its side, its links locked into a stiff straight bar held out in the air, ending in a mounting bracket; a power cable leaves one end." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/rigid-chain-actuator-361345.webp" alt="A 3D-printed push chain with grey, red and gold links curled into a tight loop, showing that the links bend freely in one direction only." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1351303-pcn145-fully-printable-push-chain">PCN145 - Fully Printable Push Chain</a> by FH, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A motor-driven sprocket feeds out a chain whose links can bend only one way, and as they leave the housing they lock into a stiff bar that can push and pull a load; running backwards draws the chain in, where it bends again and coils or folds into a small magazine.
@@ -251,7 +260,7 @@ Avoid it where the pushed part isn't guided or there are side loads: a single ch
   - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)): link shoulders, notches or interlocking teeth lock the links into a column, and the sprocket teeth mesh with the link rollers
   - not a holding joint (it moves or passes on motion): it drives a load; its position is held by the motor or brake
 - **Input and output:** Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). Rough efficiency: not stated in the makers' pages found ⚑ [uncertain]. Back-drivable: in principle yes, like a rack and pinion, unless the gearmotor or a brake holds it ⚑ [uncertain].
-- **Power:** powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds against a strong wind or push when unpowered]
+- **Power:** powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors and are rated to hold well above their pushing force when stopped (Giesse Varia Slim Small: 200 N push, 1000 N static [holding force](../glossary.md#holding-force); WindowMaster WMU 883: 1000 N push, 5000 N locking force)
 - **Load:** Light (window openers, a few hundred newtons) to very heavy (industrial lifting columns over 10 tonnes; Wikipedia). Strong in push and pull along the chain. Weak sideways: a single chain can sag or bend under side load and over long unsupported strokes (window chains may curve up or down with the window's weight and wind; TOPP ACK4), so industrial lifts guide the platform along the whole travel with at least two guides (Serapid). Zip (double) chains resist buckling better and can take some side load without a guide at the end (Wikipedia).
 - **Play and precision:** Simple and printed chains have noticeable play: [clearances](../glossary.md#clearance) between the teeth make a printed zip beam 'a bit floppy' (Hackaday), and window chains flex; the ACK4's limit switch is accurate to about +/-1 cm. Industrial columns position repeatably to within millimetres (Serapid). They tolerate little [misalignment](../glossary.md#misalignment): the chain end must line up with its bracket (TOPP ACK4), and lift drives must be square, fixed without play and perfectly vertical (Serapid).
 - **Taking it apart:** removable: the housing bolts to the frame and the chain's end fitting bolts or pins to the moving part (window sash, platform or carriage)
@@ -330,9 +339,7 @@ Crushing and trapping: fingers or hands can be caught between a closing window s
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `power_source` = electricity (source uncertain): `power` is marked ⚑ [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds aga…"
-- ⚑ Finder value `power_loss` = keeps its last state (source uncertain): `power` is marked ⚑ [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds aga…"
+- ⚑ 3 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -359,3 +366,5 @@ Crushing and trapping: fingers or hands can be caught between a closing window s
 - <https://www.thingiverse.com/thing:2362604>
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://api.printables.com/graphql/>
+- <https://products.tyman-international.com/pub/media/scambio/GIESSE/SCHEDA_TECNICA/EN/FAC_VARIA_SLIM_SMALL.pdf>
+- <https://www.specifiedby.com/windowmaster/chain-actuator-600n-1a/Windowmaster_600N-1A_Technical_Datasheet.pdf>

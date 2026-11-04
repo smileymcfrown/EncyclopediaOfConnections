@@ -21,6 +21,7 @@ aliases:
 - expanding bar-end plug (bicycle handlebar end plug)
 - tube-connecting nut ('push inside tubes to join them with a threaded stud instead of welding', McMaster-Carr category name)
 - expanding tube plug; wedge expanding plug; tube end plug with thread
+- bonded threaded end adapter; quick-release carbon tube connector (an aluminium adapter glued into a carbon tube end; DragonPlate)
 family: clamping, magnetic & friction connections
 other_families: [seals & pass-throughs]
 finder:
@@ -92,15 +93,13 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube
-      end [uncertain: general advice].…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [load, removability, reuse_cycles, tools_needed, play_and_precision, materials, processes, making_tips_3d_printing,
-  off_the_shelf_parts, environment_limits, safety_notes, common_failures]
+uncertain_fields: [load, removability, reuse_cycles, play_and_precision, materials, processes, making_tips_3d_printing, off_the_shelf_parts,
+  environment_limits, safety_notes, common_failures]
 diagram_idea: 'Three cut-away tube ends side by side: a star nut with its barbs bent back and biting the wall (arrow showing
   it can go in but not out), a ribbed insert with a nut pressing out on the walls, and an expansion plug where a bolt pulls
   two cones together so a split sleeve swells outward against the wall.'
@@ -170,6 +169,8 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://commons.wikimedia.org/wiki/File:Quill_stems.JPG
 - https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png
+- https://dragonplate.com/how-to-connect-carbon-fiber-tubes
+- https://www.parktool.com/en-us/blog/repair-help/fork-steering-column-length-and-sizing
 research: research/connection-types/results/Internal_tube_anchors_star_nut_expansion_plug.json
 image:
   file: drawn/internal-tube-anchors.svg
@@ -207,7 +208,7 @@ A part pushed or tapped into the open end of a tube that locks against the insid
 
 **In plain words:** A plug you push into the open end of a tube that grips the inside wall, either with springy barbs that dig in, ribs that press outward, or a rubber or split sleeve that swells when you turn a bolt, so the tube end gets a screw thread or a firm anchor point. **Proper term:** Internal tube anchor (tube-end insert): star nut (star-fangled nut), expansion plug (compression plug, expander), wedge or cone expander, and ribbed threaded tube insert.
 
-**Also called:** star nut; star-fangled nut ('Star Fangled' is a registered trade name, per Sheldon Brown); starnut; Ahead nut; threadless headset nut; expansion plug; compression plug; expander plug; headset expander (for carbon fork steerers) (Park Tool; Wikipedia 'Stem (bicycle part)'); quill stem expander: wedge bolt (wedge-shaped nut) or cone expander nut (Wikipedia 'Stem (bicycle part)'); threaded tube insert; threaded tube end; square or round threaded insert for levelling feet; tube insert with nut (Superior Glide); expanding adapter stem; expansion stem; rubber expansion adapter (for casters in tube legs) (Caster Technology); expanding bar-end plug (bicycle handlebar end plug); tube-connecting nut ('push inside tubes to join them with a threaded stud instead of welding', McMaster-Carr category name); expanding tube plug; wedge expanding plug; tube end plug with thread.
+**Also called:** star nut; star-fangled nut ('Star Fangled' is a registered trade name, per Sheldon Brown); starnut; Ahead nut; threadless headset nut; expansion plug; compression plug; expander plug; headset expander (for carbon fork steerers) (Park Tool; Wikipedia 'Stem (bicycle part)'); quill stem expander: wedge bolt (wedge-shaped nut) or cone expander nut (Wikipedia 'Stem (bicycle part)'); threaded tube insert; threaded tube end; square or round threaded insert for levelling feet; tube insert with nut (Superior Glide); expanding adapter stem; expansion stem; rubber expansion adapter (for casters in tube legs) (Caster Technology); expanding bar-end plug (bicycle handlebar end plug); tube-connecting nut ('push inside tubes to join them with a threaded stud instead of welding', McMaster-Carr category name); expanding tube plug; wedge expanding plug; tube end plug with thread; bonded threaded end adapter; quick-release carbon tube connector (an aluminium adapter glued into a carbon tube end; DragonPlate).
 
 ## How it works
 
@@ -226,7 +227,7 @@ Single piece to a few parts. Star nut: one piece (a threaded centre with two sta
 
 ## When to use it
 
-Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology).
+Use one when you need a thread or a fixing point at the end of a tube and can't or don't want to weld, drill or tap: fitting levelling feet, glides or casters to tube legs; giving a pole or frame an end thread for a knob, mount or accessory; anchoring a bolt that pulls things together inside a tube (like a headset top cap); plugging tube ends to keep dirt and insects out. Choose an expansion plug when the tube is carbon, plastic or thin-walled, when you may want to remove or move it, or when it should seal; choose a star nut for a cheap, permanent anchor in a metal tube; choose a ribbed threaded insert for furniture legs that take a levelling foot (Park Tool; Superior Glide; Caster Technology). For carbon tube, a glued-in version is common: an aluminium threaded adapter is epoxied into each tube end and quick-release male and female ends screw into the adapters, so long trusses can be built from sections up to eight feet long and taken apart again; DragonPlate advises against drilling carbon tube to pin or bolt it, because that weakens the wall (DragonPlate 'How to Connect Carbon Fiber Tubes'). See Bonded tube joint.
 
 ## When not to use it
 
@@ -266,7 +267,7 @@ Avoid them for heavy pulling loads or safety-critical joints where the only thin
   - 3D print (FDM): expanding plugs and wedge plugs with a metal screw and nut, bar-end plugs, flexible (TPU) sealing plugs, and push-in connectors that fit inside PVC pipe (ray of sunshine; Rossero; windi; Kirk; KPV)
   - CNC: ⚑ [uncertain] turned metal expanders or plugs for special tube sizes; no specific guide found
 - **Printing it in one piece (print in place):** partly: an expanding plug is usually printed as one or two plastic parts and then needs an added screw and nut (Rossero's bar-end plug needs an M3 bolt of at least 20 mm and an M3 nut; ray of sunshine's wedge plug needs an M3 flat-head screw and a nut dropped in during a print pause); multi-material plugs can combine hard and flexible sections in one print (windi)
-- **Tools:** Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A pipe cutter or saw and a deburring tool to square and clean the tube end ⚑ [uncertain: general advice].
+- **Tools:** Star nut: a star-nut setter (e.g. Park Tool TNS-1 or TNS-4) and a hammer or mallet, or a long bolt and a printed guide tool (Park Tool; Russell Smyth's printed installer). Ribbed inserts: hand pressure or a rubber mallet (Superior Glide). Expansion plugs and expanding stems: a hex key, spanner or socket (Park Tool; Caster Technology). A hacksaw in a saw guide, then flat and round files or a deburring tool, to square and clean the tube end (Park Tool, steering column sizing).
 - **Difficulty:** easy: buy the right size, then press, tap or bolt it in; the main skill is measuring the tube's inside size and wall thickness. Printed expanding plugs are also easy to make (ray of sunshine; Rossero), but a printed star nut would not have springy metal barbs
 
 ### 3D printing tips
@@ -311,6 +312,8 @@ On a bicycle, a missing or loose steerer anchor lets the headset come loose, and
 - Hose barb (barbed tube fitting): barbs that hold a soft hose from inside, and also seal
 - Castor: the wheel that an expanding caster stem or a threaded tube insert holds in the end of a tube leg
 - Levelling foot: the screw-in foot that a ribbed threaded insert gives a square or round tube leg a thread for
+- Bonded tube joint (lugged or sleeved tube joint): glues a socket, sleeve or threaded end adapter into or over a tube end, the usual way to fix anything to carbon tube
+- Push-fit rod and spar fittings (kite fittings): small sockets and ferrules held on a rod or thin tube by a snug fit, for light frames such as kites
 
 ## Make it yourself
 
@@ -332,8 +335,7 @@ On a bicycle, a missing or loose steerer anchor lets the headset come loose, and
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = sewing or leather tools, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…e cutter or saw and a deburring tool to square and clean the tube end ⚑ [uncertain: general advice].…"
+- ⚑ 12 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -351,3 +353,5 @@ On a bicycle, a missing or loose steerer anchor lets the headset come loose, and
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://commons.wikimedia.org/wiki/File:Quill_stems.JPG>
 - <https://commons.wikimedia.org/wiki/File:Bicycle_headset_(threadless)_exploded_view-en.png>
+- <https://dragonplate.com/how-to-connect-carbon-fiber-tubes>
+- <https://www.parktool.com/en-us/blog/repair-help/fork-steering-column-length-and-sizing>

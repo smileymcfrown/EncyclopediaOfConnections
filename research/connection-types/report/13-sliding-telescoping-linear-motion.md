@@ -160,6 +160,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: telescoping tube
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites
 
 ### Other info
 
@@ -313,6 +356,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: telescoping tube
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: clamp or latch
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites
 
 ### Other info
 
@@ -416,6 +502,7 @@
   - Snap pin (split-leg push-in pin, rabbit clip): a printable pin held in by springy legs
   - Tool-free fasteners (hitch pin and R-clip): a plain pin through holes kept in by a clip, the simplest step lock
   - Bayonet mount (push-and-twist lock): another way to lock tubes at set positions, by a twist into a slot
+  - Push-fit rod and spar fittings (ferrules, tee connectors): rods or tubes held in a socket by a snug fit alone, with no button to lock them
 
 ### Pictures, videos and models
 
@@ -472,6 +559,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: telescoping tube
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, carbon fibre or composites
 
 ### Other info
 
@@ -634,6 +764,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: carriage on a rail
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -781,6 +954,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: pushed by a screw, chain or crank
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: screw
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -927,6 +1143,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: pushed by a screw, chain or crank
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: screw, crank or cam
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -974,7 +1233,7 @@
 - **power**: passive (no power needed) for the rigging itself, but it is almost always driven by an electric motor turning the spool. If power is lost the motor stops pulling, so a vertical lift can slide back down under gravity; brake mode alone may not be enough to hold it (Chief Delphi 2019).
 - **removability**: removable: strings are anchored with knots or, better, clamped under a bolt head so they can be re-tensioned or replaced quickly (gm0); belts are clamped in belt clamps (Instructables cascading slide)
 - **reuse_cycles**: many times: the slides, pulleys and spools can be re-rigged indefinitely; the strings themselves stretch, fray and are replaced as a wear item (gm0 notes that string loosens over time)
-- **tools_needed**: Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide). *(⚑ parts need confirming)*
+- **tools_needed**: Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying: a whipping of thread, or melting the cut end of nylon, polyester or polyethylene line (not aramid) with a lighter or hot knife (Wikipedia 'Whipping knot'). A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide).
 - **seal**: none: an open framework of slides, pulleys and strings
 - **load**: Light to medium (competition robots lift game pieces and sometimes the robot itself: Brogan Pratt's printed FTC slide insert is described as lifting a 20 kg robot with two motors). Strings are only strong in pull (tension) and cannot push, so every direction you drive needs its own string or elastic. Braided UHMWPE (Dyneema/Spectra) kite line rated around 800 lb has been used on FRC elevators (Chief Delphi 2012). The weak points are sideways and bending loads on the extended slides: keep enough overlap between stages (about 20% of stage length) and at least two bearing blocks per side between stages (YETI wiki).
 - **adjustable**: Yes: string tension is adjusted at bolt clamps, spring tensioners, spring-loaded pulleys, or a pulley that slides along an extrusion (gm0); speed and pulling force can be traded by changing the spool diameter instead of the gearbox (new diameter = old diameter x old ratio / new ratio) (gm0); the number of stages can be changed.
@@ -1066,6 +1325,7 @@
   - https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
+  - https://en.wikipedia.org/wiki/Whipping_knot
 
 ### Finder tags
 
@@ -1077,16 +1337,59 @@
 - **shaft_layout**: not applicable ⚑ *needs confirming (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form*
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying [uncertain]. A clamp, vice or arbor pres…"*
+- **tools**: press or vice, hand tools
 - **load_max**: medium
 - **usual_process**: 3D print (FDM)
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: pushed by a screw, chain or crank
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal, fabric, leather or cord
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, make_it_yourself, making_tips_3d_printing, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, input_output, links, make_it_yourself, making_tips_3d_printing, processes, safety_notes
 
 ## 186 Drawer slide (telescopic ball-bearing slide)
 
@@ -1141,7 +1444,7 @@
 - **tools_needed**: screwdriver or drill-driver, tape measure and square or level, and ideally a positioning jig (Rockler; printable jigs on Printables); for robot lifts, countersunk M3 or M4 screws, nuts and often 3D-printed spacers (gm0)
 - **seal**: none: dirt, sawdust and chips get into the ball tracks and spoil the movement (gm0; Accuride slide reference guide)
 - **load**: light to heavy: Accuride groups slides as light duty up to 75 lb, medium duty 90 to 100 lb and heavy duty 100 to 600 lb per pair, with stainless and aluminium ranges up to 1,323 lb (Accuride slide reference guide); ordinary kitchen slides are about 75 to 100 lb (Rockler). Ratings are for a pair of 18 in slides fitted on their edges (on the drawer sides): they drop for longer slides, drop by at least 50% if the slides are laid flat under the drawer, and drop as extension increases (Accuride; Chambrelan). Strongest carrying weight down across the tall side of the slide; weakest to sideways loads and twisting when fully extended, where the slide bends (deflects) (Chambrelan lexicon; gm0)
-- **adjustable**: mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments ⚑ [uncertain]), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon) *(⚑ parts need confirming)*
+- **adjustable**: mostly no: the position is fixed by where the screws go (some slides have slotted holes for small adjustments: screws go first in the vertical and horizontal slots to set height and front-to-back position, then the round holes lock it, Accuride 3017 instructions), and travel, detent force and soft-close are set by the model; some industrial slides can be ordered with extension changed by up to 10% (Chambrelan lexicon)
 - **play_and_precision**: small in good steel slides; the fully extended slide bends (deflects) in proportion to the load (Chambrelan lexicon), and aluminium robot slides develop play as steel balls wear into the rails (gm0). The two slides must be parallel in both directions or they bind, though mounting one slightly higher than the other has little effect (Accuride). Side clearance must suit the slide, usually 1/2 in (12.7 mm) each side for ball-bearing side-mount slides (Rockler)
 - **access_needed**: one side only (blind): the cabinet member screws to the inside of the cabinet and the drawer member to the outside of the drawer box, each from its own open side
 - **materials**: Cold-rolled steel members and ball retainers with carburised steel balls and zinc plating; stainless steel throughout; or aluminium members with stainless balls and retainers for damp places (Accuride slide reference guide). Robot slides: aluminium (MISUMI SAR) or steel (goBILDA Viper) (gm0). Printed: PLA-on-PLA plain slides (Printables, JoshRC) or printed rails running on 6 mm airsoft BBs (Printables, Radek)
@@ -1234,6 +1537,7 @@
   - https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament
   - https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135
   - https://api.printables.com/graphql/
+  - https://static.richelieu.com/documents/docsGr/100/725/0/1007250/1438787.pdf
 
 ### Finder tags
 
@@ -1248,13 +1552,56 @@
 - **tools**: drill and tap, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
-- **adjustable**: no ⚑ *needs confirming (source uncertain): `adjustable` is marked [uncertain] here: "…e the screws go (some slides have slotted holes for small adjustments [uncertain]), and travel, detent force a…"*
+- **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: carriage on a rail
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** adjustable, how_it_works, links, make_it_yourself, rules_of_thumb
+- ⚑ **Fields with parts that need confirming:** how_it_works, links, make_it_yourself, rules_of_thumb
 
 ## 187 Ball screw
 
@@ -1350,6 +1697,7 @@
   - Belt drives (timing belt): cheap, fast and long travel with lower force and stiffness
   - Differential screw: two slightly different threads for extremely fine hand adjustment
   - Linear guides: carry the carriage and side loads that a ball screw must not take
+  - Linked lead screws (Z sync belt): several screws tied by a belt, chain or shafts to one motor so a bed or platform rises level; with ball screws, which never self-lock, a lift needs a brake
 
 ### Pictures, videos and models
 
@@ -1412,6 +1760,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: pushed by a screw, chain or crank
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: screw
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ## 188 Differential screw (fine adjustment screw)
 
@@ -1555,6 +1946,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: pushed by a screw, chain or crank
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: screw
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: fine-tune a tilt, set and hold
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1600,7 +2034,7 @@
   - shape (form-fit): link shoulders, notches or interlocking teeth lock the links into a column, and the sprocket teeth mesh with the link rollers
   - not a holding joint (it moves or passes on motion): it drives a load; its position is held by the motor or brake
 - **input_output**: Sprocket rotation -> straight push and pull. Speed: about 17-27 mm/s for a window opener (TOPP ACK4), up to 200 mm/s for Serapid ChainLift columns, and up to 1000 mm/s for Tsubaki zip chains. Thrust: 300 N for a typical window opener (TOPP ACK4); 400-2000 N rated for Tsubaki's standard Zip Chain Actuators (up to 38.2 kN in larger sizes); lifting columns over 10 tonnes (Wikipedia). Shaft arrangement: crossed (the drive shaft lies across the chain's line of travel, as in a rack and pinion). Rough efficiency: not stated in the makers' pages found ⚑ [uncertain]. Back-drivable: in principle yes, like a rack and pinion, unless the gearmotor or a brake holds it ⚑ [uncertain]. *(⚑ parts need confirming)*
-- **power**: powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors ⚑ [uncertain whether every model holds against a strong wind or push when unpowered] *(⚑ parts need confirming)*
+- **power**: powered in practice (usually an electric motor; the chain mechanism itself is passive). If power is lost it stays where it is when the gearmotor or brake holds it (Tsubaki holds loads with a brake motor); window openers are driven by 24 V DC or 230 V gearmotors and are rated to hold well above their pushing force when stopped (Giesse Varia Slim Small: 200 N push, 1000 N static holding force; WindowMaster WMU 883: 1000 N push, 5000 N locking force)
 - **removability**: removable: the housing bolts to the frame and the chain's end fitting bolts or pins to the moving part (window sash, platform or carriage)
 - **reuse_cycles**: many times: it is fitted once but runs for many cycles (Tsubaki expects about 4000 km of travel); brackets can be unbolted and refitted
 - **tools_needed**: Screwdriver, hex keys and spanners for the brackets; electrical tools for wiring the motor supply and switches; grease for industrial chains. Printed demo chains: none (pins and clips press in).
@@ -1692,12 +2126,14 @@
   - https://www.thingiverse.com/thing:2362604
   - https://help.prusa3d.com/article/pla_2062
   - https://api.printables.com/graphql/
+  - https://products.tyman-international.com/pub/media/scambio/GIESSE/SCHEDA_TECNICA/EN/FAC_VARIA_SLIM_SMALL.pdf
+  - https://www.specifiedby.com/windowmaster/chain-actuator-600n-1a/Windowmaster_600N-1A_Technical_Datasheet.pdf
 
 ### Finder tags
 
 - **connects**: not applicable
-- **power_source**: electricity ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain whether every model holds aga…"*
-- **power_loss**: keeps its last state ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…rake motor); window openers are driven by 24 V DC or 230 V gearmotors [uncertain whether every model holds aga…"*
+- **power_source**: electricity
+- **power_loss**: keeps its last state
 - **motion_in**: steady turning
 - **motion_out**: straight push or pull
 - **shaft_layout**: not applicable
@@ -1709,10 +2145,53 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: pushed by a screw, chain or crank
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: long travel or pulling
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** input_output, make_it_yourself, power
+- ⚑ **Fields with parts that need confirming:** input_output, make_it_yourself
 
 ## 265 Linear guides (bushings on rods, wheels or carriages on rails)
 
@@ -1816,6 +2295,7 @@
   - Aluminium-extrusion connectors (T-slot nuts and brackets): the same V-slot and T-slot bars used as the frame
   - Multi-stage slide rigging: string or belt systems that extend several linear slides at once
   - Plain pivot and rolling bearing: the rotating counterpart of a linear guide
+  - Linked lead screws (Z sync belt): several lead screws tied together and turned by one motor so a bed or gantry lifts level; they are weak against side loads, which need linear guides
 
 ### Pictures, videos and models
 
@@ -1881,6 +2361,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: carriage on a rail
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, carbon fibre or composites
 
 ### Other info
 

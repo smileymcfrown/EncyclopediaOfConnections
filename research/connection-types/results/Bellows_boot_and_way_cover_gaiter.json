@@ -41,7 +41,7 @@
     "power": "passive (no power needed)",
     "removability": "removable: hose-clamped collars, screwed flanges and Velcro come undone easily (Joyce/Dayton). A one-piece boot normally has to be slid off the end of the rod or shaft, so it may mean taking the machine apart; zippered bellows avoid this (Joyce/Dayton)",
     "reuse_cycles": "many times: clamps and flanges can be undone and refitted many times; the bellows itself flexes through very many cycles until the material cracks, wears or ages, which happens faster in harsh conditions (Dynatect FAQ)",
-    "tools_needed": "a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are usually fitted with the driveshaft removed and secured with special boot clamps [uncertain: not checked in an opened source]",
+    "tools_needed": "a screwdriver or nut driver for hose clamps and flange screws; often none for Velcro, zips or magnets (Joyce/Dayton; Printables). Car CV boots are fitted with the drive shaft taken out of the car, and their boot clamps are closed with special pliers (Saab WIS, 9-4X drive shaft boot replacement)",
     "seal": "dust-resistant to watertight, depending on construction: sewn fabric bellows have stitch holes and vented bellows let air through, so they keep out dust and chips; 'sealed' constructions (seamless molded rubber, or seams joined by heat or vulcanising) also keep out liquids (Dynatect FAQ; Joyce/Dayton). A printed TPU gaiter was watertight in its maker's test (Gt6k, Printables). It is not a pressure seal, since it normally has to breathe as it moves",
     "load": "light: it is a cover, not a structural part, and carries no load. Long or horizontal bellows must be supported by stiffener guides or by grommets on a guide wire, or they sag onto the part they protect (Joyce/Dayton; Dynatect crane case study), and a build-up of chips can push a cover right off its rails (Dynatect)",
     "adjustable": "no: its length simply follows the movement; the collar position and clamps can be moved when fitting",
@@ -190,11 +190,11 @@
       "https://www.printables.com/model/1610336-adjustable-gear-stick-cover-adjustable-bellow",
       "https://commons.wikimedia.org/wiki/File:2008-04-23_Cracked_CV_boot.jpg",
       "https://commons.wikimedia.org/wiki/File:Fahrzeugtechnik_Vorderachse.jpg",
-      "https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg"
+      "https://commons.wikimedia.org/wiki/File:Faltenbalg_ICE3_innen.jpg",
+      "https://saabwisonline.com/9-4x/2011/4-transmission/drive-shafts/adjustment-replacement/front-wheel-drive-shaft-outer-joint-and-boot-replacement"
     ]
   },
   "uncertain": [
-    "degrees_of_freedom",
-    "tools_needed"
+    "degrees_of_freedom"
   ]
 }

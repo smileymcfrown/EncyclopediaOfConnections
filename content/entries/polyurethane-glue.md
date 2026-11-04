@@ -90,18 +90,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first
-      [uncertain].…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first
-      [uncertain].…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, glass or mirror]
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [materials, processes, environment_limits, safety_notes]
+uncertain_fields: [processes, environment_limits, safety_notes]
 diagram_idea: 'Two side-by-side cut-aways of a glued joint: on the left, a tight clamped joint where a thin glue film has
   been pushed into the wood pores (strong); on the right, a gappy joint filled with bubbly foam (weak), with small arrows
   showing water from a damp cloth and the air entering the glue and CO2 bubbles coming out.'
@@ -255,7 +249,7 @@ Don't use it to fill gaps or rescue loose joints: the foam has almost no strengt
 - **Sealing:** none: it is a glue, not a sealant, and its foam is full of bubbles. Polyurethane sealants in caulk tubes are a separate product made for sealing gaps against air and water (Wikipedia 'List of polyurethane applications').
 - **Adjustable:** no, but it gives time to line parts up: about 15-30 minutes of [open time](../glossary.md#open-time) before assembly (Woodcraft), and 25-30 minutes at 70 °F and 50% humidity for Titebond's version (Titebond data sheet). Once it has foamed and cured, nothing can be adjusted.
 - **Access needed:** not applicable: glue goes on the faces before assembly, but you need to reach both sides to clamp the joint while it foams and cures
-- **Materials:** Bonds well: wood (including wet or oily wood and end grain), stone, concrete, brick, ceramic, metal, glass, rigid foams including polystyrene insulation board, fibreglass, rigid PVC, and many other plastics and composites (Gorilla Glue; Woodcraft: 'best for wet wood and bonding wood to non wood'; Wikipedia 'Wood glue'; Henkel PL Premium specification; Titebond data sheet: 'most plastics'). For 3D prints, a polyurethane construction adhesive was the overall winner on PETG in Cosel's pull test (Hackaday). Poor or not recommended: polyethylene (PE), polypropylene (PP), PTFE, flexible (soft) PVC, and rubber with a lot of oil or plasticiser (Gorilla Glue FAQ; Henkel PL Premium specification). Glass is claimed by makers, but test first ⚑ [uncertain].
+- **Materials:** Bonds well: wood (including wet or oily wood and end grain), stone, concrete, brick, ceramic, metal, glass, rigid foams including polystyrene insulation board, fibreglass, rigid PVC, and many other plastics and composites (Gorilla Glue; Woodcraft: 'best for wet wood and bonding wood to non wood'; Wikipedia 'Wood glue'; Henkel PL Premium specification; Titebond data sheet: 'most plastics'). For 3D prints, a polyurethane construction adhesive was the overall winner on PETG in Cosel's pull test (Hackaday). Poor or not recommended: polyethylene (PE), polypropylene (PP), PTFE, flexible (soft) PVC, and rubber with a lot of oil or plasticiser (Gorilla Glue FAQ; Henkel PL Premium specification). For glass, metal and other shiny surfaces, Gorilla says to roughen the surface first (Gorilla Glue).
 - **Heat, cold, water and wear:** Heat: service temperature -40 °F to 200 °F (-40 °C to 93 °C) for Gorilla Glue, and -40 °F to 160 °F (-40 °C to 71 °C) for PL Premium construction adhesive (Gorilla Glue; Henkel PL Premium specification); Titebond keeps about 3,000 psi after a night at 150 °F (66 °C) (Titebond data sheet); polyurethanes 'typically degrade in strength after long-term exposure over 302 °F (150 °C)' (Loctite design guide). Cold: apply above 40-50 °F (4-10 °C); cold weather and dry air slow the cure a lot (Gorilla Glue; Titebond data sheet; Henkel PL Premium specification). Water: passes ANSI/HPVA Type I and II water-resistance tests and is fine outdoors (Titebond data sheet; Gorilla Glue), but it is not for constant immersion, marine use or below the waterline (Titebond data sheet; Henkel PL Premium specification), and in water-soaking tests polyurethane bonds were 'much less durable' than resorcinol bonds (Wikipedia 'Wood glue'). Sunlight (UV): no clear data found ⚑ [uncertain]. Storage: moisture that gets into the bottle cures the glue, so it keeps about a year (Gorilla Glue; Titebond data sheet).
 
 ## Making it
@@ -327,9 +321,7 @@ It contains isocyanates, which irritate the eyes and skin and can sensitise the 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 4 sentences on this page marked [uncertain].
-- ⚑ Finder value `bonds_well` = PETG, PVC, wood, metal, glass or ceramic, foam, stone or concrete (source uncertain): `materials` is marked ⚑ [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first ⚑ [uncertain].…"
-- ⚑ Finder value `bonds_poorly` = slippery plastics (PE or PP), rubber (source uncertain): `materials` is marked ⚑ [uncertain] here: "…PL Premium specification). Glass is claimed by makers, but test first ⚑ [uncertain].…"
+- ⚑ 3 sentences on this page marked [uncertain].
 
 ## Sources
 

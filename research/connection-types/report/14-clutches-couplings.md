@@ -151,6 +151,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: a little out of line
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -305,6 +348,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: a little out of line
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: passes the turning on
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -354,7 +440,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: loosen the set screws or clamp screws with a hex key and slide it off the shafts
 - **reuse_cycles**: many times: it can be refitted repeatedly; set screws that dig into a round shaft can leave marks or raised burrs that make the next fitting harder ⚑ [uncertain], which clamp-type hubs avoid (McMaster-Carr) *(⚑ parts need confirming)*
-- **tools_needed**: A hex key (the common 5 x 8 mm aluminium coupler uses a 2 mm hex key for its set screws, per Adafruit). Optional thread-locking compound on set screws ⚑ [uncertain]. Printed versions need nuts, set screws or heat-set inserts (and a soldering iron to fit inserts). *(⚑ parts need confirming)*
+- **tools_needed**: A hex key (the common 5 x 8 mm aluminium coupler uses a 2 mm hex key for its set screws, per Adafruit). Medium-strength thread-locking compound on the set screws stops them shaking loose on rotating parts; leave it off if you will adjust them often (Albany County Fasteners 'Set Screw Application Guide'). Printed versions need nuts, set screws or heat-set inserts (and a soldering iron to fit inserts).
 - **seal**: none: the slot is open; it does not seal anything
 - **load**: Light to medium: made for motion-control jobs (steppers, servos, encoders, leadscrews), not heavy power. Catalogue torque ratings run from about 0.14 N·m to about 63 N·m (1.2-556 in·lb) across MW Components' ranges, and 3-175 in·lbf (0.34-20 N·m) on McMaster-Carr's listing. Strong and stiff in twist within its rating; deliberately soft in bending and along its length; the thin spiral beam is the weak point, and it cracks from fatigue if overloaded by torque spikes, reversing loads or too much misalignment (especially sideways offset for single-beam types).
 - **adjustable**: no: once tightened nothing adjusts; you can only choose where along the shafts it sits before tightening the screws
@@ -453,6 +539,7 @@
   - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
+  - https://www.albanycountyfasteners.com/media/4c/d6/45/1764616278/set-screw-application-guide.pdf
 
 ### Finder tags
 
@@ -464,16 +551,59 @@
 - **shaft_layout**: in line
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: soldering iron, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…screws, per Adafruit). Optional thread-locking compound on set screws [uncertain]. Printed versions need nuts,…"*
+- **tools**: soldering iron, hand tools
 - **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: a little out of line
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: straight line or spring
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, make_it_yourself, making_tips_3d_printing, processes, reuse_cycles, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, make_it_yourself, making_tips_3d_printing, processes, reuse_cycles, safety_notes
 
 ## 80 Universal joint (Hooke's joint, Cardan joint)
 
@@ -517,7 +647,7 @@
 - **power**: passive (no power needed)
 - **removability**: removable: small joints fix to shafts with set screws, clamps, cross pins or keys and come off with a hex key or pin punch; car joints are held by clips in their forks and are usually pressed out and replaced as a unit ⚑ [uncertain] *(⚑ parts need confirming)*
 - **reuse_cycles**: many times: the shaft fixings can be undone and redone repeatedly; the joint itself is a wearing part that runs until its bearings wear out (vehicle joints are typically rated for about 3,000 hours, per The Ranger Station)
-- **tools_needed**: Hex key for set screws or clamp hubs; pin punch for roll pins; a grease gun for greaseable joints (The Ranger Station); snap-ring pliers and a vice or press to replace a car's cross-and-bearing joint ⚑ [uncertain]. Printed joints need small metal pins, screws or wire, and sometimes ball bearings. *(⚑ parts need confirming)*
+- **tools_needed**: Hex key for set screws or clamp hubs; pin punch for roll pins; a grease gun for greaseable joints (The Ranger Station); snap-ring pliers, a bench vice, sockets and a hammer to replace a car's cross-and-bearing joint, or a press to make it easier (MGAguru 'Universal Joint Replacement Sequence'; Grainews 'How to install U-joints'). Printed joints need small metal pins, screws or wire, and sometimes ball bearings.
 - **seal**: none for plain joints; dust-resistant when fitted with a rubber boot or sealed bearings: boots on pin-and-block joints keep lubricant in and dirt out (Wakefield Thermal), and sealed needle-bearing joints are sold (McMaster-Carr)
 - **load**: Medium to heavy: strong in twist (they carry the full engine torque in car driveshafts and tractor power take-off shafts, and McMaster-Carr lists joints rated from under 1,000 in·lbf (113 N·m) up to over 30,000 in·lbf (about 3,400 N·m)). Capacity and life fall as the angle, speed or load rises: each doubling of angle, speed or load roughly halves the joint's life (The Ranger Station). The pins and their bearings are the weak points. The joint does not support the shafts, so each shaft needs its own bearings ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **adjustable**: no settings to adjust, but the angle is free to change while it runs; with two joints and a sliding (splined or telescoping) middle shaft it also accepts changes in length and sideways offset (Wikipedia 'Drive shaft'; Wakefield Thermal)
@@ -611,6 +741,8 @@
   - https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/
   - https://help.prusa3d.com/article/pla_2062
   - https://help.prusa3d.com/article/petg_2059
+  - https://www.mgaguru.com/mgtech/propshaft/ps202.htm
+  - https://www.grainews.ca/machinery/how-to-install-u-joints
 
 ### Finder tags
 
@@ -622,16 +754,59 @@
 - **shaft_layout**: at an angle
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…pliers and a vice or press to replace a car's cross-and-bearing joint [uncertain]. Printed joints need small m…"*
+- **tools**: press or vice, hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: at an angle or a bent path
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: swivel or tilt
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, input_output, load, making_tips_3d_printing, play_and_precision, processes, removability, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** common_failures, input_output, load, making_tips_3d_printing, play_and_precision, processes, removability, safety_notes
 
 ## 81 Dog clutch (claw clutch)
 
@@ -733,6 +908,7 @@
   - Centrifugal clutch: engages automatically as speed rises
   - Spline shaft (sliding spline) and hex shaft: the shaft the sliding half of a dog clutch runs on
   - Half nut (split nut): another positive, lever-operated engagement, used to connect a lathe carriage to its leadscrew
+  - Bevel splitter and counter-rotating drive: a dog clutch sliding between two loose bevel gears that turn opposite ways picks forward or reverse
 
 ### Pictures, videos and models
 
@@ -796,6 +972,49 @@
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: exactly in line
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -966,6 +1185,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft
+- **printable**: yes, no
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -1012,10 +1274,10 @@
   - spring force (a spring or springy part presses it in place): all the force between gearbox and joint passes through the spring
   - not a holding joint (it moves or passes on motion): it is a drive that passes on and measures force
 - **input_output**: Rotation -> rotation for rotary SEAs; rotation -> straight push-pull for linear SEAs using a ball screw with springs on either side of the nut (Hurst & Green; MIT-SEA). The spring stage itself is 1:1 on average, in line; the gearing before it sets the ratio (Pratt & Williamson used a 66:1 planetary gearbox; OpenSEA a 3:1 helical planetary; Lee & Oh a 2:1 timing belt). The output lags or leads the gearbox by the spring's deflection. Efficiency: a steel spring gives back almost all the energy it stores ⚑ [uncertain: no figure found]; rubber and other elastomers lose some to hysteresis (Hurst & Green). Back-drivable: yes, within the spring's travel, even if the gearbox is locked; beyond that, only if the gearbox itself is back-drivable. With control, it can be made to feel softer or stiffer than the real spring (Pratt & Williamson). *(⚑ parts need confirming)*
-- **power**: powered: needs a motor and, for force control, sensors and a controller. The spring coupling itself is passive. If power is lost, the joint behaves like the bare gearbox plus the spring: a self-locking gearbox holds with springy give, a back-drivable one lets the joint sag ⚑ [uncertain] *(⚑ parts need confirming)*
+- **power**: powered: needs a motor and, for force control, sensors and a controller. The spring coupling itself is passive. If power is lost, the joint behaves like the bare gearbox plus the spring: a self-locking gearbox holds with springy give (a worm drive holds static loads with no motor power, Milazzo et al. 2024), a back-drivable one lets the joint sag
 - **removability**: removable: built from bolted parts, bearings and swappable springs
 - **reuse_cycles**: many times: it can be dismantled to change the spring or service the gearbox; the limit is spring fatigue and gear wear ⚑ [uncertain] *(⚑ parts need confirming)*
-- **tools_needed**: Hex keys and screwdrivers for assembly, a soldering iron for sensor wiring, and known weights or a torque gauge to calibrate the spring's stiffness ⚑ [uncertain: general practice] *(⚑ parts need confirming)*
+- **tools_needed**: Hex keys and screwdrivers for assembly, a soldering iron for sensor wiring, and known weights or a torque gauge to calibrate the spring's stiffness (Koda et al. 2024 hung weights on a locked SEA to measure its spring constant)
 - **seal**: none: the actuator described in the sources is open; seal it with a housing if needed
 - **load**: Light to heavy depending on the design. Hobby and 3D-printed versions carry a few newton-metres (OpenSEA: designed for about ±3 N·m through the spring, with up to 12.36 N·m from its gearbox; a stroke-rehabilitation elbow needs about 3 N·m). A linear electric SEA in one design study carried 450 N (IntechOpen chapter). Hydraulic SEAs give about 100 times the power density of electric ones and suit heavy legged robots (IntechOpen). Strong in the drive direction up to the spring's safe deflection; beyond it the spring yields or hits end stops (Pratt & Williamson list the spring's yield point as a limit). Side loads should be carried by bearings, not by the spring ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **adjustable**: The physical stiffness is fixed by the spring fitted, but springs can be swapped (a hackaday.io printed leg uses swappable springs) or changed on the fly in a variable-stiffness actuator; the controller can make the joint behave softer or stiffer than the spring (Pratt & Williamson). String versions adjust pre-tension with a screw (Printables tendon tensioner).
@@ -1097,27 +1359,72 @@
   - https://commons.wikimedia.org/wiki/File:Variable_Impedance_Actuator.jpg
   - https://tamiyamodel.com/how-does-a-servo-saver-work/
   - https://help.prusa3d.com/article/pla_2062
+  - https://arxiv.org/pdf/2412.03985
+  - https://arxiv.org/pdf/2409.15791
 
 ### Finder tags
 
 - **connects**: shaft ⚑ *needs confirming (best guess): worked out from its name, but joining parts is not one of its two main jobs*
-- **power_source**: electricity ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…arbox holds with springy give, a back-drivable one lets the joint sag [uncertain]…"*
+- **power_source**: electricity
 - **power_loss**: not applicable ⚑ *needs confirming (best guess): `power` mentions losing power, but none of the three outcomes*
 - **motion_in**: steady turning
 - **motion_out**: steady turning
 - **shaft_layout**: in line
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: soldering iron, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…d known weights or a torque gauge to calibrate the spring's stiffness [uncertain: general practice]…"*
+- **tools**: soldering iron, hand tools
 - **load_max**: heavy
 - **usual_process**: 3D print (FDM)
 - **adjustable**: partly
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: part of a turn
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, load, make_it_yourself, making_tips_3d_printing, power, processes, related, reuse_cycles, safety_notes, tools_needed, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, input_output, load, make_it_yourself, making_tips_3d_printing, processes, related, reuse_cycles, safety_notes, when_not_to_use
 
 ## 145 Centrifugal clutch
 
@@ -1263,6 +1570,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: brake or engage
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -1451,6 +1801,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft
+- **printable**: yes, no
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: carriage on a rail
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1622,6 +2015,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: passes the turning on
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1784,6 +2220,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1945,6 +2424,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft
+- **printable**: no
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -2087,6 +2609,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: a little out of line
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -2185,6 +2750,7 @@
   - Flexible beam coupling and jaw coupling: handle only small misalignment between nearly in-line shafts
   - Capstan cable drive (tendon drive): cables over pulleys that pull rather than spin
   - Remote motor with wires: often simpler today, as with electronic speedometer sensors replacing cables (Hackaday)
+  - Line shaft and power take-off: one driven shaft feeding several machines through belts or chains; a flexible shaft can take power from one take-off to a hand tool
 
 ### Pictures, videos and models
 
@@ -2230,7 +2796,7 @@
 - **power_loss**: not applicable
 - **motion_in**: steady turning
 - **motion_out**: steady turning
-- **shaft_layout**: at an angle, in line
+- **shaft_layout**: at an angle, in line, far apart ⚑ *needs confirming (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts*
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **tools**: power tools, hand tools
@@ -2239,6 +2805,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: at an angle or a bent path
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: passes the turning on
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: full turns
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -2424,6 +3033,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: part onto a shaft, shaft to shaft
+- **printable**: yes, no
+- **shaft_alignment**: exactly in line
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2584,6 +3236,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: shaft to shaft
+- **printable**: not applicable
+- **shaft_alignment**: at an angle or a bent path
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 

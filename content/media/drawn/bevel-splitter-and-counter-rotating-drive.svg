@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A bevel splitter seen from the side: a 16-tooth bevel gear on a vertical input shaft meshes with two 32-tooth bevel gears that face each other on one horizontal line, so the two output shafts turn in opposite directions at half the input speed; a small inset shows the coaxial version, where one gear drives a rod running through a tube driven by the other, and the two propellers on their ends spin opposite ways.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<rect x="30" y="244" width="184.1" height="22" fill="#e8e8e8"/>
+<rect x="365.9" y="244" width="179.1" height="22" fill="#e8e8e8"/>
+<rect x="279" y="22" width="22" height="101.2" fill="#e8e8e8"/>
+<rect x="73" y="231" width="44" height="48" rx="4" fill="#e8e8e8"/>
+<rect x="448" y="231" width="44" height="48" rx="4" fill="#e8e8e8"/>
+<rect x="266" y="76" width="48" height="36" rx="4" fill="#e8e8e8"/>
+<polygon points="234.1,143.2 214.1,163.2 214.1,346.8 234.1,366.8" fill="#cfe3f5"/><polygon points="234.1,143.2 252.9,180.8 252.9,329.2 234.1,366.8" fill="#cfe3f5"/>
+<polygon points="345.9,143.2 365.9,163.2 365.9,346.8 345.9,366.8" fill="#cfe3f5"/><polygon points="345.9,143.2 327.1,180.8 327.1,329.2 345.9,366.8" fill="#cfe3f5"/>
+<polygon points="234.1,143.2 254.1,123.2 325.9,123.2 345.9,143.2" fill="#fde2c4"/><polygon points="234.1,143.2 252.9,180.8 327.1,180.8 345.9,143.2" fill="#fde2c4"/>
+<path d="M234,143 L253,181M234,143 L253,181M234,145 L253,182M234,152 L253,186M234,162 L253,193M234,176 L253,203M234,193 L253,214M234,212 L253,227M234,233 L253,241M234,255 L253,255M234,277 L253,269M234,298 L253,283M234,317 L253,296M234,334 L253,307M234,348 L253,317M234,358 L253,324M234,365 L253,328M234,367 L253,329" fill="none" stroke-width="3.5" stroke="#6f98bd" stroke-linecap="butt"></path><polygon points="234.1,143.2 252.9,180.8 252.9,329.2 234.1,366.8" fill="none"/>
+<path d="M346,367 L327,329M346,367 L327,329M346,365 L327,328M346,358 L327,324M346,348 L327,317M346,334 L327,307M346,317 L327,296M346,298 L327,283M346,277 L327,269M346,255 L327,255M346,233 L327,241M346,212 L327,227M346,193 L327,214M346,176 L327,203M346,162 L327,193M346,152 L327,186M346,145 L327,182M346,143 L327,181" fill="none" stroke-width="3.5" stroke="#6f98bd" stroke-linecap="butt"></path><polygon points="345.9,143.2 327.1,180.8 327.1,329.2 345.9,366.8" fill="none"/>
+<path d="M234,143 L253,181M234,143 L253,181M238,143 L256,181M250,143 L264,181M269,143 L276,181M290,143 L290,181M311,143 L304,181M330,143 L316,181M342,143 L324,181M346,143 L327,181" fill="none" stroke-width="3.5" stroke="#c98a4b" stroke-linecap="butt"></path><polygon points="234.1,143.2 252.9,180.8 327.1,180.8 345.9,143.2" fill="none"/>
+<g stroke="#888" stroke-width="2" stroke-dasharray="7 6" fill="none"><path d="M234.1,143.2 L290,255 L345.9,143.2"/></g>
+<circle cx="290" cy="255" r="5" fill="#222"/>
+<rect x="560" y="70" width="228" height="296" rx="10" fill="#ffffff" stroke="#999" stroke-width="2"/>
+<rect x="569.6" y="246" width="182.4" height="8" fill="#cfe3f5" stroke-width="2.5"/>
+<rect x="634.4" y="240" width="65.6" height="20" fill="#d8f0d2" stroke-width="2.5"/>
+<rect x="598" y="150" width="12" height="47.3" fill="#e8e8e8" stroke-width="2.5"/>
+<g stroke-width="2.5"><polygon points="581.6,205.3 573.6,213.3 573.6,286.7 581.6,294.7" fill="#cfe3f5"/><polygon points="581.6,205.3 589.7,221.4 589.7,278.6 581.6,294.7" fill="#cfe3f5"/><polygon points="626.4,205.3 634.4,213.3 634.4,286.7 626.4,294.7" fill="#d8f0d2"/><polygon points="626.4,205.3 618.3,221.4 618.3,278.6 626.4,294.7" fill="#d8f0d2"/><polygon points="581.6,205.3 589.6,197.3 618.4,197.3 626.4,205.3" fill="#fde2c4"/><polygon points="581.6,205.3 589.7,221.4 618.3,221.4 626.4,205.3" fill="#fde2c4"/><path d="M582,205 L590,221M582,205 L590,221M582,206 L590,222M582,209 L590,224M582,213 L590,226M582,218 L590,230M582,225 L590,234M582,233 L590,239M582,241 L590,244M582,250 L590,250M582,259 L590,256M582,267 L590,261M582,275 L590,266M582,282 L590,270M582,287 L590,274M582,291 L590,276M582,294 L590,278M582,295 L590,279" fill="none" stroke-width="3.5" stroke="#6f98bd" stroke-linecap="butt"></path><polygon points="581.6,205.3 589.7,221.4 589.7,278.6 581.6,294.7" fill="none"/><path d="M626,295 L618,279M626,295 L618,279M626,294 L618,278M626,291 L618,276M626,287 L618,274M626,282 L618,270M626,275 L618,266M626,267 L618,261M626,259 L618,256M626,250 L618,250M626,241 L618,244M626,233 L618,239M626,225 L618,234M626,218 L618,230M626,213 L618,226M626,209 L618,224M626,206 L618,222M626,205 L618,221" fill="none" stroke-width="3.5" stroke="#7fae74" stroke-linecap="butt"></path><polygon points="626.4,205.3 618.3,221.4 618.3,278.6 626.4,294.7" fill="none"/><path d="M582,205 L590,221M582,205 L590,221M583,205 L591,221M588,205 L594,221M595,205 L599,221M604,205 L604,221M613,205 L609,221M620,205 L614,221M625,205 L617,221M626,205 L618,221" fill="none" stroke-width="3.5" stroke="#c98a4b" stroke-linecap="butt"></path><polygon points="581.6,205.3 589.7,221.4 618.3,221.4 626.4,205.3" fill="none"/></g>
+<g transform="translate(700,250) scale(0.42,1)"><g><path d="M0,0 C14,-13.799999999999999 10,-36.800000000000004 0,-46 C-8,-36.800000000000004 -16,-13.799999999999999 0,0 C16,13.799999999999999 8,36.800000000000004 0,46 C-10,36.800000000000004 -14,13.799999999999999 0,0 Z" fill="#d8f0d2" stroke-width="2.5"/></g></g><circle cx="700" cy="250" r="6" fill="#e8e8e8" stroke-width="2.5"/>
+<g transform="translate(752,250) scale(0.42,1)"><g><path d="M0,0 C14,-12.6 10,-33.6 0,-42 C-8,-33.6 -16,-12.6 0,0 C16,12.6 8,33.6 0,42 C-10,33.6 -14,12.6 0,0 Z" fill="#cfe3f5" stroke-width="2.5"/></g></g><circle cx="752" cy="250" r="6" fill="#e8e8e8" stroke-width="2.5"/>
+</g>
+<g stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)">
+<path d="M150,215 A16,40 0 0 1 150,295"/>
+<path d="M420,295 A16,40 0 0 0 420,215"/>
+<path d="M248,50 A42,13 0 0 0 332,50"/>
+<path d="M716,240 A9,24 0 0 0 716,194" stroke-width="3.5"/>
+<path d="M766,194 A9,24 0 0 1 766,240" stroke-width="3.5"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222" text-anchor="middle">
+<text x="348" y="40" text-anchor="start">input</text>
+<text x="360" y="132" text-anchor="start">16-tooth bevel gear</text>
+<text x="120" y="330">32-tooth gear:</text><text x="120" y="352">turns one way</text>
+<text x="460" y="330">32-tooth gear:</text><text x="460" y="352">turns the other way</text>
+<text x="674" y="98" font-size="18" font-weight="bold">Rod inside a tube</text>
+<text x="674" y="330" font-size="17">two propellers spin</text><text x="674" y="350" font-size="17">opposite ways</text>
+<text x="400" y="400" font-size="17">Two identical gears facing each other across one pinion always turn opposite ways,</text>
+<text x="400" y="421" font-size="17">at half the input speed here (16 teeth driving 32)</text>
+</g>
+</svg>

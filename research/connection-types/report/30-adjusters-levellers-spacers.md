@@ -150,6 +150,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: set and hold, fine-tune a tilt
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -159,7 +202,7 @@
 
 *adjusters, levellers & spacers.* Thin packing pieces, washers or tubes put between parts to fill a gap, set a height or spacing, or lift a circuit board clear of a surface; the simplest way to adjust a fit
 
-*Also covers:* Baseline entry for the family. Also covers shim stock and peel shims, spacer washers, threaded standoffs for circuit boards and panels, and printed spacers. Tapered shims and folding wedges stay in Self-locking wedge.
+*Also covers:* Baseline entry for the family. Also covers shim stock and peel shims, spacer washers, threaded standoffs for circuit boards and panels, and printed spacers. Tapered shims and folding wedges stay in Self-locking wedge. Also covers the difference between decorative sign standoffs and circuit-board standoffs.
 
 ### What it is
 
@@ -239,7 +282,7 @@
   - thin shims behind a door hinge to stop the door rubbing (Printables 146015 'Door Hinge Shim Set')
   - a shim under a bolt-on guitar neck, or under the nut or saddle, to change string height (Wikipedia 'Shim (spacer)')
 - **when_to_use**: Whenever something is slightly too low, too loose, not level or out of line and the parts are (or can be) clamped together: under machine and motor feet, behind hinges and brackets, under furniture legs, in a bearing housing to set end float, or between a gear and a housing. Use spacers or spacer washers to hold two parts a fixed distance apart on a bolt, e.g. a pulley clear of a frame. Use standoffs to mount circuit boards, displays and panels clear of a case or plate, to stack boards, and (in nylon) to insulate them. It is the cheapest, simplest adjustment there is and needs no design changes.
-- **when_not_to_use**: When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge (Self-locking wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, kinematic coupling, exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block.
+- **when_not_to_use**: When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge (Self-locking wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, kinematic coupling, exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block. For a sign or glass panel held off a wall with a decorative cap on the front, use a panel standoff (sign standoff), a different part from a circuit-board standoff (4over4).
 - **environment_limits**: Carbon-steel shims rust, and rust under a foot changes the height ('dirt is a shim'), so stainless shims are preferred (Acoem; LUDECA). Plastic-film peel shims work from about -70 °C to +220 °C (polyester) and above 400 °C (polyimide) (Jicey). Printed spacers soften from about 60 °C (PLA), 80 °C (PETG) or 110 °C (ASA) under load (CNC Kitchen) and creep under a constant clamp load, so bolts through them can loosen over time (Thrinter). Paper, card and wood shims compress and swell or shrink with damp ⚑ [uncertain: no opened source]. Vibration can walk loose shims out if they are not clamped ⚑ [uncertain]. *(⚑ parts need confirming)*
 - **safety_notes**: Thin metal shims and cut shim stock have sharp edges and corners: handle with gloves and deburr cut edges (Acoem; LUDECA recommends burr-free, rounded-corner shims). Lock out (switch off and isolate) a machine before putting your hands under its feet (LUDECA). Metal standoffs fitted where there is no board hole can short-circuit a circuit board (ASRock), and metal standoffs and washers connect the board's mounting holes to the case, so use nylon ones where the board must stay insulated (Wikipedia 'Spacers and standoffs').
 - **common_failures**: (1) Too many thin shims make a springy stack that lets the part rock or move when bolts are tightened (soft foot): use three or four at most (LUDECA; Acoem). (2) Dirt, paint or rust under the shim changes the height: clean first (Acoem). (3) Trusting the stamped thickness: measure the stack (Acoem). (4) A shim bent by the bolt threads: pull it back slightly from the bolt (Acoem). (5) Soft shims (paper, card, wood, PLA) crush or creep and the part sinks or the bolt loosens: use metal or a stiffer plastic. (6) A shim that only touches part of the foot leaves it rocking (angular soft foot); a single shim cut to fit the wedge-shaped gap is better than a stair-step of shims (Acoem). (7) An extra or misplaced metal standoff shorts a circuit board (ASRock). (8) Wrong standoff thread or length (e.g. M3 instead of M2.5, or too short for the connector headers between stacked boards) (Pololu).
@@ -255,6 +298,8 @@
   - Gasket (flat, cord-in-groove or cast-in-place): looks like a washer or shim but is made to seal
   - Heat-set threaded insert: gives a 3D-printed part metal threads for standoff screws
   - Exact-constraint mounting (3-2-1 locating) and Locating pins and hole-and-slot: locate parts exactly by design rather than by shimming
+  - Compression limiter (crush tube): a metal sleeve in a bolt hole that takes the clamping force so a soft or printed part isn't crushed; it protects the part rather than setting a gap
+  - Panel standoff (sign standoff): a threaded barrel and screw-on cap that clamp a drilled acrylic, glass or metal sign a set distance off a wall; 'A spacer and a standoff are not the same part, and the difference is the thread' (4over4)
 
 ### Pictures, videos and models
 
@@ -289,6 +334,7 @@
   - https://commons.wikimedia.org/wiki/File:Three_types_of_standoffs.jpg
   - https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png
   - https://api.printables.com/graphql/
+  - https://www.4over4.com/guide/what-is-a-standoff-screw-how-standoff-signage-works
 
 ### Finder tags
 
@@ -306,6 +352,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: set and hold
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, carbon fibre or composites
 
 ### Other info
 
@@ -463,6 +552,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: set and hold, fine-tune a tilt
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, glass or mirror
 
 ### Other info
 
@@ -619,6 +751,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: set and hold
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -781,6 +956,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: set and hold, fine-tune a tilt
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 

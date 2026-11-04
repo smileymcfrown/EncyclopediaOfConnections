@@ -41,7 +41,7 @@
     "power": "passive (no power needed)",
     "removability": "removable: small joints fix to shafts with set screws, clamps, cross pins or keys and come off with a hex key or pin punch; car joints are held by clips in their forks and are usually pressed out and replaced as a unit [uncertain]",
     "reuse_cycles": "many times: the shaft fixings can be undone and redone repeatedly; the joint itself is a wearing part that runs until its bearings wear out (vehicle joints are typically rated for about 3,000 hours, per The Ranger Station)",
-    "tools_needed": "Hex key for set screws or clamp hubs; pin punch for roll pins; a grease gun for greaseable joints (The Ranger Station); snap-ring pliers and a vice or press to replace a car's cross-and-bearing joint [uncertain]. Printed joints need small metal pins, screws or wire, and sometimes ball bearings.",
+    "tools_needed": "Hex key for set screws or clamp hubs; pin punch for roll pins; a grease gun for greaseable joints (The Ranger Station); snap-ring pliers, a bench vice, sockets and a hammer to replace a car's cross-and-bearing joint, or a press to make it easier (MGAguru 'Universal Joint Replacement Sequence'; Grainews 'How to install U-joints'). Printed joints need small metal pins, screws or wire, and sometimes ball bearings.",
     "seal": "none for plain joints; dust-resistant when fitted with a rubber boot or sealed bearings: boots on pin-and-block joints keep lubricant in and dirt out (Wakefield Thermal), and sealed needle-bearing joints are sold (McMaster-Carr)",
     "load": "Medium to heavy: strong in twist (they carry the full engine torque in car driveshafts and tractor power take-off shafts, and McMaster-Carr lists joints rated from under 1,000 in·lbf (113 N·m) up to over 30,000 in·lbf (about 3,400 N·m)). Capacity and life fall as the angle, speed or load rises: each doubling of angle, speed or load roughly halves the joint's life (The Ranger Station). The pins and their bearings are the weak points. The joint does not support the shafts, so each shaft needs its own bearings [uncertain].",
     "adjustable": "no settings to adjust, but the angle is free to change while it runs; with two joints and a sliding (splined or telescoping) middle shaft it also accepts changes in length and sideways offset (Wikipedia 'Drive shaft'; Wakefield Thermal)",
@@ -182,13 +182,14 @@
       "https://youmagine.com/designs/universal-joint",
       "https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/",
       "https://help.prusa3d.com/article/pla_2062",
-      "https://help.prusa3d.com/article/petg_2059"
+      "https://help.prusa3d.com/article/petg_2059",
+      "https://www.mgaguru.com/mgtech/propshaft/ps202.htm",
+      "https://www.grainews.ca/machinery/how-to-install-u-joints"
     ]
   },
   "uncertain": [
     "input_output",
     "removability",
-    "tools_needed",
     "load",
     "play_and_precision",
     "processes",

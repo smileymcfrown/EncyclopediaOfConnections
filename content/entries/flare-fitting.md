@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [metal]
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -182,7 +184,7 @@ pictures:
   site: Wikimedia Commons
   kind: photo
   drawn: false
-glossary: [misalignment, torque, form-fit--force-fit--material-bond, brittle--ductile, cure, o-ring]
+glossary: [misalignment, torque, form-fit--force-fit--material-bond, brittle--ductile, cure, o-ring, annealing]
 ---
 
 <div class="eoc-pictures">
@@ -275,7 +277,7 @@ Search terms: 'flare nut' or 'tube nut' (state 'inverted flare' or 'bubble flare
 
 ## Safety
 
-SAFETY-CRITICAL SYSTEMS: brake, gas and refrigerant lines must follow their rules. BRAKES: a leaking or badly repaired brake pipe is a major MOT failure, repairs need suitable connectors and ferrule-type compression joints are not allowed (DVSA); use only the flare type and thread the vehicle was built with (AGS Company), bleed the brakes and test them before driving, and if unsure have a qualified mechanic check the work. GAS: in the UK, work on gas fittings in homes and most workplaces must be done by a Gas Safe registered engineer, and 'it's illegal for anyone else to do it'; if you smell gas, turn off the supply and call the emergency number (HSE); elsewhere follow the local fuel gas code and authority (Wikipedia, NFPA 54). REFRIGERANT: in the US, technicians who service equipment that could release refrigerants must be EPA Section 608 certified (EPA); refrigerant systems run at high pressure (R-410A needs fittings rated for high pressure, LibreTexts). STORED PRESSURE: never undo a fitting while the line is under pressure; an undertightened fitting can let the line 'blow out of the assembly' (FAA), and pressurised fluid or gas can spray out. Never hold pressure in a 3D-printed part. BURNS AND CUTS: annealing tube with a torch to a dull red heat brings burn and fire risks (FAA); freshly cut tube ends and burrs are sharp.
+SAFETY-CRITICAL SYSTEMS: brake, gas and refrigerant lines must follow their rules. BRAKES: a leaking or badly repaired brake pipe is a major MOT failure, repairs need suitable connectors and ferrule-type compression joints are not allowed (DVSA); use only the flare type and thread the vehicle was built with (AGS Company), bleed the brakes and test them before driving, and if unsure have a qualified mechanic check the work. GAS: in the UK, work on gas fittings in homes and most workplaces must be done by a Gas Safe registered engineer, and 'it's illegal for anyone else to do it'; if you smell gas, turn off the supply and call the emergency number (HSE); elsewhere follow the local fuel gas code and authority (Wikipedia, NFPA 54). REFRIGERANT: in the US, technicians who service equipment that could release refrigerants must be EPA Section 608 certified (EPA); refrigerant systems run at high pressure (R-410A needs fittings rated for high pressure, LibreTexts). STORED PRESSURE: never undo a fitting while the line is under pressure; an undertightened fitting can let the line 'blow out of the assembly' (FAA), and pressurised fluid or gas can spray out. Never hold pressure in a 3D-printed part. BURNS AND CUTS: [annealing](../glossary.md#annealing) tube with a torch to a dull red heat brings burn and fire risks (FAA); freshly cut tube ends and burrs are sharp.
 
 ## Related
 

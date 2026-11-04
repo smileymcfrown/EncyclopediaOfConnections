@@ -41,7 +41,7 @@
       "spring force (a spring or springy part presses it in place): in the dissolvable-lock version, the TPU spring holds the hinge in its folded position"
     ],
     "input_output": "not applicable as a transmission: a one-off stimulus (hot water at about 70 degrees C, or plain water for PVA locks) -> a planned fold",
-    "power": "powered, but only once: it needs heat (hot water, a heat gun or oven) or water to trigger the fold. After folding it holds its shape with no energy. If taken out of the hot water early it keeps the partial fold it has reached [uncertain]",
+    "power": "powered, but only once: it needs heat (hot water, a heat gun or oven) or water to trigger the fold. After folding it holds its shape with no energy. The fold angle grows with time in the hot water (Pivar and Muck 2020) and the part sets as it cools (Thermorph), so one taken out early keeps the partial fold it has reached",
     "removability": "permanent: once folded it stays folded; PLA versions can be softened with heat and reshaped, but they tend to return to their programmed folded shape when reheated (An et al. 2018)",
     "reuse_cycles": "once: the fold happens one time; PLA shape-memory versions can be deformed and recovered a few times with heat (An et al. 2018), and dissolvable locks must be replaced to reset the spring version [uncertain]",
     "tools_needed": "a pot or tank of hot water and a thermometer (or a heat gun or oven) for heat-triggered prints; a bowl of water for PVA-lock prints; tongs to handle the hot part [uncertain]",
@@ -178,11 +178,11 @@
       "https://en.wikipedia.org/wiki/Bimetallic_strip",
       "https://www.youtube.com/watch?v=5rnD4DyFmNs",
       "https://www.youtube.com/watch?v=yNZ2mqYNLYI",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://www.grid.uns.ac.rs/symposium/download/2020/posteri/18.pdf"
     ]
   },
   "uncertain": [
-    "power",
     "reuse_cycles",
     "tools_needed",
     "making_tips_3d_printing",

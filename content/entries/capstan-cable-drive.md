@@ -83,18 +83,16 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'worked out from the name: a belt, chain, cable or flexible shaft links the two shafts'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope
-      ends [uncertain]…"'
 confirmed: []
 open_points: []
-uncertain_fields: [tools_needed, making_tips_3d_printing, everyday_examples, when_not_to_use, environment_limits, safety_notes,
-  common_failures, make_it_yourself]
+uncertain_fields: [making_tips_3d_printing, everyday_examples, when_not_to_use, environment_limits, safety_notes, common_failures,
+  make_it_yourself]
 diagram_idea: Top view of a small drum and a large drum side by side with one cable coming off the big drum, wrapping three
   spiral turns round the small drum and returning to the big drum, with arrows showing the small drum turning eight times
   for one slow sweep of the big drum, and an inset graph of grip rising steeply with each extra wrap.
@@ -151,6 +149,8 @@ sources:
 - https://www.youtube.com/watch?v=MwIBTbumd1Q
 - https://www.youtube.com/watch?v=jKZIvseA1Nk
 - https://api.printables.com/graphql/
+- https://en.wikipedia.org/wiki/Whipping_knot
+- https://en.wikipedia.org/wiki/Ropework
 research: research/connection-types/results/Capstan_cable_drive_tendon_drive.json
 image:
   file: drawn/anim/capstan-cable-drive.svg
@@ -178,13 +178,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: capstan-cable-drive.webp
+  title: Capstan gear for delta-robot
+  author: holgersindbaek
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/470672-capstan-gear-for-delta-robot
+  site: Printables
+  alt: Close-up of a delta-robot joint with a small black drum wrapped in several turns of cable between clear acrylic plates,
+    driven by a motor through a shaft coupling.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, back-driving, self-locking, torque, pitch, actuator, stiffness, clearance, tolerance, form-fit--force-fit--material-bond,
   set-screw, repeatability--accuracy, creep, fatigue, layer-lines, infill]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/capstan-cable-drive.svg"><img src="../media/drawn/anim/capstan-cable-drive.svg" alt="A small drum beside a large drum segment, joined by one cable clamped at both ends of the large drum and wrapped several times round the small drum, so eight fast turns of the small drum give one slow sweep of the large drum; insets show the wraps from the side and a graph of grip rising steeply wit"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/capstan-cable-drive.webp" alt="Render of a 3D-printed capstan cable drive: a thin rope wound four times round a small aluminium drum on a stepper motor runs along the rim of a large blue printed drum sector, with both rope ends clamped at the ends of the sector." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/capstan-cable-drive.webp" alt="Render of a 3D-printed capstan cable drive: a thin rope wound four times round a small aluminium drum on a stepper motor runs along the rim of a large blue printed drum sector, with both rope ends clamped at the ends of the sector." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/capstan-cable-drive.webp" alt="Close-up of a delta-robot joint with a small black drum wrapped in several turns of cable between clear acrylic plates, driven by a motor through a shaft coupling." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/470672-capstan-gear-for-delta-robot">Capstan gear for delta-robot</a> by holgersindbaek, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A cable wrapped several turns around a small input drum and anchored at both ends to a larger output drum turns the large drum at a reduced speed with more turning force, with zero [backlash](../glossary.md#backlash), very low friction and easy [back-driving](../glossary.md#back-driving), but only through a limited angle.
@@ -247,7 +260,7 @@ Don't use it for continuous rotation, such as wheels or spindles, since the outp
   - CNC: machined aluminium drums with spiral grooves in research and industrial designs
   - off-the-shelf part: the rope or cable, end fittings, bearings and screws
 - **Printing it in one piece (print in place):** no: the drums and frame are printed separately, then the cable is wound on, anchored and tensioned by hand
-- **Tools:** Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends ⚑ [uncertain]
+- **Tools:** Hex keys or a screwdriver for the tensioning screw and drum mounting; a cutter for the rope or cable; for steel cable, crimping or ball-end fittings; a lighter or glue to seal synthetic rope ends (melting works on nylon, polyester and polyethylene, not aramid; Wikipedia 'Whipping knot', 'Ropework')
 - **Difficulty:** moderate: the parts print easily and need no precise gear teeth, but you must choose a low-creep rope, work out the effective diameters, route and anchor the cable neatly and build a tensioner
 
 ### 3D printing tips
@@ -305,9 +318,8 @@ The pre-tensioned cable stores energy and can whip if it or an anchor breaks, so
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 8 sentences on this page marked [uncertain].
+- ⚑ 7 sentences on this page marked [uncertain].
 - ⚑ Finder value `shaft_layout` = parallel, far apart (best guess): worked out from the name: a belt, chain, cable or flexible shaft links the two shafts
-- ⚑ Finder value `tools` = crimper, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…g or ball-end fittings; a lighter or glue to seal synthetic rope ends ⚑ [uncertain]…"
 
 ## Sources
 
@@ -330,3 +342,5 @@ The pre-tensioned cable stores energy and can whip if it or an anchor breaks, so
 - <https://www.youtube.com/watch?v=MwIBTbumd1Q>
 - <https://www.youtube.com/watch?v=jKZIvseA1Nk>
 - <https://api.printables.com/graphql/>
+- <https://en.wikipedia.org/wiki/Whipping_knot>
+- <https://en.wikipedia.org/wiki/Ropework>

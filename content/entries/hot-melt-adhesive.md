@@ -46,7 +46,7 @@ finder:
   glue_traits: [stays flexible, fills gaps, fast, can be undone]
   bonds_well: [PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, metal, glass or
       ceramic, rubber, fabric or leather, foam]
-  bonds_poorly: []
+  bonds_poorly: [PVC]
   tools: [glue gun, heat gun]
   load_max: light
   usual_process: off-the-shelf part
@@ -94,18 +94,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  bonds_well:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond
-      [uncertain].…"'
-  bonds_poorly:
-    kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond
-      [uncertain].…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [materials]
+uncertain_fields: []
 diagram_idea: 'A cut-away glue gun showing the stick pushed by the trigger into the heated chamber and out of the nozzle,
   next to two joint close-ups: hot glue flowing into the grain of wood and wrapping around a wire, and the same joint with
   a thermometer above about 60-80 °C where the glue is drawn sagging and letting go.'
@@ -176,6 +170,11 @@ sources:
 - https://hackaday.com/2018/02/05/3d-printering-printing-sticks-for-a-pla-hot-glue-gun/
 - https://learn.sparkfun.com/tutorials/connector-basics/all
 - https://en.wikipedia.org/wiki/Heat-shrink_tubing
+- https://www.foldnfly.com/lounge/foam-core-tools-techniques.php (WebFetch hit a verification page; read with curl)
+- https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build
+- https://cosplayadvice.com/using-eva-foam-for-cosplay/
+- https://www.gluegun.com/blogs/tips-tutorials/adhesives-for-polystyrene
+- https://datasheets.tdx.henkel.com/PATTEX-Hot-Sticks-fr_CH.pdf
 research: research/connection-types/results/Hotmelt_adhesive_glue_gun.json
 image:
   file: hot-melt-adhesive.webp
@@ -251,11 +250,11 @@ A few parts: (1) the glue stick, most often a blend of ethylene-vinyl acetate (E
 
 ## When to use it
 
-Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday). A small dab of hot glue also stops a wire working out of a screw terminal, 'without being too difficult to remove later' (SparkFun 'Connector Basics').
+Use it for quick, cheap joints where speed matters more than strength: crafts, cardboard and foam models, prototypes, props and cosplay, tacking parts in place while other fixings go in, holding wires and small boards in enclosures, strain relief on cables, and filling gaps between rough or mismatched parts (Wikipedia; Surebonder; Raise3D). It sets in seconds with no mixing, joins many different materials, and can be undone with heat or isopropyl alcohol, which suits temporary fixtures (Make:; Raise3D). Cast into printed moulds, it makes simple waterproof over-moulds for wire joints (Hackaday). A small dab of hot glue also stops a wire working out of a screw terminal, 'without being too difficult to remove later' (SparkFun 'Connector Basics'). On foam board, run a bead inside a bevelled or overlap fold before folding it up and hold it at the right angle for a few seconds for 'a very sturdy joint' (Fold N Fly); spread into the foam of a score-and-fold crease and left to cool, it makes 'a rubber-like hinge' that stops the paper tearing (Flite Test). On polystyrene foam (EPS and XPS) use low-temperature, foam-safe hot melts, because standard-temperature glue may melt the foam (gluegun.com).
 
 ## When not to use it
 
-Avoid it for load-bearing or structural joints (use epoxy, screws or a structural adhesive), for anything that gets warm, such as car interiors, sunny windows or near motors and lamps (use epoxy, polyamide or PUR hot melt), for parts under a constant load, where it creeps (Wikipedia; Raise3D), and in the cold, where it can let go (thisTOthat). It grips smooth metal and glass poorly unless they are preheated (Henkel p. 8; Glu-Stix; use epoxy or superglue instead), can melt thin plastic and foam (thisTOthat; use a low-temperature gun or another glue), and leaves thick, stringy joints that are hard to make neat (thisTOthat; Raise3D; for neat joints use superglue or solvent welding).
+Avoid it for load-bearing or structural joints (use epoxy, screws or a structural adhesive), for anything that gets warm, such as car interiors, sunny windows or near motors and lamps (use epoxy, polyamide or PUR hot melt), for parts under a constant load, where it creeps (Wikipedia; Raise3D), and in the cold, where it can let go (thisTOthat). It grips smooth metal and glass poorly unless they are preheated (Henkel p. 8; Glu-Stix; use epoxy or superglue instead), can melt thin plastic and foam (thisTOthat; use a low-temperature gun or another glue), and leaves thick, stringy joints that are hard to make neat (thisTOthat; Raise3D; for neat joints use superglue or solvent welding). Don't use it on EVA foam armour that will be heat-formed afterwards: it 'will start to melt when you use a heatgun' (cosplayadvice.com).
 
 ## Details
 
@@ -279,7 +278,7 @@ Avoid it for load-bearing or structural joints (use epoxy, screws or a structura
 - **Sealing:** watertight: a continuous bead or over-mould keeps water out of wire splices and cable entries; a hot-glue over-mould made in a 3D-printed mould survived a saltwater bath without leaking (Hackaday 2024), and polyolefin hot melts are good moisture barriers (Wikipedia). It is not a pressure seal, and it can peel away from smooth surfaces.
 - **Adjustable:** no: once cool it is fixed, though it can be softened with heat and repositioned or peeled off (Raise3D)
 - **Access needed:** one side only (blind): glue is put on one face, or run as a [fillet](../glossary.md#chamfer--fillet) along the outside of the joint, from the front; nothing has to reach behind the parts
-- **Materials:** Glue sticks are usually EVA (ethylene-vinyl acetate) blended with tackifier resin and wax; polyamide sticks resist heat and oil better; polyolefin types are made for polypropylene and polyethylene (Wikipedia; Henkel p. 8). Bonds well: porous or rough materials such as wood, card, paper, fabric and foam (Wikipedia; Surebonder), many plastics (Henkel p. 8), and rubber, ceramics, metal and glass to some degree (Wikipedia). 3D prints: fine for light and temporary joints on PLA, PETG, ABS and resin (Raise3D), and hot glue sticks very firmly to PETG unless a release agent is used (Hackaday 2024); but a hot gun can soften thin PLA, foam or thin plastic (thisTOthat: 'it can melt the material you are working with'; CNC Kitchen: PLA gives at about 60 °C). Weak: smooth metal and glass, which chill the glue before it can wet them, unless cleaned, roughened and preheated (Henkel p. 8; Glu-Stix); standard EVA sticks on polypropylene and polyethylene (use polyolefin hot melt; Wikipedia; Henkel p. 8); silicone rubber and PTFE are not expected to bond ⚑ [uncertain].
+- **Materials:** Glue sticks are usually EVA (ethylene-vinyl acetate) blended with tackifier resin and wax; polyamide sticks resist heat and oil better; polyolefin types are made for polypropylene and polyethylene (Wikipedia; Henkel p. 8). Bonds well: porous or rough materials such as wood, card, paper, fabric and foam (Wikipedia; Surebonder), many plastics (Henkel p. 8), and rubber, ceramics, metal and glass to some degree (Wikipedia). 3D prints: fine for light and temporary joints on PLA, PETG, ABS and resin (Raise3D), and hot glue sticks very firmly to PETG unless a release agent is used (Hackaday 2024); but a hot gun can soften thin PLA, foam or thin plastic (thisTOthat: 'it can melt the material you are working with'; CNC Kitchen: PLA gives at about 60 °C). Weak: smooth metal and glass, which chill the glue before it can wet them, unless cleaned, roughened and preheated (Henkel p. 8; Glu-Stix); silicone and PTFE are not suitable, nor is soft PVC (Pattex Hot Sticks data sheet, French edition). Polypropylene and polyethylene (PP and PE): makers advise against standard sticks, since the same Pattex sheet lists PE and PP as not suitable and polyolefin hot melts are made for these plastics (Wikipedia; Henkel p. 8). In Henkel's own measured test (block shear), though, an EVA hot melt (Loctite 1942) held about 1.4 MPa on PE and 1.7 MPa on PP, much as it did on ABS (1.4 MPa), while a polyolefin bonder broke the PE test blocks before the bond failed and held 12.4 MPa on PP (Henkel pp. 21, 51, 63). So standard sticks can grip PE and PP, but test a scrap first, or use a polyolefin hot melt.
 - **Heat, cold, water and wear:** Heat: craft EVA glue is limited to below about 60-80 °C and loses strength well before it melts, so hot glue softens in a hot car (Wikipedia; Raise3D). Polyamide sticks work up to about 70 °C under load, and cured reactive PUR hot melt to about 150 °C (Wikipedia). Cold: thisTOthat warns hot glue 'does not withstand cold temperatures'. Creep: EVA hot glue slowly gives way under a constant load (Wikipedia). Weather and chemicals: cheap craft sticks resist weathering and some chemicals less well than specialised hot melts (Wikipedia), and isopropyl alcohol loosens the bond (Make:). Polyamide sticks absorb moisture from the air, which can make them foam and form voids when melted (Wikipedia).
 
 ## Making it
@@ -337,6 +336,7 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 - Melted plastic weld: melts the parts' own plastic, plus filler, into the seam with a soldering iron, 3D pen or hot-air gun; a glue gun fed with PLA sticks sits halfway between hot glue and plastic welding (Hackaday 2018)
 - Heat-shrink tubing: adhesive-lined (dual-wall) heat-shrink has a layer of thermoplastic glue inside, so shrinking it over a wire joint seals it much like a hot-glue over-mould (Wikipedia 'Heat-shrink tubing')
 - Screw terminal: a dab of hot glue on a screw terminal keeps its wire from working loose and can still be picked off later (SparkFun 'Connector Basics')
+- Glue stick and starch paste: gentle water-based paper glues; hot glue is fast and gap-filling on card but lumpy on paper, and its 'glue sticks' are a different thing
 
 ## Make it yourself
 
@@ -356,9 +356,7 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 1 sentence on this page marked [uncertain].
-- ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, metal, glass or ceramic, rubber, fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond ⚑ [uncertain].…"
-- ⚑ Finder value `bonds_poorly` =  (source uncertain): `materials` is marked ⚑ [uncertain] here: "…edia; Henkel p. 8); silicone rubber and PTFE are not expected to bond ⚑ [uncertain].…"
+Nothing is marked on this page.
 
 ## Sources
 
@@ -387,3 +385,8 @@ Burns: the glue coming out of the nozzle is hot enough to burn and even blister 
 - <https://hackaday.com/2018/02/05/3d-printering-printing-sticks-for-a-pla-hot-glue-gun/>
 - <https://learn.sparkfun.com/tutorials/connector-basics/all>
 - <https://en.wikipedia.org/wiki/Heat-shrink_tubing>
+- <https://www.foldnfly.com/lounge/foam-core-tools-techniques.php (WebFetch hit a verification page; read with curl)>
+- <https://www.flitetest.com/articles/FT_Old_Fogey_Scratch_Build>
+- <https://cosplayadvice.com/using-eva-foam-for-cosplay/>
+- <https://www.gluegun.com/blogs/tips-tutorials/adhesives-for-polystyrene>
+- <https://datasheets.tdx.henkel.com/PATTEX-Hot-Sticks-fr_CH.pdf>

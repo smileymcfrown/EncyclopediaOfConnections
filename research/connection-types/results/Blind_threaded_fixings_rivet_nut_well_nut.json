@@ -43,7 +43,7 @@
     "power": "passive (no power needed); pneumatic or battery setting tools are only used to install rivet nuts faster (Böllhoff RIVNUT catalogue pp.24-27)",
     "removability": "Rivet nut: permanent; the screw can be removed and refitted, but the insert itself has to be drilled out, and a spun or failed one is drilled out and replaced, going up a size if the hole is damaged (Eugene Fasteners 'Troubleshooting Rivet Nut Failures'). Well nut: removable; loosen the screw and pull it out (RivetLab; Rivet Nut USA), though Spring Creek notes that once screwed up it expands beyond the 1/2 in hole 'and will not be able to come out' until loosened.",
     "reuse_cycles": "Rivet nut: once for the insert itself, but its metal thread takes the screw effectively unlimited times (Zortrax and JC's Printables knob use rivet nuts in prints for exactly this reason [uncertain: Zortrax page could not be opened; JC only says it was used as an insert]). Well nut: a few times to many times; RivetLab calls it reusable, and HR Fastener advises replacing it if the rubber sleeve is damaged.",
-    "tools_needed": "A drill with the exact bit size from the data sheet, a deburring tool (Eugene Fasteners). Rivet nut: a setting tool fitted with the right mandrel and nose piece for the thread size: hand tools (lever or wrench type), pneumatic, pneumatic-hydraulic or battery tools (Böllhoff RIVNUT catalogue pp.24-29; Eugene Fasteners). Some types (pre-bulbed plus nuts, 'easy-install' rivet nuts) can be set by turning a screw with a simple torque hand tool or ordinary screw driver tool (Böllhoff PLUSNUT data sheet; McMaster-Carr 'Easy-Install Rivet Nuts ... Install with nothing more than a screw'); makers also set them with a bolt, nut and washer (Smoking Steel Garage video 'Install Rivnuts Without The Tool') [uncertain: video not watched]. Well nut: only a screwdriver or hex key, sometimes a rubber mallet to seat it (Wikipedia; RivetLab; Spring Creek).",
+    "tools_needed": "A drill with the exact bit size from the data sheet, a deburring tool (Eugene Fasteners). Rivet nut: a setting tool fitted with the right mandrel and nose piece for the thread size: hand tools (lever or wrench type), pneumatic, pneumatic-hydraulic or battery tools (Böllhoff RIVNUT catalogue pp.24-29; Eugene Fasteners). Some types (pre-bulbed plus nuts, 'easy-install' rivet nuts) can be set by turning a screw with a simple torque hand tool or ordinary screw driver tool (Böllhoff PLUSNUT data sheet; McMaster-Carr 'Easy-Install Rivet Nuts ... Install with nothing more than a screw'); makers also set them with a bolt, two washers and an oversize nut held with a spanner while the bolt is tightened (Garage Journal forum 'Rivnut'; Smoking Steel Garage video 'Install Rivnuts Without The Tool'). Well nut: only a screwdriver or hex key, sometimes a rubber mallet to seat it (Wikipedia; RivetLab; Spring Creek).",
     "seal": "Rivet nut: none for an open-end type (water can pass through the thread); closed-end types 'seal the threads' and versions with a pre-applied PVC foam head seal 'against dust, water, air and non-petroleum based liquids' (Böllhoff RIVNUT catalogue pp.8, 23). Well nut: watertight, and described as airtight or gas-proof, because the squashed rubber lip presses round the hole and under the flange (Wikipedia 'Well nut'; Rivet Nut USA; RivetLab).",
     "load": "Rivet nut: medium to heavy for its size. Böllhoff's figures for an M6 steel RIVNUT in steel plate are about 7.7 kN ultimate tension (pull-out along the screw), 4.4 kN ultimate shear and more than 21 kN thread strength; an M6 aluminium one in 2024-T4 aluminium is about 4.1 kN tension and 2.6 kN shear (Böllhoff RIVNUT catalogue p.31, averages). It is weakest in twisting: a round one can spin in its hole if the hole is oversize or the material soft (Eugene Fasteners). In thin sheet and plastics a slotted plus nut holds much more: e.g. 5.40 kN versus 2.13 kN for a standard rivet nut in 0.76 mm steel, and 3.22 kN versus 1.25 kN in 4.69 mm blow-moulded plastic (Böllhoff PLUSNUT data sheet; thread size not stated). Well nut: light; Wikipedia says well nuts 'are not particularly strong', and RivetLab says they have weaker pull-out and torque strength than rivet nuts and are not for structural use.",
     "adjustable": "no for position: it is fixed in its hole. A well nut's clamping force (how hard it squeezes the panel and seal) is set by how far the screw is tightened; stop when you feel resistance (RivetLab).",
@@ -100,7 +100,9 @@
       "Temporary sheet fastener (Cleco-type spring pin): also fitted from one side, but only holds sheets temporarily while drilling or riveting",
       "Gasket and O-ring seal entries: for sealing without a thread; a well nut is effectively a gasket and a nut in one",
       "Hollow-wall anchors: toggles, molly bolts and self-drilling plasterboard anchors use the same blind idea in plasterboard walls; Wikipedia compares the well nut to a molly bolt",
-      "Wall plug: a plastic sleeve that swells in a drilled hole in brick or concrete as a screw goes in; for solid walls, where a rivet nut or well nut has no hollow space behind to bulge into"
+      "Wall plug: a plastic sleeve that swells in a drilled hole in brick or concrete as a screw goes in; for solid walls, where a rivet nut or well nut has no hollow space behind to bulge into",
+      "Potted insert (sandwich-panel insert, hard point): for cored or sandwich panels, whose soft core crushes when a bolt is tightened; the core round the hole is replaced with a plug of hard epoxy that holds the thread or insert",
+      "Bonding fastener (glue-on stud): a threaded stud or nut on a wide perforated base glued to the surface, so no hole is needed at all"
     ]
   },
   "media": {
@@ -186,14 +188,14 @@
       "https://www.youtube.com/watch?v=ykvbCXs7slU",
       "https://www.youtube.com/watch?v=FJ4gF2tXRBE",
       "https://www.youtube.com/watch?v=lYXTiJo_FQQ",
-      "https://api.printables.com/graphql/ (models 1174824, 264580, 161882, 1373120, 126459)"
+      "https://api.printables.com/graphql/ (models 1174824, 264580, 161882, 1373120, 126459)",
+      "https://www.garagejournal.com/forum/threads/rivnut.88047/"
     ]
   },
   "uncertain": [
     "special_behaviour",
     "holding_principle",
     "reuse_cycles",
-    "tools_needed",
     "processes",
     "making_tips_3d_printing",
     "everyday_examples",

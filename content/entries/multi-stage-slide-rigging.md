@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal, 'fabric, leather or cord']
 needs_confirming:
   motion_in:
     kind: best guess
@@ -96,14 +98,9 @@ needs_confirming:
   shaft_layout:
     kind: best guess
     reason: 'read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form'
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying
-      [uncertain]. A clamp, vice or arbor pres…"'
 confirmed: []
 open_points: []
-uncertain_fields: [input_output, tools_needed, processes, making_tips_3d_printing, environment_limits, safety_notes, links,
-  make_it_yourself]
+uncertain_fields: [input_output, processes, making_tips_3d_printing, environment_limits, safety_notes, links, make_it_yourself]
 diagram_idea: Two side-by-side three-stage slides, one rigged continuous (one long string zig-zagging over every stage) and
   one rigged cascade (a separate string per stage anchored to the stage below), animated so the continuous one extends its
   top stage first while the cascade one extends all stages together with arrows labelled 1x, 2x, 3x speed.
@@ -180,6 +177,7 @@ sources:
 - https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene
 - https://help.prusa3d.com/article/pla_2062
 - https://help.prusa3d.com/article/petg_2059
+- https://en.wikipedia.org/wiki/Whipping_knot
 research: research/connection-types/results/Multistage_slide_rigging_cascade_and_continuous_string_rigging.json
 image:
   file: drawn/anim/multi-stage-slide-rigging.svg
@@ -206,12 +204,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: multi-stage-slide-rigging.webp
+  title: 'Misumi Linear Slide Insert for SAR: (String Drive) FTC Robotics'
+  author: Brogan Pratt
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1063158-misumi-linear-slide-insert-for-sar-string-drive-ft
+  site: Printables
+  alt: A string-driven linear slide on a robot frame, extended across a cutting mat, with the motor-driven reel and printed
+    red pulley blocks on the sliding stages.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: multi-stage-slide-rigging-a8ad52.webp
+  title: 'Misumi Linear Slide Insert for SAR: (String Drive) FTC Robotics'
+  author: Brogan Pratt
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/1063158-misumi-linear-slide-insert-for-sar-string-drive-ft
+  site: Printables
+  alt: Close-up of a red 3D-printed pulley insert on the end of an aluminium slide stage, with the string running over its
+    two pulleys.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, self-locking, gear-ratio, actuator, tolerance, creep, layer-lines, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/multi-stage-slide-rigging.svg"><img src="../media/drawn/anim/multi-stage-slide-rigging.svg" alt="Two three-stage slides side by side: on the left one long string zig-zags over every stage so the top stage slides out first, and on the right a separate string for each stage makes all stages move together, each faster than the one below. The animation winds the spool in: on the left the top stage "></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/multi-stage-slide-rigging.webp" alt="Render of a three-stage linear slide lift with continuous rigging: a single string runs from a motor-driven spool up over a pulley on the fixed base slide, down under a pulley on the first moving stage, up over its top pulley and down to an anchor on the second stage, which stands highest." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/multi-stage-slide-rigging.webp" alt="Render of a three-stage linear slide lift with continuous rigging: a single string runs from a motor-driven spool up over a pulley on the fixed base slide, down under a pulley on the first moving stage, up over its top pulley and down to an anchor on the second stage, which stands highest." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/multi-stage-slide-rigging.webp" alt="A string-driven linear slide on a robot frame, extended across a cutting mat, with the motor-driven reel and printed red pulley blocks on the sliding stages." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/1063158-misumi-linear-slide-insert-for-sar-string-drive-ft">Misumi Linear Slide Insert for SAR: (String Drive) FTC Robotics</a> by Brogan Pratt, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/multi-stage-slide-rigging-a8ad52.webp" alt="Close-up of a red 3D-printed pulley insert on the end of an aluminium slide stage, with the string running over its two pulleys." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/1063158-misumi-linear-slide-insert-for-sar-string-drive-ft">Misumi Linear Slide Insert for SAR: (String Drive) FTC Robotics</a> by Brogan Pratt, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A way of threading strings, belts or chains over pulleys on a set of nested sliding stages so that a single motor-driven reel extends every stage, either all at once in proportion (cascade) or one stage after another (continuous), with a second string or spring to pull them back in.
@@ -276,7 +300,7 @@ Avoid string rigging when the load must be pushed hard, held rigidly against sid
   - laser cut: ⚑ [uncertain] flat side plates and spacers for small lifts
   - off-the-shelf part: drawer slides, linear slide kits, pulley bearings, braided line, timing belts, chain and sprockets, constant-force springs
 - **Printing it in one piece (print in place):** no: the stages, pulleys and spools are printed (or bought) separately, then assembled and rigged with string or belt by hand
-- **Tools:** Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide).
+- **Tools:** Hex keys or a screwdriver for the anchor bolts, clamps and pulley axles, scissors or a knife for the line, and usually a way to stop braided line fraying: a whipping of thread, or melting the cut end of nylon, polyester or polyethylene line (not aramid) with a lighter or hot knife (Wikipedia 'Whipping knot'). A clamp, vice or arbor press to push bearings into printed pulleys (Instructables cascading slide).
 - **Difficulty:** moderate: every part is simple, but gm0 calls rigging 'an important and time-consuming requirement', and getting even tension on both sides, the right spool sizes and a retraction path takes patience
 
 ### 3D printing tips
@@ -343,11 +367,10 @@ The sliding stages and pulleys form pinch and shear points that move quickly (in
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 12 sentences on this page marked [uncertain].
+- ⚑ 11 sentences on this page marked [uncertain].
 - ⚑ Finder value `motion_in` = steady turning, straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `motion_out` = straight push or pull (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
 - ⚑ Finder value `shaft_layout` = not applicable (best guess): read from the "Input: ... Output: ..." wording of `input_output`, not the usual "in -> out" form
-- ⚑ Finder value `tools` = press or vice, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a knife for the line, and usually a way to stop braided line fraying ⚑ [uncertain]. A clamp, vice or arbor pres…"
 
 ## Sources
 
@@ -371,3 +394,4 @@ The sliding stages and pulleys form pinch and shear points that move quickly (in
 - <https://en.wikipedia.org/wiki/Ultra-high-molecular-weight_polyethylene>
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://help.prusa3d.com/article/petg_2059>
+- <https://en.wikipedia.org/wiki/Whipping_knot>

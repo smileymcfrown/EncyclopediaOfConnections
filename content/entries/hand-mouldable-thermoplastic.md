@@ -42,8 +42,8 @@ finder:
   overload_response: not applicable
   clicks: not applicable
   glue_traits: [fills gaps, can be undone]
-  bonds_well: [PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam]
-  bonds_poorly: [PLA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic]
+  bonds_well: [PLA, PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam]
+  bonds_poorly: [nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic]
   tools: [heat gun, drill and tap, hand tools]
   load_max: medium
   usual_process: off-the-shelf part
@@ -91,15 +91,17 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   bonds_well:
     kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won''t bond
-      [uncertain]. To fix cooled PCL to materi…"'
+    reason: '`materials` is marked [uncertain] here: "…, should take a hot bond too, but it won''t bond to nylon or PP prints
+      [uncertain: from the material lists abov…"'
   bonds_poorly:
     kind: source uncertain
-    reason: '`materials` is marked [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won''t bond
-      [uncertain]. To fix cooled PCL to materi…"'
+    reason: '`materials` is marked [uncertain] here: "…, should take a hot bond too, but it won''t bond to nylon or PP prints
+      [uncertain: from the material lists abov…"'
 confirmed: []
 open_points:
 - kind: content
@@ -181,6 +183,8 @@ sources:
 - https://www.youtube.com/watch?v=aW5kZTQP7v4
 - https://www.youtube.com/watch?v=s1OqZSYmStU
 - https://api.printables.com/graphql/
+- https://forum.makerforums.info/t/originally-shared-by-james-newton-made-some-progress-today-on-casting-small-parts/40929
+- https://en.wikipedia.org/wiki/Polylactic_acid
 research: research/connection-types/results/Handmouldable_thermoplastic_polycaprolactone.json
 image:
   file: hand-mouldable-thermoplastic.webp
@@ -275,7 +279,7 @@ Avoid it anywhere that gets warmer than about 45 °C, such as a car in summer, n
 - **Sealing:** loose: no sealing data were found. It is a water-resistant solid that can fill a gap, but hand-pressed PCL can trap small air bubbles and leave voids (Easy Composites), and PCL film lets water vapour through much more readily than it does oxygen (Perstorp Capa properties sheet). Don't rely on it as a sealant ⚑ [uncertain].
 - **Adjustable:** yes, by reheating: dip it back in hot water, or warm one area with a heat gun or hair dryer, and reshape it. After it comes out of the water you have 'several minutes' to shape it, and it hardens in about 10 minutes depending on size (Polly Plastics FAQ).
 - **Access needed:** one side only (blind) for most jobs: the soft plastic is pressed into a hole, slot or rail, or onto a surface, from the side you can reach. Wrapping it right round a tube, handle or edge needs access all the way round (Wikimedia Commons bike-light mount; TechACCESS utensil guide).
-- **Materials:** Made of polycaprolactone (PCL), a biodegradable polyester (Wikipedia; Polly Plastics FAQ). When hot it sticks to itself and to ABS (LEGO), acrylic, polycarbonate, polyester, PVC and vinyl (Polly Plastics FAQ), and also to PET, polystyrene, fabrics, metal and nail polish (Polly Plastics blog). It won't attach to wood, nylon, polypropylene, silicone or Teflon (PTFE), and doesn't stick to parchment paper, cling film or glass (Polly Plastics FAQ and blog). Most PU, polyester and epoxy resins release from it, so it makes temporary moulds for resin casting (Easy Composites). For 3D prints: ABS and ASA, and PETG (a polyester), should take a hot bond, but no tests on PLA or PETG prints were found, and nylon and PP prints won't bond ⚑ [uncertain]. To fix cooled PCL to materials it doesn't stick to, use superglue (cyanoacrylate) or epoxy, or drill it and use screws (Polly Plastics FAQ).
+- **Materials:** Made of polycaprolactone (PCL), a biodegradable polyester (Wikipedia; Polly Plastics FAQ). When hot it sticks to itself and to ABS (LEGO), acrylic, polycarbonate, polyester, PVC and vinyl (Polly Plastics FAQ), and also to PET, polystyrene, fabrics, metal and nail polish (Polly Plastics blog). For 3D prints: hot PCL sticks hard to PLA, which is itself a polyester (Wikipedia 'Polylactic acid'): one maker who pressed it into a printed PLA mould found it took hours in hot water to pick out, and lined the mould with cling film to make it release (Maker Forums 2014). ABS and ASA, and PETG (also a polyester), should take a hot bond too, but it won't bond to nylon or PP prints ⚑ [uncertain: from the material lists above; no tests on these prints found]. It won't attach to wood, nylon, polypropylene, silicone or Teflon (PTFE), and doesn't stick to parchment paper, cling film or glass (Polly Plastics FAQ and blog). Most PU, polyester and epoxy resins release from it, so it makes temporary moulds for resin casting (Easy Composites). To fix cooled PCL to materials it doesn't stick to, use superglue (cyanoacrylate) or epoxy, or drill it and use screws (Polly Plastics FAQ).
 - **Heat, cold, water and wear:** Heat: it melts at about 58-62 °C and has a maximum service temperature of 45 °C (Easy Composites), so it can soften in a hot car (Polly Plastics). Cold: its glass transition is about -60 °C (Perstorp), so it should stay tough rather than [brittle](../glossary.md#brittle--ductile) in normal freezing weather ⚑ [uncertain]. Water: it is handled in water and doesn't dissolve, but it is biodegradable; bacteria and fungi break it down in soil and compost (Wikipedia; Preproom: 'Biodegradable in soil'), and it hydrolyses slowly, more slowly than polylactide (Wikipedia). Chemicals: it dissolves in several common solvents (Capa 6800 data sheet; Wikipedia mentions chloroform), and Perstorp's safety data sheet says to avoid contact with acids and bases. UV: no data were found ⚑ [uncertain]. [Creep](../glossary.md#creep): it is soft and only about 35-40 °C below its melting point at room temperature, so it may slowly deform under a constant load; no creep data were found ⚑ [uncertain]. Shelf life: Kitronik says it 'has no shelf-life'.
 
 ## Making it
@@ -292,7 +296,7 @@ Avoid it anywhere that gets warmer than about 45 °C, such as a car in summer, n
 
 ### 3D printing tips
 
-1) Use it alongside prints for the jobs a printer is bad at: custom-fitted handles and grips, cradles that must match an odd-shaped object, quick repairs, and one-off brackets. Design the printed part with holes, slots or [undercuts](../glossary.md#undercut) for the PCL to flow into, so it locks in by shape rather than relying on stickiness ⚑ [uncertain]. 2) Heat it in water above about 62 °C (Kitronik), e.g. about 65 °C or 150 °F (Adafruit Learn). Boiling water isn't needed and is a scald risk (Preproom). Wait until every pellet is clear; a big batch can cool small amounts of water below 62 °C, so add or change the water (Easy Composites). 3) Lift it out with tongs, knead it into one lump and squeeze out the water: pockets of hot water trapped between pellets can burn (Hackaday reader comment) and leftover water rusts steel tools (Adafruit Learn). 4) Keep thin PLA prints out of very hot water and put only warm (60-65 °C) PCL onto them, because Prusa lists 'low UV and temperature resistance' as a PLA weakness ⚑ [uncertain]. 5) Bonding to prints: hot PCL sticks to ABS, acrylic, polycarbonate and polyester plastics but not to nylon or polypropylene (Polly Plastics FAQ). It hasn't been tested on PLA or PETG prints, so add superglue or epoxy, or shape it to lock mechanically ⚑ [uncertain]. 6) Printed moulds: press the soft plastic in (it is too thick to pour; Easy Composites) and coat the mould lightly with vegetable spray so the part releases (Polly Plastics FAQ). 7) Threads and screw holes: twist a screw into the soft plastic and back it out to leave a thread (Polly Plastics blog), or drill slowly once it is cool, since power tools can heat it until it softens (Easy Composites). 8) Printing PCL filament: one maker's working settings were nozzle 112-115 °C, bed 57 °C, PVA glue stick, cooling 60-100%, minimum layer time about 40 s and minimum speed 10 mm/s, with the slicer material type set to 'FLEX'. The profile uses special start and end G-code to allow 'cold extrusion'. [Bridging](../glossary.md#overhang--bridging) is very poor and edges tend to warp (Printables 'PCL (Polycaprolactone) Material Profile', CC BY-SA). 9) Keep finished assemblies below about 45 °C (Easy Composites) and out of hot cars (Polly Plastics).
+1) Use it alongside prints for the jobs a printer is bad at: custom-fitted handles and grips, cradles that must match an odd-shaped object, quick repairs, and one-off brackets. Design the printed part with holes, slots or [undercuts](../glossary.md#undercut) for the PCL to flow into, so it locks in by shape rather than relying on stickiness ⚑ [uncertain]. 2) Heat it in water above about 62 °C (Kitronik), e.g. about 65 °C or 150 °F (Adafruit Learn). Boiling water isn't needed and is a scald risk (Preproom). Wait until every pellet is clear; a big batch can cool small amounts of water below 62 °C, so add or change the water (Easy Composites). 3) Lift it out with tongs, knead it into one lump and squeeze out the water: pockets of hot water trapped between pellets can burn (Hackaday reader comment) and leftover water rusts steel tools (Adafruit Learn). 4) Keep thin PLA prints out of very hot water and put only warm (60-65 °C) PCL onto them, because Prusa lists 'low UV and temperature resistance' as a PLA weakness ⚑ [uncertain]. 5) Bonding to prints: hot PCL sticks to ABS, acrylic, polycarbonate and polyester plastics but not to nylon or polypropylene (Polly Plastics FAQ). It grips PLA prints hard: one maker needed hours in hot water to pick it out of a printed PLA mould (Maker Forums 2014). No test on PETG prints was found, so for a joint that takes load add superglue or epoxy, or shape it to lock mechanically ⚑ [uncertain]. 6) Printed moulds: press the soft plastic in (it is too thick to pour; Easy Composites) and coat the mould lightly with vegetable spray so the part releases (Polly Plastics FAQ); a bare PLA mould grips it, and cling film also works as a release (Maker Forums 2014). 7) Threads and screw holes: twist a screw into the soft plastic and back it out to leave a thread (Polly Plastics blog), or drill slowly once it is cool, since power tools can heat it until it softens (Easy Composites). 8) Printing PCL filament: one maker's working settings were nozzle 112-115 °C, bed 57 °C, PVA glue stick, cooling 60-100%, minimum layer time about 40 s and minimum speed 10 mm/s, with the slicer material type set to 'FLEX'. The profile uses special start and end G-code to allow 'cold extrusion'. [Bridging](../glossary.md#overhang--bridging) is very poor and edges tend to warp (Printables 'PCL (Polycaprolactone) Material Profile', CC BY-SA). 9) Keep finished assemblies below about 45 °C (Easy Composites) and out of hot cars (Polly Plastics).
 
 ### Buying one (off-the-shelf parts)
 
@@ -346,8 +350,8 @@ Scalds and burns are the main hazard. Don't put your hands into hot water; lift 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 12 sentences on this page marked [uncertain].
-- ⚑ Finder value `bonds_well` = PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond ⚑ [uncertain]. To fix cooled PCL to materi…"
-- ⚑ Finder value `bonds_poorly` = PLA, nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…on PLA or PETG prints were found, and nylon and PP prints won't bond ⚑ [uncertain]. To fix cooled PCL to materi…"
+- ⚑ Finder value `bonds_well` = PLA, PETG, ABS or ASA, acrylic or polycarbonate, PVC, metal, fabric or leather, foam (source uncertain): `materials` is marked ⚑ [uncertain] here: "…, should take a hot bond too, but it won't bond to nylon or PP prints ⚑ [uncertain: from the material lists abov…"
+- ⚑ Finder value `bonds_poorly` = nylon, slippery plastics (PE or PP), silicone, wood, paper or card, glass or ceramic (source uncertain): `materials` is marked ⚑ [uncertain] here: "…, should take a hot bond too, but it won't bond to nylon or PP prints ⚑ [uncertain: from the material lists abov…"
 - ⚑ Research note: *Hand-mouldable thermoplastic*: moulding it on the body (Preproom: never in schools; Easy Composites sells it for that, with cling film over the skin). Both are in `safety_notes`.
 
 ## Sources
@@ -377,3 +381,5 @@ Scalds and burns are the main hazard. Don't put your hands into hot water; lift 
 - <https://www.youtube.com/watch?v=aW5kZTQP7v4>
 - <https://www.youtube.com/watch?v=s1OqZSYmStU>
 - <https://api.printables.com/graphql/>
+- <https://forum.makerforums.info/t/originally-shared-by-james-newton-made-some-progress-today-on-casting-small-parts/40929>
+- <https://en.wikipedia.org/wiki/Polylactic_acid>

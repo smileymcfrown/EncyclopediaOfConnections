@@ -1,0 +1,3145 @@
+# R37 (2026-10-22): the `made_of` finder tag (the "Made of" filter), first proposed from the research text by
+# propose_made_of.py, then checked by helper agents against each entry's text. ok and change lose their
+# needs-confirming mark; unsure keeps it. Nobody has confirmed these one by one; corrections are welcome.
+- num: 1
+  name: Ratcheting reel closure (dial lacing system)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  why: removed metal; it came only from the steel-cable lace (a bought sub-part); the reel is plastic or printed and closes shoes, braces
+    and bags (fabric/leather)
+- num: 2
+  name: Ratchet-tooth torque limiter (clicking torque-limiting cap or knob)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  why: keep carbon, but on better evidence than glass-filled PA bodies; when_to_use names tightening small screws in carbon parts without
+    over-tightening
+- num: 3
+  name: Ball-detent torque limiter
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed bodies with steel balls; plastic drill gear housings; steel industrial units
+- num: 4
+  name: Friction slip clutch (slip coupling, slipper clutch)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: printed plates; acrylic or plywood laser-cut discs; felt or leather friction pads; steel industrial units
+- num: 5
+  name: Torque-limiting gear with flexing spring arms (compliant slip hub)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed or moulded acetal hubs gripping metal shafts; aluminium servo savers
+- num: 6
+  name: Shear-pin coupling (breakaway link)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: brass/steel pins, nylon screws, printed weak links; wood is thin (woodwork cross-drilling, plywood breakaway tabs) but plausible
+- num: 7
+  name: Ratchet and pawl (incl. reversible ratchet)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed, acetal, steel; wooden ratchet wheels for toys, clock models and winches
+- num: 7
+  name: Ratchet and pawl (incl. reversible ratchet)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Rob Ives ''Mechanism'' page: "The ratchet
+    can be used to move a toothed ..." (paper model)'
+- num: 8
+  name: Linear ratchet (cable-tie ratchet)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: nylon ties, printed ties, steel jacks; plywood laser-cut racks for models
+- num: 8
+  name: Linear ratchet (cable-tie ratchet)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): Adafruit: zip-tie rivets for cardboard ("Push
+    one zip tie through the cardboard ... slip a second zip tie onto it")'
+- num: 9
+  name: Face ratchet (star ratchet, face-engagement ratchet)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed discs with steel spring; moulded plastic; steel bicycle hub ratchets
+- num: 10
+  name: Sprag clutch
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: steel unit; printed or plastic housings around a bought unit (text says so explicitly)
+- num: 11
+  name: Roller clutch (one-way bearing)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed carbon; it came only from the glass-fibre-reinforced polyamide cage inside bought units (tiny sub-part, not maker composites)
+- num: 12
+  name: Wrap-spring clutch (spring clutch)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'removed wood (the text says "woodwork: not suitable for the hubs") and fabric/cord (false match on the capstan analogy, a rope
+    wrapped round a post)'
+- num: 13
+  name: Compliant ratchet and overrunning clutch (flexure pawl)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed or moulded one-piece; spring-steel blade pawls in metal ratchets
+- num: 14
+  name: Binding-plate lock (tilting friction plate)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel plate on steel rod; printed housings and triggers; wooden frames and jaws for home-made clamps
+- num: 15
+  name: Bidirectional anti-back-drive clutch (reverse-input blocking clutch)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed wood; it was a false match on "steel dowel pins"; no wood use in the text
+- num: 16
+  name: Worm drive (worm and worm wheel)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel/bronze, acetal, printed nylon; wood kept on woodwork process (wooden worm drives), though the text's example is historic
+- num: 16
+  name: Worm drive (worm and worm wheel)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Rob Ives ''Mechanism'' page: "A worm is
+    used to reduce speed" (paper model)'
+- num: 17
+  name: Lead screw and nut (incl. anti-backlash nut)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: steel screws with bronze or POM nuts; printed nut blocks
+- num: 18
+  name: Half nut (split nut, quick-action nut)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: printed vices; DIY wooden vices with a split steel nut; bronze/steel lathe half-nuts
+- num: 19
+  name: Over-centre linkage (toggle linkage)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed links; laser-cut acrylic or plywood plates; hardwood links; steel
+- num: 20
+  name: Toggle clamp
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel clamps; printed clamps; shop-made hardwood clamps and woodworking jigs
+- num: 21
+  name: Draw latch (over-centre latch)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: added wood; everyday examples are toolboxes, chests and crates, which are commonly wooden and take screw-on draw latches
+- num: 22
+  name: Eccentric cam lever (cam clamp, quick-release skewer)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: aluminium/steel levers; printed cam levers; hardwood woodworking cam clamps
+- num: 23
+  name: Bistable compliant mechanism (snap-through switch or hinge)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed carbon; it came only from a robotics research prototype (arXiv hair-clip gripper)
+- num: 24
+  name: Push-push latch (push-to-open, heart-cam latch)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: removed paper/card (false match on SD "card" connectors); added wood (handle-less kitchen cabinet doors and drawers are the main
+    use)
+- num: 25
+  name: Click-pen mechanism (rotating-cam push-push indexer)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: moulded plastic in pens; printed demos; metal pen barrels and clicky torch switches
+- num: 26
+  name: Sear and trigger (trip release mechanism)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: printed toys and launchers; wooden crossbow stocks and mousetraps; hardened steel sears
+- num: 27
+  name: Compliant one-piece latch (flexure latch)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts']
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: printed or moulded plastic only; the text gives no other material
+- num: 28
+  name: Hidden latches (magnetic-key latch, puzzle lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: glass kept because commercial magnetic locks work through glass doors (one guide warns stick-on versions fail on glass, so screw-fixed
+    only); wood, prints, plastic, metal all clear
+- num: 29
+  name: Push-and-turn child-resistant cap
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', foam, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', glass or mirror]
+  why: removed foam (only the cap's sealing liner, a tiny sub-part); kept glass because the cap screws onto glass bottles as well as
+    plastic ones
+- num: 30
+  name: Ball detent (spring plunger)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel plungers; printed housings with real balls; recessed ball catches in wooden doors and cabinets
+- num: 31
+  name: Indexing plunger (pull-knob index pin)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel plungers; index plates in wood, plywood or printed plastic; woodwork jigs and lathe index wheels
+- num: 32
+  name: Compliant detent (flexure click arm)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed wood; plywood is named only as a poor choice (strength depends on grain), POM sheet was used instead
+- num: 33
+  name: Detent hinge (click hinge, position hinge)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: plastic, zinc and steel hinges; printed clicking hinges; fitted to wooden cabinets, lids and furniture
+- num: 34
+  name: Hirth joint (face-spline coupling)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, metal]
+  why: removed wood (false match on the brand "Wooden Camera"), carbon (only carbon-fibre nylon filament, which is a 3D print) and plastic
+    (only from printed nylon); steel/aluminium rosettes and printed mounts remain
+- num: 35
+  name: Geneva drive (Maltese cross)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed and acrylic Genevas; metal in machines; wood rests on laser-cut plywood [uncertain] (flat profiles, plausible)
+- num: 35
+  name: Geneva drive (Maltese cross)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Rob Ives ''Mechanism'' page: paper model
+    of "The Geneva mechanism"'
+- num: 36
+  name: Intermittent gear (mutilated or part-toothed gear)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed sets; plywood and hardwood counter gears (woodgears.ca); metal and plastic counters
+- num: 37
+  name: Bayonet mount (push-and-twist lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: metal lens and lamp mounts; plastic lids and hose fittings; printed lids and couplings
+- num: 38
+  name: Interrupted-screw lock (interrupted thread, breech lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: glass kept (lug-finish glass jars with metal lug caps are the everyday example); steel, brass, printed versions
+- num: 39
+  name: Quarter-turn fastener (Dzus-type)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: fastens sheet aluminium/steel, fibreglass, polycarbonate, plywood or printed panels (race-car and aircraft panels)
+- num: 40
+  name: Quick-release pin (ball-lock pin)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: pins metal plates and tubes, and wood or printed parts with accurate (bushed) holes
+- num: 41
+  name: Quick-release plate (camera plate, dovetail clamp)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: machined aluminium plates and rails; plastic cold shoes; printed Arca plates and clamps
+- num: 42
+  name: Hang-on mounts (keyhole slot, French cleat)
+  verdict: change
+  was: [3D prints, wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: added plastic (keyhole slots moulded into routers and gadgets) and glass or mirror (when_to_use names hanging mirrors on French
+    cleats); wood, aluminium Z-clips, printed slots already there
+- num: 43
+  name: Modular grid mounting systems (pegboard, Gridfinity-style grids)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: removed carbon; it was a false match on "Honeycomb Storage Wall" (no composite use in the text)
+- num: 44
+  name: Cantilever snap fit
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed and moulded plastics; laser-cut acrylic, POM or plywood tabs; spring-steel clips
+- num: 45
+  name: Annular snap fit
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts']
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: moulded caps and printed round parts only
+- num: 46
+  name: Torsional snap fit
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts']
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: moulded polycarbonate housings and printed versions only
+- num: 47
+  name: Snap pin (split-leg push-in pin, rabbit clip)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed pins and nylon push-in fasteners; Heyco lists thin metal, plastic and wood sheets (also "composite", left out as a catalogue
+    passing mention)
+- num: 48
+  name: Push-in plastic rivet (fir-tree clip, push rivet)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
+  why: added fabric; the text lists upholstery among joined materials and when_to_use says it fixes "foam, fabric" to sheet metal, plastic
+    or wood (car door panels, upholstery)
+- num: 49
+  name: Living hinge
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: removed wood (text says plywood can only bend with kerf cuts, a separate entry, "use kerf bending instead") and carbon (glass
+    fibre named only as ruining hinge life)
+- num: 49
+  name: Living hinge
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', foam]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Flite Test RC Plane Hinge Types (comment): "foam cut
+    partially through makes a great hinge on a scratch build!"'
+- num: 50
+  name: Flexure hinge (notch, leaf-spring and cross-axis pivots)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed flexures; polypropylene sheet FlexLinks; spring-steel and machined aluminium pivots
+- num: 51
+  name: Parallel leaf-spring flexure (linear flexure stage)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed PLA/PETG stages; metal load cells and spring-steel blades; plastic flexures generally
+- num: 52
+  name: Compliant gripper and force amplifier
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed pliers; polypropylene-sheet originals; metal tweezers and sugar tongs
+- num: 53
+  name: Fin-ray gripper (fin ray effect finger)
+  verdict: ok
+  was: [3D prints, paper or card]
+  now: [3D prints, paper or card]
+  why: printed TPU/PETG fingers; card or paper teaching models (Festo template, Make)
+- num: 54
+  name: Self-folding print (4D printing)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', glass or mirror]
+  now: [3D prints]
+  why: removed glass (false match on "glass transition") and plastic (shrink-art sheet and heat-shrink tube are only analogies; the
+    type itself is purely a print)
+- num: 55
+  name: Print-in-place hinge
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints]
+  why: removed wood (text says "not suited to CNC, laser cutting or woodwork") and plastic (it is printed in the same plastic as the
+    part; nothing bought or sheet)
+- num: 56
+  name: Heat-set threaded insert
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: removed paper/card (false match on "SPIROL white paper") and metal (the insert is brass, but it only goes into thermoplastic
+    parts, never metal ones; Claude, after the helper check)
+- num: 57
+  name: Captive nut pocket (nut trap)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: removed metal (only the bought steel nut, a sub-part) and wood (routed pocket is [uncertain] and the text says wood and metal
+    parts more often use T-nuts or inserts; laser-cut version is the separate T-slot entry); plastic kept for moulded star knobs with
+    pressed-in nuts
+- num: 58
+  name: Printed screw thread
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: printed caps onto glass or plastic bottles (text says so); printed parts mating with steel bolts; plastic bottle caps
+- num: 59
+  name: Crush ribs and spring-fit features (compliant press fit)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: removed paper/card (false match on "SpringFit paper", a research paper); keeps moulded and printed holders, laser-cut plywood/MDF/acrylic,
+    and metal bearings, magnets and pins held in them
+- num: 60
+  name: Mid-print embedding (captive nuts, magnets and bearings)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, metal, carbon fibre or composites]
+  why: removed plastic (only matched the filament list; it works only inside prints); kept metal (magnets, bearings, steel rods are
+    the parts held) and carbon (when_to_use embeds carbon-fibre rods to stiffen prints)
+- num: 61
+  name: Heat staking (melted plastic rivet)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: printed or moulded thermoplastic posts holding metal brackets, circuit boards and fabric
+- num: 62
+  name: Split-part joints for large prints (dovetail keys, puzzle joints, alignment pins)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints]
+  why: removed wood and metal (only loose wooden dowels or steel roll pins as alignment pins; wooden joinery is "the same idea" covered
+    by other entries) and plastic (SLS nylon is a print); the entry is about joining printed pieces
+- num: 63
+  name: Geared hinge (continuous gear hinge)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: extruded aluminium door hinges with nylon bearings; printed print-in-place versions
+- num: 64
+  name: Friction hinge (torque hinge)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: zinc/steel and POM commercial hinges; printed knuckles; bought hinges fitted to wooden lids, flaps and cabinets
+- num: 65
+  name: Ball-and-socket joint (lockable ball head)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: added glass or mirror; when_to_use lists aiming mirrors (as on car mirror mounts); steel, aluminium, acetal and printed versions
+    already there
+- num: 65
+  name: Ball-and-socket joint (lockable ball head)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, clay or putty, glass or mirror]
+  why: 'added clay or putty from the clay gap search (scope-search-2026-10-22-clay.md): Its JSON already lists "poseable figures and
+    models"; ball-jointed dolls are "articulated with ball and socket joints" (Wikipedia) and are often first modelled in polymer clay'
+- num: 66
+  name: Posable segmented arm (snap-together ball chain, gooseneck)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: acetal Loc-Line segments; spring-steel goosenecks; printed PETG segments
+- num: 67
+  name: Clevis joint (fork-and-pin joint, prong mount)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: text says it joins metal, wood and printed parts; moulded action-camera mounts and plastic igubal clevises
+- num: 68
+  name: Rod end and ball link (rose joint, RC ball link)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed carbon; it came only from carbon-fibre-filled nylon filament for a printed rod end (that is a 3D print, not a composite
+    part)
+- num: 69
+  name: Turntable bearing (lazy-Susan bearing, slewing ring)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel lazy-Susan plates and slewing rings; igus polymer rings; printed bearings; wooden lazy Susans and cabinet carousels
+- num: 70
+  name: Telescoping tube twist lock (cam or collet twist lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  why: Tubes aluminium, carbon fibre, steel or PVC; printed collets.
+- num: 71
+  name: Telescoping tube lever lock (flip lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  why: Tubes aluminium or carbon fibre; moulded plastic collars; printed PETG collars.
+- num: 72
+  name: Spring button lock (snap button, push-button tube lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  why: Aluminium, steel, PVC or carbon-fibre tube; steel clips; plastic buttons; printed sleeves.
+- num: 73
+  name: Dovetail slide with gib strip (dovetail ways)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Cast iron/steel ways, acetal or plastic gibs, printed PETG stages.
+- num: 74
+  name: Threadless ball screw (rolling-ring drive)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Hardened steel rod and bearings with a printed nut body.
+- num: 75
+  name: Reversing screw (diamond-thread or level-wind screw)
+  verdict: change
+  was: [3D prints, metal, carbon fibre or composites]
+  now: [3D prints, metal]
+  why: 'Removed carbon fibre: only evidence was carbon-filled PETG filament, not CF parts.'
+- num: 76
+  name: Multi-stage slide rigging (cascade and continuous string rigging)
+  verdict: change
+  was: [3D prints, metal, carbon fibre or composites]
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: 'Removed carbon fibre (evidence was kevlar line, not composite); added cord: the stages are pulled by braided line/string.'
+- num: 77
+  name: Oldham coupling
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Metal hubs with acetal/nylon disc; printed hubs and discs common (3D-printer Z axes).
+- num: 78
+  name: Jaw coupling (spider coupling)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Metal hubs, rubber spider; printed PETG hubs with TPU spider.
+- num: 79
+  name: Flexible beam coupling (helical-slot coupling)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Aluminium/stainless usual, acetal versions sold; printed versions for light loads.
+- num: 80
+  name: Universal joint (Hooke's joint, Cardan joint)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel joints, acetal and LEGO plastic versions; printed versions very common.
+- num: 81
+  name: Dog clutch (claw clutch)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel dogs, plastic LEGO/toy clutches, printed model gearboxes.
+- num: 82
+  name: Servo horn and spline hub
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Plastic and aluminium horns, printed horns/pockets; plywood arms screwed to horns (RC models).
+- num: 83
+  name: Series-elastic coupling (series elastic actuator)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, metal]
+  why: Removed carbon fibre (fibreglass plates only in research legged robots) and plastic (evidence was CF-nylon filament); makers
+    use printed housings with steel springs.
+- num: 84
+  name: Cam and follower (plate, barrel and face cams)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: Card and wood automata cams, printed cams, steel/plastic industrial cams.
+- num: 85
+  name: Scotch yoke
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel industrial, printed PLA demos, plywood/acrylic hand-cranked models.
+- num: 86
+  name: Slider-crank
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Metal engines, printed PLA/PETG, plywood or acrylic models.
+- num: 86
+  name: Slider-crank
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Its JSON lists "push-rods in automata".
+    Rob Ives'' ''Mechanism'' page lists a paper "crank slider mechanism" model'
+- num: 87
+  name: Four-bar linkage (incl. parallelogram linkage)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel/aluminium bars, wood/plywood/acrylic models and lamps, printed links.
+- num: 87
+  name: Four-bar linkage (incl. parallelogram linkage)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): Charles Darwin Primary DT document: card strips
+    joined with paper fasteners as loose and fixed pivots to make linkages. Rob Ives Lever kit'
+- num: 88
+  name: Rack and pinion
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel, brass and plastic racks bought; printed racks and pinions common.
+- num: 88
+  name: Rack and pinion
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Rob Ives ''Mechanism'' page: "The rack
+    and pinion is used to convert between rotary ..." (paper model)'
+- num: 89
+  name: Scissor linkage (lazy tongs, scissor lift)
+  verdict: change
+  was: [3D prints, wood, metal, glass or mirror]
+  now: [3D prints, wood, metal]
+  why: 'Removed glass or mirror: only evidence is the extending shaving-mirror product; the linkage is not used to hold or join glass
+    parts.'
+- num: 90
+  name: Iris mechanism
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Sheet brass, plywood/acrylic laser-cut blades, printed and moulded PP versions.
+- num: 91
+  name: Whippletree (load-equalising lever)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
+  why: Hardwood eveners, steel balance bars, acrylic/printed hand plates, cord tendons, and whiffletree cells that support telescope
+    mirrors (glass).
+- num: 92
+  name: Twisted-string actuator
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: 'Removed plastic and carbon fibre: evidence was nylon/aramid (Kevlar) strings, which are cord, not sheet plastic or composite.'
+- num: 93
+  name: Planetary gear set (epicyclic gearing)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Removed carbon fibre: evidence was PA11 carbon-fibre nylon filament, not CF parts.'
+- num: 94
+  name: Compound planetary gearbox (split-ring or Wolfrom planetary)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, metal]
+  why: Removed wood (no evidence; false match), carbon fibre and plastic (both from CF-filled polycarbonate filament); usually printed
+    with steel pins and bearings.
+- num: 95
+  name: Strain-wave gear (harmonic drive)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, metal]
+  why: 'Removed plastic: evidence was printed nylon flexsplines (already 3D prints); bought units are steel.'
+- num: 96
+  name: Cycloidal drive (cycloidal reducer)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Hardened steel industrial; printed discs with steel pins and bearings.
+- num: 97
+  name: Differential (bevel gear differential)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel car diffs, plastic RC and LEGO diffs, printed diffs.
+- num: 98
+  name: Bevel gears (incl. mitre and crown gears)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel, nylon and acetal bought gears; printed gears; wooden-toothed bevel and crown wheels (wooden gears are a maker staple).
+- num: 98
+  name: Bevel gears (incl. mitre and crown gears)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Rob Ives ''Mechanism'' page: "The bevel
+    gear is used to change the axis of ..." (paper model)'
+- num: 99
+  name: Herringbone and helical gears
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel and plastic bought gears; herringbone is the classic printed gear.
+- num: 100
+  name: Belt drives (timing, round and V-belt)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Removed carbon fibre and fabric/cord: both came from reinforcing cords and tooth facing inside bought belts (sub-parts); kept
+    plastic for bought plastic pulleys and PU round belts.'
+- num: 101
+  name: Capstan cable drive (tendon drive)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: Removed carbon fibre (Kevlar/Zylon rope, which is cord) and plastic (printed PET-CF/PC drums are 3D prints); Dyneema rope kept
+    as cord.
+- num: 102
+  name: Bowden cable (push-pull cable)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Steel wire in plastic-lined housing or PTFE tube; printed stops and levers; synthetic rope in robot Bowden tendons.
+- num: 103
+  name: Holding electromagnet (maglock)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, wood, metal]
+  why: 'Removed plastic: named only as not attracted; brackets are printed (3D prints). Kept wood: fitting to cabinet and bookcase doors.'
+- num: 103
+  name: Holding electromagnet (maglock)
+  verdict: change
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal, glass or mirror]
+  why: 'added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): "U brackets for frameless glass doors".'
+- num: 104
+  name: Electro-permanent magnet
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Steel/iron target plates on printed payloads and brackets.
+- num: 105
+  name: Solenoid latch (solenoid lock, electric strike)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Fits wood, metal or plastic doors and boxes; printed brackets and catches.
+- num: 106
+  name: Servo or motorised latch
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Boxes of wood, acrylic or plastic; printed cams and mounts; metal keepers.
+- num: 107
+  name: Shape-memory-alloy wire latch (nitinol muscle wire)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: 'Removed glass: only named as a heat-proof insulator touching the wire, not a material the latch is fitted to.'
+- num: 108
+  name: Electromagnetic brake (power-off, spring-applied)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Bought steel brake; printed mounts only.
+- num: 109
+  name: Vacuum (suction) gripper
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: Grips glass, steel, aluminium, hard plastic, varnished wood; printed manifolds. Cardboard left out (named as porous/poor).
+- num: 110
+  name: Granular jamming gripper (coffee-balloon gripper)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', paper or card, foam, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: Removed paper (layer-jamming cousin, not this gripper), glass (glass-bead grains, not objects held) and foam (ear plugs only
+    as a test object). Printed housing or kitchen funnel kept.
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Magnets in printed pockets, drilled wood and plastic catch housings; steel counterparts.
+- num: 111
+  name: Magnet joint (embedded magnets, magnetic catch)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Kamui Cosplay (as above). Its JSON: "cosplay parts that
+    should close with a satisfying click".; added clay or putty from the clay gap search (scope-search-2026-10-22-clay.md): Army Painter:
+    "Magnetising miniatures involves embedding small magnets into parts of the figures (like arms, weapons, heads) to make them interchangeable";
+    supermagnete clay fridge magnets glued on af'
+- num: 112
+  name: Switchable permanent magnet (rotary magnetic base)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, wood, metal]
+  why: 'Removed plastic: only a knob sub-part and named as a non-gripped material; printed housings are 3D prints. Wood kept for magnets
+    set into wooden jigs and featherboards.'
+- num: 113
+  name: Aluminium-extrusion connectors (T-slot nuts and brackets)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: 'Removed carbon fibre: only fibreglass strut channel for industrial corrosive sites. Acrylic, polycarbonate and wood panels kept.'
+- num: 114
+  name: Kinematic coupling (balls in V-grooves)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, metal]
+  why: Removed wood (no evidence; false match) and plastic (only printed plastic bodies, already 3D prints). Steel balls/pins in printed
+    or aluminium bodies.
+- num: 115
+  name: Self-centring cone and socket (taper locator)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: 'Removed glass: only laboratory ground-glass joints (bought lab glassware), not a way makers locate glass parts.'
+- num: 116
+  name: Keying (one-way-only fit, poka-yoke)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: 'Removed fabric/cord: evidence was a ribbon-cable plug (electrical), not textile or cord.'
+- num: 117
+  name: Constant-force spring (spring-return reel)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel strip spring with HDPE, PVC-pipe or printed drums; wooden counterbalanced lids.
+- num: 118
+  name: Ortho-planar spring
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Removed paper or card: evidence was a ''research paper'', not paper material.'
+- num: 119
+  name: Spring balancer (gravity compensation)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel springs, metal or wooden arms, printed links.
+- num: 120
+  name: Printed leaf spring (flat cantilever spring)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: 'Removed carbon fibre: only glass-fibre leaf springs in some cars (industrial). Kept wood (yew bows), PP/acetal sheet, spring
+    steel, printed.'
+- num: 121
+  name: Cam cleat
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: 'Removed carbon fibre: only the fibre-reinforced polymer of bought cleat cams/bases (that is moulded plastic). Rope, wooden mounting
+    pads kept.'
+- num: 122
+  name: Clam cleat (grooved V-cleat)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror, 'fabric, leather
+      or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Removed glass (false match on 'glass-fibre') and carbon fibre (fibre-filled moulded composite of bought cleats).
+- num: 123
+  name: Cam buckle (webbing cam buckle)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Webbing straps; zinc/steel or moulded plastic buckles; printed light-duty buckles.
+- num: 124
+  name: Ladder lock buckle (tension lock, tri-glide)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Webbing; moulded plastic or metal buckles; printed PETG ladder locks.
+- num: 125
+  name: Side-release buckle
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Webbing; moulded acetal/nylon or metal buckles; printed PETG buckles.
+- num: 125
+  name: Side-release buckle
+  verdict: unsure
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam, 'fabric, leather or cord']
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Same harness use (search results described straps and
+    buckles glued to foam armour with contact cement, but that Instructables page would not render, so ).'
+- num: 126
+  name: Cord lock (spring toggle)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Drawcord, paracord, shock cord; moulded plastic body; printed versions.
+- num: 127
+  name: Magnetic-assisted buckle (magnet guides, catch locks)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: 'Removed carbon fibre: only the carbon/glass-filled nylon grade of bought buckles (moulded plastic).'
+- num: 128
+  name: Belt tensioner (spring-loaded idler)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel/aluminium arms, plastic idlers, printed arms, plywood or acrylic laser-cut brackets.
+- num: 129
+  name: Eccentric adjuster (eccentric nut, spacer or bushing)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Metal eccentric spacers in metal, printed, acrylic or wood plates.
+- num: 130
+  name: O-ring seal
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Removed paper (''Formlabs white paper'' false match) and cord (rubber O-ring cord, not textile); added metal: O-rings seal metal
+    torch caps, pipe joints and hydraulic cylinders (housings ''any rigid material'').'
+- num: 131
+  name: Gasket (flat, cord-in-groove or cast-in-place)
+  verdict: change
+  was: [3D prints, wood, metal, paper or card, foam, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+  why: 'Added plastic: seals printed and moulded project and junction boxes. Kept paper (paper/fibre gasket sheet), foam (closed-cell
+    foam gaskets), felt and cord-in-groove.'
+- num: 131
+  name: Gasket (flat, cord-in-groove or cast-in-place)
+  verdict: unsure
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror, 'fabric, leather or cord']
+  why: 'added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Rubber seals on glass jar lids and flip-tops
+    (Wikipedia "Flip-top": "fitted with a rubber gasket").  The JSON itself has no glass quote.'
+- num: 132
+  name: Labyrinth seal (baffle seal)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Acetal, bronze, steel or plain plastic; printed labyrinths common.
+- num: 133
+  name: Hose barb (barbed tube fitting)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Brass, stainless or plastic barbs on soft PVC/silicone tubing; printed barbs.
+- num: 134
+  name: Cable gland and strain relief
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Removed fabric/cord: ''cord grips'' means electrical cable, not textile cord. Nylon or metal glands in plastic or metal boxes;
+    printed glands.'
+- num: 135
+  name: Slip ring and rotary union
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Bought slip rings with printed mounts; copper/brass rings and brushes; plastic housings.
+- num: 136
+  name: Cable carrier (drag chain, energy chain)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Moulded nylon or steel chains; one of the most printed functional parts.
+- num: 137
+  name: Cyanoacrylate (superglue)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
+  why: 'Removed glass: text says CA has poor long-term durability on glass and smooth glass is difficult. Kept foam (foam-safe CA) and
+    leather/natural fibres.'
+- num: 137
+  name: Cyanoacrylate (superglue)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty, 'fabric, leather or cord']
+  why: 'added clay or putty from the clay gap search (scope-search-2026-10-22-clay.md): Blue Bottle Tree: "To bond two pieces of cured
+    polymer clay that will not be baked again, use a flexible superglue such as Loctite Gel Control"; the standard glue for pinning
+    (Tabletop Gaming)'
+- num: 138
+  name: Two-part epoxy
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass or mirror]
+  why: Bonds metal, wood, glass, carbon/fibreglass composites and rigid plastics; epoxy putty sticks are part of the type.
+- num: 138
+  name: Two-part epoxy
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty, carbon fibre or composites, glass or mirror]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Swaylocks: "Epoxy resins are solvent free so they can
+    be used on any foam you choose." Airfield Models: slow epoxy for hinge points.'
+- num: 139
+  name: Solvent welding (solvent cement)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: Removed wood, metal and glass (text says it does not work on metals, glass, wood) and foam (only polystyrene model kits/foamed
+    PVC sheet, which are plastic; solvents attack XPS/EPS).
+- num: 140
+  name: UV-curing adhesive (incl. resin used as glue)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: Bonds glass, many plastics, metals and resin prints well; matches text.
+- num: 140
+  name: UV-curing adhesive (incl. resin used as glue)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, clay or putty, glass or mirror]
+  why: 'added clay or putty from the clay gap search (scope-search-2026-10-22-clay.md): Blue Bottle Tree (earring posts): "Some people
+    recommend pouring UV resin over the post backs for their polymer clay earrings. That works."'
+- num: 141
+  name: Hot-melt adhesive (glue gun)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or cord']
+  why: 'Removed metal and glass: text says hot glue is weak on smooth metal and glass (chills before wetting); keeps porous materials,
+    foam, card, fabric, plastics, prints.'
+- num: 142
+  name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: 'Removed foam: ''foam'' was the tape''s own foam core, not a material it bonds; wood kept (works on sealed or painted wood).'
+- num: 142
+  name: Double-sided foam tape (acrylic foam pressure-sensitive adhesive)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, glass or mirror]
+  why: 'added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): Adafruit Cardboard fundamentals: "Foam tape
+    with double sided adhesive is a quick way to join cardboard"; added foam from the foam gap search (scope-search-2026-10-22-foam.md):
+    Foldnfly: "Double-sided tape is another good option if hot glue isn''t available ... it only works for flat surfaces".'
+- num: 143
+  name: Magnetic coupling and magnetic gear
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: Removed carbon fibre or composites (fibreglass only as an industrial can wall); kept glass (drives through a glass beaker/tank
+    wall, magnetic stirrer).
+- num: 144
+  name: Tolerance ring (wavy-band press fit)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Removed wood: text says woodwork/laser cut are not suitable (can''t hold a round bore to size).'
+- num: 145
+  name: Centrifugal clutch
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Steel commercial clutches and printed demonstration/compliant clutches; matches text.
+- num: 146
+  name: Self-locking wedge (wedge clamp, taper key)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: Removed fabric (fabric door wedges a passing mention, not a self-locking wedge use); kept paper or card (folded card/paper shims
+    under a table leg).
+- num: 147
+  name: Inertia-locking reel (seat-belt lock, centrifugal catch)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Steel/plastic retractors with webbing; printed teaching models given in making tips.
+- num: 148
+  name: Woven self-tightening grip (finger-trap grip)
+  verdict: change
+  was: [3D prints, wood, metal, paper or card, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  why: Removed carbon fibre or composites (only aramid fibre grips, not composites); added plastic (grips hose and conduit; PET braided
+    sleeving).
+- num: 149
+  name: Rope grab and ascender (cam rope clamp)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: Removed carbon (CF-PETG/PC-CF is filament, covered by 3D prints) and plastic (only nylon/rubber grips and catches as sub-parts).
+- num: 150
+  name: Turnbuckle
+  verdict: ok
+  was: [3D prints, metal, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: Steel/stainless turnbuckles, printed versions, joins wire rope, rope and cable.
+- num: 151
+  name: Capstan and windlass (incl. differential windlass)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Metal or timber drums, PVC pipe maker versions, printed drums, rope; matches text.
+- num: 152
+  name: Shock-corded sectional pole
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  why: Aluminium, fibreglass or carbon tubes, PVC tube with printed joiners, shock cord.
+- num: 153
+  name: Ratchet tie-down strap (ratchet buckle)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, wood, metal, 'fabric, leather or cord']
+  why: Removed plastic (evidence was polypropylene webbing, which is the strap fabric); added wood (used as a band clamp for wooden
+    frame and box glue-ups).
+- num: 154
+  name: Guy-line slider (friction line tensioner)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Moulded plastic, aluminium, printed and traditional wooden runners on cord; matches text.
+- num: 155
+  name: Quick-release hooks (pelican hook, three-ring release)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: 'Removed plastic: the only evidence was nylon webbing risers (fabric); releases are metal or printed.'
+- num: 156
+  name: Spring-gate hook (carabiner, snap hook, lobster clasp)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Removed carbon fibre or composites (only nylon-carbon filament, covered by 3D prints); plastic kept for plastic bag snaps.
+- num: 157
+  name: Hook-and-loop fastener
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
+  why: Sewn onto fabric/leather; adhesive tape on plastics, metal, glass, painted wood and prints (3M data sheet).
+- num: 157
+  name: Hook-and-loop fastener
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror, 'fabric, leather or cord']
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Its JSON: "holds fabric, foam, straps and light panels".
+    Kamui Cosplay: "EVA foam holds fine with velcro or even magnets".'
+- num: 158
+  name: Zipper (slide fastener)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Plastic or metal teeth on fabric tapes; joins fabric, leather and plastic sheeting; printed sliders.
+- num: 159
+  name: Cam latch (quarter-turn cam lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Fits sheet metal, plastic, plywood/MDF and printed doors; matches text.
+- num: 160
+  name: Mechanical interlock
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Removed carbon fibre or composites (only glass-filled nylon housings of industrial safety switches); wood kept (plywood plates,
+    drawer interlocks).
+- num: 161
+  name: Pin-tumbler lock (and other tumbler locks)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: 'Kept wood although the evidence word was ''dowel'' (steel dowel pins): locks are fitted to wooden doors, drawers and lock boxes
+    (five-lever mortice locks on wooden doors).'
+- num: 162
+  name: Combination lock (wheel pack)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Metal padlocks, plastic wheel rims/luggage locks, printed cryptexes and lock boxes.
+- num: 163
+  name: Rotary latch (claw latch)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel latches fitted to sheet metal, plastic or wooden panels; printed light-duty versions.
+- num: 164
+  name: Folding-blade lock (liner lock, lockback, slip joint)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: Steel/titanium liners, printed training knives, woodwork handle scales.
+- num: 165
+  name: Tamper-evident breakaway bridge (frangible link)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Removed glass (only the bottle a plastic cap sits on); metal kept (laser-cut micro-joint tabs in sheet, metal security seals).
+- num: 166
+  name: Quick couplers for tubes and hoses (push-to-connect, sleeve lock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Plastic tube in plastic/brass fittings, soft metal tube, printed holders; matches text.
+- num: 167
+  name: DIN-rail clip (top-hat rail snap mount)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Removed carbon fibre or composites (only glass-filled nylon bought clips).
+- num: 168
+  name: Indexable clamping lever (ratchet handle)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Removed carbon (only glass-filled polyamide bought handles); added wood (fence, featherboard and T-track jig locks in the woodworking
+    shop).
+- num: 169
+  name: Spring bar (spring-loaded telescoping pin)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Stainless bars in metal, plastic or printed lugs holding leather, rubber, nylon straps.
+- num: 170
+  name: Band flange clamp (V-band clamp, tri-clamp)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, metal]
+  why: Removed carbon (PC-CF is filament) and plastic (evidence was only printed PETG/PC; the clamp joins metal tube, tanks and housings).
+- num: 171
+  name: Temporary sheet fastener (Cleco-type spring pin)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Steel Clecos on aluminium/steel sheet; printed Cleco plates for glued prints. Composite use is a passing mention.
+- num: 172
+  name: Press stud (snap fastener, popper)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  why: Snaps on fabric/leather; screw studs into fibreglass boats, wood or metal; plastic and printed snaps.
+- num: 172
+  name: Press stud (snap fastener, popper)
+  verdict: unsure
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, 'fabric, leather or cord']
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com: "Heavy-duty snaps through drilled
+    holes in the armor" (rigid armour; same use on foam ).'
+- num: 173
+  name: Spring-steel push-on fasteners (push nut, speed nut, U-nut)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Spring-steel clips bite on metal, plastic or wood (Tinnerman); printed shafts and bosses.
+- num: 174
+  name: Lamina emergent torsional joint (LET joint)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Removed glass (only a research metallic-glass membrane); keeps plywood, acrylic/polypropylene, spring steel, prints.
+- num: 175
+  name: Rolling-contact joint (CORE, Jacob's-ladder hinge)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Printed, acetal, PTFE or wooden blocks with ribbon, cord or metal-band straps; matches text.
+- num: 176
+  name: Mechanical metamaterial mechanism (shear-cell hinge arrays)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', foam]
+  why: Removed metal (spring steel named only as ideal but unprintable); kept foam (laser-cut 3 mm rubber foam worked best) and plastic
+    (laser-cut acrylic links with TPU hinges).
+- num: 177
+  name: Tape-spring hinge (measuring-tape fold)
+  verdict: change
+  was: [3D prints, metal, carbon fibre or composites, glass or mirror]
+  now: [3D prints, metal]
+  why: Removed glass (evidence was glass-fibre composite) and carbon fibre (composite tape springs only for space hinges, 'advanced');
+    steel tape blade with printed clamps.
+- num: 177
+  name: Tape-spring hinge (measuring-tape fold)
+  verdict: change
+  was: [3D prints, metal]
+  now: [3D prints, metal, carbon fibre or composites]
+  why: 'added carbon fibre or composites from the composites gap search (scope-search-2026-10-22-composites.md): results JSON: "Fibre
+    composites (glass, Kevlar, carbon) for space hinges and booms"'
+- num: 178
+  name: Origami mechanisms (waterbomb, Kresling, thick-panel origami)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites, 'fabric, leather
+      or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam, 'fabric, leather or cord']
+  why: Removed carbon (only carbon-filled filament) and metal (a metal plate in a research foldable circuit board).
+- num: 179
+  name: Press-fit and expanding inserts (tap-in insert)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Metal inserts pressed into plastic, prints (FDM and resin) and wood/particle board.
+- num: 180
+  name: Gimbal
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Metal, plastic (styrene sheet), plywood and printed rings; matches text.
+- num: 181
+  name: Clip-on concealed hinge (cup hinge)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, wood, metal, glass or mirror]
+  why: Removed plastic (only the hinge's own plastic cup; doors are 16-26 mm wood, MDF or particleboard); glass kept (26 mm glass-door
+    versions).
+- num: 182
+  name: Invisible barrel hinge (Soss-type)
+  verdict: change
+  was: [3D prints, wood, metal, carbon fibre or composites]
+  now: [3D prints, wood, metal]
+  why: Removed carbon fibre or composites (only carbon-fibre PC filament, covered by 3D prints).
+- num: 183
+  name: Virtual-pivot linkage (remote centre of motion)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Printed links with metal screws and bearings, machined metal, laser-cut acrylic or plywood links.
+- num: 184
+  name: Self-closing hinges (spring hinge, rising butt hinge)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Metal hinges on doors/gates/lids (woodwork), printed knuckles; plastic kept for printer-enclosure doors and light plastic-spring
+    versions.
+- num: 185
+  name: Lid and flap stays (folding stay, friction stay)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Metal stays fitted to wooden chests/desks, printed stays, laser-cut acrylic or plywood arms.
+- num: 186
+  name: Drawer slide (telescopic ball-bearing slide)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, wood, metal]
+  why: Removed plastic (only the slide's plastic ball cage, a sub-part); metal slides fitted in wooden cabinets, printed slides.
+- num: 187
+  name: Ball screw
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, metal]
+  why: Removed plastic (only moulded ball-return parts inside commercial nuts, a sub-part); steel screws, printed demo screws.
+- num: 188
+  name: Differential screw (fine adjustment screw)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel screws with brass nuts, nuts in printed parts or self-threaded PTFE blocks.
+- num: 189
+  name: Rigid chain actuator (zip chain, push chain)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel chains, printed PLA links, LEGO chain links (bought plastic parts).
+- num: 190
+  name: Spline shaft (sliding spline)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Steel/aluminium hex shaft, LEGO Technic plastic axles, printed hubs; matches text.
+- num: 191
+  name: Constant-velocity joint (CV joint)
+  verdict: change
+  was: [3D prints, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Added plastic: LEGO Technic CV joints are an everyday example and printed fischertechnik/LEGO-compatible joints (bought plastic
+    parts).'
+- num: 192
+  name: Friction clutch (plate or cone clutch)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: Removed wood and paper (only historic wood linings and industrial paper-based wet-clutch composites) and plastic (only printed
+    nylon); fabric kept (leather/felt facings recommended for maker clutches).
+- num: 193
+  name: Keyless locking bush (taper-lock bush, shaft locking device)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, metal]
+  why: 'Removed plastic: text says not suitable for plastic hubs; 3D prints kept (printed pulley bolted to a metal taper-lock bush).'
+- num: 194
+  name: Schmidt coupling (offset coupling)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: Steel commercial couplings and printed PLA demonstrators.
+- num: 195
+  name: Flexible drive shaft (rotating cable)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, metal]
+  why: Removed plastic (only the Rilsan cover of a bought casing, a sub-part); bought steel shaft with printed mounts.
+- num: 196
+  name: Quick-return mechanism (Whitworth, crank and slotted lever)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Printed models, metal machine tools, laser-cut acrylic/plywood or wooden automata links.
+- num: 197
+  name: Straight-line linkages (Watt, Chebyshev, Peaucellier)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: Printed bars, LEGO Technic beams, card (Kempe), thin wood/plywood, metal links. Wood evidence word was 'dowel' but woodwork/plywood
+    is in processes.
+- num: 198
+  name: Escapement (anchor or verge escapement)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: Brass/steel clocks, printed clocks, traditional wooden gear clocks and Harrison's wooden pallets.
+- num: 199
+  name: Bell crank (angle lever)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: Moulded nylon RC bellcranks, metal, printed, plywood/acrylic and card teaching models.
+- num: 200
+  name: Swashplate and wobble plate
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Metal or plastic RC swashplate rings, printed demonstration swashplates.
+- num: 201
+  name: Anti-backlash gear (split scissor gear)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, metal]
+  why: 'Removed plastic: only evidence was printed nylon/PLA halves (covered by 3D prints); catalogue gears are steel/aluminium.'
+- num: 202
+  name: Chain and sprocket drive
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel or plastic chain, printed sprockets, plate sprockets in metal, polycarbonate or plywood.
+- num: 203
+  name: Non-circular gears
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Printed, laser-cut acrylic/MDF/plywood and industrial metal gears; matches text.
+- num: 204
+  name: Lantern gear (pin gear)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Wooden discs with dowels, metal pins, acrylic or aluminium plate, printed discs.
+- num: 205
+  name: Friction drives and CVTs (friction wheel, variator)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Removed paper or card (paper facings only historical); leather facing kept (507 Mechanical Movements recommends it).
+- num: 206
+  name: Pulley system (block and tackle, differential hoist)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Removed carbon fibre or composites (evidence was aramid/Spectra rope, which is cord).
+- num: 207
+  name: Electromagnetic clutch
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, metal]
+  why: Removed plastic (only the moulded gear that comes on a bought printer micro clutch, a sub-part); printed pulleys and brackets
+    kept.
+- num: 208
+  name: Thermal actuators (bimetal strip, wax motor)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, metal]
+  why: removed plastic; matched only "printed plastic suits the brackets", which is 3D prints; no plastic-sheet use in text
+- num: 209
+  name: Burn-wire and fusible-link release (one-shot thermal release)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: removed wood (false match on "Wood's metal"); plastic kept for SensorDrop's polycarbonate strip mount
+- num: 210
+  name: Compression fitting (ferrule fitting)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: brass/steel and plastic fittings on copper and plastic pipe; printed PTFE-tube nuts and couplings
+- num: 211
+  name: Friction brake (band, drum or disc brake)
+  verdict: ok
+  was: [3D prints, wood, metal, 'fabric, leather or cord']
+  now: [3D prints, wood, metal, 'fabric, leather or cord']
+  why: printed spool brakes, metal discs, laser-cut plywood discs and leather/felt linings all named for maker brakes
+- num: 212
+  name: Eddy-current brake (magnetic brake)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, wood, metal]
+  why: removed plastic; matched only "printed plastic can only hold the magnets", and plastic is named as non-conducting; wooden magnet
+    mount (girogeek) kept
+- num: 213
+  name: Speed governor (fly fan, centrifugal governor)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: printed governors, moulded plastic cuckoo governors, brass vanes, card/wood/thin-plastic fans in wooden automata
+- num: 214
+  name: Dampers (rotary and linear soft-close dampers)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: removed glass; only the inside cylinder of a bought Airpot dashpot is glass (tiny sub-part)
+- num: 215
+  name: Elastomer isolation mount (rubber bobbin mount, isolator grommet)
+  verdict: ok
+  was: [3D prints, wood, metal, foam]
+  now: [3D prints, wood, metal, foam]
+  why: printed TPU isolators, steel bobbins, wooden machine bases; dense foam pads named as isolators by makers and Wikipedia
+- num: 216
+  name: Suction cup
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: removed wood (false match on "Wood's Powr-Grip"; wood is named as a porous surface it fails on)
+- num: 217
+  name: Taper fit (Morse taper)
+  verdict: change
+  was: [3D prints, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: added plastic for moulded plastic Luer fittings joining syringes and small tubes in hobby fluid work
+- num: 218
+  name: Press fit (interference fit)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: removed glass; named only as brittle and cracking when pressed
+- num: 219
+  name: Collet (and keyless chuck)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: steel collets, nylon emergency collets, printed PETG collets for rods and tubes
+- num: 220
+  name: Clamp-on tube fittings (slip-on structural fittings)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed wood; only "[uncertain] wooden clamp blocks are possible, but no tested source"; kept printed connectors for PVC tube
+- num: 220
+  name: Clamp-on tube fittings (slip-on structural fittings)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  why: 'added carbon fibre or composites from the composites gap search (scope-search-2026-10-22-composites.md): DragonPlate and UWRT
+    list slip-on/clamp-on framing fittings as "noninvasive" ways to join carbon tubes (UWRT wiki links McMaster clamp-on fittings)'
+- num: 221
+  name: Internal tube anchors (star nut, expansion plug)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  why: printed plugs, PVC pipe, steel/aluminium tube; expansion plugs named as suited to carbon tubes
+- num: 222
+  name: Blind threaded fixings (rivet nut, well nut)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  why: rivet nuts in sheet metal, plastics, composites; well nuts in plywood and in glass and brittle panels (Wikipedia 'Well nut');
+    inserts in prints
+- num: 223
+  name: PVA wood glue (white and yellow glue)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [wood, paper or card, 'fabric, leather or cord']
+  why: removed metal ("can corrode metal"), plastic and 3D prints (listed as poor/no bond; Prusa says not strong enough for plastics)
+- num: 223
+  name: PVA wood glue (white and yellow glue)
+  verdict: change
+  was: [wood, paper or card, 'fabric, leather or cord']
+  now: [wood, paper or card, foam, clay or putty, 'fabric, leather or cord']
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Studio Matrx: "PVA is foam-safe; solvent glue melts foam".;
+    added clay or putty from the clay gap search (scope-search-2026-10-22-clay.md): Art Shed (air-dry clay): "Once your clay piece is
+    dry, use PVA glue to secure the extra pieces"'
+- num: 224
+  name: Contact adhesive (contact cement)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+  why: bonds laminate, wood, metal, paper/card, EVA and PU foam, leather and fabric; Prusa suggests it for TPU prints
+- num: 225
+  name: Polyurethane glue (foaming moisture-cure glue)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, glass or mirror]
+  why: bonds wood, metal, rigid PVC, rigid foam board, fibreglass, glass (job line); PU construction adhesive won a PETG print test
+- num: 226
+  name: Structural acrylic and low-surface-energy plastic adhesives (for PE and PP)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  why: removed paper (false match on "3M white paper") and foam (matched solid polystyrene, no foam named)
+- num: 227
+  name: Silicone and MS-polymer adhesive sealants
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: bonds glass, metal, wood, ABS/PC plastics; sealing printed enclosures
+- num: 227
+  name: Silicone and MS-polymer adhesive sealants
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, glass or mirror]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Loctite AU: insulation foam boards are best glued "with
+    construction adhesive" (227 already mentions construction adhesive).'
+- num: 228
+  name: Elastomeric solvent glue (flexible craft glue)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, carbon fibre or composites,
+    glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass or mirror,
+    'fabric, leather or cord']
+  why: removed paper and foam; data sheets say do not use on paper, polystyrene or Styrofoam (paper matched "Blue Paper Tech"); polymer
+    clay kept (E6000 Jewelry & Bead)
+- num: 229
+  name: Anaerobic adhesive (threadlocker, retaining compound)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam]
+  now: [metal]
+  why: metal-to-metal only; text says keep it off printed plastic and plastics are not suitable (plastic matched "thermoset plastic",
+    foam matched "polystyrene")
+- num: 230
+  name: Stretch-release adhesive strips
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: removed foam (only the strip's own PE-foam backing) and carbon (no evidence); kept painted/sealed wood, acrylic, glass, printed
+    hooks
+- num: 231
+  name: Hide glue (animal glue)
+  verdict: change
+  was: [3D prints, wood, paper or card, glass or mirror, 'fabric, leather or cord']
+  now: [wood, paper or card, 'fabric, leather or cord']
+  why: removed 3D prints (text says not applicable) and glass (only decorative glass chipping, not a joint)
+- num: 232
+  name: Epoxy putty (kneadable two-part putty)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, carbon fibre or composites, glass or mirror]
+  why: bonds metal, wood, glass, fibreglass, PVC and rigid plastics; fills prints; it is itself a putty that makers sculpt and build
+    up
+- num: 233
+  name: Elastic averaging (many-feature alignment)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed ribs and studs, moulded plastic (LEGO), metal Hirth couplings
+- num: 234
+  name: Locating pins and hole-and-slot
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: parts located include metal, wood, plastic mouldings and prints; dowels in wooden jigs
+- num: 235
+  name: Exact-constraint mounting (3-2-1 locating)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: added glass; when_to_use names mounting lenses and mirrors so they are not bent (and the scanner-glass example)
+- num: 236
+  name: Wave and disc springs (compact axial springs)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, metal]
+  why: removed plastic (matched only "printed wave springs") and wood (passing note to put a washer under them on soft materials)
+- num: 237
+  name: Gas spring (incl. lockable gas spring)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed brackets; text says it suits wood, metal and plastic lids (toy boxes, cabinet doors)
+- num: 238
+  name: Spiral power spring (clock spring)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: removed plastic (only printed spirals) and wood (laser-cut wooden springs marked uncertain); kept cord for retracting cord, lead
+    and belt reels
+- num: 239
+  name: Tab-and-slot joint (self-fixturing sheet joint)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: laser-cut plywood/MDF/acrylic/card, sheet metal, printed plates
+- num: 239
+  name: Tab-and-slot joint (self-fixturing sheet joint)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Studio Matrx (foam-board models): "joining with butt,
+    mitre and self-jigging tab-and-slot joints".'
+- num: 240
+  name: T-slot joint (captive nut and bolt joint)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: plywood, MDF, acrylic and cut metal plate; printed plates possible with tips given
+- num: 241
+  name: Snap-lock sheet joint (barbed or spring finger)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  why: acrylic, card, felt and leather; MDF and plywood springFit; duct sheet metal; printed plates
+- num: 242
+  name: Cross-halving slot joint (egg-crate joint)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: plywood, acrylic, cardboard, sheet metal and printed plates all named
+- num: 243
+  name: Finger joint (box joint)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  why: wood, plywood, MDF, acrylic and printed panels
+- num: 244
+  name: Kerf bending (laser-cut living hinge)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  why: removed paper; text says thick card "may work but was not covered by the sources [uncertain]" (card bends without kerfs anyway)
+- num: 244
+  name: Kerf bending (laser-cut living hinge)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Core77: foam-core strip "Kerf cut it on the inside face
+    every 1/8" or so to create the curves". Costumary: EVA valley cuts "2-3cm apart for smooth curves".'
+- num: 245
+  name: Dovetail joint (through and half-blind)
+  verdict: change
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood]
+  why: removed metal; metal dovetails are named only as mostly sliding dovetails in machine tools and turbines, not corner joints makers
+    cut
+- num: 246
+  name: Sliding dovetail
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, wood, metal]
+  why: removed plastic; matched only "the wood (or plastic) would crush" and text says unsuited to thin sheet; printed and metal rails
+    (sight rails, slides) kept
+- num: 247
+  name: Mortise and tenon (incl. wedged, drawbored and tusk tenons)
+  verdict: change
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood]
+  why: removed metal; only a passing "and metal by blacksmiths (Wikipedia)" mention
+- num: 248
+  name: Butterfly key (bow-tie key)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, wood]
+  why: removed metal and glass (text says "for metal or glass, use other fixings") and plastic (matched only "printed plastic")
+- num: 249
+  name: Japanese interlocking joints (splices and three-way corners)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints, wood]
+  why: removed plastic; matched only "3D-printed plastic puzzle joints"
+- num: 250
+  name: Knock-down cam-lock and cross-dowel connectors
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: wooden board panels; fittings bought in zinc/steel or plastic; printed PETG replacement cams
+- num: 251
+  name: Wedge dowel (click-in grooved dowel)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  why: wood or plastic dowels in wooden furniture; printed replacement dowels
+- num: 252
+  name: Lever-cam panel connector (self-clamping click connector)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [wood]
+  why: text says "not made for plastic, metal or 3D-printed panels"; the plastic, zinc and glass-fibre matches are the bought connector's
+    own sub-parts; prints are only drill jigs
+- num: 253
+  name: Folded seam (hem, lock seam, Pittsburgh lock)
+  verdict: change
+  was: [metal, paper or card]
+  now: [metal]
+  why: removed paper; "same idea works for folded paper and card" is marked uncertain and has no maker example
+- num: 254
+  name: Bent or twisted tab through a slot (lanced tab)
+  verdict: ok
+  was: ['plastic sheet, tube or moulded parts', metal, paper or card]
+  now: ['plastic sheet, tube or moulded parts', metal, paper or card]
+  why: thin sheet metal; long tabs clamp an acrylic window to a metal frame (SendCutSend); card uses folded tabs (common in card models)
+- num: 255
+  name: Clinching (press joining without rivets)
+  verdict: change
+  was: [wood, metal, paper or card, 'fabric, leather or cord']
+  now: [metal]
+  why: removed wood, card and fabric; only industrial special-tooling cases (wood-metal composites, cardboard, a fabric layer between
+    sheets)
+- num: 256
+  name: Self-clinching fastener (press-in nut or stud)
+  verdict: ok
+  was: [metal]
+  now: [metal]
+  why: only ductile sheet metal; text says not applicable to prints or plastics
+- num: 257
+  name: Ordinary screw joint (bolt and nut, machine screw)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: added composites; materials say bolts clamp "metal, wood, plywood, plastics, 3D prints, acrylic and composites"
+- num: 258
+  name: Self-tapping screw into plastic (thread-forming screw)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed wood; wood screws are only named as a related type with their own entry; kept metal for sheet-metal self-tapping and
+    self-drilling screws in processes
+- num: 259
+  name: Retaining ring (circlip, E-clip)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: removed paper (false match on "Rotor Clip white paper")
+- num: 260
+  name: Thread-locking hardware (nylon-insert nut, lock washer, split pin)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: joint can be metal, wood or plastic; nylon-insert nuts in printed nut traps and on bolts through wood
+- num: 260
+  name: Thread-locking hardware (nylon-insert nut, lock washer, split pin)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: 'added carbon fibre or composites from the composites gap search (scope-search-2026-10-22-composites.md): FPV frame manual (Speed
+    Addict): "The rest of the screws are threaded to nylock nuts"; Loctite included'
+- num: 261
+  name: Tool-free fasteners (thumbscrew, wing nut, hitch pin and R-clip)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: join metal, wood and plastic parts; printed knobs; moulded plastic knobs
+- num: 262
+  name: Basic latches (spring latch, slide bolt, hook and eye)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: bought metal latches; printed latches; fits wood, metal, printed and laser-cut parts
+- num: 263
+  name: Knuckle hinge (butt hinge)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: metal hinges joining wood, metal, plastic and printed parts; printed hinges
+- num: 264
+  name: Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel pins, plastic bushings, printed housings, wooden dowel pivots
+- num: 264
+  name: Plain pivot and rolling bearing (pin in hole, shoulder bolt, ball bearing)
+  verdict: unsure
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): Adafruit: rivets "can be used for rotating
+    pivot points and joints" in cardboard; skewer axles in card automata are pin-in-hole pivots  (no page opened for skewers)'
+- num: 265
+  name: Linear guides (bushings on rods, wheels or carriages on rails)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: steel rods and rails, plastic bushings, printed carriages, wooden runners, carbon-fibre tubes with plastic bushings (gm0)
+- num: 266
+  name: Shaft-to-hub joints and rigid couplings (key, set screw, D-flat, clamp hub)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: metal and plastic hubs, printed D-bore hubs, wooden wheels pinned on dowel axles
+- num: 267
+  name: Spur gear pair and gear train (simple, compound, idler)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: removed paper; matched only "wooden gears cut from paper templates" (the template, not the gear material)
+- num: 267
+  name: Spur gear pair and gear train (simple, compound, idler)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Rob Ives ''Mechanism'' page: "Gears are
+    used to change speed in rotational movement" (paper model)'
+- num: 268
+  name: Coil spring (compression, extension, torsion)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel springs with printed parts; spring seats in wood, acrylic or metal parts; wooden clothes peg example
+- num: 269
+  name: Basic strap and garment closures (prong buckle, button, toggle and loop)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: removed glass; named only among historical button materials (horn, bone, glass, vegetable ivory)
+- num: 269
+  name: Basic strap and garment closures (prong buckle, button, toggle and loop)
+  verdict: unsure
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com: harness with "nylon webbing, adjustable
+    buckles, and D-rings" carrying the armour.'
+- num: 270
+  name: Glued joint design (butt, lap and scarf joints; peel vs shear)
+  verdict: change
+  was: [3D prints, wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: added composites (scarf and strap joints for "metals and composites"; lengthening composite) and plastic (applies to plastics,
+    laser-cut slot-and-tab glue faces)
+- num: 270
+  name: Glued joint design (butt, lap and scarf joints; peel vs shear)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, carbon fibre or composites]
+  why: 'added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): A glue tab is a lap joint in shear (Canon/Zealot
+    sources). Tag so readers reach the peel-versus-shear rules; added foam from the foam gap search (scope-search-2026-10-22-foam.md):
+    Costumary: EVA bevel at 45 degrees "creates a natural glue channel that strengthens the joint" (a glued mitre/scarf).; added clay
+    or putty from the clay gap search (scope-search-2026-10-22-clay.md): Blue Bottle Tree (flexible glue): polymer clay flexes, so rigid
+    glue to metal fails in peel or shock; bigger, roughened bond areas help. General design rules apply (lower confidence tag)'
+- num: 271
+  name: Butt and lap wood joints (screwed, pocket-hole, half-lap)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  why: removed paper (false match on "corrugated fasteners") and metal (passing "lap joints also join metal"; metal laps belong to weld/rivet
+    entries); kept glued acrylic butt joints
+- num: 271
+  name: Butt and lap wood joints (screwed, pocket-hole, half-lap)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Studio Matrx: foam-board butt and "Mitre 45°" corners.
+    Core77: cube with "3 edges are 45 degree miters".'
+- num: 272
+  name: Dowel and biscuit joints
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, wood]
+  why: removed plastic and metal; only a passing "plastic and metal dowels exist"; the joint is for wood and board, with printed dowels
+    for split prints
+- num: 273
+  name: Tongue-and-groove joint (incl. sliding-lid grooves)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  why: wooden boards, printed sliding-lid boxes, laser-cut acrylic sliding-lid boxes
+- num: 273
+  name: Tongue-and-groove joint (incl. sliding-lid grooves)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): DuPont: Styrofoam XPS boards with "tongue and groove
+    edges on all four sides" ("Lockable Edges Speed Installation").'
+- num: 274
+  name: Blind rivet (pop rivet)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, 'fabric, leather
+      or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, 'fabric, leather
+      or cord']
+  why: sheet metal, plastics, plywood cases, leather and fabric, cardboard with a washer, fibreglass; printed parts riveted to hulls
+- num: 275
+  name: Iris valve (twisted-sleeve valve)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: metal bodies, fabric sleeves, printed pinch clamps on silicone or PVC tubing
+- num: 276
+  name: Twisted-and-coiled polymer muscle (fishing-line artificial muscle)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'fabric, leather or cord']
+  why: removed plastic (the nylon line is cord/thread, covered by fabric) and metal (only the thin heater wire, a sub-part); printed
+    jigs and robot hands kept
+- num: 277
+  name: Bernoulli gripper (non-contact air gripper)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, glass or mirror, 'fabric, leather or cord']
+  why: 'added paper or card: difficulty says a printed nozzle lifts paper, card, film; index-card levitator example'
+- num: 278
+  name: Tendon-driven joint (cable-pulled finger or tentacle)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: printed fingers, plastic/metal guides and tubes, braided-line tendons
+- num: 279
+  name: Walking linkage (Jansen and Klann leg mechanisms)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: PVC tube, wood, plywood/acrylic/aluminium bars, printed legs; nylon thread and fabric sails on Strandbeests
+- num: 280
+  name: Magnetic detent (magnet click stops)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed, wood, acrylic or aluminium housings with magnets
+- num: 281
+  name: Multi-material interlock (co-printed rigid and flexible parts)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  now: [3D prints]
+  why: 'removed plastic and fabric: purely a co-printing technique; ''fabric'' came only from the ''like woven fabric'' analogy'
+- num: 282
+  name: Elastic band and elastic cord springs (elastomer springs)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: rubber bands/cord anchored on printed, wood or metal parts; cord itself
+- num: 282
+  name: Elastic band and elastic cord springs (elastomer springs)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, 'fabric, leather or cord']
+  why: 'added paper or card from the pop-ups gap search (scope-search-2026-10-22-pop-ups.md): Rubber bands power snap-up card cubes
+    (Alliance Rubber DIY pop-up cube; Instructables ''Pop Up Box''); added foam from the foam gap search (scope-search-2026-10-22-foam.md):
+    Model Aviation FAQ 2013/04: wings held down with rubber bands, "three rubber bands on each side"; Flite Test Old Fogey: skewers
+    through the foam fuselage hold the wing on with rubber bands.; added clay or putty from the clay gap search (scope-search-2026-10-22-clay.md):
+    Its JSON: "ball-jointed dolls strung with thick elastic (Wikipedia ''Ball-jointed doll'')"'
+- num: 283
+  name: Soft pneumatic bending actuator (air-powered soft finger)
+  verdict: ok
+  was: [3D prints, paper or card, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, paper or card, carbon fibre or composites, 'fabric, leather or cord']
+  why: TPU prints or cast silicone with a paper, fabric or carbon-fibre fabric strain layer
+- num: 284
+  name: Scroll mechanism (self-centring scroll chuck, spiral-slot plate)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed, metal chucks; grips wood, metal, plastic
+- num: 285
+  name: Multi-turn rotation limiter (travelling-nut and stacked-ring stops)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed rings, acrylic/plywood rings, metal stops
+- num: 286
+  name: Genderless connector (hermaphroditic coupling)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed halves; plastic Powerpole/Dual Lock; brass or aluminium Storz couplings
+- num: 287
+  name: Gearless right-angle drive (Hobson's joint, elbow mechanism)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: printed demonstrators, steel or aluminium rods; woodwork hubs with bent wire
+- num: 288
+  name: Pneumatic artificial muscle (McKibben muscle)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: 'removed carbon fibre (only fibreglass/aramid braids in research and Festo, not composites); added fabric: the muscle''s outer
+    layer is braided polyester sleeving, Kevlar thread clamps'
+- num: 289
+  name: 'Check valve (one-way valve: flap, ball or duckbill)'
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: removed carbon fibre (only engine reed valves, industrial); kept leather flap reeds in traditional pumps and bellows
+- num: 290
+  name: Bellows boot and way cover (gaiter)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: 'removed carbon fibre: only industrial silicone/PTFE-coated fibreglass fabric bellows, which are fabric not composites'
+- num: 291
+  name: Anti-twister mechanism (twist-free cable feed)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed demonstrator, plastic tubing and gears, metal gears and bearings
+- num: 292
+  name: Weight-activated gripping tongs (lifting tongs, lewis)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: steel tongs, printed or plywood/acrylic demonstrators; grips timber and steel
+- num: 293
+  name: Variable-radius pulley (fusee, compound-bow cam)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: 'removed carbon fibre: only commercial compound-bow risers/limbs; makers print or laser-cut pulleys with cord'
+- num: 294
+  name: Tuned mass damper (vibration absorber)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: printed arms, wooden demo models, steel weights
+- num: 295
+  name: Radial lip seal (rotary shaft seal, oil seal)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: bought seal pressed into printed or metal housings on steel shafts
+- num: 296
+  name: Knife-edge and jewel pivots (low-friction point pivots)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: printed or wooden beams with steel edges on steel or glass seats; glass jewels
+- num: 297
+  name: Hand-mouldable thermoplastic (polycaprolactone)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: removed wood (text says it won't attach to wood; plywood only as a mould) and foam (evidence was 'polystyrene', a plastic, not
+    foam); keeps ABS/acrylic/PVC, metal, fabrics
+- num: 298
+  name: Reciprocal frame (self-supporting stick bridge)
+  verdict: ok
+  was: [3D prints, wood, metal, 'fabric, leather or cord']
+  now: [3D prints, wood, metal, 'fabric, leather or cord']
+  why: timber, printed beams, steel; fabric kept for rope or sisal lashings at crossings (evidence quote was a negation but lashing
+    is real)
+- num: 299
+  name: Housing and rebate joints (dado, rabbet)
+  verdict: change
+  was: [3D prints, wood, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, glass or mirror]
+  why: 'added plastic: printing tip uses slots and rebates to hold acrylic panels; glass kept for picture-frame and window rebates'
+- num: 299
+  name: Housing and rebate joints (dado, rabbet)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam, glass or mirror]
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Core77: "I own a couple of rabbet cutters, they work
+    better than mitered edges" (foam board); "3/16" rabbit cut along the entire perimeter".'
+- num: 300
+  name: Syringe hydraulics (hydraulic lever, Pascal's principle)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: 'removed fabric: only Disney Research fabric-reinforced diaphragms (research prototype)'
+- num: 300
+  name: Syringe hydraulics (hydraulic lever, Pascal's principle)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: 'added paper or card from the paper gap search (scope-search-2026-10-22-paper.md): OSU Maker Club: "simple hydraulic arms using
+    cardboard and syringes with tubing and water"; jpralves summary: arm "entirely made with cardboard and a couple of syringes"'
+- num: 301
+  name: Air or hydraulic cylinder (pneumatic cylinder, hydraulic ram)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'removed fabric: only fabric-reinforced resin wear bands inside industrial cylinders'
+- num: 302
+  name: Switching valve (directional control valve, solenoid valve)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed low-pressure valves, plastic and brass bought valves
+- num: 303
+  name: Peristaltic pump (tube pump, roller pump)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed housings, plastic tubing, metal bearings and heads
+- num: 304
+  name: Venturi vacuum generator (vacuum ejector, aspirator)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: printed ejectors, plastic and metal bodies; glass lab water aspirators are a common bought form
+- num: 305
+  name: Bellows and inflatable actuators (air bag, air spring)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: 'removed carbon fibre: only Kevlar-reinforced rubber rescue cushions (industrial, not composites); kept fabric for fabric-reinforced
+    bags and ripstop pouches'
+- num: 306
+  name: Air-logic valve (pneumatic logic, soft bistable valve)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'removed paper: parchment paper is only a release layer used while heat-sealing film'
+- num: 307
+  name: Tesla valve (no-moving-parts one-way channel)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts']
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: printed or laser-cut acrylic channels
+- num: 308
+  name: Vacuum-driven artificial muscle (origami vacuum muscle)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, foam, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, foam, 'fabric, leather or cord']
+  why: skeletons of card, foam, printed parts, steel sheet or springs in film or TPU-coated fabric skins; card-in-sandwich-bag example
+- num: 309
+  name: Syringe pump (syringe driver)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: 'removed paper: evidence was ''poseidon paper'' (a citation); kept glass syringes'
+- num: 310
+  name: Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, 'fabric, leather or cord']
+  why: printed TPU bulbs, plastic diaphragms, wooden boards with leather sides for hand bellows
+- num: 311
+  name: Air tank and hydraulic accumulator (pressure reservoir)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: bought metal or plastic tanks; printed mounts only
+- num: 312
+  name: Pressure regulator (pressure-reducing valve)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'removed paper: evidence was ''Nature µPR paper'' (a citation)'
+- num: 313
+  name: Pressure relief valve (safety valve, pop-off valve)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: brass or steel bought valves; printed vacuum relief valves
+- num: 314
+  name: Speed-control valve (flow control valve, needle valve)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: brass or plastic bought valves; printed roller clamps
+- num: 315
+  name: Shut-off valve (tap, ball valve, stopcock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: printed low-pressure valves, PVC and brass valves; glass lab stopcocks
+- num: 316
+  name: Vacuum hold-down table (vacuum table)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites, 'fabric, leather
+      or cord']
+  why: 'added paper or card and fabric: laser-cutter vacuum beds ''hold paper, fabric and film flat''; holds carbon/glass fibre and
+    foam board'
+- num: 317
+  name: Gear pump (including gerotor)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed pumps, acrylic lids, metal bodies
+- num: 318
+  name: Rotary air actuator (vane or rack-and-pinion rotary actuator)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed pneumatic steppers in PLA/PC; aluminium or steel bought units
+- num: 319
+  name: Float valve (ballcock)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: brass or plastic bought valves; printed low-pressure valves
+- num: 320
+  name: Hydraulic ram pump (water-hammer pump)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: PVC fittings with brass valves; printed demonstrators; metal rams
+- num: 321
+  name: Air bearing and air caster (air-cushion bearing)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  why: 'removed wood: only ''varnished hardwood'' floors for industrial air casters; kept glass as the flat guide surface'
+- num: 322
+  name: Centrifugal pump (impeller pump)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed pumps; plywood/acrylic DIY pump; plastic and metal bought pumps
+- num: 323
+  name: Automatic siphon (bell siphon)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', clay or putty]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: 'removed clay or putty: evidence was expanded clay balls used as grow medium, not a part material'
+- num: 324
+  name: Soldered wire joint (soldered splice)
+  verdict: change
+  was: [3D prints, metal]
+  now: [metal]
+  why: 'removed 3D prints: text says the joint can''t be printed; prints are only jigs and enclosures around it, not parts it joins'
+- num: 325
+  name: Wood screw (including coach screw and Confirmat screw)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: wood, fixes printed, plastic and thin metal parts onto wood
+- num: 326
+  name: Basic knots (overhand knot, half hitch, reef knot)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  now: [3D prints, 'fabric, leather or cord']
+  why: 'removed plastic: evidence was synthetic (nylon, polypropylene) cord, which is already ''cord''; knots are tied on cords and
+    through printed holes'
+- num: 327
+  name: Shims, spacers and standoffs (packing, spacer washer)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  why: shims of steel, brass, plastic film, wood, card or paper; printed spacers
+- num: 327
+  name: Shims, spacers and standoffs (packing, spacer washer)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites]
+  why: 'added carbon fibre or composites from the composites gap search (scope-search-2026-10-22-composites.md): FPV frame manual: carbon
+    plates separated by "Standoff (Black aluminum M3 thread x 10mm long)"'
+- num: 328
+  name: Welded metal joint (fusion welding; stick, MIG, TIG and gas welding)
+  verdict: change
+  was: ['plastic sheet, tube or moulded parts', metal]
+  now: [metal]
+  why: 'removed plastic: evidence was a negation (''plastics are joined by plastic welding instead'')'
+- num: 329
+  name: Battery holder and battery contacts (spring battery contact, coin-cell holder)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: printed or moulded plastic holders with bought metal contacts
+- num: 330
+  name: Pogo pin (spring-loaded contact pin)
+  verdict: ok
+  was: [3D prints, metal]
+  now: [3D prints, metal]
+  why: bought metal pins held in printed jigs and docks
+- num: 331
+  name: Magnetic connector (magnetic pogo connector, magnetic breakaway power connector)
+  verdict: ok
+  was: [3D prints, wood, metal]
+  now: [3D prints, wood, metal]
+  why: printed housings, mounts let into wooden furniture, metal contacts and steel attractors
+- num: 332
+  name: Screw-in threaded insert (wire thread insert, self-tapping insert)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: inserts for resin prints, plastic, wood, plywood/MDF and soft metals
+- num: 333
+  name: Sew-on part (sewing holes, loops and slots on a rigid part)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: printed, wood, leather or metal parts sewn to fabric
+- num: 334
+  name: Stopper knots and cord-end anchors
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: 'removed carbon fibre: evidence was Kevlar string, which is a cord, not a composite'
+- num: 335
+  name: Printing onto fabric (fabric embedded in a 3D print)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'fabric, leather or cord']
+  why: removed carbon fibre (thick aramid fabric in research is fabric, not a composite) and plastic (evidence was nylon/polyester tulle,
+    i.e. fabric)
+- num: 336
+  name: Locking adjustment screws (push-pull screws, spring-loaded levelling screws)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: printed knobs, metal or wooden plates; telescope and laser mirror mounts
+- num: 337
+  name: Ball caster (ball transfer unit)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: printed cups around bought balls, plastic and steel units, wooden tables; glass marbles are a common printed-caster ball (borderline)
+- num: 338
+  name: Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed knuckles, metal tube pins, plastic clocksprings, wooden boxes with drilled hinges
+- num: 339
+  name: Expanding internal grip (expanding mandrel, inside gripper)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card]
+  why: printed and metal mandrels; grips cardboard and plastic roll cores, cans, rings
+- num: 340
+  name: Printed chainmail and tile fabric (print-in-place interlinked fabric)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'fabric, leather or cord']
+  why: 'removed metal and plastic: only industrial/research SLS nylon and aluminium versions; kept fabric (sheets attached to fabric,
+    elastic or cord)'
+- num: 341
+  name: Strut hub (geodesic dome hub, space-frame node)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: printed hubs for wood, bamboo, PVC or conduit struts; metal hubs
+- num: 342
+  name: Melted plastic weld (plastic welding with a soldering iron, 3D pen or hot-air gun)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: 'removed wood, metal and glass: text says ''Metal, wood and glass can''t be joined this way, only embedded'''
+- num: 343
+  name: Friction-welded plastic (rotary-tool friction welding, spin welding)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts']
+  why: removed foam (evidence was solid polystyrene), carbon fibre (glass-fibre fillers 'don't cross the joint') and metal (only metal-filled
+    PLA filament)
+- num: 344
+  name: Heat-sealed seam (heat-sealed plastic film and coated fabric)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+  now: ['plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  why: Joins thermoplastic film and coated fabric only; text says not for printed parts (printer is just the tool), wood/metal are tools/backing,
+    TPU-coated paper is a research prototype, foam hit was EVA plastic.
+- num: 345
+  name: Tensegrity (floating struts held by cords)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Removed paper or card (false hit on "ASEE paper"); struts are wood, acrylic, metal tube or prints, ties are cord.
+- num: 346
+  name: Wire-to-board plug connectors (pin header and crimp housing)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Nylon housings, metal contacts, printed custom housings and strain reliefs.
+- num: 347
+  name: Crimp terminals (ring, fork and spade terminals, blade quick-disconnect)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Copper terminals with vinyl/nylon insulation; printed keyed housings and boots for spade terminals.
+- num: 348
+  name: Crimped butt splice (crimp splice connector)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
+  now: ['plastic sheet, tube or moulded parts', metal]
+  why: Removed carbon fibre or composites (false hit on "honeycomb") and 3D prints (a bought crimp; text says it can't be printed, only
+    add-on clips); copper barrel, plastic sleeve.
+- num: 349
+  name: Spring-clamp wire connector (lever connector, push-in wire connector)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Polycarbonate/nylon body, steel spring and copper bar; printed holders and mounts very common.
+- num: 350
+  name: Screw terminal (terminal block, barrier strip, connector strip)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Brass/steel clamp in nylon housing; printed covers and simple printed blocks exist.
+- num: 351
+  name: Wire-end ferrule (bootlace ferrule, end sleeve)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: ['plastic sheet, tube or moulded parts', metal]
+  why: 'Removed 3D prints: a bought crimp the text says can''t be printed, only storage boxes are printed; copper tube with plastic
+    collar.'
+- num: 352
+  name: High-current battery plug (bullet connector, polarised battery connector)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Brass contacts in nylon housing; printed panel mounts and jigs.
+- num: 353
+  name: Heat-shrink tubing (heat-shrink sleeve, adhesive-lined heat-shrink)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: ['plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Removed 3D prints (bought tubing; text says keep the heat off prints, only cutters printed); kept wood (grips on wooden clamp
+    handles) and cord (caps cord ends).
+- num: 354
+  name: Solder sleeve (solder-seal splice)
+  verdict: change
+  was: [3D prints, metal]
+  now: ['plastic sheet, tube or moulded parts', metal]
+  why: Removed 3D prints (bought sleeve, "can't be printed", only a wire jig); added plastic (polyolefin sleeve and glue seal onto wire
+    insulation) to match the other wire joints.
+- num: 355
+  name: Standard plug-and-socket connector (USB, barrel jack, audio jack, RJ45)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Panel-mount sockets go in metal, wood, acrylic or printed panels; printed mounts and cut-outs.
+- num: 356
+  name: Insulation-displacement connector (IDC, ribbon-cable plug, punch-down, T-tap)
+  verdict: change
+  was: [3D prints, metal, 'fabric, leather or cord']
+  now: ['plastic sheet, tube or moulded parts', metal]
+  why: Removed fabric (false hit on "stranded") and 3D prints (bought contacts, only crimp aids printed); added plastic (moulded housings
+    and ribbon cable).
+- num: 357
+  name: Binding post and banana plug (test-lead connector, crocodile clip)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Brass posts in polycarbonate; printed front panels and enclosures hold bought posts.
+- num: 358
+  name: Twist-on wire connector (wire nut)
+  verdict: ok
+  was: ['plastic sheet, tube or moulded parts', metal]
+  now: ['plastic sheet, tube or moulded parts', metal]
+  why: Plastic shell with steel coil on copper wire; printing a copy is ruled out.
+- num: 359
+  name: Conductive thread (sewn circuit, e-textile stitching)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Sewn into fabric, onto metal sew tabs and snaps, and printed sewable covers and holders.
+- num: 360
+  name: Conductive tape (copper foil tape, conductive fabric tape)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, glass or mirror, 'fabric, leather or cord']
+  why: Added glass or mirror (copper foil wrapped round glass pieces for Tiffany-style stained glass, everyday_examples); rest supported
+    (paper circuits, prints, wood, fabric).
+- num: 361
+  name: Conductive glue, paint and ink (electrically conductive adhesive, silver epoxy)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, glass or mirror,
+    'fabric, leather or cord']
+  why: Added fabric (one_liner and when_to_use name fabric; attaches parts to conductive fabric tape); the rest is on the silver-epoxy
+    bond list (aluminium, steel, fibreglass, wood, paper, glass, acrylic) and prints.
+- num: 362
+  name: Flat flexible cable and latching connector (FFC with ZIF connector)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: PET film with copper conductors, plastic connectors; printed clamps and hinge channels guide the cable.
+- num: 363
+  name: Wire wrap (wire-wrapped connection)
+  verdict: change
+  was: [3D prints, metal]
+  now: [metal]
+  why: 'Removed 3D prints: the joint can''t be printed and isn''t made on printed parts; only the hand tool is printed.'
+- num: 364
+  name: Hose clamp (worm-drive clamp, ear clamp, spring hose clamp)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Clamps rubber, silicone and PVC hose onto metal or plastic spigots; printed low-pressure clamps and spigots.
+- num: 365
+  name: Drive-in fixing pins (roll pin, coiled spring pin, dowel pin, taper pin)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: 'Removed wood: text says "Wood uses wooden dowels instead"; metal pins in wooden boxes is marked uncertain. Metal, plastic and
+    printed hubs supported.'
+- num: 366
+  name: Wall plug (expansion anchor for solid walls)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Fixes printed brackets, wooden battens and cabinets, metal brackets to masonry; plugs are plastic.
+- num: 367
+  name: Hollow-wall anchors (toggle, molly, self-drilling plasterboard anchor)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Removed paper (plasterboard's paper face), foam (polystyrene straps) and composites (glass-filled nylon) as false hits; plywood,
+    hollow doors, printed anchors supported.
+- num: 368
+  name: Push-on edge trim (U-channel edging, grommet edging)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, glass or mirror]
+  why: Removed foam (only "foam trims" as a trim material, not edges it fits); edges listed are sheet metal, glass fibre, plastic, wood,
+    glass, acrylic, cardboard.
+- num: 369
+  name: Metal brackets and plates (angle bracket, mending plate, joist hanger)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel brackets on wood, MDF and prints; printed brackets; acrylic gusset plates.
+- num: 370
+  name: Nails, brads and tacks (ring-shank nail)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, wood, metal, 'fabric, leather or cord']
+  why: 'Removed plastic: no evidence nails suit plastic sheet (text says plastic is not a material to nail into); kept 3D prints for
+    printed nail-in clips and hooks, fabric/leather for tacks.'
+- num: 371
+  name: Threaded rod and studs (all-thread, studding, hanger bolt)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel or nylon rod through wood, metal and printed parts (RepRap frames).
+- num: 372
+  name: Eye bolts, screw eyes and hooks (lifting eye, cup hook, screw hook)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Screwed into wood, bolted through prints and plates; rope and cord tie to the eye. Plastic is weak (plastic-coated hooks, acrylic
+    parts marked uncertain) but harmless.
+- num: 372
+  name: Eye bolts, screw eyes and hooks (lifting eye, cup hook, screw hook)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, 'fabric, leather or cord']
+  why: 'added clay or putty from the clay gap search (scope-search-2026-10-22-clay.md): Beads and Beading: screw eyes in polymer clay
+    charms "are much sturdier" than eye pins, set in a pilot hole with a drop of glue'
+- num: 373
+  name: Staples for wood and fabric (staple gun, hammer tacker, cable staple)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  why: Fixes fabric, leather, plastic film, card and mesh onto wood; printed clips with staple tabs.
+- num: 374
+  name: Shackle and quick link (D-shackle, bow shackle, maillon)
+  verdict: change
+  was: [3D prints, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: 'Removed composites: the hit was aramid/UHMWPE fibre rope for soft shackles, which is cord, not composite.'
+- num: 375
+  name: Tamper-resistant fasteners (security screw, one-way screw, breakaway-head bolt)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: 'Same uses as ordinary screws: printed covers with inserts, wood-screw forms, sheet and metal enclosures.'
+- num: 376
+  name: Wire-rope terminations (wire-rope clip, thimble, crimped sleeve)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Steel wire rope (cord) with metal clips and sleeves, plastic-coated rope; printed light-duty stoppers and guides.
+- num: 377
+  name: Load-bearing stitch patterns for straps and webbing (bar tack, box-X stitch)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Removed composites (Kevlar twine is thread, not composite); added wood (when_to_use names fixing a strap through a slot in a
+    wooden part); metal/plastic buckles and printed slotted parts kept.
+- num: 378
+  name: Hitches to a post, rail, ring or eye (clove hitch, round turn and two half hitches)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  why: Removed composites (Kevlar string is cord); tied to wood, metal or printed posts and rings, and nylon horn cleats.
+- num: 379
+  name: Tensioning and adjustable hitches (trucker's hitch, taut-line hitch, Prusik)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: 'Removed plastic: only hits were nylon/polypropylene rope (that is cord); kept metal (grips steel tube) and prints (tied to printed
+    hooks and rods).'
+- num: 380
+  name: Eyelets and grommets (for fabric, leather and sheet)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, paper or card, carbon fibre or composites, 'fabric, leather or cord']
+  why: Set into fabric, leather, vinyl, card and paper, thin sheet metal and composite sheets (cited); metal or printed grommets.
+- num: 381
+  name: Bead-in-groove fabric edge (keder, boltrope, screen spline)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: 'Removed composites: the hit was fibreglass insect mesh, a fabric; PVC beads, aluminium rails and printed keder hooks kept.'
+- num: 382
+  name: Fixed loop knots (bowline, figure-eight loop, alpine butterfly)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  now: [3D prints, 'fabric, leather or cord']
+  why: 'Removed plastic: only hit was nylon rope (cord); loops drop over printed hooks and rings, so prints kept.'
+- num: 383
+  name: Bends for joining two cords (sheet bend, double fisherman's knot, water knot)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', carbon fibre or composites, 'fabric, leather or cord']
+  now: ['fabric, leather or cord']
+  why: Joins cord to cord only; plastic (nylon monofilament) and composites (Kevlar) are cord fibres; text says only tools such as netting
+    needles are printed.
+- num: 384
+  name: Pole lashings (square, diagonal, shear and tripod lashings)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, 'fabric, leather or cord']
+  now: [3D prints, wood, 'fabric, leather or cord']
+  why: Removed plastic (only nylon string); kept wood (poles, bamboo canes) and prints (tip on lashing over printed tubes and brackets).
+- num: 385
+  name: Rope-end finishing (whipping, heat-sealing, back splice, aglet)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Removed composites (aramid-core rope is cord); plastic/metal aglets and heat-shrink, printed aglets, end caps and melting forms
+    kept.
+- num: 386
+  name: Sewn seams and hand stitches (lockstitch, saddle stitch, flat-felled seam)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  now: ['fabric, leather or cord']
+  why: Removed plastic (only coated fabrics, which are fabric; film is sent to heat sealing) and 3D prints (text says rigid prints can't
+    be sewn, only thin TPU, and points to Sew-on part).
+- num: 387
+  name: Lacing (cord through rows of holes or eyelets)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Laces through leather, fabric, vinyl banners, metal or plastic eyelets and hooks, and printed panels and armour.
+- num: 388
+  name: Rope splices (eye splice, short splice, braided-rope splice)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Removed composites (Vectran/aramid rope is cord); rope spliced round steel or nylon thimbles, to chain and shackles, and printed
+    thimbles and blocks.
+- num: 389
+  name: Leather and textile rivets (double-cap, tubular and split rivets)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
+  why: Metal (some plastic) rivets in leather and fabric; printed two-part rivets and setting aids.
+- num: 390
+  name: Chicago screw (binding screw, sex bolt)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  why: Clamps leather, paper and card (book binding), wood, plastic, thin metal and printed key organisers.
+- num: 390
+  name: Chicago screw (binding screw, sex bolt)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+  why: 'added foam from the foam gap search (scope-search-2026-10-22-foam.md): Its JSON: "the pivot ... of hinged cosplay armour plates".'
+- num: 391
+  name: Iron-on fusible web (heat-activated adhesive web, hem tape)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, 'fabric, leather or cord']
+  now: ['plastic sheet, tube or moulded parts', wood, paper or card, 'fabric, leather or cord']
+  why: Removed 3D prints (never iron onto prints; web not printed), metal (false hit) and foam (only industrial urethane webs); craft
+    webs bond fabric, leather, cardboard, wood and vinyl.
+- num: 392
+  name: Binding knots and seizings (constrictor knot, seizing, cable lacing)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', carbon fibre or composites, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, 'fabric, leather or cord']
+  why: 'Removed composites (fibreglass lacing tape is cord); added wood (when_to_use: tying a bundle of sticks or canes); plastic for
+    hose and tubes, prints for bindings on printed bosses.'
+- num: 393
+  name: Tripod and stand screw mount (tripod socket, camera thread)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Thread put into prints (insert or nut), wood (threaded insert) or tapped aluminium; metal studs and bushings.
+- num: 394
+  name: Clamp-on accessory mount for bars, poles and edges (handlebar clamp, desk clamp, U-bolt)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: Removed glass (false hit on "glass-filled plastic"); kept composites (clamps carbon-fibre bars with measured torque), steel,
+    aluminium, wood, printed clamps.
+- num: 395
+  name: Slotted adjustment with a jacking screw (slotted mount, sliding motor plate)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Slotted plates printed, laser cut in acrylic or plywood, or milled in metal.
+- num: 396
+  name: Castor (swivel castor, fixed castor, locking castor)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Plastic or metal castors screwed under wooden furniture and steel frames; printed adapters and light wheels.
+- num: 397
+  name: Levelling foot (adjustable foot, swivel levelling pad)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Removed composites (false hit on "glass-fibre-reinforced polyamide" pad); steel studs, plastic pads, wooden legs, printed feet.
+- num: 398
+  name: Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  why: 'Removed composites (fibreglass-reinforced clamp body); added paper and fabric (one_liner and when_to_use: clamps onto cloth,
+    paper, tarps, backdrops).'
+- num: 398
+  name: Spring clip clamp (clothes-peg clip, spring clamp, clip-on holder)
+  verdict: unsure
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, glass or mirror, 'fabric, leather or cord']
+  why: 'added glass or mirror from the glass gap search (scope-search-2026-10-22-glass.md): Binder clips (''binder clip'' or ''foldback
+    clip'') are the usual way to hold a 3D-printer glass bed.  That use is not stated in the JSON: Printables ''glass bed clip'' results
+    show it.'
+- num: 399
+  name: In-line swivel (rope swivel, chain swivel, ball-bearing swivel)
+  verdict: ok
+  was: [3D prints, metal, 'fabric, leather or cord']
+  now: [3D prints, metal, 'fabric, leather or cord']
+  why: Metal swivels on fishing line, rope and chain; printed light-duty swivels.
+- num: 400
+  name: Multi-point bolt (espagnolette, crémone bolt, lock rods)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Fits wood, metal, uPVC and printed doors and lids; printed rack-and-pinion box locks.
+- num: 401
+  name: Flywheel (inertia wheel, friction motor)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Removed composites (only industrial high-speed energy-storage rotors); printed rims with metal weights, plywood discs, steel/cast
+    iron wheels kept. Plastic rests on laser-cut acrylic marked uncertain.
+- num: 402
+  name: Tapered pipe thread (NPT, BSPT; PTFE tape, pipe dope)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Metal and PVC/nylon pipe fittings; printed low-pressure plugs and thread gauges.
+- num: 403
+  name: Parallel pipe thread with a sealing washer (BSPP, garden-hose thread, pipe union)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Brass, steel and plastic hose fittings; printed PETG adapters and TPU washers.
+- num: 404
+  name: Soldered metal joint (soft soldering of metal parts, sweat-soldered copper pipe)
+  verdict: change
+  was: [wood, metal, glass or mirror]
+  now: [metal, glass or mirror]
+  why: Removed wood (only the plywood work board for stained glass); glass kept for copper-foil and lead-came stained glass.
+- num: 405
+  name: Brazed joint (brazing, silver soldering, hard soldering)
+  verdict: ok
+  was: [metal]
+  now: [metal]
+  why: Metals only; printing not applicable.
+- num: 406
+  name: Spot weld (resistance spot welding)
+  verdict: change
+  was: [3D prints, metal]
+  now: [metal]
+  why: 'Removed 3D prints: a weld, never the joint itself; only jigs and cell holders are printed.'
+- num: 407
+  name: Heat-fused plastic pipe (socket fusion, butt fusion, electrofusion)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: ['plastic sheet, tube or moulded parts']
+  why: Removed 3D prints (prints can't be fused to PE/PP pipe; only templates) and metal (metal pipe needs a transition fitting instead).
+- num: 408
+  name: Flare fitting (flared tube fitting, double flare)
+  verdict: ok
+  was: [metal]
+  now: [metal]
+  why: Soft copper, aluminium and steel tube only; never printed.
+- num: 409
+  name: Ultrasonic weld (ultrasonic plastic welding, energy director)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, foam, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', 'fabric, leather or cord']
+  why: Removed foam (false hit on "polystyrene") and metal (needs a separate ultrasonic metal welder); kept prints (ABS/PLA prints welded)
+    and fabric (nonwovens sealed).
+- num: 410
+  name: Score-and-fold hinge (scored crease, creasing, card hinge)
+  verdict: change
+  was: [3D prints, wood, metal, paper or card, foam]
+  now: [paper or card, foam]
+  why: Kept paper/card and paper-faced foam board; dropped 3D prints (only the scoring tools are printed), wood and metal (named as
+    not suited / industrial creasing rule).
+- num: 411
+  name: Glued tab joint (glue tab, glue flap, construction tab; edge gluing with a backing strip)
+  verdict: change
+  was: [3D prints, wood, metal, paper or card, foam]
+  now: [paper or card]
+  why: Paper and card joint only; dropped 3D prints, wood, metal (text says not used for them) and foam (named only as superglue melting
+    foam board).
+- num: 412
+  name: Adhesive tape joint and tape hinge (pressure-sensitive tape; masking, packing, gummed paper and double-sided tissue tape)
+  verdict: change
+  was: [3D prints, wood, paper or card, foam]
+  now: [wood, paper or card, foam]
+  why: Kept paper/card, foam board planes, balsa/veneer hinges; dropped 3D prints (only dispensers and bevel cutters are printed).
+- num: 413
+  name: Split-pin paper fastener (brass fastener, paper brad, butterfly clip)
+  verdict: change
+  was: [3D prints, metal, paper or card, foam, 'fabric, leather or cord']
+  now: [3D prints, paper or card]
+  why: Paper and card pivot; printed snap versions are real. Dropped metal (fastener is bought brass but text says not for metal parts),
+    foam and fabric (only an [uncertain] craft mention).
+- num: 414
+  name: Cardboard screws and rivets (cardboard construction screw, box rivet, zip-tie rivet)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites, 'fabric, leather
+      or cord']
+  now: [3D prints, paper or card]
+  why: 'Made for corrugated cardboard, many printable screws. Dropped plastic, wood, metal (text: too hard, not meant for), carbon (from
+    ''Kevlar-like'' word match) and fabric (minor printed add-on).'
+- num: 415
+  name: Glue stick and starch paste (paper glue stick, wheat-starch paste, methyl cellulose, wallpaper paste)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, glass or mirror, 'fabric, leather or cord']
+  now: [paper or card, 'fabric, leather or cord']
+  why: Bonds paper, card, felt, fabric and book cloth (Henkel, Elmer's); dropped 3D prints (bed release layer only), plastic, wood,
+    metal, glass (named as poor or a special PowerPritt variant).
+- num: 416
+  name: Folding box closures (tuck flap, slit lock, snap-lock 1-2-3 bottom, crash-lock bottom)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', paper or card, clay or putty]
+  now: [paper or card]
+  why: Paperboard and corrugated box flaps; dropped 3D prints (only scoring tools), plastic (thin PP only [uncertain]) and clay ('clay-coated
+    kraft' word match).
+- num: 417
+  name: Sewn book bindings (pamphlet stitch, Coptic stitch, kettle stitch, Japanese stab binding)
+  verdict: ok
+  was: [3D prints, wood, paper or card, 'fabric, leather or cord']
+  now: [3D prints, wood, paper or card, 'fabric, leather or cord']
+  why: Paper pages, thread, cloth/leather covers, drilled plywood covers (Makezine) and printed covers and cradles all evidenced.
+- num: 418
+  name: Loose-leaf bindings (ring binder, spiral coil, comb and wire binding, disc binding)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', paper or card]
+  why: Binds punched paper/card and plastic covers; printed rings and discs. Dropped metal (bought steel rings, no metal parts bound)
+    and wood (thin plywood covers only [uncertain]).
+- num: 419
+  name: Parallel-fold pop-up (box fold, step fold, floating layer, parallelogram pop-up)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [paper or card]
+  why: Cut-and-fold paper mechanism; text says not for rigid sheets or 3D prints (printer only makes scoring tools).
+- num: 420
+  name: V-fold pop-up (angle fold, mouth fold)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card]
+  now: [paper or card]
+  why: Cut-and-fold card mechanism; text says not for wood, metal, acrylic or 3D prints (printer makes only scoring tools).
+- num: 421
+  name: Pull-tab and slider mechanism (pull-strip, sliding motion, moving arm, transformation)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+  now: [paper or card]
+  why: 'Card slider mechanism; dropped 3D prints, plastic, wood, metal (text: not for rigid materials) and fabric (ribbon only as an
+    optional pull).'
+- num: 422
+  name: Volvelle (paper wheel, wheel chart, rotating disc)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', paper or card, foam]
+  why: Paper/card, thin plastic sheet, craft foam wheels and printed cipher wheels evidenced; dropped wood and metal (text says use
+    a proper pivot there; laser plywood [uncertain]).
+- num: 423
+  name: Spring-powered paper pop-up (rubber-band snap-up cube, paper spring, jumping card)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', paper or card]
+  now: [paper or card]
+  why: Card and rubber band mechanism; dropped 3D prints (not applicable) and plastic (PP sheet [uncertain]).
+- num: 424
+  name: V-groove fold (mitre fold, fold-up corner, bevelled fold in foam board and EVA foam)
+  verdict: change
+  was: [3D prints, wood, metal, paper or card, foam, carbon fibre or composites]
+  now: [3D prints, wood, paper or card, foam]
+  why: Foam board (paper-faced), EVA, plywood/MDF and printed thin-skin folds evidenced. Dropped metal and composites (aluminium composite
+    panel folding is sign-trade CNC work).
+- num: 425
+  name: Pinned glue joint (pinning; wire, rod, toothpick or skewer pins)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, clay or putty]
+  why: Text lists pewter and plastic miniatures, resin/FDM prints, polymer and air-dry clay, foam board/Depron/EPO and balsa. Dropped
+    paper (paper-clip pins) and carbon (carbon rod is only the pin).
+- num: 426
+  name: Slot-in model hinge (CA hinge, flat hinge, pinned hinge point)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam]
+  now: [3D prints, wood, foam]
+  why: 'Balsa/ply, foam and printed (LW-PLA) surfaces. Dropped plastic, metal and paper: they are the bought hinge''s own Mylar/nylon/pin/paper
+    covering.'
+- num: 427
+  name: Jigsaw puzzle-edge joint (puzzle joint, interlocking tile edge)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, paper or card, foam]
+  why: EVA foam mats, PVC/PP tiles and laser-cut acrylic, plywood/MDF, cardboard jigsaws and printed tiles all evidenced.
+- num: 428
+  name: Liquid-clay bond (bakeable clay glue, bake-in-stages join)
+  verdict: change
+  was: ['plastic sheet, tube or moulded parts', wood, paper or card, clay or putty]
+  now: [wood, paper or card, clay or putty]
+  why: Joins polymer clay, and clay to wood, cork, cardboard and papier-mache (Sculpey). Dropped plastic (the clay's PVC chemistry,
+    not a substrate).
+- num: 429
+  name: Score-and-slip join (scratch and slip, luting)
+  verdict: change
+  was: [paper or card, clay or putty, glass or mirror, 'fabric, leather or cord']
+  now: [clay or putty]
+  why: Water-based clay join only; dropped paper ('paper clay'), glass and fabric (word matches).
+- num: 430
+  name: 'Baked-in findings (embedded hardware in clay: eye pins, screw eyes, earring posts, bails)'
+  verdict: change
+  was: ['plastic sheet, tube or moulded parts', wood, metal, clay or putty, glass or mirror]
+  now: [clay or putty]
+  why: Parts are polymer clay; the metal is the small bought finding (sub-part rule). Dropped plastic, wood and glass (plastic crystals
+    melt, wood bases and baked-in crystals are passing mentions).
+- num: 431
+  name: Elastic-strung ball joint (ball-jointed doll stringing, strung doll joint)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, clay or putty]
+  why: Body parts in printed PLA/resin, cast resin and hard plastic, wood and polymer/air-dry clay. Dropped metal (S-hooks) and fabric/cord
+    (the elastic is the connector, not the parts).
+- num: 432
+  name: Wire and foil armature (sculpture armature, foil core)
+  verdict: change
+  was: [3D prints, wood, metal, paper or card, foam, clay or putty, glass or mirror]
+  now: [wood, metal, clay or putty]
+  why: Wire skeleton (made of metal) under clay or putty, anchored in a drilled wooden base. Dropped 3D prints (text says PLA unsuitable),
+    paper and foam (bulking filler only) and glass.
+- num: 433
+  name: Bonded tube joint (lugged, sleeved or fibre-wrapped tube joint; carbon tube connector, bonded end fitting)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror, 'fabric, leather
+      or cord']
+  now: [3D prints, wood, metal, carbon fibre or composites]
+  why: Carbon/glass-fibre, aluminium/steel/titanium and bamboo tubes; printed lugs. Dropped plastic (HDPE named as poor), glass ('fibreglass'
+    word match) and fabric (fibre wrap is the composite).
+- num: 434
+  name: Fillet-and-tape joint (stitch-and-glue seam, glass-tape tabbing, tack-and-tape)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, foam, carbon fibre or composites, glass or mirror, 'fabric, leather
+      or cord']
+  now: [wood, carbon fibre or composites]
+  why: Plywood boats and GRP/sandwich panels. Dropped 3D prints (only fillet tools; wrapped prints peel), foam (wrapping a core is a
+    different technique, [uncertain]), plastic, glass and fabric (glass-tape word matches).
+- num: 435
+  name: Potted insert (sandwich-panel insert, hard point, overdrill-fill-redrill)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites]
+  now: [foam, carbon fibre or composites]
+  why: 'For sandwich/cored panels (glass or carbon skins over foam, balsa, honeycomb) and foam-board model hard points. Dropped 3D prints
+    (text: design a solid boss instead), metal and plastic (insert / core sub-parts), wood (not needed in solid wood).'
+- num: 436
+  name: Bonding fastener (glue-on stud, bonded-base stud or nut, perforated-base fastener)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  why: Bonds to GRP/carbon, metals, plastics, wood, tile and glass (Easy Composites; tesa); printed-base version with glued nut is real
+    maker advice.
+- num: 437
+  name: 'Push-fit rod and spar fittings (kite fittings: tee and cross connectors, ferrules, nocks, end caps)'
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: Carbon/fibreglass rods and wooden dowel; fittings are moulded plastic or vinyl tube, metal ferrules, or printed.
+- num: 438
+  name: Compression limiter (crush tube, bolt sleeve, compression sleeve)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
+  why: Protects printed, plastic, wood, cored/composite panels and hollow metal box sections; the limiter itself is metal tube.
+- num: 439
+  name: Panel standoff (sign standoff, glass standoff, stand-off mount, edge-grip standoff)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, carbon fibre or composites, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites, glass or mirror]
+  why: Acrylic, metal sheet, glass, plywood and aluminium composite panel; printed standoffs for light signs. Dropped foam (PVC foam
+    board is rigid plastic sheet).
+- num: 440
+  name: Glass and mirror edge clips and clamps (mirror clips, glass clamp, glass shelf bracket, glass bed clip)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: Holds glass, mirror and acrylic to wood cabinets, walls and printer beds; clips are bought metal or plastic or printed in PETG
+    (Printables).
+- num: 441
+  name: Copper-foil joint (Tiffany method, foiled and soldered glass)
+  verdict: change
+  was: [3D prints, metal, glass or mirror]
+  now: [metal, glass or mirror]
+  why: 'Joins glass, with copper/brass wire loops and came. Dropped 3D prints: text says printed parts melt, only jigs are printed.'
+- num: 442
+  name: Glazing in a rebated frame (glazier's points, glazing putty, glazing bead, picture-frame turn buttons)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: Glass, mirror and acrylic panes in wooden, metal-sash (spring clips) and printed frames.
+- num: 443
+  name: Glass door hinge (clamp-on glass hinge, drilled glass-door cup hinge, pivot hinge for glass doors)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: Glass and acrylic doors on wood/MDF cabinets or aluminium extrusion; printed PETG hinges for acrylic enclosure doors.
+- num: 444
+  name: Wire-bail closure (flip-top, swing-top bottle, lightning stopper, clamp-lid jar)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
+  now: [3D prints, metal, glass or mirror]
+  why: 'Glass bottles and jars; the bail is metal wire; printed TPU gaskets and clips. Dropped plastic (text: not a closure for plastic
+    bottles; plastic stopper is a sub-part).'
+- num: 445
+  name: Lead came joint (leaded glass, came glasswork, zinc and brass came)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [metal, glass or mirror]
+  why: 'Glass held in metal came (lead, zinc, brass) soldered at crossings. Dropped 3D prints (text: iron melts prints, only jigs),
+    plastic (named as unsuitable) and wood (the finished panel''s frame is a separate glazing joint).'
+- num: 446
+  name: Glass fusing (kiln fusing, tack fusing, full fusing)
+  verdict: change
+  was: [3D prints, glass or mirror]
+  now: [glass or mirror]
+  why: 'Glass to glass only; dropped 3D prints (text: printed plastic can''t go near a kiln, only room-temperature moulds/stands).'
+- num: 447
+  name: Shelf pins and shelf supports (shelf pegs, spoon pins, glass shelf supports)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
+  why: Wood/board cabinets, glass and acrylic shelves, printed pins and cabinets; pins commonly bought in metal.
+- num: 448
+  name: Linked lead screws (synchronised Z axis, Z sync belt, screw jack system)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, 'fabric, leather or cord']
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Steel screws on extrusion/steel, wood or plastic platforms; printed brackets and tensioners. Dropped fabric/cord (fibre cords
+    inside the timing belt).
+- num: 449
+  name: Line shaft and power take-off (lineshaft, jackshaft, countershaft, PTO)
+  verdict: change
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, foam, clay or putty, 'fabric, leather or cord']
+  now: [3D prints, wood, metal]
+  why: 'Steel shafts on metal frames or wooden benches/plywood bases; printed pulleys for toy drives. Dropped paper, foam, clay (text:
+    not suited), plastic (no evidence) and fabric/leather (historic leather belts only).'
+- num: 450
+  name: Bevel splitter and counter-rotating drive (T-gearbox, three-way bevel gearbox, contra-rotating coaxial shafts)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Printed gears and housings, plywood frames, metal gears/tubes, nylon/acetal gears and rigid plastic frames.
+- num: 451
+  name: Several motors driving one load (dual-motor drive, ganged motors, dual-motor gantry)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+  why: Metal frames, plywood and laser-cut acrylic motor plates, printed mounts; text rules out card and foam.
+- num: 452
+  name: Cable splitter (cable doubler, one-into-two cable junction, dual-control brake splitter)
+  verdict: ok
+  was: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  now: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+  why: Machined aluminium or steel splitters, plastic junction boxes, printed light-duty junctions for models.

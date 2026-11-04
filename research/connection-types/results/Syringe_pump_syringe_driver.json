@@ -40,7 +40,7 @@
       "shape (form-fit) and friction or clamping (force-fit): the syringe's finger flange sits in a slot and a clamp or press fit holds the barrel; the plunger end sits in a slot on the carriage (poseidon paper: print settings tuned 'to allow for a press fit of the syringe'; Printables 167075 and 50666)"
     ],
     "input_output": "Continuous rotation of the motor -> slow straight push or pull of the plunger -> liquid flow. Plunger travel per motor turn = the lead of the screw (e.g. 2 mm per turn for an 8 mm screw with 2 mm pitch, Printables 167075); volume per turn = lead x inside area of the barrel. Worked example (calculated): a BD 10 mL plastic syringe has a 14.5 mm inner diameter (Chemyx), about 165 mm2 of area, so a 2 mm lead moves about 0.33 mL per turn and, with a 200-step motor, about 1.65 µL per full step. Efficiency is that of a plain lead screw (roughly 20-80%, see the Lead screw entry); the PLOS ONE authors note lead screws are inefficient. Shaft arrangement: in line (motor, screw and plunger on parallel or the same axis). Back-drivable: no for fine-pitch screws (Wikipedia 'Leadscrew'), so the plunger stays put when the motor stops",
-    "power": "powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out [uncertain: inferred from Medfusion's description of stored pressure after a blockage]",
+    "power": "powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out: trapped bubbles expand and push solution out after the pump stops, and plastic syringes and tubing can stretch and let drips form (Ossila 'Syringe pump troubleshooting')",
     "removability": "removable: the syringe drops into its cradle and is clamped or press-fitted, so syringes of different sizes can be swapped (poseidon paper; Printables 80669 swaps a retainer to change between 1 mL and 3 mL syringes); the pump itself is screwed together",
     "reuse_cycles": "many times: syringes are swapped and refilled routinely; disposable plastic syringes are single-use in medicine and their plungers wear or swell, while glass and stainless-steel syringes are reusable (LabX syringe guide; Chemyx)",
     "tools_needed": "screwdrivers and hex keys, pliers (a poseidon pump can be assembled in under 15 minutes with only pliers and screwdrivers, poseidon paper); a small screwdriver to set the stepper driver's current limit (poseidon README); a soldering iron or crimp tool for wiring; a scale or measuring cylinder for calibration (PLOS ONE)",
@@ -203,11 +203,11 @@
       "https://commons.wikimedia.org/wiki/File:Syringe_pump.jpg",
       "https://commons.wikimedia.org/wiki/File:Syringe_drivers.JPG",
       "https://www.youtube.com/watch?v=7YSiO6usR1M",
-      "https://www.youtube.com/watch?v=YdeZJIZdA_A"
+      "https://www.youtube.com/watch?v=YdeZJIZdA_A",
+      "https://ossila.com/pages/syringe-pump-troubleshooting"
     ]
   },
   "uncertain": [
-    "power",
     "processes",
     "safety_notes"
   ]

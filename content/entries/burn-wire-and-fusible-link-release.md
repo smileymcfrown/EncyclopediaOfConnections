@@ -89,6 +89,8 @@ finder:
   powered_does: [lock or hold]
   also_under: [control, overload]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming:
   connects:
     kind: best guess

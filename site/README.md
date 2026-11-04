@@ -21,13 +21,14 @@ change. The CI workflow runs them all (see below).
 |------|------------|
 | `astro.config.mjs` | Site settings. `SITE_BASE` (default `/EncyclopediaOfConnections`) and `SITE_URL` (default `https://smileymcfrown.github.io`) set the address; change both if the site moves to its own domain |
 | `src/content/docs/index.mdx`, `finder.mdx`, `help.md` | The hand-written pages: home, the finder, and how to help |
-| `src/components/Finder.astro` | The guided finder: plain JavaScript over `public/data/finder-tree.json` and `finder.json`, with questions, examples, ⓘ explanations, Back, *I'm not sure*, a tick-box panel with counts, and shortlist cards that show ⚑ when a value that needs confirming put the entry there. The answers are kept in the page address (`#a=3.2.0`) |
+| `src/components/Finder.astro` | The guided finder: plain JavaScript over `public/data/finder-tree.json` and `finder.json`, with questions, examples, ⓘ explanations, Back, *I'm not sure*, a tick-box panel with counts, a "Made of" row of buttons under every shortlist (R37: the `made_of` tag, with counts, and all of the list shown if nothing suits the material), and shortlist cards that show ⚑ when a value that needs confirming put the entry there. The answers and the chosen material are kept in the page address (`#a=3.2.0&m=wood`) |
+| `src/content/docs/guides/driving-several-things-from-one.md`, `public/guides/directions.svg` | The hand-written guide page (R36) on driving several outputs from one input or combining inputs, and its direction drawing (made by a small script, checked by rendering) |
 | `src/content/docs/entries/`, `families/`, `glossary.md`, `needs-confirming.md`, `src/sidebar.json`, `public/data/` | **Generated** by `../tools/sync_site.py` from `../content/` (ignored by git) |
 
 `sync_site.py` adds the Beta banner to every page. It points glossary links at the site's glossary
 page, and adds *Suggest a correction* links that open the correction issue form with the entry
 (and the finder value, where there is one) filled in. It also writes one page per family and the
-*Needs confirming* list. The sidebar shows the start pages and the 31 families. Entries are reached
+*Needs confirming* list. The sidebar shows the start pages and the 32 families. Entries are reached
 from their family page, the finder or search, which keeps every page small.
 
 ## Publishing

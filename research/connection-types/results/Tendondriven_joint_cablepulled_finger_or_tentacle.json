@@ -42,7 +42,7 @@
       "spring force (a spring or springy part presses it in place): elastic cords, rubber bands or flexures return the segments to their rest position (Frontiers 2021)"
     ],
     "input_output": "Straight pull (tendon travel and tension) -> bending of one or more joints. Torque at a joint = tendon tension x moment arm (OpenHand used 9 mm moment arms). A larger moment arm gives more torque per newton but needs more tendon travel for the same angle. Example: a Raptor Reloaded finger flexed 45 degrees with 5.7 mm of pull at 8.9 N and 90 degrees with 15 mm at 22.2 N (Frontiers 2021). Tendon force from a motor = motor torque / pulley radius: a 7.3 N m servo with a 10 mm pulley gives a theoretical 365 N per finger in the four-finger OpenHand. Efficiency falls with every bend the tendon rubs round: by the capstan equation the tension needed rises exponentially with the total bend angle, while free-turning pulleys add almost no friction (Hackaday, Vasquez 2021). Arrangement: the tendon runs alongside the segments and can be led round corners through sleeves or over pulleys. Back-drivable: yes if the puller is back-drivable (the finger springs back when released); with a non-back-drivable actuator the locked tendon lets the fingers resist much larger forces than they can actively exert (OpenHand).",
-    "power": "passive or powered: body-powered versions are pulled by the user's wrist (e-NABLE hands) or by hand through a lever or joystick (Thingiverse 'Cable Mechanism Joystick'); robot versions use a servo, winch or other motor turning a pulley (InMoov; Yale OpenHand) or an artificial muscle. If power is lost, what happens depends on the actuator: a non-back-drivable gearmotor or locked tendon keeps the last position (OpenHand), whereas a back-drivable drive lets the elastic return open the finger [uncertain].",
+    "power": "passive or powered: body-powered versions are pulled by the user's wrist (e-NABLE hands) or by hand through a lever or joystick (Thingiverse 'Cable Mechanism Joystick'); robot versions use a servo, winch or other motor turning a pulley (InMoov; Yale OpenHand) or an artificial muscle. If power is lost, what happens depends on the actuator: a non-back-drivable gearmotor or locked tendon keeps the last position (OpenHand), whereas a back-drivable drive lets the elastic return open the finger, unless the gearbox friction is greater than the springs' pull (Chen, Zhang and Ciocarlie, arXiv 2011.01483).",
     "removability": "removable: tendons are knotted (often with a drop of glue) or clamped and can be cut and re-tied, and segments are held by pins or screws (InMoov; e-NABLE)",
     "reuse_cycles": "many times: tendons and elastic cords are cheap wear parts that can be re-tied or replaced; the printed segments themselves eventually fatigue, e.g. a PLA finger loaded to 10 N was predicted to last about 300,000 cycles (about 16 years at 50 grips a day), an ABS one about 70,000 (Frontiers 2021)",
     "tools_needed": "Scissors or side cutters, a lighter or glue for line ends, cyanoacrylate glue for the knots (InMoov), small screwdriver or hex key for servo pulleys, tensioner screws and pins, pliers, a drill to clear tendon holes, and for wire-rope tentacles a wire-rope cutter, crimping or swaging tool and ferrules (Thingiverse 'Animatronic Tentacle MK III'); e-NABLE hands also use a heat gun to thermoform the gauntlet (e-NABLE Phoenix).",
@@ -200,12 +200,12 @@
       "https://help.prusa3d.com/article/pla_2062",
       "https://www.youtube.com/watch?v=xk_EUOnGtAg",
       "https://www.youtube.com/watch?v=EVMatHNgC6s",
-      "https://en.wikipedia.org/wiki/Prosthesis"
+      "https://en.wikipedia.org/wiki/Prosthesis",
+      "https://arxiv.org/pdf/2011.01483"
     ]
   },
   "uncertain": [
     "degrees_of_freedom",
-    "power",
     "processes",
     "environment_limits"
   ]

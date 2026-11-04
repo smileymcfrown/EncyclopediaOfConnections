@@ -40,7 +40,7 @@
     "power": "passive (no power needed); it can be worked by hand or by a motor or servo at one end. If a motor-driven cable loses power, it stays where it is unless a return spring pulls it back",
     "removability": "removable: the wire is unclamped at the far end and slid out; the sleeve lifts out of its stops",
     "reuse_cycles": "many times for the sleeve and end stops; a few times for the inner wire, because a cut, frayed or end-capped wire end is hard to thread back through the sleeve and is usually replaced",
-    "tools_needed": "A proper cable and housing cutter (dedicated shear-type cutters for compressionless housing); a pick or awl to reopen the squashed liner after cutting; a hex key or spanner for the pinch bolt; pliers to crimp end caps (or solder to stop fraying) (Park Tool; Sheldon Brown). For 3D-printer PTFE tubes: a square-cut tube cutter [uncertain]; push-in fittings need no tools.",
+    "tools_needed": "A proper cable and housing cutter (dedicated shear-type cutters for compressionless housing); a pick or awl to reopen the squashed liner after cutting; a hex key or spanner for the pinch bolt; pliers to crimp end caps (or solder to stop fraying) (Park Tool; Sheldon Brown). For 3D-printer PTFE tubes: a razor or thin-bladed knife, pressing lightly so the tube stays round, and a drill bit to cone the tube's entrance (Prusa 'How to trim PTFE tube'); push-in fittings need no tools.",
     "seal": "none: typical bike and DIY cables are open at the ends, so water can get in and even freeze in cold weather (Wikipedia); industrial push-pull controls add end seals against dirt and corrosion, which makes them dust-resistant (Frontiers, Grosu et al. 2018)",
     "load": "Light to medium: strong in pull along the wire (bike brake wires are 1.5-1.6 mm steel), weak in push unless it is a push-pull cable with a stiff core and snug sleeve. The sleeve must be held at both ends because it carries the full reaction force in compression. Loads that bend the cable sharply or twist it do not transmit well, and friction rises quickly with every bend.",
     "adjustable": "Yes: slack is taken up with a barrel adjuster at a cable stop or lever, or by re-clamping the wire at the pinch bolt (Wikipedia)",
@@ -85,7 +85,9 @@
       "Rigid pushrod or linkage: stiffer and more precise, but can't go round corners",
       "Capstan cable drive and tendon drives over pulleys: open cables running over free-turning pulleys, with much less friction than a sleeve",
       "Hydraulic line (hydraulic brakes): carries force through fluid, with less friction over long routes",
-      "Belt drive: carries continuous rotation around pulleys rather than a short pull"
+      "Belt drive: carries continuous rotation around pulleys rather than a short pull",
+      "Pull-tab and slider mechanism: the paper version in pop-up books, a card strip pulled along a slot to move a picture at a distance",
+      "Cable splitter: a junction that joins one Bowden cable to two (one lever, two brakes) or two to one"
     ]
   },
   "media": {
@@ -161,12 +163,13 @@
       "https://www.captubes.com/safety.html",
       "https://commons.wikimedia.org/wiki/File:Bowden.jpg",
       "https://commons.wikimedia.org/wiki/File:Bowden_cable_with_barrel_adjuster.jpg",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://help.prusa3d.com/guide/how-to-trim-ptfe-tube-original-prusa-printers_22424",
+      "https://cdn.help.prusa3d.com/wp-content/uploads/generated/printer-maintenance_247_guide_22424_en_2026-05-13.pdf"
     ]
   },
   "uncertain": [
     "motion",
-    "tools_needed",
     "making_tips_3d_printing",
     "when_not_to_use",
     "common_failures"

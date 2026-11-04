@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -314,6 +316,8 @@ A heavy object falling is the main hazard: fix the wall side into studs or into 
 - Basic latches (spring latch, slide bolt, hook and eye): hooks and eyes are the simplest hang-on joint
 - DIN-rail clip (top-hat rail snap mount): hooks over a standard rail and snaps on, so it can't be lifted off by accident
 - Tripod and stand screw mount: the other common standard screw interface (a 1/4-20 or 3/8-16 socket), for screwing a device onto a stand or arm rather than hanging it on a wall
+- Glass and mirror edge clips and clamps (mirror clips): hold an unframed mirror or glass sheet on a wall by its edge, where a framed mirror would hang on a cleat
+- Shelf pins and shelf supports (shelf pegs): a loose shelf resting on pegs in holes, moved to a new height in seconds; the hang-on idea inside a cabinet
 
 ## Make it yourself
 

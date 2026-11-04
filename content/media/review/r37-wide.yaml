@@ -1,0 +1,143 @@
+# R37 (Phase 5) photo choices from the wide search (Find pictures --wide, the pages still without a photo after
+# r37-normal.yaml), by three helper agents from contact sheets (candidates already seen in the normal search left
+# out); every pick checked by Claude by eye, four turned down (noted). Pages that gained a photo lost their render (D43).
+# No candidates at all: linked-lead-screws, push-fit-rod-and-spar-fittings, spring-powered-paper-pop-up.
+baked-in-findings:
+  photos: []
+  needs_photo: true
+  note: All 40 are name matches on "baked"/"embedded"/"findings" (computer-on-module boards, embedded systems, Hubble images,
+    park scenes, a clay tablet, anime);
+bevel-splitter-and-counter-rotating-drive:
+  photos: []
+  needs_photo: true
+  note: Candidates are manual-gearbox drawings/animation (#1-#9, spur gears and layshafts, no opposed bevel pair), whole gearboxes
+    and engines (#10-#13) with no bevel splitter visible,
+bonding-fastener:
+  photos: []
+  needs_photo: true
+  note: All 49 are glue products, a regal organ, glue adverts or an aluminium adhesive-bonding course (#28-#45, bonded sheet
+    parts and clamps); none shows a threaded stud or nut on a perforated base plate.
+cardboard-screws-and-rivets:
+  photos: []
+  needs_photo: true
+  note: No plastic cardboard screw or two-part rivet appears;
+compression-limiter:
+  photos: []
+  needs_photo: true
+  note: All 50 are name matches on "compression"/"crush"/"limit" (river tidal limit, crowd crush, K-drama stills, Bethnal
+    Green tube, Troika artworks, crushable honeycomb test
+folding-box-closures:
+  photos: []
+  needs_photo: true
+  note: All 35 are name matches on "box" (signal box at Hagside level crossing, uniform, aircraft model, Breadon Field / Max
+    Hess Stadium newspaper scans); no folding carton, tuck flap or lock bottom is shown.
+glass-and-mirror-edge-clips-and-clamps:
+  photos: []
+  needs_photo: true
+  note: All 24 candidates are off-topic "three"/"three-way" name matches (mountains, giraffes, bridges, road junctions, vans)
+    plus one sexually explicit drawing (#1); the search terms for this page look wrong. Nothing shows a mirror clip or glass
+    clamp.
+glue-stick-and-starch-paste:
+  photos:
+  - candidate: 6
+    kind: how-it-works
+    alt: A white glue stick being rubbed across a sheet of pale green paper, leaving a thin film of glue on it.
+  - candidate: 1
+    kind: photo
+    alt: An open red-and-white glue stick with its cap off, showing the soft cream-coloured glue pushed up out of the tube.
+  needs_photo: false
+  note: '#6 shows the stick in use, #1 shows the glue itself. Other product shots (#2-#5, #9, #10) are fine but redundant;
+    #8, #11-#13 are dim/cluttered; #14 is a mixed product shot; #21-#25 are packaging, clip-art or a 3D render; none show
+    starch paste.'
+glued-tab-joint:
+  photos: []
+  needs_photo: true
+  note: 'Mostly name matches (Erfurt buildings, railway construction, flap discs, a caterpillar). Origami modulars (#15, #17,
+    #18, #22, #27, #30, #32, #34-#38) are folded without glued tabs; plastic kit models (#16, #23, #24, #29, #31) are a different
+    joint. Near misses: #28 is a printable kaleidocycle net with "Glue" tabs marked (a printed template, not a photo) and
+    #25 is a finished paper model whose tabs are hidden.'
+lead-came-joint:
+  photos: []
+  needs_photo: true
+  note: All 5 candidates are name matches (an air-force operator at a desk, Bhutanese festival dancers); no stained glass
+    or came at all.
+liquid-clay-bond:
+  photos: []
+  needs_photo: true
+  note: '#1-#4 are industrial plastisol (a related PVC paste) in dishes and tins, not liquid polymer clay used as a joint;
+    #5-#8 are factory machinery and barrels; #9-#11 are polymer-clay craft pieces where no bonded joint can be seen.'
+panel-standoff:
+  photos: []
+  needs_photo: true
+  note: The only candidate is a stone church font (dodecagon name match); nothing shows a standoff fixing.
+parallel-fold-pop-up:
+  photos: []
+  needs_photo: true
+  note: 'Doubtful pick: Wellcome Collection Victorian layered pop-up valentines (CC BY 4.0) are finished examples of stacked
+    parallel-fold layers, but the folds/struts themselves are not visible from the front. Turned down geology folds (#1-#10),
+    singers and buildings (#11-#16, #26, #28), origami and tessellations (#22-#24, #27, #29-#32), and #17/#20 (more of the
+    same cards, flatter view). | #19 turned down by Claude: a finished stand-up valentine seen from the front; the folds and
+    struts that make it a parallel-fold pop-up cannot be seen | #18 turned down by Claude: as #19'
+pinned-glue-joint:
+  photos: []
+  needs_photo: true
+  note: 'Nearly all name matches (Pin village in Haute-Saone, Pinal, pin badges, pinning ceremonies, pin-ups). The mechanical
+    candidates are revolute/hinge pin joints and taper-pin drawings (#16-#19, #21-#23), bridge pin joints (#24, #25) or LEGO,
+    none of them a glued dowel/pin; #44 is too unclear to tell what it shows.'
+potted-insert:
+  photos: []
+  needs_photo: true
+  note: Only two candidates, a 1920 portrait (name match) and an A-10 wing hard point (aircraft pylon, not a potted insert
+    in a sandwich panel); both turned down.
+pull-tab-and-slider-mechanism:
+  photos: []
+  needs_photo: true
+  note: 'Doubtful pick - | #17 turned down by Claude: only the front of the card shows; the tab is tiny and the slider cannot
+    be seen'
+score-and-fold-hinge:
+  photos:
+  - candidate: 8
+    kind: how-it-works
+    alt: A person using a hand-operated creasing machine, pressing a straight fold line into a sheet of card laid on the machine
+      bed.
+  needs_photo: false
+  note: '#7 (close-up of a pressed crease in grey board) is a fair third choice; #3 is a bookbinding spine-creasing machine
+    with little of the crease visible; #5 is a German text diagram; Crease Clinic buildings, Rodley Fold places, gold strips,
+    kirigami templates and other folded-paper pictures are name matches or not this item. | #4 turned down by Claude: mostly
+    shows the stapled corners of a greyboard box; the crease is hard to see'
+score-and-slip-join:
+  photos:
+  - candidate: 22
+    kind: how-it-works
+    alt: A potter brushing liquid clay slip onto the scored rim of a clay ring so another piece can be pressed on and joined.
+  needs_photo: false
+  note: Only
+several-motors-driving-one-load:
+  photos: []
+  needs_photo: true
+  note: Nothing shows motors ganged onto one gear, shaft or gantry; VW TwinDrive (#10,
+slot-in-model-hinge:
+  photos: []
+  needs_photo: true
+  note: No radio-controlled model hinges at all; candidates are folding screens, archaeological hinge finds, a full-size Convair
+    rudder tab hinge (#15), buildings and cars matched on 'hinge', 'screen' or 'pin'.
+v-fold-pop-up:
+  photos: []
+  needs_photo: true
+  note: No pop-up cards; candidates are folding card tables, rock folds, origami models, crease-pattern diagrams and unrelated
+    scenes matched on 'fold', 'angle' or 'card'.
+v-groove-fold:
+  photos: []
+  needs_photo: true
+  note: Only six candidates, all archaeological finds (bead, folding candlestick, buckles with folded plates); none shows
+    a V-grooved sheet folded at a corner.
+wire-and-foil-armature:
+  photos:
+  - candidate: 4
+    kind: how-it-works
+    alt: A sculptor pressing modelling clay onto a bent wire armature fixed upright in a wooden base, with the finished figure
+      standing on a stand behind him.
+  needs_photo: false
+  note: '#4 shows a wire armature anchored in a base being built up (no foil bulking visible, so slightly short of the full
+    item); #1 is an engraving, not a photo; #2 and #8 show large sculptures with the armature hidden; the rest are finished
+    statues, buildings and carvings.'

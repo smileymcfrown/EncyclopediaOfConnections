@@ -30,8 +30,11 @@ for e in tree.E:   # as tree.py's own test does
     d = json.load(open(tree.RESULTS + e['file']))
     e['materials_raw'] = d['finder_attributes']['materials']
 EXA = tree.load_examples()
+# The finder answers set by hand (R33) are already in finder-tree.json's entry lists. `made_of` is set by
+# hand too, but the page needs it: it is the "Made of" filter under every shortlist (R37, D45).
+SHOWN = {'made_of'}
 HAND = {k for k, v in yaml.safe_load(open(os.path.join(ROOT, 'research', 'finder-tags', 'fields.yaml'))).items()
-        if v.get('set_by') == 'hand'}
+        if v.get('set_by') == 'hand'} - SHOWN
 
 
 def front(fn):
@@ -75,7 +78,6 @@ def main():
             pages[fm['num']] = {
                 'num': fm['num'], 'page': fn[:-3], 'title': fm['title'],
                 'description': fm['description'], 'family': fm['family'], 'other_families': fm['other_families'],
-                # the finder answers set by hand (R33) are already in finder-tree.json's entry lists
                 'finder': {k: v for k, v in fm['finder'].items() if k not in HAND},
                 'needs_confirming': sorted(k for k in fm['needs_confirming'] if k not in HAND),
                 'image': (fm.get('image') or {}).get('still') or (fm.get('image') or {}).get('file')}   # cards show a still
@@ -93,6 +95,8 @@ def main():
     errors = [f'path ends on {k} entries: {" > ".join(p)}' for p, k in leaves if not 3 <= k <= 10]
     errors += [f'entry {n} is on no path' for n in sorted(set(pages) - reached)]
     errors += [f'answer has no example: {" > ".join(p)}' for _, p in tree.answer_paths() if not EXA.get(p, {}).get('example')]
+    errors += [f'entry {n} has no `made_of` material (research/finder-tags/tags.yaml)' for n, p in sorted(pages.items())
+               if not set(p['finder'].get('made_of') or []) - {'not applicable'}]
     missing = sorted({e['num'] for e in tree.E} - set(pages))
     errors += [f'entry {n} has no page (run tools/make_entries.py)' for n in missing]
     if errors:

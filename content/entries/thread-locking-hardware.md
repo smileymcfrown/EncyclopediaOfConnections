@@ -95,6 +95,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, carbon fibre or composites]
 needs_confirming:
   connects:
     kind: best guess
@@ -343,6 +345,8 @@ Locking hardware that fails can let wheels, brakes or linkages come apart: a 200
 - [Captive nut](../glossary.md#captive-nut) pocket (nut trap) and heat-set threaded insert: ways to put a metal thread into a 3D print; a nylon-insert nut can sit in a nut trap
 - Wave and disc springs (compact axial springs): conical spring washers (DIN 6796) keep clamp force as a joint settles, which split washers don't
 - Snap pin (split-leg push-in pin): a printed or plastic pin with springy legs, not the same as a metal split pin
+- Split-pin paper fastener (brass paper fastener): looks like a split pin, but is a soft brass pin whose legs are spread behind paper or card to make a light pivot, not a locking part
+- Compression limiter (crush tube): a metal sleeve that keeps the bolt's clamp force off a soft or plastic part, so the joint doesn't loosen as the part creeps
 
 ## Make it yourself
 

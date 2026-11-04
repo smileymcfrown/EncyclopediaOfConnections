@@ -80,7 +80,8 @@
       "Car windscreen wipers, driven from the motor through four-bar linkages, and the parallelogram 'pantograph' wipers on buses (Wikipedia 'Windscreen wiper')",
       "Balanced-arm desk lamps, whose parallelogram keeps the lamp head pointing the same way, and ironing boards that stay level as you change the height (Wikipedia 'Balanced-arm lamp'; reSolve Maths)",
       "Oil-well pumpjacks, bicycle rear suspensions, door closers, folding chairs and treadle sewing machines (Wikipedia 'Four-bar linkage')",
-      "Locking pliers, and your own knee joint (Hackaday)"
+      "Locking pliers, and your own knee joint (Hackaday)",
+      "Parallel-fold pop-up cards and books, where each paper step or box is a parallelogram whose hinges are creases, so it stands up as the card opens (Wikipedia 'Pop-up book' captions its diagram of the basic principle 'the parallelogram'); see Parallel-fold pop-up"
     ],
     "when_to_use": "Use a four-bar when you need a part to move along a particular path, swing back and forth from a turning motor, or stay level while it moves, using only pivots, which are cheap, strong and wear slowly. Crank-rockers turn a motor's rotation into a swing (wipers, pumps, walking toys); double rockers make grippers, suspensions and folding mechanisms; parallelograms keep a lamp head, platform, gripper jaw or camera level while it rises and falls; a pantograph copies, enlarges or reduces motion, from drawing aids to precise probes. A four-bar near its toggle position gives a very large force and can lock, as in toggle clamps and locking pliers.",
     "when_not_to_use": "Avoid it when you need a long straight-line movement (use a slide, rack and pinion or lead screw) or exact straight lines from pivots only (see the straight-line linkages, Watt, Chebyshev and Peaucellier), when a parallel arm must swing more than about 180 degrees (use a chain or belt 'virtual four-bar'; gm0), when you need a constant speed or force through the whole movement (linkages vary; use gears, belts or screws), or when the motion must change often (use a servo or programmable actuator). A parallelogram run through its line-up positions can flip unless guided; avoid designs that pass through those points.",
@@ -97,7 +98,9 @@
       "Virtual-pivot linkage (remote centre of motion): a linkage arranged so a part rotates about a point in empty space",
       "Bell crank (angle lever): a single L-shaped lever often used as one link of a linkage",
       "Oldham coupling: like a parallel link coupling, passes rotation between offset parallel shafts, but by sliding rather than pivots",
-      "Multi-turn rotation limiter: its stacked-ring stops use the same lost-motion idea, each ring turning idly until it picks up the next"
+      "Multi-turn rotation limiter: its stacked-ring stops use the same lost-motion idea, each ring turning idly until it picks up the next",
+      "Parallel-fold pop-up: a paper parallelogram linkage, with creases as the pivots and the card's centre fold as the input",
+      "V-fold pop-up: a paper linkage whose creases all meet at one point, so the piece swings up at a slant instead of rising square"
     ]
   },
   "media": {
@@ -225,7 +228,8 @@
       "https://www.mcmaster.com/products/rod-ends/",
       "https://www.mcmaster.com/products/shoulder-bolts/",
       "https://www.mcmaster.com/products/sleeve-bearings/",
-      "https://cs448m.github.io/lectures/machines/doc/2.pdf"
+      "https://cs448m.github.io/lectures/machines/doc/2.pdf",
+      "https://en.wikipedia.org/wiki/Pop-up_book"
     ]
   },
   "uncertain": [

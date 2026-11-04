@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [same way]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   shaft_layout:
     kind: best guess
@@ -346,6 +348,8 @@ The point where the chain runs onto a sprocket is an in-running nip point that c
 - Cable carrier (drag chain): looks like a chain but only carries cables and hoses; it passes on no power
 - Rigid chain [actuator](../glossary.md#actuator) (push chain): a chain whose links lock into a column so it can push as well as pull
 - Shaft drive: a spinning shaft with bevel gears, used on some bicycles and touring motorcycles instead of a chain (Wikipedia 'Chain drive')
+- Linked lead screws (Z sync belt): a closed chain or belt round several screws keeps them turning exactly together
+- Line shaft and power take-off: one driven shaft with a sprocket or pulley for each machine, so one motor drives many
 
 ## Make it yourself
 

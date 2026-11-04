@@ -1,0 +1,365 @@
+---
+title: Cable splitter
+description: A cable splitter is a small junction where one control cable is joined to two (so one lever pulls both the same
+  distance) or two cables are joined to one (so either lever can pull the output), letting one hand work two brakes, one twistgrip
+  open two carburettors and an oil pump, or a second lever work the same brake.
+num: 452
+term: Cable splitter (cable doubler, cable junction box; one-into-two splitter or two-into-one dual-control splitter)
+plain_name: A small block, tube or plate where one control cable meets two others, so pulling one lever pulls two cables the
+  same distance (one lever, two brakes; one twistgrip, two carburettors and an oil pump), or so either of two levers can pull
+  the same cable
+aliases:
+- cable doubler, 1:2 (one lever for two brakes) and 2:1 (two levers for one brake) (Problem Solvers (brand), via SJS Cycles
+  and Tree Fort Bikes)
+- tandem brake splitter (IHPVA trike-building pages)
+- double control cable splitter / DoubleControl (Jtek (brand)); brake / gear cable splitter
+- throttle junction box, choke junction box, 2-1 or 3-1 junction box (vintage British motorcycles; Amal (brand))
+- split-cable junction, junction sleeve, junction tube, throttle / oil-pump splitter (two-stroke motorcycles with an oil-injection
+  pump)
+- 1 into 2 throttle cable, one-into-two cable, Y-cable
+- two into one brake handles / two-into-one brake lever (trikes); dual-cable lever, double cable pull lever, twin cable pull
+  brake lever
+- upper gyro cable / detangler upper cable that divides into two (BMX)
+- synchronizing device for wire-activated mechanisms (rocking-beam junction, Yamaha patent US4197763A)
+- not the same as a 'Bowden splitter' or 'Y filament splitter' on 3D printers, which merges two filament tubes into one and
+  passes filament, not pull
+family: gear trains, gearboxes & transmissions
+other_families: [motion conversion]
+finder:
+  job: [change the kind of motion, change speed or turning force, join and hold]
+  motion: slide
+  special_behaviour: [motion conversion]
+  holding_principle: [not a holding joint, shape, friction or clamping]
+  reuse_cycles: many times
+  seal: none
+  access_needed: not applicable
+  print_in_place: 'no'
+  maker_difficulty: moderate
+  processes: [off-the-shelf part, CNC, 3D print (FDM), sheet metal]
+  connects: [not applicable]
+  power_source: [none]
+  power_loss: not applicable
+  motion_in: [straight push or pull]
+  motion_out: [straight push or pull]
+  shaft_layout: [not applicable]
+  overload_response: not applicable
+  clicks: not applicable
+  tools: [drill and tap, hand tools]
+  load_max: medium
+  usual_process: off-the-shelf part
+  adjustable: 'yes'
+  removability: removable
+  power: passive
+  printed_take_apart: [not applicable]
+  threaded: [not applicable]
+  sheet_material: [not applicable]
+  carries_fluid: [not applicable]
+  shaft_joint: [not applicable]
+  printable: [not applicable]
+  shaft_alignment: [not applicable]
+  cord_use: [not applicable]
+  knot_use: [not applicable]
+  cord_part: [not applicable]
+  opens_by: [not applicable]
+  locks_out: [not applicable]
+  mounts_on: [not applicable]
+  wall_hold: [not applicable]
+  gripped_by: [not applicable]
+  weld_material: [not applicable]
+  wire_use: [not applicable]
+  plugs_in: [not applicable]
+  holds_position: [not applicable]
+  drive_does: [not applicable]
+  slide_kind: [not applicable]
+  flex_does: [not applicable]
+  move_kind: [not applicable]
+  one_way_kind: [not applicable]
+  clicks_do: [not applicable]
+  holds_for: [not applicable]
+  over_centre_use: [not applicable]
+  slows_by: [not applicable]
+  straight_drive: [not applicable]
+  push_by: ['cables, pulleys or liquid']
+  tightens: [not applicable]
+  tension_hold: [not applicable]
+  adjusts: [not applicable]
+  spring_kind: [not applicable]
+  seal_use: [not applicable]
+  seal_material: [not applicable]
+  hose_join: [not applicable]
+  fluid_does: [not applicable]
+  powered_does: [not applicable]
+  also_under: [not applicable]
+  turns: [not applicable]
+  drive_split: ['pushes, pulls or flow shared out']
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
+confirmed: []
+open_points:
+- kind: content
+  note: '*Cable splitter* (452): Jtek DoubleControl L travel 27 mm (SJS product page) versus 26 mm (an SJS staff answer).
+    The 80:20 front-to-rear brake split is forum advice only; UK road law on independent brakes only from forum statements
+    (the legislation.gov.uk text could not be read). Google Patents read through WebFetch only. A MakerWorld throttle-splitter
+    model appears from search results only (page 403; licence not checked).'
+uncertain_fields: [input_output, load, making_tips_3d_printing, rules_of_thumb, safety_notes, make_it_yourself]
+diagram_idea: 'Two side-by-side cut-away tubes: on the left, one input wire and two output wires all fixed to one slider,
+  with arrows showing every wire moving the same distance and a note ''same travel, force not evened out''; on the right,
+  two input wires that can each pull the output slider through a slot, one pulled and one slack, labelled ''either lever works
+  it''.'
+links:
+- url: https://ihpva.org/Projects/tstrike/building/2into1.htm
+  title: 2 into 1 Brake Handles (IHPVA trike-building pages)
+  shows: A home-made two-cable plate on a normal brake lever (with links to photos and a drawing), plus mailing-list notes
+    on tandem brake splitters, balancing with barrel adjusters, and race rules requiring two braking systems
+  license: link only
+- url: https://commons.wikimedia.org/wiki/File:Detangler.JPG
+  title: Detangler.JPG (Wikimedia Commons; Andrew Dressel)
+  shows: Photo of a BMX detangler, where the rear brake cable divides into two to pull the rotor plate evenly
+  license: CC BY-SA 3.0 or GFDL 1.2+
+- url: https://www.sjscycles.co.uk/cables/jtek-doublecontrol-s/
+  title: Jtek Double Control Brake Cable Splitter (SJS Cycles)
+  shows: Product photos of a small two-into-one (dual-control) splitter, with its 12 mm travel limit and mounting options
+  license: link only
+- url: https://patents.google.com/patent/US4197763A/en
+  title: US4197763A Synchronizing device for wire-activated mechanisms (Yamaha Motor, 1980; Google Patents)
+  shows: Patent drawings of a throttle-cable junction whose slider carries a rocking beam to synchronise the carburettor and
+    oil-pump wires
+  license: link only (US patent text and drawings are generally public domain)
+- url: https://www.classicbritishspares.com/products/amal-throttle-choke-junction-box
+  title: Amal Choke / Throttle Junction Box (Classic British Spares)
+  shows: Photos of 2-1 and 3-1 throttle and choke junction boxes in chrome, stainless and plastic for twin- and triple-carburettor
+    motorcycles
+  license: link only
+make_it_yourself:
+- url: https://ihpva.org/Projects/tstrike/building/2into1.htm
+  title: 2 into 1 Brake Handles (IHPVA)
+  what_it_is: 'A home-made build: a small metal plate bolted through the old cable hole of a standard brake lever to take
+    two cables (about an hour to make), and a frame-mounted version using cable-stop braze-ons and a cable clamp nut and bolt'
+  license: link only
+- url: https://makerworld.com/models/3140208
+  title: Rotax engine throttle splitter (MakerWorld; seen in search results, page blocked (403), not opened)
+  what_it_is: A printable mechanical splitter said to drive two carburettors from one cable, with a clear cover to watch the
+    slider; for study only, not for a real engine throttle
+  license: '[uncertain] not checked'
+sources:
+- https://ihpva.org/Projects/tstrike/building/2into1.htm
+- https://www.sjscycles.co.uk/cables/problem-solvers-cable-doubler-12/
+- https://www.sjscycles.co.uk/cables/jtek-doublecontrol-s/
+- https://www.sjscycles.co.uk/cables/jtek-doublecontrol-l/
+- https://www.bike-components.de/en/Jtek-Engineering/Double-Control-L-Brake-Gear-Cable-Splitter-p56496/
+- https://www.treefortbikes.com/Problem-Solvers-Cable-Doubler-12-One-Lever-for-Two
+- https://www.ison-distribution.com/english/product.php?part=BLDC7WLK
+- https://www.yamaha-enduros.com/index.php/forums/general-discussion/7778-how-does-the-split-cable-junction-work
+- https://www.yamaha-enduros.com/index.php/forum/maintenance/19924-throttle-cable
+- https://www.classicbritishspares.com/products/amal-throttle-choke-junction-box
+- https://laverdaforum.com/threads/750-dual-throttle-cable-conversion.107062/
+- https://laverdaforum.com/threads/750-dual-throttle-cable-conversion.107062/page-2
+- https://www.accessnorton.com/NortonCommando/throttle-cable-junction-q.40282/
+- https://www.accessnorton.com/NortonCommando/throttles-up-when-i-turn-bars.35111/#post-577950
+- https://forum.cyclinguk.org/viewtopic.php?p=1463216
+- https://forum.slowtwitch.com/t/brake-cable-splitter/296856
+- https://www.sheldonbrown.com/tandem-brakes.html
+- https://www.sheldonbrown.com/cables.html
+- https://en.wikipedia.org/wiki/Bicycle_brake
+- https://en.wikipedia.org/wiki/Detangler
+- https://commons.wikimedia.org/wiki/File:Detangler.JPG
+- https://patents.google.com/patent/US4197763A/en
+- https://patents.google.com/patent/US4773510
+- https://dld.utah.gov/?p=8943
+- https://help.prusa3d.com/article/pla_2062
+- https://help.prusa3d.com/article/petg_2059
+- https://api.printables.com/graphql/
+research: research/connection-types/results/Cable_splitter_cable_doubler_oneintotwo_cable_junction_dualcontrol_brake_splitter.json
+image:
+  file: drawn/anim/cable-splitter.svg
+  alt: 'A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and
+    two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same
+    distance. Animated: the lever is pulled, the slider and both output wires move the same distance and both brake arms swing,
+    then springs pull everything back.'
+  drawn: true
+  still: drawn/cable-splitter.svg
+  kind: animation
+pictures:
+- file: drawn/anim/cable-splitter.svg
+  alt: 'A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and
+    two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same
+    distance. Animated: the lever is pulled, the slider and both output wires move the same distance and both brake arms swing,
+    then springs pull everything back.'
+  drawn: true
+  still: drawn/cable-splitter.svg
+  kind: animation
+- file: cable-splitter.webp
+  title: File:Detangler.JPG
+  author: unknown
+  license: CC BY-SA 3.0
+  license_url: http://creativecommons.org/licenses/by-sa/3.0/
+  source: https://commons.wikimedia.org/wiki/File:Detangler.JPG
+  site: Wikimedia Commons
+  alt: Close-up of a BMX bike's detangler under the handlebars, where the brake cable splits to pull the rotating plate from
+    both sides.
+  kind: how-it-works
+  drawn: false
+glossary: [stroke, crank, linkage, clearance, form-fit--force-fit--material-bond, set-screw]
+---
+
+<div class="eoc-pictures">
+<figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/cable-splitter.svg"><img src="../media/drawn/anim/cable-splitter.svg" alt="A one-into-two cable splitter: a lever pulls one cable into a junction box, shown cut open, where the input wire and two output wires are all fixed to one sliding block, so the two output cables pull their two brake arms exactly the same distance. Animated: the lever is pulled, the slider and both o"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/cable-splitter.webp" alt="Close-up of a BMX bike&#x27;s detangler under the handlebars, where the brake cable splits to pull the rotating plate from both sides." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://commons.wikimedia.org/wiki/File:Detangler.JPG">Detangler</a> by unknown, <a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, from Wikimedia Commons.</figcaption></figure>
+</div>
+
+A cable splitter is a small junction where one control cable is joined to two (so one lever pulls both the same distance) or two cables are joined to one (so either lever can pull the output), letting one hand work two brakes, one twistgrip open two carburettors and an oil pump, or a second lever work the same brake.
+
+**In plain words:** A small block, tube or plate where one control cable meets two others, so pulling one lever pulls two cables the same distance (one lever, two brakes; one twistgrip, two carburettors and an oil pump), or so either of two levers can pull the same cable. **Proper term:** Cable splitter (cable doubler, cable junction box; one-into-two splitter or two-into-one dual-control splitter).
+
+**Also called:** cable doubler, 1:2 (one lever for two brakes) and 2:1 (two levers for one brake) (Problem Solvers (brand), via SJS Cycles and Tree Fort Bikes); tandem brake splitter (IHPVA trike-building pages); double control cable splitter / DoubleControl (Jtek (brand)); brake / gear cable splitter; throttle junction box, choke junction box, 2-1 or 3-1 junction box (vintage British motorcycles; Amal (brand)); split-cable junction, junction sleeve, junction tube, throttle / oil-pump splitter (two-stroke motorcycles with an oil-injection pump); 1 into 2 throttle cable, one-into-two cable, Y-cable; two into one brake handles / two-into-one brake lever (trikes); dual-cable lever, double cable pull lever, twin cable pull brake lever; upper gyro cable / detangler upper cable that divides into two (BMX); synchronizing device for wire-activated mechanisms (rocking-beam junction, Yamaha patent US4197763A); not the same as a 'Bowden splitter' or 'Y filament splitter' on 3D printers, which merges two filament tubes into one and passes filament, not pull.
+
+## How it works
+
+In the one-into-two kind, the input wire and both output wires are fixed to the same slider, so when the lever pulls the slider every output wire moves exactly the same distance; the outer sleeves push against the two ends of the box, which carries the reaction. Because the outputs are tied together, it copies distance, not force: the brake or carburettor whose cable goes tight first takes the pull, so each cable's slack has to be set with its barrel adjuster ('It does not provide balance between the brakes but you can adjust that easily with the cable barrels', IHPVA). In the two-into-one kind, each input can pull the shared output slider but goes slack when the other lever is used, so the output follows whichever lever is pulled further and the levers 'operate totally independent of each other' (Jtek, SJS Cycles). Neither kind can push: the return springs in the brakes, carburettor slides or oil pump pull everything back when the lever is let go.
+
+## Parts
+
+A few parts. One-into-two junction: a tube or box, a slider (called the 'piston' on Yamaha two-strokes) that holds the end fitting (nipple) of the input wire and both output wires, end caps that the outer cable sleeves (housings) seat into, and usually barrel adjusters on each output. Two-into-one dual-control splitter: a tube with an output slider and two input pieces that can each pull it without pushing the other, sometimes with small springs (Problem Solvers' doubler 'has its own sprung system'; the Jtek one 'relies on the spring tension in the brakes', SJS Cycles). Lever-plate version: a small metal plate bolted to a normal brake lever that holds two cable ends (IHPVA), or a ready-made dual-cable lever (e.g. Dia-Compe Tech77W (brand)).
+
+## Everyday examples
+
+- A BMX detangler (gyro): the cable from the rear brake lever divides into two so the rotor plate is pulled evenly on both sides, then merges back into one (Wikipedia, Detangler)
+- The throttle cable on an old two-stroke motorcycle, which splits in a junction tube under the tank to the carburettor and the oil pump (Yamaha-enduros forum)
+- The throttle junction box on a vintage British twin with two carburettors (Amal-type junction box, Classic British Spares)
+- A tandem or trike where one lever works two brakes (IHPVA; Sheldon Brown)
+
+## When to use it
+
+Use a one-into-two splitter when one lever, pedal or twistgrip has to pull two or three cables exactly the same distance: two carburettors or a carburettor and an oil pump on one twistgrip, two front brakes on a trike, two brakes for a rider who can use only one hand (Cycling UK and Slowtwitch forums), or two sides of a BMX detangler. Use a two-into-one (dual-control) splitter when either of two levers should work the same brake or gear, such as a second brake lever on aero or time-trial bars, a stoker or instructor's control, or adapted cycles (SJS Cycles; Tree Fort Bikes). It is small (the Jtek S weighs 12 g, SJS Cycles), cheap and uses standard cables.
+
+## When not to use it
+
+Don't use it when the outputs need different amounts of cable pull (a rim brake and a hub brake, or road and V-brakes) (Sheldon Brown); when the force must be shared evenly between outputs whose slack differs, use a whippletree (equaliser bar) instead; for brakes, hydraulics avoid cable friction ('Hydraulic brake lines are frictionless', Sheldon Brown), and one master cylinder feeding two cylinders shares pressure rather than travel (see Syringe hydraulics). Don't use a single-lever splitter as the only braking system on a road vehicle or in competitions that require two independent brake systems (IHPVA); keep a separate, independent brake (Sheldon Brown: 'Have two brakes'). For twin carburettors, a twin-pull twistgrip with inline adjusters or a cross-shaft [linkage](../glossary.md#linkage) are alternatives (Access Norton; Laverda forum). For robots, a servo per output or a rigid linkage is often simpler.
+
+## Details
+
+- **What it does (jobs):**
+  - change the kind of motion: one pull becomes two (or three) equal pulls, or either of two pulls becomes one, a one-to-many or many-to-one junction for control cables
+  - change speed or turning force: the hand's pull is shared between the cables, so each brake gets only part of it ('either way will reduce the hand power available for each brake', Cycling UK forum)
+  - join and hold: it joins the cable ends and holds the outer sleeves so the pull is passed on
+- **Movement:** slide: the slider moves in a straight line inside the tube, over a short [stroke](../glossary.md#stroke) set by the brake or throttle (the Jtek S allows up to 12 mm of cable travel and the Jtek L 27 mm, SJS Cycles); a lever-plate version turns with the brake lever
+- **Directions it can move (degrees of freedom):** 1 for a one-into-two junction: the single slider moves along the tube and all the wires move with it. 2 for a two-into-one dual-control splitter: each input can move on its own, and the output follows whichever is pulled further (the other just goes slack).
+- **Special behaviour:**
+  - motion conversion (e.g. rotary to linear): it turns one pull into several equal pulls, or picks whichever of two pulls is larger (an 'either lever' combiner)
+  - none of the locking or balancing behaviours: it does not even out the force between its outputs (compare the whippletree) and it does not lock or hold; the far-end return springs bring it back. A rocking-beam version that equalises the two wires first and then locks was patented by Yamaha (US4197763A) but is not the common type
+- **How it holds:**
+  - not a holding joint (it moves or passes on motion): it passes a pull from the lever to the brakes or carburettors
+  - shape (the parts interlock; [form-fit](../glossary.md#form-fit--force-fit--material-bond)): the cable-end nipples sit in slots in the slider and the sleeve ends (ferrules) seat in the end caps
+  - friction or clamping (force-fit): some wire ends are held by a small [set screw](../glossary.md#set-screw) or pinch bolt instead of a nipple (IHPVA's frame-mounted version uses 'a cable clamp nut and bolt')
+- **Input and output:** One-into-two: one pull -> two (or three) pulls of the same length, a 1:1 travel ratio; the force is shared according to which output resists most, not evenly. Two-into-one: either of two pulls -> one pull, the output following the input that is pulled further. Travel is limited by the junction (Jtek S: 'Maximum cable travel 12mm' for short-pull road brakes; Jtek L: 27 mm on its product page, though an SJS staff answer gives 26 mm) ⚑ [uncertain: no figure found for efficiency; friction in the junction and extra cable bends lower it, and a hung-up junction can stop it returning]. Arrangement: not shafts; cables come in and out along the line of the tube. Back-drivable: a one-into-two junction is, since pulling one output wire drags the slider and the other outputs; a two-into-one splitter only pulls its output, and it 'can't be used in reverse' as a one-into-two (SJS Cycles).
+- **Power:** passive (no power needed): moved by a hand lever, twistgrip or pedal and returned by the springs at the brakes, carburettor slides or oil pump
+- **Load:** Light to medium: it carries the pull of a hand brake or throttle, strong along the line of pull and in pull only (it cannot push). The outer sleeves push hard on the end caps, so plastic boxes can crack ('I've managed to destroy 4 plastic ones', Classic British Spares review) and cables can pull out of the splitter (Laverda forum). No rated load figure was found ⚑ [uncertain].
+- **Play and precision:** Small play if the junction is in good order, but all the outputs move together only when every cable has the same slack, so it needs careful setting up; cables of slightly different length and the different thermal expansion of two long cables upset carburettor synchronisation (Laverda forum). A junction that sits loose can move when the handlebars turn and change the throttle opening (Access Norton forum). It tolerates bends in the cables but each bend adds friction.
+- **Taking it apart:** removable: the wires unhook from the slider and the sleeves pull out of the end caps (on a Yamaha junction 'you simply pop the cap off the top of the splitter' and lift the 'piston' out, Yamaha-enduros forum); bolted lever plates unbolt
+- **How often it can be reused:** many times: nothing is deformed when it is taken apart, though a wire clamped by a set screw frays and may need a new end
+- **Sealing:** none: the slider tube is open at the cable holes; vintage junctions are greased inside, and some owners glue the outer sleeves into the box (Access Norton forum)
+- **Adjustable:** yes: the slack in each output cable is set with barrel (inline) adjusters at the brakes, carburettor tops or oil pump, which is how the brakes are balanced ('adjust that easily with the cable barrels at the hubs', IHPVA) and twin carburettors are synchronised; old tandem brakes had eccentric levers for the same job (Slowtwitch forum). The split itself is always 1:1 in travel.
+- **Access needed:** not applicable: it sits in the cable run (inline, at a cable stop, on a brake calliper or at the lever) and is reached wherever the cables run
+- **Materials:** Usually machined aluminium, hard anodised with a slippery PTFE (Teflon) finish (Problem Solvers via Tree Fort Bikes), chrome-plated or stainless steel with a brass slider, or plastic (Amal-type junction boxes, Classic British Spares; the plastic junction tube on a Yamaha GT80), and steel or aluminium plate for home-made lever plates (IHPVA). It works with steel inner wires in plastic-lined sleeves. A 3D-printed junction in PLA or PETG suits only light jobs such as models, puppets and animatronics; it is not suited to brakes or engine throttles.
+- **Heat, cold, water and wear:** Water and dirt make the slider stick, and an unused junction can seize ('My throttle will not turn after years of disuse', Yamaha-enduros forum); keep it lubricated, but not packed full of grease, because 'the return springs may not be able to squeeze the grease out of the way' (same thread). Two long cables expand differently with temperature, which can upset carburettor synchronisation (Laverda forum). Vibration and steering movement can make a loose junction shift or let cables jump out (Laverda forum; Access Norton forum). Printed junctions: PLA softens above about 60 C and degrades in sunlight; PETG is usable below about 80 C (Prusa Knowledge Base).
+
+## Making it
+
+- **Ways to make or get it:**
+  - off-the-shelf part: cable doublers and splitters for bicycles, throttle and choke junction boxes, dual-cable brake levers, one-into-two throttle cables
+  - CNC: machined aluminium splitter tubes and sliders (Problem Solvers)
+  - sheet metal: a home-made two-cable plate bolted to a brake lever (IHPVA)
+  - 3D print (FDM): light-duty junctions for models, puppets and animatronics only
+- **Printing it in one piece (print in place):** no: the body and slider are printed separately and the steel wires, sleeve end caps and any clamp screws are added
+- **Tools:** Cable and housing cutters, a small hex key (2 mm for set-screw types) or spanner for clamp bolts, light grease or cable lube, and zip ties to secure the junction; a spanner and drill if you make a lever plate (IHPVA)
+- **Difficulty:** moderate: a junction is simple in shape, but it must slide with very little friction, hold the sleeve ends firmly and suit the cable travel of the brakes, and brake or throttle use is safety-critical, so for vehicles buy a ready-made splitter or dual-cable lever; a light-duty one for a model or animatronic is easy to print
+
+### 3D printing tips
+
+For light jobs only (models, puppets, animatronics); never for brakes or engine throttles. 1) Make it a straight tube with a free-sliding block inside, and give the block a slot or hole for each wire end; fix wires with a small set screw or a crimped stop, as bicycle splitters do (IHPVA's 'cable clamp nut and bolt'). 2) Print the tube standing up so the bore is round and smooth, and test-fit the slider; a sliding fit needs some [clearance](../glossary.md#clearance) and a sanded or reamed bore ⚑ [uncertain: no source gives a clearance figure for this part]. 3) Line the bore or the cable holes with PTFE tube and seat each outer sleeve in a pocket with a ferrule, so the sleeve does not dig into the plastic. 4) Keep the junction close to the outputs and the outputs short (the motorcycle forums agree short carb-side cables help, Access Norton; Laverda forum). 5) Fit a return spring at every output: the junction can only pull. 6) For a two-into-one version, let each input pull the slider through a slot (lost motion), so it can go slack while the other input is used. 7) PLA softens and deforms above about 60 C and degrades in UV; PETG is usable below about 80 C (Prusa Knowledge Base). 8) Typical failures: the slider jams if it is too tight or the cables pull at an angle, and the end caps crack under the sleeve load (plastic junction boxes break, Classic British Spares review).
+
+### Buying one (off-the-shelf parts)
+
+Bicycle cable doubler or cable splitter, 1:2 and 2:1 versions (e.g. Problem Solvers Cable Doubler (brand), Jtek DoubleControl S for short-pull road brakes and L for long-pull V and mechanical disc brakes (brand)); dual-cable (twin cable pull) brake levers (e.g. Dia-Compe Tech77W (brand)); tandem double brake levers; throttle and choke junction boxes, 2-1 and 3-1 (e.g. Amal (brand)); one-into-two throttle cables with junction tube for two-stroke throttle and oil pump; BMX detangler (gyro) upper cables; inline barrel adjusters and cable stops; road (short-pull) and V-brake (long-pull) inner wires and lined brake housing; ferrules (end caps); pinch-bolt cable anchors; twin-pull twistgrips (the alternative to a junction box); remote hydraulic master cylinders that let a cable lever work hydraulic brakes (Hope V-twin (brand), mentioned on the Cycling UK forum).
+
+## Rules of thumb
+
+- Only put brakes that need the same cable pull on one splitter: a dual lever working a rim brake and a hub brake will not engage the hub brake, 'because hub brakes generally require more cable pull than rim brakes' (Sheldon Brown, Tandem Brakes).
+- Match the splitter to the brake type: V-brakes need levers with longer cable travel than older brakes, and mechanical disc brakes for flat bars use the same long pull (Wikipedia, Bicycle brake). The Jtek S allows 12 mm of cable travel for road (short-pull) brakes only; the Jtek L allows 27 mm for V and mechanical disc brakes (SJS Cycles product pages; an SJS staff answer gives 26 mm for the L).
+- Balance one-into-two brakes with the barrel adjusters at the brakes: the splitter itself 'does not provide balance' (IHPVA, quoting a tandem rider).
+- On a two-into-one splitter, give the main lever the straight run of cable and put the extra (auxiliary) lever through the splitter (Jtek L, SJS Cycles); a two-into-one splitter cannot be used in reverse as one-into-two (SJS staff answer).
+- Twin carburettors: put the split close to the carburettors and keep the carb-side cables short; tie the junction box to the frame so only the single cable moves when the bars turn, and leave a little slack with the bars turned (Access Norton forum, citing Norton's John Hudson; Laverda forum). Owners disagree: some prefer a twin-pull twistgrip with inline adjusters instead (Access Norton; Laverda forum).
+- Check a throttle junction by opening the throttle and letting go: 'you should only hear one click when both slides hit bottom' (Access Norton forum); the throttle should move freely, snap closed and not rev when the bars are turned (MSF T-CLOCS checklist, Utah Driver License Division).
+- Leave only a little slack at the carburettor tops: 'Too much can cause the cables to hang up in the junction box' (Access Norton forum).
+- Front-to-rear brake split on a trike or tandem: one experienced forum member gives about 80:20 front:rear for a moderate (about 0.5 g) stop, and another says the more slippery the road, the closer to 50:50 it needs to be (Cycling UK forum) ⚑ [uncertain: forum advice].
+
+## Common failures
+
+1) Binding or seizing in the junction, so the throttle sticks or will not turn: clean, lightly lubricate and free the cables (Yamaha-enduros forum). 2) Unequal slack, so one brake or carburettor works before the other: set each barrel adjuster (IHPVA) and resynchronise; one owner's cable 'would come half out and get cocked' until the clearance was reset and the slides resynchronised (Access Norton forum). 3) Cables jumping out of or hanging up on the edge of the splitter, often after the tank is refitted: reseat everything and route the cables carefully (Laverda forum). 4) Wrong carb-to-junction cables fitted, so the slides cannot close and the idle rises (Access Norton forum). 5) A splitter that cannot supply the cable travel the brakes need (a short-pull splitter on V-brakes) (SJS Cycles). 6) Cracked plastic junction boxes (Classic British Spares review). 7) Cables crossed over inside a twin's junction box (Yamaha-enduros forum).
+
+## Safety
+
+Single point of failure: if the lever, the splitter or the shared cable fails, every brake on it fails at once, so keep a second, independent brake (Sheldon Brown: 'Have two brakes, so you can still stop when a cable fails'); a dual lever that works both rim brakes also leaves 'no way to operate the front brake independently' (Sheldon Brown). Some trike race (pedal prix) rules 'require two separate braking systems' (IHPVA); road rules in some countries also require independent brakes, so check your local law ⚑ [uncertain: only forum statements were found for UK law]. A splitter shares one hand's pull, so each brake gets less force. A sticking or binding junction can hold a throttle open or raise the revs when the bars turn ('Revs are sticking @ 2K'; 'If a cable hangs-up as you brake for a corner...', Access Norton forum): check that the throttle snaps closed before riding (MSF T-CLOCS). On two-strokes, an oil-pump cable out of step with the throttle can give 'an excessive supply or shortage of the lubricating oil' (Yamaha patent US4197763A), which can damage the engine. Never use a home-made or 3D-printed splitter on a vehicle's brakes or throttle.
+
+## Related
+
+- Bowden cable (push-pull cable): the cable a splitter is fitted into; on its own it links one lever to one output
+- Whippletree (load-equalising lever): shares one pull equally between outputs and lets their travel differ, while a splitter moves every output the same distance and does not even out the force (IHPVA: it 'does not provide balance')
+- Syringe hydraulics (hydraulic lever): one master cylinder feeding two cylinders shares pressure rather than distance; a car's brake callipers work this way
+- Rocking-beam synchronising junction (Yamaha US4197763A): a splitter whose slider carries a small whippletree that evens out the two wires and then locks
+- Linked (combined) brakes: a pivoting plate shared by two levers so either lever works both brakes, with springs to make one brake act first (US4773510A)
+- Dual-cable brake lever and lever plate: the splitting done at the lever instead of in the cable run (IHPVA; Dia-Compe Tech77W)
+- Twin-pull twistgrip: two separate cables from one twistgrip, the main alternative to a throttle junction box (Access Norton forum)
+- Bell [crank](../glossary.md#crank) (angle lever) and push-pull rods: a rigid way to drive several outputs from one lever, as in a cross-shaft carburettor linkage (Laverda forum)
+- Linked lead screws and line shaft: the rotating-shaft versions of one-input, many-output drives
+- Bowden (filament) splitter on 3D printers: a Y-junction for filament tubes; same name, different job
+
+## Make it yourself
+
+- [2 into 1 Brake Handles (IHPVA)](https://ihpva.org/Projects/tstrike/building/2into1.htm): A home-made build: a small metal plate bolted through the old cable hole of a standard brake lever to take two cables (about an hour to make), and a frame-mounted version using cable-stop braze-ons and a cable clamp nut and bolt *(licence: link only)*
+- [Rotax engine throttle splitter (MakerWorld; seen in search results, page blocked (403), not opened)](https://makerworld.com/models/3140208): A printable mechanical splitter said to drive two carburettors from one cable, with a clear cover to watch the slider; for study only, not for a real engine throttle *(licence: ⚑ [uncertain] not checked)*
+
+## Pictures, videos and models
+
+- [2 into 1 Brake Handles (IHPVA trike-building pages)](https://ihpva.org/Projects/tstrike/building/2into1.htm): A home-made two-cable plate on a normal brake lever (with links to photos and a drawing), plus mailing-list notes on tandem brake splitters, balancing with barrel adjusters, and race rules requiring two braking systems *(licence: link only)*
+- [Detangler.JPG (Wikimedia Commons; Andrew Dressel)](https://commons.wikimedia.org/wiki/File:Detangler.JPG): Photo of a BMX detangler, where the rear brake cable divides into two to pull the rotor plate evenly *(licence: CC BY-SA 3.0 or GFDL 1.2+)*
+- [Jtek Double Control Brake Cable Splitter (SJS Cycles)](https://www.sjscycles.co.uk/cables/jtek-doublecontrol-s/): Product photos of a small two-into-one (dual-control) splitter, with its 12 mm travel limit and mounting options *(licence: link only)*
+- [US4197763A Synchronizing device for wire-activated mechanisms (Yamaha Motor, 1980; Google Patents)](https://patents.google.com/patent/US4197763A/en): Patent drawings of a throttle-cable junction whose slider carries a rocking beam to synchronise the carburettor and oil-pump wires *(licence: link only (US patent text and drawings are generally public domain))*
+- [Amal Choke / Throttle Junction Box (Classic British Spares)](https://www.classicbritishspares.com/products/amal-throttle-choke-junction-box): Photos of 2-1 and 3-1 throttle and choke junction boxes in chrome, stainless and plastic for twin- and triple-carburettor motorcycles *(licence: link only)*
+
+## Needs confirming
+
+⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
+
+- ⚑ 6 sentences on this page marked [uncertain].
+- ⚑ Research note: *Cable splitter* (452): Jtek DoubleControl L travel 27 mm (SJS product page) versus 26 mm (an SJS staff answer). The 80:20 front-to-rear brake split is forum advice only; UK road law on independent brakes only from forum statements (the legislation.gov.uk text could not be read). Google Patents read through WebFetch only. A MakerWorld throttle-splitter model appears from search results only (page 403; licence not checked).
+
+## Sources
+
+- <https://ihpva.org/Projects/tstrike/building/2into1.htm>
+- <https://www.sjscycles.co.uk/cables/problem-solvers-cable-doubler-12/>
+- <https://www.sjscycles.co.uk/cables/jtek-doublecontrol-s/>
+- <https://www.sjscycles.co.uk/cables/jtek-doublecontrol-l/>
+- <https://www.bike-components.de/en/Jtek-Engineering/Double-Control-L-Brake-Gear-Cable-Splitter-p56496/>
+- <https://www.treefortbikes.com/Problem-Solvers-Cable-Doubler-12-One-Lever-for-Two>
+- <https://www.ison-distribution.com/english/product.php?part=BLDC7WLK>
+- <https://www.yamaha-enduros.com/index.php/forums/general-discussion/7778-how-does-the-split-cable-junction-work>
+- <https://www.yamaha-enduros.com/index.php/forum/maintenance/19924-throttle-cable>
+- <https://www.classicbritishspares.com/products/amal-throttle-choke-junction-box>
+- <https://laverdaforum.com/threads/750-dual-throttle-cable-conversion.107062/>
+- <https://laverdaforum.com/threads/750-dual-throttle-cable-conversion.107062/page-2>
+- <https://www.accessnorton.com/NortonCommando/throttle-cable-junction-q.40282/>
+- <https://www.accessnorton.com/NortonCommando/throttles-up-when-i-turn-bars.35111/#post-577950>
+- <https://forum.cyclinguk.org/viewtopic.php?p=1463216>
+- <https://forum.slowtwitch.com/t/brake-cable-splitter/296856>
+- <https://www.sheldonbrown.com/tandem-brakes.html>
+- <https://www.sheldonbrown.com/cables.html>
+- <https://en.wikipedia.org/wiki/Bicycle_brake>
+- <https://en.wikipedia.org/wiki/Detangler>
+- <https://commons.wikimedia.org/wiki/File:Detangler.JPG>
+- <https://patents.google.com/patent/US4197763A/en>
+- <https://patents.google.com/patent/US4773510>
+- <https://dld.utah.gov/?p=8943>
+- <https://help.prusa3d.com/article/pla_2062>
+- <https://help.prusa3d.com/article/petg_2059>
+- <https://api.printables.com/graphql/>

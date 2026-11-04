@@ -1,0 +1,197 @@
+{
+  "identity": {
+    "plain_name": "One long spinning shaft, turned by a single motor or engine, with several pulleys, sprockets or gears along it, each sending power by its own belt or chain to a different machine or part",
+    "term": "Line shaft (lineshaft) with countershafts and jackshafts; power take-off (PTO)",
+    "aliases": [
+      "lineshaft / line shafting / overhead shafting",
+      "millwork / millworks (the whole system of shafts, belts, pulleys and gears in an old mill; Wikipedia 'Line shaft')",
+      "countershaft (a short shaft driven from the line shaft, placed at or near the machine it drives; Wikipedia 'Jackshaft')",
+      "jackshaft / jack shaft (any intermediate shaft between a driving shaft and a driven shaft; on go-karts and minibikes the middle shaft that carries two sprockets)",
+      "lay shaft / layshaft (used loosely by kart builders for the same middle shaft) [uncertain]",
+      "power take-off / power takeoff / PTO, PTO shaft, PTO drive shaft (tractors and trucks)",
+      "live PTO (LPTO), split-shaft PTO, sandwich PTO (truck and tractor variants; Wikipedia 'Power take-off')",
+      "accessory drive (aircraft and engine version of a PTO)",
+      "fast and loose pulleys / tight and loose pulleys (a fixed pulley beside a free-spinning one, for stopping one machine)",
+      "stepped pulleys / cone pulleys / speed pulleys (for choosing a speed)",
+      "group drive (several machines from one motor) versus unit drive (one motor per machine)",
+      "toy steam engine line shaft, model workshop line shaft (e.g. Mamod (brand), Wilesco (brand) accessories)",
+      "Zapfwelle (German for PTO); Transmissionswelle (German for line shaft)"
+    ],
+    "family": "gear trains, gearboxes & transmissions",
+    "other_families": [
+      "clutches & couplings"
+    ],
+    "one_liner": "A single driven shaft that runs past several machines and carries a pulley, sprocket or gear for each one, so one motor or engine can power many things, each with its own speed, its own direction and its own way to start and stop it; the tractor PTO is the same idea as a splined stub shaft that a machine plugs into.",
+    "complexity": "A small assembly: the main shaft (often in sections joined by flange couplings), bearings in hangers or pillow blocks along it, a drive pulley or sprocket that takes power in, one take-off pulley, sprocket or gear per machine, belts or chains, and for each take-off some way of stopping it (a loose pulley and belt shifter, a clutch or a dog clutch). Optional extras: stepped pulleys for speed, a crossed or twisted belt for reverse, belt tensioners, and guards over every moving part. A PTO is a splined stub shaft on the tractor or truck, plus a telescoping drive shaft with universal joints, a quick-release yoke and a plastic guard tube.",
+    "how_it_works": "A motor, engine or water wheel turns the main shaft at a steady speed. Each pulley or sprocket fixed to the shaft turns with it and drives its own belt or chain down to one machine, so every take-off gets power at once; the size of the two pulleys on each belt sets that machine's speed (a 40 inch pulley at 100 rpm turns a 20 inch pulley at 200 rpm; Wikipedia 'Line shaft'). To stop one machine without stopping the others, its belt is pushed sideways from the fixed (fast) pulley onto a free-spinning (loose) pulley beside it, or a clutch on the take-off is opened. A jackshaft (countershaft) is a short middle shaft with two pulleys or sprockets: it takes the drive from one shaft and passes it on, so the two speed changes multiply together and the drive can be moved sideways, round a corner or to a more convenient place; a PTO is a splined shaft end on a tractor that a machine's drive shaft slides onto."
+  },
+  "finder_attributes": {
+    "job": [
+      "change speed or turning force: each take-off can have its own pulley or sprocket ratio, stepped pulleys give a choice of speeds, and a jackshaft adds a second reduction stage (go-karts, minibikes)",
+      "lock, and release by hand: each take-off can be started and stopped on its own by shifting its belt onto a loose pulley or by a clutch lever, while the main shaft keeps running"
+    ],
+    "motion": "rotate: continuous rotation in, continuous rotation out at every take-off (unlimited range); each output can turn the same way as the shaft (open belt, chain) or the opposite way (crossed or twisted flat or round belt, or a pulley driven by the back of a belt)",
+    "degrees_of_freedom": "1 for the whole drive while all take-offs are engaged (turning the main shaft fixes every output's position through its ratio, apart from belt slip); each take-off that is disengaged by a loose pulley or clutch becomes free to stop on its own",
+    "special_behaviour": [
+      "quick-release: a tractor PTO drive shaft has a quick-release yoke with a spring-loaded plunger that slides onto the splined PTO stub (HSE AIS40)",
+      "fail-safe or breakaway: HSE says any protection needed in a PTO drive line (torque limiters, freewheels or clutches) goes at the machine end of the PTO drive shaft; on a belt-driven line shaft a flat or V-belt slips if one machine jams (Wikipedia 'Belt (mechanical)': belt drives 'help protect machinery from overload and jam')",
+      "none of the other listed behaviours: the line shaft itself just shares out rotation"
+    ],
+    "holding_principle": [
+      "not a holding joint (it moves or passes on motion): pulleys, sprockets and gears are fixed to the shaft by keys, set screws or clamps (shape and friction), and belts pass power on by friction, chains and timing belts by interlocking teeth"
+    ],
+    "input_output": "Continuous rotation -> continuous rotation at several outputs. Ratio per take-off = driven pulley (or sprocket teeth) / driving pulley; with a jackshaft the two stages multiply: overall ratio = (z2/z1) x (z4/z3) (KHK Gear Technical Reference, two-stage gear train). Efficiency: belt drives 90-98%, usually 95% (Wikipedia 'Belt (mechanical)'); whole historic factory line-shaft systems lost 'typically 25% and often much higher', less with rolling bearings and good lubrication (Wikipedia 'Line shaft'). Shafts: parallel (open or crossed belts, chains, spur gears); a jackshaft or bevel gears can turn the drive round a corner. Tractor PTO standard speeds: 540 rpm (6 straight splines, 1 3/8 in), 1000 rpm (21 or 20 involute splines) and 1300 rpm (ISO 500; Wikipedia 'Power take-off'). Back-drivable: yes; nothing in a line shaft stops a heavy machine (a flywheel, a mower) driving the shaft on as it coasts down, which is why freewheels are fitted at the machine end of some PTO shafts (HSE AIS40).",
+    "power": "passive (no power needed for the mechanism itself; it passes on power from a motor, engine or water wheel). If the motor stops, every take-off stops; if the one belt or the main shaft breaks, everything on it stops at once (Wikipedia 'Serpentine belt' says the same of a single belt driving several engine accessories).",
+    "removability": "removable: pulleys, sprockets and couplings come off the shaft by undoing set screws, keys, clamp hubs or taper bushes; a PTO drive shaft is tool-free quick release at the tractor end (spring-loaded yoke)",
+    "reuse_cycles": "many times: belts, chains and pulleys can be changed or moved again and again; set screws that dig into the shaft leave burrs that make later changes harder (Game Manual 0, shaft retention)",
+    "tools_needed": "Hex keys or spanners for set screws, clamp collars and pillow-block bolts; a straight edge or string line for lining up pulleys; a chain breaker for roller chain (Game Manual 0 recommends one over master links); grease gun for bearings and PTO universal joints (HSE AIS40). A tractor PTO shaft clicks on by hand.",
+    "seal": "none: the shaft and belts are open to the air; bearings may be sealed ball bearings or grease-lubricated plain bearings, and toy steam-engine line shafts run dry or with a drop of oil",
+    "load": "Light to heavy depending on scale: toy and model line shafts with spring or rubber belts carry a few watts; lapidary and hobby benches run several V-belts off one shaft; historic mills drove hundreds of machines (Queen Street Mill: 600 looms from one 500 hp steam engine; Wikipedia 'Line shaft'); a Type 4 tractor PTO is rated up to about 450 kW (Wikipedia 'Power take-off'). Weak in bending: every belt pulls the shaft sideways, so it needs a bearing near each heavy pulley; the shaft must be held against sliding endwise (OSHA 1910.219(c)(1)). Twist (torque) adds up along the shaft, so the section nearest the drive carries the most.",
+    "adjustable": "Yes: each take-off's speed is changed by moving the belt to another step on stepped pulleys or by swapping pulleys or sprockets; belt and chain tension is set by moving a motor plate, bearing or jackshaft bracket or by a tensioner (GoPowerSports sells weld-on slotted jackshaft brackets 'to fine tune and easily change the gear ratio' on minibikes, with adjustment for chain alignment and tension); pulleys can be slid along the shaft and re-clamped to line up with each machine.",
+    "play_and_precision": "Belts: no backlash, but flat and V-belts slip and stretch, so the speed ratio is not exactly constant (Wikipedia 'Belt (mechanical)'); timing belts and chains keep exact ratios with small backlash. Alignment matters: 'The shafts had to be kept aligned or the stress would overheat the bearings and could break the shaft', and alignment was 'critical and problematic for long shafts' (Wikipedia 'Line shaft'). Belts tolerate some misalignment between shafts (Wikipedia 'Belt (mechanical)': 'high tolerance for misalignment'); chains need sprockets lined up in one plane (Game Manual 0: broken chain is usually due to a faulty master link or sprockets not aligned).",
+    "access_needed": "end of a tube or shaft: pulleys, sprockets and bearings slide on from a free end of the shaft (or split pulleys and split collars clamp on in the middle); a PTO drive shaft slides onto the end of the splined stub",
+    "materials": "Shafts: cold-rolled or bright steel bar, often with keyways or D-flats; historic mills used rigid steel sections bolted together at flanges (Wikipedia 'Line shaft'). Pulleys: cast iron, steel, aluminium, wood (historic), printed plastic for light duty; belts: leather or rubberised cotton duck (historic), rubber V-belts, polyurethane round belts, steel spring belts on toy steam engines (Wikipedia 'Belt (mechanical)'); toy line shafts use 5/32 inch Meccano-standard steel shafts (Mamod SC2, rolywilliams.com). Suits metal frames, wooden benches and plywood bases (bearings bolted on); printed PLA, PETG or nylon pulleys suit toy and light hobby drives, not engine-powered ones. Not suited to soft foam, card or clay structures, which cannot hold bearings in line against belt pull.",
+    "maker_difficulty": "moderate: the parts are cheap and off the shelf (shaft, pillow blocks, pulleys, V-belts or chain), but the shaft, bearings and every pulley must be lined up, tensions set and every moving part guarded; a toy or model version from a construction set is easy"
+  },
+  "making": {
+    "processes": [
+      "off-the-shelf part: steel shafting, pillow-block or flange bearings, V-belt pulleys (sheaves), step pulleys, sprockets, roller chain, shaft collars, jackshaft kits and brackets for go-karts and minibikes, PTO drive shafts with guards",
+      "woodwork: bench frames and shaft mountings for lapidary and hobby workshops; historic pulleys were also wooden",
+      "3D print (FDM): toy and demonstration line shafts, pulleys for round belts and timing belts, belt guards",
+      "CNC: turning pulleys and machining keyways and flats on the shaft",
+      "sheet metal: belt and chain guards, motor plates, weld-on jackshaft brackets"
+    ],
+    "print_in_place": "no: the shaft, bearings, pulleys and belts are separate parts; printed models (e.g. Marcos Cerro's 507 Mechanical Movements series on Printables) print the pulleys and frame as separate pieces and use bought belts",
+    "making_tips_3d_printing": "1) Use a metal shaft: buy steel rod or bright bar and use ball bearings in printed or bought housings; a printed shaft bends and twists under several belt pulls [uncertain] (general practice, not a tested figure). 2) Hold every pulley to the shaft positively: a D-flat with a set screw, a clamp hub or a key; Game Manual 0 notes set-screw collars raise a burr on the shaft that makes later adjustment hard, and recommends clamping collars for higher loads. 3) Stop the shaft sliding endwise with a collar or retaining ring against each bearing's inner race, with a shim so it only touches the inner race (Game Manual 0, shaft retention); OSHA 1910.219(c)(1) also requires each line of shafting to be secured against endwise movement. 4) Clearance: start at about 0.3 mm for parts that must turn freely and adjust by test print; Prusa printers hold about 0.2 mm accuracy (Prusa knowledge base, 'Modeling with 3D printing in mind'). 5) Print pulleys flat on the bed with the axis vertical so the groove or teeth are formed by the perimeters [uncertain] (common practice). 6) Belt wrap: give each belt or chain at least 90 degrees of contact on a pulley, ideally 180 degrees or more, and set tension so a push moves it slightly without much resistance (Game Manual 0, belt and chain pages); Game Manual 0 also says timing pulleys can be 3D printed for most robot situations. 7) For a toy steam-engine or demo line shaft, round polyurethane or spring belts are forgiving of centre distance (Wikipedia 'Belt (mechanical)' on spring belts) but slip more. 8) Keep a jackshaft's sprockets or pulleys close to its bearings so belt pull does not bend the shaft [uncertain] (general practice). 9) Print a full guard (belt cover) at the same time; printed parts near a motor should not be PLA if the motor runs hot (PLA softens around 60 C) [uncertain] (figure from Prusa material guidance, not re-checked in this session).",
+    "off_the_shelf_parts": "Precision or cold-rolled steel shafting (keyed or with D-flat); pillow-block bearings (plummer blocks), flange bearings, hanger bearings; V-belt pulleys (sheaves), step pulleys (cone pulleys), round-belt pulleys, timing-belt pulleys, taper-lock bushes; roller chain (#25, #35, #40, #420) and plate sprockets (Type B hub sprockets with keyway and set screw); jackshaft kits (5/8 inch or 3/4 inch shaft, 1 3/8 inch OD bearings, keys, lock collars and lock nuts; GoPowerSports listing); shaft collars (set-screw and clamping); flange and jaw couplings for joining shaft sections; belt tensioners and idler pulleys; centrifugal clutches and torque converters for karts; PTO drive shafts with universal joints, guard tubes, cone guards, shear-bolt or friction torque limiters and overrunning (freewheel) couplers; split-shaft and transmission-mounted PTO units for trucks. Toy and model: Mamod (brand), Wilesco (brand) line shafts and workshop models; Meccano (brand) 5/32 inch axles and pulleys. Search McMaster-Carr 'pillow block bearings', 'V-belt pulleys', 'roller chain sprockets'.",
+    "rules_of_thumb": [
+      "Speed ratio per belt = driven pulley diameter / driving pulley diameter; 'a 40 inch pulley at 100 rpm would turn a 20 inch pulley at 200 rpm' (Wikipedia 'Line shaft').",
+      "Through a jackshaft (two stages in series) the ratios multiply: i = (z2/z1) x (z4/z3); an idler with no second gear on its shaft does not change the ratio (KHK Gear Technical Reference, sections 2.2 and 2.1).",
+      "Expect losses: belt drives 90-98% (usually 95%) each (Wikipedia 'Belt (mechanical)'); whole historic line-shaft systems lost typically 25% or more (Wikipedia 'Line shaft').",
+      "Reverse one output with a crossed belt (flat or round belts only); line-shaft practice twisted belts 180 degrees per leg (Wikipedia 'Line shaft'); crossed drives are 'not appropriate for timing and standard V-belts unless there is a twist between each pulley' (Wikipedia 'Belt (mechanical)').",
+      "A pulley driven by the back (smooth side) of a belt turns the opposite way to the others; keep back-side drives for light loads or a large wrap angle (Wikipedia 'Serpentine belt').",
+      "Fast and loose pulleys: three pulleys side by side with the middle one fast and the outer two loose, fed by one open and one crossed belt, let the driven shaft be stopped or reversed without stopping the driver (507 Mechanical Movements no. 2).",
+      "Belt and chain wrap: at least 90 degrees of contact, ideally 180 degrees or more (Game Manual 0).",
+      "Guarding (US workplace rule, a good guide at home): guard all exposed shafting, pulleys and belts 7 ft (2.1 m) or less from the floor; remove, make flush or cover all projecting keys and set screws on revolving parts; shaft ends must not project more than half the shaft diameter unless capped; fill or cover unused keyways (OSHA 29 CFR 1910.219 (c), (d), (h)).",
+      "Tractor PTO speeds: 540 rpm with 6 splines, 1000 rpm with 21 splines; never use an adaptor to run a 1000 rpm machine from a 540 rpm shaft or vice versa (HSE AIS40); all four ISO 500 types turn clockwise seen from behind the tractor (Wikipedia 'Power take-off').",
+      "PTO guards: the tractor PTO shield and the machine's input guard must overlap the drive-shaft guard by at least 50 mm, and the guard tubes should be no more than 25 mm shorter than the shaft halves (HSE AIS40)."
+    ]
+  },
+  "guidance": {
+    "everyday_examples": [
+      "A tractor's rear PTO stub turning a mower, baler or wood chipper through a guarded telescopic shaft (Wikipedia 'Power take-off')",
+      "The engine accessory belt in a car, one belt from the crankshaft turning the alternator, water pump and other pulleys (Wikipedia 'Serpentine belt')",
+      "Toy steam-engine workshops: a Mamod (brand) engine belted to a small line shaft that drives a model grinder, power hammer and polishing machine (mikes-steam-engines.co.uk; rolywilliams.com)",
+      "Lapidary benches running saws, grinders and polishers off one shaft, and Amish woodshops running every machine from one engine with a clutch per machine (SawdustZone forum)"
+    ],
+    "when_to_use": "Use a line shaft when one motor or engine should power several machines or several parts of one machine, especially when they don't all need to run at once: a model or toy workshop driven by one steam engine, a lapidary or polishing bench with several wheels, a workshop or demonstration with one big motor or a water wheel, or a kinetic sculpture or automaton with many moving parts at different speeds. It lets each output have its own speed (pulley sizes or stepped pulleys) and its own direction (open or crossed belt), and a loose pulley or clutch lets you stop one output while the rest keep running. Use a jackshaft when one belt or chain stage cannot give a big enough reduction, when the drive has to be moved sideways or round an obstacle, or to make the final ratio easy to change by swapping one sprocket (go-karts, minibikes, e-bikes). Use a PTO-style splined stub when a machine must be plugged onto a power source and unplugged again.",
+    "when_not_to_use": "Don't use one line shaft when the machines need very different speeds that must be changed often, or when they are far apart; small cheap motors now make one motor per machine (unit drive) simpler, quieter, safer and more efficient (Wikipedia 'Line shaft' lists higher losses, noise, danger, downtime and difficulty changing speed). For outputs that must stay exactly in step (several lead screws, a printer's Z axis) use a closed timing belt or chain loop or linked lead screws instead of friction belts, which slip. For two outputs turning opposite ways on one line, use a bevel splitter (T-gearbox). If you need outputs that share torque but turn at different speeds (wheels on a turning vehicle), use a differential instead of locking them to one shaft. Don't build an open line shaft where children, pets or people with long hair or loose clothing can reach it; enclose it fully or use separate motors.",
+    "environment_limits": "Belt drives work from about -35 to 85 C (Wikipedia 'Belt (mechanical)'); leather and rubber belts dry out and need conditioning, and oil or water on a flat or V-belt makes it slip. Long shafts expand and contract with temperature and settle with the building, which upsets alignment (Wikipedia 'Line shaft'). Bearings and shafts rust if not kept oiled; OSHA asks for shafting to be kept 'free from rust and excess oil or grease' and inspected at intervals of no more than 60 days (OSHA 1910.219(p)). Vibration loosens set screws, so use thread-locker, keys or clamp collars. Spinning belts and shafts can build up static charge; OSHA warns to consider static sparks near explosive dusts or flammable vapours (1910.219(p)(2)(ii)). Dust from belts circulates in the air (Wikipedia 'Line shaft'); grit and water from lapidary wheels must be kept out of bearings and motors.",
+    "safety_notes": "Spinning shafts, belts, pulleys, chains, set screws and PTO shafts catch hair, loose clothing, cords and gloves and wind them in: this causes amputations and deaths. HSE AIS40 describes a stockman whose trouser leg caught in a partly unguarded PTO shaft and whose leg was severed, and a worker killed when his coat caught in a partly exposed PTO drive shaft; Wikipedia 'Power take-off' cites the National Safety Council figure that 6% of US tractor-related deaths in 1997 involved the PTO. Line shafts were more dangerous than one motor per machine, and old photos show machinists with long hair wearing hats against entanglement (Wikipedia 'Line shaft'). Guard every exposed part: enclose shafts, belts and pulleys within reach (OSHA 1910.219 requires guards on shafting, pulleys and belts 7 ft or less from the floor), make set screws and keys flush or covered, cap shaft ends, and put a guard over each in-running nip where a belt or chain meets a pulley or sprocket. Tie back long hair and wear close-fitting clothing; never clear a blockage while it is running: switch off, wait for everything to stop, and use a tool (HSE AIS40). Broken or badly fitting guards can be as dangerous as no guard (HSE AIS40). A machine on a loose pulley can creep back onto the fast pulley and start by itself unless the belt shifter holds it (OSHA 1910.219(l)(1)); stop the main drive before working on any take-off. Don't run a machine faster than it was designed for, e.g. through a PTO speed adaptor: it can disintegrate (HSE AIS40). On karts and minibikes, guard the chain and jackshaft sprockets from legs and clothing. Mains-powered motors must be wired and earthed to local law.",
+    "common_failures": "1) Belts slip and squeal under load or when oily: re-tension, clean or dress the belt, or use a V, ribbed or timing belt (Wikipedia 'Belt (mechanical)'). 2) Bearings overheat or the shaft breaks because the shaft line is out of alignment: line up every bearing with a straight edge or string and keep checking (Wikipedia 'Line shaft'). 3) Pulleys or sprockets slip round the shaft or walk along it as set screws loosen: use a flat or key under each set screw, thread-locker, or clamp hubs (Game Manual 0). 4) Chains jump teeth or fall off from poor wrap or tension, or snap at a master link or because sprockets are not aligned (Game Manual 0). 5) A belt works off a pulley: use crowned pulleys for flat belts and flanges or guides where needed (Wikipedia 'Belt (mechanical)'; OSHA 1910.219(d)(2)). 6) The whole system stops when one belt breaks or one machine seizes, if one belt drives several things (Wikipedia 'Serpentine belt'). 7) Machines start unexpectedly when a belt creeps from the loose to the fast pulley: fit a belt shifter that locks (OSHA 1910.219(l)(1)). 8) The shaft whips or vibrates if the bearings are too far apart for its weight and the pulleys on it; the spacing 'depended on the weight of the shaft and the number of pulleys' (Wikipedia 'Line shaft'). 9) Wrong overall ratio on a kart because the two jackshaft stages were added instead of multiplied: multiply them (KHK).",
+    "related": [
+      "Belt drives (timing, round and V-belt): one belt between two pulleys; a line shaft is many belt drives sharing one driving shaft",
+      "Chain and sprocket drive: the usual link to and from a go-kart or minibike jackshaft",
+      "Spur gear pair and gear train: gears instead of belts; a central gear driving a ring of gears is the gear version of one shaft driving several",
+      "Bevel splitter and counter-rotating drive: one input, two outputs on one line turning opposite ways",
+      "Linked lead screws: one motor driving several screws in exact step (needs a toothed belt or chain, not friction belts)",
+      "Several motors driving one load: the reverse case, many inputs to one output",
+      "Dog clutch, friction clutch and centrifugal clutch: ways to start and stop one take-off without stopping the shaft (the loose pulley is the belt version)",
+      "Universal joint and spline shaft (sliding spline): the parts that make up a PTO drive shaft so it can bend and telescope",
+      "Shaft-to-hub joints (key, set screw, D-flat, clamp hub): how each pulley is fixed to the line shaft",
+      "Differential: splits one drive between two outputs that may turn at different speeds, which a line shaft cannot do",
+      "Flexible drive shaft: takes power off a motor to a hand tool along a bendable cable instead of a belt"
+    ]
+  },
+  "media": {
+    "links": [
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Lineshaft_drive_to_lathe,_with_stepped_pulleys_for_variable_speed_(Carpentry_and_Joinery,_1925).jpg",
+        "title": "Lineshaft drive to lathe, with stepped pulleys for variable speed (Carpentry and Joinery, 1925), Wikimedia Commons",
+        "shows": "Drawing of an overhead countershaft with a fast pulley, a loose pulley for stopping the machine and stepped pulleys giving three speeds",
+        "license": "Public domain"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg",
+        "title": "Line shaft machine shop in France, 1919 (Olive Edis, IWM Q8116), Wikimedia Commons",
+        "shows": "Photo of a workshop full of belts from an overhead line shaft; machinists wear hats against hair entanglement",
+        "license": "Public domain"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:Jackshaft_two_belt_pulleys.png",
+        "title": "Jackshaft with two belt pulleys (Jet Lowe), Wikimedia Commons",
+        "shows": "A two-pulley jackshaft redirecting belt power from horizontal to vertical",
+        "license": "Public domain"
+      },
+      {
+        "url": "https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg",
+        "title": "Tractor PTO shaft with protective guard (Jesster79), Wikimedia Commons",
+        "shows": "A PTO drive shaft from a tractor to a machine, enclosed in a plastic guard tube to prevent entanglement",
+        "license": "CC BY-SA 3.0"
+      },
+      {
+        "url": "https://507movements.com/mm_002.html",
+        "title": "507 Mechanical Movements no. 2: pulleys and crossed belt",
+        "shows": "Animated crossed belt reversing direction, and the fast-and-loose pulley arrangement with an open and a crossed belt for reversing without stopping the driver",
+        "license": "Book public domain; website animation link only"
+      }
+    ],
+    "make_it_yourself": [
+      {
+        "url": "https://www.printables.com/model/1340513-no-2-pulleys-and-crossed-belt-507-mechanical-movem",
+        "title": "No. 2 Pulleys and crossed belt (507 Mechanical Movements) by Marcos Cerro (URL from Printables API, page not opened)",
+        "what_it_is": "Printable demonstration of a crossed belt and fast-and-loose pulleys; no supports or extra parts needed except the belts",
+        "license": "CC BY-NC"
+      },
+      {
+        "url": "https://www.printables.com/model/1348693-no-8-variable-speed-stepped-pulleys-507-mechanical",
+        "title": "No. 8 Variable speed stepped pulleys (507 Mechanical Movements) by Marcos Cerro (URL from Printables API, page not opened)",
+        "what_it_is": "Printable pair of stepped (speed) pulleys as used on lathes driven from a countershaft",
+        "license": "CC BY-NC"
+      },
+      {
+        "url": "https://www.printables.com/model/1344878-no-7-pulley-transmission-507-mechanical-movements",
+        "title": "No. 7 Pulley transmission (507 Mechanical Movements) by Marcos Cerro (URL from Printables API, page not opened)",
+        "what_it_is": "Printable model of a belt shifted across loose and fast pulleys to engage, disengage and reverse a shaft through bevel gears",
+        "license": "CC BY-NC"
+      },
+      {
+        "url": "https://www.printables.com/model/355826-pto-shaft",
+        "title": "PTO shaft by Radek S. (URL from Printables API, page not opened)",
+        "what_it_is": "Printable educational model of a PTO (propeller) drive shaft, PLA, glued",
+        "license": "CC BY"
+      }
+    ],
+    "diagram_idea": "A side view of one horizontal shaft along the top driven by a motor at one end, with three belts dropping to three machines: one open belt (same direction), one crossed belt (opposite direction) and one on a pair of fast and loose pulleys with the belt shown on the loose pulley (stopped), with speed ratios labelled and guards drawn as dashed boxes.",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Line_shaft",
+      "https://en.wikipedia.org/wiki/Jackshaft",
+      "https://en.wikipedia.org/wiki/Power_take-off",
+      "https://en.wikipedia.org/wiki/Belt_(mechanical)",
+      "https://en.wikipedia.org/wiki/Serpentine_belt",
+      "https://www.hse.gov.uk/pubns/ais40.pdf",
+      "https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.219",
+      "https://khkgears.us/media/izojpong/gear_guide1.pdf",
+      "https://507movements.com/mm_002.html",
+      "https://507movements.com/mm_007.html",
+      "https://507movements.com/mm_008.html",
+      "https://rolywilliams.com/Mamod%20SC2.html",
+      "https://www.mikes-steam-engines.co.uk/accessories.htm",
+      "https://www.sawdustzone.org/forum/discussions/around-the-coffee-pot/34806-a-one-motor-shop",
+      "https://www.gopowersports.com/adjustable-jackshaft-brackets-weld-on/",
+      "https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/shaft-retention.html",
+      "https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/chain.html",
+      "https://gm0.org/en/latest/docs/common-mechanisms/power-transmission/belt.html",
+      "https://help.prusa3d.com/article/modeling-with-3d-printing-in-mind_164135",
+      "https://commons.wikimedia.org/wiki/File:Lineshaft_drive_to_lathe,_with_stepped_pulleys_for_variable_speed_(Carpentry_and_Joinery,_1925).jpg",
+      "https://commons.wikimedia.org/wiki/File:Olive_Edis;_Iwm_Photographer_of_the_Women%27s_Services_in_France_1919_Q8116.jpg",
+      "https://commons.wikimedia.org/wiki/File:Jackshaft_two_belt_pulleys.png",
+      "https://commons.wikimedia.org/wiki/File:TractorPTOshaftMay04.jpg",
+      "https://api.printables.com/graphql/"
+    ]
+  },
+  "uncertain": [
+    "aliases",
+    "making_tips_3d_printing"
+  ]
+}

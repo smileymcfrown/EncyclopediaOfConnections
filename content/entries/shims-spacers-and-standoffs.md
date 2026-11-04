@@ -91,6 +91,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, carbon fibre or composites]
 needs_confirming:
   connects:
     kind: best guess
@@ -165,6 +167,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Three_types_of_standoffs.jpg
 - https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png
 - https://api.printables.com/graphql/
+- https://www.4over4.com/guide/what-is-a-standoff-screw-how-standoff-signage-works
 research: research/connection-types/results/Shims_spacers_and_standoffs_packing_spacer_washer.json
 image:
   file: shims-spacers-and-standoffs.webp
@@ -200,7 +203,7 @@ pictures:
   kind: how-it-works
   drawn: false
 glossary: [self-locking, axial--radial, clearance, tolerance, form-fit--force-fit--material-bond, taper, heat-set-insert,
-  kinematic-coupling, creep, infill, peel-vs-shear]
+  kinematic-coupling, creep, infill, peel-vs-shear, galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -235,7 +238,7 @@ Whenever something is slightly too low, too loose, not level or out of line and 
 
 ## When not to use it
 
-When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge ([Self-locking](../glossary.md#self-locking) wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, [kinematic coupling](../glossary.md#kinematic-coupling), exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block.
+When the adjustment must be made often or continuously: use a levelling foot, locking adjustment screws (push-pull screws) or a slotted mount with a jacking screw instead. For a tapered gap or a quick tight fit under load, use a wedge ([Self-locking](../glossary.md#self-locking) wedge, which covers tapered shims and folding wedges). For a gap that must also seal, use a gasket. Where the parts must be located exactly and repeatably without fiddling, design in locating features (locating pins, [kinematic coupling](../glossary.md#kinematic-coupling), exact-constraint mounting). Don't use many thin shims, or soft paper, wood or PLA shims, under heavy or vibrating machinery: they compress and cause soft foot; use a few metal shims or one machined block. For a sign or glass panel held off a wall with a decorative cap on the front, use a panel standoff (sign standoff), a different part from a circuit-board standoff (4over4).
 
 ## Details
 
@@ -288,7 +291,7 @@ Search terms: 'shim stock' or 'precision shim stock' (steel, stainless, brass, p
 - Peel shims: a standard 1 mm U-shaped laminated shim is made of 8 layers of 0.1 mm and 4 of 0.05 mm, peeled until the exact thickness is reached (Jicey, https://jicey.com/shims.html; ERIKS BETEX, https://shop.eriks.be/en/peel-off-shims-hard-brass-or-stainless-steel-pr451749624000/1/).
 - Match the standoff thread to the board: Raspberry Pi mounting holes take M2.5, and 11 mm standoffs give the right spacing for an add-on board (HAT) on standard female headers (Pololu, https://www.pololu.com/product/1952); PC motherboards use 6-32 standoffs and D-sub connector jackscrews use 4-40 (Wikipedia, https://en.wikipedia.org/wiki/Spacers_and_standoffs).
 - Fit a standoff only under a matching board hole; remove any extra ones, because 'a standoff installed in the wrong place may cause electrical shorts' (ASRock install guide, https://download.asrock.com/Manual/InstallEATXMB/Install%20EATX%20Motherboard.pdf).
-- Use a washer to spread a bolt's load on soft material; hardened steel washers keep the bolt tight in high-quality joints, and insulating washers prevent galvanic corrosion between steel screws and aluminium (Wikipedia, https://en.wikipedia.org/wiki/Washer_(hardware)).
+- Use a washer to spread a bolt's load on soft material; hardened steel washers keep the bolt tight in high-quality joints, and insulating washers prevent [galvanic corrosion](../glossary.md#galvanic-corrosion) between steel screws and aluminium (Wikipedia, https://en.wikipedia.org/wiki/Washer_(hardware)).
 - Printed spacers soften under load at about 60 °C (PLA), 80 °C (PETG) and 110 °C (ASA) (CNC Kitchen, https://www.cnckitchen.com/blog/comparing-pla-petg-amp-asa-feat-prusament).
 
 ## Common failures
@@ -312,6 +315,8 @@ Thin metal shims and cut shim stock have sharp edges and corners: handle with gl
 - Gasket (flat, cord-in-groove or cast-in-place): looks like a washer or shim but is made to seal
 - Heat-set threaded insert: gives a 3D-printed part metal threads for standoff screws
 - Exact-constraint mounting (3-2-1 locating) and Locating pins and hole-and-slot: locate parts exactly by design rather than by shimming
+- Compression limiter (crush tube): a metal sleeve in a bolt hole that takes the clamping force so a soft or printed part isn't crushed; it protects the part rather than setting a gap
+- Panel standoff (sign standoff): a threaded barrel and screw-on cap that clamp a drilled acrylic, glass or metal sign a set distance off a wall; 'A spacer and a standoff are not the same part, and the difference is the thread' (4over4)
 
 ## Make it yourself
 
@@ -355,3 +360,4 @@ Thin metal shims and cut shim stock have sharp edges and corners: handle with gl
 - <https://commons.wikimedia.org/wiki/File:Three_types_of_standoffs.jpg>
 - <https://commons.wikimedia.org/wiki/File:Hex_Spacers_and_Standoffs.png>
 - <https://api.printables.com/graphql/>
+- <https://www.4over4.com/guide/what-is-a-standoff-screw-how-standoff-signage-works>

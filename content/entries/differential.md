@@ -91,15 +91,13 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [full turns]
-needs_confirming:
-  adjustable:
-    kind: source uncertain
-    reason: '`adjustable` is marked [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled
-      [uncertain]).…"'
+  drive_split: [different speeds, combines inputs]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [input_output, power, seal, load, adjustable, processes, print_in_place, making_tips_3d_printing, when_not_to_use,
-  safety_notes, common_failures]
+uncertain_fields: [input_output, power, seal, load, processes, print_in_place, making_tips_3d_printing, when_not_to_use, safety_notes,
+  common_failures]
 diagram_idea: 'A top-down animated axle going round a bend: the cage turns at 10 rpm while the inner wheel turns at 8 and
   the outer at 12, with a live readout ''average = 10''; then one wheel drives onto ice and spins at 20 while the other stops,
   with equal-sized torque arrows on both wheels to show why it gets stuck.'
@@ -198,6 +196,8 @@ sources:
 - https://help.prusa3d.com/article/pla_2062
 - https://www.mcmaster.com/products/bevel-gears/
 - https://www.mcmaster.com/products/miter-gears/
+- https://en.wikipedia.org/wiki/Transfer_case
+- https://www.randysworldwide.com/blogs/blog/12-tech-tips-for-differential-assembly-setup
 research: research/connection-types/results/Differential_bevel_gear_differential.json
 image:
   file: drawn/anim/differential.svg
@@ -253,7 +253,7 @@ pictures:
   kind: cross-section
   drawn: false
 glossary: [misalignment, backlash, axial--radial, torque, pitch, actuator, preload, clearance, form-fit--force-fit--material-bond,
-  infill, print-in-place, o-ring]
+  infill, print-in-place, o-ring, counter-rotating]
 ---
 
 <div class="eoc-pictures">
@@ -283,6 +283,7 @@ A small assembly that acts as one unit. Bevel type: an input gear (the ring gear
 - RC cars and LEGO Technic vehicles (the grey or black differential gear case in the axle)
 - Robot arm wrists where two motors share one joint (e.g. Dan Royer's 3D-printed 5+ axis arm on Hackaday.io)
 - Historic machines: mechanical analogue computers and clocks, and Mars rover suspensions (Wikipedia 'Differential')
+- Four-wheel-drive vehicles: the transfer case splits the drive between front and rear axles, and because 'the front and rear tires never turn at the same speed', full-time road four-wheel drive needs a centre differential; a part-time case locks the two shafts together and suffers driveline wind-up on dry pavement (Wikipedia 'Transfer case')
 
 ## When to use it
 
@@ -313,7 +314,7 @@ Skip it if each wheel has its own motor (skid-steer or differential-drive robots
 - **Taking it apart:** removable: it is a set of gears on pins inside a carrier held by screws, pins or clips; RC differentials are routinely opened to change oil or rebuild
 - **How often it can be reused:** many times: it can be taken apart and rebuilt repeatedly; the limit is wear of the gears, balls, rings and thrust washers
 - **Sealing:** none for printed and LEGO differentials. Car differentials run inside a closed, oil-filled axle housing, and RC gear diffs are sealed so their silicone oil stays in (RCGuided mentions [O-rings](../glossary.md#o-ring) and a sealing grease); the sealing is done by the housing and O-rings, not by the gears. ⚑ [uncertain] Details of the seals vary by model.
-- **Adjustable:** Open differentials: no (gear mesh and backlash are set with shims or spacers when assembled ⚑ [uncertain]). RC ball diffs: yes, tightening or loosening the screw changes how much they slip (Wikipedia 'Ball differential'). RC gear diffs: yes, by refilling with thinner or thicker silicone oil (RCGuided starting points: front 5,000-7,000 cSt, centre 5,000-10,000 cSt, rear 3,000-5,000 cSt). Locking differentials can be switched between open and locked (manually, by air, cable or electric actuator).
+- **Adjustable:** Open differentials: no (gear mesh and backlash are set when assembled, with shims or, on some axles, threaded adjusters; RANDYS Worldwide '12 Tech Tips for Differential Assembly & Setup'). RC ball diffs: yes, tightening or loosening the screw changes how much they slip (Wikipedia 'Ball differential'). RC gear diffs: yes, by refilling with thinner or thicker silicone oil (RCGuided starting points: front 5,000-7,000 cSt, centre 5,000-10,000 cSt, rear 3,000-5,000 cSt). Locking differentials can be switched between open and locked (manually, by air, cable or electric actuator).
 - **Access needed:** not applicable: it is built into an axle or gearbox and reached by opening its housing
 - **Materials:** Cars and trucks: steel gears in a cast housing running in oil. RC cars: steel or plastic gear diffs; ball diffs with steel, ceramic or tungsten-carbide balls (ceramic lasts longer; softer balls 'flat spot', per Wikipedia 'Ball differential') and hard diff rings. LEGO Technic differentials (brand): ABS plastic. 3D-printed: PLA, PLA+, PETG or nylon gears, often with steel pins and small ball bearings (e.g. MR63ZZ, MR117, 6700ZZ in Prism08's printed RC differentials). EngineerDog ranks nylon > PLA > ABS > PETG for printed gears.
 - **Heat, cold, water and wear:** Printed PLA parts soften and deform above about 60 C (Prusa), so keep printed differentials away from hot motors and hot cars. RC diff oil and grease pick up dirt if the case is open; gear diffs need their oil checked every few months or every few race days (RCGuided). Viscous limited-slip differentials can suffer the 'hump' effect, where heat makes the fluid expand and lock the sides harder (Wikipedia 'Limited-slip differential'). Soft balls in a ball diff flat-spot over time, making it gritty (Wikipedia 'Ball differential'). Plastic miter and bevel gears change size with temperature and humidity (KHK miter catalogue on MC901 nylon gears).
@@ -366,6 +367,9 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 - Planetary gear set: a three-shaft gear train like the differential, but used for speed reduction
 - Bevel gears (incl. mitre gears): the parts most differentials are built from
 - Differential screw and differential pulley (hoist): use the 'difference' idea for fine movement or lifting force, not for sharing drive between two outputs
+- Line shaft and power take-off: one shaft driving many machines at fixed speeds; it can't let two outputs turn at different speeds as a differential does
+- Bevel splitter and [counter-rotating](../glossary.md#counter-rotating) drive: the same kind of bevel gears with no cage, so the two outputs always turn at equal speeds in opposite directions
+- Several motors driving one load: a differential can add two motors' motions into one output, or mix them into two (e.g. a robot wrist)
 
 ## Make it yourself
 
@@ -388,8 +392,7 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `adjustable` = no (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…(gear mesh and backlash are set with shims or spacers when assembled ⚑ [uncertain]).…"
+- ⚑ 12 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -432,3 +435,5 @@ The gear mesh and the spinning cage are pinch points, so keep fingers clear and 
 - <https://help.prusa3d.com/article/pla_2062>
 - <https://www.mcmaster.com/products/bevel-gears/>
 - <https://www.mcmaster.com/products/miter-gears/>
+- <https://en.wikipedia.org/wiki/Transfer_case>
+- <https://www.randysworldwide.com/blogs/blog/12-tech-tips-for-differential-assembly-setup>

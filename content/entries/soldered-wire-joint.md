@@ -47,7 +47,7 @@ finder:
   clicks: not applicable
   electrical_band: above about 30 A
   tools: [soldering iron, heat gun, press or vice, hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'no'
   removability: semi-permanent
@@ -93,10 +93,9 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  drive_split: [not applicable]
+  made_of: [metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
@@ -226,7 +225,7 @@ pictures:
   alt: Coloured wires soldered onto the lugs of potentiometers mounted on a metal panel.
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, print-in-place, gland]
+glossary: [form-fit--force-fit--material-bond, chamfer--fillet, creep, brittle--ductile, print-in-place, gland, flux]
 ---
 
 <div class="eoc-pictures">
@@ -243,7 +242,7 @@ Stripped wire ends are twisted, hooked or laid side by side, molten solder is fl
 
 ## How it works
 
-The wires are first held together: twisted round each other (rat-tail or Western Union splice), laid side by side (lap splice), or pushed into a cup or hole. The iron heats the copper above the solder's melting point (183 °C for 63/37 tin-lead, about 217-220 °C for lead-free tin-silver-copper), and the flux in the solder cleans off oxide so the molten solder flows into the gaps and wets the metal (Wikipedia 'Soldering'). When it cools the solder sets into a metal bridge bonded to both wires, giving a low-resistance path; in NASA pull tests on soldered Western Union splices the wire broke beside the splice, never at it (Wikipedia 'Western Union splice'). The solder also soaks a little way along stranded wire (wicking), making it stiff up to that point and flexible beyond, so bending concentrates there and the joint needs strain relief (NASA-STD-8739.4A §13.3.1).
+The wires are first held together: twisted round each other (rat-tail or Western Union splice), laid side by side (lap splice), or pushed into a cup or hole. The iron heats the copper above the solder's melting point (183 °C for 63/37 tin-lead, about 217-220 °C for lead-free tin-silver-copper), and the [flux](../glossary.md#flux) in the solder cleans off oxide so the molten solder flows into the gaps and wets the metal (Wikipedia 'Soldering'). When it cools the solder sets into a metal bridge bonded to both wires, giving a low-resistance path; in NASA pull tests on soldered Western Union splices the wire broke beside the splice, never at it (Wikipedia 'Western Union splice'). The solder also soaks a little way along stranded wire (wicking), making it stiff up to that point and flexible beyond, so bending concentrates there and the joint needs strain relief (NASA-STD-8739.4A §13.3.1).
 
 ## Parts
 
@@ -360,7 +359,6 @@ Burns and fire: the tip runs at about 325-375 °C; always park the iron in its s
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Research note: *Soldered wire joint*: are soldered splices allowed in mains wiring? Wikipedia (*Rat-tail splice*) says most or all North American codes forbid tape-only and soldered splices at 110 V and above; OSHA 1910.303(c)(3)(i) allows them if the wires are first joined securely without solder. Both are in `safety_notes` with 'check your local code'.
 - ⚑ Research note: *Soldered wire joint*: tinning wire ends for screw terminals. SparkFun suggests it; Wikipedia (*Screw terminal*) warns that solder creeps under pressure and the joint works loose. The entry follows Wikipedia and points to ferrules.
 

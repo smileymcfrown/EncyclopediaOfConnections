@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Cross-sections of foam board (a foam core between two paper skins) folded into a corner. On the left a V-shaped groove is cut from the back down to the bottom paper, so when the board is folded up the two sloping cut faces meet and are glued, and the uncut paper wraps the outside corner. On the right a square strip one board thick is cut out, and the folded side stands on the end of the base with the paper wrapped round it. Dashed outlines show each board lying flat before it is folded.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern></defs>
+<line x1="400" y1="20" x2="400" y2="400" stroke="#cccccc" stroke-width="2"/>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<polygon points="225,324 277,272 375,272 375,332 225,332" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="7 6"/>
+<polygon points="40,272 173,272 181,280 40,280" fill="#ffffff"/>
+<polygon points="40,280 181,280 225,324 40,324" fill="#cfe3f5"/>
+<polygon points="40,324 225,324 225,332 40,332" fill="#ffffff"/>
+<g transform="rotate(-90 225 324)"><polygon points="277,272 375,272 375,280 269,280" fill="#ffffff"/><polygon points="269,280 375,280 375,324 225,324" fill="#cfe3f5"/><polygon points="225,324 375,324 375,332 225,332" fill="#ffffff"/></g>
+<path d="M225,324 L225,332 A8,8 0 0 0 233,324 Z" fill="#ffffff" stroke="none"/><path d="M225,332 A8,8 0 0 0 233,324" fill="none"/>
+<polygon points="610,324 662,324 662,272 775,272 775,332 610,332" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="7 6"/>
+<polygon points="440,272 610,272 610,280 440,280" fill="#ffffff"/>
+<polygon points="440,280 610,280 610,324 440,324" fill="#cfe3f5"/>
+<polygon points="440,324 610,324 610,332 440,332" fill="#ffffff"/>
+<g transform="rotate(-90 610 324)"><polygon points="662,272 775,272 775,280 662,280" fill="#ffffff"/><polygon points="662,280 775,280 775,324 662,324" fill="#cfe3f5"/><polygon points="610,324 775,324 775,332 610,332" fill="#ffffff"/></g>
+<path d="M610,324 L610,332 A8,8 0 0 0 618,324 Z" fill="#ffffff" stroke="none"/><path d="M610,332 A8,8 0 0 0 618,324" fill="none"/>
+</g>
+<path d="M389.3,289.1 A168,168 0 0 0 254.2,158.6" stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)"/><path d="M786.6,280 A182,182 0 0 0 641.6,144.8" stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)"/>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="200" y="40" font-size="21" font-weight="bold" text-anchor="middle">V-groove (bevelled) fold</text>
+<text x="600" y="40" font-size="21" font-weight="bold" text-anchor="middle">Square-groove (overlap) fold</text>
+<text x="40" y="258">foam board</text>
+<text x="30" y="190">sloping cut faces</text><text x="30" y="212">meet: glue them</text>
+<line x1="122" y1="221" x2="188" y2="287" stroke="#222" stroke-width="1.5"/>
+<text x="40" y="372">bottom paper left uncut</text><text x="40" y="394">wraps the outside corner</text>
+<line x1="222" y1="358" x2="228" y2="338" stroke="#222" stroke-width="1.5"/>
+<text x="440" y="372">cut out a strip</text><text x="440" y="394">one board thick</text>
+<text x="636" y="372">paper wraps the</text><text x="636" y="394">end of the base</text>
+<line x1="632" y1="362" x2="617" y2="318" stroke="#222" stroke-width="1.5"/>
+<text x="415" y="190">side stands on</text><text x="415" y="212">base end: glue</text>
+<line x1="505" y1="221" x2="572" y2="270" stroke="#222" stroke-width="1.5"/>
+<text x="400" y="436" text-anchor="middle" font-size="17">Never cut the last layer of paper: it bends round the corner, and left unglued it stays a hinge</text>
+</g>
+</svg>

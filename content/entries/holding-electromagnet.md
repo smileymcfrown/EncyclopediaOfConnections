@@ -88,6 +88,8 @@ finder:
   powered_does: [lock or hold]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal, glass or mirror]
 needs_confirming:
   connects:
     kind: best guess
@@ -216,7 +218,8 @@ pictures:
   alt: A home-made electromagnet, wire coiled round a steel bolt, holding up a paper clip while current flows through it.
   kind: how-it-works
   drawn: false
-glossary: [misalignment, axial--radial, solenoid, fail-safe--fail-secure, holding-force, heat-set-insert, creep, infill, peel-vs-shear]
+glossary: [misalignment, axial--radial, solenoid, fail-safe--fail-secure, holding-force, heat-set-insert, creep, infill, peel-vs-shear,
+  flux]
 ---
 
 <div class="eoc-pictures">
@@ -300,7 +303,7 @@ Electromagnetic lock / maglock (surface-mount, 12/24 VDC, sold by holding force 
 
 - A hobby electromagnet's 'holding force' is not what it can lift: divide the holding force by 5-10 for a rough lifting capacity, e.g. a 5 kg module lifts about 1 kg; it depends on flatness, contact area and the steel (Adafruit, https://www.adafruit.com/product/3873).
 - Rated forces are measured pulling the plate straight off along the centre axis with the whole face in flush contact; shear (sliding) holding force is much lower, partial air gaps and dirt 'significantly decrease' hold force, and loads should be applied gradually because a sudden jerk can separate them (Magnet-Schultz of America, https://magnet-schultzamerica.com/resources/blog/holding-electromagnet-usage-and-mounting-guide/). A magnet vendor's guide puts shear resistance at typically 15-25% of rated pull and pull at 30-50% less with about 1 mm of paint or plastic gap (Radial Magnets, https://radialmagnet.com/magnets-for-holding-and-latching/).
-- Armature plates should be soft magnetic steel; 1/8 in (about 3 mm) is the standard thickness, and thinner plates carry less magnetic flux and hold less (Magnet-Schultz of America, https://magnet-schultzamerica.com/resources/blog/holding-electromagnet-usage-and-mounting-guide/).
+- Armature plates should be soft magnetic steel; 1/8 in (about 3 mm) is the standard thickness, and thinner plates carry less magnetic [flux](../glossary.md#flux) and hold less (Magnet-Schultz of America, https://magnet-schultzamerica.com/resources/blog/holding-electromagnet-usage-and-mounting-guide/).
 - Upper limit: an iron core saturates at about 1.6-2 tesla, which gives a maximum magnetic pressure of about 1,000 kPa (145 psi) from F = B²A/2μ0, i.e. at most roughly 100 N per square centimetre of fully contacting pole face; real magnets hold less (Wikipedia, https://en.wikipedia.org/wiki/Electromagnet).
 - Door maglock sizes: micro 275 lbf, mini 650 lbf, midi 800 lbf, standard 1,200 lbf, shear lock 2,000 lbf; they draw about 5-6 W, e.g. 0.5 A at 12 VDC or 0.25 A at 24 VDC (Wikipedia, https://en.wikipedia.org/wiki/Electromagnetic_lock; BEA 600 lb guide, https://us.beasensors.com/files/downloads/products/ul-listed-maglocks/user-guides/en/75.5366.10.EN-MAGLOCKS-600lb-20230828.pdf). Under UL 294 testing, BEA's '600 lb' model is rated at 500 lb static strength and 33 ft-lb dynamic strength (same BEA guide).
 - Every switched coil needs a flyback (freewheeling) diode across it: when it is switched off the stored magnetic energy produces a large voltage spike that arcs across switch contacts or damages transistors (Wikipedia, https://en.wikipedia.org/wiki/Electromagnet; Adafruit requires a 'driver with kick-back protection', https://www.adafruit.com/product/3873).

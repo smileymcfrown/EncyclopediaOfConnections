@@ -150,11 +150,54 @@
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
 - **tools**: soldering iron, heat gun, press or vice, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: splice
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 
@@ -302,11 +345,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: none, soldering iron, crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: touching or turning contacts
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -471,11 +557,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: soldering iron, drill and tap
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: touching or turning contacts
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ### Other info
 
@@ -631,11 +760,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, soldering iron
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: touching or turning contacts
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
@@ -799,11 +971,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: soldering iron, crimper, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: yes
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -953,6 +1168,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: no, yes
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1097,11 +1355,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: crimper, heat gun, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: splice
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1249,11 +1550,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: splice, to a board or terminal
+- **plugs_in**: no ⚑ *needs confirming (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it*
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1400,11 +1744,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: no
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1551,11 +1938,54 @@
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
 - **tools**: crimper, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: no
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1605,7 +2035,7 @@
 - **power**: passive (no power needed).
 - **removability**: tool-free quick release: the two halves plug and unplug by hand (MC4 needs its unlocking tool). The wires are soldered or crimped into each half and are not meant to come out.
 - **reuse_cycles**: many times: AMASS recommends 1000 mating cycles for the XT60 (AMASS XT60 datasheet). Sparks when connecting and pulling apart under load pit the contacts and shorten their life (Aloft Hobbies; Wikipedia 'MC4 connector').
-- **tools_needed**: To fit: a soldering iron with enough heat for thick wire and large brass contacts (a Flite Test community guide used a 30 W iron to fit a T-plug; bigger plugs and thicker wire need more heat ⚑ [uncertain]), solder and flux, wire strippers, heat-shrink tubing and a heat gun, and a holder or jig (Flite Test). Crimp-type plugs (Tamiya-type, Anderson, MC4) need their matching crimp tool, and MC4 needs its unlocking tool (Wikipedia 'MC4 connector'). A multimeter to check polarity before first use. To use: none. *(⚑ parts need confirming)*
+- **tools_needed**: To fit: a soldering iron with enough heat for thick wire and large brass contacts (a Flite Test community guide used a 30 W iron to fit a T-plug; bigger plugs and thicker wire need more heat: for XT90 and XT150 plugs on wire up to 7 AWG, Flite Test recommends a 60 W iron and warns that a 30 W one will struggle), solder and flux, wire strippers, heat-shrink tubing and a heat gun, and a holder or jig (Flite Test). Crimp-type plugs (Tamiya-type, Anderson, MC4) need their matching crimp tool, and MC4 needs its unlocking tool (Wikipedia 'MC4 connector'). A multimeter to check polarity before first use. To use: none.
 - **seal**: none for XT, Deans, EC, Tamiya and bullet plugs (Tamiya's housing separates the two contacts so it is usable in damp, dirty conditions, but it is not sealed; Wikipedia 'Tamiya connector'). Watertight for MC4-type solar connectors: a rubber sealing ring keeps out moisture, but only on cable of the correct diameter (Wikipedia 'MC4 connector').
 - **load**: Electrical: above about 30 A (genuine AMASS ratings with the matching wire, continuous / 1-minute burst at under 60 °C temperature rise: XT60 with 12 AWG 30/60 A, XT90 with 10 AWG 45/90 A, XT120 with 8 AWG 60/120 A, AS150 with 8 AWG 75/150 A, AS300 with 6 AWG 150/300 A (Holybro); small types are lower, e.g. Tamiya 'up to about 15 A' in practice (Wikipedia)); extra-low voltage only (as used by makers for battery packs; the plugs themselves are rated higher, e.g. XT60 500 V DC (AMASS) and MC4 1500 V DC (Wikipedia), but solar strings at hundreds of volts are outside this entry). Mechanical: light: friction-held plugs (XT, Deans, EC, bullets) can be pulled apart by a firm tug or a crash; latched Tamiya and locked MC4 hold against pulling (Wikipedia). The solder joints at the back are weak against bending and pulling, so the wires need strain relief.
 - **adjustable**: no.
@@ -1691,6 +2121,7 @@
   - https://commons.wikimedia.org/wiki/File:MC4_Connector_Front_and_Top_View.jpg
   - https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg
   - https://api.printables.com/graphql/
+  - https://www.flitetest.com/articles/heavy-duty-connectors-large-gauge-wire
 
 ### Finder tags
 
@@ -1703,16 +2134,59 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
-- **tools**: soldering iron, crimper, heat gun, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…W iron to fit a T-plug; bigger plugs and thicker wire need more heat [uncertain]), solder and flux, wire stri…"*
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **tools**: soldering iron, crimper, heat gun, hand tools
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: yes
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** processes, tools_needed
+- ⚑ **Fields with parts that need confirming:** processes
 
 ## 353 Heat-shrink tubing (heat-shrink sleeve, adhesive-lined heat-shrink)
 
@@ -1807,6 +2281,8 @@
   - Silicone and MS-polymer adhesive sealants: for sealing gaps and potting, where a tube can't be slid on
   - Linear ratchet (cable-tie ratchet): cable ties bundle wires and can be removed; heat-shrink bundles more neatly but permanently
   - Rope-end finishing (whipping, heat-sealing, aglet): heat-shrink can also cap a cord end
+  - Adhesive tape joint and tape hinge: ordinary pressure-sensitive tapes for holding parts together and making hinges, rather than insulating a joint
+  - Push-fit rod and spar fittings: kite fittings, stoppers and nocks that heat-shrink is used to hold on spars
 
 ### Pictures, videos and models
 
@@ -1858,11 +2334,54 @@
 - **clicks**: not applicable
 - **electrical_band**: above about 30 A
 - **tools**: soldering iron, heat gun, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: insulate, protect or route
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, wood, metal, fabric, leather or cord
 
 ### Other info
 
@@ -2010,11 +2529,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: soldering iron, crimper, heat gun, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: splice
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -2175,11 +2737,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, soldering iron, crimper, drill and tap, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: yes
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -2327,11 +2932,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: crimper, press or vice, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: splice, to a board or terminal
+- **plugs_in**: yes ⚑ *needs confirming (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it*
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, metal
 
 ## 357 Binding post and banana plug (test-lead connector, crocodile clip)
 
@@ -2483,11 +3131,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, soldering iron, crimper, drill and tap, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: yes
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -2617,11 +3308,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 30 A
 - **tools**: none, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: splice
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -2765,11 +3499,54 @@
 - **clicks**: not applicable
 - **electrical_band**: signal only
 - **tools**: soldering iron, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: on fabric, paper or a print
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
@@ -2822,7 +3599,7 @@
 - **adjustable**: partly: the layout is fixed once stuck down, but new branches can be added anywhere by sticking conductive-adhesive tape or fabric tape on top of an existing line, and weak spots can be patched the same way (Chibitronics)
 - **play_and_precision**: not applicable
 - **access_needed**: one side only (blind): the tape and the parts all go on the same face; a battery flap or a tape line that wraps over an edge to the back needs both sides (SparkFun 'Paper Circuit Pin')
-- **materials**: Copper tape: 'deadsoft 1-ounce copper foil' 0.04 mm thick with a conductive or non-conductive acrylic pressure-sensitive adhesive, 0.066 mm total (3M 1181, 1194); hobby rolls are about 3 mil (0.07 mm) thick and 5-6 mm wide (SparkFun; Adafruit). The copper is solderable and 'resists oxidation and discoloration' (3M). Conductive fabric tape: nylon fabric plated with nickel, copper and cobalt, with conductive glue (SparkFun; Adafruit product 3961); it 'cannot be soldered' (Chibitronics) but can be sewn (Adafruit). Sticks well to paper and cardstock (SparkFun projects), smooth 3D prints (Hackaday 2026), wood and plastic enclosure walls; wrinkled foil makes poor contact and should be burnished flat (Chibitronics). PLA prints soften above about 60 °C, so soldering onto tape laid over PLA must be quick (Prusa 'PLA'; Hackaday 2026). Garden and hardware-store copper tapes usually have non-conductive adhesive (SparkFun; Chibitronics); aluminium tape can't be soldered with ordinary electronics solder ⚑ [uncertain: not on an opened page]. *(⚑ parts need confirming)*
+- **materials**: Copper tape: 'deadsoft 1-ounce copper foil' 0.04 mm thick with a conductive or non-conductive acrylic pressure-sensitive adhesive, 0.066 mm total (3M 1181, 1194); hobby rolls are about 3 mil (0.07 mm) thick and 5-6 mm wide (SparkFun; Adafruit). The copper is solderable and 'resists oxidation and discoloration' (3M). Conductive fabric tape: nylon fabric plated with nickel, copper and cobalt, with conductive glue (SparkFun; Adafruit product 3961); it 'cannot be soldered' (Chibitronics) but can be sewn (Adafruit). Sticks well to paper and cardstock (SparkFun projects), smooth 3D prints (Hackaday 2026), wood and plastic enclosure walls; wrinkled foil makes poor contact and should be burnished flat (Chibitronics). PLA prints soften above about 60 °C, so soldering onto tape laid over PLA must be quick (Prusa 'PLA'; Hackaday 2026). Garden and hardware-store copper tapes usually have non-conductive adhesive (SparkFun; Chibitronics); aluminium tape is poor to solder, because its tough surface oxide stops solder wetting it without special flux and brushing (Wikipedia 'Solderability').
 - **maker_difficulty**: easy: peel and stick, 'one of the easiest ways to get started crafting a paper circuit' (SparkFun); the fiddly parts are neat corners, reliable joints between pieces, and soldering on paper without burning it
 
 ### Making it
@@ -2867,6 +3644,7 @@
   - Flat flexible cable and latching connector (FFC with ZIF connector): the factory-made flat cable for many signals through hinges and into moving parts
   - Wire-to-board plug connectors (pin header and crimp housing): the plug-in way to connect wires to a board
   - Cable through a hinge (hollow hinge pin, cable on the pivot axis, service loop): how to route a conductor across a moving joint
+  - Adhesive tape joint and tape hinge: ordinary non-conductive tapes for holding parts together and making hinges
 
 ### Pictures, videos and models
 
@@ -2908,6 +3686,7 @@
   - https://commons.wikimedia.org/wiki/File:CopperTapeShieldedCable.jpg
   - https://commons.wikimedia.org/wiki/File:Corroded_copper_tape.jpg
   - https://api.printables.com/graphql/
+  - https://en.wikipedia.org/wiki/Solderability
 
 ### Finder tags
 
@@ -2920,19 +3699,62 @@
 - **overload_response**: not applicable
 - **clicks**: not applicable
 - **glue_traits**:  ⚑ *needs confirming (best guess): no glue traits found*
-- **bonds_well**: nylon, acrylic or polycarbonate, metal, fabric or leather ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder [uncertain: not on an opened page].…"*
-- **bonds_poorly**: PLA, wood, paper or card ⚑ *needs confirming (source uncertain): `materials` is marked [uncertain] here: "…s); aluminium tape can't be soldered with ordinary electronics solder [uncertain: not on an opened page].…"*
+- **bonds_well**: nylon, acrylic or polycarbonate, metal, fabric or leather
+- **bonds_poorly**: PLA, wood, paper or card
 - **electrical_band**: up to about 3 A ⚑ *needs confirming (source uncertain): `load` is marked [uncertain] here: "Electrical: up to about 3 A [uncertain: no maker publishes a current…"*
 - **tools**: soldering iron, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: partly
 - **removability**: semi-permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: on fabric, paper or a print
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, glass or mirror, fabric, leather or cord
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, materials, print_in_place, safety_notes, seal, when_not_to_use
+- ⚑ **Fields with parts that need confirming:** common_failures, environment_limits, load, making_tips_3d_printing, print_in_place, safety_notes, seal, when_not_to_use
 
 ## 361 Conductive glue, paint and ink (electrically conductive adhesive, silver epoxy)
 
@@ -3078,11 +3900,54 @@
 - **bonds_poorly**: PLA, slippery plastics (PE or PP)
 - **electrical_band**: signal only
 - **tools**: hand tools ⚑ *needs confirming (best guess): no tool named in `tools_needed`; defaulted to hand tools*
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: medium
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: permanent
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: on fabric, paper or a print
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, carbon fibre or composites, glass or mirror, fabric, leather or cord
 
 ### Other info
 
@@ -3227,11 +4092,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: none, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: yes
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pass cables through
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -3383,11 +4291,54 @@
 - **clicks**: not applicable
 - **electrical_band**: up to about 3 A
 - **tools**: soldering iron, sewing or leather tools, hand tools
-- **load_max**: light ⚑ *needs confirming (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light*
+- **load_max**: light
 - **usual_process**: off-the-shelf part
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: to a board or terminal
+- **plugs_in**: no
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: metal
 
 ### Other info
 

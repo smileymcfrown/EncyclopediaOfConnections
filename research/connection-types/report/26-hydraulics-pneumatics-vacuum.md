@@ -143,6 +143,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, paper or card, carbon fibre or composites, fabric, leather or cord
 
 ### Other info
 
@@ -306,6 +349,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
@@ -486,6 +572,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: for air or liquid
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: one way or let off pressure
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
@@ -495,7 +624,7 @@
 
 *hydraulics, pneumatics & vacuum.* Two syringes or cylinders joined by a water-filled tube, so pushing one plunger pushes the other; a small one driving a big one trades distance for force, as in school hydraulic arms, car jacks and bike brakes
 
-*Also covers:* Baseline entry for the family. Also covers master and slave cylinders (brakes), the hydraulic jack and press, water versus air (air feels spongy) and rolling-diaphragm hydrostatic transmissions for robot arms. Also covers hydraulic motion reduction for fine positioning (the micromanipulator principle).
+*Also covers:* Baseline entry for the family. Also covers master and slave cylinders (brakes), the hydraulic jack and press, water versus air (air feels spongy) and rolling-diaphragm hydrostatic transmissions for robot arms. Also covers hydraulic motion reduction for fine positioning (the micromanipulator principle). Also covers why several cylinders on one line don't stay in step, and how to keep them in step (a mechanical rack-and-pinion tie, or a flow divider).
 
 ### What it is
 
@@ -526,7 +655,7 @@
   - let it move (turn, slide or bend): carries a push or pull along a bendy tube to a part somewhere else, like a Bowden cable but with much less friction round bends (Disney Research)
   - lock, and release by hand: in a hydraulic jack or press, check valves trap the oil so the load stays up until you open the release valve (Wikipedia 'Jack (device)'; Potter USA)
 - **motion**: slide: each plunger or piston slides in a straight line in its cylinder; what it pushes can swing, e.g. the Exploratorium arm pivots on a bolt as the syringe extends (Exploratorium). Stroke is limited by the syringe length; a jack gets a long lift from many short pump strokes (Wikipedia 'Jack (device)')
-- **degrees_of_freedom**: 1 per liquid line: each sealed tube links one input movement to one output movement (several outputs on one line, such as a car's brake calipers, all move together). A robot arm needs one line (or one pair of lines) per joint (Disney Research: N water lines plus 1 shared air line for N joints)
+- **degrees_of_freedom**: 1 per liquid line: each sealed tube links one input movement to one output movement (several outputs can share one line, such as a car's brake calipers, but they only move together when each meets the same resistance, as calipers do when they all stop on the disc; see the rule of thumb on keeping cylinders in step). A robot arm needs one line (or one pair of lines) per joint (Disney Research: N water lines plus 1 shared air line for N joints)
 - **special_behaviour**: 
   - motion conversion: changes force and distance by the ratio of piston areas and sends the push round corners and along any route the tube takes; for example a master piston half the diameter of the slave piston moves 4 times as far with a quarter of the force (Wikipedia 'Hydraulic brake')
   - hand-release only (jacks and presses): check valves stop the oil flowing back, so the ram holds its load until a person opens the release valve (Wikipedia 'Jack (device)'; Potter USA)
@@ -567,6 +696,7 @@
   - Rolling-diaphragm cylinders are low-pressure parts, typically limited to 10 bar (off-the-shelf up to 17 bar), with a stroke of only about one bore diameter, and they need positive pressure at all times or the diaphragm folds and jams (Disney Research 2014)
   - Bottle jacks: open the release valve only about a quarter turn; store and carry them upright, because laying them down lets air in and 'air-locks' them; purge air by opening the release valve and pumping about 20 times (Potter USA)
   - Bike brakes: never put DOT fluid in a mineral-oil brake or the other way round, and never share bleed kits between them (Park Tool)
+  - Several cylinders on one line don't stay in step by themselves: with a tee splitting the flow, 'if the resistance in all the branches is not identical, flow can vary greatly in each path', so the cylinder with the lighter load or less drag moves first or 'runs away' (Power & Motion 'Flow divider circuits'). To keep them together, tie them mechanically, for example a rack on each piston rod with the pinions fixed to one shaft (a chain and sprockets works only if they must keep in step in one direction), or use a flow divider (Power & Motion 'Synchronizing circuits'; HAWE fluid lexicon 'Open loop synchronisation control').
 
 ### When to use it
 
@@ -579,7 +709,7 @@
 - **when_not_to_use**: Not for long strokes from a small input: volume in equals volume out, so you'd need a huge input syringe or a pump with check valves (Wikipedia 'Jack (device)'). Not for holding a position for hours: sliding seals leak and the two ends drift out of step (Disney Research 2014), so use a lead screw or a self-locking worm drive instead. Not for strong pulling: suction is limited to about one atmosphere (Disney Research 2014). For a simple pull over a short, gentle route a Bowden cable is simpler and dry; for a compact, rigid force multiplier use a lever, bell crank or gears; for powered, repeated motion use an air or hydraulic cylinder with a valve, or an electric linear actuator. Don't use a home-made system where failure could hurt someone, such as brakes or anything holding a person or a car up: buy rated parts, and never rely on a jack alone (HSE).
 - **environment_limits**: Water freezes and expands, which can split syringes or tubes left in the cold ⚑ [uncertain: not checked against a source]. Glycol-ether brake fluids (DOT 3, 4, 5.1) absorb water from the air, which lowers their boiling point; mineral-oil and silicone fluids don't (Wikipedia 'Brake fluid'). Hot brakes on long descents can boil the fluid, which turns to compressible vapour and the brake fails (Wikipedia 'Bicycle brake', 'Brake fluid'). DOT fluid is corrosive to frame paint (Wikipedia 'Bicycle brake'). Silicone fluid is more compressible than glycol fluid, so brakes feel spongier (Wikipedia 'Brake fluid'). Mixing fluids or contaminating them with water, alcohol or antifreeze can crack seals and cause leaks (Wikipedia 'Hydraulic brake'). Rolling diaphragms are limited to low pressures, typically 10 bar (Disney Research 2014). *(⚑ parts need confirming)*
 - **safety_notes**: 1) Syringe models are low risk (a school activity), but use syringes without needles and keep water away from electronics (own advice). 2) Jacks: vehicles falling or rolling off badly placed jacks or stands are 'one of the main causes of fatal accidents in motor vehicle repair'; never work under anything held up by a jack alone, always add axle stands and chock the wheels (HSE 'Working under vehicles'). 3) Brakes are safety-critical: 'Hydraulic brakes rarely fail, but failure tends to be complete' (Wikipedia 'Bicycle brake'); the wrong fluid makes seals fail and can lead to brake failure (Park Tool; Wikipedia); wear safety glasses and gloves when bleeding brakes (Park Tool). 4) High pressure: a small piston driven hard makes very high pressure, and a jet of oil from a pin-hole leak can inject fluid under the skin; serious cases have happened above 100 bar and possibly as low as 7 bar, and need immediate hospital treatment (HSE hydraulic injection bulletin). 5) Pinch points: keep fingers out of the arm and linkage as it moves. 6) Never hold stored pressure in a 3D-printed part: a printed PLA air tank exploded at 5.5 bar (CVRA).
-- **common_failures**: 1) Spongy, weak or jerky movement from air bubbles: refill under water and push the bubbles out (Exploratorium; Science Buddies; Park Tool). 2) Tube pops off the syringe tip when pushed hard: refill and refit it, then seal with plumber's putty or tape (Science Buddies), or use Luer-lock syringes. 3) Plunger pulled right out of the barrel: add a stop screw (Exploratorium). 4) Slow leaks past plunger seals, so the two ends drift out of step (Disney Research 2014). 5) Arm tips over under load: add weight to the base (Exploratorium). 6) Linkage jams at a dead point when the syringe is fully in (Printables 1037944). 7) Jack won't lift or won't build pressure: low oil, or air trapped after it was laid on its side; jack creeps or leaks oil when the release valve is opened too far (Potter USA). 8) Brakes: soft lever from air or the wrong fluid swelling the seals, pistons that won't retract and a scraping disc (Wikipedia 'Bicycle brake'); fade from boiling fluid on long descents (Wikipedia).
+- **common_failures**: 1) Spongy, weak or jerky movement from air bubbles: refill under water and push the bubbles out (Exploratorium; Science Buddies; Park Tool). 2) Tube pops off the syringe tip when pushed hard: refill and refit it, then seal with plumber's putty or tape (Science Buddies), or use Luer-lock syringes. 3) Plunger pulled right out of the barrel: add a stop screw (Exploratorium). 4) Slow leaks past plunger seals, so the two ends drift out of step (Disney Research 2014). 5) Arm tips over under load: add weight to the base (Exploratorium). 6) Linkage jams at a dead point when the syringe is fully in (Printables 1037944). 7) Jack won't lift or won't build pressure: low oil, or air trapped after it was laid on its side; jack creeps or leaks oil when the release valve is opened too far (Potter USA). 8) Brakes: soft lever from air or the wrong fluid swelling the seals, pistons that won't retract and a scraping disc (Wikipedia 'Bicycle brake'); fade from boiling fluid on long descents (Wikipedia). 9) Two output syringes or cylinders on one line drift apart or move one after the other, because the lighter-loaded one takes the flow first: tie them together mechanically or give each its own line (Power & Motion).
 - **related**: 
   - Bowden cable: carries a push or pull through a sleeve, but can't change the force, and its friction grows rapidly with every bend (Disney Research 2014)
   - Air or hydraulic cylinder: the powered version, where a pump or compressor and a valve drive the piston instead of a second syringe
@@ -591,6 +721,7 @@
   - Bellows and inflatable actuators: push with a flexible chamber and no sliding seal, like the rolling diaphragm
   - Capstan cable drive (tendon drive): the low-friction cable alternative for robot arms (Disney Research 2014)
   - Taper fit (Luer taper), Hose barb and Quick couplers: the fittings that join syringes and tubes
+  - Cable splitter: the cable version of one input driving two outputs; it pulls both cables the same distance but does not balance their force
 
 ### Pictures, videos and models
 
@@ -640,6 +771,9 @@
   - https://commons.wikimedia.org/wiki/File:Hydraulic_disc_brake_diagram.gif
   - https://commons.wikimedia.org/wiki/File:Master_cylinder_diagram.svg
   - https://en.wikipedia.org/wiki/Micromanipulator
+  - https://www.powermotiontech.com/technologies/other-technologies/article/21883443/book-2-chapter-11-flow-divider-circuits
+  - https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21885035/synchronizing-circuits
+  - https://www.hawe.com/fluid-lexicon/detail/open-loop-synchronisation-control/
 
 ### Finder tags
 
@@ -657,6 +791,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: pushed by a screw, chain or crank
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: cables, pulleys or liquid
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: pushes, pulls or flow shared out
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card
 
 ### Other info
 
@@ -666,7 +843,7 @@
 
 *hydraulics, pneumatics & vacuum.* A piston in a tube that pushes a rod out when air or oil is let in behind it; a single-acting cylinder returns by a spring or gravity, a double-acting one is driven both ways
 
-*Also covers:* Baseline entry for the family. Also covers telescopic, rodless and cable cylinders, the air gripper, feeding air to a moving cylinder, and printed cylinders. Safety: crush points, trapped air moving a stopped cylinder, hydraulic oil injection injuries.
+*Also covers:* Baseline entry for the family. Also covers telescopic, rodless and cable cylinders, the air gripper, feeding air to a moving cylinder, and printed cylinders. Safety: crush points, trapped air moving a stopped cylinder, hydraulic oil injection injuries. Also covers keeping two cylinders fed through a tee in step.
 
 ### What it is
 
@@ -741,6 +918,7 @@
   - Mount the valve as close to the cylinder as practical, for quicker response and less wasted air (Tameson)
   - A double-acting cylinder that has been emptied (e.g. after an emergency stop) can shoot out when air first returns, so fit a soft-start valve where that could hurt someone (HSE HSG39 para 120)
   - Feed moving cylinders with loops of plastic tubing that absorb the movement (HSE HSG39 para 108), through the pivot of a swinging cylinder, or through a hollow fixed piston rod so the hoses stay still (Thang)
+  - Two cylinders fed through a tee from one valve do not move in step: the flow splits unevenly unless both meet the same resistance, so the lighter-loaded one moves first. To keep them together, tie the rods mechanically (a rack on each rod, with the pinions on one shared shaft) or use a flow divider (Power & Motion 'Flow divider circuits' and 'Synchronizing circuits'; HAWE fluid lexicon 'Open loop synchronisation control'; these sources are about hydraulics).
 
 ### When to use it
 
@@ -822,6 +1000,9 @@
   - https://commons.wikimedia.org/wiki/File:Doppelwirkender_Zylinder_Funktionsprinziep.gif
   - https://commons.wikimedia.org/wiki/File:Pneumatic_cylinder_(animation).gif
   - https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg
+  - https://www.powermotiontech.com/technologies/other-technologies/article/21883443/book-2-chapter-11-flow-divider-circuits
+  - https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21885035/synchronizing-circuits
+  - https://www.hawe.com/fluid-lexicon/detail/open-loop-synchronisation-control/
 
 ### Finder tags
 
@@ -839,6 +1020,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1012,6 +1236,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: pushes, pulls or flow shared out
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ## 303 Peristaltic pump (tube pump, roller pump)
 
@@ -1158,6 +1425,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: pump
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1313,6 +1623,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror
 
 ### Other info
 
@@ -1471,6 +1824,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something, grip or lift
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, fabric, leather or cord
 
 ### Other info
 
@@ -1653,6 +2049,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: flip between positions
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -1805,6 +2244,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: for air or liquid
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: one way or let off pressure
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 
@@ -1947,6 +2429,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, paper or card, foam, fabric, leather or cord
 
 ### Other info
 
@@ -1994,7 +2519,7 @@
   - not a holding joint (it moves or passes on motion): it pushes liquid rather than holding parts together
   - shape (form-fit) and friction or clamping (force-fit): the syringe's finger flange sits in a slot and a clamp or press fit holds the barrel; the plunger end sits in a slot on the carriage (poseidon paper: print settings tuned 'to allow for a press fit of the syringe'; Printables 167075 and 50666)
 - **input_output**: Continuous rotation of the motor -> slow straight push or pull of the plunger -> liquid flow. Plunger travel per motor turn = the lead of the screw (e.g. 2 mm per turn for an 8 mm screw with 2 mm pitch, Printables 167075); volume per turn = lead x inside area of the barrel. Worked example (calculated): a BD 10 mL plastic syringe has a 14.5 mm inner diameter (Chemyx), about 165 mm2 of area, so a 2 mm lead moves about 0.33 mL per turn and, with a 200-step motor, about 1.65 µL per full step. Efficiency is that of a plain lead screw (roughly 20-80%, see the Lead screw entry); the PLOS ONE authors note lead screws are inefficient. Shaft arrangement: in line (motor, screw and plunger on parallel or the same axis). Back-drivable: no for fine-pitch screws (Wikipedia 'Leadscrew'), so the plunger stays put when the motor stops
-- **power**: powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's description of stored pressure after a blockage] *(⚑ parts need confirming)*
+- **power**: powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out: trapped bubbles expand and push solution out after the pump stops, and plastic syringes and tubing can stretch and let drips form (Ossila 'Syringe pump troubleshooting')
 - **removability**: removable: the syringe drops into its cradle and is clamped or press-fitted, so syringes of different sizes can be swapped (poseidon paper; Printables 80669 swaps a retainer to change between 1 mL and 3 mL syringes); the pump itself is screwed together
 - **reuse_cycles**: many times: syringes are swapped and refilled routinely; disposable plastic syringes are single-use in medicine and their plungers wear or swell, while glass and stainless-steel syringes are reusable (LabX syringe guide; Chemyx)
 - **tools_needed**: screwdrivers and hex keys, pliers (a poseidon pump can be assembled in under 15 minutes with only pliers and screwdrivers, poseidon paper); a small screwdriver to set the stepper driver's current limit (poseidon README); a soldering iron or crimp tool for wiring; a scale or measuring cylinder for calibration (PLOS ONE)
@@ -2100,12 +2625,13 @@
   - https://commons.wikimedia.org/wiki/File:Syringe_drivers.JPG
   - https://www.youtube.com/watch?v=7YSiO6usR1M
   - https://www.youtube.com/watch?v=YdeZJIZdA_A
+  - https://ossila.com/pages/syringe-pump-troubleshooting
 
 ### Finder tags
 
 - **connects**: not applicable
-- **power_source**: electricity, liquid ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain: inferred from Medfusion's de…"*
-- **power_loss**: keeps its last state ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain: inferred from Medfusion's de…"*
+- **power_source**: electricity, liquid
+- **power_loss**: keeps its last state
 - **motion_in**: steady turning
 - **motion_out**: straight push or pull, pressure
 - **shaft_layout**: not applicable
@@ -2117,10 +2643,53 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: screw
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: pump
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** power, processes, safety_notes
+- ⚑ **Fields with parts that need confirming:** processes, safety_notes
 
 ## 310 Diaphragm pump and squeeze bulb (membrane pump, micro air pump)
 
@@ -2296,6 +2865,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: pump
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, fabric, leather or cord
 
 ### Other info
 
@@ -2472,6 +3084,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -2630,6 +3285,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ## 313 Pressure relief valve (safety valve, pop-off valve)
 
@@ -2800,6 +3498,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: one way or let off pressure
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, metal
 
 ## 314 Speed-control valve (flow control valve, needle valve)
 
@@ -2960,6 +3701,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: for air or liquid
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: steady speed or level
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -3132,6 +3916,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror
 
 ### Other info
 
@@ -3178,7 +4005,7 @@
   - friction or clamping (force-fit): sideways grip comes only from friction between sheet and table, which the air pressure increases; Mekanika uses a friction coefficient of 0.40 for wood on wood (Mekanika; Wikipedia)
   - powered hold: the hold lasts only while the vacuum source keeps the chamber evacuated (CNC Cookbook)
 - **input_output**: not applicable
-- **power**: powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a check valve to hold vacuum briefly after a pump stops is common practice ⚑ [uncertain] *(⚑ parts need confirming)*
+- **power**: powered: needs a running vacuum source, such as a shop vacuum or vacuum motor, a side-channel (regenerative) blower, a rotary-vane pump or a compressed-air venturi generator (CNC Cookbook; Mekanika; Printables 370205). If power fails the vacuum leaks away and the part is released, or pops off under the cutter (CNC Cookbook). A vacuum tank on the line gives 'a little extra capacity' (CNC Cookbook 'Vacuum Chucks'); a non-return (check) valve in the vacuum line is sold for 'maintaining the vacuum in the case of a power failure or a failure of the vacuum generator' (Schmalz RSV non-return valve)
 - **removability**: tool-free quick release for the workpiece (vent the vacuum and lift it off). The table itself is bolted or screwed to the machine bed and can be removed (Printables 1362329 uses M4 threaded inserts in the spoilboard; hackaday.io 166349)
 - **reuse_cycles**: effectively unlimited: the table is reused for every job; only the sacrificial bleeder board is resurfaced from time to time and replaced when too thin (CNC Cookbook; Make:)
 - **tools_needed**: none to load or unload a part. To build or service one: a CNC router or table saw for the plenum, sealer (polyurethane, epoxy or thinned wood glue) for MDF, gasket cord or foam strip, PVC pipe and glue or push-in fittings, ball valves and a vacuum gauge (Make:; Mekanika; CNC Cookbook)
@@ -3276,12 +4103,13 @@
   - https://www.printables.com/model/370205-table-a-depression-vacuum-table
   - https://www.printables.com/model/451126-vacuum-pcb-solder-stencil-jig
   - https://www.printables.com/model/668832-lpkf-vacuum-table-sinterplate-replacement
+  - https://www.schmalz.com/en/products/automation-743270/valves-308656/non-return-valves-308773/non-return-valves-rsv-308774
 
 ### Finder tags
 
 - **connects**: wall, rail, desk or grid
 - **power_source**: electricity, compressed air, suction ⚑ *needs confirming (best guess): `power` names several power sources, and not all may apply*
-- **power_loss**: lets go ⚑ *needs confirming (source uncertain): `power` is marked [uncertain] here: "…ck valve to hold vacuum briefly after a pump stops is common practice [uncertain]…"*
+- **power_loss**: lets go
 - **motion_in**: not applicable
 - **motion_out**: not applicable
 - **shaft_layout**: not applicable
@@ -3293,10 +4121,53 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: grip or lift
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card, foam, carbon fibre or composites, fabric, leather or cord
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, power, related, safety_notes
+- ⚑ **Fields with parts that need confirming:** environment_limits, making_tips_3d_printing, related, safety_notes
 
 ## 317 Gear pump (including gerotor)
 
@@ -3461,6 +4332,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: pump
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -3619,6 +4533,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: move or push something
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -3786,6 +4743,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: steady speed or level
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -3941,6 +4941,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: pump
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal
 
 ### Other info
 
@@ -3989,7 +5032,7 @@
 - **power**: powered: needs a continuous supply of compressed air: precision pads typically run at 20-120 psi (PI Nelson Air) or 4-6 bar (IBS), and Slocum notes air bearings are typically kept below 10 atmospheres for safety; air-hockey tables and air tracks use large amounts of low-pressure air from a fan or blower (Wikipedia 'Air hockey'; 'Air track'). When the air is lost, the film collapses and the load settles gently onto the pad and stops (IBS FAQ); it does not stay floating
 - **removability**: removable: precision pads bolt on through ball-pin (ball-stud) or stiff joint mounts (Wikipedia); air casters are simply slid under a load, inflated, used and taken out again (AeroGo; Wikipedia)
 - **reuse_cycles**: effectively unlimited: there is no contact and so no wear; 'the durability of air bearings is unlimited if they are designed and calculated correctly' (Wikipedia)
-- **tools_needed**: To use: an air compressor or blower, a filter and regulator, hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797) *(⚑ parts need confirming)*
+- **tools_needed**: To use: an air compressor or blower, a filter and regulator, hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts), since a pad sits on a threaded mounting screw that is locked with a small socket-head lock screw and washer, or with a lock nut (IMG Ilmenau RD 42S1 data sheet). DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)
 - **seal**: none: air leaks out of the edges all the time by design, so the film is not a seal (Slocum; PI Nelson Air). An air caster's flexible ring makes a near-seal with the floor only so that pressure can build under it (Wikipedia 'Air caster')
 - **load**: light to very heavy, but mainly in one direction: a pad pushes; it can't pull or resist sideways shove or tipping unless opposed pads or a preload hold it (Slocum; PI Nelson Air). Precision pads carry about 50 N to 20 kN each (IBS); air casters move loads from 500 lb to over 5,000 tons (AeroGo) and press on the floor at only about 2-50 psi, against over 1,000 psi under rollers and wheels (AeroGo). For the same pad area, oil-fed (hydrostatic) bearings carry about five times more (PI Nelson Air)
 - **adjustable**: yes: supply pressure and preload set the gap and stiffness (IBS; PI Nelson Air); ball-pin mounts let a pad tilt to sit flat on its guide (Wikipedia); for air casters, using more casters spreads the load and lowers the floor pressure (AeroGo)
@@ -4085,6 +5128,7 @@
   - https://www.printables.com/model/437647-levitating-air-hockey-disc-paddles
   - https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
   - https://www.printables.com/model/1247872-mini-air-hockey-table
+  - https://img-ilmenau.de/media/pages/luftlager/standardluftlager/rd-42s1/ebea320839-1727690744/rd-42s1_en.pdf
 
 ### Finder tags
 
@@ -4096,16 +5140,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: drill and tap, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) [uncertain]. DIY builds: a hand drill wi…"*
+- **tools**: drill and tap, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: grip or lift
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, metal, glass or mirror
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** environment_limits, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** environment_limits, safety_notes
 
 ## 322 Centrifugal pump (impeller pump)
 
@@ -4273,6 +5360,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: powered
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: pump
+- **powered_does**: pump or control a flow
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -4421,6 +5551,49 @@
 - **adjustable**: yes
 - **removability**: tool-free quick release
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: not applicable
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: pump or control a flow
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: switch, set or store
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts
 
 ### Other info
 

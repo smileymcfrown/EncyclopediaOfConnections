@@ -40,7 +40,7 @@
     "power": "passive (no power needed) for the flexure itself; motorised stages need power to move, and a screw-driven stage stays where it is if power is lost",
     "removability": "permanent for one-piece printed or machined stages; removable when metal blades are clamped between blocks with screws [uncertain]",
     "reuse_cycles": "many times: nothing wears because nothing slides; the life limit is fatigue of the blades, which is long if they are bent well within the material's limit. Printed OpenFlexure stages had no flexures snap after 6 months of use (Sharkey et al.); FabianVeile's printed XY guide is designed to stay in the elastic region so it always returns to its start position (Printables)",
-    "tools_needed": "none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for clamped metal blades [uncertain]",
+    "tools_needed": "none for one-piece printed stages; a knife to open a slot and a screwdriver for the M3 drive screws and nuts in some printed positioners (Printables 'High-precision Compliant XY-Positioning Device'); a hex key or screwdriver for the bolts that clamp metal blades between blocks (DSPE 'Flexure assembly using dove tail clamps')",
     "seal": "none",
     "load": "light to medium in the directions it holds; very light in the travel direction by design. Stiff against loads along the blades and against tilting. Stiffness in the travel direction is 2 x E x w x t cubed / L cubed for two blades (Ingeniqs). Holding stiffness falls as it moves: about 30% lower at a travel of one tenth of the blade length for a simple parallelogram, and about 90% lower for a double parallelogram (Awtar et al.). A pushing (compressive) load along the blades softens them towards buckling, so hang loads from the blades rather than stand them on top where possible (Awtar et al.).",
     "adjustable": "Position: yes, that is its purpose; the platform is moved by a fine screw (an M3 screw moves 0.5 mm per turn, allowing sub-micron adjustment by hand; Sharkey et al.), a piezo or a motor. Stiffness and range: no, fixed by the blade thickness, length, width and material.",
@@ -183,13 +183,13 @@
       "https://www.printables.com/model/336719-high-precision-compliant-xy-positioning-device",
       "https://www.printables.com/model/586635-linear-motion-compliant-mechanism",
       "https://www.youtube.com/watch?v=JGbM6qZAwQY",
-      "https://www.youtube.com/watch?v=PaypcVFPs48"
+      "https://www.youtube.com/watch?v=PaypcVFPs48",
+      "https://dspe.nl/knowledge/dppm-cases/flexure-assembly-using-dove-tail-clamps"
     ]
   },
   "uncertain": [
     "complexity",
     "removability",
-    "tools_needed",
     "materials",
     "processes",
     "off_the_shelf_parts"

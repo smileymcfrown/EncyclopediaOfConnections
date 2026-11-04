@@ -91,6 +91,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [metal]
 needs_confirming:
   removability:
     kind: source uncertain
@@ -204,7 +206,8 @@ pictures:
   alt: An aluminium gas-meter case with arrows pointing to the round clinch buttons that hold its sheet-metal parts together.
   kind: photo
   drawn: false
-glossary: [form-fit--force-fit--material-bond, undercut, creep, fatigue, brittle--ductile, lubrication, cure, peel-vs-shear]
+glossary: [form-fit--force-fit--material-bond, undercut, creep, fatigue, brittle--ductile, lubrication, cure, peel-vs-shear,
+  galvanic-corrosion]
 ---
 
 <div class="eoc-pictures">
@@ -265,7 +268,7 @@ Don't use it when you can reach only one side (use a blind rivet or rivet nut), 
 - **Adjustable:** no: once pressed, the join is fixed.
 - **Access needed:** both sides: the punch works from one side and the die from the other ('access to both sides of the joint is essential', He 2017; EAA 8.1.2.3). 'Die-driven' systems move the die side instead of the punch for awkward parts, but still need both sides (TOX brochure p.11).
 - **Materials:** Joins ductile sheet metals: low-carbon and micro-alloyed steel, zinc-coated, organic-coated and pre-painted steel, stainless steel, ductile aluminium alloys, copper and brass, magnesium (Böllhoff; Wikipedia 'Clinching'; Assembly Magazine 2016), and dissimilar pairs such as aluminium to steel (EAA 8.1.2; Assembly Magazine 2002). With special or heated tooling, also some polymers, fibre-reinforced plastics, wood-metal composites and cardboard (Wikipedia 'Clinching'). Poor for brittle or low-ductility materials: conventional clinching of steel is limited to tensile strength below about 800 N/mm² and elongation above 14% (He 2017), or roughly 10-20% elongation depending on the source (Assembly Magazine 2002 and 2016). Adhesive, sealant, fabric or a sound-damping layer can be clinched between the sheets (EAA 8.1.2; Assembly Magazine 2016).
-- **Heat, cold, water and wear:** Because no heat is used, zinc and paint coatings stay intact, so corrosion protection is kept; TOX shows clinches in coated steel tested through 1,000-hour salt-spray and climate tests (TOX brochure p.6; EAA 8.1.2). Clinched joints are 'less affected by environmental agents and effect of aging' than adhesive joints (Wikipedia 'Clinching'). Fatigue and vibration resistance are good (TOX p.6; BTM's V-Loc described as 'vibration-resistant and leak-proof', Assembly Magazine 2016). Joining dissimilar metals (e.g. aluminium to steel) can bring galvanic corrosion where water collects ⚑ [uncertain: general corrosion advice, no clinching source]. Metals only: no [creep](../glossary.md#creep) or heat limit worth worrying about at everyday temperatures, unless an adhesive or polymer layer is clinched in ⚑ [uncertain].
+- **Heat, cold, water and wear:** Because no heat is used, zinc and paint coatings stay intact, so corrosion protection is kept; TOX shows clinches in coated steel tested through 1,000-hour salt-spray and climate tests (TOX brochure p.6; EAA 8.1.2). Clinched joints are 'less affected by environmental agents and effect of aging' than adhesive joints (Wikipedia 'Clinching'). Fatigue and vibration resistance are good (TOX p.6; BTM's V-Loc described as 'vibration-resistant and leak-proof', Assembly Magazine 2016). Joining dissimilar metals (e.g. aluminium to steel) can bring [galvanic corrosion](../glossary.md#galvanic-corrosion) where water collects ⚑ [uncertain: general corrosion advice, no clinching source]. Metals only: no [creep](../glossary.md#creep) or heat limit worth worrying about at everyday temperatures, unless an adhesive or polymer layer is clinched in ⚑ [uncertain].
 
 ## Making it
 

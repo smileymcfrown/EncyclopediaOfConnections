@@ -43,7 +43,7 @@
     "power": "powered: needs a continuous supply of compressed air: precision pads typically run at 20-120 psi (PI Nelson Air) or 4-6 bar (IBS), and Slocum notes air bearings are typically kept below 10 atmospheres for safety; air-hockey tables and air tracks use large amounts of low-pressure air from a fan or blower (Wikipedia 'Air hockey'; 'Air track'). When the air is lost, the film collapses and the load settles gently onto the pad and stops (IBS FAQ); it does not stay floating",
     "removability": "removable: precision pads bolt on through ball-pin (ball-stud) or stiff joint mounts (Wikipedia); air casters are simply slid under a load, inflated, used and taken out again (AeroGo; Wikipedia)",
     "reuse_cycles": "effectively unlimited: there is no contact and so no wear; 'the durability of air bearings is unlimited if they are designed and calculated correctly' (Wikipedia)",
-    "tools_needed": "To use: an air compressor or blower, a filter and regulator, hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) [uncertain]. DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)",
+    "tools_needed": "To use: an air compressor or blower, a filter and regulator, hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts), since a pad sits on a threaded mounting screw that is locked with a small socket-head lock screw and washer, or with a lock nut (IMG Ilmenau RD 42S1 data sheet). DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)",
     "seal": "none: air leaks out of the edges all the time by design, so the film is not a seal (Slocum; PI Nelson Air). An air caster's flexible ring makes a near-seal with the floor only so that pressure can build under it (Wikipedia 'Air caster')",
     "load": "light to very heavy, but mainly in one direction: a pad pushes; it can't pull or resist sideways shove or tipping unless opposed pads or a preload hold it (Slocum; PI Nelson Air). Precision pads carry about 50 N to 20 kN each (IBS); air casters move loads from 500 lb to over 5,000 tons (AeroGo) and press on the floor at only about 2-50 psi, against over 1,000 psi under rollers and wheels (AeroGo). For the same pad area, oil-fed (hydrostatic) bearings carry about five times more (PI Nelson Air)",
     "adjustable": "yes: supply pressure and preload set the gap and stiffness (IBS; PI Nelson Air); ball-pin mounts let a pad tilt to sit flat on its guide (Wikipedia); for air casters, using more casters spreads the load and lowers the floor pressure (AeroGo)",
@@ -196,11 +196,11 @@
       "https://www.printables.com/model/1055797-air-bearing-vortex-cup",
       "https://www.printables.com/model/437647-levitating-air-hockey-disc-paddles",
       "https://www.printables.com/model/386417-hovercraft-v2-balloon-powered",
-      "https://www.printables.com/model/1247872-mini-air-hockey-table"
+      "https://www.printables.com/model/1247872-mini-air-hockey-table",
+      "https://img-ilmenau.de/media/pages/luftlager/standardluftlager/rd-42s1/ebea320839-1727690744/rd-42s1_en.pdf"
     ]
   },
   "uncertain": [
-    "tools_needed",
     "environment_limits",
     "safety_notes"
   ]

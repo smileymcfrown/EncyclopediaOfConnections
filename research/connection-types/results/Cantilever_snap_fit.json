@@ -43,7 +43,7 @@
     "power": "passive (no power needed)",
     "removability": "removable when designed to separate (sloped back face, release tab or access slot); permanent versions with a hidden 90° hook can only be undone by breaking the hook (Wikipedia 'Snap-fit'; HP MJF handbook)",
     "reuse_cycles": "many times if the arm is designed for repeated use, i.e. bent to only about 60% of the one-time strain limit (Covestro Table 2) or to DuPont's 'used frequently' values (e.g. acetal 2-4% instead of 8%); a few times, or once, if the arm is strained near its limit, is printed in brittle PLA, or is printed standing up so its layers peel [uncertain] (no cycle counts found for printed arms)",
-    "tools_needed": "none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release [uncertain]",
+    "tools_needed": "none to assemble; a finger, or a small flat screwdriver or pry tool to press the hook clear, for release (OKW's clip-on Snaptec lids come off with a small flat screwdriver or the supplied nylon key; Electronic Design)",
     "seal": "none: a snap fit holds parts but doesn't seal; add a gasket or O-ring if needed",
     "load": "light to medium: strongest against pulling apart in the direction the hook resists (Covestro says its positive snap joint 'can transmit considerable forces'), weaker in side-to-side shear, which locating lugs should carry (Hubs), and weakest if the arm is pried or bent further. Assembly force for fingers is usually kept below about 50-100 N (HP MJF handbook).",
     "adjustable": "no: position and holding force are fixed by the arm and hook shape; some designs take up tolerances by leaving the arm slightly bent after assembly (DuPont p. 75)",
@@ -207,12 +207,12 @@
       "https://designerdata.nl/calculators/snap-fit-joints",
       "https://designerdata.nl/calculators/snap-fit-joints/snap-fitting-hook-straight-ring-segment",
       "https://www.fictiv.com/tools/snap-fit-calculator",
-      "https://www.engineersedge.com/snap_fit_straight.htm"
+      "https://www.engineersedge.com/snap_fit_straight.htm",
+      "https://www.electronicdesign.com/technologies/components/article/21765277/enclosures-snap-and-fit-easily"
     ]
   },
   "uncertain": [
     "reuse_cycles",
-    "tools_needed",
     "processes",
     "making_tips_3d_printing",
     "off_the_shelf_parts",

@@ -99,6 +99,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, clay or putty, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -343,6 +345,7 @@ Never use unrated eyes or hooks for lifting people, climbing, swings, hammocks o
 - Hang-on mounts (keyhole slot, French cleat): hang a picture, shelf or tool holder on a slot or cleat instead of a screw eye and wire
 - Wire-rope terminations: how to make the loop in a wire rope that goes onto the eye
 - Swivel hoist ring: a rated lifting point that turns and pivots to face the pull, for angled lifts (ASME B30.26 via Hanford ch. 2-26) (not a separate entry)
+- Baked-in findings (eye pins and screw eyes in polymer clay): small screw eyes set into baked clay charms in an undersized pilot hole with a drop of glue
 
 ## Make it yourself
 

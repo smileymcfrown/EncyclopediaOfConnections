@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal, foam]
 needs_confirming:
   mounts_on:
     kind: best guess
@@ -332,6 +334,7 @@ If the rubber tears or perishes, a plain mount lets go: use fail-safe (captive) 
 - Double-sided foam tape (acrylic foam tape): bonds parts while adding some damping
 - Spring mounts, wire-rope isolators and air springs: for heavier loads or lower frequencies than rubber can reach (McMaster-Carr; Penn State)
 - Levelling foot: a threaded foot that sets a machine level on the floor; some feet and levelling mounts add a rubber pad that also soaks up vibration
+- Compression limiter (crush tube, bolt sleeve): the stiff metal tube in the middle of a grommet mount, on its own; it stops a bolt crushing soft plastic, rubber or a cored panel
 
 ## Make it yourself
 

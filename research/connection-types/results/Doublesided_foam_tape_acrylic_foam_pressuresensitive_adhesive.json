@@ -51,7 +51,7 @@
     "adjustable": "no: it grabs on contact, so the part can't be slid into position once it touches; cut it off and re-tape to move it",
     "play_and_precision": "Not a locating joint: the part ends up wherever you placed it by hand, so use a jig or pencil marks for alignment. No play when bonded, but the foam gives slightly under load, creeps under steady weight, and allows sideways movement of up to about 3 times the tape thickness between parts that grow differently with heat (3M VHB 5952 data sheet)",
     "access_needed": "one side only (blind): you stick the part onto the surface from the front; nothing has to reach behind the wall or panel",
-    "materials": "Tape: acrylic foam with acrylic adhesive (the strongest and most heat- and weather-resistant type), or polyethylene (PE) or polyurethane (PU) foam with acrylic or rubber adhesive (cheaper, lighter duty) (tesa acrylic and PE foam tape pages; Wikimedia Commons photo of PU foam tape). Bonds well to high-surface-energy materials: metals (aluminium, steel, copper), glass, and plastics such as ABS and polycarbonate (42 dynes/cm), PVC (39), acrylic (38), polyester (43, the family PETG belongs to) and nylon (46), plus many paints and powder coats with 'modified acrylic' tapes (3M/JBC LSE selection guide; 3M VHB Tape Design Guide). Bonds poorly to low-surface-energy plastics such as polypropylene (29 dynes/cm), polyethylene (31) and PTFE (18) unless you use a special low-surface-energy (LSE) tape or a primer such as 3M Primer 94 (3M/JBC LSE guide; 3M VHB Tape Design Guide). Needs extra care: bare wood, particleboard and concrete must be sealed first, glass needs a silane treatment for best results, and soft vinyl and rubber with plasticisers that migrate can weaken the bond (3M VHB 5952 data sheet). PLA prints: surface energy not found in these sources, but makers report printed PLA hooks holding well [uncertain]. Silicone rubber and silicone-coated surfaces: poor [uncertain]",
+    "materials": "Tape: acrylic foam with acrylic adhesive (the strongest and most heat- and weather-resistant type), or polyethylene (PE) or polyurethane (PU) foam with acrylic or rubber adhesive (cheaper, lighter duty) (tesa acrylic and PE foam tape pages; Wikimedia Commons photo of PU foam tape). Bonds well to high-surface-energy materials: metals (aluminium, steel, copper), glass, and plastics such as ABS and polycarbonate (42 dynes/cm), PVC (39), acrylic (38), polyester (43, the family PETG belongs to) and nylon (46), plus many paints and powder coats with 'modified acrylic' tapes (3M/JBC LSE selection guide; 3M VHB Tape Design Guide). Bonds poorly to low-surface-energy plastics such as polypropylene (29 dynes/cm), polyethylene (31) and PTFE (18) unless you use a special low-surface-energy (LSE) tape or a primer such as 3M Primer 94 (3M/JBC LSE guide; 3M VHB Tape Design Guide). Needs extra care: bare wood, particleboard and concrete must be sealed first, glass needs a silane treatment for best results, and soft vinyl and rubber with plasticisers that migrate can weaken the bond (3M VHB 5952 data sheet). PLA prints: about 37 dynes/cm untreated (Jordá Vilaplana et al. 2014), close to acrylic and PVC, and makers report printed PLA hooks holding well. Silicone rubber and silicone-coated surfaces: poor [uncertain]",
     "maker_difficulty": "easy: cut, clean, stick and press. The only real skills are cleaning the surface, pressing hard, giving it enough area, and waiting a day or more before loading it fully"
   },
   "making": {
@@ -101,7 +101,12 @@
       "Magnet joint (embedded magnets, magnetic catch): removable mounting on steel surfaces",
       "Silicone and MS-polymer adhesive sealants: flexible, gap-filling bond and seal that needs curing time",
       "Glued joint design (butt, lap and scarf joints; peel vs shear): how to shape any bonded joint so it is loaded in shear rather than peel",
-      "Gel 'nano tape': a clear acrylic gel tape without a foam core, used the same way for light items"
+      "Gel 'nano tape': a clear acrylic gel tape without a foam core, used the same way for light items",
+      "Adhesive tape joint and tape hinge: thin sticky tape for quick joints and bendable hinges, with no foam layer",
+      "Glue stick and starch paste: paper glues; foam tape pads are used instead to lift card layers off the page",
+      "Bonding fastener: a glue-on threaded stud or nut that gives a strong mounting point with no hole; foam tape is the quick, removable way to stick light mounts",
+      "Panel standoff: holds a drilled sign or glass panel off the wall on metal posts; foam tape holds light signs with no holes but can't be taken apart",
+      "Glass and mirror edge clips and clamps: hold a mirror or glass sheet by its edges with no glue; foam tape sticks light mirrors and panels on instead"
     ]
   },
   "media": {
@@ -179,7 +184,8 @@
       "https://www.youtube.com/watch?v=cIasko9-AmQ",
       "https://www.youtube.com/watch?v=6WYz3Kunk08",
       "https://api.printables.com/graphql/",
-      "https://www.printables.com/model/1237722-simple-hook"
+      "https://www.printables.com/model/1237722-simple-hook",
+      "https://riunet.upv.es/handle/10251/51793"
     ]
   },
   "uncertain": [

@@ -97,7 +97,9 @@
       "Gear sector and rack (arcuate rack): a slice of a large gear, used where only part of a turn is needed",
       "Intermittent (part-toothed) pinion between two racks: turns steady rotation into back-and-forth motion of the rack frame (507 Mechanical Movements no. 114)",
       "Stroke doubler: a pinion running between a fixed rack and a moving rack moves the second rack twice as far as the pinion (507 Mechanical Movements no. 118)",
-      "Scotch yoke and slider-crank: turn continuous rotation into back-and-forth sliding with a fixed stroke, where a rack and pinion gives any travel"
+      "Scotch yoke and slider-crank: turn continuous rotation into back-and-forth sliding with a fixed stroke, where a rack and pinion gives any travel",
+      "Linked lead screws: screws tied by a belt, chain or shafts to lift a bed or gantry level; two racks with pinions on one shaft do the same job for a gantry",
+      "Several motors driving one load: two motors with pinions on one rack, for a two-sided gantry or to pull against each other and take out backlash"
     ]
   },
   "media": {

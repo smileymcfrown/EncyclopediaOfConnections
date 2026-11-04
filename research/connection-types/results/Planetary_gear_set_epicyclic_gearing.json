@@ -91,7 +91,9 @@
       "Differential (bevel gear differential): an epicyclic set used with two outputs that can turn at different speeds",
       "Spur gear train: cheaper and simpler, but the output is offset from the input and fewer teeth share the load (gm0)",
       "Worm drive: high ratio in one step at a right angle, and often self-locking, but much less efficient (TEA)",
-      "Gear bearing: a print-in-place planetary set used as a rotating bearing rather than as a reducer"
+      "Gear bearing: a print-in-place planetary set used as a rotating bearing rather than as a reducer",
+      "Bevel splitter and counter-rotating drive: makes two shafts on one line turn opposite ways; in-line contra-rotating propeller hubs use planetary gearing to do it",
+      "Several motors driving one load: joins two or more motors to one output, while a planetary set shares one motor's load between several planets"
     ]
   },
   "media": {

@@ -85,6 +85,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -323,6 +325,7 @@ Rolled ball screws with flanged single nuts (search 'SFU1204' or 'SFU1605'; the 
 - Belt drives (timing belt): cheap, fast and long travel with lower force and stiffness
 - Differential screw: two slightly different threads for extremely fine hand adjustment
 - Linear guides: carry the carriage and side loads that a ball screw must not take
+- Linked lead screws (Z sync belt): several screws tied by a belt, chain or shafts to one motor so a bed or platform rises level; with ball screws, which never self-lock, a lift needs a brake
 
 ## Make it yourself
 

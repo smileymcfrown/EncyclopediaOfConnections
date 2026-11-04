@@ -96,7 +96,9 @@
       "Clevis joint (fork-and-pin joint): the pivot most often held by a split pin or R-clip",
       "Captive nut pocket (nut trap) and heat-set threaded insert: ways to put a metal thread into a 3D print; a nylon-insert nut can sit in a nut trap",
       "Wave and disc springs (compact axial springs): conical spring washers (DIN 6796) keep clamp force as a joint settles, which split washers don't",
-      "Snap pin (split-leg push-in pin): a printed or plastic pin with springy legs, not the same as a metal split pin"
+      "Snap pin (split-leg push-in pin): a printed or plastic pin with springy legs, not the same as a metal split pin",
+      "Split-pin paper fastener (brass paper fastener): looks like a split pin, but is a soft brass pin whose legs are spread behind paper or card to make a light pivot, not a locking part",
+      "Compression limiter (crush tube): a metal sleeve that keeps the bolt's clamp force off a soft or plastic part, so the joint doesn't loosen as the part creeps"
     ]
   },
   "media": {

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Leaded glass in three steps: first, two pieces of glass slide into the grooves on each side of an H-shaped strip of lead (came); then, seen from the front, three came strips meet between pieces of coloured glass and are soldered together only at that joint; finally, in cross-section, dark cement packed under the came leaves seals the glass in and stiffens the panel.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+<pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="10" height="10" fill="#e8e8e8"/><line x1="0" y1="0" x2="0" y2="10" stroke="#222" stroke-width="2"/></pattern>
+</defs>
+<g stroke="#cccccc" stroke-width="2"><line x1="268" y1="60" x2="268" y2="400"/><line x1="534" y1="60" x2="534" y2="400"/></g>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<polygon points="84,210.1 90,201 178,201 184,210.1 184,215 142,215 142,255 184,255 184,259.9 178,269 90,269 84,259.9 84,255 126,255 126,215 84,215" fill="#9a9a9a"/>
+<rect x="14" y="221" width="56" height="28" fill="#cfe3f5"/>
+<rect x="198" y="221" width="56" height="28" fill="#cfe3f5"/>
+<clipPath id="win"><rect x="290" y="80" width="222" height="290" rx="6"/></clipPath>
+<g clip-path="url(#win)">
+<polygon points="401,230 401,630 301.7,617.5 208.6,580.7 127.6,521.9 63.6,444.9 20.8,354.4 1.9,256.2 7.9,156.2 38.5,61" fill="#cfe3f5" stroke="none"/>
+<polygon points="401,230 38.5,61 100.3,-33.7 186.1,-107.4 289.1,-154 401,-170 512.9,-154 615.9,-107.4 701.7,-33.7 763.5,61" fill="#d8f0d2" stroke="none"/>
+<polygon points="401,230 763.5,61 794.1,156.2 800.1,256.2 781.2,354.4 738.4,444.9 674.4,521.9 593.4,580.7 500.3,617.5 401,630" fill="#fde2c4" stroke="none"/>
+<line x1="401" y1="230" x2="401" y2="630" stroke="#222" stroke-width="30"/>
+<line x1="401" y1="230" x2="38.5" y2="61" stroke="#222" stroke-width="30"/>
+<line x1="401" y1="230" x2="763.5" y2="61" stroke="#222" stroke-width="30"/>
+<line x1="401" y1="230" x2="401" y2="630" stroke="#9a9a9a" stroke-width="24"/>
+<line x1="401" y1="230" x2="38.5" y2="61" stroke="#9a9a9a" stroke-width="24"/>
+<line x1="401" y1="230" x2="763.5" y2="61" stroke="#9a9a9a" stroke-width="24"/>
+</g>
+<rect x="290" y="80" width="222" height="290" rx="6" fill="none"/>
+<polygon points="427.4,230 429.8,237.7 425.8,244.3 418.3,247.3 411.9,248.9 406.9,251.9 401,254.4 394.6,253.8 388.6,251.4 382.3,248.7 376.2,244.3 374.2,237.2 377.4,230 381.5,224.8 382.5,219.3 382.9,211.9 386.9,205.6 393.9,203.6 401,204.4 407.6,205.5 413.6,208.1 417.6,213.4 419.5,219.3 422.5,224.2" fill="#f2f2f2"/>
+<rect x="547" y="221" width="112" height="28" fill="#cfe3f5"/>
+<rect x="675" y="221" width="112" height="28" fill="#cfe3f5"/>
+<polygon points="617,210.1 623,201 711,201 717,210.1 717,215 675,215 675,255 717,255 717,259.9 711,269 623,269 617,259.9 617,255 659,255 659,215 617,215" fill="#9a9a9a"/>
+<polygon points="659,215 617,215 605,221 659,221" fill="#555555" stroke-width="2"/>
+<polygon points="659,255 617,255 605,249 659,249" fill="#555555" stroke-width="2"/>
+<polygon points="675,215 717,215 729,221 675,221" fill="#555555" stroke-width="2"/>
+<polygon points="675,255 717,255 729,249 675,249" fill="#555555" stroke-width="2"/>
+</g>
+<line x1="667" y1="175" x2="667" y2="297" stroke="#888" stroke-width="2" stroke-dasharray="6 5"/>
+<g stroke="#d1495b" stroke-width="4" fill="none" marker-end="url(#ah)"><line x1="26" y1="275" x2="68" y2="275"/><line x1="242" y1="275" x2="200" y2="275"/></g>
+<g stroke="#222" stroke-width="1.5"><line x1="134" y1="190" x2="134" y2="208"/><line x1="703" y1="305" x2="715" y2="259"/><line x1="401" y1="395" x2="401" y2="258"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#222" text-anchor="middle">
+<text x="134" y="40" font-size="20" font-weight="bold">Glass slides in</text>
+<text x="401" y="40" font-size="20" font-weight="bold">Solder joins the came</text>
+<text x="667" y="40" font-size="20" font-weight="bold">Cement seals</text>
+<text x="134" y="182">lead came (H shape)</text>
+<text x="42" y="210">glass</text>
+<text x="226" y="210">glass</text>
+<text x="134" y="312" font-size="18">into the grooves</text>
+<text x="401" y="72" font-size="18">seen from the front</text>
+<text x="401" y="416" font-size="18">solder only where cames meet</text>
+<text x="700" y="324" font-size="18">cement packed</text>
+<text x="700" y="345" font-size="18">under the leaves</text>
+<text x="667" y="158" font-size="17" fill="#555">pattern line</text>
+<text x="400" y="440" font-size="17">The shape holds the glass, solder joins the came, cement makes the panel stiff and waterproof</text>
+</g>
+</svg>

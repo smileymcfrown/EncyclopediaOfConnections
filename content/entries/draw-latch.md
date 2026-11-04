@@ -92,6 +92,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   usual_process:
     kind: best guess
@@ -351,6 +353,7 @@ Pinch point: fingers can be trapped between the lever and the base, or between t
 - Snap fit ([cantilever](../glossary.md#cantilever) clip): a springy printed clip; simpler and cheaper, but gives little or no pull-down force
 - Magnetic catch or ball catch: holds a door lightly closed with no lever and no clamping force
 - Hasp and staple: a hinged strap that goes over a staple for a padlock; secures but does not pull the parts together
+- Wire-bail closure (swing-top bottle, clip-top jar): the same over-centre pull-down made of bent wire, pressing a stopper or glass lid onto a rubber seal
 
 ## Make it yourself
 

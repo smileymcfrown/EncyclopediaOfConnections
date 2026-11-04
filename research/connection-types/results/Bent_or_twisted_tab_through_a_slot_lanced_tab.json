@@ -91,7 +91,9 @@
       "Split pin (cotter pin) and paper fastener (brad): a separate part whose legs are pushed through a hole and bent back, the same locking idea",
       "Heat staking (melted plastic rivet): the plastic-part equivalent, where a post through a hole is melted over instead of bent",
       "Ordinary screw joint (bolt and nut): the baseline, easy to undo and reuse many times",
-      "Spot weld: joins overlapping sheet metal at small points with electrode pressure and a short burst of current instead of a bent tab; a low-cost spot welder is also used to repair broken tin-toy tabs (Robothut video in links)"
+      "Spot weld: joins overlapping sheet metal at small points with electrode pressure and a short burst of current instead of a bent tab; a low-cost spot welder is also used to repair broken tin-toy tabs (Robothut video in links)",
+      "Glued tab joint (glue tab, glue flap): the paper and card tab, folded and glued behind the next part instead of passed through a slot and bent",
+      "Folding box closures (tuck flap, slit lock, lock bottoms): how card boxes use tabs and flaps tucked or locked through slits"
     ]
   },
   "media": {

@@ -44,7 +44,7 @@
     "power": "passive (no power needed). Space versions are held folded by a restraint and then released, e.g. the ISIS CubeSat antenna uses a thermal knife that burns through a wire (cubesatshop.com); power is only needed for that release device, and once released the tape deploys on its own",
     "removability": "removable: the tapes are clamped or bolted to the parts (e.g. aluminium clamp blocks in the TSR hinge, Watt and Pellegrino 2002) and can be unscrewed",
     "reuse_cycles": "many times, as long as the fold never overstresses the tape; a tape that overshoots and yields is permanently damaged (Seffen and Pellegrino 1997); no cycle count found [uncertain]",
-    "tools_needed": "Tin snips or old scissors to cut the tape and tough tape to cover the sharp cut edges (Naked Scientists); a screwdriver for clamp screws [uncertain]",
+    "tools_needed": "Tin snips or old scissors to cut the tape and tough tape to cover the sharp cut edges (Naked Scientists); a screwdriver or spanner for the bolts that hold each end of the tape under a clamp tab (US patent 10,119,266)",
     "seal": "none",
     "load": "light: it locks strongly for its weight but deploys gently; a 135 mm long TSR hinge with one pair of 25.4 mm wide steel tapes needed only 0.1 to 0.3 N m to deploy but locked against 13 N m (Watt and Pellegrino 2002). Strong along the tape and stiff while straight; it resists bending that puts the tape's edges in tension (opposite-sense bending) better than bending the other way (equal-sense bending), which is softer and buckles sooner into a twisted fold (Seffen and Pellegrino 1997); once folded it carries almost no load",
     "adjustable": "no after assembly; the deployment and locking moments are set by the tape size, the number of stacked tapes (moments rise roughly in proportion) and the spacing between the tapes (Watt and Pellegrino 2002)",
@@ -174,14 +174,14 @@
       "https://www.nature.com/articles/s44172-024-00163-x",
       "https://www.printables.com/model/540996-tape-measure-yagi-antenna",
       "https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://patents.google.com/patent/US10119266B1/en"
     ]
   },
   "uncertain": [
     "aliases",
     "special_behaviour",
     "reuse_cycles",
-    "tools_needed",
     "materials",
     "processes",
     "print_in_place",

@@ -87,6 +87,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, carbon fibre or composites]
 needs_confirming:
   connects:
     kind: best guess
@@ -310,6 +312,7 @@ Pinch point: a finger pressing the button can be nipped between the tubes as the
 - Snap pin (split-leg push-in pin, rabbit clip): a printable pin held in by springy legs
 - Tool-free fasteners (hitch pin and R-clip): a plain pin through holes kept in by a clip, the simplest step lock
 - Bayonet mount (push-and-twist lock): another way to lock tubes at set positions, by a twist into a slot
+- Push-fit rod and spar fittings (ferrules, tee connectors): rods or tubes held in a socket by a snug fit alone, with no button to lock them
 
 ## Make it yourself
 

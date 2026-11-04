@@ -96,12 +96,17 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [metal]
 needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
   note: '*Brazed joint*: the joint gap differs at the wide end (Wikipedia 0.03-0.08 mm; Lucas-Milhaupt 0.001-0.005 in), both
     recorded; no real printable brazing models exist, so `make_it_yourself` has only a rod-case divider and a torch stand.'
+- kind: scope
+  note: '*Brazed joint* (405): none to *Copper-foil joint*. None would help a reader of that entry; the link the other way
+    is kept where it exists.'
 uncertain_fields: []
 diagram_idea: A sliced view of a tube slipped into a socket with the 0.03-0.08 mm gap exaggerated, a torch heating the socket
   to dull red, the filler rod touched at the mouth of the joint and arrows showing it drawn right through by capillary action
@@ -203,7 +208,8 @@ pictures:
   alt: Pipe joints on a table, an unbrazed sleeve and rings beside finished brazed pipe joints (black and white).
   kind: photo
   drawn: false
-glossary: [clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear]
+glossary: [clearance, tolerance, form-fit--force-fit--material-bond, chamfer--fillet, brittle--ductile, peel-vs-shear, galvanic-corrosion,
+  flux]
 ---
 
 <div class="eoc-pictures">
@@ -220,7 +226,7 @@ Brazing heats close-fitting metal parts above about 450 °C, usually to a dull r
 
 ## How it works
 
-Brazing works like soldering but hotter: the filler melts above 450 °C, the parts are heated until they themselves melt the filler, and the molten alloy wets the clean surfaces and is drawn into the narrow gap between close-fitting parts by capillary action, then sets as it cools (Wikipedia 'Brazing'; HSE EIS31). Flux (traditionally borax) dissolves oxide, keeps air off the hot metal and turns clear and liquid when the joint is nearly hot enough, so it doubles as a temperature indicator (Wikipedia 'Flux (metallurgy)'; CDA). Because the parts never melt, brazing can join different metals, causes less distortion than welding and leaves a neat joint (Wikipedia 'Brazing'). The strength comes from a thin, even film over a large overlap: a lap at least three times as long as the thinner part is thick can be as strong as the parts (CDA, quoting AWS). In braze welding a bronze or brass rod is melted on to build up a fillet over the joint instead, without capillary flow (Wikipedia 'Brazing').
+Brazing works like soldering but hotter: the filler melts above 450 °C, the parts are heated until they themselves melt the filler, and the molten alloy wets the clean surfaces and is drawn into the narrow gap between close-fitting parts by capillary action, then sets as it cools (Wikipedia 'Brazing'; HSE EIS31). [Flux](../glossary.md#flux) (traditionally borax) dissolves oxide, keeps air off the hot metal and turns clear and liquid when the joint is nearly hot enough, so it doubles as a temperature indicator (Wikipedia 'Flux (metallurgy)'; CDA). Because the parts never melt, brazing can join different metals, causes less distortion than welding and leaves a neat joint (Wikipedia 'Brazing'). The strength comes from a thin, even film over a large overlap: a lap at least three times as long as the thinner part is thick can be as strong as the parts (CDA, quoting AWS). In braze welding a bronze or brass rod is melted on to build up a fillet over the joint instead, without capillary flow (Wikipedia 'Brazing').
 
 ## Parts
 
@@ -261,7 +267,7 @@ When a soft-soldered joint is enough and nearby parts (plastic, rubber seals, el
 - **Adjustable:** no: once the filler sets, the position is fixed
 - **Access needed:** one side only (blind) for feeding the filler, which is drawn through the joint towards the heat, but you need to heat the joint evenly all round, so the torch must reach all sides of a tube or fitting (CDA)
 - **Materials:** Joins the same or different metals: steel and cast iron (brass filler, braze welding, nickel rods for cast iron), stainless steel, copper, brass, bronze and nickel alloys (silver fillers), copper to copper (copper-phosphorus fillers), silver and gold (jewellery), and carbide, ceramic or cermet tips to steel tools (Wikipedia 'Brazing'). Fillers: brass (Cu-Zn) for steel and cast iron but not for copper, cupronickel or stainless where its corrosion resistance is inadequate; Cu-P for copper and its alloys only, because phosphorus forms [brittle](../glossary.md#brittle--ductile) phosphides with iron and nickel; Ag-Cu-Zn silver alloys for most metals and dissimilar pairs; Al-Si for aluminium (Wikipedia 'Brazing'; CDA). Aluminium is hard to braze with a torch; the zinc-aluminium 'aluminium welding' rods are really a solder (Wikipedia 'Soldering'). Silver brazing can cause stress cracking in copper-nickel (Wikipedia 'Brazing'). Not for plastics, painted, galvanised or plated metal until cleaned back.
-- **Heat, cold, water and wear:** Heat: brazed joints 'maintain integrity at both sub-zero and elevated temperatures' (HSE EIS31), but every brazed joint weakens as it nears the filler's melting point (Wikipedia 'Soldering'); brazed copper tube is rated for service up to 350 °F (177 °C), the temperature of saturated steam at 120 psi (CDA); braze-welded joints lose strength at high temperature (Wikipedia 'Brazing'). Corrosion: galvanic corrosion between filler and base metal or between two different base metals must be considered; copper-rich fillers can stress-crack in ammonia, and brass fillers resist corrosion poorly on copper, silicon bronze, cupronickel and stainless (Wikipedia 'Brazing'); flux left in the joint causes corrosion (Wikipedia 'Brazing'). Zinc-aluminium rod repairs corrode rapidly in seawater (Practical Sailor). Ordinary copper brazed with a hydrogen-rich (reducing) flame can suffer hydrogen embrittlement and later fail without warning; oxygen-free copper does not (Wikipedia 'Brazing').
+- **Heat, cold, water and wear:** Heat: brazed joints 'maintain integrity at both sub-zero and elevated temperatures' (HSE EIS31), but every brazed joint weakens as it nears the filler's melting point (Wikipedia 'Soldering'); brazed copper tube is rated for service up to 350 °F (177 °C), the temperature of saturated steam at 120 psi (CDA); braze-welded joints lose strength at high temperature (Wikipedia 'Brazing'). Corrosion: [galvanic corrosion](../glossary.md#galvanic-corrosion) between filler and base metal or between two different base metals must be considered; copper-rich fillers can stress-crack in ammonia, and brass fillers resist corrosion poorly on copper, silicon bronze, cupronickel and stainless (Wikipedia 'Brazing'); flux left in the joint causes corrosion (Wikipedia 'Brazing'). Zinc-aluminium rod repairs corrode rapidly in seawater (Practical Sailor). Ordinary copper brazed with a hydrogen-rich (reducing) flame can suffer hydrogen embrittlement and later fail without warning; oxygen-free copper does not (Wikipedia 'Brazing').
 
 ## Making it
 
@@ -311,6 +317,7 @@ CADMIUM: older silver solders contained 16-25% cadmium; heated above 320 °C it 
 - Blind rivet (pop rivet) and Ordinary screw joint: cold, removable or one-sided alternatives for joining different metals
 - Two-part epoxy and Epoxy putty: cold 'metal repair' alternatives for parts that can't be heated; much weaker
 - Heat staking, Melted plastic weld: the plastic equivalents of heat joining
+- Bonded tube joint (lugged, sleeved or fibre-wrapped tube joint): tubes glued into lugs or sleeves instead of brazed, as on carbon and bamboo bike frames, for tubes that can't take the heat
 
 ## Make it yourself
 
@@ -330,6 +337,7 @@ CADMIUM: older silver solders contained 16-25% cadmium; heated above 320 °C it 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
 - ⚑ Research note: *Brazed joint*: the joint gap differs at the wide end (Wikipedia 0.03-0.08 mm; Lucas-Milhaupt 0.001-0.005 in), both recorded; no real printable brazing models exist, so `make_it_yourself` has only a rod-case divider and a torch stand.
+- ⚑ Research note: *Brazed joint* (405): none to *Copper-foil joint*. None would help a reader of that entry; the link the other way is kept where it exists.
 
 ## Sources
 

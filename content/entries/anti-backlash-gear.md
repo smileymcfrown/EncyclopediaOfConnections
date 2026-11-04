@@ -84,6 +84,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [combines inputs]
+  made_of: [3D prints, metal]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -301,6 +303,7 @@ Pinch points between meshing gears. A wound-up free half stores spring energy an
 - Herringbone and helical gears: helical gears can be shifted along their axis to adjust backlash (KHK)
 - Worm drive: a duplex-lead worm is shifted along its axis to adjust backlash (KHK)
 - Friction drive: no teeth and no backlash, but it can slip
+- Several motors driving one load (electrical preload): a second motor holds back against the first to take out gear play, instead of a spring between two gear halves
 
 ## Make it yourself
 

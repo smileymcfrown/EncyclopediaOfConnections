@@ -92,10 +92,16 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, foam, 'fabric, leather or cord']
 needs_confirming:
   clicks:
     kind: best guess
     reason: one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+  made_of:
+    kind: best guess
+    reason: 'still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com: harness
+      with "nylon webbing, adjustable buckles, and D-rings" carrying the armour.'
 confirmed: []
 open_points:
 - kind: sources
@@ -364,6 +370,7 @@ Small buttons, toggles and buckle parts that come loose are a choking hazard for
 
 - ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `clicks` = clicks (best guess): one-way or indexing, but neither clicking nor silent named; defaulted to clicks
+- ⚑ Finder value `made_of` = 3D prints, plastic sheet, tube or moulded parts, wood, metal, foam, fabric, leather or cord (best guess): still unsure: added foam from the foam gap search (scope-search-2026-10-22-foam.md): xposeddesigns.com: harness with "nylon webbing, adjustable buckles, and D-rings" carrying the armour.
 
 ## Sources
 

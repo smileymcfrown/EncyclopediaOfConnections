@@ -87,20 +87,18 @@ finder:
   powered_does: [grip or lift]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming:
   power_loss:
     kind: best guess
     reason: uses power, but `power` does not say what happens when it is lost
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts)
-      [uncertain]. DIY builds: a hand drill wi…"'
 confirmed: []
 open_points:
 - kind: content
   note: '*Float valve* and *Air bearing* cite some Thingiverse models whose licences weren''t shown (marked [uncertain]).
     A Commons page for a ram-pump video shows the uploader''s email address; the entry credits the name only.'
-uncertain_fields: [tools_needed, environment_limits, safety_notes]
+uncertain_fields: [environment_limits, safety_notes]
 diagram_idea: A side-on cut-away of a flat pad over a granite plate, with arrows showing air entering a central hole, spreading
   through a thin gap (labelled 'thinner than a hair') and escaping at the edges, a pressure 'hill' drawn under the pad, and
   a second panel showing the gap squeezed by extra weight with the pressure hill growing taller to push back; a small inset
@@ -185,6 +183,7 @@ sources:
 - https://www.printables.com/model/437647-levitating-air-hockey-disc-paddles
 - https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
 - https://www.printables.com/model/1247872-mini-air-hockey-table
+- https://img-ilmenau.de/media/pages/luftlager/standardluftlager/rd-42s1/ebea320839-1727690744/rd-42s1_en.pdf
 research: research/connection-types/results/Air_bearing_and_air_caster_aircushion_bearing.json
 image:
   file: air-bearing-and-air-caster.webp
@@ -219,13 +218,26 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: air-bearing-and-air-caster-c7a377.webp
+  title: Hovercraft V2 - balloon powered
+  author: uhltimate
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/386417-hovercraft-v2-balloon-powered
+  site: Printables
+  alt: A 3D-printed balloon hovercraft, an orange base with a blown-up balloon fitted on top, whose air escapes underneath
+    so the base floats on a thin cushion of air.
+  kind: how-it-works
+  drawn: false
+  web: true
 glossary: [misalignment, backlash, axial--radial, fail-safe--fail-secure, stiffness, preload, flexure, damping, stick-slip,
   clearance, form-fit--force-fit--material-bond, repeatability--accuracy, creep, infill, regulator]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/air-bearing-and-air-caster.still.webp"><img src="../media/air-bearing-and-air-caster.webp" alt="An animated cut-away of an air caster under a load, its ring-shaped bags filling with air until the load lifts on a thin film of air above the floor."></picture><figcaption><strong>Animation.</strong> <a href="https://commons.wikimedia.org/wiki/File:Aircaster.gif">Aircaster</a> by Anynobody, <a href="https://creativecommons.org/licenses/by/2.5">CC BY 2.5</a>, from Wikimedia Commons.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/air-bearing-and-air-caster.webp" alt="Render of an air bearing: a round aluminium air pad with a dark porous face sits on a speckled granite surface plate, fed by a blue air hose at its side and carrying its load through a steel ball on top; a second pad lies upside down beside it, showing the porous face the air comes out of." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/air-bearing-and-air-caster.webp" alt="Render of an air bearing: a round aluminium air pad with a dark porous face sits on a speckled granite surface plate, fed by a blue air hose at its side and carrying its load through a steel ball on top; a second pad lies upside down beside it, showing the porous face the air comes out of." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/air-bearing-and-air-caster-c7a377.webp" alt="A 3D-printed balloon hovercraft, an orange base with a blown-up balloon fitted on top, whose air escapes underneath so the base floats on a thin cushion of air." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/386417-hovercraft-v2-balloon-powered">Hovercraft V2 - balloon powered</a> by uhltimate, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A bearing with no contact: compressed air is fed through tiny holes or a porous face into a gap a few thousandths of a millimetre thick (air bearings) or under a flexible ring-shaped bag (air casters), and the pressure of the escaping air carries the load, so parts slide or turn with no [stick-slip](../glossary.md#stick-slip) and no wear, and tonnes can be pushed across a smooth floor by hand.
@@ -295,7 +307,7 @@ Avoid it when there is no steady supply of clean, dry compressed air, or the sur
   - lapping or grinding: flattening graphite or metal faces against a reference plate with abrasives (Hackaday 2019; Printables 1055797)
   - CNC and laser drilling: commercial orifice and micro-nozzle pads (Wikipedia: laser-drilled micro-nozzles 0.02-0.06 mm)
 - **Printing it in one piece (print in place):** partly: toy versions print in one piece and only need a balloon (Printables 386417 and 437647). For working air bearings the printed part is usually a housing, plenum or jig, and the bearing face is a separate graphite insert, epoxy layer or lapped surface (Hackaday 2019; Hackaday 2024); a printed vortex pad works directly but needs its face lapped flat and a tapped air fitting (Printables 1055797)
-- **Tools:** To use: an air compressor or blower, a filter and [regulator](../glossary.md#regulator), hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)
+- **Tools:** To use: an air compressor or blower, a filter and [regulator](../glossary.md#regulator), hoses and push-in fittings (IBS; PI Nelson Air). To mount precision pads: spanners or hex keys (Wikipedia: ball-pin mounts), since a pad sits on a threaded mounting screw that is locked with a small socket-head lock screw and washer, or with a lock nut (IMG Ilmenau RD 42S1 data sheet). DIY builds: a hand drill with 3D-printed drilling jigs, epoxy, a sheet of float glass as a flat reference, abrasives for flattening, and plaster of Paris (Hackaday 2024; Hackaday 2019); an M5 tap for a printed vortex pad's air fitting (Printables 1055797)
 - **Difficulty:** easy for a toy (a balloon hovercraft or air-hockey puck: Science Buddies; Printables). Hard for a real precision air bearing: it needs surfaces flat to a few micrometres, clean dry compressed air and careful restrictor design, though makers have done it with float glass, epoxy replication and porous graphite (Hackaday 2024; Hackaday 2019). For moving heavy loads, buy commercial air casters and check the floor first (AeroGo; Airfloat)
 
 ### 3D printing tips
@@ -359,9 +371,8 @@ Porous carbon flat round and rectangular air bearings, air bushings (porous bron
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 4 sentences on this page marked [uncertain].
+- ⚑ 3 sentences on this page marked [uncertain].
 - ⚑ Finder value `power_loss` = not applicable (best guess): uses power, but `power` does not say what happens when it is lost
-- ⚑ Finder value `tools` = drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…unt precision pads: spanners or hex keys (Wikipedia: ball-pin mounts) ⚑ [uncertain]. DIY builds: a hand drill wi…"
 - ⚑ Research note: *Float valve* and *Air bearing* cite some Thingiverse models whose licences weren't shown (marked [uncertain]). A Commons page for a ram-pump video shows the uploader's email address; the entry credits the name only.
 
 ## Sources
@@ -391,3 +402,4 @@ Porous carbon flat round and rectangular air bearings, air bushings (porous bron
 - <https://www.printables.com/model/437647-levitating-air-hockey-disc-paddles>
 - <https://www.printables.com/model/386417-hovercraft-v2-balloon-powered>
 - <https://www.printables.com/model/1247872-mini-air-hockey-table>
+- <https://img-ilmenau.de/media/pages/luftlager/standardluftlager/rd-42s1/ebea320839-1727690744/rd-42s1_en.pdf>

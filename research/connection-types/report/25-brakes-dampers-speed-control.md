@@ -46,7 +46,7 @@
 - **power**: passive (no power needed) when worked by hand, foot, a cable, a spring or a weight; powered versions use hydraulics, air, a solenoid or a servo (e.g. a servo-driven RC plane drum brake, Printables 77496). If power is lost, a power-applied brake lets go, while a spring-applied brake stays on (see the electromagnetic power-off brake entry) ⚑ [uncertain] *(⚑ parts need confirming)*
 - **removability**: removable: bolted to a frame and a hub, with pads, shoes or bands that are designed to be replaced as they wear (Wikipedia, Brake: 'Durability')
 - **reuse_cycles**: many times: the brake can be taken off and refitted, and applied endlessly, but the friction material and disc or drum wear and need renewing (Wikipedia, Brake)
-- **tools_needed**: Spanners and hex keys to mount and adjust; a screwdriver or knob to set the pressing force on simple brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes ⚑ [uncertain] *(⚑ parts need confirming)*
+- **tools_needed**: Spanners and hex keys to mount and adjust; a screwdriver or knob to set the pressing force on simple brakes (Printables 208775, 1804380); a bleed kit and the right fluid for hydraulic brakes (Park Tool)
 - **seal**: none: it isn't a sealing part. Enclosed drum and coaster brakes keep rain and mud off the rubbing surfaces, so they work consistently when wet (Wikipedia, Bicycle brake)
 - **load**: light to heavy: from a few newton-centimetres on a filament spool to cars and trains. Torque grows with the pressing force, the friction coefficient and the radius (Engineering ToolBox), and a band brake multiplies its pull by e^(μθ) (RoyMech). A shoe pressing on one side pushes the shaft sideways unless the linkage takes that force back to the frame; shoes on opposite sides cancel it (Thang, 'Shaft brake 1', 'Shaft brake 2' and 'Shaft brake 3')
 - **adjustable**: yes: set the pressing force with a screw, spring or weights (Printables 208775, 1536289), change the lever ratio, and take up pad wear with an adjuster (self-adjusting drum brakes appeared in the 1950s; Wikipedia, Drum brake)
@@ -140,6 +140,7 @@
   - https://commons.wikimedia.org/wiki/File:Tipologia_tamburo.svg
   - https://commons.wikimedia.org/wiki/File:Broms,_fig_3,_Nordisk_familjebok.png
   - https://api.printables.com/graphql/
+  - https://www.parktool.com/blog/repair-help/shimano-hydraulic-brake-service-and-adjustment
 
 ### Finder tags
 
@@ -151,16 +152,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: slips and keeps going
 - **clicks**: silent
-- **tools**: hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes [uncertain]…"*
+- **tools**: hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: a load
+- **over_centre_use**: not applicable
+- **slows_by**: brake
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal, fabric, leather or cord
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, power, processes, safety_notes, tools_needed
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, make_it_yourself, making_tips_3d_printing, materials, off_the_shelf_parts, power, processes, safety_notes
 
 ## 212 Eddy-current brake (magnetic brake)
 
@@ -200,7 +244,7 @@
 - **power**: passive (no power needed) with permanent magnets; powered with electromagnets, whose braking can be turned on, off or varied by the current. If power is lost, an electromagnet brake stops braking, which is why roller coasters use permanent magnets (Wikipedia, Eddy current brake)
 - **removability**: removable: the magnets and the disc or plate are separate parts, screwed, clamped or press-fitted in place (Printables 743728 press-fits its magnets)
 - **reuse_cycles**: effectively unlimited: nothing touches, so there are no brake shoes to wear or replace (Wikipedia, Eddy current brake)
-- **tools_needed**: Screwdriver or hex keys for the magnet holder and disc hub; non-magnetic spacers or shims help set the gap ⚑ [uncertain]; pressing magnets into printed pockets may need a vice or clamp, and a small hex key to push them out again (Printables 564712) *(⚑ parts need confirming)*
+- **tools_needed**: Screwdriver or hex keys for the magnet holder and disc hub; shims set the gap and a feeler gauge checks it (eddy-current brake patent US 4,398,111); pressing magnets into printed pockets may need a vice or clamp, and a small hex key to push them out again (Printables 564712)
 - **seal**: none: it doesn't seal anything; it works across an air gap (and even through non-magnetic walls, as in a magnet falling inside a copper pipe; Wikipedia, Eddy current brake)
 - **load**: light to heavy depending on size: hobby versions give a gentle drag (K&J Magnetics' eight 2 × 1 × 1/2 in block magnets only slow a sliding aluminium plate), while train brakes reach about 10 kN per brake unit (German Wikipedia, ICE 3). The force acts along the direction of motion; strong magnets also pull hard sideways on any steel nearby ⚑ [uncertain] *(⚑ parts need confirming)*
 - **adjustable**: yes: move the magnet closer or further (a bigger gap means weaker braking; German Wikipedia; girogeek), add or remove magnets, change the current in an electromagnet (Wikipedia, Eddy current brake), or swing the magnets away by a linkage, as power-tool brakes do (Wikipedia, Eddy current brake). Old electricity meters used an adjustable permanent-magnet brake (Wikimedia Commons, KWh meter magnetic brake.jpg)
@@ -291,6 +335,7 @@
   - https://commons.wikimedia.org/wiki/File:What_can_you_do_with_a_Neodymium_magnet_and_a_copper_pipe-.webm
   - https://commons.wikimedia.org/wiki/File:KWh_meter_magnetic_brake.jpg
   - https://api.printables.com/graphql/
+  - https://patents.google.com/patent/US4398111A/en
 
 ### Finder tags
 
@@ -302,16 +347,59 @@
 - **shaft_layout**: not applicable
 - **overload_response**: not applicable
 - **clicks**: not applicable
-- **tools**: press or vice, hand tools ⚑ *needs confirming (source uncertain): `tools_needed` is marked [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the gap [uncertain]; pressing magnets into print…"*
+- **tools**: press or vice, hand tools
 - **load_max**: heavy
 - **usual_process**: off-the-shelf part
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: brake, damper
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 
-- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, load, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, processes, tools_needed
+- ⚑ **Fields with parts that need confirming:** aliases, common_failures, environment_limits, load, make_it_yourself, making_tips_3d_printing, off_the_shelf_parts, processes
 
 ## 213 Speed governor (fly fan, centrifugal governor)
 
@@ -465,6 +553,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: steady speed or level
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal, paper or card
 
 ### Other info
 
@@ -627,6 +758,49 @@
 - **adjustable**: partly
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: damper
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, plastic sheet, tube or moulded parts, wood, metal
 
 ### Other info
 
@@ -725,6 +899,7 @@
   - Double-sided foam tape (acrylic foam tape): bonds parts while adding some damping
   - Spring mounts, wire-rope isolators and air springs: for heavier loads or lower frequencies than rubber can reach (McMaster-Carr; Penn State)
   - Levelling foot: a threaded foot that sets a machine level on the floor; some feet and levelling mounts add a rubber pad that also soaks up vibration
+  - Compression limiter (crush tube, bolt sleeve): the stiff metal tube in the middle of a grommet mount, on its own; it stops a bolt crushing soft plastic, rubber or a cored panel
 
 ### Pictures, videos and models
 
@@ -781,6 +956,49 @@
 - **adjustable**: no
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: wall or ceiling ⚑ *needs confirming (best guess): carried over from the old rule on entry names (R33); checked against the entry text and still unsure: it fixes a motor, fan or pump to a machine frame or floor; the entry never mentions walls, and none of the places fits well*
+- **wall_hold**: screws, anchors or hooks
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: damper
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal, foam
 
 ### Other info
 
@@ -923,6 +1141,49 @@
 - **adjustable**: yes
 - **removability**: removable
 - **power**: passive
+- **printed_take_apart**: not applicable
+- **threaded**: not applicable
+- **sheet_material**: not applicable
+- **carries_fluid**: not applicable
+- **shaft_joint**: not applicable
+- **printable**: not applicable
+- **shaft_alignment**: not applicable
+- **cord_use**: not applicable
+- **knot_use**: not applicable
+- **cord_part**: not applicable
+- **opens_by**: not applicable
+- **locks_out**: not applicable
+- **mounts_on**: not applicable
+- **wall_hold**: not applicable
+- **gripped_by**: not applicable
+- **weld_material**: not applicable
+- **wire_use**: not applicable
+- **plugs_in**: not applicable
+- **holds_position**: not applicable
+- **drive_does**: not applicable
+- **slide_kind**: not applicable
+- **flex_does**: not applicable
+- **move_kind**: not applicable
+- **one_way_kind**: not applicable
+- **clicks_do**: not applicable
+- **holds_for**: not applicable
+- **over_centre_use**: not applicable
+- **slows_by**: damper
+- **straight_drive**: not applicable
+- **push_by**: not applicable
+- **tightens**: not applicable
+- **tension_hold**: not applicable
+- **adjusts**: not applicable
+- **spring_kind**: not applicable
+- **seal_use**: not applicable
+- **seal_material**: not applicable
+- **hose_join**: not applicable
+- **fluid_does**: not applicable
+- **powered_does**: not applicable
+- **also_under**: not applicable
+- **turns**: not applicable
+- **drive_split**: not applicable
+- **made_of**: 3D prints, wood, metal
 
 ### Other info
 

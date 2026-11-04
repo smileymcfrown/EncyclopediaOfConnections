@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>A diamond kite frame and three close-ups of push-fit fittings. On the kite, a cross connector holds the spine and spreader, a ferrule joins the spine low down, nocks at the spreader tips catch the sail's edge line, and end caps finish the spine. Close-ups: rods pushed into a cross connector's snug sockets, held by friction; a metal ferrule glued on one rod with the other rod pushed in; and a thin rod with a short piece of bigger rod glued over its end so it fits a bigger socket.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker>
+</defs>
+<g stroke="#cccccc" stroke-width="2"><line x1="360" y1="20" x2="360" y2="410"/><line x1="372" y1="150" x2="790" y2="150"/><line x1="372" y1="286" x2="790" y2="286"/></g>
+<g stroke-linejoin="round" stroke-linecap="round">
+<polygon points="180,36 320,140 180,400 40,140" fill="#d8f0d2" stroke="#222" stroke-width="2.5"/>
+<g stroke="#555555" stroke-width="6"><line x1="180" y1="40" x2="180" y2="396"/><line x1="44" y1="140" x2="316" y2="140"/></g>
+<rect x="167" y="127" width="26" height="26" fill="#fde2c4" stroke="#222" stroke-width="2.5" rx="5"/><rect x="174" y="26" width="12" height="16" fill="#fde2c4" stroke="#222" stroke-width="2.5" rx="3"/><rect x="174" y="394" width="12" height="16" fill="#fde2c4" stroke="#222" stroke-width="2.5" rx="3"/><rect x="173" y="316" width="14" height="30" fill="#e8e8e8" stroke="#222" stroke-width="2.5" rx="2"/><path d="M58,133 H34 L30,136 L40,140 L30,144 L34,147 H58 Z" fill="#fde2c4" stroke="#222" stroke-width="2.5"/><path d="M302,133 H326 L330,136 L320,140 L330,144 L326,147 H302 Z" fill="#fde2c4" stroke="#222" stroke-width="2.5"/>
+<path d="M600,81 H664 V55 H696 V81 H760 V109 H696 V135 H664 V109 H600 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="600" y="89" width="64" height="12" fill="#ffffff"/><rect x="696" y="89" width="64" height="12" fill="#ffffff"/><rect x="674" y="55" width="12" height="80" fill="#ffffff"/><g stroke="#222" stroke-width="2"><line x1="600" y1="89" x2="664" y2="89"/><line x1="600" y1="101" x2="664" y2="101"/><line x1="664" y1="89" x2="664" y2="101"/><line x1="696" y1="89" x2="760" y2="89"/><line x1="696" y1="101" x2="760" y2="101"/><line x1="696" y1="89" x2="696" y2="101"/></g><rect x="674" y="38" width="12" height="110" fill="#555555" stroke="#222" stroke-width="2"/><rect x="556" y="89" width="106" height="12" fill="#555555" stroke="#222" stroke-width="2"/><rect x="698" y="89" width="88" height="12" fill="#555555" stroke="#222" stroke-width="2"/>
+<rect x="580" y="229" width="120" height="7" fill="#e8e8e8" stroke="#222" stroke-width="2"/><rect x="580" y="254" width="120" height="7" fill="#e8e8e8" stroke="#222" stroke-width="2"/><rect x="580" y="236" width="60" height="3" fill="#fde2c4"/><rect x="580" y="251" width="60" height="3" fill="#fde2c4"/><rect x="384" y="239" width="256" height="12" fill="#555555" stroke="#222" stroke-width="2"/><rect x="644" y="239" width="142" height="12" fill="#555555" stroke="#222" stroke-width="2"/>
+<path d="M686,363 H786 V407 H686 Z" fill="#fde2c4" stroke="#222" stroke-width="3"/><rect x="686" y="374" width="76" height="22" fill="#ffffff" stroke="#222" stroke-width="2"/><rect x="620" y="375" width="140" height="20" fill="#8a8a8a" stroke="#222" stroke-width="2"/><rect x="620" y="379" width="122" height="12" fill="#fde2c4"/><rect x="420" y="381" width="320" height="8" fill="#555555" stroke="#222" stroke-width="2"/>
+</g>
+<g stroke="#d1495b" stroke-width="4" marker-end="url(#ah)"><line x1="566" y1="124" x2="608" y2="124"/><line x1="784" y1="124" x2="742" y2="124"/><line x1="778" y1="274" x2="732" y2="274"/><line x1="540" y1="363" x2="586" y2="363"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="196" y="44" font-size="17">end cap</text>
+<g text-anchor="end" font-size="17"><text x="172" y="182">cross</text><text x="172" y="202">connector</text><text x="125" y="324">ferrule, low</text><text x="125" y="344">on the spine</text></g><line x1="128" y1="328" x2="172" y2="331" stroke="#222" stroke-width="1.5"/>
+<text x="14" y="112" font-size="17">nock</text><line x1="30" y1="118" x2="38" y2="132" stroke="#222" stroke-width="1.5"/>
+<text x="232" y="122" font-size="17">sail</text>
+<text x="380" y="42" font-weight="bold" font-size="18">Push in: friction holds it</text><text x="380" y="64" font-size="17">sockets the same size as the rod</text>
+<text x="380" y="178" font-weight="bold" font-size="18">Ferrule joins two rods</text><text x="380" y="200" font-size="17">glued on one, the other pushes in</text>
+<text x="640" y="222" text-anchor="middle" font-size="17">metal ferrule</text>
+<text x="380" y="314" font-weight="bold" font-size="18">Rod too thin for the socket?</text><text x="380" y="336" font-size="17">glue a short piece of the bigger size over its end</text>
+<text x="420" y="372" font-size="17">thin rod</text>
+<text x="400" y="442" text-anchor="middle" font-size="17">Rods push in and friction holds them · sail and line tension keep them seated in flight</text>
+</g>
+</svg>

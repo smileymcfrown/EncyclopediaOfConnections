@@ -88,14 +88,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
 needs_confirming:
   connects:
     kind: best guess
     reason: worked out from its name, but joining parts is not one of its two main jobs
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike
-      [uncertain]…"'
 confirmed: []
 open_points:
 - kind: sources
@@ -103,7 +101,7 @@ open_points:
     mechanism*, *Push-push latch*) wrote model page URLs as `printables.com/model/<id>-<slug>` from the ID and slug the API
     returned, without opening the page (it returns 403). Others used only URLs seen in search results. Before publishing,
     open every `printables.com/model/` link in a browser and fix any that don''t resolve.'
-uncertain_fields: [tools_needed, adjustable, play_and_precision, processes, environment_limits, safety_notes]
+uncertain_fields: [adjustable, play_and_precision, processes, environment_limits, safety_notes]
 diagram_idea: A heart-shaped loop groove with the pin shown at four numbered positions (1 rest at the bottom, 2 fully pushed
   on one side, 3 latched in the notch at the top, 4 pushed again on the other side), arrows showing the one-way path, a spring
   pushing the slider outward, and a small side section showing the steps in the groove floor.
@@ -178,6 +176,7 @@ sources:
 - https://www.printables.com/model/376606-push-latch-case
 - https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip
 - https://api.printables.com/graphql/
+- https://shop.hettich.com/hu_EN/Hinges/Opening-systems/Push-to-open/Lock%2C-for-drilling-in%2C-white/p/9089595
 research: research/connection-types/results/Pushpush_latch_pushtoopen_heartcam_latch.json
 image:
   file: drawn/anim/push-push-latch.svg
@@ -202,13 +201,38 @@ pictures:
   kind: cross-section
   render: true
   drawn: true
+- file: push-push-latch.webp
+  title: Push-push Mechanism
+  author: Steve DeGroof
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/496329-push-push-mechanism
+  site: Printables
+  alt: The inside of a white 3D-printed push-push latch, with the heart-shaped track at one end and the return spring along
+    the housing.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: push-push-latch-651877.webp
+  title: Push Latch Mechanism
+  author: c_bot
+  license: CC BY 4.0
+  license_url: https://creativecommons.org/licenses/by/4.0/
+  source: https://www.printables.com/model/273742-push-latch-mechanism
+  site: Printables
+  alt: An assembled black 3D-printed push latch with its plunger sticking out of the housing.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [axial--radial, stroke, bistable, flexure, compliant-mechanism, clearance, form-fit--force-fit--material-bond, creep,
   overhang--bridging]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/push-push-latch.svg"><img src="../media/drawn/anim/push-push-latch.svg" alt="A heart-shaped groove in a sprung slider, with the pin shown at four numbered positions going round it one way: rest, pushed in, caught in the notch, and released. Animated: the pin runs round the loop one way, and in the side section the stepped groove floor slides under the sprung pin, which rides"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/push-push-latch.webp" alt="Render of a push-push latch with its housing cut open: inside the white plastic body a black slider carries a heart-shaped track, a thin steel wire reaches into the track and rests in the notch at the top of the heart, a coil spring behind the slider pushes it outwards, and the plunger with a rubber" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/push-push-latch.webp" alt="Render of a push-push latch with its housing cut open: inside the white plastic body a black slider carries a heart-shaped track, a thin steel wire reaches into the track and rests in the notch at the top of the heart, a coil spring behind the slider pushes it outwards, and the plunger with a rubber" loading="lazy"><figcaption><strong>Cut-away render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-push-latch.webp" alt="The inside of a white 3D-printed push-push latch, with the heart-shaped track at one end and the return spring along the housing." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/496329-push-push-mechanism">Push-push Mechanism</a> by Steve DeGroof, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/push-push-latch-651877.webp" alt="An assembled black 3D-printed push latch with its plunger sticking out of the housing." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/273742-push-latch-mechanism">Push Latch Mechanism</a> by c_bot, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A spring-loaded catch in which a small pin runs round a closed, heart-shaped track, so the first push parks the pin in the notch of the heart and holds the part in, and the next push frees it so the spring pushes the part back out.
@@ -274,7 +298,7 @@ Avoid it where the latched part is pulled or loaded outward, because the pin and
   - 3D print (resin): finer tracks and steps ⚑ [uncertain]
   - CNC: machined metal heart-cam latches ⚑ [uncertain] (videos 'PUSH LATCH Mechanisms (DIY!)' by This Old Tony and 'Push-Push Cardioid Curve Latch' suggest home-machined versions; content not viewed)
 - **Printing it in one piece (print in place):** partly: the body and track print well but most reliable designs add a metal compression or pen spring and often a steel wire follower (Printables 496329, 1601839); fully printed versions with printed springs exist but their springs and arms creep when left latched for days (Printables 534635, 376606)
-- **Tools:** none to operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain]
+- **Tools:** none to operate; a drill to fit a drill-in cabinet latch, or a screwdriver for a screw-on one; the counterplate (strike) is screwed or glued on (Hettich 'Push to open' lock)
 - **Difficulty:** moderate: easy to buy or to print from a proven model, but designing your own needs a crisp track, careful [clearances](../glossary.md#clearance), a metal spring and preferably a metal follower pin, because printed arms and springs creep and wear
 
 ### 3D printing tips
@@ -311,6 +335,7 @@ The door or drawer pops open by spring force when bumped, which can surprise peo
 - Push-to-close cam latch: latches automatically when a door is pushed shut, but opens with a handle or button rather than a second push (Southco)
 - Compliant one-piece latch: a printed springy latch released by bending a handle
 - Push-push locking bolt (indexing plunger): an industrial pin that extends and retracts with alternate pushes using a heart curve (GN 514)
+- Glass door hinge (clamp-on or drilled glass hinge): push-to-open (magnetic touch) latches are among the fittings sold for the glass cabinet doors these hinges carry
 
 ## Make it yourself
 
@@ -331,9 +356,8 @@ The door or drawer pops open by spring force when bumped, which can surprise peo
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 7 sentences on this page marked [uncertain].
+- ⚑ 6 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
-- ⚑ Finder value `tools` = none, drill and tap, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…o operate; screwdriver or drill to fit a cabinet latch and its strike ⚑ [uncertain]…"
 
 ## Sources
 
@@ -360,3 +384,4 @@ The door or drawer pops open by spring force when bumped, which can surprise peo
 - <https://www.printables.com/model/376606-push-latch-case>
 - <https://www.printables.com/model/534635-fully-3d-printable-push-latch-mechanism-wip>
 - <https://api.printables.com/graphql/>
+- <https://shop.hettich.com/hu_EN/Hinges/Opening-systems/Push-to-open/Lock%2C-for-drilling-in%2C-white/p/9089595>

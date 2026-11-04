@@ -84,6 +84,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, metal, carbon fibre or composites]
 needs_confirming:
   connects:
     kind: best guess
@@ -91,13 +93,9 @@ needs_confirming:
   overload_response:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws
-      [uncertain]…"'
 confirmed: []
 open_points: []
-uncertain_fields: [aliases, special_behaviour, reuse_cycles, tools_needed, materials, processes, print_in_place, making_tips_3d_printing,
+uncertain_fields: [aliases, special_behaviour, reuse_cycles, materials, processes, print_in_place, making_tips_3d_printing,
   off_the_shelf_parts, environment_limits, make_it_yourself]
 diagram_idea: 'Three frames of a curved strip clamped between two blocks: straight with its curved cross-section shown as
   an inset arc, then flattening in the middle at the peak moment, then folded with a short kink of radius R while the rest
@@ -165,6 +163,7 @@ sources:
 - https://www.printables.com/model/540996-tape-measure-yagi-antenna
 - https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna
 - https://api.printables.com/graphql/
+- https://patents.google.com/patent/US10119266B1/en
 research: research/connection-types/results/Tapespring_hinge_measuringtape_fold.json
 image:
   file: drawn/anim/tape-spring-hinge.svg
@@ -265,7 +264,7 @@ Avoid it where the folded part must be held in a controlled position or carry lo
   - CNC: machined clamp blocks (aluminium blocks in the TSR hinge, Watt and Pellegrino 2002)
   - composite layup: glass, Kevlar or carbon-fibre tape springs for space use (Roccor video) [advanced]
 - **Printing it in one piece (print in place):** no: the springy strip is normally a metal tape-measure blade clamped into separate brackets; a printed plastic strip would relax and lose its snap over time (Kwok and Pellegrino, on polymer tape springs); not tested for printed plastics ⚑ [uncertain]
-- **Tools:** Tin snips or old scissors to cut the tape and tough tape to cover the sharp cut edges (Naked Scientists); a screwdriver for clamp screws ⚑ [uncertain]
+- **Tools:** Tin snips or old scissors to cut the tape and tough tape to cover the sharp cut edges (Naked Scientists); a screwdriver or spanner for the bolts that hold each end of the tape under a clamp tab (US patent 10,119,266)
 - **Difficulty:** easy to moderate: cut a strip from an old steel tape measure and clamp its ends to printed, wooden or metal brackets; the tricky parts are covering the razor-sharp cut edges (Naked Scientists), leaving enough free length so the fold does not damage the tape near the clamps (Watt and Pellegrino 2002), and softening the snap on latching
 
 ### 3D printing tips
@@ -325,10 +324,9 @@ Cut tape-measure steel has very sharp edges; cover them with tough tape (Naked S
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 15 sentences on this page marked [uncertain].
+- ⚑ 14 sentences on this page marked [uncertain].
 - ⚑ Finder value `connects` = lid, door or cover (best guess): worked out from its name, but joining parts is not one of its two main jobs
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…he sharp cut edges (Naked Scientists); a screwdriver for clamp screws ⚑ [uncertain]…"
 
 ## Sources
 
@@ -348,3 +346,4 @@ Cut tape-measure steel has very sharp edges; cover them with tough tape (Naked S
 - <https://www.printables.com/model/540996-tape-measure-yagi-antenna>
 - <https://www.printables.com/model/676319-120deg-tape-measure-noaa-satellite-antenna>
 - <https://api.printables.com/graphql/>
+- <https://patents.google.com/patent/US10119266B1/en>

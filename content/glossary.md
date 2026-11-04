@@ -15,6 +15,7 @@ links the first time it uses one of these words. Corrections and new words are w
 - [3D printing, cutting and wood](#3d-printing-cutting-and-wood)
 - [Glues](#glues)
 - [Seals, air and liquid](#seals-air-and-liquid)
+- [Paper, clay, composites and glass](#paper-clay-composites-and-glass)
 
 ## How parts move
 
@@ -197,6 +198,18 @@ A coil of wire that pulls an iron plunger in when electricity flows through it.
 ### Fail-safe / fail-secure
 
 What a powered lock does when the power goes off: fail-safe lets go (so people can get out), fail-secure stays locked.
+
+### In step
+
+*Also called:* synchronised, in sync
+
+Moving together at exactly the same rate, so that two outputs such as two lead screws never drift apart.
+
+### Counter-rotating
+
+*Also called:* contra-rotating
+
+Two parts on the same axis turning in opposite directions, such as the two propellers of a coaxial drone.
 
 ## Springs, bending and damping
 
@@ -545,3 +558,83 @@ A pressure shock when flowing water is stopped suddenly, which can bang pipes an
 ### Venturi
 
 A narrowing in a pipe where the flow speeds up and the pressure drops, used to make suction from compressed air.
+
+## Paper, clay, composites and glass
+
+### Score
+
+*Also called:* scoring, crease
+
+A line pressed or lightly cut into paper or card so that it folds cleanly and accurately there.
+
+### Grain direction
+
+*Also called:* paper grain
+
+The way most of the fibres in paper, card or wood lie; paper folds and tears more neatly along the grain than across it.
+
+### Flute
+
+*Also called:* fluting
+
+The wavy middle layer of corrugated cardboard; the card bends easily along the flutes and resists bending across them.
+
+### Mountain fold / valley fold
+
+A valley fold bends the paper towards you so the crease sinks like a valley; a mountain fold bends it away so the crease stands up like a ridge.
+
+### Gutter
+
+*Also called:* spine, centre fold
+
+The centre fold of a pop-up card or book, which the pop-up pieces are glued across.
+
+### Slip
+
+*Also called:* clay slip
+
+Clay thinned with water to a thick cream, brushed on to join two pieces of soft clay.
+
+### Leather-hard
+
+Clay that has dried enough to hold its shape but is still damp enough to carve and join.
+
+### Armature
+
+An inner skeleton, usually bendable wire, that a sculpture is built over so its thin parts don't sag or snap.
+
+### Sandwich panel
+
+*Also called:* cored panel
+
+Two thin, stiff skins glued either side of a light core (foam, honeycomb or balsa), making a panel that is stiff and light but soft inside.
+
+### Lay-up
+
+*Also called:* laminate, wet lay-up
+
+Layers of glass-fibre or carbon-fibre cloth soaked in resin and built up on a mould or surface, which set into a hard composite.
+
+### Scarf joint
+
+*Also called:* scarf
+
+Two pieces cut to long matching slopes and glued face to face, so the joint is no thicker than the parts and has a large glue area.
+
+### Galvanic corrosion
+
+Corrosion that happens where two different metals, or carbon fibre and a metal, touch with moisture between them; the less noble one, such as aluminium, is eaten away.
+
+### Toughened glass
+
+*Also called:* tempered glass, safety glass
+
+Glass heat-treated to make it much stronger and to break into small blunt pieces; it can't be cut or drilled afterwards.
+
+### Annealing
+
+Holding glass, metal or a plastic part at a set temperature and cooling it slowly, so the stresses inside it relax and it doesn't crack or warp later.
+
+### Flux
+
+A paste or liquid that cleans metal as it heats, so solder can flow over it and stick.

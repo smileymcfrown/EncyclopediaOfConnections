@@ -94,21 +94,16 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…W iron to fit a T-plug; bigger plugs and thicker wire need more
-      heat [uncertain]), solder and flux, wire stri…"'
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: content
   note: '*High-current battery plug*: current ratings differ (AMASS via Holybro: XT60 30 A continuous, 60 A burst; Oscar Liang
     2014: XT60 60 A, bullets 2 mm 20 A to 8 mm 200 A; Horizon Hobby: EC3 60 A continuous; Wikipedia: Deans 40 A (70 A pulse),
     Tamiya rated 20 A, about 15 A in use). Recorded side by side; design to the lower figure.'
-uncertain_fields: [processes, tools_needed]
+uncertain_fields: [processes]
 diagram_idea: End-on outlines of four plug faces (XT60 with its bevelled corners, Deans T-plug, Tamiya, a bullet pair) showing
   that each only fits one way, with + and − marked, beside a simple chart linking plug size, wire gauge and continuous amps
   (XT60 + 12 AWG = 30 A, XT90 + 10 AWG = 45 A, AS150 + 8 AWG = 75 A), and a small inset of the anti-spark resistor contact
@@ -169,6 +164,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:MC4_Connector_Front_and_Top_View.jpg
 - https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg
 - https://api.printables.com/graphql/
+- https://www.flitetest.com/articles/heavy-duty-connectors-large-gauge-wire
 research: research/connection-types/results/Highcurrent_battery_plug_bullet_connector_polarised_battery_connector.json
 image:
   file: high-current-battery-plug.webp
@@ -202,7 +198,7 @@ pictures:
   alt: A red T-plug and its socket, each soldered to red and black battery wires, ready to be pushed together.
   kind: how-it-works
   drawn: false
-glossary: [form-fit--force-fit--material-bond, keying, gland]
+glossary: [form-fit--force-fit--material-bond, keying, gland, flux]
 ---
 
 <div class="eoc-pictures">
@@ -262,7 +258,7 @@ Not for mains: these are for battery and low-voltage DC wiring. Not for small cu
 - **Adjustable:** no.
 - **Access needed:** not applicable: most are in-line plugs on flying leads. Panel-mount versions are fixed into a printed or cut panel from the front (Printables 'XT60 Panel Mount').
 - **Materials:** Contacts: brass, gold-plated (AMASS XT60: brass gold plated, contact resistance 0.55 milliohm). Housing: nylon (PA) to UL94 V-0 flame rating, working range −20 to 120 °C (AMASS XT60 datasheet); some Deans-style housings soften when soldered (Wikipedia 'DC connector'). Wire: stranded copper, often soft silicone-insulated wire (Flite Test), sized to the plug: 12 AWG for XT60, 10 AWG for XT90, 8 AWG for XT120 and AS150, 6 AWG for AS300 (Holybro). Choose bullets that fit the wire without cutting strands away (Oscar Liang 2014). MC4: double-insulated, UV- and heat-resistant PV cable of the right diameter (Wikipedia 'MC4 connector').
-- **Heat, cold, water and wear:** Heat: AMASS XT60 working range is −20 to 120 °C, and its current rating assumes a temperature rise of under 60 °C (AMASS datasheet; Holybro). Deans-type housings can soften and twist if overheated while soldering (Wikipedia 'DC connector'). Lithium packs themselves should be kept out of direct sunlight, off hot surfaces and out of hot places (MIT). Water: XT, Deans, EC and bullet plugs are not sealed; Tamiya plugs are usable in damp, dirty conditions at low current (Wikipedia); MC4 is sealed by a rubber ring when used on the correct cable, and its cable must be UV- and heat-resistant because 'most cables deteriorate if used outdoors without protection from sunlight' (Wikipedia 'MC4 connector'). Corrosion: leftover soldering flux paste is corrosive, so clean it off (Flite Test). Wear: arcing on connection pits the contacts and raises their resistance (Wikipedia 'MC4 connector'; Aloft Hobbies).
+- **Heat, cold, water and wear:** Heat: AMASS XT60 working range is −20 to 120 °C, and its current rating assumes a temperature rise of under 60 °C (AMASS datasheet; Holybro). Deans-type housings can soften and twist if overheated while soldering (Wikipedia 'DC connector'). Lithium packs themselves should be kept out of direct sunlight, off hot surfaces and out of hot places (MIT). Water: XT, Deans, EC and bullet plugs are not sealed; Tamiya plugs are usable in damp, dirty conditions at low current (Wikipedia); MC4 is sealed by a rubber ring when used on the correct cable, and its cable must be UV- and heat-resistant because 'most cables deteriorate if used outdoors without protection from sunlight' (Wikipedia 'MC4 connector'). Corrosion: leftover soldering [flux](../glossary.md#flux) paste is corrosive, so clean it off (Flite Test). Wear: arcing on connection pits the contacts and raises their resistance (Wikipedia 'MC4 connector'; Aloft Hobbies).
 
 ## Making it
 
@@ -271,7 +267,7 @@ Not for mains: these are for battery and low-voltage DC wiring. Not for small cu
   - 3D print (FDM): panel mounts, holders and soldering jigs for the plugs (see make_it_yourself)
   - laser cut: plates with a cut-out for a panel-mount plug ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: the contacts are metal and are bought; only mounts, holders and jigs are printed.
-- **Tools:** To fit: a soldering iron with enough heat for thick wire and large brass contacts (a Flite Test community guide used a 30 W iron to fit a T-plug; bigger plugs and thicker wire need more heat ⚑ [uncertain]), solder and flux, wire strippers, heat-shrink tubing and a heat gun, and a holder or jig (Flite Test). Crimp-type plugs (Tamiya-type, Anderson, MC4) need their matching crimp tool, and MC4 needs its unlocking tool (Wikipedia 'MC4 connector'). A multimeter to check polarity before first use. To use: none.
+- **Tools:** To fit: a soldering iron with enough heat for thick wire and large brass contacts (a Flite Test community guide used a 30 W iron to fit a T-plug; bigger plugs and thicker wire need more heat: for XT90 and XT150 plugs on wire up to 7 AWG, Flite Test recommends a 60 W iron and warns that a 30 W one will struggle), solder and flux, wire strippers, heat-shrink tubing and a heat gun, and a holder or jig (Flite Test). Crimp-type plugs (Tamiya-type, Anderson, MC4) need their matching crimp tool, and MC4 needs its unlocking tool (Wikipedia 'MC4 connector'). A multimeter to check polarity before first use. To use: none.
 - **Difficulty:** moderate: the plugs are cheap and easy to buy, but soldering thick wire into big brass cups needs a hot iron and some practice without melting the housing (Flite Test; Wikipedia 'DC connector'), and the real hazard is shorting a live lithium pack while working on its leads (Flite Test).
 
 ### 3D printing tips
@@ -333,9 +329,7 @@ Shorted lithium packs burn: 'short-circuiting them will transform all this energ
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 2 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = soldering iron, crimper, heat gun, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…W iron to fit a T-plug; bigger plugs and thicker wire need more heat ⚑ [uncertain]), solder and flux, wire stri…"
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
+- ⚑ 1 sentence on this page marked [uncertain].
 - ⚑ Research note: *High-current battery plug*: current ratings differ (AMASS via Holybro: XT60 30 A continuous, 60 A burst; Oscar Liang 2014: XT60 60 A, bullets 2 mm 20 A to 8 mm 200 A; Horizon Hobby: EC3 60 A continuous; Wikipedia: Deans 40 A (70 A pulse), Tamiya rated 20 A, about 15 A in use). Recorded side by side; design to the lower figure.
 
 ## Sources
@@ -359,3 +353,4 @@ Shorted lithium packs burn: 'short-circuiting them will transform all this energ
 - <https://commons.wikimedia.org/wiki/File:MC4_Connector_Front_and_Top_View.jpg>
 - <https://commons.wikimedia.org/wiki/File:Tamiya_adapter.jpg>
 - <https://api.printables.com/graphql/>
+- <https://www.flitetest.com/articles/heavy-duty-connectors-large-gauge-wire>

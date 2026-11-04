@@ -87,14 +87,12 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…ps release clips; a rubber mallet is not needed and can crack acrylic
-      [uncertain].…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, paper or card, 'fabric, leather or cord']
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [reuse_cycles, tools_needed, seal, play_and_precision, materials, processes, making_tips_3d_printing, everyday_examples,
+uncertain_fields: [reuse_cycles, seal, play_and_precision, materials, processes, making_tips_3d_printing, everyday_examples,
   environment_limits, safety_notes, make_it_yourself]
 diagram_idea: 'Side-by-side frames of a flat tab with a long thin finger cut beside it and a small barb at its tip: frame
   1 the tab approaching a slot, frame 2 the finger bent sideways as the barb squeezes through (arrow showing the bend), frame
@@ -171,6 +169,7 @@ sources:
 - https://en.wikipedia.org/wiki/Snap-fit
 - https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)
 - https://en.wikipedia.org/wiki/Medium-density_fibreboard
+- https://www.mechanicalgifs.com/instructions
 research: research/connection-types/results/Snaplock_sheet_joint_barbed_or_spring_finger.json
 image:
   file: drawn/snap-lock-sheet-joint.svg
@@ -260,7 +259,7 @@ Avoid it for heavy or structural loads, for parts that are pulled hard in the di
   - sheet metal: roll-formed or punched duct seams (button-punch snap lock) and spring-steel tabs ⚑ [uncertain for spring-steel tabs]
   - CNC: rarely, because the cutter's radius limits the fine relief cuts and barbs ⚑ [uncertain]
 - **Printing it in one piece (print in place):** no: the two sheets are made separately and clicked together afterwards (each part is one piece with no added hardware).
-- **Tools:** none to assemble: push the tab through by hand. A small flat screwdriver or fingernail helps release clips; a rubber mallet is not needed and can crack acrylic ⚑ [uncertain].
+- **Tools:** none to assemble: push the tab through by hand. A small flat screwdriver or fingernail helps release clips; a rubber mallet is not needed, and acrylic is brittle: stressed too much, it 'will break, not bend' (Mechanical Gifs).
 - **Difficulty:** moderate: nothing to buy and it cuts in one pass, but the finger length, thickness and barb size need test cuts for each material and laser; What Make Art notes snap joints 'usually require a bit of trial and error'
 
 ### 3D printing tips
@@ -302,6 +301,7 @@ Acrylic clips that are over-bent can snap suddenly and leave sharp edges ⚑ [un
 - Crush ribs and spring-fit features (compliant press fit): springy ribs or fingers that press parts snugly but have no hook, so they rely on friction
 - Mortise and tenon (incl. wedged, drawbored and tusk tenons): a key or wedge through the protruding tab locks it instead of a barb; SendCutSend notes a flexible key can itself be designed to snap in
 - Spring-steel push-on fasteners (push nut, speed nut, U-nut): a separate springy metal clip that does the same job on studs and panels
+- Folding box closures (tuck flap, slit lock, snap-lock and crash-lock bottoms): the full treatment of tab-lock and tuck-top card boxes
 
 ## Make it yourself
 
@@ -321,8 +321,7 @@ Acrylic clips that are over-bent can snap suddenly and leave sharp edges ⚑ [un
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 13 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = none, hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…ps release clips; a rubber mallet is not needed and can crack acrylic ⚑ [uncertain].…"
+- ⚑ 12 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -353,3 +352,4 @@ Acrylic clips that are over-bent can snap suddenly and leave sharp edges ⚑ [un
 - <https://en.wikipedia.org/wiki/Snap-fit>
 - <https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)>
 - <https://en.wikipedia.org/wiki/Medium-density_fibreboard>
+- <https://www.mechanicalgifs.com/instructions>

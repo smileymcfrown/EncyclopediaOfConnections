@@ -89,6 +89,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [wood, paper or card, 'fabric, leather or cord']
 needs_confirming:
   bonds_well:
     kind: source uncertain
@@ -314,6 +316,7 @@ Low toxicity: the glue itself is non-toxic, and Woodcraft notes you needn't worr
 - Contact adhesive (contact cement): a modern way to lay veneer without a press, but not reversible (Fine Woodworking #129 compares it unfavourably for veneering)
 - Hot-melt adhesive (glue gun): also sets by cooling, but is a soft plastic that fills gaps and is weak in wood joints
 - Polyurethane glue: water-resistant and gap-filling (foams), for outdoor wood; not reversible (Woodcraft)
+- Paper glue stick and starch or cellulose paste: mild water-based glues for paper and card that are often reversible with water, as hide glue is with heat and moisture
 
 ## Make it yourself
 

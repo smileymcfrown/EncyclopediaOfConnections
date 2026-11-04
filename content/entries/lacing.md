@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points:
@@ -326,6 +328,7 @@ Drawstrings and long laces on children's clothing can catch on playground equipm
 - Basic strap and garment closures (prong buckle, button, toggle and loop): other simple ways to close clothing and bags
 - Sew-on part (sewing holes, loops and slots on a rigid part): hole sizes and edge distances for cord and thread through printed parts
 - Elastic band and elastic cord springs: shock cord used as a stretchy lace for covers
+- Sewn book bindings (Japanese stab binding, Coptic stitch): thread through rows of pierced holes in paper, with fold and knot patterns of their own
 
 ## Make it yourself
 

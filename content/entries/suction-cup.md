@@ -86,6 +86,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -325,6 +327,7 @@ A suction cup can let go suddenly with no warning: simple flip-lever lifting cup
 - Hang-on mounts (keyhole slot, French cleat): the usual way to hang things from screws in a wall when drilling is allowed
 - Self-sealing suction cup (research gripper): a cup with a built-in valve that only sucks when it touches an object (Wikipedia 'Self-sealing suction cup')
 - Quick-release plate (camera plate, dovetail clamp): can be added to a suction-cup mount so the camera or phone comes off without unsticking the cup
+- Glass and mirror edge clips and clamps: hold the sheet of glass or mirror itself by its edge, where a suction cup hangs a light item on the glass
 
 ## Make it yourself
 

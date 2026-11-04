@@ -40,10 +40,10 @@
       "powered hold: the pull is kept only while the motor (or its gearbox) holds the twist"
     ],
     "input_output": "Continuous rotation (many turns) -> straight-line pull (tension only; it cannot push). Contraction x = L - sqrt(L^2 - theta^2 r^2), so the travel per turn grows as the twist builds and the pull per unit of motor torque shrinks; from the force relation F = torque / (r x tan(alpha)) with tan(alpha) = theta x r / p (German Wikipedia), the ratio is very high near zero twist. Typical stroke: under about 25% of the string length in most published designs, 81% with multi-string overtwisting (Tavakoli et al. 2016). Efficiency: about 79% for the strings alone in a high-power ankle exoskeleton (Tan and Collins 2025); German Wikipedia quotes 90%. Shaft arrangement: in line; the strings run straight out along the motor axis (a TSA does not need the motor mounted at right angles to the cable, unlike a spool; Park and SunSpiral, NASA). Back-drivable: yes in principle, since the load's pull always tries to untwist the strings and turn the motor backwards, but a high-ratio gearmotor's friction may hold it [uncertain].",
-    "power": "powered (needs a motor to twist the strings; the same principle also works by hand, as in the Spanish windlass). If power is lost, the load tries to untwist the strings and run back unless the motor's gearbox friction or a brake holds the twist [uncertain].",
+    "power": "powered (needs a motor to twist the strings; the same principle also works by hand, as in the Spanish windlass). If power is lost, the load tries to untwist the strings and run back unless the motor's gearbox friction or a brake holds the twist: the twisted-string drive itself is back-drivable, and one robot hand adds brakes to lock its joints (US patent 9272425).",
     "removability": "removable: the strings are tied or looped to the motor hub and load and can be untied and replaced; they are a wear part",
     "reuse_cycles": "many times: the hardware lasts, but the strings wear out; string life ranges from hundreds of cycles under heavy load in thin line (Tavakoli et al.) to 18,000-190,000 cycles for 1-2 mm Dyneema ropes at 15-25 kg (Nguyen et al. 2025)",
-    "tools_needed": "Scissors and knots (or loop ties) for the strings; small screwdriver or hex key for the motor hub and mounts; a lighter or heat sealer for synthetic string ends [uncertain]; grease (Tan and Collins massaged Krytox grease into their Vectran braid)",
+    "tools_needed": "Scissors and knots (or loop ties) for the strings; small screwdriver or hex key for the motor hub and mounts; a lighter or heat sealer for synthetic string ends (not for aramid, which does not melt; Wikipedia 'Whipping knot'); grease (Tan and Collins massaged Krytox grease into their Vectran braid)",
     "seal": "none: open strings and an open motor hub; nothing about it seals",
     "load": "Light to heavy depending on string and motor: a pager motor lifted 7 kg (Hizook); a 0.35 mm braided fishing line rated 321 N lifted 2 kg with a small 100:1 gearmotor (Tavakoli et al.); a 3 mm Vectran rope (9.5 kN breaking strength) drove an ankle exoskeleton at 43 N.m peak ankle torque and 700 W peak power (Tan and Collins). Strong in pull only; zero strength in push; the strings bend and swing sideways, so the load needs its own guide; the pull along the motor axis must be carried by a thrust bearing, not the motor shaft (Tan and Collins).",
     "adjustable": "yes: the pull and position are set by the motor angle; the ratio and stroke are chosen by string radius, number of strings and twisting-zone length (thicker bundles or more strands shorten more per turn, Hackaday / Guzek et al.; Tavakoli et al.); a small pre-twist sets where on the curve it starts; research versions add a clutch to switch between fast direct pulling and strong twisting (dual-mode TSA) or move the string attachment points to vary the ratio continuously",
@@ -177,14 +177,13 @@
       "https://github.com/skalouche/Twisted-String-Actuator",
       "https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/README.md",
       "https://raw.githubusercontent.com/skalouche/Twisted-String-Actuator/master/LICENSE",
-      "https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md"
+      "https://raw.githubusercontent.com/Haimlem/TSA-project/main/README.md",
+      "https://en.wikipedia.org/wiki/Whipping_knot"
     ]
   },
   "uncertain": [
     "special_behaviour",
     "input_output",
-    "power",
-    "tools_needed",
     "processes",
     "environment_limits",
     "safety_notes",

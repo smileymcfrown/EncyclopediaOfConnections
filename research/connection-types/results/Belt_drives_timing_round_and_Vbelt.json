@@ -79,7 +79,9 @@
       "Toothed belts work unaffected from -34 to 85 C (Gates, p. 136); timing belts last roughly 8,000-12,000 hours (RoyMech).",
       "V-belt minimum pulley diameters: SPZ 67 mm, SPA 100 mm, SPB 160 mm, SPC 224 mm; groove angles 34 or 38 degrees depending on pulley size; capacity falls to 0.82 of rated at 120 degrees of wrap (RoyMech 'Vee belts').",
       "Round belts run in a pulley with a 60-degree V-groove and are for relatively low torque only (Wikipedia 'Belt (mechanical)').",
-      "Timing belts need only enough tension to keep the belt in contact with the pulley; friction belts need more (Wikipedia). Prusa's rule of thumb for printer GT2 belts: plucked, they should sound like a low bass note (Prusa Knowledge Base)."
+      "Timing belts need only enough tension to keep the belt in contact with the pulley; friction belts need more (Wikipedia). Prusa's rule of thumb for printer GT2 belts: plucked, they should sound like a low bass note (Prusa Knowledge Base).",
+      "One belt driving several pulleys (a serpentine belt): pulleys driven by the smooth back of the belt turn the opposite way to those inside the loop, and if that one belt breaks or comes off, everything it drives stops at once (Wikipedia 'Serpentine belt').",
+      "Crossing a belt reverses the driven pulley; V-belts and timing belts can only be run crossed if the belt has a twist between each pulley (Wikipedia 'Belt (mechanical)')."
     ]
   },
   "guidance": {
@@ -100,7 +102,9 @@
       "Capstan cable drive: a cable wrapped around a small drum and anchored to a big one; zero backlash but only a limited range of rotation",
       "Rope drive: a historic form of round-belt drive using ropes on grooved pulleys (Wikimedia Commons 'Rope drives')",
       "Friction wheel drive: two wheels pressed together, with no belt; simpler but slips more easily [uncertain]",
-      "Rack and pinion or lead screw: other ways to turn rotation into straight-line motion, stiffer than an open-ended belt"
+      "Rack and pinion or lead screw: other ways to turn rotation into straight-line motion, stiffer than an open-ended belt",
+      "Linked lead screws: a closed timing-belt loop round a pulley on each lead screw keeps every corner of a bed or gantry in step",
+      "Line shaft and power take-off: many belt drives taken off one long driving shaft, each to its own machine"
     ]
   },
   "media": {
@@ -207,7 +211,8 @@
       "https://raw.githubusercontent.com/rbuckland/openscad.parametric-pulley/master/README.md",
       "https://www.printables.com/model/333720-gt2-pulley-the-big-collection-updated",
       "https://www.printables.com/model/46639-tension-meter-for-the-gt2-belts-of-i3-mk3s-or-prus",
-      "https://api.printables.com/graphql/"
+      "https://api.printables.com/graphql/",
+      "https://en.wikipedia.org/wiki/Serpentine_belt"
     ]
   },
   "uncertain": [

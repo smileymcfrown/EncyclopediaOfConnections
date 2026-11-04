@@ -89,18 +89,16 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  adjustable:
-    kind: source uncertain
-    reason: '`adjustable` is marked [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers)
-      [uncertain: adjustment procedure not des…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal]
+needs_confirming: {}
 confirmed: []
 open_points:
 - kind: sources
   note: '**Early drafts in git history**: the commit script commits any file that validates, so a few entries were first committed
     while their agent was still refining them (e.g. *Rotary latch*, *Tamper-evident bridge*, *Dampers*). The latest commit
     of each file is the final version.'
-uncertain_fields: [power, reuse_cycles, load, adjustable, materials, processes, print_in_place, making_tips_3d_printing, environment_limits,
+uncertain_fields: [power, reuse_cycles, load, materials, processes, print_in_place, making_tips_3d_printing, environment_limits,
   safety_notes, common_failures, links, make_it_yourself]
 diagram_idea: 'Three side views of one latch: (1) open, with the claw''s V-shaped mouth facing an incoming striker pin and
   the pawl resting on the claw''s rim; (2) closing, with the striker pushing into the mouth and turning the claw while the
@@ -164,6 +162,7 @@ sources:
 - https://www.youtube.com/watch?v=u4kbrPenG8E (title confirmed via YouTube oEmbed)
 - https://www.printables.com/model/130253-spring-loaded-latching-mechanism (read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
+- https://static.nhtsa.gov/odi/tsbs/2026/MC-11033676-0001.pdf
 research: research/connection-types/results/Rotary_latch_claw_latch.json
 image:
   file: drawn/anim/rotary-latch.svg
@@ -251,7 +250,7 @@ Not needed for light cabinet doors: use a magnetic catch, a push-push latch or a
 - **Taking it apart:** tool-free quick release: open with the handle, button or cable and close by pushing the door; the latch and striker themselves are bolted on and can be removed
 - **How often it can be reused:** many times: it is built to be opened and closed every day (the Southco R4 catalogue lists 'high cycle life' and 'exceptional cycle life' for some latches, and SPEP stresses long service life), but no numerical cycle rating was found in the sources checked ⚑ [uncertain]
 - **Sealing:** none: the latch does not seal by itself; a separate door gasket does that. A built-in rubber bumper traps the striker against the rotor to stop rattle and noise (Machine Design; Southco R4 'integrated bumper for anti-vibration').
-- **Adjustable:** a little: the striker position can be moved to set how far the door closes and how well it lines up, using slot-mount wire strikers or a striker bolt in a [clearance](../glossary.md#clearance) hole (Southco R4 lists single-hole and slot-mount strikers) ⚑ [uncertain: adjustment procedure not described in the sources]; rubber bumpers and the door seal take up play. The latch itself has no adjustment.
+- **Adjustable:** a little: the striker position can be moved to set how far the door closes and how well it lines up, using slot-mount wire strikers or a striker bolt in a [clearance](../glossary.md#clearance) hole (Southco R4 lists single-hole and slot-mount strikers): loosen the striker screws, move it up, down or sideways until the striker sits centred in the latch jaws, and add shims behind it to set its depth (Rosenbauer striker work instruction); rubber bumpers and the door seal take up play. The latch itself has no adjustment.
 - **Access needed:** one side only (blind) for use: the latch is hidden inside the door or cabinet and is released remotely through a cable or rod; fitting it needs access to the inside face of the door and the frame where the latch and striker bolt on
 - **Materials:** Latch: steel with zinc, zinc-nickel or black zinc-nickel plating, or 304 stainless steel (Southco R4); stainless for maximum corrosion resistance (Southco brochure). Strikers: plated or stainless steel bolts and wire forms, or moulded strikers (Southco R4). Actuators: plastic, or zinc or aluminium die-cast; cables: stainless steel with a vinyl coating and an acetal liner (Machine Design). Doors: sheet metal, composite, plastic or wooden panels. Home-made latches: a printed claw and pawl in a tough plastic such as PETG or nylon, running on steel pins and grabbing a steel bolt ⚑ [uncertain: design suggestion, not tested].
 - **Heat, cold, water and wear:** Plain zinc-plated steel suits indoor or covered use; for outdoor, marine or wash-down use choose zinc-nickel plating or stainless steel (Southco offers stainless 'for maximum corrosion resistance'). Vibration is handled well, but use a version with a rubber bumper to stop rattle (Southco; Machine Design). Railway applications may need latches that meet the EN 45545-3 fire standard (Southco brochure). Cables can stretch or corrode: stainless cable with a liner resists both (Machine Design). No temperature ratings were found in the sources checked ⚑ [uncertain]. Printed plastic claws and springs will [creep](../glossary.md#creep) and weaken under constant spring load, especially in a hot vehicle; PLA is the worst for this ⚑ [uncertain: general material behaviour, not tested for this part].
@@ -322,8 +321,7 @@ Fingers can be trapped between a closing door and the striker, and the claw snap
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 15 sentences on this page marked [uncertain].
-- ⚑ Finder value `adjustable` = partly (source uncertain): `adjustable` is marked ⚑ [uncertain] here: "…clearance hole (Southco R4 lists single-hole and slot-mount strikers) ⚑ [uncertain: adjustment procedure not des…"
+- ⚑ 14 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -344,3 +342,4 @@ Fingers can be trapped between a closing door and the striker, and the claw snap
 - <https://www.youtube.com/watch?v=u4kbrPenG8E (title confirmed via YouTube oEmbed)>
 - <https://www.printables.com/model/130253-spring-loaded-latching-mechanism (read via https://api.printables.com/graphql/)>
 - <https://api.printables.com/graphql/>
+- <https://static.nhtsa.gov/odi/tsbs/2026/MC-11033676-0001.pdf>

@@ -76,7 +76,8 @@
       "Telescopic cylinders close to 20-40% of their extended length, usually have at most 6 stages, and must not carry side loads (Wikipedia 'Telescopic cylinder')",
       "Mount the valve as close to the cylinder as practical, for quicker response and less wasted air (Tameson)",
       "A double-acting cylinder that has been emptied (e.g. after an emergency stop) can shoot out when air first returns, so fit a soft-start valve where that could hurt someone (HSE HSG39 para 120)",
-      "Feed moving cylinders with loops of plastic tubing that absorb the movement (HSE HSG39 para 108), through the pivot of a swinging cylinder, or through a hollow fixed piston rod so the hoses stay still (Thang)"
+      "Feed moving cylinders with loops of plastic tubing that absorb the movement (HSE HSG39 para 108), through the pivot of a swinging cylinder, or through a hollow fixed piston rod so the hoses stay still (Thang)",
+      "Two cylinders fed through a tee from one valve do not move in step: the flow splits unevenly unless both meet the same resistance, so the lighter-loaded one moves first. To keep them together, tie the rods mechanically (a rack on each rod, with the pinions on one shared shaft) or use a flow divider (Power & Motion 'Flow divider circuits' and 'Synchronizing circuits'; HAWE fluid lexicon 'Open loop synchronisation control'; these sources are about hydraulics)."
     ]
   },
   "guidance": {
@@ -210,7 +211,10 @@
       "https://commons.wikimedia.org/wiki/File:Einfachwirkender_Zylinder_funktionsprinziep.gif",
       "https://commons.wikimedia.org/wiki/File:Doppelwirkender_Zylinder_Funktionsprinziep.gif",
       "https://commons.wikimedia.org/wiki/File:Pneumatic_cylinder_(animation).gif",
-      "https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg"
+      "https://commons.wikimedia.org/wiki/File:8-stage_single-acting_air_cylinder,_Ergo-Help.jpg",
+      "https://www.powermotiontech.com/technologies/other-technologies/article/21883443/book-2-chapter-11-flow-divider-circuits",
+      "https://www.powermotiontech.com/hydraulics/hydraulic-valves/article/21885035/synchronizing-circuits",
+      "https://www.hawe.com/fluid-lexicon/detail/open-loop-synchronisation-control/"
     ]
   },
   "uncertain": [

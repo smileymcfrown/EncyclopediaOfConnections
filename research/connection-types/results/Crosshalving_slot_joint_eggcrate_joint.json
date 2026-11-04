@@ -71,7 +71,8 @@
       "Measure your sheet: '1/4 in' acrylic is often 6 mm (0.236 in) and common laser-cuttable acrylic is made to a thickness tolerance of plus or minus 0.02 in (McMaster-Carr figures); cut a kerf gauge of test slots for your machine and material (Charles Guan, 'How to Build Your Everything Really Really Fast', step 6).",
       "FDM slot clearance about 0.5 mm as a start (Hubs, interlocking joints), tightened to about 0.3 mm in one maker's slot-together print (Printables Weight Rack).",
       "A springy finger cut beside the slot (springFit 'cross joint') keeps the joint tight across kerfs of 0.12 to 0.20 mm; do not put it right at the edge of the part, which weakens it against twisting (springFit, UIST 2019).",
-      "Slits concentrate stress; FlatFitFab estimates stress at a slit with a concentration factor 'rarely above five' (FlatFitFab, UIST 2014)."
+      "Slits concentrate stress; FlatFitFab estimates stress at a slit with a concentration factor 'rarely above five' (FlatFitFab, UIST 2014).",
+      "Corrugated card is much stiffer one way than the other: its properties are \"highly directional\", and edge crush strength and bending stiffness depend on which way the flutes run (Wikipedia 'Corrugated fiberboard'). Makedo finds overlapped panels stronger \"when the cardboard flutes are in different directions\" and folds \"across (perpendicular to) the flutes for strong, structural corners\" (Makedo connections and joints guide). Where you can, cut the slots so the flutes run across the joint [uncertain: advice from the gap search; no test of slotted card joints found]."
     ]
   },
   "guidance": {
@@ -187,7 +188,9 @@
       "https://edditiveblog.wordpress.com/2020/01/24/3d-printed-model-aircraft-stand/",
       "https://api.printables.com/graphql/",
       "https://en.wikipedia.org/wiki/Medium-density_fibreboard",
-      "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)"
+      "https://en.wikipedia.org/wiki/Poly(methyl_methacrylate)",
+      "https://en.wikipedia.org/wiki/Corrugated_fiberboard",
+      "https://hub.make.do/at-home/maker-tips/connections-and-joints-how-to-use-flanges-tabs-patches"
     ]
   },
   "uncertain": [
@@ -196,6 +199,7 @@
     "making_tips_3d_printing",
     "everyday_examples",
     "environment_limits",
-    "safety_notes"
+    "safety_notes",
+    "rules_of_thumb"
   ]
 }

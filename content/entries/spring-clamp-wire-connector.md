@@ -51,7 +51,7 @@ finder:
   clicks: not applicable
   electrical_band: up to about 30 A
   tools: [crimper, hand tools]
-  load_max: light
+  load_max: medium
   usual_process: off-the-shelf part
   adjustable: 'no'
   removability: tool-free quick release
@@ -97,14 +97,13 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal]
 needs_confirming:
   reuse_cycles:
     kind: source uncertain
     reason: '`reuse_cycles` is marked [uncertain] here: "…y times for lever types, which are made to be opened and closed
       again [uncertain:…"'
-  load_max:
-    kind: best guess
-    reason: electrical entry whose mechanical load has no light/medium/heavy band; set to light
   plugs_in:
     kind: best guess
     reason: set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
@@ -357,7 +356,6 @@ MAINS: this entry gives no mains wiring steps, and mains use must follow local l
 
 - ⚑ 5 sentences on this page marked [uncertain].
 - ⚑ Finder value `reuse_cycles` = many times (source uncertain): `reuse_cycles` is marked ⚑ [uncertain] here: "…y times for lever types, which are made to be opened and closed again ⚑ [uncertain:…"
-- ⚑ Finder value `load_max` = light (best guess): electrical entry whose mechanical load has no light/medium/heavy band; set to light
 - ⚑ Finder value `plugs_in` = no (best guess): set by Claude (R33) as the follow-up answer after the check gave this entry the answer before it
 - ⚑ Research note: *Spring-clamp wire connector*: no pull-out figure and no rated number of lever open/close cycles could be found ([uncertain]).
 

@@ -43,7 +43,7 @@
     "power": "passive (no power needed)",
     "removability": "removable: loosen the set screws or clamp screws with a hex key and slide it off the shafts",
     "reuse_cycles": "many times: it can be refitted repeatedly; set screws that dig into a round shaft can leave marks or raised burrs that make the next fitting harder [uncertain], which clamp-type hubs avoid (McMaster-Carr)",
-    "tools_needed": "A hex key (the common 5 x 8 mm aluminium coupler uses a 2 mm hex key for its set screws, per Adafruit). Optional thread-locking compound on set screws [uncertain]. Printed versions need nuts, set screws or heat-set inserts (and a soldering iron to fit inserts).",
+    "tools_needed": "A hex key (the common 5 x 8 mm aluminium coupler uses a 2 mm hex key for its set screws, per Adafruit). Medium-strength thread-locking compound on the set screws stops them shaking loose on rotating parts; leave it off if you will adjust them often (Albany County Fasteners 'Set Screw Application Guide'). Printed versions need nuts, set screws or heat-set inserts (and a soldering iron to fit inserts).",
     "seal": "none: the slot is open; it does not seal anything",
     "load": "Light to medium: made for motion-control jobs (steppers, servos, encoders, leadscrews), not heavy power. Catalogue torque ratings run from about 0.14 N·m to about 63 N·m (1.2-556 in·lb) across MW Components' ranges, and 3-175 in·lbf (0.34-20 N·m) on McMaster-Carr's listing. Strong and stiff in twist within its rating; deliberately soft in bending and along its length; the thin spiral beam is the weak point, and it cracks from fatigue if overloaded by torque spikes, reversing loads or too much misalignment (especially sideways offset for single-beam types).",
     "adjustable": "no: once tightened nothing adjusts; you can only choose where along the shafts it sits before tightening the screws",
@@ -194,12 +194,12 @@
       "https://raw.githubusercontent.com/HUANGYAN920/Mechanical/master/README.md",
       "https://www.hubs.com/knowledge-base/how-design-interlocking-joints-fastening-3d-printed-parts/",
       "https://help.prusa3d.com/article/pla_2062",
-      "https://help.prusa3d.com/article/petg_2059"
+      "https://help.prusa3d.com/article/petg_2059",
+      "https://www.albanycountyfasteners.com/media/4c/d6/45/1764616278/set-screw-application-guide.pdf"
     ]
   },
   "uncertain": [
     "reuse_cycles",
-    "tools_needed",
     "processes",
     "making_tips_3d_printing",
     "environment_limits",

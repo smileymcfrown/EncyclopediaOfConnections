@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450" role="img">
+<title>Side view of a swing-top bottle closed: a wire loop runs from the porcelain stopper to a short arm on the wire lever, which pivots on a wire collar round the neck. With the lever pressed down, the loop's hook has gone just past the dead point (the dashed line from stopper through pivot), so the squashed rubber seal pulls on the loop and pushes the lever further shut against the bottle.</title>
+<rect width="800" height="450" fill="#ffffff"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d1495b"/></marker></defs>
+<g stroke="#222" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+<g transform="translate(0 6.47)"><rect x="184" y="154" width="72" height="52" fill="#f4f4f4"/></g>
+<path d="M162,190 L162,405 L278,405 L278,190 Z" fill="#d6efed"/>
+<rect x="154" y="170" width="132" height="26" rx="10" fill="#d6efed"/>
+<line x1="162" y1="250" x2="290" y2="250" stroke-width="5"/>
+<rect x="158" y="162.47" width="124" height="7.53" fill="#f5d0d0"/>
+<g transform="translate(0 6.47)"><path d="M160,156 L160,140 Q160,102 220,100 Q280,102 280,140 L280,156 Z" fill="#f4f4f4"/><circle cx="220" cy="136" r="6" fill="#ffffff"/></g>
+</g>
+<line x1="220" y1="136" x2="314.09" y2="286.82" stroke="#777" stroke-width="2" stroke-dasharray="7 5"/>
+<g><path d="M298.6,272.41 L290,250 L282.67,389.81" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#222" stroke-width="11"/><path d="M298.6,272.41 L290,250 L282.67,389.81" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke="#9a9a9a" stroke-width="5"/><circle cx="298.6" cy="272.41" r="5" fill="#9a9a9a" stroke="#222" stroke-width="2.5"/></g>
+<line x1="220" y1="142.47" x2="298.6" y2="272.41" stroke="#222" stroke-width="4" stroke-linecap="round"/><circle cx="220" cy="142.47" r="3.5" fill="#222"/>
+<circle cx="290" cy="250" r="4" fill="#222"/>
+<g stroke="#d1495b" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#ah)"><line x1="324" y1="350" x2="296" y2="350"/><path d="M301,379.5 A130,130 0 0 0 389.6,333.6"/></g>
+<g><text x="398" y="376" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">flip up to open</text></g>
+<g stroke="#222" stroke-width="1.5"><line x1="140" y1="112" x2="164" y2="120"/><line x1="140" y1="172" x2="160" y2="166"/><line x1="444" y1="186" x2="262" y2="206"/><line x1="444" y1="248" x2="298" y2="250"/><line x1="444" y1="308" x2="318" y2="290"/></g>
+<g font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">
+<text x="400" y="36" font-size="21" font-weight="bold" text-anchor="middle">Swing-top bottle, closed</text>
+<text x="136" y="104" text-anchor="end">porcelain</text><text x="136" y="126" text-anchor="end">stopper</text>
+<text x="136" y="170" text-anchor="end">rubber seal,</text><text x="136" y="192" text-anchor="end">squashed</text>
+<text x="150" y="330" text-anchor="end">glass bottle</text>
+<text x="450" y="192">wire loop</text>
+<text x="450" y="254">pivot on a wire collar</text><text x="450" y="276">round the neck</text>
+<text x="450" y="314">dead point: stopper,</text><text x="450" y="336">pivot and hook in line</text>
+<text x="300" y="408">wire lever, pushed down against the bottle</text>
+<text x="450" y="88">the squashed seal pulls on the loop;</text><text x="450" y="110">once its hook is past the dead point,</text><text x="450" y="132">that pull holds the lever shut</text>
+</g>
+<text x="400" y="438" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#222">An over-centre clamp made of wire: no opener needed, and the rubber seal holds the fizz in</text>
+</svg>

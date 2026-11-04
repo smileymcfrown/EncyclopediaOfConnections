@@ -85,14 +85,12 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
-needs_confirming:
-  tools:
-    kind: source uncertain
-    reason: '`tools_needed` is marked [uncertain] here: "…a spanner'', underfloor heating supplier); snips to cut bimetal
-      strip [uncertain]; for electric versions, wiri…"'
+  drive_split: [not applicable]
+  made_of: [3D prints, metal]
+needs_confirming: {}
 confirmed: []
 open_points: []
-uncertain_fields: [tools_needed, making_tips_3d_printing, when_not_to_use, safety_notes]
+uncertain_fields: [making_tips_3d_printing, when_not_to_use, safety_notes]
 diagram_idea: 'Two side-by-side panels: left, a bimetal strip fixed at one end, drawn cold (straight) and hot (curved, with
   the high-expansion layer on the outside), its tip pushing a small sear so a spring-loaded latch flies open; right, a wax
   capsule cut in half, cold (solid wax, pin in) and hot (liquid wax grown 15%, pin out a few millimetres, return spring squashed),
@@ -177,6 +175,7 @@ sources:
   read via https://api.printables.com/graphql/)
 - https://api.printables.com/graphql/
 - https://www.thingiverse.com/thing:2745891
+- https://www.ibt.co.il/uploaded_files/documents/Kanthal_Thermostatic_Bimetal_U3743.pdf
 research: research/connection-types/results/Thermal_actuators_bimetal_strip_wax_motor.json
 image:
   file: thermal-actuators.webp
@@ -223,7 +222,7 @@ pictures:
   kind: photo
   drawn: false
 glossary: [stroke, over-centre, bistable, linkage, actuator, solenoid, fail-safe--fail-secure, compliant-mechanism, deflection,
-  hysteresis, creep]
+  hysteresis, creep, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
@@ -296,7 +295,7 @@ Not when the release must be fast or happen at an exact moment: it takes seconds
   - 3D print (FDM): brackets, levers, trip arms, latches and adapters around the element (e.g. a printed threaded adapter for a manifold wax head)
   - sheet metal: cutting and bending bimetal strip to length; mounting plates
 - **Printing it in one piece (print in place):** no: the thermal element is bought; printed parts (levers, latches, brackets) are made separately and assembled around it
-- **Tools:** screwdriver or spanner to mount; hand-tighten screw-on heating heads ('do NOT use a spanner', underfloor heating supplier); snips to cut bimetal strip ⚑ [uncertain]; for electric versions, wiring and a relay or transistor (resistive load, so no snubber or flyback diode is needed, Wikipedia; Hackaday 2014); thermal paste to couple a snap disc to the surface it senses (Calco)
+- **Tools:** screwdriver or spanner to mount; hand-tighten screw-on heating heads ('do NOT use a spanner', underfloor heating supplier); snips or [shears](../glossary.md#peel-vs-shear) to cut bimetal strip, cut lengthwise along the strip and with no burr left (Kanthal Thermostatic Bimetal Handbook); for electric versions, wiring and a relay or transistor (resistive load, so no snubber or flyback diode is needed, Wikipedia; Hackaday 2014); thermal paste to couple a snap disc to the surface it senses (Calco)
 - **Difficulty:** moderate: buying and fitting a wax heating head, car thermostat, snap disc or bimetal strip is easy, but their small stroke and slow action mean the latch must be designed to need only a small nudge; making a sealed wax actuator yourself is hard
 
 ### 3D printing tips
@@ -356,8 +355,7 @@ Some appliance wax motors run directly on mains voltage (the one in electronicsN
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 6 sentences on this page marked [uncertain].
-- ⚑ Finder value `tools` = hand tools (source uncertain): `tools_needed` is marked ⚑ [uncertain] here: "…a spanner', underfloor heating supplier); snips to cut bimetal strip ⚑ [uncertain]; for electric versions, wiri…"
+- ⚑ 5 sentences on this page marked [uncertain].
 
 ## Sources
 
@@ -392,3 +390,4 @@ Some appliance wax motors run directly on mains voltage (the one in electronicsN
 - <https://www.printables.com/model/1452459-hydronic-manifold-wax-motor-adapter (URL from Printables API, page not opened; read via https://api.printables.com/graphql/)>
 - <https://api.printables.com/graphql/>
 - <https://www.thingiverse.com/thing:2745891>
+- <https://www.ibt.co.il/uploaded_files/documents/Kanthal_Thermostatic_Bimetal_U3743.pdf>

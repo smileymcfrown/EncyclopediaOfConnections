@@ -90,15 +90,9 @@ finder:
   powered_does: [pump or control a flow]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, glass or mirror]
 needs_confirming:
-  power_source:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain:
-      inferred from Medfusion''s de…"'
-  power_loss:
-    kind: source uncertain
-    reason: '`power` is marked [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out [uncertain:
-      inferred from Medfusion''s de…"'
   overload_response:
     kind: best guess
     reason: listed as torque-limiting or breakaway, but no overload behaviour matched
@@ -107,7 +101,7 @@ open_points:
 - kind: content
   note: Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and *Air tank and hydraulic accumulator*
     (µL per motor step, syringe pressures, a Boyle's-law example).
-uncertain_fields: [power, processes, safety_notes]
+uncertain_fields: [processes, safety_notes]
 diagram_idea: A side view of a syringe lying in a cradle, with a stepper motor at one end turning a lead screw; a carriage
   riding on two rods pushes the plunger, with arrows showing one motor step -> a tiny carriage move -> a tiny squirt of liquid,
   and a small inset showing volume = travel x barrel area.
@@ -199,6 +193,7 @@ sources:
 - https://commons.wikimedia.org/wiki/File:Syringe_drivers.JPG
 - https://www.youtube.com/watch?v=7YSiO6usR1M
 - https://www.youtube.com/watch?v=YdeZJIZdA_A
+- https://ossila.com/pages/syringe-pump-troubleshooting
 research: research/connection-types/results/Syringe_pump_syringe_driver.json
 image:
   file: drawn/anim/syringe-pump.svg
@@ -292,7 +287,7 @@ Use a syringe pump when you need a small, exact volume of liquid or a slow, stea
   - not a holding joint (it moves or passes on motion): it pushes liquid rather than holding parts together
   - shape ([form-fit](../glossary.md#form-fit--force-fit--material-bond)) and friction or clamping (force-fit): the syringe's finger flange sits in a slot and a clamp or press fit holds the barrel; the plunger end sits in a slot on the carriage (poseidon paper: print settings tuned 'to allow for a press fit of the syringe'; Printables 167075 and 50666)
 - **Input and output:** Continuous rotation of the motor -> slow straight push or pull of the plunger -> liquid flow. Plunger travel per motor turn = the lead of the screw (e.g. 2 mm per turn for an 8 mm screw with 2 mm [pitch](../glossary.md#pitch), Printables 167075); volume per turn = lead x inside area of the barrel. Worked example (calculated): a BD 10 mL plastic syringe has a 14.5 mm inner diameter (Chemyx), about 165 mm2 of area, so a 2 mm lead moves about 0.33 mL per turn and, with a 200-step motor, about 1.65 µL per full step. Efficiency is that of a plain lead screw (roughly 20-80%, see the Lead screw entry); the PLOS ONE authors note lead screws are inefficient. Shaft arrangement: in line (motor, screw and plunger on parallel or the same axis). Back-drivable: no for fine-pitch screws (Wikipedia 'Leadscrew'), so the plunger stays put when the motor stops
-- **Power:** powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's description of stored pressure after a blockage]
+- **Power:** powered: needs a stepper motor, a driver and a controller, usually 12 V (Hackaday syringe pump rack: 12 V, up to 2 A per motor). When power is lost the carriage simply stops where it is; a fine-pitch screw is not pushed backwards (Wikipedia 'Leadscrew'), but any pressure already built up in the syringe and tubing can still push a little liquid out: trapped bubbles expand and push solution out after the pump stops, and plastic syringes and tubing can stretch and let drips form (Ossila 'Syringe pump troubleshooting')
 - **Load:** medium force on a small area. A printed NEMA 17 pump pushed 200 N and a NEMA 11 pump 93 N before stalling or breaking a printed part (PLOS ONE); commercial lab pumps quoted about 178-445 N (PLOS ONE comparison table). Because pressure = force / plunger area, small syringes reach high pressure: poseidon reached about 4 MPa with a 1 mL syringe (poseidon README); calculated, 200 N on a BD 1 mL syringe (4.78 mm bore) would be about 11 MPa but only about 0.36 MPa on a 60 mL syringe (26.72 mm bore). Strong in push along the screw axis; the frame and guide rods must resist bending (poseidon paper)
 - **Play and precision:** Small but real. A plain nut gives noticeable [backlash](../glossary.md#backlash) when the direction changes from push to pull (Printables 50666), so push a little first after reversing, or use an anti-backlash nut. Rubber plunger compression and friction ('stiction') and springy tubing delay the start and make it jerky (Medfusion). Each motor step makes a small pulse in flow: about 1-2% in normal use, up to about 9% for a worn pump (Li et al. 2014). Tested [accuracy](../glossary.md#repeatability--accuracy) of printed pumps: +/-1% (NEMA 11) and +/-5% (NEMA 17) with a coefficient of variation of about 3% or less (PLOS ONE); a printed five-pump rack measured 0.5 µL accuracy in a 10 mL syringe (Hackaday). [Misalignment](../glossary.md#misalignment) [tolerance](../glossary.md#tolerance) is low: guide rods must be parallel or the stepper loses steps near the end of the stroke (Printables 50666), and a weak frame bends (poseidon paper)
 - **Taking it apart:** removable: the syringe drops into its cradle and is clamped or press-fitted, so syringes of different sizes can be swapped (poseidon paper; Printables 80669 swaps a retainer to change between 1 mL and 3 mL syringes); the pump itself is screwed together
@@ -375,9 +370,7 @@ Stepper motors: NEMA 17 or NEMA 11 (PLOS ONE), 28BYJ-48 geared stepper with driv
 
 ⚑ marks something nobody has confirmed yet: a fact the research could not confirm from a source, a finder value that is a best guess, or an open point from the research notes. Corrections are welcome (see `research/needs-confirming.md`).
 
-- ⚑ 3 sentences on this page marked [uncertain].
-- ⚑ Finder value `power_source` = electricity, liquid (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
-- ⚑ Finder value `power_loss` = keeps its last state (source uncertain): `power` is marked ⚑ [uncertain] here: "…built up in the syringe and tubing can still push a little liquid out ⚑ [uncertain: inferred from Medfusion's de…"
+- ⚑ 2 sentences on this page marked [uncertain].
 - ⚑ Finder value `overload_response` = not applicable (best guess): listed as torque-limiting or breakaway, but no overload behaviour matched
 - ⚑ Research note: Numbers the agents worked out themselves are labelled "calculated" in *Syringe pump* and *Air tank and hydraulic accumulator* (µL per motor step, syringe pressures, a Boyle's-law example).
 
@@ -416,3 +409,4 @@ Stepper motors: NEMA 17 or NEMA 11 (PLOS ONE), 28BYJ-48 geared stepper with driv
 - <https://commons.wikimedia.org/wiki/File:Syringe_drivers.JPG>
 - <https://www.youtube.com/watch?v=7YSiO6usR1M>
 - <https://www.youtube.com/watch?v=YdeZJIZdA_A>
+- <https://ossila.com/pages/syringe-pump-troubleshooting>

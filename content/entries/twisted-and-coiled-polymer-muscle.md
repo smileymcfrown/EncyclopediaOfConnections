@@ -85,6 +85,8 @@ finder:
   powered_does: [move or push something]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'fabric, leather or cord']
 needs_confirming:
   power_source:
     kind: best guess
@@ -202,7 +204,7 @@ pictures:
   kind: render
   render: true
   drawn: true
-glossary: [misalignment, backlash, self-locking, stroke, actuator, solenoid, stiffness, preload, hysteresis, creep]
+glossary: [misalignment, backlash, self-locking, stroke, actuator, solenoid, stiffness, preload, hysteresis, creep, annealing]
 ---
 
 <div class="eoc-pictures">
@@ -218,7 +220,7 @@ A twisted-and-coiled polymer muscle is a cheap nylon fishing line or sewing thre
 
 ## How it works
 
-Commercial nylon line is made of long molecules lined up along the fibre; when it is heated the fibre gets slightly shorter and fatter (an untwisted fibre shortens only about 4% for a 250 K rise, Wikipedia 'Artificial muscle'). Twisting the line turns those molecules into helices, so heating now makes the fibre untwist a little; if you keep twisting under tension the line buckles into a tight coil, and baking it (annealing) fixes that coil shape (Haines et al. 2016, PNAS; Wang et al. 2024). With both ends held so they cannot spin, the small untwist of the fibre pulls the coils closer together, so the whole coil shortens by up to 49% (Haines et al. 2014) and relaxes again as it cools. If the coil is wound the opposite way round a rod (heterochiral), the same untwist makes it get longer instead (Haines et al. 2016).
+Commercial nylon line is made of long molecules lined up along the fibre; when it is heated the fibre gets slightly shorter and fatter (an untwisted fibre shortens only about 4% for a 250 K rise, Wikipedia 'Artificial muscle'). Twisting the line turns those molecules into helices, so heating now makes the fibre untwist a little; if you keep twisting under tension the line buckles into a tight coil, and baking it ([annealing](../glossary.md#annealing)) fixes that coil shape (Haines et al. 2016, PNAS; Wang et al. 2024). With both ends held so they cannot spin, the small untwist of the fibre pulls the coils closer together, so the whole coil shortens by up to 49% (Haines et al. 2014) and relaxes again as it cools. If the coil is wound the opposite way round a rod (heterochiral), the same untwist makes it get longer instead (Haines et al. 2016).
 
 ## Parts
 

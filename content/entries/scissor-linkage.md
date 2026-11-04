@@ -88,6 +88,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, wood, metal]
 needs_confirming:
   connects:
     kind: best guess
@@ -316,6 +318,7 @@ The crossing arms close like scissors and form pinch and [shear](../glossary.md#
 - Hoberman sphere and other expanding scissor structures: scissor pairs arranged round a sphere or ring so the whole shape grows and shrinks
 - Keyboard scissor switch: a single tiny scissor that keeps a key level as it is pressed
 - Lever and bell crank: a single lever also trades force for distance, with one pivot instead of many
+- Linked lead screws: another way to lift a platform level, with a screw at each corner all turned together by one motor
 
 ## Make it yourself
 

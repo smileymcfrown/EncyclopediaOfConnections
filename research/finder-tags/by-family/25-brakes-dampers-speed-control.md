@@ -1,13 +1,13 @@
 # brakes, dampers & speed control: Slows it, stops it, or keeps its speed steady
 
-6 entries. ⚑ = needs confirming: 7 best guesses and 2 values from text marked [uncertain]
+6 entries. ⚑ = needs confirming: 7 best guesses and 0 values from text marked [uncertain]
 (reasons below the table). These are the working values, accepted by the owner on 2026-10-06; corrections
 are welcome. Back to the [index](README.md).
 
 | # | Entry | Connects | Power | If power is lost | Motion in | Motion out | Shafts | If overloaded | Clicks | Tools | Load | Usually made by | Adjust | Take apart |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 211 | Friction brake | – | none | – | – | – | – | slips and keeps going | silent | hand tools ⚑ | heavy | off-the-shelf part | yes | removable |
-| 212 | Eddy-current brake | – | none | – | – | – | – | – | – | press or vice, hand tools ⚑ | heavy | off-the-shelf part | yes | removable |
+| 211 | Friction brake | – | none | – | – | – | – | slips and keeps going | silent | hand tools | heavy | off-the-shelf part | yes | removable |
+| 212 | Eddy-current brake | – | none | – | – | – | – | – | – | press or vice, hand tools | heavy | off-the-shelf part | yes | removable |
 | 213 | Speed governor | – | none | – | steady turning ⚑ | pressure, heat ⚑ | – ⚑ | slips and keeps going | – | hand tools | light | 3D print (FDM) | yes | removable |
 | 214 | Dampers | – | none | – | steady turning, straight push or pull ⚑ | steady turning ⚑ | at an angle, in line ⚑ | – | silent | hand tools | medium | off-the-shelf part | partly | removable |
 | 215 | Elastomer isolation mount | wall, rail, desk or grid | none | – | – | – | – | – | – | sewing or leather tools, hand tools | heavy | off-the-shelf part | no | removable |
@@ -29,5 +29,4 @@ The script was unsure of these values.
 
 These values are probably right, but the research run could not confirm the fact behind them.
 
-- ⚑ **211 Friction brake**, `tools` = hand tools: `tools_needed` is marked [uncertain] here: "…brakes (Printables 208775, 1804380); a bleed kit for hydraulic brakes [uncertain]…"
-- ⚑ **212 Eddy-current brake**, `tools` = press or vice, hand tools: `tools_needed` is marked [uncertain] here: "…t holder and disc hub; non-magnetic spacers or shims help set the gap [uncertain]; pressing magnets into print…"
+None.

@@ -94,7 +94,8 @@
       "Capstan cable drive: no teeth at all, so no backlash",
       "Herringbone and helical gears: helical gears can be shifted along their axis to adjust backlash (KHK)",
       "Worm drive: a duplex-lead worm is shifted along its axis to adjust backlash (KHK)",
-      "Friction drive: no teeth and no backlash, but it can slip"
+      "Friction drive: no teeth and no backlash, but it can slip",
+      "Several motors driving one load (electrical preload): a second motor holds back against the first to take out gear play, instead of a spring between two gear halves"
     ]
   },
   "media": {

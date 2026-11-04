@@ -21,6 +21,8 @@ aliases:
 - whiffletree loading mechanism (aircraft structural testing)
 - mechanical digital-to-analog converter (the IBM Selectric typewriter's whiffletree linkage)
 - equalising beam / equalising lever / compensating beam (a close relative in railway suspension, sharing weight between axles)
+- linkage adder or summing linkage (linkage-type mechanical analogue computers use whippletree linkages to add and subtract
+  quantities; Wikipedia)
 family: motion conversion
 other_families: ['gear trains, gearboxes & transmissions', 'cord, strap, webbing & textile hardware']
 finder:
@@ -89,9 +91,14 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: ['pushes, pulls or flow shared out', combines inputs]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', wood, metal, glass or mirror, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
-open_points: []
+open_points:
+- kind: sources
+  note: '*Whippletree* (91): IHPVA says a cable splitter "does not provide balance"; "copies distance" comes from the *Cable
+    splitter* entry. "Summing linkage" is kept as an alias: Wikipedia says such linkages "summed" inputs and "add and subtract".'
 uncertain_fields: [input_output, load, making_tips_3d_printing, safety_notes, common_failures]
 diagram_idea: 'Three panels: (1) a single bar pulled at its centre with half the force at each end; (2) the pivot moved to
   one third, giving a 2:1 split; (3) a three-bar tree feeding four fingers, with one finger stopped on an object and the bars
@@ -169,6 +176,7 @@ sources:
 - https://help.prusa3d.com/article/petg_2059
 - https://www.youtube.com/watch?v=G_SC7oWL78A
 - https://api.printables.com/graphql/
+- https://ihpva.org/Projects/tstrike/building/2into1.htm
 research: research/connection-types/results/Whippletree_loadequalising_lever.json
 image:
   file: drawn/anim/whippletree.svg
@@ -235,7 +243,7 @@ A whippletree is a free-floating bar pulled or pushed at a pivot near its middle
 
 **In plain words:** A loose bar that is pulled (or pushed) at its middle and fixed to something at each end, so it tips like a see-saw until both ends pull equally; more bars can hang from its ends to share one pull between four, eight or more points. **Proper term:** Whippletree (whiffletree; load-equalising lever, equaliser bar).
 
-**Also called:** whiffletree / whippletree / whippletree mechanism (Wikipedia); swingletree or singletree (the bar behind one horse) and doubletree (the bar that shares a load between two horses) (Wikipedia; Hansen Wheel); evener, two-horse evener, three-horse evener (farm hitching); leader bar (for the front pair of a four-horse team) and equalizer (Wikipedia); balance bar / bias bar (the pivoting bar between the two brake master cylinders in a race-car pedal box); parking-brake (handbrake) cable equaliser (cars); wiper blade frame, bridge and yokes (a conventional windscreen wiper blade is a whippletree set working in compression); flotation cell / whiffletree mirror cell / 9-point or 18-point cell (telescope mirror supports); whiffletree differential / seesaw differential (underactuated robot and prosthetic hands); whiffletree loading mechanism (aircraft structural testing); mechanical digital-to-analog converter (the IBM Selectric typewriter's whiffletree [linkage](../glossary.md#linkage)); equalising beam / equalising lever / compensating beam (a close relative in railway suspension, sharing weight between axles).
+**Also called:** whiffletree / whippletree / whippletree mechanism (Wikipedia); swingletree or singletree (the bar behind one horse) and doubletree (the bar that shares a load between two horses) (Wikipedia; Hansen Wheel); evener, two-horse evener, three-horse evener (farm hitching); leader bar (for the front pair of a four-horse team) and equalizer (Wikipedia); balance bar / bias bar (the pivoting bar between the two brake master cylinders in a race-car pedal box); parking-brake (handbrake) cable equaliser (cars); wiper blade frame, bridge and yokes (a conventional windscreen wiper blade is a whippletree set working in compression); flotation cell / whiffletree mirror cell / 9-point or 18-point cell (telescope mirror supports); whiffletree differential / seesaw differential (underactuated robot and prosthetic hands); whiffletree loading mechanism (aircraft structural testing); mechanical digital-to-analog converter (the IBM Selectric typewriter's whiffletree [linkage](../glossary.md#linkage)); equalising beam / equalising lever / compensating beam (a close relative in railway suspension, sharing weight between axles); linkage adder or summing linkage (linkage-type mechanical analogue computers use whippletree linkages to add and subtract quantities; Wikipedia).
 
 ## How it works
 
@@ -336,6 +344,8 @@ Brake balance bars are safety-critical: a badly set bias can lock the wheels and
 - Bell [crank](../glossary.md#crank): a pivoted lever that turns a pull round a corner rather than splitting it
 - Beam wiper blade: a pre-curved spring-steel strip that replaces the whippletree frame of a conventional wiper blade (Stoner Car Care)
 - Fluidic differential: hydraulic or pneumatic sharing between fingers, without bars but with the risk of leaks (Frontiers)
+- Several motors driving one load: shares a load between motors that each push, where a whippletree passively shares one pull between several points
+- Cable splitter: joins one control cable to two so both move the same distance; a whippletree evens out the force and lets the distances differ, while a splitter copies the distance and 'does not provide balance' between brakes (IHPVA)
 
 ## Make it yourself
 
@@ -387,3 +397,4 @@ Brake balance bars are safety-critical: a badly set bias can lock the wheels and
 - <https://help.prusa3d.com/article/petg_2059>
 - <https://www.youtube.com/watch?v=G_SC7oWL78A>
 - <https://api.printables.com/graphql/>
+- <https://ihpva.org/Projects/tstrike/building/2into1.htm>

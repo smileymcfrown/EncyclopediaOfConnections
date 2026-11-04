@@ -90,6 +90,8 @@ finder:
   powered_does: [not applicable]
   also_under: [not applicable]
   turns: [not applicable]
+  drive_split: [not applicable]
+  made_of: [3D prints, 'plastic sheet, tube or moulded parts', metal, 'fabric, leather or cord']
 needs_confirming: {}
 confirmed: []
 open_points: []
@@ -203,13 +205,38 @@ pictures:
   kind: render
   render: true
   drawn: true
+- file: magnetic-assisted-buckle.webp
+  title: Simple Magnetic Buckle
+  author: alexberkowitz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/624912-simple-magnetic-buckle
+  site: Printables
+  alt: The two halves of a blue 3D-printed strap buckle laid apart, showing the round magnet set in the open frame and the
+    square plug that drops into it, beside a strap slider.
+  kind: how-it-works
+  drawn: false
+  web: true
+- file: magnetic-assisted-buckle-aa90ce.webp
+  title: Simple Magnetic Buckle
+  author: alexberkowitz
+  license: CC BY-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-sa/4.0/
+  source: https://www.printables.com/model/624912-simple-magnetic-buckle
+  site: Printables
+  alt: A blue 3D-printed magnetic buckle clipped shut on a black elastic strap, with a strap slider beside it.
+  kind: photo
+  drawn: false
+  web: true
 glossary: [misalignment, axial--radial, cantilever, clearance, form-fit--force-fit--material-bond, chamfer--fillet, creep,
   brittle--ductile, layer-lines, infill, peel-vs-shear]
 ---
 
 <div class="eoc-pictures">
 <figure class="eoc-pic eoc-pic-main"><picture><source media="(prefers-reduced-motion: reduce)" srcset="../media/drawn/magnetic-assisted-buckle.svg"><img src="../media/drawn/anim/magnetic-assisted-buckle.svg" alt="Side cut-away of a magnetic buckle in three steps: the magnets pull the top half down and into line, the latched hook sits behind a ledge so a pull on the straps goes through the hook rather than the magnets, and sliding the top half back frees the hook and moves the magnets apart. Animated: in step"></picture><figcaption><strong>Animation.</strong> Diagram drawn for the encyclopaedia from the research notes. ⚑ Needs confirming: a drawing can simplify or get details wrong; a real photo or a better diagram is welcome.</figcaption></figure>
-<figure class="eoc-pic"><img src="../media/render/magnetic-assisted-buckle.webp" alt="Render of a magnetic buckle, open: the dark plastic socket half lies face up with its strap, showing a pocket with a round magnet and a small ledge; beside it the plug half lies face down with its strap, showing the hook tongue and the steel disc that the magnet pulls into the pocket." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a stand-in until a good real photo is found. ⚑ Needs confirming: a model can simplify or get details wrong; a real photo is welcome.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/render/magnetic-assisted-buckle.webp" alt="Render of a magnetic buckle, open: the dark plastic socket half lies face up with its strap, showing a pocket with a round magnet and a small ledge; beside it the plug half lies face down with its strap, showing the hook tongue and the steel disc that the magnet pulls into the pocket." loading="lazy"><figcaption><strong>Render.</strong> A 3D model made for the encyclopaedia, not a photo: a real photo is also shown. ⚑ Needs confirming: a model can simplify or get details wrong.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/magnetic-assisted-buckle.webp" alt="The two halves of a blue 3D-printed strap buckle laid apart, showing the round magnet set in the open frame and the square plug that drops into it, beside a strap slider." loading="lazy"><figcaption><strong>How it works.</strong> <a href="https://www.printables.com/model/624912-simple-magnetic-buckle">Simple Magnetic Buckle</a> by alexberkowitz, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
+<figure class="eoc-pic"><img src="../media/magnetic-assisted-buckle-aa90ce.webp" alt="A blue 3D-printed magnetic buckle clipped shut on a black elastic strap, with a strap slider beside it." loading="lazy"><figcaption><strong>Photo.</strong> <a href="https://www.printables.com/model/624912-simple-magnetic-buckle">Simple Magnetic Buckle</a> by alexberkowitz, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, from Printables.</figcaption></figure>
 </div>
 
 A two-part strap buckle in which magnets pull the halves together and line them up so they click shut almost by themselves, while a mechanical catch (not the magnet) takes the strap's pull until you open it with a deliberate slide, tilt or tug.
